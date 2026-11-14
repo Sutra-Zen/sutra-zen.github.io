@@ -19,4 +19,5 @@
 六處：https://rooneyflower-star.github.io/sutrazen-map/six-senses/book/
 八正道：https://rooneyflower-star.github.io/sutrazen-map/eightfold-path/book/
 原經：https://rooneyflower-star.github.io/sutrazen-map/eightfold-path/#sources
-分支：fix/reader-labels-and-scripture；實際發布PR、commit與ZIP依合併後紀錄為準。
+PR：https://github.com/rooneyflower-star/sutrazen-map/pull/13
+實際發布commit與固定ZIP依此PR的合併後紀錄為準。
