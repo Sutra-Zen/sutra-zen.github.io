@@ -332,7 +332,10 @@ button, select { font: inherit; }
   }
   .heart-scene #verse { inline-size: clamp(10rem, calc(100dvh - 185px), 22rem); }
 }
-</style></head>
+</style><link rel="stylesheet" href="../../picture-panel-focus.css">
+<script src="../../picture-panel-focus.js"></script>
+<script src="panel-focus-data.js"></script>
+</head>
 <body>
 <header class="top">
   <a href="../"><span class="portrait-label">‹ 五陰篇導讀</span><span class="landscape-only">‹ 回簡介</span></a>
@@ -876,6 +879,7 @@ function showPage(index) {
   next.disabled = index === pages.length - 1;
   select.value = String(entry.sceneIndex);
   positionText.textContent = (index + 1) + ' / ' + pages.length + ' 頁';
+  SutraZenPanelFocus.update(artFrame, art, PANEL_FOCUS.scenes[entry.sceneIndex + 1], index - sceneStarts[entry.sceneIndex] + 1);
   if (window.scrollY) window.scrollTo(0, 0);
 
   const upcoming = scenes[entry.sceneIndex + 1]?.image;

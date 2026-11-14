@@ -280,6 +280,7 @@ button, select { font: inherit; }
 #image-stage { display:contents; }
 #caption-sizer { position:absolute !important; inset:0 0 auto; display:grid; visibility:hidden; pointer-events:none; }
 #caption-sizer > div { grid-area:1 / 1; }
+.overlay-scene #caption { min-height:var(--caption-space); }
 #art-overlays { position:absolute; inset:0; pointer-events:none; z-index:2; }
 .art-overlay { position:absolute; left:var(--x); top:var(--y); width:var(--width); text-align:var(--align); font-size:var(--font); color:#fff; font-weight:750; text-shadow:0 1px 2px #000,0 0 5px #000c; -webkit-text-stroke:.35px #0009; paint-order:stroke fill; padding:.2em .4em; border-radius:4px; overflow-wrap:anywhere; }
 .art-overlay p { margin:0; }
@@ -289,7 +290,6 @@ button, select { font: inherit; }
  .art-overlay { left:var(--portrait-x); top:var(--portrait-y); width:var(--portrait-width); text-align:var(--portrait-align); font-size:var(--portrait-font); }
 }
 @media(orientation:landscape) {
- .overlay-scene #caption { min-height:var(--caption-space); }
  .overlay-scene #image-stage { display:grid; position:absolute; inset:var(--caption-space) 0 var(--scripture-space); place-items:center; }
  .overlay-scene #art-frame { position:relative; top:auto; left:auto; transform:none; width:min(100%,calc(var(--image-space-height) * var(--art-ratio-number))); }
 }

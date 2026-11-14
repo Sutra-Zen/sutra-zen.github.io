@@ -1,0 +1,5 @@
+/* The same three-dark/one-light treatment as the Eightfold Path reader. */
+.picture-panel-focus { position:absolute; pointer-events:none; z-index:0; }
+.picture-panel-focus[hidden] { display:none !important; }
+.picture-panel-focus > span { position:absolute; background:rgb(5 12 20 / 76%); }
+.picture-panel-focus > span.active { background:transparent; }

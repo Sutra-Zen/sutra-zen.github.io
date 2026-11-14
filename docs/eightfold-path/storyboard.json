@@ -16,7 +16,14 @@
         }
       ],
       "scriptureNotes": "片頭未列經文。",
-      "scriptureStatus": "video-transcription-or-excerpt-needs-primary-text-verification"
+      "scriptureStatus": "video-transcription-or-excerpt-needs-primary-text-verification",
+      "presentation": {
+        "coordinateBasis": "displayed-image-percent",
+        "positionStatus": "preview-layout",
+        "positionNote": "分鏡未指定插畫主題疊字，本幕不新增。",
+        "reserveLandscapeBands": true,
+        "overlays": []
+      }
     },
     {
       "scene": 2,
@@ -67,7 +74,43 @@
         }
       ],
       "scriptureNotes": "《雜阿含經》748：如日出前相，謂明相初光。如是比丘正盡苦邊，究竟苦邊前相者，所謂正見。<br />《雜阿含經》784：何等為正見？謂說有施、有說、有齋；有善行、有惡行、有善惡行果報；有此世、有他世、有父母、有眾生生；有阿羅漢善到、善向……。<br />《雜阿含經》785：正見是聖、出世間、無漏、不取、正盡苦、轉向苦邊；於苦、集、滅、道思惟，與無漏思惟相應。（此處為節錄，完整字句待原典校核。）",
-      "scriptureStatus": "video-transcription-or-excerpt-needs-primary-text-verification"
+      "scriptureStatus": "video-transcription-or-excerpt-needs-primary-text-verification",
+      "presentation": {
+        "coordinateBasis": "displayed-image-percent",
+        "positionStatus": "preview-layout",
+        "positionNote": "分鏡指定左側；百分比及直式位置為本次試排。",
+        "reserveLandscapeBands": true,
+        "overlays": [
+          {
+            "id": "right-view",
+            "lines": [
+              "八正道：正見",
+              "十善業道：正見"
+            ],
+            "x": 4,
+            "y": 17,
+            "width": 49,
+            "align": "left",
+            "fontSizeCqw": 3.1,
+            "minFontPx": 14,
+            "maxFontPx": 32,
+            "lineHeight": 1.32,
+            "backdrop": "soft",
+            "nowrap": true,
+            "fromSubtitle": 1,
+            "throughSubtitle": 10,
+            "portrait": {
+              "x": 4,
+              "y": 7,
+              "width": 55,
+              "align": "left",
+              "fontSizeCqw": 3.1,
+              "minFontPx": 14,
+              "maxFontPx": 32
+            }
+          }
+        ]
+      }
     },
     {
       "scene": 3,
@@ -146,8 +189,63 @@
             "portrait": {
               "x": 44.5,
               "y": 2.5,
-              "width": 41
+              "width": 41,
+              "align": "left",
+              "fontSizeCqw": 3.45,
+              "minFontPx": 11,
+              "maxFontPx": 32
             }
+          }
+        ],
+        "protectedRegions": [
+          {
+            "name": "毒花",
+            "x": 0,
+            "y": 29,
+            "width": 35,
+            "height": 71
+          },
+          {
+            "name": "DANGER/TOXIC木牌",
+            "x": 19,
+            "y": 11,
+            "width": 24.5,
+            "height": 40
+          },
+          {
+            "name": "貓眼鼻口",
+            "x": 47,
+            "y": 30,
+            "width": 35,
+            "height": 30
+          },
+          {
+            "name": "羅盤",
+            "x": 35,
+            "y": 55,
+            "width": 27,
+            "height": 35
+          },
+          {
+            "name": "鐵槍上段",
+            "x": 87,
+            "y": 0,
+            "width": 13,
+            "height": 22
+          },
+          {
+            "name": "鐵槍中段",
+            "x": 77,
+            "y": 23,
+            "width": 15,
+            "height": 35
+          },
+          {
+            "name": "鐵槍下段",
+            "x": 63,
+            "y": 58,
+            "width": 17,
+            "height": 42
           }
         ]
       }
@@ -201,7 +299,127 @@
         }
       ],
       "scriptureNotes": "《雜阿含經》1039：何等為黑、黑報、不淨、不淨果……殺生、偷盜相關節錄。<br />《中阿含經》189：正見者能起正志，正志能起正語，正語能起正業，正業能起正命，正命能起正方便，正方便能起正念，正念能起正定。",
-      "scriptureStatus": "video-transcription-or-excerpt-needs-primary-text-verification"
+      "scriptureStatus": "video-transcription-or-excerpt-needs-primary-text-verification",
+      "presentation": {
+        "coordinateBasis": "displayed-image-percent",
+        "positionStatus": "preview-layout",
+        "positionNote": "原圖逐格核對：砍樹左上、鳥蛋右上、說謊左下、惡夢右下。各標籤置於該格下緣，數值為試排。「心不定」保留原分鏡用字，非新增十惡分類校訂。",
+        "reserveLandscapeBands": true,
+        "overlays": [
+          {
+            "id": "unwholesome-tl",
+            "lines": [
+              "十惡業：偷盜"
+            ],
+            "x": 6,
+            "y": 40,
+            "width": 39,
+            "align": "left",
+            "fontSizeCqw": 2.8,
+            "minFontPx": 12,
+            "maxFontPx": 26,
+            "lineHeight": 1.32,
+            "backdrop": "soft",
+            "nowrap": true,
+            "fromSubtitle": 1,
+            "throughSubtitle": 2,
+            "portrait": {
+              "x": 6,
+              "y": 40,
+              "width": 39,
+              "align": "left",
+              "fontSizeCqw": 2.8,
+              "minFontPx": 12,
+              "maxFontPx": 26
+            },
+            "focusPanel": "tl"
+          },
+          {
+            "id": "unwholesome-tr",
+            "lines": [
+              "十惡業：殺生"
+            ],
+            "x": 55,
+            "y": 40,
+            "width": 39,
+            "align": "left",
+            "fontSizeCqw": 2.8,
+            "minFontPx": 12,
+            "maxFontPx": 26,
+            "lineHeight": 1.32,
+            "backdrop": "soft",
+            "nowrap": true,
+            "fromSubtitle": 3,
+            "throughSubtitle": 3,
+            "portrait": {
+              "x": 55,
+              "y": 40,
+              "width": 39,
+              "align": "left",
+              "fontSizeCqw": 2.8,
+              "minFontPx": 12,
+              "maxFontPx": 26
+            },
+            "focusPanel": "tr"
+          },
+          {
+            "id": "unwholesome-bl",
+            "lines": [
+              "十惡業：妄語"
+            ],
+            "x": 6,
+            "y": 90,
+            "width": 39,
+            "align": "left",
+            "fontSizeCqw": 2.8,
+            "minFontPx": 12,
+            "maxFontPx": 26,
+            "lineHeight": 1.32,
+            "backdrop": "soft",
+            "nowrap": true,
+            "fromSubtitle": 4,
+            "throughSubtitle": 4,
+            "portrait": {
+              "x": 6,
+              "y": 88,
+              "width": 39,
+              "align": "left",
+              "fontSizeCqw": 2.8,
+              "minFontPx": 12,
+              "maxFontPx": 26
+            },
+            "focusPanel": "bl"
+          },
+          {
+            "id": "unwholesome-br",
+            "lines": [
+              "十惡業：心不定"
+            ],
+            "x": 55,
+            "y": 90,
+            "width": 39,
+            "align": "left",
+            "fontSizeCqw": 2.8,
+            "minFontPx": 12,
+            "maxFontPx": 26,
+            "lineHeight": 1.32,
+            "backdrop": "soft",
+            "nowrap": true,
+            "fromSubtitle": 5,
+            "throughSubtitle": 10,
+            "portrait": {
+              "x": 55,
+              "y": 88,
+              "width": 39,
+              "align": "left",
+              "fontSizeCqw": 2.8,
+              "minFontPx": 12,
+              "maxFontPx": 26
+            },
+            "focusPanel": "br"
+          }
+        ]
+      }
     },
     {
       "scene": 5,
@@ -244,7 +462,72 @@
         }
       ],
       "scriptureNotes": "《雜阿含經》749：若起明為前相，生諸善法，時慚愧隨生。慚愧生已，能生正見；正見生已，起正志、正語、正業、正命、正方便、正念、正定，次第而起。<br />《雜阿含經》784：何等為正語？謂離妄語、離兩舌、離惡口、離綺語。",
-      "scriptureStatus": "video-transcription-or-excerpt-needs-primary-text-verification"
+      "scriptureStatus": "video-transcription-or-excerpt-needs-primary-text-verification",
+      "presentation": {
+        "coordinateBasis": "displayed-image-percent",
+        "positionStatus": "preview-layout",
+        "positionNote": "聚焦左上道歉。正語標題置於左上格下緣；完整口四善對照置於相鄰暗格上方，可換行，避免遮住道歉的貓臉與熊。皆為試排。",
+        "reserveLandscapeBands": true,
+        "overlays": [
+          {
+            "id": "right-speech",
+            "lines": [
+              "八正道：正語"
+            ],
+            "x": 6,
+            "y": 40,
+            "width": 39,
+            "align": "left",
+            "fontSizeCqw": 2.8,
+            "minFontPx": 12,
+            "maxFontPx": 26,
+            "lineHeight": 1.32,
+            "backdrop": "soft",
+            "nowrap": true,
+            "fromSubtitle": 1,
+            "throughSubtitle": 8,
+            "portrait": {
+              "x": 6,
+              "y": 38,
+              "width": 39,
+              "align": "left",
+              "fontSizeCqw": 2.8,
+              "minFontPx": 12,
+              "maxFontPx": 26
+            },
+            "focusPanel": "tl"
+          },
+          {
+            "id": "right-speech-wholesome",
+            "lines": [
+              "十善業道：不妄語，不兩舌，",
+              "不惡口，不綺語"
+            ],
+            "x": 53,
+            "y": 6,
+            "width": 44,
+            "align": "left",
+            "fontSizeCqw": 2.8,
+            "minFontPx": 12,
+            "maxFontPx": 26,
+            "lineHeight": 1.32,
+            "backdrop": "soft",
+            "nowrap": true,
+            "fromSubtitle": 1,
+            "throughSubtitle": 8,
+            "portrait": {
+              "x": 53,
+              "y": 6,
+              "width": 44,
+              "align": "left",
+              "fontSizeCqw": 2.8,
+              "minFontPx": 12,
+              "maxFontPx": 26
+            },
+            "focusPanel": "tl"
+          }
+        ]
+      }
     },
     {
       "scene": 6,
@@ -287,7 +570,101 @@
         }
       ],
       "scriptureNotes": "《雜阿含經》1039：有人不殺生、離殺生、捨刀杖，慚愧、悲念一切眾生。不偷盜、遠離偷盜，與者取、不與不取，淨心不貪。（影片節錄）<br />《中阿含經》16：若有所作，必不作惡……是謂得第四安隱住處。（影片節錄，完整引句待校核）",
-      "scriptureStatus": "video-transcription-or-excerpt-needs-primary-text-verification"
+      "scriptureStatus": "video-transcription-or-excerpt-needs-primary-text-verification",
+      "presentation": {
+        "coordinateBasis": "displayed-image-percent",
+        "positionStatus": "preview-layout",
+        "positionNote": "依分鏡切換：右上漂流木／不偷盜、左下護蟲／不殺生、右下安睡。文字暫置左上暗格以避讓當頁亮格；未自行新增「無悔」疊字。",
+        "reserveLandscapeBands": true,
+        "overlays": [
+          {
+            "id": "right-action-wood",
+            "lines": [
+              "八正道：正業",
+              "十善業道：不偷盜"
+            ],
+            "x": 3,
+            "y": 6,
+            "width": 44,
+            "align": "left",
+            "fontSizeCqw": 2.8,
+            "minFontPx": 12,
+            "maxFontPx": 26,
+            "lineHeight": 1.32,
+            "backdrop": "soft",
+            "nowrap": true,
+            "fromSubtitle": 1,
+            "throughSubtitle": 2,
+            "portrait": {
+              "x": 3,
+              "y": 6,
+              "width": 44,
+              "align": "left",
+              "fontSizeCqw": 2.8,
+              "minFontPx": 12,
+              "maxFontPx": 26
+            },
+            "focusPanel": "tr"
+          },
+          {
+            "id": "right-action-life",
+            "lines": [
+              "八正道：正業",
+              "十善業道：不殺生"
+            ],
+            "x": 3,
+            "y": 6,
+            "width": 44,
+            "align": "left",
+            "fontSizeCqw": 2.8,
+            "minFontPx": 12,
+            "maxFontPx": 26,
+            "lineHeight": 1.32,
+            "backdrop": "soft",
+            "nowrap": true,
+            "fromSubtitle": 3,
+            "throughSubtitle": 4,
+            "portrait": {
+              "x": 3,
+              "y": 6,
+              "width": 44,
+              "align": "left",
+              "fontSizeCqw": 2.8,
+              "minFontPx": 12,
+              "maxFontPx": 26
+            },
+            "focusPanel": "bl"
+          },
+          {
+            "id": "right-action-rest",
+            "lines": [
+              "八正道：正業"
+            ],
+            "x": 3,
+            "y": 6,
+            "width": 44,
+            "align": "left",
+            "fontSizeCqw": 2.8,
+            "minFontPx": 12,
+            "maxFontPx": 26,
+            "lineHeight": 1.32,
+            "backdrop": "soft",
+            "nowrap": true,
+            "fromSubtitle": 5,
+            "throughSubtitle": 8,
+            "portrait": {
+              "x": 3,
+              "y": 6,
+              "width": 44,
+              "align": "left",
+              "fontSizeCqw": 2.8,
+              "minFontPx": 12,
+              "maxFontPx": 26
+            },
+            "focusPanel": "br"
+          }
+        ]
+      }
     },
     {
       "scene": 7,
@@ -310,7 +687,43 @@
         }
       ],
       "scriptureNotes": "《雜阿含經》1039：離於邪婬，若父母護，乃至授一花鬘者，悉不強干起於邪婬。（影片顯示文字，待原典校核）",
-      "scriptureStatus": "video-transcription-or-excerpt-needs-primary-text-verification"
+      "scriptureStatus": "video-transcription-or-excerpt-needs-primary-text-verification",
+      "presentation": {
+        "coordinateBasis": "displayed-image-percent",
+        "positionStatus": "preview-layout",
+        "positionNote": "分鏡未記明座標，百分比為本次避讓試排，非影片位置還原。",
+        "reserveLandscapeBands": true,
+        "overlays": [
+          {
+            "id": "right-action-swans",
+            "lines": [
+              "八正道：正業",
+              "十善業道：不邪淫"
+            ],
+            "x": 3,
+            "y": 6,
+            "width": 51,
+            "align": "left",
+            "fontSizeCqw": 3.1,
+            "minFontPx": 14,
+            "maxFontPx": 32,
+            "lineHeight": 1.32,
+            "backdrop": "soft",
+            "nowrap": true,
+            "fromSubtitle": 1,
+            "throughSubtitle": 3,
+            "portrait": {
+              "x": 3,
+              "y": 6,
+              "width": 51,
+              "align": "left",
+              "fontSizeCqw": 3.1,
+              "minFontPx": 14,
+              "maxFontPx": 32
+            }
+          }
+        ]
+      }
     },
     {
       "scene": 8,
@@ -357,7 +770,42 @@
         }
       ],
       "scriptureNotes": "《雜阿含經》784：何等為正命？謂如法求衣服、飲食、臥具、湯藥，非不如法。",
-      "scriptureStatus": "video-transcription-or-excerpt-needs-primary-text-verification"
+      "scriptureStatus": "video-transcription-or-excerpt-needs-primary-text-verification",
+      "presentation": {
+        "coordinateBasis": "displayed-image-percent",
+        "positionStatus": "preview-layout",
+        "positionNote": "分鏡未記明座標，百分比為本次避讓試排，非影片位置還原。",
+        "reserveLandscapeBands": true,
+        "overlays": [
+          {
+            "id": "right-livelihood",
+            "lines": [
+              "八正道：正命"
+            ],
+            "x": 4,
+            "y": 6,
+            "width": 50,
+            "align": "left",
+            "fontSizeCqw": 3.1,
+            "minFontPx": 14,
+            "maxFontPx": 32,
+            "lineHeight": 1.32,
+            "backdrop": "soft",
+            "nowrap": true,
+            "fromSubtitle": 1,
+            "throughSubtitle": 9,
+            "portrait": {
+              "x": 4,
+              "y": 6,
+              "width": 50,
+              "align": "left",
+              "fontSizeCqw": 3.1,
+              "minFontPx": 14,
+              "maxFontPx": 32
+            }
+          }
+        ]
+      }
     },
     {
       "scene": 9,
@@ -420,7 +868,42 @@
         }
       ],
       "scriptureNotes": "《雜阿含經》785：謂欲、精進、方便超出、堅固建立堪能造作、精進心法攝受、常不休息，是名正方便世、俗、有漏、有取，轉向善趣。<br />《雜阿含經》777：未生惡不善法令不生，已生惡不善法令滅，未生善法令生，已生善法重生令增廣。",
-      "scriptureStatus": "video-transcription-or-excerpt-needs-primary-text-verification"
+      "scriptureStatus": "video-transcription-or-excerpt-needs-primary-text-verification",
+      "presentation": {
+        "coordinateBasis": "displayed-image-percent",
+        "positionStatus": "preview-layout",
+        "positionNote": "分鏡未記明座標，百分比為本次避讓試排，非影片位置還原。",
+        "reserveLandscapeBands": true,
+        "overlays": [
+          {
+            "id": "right-effort",
+            "lines": [
+              "八正道：正方便"
+            ],
+            "x": 39,
+            "y": 4,
+            "width": 56,
+            "align": "left",
+            "fontSizeCqw": 3.3,
+            "minFontPx": 14,
+            "maxFontPx": 34,
+            "lineHeight": 1.32,
+            "backdrop": "soft",
+            "nowrap": true,
+            "fromSubtitle": 1,
+            "throughSubtitle": 13,
+            "portrait": {
+              "x": 39,
+              "y": 4,
+              "width": 56,
+              "align": "left",
+              "fontSizeCqw": 3.3,
+              "minFontPx": 14,
+              "maxFontPx": 34
+            }
+          }
+        ]
+      }
     },
     {
       "scene": 10,
@@ -487,7 +970,42 @@
         }
       ],
       "scriptureNotes": "《雜阿含經》785：若念、隨念、重念、憶念、不妄不虛，是名正念世、俗、有漏有取，正向善趣。<br />同經：謂聖弟子苦苦思惟，集、滅、道道思惟，無漏思惟相應；若念、隨念、重念、憶念、不妄、不虛，是名正念是聖、出世間、無漏、不取、轉向苦邊。（影片轉錄）",
-      "scriptureStatus": "video-transcription-or-excerpt-needs-primary-text-verification"
+      "scriptureStatus": "video-transcription-or-excerpt-needs-primary-text-verification",
+      "presentation": {
+        "coordinateBasis": "displayed-image-percent",
+        "positionStatus": "preview-layout",
+        "positionNote": "分鏡未記明座標，百分比為本次避讓試排，非影片位置還原。",
+        "reserveLandscapeBands": true,
+        "overlays": [
+          {
+            "id": "right-mindfulness",
+            "lines": [
+              "八正道：正念"
+            ],
+            "x": 4,
+            "y": 5,
+            "width": 45,
+            "align": "left",
+            "fontSizeCqw": 3.3,
+            "minFontPx": 14,
+            "maxFontPx": 34,
+            "lineHeight": 1.32,
+            "backdrop": "soft",
+            "nowrap": true,
+            "fromSubtitle": 1,
+            "throughSubtitle": 14,
+            "portrait": {
+              "x": 4,
+              "y": 5,
+              "width": 45,
+              "align": "left",
+              "fontSizeCqw": 3.3,
+              "minFontPx": 14,
+              "maxFontPx": 34
+            }
+          }
+        ]
+      }
     },
     {
       "scene": 11,
@@ -542,7 +1060,42 @@
         }
       ],
       "scriptureNotes": "《雜阿含經》784：何等為正定？謂住心不亂，堅固攝持，寂止、三昧、一心。<br />《中阿含經》42：因定便得見如實、知如真；因見如實、知如真便得厭；因厭便得無欲；因無欲便得解脫。",
-      "scriptureStatus": "video-transcription-or-excerpt-needs-primary-text-verification"
+      "scriptureStatus": "video-transcription-or-excerpt-needs-primary-text-verification",
+      "presentation": {
+        "coordinateBasis": "displayed-image-percent",
+        "positionStatus": "preview-layout",
+        "positionNote": "分鏡未記明座標，百分比為本次避讓試排，非影片位置還原。",
+        "reserveLandscapeBands": true,
+        "overlays": [
+          {
+            "id": "right-concentration",
+            "lines": [
+              "八正道：正定"
+            ],
+            "x": 4,
+            "y": 5,
+            "width": 26,
+            "align": "left",
+            "fontSizeCqw": 3.1,
+            "minFontPx": 14,
+            "maxFontPx": 32,
+            "lineHeight": 1.32,
+            "backdrop": "soft",
+            "nowrap": true,
+            "fromSubtitle": 1,
+            "throughSubtitle": 11,
+            "portrait": {
+              "x": 4,
+              "y": 5,
+              "width": 26,
+              "align": "left",
+              "fontSizeCqw": 3.1,
+              "minFontPx": 14,
+              "maxFontPx": 32
+            }
+          }
+        ]
+      }
     },
     {
       "scene": 12,
@@ -597,7 +1150,42 @@
         }
       ],
       "scriptureNotes": "《中阿含經》42：因定便得見如實、知如真……因無欲便得解脫。<br />《中阿含經》200：我為汝等長夜說筏喻法，欲令棄捨，不欲令受。若汝等知我長夜說筏喻法者，當以捨是法，況非法耶？",
-      "scriptureStatus": "video-transcription-or-excerpt-needs-primary-text-verification"
+      "scriptureStatus": "video-transcription-or-excerpt-needs-primary-text-verification",
+      "presentation": {
+        "coordinateBasis": "displayed-image-percent",
+        "positionStatus": "preview-layout",
+        "positionNote": "分鏡明示左上方「等捨」；百分比與字級為本次試排。",
+        "reserveLandscapeBands": true,
+        "overlays": [
+          {
+            "id": "equanimity",
+            "lines": [
+              "等捨"
+            ],
+            "x": 4,
+            "y": 5,
+            "width": 25,
+            "align": "left",
+            "fontSizeCqw": 4,
+            "minFontPx": 16,
+            "maxFontPx": 42,
+            "lineHeight": 1.32,
+            "backdrop": "soft",
+            "nowrap": true,
+            "fromSubtitle": 1,
+            "throughSubtitle": 11,
+            "portrait": {
+              "x": 4,
+              "y": 5,
+              "width": 25,
+              "align": "left",
+              "fontSizeCqw": 4,
+              "minFontPx": 16,
+              "maxFontPx": 42
+            }
+          }
+        ]
+      }
     },
     {
       "scene": 13,
@@ -616,7 +1204,14 @@
         }
       ],
       "scriptureNotes": "使用者提供片尾截圖：主體《雜阿含經》784；其餘《雜阿含經》241、748、749、771、777、785、1039；《中阿含經》16、42、189、200。片尾偈頌的經號需再核對，不能僅由參考清單推定。",
-      "scriptureStatus": "video-transcription-or-excerpt-needs-primary-text-verification"
+      "scriptureStatus": "video-transcription-or-excerpt-needs-primary-text-verification",
+      "presentation": {
+        "coordinateBasis": "displayed-image-percent",
+        "positionStatus": "preview-layout",
+        "positionNote": "分鏡未指定插畫主題疊字，本幕不新增。",
+        "reserveLandscapeBands": true,
+        "overlays": []
+      }
     }
   ]
 }

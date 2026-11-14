@@ -7,7 +7,7 @@
 - 最新 main：`0236fca0c8ca0edbe3972bf51e4211ec33fd4e2f`（完成前重新 fetch，未有更新）。
 - 交接分支：`content/eightfold-path-handoff`；核對 commit `e121f3c1f78535243ffbf75599a7f4e1e272e0fa`。
 - 從最新 main 建立 `feat/eightfold-path-preview`，只帶入該 commit 的 `docs/eightfold-path/`。既有四本閱讀器、導讀、插畫、共用 guide 樣式、法輪與地圖連線保持原檔。
-- 原始 README、Markdown/JSON 分鏡及資產 manifest 與交接 commit 位元組相同。11 張正式 WebP 的尺寸、檔案大小、SHA-256 全數相符；保留原圖，沒有裁切、重繪、轉 Base64 或刪減分鏡。
+- 原始 README、Markdown 分鏡及資產 manifest 與交接 commit 位元組相同；JSON 分鏡的故事內容逐欄保留，依作者本次要求新增 `presentation` 布局欄位。11 張正式 WebP 的尺寸、檔案大小、SHA-256 全數相符；保留原圖，沒有裁切、重繪、轉 Base64 或刪減分鏡。
 - 第05、06段共用 `05-wholesome-actions.webp`。第13段沒有圖片，改以可選取的 HTML 對照表、偈頌與來源呈現。
 
 ## 分頁與下緣經文配對

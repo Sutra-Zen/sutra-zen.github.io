@@ -6,6 +6,10 @@ const BOOK = {
       "title": "片頭｜黑暗中摸索",
       "start": 0,
       "presentation": {
+        "coordinateBasis": "displayed-image-percent",
+        "positionStatus": "preview-layout",
+        "positionNote": "分鏡未指定插畫主題疊字，本幕不新增。",
+        "reserveLandscapeBands": true,
         "overlays": []
       }
     },
@@ -14,7 +18,40 @@ const BOOK = {
       "title": "正見｜看清地圖",
       "start": 1,
       "presentation": {
-        "overlays": []
+        "coordinateBasis": "displayed-image-percent",
+        "positionStatus": "preview-layout",
+        "positionNote": "分鏡指定左側；百分比及直式位置為本次試排。",
+        "reserveLandscapeBands": true,
+        "overlays": [
+          {
+            "id": "right-view",
+            "lines": [
+              "八正道：正見",
+              "十善業道：正見"
+            ],
+            "x": 4,
+            "y": 17,
+            "width": 49,
+            "align": "left",
+            "fontSizeCqw": 3.1,
+            "minFontPx": 14,
+            "maxFontPx": 32,
+            "lineHeight": 1.32,
+            "backdrop": "soft",
+            "nowrap": true,
+            "fromSubtitle": 1,
+            "throughSubtitle": 10,
+            "portrait": {
+              "x": 4,
+              "y": 7,
+              "width": 55,
+              "align": "left",
+              "fontSizeCqw": 3.1,
+              "minFontPx": 14,
+              "maxFontPx": 32
+            }
+          }
+        ]
       }
     },
     {
@@ -48,8 +85,63 @@ const BOOK = {
             "portrait": {
               "x": 44.5,
               "y": 2.5,
-              "width": 41
+              "width": 41,
+              "align": "left",
+              "fontSizeCqw": 3.45,
+              "minFontPx": 11,
+              "maxFontPx": 32
             }
+          }
+        ],
+        "protectedRegions": [
+          {
+            "name": "毒花",
+            "x": 0,
+            "y": 29,
+            "width": 35,
+            "height": 71
+          },
+          {
+            "name": "DANGER/TOXIC木牌",
+            "x": 19,
+            "y": 11,
+            "width": 24.5,
+            "height": 40
+          },
+          {
+            "name": "貓眼鼻口",
+            "x": 47,
+            "y": 30,
+            "width": 35,
+            "height": 30
+          },
+          {
+            "name": "羅盤",
+            "x": 35,
+            "y": 55,
+            "width": 27,
+            "height": 35
+          },
+          {
+            "name": "鐵槍上段",
+            "x": 87,
+            "y": 0,
+            "width": 13,
+            "height": 22
+          },
+          {
+            "name": "鐵槍中段",
+            "x": 77,
+            "y": 23,
+            "width": 15,
+            "height": 35
+          },
+          {
+            "name": "鐵槍下段",
+            "x": 63,
+            "y": 58,
+            "width": 17,
+            "height": 42
           }
         ]
       }
@@ -59,7 +151,124 @@ const BOOK = {
       "title": "反例｜惡行使心不安",
       "start": 21,
       "presentation": {
-        "overlays": []
+        "coordinateBasis": "displayed-image-percent",
+        "positionStatus": "preview-layout",
+        "positionNote": "原圖逐格核對：砍樹左上、鳥蛋右上、說謊左下、惡夢右下。各標籤置於該格下緣，數值為試排。「心不定」保留原分鏡用字，非新增十惡分類校訂。",
+        "reserveLandscapeBands": true,
+        "overlays": [
+          {
+            "id": "unwholesome-tl",
+            "lines": [
+              "十惡業：偷盜"
+            ],
+            "x": 6,
+            "y": 40,
+            "width": 39,
+            "align": "left",
+            "fontSizeCqw": 2.8,
+            "minFontPx": 12,
+            "maxFontPx": 26,
+            "lineHeight": 1.32,
+            "backdrop": "soft",
+            "nowrap": true,
+            "fromSubtitle": 1,
+            "throughSubtitle": 2,
+            "portrait": {
+              "x": 6,
+              "y": 40,
+              "width": 39,
+              "align": "left",
+              "fontSizeCqw": 2.8,
+              "minFontPx": 12,
+              "maxFontPx": 26
+            },
+            "focusPanel": "tl"
+          },
+          {
+            "id": "unwholesome-tr",
+            "lines": [
+              "十惡業：殺生"
+            ],
+            "x": 55,
+            "y": 40,
+            "width": 39,
+            "align": "left",
+            "fontSizeCqw": 2.8,
+            "minFontPx": 12,
+            "maxFontPx": 26,
+            "lineHeight": 1.32,
+            "backdrop": "soft",
+            "nowrap": true,
+            "fromSubtitle": 3,
+            "throughSubtitle": 3,
+            "portrait": {
+              "x": 55,
+              "y": 40,
+              "width": 39,
+              "align": "left",
+              "fontSizeCqw": 2.8,
+              "minFontPx": 12,
+              "maxFontPx": 26
+            },
+            "focusPanel": "tr"
+          },
+          {
+            "id": "unwholesome-bl",
+            "lines": [
+              "十惡業：妄語"
+            ],
+            "x": 6,
+            "y": 90,
+            "width": 39,
+            "align": "left",
+            "fontSizeCqw": 2.8,
+            "minFontPx": 12,
+            "maxFontPx": 26,
+            "lineHeight": 1.32,
+            "backdrop": "soft",
+            "nowrap": true,
+            "fromSubtitle": 4,
+            "throughSubtitle": 4,
+            "portrait": {
+              "x": 6,
+              "y": 88,
+              "width": 39,
+              "align": "left",
+              "fontSizeCqw": 2.8,
+              "minFontPx": 12,
+              "maxFontPx": 26
+            },
+            "focusPanel": "bl"
+          },
+          {
+            "id": "unwholesome-br",
+            "lines": [
+              "十惡業：心不定"
+            ],
+            "x": 55,
+            "y": 90,
+            "width": 39,
+            "align": "left",
+            "fontSizeCqw": 2.8,
+            "minFontPx": 12,
+            "maxFontPx": 26,
+            "lineHeight": 1.32,
+            "backdrop": "soft",
+            "nowrap": true,
+            "fromSubtitle": 5,
+            "throughSubtitle": 10,
+            "portrait": {
+              "x": 55,
+              "y": 88,
+              "width": 39,
+              "align": "left",
+              "fontSizeCqw": 2.8,
+              "minFontPx": 12,
+              "maxFontPx": 26
+            },
+            "focusPanel": "br"
+          }
+        ]
       }
     },
     {
@@ -67,7 +276,69 @@ const BOOK = {
       "title": "正語｜慚愧與誠實",
       "start": 31,
       "presentation": {
-        "overlays": []
+        "coordinateBasis": "displayed-image-percent",
+        "positionStatus": "preview-layout",
+        "positionNote": "聚焦左上道歉。正語標題置於左上格下緣；完整口四善對照置於相鄰暗格上方，可換行，避免遮住道歉的貓臉與熊。皆為試排。",
+        "reserveLandscapeBands": true,
+        "overlays": [
+          {
+            "id": "right-speech",
+            "lines": [
+              "八正道：正語"
+            ],
+            "x": 6,
+            "y": 40,
+            "width": 39,
+            "align": "left",
+            "fontSizeCqw": 2.8,
+            "minFontPx": 12,
+            "maxFontPx": 26,
+            "lineHeight": 1.32,
+            "backdrop": "soft",
+            "nowrap": true,
+            "fromSubtitle": 1,
+            "throughSubtitle": 8,
+            "portrait": {
+              "x": 6,
+              "y": 38,
+              "width": 39,
+              "align": "left",
+              "fontSizeCqw": 2.8,
+              "minFontPx": 12,
+              "maxFontPx": 26
+            },
+            "focusPanel": "tl"
+          },
+          {
+            "id": "right-speech-wholesome",
+            "lines": [
+              "十善業道：不妄語，不兩舌，",
+              "不惡口，不綺語"
+            ],
+            "x": 53,
+            "y": 6,
+            "width": 44,
+            "align": "left",
+            "fontSizeCqw": 2.8,
+            "minFontPx": 12,
+            "maxFontPx": 26,
+            "lineHeight": 1.32,
+            "backdrop": "soft",
+            "nowrap": true,
+            "fromSubtitle": 1,
+            "throughSubtitle": 8,
+            "portrait": {
+              "x": 53,
+              "y": 6,
+              "width": 44,
+              "align": "left",
+              "fontSizeCqw": 2.8,
+              "minFontPx": 12,
+              "maxFontPx": 26
+            },
+            "focusPanel": "tl"
+          }
+        ]
       }
     },
     {
@@ -75,7 +346,98 @@ const BOOK = {
       "title": "正業｜不偷盜、不殺生與無悔",
       "start": 39,
       "presentation": {
-        "overlays": []
+        "coordinateBasis": "displayed-image-percent",
+        "positionStatus": "preview-layout",
+        "positionNote": "依分鏡切換：右上漂流木／不偷盜、左下護蟲／不殺生、右下安睡。文字暫置左上暗格以避讓當頁亮格；未自行新增「無悔」疊字。",
+        "reserveLandscapeBands": true,
+        "overlays": [
+          {
+            "id": "right-action-wood",
+            "lines": [
+              "八正道：正業",
+              "十善業道：不偷盜"
+            ],
+            "x": 3,
+            "y": 6,
+            "width": 44,
+            "align": "left",
+            "fontSizeCqw": 2.8,
+            "minFontPx": 12,
+            "maxFontPx": 26,
+            "lineHeight": 1.32,
+            "backdrop": "soft",
+            "nowrap": true,
+            "fromSubtitle": 1,
+            "throughSubtitle": 2,
+            "portrait": {
+              "x": 3,
+              "y": 6,
+              "width": 44,
+              "align": "left",
+              "fontSizeCqw": 2.8,
+              "minFontPx": 12,
+              "maxFontPx": 26
+            },
+            "focusPanel": "tr"
+          },
+          {
+            "id": "right-action-life",
+            "lines": [
+              "八正道：正業",
+              "十善業道：不殺生"
+            ],
+            "x": 3,
+            "y": 6,
+            "width": 44,
+            "align": "left",
+            "fontSizeCqw": 2.8,
+            "minFontPx": 12,
+            "maxFontPx": 26,
+            "lineHeight": 1.32,
+            "backdrop": "soft",
+            "nowrap": true,
+            "fromSubtitle": 3,
+            "throughSubtitle": 4,
+            "portrait": {
+              "x": 3,
+              "y": 6,
+              "width": 44,
+              "align": "left",
+              "fontSizeCqw": 2.8,
+              "minFontPx": 12,
+              "maxFontPx": 26
+            },
+            "focusPanel": "bl"
+          },
+          {
+            "id": "right-action-rest",
+            "lines": [
+              "八正道：正業"
+            ],
+            "x": 3,
+            "y": 6,
+            "width": 44,
+            "align": "left",
+            "fontSizeCqw": 2.8,
+            "minFontPx": 12,
+            "maxFontPx": 26,
+            "lineHeight": 1.32,
+            "backdrop": "soft",
+            "nowrap": true,
+            "fromSubtitle": 5,
+            "throughSubtitle": 8,
+            "portrait": {
+              "x": 3,
+              "y": 6,
+              "width": 44,
+              "align": "left",
+              "fontSizeCqw": 2.8,
+              "minFontPx": 12,
+              "maxFontPx": 26
+            },
+            "focusPanel": "br"
+          }
+        ]
       }
     },
     {
@@ -83,7 +445,40 @@ const BOOK = {
       "title": "正業｜不邪淫",
       "start": 47,
       "presentation": {
-        "overlays": []
+        "coordinateBasis": "displayed-image-percent",
+        "positionStatus": "preview-layout",
+        "positionNote": "分鏡未記明座標，百分比為本次避讓試排，非影片位置還原。",
+        "reserveLandscapeBands": true,
+        "overlays": [
+          {
+            "id": "right-action-swans",
+            "lines": [
+              "八正道：正業",
+              "十善業道：不邪淫"
+            ],
+            "x": 3,
+            "y": 6,
+            "width": 51,
+            "align": "left",
+            "fontSizeCqw": 3.1,
+            "minFontPx": 14,
+            "maxFontPx": 32,
+            "lineHeight": 1.32,
+            "backdrop": "soft",
+            "nowrap": true,
+            "fromSubtitle": 1,
+            "throughSubtitle": 3,
+            "portrait": {
+              "x": 3,
+              "y": 6,
+              "width": 51,
+              "align": "left",
+              "fontSizeCqw": 3.1,
+              "minFontPx": 14,
+              "maxFontPx": 32
+            }
+          }
+        ]
       }
     },
     {
@@ -91,7 +486,39 @@ const BOOK = {
       "title": "正命｜清淨的生活所需",
       "start": 50,
       "presentation": {
-        "overlays": []
+        "coordinateBasis": "displayed-image-percent",
+        "positionStatus": "preview-layout",
+        "positionNote": "分鏡未記明座標，百分比為本次避讓試排，非影片位置還原。",
+        "reserveLandscapeBands": true,
+        "overlays": [
+          {
+            "id": "right-livelihood",
+            "lines": [
+              "八正道：正命"
+            ],
+            "x": 4,
+            "y": 6,
+            "width": 50,
+            "align": "left",
+            "fontSizeCqw": 3.1,
+            "minFontPx": 14,
+            "maxFontPx": 32,
+            "lineHeight": 1.32,
+            "backdrop": "soft",
+            "nowrap": true,
+            "fromSubtitle": 1,
+            "throughSubtitle": 9,
+            "portrait": {
+              "x": 4,
+              "y": 6,
+              "width": 50,
+              "align": "left",
+              "fontSizeCqw": 3.1,
+              "minFontPx": 14,
+              "maxFontPx": 32
+            }
+          }
+        ]
       }
     },
     {
@@ -99,7 +526,39 @@ const BOOK = {
       "title": "正方便／正精進｜逆流划槳",
       "start": 59,
       "presentation": {
-        "overlays": []
+        "coordinateBasis": "displayed-image-percent",
+        "positionStatus": "preview-layout",
+        "positionNote": "分鏡未記明座標，百分比為本次避讓試排，非影片位置還原。",
+        "reserveLandscapeBands": true,
+        "overlays": [
+          {
+            "id": "right-effort",
+            "lines": [
+              "八正道：正方便"
+            ],
+            "x": 39,
+            "y": 4,
+            "width": 56,
+            "align": "left",
+            "fontSizeCqw": 3.3,
+            "minFontPx": 14,
+            "maxFontPx": 34,
+            "lineHeight": 1.32,
+            "backdrop": "soft",
+            "nowrap": true,
+            "fromSubtitle": 1,
+            "throughSubtitle": 13,
+            "portrait": {
+              "x": 39,
+              "y": 4,
+              "width": 56,
+              "align": "left",
+              "fontSizeCqw": 3.3,
+              "minFontPx": 14,
+              "maxFontPx": 34
+            }
+          }
+        ]
       }
     },
     {
@@ -107,7 +566,39 @@ const BOOK = {
       "title": "正念｜記得方向、看清浪頭",
       "start": 72,
       "presentation": {
-        "overlays": []
+        "coordinateBasis": "displayed-image-percent",
+        "positionStatus": "preview-layout",
+        "positionNote": "分鏡未記明座標，百分比為本次避讓試排，非影片位置還原。",
+        "reserveLandscapeBands": true,
+        "overlays": [
+          {
+            "id": "right-mindfulness",
+            "lines": [
+              "八正道：正念"
+            ],
+            "x": 4,
+            "y": 5,
+            "width": 45,
+            "align": "left",
+            "fontSizeCqw": 3.3,
+            "minFontPx": 14,
+            "maxFontPx": 34,
+            "lineHeight": 1.32,
+            "backdrop": "soft",
+            "nowrap": true,
+            "fromSubtitle": 1,
+            "throughSubtitle": 14,
+            "portrait": {
+              "x": 4,
+              "y": 5,
+              "width": 45,
+              "align": "left",
+              "fontSizeCqw": 3.3,
+              "minFontPx": 14,
+              "maxFontPx": 34
+            }
+          }
+        ]
       }
     },
     {
@@ -115,7 +606,39 @@ const BOOK = {
       "title": "正定｜澄澈水面",
       "start": 86,
       "presentation": {
-        "overlays": []
+        "coordinateBasis": "displayed-image-percent",
+        "positionStatus": "preview-layout",
+        "positionNote": "分鏡未記明座標，百分比為本次避讓試排，非影片位置還原。",
+        "reserveLandscapeBands": true,
+        "overlays": [
+          {
+            "id": "right-concentration",
+            "lines": [
+              "八正道：正定"
+            ],
+            "x": 4,
+            "y": 5,
+            "width": 26,
+            "align": "left",
+            "fontSizeCqw": 3.1,
+            "minFontPx": 14,
+            "maxFontPx": 32,
+            "lineHeight": 1.32,
+            "backdrop": "soft",
+            "nowrap": true,
+            "fromSubtitle": 1,
+            "throughSubtitle": 11,
+            "portrait": {
+              "x": 4,
+              "y": 5,
+              "width": 26,
+              "align": "left",
+              "fontSizeCqw": 3.1,
+              "minFontPx": 14,
+              "maxFontPx": 32
+            }
+          }
+        ]
       }
     },
     {
@@ -123,7 +646,39 @@ const BOOK = {
       "title": "抵岸｜筏喻與等捨",
       "start": 97,
       "presentation": {
-        "overlays": []
+        "coordinateBasis": "displayed-image-percent",
+        "positionStatus": "preview-layout",
+        "positionNote": "分鏡明示左上方「等捨」；百分比與字級為本次試排。",
+        "reserveLandscapeBands": true,
+        "overlays": [
+          {
+            "id": "equanimity",
+            "lines": [
+              "等捨"
+            ],
+            "x": 4,
+            "y": 5,
+            "width": 25,
+            "align": "left",
+            "fontSizeCqw": 4,
+            "minFontPx": 16,
+            "maxFontPx": 42,
+            "lineHeight": 1.32,
+            "backdrop": "soft",
+            "nowrap": true,
+            "fromSubtitle": 1,
+            "throughSubtitle": 11,
+            "portrait": {
+              "x": 4,
+              "y": 5,
+              "width": 25,
+              "align": "left",
+              "fontSizeCqw": 4,
+              "minFontPx": 16,
+              "maxFontPx": 42
+            }
+          }
+        ]
       }
     },
     {
@@ -131,6 +686,10 @@ const BOOK = {
       "title": "總結與經典出處",
       "start": 108,
       "presentation": {
+        "coordinateBasis": "displayed-image-percent",
+        "positionStatus": "preview-layout",
+        "positionNote": "分鏡未指定插畫主題疊字，本幕不新增。",
+        "reserveLandscapeBands": true,
         "overlays": []
       }
     }

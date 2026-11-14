@@ -340,7 +340,10 @@ button, select { font: inherit; }
  .scene .story {position:relative;margin:0;padding:14px;text-align:start;}
  .scene .scripture {margin-top:0;}
 }
-</style></head><body>
+</style><link rel="stylesheet" href="../../picture-panel-focus.css">
+<script src="../../picture-panel-focus.js"></script>
+<script src="panel-focus-data.js"></script>
+</head><body>
 <header class="top">
   <a href="../#book-preview"><span class="portrait-label">‹ 六處篇導讀</span><span class="landscape-only">‹ 回簡介</span></a>
   <span>SutraZen · 佛法繪本</span>
@@ -697,6 +700,7 @@ function showPage(index) {
   next.disabled = index === pages.length - 1;
   select.value = String(entry.sceneIndex);
   positionText.textContent = (index + 1) + ' / ' + pages.length + ' 頁';
+  SutraZenPanelFocus.update(artFrame, art, PANEL_FOCUS.scenes[entry.sceneIndex + 1], index - sceneStarts[entry.sceneIndex] + 1);
   if (window.scrollY) window.scrollTo(0, 0);
 
   const upcoming = scenes[entry.sceneIndex + 1]?.image;

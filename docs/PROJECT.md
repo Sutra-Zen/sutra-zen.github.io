@@ -39,3 +39,6 @@ The author reviewed two preview revisions and explicitly requested publication. 
 
 ## Eightfold Path release approval (2026-11-14)
 Implemented on `feat/eightfold-path-preview` from main `0236fca`, incorporating handoff `e121f3c`. Shelf #05 and the existing 八正道 map dialog link to the guide/reader in this branch. The four released books and shared guide styles remain unchanged. The author explicitly authorized direct publication of this version on 2026-11-14. PR #11 targets main; verify its merge commit and corresponding Pages deployment before claiming live availability. See docs/eightfold-path/verification.md for source checks, pairing choices and separate editorial suggestions.
+
+## Current preview: image overlays and panel focus (2026-11-14)
+Branch `fix/picture-book-overlays` starts from published main `51d6572`. Eightfold Path uses independent image-space topic overlays stored in each storyboard scene's `presentation`. Six Senses adds focus to its six quad scenes; Five Aggregates uses the actual three-panel illustration. This correction is preview-only, not authorized for deployment. See the newest HANDOFF and `docs/previews/picture-book-overlays/README.md`.
