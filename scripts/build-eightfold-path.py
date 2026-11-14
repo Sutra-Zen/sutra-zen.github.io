@@ -66,12 +66,21 @@ for scene in story['scenes']:
         for start, source_id, passage in PAIRINGS[number]:
             if index >= start:
                 record = sources[source_id]
-                entry.update(verse=record['passages'][passage] if passage else record['excerpt'],
+                entry.update(verse=record['passages'][passage] if passage else record.get('displayExcerpt', record['excerpt']),
                              verseLabel=record['title'] + '（節錄）', source='../#' + source_id)
         pages.append(entry)
 assert len(pages) == 110
 assert next(p for p in pages if p['scene'] == 8 and p['subtitle'] == 9)['lines'] == [
     '只有行囊是輕盈且乾淨的，我們才能在前往彼岸的風浪中，保持平衡，不會沉沒。']
+# Editorial afterword is separate from the original 13 scenes and 110 subtitles.
+afterword = story.get('afterword')
+if afterword:
+    scenes.append({'id': 14, 'title': afterword['title'], 'start': len(pages),
+                   'presentation': {'overlays': []}})
+    pages.append({'scene': 14, 'subtitle': 1, 'title': afterword['title'],
+                  'timeApprox': None, 'lines': afterword['paragraphs'],
+                  'image': None, 'dimensions': None, 'focusPanel': None,
+                  'verse': '', 'verseLabel': '', 'source': None, 'afterword': True})
 book = {'title': story['title'], 'scenes': scenes, 'pages': pages,
         'summary': [
             ['正見', '不邪見'], ['正志', '不貪欲、不瞋恚'],
@@ -82,4 +91,4 @@ book = {'title': story['title'], 'scenes': scenes, 'pages': pages,
         ]}
 (ROOT / 'eightfold-path/book/book-data.js').write_text(
     'const BOOK = ' + json.dumps(book, ensure_ascii=False, indent=2) + ';\n')
-print('Verified 11 artwork hashes; built 110 pages / 13 scenes with original subtitles.')
+print(f'Verified 11 artwork hashes; preserved 13 scenes / 110 subtitles; built {len(pages)} pages including afterword.')

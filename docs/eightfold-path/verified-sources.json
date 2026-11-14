@@ -100,7 +100,9 @@
     "repositorySource": "https://github.com/suttacentral/sc-data/blob/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa771.html",
     "sourceSha256": "a9157c95eebfca45b2b8457153451f7dddd7a7923d497b0bec36fbe3a5d24251",
     "excerpt": "希有諸人民，　　能度於彼岸，　一切諸世間，　　徘徊遊此岸。　於此正法律，　　能善隨順者，　斯等能度彼，　　生死難度岸。",
-    "passages": {}
+    "passages": {},
+    "displayExcerpt": "希有諸人民，能度於彼岸，\n一切諸世間，徘徊遊此岸。\n於此正法律，能善隨順者，\n斯等能度彼，生死難度岸。",
+    "displayFormatting": "僅移除全形縮排並依每兩句分行，保留原字句與標點。"
   },
   {
     "id": "sa777",

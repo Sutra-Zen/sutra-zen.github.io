@@ -5,6 +5,7 @@ current workspace server. Requires Playwright, lxml and Pillow.
 """
 import json
 import os
+import re
 from pathlib import Path
 import subprocess
 from urllib.parse import urlsplit
@@ -16,7 +17,7 @@ ROOT = Path(__file__).resolve().parents[1]
 BASE = os.environ.get('SUTRAZEN_TEST_URL', 'http://127.0.0.1:8012/sutrazen-map/')
 OUT = Path(os.environ.get('SUTRAZEN_TEST_ARTIFACTS', '/tmp/picture-book-overlay-tests'))
 OUT.mkdir(parents=True, exist_ok=True)
-BASELINE = '51d6572ae9069e703cc25bd12631397df1b6ed78'
+BASELINE = 'f01ffa80e6936c81572f8b9d29e99bb084ab26e5'
 
 
 def published(path):
@@ -31,16 +32,22 @@ def variable(source, name):
 
 book = variable((ROOT / 'eightfold-path/book/book-data.js').read_text(), 'BOOK')
 old = variable(published('eightfold-path/book/book-data.js'), 'BOOK')
-assert len(book['pages']) == 110
+assert len(book['pages']) == 111
+assert book['pages'][-1].get('afterword') and '溫柔起點' in book['pages'][-1]['lines'][-1]
 for before, after in zip(old['pages'], book['pages']):
-    assert {k: v for k, v in before.items() if k != 'note'} == after
+    expected = {k: v for k, v in before.items() if k != 'note'}
+    if before['scene'] == 13:
+        expected['verse'] = next(r for r in json.loads((ROOT / 'docs/eightfold-path/verified-sources.json').read_text()) if r['id'] == 'sa771')['displayExcerpt']
+    assert expected == after
 assert old['summary'] == book['summary']
 handoff = json.loads((ROOT / 'docs/eightfold-path/storyboard.json').read_text())
 source_handoff = json.loads(published('docs/eightfold-path/storyboard.json'))
 for scene in handoff['scenes']:
     scene = dict(scene)
     scene.pop('presentation')
-    assert scene == source_handoff['scenes'][scene['scene'] - 1]
+    original = dict(source_handoff['scenes'][scene['scene'] - 1])
+    original.pop('presentation', None)
+    assert scene == original
 assert handoff['scenes'][0]['presentation']['overlays'] == []
 assert handoff['scenes'][12]['presentation']['overlays'] == []
 assert handoff['scenes'][2]['presentation']['overlays'][0]['lines'] == [
@@ -56,7 +63,14 @@ for name, count in [('five-aggregates', 54), ('six-senses', 115)]:
     path = name + '/book/index.html'
     source = (ROOT / path).read_text()
     before = published(path)
-    assert variable(source, 'scenes') == variable(before, 'scenes')
+    actual_scenes, original_scenes = variable(source, 'scenes'), variable(before, 'scenes')
+    comparable = json.loads(json.dumps(actual_scenes))
+    if name == 'six-senses':
+        comparable[1].pop('windowLayout', None)
+        for actual, original in zip(comparable[1]['pages'], original_scenes[1]['pages']):
+            assert [o['text'] for o in actual['overlays']] == [o['text'] for o in original['overlays']]
+            actual['overlays'] = original['overlays']
+    assert comparable == original_scenes
     # Includes every byte of the existing embedded Six Senses images.
     assert variable(source, 'previewImages') == variable(before, 'previewImages')
     old_tree, new_tree = html.fromstring(before), html.fromstring(source)
@@ -68,8 +82,17 @@ for name, count in [('five-aggregates', 54), ('six-senses', 115)]:
 assert (ROOT / 'index.html').read_text() == published('index.html')
 for name in ['four-truths', 'twelve-links']:
     for path in subprocess.check_output(['git', 'ls-tree', '-r', '--name-only', BASELINE, name], cwd=ROOT, text=True).splitlines():
+        if path in ['four-truths/index.html', 'twelve-links/index.html']:
+            continue  # Canonical source content is checked below after unfolding.
         assert (ROOT / path).read_bytes() == subprocess.check_output(['git', 'show', BASELINE + ':' + path], cwd=ROOT)
-print('PASS retained all 110/54/115 pages, captions, scripture, scene order and images; unchanged map and other two books', flush=True)
+for name in ['four-truths', 'five-aggregates', 'six-senses', 'twelve-links', 'eightfold-path']:
+    old_guide = html.fromstring(published(name + '/index.html'))
+    new_guide = html.fromstring((ROOT / name / 'index.html').read_bytes())
+    normalize = lambda text: re.sub(r'\s+', '', text)
+    assert [normalize(e.text_content()) for e in old_guide.xpath('//blockquote')] == [normalize(e.text_content()) for e in new_guide.xpath('//blockquote')]
+    assert old_guide.xpath('//a/@href') == new_guide.xpath('//a/@href')
+    assert not new_guide.xpath('//details')
+print('PASS original 110/54/115 pages retained; added one afterword; all guide scripture visible with words/links preserved', flush=True)
 
 
 def overlaps(a, b):
@@ -88,7 +111,7 @@ def swipe(locator, dx=-140, dy=0):
 with sync_playwright() as playwright:
     browser = playwright.chromium.launch(executable_path='/usr/bin/chromium', args=['--no-sandbox'])
     for width, height in [(390, 844), (844, 390), (768, 1024), (1024, 768)]:
-        for name, count in [('eightfold-path', 110), ('five-aggregates', 54), ('six-senses', 115)]:
+        for name, count in [('eightfold-path', 111), ('five-aggregates', 54), ('six-senses', 115)]:
             g = browser.new_page(viewport={'width': width, 'height': height}, has_touch=True)
             errors = []
             g.on('pageerror', lambda error: errors.append(str(error)))
@@ -106,10 +129,10 @@ with sync_playwright() as playwright:
                     g.wait_for_function('document.querySelector("#art").complete && document.querySelector("#art").naturalWidth>0')
                 if name == 'eightfold-path':
                     item = book['pages'][index]
-                    assert g.locator('#narration').inner_text() == item['lines'][0]
+                    assert g.locator('#narration > p').all_text_contents() == item['lines']
                     expected = item['verseLabel'] + '\n' + item['verse'] if item['verse'] else ''
                     assert g.locator('#verse').text_content() == expected
-                    plan = handoff['scenes'][item['scene']-1]['presentation']
+                    plan = handoff['scenes'][item['scene']-1]['presentation'] if item['scene'] <= 13 else {'overlays': []}
                     overlays = [o for o in plan['overlays'] if o['fromSubtitle'] <= item['subtitle'] <= o['throughSubtitle']]
                     assert g.locator('#art-overlays > div').count() == len(overlays)
                     assert not g.locator('#chapter-note').count()
@@ -194,4 +217,4 @@ with sync_playwright() as playwright:
             print(f'PASS {name} {width}x{height}: {count} pages, all overlay/focus states, image bounds, stable positions, controls/rotation/dialog', flush=True)
             g.close()
     browser.close()
-(OUT/'results.json').write_text(json.dumps({'baseline':BASELINE,'books':{'eightfold-path':110,'five-aggregates':54,'six-senses':115},'viewports':[[390,844],[844,390],[768,1024],[1024,768]],'totalPageChecks':1116,'status':'pass','realIPadSafari':'not tested'},indent=2)+'\n')
+(OUT/'results.json').write_text(json.dumps({'baseline':BASELINE,'books':{'eightfold-path':111,'five-aggregates':54,'six-senses':115},'viewports':[[390,844],[844,390],[768,1024],[1024,768]],'totalPageChecks':1120,'status':'pass','realIPadSafari':'not tested'},indent=2)+'\n')

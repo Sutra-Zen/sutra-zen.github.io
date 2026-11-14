@@ -13,7 +13,7 @@
 - four-truths/ — Four Noble Truths picture book, including assets/ and book/
 - six-senses/ — six senses picture book, including book/ and cover.webp
 - twelve-links/ — twelve-link picture book, guide, static Wheel of Life, 77-page data, storyboard and original extracted assets
-- eightfold-path/ — Eightfold Path / Ten Wholesome Actions implementation: 110-page reader and guide; original 13-scene handoff and 11 illustrations in docs/eightfold-path/
+- eightfold-path/ — Eightfold Path / Ten Wholesome Actions implementation: 111-page reader (110 original subtitle pages plus an editorial afterword) and guide; original 13-scene handoff and 11 illustrations in docs/eightfold-path/
 - README.md
 
 The twelve-link reader is implemented in twelve-links/ and preserves 77 pages: 18 narrative scenes plus an afterword. The author approved publication on 2026-11-14. Verify the corresponding GitHub Pages deployment before claiming live availability.
@@ -42,3 +42,6 @@ Implemented on `feat/eightfold-path-preview` from main `0236fca`, incorporating 
 
 ## Image overlays and panel focus release approval (2026-11-14)
 Branch `fix/picture-book-overlays` starts from published main `51d6572`. Eightfold Path uses independent image-space topic overlays stored in each storyboard scene's `presentation`. Six Senses adds focus to its six quad scenes; Five Aggregates uses the actual three-panel illustration. The author explicitly authorized direct publication of this correction via PR #12; verify the merge commit and Pages deployment before claiming live availability. See the newest HANDOFF and `docs/previews/picture-book-overlays/README.md`.
+
+## Reader labels and open scripture (2026-11-14)
+`fix/reader-labels-and-scripture` starts from main `f01ffa8`. Six Senses eighteen-realm labels align to measured image-window columns; Eightfold Path removes the mistaken ten-evil prefix from 心不定 and the redundant 正業 heading in the wholesome quad. SA771 keeps the verified transcription with a four-line whitespace-only display variant. The 13 original scenes/110 subtitles remain, with a separate afterword at page111 saying interpretation follows the original scriptures. Scripture sections in all five guides show their existing text directly. Publication follows the author's instruction to inspect this ongoing book work on the live site; confirm the new PR merge and Pages run.

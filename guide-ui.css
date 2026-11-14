@@ -34,3 +34,8 @@
 .topic-guide .source-button svg { flex:none; width:22px; height:22px; }
 .topic-guide .source-providers { margin-top:14px; color:#526159; font-size:.9rem; overflow-wrap:anywhere; }
 .topic-guide .source-providers p { margin:5px 0; }
+
+/* Scripture is visible on arrival, matching the common source-card layout. */
+.topic-guide .source-text { margin-top:14px; }
+.topic-guide .source-text-heading { font-size:1rem; color:#234f41; margin:0 0 10px; }
+.topic-guide .source-poem { white-space:pre-line; }
