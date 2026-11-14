@@ -1,0 +1,174 @@
+{
+  "repository": "suttacentral/sc-data",
+  "commit": "c7bba0f184e66904949d4918587975fb7fd7ec69",
+  "files": [
+    {
+      "id": "da5",
+      "path": "html_text/lzh/sutta/da/da5.html",
+      "sha256": "86c23a1b8c2a4f01fec8930a4bfdce167c76d6e99600a86f3eed677bc510bf80",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/da/da5.html"
+    },
+    {
+      "id": "da9",
+      "path": "html_text/lzh/sutta/da/da9.html",
+      "sha256": "71f39386ff11b62130122c7f4a5ceceacc19c49aa7a6f43183bdcb59ed98c21b",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/da/da9.html"
+    },
+    {
+      "id": "ea28.7",
+      "path": "html_text/lzh/sutta/ea/ea28/ea28.7.html",
+      "sha256": "c89876b7b20f7690d2e27b77a6bfdabd58c85c45fb64da3ce634afdba3eba889",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/ea/ea28/ea28.7.html"
+    },
+    {
+      "id": "ma16",
+      "path": "html_text/lzh/sutta/ma/ma16.html",
+      "sha256": "f6839916799e80a27da5f5418049012693095b55eea5f7353a5d9845bcefa0cb",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/ma/ma16.html"
+    },
+    {
+      "id": "sa71",
+      "path": "html_text/lzh/sutta/sa/sa1-100/sa71.html",
+      "sha256": "1a34e67ee5d916a6bb7fe78852134d4ea1bc127c9b56c71f2c09dec0c234d712",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa1-100/sa71.html"
+    },
+    {
+      "id": "sa266",
+      "path": "html_text/lzh/sutta/sa/sa201-300/sa266.html",
+      "sha256": "e83c41664b441c9cf2c5d88e06d479bd414a768a15e04b921e21e7119e780ef5",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa201-300/sa266.html"
+    },
+    {
+      "id": "sa297",
+      "path": "html_text/lzh/sutta/sa/sa201-300/sa297.html",
+      "sha256": "126633f2a3634091140ec600fba92d549d03b6a7c4050a05edf289cfc7a1c414",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa201-300/sa297.html"
+    },
+    {
+      "id": "sa490",
+      "path": "html_text/lzh/sutta/sa/sa401-500/sa490.html",
+      "sha256": "2df9e107f06f2ce3083b4b9a95691a4c775525ccbb1bb0b4986393f0e5ceee9b",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa401-500/sa490.html"
+    },
+    {
+      "id": "sn46.55",
+      "path": "html_text/zh/pli/sutta/sn/sn46/sn46.55.html",
+      "sha256": "5b096a2b22e055c944081d8e5932507d88351cd8ab6e75cd804f9b0799f22ef7",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/sn/sn46/sn46.55.html"
+    }
+  ],
+  "cues": {
+    "SA490": {
+      "canon": "sa490",
+      "label": "《雜阿含經》第490經",
+      "blocks": [
+        "涅槃者，貪欲永盡，瞋恚永盡，愚癡永盡，一切諸煩惱永盡，是名涅槃。"
+      ]
+    },
+    "DA・眾集經": {
+      "canon": "da9",
+      "label": "《長阿含經》第9經〈眾集經〉",
+      "blocks": [
+        "復有五法，謂五下結：身見結、戒盜結、疑結、貪欲結、瞋恚結。",
+        "復有五法，謂五上結：色愛、無色愛、無明、慢、掉。"
+      ]
+    },
+    "DA・初小緣經": {
+      "canon": "da5",
+      "label": "《長阿含經》第5經〈初小緣經〉",
+      "blocks": [
+        "婆悉吒！諸婆羅門種、居士、首陀羅種亦應如是篤信於佛、信法、信眾，成就聖戒。"
+      ]
+    },
+    "SA266": {
+      "canon": "sa266",
+      "label": "《雜阿含經》第266經",
+      "blocks": [
+        "比丘！譬如狗子繫柱，彼繫不斷，長夜繞柱，輪迴而轉。如是，比丘！愚夫眾生不如實知色、色集、色滅、色味、色患、色離，長夜輪迴，順色而轉。如是不如實知受、想、行、識、識集、識滅、識味、識患、識離，長夜輪迴，順識而轉。"
+      ]
+    },
+    "EA・黃藍花沙門": {
+      "canon": "ea28.7",
+      "label": "《增壹阿含經》28.7 · 黃藍花沙門",
+      "blocks": [
+        "彼云何名為似黃藍花沙門？或有一人，斷三結使，成須陀洹不退轉法，必至涅槃，極遲經七死七生；或復家家、一種，猶如黃藍之花朝取暮長。此比丘亦復如是，三結使盡，成須陀洹，不退轉法必至涅槃，極遲至七死七生，若求方便勇猛意者，家家、一種便成道迹，是謂名為黃藍花沙門。"
+      ]
+    },
+    "SN46.55 欲貪／染色水": {
+      "canon": "sn46.55",
+      "label": "《相應部》46.55〈傷歌邏經〉· 莊春江譯",
+      "blocks": [
+        "婆羅門！猶如水鉢被胭脂或薑黃或蓼藍或紫檀［等染料］混入，在那裡，當有眼的男子觀察自己的面貌時，他不能如實知見。"
+      ]
+    },
+    "SN46.55 瞋恚／沸水": {
+      "canon": "sn46.55",
+      "label": "《相應部》46.55〈傷歌邏經〉· 莊春江譯",
+      "blocks": [
+        "婆羅門！猶如水鉢被火加熱沸騰起泡，在那裡，當有眼的男子觀察自己的面貌時，他不能如實知見。"
+      ]
+    },
+    "EA・邠陀利花沙門": {
+      "canon": "ea28.7",
+      "label": "《增壹阿含經》28.7 · 邠陀利花沙門",
+      "blocks": [
+        "彼云何名為邠陀利花沙門？或有一人，三結使盡，婬、怒、癡薄，成斯陀含，來至此世盡於苦際。若小遲者，來至此世盡於苦際；若勇猛者，即於此間盡於苦際。猶如邠陀利花，晨朝剖花，向暮萎死，是謂邠陀利花沙門。"
+      ]
+    },
+    "SA71": {
+      "canon": "sa71",
+      "label": "《雜阿含經》第71經",
+      "blocks": [
+        "云何斷關？謂斷五下分結。"
+      ]
+    },
+    "EA 28.7 柔軟沙門": {
+      "canon": "ea28.7",
+      "label": "《增壹阿含經》28.7 · 柔軟沙門",
+      "blocks": [
+        "彼云何柔軟沙門？或有一人斷五下分結，成阿那含，即於彼般涅槃，不來此世，是謂柔軟沙門。"
+      ]
+    },
+    "EA 28.7 柔軟中柔軟沙門": {
+      "canon": "ea28.7",
+      "label": "《增壹阿含經》28.7 · 柔軟中柔軟沙門",
+      "blocks": [
+        "彼云何柔軟中柔軟沙門？或有一人有漏盡，成無漏心解脫、智慧解脫，於現法中自身作證而自遊戲：生死已盡，梵行已立，所作已辦，更不復受胎，如實知之。是謂柔軟中柔軟沙門。"
+      ]
+    },
+    "SA297": {
+      "canon": "sa297",
+      "label": "《雜阿含經》第297經〈大空法經〉",
+      "blocks": [
+        "斷其根本，如截多羅樹頭，於未來世成不生法。"
+      ]
+    },
+    "MA・伽藍經": {
+      "canon": "ma16",
+      "label": "《中阿含經》第16經〈伽藍經〉",
+      "blocks": [
+        "復次，伽藍！若有所作，必不作惡，我不犯世怖與不怖，常當慈愍一切世間，我心不與眾生共諍，無濁歡悅。如是，伽藍！多聞聖弟子心無結無怨，無恚無諍，是謂得第四安隱住處。"
+      ]
+    }
+  },
+  "guideExcerpts": {
+    "fourPairs": {
+      "canon": "da5",
+      "blocks": [
+        "向須陀洹、得須陀洹；向斯陀含，得斯陀含；向阿那含，得阿那含；向阿羅漢，得阿羅漢；四雙八輩，是為如來弟子眾也。"
+      ]
+    },
+    "eaOpening": {
+      "canon": "ea28.7",
+      "blocks": [
+        "有四種之人出現於世。云何為四？有似黃藍花沙門；有似邠陀利華沙門；有似柔軟沙門；於柔軟中柔軟沙門。"
+      ]
+    },
+    "sa297Context": {
+      "canon": "sa297",
+      "blocks": [
+        "若比丘無明離欲而生明，彼無明滅則行滅，乃至純大苦聚滅，是名大空法經。"
+      ]
+    }
+  }
+}

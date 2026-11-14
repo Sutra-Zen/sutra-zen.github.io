@@ -1,3 +1,53 @@
+# 發布授權（2026-11-15，Asia/Taipei）
+
+作者已明確授權直接發布PR #15，取代本次先試閱限制。發布須確認合併SHA及Pages成功。原五本保持不變。Notion工具未提供，尚未寫入；待補記見docs/releases/four-fruits-notion.md。
+
+# SutraZen — current handoff
+
+Last updated: 2026-11-14
+Status: **第06本《四向四果與十結》導讀與繪本試閱完成；等待作者在iPad確認，未合併或發布。**
+
+## 分支與交接
+
+- 實作分支 `feat/four-fruits-ten-fetters-preview`，以最新main `bc29ec604dacf8515245669c553af8c27318a95d` 開始；已讀AGENTS、PROJECT、HANDOFF、SOURCES及實際八正道／十二因緣介面。
+- 試閱草稿PR：https://github.com/rooneyflower-star/sutrazen-map/pull/15 ，目標main；尚未合併。
+- fetch `content/four-fruits-ten-fetters-handoff`，固定交接commit `d82957317cd6733553c97149ebb49d1bd7bd7bad`，只帶入 `docs/four-fruits-ten-fetters/`。四份交接文字檔與作者附件ZIP逐位元組一致，完整讀取README、JSON／Markdown分鏡與manifest後實作。
+- 插畫取自作者附件 `SutraZen_Four_Fruits_Ten_Fetters_Handoff.zip`，11張正式WebP及2張reference的檔名、尺寸、大小與SHA-256全部符合清單。S05採柱上「五受陰」、皮帶上「貪愛」版本；reference僅供比對，未用作內頁。
+
+## 已完成
+
+- `four-fruits-ten-fetters/` 主題導讀與 `book/` 74頁閱讀器；首頁#06由鎖定改為可讀，14本中6可讀、8鎖定；既有「四向四果」心智圖窗追加導讀／繪本入口，原影片#video-06及YouTube ID `n0bco_NPmRI` 保留。
+- 導讀沿用共用header、guide UI、封面入口與16:9 YouTube iframe；右上只保留「回三十七道品修道地圖」，沒有另加快捷列或影片下重複連結。9張來源卡的經文直接顯示，不採折疊；含四向／四果的原典說明及溫柔起點結語。
+- 11幕、74筆原字幕的字句、順序及時間標記全部保留；S02／03交界01:26、04:10「邠陀利花」、05:00與05:04作者原句均核對。`bottomScripture.cues` 的15個經文狀態按時間切換，原經選文與故事分開。
+- `topSubtitle` 皆上緣靠左；S01／S10黑字淺底，其餘白字暗底。`artOverlay` 全空，未加圖內標題、果位名牌或頁頂摘要。幕名只在目錄／輔助科技標題出現。
+- 每幕預留最長旁白高度，圖片不隨同幕字幕切換而跳動。橫式在上下文字與左右按鍵之間完整等比例顯示原圖，直式上下排列；S02兩側十結、S05柱／帶、S09貪／瞋門閂都在完整畫框內。逐幕核對表見 `docs/four-fruits-ten-fetters/layout-audit.md`。
+- 沿用現有橫直式控制、目錄、頁碼、原經／本頁經文對話框、返回及session頁碼。載入根目錄 `reader-controls.css`，快速翻頁使用 `touch-action: manipulation`，保留雙指縮放與正常捲動。沒有修改既有五本及共用樣式或Pages設定。
+- 原資料在交接目錄，`scripts/build-four-fruits-ten-fetters.py` 產生閱讀器資料；圖片均用repository相對路徑，未嵌Base64。
+
+## 原典核對
+
+- 9份原典／中譯均實際從SuttaCentral官方 `sc-data` 固定commit `c7bba0f184e66904949d4918587975fb7fd7ec69` 讀取並核對。逐檔SHA-256、13組經文選文及導讀補充見 `verified-sources.json`；測試可重新下載驗證。
+- EA28.7正文邠陀利「花」與開頭列舉的「華」各依原文保留。DA9列舉次序／戒盜結與插畫排列／戒取分開；SA266繫狗比喻、SA71斷關、SA297無明離欲生明語境皆有來源卡說明。
+- SN46.55先呈現莊春江中譯，附巴利原文入口；故事「瞋恚」與中譯「惡意」各保留原句。DA5四雙八輩只在導讀解釋，未把四種姓角色等同四果。
+
+## 驗證與試閱
+
+- `python scripts/check-four-fruits-ten-fetters.py --verify-sources --screenshots`：手機390×844、844×390、iPad768×1024、1024×768，每尺寸74頁，共296個頁面狀態；全文、來源、圖像／黑白字、靠左、零疊字、比例／邊界／按鍵避讓與同幕位置穩定通過。
+- 翻頁、快速點按、首尾停用、11幕目錄、鍵盤、滑動、經文展開／關閉／來源、放大文字捲動及不誤翻頁、回導讀／重載／旋轉保留頁數通過。四尺寸導讀、新書架／心智圖入口及舊五本開書／下一頁／回導讀亦通過；無本地HTTP錯誤或JavaScript錯誤。
+- 原有五本、根目錄共用CSS與Pages設定與基準main逐位元組一致。JS／Python語法、資料重建及diff空白檢查通過。
+- `docs/previews/four-fruits-ten-fetters/README.md` 含逐幕橫直截圖、資料完整性結果、GitHub完整ZIP下載及電腦HTTP伺服器連接同Wi-Fi iPad的方法。截圖是無損WebP，原插畫不改動。交付訊息另給固定commit ZIP。
+
+## 尚待作者／外部環境驗證
+
+- **實體iPad/Safari** 的快速點按、雙指縮放、經文捲動與旋轉未測；Chromium觸控模擬不等同實機驗收。
+- 本環境缺少 `open_cloud_preview` 及桌面JS工具，沒有可驗證的外部即時互動網址。提供可下載的完整目錄與已測HTTP開啟方式，不把正式站舊網址當成本次預覽。
+- SuttaCentral服務站畫面、YouTube實際播放、台大獅子吼深層註解定位未驗證。台大獅子吼直接請求遭環境CONNECT 403，增壹／長／中阿含先保留明標四阿含總入口，未猜測深層錨點；已核對的官方經文資料不受影響。
+- 本次最新指示是先試閱，**不要因先前其他書的發布授權而合併本PR或推main**。這次沒有正式發布，沒有新增正式發布或Notion已寫入的宣稱。
+
+---
+
+# Prior handoff and release history
+
 # SutraZen — current handoff
 
 Last updated: 2026-11-14
