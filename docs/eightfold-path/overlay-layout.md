@@ -1,6 +1,6 @@
 # 八正道畫面疊字試閱布局
 
-僅 `fix/picture-book-overlays` 試閱，未發布正式站。原字幕、順序、頁數、下緣原典選文和圖片保持已發布版本。
+本文件記錄 `fix/picture-book-overlays` 的試排布局；作者後續已明確授權透過PR #12直接發布，部署結果以該PR與對應Pages為準。原字幕、順序、頁數、下緣原典選文和圖片保持已發布版本。
 
 `storyboard.json` 每幕 `presentation` 是可調整的分鏡資料。`x/y/width` 使用**實際顯示的圖片範圍百分比**；`align` 是靠左／中／右；字級以圖片寬度的cqw配min/max像素；`portrait` 可個別覆寫。`fromSubtitle/throughSubtitle` 是該幕1起算字幕序號，不是全書頁碼。背景和白字描邊由同一渲染器處理。原資料的時間碼、字幕、研究輸入不變。
 

@@ -1,6 +1,6 @@
 # 畫面疊字與四格閱讀焦點：試閱截圖
 
-本分支僅供試閱，未發布正式站。
+本資料夾保留發布前的試閱截圖。作者後續已明確授權直接發布本版，實際上線以 PR #12 與對應 GitHub Pages 部署結果為準。
 
 ## 先行試排：正志
 
@@ -20,7 +20,7 @@
 - [iPad橫式](right-intention-ipad-landscape.png)
 - [iPad直式](right-intention-ipad-portrait.png)
 
-各幕文字、座標、對齊、寬度、字級與直式覆寫會存於 `docs/eightfold-path/storyboard.json` 的 `presentation`，原字幕與經文內容不變。
+各幕文字、座標、對齊、寬度、字級與直式覆寫存於 `docs/eightfold-path/storyboard.json` 的 `presentation`，原字幕與經文內容不變。
 
 ## 其他試閱截圖
 
@@ -55,4 +55,4 @@ python -m http.server 8765
 - 五陰：`http://127.0.0.1:8765/five-aggregates/book/`
 - 六處：`http://127.0.0.1:8765/six-senses/book/`
 
-本環境沒有對外即時預覽工具，正式站尚未套用本分支變更；上面的GitHub截圖可直接查看，不必先下載ZIP。等作者確認後，再另行取得發布指示。
+本環境沒有對外即時預覽工具；作者已改為直接發布後從正式站確認。上面的GitHub截圖保留供對照，不必先下載ZIP。正式站更新結果以PR #12與對應Pages為準。
