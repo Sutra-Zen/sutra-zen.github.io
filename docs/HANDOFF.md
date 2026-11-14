@@ -1,3 +1,7 @@
+# 四向四果與十結｜第 06 本交接
+
+素材在 `docs/four-fruits-ten-fetters/`，入口為 [README.md](four-fruits-ten-fetters/README.md)。已整理 11 幕、74 筆字幕及對應插畫；讀取附帶的圖片清單查核正式圖與參考圖。新版統一「邠陀利花」，三果兩句已補。圖內疊字欄皆為空，原圖已印上的文字另有記錄。後續由 Codex 在最新 main 上建立實作分支，交付第 06 本的導讀與繪本試閱。
+
 # SutraZen — current handoff
 
 Last updated: 2026-11-14

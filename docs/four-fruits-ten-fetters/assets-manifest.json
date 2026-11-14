@@ -1,0 +1,144 @@
+[
+  {
+    "path": "assets/s01.webp",
+    "originalFilename": "IMG_0352.jpg",
+    "width": 1376,
+    "height": 768,
+    "bytes": 191186,
+    "sha256": "c27f11a2508e1327af8c612713b4413eefc1a8e4952756212128c491a652b7d8",
+    "originalSha256": "d85871e0915973407d46c417ceb0225b7abecaa5dab7b5bad97dc7d3a746c368",
+    "sceneId": "S01",
+    "role": "illustration"
+  },
+  {
+    "path": "assets/s02.webp",
+    "originalFilename": "IMG_0371.jpg",
+    "width": 1375,
+    "height": 768,
+    "bytes": 249478,
+    "sha256": "7ba25f3bf79b89050a7bc04e8edff3b87978ea8cc2c153db5f868d0cb4cdddec",
+    "originalSha256": "efc367d482ff11c9f35bd8dc5349d5af063501c3d8557c58affaa105fb70a35c",
+    "sceneId": "S02",
+    "role": "illustration"
+  },
+  {
+    "path": "assets/s03.webp",
+    "originalFilename": "IMG_0337.jpg",
+    "width": 2752,
+    "height": 1536,
+    "bytes": 812620,
+    "sha256": "2afc8c840b95badd0ffed49acac1ea08f965277aa19cde97ce9c419e612b82e7",
+    "originalSha256": "67d98774d7c24715a3d0b4ae237e134488a0d64a8168f0cb3ad0c968793672b6",
+    "sceneId": "S03",
+    "role": "illustration"
+  },
+  {
+    "path": "assets/s04.webp",
+    "originalFilename": "IMG_0338.jpg",
+    "width": 1376,
+    "height": 768,
+    "bytes": 268792,
+    "sha256": "1b473b63ed8b69e19005813ceda967739a95e3fb7ea6c2fcf4f3bc94b38ace5c",
+    "originalSha256": "4d625a8704e5cb0d1e963bbfd0bd210ae0bb9d4cd7f9716f1026c959bbdab7c4",
+    "sceneId": "S04",
+    "role": "illustration"
+  },
+  {
+    "path": "assets/s05.webp",
+    "originalFilename": "IMG_0369.jpg",
+    "width": 1375,
+    "height": 768,
+    "bytes": 126072,
+    "sha256": "0dad01720ae043f50d50f7e4144f84ce6fd8f2ae0f531b14a1a800eaf57bdf52",
+    "originalSha256": "4d410ae9fbf64ca6ee2808609cb5c70492dd47cc2afc47f4dd74b4ece133c697",
+    "sceneId": "S05",
+    "role": "illustration"
+  },
+  {
+    "path": "assets/s06.webp",
+    "originalFilename": "IMG_0343.jpg",
+    "width": 1376,
+    "height": 768,
+    "bytes": 210466,
+    "sha256": "883c141b7ba6c6a475f5dddcfc7d844330799f2dbd48338ca09a0e315d7b2df5",
+    "originalSha256": "03f9cc41e3832bc39ac024cc8f9d90fc6a24a5bfda81524b975c02f29d9a50a9",
+    "sceneId": "S06",
+    "role": "illustration"
+  },
+  {
+    "path": "assets/s07.webp",
+    "originalFilename": "IMG_0344.jpg",
+    "width": 1376,
+    "height": 768,
+    "bytes": 321576,
+    "sha256": "ffb626a0e0764a1661e03c106ff8f2790d466ff89a3044cd727c340aa46f8682",
+    "originalSha256": "a1f2b1cee1c0d7fa801b6109a5325269f9dea48731372e44b9b54827a08f998d",
+    "sceneId": "S07",
+    "role": "illustration"
+  },
+  {
+    "path": "assets/s08.webp",
+    "originalFilename": "IMG_0345.jpg",
+    "width": 1376,
+    "height": 768,
+    "bytes": 271548,
+    "sha256": "9a199a7d1d67d98754f04335972cba48748b8d39f4de9204992dd1ba2eea31b3",
+    "originalSha256": "d2b17d733c5cc44c58b05142c1df280d1aaedafb9ef17296664462b78003ea27",
+    "sceneId": "S08",
+    "role": "illustration"
+  },
+  {
+    "path": "assets/s09.webp",
+    "originalFilename": "IMG_0347.jpg",
+    "width": 1376,
+    "height": 768,
+    "bytes": 290026,
+    "sha256": "cbec59ad923715c21a8b714689db5fa620b687fcce9f0c8ab2a648af23254f07",
+    "originalSha256": "469cd67a85873e496a82c5fb1a0a3b5e209620b527d95145d45d020d5a61581d",
+    "sceneId": "S09",
+    "role": "illustration"
+  },
+  {
+    "path": "assets/s10.webp",
+    "originalFilename": "IMG_0348.jpg",
+    "width": 1376,
+    "height": 768,
+    "bytes": 158612,
+    "sha256": "cb82317308b15c7a5f793b40f35982121acb73ecec051ca681577da9f3f066d5",
+    "originalSha256": "273262fb0dc038dee26b600259b64c9cfb961baee101ab582d08e4164f55811b",
+    "sceneId": "S10",
+    "role": "illustration"
+  },
+  {
+    "path": "assets/s11.webp",
+    "originalFilename": "IMG_0351.jpg",
+    "width": 1376,
+    "height": 768,
+    "bytes": 346744,
+    "sha256": "ab0cf9981a4d6f3ec1d513af4ec62b26dc61b8a056654827fb4c11a870fb6296",
+    "originalSha256": "2ea0333b892ebbd848430058e55667596af5f0d771223abcb8c7d610f58178ac",
+    "sceneId": "S11",
+    "role": "illustration"
+  },
+  {
+    "path": "reference/tethered-dog-alternate.webp",
+    "originalFilename": "IMG_0346.jpg",
+    "width": 1376,
+    "height": 768,
+    "bytes": 146056,
+    "sha256": "eb53937516b6613e05130bbd7a87a81085f576a7da6de0041a9e760e42730eb9",
+    "originalSha256": "a0c96e913fdb66409b46d717fc374a7dde951c3e31439df34f2ed7b883cb5eca",
+    "sceneId": "S05",
+    "role": "reference"
+  },
+  {
+    "path": "reference/scripture-screenshot.webp",
+    "originalFilename": "打開「滅諦-四向四果十結」.png",
+    "width": 2360,
+    "height": 1149,
+    "bytes": 1576714,
+    "sha256": "6784b121c334714114a69376b7d5e88fb05ac6c244d2e56066fdeada396f86a1",
+    "originalSha256": "e1cae2d70708b030e508b02a718779fa57bd5dfd10e715d79d5c0bc7b876410c",
+    "role": "reference"
+  }
+]
