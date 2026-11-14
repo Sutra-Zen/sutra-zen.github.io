@@ -1,0 +1,53 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "book": "five-aggregates",
+      "width": 390,
+      "height": 844,
+      "status": "pass"
+    },
+    {
+      "book": "five-aggregates",
+      "width": 844,
+      "height": 390,
+      "status": "pass"
+    },
+    {
+      "book": "five-aggregates",
+      "width": 768,
+      "height": 1024,
+      "status": "pass"
+    },
+    {
+      "book": "five-aggregates",
+      "width": 1024,
+      "height": 768,
+      "status": "pass"
+    },
+    {
+      "book": "six-senses",
+      "width": 390,
+      "height": 844,
+      "status": "pass"
+    },
+    {
+      "book": "six-senses",
+      "width": 844,
+      "height": 390,
+      "status": "pass"
+    },
+    {
+      "book": "six-senses",
+      "width": 768,
+      "height": 1024,
+      "status": "pass"
+    },
+    {
+      "book": "six-senses",
+      "width": 1024,
+      "height": 768,
+      "status": "pass"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "baseline": "51d6572ae9069e703cc25bd12631397df1b6ed78",
+  "books": {
+    "eightfold-path": 110,
+    "five-aggregates": 54,
+    "six-senses": 115
+  },
+  "viewports": [
+    [
+      390,
+      844
+    ],
+    [
+      844,
+      390
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      1024,
+      768
+    ]
+  ],
+  "totalPageChecks": 1116,
+  "status": "pass",
+  "realIPadSafari": "not tested",
+  "captionPaintChecks": [
+    [
+      "five-aggregates",
+      390,
+      844
+    ],
+    [
+      "five-aggregates",
+      844,
+      390
+    ],
+    [
+      "five-aggregates",
+      768,
+      1024
+    ],
+    [
+      "five-aggregates",
+      1024,
+      768
+    ],
+    [
+      "six-senses",
+      390,
+      844
+    ],
+    [
+      "six-senses",
+      844,
+      390
+    ],
+    [
+      "six-senses",
+      768,
+      1024
+    ],
+    [
+      "six-senses",
+      1024,
+      768
+    ]
+  ],
+  "captionPaintStatus": "pass"
+}
