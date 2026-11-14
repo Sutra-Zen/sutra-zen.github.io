@@ -48,3 +48,7 @@ Branch `fix/picture-book-overlays` starts from published main `51d6572`. Eightfo
 
 ## Shared reader touch controls
 All five readers load root `reader-controls.css`; future readers must include it too. Navigation buttons use `touch-action: manipulation` in both orientations, preserving pinch zoom and scrolling. AGENTS.md records this as a production requirement.
+
+## Book 06 preview (2026-11-14)
+
+`feat/four-fruits-ten-fetters-preview` starts from main `bc29ec6`. It adds `four-fruits-ten-fetters/` and `four-fruits-ten-fetters/book/`, importing only the handoff folder from `content/four-fruits-ten-fetters-handoff` at `d82957317cd6733553c97149ebb49d1bd7bd7bad`; original images come from the author's uploaded ZIP and match all manifest hashes. The preview has 11 scenes / 74 subtitle pages, 15 scripture cue states and no image-space overlays. Shelf #06 and the existing 四向四果 map dialog are connected in this branch. All five published books, common CSS and Pages settings remain unchanged. This book is **for review only**: do not merge or publish without the author's next instruction. See the latest HANDOFF and `docs/previews/four-fruits-ten-fetters/README.md` for preview access and device-test limits.
