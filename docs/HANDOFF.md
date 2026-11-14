@@ -1,3 +1,7 @@
+# 發布授權（2026-11-15，Asia/Taipei）
+
+作者已明確授權直接發布PR #15，取代本次先試閱限制。發布須確認合併SHA及Pages成功。原五本保持不變。Notion工具未提供，尚未寫入；待補記見docs/releases/four-fruits-notion.md。
+
 # SutraZen — current handoff
 
 Last updated: 2026-11-14
