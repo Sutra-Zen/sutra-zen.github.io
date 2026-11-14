@@ -6,6 +6,7 @@ Status: **第06本《四向四果與十結》導讀與繪本試閱完成；等�
 ## 分支與交接
 
 - 實作分支 `feat/four-fruits-ten-fetters-preview`，以最新main `bc29ec604dacf8515245669c553af8c27318a95d` 開始；已讀AGENTS、PROJECT、HANDOFF、SOURCES及實際八正道／十二因緣介面。
+- 試閱草稿PR：https://github.com/rooneyflower-star/sutrazen-map/pull/15 ，目標main；尚未合併。
 - fetch `content/four-fruits-ten-fetters-handoff`，固定交接commit `d82957317cd6733553c97149ebb49d1bd7bd7bad`，只帶入 `docs/four-fruits-ten-fetters/`。四份交接文字檔與作者附件ZIP逐位元組一致，完整讀取README、JSON／Markdown分鏡與manifest後實作。
 - 插畫取自作者附件 `SutraZen_Four_Fruits_Ten_Fetters_Handoff.zip`，11張正式WebP及2張reference的檔名、尺寸、大小與SHA-256全部符合清單。S05採柱上「五受陰」、皮帶上「貪愛」版本；reference僅供比對，未用作內頁。
 

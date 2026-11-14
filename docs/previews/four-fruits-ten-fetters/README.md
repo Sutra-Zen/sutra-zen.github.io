@@ -3,6 +3,7 @@
 這是第06本的實作分支，**尚未合併main或發布正式站**。
 
 - 分支：`feat/four-fruits-ten-fetters-preview`
+- [試閱草稿PR #15](https://github.com/rooneyflower-star/sutrazen-map/pull/15)，目標main，尚未合併。
 - 導讀：`four-fruits-ten-fetters/`
 - 互動繪本：`four-fruits-ten-fetters/book/`，11幕、74頁。
 - 11張插畫來自作者ZIP，13個素材（含2張參考圖）的尺寸／大小／SHA-256全部相符。
