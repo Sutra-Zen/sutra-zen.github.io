@@ -33,6 +33,7 @@ function showPage(index) {
     return paragraph;
   }));
   applySceneLayout(item);
+  page.classList.toggle('afterword-scene', Boolean(item.afterword));
   artFrame.hidden = !item.image;
   if (item.image) {
     if (art.getAttribute('src') !== item.image) art.src = item.image;
@@ -48,7 +49,11 @@ function showPage(index) {
   else sourceLink.removeAttribute('href');
   $('#open-verse').hidden = !item.image || !item.verse;
   previous.disabled = index === 0;
-  next.disabled = index === pages.length - 1;
+  const lastPage = index === pages.length - 1;
+  next.disabled = false;
+  next.setAttribute('aria-label', lastPage ? '回到第一頁' : '下一頁');
+  next.innerHTML = lastPage ? '<span class="portrait-label">回到第一頁 </span><span aria-hidden="true">↺</span>' : '<span class="portrait-label">下一頁 </span><span aria-hidden="true">→</span>';
+  next.classList.toggle('restart', lastPage);
   select.value = String(item.scene);
   $('#position-text').textContent = `${index + 1} / ${pages.length} 頁`;
   // A long text chapter must start at its top on both orientations.
@@ -90,7 +95,7 @@ window.addEventListener('resize', layoutArtwork);
 document.fonts.ready.then(layoutArtwork);
 
 for (const scene of BOOK.scenes) {
-  select.add(new Option(`${scene.id.slice(1)} · ${scene.title}`, scene.id));
+  select.add(new Option(scene.id === 'afterword' ? scene.title : `${scene.id.slice(1)} · ${scene.title}`, scene.id));
 }
 $('.controls').hidden = false;
 $('#hint').hidden = false;
@@ -99,7 +104,7 @@ try { saved = Number(sessionStorage.getItem(storageKey) || 0); } catch {}
 showPage(Number.isInteger(saved) && pages[saved] ? saved : 0);
 
 previous.onclick = () => showPage(current - 1);
-next.onclick = () => showPage(current + 1);
+next.onclick = () => showPage(current === pages.length - 1 ? 0 : current + 1);
 select.onchange = () => showPage(sceneStarts.get(select.value));
 $('#open-verse').onclick = () => {
   $('#dialog-verse').textContent = verse.textContent;

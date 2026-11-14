@@ -215,3 +215,17 @@ button, select { font: inherit; }
  .scene .story, .scene .scripture { z-index:2; }
  .verse-body { max-height:none; overflow:hidden; }
 }
+
+/* Editorial closing page; story captions and artwork remain unchanged. */
+.afterword-scene .scene { width:min(100%,48rem); height:auto; margin:18px auto; padding:clamp(18px,4vw,32px); }
+.afterword-scene #caption { position:static; min-height:0; padding:0; background:transparent; }
+.afterword-scene #caption-sizer, .afterword-scene #image-stage { display:none; }
+.afterword-scene #page-title { position:static; width:auto; height:auto; clip-path:none; white-space:normal; margin:0 0 18px; color:var(--accent); font-size:1.4rem; }
+.afterword-scene #narration p + p { margin-top:1em; }
+@media(orientation:landscape) {
+ .afterword-scene .scene { width:min(calc(100% - 120px),48rem); max-height:calc(100dvh - 112px); top:54px; margin:0 auto; overflow-y:auto; }
+ .afterword-scene .story { font-size:clamp(1rem,3.5dvh,1.25rem); }
+ .controls #next.restart { width:auto; min-width:44px; padding-inline:8px; font-size:.9rem; }
+ #next.restart .portrait-label { display:inline; }
+ .afterword-scene .scene { width:min(calc(100% - 240px),48rem); }
+}

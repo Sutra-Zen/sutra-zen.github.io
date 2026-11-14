@@ -112,6 +112,16 @@ const BOOK = {
         "color": "white"
       },
       "artOverlay": []
+    },
+    {
+      "id": "afterword",
+      "title": "製作說明｜溫柔的起點",
+      "start": 74,
+      "topSubtitleLayout": {
+        "align": "left",
+        "color": "white"
+      },
+      "artOverlay": []
     }
   ],
   "pages": [
@@ -1520,6 +1530,25 @@ const BOOK = {
       "scriptureCue": "MA・伽藍經",
       "scriptureCueAt": "06:00",
       "source": "../#ma16"
+    },
+    {
+      "scene": "afterword",
+      "subtitle": 1,
+      "at": null,
+      "title": "製作說明｜溫柔的起點",
+      "lines": [
+        "本繪本所呈現的內容，係以《增壹阿含經》卷二十〈聲聞品第二十八〉第七經為主，參照相關阿含經典與《相應部》所製作。",
+        "為了讓讀者更親近佛法，我們以圖文並茂的方式，用白話語言說明經意。",
+        "然而，繪本的詮釋難免簡略，無法完全涵蓋原經的深義。解讀仍請以原經文為準。",
+        "我們誠摯地鼓勵讀者參閱原經文，細細品味佛陀的智慧與慈悲。",
+        "也希望這本繪本能成為您走入經藏的溫柔起點。"
+      ],
+      "image": null,
+      "dimensions": null,
+      "verse": "",
+      "verseLabel": "",
+      "source": null,
+      "afterword": true
     }
   ]
 };

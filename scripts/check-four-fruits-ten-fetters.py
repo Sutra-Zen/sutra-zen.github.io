@@ -44,9 +44,9 @@ def check_static(verify_sources):
     for asset in json.loads((DOCS / 'assets-manifest.json').read_text()):
         assert Image.open(DOCS / asset['path']).size == (asset['width'], asset['height'])
     original = [s for scene in STORY['scenes'] for s in scene['topSubtitle']]
-    assert [p['lines'][0] for p in BOOK['pages']] == [s['text'] for s in original]
-    assert [p['at'] for p in BOOK['pages']] == [s['at'] for s in original]
-    assert len(BOOK['pages']) == 74 and len(BOOK['scenes']) == 11
+    assert [p['lines'][0] for p in BOOK['pages'][:74]] == [s['text'] for s in original]
+    assert [p['at'] for p in BOOK['pages'][:74]] == [s['at'] for s in original]
+    assert len(BOOK['pages']) == 75 and len(BOOK['scenes']) == 12
     assert all(s['artOverlay'] == [] for s in BOOK['scenes'])
     if verify_sources:
         source_texts = {}
@@ -105,7 +105,7 @@ def check_static(verify_sources):
             assert target.is_file(), (path, url)
             if parsed.fragment:
                 assert html.parse(str(target)).xpath('//*[@id=$id]', id=parsed.fragment), url
-    for page in BOOK['pages']:
+    for page in BOOK['pages'][:74]:
         assert guide.xpath('//*[@id=$id]', id=page['source'].split('#')[1])
     print('Content / images / source cards / shelf / unchanged existing books: OK', flush=True)
 
@@ -147,7 +147,7 @@ def check_browser(screenshots, entrances_only=False):
             page.goto(base + 'four-fruits-ten-fetters/book/')
             page.wait_for_function('typeof showPage === "function"')
             scene_frames = {}
-            for i, expected in enumerate(BOOK['pages']):
+            for i, expected in enumerate(BOOK['pages'][:74]):
                 page.evaluate('showPage', i)
                 settled(page)
                 actual = page.evaluate('''() => {
@@ -169,8 +169,8 @@ def check_browser(screenshots, entrances_only=False):
                 assert actual['caption'] == expected['lines'][0], (width, i, 'caption')
                 assert actual['verse'] == expected['verseLabel'] + '\n' + expected['verse']
                 assert actual['href'] == expected['source']
-                assert actual['number'] == f'{i + 1} / 74 頁'
-                assert actual['disabled'] == [i == 0, i == 73]
+                assert actual['number'] == f'{i + 1} / 75 頁'
+                assert actual['disabled'] == [i == 0, False]
                 assert actual['natural'] == expected['dimensions']
                 assert actual['touchAction'] == 'manipulation'
                 assert actual['align'] == 'left' and actual['selectable'] != 'none'
@@ -198,17 +198,17 @@ def check_browser(screenshots, entrances_only=False):
             # Menu must jump to the first subtitle of all eleven scenes.
             for scene in BOOK['scenes']:
                 page.select_option('#page-select', scene['id'])
-                assert page.locator('#position-text').inner_text() == f'{scene["start"] + 1} / 74 頁'
+                assert page.locator('#position-text').inner_text() == f'{scene["start"] + 1} / 75 頁'
             # Navigation, rapid taps and keyboard after button focus.
             page.evaluate('showPage(0)')
             for _ in range(8):
                 page.locator('#next').tap()
-            assert page.locator('#position-text').inner_text() == '9 / 74 頁'
+            assert page.locator('#position-text').inner_text() == '9 / 75 頁'
             for _ in range(4):
                 page.locator('#previous').tap()
-            assert page.locator('#position-text').inner_text() == '5 / 74 頁'
+            assert page.locator('#position-text').inner_text() == '5 / 75 頁'
             page.keyboard.press('ArrowRight')
-            assert page.locator('#position-text').inner_text() == '6 / 74 頁'
+            assert page.locator('#position-text').inner_text() == '6 / 75 頁'
             assert page.evaluate('visualViewport.scale') == 1
             assert 'user-scalable=no' not in page.locator('meta[name="viewport"]').get_attribute('content')
             # Horizontal reading swipe; scripture scrolling and selected text do not turn pages.
@@ -217,7 +217,7 @@ def check_browser(screenshots, entrances_only=False):
               el.dispatchEvent(new TouchEvent('touchstart',{bubbles:true,touches:[new Touch({identifier:1,target:el,clientX:240,clientY:160})]}));
               el.dispatchEvent(new TouchEvent('touchend',{bubbles:true,changedTouches:[new Touch({identifier:1,target:el,clientX:100,clientY:162})]}));
             }''')
-            assert page.locator('#position-text').inner_text() == '7 / 74 頁'
+            assert page.locator('#position-text').inner_text() == '7 / 75 頁'
             page.select_option('#page-select', 'S06')
             saved_position = page.locator('#position-text').inner_text()
             if width > height:
@@ -314,7 +314,7 @@ def check_browser(screenshots, entrances_only=False):
             screenshot(page, 'shelf-1024x768.webp')
         page.locator('.sz-book[href="./four-fruits-ten-fetters/book/"]').click()
         page.wait_for_function('typeof showPage === "function"')
-        assert page.locator('#position-text').inner_text().endswith('/ 74 頁')
+        assert page.locator('#position-text').inner_text().endswith('/ 75 頁')
         page.goto(base)
         page.wait_for_function('typeof openModal === "function"')
         page.locator('[onclick*="openModal(\'四向四果\')"]').click()
