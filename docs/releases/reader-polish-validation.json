@@ -1,0 +1,60 @@
+{
+  "regression": {
+    "baseline": "f01ffa80e6936c81572f8b9d29e99bb084ab26e5",
+    "books": {
+      "eightfold-path": 111,
+      "five-aggregates": 54,
+      "six-senses": 115
+    },
+    "viewports": [
+      [
+        390,
+        844
+      ],
+      [
+        844,
+        390
+      ],
+      [
+        768,
+        1024
+      ],
+      [
+        1024,
+        768
+      ]
+    ],
+    "totalPageChecks": 1120,
+    "status": "pass",
+    "realIPadSafari": "not tested"
+  },
+  "focused": {
+    "baseline": "f01ffa80e6936c81572f8b9d29e99bb084ab26e5",
+    "viewports": [
+      {
+        "width": 390,
+        "height": 844,
+        "status": "pass"
+      },
+      {
+        "width": 844,
+        "height": 390,
+        "status": "pass"
+      },
+      {
+        "width": 768,
+        "height": 1024,
+        "status": "pass"
+      },
+      {
+        "width": 1024,
+        "height": 768,
+        "status": "pass"
+      }
+    ],
+    "originalSubtitles": 110,
+    "afterwordPage": 111,
+    "sourceGuides": 5,
+    "realIPadSafari": "not tested"
+  }
+}

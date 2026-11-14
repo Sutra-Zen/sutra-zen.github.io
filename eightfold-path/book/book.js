@@ -22,6 +22,7 @@ function showPage(index) {
   renderImageOverlays(item);
   artFrame.hidden = !item.image;
   page.classList.toggle('text-scene', !item.image);
+  page.classList.toggle('afterword-scene', Boolean(item.afterword));
   if (item.image) {
     if (art.getAttribute('src') !== item.image) art.src = item.image;
     art.alt = item.title + (item.focusPanel ? '，目前閱讀' + {
@@ -59,7 +60,7 @@ function renderImageOverlays(item) {
   const plan = BOOK.scenes.find(scene => scene.id === item.scene).presentation;
   const active = (plan.overlays || []).filter(overlay =>
     item.subtitle >= (overlay.fromSubtitle || 1) && item.subtitle <= (overlay.throughSubtitle || Infinity));
-  page.classList.toggle('overlay-scene', Boolean(item.image && active.length));
+  page.classList.toggle('overlay-scene', Boolean(item.image && (active.length || (plan.reserveLandscapeBands && plan.overlays.length))));
   $('#art-overlays').replaceChildren(...active.map(overlay => {
     const element = document.createElement('div');
     element.className = 'art-overlay';

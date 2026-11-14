@@ -11,8 +11,6 @@ section { margin-top:40px; scroll-margin-top:20px; }
 .book-cover-action > span { display:inline-flex; align-items:center; min-height:44px; gap:.35em; padding:5px 18px; border:1px solid #e8d8b9; border-radius:999px; background:#233d30; font-weight:700; }
 .book-cover:hover .book-cover-action > span { background:#142c22; }
 .refs { border-top:1px solid #d7dacc; padding-top:23px; }
-.source-entry details { margin-top:14px; }
-.source-entry summary { cursor:pointer; color:#234f41; font-weight:700; padding:8px 0; }
 .source-entry blockquote { border-left:3px solid #a5b3a0; margin:8px 0 0; padding-left:clamp(12px,2vw,20px); overflow-wrap:anywhere; }
 .table-wrap { overflow-x:auto; }
 table { width:100%; border-collapse:collapse; background:#fffdf7; }

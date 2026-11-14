@@ -293,3 +293,5 @@ button, select { font: inherit; }
  .overlay-scene #image-stage { display:grid; position:absolute; inset:var(--caption-space) 0 var(--scripture-space); place-items:center; }
  .overlay-scene #art-frame { position:relative; top:auto; left:auto; transform:none; width:min(100%,calc(var(--image-space-height) * var(--art-ratio-number))); }
 }
+
+.afterword-scene #narration p + p { margin-top:1em; }

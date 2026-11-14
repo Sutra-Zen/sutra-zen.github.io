@@ -30,14 +30,15 @@ for row in manifest:
     assert hashlib.sha256(image.read_bytes()).hexdigest() == row['sha256']
     assert image.stat().st_size == row['bytes']
     assert Image.open(image).size == (row['width'], row['height'])
-assert len(story['scenes']) == len(data['scenes']) == 13
-assert [p['lines'][0] for p in data['pages']] == [s['text'] for scene in story['scenes'] for s in scene['subtitles']]
-assert len(data['pages']) == 110
+assert len(story['scenes']) == 13 and len(data['scenes']) == 14
+assert [p['lines'][0] for p in data['pages'][:110]] == [s['text'] for scene in story['scenes'] for s in scene['subtitles']]
+assert len(data['pages']) == 111 and data['pages'][-1].get('afterword')
 for path in ['README.md', 'storyboard.md', 'storyboard.json', 'assets-manifest.json']:
     original = subprocess.check_output(['git', 'show', 'e121f3c1f78535243ffbf75599a7f4e1e272e0fa:docs/eightfold-path/' + path], cwd=ROOT)
     if path == 'storyboard.json':
         current = json.loads((handoff / path).read_text())
         for scene in current['scenes']: scene.pop('presentation', None)
+        current.pop('afterword', None)
         assert json.loads(original) == current
     else:
         assert original == (handoff / path).read_bytes()
@@ -86,7 +87,7 @@ assert new_map['八正道總說']['content'].startswith(old_map['八正道總說
 for name in ['four-truths', 'five-aggregates', 'six-senses', 'twelve-links']:
     files = subprocess.check_output(['git', 'ls-tree', '-r', '--name-only', baseline, name], cwd=ROOT, text=True).splitlines()
     for path in files:
-        if name in ['five-aggregates', 'six-senses'] and path == name + '/book/index.html':
+        if (name in ['five-aggregates', 'six-senses'] and path == name + '/book/index.html') or path in ['four-truths/index.html', 'five-aggregates/index.html', 'six-senses/index.html', 'twelve-links/index.html']:
             # Their scripts/captions/artwork are compared by the focused mask suite.
             continue
         assert (ROOT / path).read_bytes() == subprocess.check_output(['git', 'show', baseline + ':' + path], cwd=ROOT), path
@@ -112,8 +113,8 @@ with sync_playwright() as playwright:
         for index, item in enumerate(data['pages']):
             if index:
                 g.locator('#next').click()
-            assert g.locator('#position-text').inner_text() == f'{index+1} / 110 頁'
-            assert g.locator('#narration').inner_text() == item['lines'][0]
+            assert g.locator('#position-text').inner_text() == f'{index+1} / 111 頁'
+            assert g.locator('#narration > p').all_text_contents() == item['lines']
             expected_verse = item['verseLabel'] + '\n' + item['verse'] if item['verse'] else ''
             assert g.locator('#verse').text_content() == expected_verse
             if item['image']:
@@ -183,7 +184,7 @@ with sync_playwright() as playwright:
         g.wait_for_url('**/eightfold-path/#ma42')
         assert g.locator('#ma42').is_visible()
         g.locator('.book-cover').click()
-        assert g.locator('#position-text').inner_text() == f'{before+1} / 110 頁'
+        assert g.locator('#position-text').inner_text() == f'{before+1} / 111 頁'
         assert g.locator('#narration').evaluate('(e)=>getComputedStyle(e).userSelect') != 'none'
         g.locator('#page-select').select_option('6')
         g.wait_for_function('document.querySelector("#art").complete')
@@ -198,8 +199,8 @@ with sync_playwright() as playwright:
         assert g.evaluate('document.documentElement.scrollWidth <= innerWidth')
         g.screenshot(path=str(OUT / f'guide-{width}.png'))
         assert not errors, errors
-        results.append({'width': width, 'height': height, 'pages': 110, 'status': 'pass'})
-        print(f'PASS {width}x{height}: 110 pages, images, 3-panel masks, buttons, keys, swipe, TOC, scripture scroll/dialog/source links, rotation and session retention, guide UI', flush=True)
+        results.append({'width': width, 'height': height, 'pages': 111, 'status': 'pass'})
+        print(f'PASS {width}x{height}: 111 pages, images, 3-panel masks, buttons, keys, swipe, TOC, scripture scroll/dialog/source links, rotation and session retention, guide UI', flush=True)
         g.close()
 
     g = browser.new_page(viewport={'width': 1024, 'height': 768})

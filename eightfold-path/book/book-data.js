@@ -153,7 +153,7 @@ const BOOK = {
       "presentation": {
         "coordinateBasis": "displayed-image-percent",
         "positionStatus": "preview-layout",
-        "positionNote": "原圖逐格核對：砍樹左上、鳥蛋右上、說謊左下、惡夢右下。各標籤置於該格下緣，數值為試排。「心不定」保留原分鏡用字，非新增十惡分類校訂。",
+        "positionNote": "原圖逐格核對：砍樹左上、鳥蛋右上、說謊左下、惡夢右下。右下僅標「心不定」，不列為十惡業；各標籤置於當格下緣。",
         "reserveLandscapeBands": true,
         "overlays": [
           {
@@ -243,7 +243,7 @@ const BOOK = {
           {
             "id": "unwholesome-br",
             "lines": [
-              "十惡業：心不定"
+              "心不定"
             ],
             "x": 55,
             "y": 90,
@@ -348,13 +348,12 @@ const BOOK = {
       "presentation": {
         "coordinateBasis": "displayed-image-percent",
         "positionStatus": "preview-layout",
-        "positionNote": "依分鏡切換：右上漂流木／不偷盜、左下護蟲／不殺生、右下安睡。文字暫置左上暗格以避讓當頁亮格；未自行新增「無悔」疊字。",
+        "positionNote": "依原圖聚焦拾木、護蟲、安睡；移除左上「八正道：正業」，只在前四筆字幕保留不偷盜／不殺生對照，安睡頁不加疊字。",
         "reserveLandscapeBands": true,
         "overlays": [
           {
             "id": "right-action-wood",
             "lines": [
-              "八正道：正業",
               "十善業道：不偷盜"
             ],
             "x": 3,
@@ -383,7 +382,6 @@ const BOOK = {
           {
             "id": "right-action-life",
             "lines": [
-              "八正道：正業",
               "十善業道：不殺生"
             ],
             "x": 3,
@@ -408,34 +406,6 @@ const BOOK = {
               "maxFontPx": 26
             },
             "focusPanel": "bl"
-          },
-          {
-            "id": "right-action-rest",
-            "lines": [
-              "八正道：正業"
-            ],
-            "x": 3,
-            "y": 6,
-            "width": 44,
-            "align": "left",
-            "fontSizeCqw": 2.8,
-            "minFontPx": 12,
-            "maxFontPx": 26,
-            "lineHeight": 1.32,
-            "backdrop": "soft",
-            "nowrap": true,
-            "fromSubtitle": 5,
-            "throughSubtitle": 8,
-            "portrait": {
-              "x": 3,
-              "y": 6,
-              "width": 44,
-              "align": "left",
-              "fontSizeCqw": 2.8,
-              "minFontPx": 12,
-              "maxFontPx": 26
-            },
-            "focusPanel": "br"
           }
         ]
       }
@@ -690,6 +660,14 @@ const BOOK = {
         "positionStatus": "preview-layout",
         "positionNote": "分鏡未指定插畫主題疊字，本幕不新增。",
         "reserveLandscapeBands": true,
+        "overlays": []
+      }
+    },
+    {
+      "id": 14,
+      "title": "製作說明｜溫柔的起點",
+      "start": 110,
+      "presentation": {
         "overlays": []
       }
     }
@@ -2650,7 +2628,7 @@ const BOOK = {
       "image": null,
       "dimensions": null,
       "focusPanel": null,
-      "verse": "希有諸人民，　　能度於彼岸，　一切諸世間，　　徘徊遊此岸。　於此正法律，　　能善隨順者，　斯等能度彼，　　生死難度岸。",
+      "verse": "希有諸人民，能度於彼岸，\n一切諸世間，徘徊遊此岸。\n於此正法律，能善隨順者，\n斯等能度彼，生死難度岸。",
       "verseLabel": "《雜阿含經》第771經〈彼岸〉（節錄）",
       "source": "../#sa771"
     },
@@ -2665,9 +2643,29 @@ const BOOK = {
       "image": null,
       "dimensions": null,
       "focusPanel": null,
-      "verse": "希有諸人民，　　能度於彼岸，　一切諸世間，　　徘徊遊此岸。　於此正法律，　　能善隨順者，　斯等能度彼，　　生死難度岸。",
+      "verse": "希有諸人民，能度於彼岸，\n一切諸世間，徘徊遊此岸。\n於此正法律，能善隨順者，\n斯等能度彼，生死難度岸。",
       "verseLabel": "《雜阿含經》第771經〈彼岸〉（節錄）",
       "source": "../#sa771"
+    },
+    {
+      "scene": 14,
+      "subtitle": 1,
+      "title": "製作說明｜溫柔的起點",
+      "timeApprox": null,
+      "lines": [
+        "本繪本所呈現的內容，係以《雜阿含經》第784經為主，參照相關經典所製作。",
+        "為了讓讀者更親近佛法，我們以圖文並茂的方式，用白話語言說明經意。",
+        "然而，繪本的詮釋難免簡略，無法完全涵蓋原經的深義。解讀仍請以原經文為準。",
+        "我們誠摯地鼓勵讀者參閱原經文，細細品味佛陀的智慧與慈悲。",
+        "也希望這本繪本能成為您走入經藏的溫柔起點。"
+      ],
+      "image": null,
+      "dimensions": null,
+      "focusPanel": null,
+      "verse": "",
+      "verseLabel": "",
+      "source": null,
+      "afterword": true
     }
   ],
   "summary": [
