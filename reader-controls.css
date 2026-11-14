@@ -2,3 +2,9 @@
 .controls button {
   touch-action: manipulation;
 }
+
+@media (orientation: landscape) {
+  .controls #next.reader-restart { width:auto; min-width:44px; padding-inline:8px; font-size:.9rem; }
+  .reader-restart .portrait-label { display:inline; }
+  .reader-at-end .scene { width:min(calc(100% - 240px),48rem); margin-inline:auto; }
+}
