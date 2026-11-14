@@ -37,3 +37,8 @@ Actual repository files and verified live behavior govern implementation status.
 - For annotations to all four Chinese Āgamas, start at https://buddhaspace.org/main/modules/dokuwiki/ and follow the appropriate collection/volume/section. The site is not limited to 雜阿含; do not apply one collection's path pattern to another.
 - For Pali canon references, look for a verified Traditional Chinese translation and identify the translator; present Chinese access before comparison languages where available. Preserve distinct labels for ancient Chinese texts, modern translations, Pali originals and annotations.
 - If a provider is blocked, inspect its authoritative public data repository when available and clearly distinguish verified source content from an untested website URL. Do not ask the author to find material that can be researched independently.
+
+## Reader touch controls (all current and future books)
+- Every book reader must load the root `reader-controls.css` using the appropriate relative path (currently `../../reader-controls.css`).
+- Keep previous/next buttons inside `.controls`; shared `touch-action: manipulation` prevents rapid taps from triggering double-tap zoom in portrait and landscape. Preserve pinch zoom and normal scrolling; do not use `user-scalable=no`, `maximum-scale=1`, or document-wide touch prevention.
+- Verify computed touch-action and rapid previous/next taps at phone/iPad portrait and landscape sizes. Real Safari gesture behavior must be reported separately from Chromium simulation.

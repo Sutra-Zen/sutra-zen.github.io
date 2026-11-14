@@ -1,6 +1,21 @@
 # SutraZen — current handoff
 
 Last updated: 2026-11-14
+Status: Rapid-tap navigation fix prepared for publication and author device testing.
+
+- User requests this setting on all existing/future readers, in portrait and landscape, for live device testing.
+- Added shared `reader-controls.css`: `.controls button { touch-action: manipulation; }`, imported by all five book readers. No global zoom restriction, viewport limit, debounce, artwork/text/data or navigation logic changes.
+- AGENTS.md and PROJECT.md require the shared stylesheet for future readers and preservation of pinch zoom/scrolling.
+- Verify computed styles and rapid taps at 390×844, 844×390, 768×1024, 1024×768. Chromium simulation cannot prove real iPad/Safari double-tap behavior; author will test on device after publication.
+- Publication must be verified against actual PR merge commit and Pages success; supply exact GitHub ZIP. No Notion tool available; pending record in `docs/releases/rapid-taps-notion.md`, not written to Notion.
+
+---
+
+# Prior handoff and release history
+
+# SutraZen — current handoff
+
+Last updated: 2026-11-14
 Status: **十八界與四格疊字、偈頌排版、結語及原經直讀修正已完成；依作者本次持續修正及直接從正式站檢視的指示進行發布。**
 
 ## 本次修正

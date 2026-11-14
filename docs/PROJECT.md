@@ -45,3 +45,6 @@ Branch `fix/picture-book-overlays` starts from published main `51d6572`. Eightfo
 
 ## Reader labels and open scripture (2026-11-14)
 `fix/reader-labels-and-scripture` starts from main `f01ffa8`. Six Senses eighteen-realm labels align to measured image-window columns; Eightfold Path removes the mistaken ten-evil prefix from 心不定 and the redundant 正業 heading in the wholesome quad. SA771 keeps the verified transcription with a four-line whitespace-only display variant. The 13 original scenes/110 subtitles remain, with a separate afterword at page111 saying interpretation follows the original scriptures. Scripture sections in all five guides show their existing text directly. Publication follows the author's instruction to inspect this ongoing book work on the live site; confirm the new PR merge and Pages run.
+
+## Shared reader touch controls
+All five readers load root `reader-controls.css`; future readers must include it too. Navigation buttons use `touch-action: manipulation` in both orientations, preserving pinch zoom and scrolling. AGENTS.md records this as a production requirement.
