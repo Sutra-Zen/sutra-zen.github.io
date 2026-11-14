@@ -1,0 +1,4 @@
+/* All readers: allow normal pan/pinch gestures without double-tap zoom on controls. */
+.controls button {
+  touch-action: manipulation;
+}
