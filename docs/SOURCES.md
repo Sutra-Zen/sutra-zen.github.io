@@ -43,3 +43,11 @@
 - da9：https://buddhaspace.org/agama3/9.html
 - da5：https://buddhaspace.org/agama3/5.html
 - ma16：https://buddhaspace.org/agama2/3.html#%E4%B8%80%E5%85%AD_%E4%B8%AD%E9%98%BF%E5%90%AB%E6%A5%AD%E7%9B%B8%E6%87%89%E5%93%81%E4%BC%BD%E8%97%8D%E7%B6%93%E7%AC%AC%E5%85%AD_%E5%88%9D%E4%B8%80%E6%97%A5%E8%AA%A6
+
+## 四不壞淨與六念（第07本，2026-11-15）
+
+- 主軸SN55.1〈轉輪王經〉，提供莊春江中譯與巴利原文入口；參照SA61、843、554。四份官方SuttaCentral `sc-data` 資料固定於 `c7bba0f184e66904949d4918587975fb7fd7ec69`，已實際讀取、核對SHA-256與節錄，見 `docs/four-purities-six-recollections/verified-sources.json`。
+- 第61經明分隨信行／隨法行「未得須陀洹果」與三結斷盡的入流果；導讀沒有把「中間不死」解讀成證果後不死。
+- 影片05:51僧不壞淨後半雖沿標SN55.1，「具足戒、定、慧、解脫、解脫知見」的逐字引文取SA554，閱讀器切換至正確經名與來源卡；原交接轉錄保留，未把影片摘要當原經直接引文。
+- SA554的病者是訶梨聚落主長者、開示者摩訶迦旃延，原字幕「長者摩訶男」的差異在導讀明說；原93筆影片紀錄未自動改寫。若作者後續確認修正，請用獨立editorial-corrections.json記錄，不覆寫原交接資料。
+- 註解導讀： https://buddhaspace.org/agama/sub/61.html 、 https://buddhaspace.org/agama/sub/843.html 、 https://buddhaspace.org/agama/sub/554.html 。這些服務站的實際頁面及YouTube播放未於本環境驗證，不能把官方GitHub原典核對稱為外站畫面驗收。

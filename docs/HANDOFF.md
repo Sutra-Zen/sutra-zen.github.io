@@ -1,3 +1,31 @@
+# 第07本《四不壞淨與六念》（2026-11-15）
+
+作者本次明確授權直接上線。分支`feat/four-purities-six-recollections`從最新main `31ebc8679723ab9908f771436bc0563cc4b04270`建立。正式部署須核對實際合併SHA與Pages成功，不能以push成功代替。
+
+## 完成實作
+
+- 已讀專案四份規則與附件README、完整JSON／Markdown分鏡、manifest；附件原樣保存在`docs/four-purities-six-recollections/`。8張正式JPEG及11張參考影格／截圖的尺寸、大小、SHA-256全部相符，沒有重新生成或嵌入Base64。
+- `four-purities-six-recollections/`導讀與`book/`閱讀器：8幕93筆原字幕＋同圖收尾＋獨立製作說明，共95頁。影片`jCXyluhcEb0`，首頁#video-07保留，書架第07本開放，14本中7可讀、7鎖定；四不壞淨與六念心智圖窗都接上導讀。
+- 沿用共同guide-header／guide-ui與最新第06本閱讀器，右上只有回修道地圖，影片為真正YouTube iframe，原經4張卡直接顯示，沒有恢復折疊或加影片下重複連結。製作說明只放繪本末頁。
+- `topSubtitle`黑字靠左、淺底，與圖片分層；6個章名照`artOverlay`原百分比／字級，以實際圖片框定位。END沿用六念圖，65%黑幕與兩行白字，不混入上緣字幕。原圖木牌完整保留。見`layout-audit.md`及逐幕橫直截圖。
+- 下緣經文與來源在圖片之外，橫直式皆能展開本頁經文；保留經文捲動、目錄、頁碼、返回／重載／旋轉記憶、快速翻頁設定。載入共同reader-controls.css及reader-restart.js，最後一頁回到第一頁。
+- 原有六本的全部檔案、插畫、共用CSS／JS與Pages設定保持基準位元組相同。
+
+## 經文與素材核對
+
+- 官方SuttaCentral sc-data固定commit `c7bba0f184e66904949d4918587975fb7fd7ec69`：SN55.1莊春江中譯、SA61、843、554，共4份原檔與雜湊／節錄已核對，資料見verified-sources.json。中文優先，SN另附巴利原文入口，SA各有台大獅子吼單經註解連結。
+- S06 05:51五分功德原句取SA554，正確標註下緣經名與來源；原分鏡仍保存影片沿標SN55.1的紀錄。S03依分鏡只顯示經名。
+- 已向作者提出兩項選擇，尚未收到回覆前保留原交接：S08「長者摩訶男」與SA554「訶梨聚落主長者」的人名差異（導讀已明說）；S06／07的正式圖JSON對應與影片背景分配相反（沒有擅自交換原圖）。這些差異詳列layout-audit.md，不宣稱影片圖面完全相同。後續依作者回覆可作獨立校訂，不覆寫原交接。
+
+## 驗證與交付
+
+- `python scripts/check-four-purities-six-recollections.py --verify-sources --screenshots`：390×844、844×390、768×1024、1024×768四尺寸，共380個逐頁狀態通過。核對全部字幕／經文、圖片尺寸／比例、章名中心小於1px誤差及cqw字級、邊界／按鍵避讓、同幕位置穩定、末頁重讀、目錄、快速翻頁、鍵盤、經文展開／放大文字捲動／來源往返、回導讀、重載與旋轉保留頁碼。
+- 新書架及兩個心智圖入口、既有六本開書／下一頁／回導讀皆通過；無本地HTTP或JavaScript錯誤。首頁CDN測試取系統CA驗證的實際公開回應交給Chromium，未關閉TLS驗證。
+- 導讀／閱讀器正式入口、PR與固定合併SHA ZIP會在交付訊息提供。逐幕試閱截圖與完整目錄ZIP方法：`docs/previews/four-purities-six-recollections/README.md`。
+- 實體iPad/Safari、外部YouTube播放與典籍服務站實際畫面未驗證。此工作環境未提供Notion工具，尚未寫入；待補記文字在`docs/releases/four-purities-six-recollections-notion.md`。
+
+---
+
 # 全繪本末頁重讀（2026-11-15）
 
 作者確認第06本介面，授權套用其餘五本。共用reader-restart.js依末頁頁碼將原下一頁按鈕改為回到第一頁，非末頁保留原操作；共用CSS在橫式為文字按鈕留出空間。06本保留原實作。故事、經文、圖像與頁數不變。手機與iPad橫直式驗證結果見本次PR。
