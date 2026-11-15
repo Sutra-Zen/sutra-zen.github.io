@@ -17,6 +17,9 @@ Maintain the SutraZen Buddhist learning website and its interactive picture book
 - Preserve the established 16:9 illustration style where applicable.
 - Maintain usability on iPad/iPhone, including portrait and landscape layouts.
 - Reuse established navigation, reading controls, and interaction patterns from existing books rather than introducing inconsistent controls.
+- For new readers, use the current book 06/07 caption-above / complete-artwork / scripture-below layout and its existing scripture dialog, menu and portrait/landscape controls. Paginate long narration without dropping text; do not replace this with a whole-scene sidebar reader.
+- Source sections use the shared source cards: scripture title, edition/translator, original Chinese/translated text button, annotated-guide or Pali-comparison button, provider labels and directly visible excerpts. Video screenshots are supplementary evidence, not replacements for scripture access.
+- End each book with the established editorial note explaining its actual Āgama/scripture basis and that interpretation follows the original scriptures, followed by the shared restart action. Keep「走入經藏的起點」without「溫柔」.
 - Do not let annotations obscure important artwork or scripture text.
 - Avoid adding unnecessary signposts, labels, or UI elements.
 

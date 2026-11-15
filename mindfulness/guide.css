@@ -23,3 +23,6 @@ tbody th { min-width:5.5em; font-size:1rem; }
 .chapter-grid strong { font-size:1.2rem; }
 .source-intro { margin-top:28px; }
 @media(max-width:480px) { .chapter-grid { grid-template-columns:1fr; } }
+
+.source-entry { position:relative; }
+.source-anchor { position:absolute; top:0; scroll-margin-top:24px; }

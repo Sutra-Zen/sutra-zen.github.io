@@ -1,0 +1,187 @@
+{
+  "commit": "c7bba0f184e66904949d4918587975fb7fd7ec69",
+  "files": [
+    {
+      "id": "sa621",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa601-700/sa621.html",
+      "path": "html_text/lzh/sutta/sa/sa601-700/sa621.html",
+      "sha256": "6d0f09251bd266cd32fcd2dd4cc145b6a3019b4a916fdba115d0187791914289",
+      "bytes": 3290,
+      "local": "canonical/sa621.html"
+    },
+    {
+      "id": "sa289",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa201-300/sa289.html",
+      "path": "html_text/lzh/sutta/sa/sa201-300/sa289.html",
+      "sha256": "8f60fd11473152a49ff301851c31c0cc4c76ddde37dc1cf4e6f758f01770e48a",
+      "bytes": 4233,
+      "local": "canonical/sa289.html"
+    },
+    {
+      "id": "sa262",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa201-300/sa262.html",
+      "path": "html_text/lzh/sutta/sa/sa201-300/sa262.html",
+      "sha256": "1b56f2c7174c176de5c0ceb05d83ddbafe1b2967576ef4764f8259ef41f335f1",
+      "bytes": 10493,
+      "local": "canonical/sa262.html"
+    },
+    {
+      "id": "ma98",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/ma/ma98.html",
+      "path": "html_text/lzh/sutta/ma/ma98.html",
+      "sha256": "19ccb01c01f44b5bd1f19914441846d08d60a33f7a159fa554f29f1c6fff8847",
+      "bytes": 25335,
+      "local": "canonical/ma98.html"
+    },
+    {
+      "id": "ma102",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/ma/ma102.html",
+      "path": "html_text/lzh/sutta/ma/ma102.html",
+      "sha256": "461b4e734fdc1990764ab68d079fd12e9f2f8e7d4983dc5c69f805db9bbf01da",
+      "bytes": 13561,
+      "local": "canonical/ma102.html"
+    },
+    {
+      "id": "an4.49",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/an/an4/an4.49.html",
+      "path": "html_text/zh/pli/sutta/an/an4/an4.49.html",
+      "sha256": "080131578375b865512b942486e5dc2cf29001baee386dd06f6c1e6945dd327c",
+      "bytes": 1919,
+      "local": "canonical/an4.49.html"
+    },
+    {
+      "id": "ea12.1",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/ea/ea12/ea12.1.html",
+      "path": "html_text/lzh/sutta/ea/ea12/ea12.1.html",
+      "sha256": "ced9b9f46ed4e7a1f498db526e8ae9f237249f56d59f29057959ae55dfe12124",
+      "bytes": 16793,
+      "local": "canonical/ea12.1.html"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ma98",
+      "title": "《中阿含經》第98經〈念處經〉",
+      "meta": "北傳漢譯 · 大正藏 T01，No.26 · 卷24",
+      "intro": "以身、覺（受）、心、法四念處為主軸，說明日常正知、觀呼吸、觀身與觀受，以及五蓋、七覺支的觀察。",
+      "original": "https://suttacentral.net/ma98/lzh/taisho",
+      "annotation": "https://buddhaspace.org/agama2/24.html",
+      "quoteIds": [
+        "Q02",
+        "Q03",
+        "Q05",
+        "Q06",
+        "Q07",
+        "Q08",
+        "Q09",
+        "Q10",
+        "Q11",
+        "Q13",
+        "Q14"
+      ],
+      "excerpts": [
+        "行則知行，住則知住，坐則知坐，臥則知臥，眠則知眠，寤則知寤，眠寤則知眠寤。",
+        "念入息即知念入息，念出息即知念出息，入息長即知入息長，出息長即知出息長，入息短即知入息短，出息短即知出息短；學一切身息入，學一切身息出，學止身行息入，學止口行息出。",
+        "云何觀覺如覺念處？比丘者，覺樂覺時，便知覺樂覺。覺苦覺時，便知覺苦覺。覺不苦不樂覺時，便知覺不苦不樂覺。",
+        "云何觀心如心念處？比丘者，有欲心知有欲心如真，無欲心知無欲心如真，有恚，無恚，有癡，無癡，有穢污，無穢污。有合，有散，有下，有高，有小，有大，修，不修，定，不定，有不解脫心知不解脫心如真，有解脫心知解脫心如真。",
+        "內實有念覺支知有念覺支如真，內實無念覺支知無念覺支如真，若未生念覺支而生者知如真，若已生念覺支便住不忘而不衰退，轉修增廣者知如真，如是法、精進、喜、息、定。比丘者，內實有捨覺支知有捨覺支如真，內實無捨覺支知無捨覺支如真，若未生捨覺支而生者知如真，若已生捨覺支便住不忘而不衰退，轉修增廣者知如真。如是比丘觀內法如法，觀外法如法，立念在法，有知有見，有明有達，是謂比丘觀法如法，謂七覺支。"
+      ]
+    },
+    {
+      "id": "sa621",
+      "title": "《雜阿含經》第621經",
+      "meta": "北傳漢譯 · 大正藏 T02，No.99",
+      "intro": "佛陀教導年少比丘修習四念處，精勤方便、不放逸，具正念與正智。",
+      "original": "https://suttacentral.net/sa621/lzh/taisho",
+      "annotation": "https://buddhaspace.org/agama/sub/621.html",
+      "quoteIds": [
+        "Q01"
+      ],
+      "excerpts": [
+        "此諸年少比丘當以四念處教令修習。云何為四？謂身身觀念住，精勤方便，不放逸行，正智正念，寂定於心，乃至知身；受、心、法法觀念住，精勤方便，不放逸行，正念正智，寂靜於心，乃至知法。"
+      ]
+    },
+    {
+      "id": "ea12.1",
+      "title": "《增壹阿含經》〈壹入道品第十二〉第一經",
+      "meta": "北傳漢譯 · 大正藏 T02，No.125",
+      "intro": "以四意止說明觀身、觀痛（受）、觀心與觀法，並觀察生起、滅盡及生滅。",
+      "original": "https://suttacentral.net/ea12.1/lzh/taisho",
+      "annotation": "https://buddhaspace.org/agama1/12.html",
+      "quoteIds": [
+        "Q12"
+      ],
+      "excerpts": [
+        "有一入道，淨眾生行，除去愁憂，無有諸惱，得大智慧，成泥洹證。所謂當滅五蓋，思惟四意止。",
+        "觀習法，觀盡法，并觀習盡之法，思惟法觀而自娛樂。"
+      ]
+    },
+    {
+      "id": "an4.49",
+      "title": "《增支部》4集49經〈顛倒經〉",
+      "meta": "南傳經典 · 增支部 · 莊春江中譯",
+      "intro": "列出把無常看成常、苦看成樂、無我看成我、不淨看成淨的四種顛倒，並說明相應的不顛倒。",
+      "original": "https://suttacentral.net/an4.49/zh/zhuang",
+      "pali": "https://suttacentral.net/an4.49/pli/ms",
+      "quoteIds": [
+        "Q04"
+      ],
+      "excerpts": [
+        "比丘們！有這四種顛倒想、顛倒心、顛倒見，哪四種呢？『以無常為常』是顛倒想、顛倒心、顛倒見；『以苦為樂』是顛倒想、顛倒心、顛倒見；『以無我為我』是顛倒想、顛倒心、顛倒見；『以不淨為淨』是顛倒想、顛倒心、顛倒見，比丘們！這是四種顛倒想、顛倒心、顛倒見。"
+      ]
+    },
+    {
+      "id": "sa289",
+      "title": "《雜阿含經》第289經",
+      "meta": "北傳漢譯 · 大正藏 T02，No.99",
+      "intro": "以獼猴攀捉枝條、放一取一，比喻心、意、識須臾轉變，並引導觀察緣起。",
+      "original": "https://suttacentral.net/sa289/lzh/taisho",
+      "annotation": "https://buddhaspace.org/agama/sub/289.html",
+      "quoteIds": [
+        "Q15"
+      ],
+      "excerpts": [
+        "彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。"
+      ]
+    },
+    {
+      "id": "sa262",
+      "title": "《雜阿含經》第262經",
+      "meta": "北傳漢譯 · 大正藏 T02，No.99",
+      "intro": "阿難向闡陀說明如實觀察世間集滅，離有、無二邊而見緣起中道。",
+      "original": "https://suttacentral.net/sa262/lzh/taisho",
+      "annotation": "https://buddhaspace.org/agama/sub/262.html",
+      "quoteIds": [
+        "Q16"
+      ],
+      "excerpts": [
+        "如實正觀世間集者，則不生世間無見，如實正觀世間滅，則不生世間有見。"
+      ]
+    },
+    {
+      "id": "ma102",
+      "title": "《中阿含經》第102經〈念經〉",
+      "meta": "北傳漢譯 · 大正藏 T01，No.26 · 卷25",
+      "intro": "分辨欲、恚、害念與無欲、無恚、無害念，以牧牛守田及收成後看守牛群的譬喻說明用心。",
+      "original": "https://suttacentral.net/ma102/lzh/taisho",
+      "annotation": "https://buddhaspace.org/agama2/25.html",
+      "quoteIds": [
+        "Q17",
+        "Q18"
+      ],
+      "excerpts": [
+        "是故牧牛兒執杖往遮。我亦如是，生欲念，不受、斷、除、吐，生恚念、害念，不受、斷、除、吐。所以者何？我見因此故，必生無量惡不善之法。",
+        "是故彼作是念：『我牛在群中。』我亦如是，生無欲念已，復生念向法次法；生無恚念、無害念已，復生念向法次法。所以者何？我不見因此生無量惡不善之法。"
+      ]
+    }
+  ],
+  "annotationVerification": "台大獅子吼直接請求受環境403限制；中阿含卷24／25已由CBETA XML確認，增壹依壹入道品12；沿用網站已採用的各部頁面格式，尚未驗證外站畫面或段落錨點。",
+  "originalTranscriptPolicy": "繪本保留原影片錄文；原典節錄只用於導讀，原稿異文不自動改寫。",
+  "transcriptDifferences": {
+    "Q05": "影片毛／痰與所核版本髦／膽等字有異；原錄文保留。",
+    "Q07": "影片碎糜／我此身與所核版本碎粖／今我此身等字有異；原錄文保留。",
+    "Q09": "影片樂無欲覺與所核版本樂無欲等列舉有異；原錄文保留。",
+    "Q13": "影片掉悔與所核版本調悔有異；原錄文保留。",
+    "Q14": "影片擇法與所核版本法有異；原錄文保留。"
+  }
+}
