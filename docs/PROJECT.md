@@ -56,3 +56,7 @@ All five readers load root `reader-controls.css`; future readers must include it
 ## Book 07 release (2026-11-15)
 
 `four-purities-six-recollections/` adds the seventh guide and reader from main `31ebc8679723ab9908f771436bc0563cc4b04270`, based on the author's ZIP. Eight original illustrations, 93 subtitle pages, a same-image closing page, and an editorial afterword make 95 pages. Six chapter labels and the two-line ending use the handoff's actual-image percentage coordinates; all original assets and six existing books remain unchanged. Uses shared guide styles, reader controls and last-page restart. The author explicitly authorized direct publication in this task. Verify the actual merge commit and successful Pages run before claiming it is live.
+
+## Author corrections (2026-11-15)
+
+Book 07 image assignments were confirmed reversed by the author: S06 uses IMG_0400.jpeg (sangha, deer/elephant/field), S07 uses IMG_0401.jpeg (white protective hull). Runtime assignments are recorded separately from the original handoff. All seven books' final sentence now ends「走入經藏的起點」, without「溫柔」. Book 07's requested explanatory paragraph was removed; scripture cards and original story content remain.

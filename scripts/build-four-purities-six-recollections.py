@@ -21,9 +21,11 @@ def compile_book():
         assert hashlib.sha256(raw).hexdigest() == a['sha256'], a['path']
     corrections_path = DOCS / 'editorial-corrections.json'
     corrections = json.loads(corrections_path.read_text()) if corrections_path.exists() else []
+    assignments = json.loads((DOCS / 'image-assignments.json').read_text())
     pages, scenes = [], []
     for scene in story['scenes']:
         end = scene['id'] == 'END'
+        asset = assignments.get(scene['id'], scene['asset'])
         scenes.append({'id': scene['id'], 'title': scene['title'], 'start': len(pages),
                        'topSubtitleLayout': {'align': 'left', 'color': 'black'},
                        'artOverlay': scene['artOverlay']})
@@ -40,8 +42,8 @@ def compile_book():
                     text = correction['replacement']
             pages.append({'scene': scene['id'], 'subtitle': number, 'atSec': cue['startSec'],
                           'title': scene['title'], 'lines': [text] if text else [],
-                          'image': '../../docs/four-purities-six-recollections/' + scene['asset'],
-                          'dimensions': [art[scene['asset']]['width'], art[scene['asset']]['height']],
+                          'image': '../../docs/four-purities-six-recollections/' + asset,
+                          'dimensions': [art[asset]['width'], art[asset]['height']],
                           'verse': '\n\n'.join(quote.get('blocks', [])),
                           'verseLabel': quote.get('label', ''),
                           'source': '../#' + quote['canon'].replace('.', '-') if quote else None,
@@ -56,7 +58,7 @@ def compile_book():
                       '為了讓讀者更親近佛法，我們以圖文並茂的方式，用白話語言說明經意。',
                       '然而，繪本的詮釋難免簡略，無法完全涵蓋原經的深義。解讀仍請以原經文為準。',
                       '我們誠摯地鼓勵讀者參閱原經文，細細品味佛陀的智慧與慈悲。',
-                      '也希望這本繪本能成為您走入經藏的溫柔起點。'],
+                      '也希望這本繪本能成為您走入經藏的起點。'],
                   'image': None, 'dimensions': None, 'verse': '', 'verseLabel': '', 'source': None,
                   'afterword': True})
     return '// Generated from the original handoff by scripts/build-four-purities-six-recollections.py\nconst BOOK = ' + json.dumps({

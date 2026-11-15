@@ -1,3 +1,15 @@
+# 圖片對應與七本結語修正（2026-11-15）
+
+作者已確認第07本來源圖放反：僧不壞淨S06改用IMG_0400.jpeg（合掌、象鹿與田地），聖戒成就S07改用IMG_0401.jpeg（白色光罩、望遠鏡）。原JPEG與原交接manifest保留，正式對應存image-assignments.json並由build腳本套用；章名百分比座標、字幕與經文不變。
+
+七本最後一句統一移除「溫柔」，改為「也希望這本繪本能成為您走入經藏的起點。」；六處無JS備援文字亦同步，八正道及第06／07本的產生資料來源同步，避免重建後還原舊文。僅改指定結語，其他故事文字保留。
+
+第07本導讀刪除作者指定的四入流分／四不壞淨及圖牌用語說明段落。原經卡與連結保留。
+
+針對S06／S07全部27個頁面狀態於手機／iPad四尺寸驗證圖片、章名、字幕與尺寸；另驗七本末頁結語和回到第一頁功能。原圖雜湊維持。實體Safari仍未測。發布後須核對Pages及正式檔案，提供固定merge SHA ZIP；Notion待補記在docs/releases/picture-book-copy-notion.md，尚未寫入。
+
+---
+
 # 第07本《四不壞淨與六念》（2026-11-15）
 
 作者本次明確授權直接上線。實作PR：https://github.com/rooneyflower-star/sutrazen-map/pull/19 。分支`feat/four-purities-six-recollections`從最新main `31ebc8679723ab9908f771436bc0563cc4b04270`建立。正式部署須核對實際合併SHA與Pages成功，不能以push成功代替。
