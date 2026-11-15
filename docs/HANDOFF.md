@@ -1,6 +1,6 @@
 # 第08本《四念處與四顛倒》實作與發布交接（2026-11-15）
 
-作者在第04包訊息明確授權「收齊你就可以做專頁和繪本了，可直接發佈」，取代舊交接提示中的先試閱限制。本次從最新main `24983232d11bc9e775641bf444bcbe59055fe1ad` 的實作分支 `feat/mindfulness-preview` 完成，原有七本及GitHub Pages設定保持不變。是否正式上線以PR實際合併SHA及相應Pages成功為準，交付時另提供固定SHA ZIP備份。
+作者在第04包訊息明確授權「收齊你就可以做專頁和繪本了，可直接發佈」，取代舊交接提示中的先試閱限制。本次從最新main `24983232d11bc9e775641bf444bcbe59055fe1ad` 的實作分支 `feat/mindfulness-preview` 完成，[PR #22](https://github.com/rooneyflower-star/sutrazen-map/pull/22)，原有七本及GitHub Pages設定保持不變。是否正式上線以PR實際合併SHA及相應Pages成功為準，交付時另提供固定SHA ZIP備份。
 
 ## 完整素材及內容
 

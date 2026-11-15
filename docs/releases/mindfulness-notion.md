@@ -15,4 +15,5 @@
 - 導讀：https://rooneyflower-star.github.io/sutrazen-map/mindfulness/
 - 繪本：https://rooneyflower-star.github.io/sutrazen-map/mindfulness/book/
 - 校稿清單：https://github.com/rooneyflower-star/sutrazen-map/blob/main/docs/mindfulness/REVIEW_TODO.md
-- 分支：feat/mindfulness-preview；實際PR、合併SHA、成功部署及固定SHA ZIP以本次交付訊息／PR紀錄為準。
+- PR：https://github.com/rooneyflower-star/sutrazen-map/pull/22
+- 分支：feat/mindfulness-preview；實際合併SHA、成功部署及固定SHA ZIP以本次交付訊息／PR紀錄為準。

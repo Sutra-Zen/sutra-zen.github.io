@@ -1,6 +1,6 @@
 # 《四念處與四顛倒》試閱與驗證
 
-分支 `feat/mindfulness-preview`，從main `24983232d11bc9e775641bf444bcbe59055fe1ad` 開始。作者在第04包訊息授權直接發布，取代原交接稿的先試閱限制；實際上線以PR合併及Pages部署為準。
+[實作PR #22](https://github.com/rooneyflower-star/sutrazen-map/pull/22)，分支 `feat/mindfulness-preview`，從main `24983232d11bc9e775641bf444bcbe59055fe1ad` 開始。作者在第04包訊息授權直接發布，取代原交接稿的先試閱限制；實際上線以PR合併及Pages部署為準。
 
 - [導讀入口](https://rooneyflower-star.github.io/sutrazen-map/mindfulness/)
 - [完整繪本](https://rooneyflower-star.github.io/sutrazen-map/mindfulness/book/)
