@@ -26,3 +26,6 @@ tbody th { min-width:5.5em; font-size:1rem; }
 
 .source-entry { position:relative; }
 .source-anchor { position:absolute; top:0; scroll-margin-top:24px; }
+.source-text .scripture-group { margin-top:24px; }
+.source-text .scripture-group h4 { margin:0 0 12px; color:#234f41; font-size:1.1rem; }
+.source-text .scripture-group h5 { margin:18px 0 6px; font-size:1rem; font-weight:650; }
