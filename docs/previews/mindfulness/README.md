@@ -1,6 +1,6 @@
 # 《四念處與四顛倒》試閱與驗證
 
-初版[PR #22](https://github.com/rooneyflower-star/sutrazen-map/pull/22)已發布。作者回饋後，從main `1d964bbd8d6c9d0c05aa725f36da1b44d8ffb078` 建立 `fix/mindfulness-consistent-reader`，改為與第06／07本相同的閱讀器與原經來源卡。實際修正版上線以新的PR合併及Pages部署為準。
+初版[PR #22](https://github.com/rooneyflower-star/sutrazen-map/pull/22)已發布。作者回饋後，從main `1d964bbd8d6c9d0c05aa725f36da1b44d8ffb078` 建立 `fix/mindfulness-consistent-reader`，[修正PR #23](https://github.com/rooneyflower-star/sutrazen-map/pull/23)，改為與第06／07本相同的閱讀器與原經來源卡。實際修正版上線以新的PR合併及Pages部署為準。
 
 - [導讀入口](https://rooneyflower-star.github.io/sutrazen-map/mindfulness/)
 - [完整繪本](https://rooneyflower-star.github.io/sutrazen-map/mindfulness/book/)
