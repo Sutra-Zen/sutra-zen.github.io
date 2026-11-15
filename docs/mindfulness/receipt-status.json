@@ -2,7 +2,8 @@
   "receivedPackages": [
     "SutraZen_01_Documents_Illustrations_A.zip",
     "SutraZen_02_Illustrations_B.zip",
-    "SutraZen_03_References_Subtitles_A.zip"
+    "SutraZen_03_References_Subtitles_A.zip",
+    "SutraZen_04_Subtitles_B.zip"
   ],
   "expectedPackages": [
     "SutraZen_01_Documents_Illustrations_A.zip",
@@ -14,14 +15,8 @@
   "scenes": 25,
   "quotes": 18,
   "paragraphMappings": 27,
-  "verifiedFiles": 86,
+  "verifiedFiles": 91,
   "expectedFiles": 91,
-  "missingFiles": [
-    "references/subtitle-proof/b-sheet0.png",
-    "references/subtitle-proof/b-sheet1.png",
-    "references/subtitle-proof/b-sheet2.png",
-    "references/subtitle-proof/b-sheet3.png",
-    "references/subtitle-proof/b-sheet4.png"
-  ],
-  "status": "waiting for package 04; no website implementation or publication yet"
+  "missingFiles": [],
+  "status": "all four packages complete and verified; direct publication authorized 2026-11-15"
 }

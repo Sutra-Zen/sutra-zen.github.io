@@ -51,3 +51,11 @@
 - 影片05:51僧不壞淨後半雖沿標SN55.1，「具足戒、定、慧、解脫、解脫知見」的逐字引文取SA554，閱讀器切換至正確經名與來源卡；原交接轉錄保留，未把影片摘要當原經直接引文。
 - SA554的病者是訶梨聚落主長者、開示者摩訶迦旃延，原字幕「長者摩訶男」的差異在導讀明說；原93筆影片紀錄未自動改寫。若作者後續確認修正，請用獨立editorial-corrections.json記錄，不覆寫原交接資料。
 - 註解導讀： https://buddhaspace.org/agama/sub/61.html 、 https://buddhaspace.org/agama/sub/843.html 、 https://buddhaspace.org/agama/sub/554.html 。這些服務站的實際頁面及YouTube播放未於本環境驗證，不能把官方GitHub原典核對稱為外站畫面驗收。
+
+## 四念處與四顛倒（第08本，2026-11-15）
+
+- 本次內容依作者新上傳的四個ZIP，不依賴GitHub未傳完的舊交接。91個原始檔案逐一符合 `docs/mindfulness/SPLIT_MANIFEST.json` 的大小與SHA-256；25張原圖（24張實際使用、1張備用）及經文證據影格均可解碼。
+- 18筆引文逐字取自 `scripture-catalog.json` 的 `videoText`，來源名稱保留 `sourceLabelAsVideo`，原始影片經文截圖以 `evidenceFrames` 連結供對讀。本次核對的是交接稿／影片證據，不宣稱已完成逐經外部版本校勘；未猜補經號、譯者、註解或經典網址。S23／S24保留「因品念經」，不改成「因品念處經」。
+- `scriptureRefs.narrationParagraphs` 共27組，逐段配對；S10兩組引文分開，六界引文保留空界、識界。S18補充Q15及S20承接Q13明標，不冒充當幕原片下方字幕。校稿提醒與敘事詮釋分開記錄，見 `REVIEW_TODO.md` 與原始兩份REVIEW文件。
+- 論文：Matthew A. Killingsworth、Daniel T. Gilbert, *A Wandering Mind Is an Unhappy Mind*, Science (2010), DOI https://doi.org/10.1126/science.1192439 。實際讀取包內 `references/A_Wandering_Mind_Is_an_Unhappy_Mind.pdf`，核對2250名成人與46.9%心智遊移的研究描述；導讀明示相關性，不把研究當作所有故事詮釋的因果證明。
+- 導讀影片沿用基準網站既有#video-08 `EQjXvgt5OOA`，未虛構包內A／B片段各自的影片網址。

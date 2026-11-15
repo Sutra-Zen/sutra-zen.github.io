@@ -1,0 +1,43 @@
+{
+  "baseline": "24983232d11bc9e775641bf444bcbe59055fe1ad",
+  "pageStates": 125,
+  "paragraphs": 92,
+  "quoteMappings": 27,
+  "quoteIds": 18,
+  "viewports": [
+    {
+      "width": 360,
+      "height": 800,
+      "scenes": 25,
+      "controls": "passed"
+    },
+    {
+      "width": 800,
+      "height": 360,
+      "scenes": 25,
+      "controls": "passed"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "scenes": 25,
+      "controls": "passed"
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "scenes": 25,
+      "controls": "passed"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "scenes": 25,
+      "controls": "passed"
+    }
+  ],
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "realIPadSafari": "not tested",
+  "legacyReaders": "all seven open/next/return passed"
+}

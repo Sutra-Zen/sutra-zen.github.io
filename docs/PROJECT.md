@@ -60,3 +60,9 @@ All five readers load root `reader-controls.css`; future readers must include it
 ## Author corrections (2026-11-15)
 
 Book 07 image assignments were confirmed reversed by the author: S06 uses IMG_0400.jpeg (sangha, deer/elephant/field), S07 uses IMG_0401.jpeg (white protective hull). Runtime assignments are recorded separately from the original handoff. All seven books' final sentence now ends「走入經藏的起點」, without「溫柔」. Book 07's requested explanatory paragraph was removed; scripture cards and original story content remain.
+
+## Book 08: 四念處與四顛倒 (2026-11-15)
+
+`mindfulness/` and `mindfulness/book/` implement the author's complete four-package v3 handoff in `docs/mindfulness/`: 25 scenes, 92 actual narration paragraphs, 18 scripture records and 27 paragraph mappings. Shelf #08 and the existing 四念處／四顛倒 map dialogs are connected; eight books are now readable and six remain locked. All seven existing books, shared styles/scripts and Pages configuration remain unchanged from main `24983232d11bc9e775641bf444bcbe59055fe1ad`.
+
+The reader retains the existing control layout and shared touch/restart behavior. This handoff pairs long narration with scriptures at paragraph-group boundaries, so each scene is one page with a scrollable reading column. Image overlays use top-left percentages of the actual uncropped image, including in the zoom dialog. Narrow summary pages use readable text cards. Full source assets, PDF, reference frames and separate author proofreading notes are preserved. The latest message accompanying package04 explicitly authorizes direct publication and supersedes the old packet's preview-only prompt. Verify the merge SHA, Pages run and public files before claiming publication.
