@@ -1,3 +1,20 @@
+# 第09本《四正勤》（2026-11-15）
+
+從最新main `cd1cb6f743d773afe9ea22c6c548384c7760ef75` 建立feat/right-effort，[PR #25](https://github.com/rooneyflower-star/sutrazen-map/pull/25)。已讀AGENTS、PROJECT、HANDOFF、SOURCES、完整兩包交接README／CODEX_PROMPT／NARRATION_REVIEW／SOURCE_NOTES／storyboard／catalog／manifest，並檢查最近四念處的實際實作。作者本次明確授權直接發布。
+
+- 兩包已安全合併至docs/right-effort/；33項清單檔案的大小與SHA-256、26張圖像解碼與尺寸核對通過，無缺件。原JSON、9張正式圖、2張備用圖、14張參考影格／出處圖及片尾影格完整保留。Notion匯出只供追溯，不依賴外部Notion媒體。
+- `right-effort/`導讀與`right-effort/book/`閱讀器接上書架09及原有四正勤心智圖窗；14本中9可讀、5鎖定。沿用原#video-09的RqWhPhhP8eY；全部14支影片不變。
+- 沿用最新四念處的翻頁／目錄／頁碼／本頁經文／來源返回／圖片放大／重讀及共用reader-controls.css、reader-restart.js；本次作者明確要求圖下口白及經文，故只在新書將文字帶放到完整圖片之下，取代專案一般的上方字幕位置，沒有修改舊書或另做側欄。
+- 11幕、80段完整口白依次逐頁顯示，再接S11原片尾閱讀說明，共81頁。13筆引文逐段配對，S02 Q02→Q03、S04 Q05→Q06→Q05、S05 Q07→Q08→Q07、S06 Q09→Q10→Q09明確核對；S10原片無下緣引文，不額外猜配。
+- 5組artOverlay（含S10四行）照leftPct／topPct／widthPct／fontSizeCqw，以未裁切圖片左上定位、居中對齊、無translate。原圖已有的六根、四格、六格文字保留且不另加標籤。只有S10有0.6暗幕；圖片及標籤在放大視窗亦保持比例。與交接影格並列核對位置。
+- 導讀沿用共同header／guide-ui、封面、影片及6張原經來源卡。官方sc-data固定版本的SA877、879、254、MA95、SN49.1–12、49.23–34已實際讀取與重新核對雜湊，原檔及節錄見verified-sources.json／canonical/。SA877／879經名依交接更正。Q12影片未標經號，公開經名不加猜測數字；所讀MA95選文與卷23相符，故提供其原典連結。合刊資料沒有全部配入各幕。
+- 影片錄文不自動改寫，異文與S07／08詮釋留REVIEW_TODO。S11原片只稱阿含，另附相應部依據及「解讀仍請以原經文為準」編輯說明；末句依作者既有指示移除「溫柔」，原textCard與end.jpg不變。未把編輯說明計入80段口白。
+- `python scripts/check-right-effort.py --screenshots --verify-sources`：360×800、800×360、768×1024、1024×768、1440×900，共405個逐頁狀態通過。全部口白／引文／切換、圖片比例／標籤座標／遮罩、文字在圖下及無遮圖、無水平溢出、控制位置與四念處相同、目錄、翻頁、快速點按、經文視窗／捲動／來源、放大、旋轉／重載／返回保留頁碼、末頁重讀及八本舊入口通過。舊八本、共用檔案及Pages設定與基準逐位元組相同。
+- 截圖及驗證見docs/previews/right-effort/；實體iPad Safari、外部影片及註解站畫面尚未驗證。發布後應確認實際合併SHA與Pages及正式檔案，提供固定SHA完整ZIP，不以push成功代替部署成功。
+- 此工作環境未提供Notion工具，尚未寫入；待補記文字在docs/releases/right-effort-notion.md。
+
+---
+
 # 第08本原經節錄分類與定位連結（2026-11-15）
 
 從main `7a5ac6131d2d4e437f7686915c94f5dec7784265` 建立 `fix/mindfulness-source-excerpts`。依作者指示，移除專頁最後的「影片引文來源影格」卡，保留研究論文PDF／DOI及repository內全部原始影格，並將影格用途記入 `docs/releases/mindfulness-excerpts-notion.md`。此環境未提供Notion工具，尚未寫入。

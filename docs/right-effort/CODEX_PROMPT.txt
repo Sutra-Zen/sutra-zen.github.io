@@ -1,0 +1,11 @@
+請在 rooneyflower-star/sutrazen-map 既有專案中，製作「四正勤」主題專頁及繪本。先讀專案 AGENTS.md、現有文件與最近完成的四念處繪本，沿用導覽、視覺風格及橫直向版型。
+
+將兩份ZIP解壓至同一目錄，合併 SutraZen_Right_Effort_Handoff 資料夾。先閱讀 README.md、docs/NARRATION_REVIEW.md、docs/SOURCE_NOTES.md，再讀 storyboard.json、scripture-catalog.json、asset-manifest.json。
+
+依11幕順序呈現，使用assets原圖，alternates是備用版本。narration的80段完整口白為主要敘事，保留全部段落。依scriptureRefs.narrationParagraphs把經文卡放到對應段落組之後，來源名及引文預設可見，尤其落實S02、S04、S05、S06的經文切換。
+
+artOverlay是圖內教學疊字，必須使用leftPct、topPct、widthPct及fontSizeCqw相對圖片容器定位，anchor為左上。四個主題字維持各幕指定位置。S10加深色遮罩與四行白字。原圖已有的六根、四格、六格文字保留，避免重複疊字。影片上緣口白與下緣經文在網頁使用圖下閱讀區。圖片維持完整比例，橫直向都需檢查文字位置與按鍵。
+
+來源截圖誤植的《中阿含經》877、879已在SOURCE_NOTES更正為《雜阿含經》。其他尚未外部校勘的項目保留註記，勿自行編造經號。主題導讀與引用解釋須能追溯到提供資料。
+
+完成後執行專案要求的檢查，檢查手機與iPad橫直向、上一頁下一頁、目錄及返回主題入口，提供可檢查的預覽與變更摘要。

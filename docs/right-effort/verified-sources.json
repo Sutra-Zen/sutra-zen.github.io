@@ -1,0 +1,148 @@
+{
+  "commit": "c7bba0f184e66904949d4918587975fb7fd7ec69",
+  "files": [
+    {
+      "id": "sa877",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa801-900/sa877.html",
+      "path": "html_text/lzh/sutta/sa/sa801-900/sa877.html",
+      "sha256": "44baf67ed6861d430e0c94525d19aa5c4c391e7f5485b6b03d9053a53e7dfd82",
+      "local": "canonical/sa877.html"
+    },
+    {
+      "id": "sa879",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa801-900/sa879.html",
+      "path": "html_text/lzh/sutta/sa/sa801-900/sa879.html",
+      "sha256": "4deafaf483d1aec41f6ee809803a399e04d86ee5d0e6d6b3b93672991acc7261",
+      "local": "canonical/sa879.html"
+    },
+    {
+      "id": "sa254",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa201-300/sa254.html",
+      "path": "html_text/lzh/sutta/sa/sa201-300/sa254.html",
+      "sha256": "7f4f553ca9d9da521d300001ccb0c63c75e331cd1e03b11daef24c7c14a98bf0",
+      "local": "canonical/sa254.html"
+    },
+    {
+      "id": "ma95",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/ma/ma95.html",
+      "path": "html_text/lzh/sutta/ma/ma95.html",
+      "sha256": "4621f595a41b9de34c80508fa68c71839b159c66bea4c86160c75bae3b6bb243",
+      "local": "canonical/ma95.html"
+    },
+    {
+      "id": "sn49.1-12",
+      "path": "html_text/zh/pli/sutta/sn/sn49/sn49.1-12.html",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/sn/sn49/sn49.1-12.html",
+      "sha256": "8dc1fae4243dfe61f001f363ff6b596af94b9518dea2e85389bc4570b0eb5aaa",
+      "local": "canonical/sn49.1-12.html"
+    },
+    {
+      "id": "sn49.23-34",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/sn/sn49/sn49.23-34.html",
+      "path": "html_text/zh/pli/sutta/sn/sn49/sn49.23-34.html",
+      "sha256": "7887ea6ed4c844493111d1e4fe2e5503aa96196d86385555ac24593706ae5353",
+      "local": "canonical/sn49.23-34.html"
+    }
+  ],
+  "sources": [
+    {
+      "id": "sa877",
+      "title": "《雜阿含經》第877經",
+      "meta": "北傳漢譯 · 大正藏 T02，No.99",
+      "intro": "分別說明斷斷、律儀斷、隨護斷與修斷，對照斷惡、防惡、生善與增善的精進方向。",
+      "original": "https://suttacentral.net/sa877/lzh/taisho",
+      "annotation": "https://buddhaspace.org/agama/sub/877.html",
+      "quoteIds": [
+        "Q03",
+        "Q05",
+        "Q07",
+        "Q09"
+      ],
+      "excerpts": [
+        "有四正斷。何等為四？一者斷斷，二者律儀斷，三者隨護斷，四者修斷。云何為斷斷？謂比丘亦已起惡不善法斷，生欲、方便、精勤、心攝受，是為斷斷。云何律儀斷？未起惡不善法不起，生欲、方便、精勤、攝受，是名律儀斷。云何隨護斷？未起善法令起，生欲、方便、精勤攝受，是名隨護斷。云何修斷？已起善法增益修習，生欲、方便、精勤、攝受，是為修斷。"
+      ]
+    },
+    {
+      "id": "sa879",
+      "title": "《雜阿含經》第879經",
+      "meta": "北傳漢譯 · 大正藏 T02，No.99",
+      "intro": "四種正斷的另一種說明，包含善護六根、守護三昧相不令退沒，以及修四念處。",
+      "original": "https://suttacentral.net/sa879/lzh/taisho",
+      "annotation": "https://buddhaspace.org/agama/sub/879.html",
+      "quoteIds": [
+        "Q04",
+        "Q06",
+        "Q08",
+        "Q10"
+      ],
+      "excerpts": [
+        "云何斷斷？若比丘已起惡不善法斷，生欲、方便、精勤、攝受；未起惡不善法不起，生欲、方便、精勤、攝受；未生善法令起、生欲、方便、精勤、攝受；已生善法增益修習，生欲、方便、精勤、攝受，是名斷斷。",
+        "云何律儀斷？若比丘善護眼根，隱密、調伏、進向；如是耳、鼻、舌、身、意根善護、隱密、調伏、進向，是名律儀斷。云何隨護斷？若比丘於彼彼真實三昧相善守護持，所謂青瘀相、脹相、膿相、壞相、食不盡相，修習守護，不令退沒，是名隨護斷。云何修斷？若比丘修四念處等，是名修斷。"
+      ]
+    },
+    {
+      "id": "sn49.1-12",
+      "title": "《相應部》49.1–12〈東方等經〉",
+      "meta": "南傳經典 · 正勤相應 · 莊春江中譯",
+      "intro": "以恆河向東流的譬喻說明修習四正勤、傾向涅槃，並列出已生善法存續、增加與修習圓滿的方向。",
+      "original": "https://suttacentral.net/sn49.1-12/zh/zhuang",
+      "pali": "https://suttacentral.net/sn49.1/pli/ms",
+      "quoteIds": [
+        "Q01",
+        "Q11"
+      ],
+      "excerpts": [
+        "比丘們！有這四正勤，哪四個呢？比丘們！這裡，比丘為了未生起的惡不善法之不生起而生欲、努力、生起活力、發心、勤奮；為了已生起的惡不善法之捨斷而生欲、努力、生起活力、發心、勤奮；為了未生起的善法之生起而生欲、努力、生起活力、發心、勤奮；為了已生起的善法之存續、不消失、增加、擴大、圓滿修習而生欲、努力、生起活力、發心、勤奮，比丘們！這些是四正勤。比丘們！猶如恒河向東低斜、向東傾斜、向東坡斜。同樣的，比丘們！修習四正勤、多修習四正勤的比丘向涅槃低斜、向涅槃傾斜、向涅槃坡斜。"
+      ]
+    },
+    {
+      "id": "sn49.23-34",
+      "title": "《相應部》49.23–24｜依戒修習四正勤",
+      "meta": "南傳經典 · 正勤相應 · 莊春江中譯",
+      "intro": "以依止土地從事力量所作的工作，比喻依止戒、住立於戒後修習四正勤。",
+      "original": "https://suttacentral.net/sn49.23-34/zh/zhuang",
+      "pali": "https://suttacentral.net/sn49.23/pli/ms",
+      "quoteIds": [
+        "Q02"
+      ],
+      "excerpts": [
+        "比丘們！猶如當任何以力量所作的工作被作時，它們全都依止於土地後，住立於土地後，這樣，這些以力量所作的工作被作。同樣的，比丘們！比丘依止於戒後，住立於戒後，修習四正勤、多修習四正勤。"
+      ]
+    },
+    {
+      "id": "ma95",
+      "title": "《中阿含經》〈穢品住法經〉",
+      "meta": "北傳漢譯 · 大正藏 T01，No.26 · 卷23",
+      "intro": "觀察自己多行惡不善法或多行善法，依觀察而精勤修習，保持正念正智。",
+      "original": "https://suttacentral.net/ma95/lzh/taisho",
+      "annotation": "https://buddhaspace.org/agama2/23.html",
+      "quoteIds": [
+        "Q12"
+      ],
+      "excerpts": [
+        "若比丘觀時，則知我多行增伺、瞋恚心、睡眠纏、調貢高、疑惑、身諍、穢污心、不信、懈怠、無念、無定、多行惡慧者，彼比丘欲滅此惡不善法故，便以速求方便，學極精勤，正念正智，忍不令退。猶人為火燒頭、燒衣，急求方便救頭、救衣。",
+        "若比丘觀時，則知我多行無貪伺、無瞋恚心、無睡眠纏、無調貢高、無疑惑、無身諍、無穢污心、有信、有進、有念、有定、多行無惡慧者，彼比丘欲住此善法，不忘、不退修行廣布故，便以速求方便，學極精勤，正念正智，忍不令退。"
+      ]
+    },
+    {
+      "id": "sa254",
+      "title": "《雜阿含經》第254經",
+      "meta": "北傳漢譯 · 大正藏 T02，No.99",
+      "intro": "以調琴說明精進不宜過急或過緩，應平等修習攝受。",
+      "original": "https://suttacentral.net/sa254/lzh/taisho",
+      "annotation": "https://buddhaspace.org/agama/sub/254.html",
+      "quoteIds": [
+        "Q13"
+      ],
+      "excerpts": [
+        "精進太急，增其掉悔，精進太緩，令人懈怠，是故汝當平等修習攝受，莫著、莫放逸、莫取相。"
+      ]
+    }
+  ],
+  "notes": [
+    "影片13筆錄文不自動改寫；導讀節錄取核對的原典版本。",
+    "Q12影片未標經號，公開經名保持穢品住法經；經文與官方MA95核對，連結用實際讀取的原檔對應。卷23由CBETA XML確認。",
+    "SN49.1中譯合刊於49.1–12，SN49.23–24中譯合刊於49.23–34；每頁仍依分鏡配對，不將合刊所有經套入各幕。",
+    "部分影片措辭與官方中譯有異，保留原錄文供校稿。台大獅子吼服務站呈現與外部影片未驗證。"
+  ]
+}
