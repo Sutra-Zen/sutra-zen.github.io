@@ -1,6 +1,7 @@
 {
   "receivedPackages": [
-    "SutraZen_01_Documents_Illustrations_A.zip"
+    "SutraZen_01_Documents_Illustrations_A.zip",
+    "SutraZen_02_Illustrations_B.zip"
   ],
   "expectedPackages": [
     "SutraZen_01_Documents_Illustrations_A.zip",
@@ -12,23 +13,9 @@
   "scenes": 25,
   "quotes": 18,
   "paragraphMappings": 27,
-  "verifiedFiles": 18,
+  "verifiedFiles": 32,
   "expectedFiles": 91,
   "missingFiles": [
-    "assets/B403B03F-8A20-4FBA-AB70-792401ED5DFA.jpeg",
-    "assets/B8B53DDC-3F80-45AF-A76C-09EBC836A630.jpeg",
-    "assets/BD74B990-D46B-4DB8-9D64-049D9A0B2118.png",
-    "assets/C2350C0A-3A01-42DD-95F1-346029469087.png",
-    "assets/CED3CE88-8343-4D7A-870F-4B2FAD34E1CA.png",
-    "assets/D36D3E3A-5B66-4701-B27C-42DF12C06155.png",
-    "assets/D86791B4-6640-4FD4-BA5D-EF3E04B87F97.png",
-    "assets/E91F2803-66D8-4CEE-A752-EB17F52DDBA9.png",
-    "assets/F90ACA7A-8983-456B-B4FC-7AC1EE4CB55D.jpeg",
-    "assets/IMG_0527.jpeg",
-    "assets/IMG_0528.jpeg",
-    "assets/IMG_0532.jpeg",
-    "assets/IMG_0541.jpeg",
-    "assets/IMG_0589.jpeg",
     "references/A_Wandering_Mind_Is_an_Unhappy_Mind.pdf",
     "references/C242B652-2589-40D2-80E8-0896F1C50CC0.jpeg",
     "references/a001.jpg",
@@ -89,5 +76,5 @@
     "references/subtitle-proof/b-sheet3.png",
     "references/subtitle-proof/b-sheet4.png"
   ],
-  "status": "waiting for packages 02, 03, 04; no website implementation or publication yet"
+  "status": "waiting for packages 03 and 04; all storyboard illustration paths are present; no website implementation or publication yet"
 }
