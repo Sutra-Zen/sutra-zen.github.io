@@ -1,6 +1,6 @@
 # 第07本《四不壞淨與六念》（2026-11-15）
 
-作者本次明確授權直接上線。分支`feat/four-purities-six-recollections`從最新main `31ebc8679723ab9908f771436bc0563cc4b04270`建立。正式部署須核對實際合併SHA與Pages成功，不能以push成功代替。
+作者本次明確授權直接上線。實作PR：https://github.com/rooneyflower-star/sutrazen-map/pull/19 。分支`feat/four-purities-six-recollections`從最新main `31ebc8679723ab9908f771436bc0563cc4b04270`建立。正式部署須核對實際合併SHA與Pages成功，不能以push成功代替。
 
 ## 完成實作
 

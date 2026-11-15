@@ -1,6 +1,6 @@
 # 《四不壞淨與六念》試閱與核對
 
-分支：`feat/four-purities-six-recollections`。作者已授權本次直接發布；是否上線，以PR實際合併SHA及Pages成功為準。
+[實作PR #19](https://github.com/rooneyflower-star/sutrazen-map/pull/19)，分支：`feat/four-purities-six-recollections`。作者已授權本次直接發布；是否上線，以PR實際合併SHA及Pages成功為準。
 
 - 導讀入口：`four-purities-six-recollections/`
 - 閱讀器：`four-purities-six-recollections/book/`
