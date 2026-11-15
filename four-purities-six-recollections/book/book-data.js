@@ -1263,7 +1263,7 @@ const BOOK = {
       "lines": [
         "這第三股讓我們無比安心的力量，是對僧團的深深敬意與信任的「僧不壞淨」。"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0401.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
       "dimensions": [
         1376,
         768
@@ -1282,7 +1282,7 @@ const BOOK = {
       "lines": [
         "不過，這裡說的僧團，指的不是普通的旅人，"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0401.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
       "dimensions": [
         1376,
         768
@@ -1301,7 +1301,7 @@ const BOOK = {
       "lines": [
         "而是那些已經成功走在解脫道上的前輩們。"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0401.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
       "dimensions": [
         1376,
         768
@@ -1320,7 +1320,7 @@ const BOOK = {
       "lines": [
         "他們聽從了佛陀的導航，不偏不倚、誠實且正直地航行，"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0401.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
       "dimensions": [
         1376,
         768
@@ -1339,7 +1339,7 @@ const BOOK = {
       "lines": [
         "是「善向、正向、直向、等向」的實踐者。"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0401.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
       "dimensions": [
         1376,
         768
@@ -1358,7 +1358,7 @@ const BOOK = {
       "lines": [
         "這群學長姐中，有的剛進入聖流，有的已經完全覺悟，"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0401.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
       "dimensions": [
         1376,
         768
@@ -1377,7 +1377,7 @@ const BOOK = {
       "lines": [
         "總共有四個階段、八種層次的境界，他們就是「四雙八輩」聖弟子！"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0401.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
       "dimensions": [
         1376,
         768
@@ -1396,7 +1396,7 @@ const BOOK = {
       "lines": [
         "他們的小船裝滿了「戒律、禪定與智慧」，"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0401.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
       "dimensions": [
         1376,
         768
@@ -1415,7 +1415,7 @@ const BOOK = {
       "lines": [
         "早就掙脫了煩惱的麻繩，獲得了真正的自由與清晰的視野。"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0401.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
       "dimensions": [
         1376,
         768
@@ -1434,7 +1434,7 @@ const BOOK = {
       "lines": [
         "看著他們安穩前進的背影，我們心裡會生起莫大的勇氣："
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0401.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
       "dimensions": [
         1376,
         768
@@ -1453,7 +1453,7 @@ const BOOK = {
       "lines": [
         "「原來這條航線是真的，原來抵達彼岸是做得到的！」"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0401.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
       "dimensions": [
         1376,
         768
@@ -1472,7 +1472,7 @@ const BOOK = {
       "lines": [
         "當我們帶著恭敬的心，向這群充滿智慧的聖者合掌致敬、學習與分享時，"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0401.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
       "dimensions": [
         1376,
         768
@@ -1491,7 +1491,7 @@ const BOOK = {
       "lines": [
         "就像是把最珍貴的善意種子，輕輕播種在世界上最肥沃的土壤裡。"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0401.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
       "dimensions": [
         1376,
         768
@@ -1510,7 +1510,7 @@ const BOOK = {
       "lines": [
         "他們，正是這世間能讓善意結出最豐碩果實的「無上福田」。"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0401.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
       "dimensions": [
         1376,
         768
@@ -1529,7 +1529,7 @@ const BOOK = {
       "lines": [
         "最後，這股讓內心徹底安定的力量，是我們親自守護的「聖戒成就」。"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/IMG_0401.jpeg",
       "dimensions": [
         1376,
         768
@@ -1548,7 +1548,7 @@ const BOOK = {
       "lines": [
         "戒律，並不是限制自由的鎖鏈，而是這艘船最堅固、最可靠的船身。"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/IMG_0401.jpeg",
       "dimensions": [
         1376,
         768
@@ -1567,7 +1567,7 @@ const BOOK = {
       "lines": [
         "這艘船的木材是「無毀壞、無瑕疵」的，沒有任何裂縫，"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/IMG_0401.jpeg",
       "dimensions": [
         1376,
         768
@@ -1586,7 +1586,7 @@ const BOOK = {
       "lines": [
         "所以煩惱的苦水永遠無法滲透進來；"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/IMG_0401.jpeg",
       "dimensions": [
         1376,
         768
@@ -1605,7 +1605,7 @@ const BOOK = {
       "lines": [
         "它是「無污點、無雜色」的，讓我們能挺起胸膛，活得光明磊落。"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/IMG_0401.jpeg",
       "dimensions": [
         1376,
         768
@@ -1624,7 +1624,7 @@ const BOOK = {
       "lines": [
         "佛陀說，這是一種「自由」的戒，"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/IMG_0401.jpeg",
       "dimensions": [
         1376,
         768
@@ -1643,7 +1643,7 @@ const BOOK = {
       "lines": [
         "因為我們不再被壞習慣拉扯，也不再被罪惡感束縛。"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/IMG_0401.jpeg",
       "dimensions": [
         1376,
         768
@@ -1662,7 +1662,7 @@ const BOOK = {
       "lines": [
         "這份自律與清淨，連最有智慧的人都會為你拍手稱讚。"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/IMG_0401.jpeg",
       "dimensions": [
         1376,
         768
@@ -1681,7 +1681,7 @@ const BOOK = {
       "lines": [
         "我們持守它，並不是為了交換什麼獎勵，"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/IMG_0401.jpeg",
       "dimensions": [
         1376,
         768
@@ -1700,7 +1700,7 @@ const BOOK = {
       "lines": [
         "而是因為唯有這份不心虛的平靜，能讓心像平靜的湖面一樣，"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/IMG_0401.jpeg",
       "dimensions": [
         1376,
         768
@@ -1719,7 +1719,7 @@ const BOOK = {
       "lines": [
         "導向「定境」的深處。"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/IMG_0401.jpeg",
       "dimensions": [
         1376,
         768
@@ -1738,7 +1738,7 @@ const BOOK = {
       "lines": [
         "當這四股力量，佛、法、僧、戒，在我們心裡匯聚成這座金色的防護罩時，"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/IMG_0401.jpeg",
       "dimensions": [
         1376,
         768
@@ -1757,7 +1757,7 @@ const BOOK = {
       "lines": [
         "不論外面的風浪再大，這艘小船都已經獲得了永遠的平安。"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/IMG_0401.jpeg",
       "dimensions": [
         1376,
         768
@@ -2004,7 +2004,7 @@ const BOOK = {
         "為了讓讀者更親近佛法，我們以圖文並茂的方式，用白話語言說明經意。",
         "然而，繪本的詮釋難免簡略，無法完全涵蓋原經的深義。解讀仍請以原經文為準。",
         "我們誠摯地鼓勵讀者參閱原經文，細細品味佛陀的智慧與慈悲。",
-        "也希望這本繪本能成為您走入經藏的溫柔起點。"
+        "也希望這本繪本能成為您走入經藏的起點。"
       ],
       "image": null,
       "dimensions": null,
