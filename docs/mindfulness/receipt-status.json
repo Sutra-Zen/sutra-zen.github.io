@@ -1,0 +1,22 @@
+{
+  "receivedPackages": [
+    "SutraZen_01_Documents_Illustrations_A.zip",
+    "SutraZen_02_Illustrations_B.zip",
+    "SutraZen_03_References_Subtitles_A.zip",
+    "SutraZen_04_Subtitles_B.zip"
+  ],
+  "expectedPackages": [
+    "SutraZen_01_Documents_Illustrations_A.zip",
+    "SutraZen_02_Illustrations_B.zip",
+    "SutraZen_03_References_Subtitles_A.zip",
+    "SutraZen_04_Subtitles_B.zip"
+  ],
+  "version": 3,
+  "scenes": 25,
+  "quotes": 18,
+  "paragraphMappings": 27,
+  "verifiedFiles": 91,
+  "expectedFiles": 91,
+  "missingFiles": [],
+  "status": "all four packages complete and verified; direct publication authorized 2026-11-15"
+}

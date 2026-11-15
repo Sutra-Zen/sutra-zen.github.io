@@ -1,0 +1,3 @@
+請先完整閱讀README.md、NARRATION_REVIEW.md，再依storyboard.json與asset-manifest.json製作四念處與四顛倒專頁。每幕narration是原片口白字幕轉錄，完整用作主要敘事；webCopy只作摘要，不能替代口白。使用assets內原圖與references內疊字影格；artOverlay依原圖百分比定位，不是頁首字幕。沿用既有繪本操作與橫直向版型，先完成預覽，不自行部署。
+
+v3新增必要規格：先讀SCRIPTURE_REVIEW.md及scripture-catalog.json，依各幕scriptureRefs的narrationParagraphs逐組呈現完整口白與對應經文卡。來源名及引文預設可見，不能只放結尾清單或全部藏在摺疊區。S10前兩段配Q05、後兩段配Q06。經文卡放圖下閱讀區，不混入artOverlay；圖內短字仍按原百分比座標。跨幕補充要標明，原片沒有下方經文的幕不得猜配。校稿提醒不可擅自刪改為確定經義。25幕口白和原疊字均保留。
