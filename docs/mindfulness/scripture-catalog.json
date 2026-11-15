@@ -1,0 +1,189 @@
+{
+  "version": 1,
+  "basis": "兩段使用者影片下方字幕，保留原片來源名稱；標點與省略符號排版整理",
+  "quotes": [
+    {
+      "id": "Q01",
+      "sourceLabelAsVideo": "雜阿含經第621經",
+      "videoText": "當以四念處教令修習…精勤方便，不放逸行，正念、正智。",
+      "evidenceFrames": [
+        "references/scripture-proof/a014.jpg"
+      ],
+      "status": "依影片下緣轉錄，標點整理；供使用者校稿，未與外部藏經版本逐字校勘",
+      "reviewNote": ""
+    },
+    {
+      "id": "Q02",
+      "sourceLabelAsVideo": "中阿含因品念處經",
+      "videoText": "行則知行，住則知住，坐則知坐，臥則知臥，眠則知眠，寤則知寤，眠寤則知眠寤。",
+      "evidenceFrames": [
+        "references/scripture-proof/a016.jpg"
+      ],
+      "status": "依影片下緣轉錄，標點整理；供使用者校稿，未與外部藏經版本逐字校勘",
+      "reviewNote": ""
+    },
+    {
+      "id": "Q03",
+      "sourceLabelAsVideo": "中阿含因品念處經",
+      "videoText": "念入息即知念入息，念出息即知念出息。入息長即知入息長，出息長即知出息長，入息短即知入息短，出息短即知出息短。",
+      "evidenceFrames": [
+        "references/scripture-proof/a018.jpg"
+      ],
+      "status": "依影片下緣轉錄，標點整理；供使用者校稿，未與外部藏經版本逐字校勘",
+      "reviewNote": ""
+    },
+    {
+      "id": "Q04",
+      "sourceLabelAsVideo": "增支部4集49經 顛倒經",
+      "videoText": "以無常為常想，以苦為樂想，以無我為我想，以不淨為淨想，眾生被邪見殺害，心被混亂、想被扭曲。",
+      "evidenceFrames": [
+        "references/scripture-proof/a020.jpg",
+        "references/scripture-proof/a023.jpg",
+        "references/scripture-proof/a040.jpg"
+      ],
+      "status": "依影片下緣轉錄，標點整理；供使用者校稿，未與外部藏經版本逐字校勘",
+      "reviewNote": ""
+    },
+    {
+      "id": "Q05",
+      "sourceLabelAsVideo": "因品念處經",
+      "videoText": "觀見種種不淨充滿，我此身中有髮、毛、爪、齒、麁細薄膚、皮、肉、筋、骨、心、腎、肝、肺、大腸、小腸、脾、胃、摶糞、腦及腦根、淚、汗、涕、唾、膿、血、肪、髓、涎、痰、小便。",
+      "evidenceFrames": [
+        "references/scripture-proof/a028.jpg"
+      ],
+      "status": "依影片下緣轉錄，標點整理；供使用者校稿，未與外部藏經版本逐字校勘",
+      "reviewNote": "長列舉含古字，以附圖及結尾經文來源截圖校稿，不自行現代化改字。"
+    },
+    {
+      "id": "Q06",
+      "sourceLabelAsVideo": "中阿含經 因品念處經",
+      "videoText": "我此身中，地界、水界、火界、風界、空界、識界。如是比丘觀內身如身，觀外身如身，立念在身，有知有見，有明有達，是謂比丘觀身如身。",
+      "evidenceFrames": [
+        "references/scripture-proof/a031.jpg"
+      ],
+      "status": "依影片下緣轉錄，標點整理；供使用者校稿，未與外部藏經版本逐字校勘",
+      "reviewNote": "原片引文列六界，口白和原圖只講四大；保留差異供校稿，不刪掉空界、識界湊成四界引文。"
+    },
+    {
+      "id": "Q07",
+      "sourceLabelAsVideo": "中阿含經 因品念處經",
+      "videoText": "比丘觀身如身：比丘者，如本見息道，骨白如螺、青猶鴿色、赤若血塗、腐壞碎糜，見已自比：「我此身亦復如是，俱有此法，終不得離。」",
+      "evidenceFrames": [
+        "references/scripture-proof/a036.jpg"
+      ],
+      "status": "依影片下緣轉錄，標點整理；供使用者校稿，未與外部藏經版本逐字校勘",
+      "reviewNote": "蘋果變壞是原片教學譬喻；引文談觀身自比，並非經文直接描述蘋果。"
+    },
+    {
+      "id": "Q08",
+      "sourceLabelAsVideo": "中阿含經 因品念處經",
+      "videoText": "覺樂覺時，便知覺樂覺。覺苦覺時，便知覺苦覺。覺不苦不樂覺時，便知覺不苦不樂覺。",
+      "evidenceFrames": [
+        "references/scripture-proof/a046.jpg",
+        "references/scripture-proof/b002.jpg"
+      ],
+      "status": "依影片下緣轉錄，標點整理；供使用者校稿，未與外部藏經版本逐字校勘",
+      "reviewNote": "時間暫停、斷鎖鏈是美術譬喻，不是經文承諾覺察一下即斷盡煩惱。"
+    },
+    {
+      "id": "Q09",
+      "sourceLabelAsVideo": "因品念處經",
+      "videoText": "覺樂身、苦身、不苦不樂身；樂心、苦心、不苦不樂心；樂食、苦食、不苦不樂食、樂無食、苦無食、不苦不樂無食；樂欲、苦欲、不苦不樂欲。樂無欲覺、苦無欲覺、不苦不樂無欲覺時，便知覺不苦不樂無欲覺。",
+      "evidenceFrames": [
+        "references/scripture-proof/b006.jpg"
+      ],
+      "status": "依影片下緣轉錄，標點整理；供使用者校稿，未與外部藏經版本逐字校勘",
+      "reviewNote": "本段照錄影片節選，不能冒充完整經文。食／無食的解釋及「三種基因」屬口白詮釋，需與直引分開。"
+    },
+    {
+      "id": "Q10",
+      "sourceLabelAsVideo": "中阿含經 因品念處經",
+      "videoText": "如是比丘觀內覺如覺，觀外覺如覺，立念在覺，有知有見，有明有達，是謂比丘觀覺如覺。若比丘、比丘尼如是少少觀覺如覺者，是謂觀覺如覺念處。",
+      "evidenceFrames": [
+        "references/scripture-proof/b011.jpg"
+      ],
+      "status": "依影片下緣轉錄，標點整理；供使用者校稿，未與外部藏經版本逐字校勘",
+      "reviewNote": "「少少觀」的逐步練習說明是原片詮釋；不要把詮釋插入引號中的經文。"
+    },
+    {
+      "id": "Q11",
+      "sourceLabelAsVideo": "中阿含經 因品念處經",
+      "videoText": "云何觀心如心念處？比丘者，有欲心知有欲心如真，無欲心知無欲心如真，有恚、無恚，有癡、無癡，有穢污、無穢污。有合、有散，有下、有高，有小、有大，修、不修，定、不定，有不解脫心知不解脫心如真，有解脫心知解脫心如真。",
+      "evidenceFrames": [
+        "references/scripture-proof/b015.jpg"
+      ],
+      "status": "依影片下緣轉錄，標點整理；供使用者校稿，未與外部藏經版本逐字校勘",
+      "reviewNote": ""
+    },
+    {
+      "id": "Q12",
+      "sourceLabelAsVideo": "增壹阿含經壹入道品第十二",
+      "videoText": "觀習法，觀盡法，并觀習盡之法，思惟法觀而自娛樂。",
+      "evidenceFrames": [
+        "references/scripture-proof/b019.jpg"
+      ],
+      "status": "依影片下緣轉錄，標點整理；供使用者校稿，未與外部藏經版本逐字校勘",
+      "reviewNote": "這是S18原片下方實際出處，不能直接換成雜阿含289。S18口白「猿猴／放一取一」可交叉參看S21的Q15，但要標成補充對照，不是假稱S18下方原文。"
+    },
+    {
+      "id": "Q13",
+      "sourceLabelAsVideo": "中阿含經 因品念處經",
+      "videoText": "內實有欲知有欲如真，內實無欲知無欲如真，若未生欲而生者知如真，若已生欲滅不復生者知如真。如是瞋恚、睡眠、掉悔。內實有疑知有疑如真，內實無疑知無疑如真，若未生疑而生者知如真，若已生疑滅不復生者知如真。",
+      "evidenceFrames": [
+        "references/scripture-proof/b025.jpg"
+      ],
+      "status": "依影片下緣轉錄，標點整理；供使用者校稿，未與外部藏經版本逐字校勘",
+      "reviewNote": ""
+    },
+    {
+      "id": "Q14",
+      "sourceLabelAsVideo": "因品念處經",
+      "videoText": "內實有念覺支知有念覺支如真，內實無念覺支知無念覺支如真，若未生念覺支而生者知如真，若已生念覺支便住不忘而不衰退，轉修增廣者知如真。如是擇法、精進、喜、息、定。比丘者，內實有捨覺支知有捨覺支如真，內實無捨覺支知無捨覺支如真，若未生捨覺支而生者知如真，若已生捨覺支便住不忘而不衰退，轉修增廣者知如真。",
+      "evidenceFrames": [
+        "references/scripture-proof/b030.jpg"
+      ],
+      "status": "依影片下緣轉錄，標點整理；供使用者校稿，未與外部藏經版本逐字校勘",
+      "reviewNote": "此幕下方引文是七覺支，不含口白最後的初禪到四禪敘述；不可把後者標成此段經文的直譯或必然立即發生的結果。"
+    },
+    {
+      "id": "Q15",
+      "sourceLabelAsVideo": "雜阿含第289經",
+      "videoText": "猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一，彼心、意、識亦復如是，異生、異滅。",
+      "evidenceFrames": [
+        "references/scripture-proof/b034.jpg"
+      ],
+      "status": "依影片下緣轉錄，標點整理；供使用者校稿，未與外部藏經版本逐字校勘",
+      "reviewNote": ""
+    },
+    {
+      "id": "Q16",
+      "sourceLabelAsVideo": "雜阿含第262經",
+      "videoText": "如實正觀世間集者，則不生世間無見；如實正觀世間滅，則不生世間有見。",
+      "evidenceFrames": [
+        "references/scripture-proof/b037.jpg"
+      ],
+      "status": "依影片下緣轉錄，標點整理；供使用者校稿，未與外部藏經版本逐字校勘",
+      "reviewNote": "本段直接說明如實觀集滅、不落有無見；口白「觀法無我」為本片詮釋連結，不以星空暗示永恆真我或靈魂。"
+    },
+    {
+      "id": "Q17",
+      "sourceLabelAsVideo": "中阿含經 因品念經",
+      "videoText": "是故牧牛兒執杖往遮。我亦如是，生欲念，不受、斷、除、吐，生恚念、害念，不受、斷、除、吐。所以者何？我見因此故，必生無量惡不善之法。",
+      "evidenceFrames": [
+        "references/scripture-proof/b040.jpg"
+      ],
+      "status": "依影片下緣轉錄，標點整理；供使用者校稿，未與外部藏經版本逐字校勘",
+      "reviewNote": "此處原片寫「因品念經」，不是前面「因品念處經」，不要全域取代成同一名稱。"
+    },
+    {
+      "id": "Q18",
+      "sourceLabelAsVideo": "中阿含經 因品念經",
+      "videoText": "是故彼作是念：「我牛在群中。」我亦如是，生無欲念已，復生念向法次法，生無恚念、無害念已，復生念向法次法。所以者何？我不見因此生無量惡不善之法。",
+      "evidenceFrames": [
+        "references/scripture-proof/b044.jpg"
+      ],
+      "status": "依影片下緣轉錄，標點整理；供使用者校稿，未與外部藏經版本逐字校勘",
+      "reviewNote": "牧牛段與口白收尾「涅槃」的連結屬影片詮釋，本段引文本身未直接寫成四念處圓滿或證涅槃的判定。"
+    }
+  ]
+}

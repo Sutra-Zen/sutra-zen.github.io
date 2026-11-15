@@ -1,0 +1,548 @@
+[
+  {
+    "package": "SutraZen_01_Documents_Illustrations_A.zip",
+    "path": "assets/00250A9F-F6B8-41BB-AE01-FB2A85DCE5AD.jpeg",
+    "size_bytes": 690781,
+    "sha256": "d21b8a2dca361978d8e6ad5e8c562b8cbc12553998fc20dedca747160f85a7fd"
+  },
+  {
+    "package": "SutraZen_01_Documents_Illustrations_A.zip",
+    "path": "assets/236DF7C4-998F-425E-8C89-C3AE82F54330.png",
+    "size_bytes": 3300880,
+    "sha256": "accbc5651d14f84bc91267dcd25e81beb0b8ea3c0534599db8f5fbed59a47bad"
+  },
+  {
+    "package": "SutraZen_01_Documents_Illustrations_A.zip",
+    "path": "assets/3DF2D5E4-25B8-47F8-B159-56DD4189763D.jpeg",
+    "size_bytes": 657755,
+    "sha256": "b43f9ddffbe1e6fc51bed51cbcbea3905f2f8a5f6082e5a17901dfd45634ecfc"
+  },
+  {
+    "package": "SutraZen_01_Documents_Illustrations_A.zip",
+    "path": "assets/45459DE4-E662-49FB-81B6-B914997A03C9.png",
+    "size_bytes": 2961677,
+    "sha256": "8c23bca22feb41a44a6b45e1ec6ac26b4986559e5f04a520ad15e96a4e3821fe"
+  },
+  {
+    "package": "SutraZen_01_Documents_Illustrations_A.zip",
+    "path": "assets/662A414E-1B2E-4B67-B848-DD8528F029CB.jpeg",
+    "size_bytes": 758248,
+    "sha256": "45482db55c8cfeb0c9761ed73d048fad9daa3e5b5ce52b70e4700e8de42b7c46"
+  },
+  {
+    "package": "SutraZen_01_Documents_Illustrations_A.zip",
+    "path": "assets/76AE6FE5-595C-4432-8012-5F6F3C5F23F2.png",
+    "size_bytes": 3343799,
+    "sha256": "686f3b174d0ff6b5a0704c144b27a899985d7ae00e2565053dbce0b78b37d2a0"
+  },
+  {
+    "package": "SutraZen_01_Documents_Illustrations_A.zip",
+    "path": "assets/7DB731F6-CA65-4F5F-A665-5221D2194981.png",
+    "size_bytes": 3221691,
+    "sha256": "9ee17f355e00582d31933a79c7f0a4d4e0c9597ed2a8bf4dedf4c015c0839c0b"
+  },
+  {
+    "package": "SutraZen_01_Documents_Illustrations_A.zip",
+    "path": "assets/8ACD7BAD-64C1-476B-A4AD-7A63F5A2048E.png",
+    "size_bytes": 2916066,
+    "sha256": "e25807351814716cb0affad57dcee38e67e311cf3faa172accd3c07c2a5996a2"
+  },
+  {
+    "package": "SutraZen_01_Documents_Illustrations_A.zip",
+    "path": "assets/95D90BB7-2405-4DCC-BAA1-20C484761D9E.png",
+    "size_bytes": 3206906,
+    "sha256": "e7b5143c9b3141749275d054ca4ec6bd553e9cbbfef12e702b67d5fab66b5100"
+  },
+  {
+    "package": "SutraZen_01_Documents_Illustrations_A.zip",
+    "path": "assets/9BFFC0D8-7F5B-4FDB-AA41-0022B5F476DB.jpeg",
+    "size_bytes": 797700,
+    "sha256": "1d8d76852e333176b15dd7e8be2f4e78260b36b6bf7b2f85cdc98007c17033ee"
+  },
+  {
+    "package": "SutraZen_01_Documents_Illustrations_A.zip",
+    "path": "assets/A6D74077-1A27-421A-AACD-F417404038BE.png",
+    "size_bytes": 3020283,
+    "sha256": "3bbc170a750ca5f5f62593f189ff4a16e5642076d3426d7b3d24e285679e05e2"
+  },
+  {
+    "package": "SutraZen_01_Documents_Illustrations_A.zip",
+    "path": "CODEX_PROMPT.txt",
+    "size_bytes": 971,
+    "sha256": "12491513c100629d120191585dbffe99e550a721053c59318293d5f1c535d014"
+  },
+  {
+    "package": "SutraZen_01_Documents_Illustrations_A.zip",
+    "path": "NARRATION_REVIEW.md",
+    "size_bytes": 16034,
+    "sha256": "07144823b0d6fc493ae448db6c8c7758e8c6ecdf487afdcd9aa478e1dfb4122d"
+  },
+  {
+    "package": "SutraZen_01_Documents_Illustrations_A.zip",
+    "path": "README.md",
+    "size_bytes": 57645,
+    "sha256": "ad944e86cb63355de93b4fd4220f561ed1c2175c61fc3d0ae7c861934beed45d"
+  },
+  {
+    "package": "SutraZen_01_Documents_Illustrations_A.zip",
+    "path": "SCRIPTURE_REVIEW.md",
+    "size_bytes": 21909,
+    "sha256": "5991b52ab3371af63a70383f9c33b347793d8e311a41a21bf348ec3fe6fb1abf"
+  },
+  {
+    "package": "SutraZen_01_Documents_Illustrations_A.zip",
+    "path": "asset-manifest.json",
+    "size_bytes": 5520,
+    "sha256": "cb617b0bb8cc8b31740054fd7e2d6d4ccc5512981fe695f755bc36fa5cbadfa8"
+  },
+  {
+    "package": "SutraZen_01_Documents_Illustrations_A.zip",
+    "path": "scripture-catalog.json",
+    "size_bytes": 11073,
+    "sha256": "6a627595b801d26f00ccf08f8f24625d87f97ee7ed0eca7b3e4636420650f894"
+  },
+  {
+    "package": "SutraZen_01_Documents_Illustrations_A.zip",
+    "path": "storyboard.json",
+    "size_bytes": 75335,
+    "sha256": "108160c97ad4d96743768598272b84929b94484095a04680df84789307f2df3f"
+  },
+  {
+    "package": "SutraZen_02_Illustrations_B.zip",
+    "path": "assets/B403B03F-8A20-4FBA-AB70-792401ED5DFA.jpeg",
+    "size_bytes": 958149,
+    "sha256": "5b90f270b2b9b9ce12a4b571f50bfaae0eef04b7c54aa6cac04ec3de25e47561"
+  },
+  {
+    "package": "SutraZen_02_Illustrations_B.zip",
+    "path": "assets/B8B53DDC-3F80-45AF-A76C-09EBC836A630.jpeg",
+    "size_bytes": 805646,
+    "sha256": "9f47a5b99264045adaf2a4373ddbf9f4a22ea0ac29ddf572d7c055dcdde59d27"
+  },
+  {
+    "package": "SutraZen_02_Illustrations_B.zip",
+    "path": "assets/BD74B990-D46B-4DB8-9D64-049D9A0B2118.png",
+    "size_bytes": 3282808,
+    "sha256": "b384bde71a9f3ecd1ec5b165f51f9475d59d7268367f5cab6d2b28cf910417c7"
+  },
+  {
+    "package": "SutraZen_02_Illustrations_B.zip",
+    "path": "assets/C2350C0A-3A01-42DD-95F1-346029469087.png",
+    "size_bytes": 3277832,
+    "sha256": "9afdf38ca5404755ab7f0e2a041603dd296a98f71b31c1e29ef4bb9cc845d1de"
+  },
+  {
+    "package": "SutraZen_02_Illustrations_B.zip",
+    "path": "assets/CED3CE88-8343-4D7A-870F-4B2FAD34E1CA.png",
+    "size_bytes": 3555818,
+    "sha256": "10835288794f9adf630a5f8985a22c0f59b15d6ad8a1023da25209b447fec780"
+  },
+  {
+    "package": "SutraZen_02_Illustrations_B.zip",
+    "path": "assets/D36D3E3A-5B66-4701-B27C-42DF12C06155.png",
+    "size_bytes": 3346002,
+    "sha256": "aa08a617d8a9fd74b648a8e2c1641d81b4c9d5a43e9d6b2f77c2ef4524967c24"
+  },
+  {
+    "package": "SutraZen_02_Illustrations_B.zip",
+    "path": "assets/D86791B4-6640-4FD4-BA5D-EF3E04B87F97.png",
+    "size_bytes": 3241407,
+    "sha256": "d1800e2e719f743bc7d63fb4d938fb213a2fe85379c57a1594f606db3697c051"
+  },
+  {
+    "package": "SutraZen_02_Illustrations_B.zip",
+    "path": "assets/E91F2803-66D8-4CEE-A752-EB17F52DDBA9.png",
+    "size_bytes": 3012625,
+    "sha256": "9ca5dc9f4acbf5b5766a4779d04247108ffd94fa9da1f9a4000d633beb3093aa"
+  },
+  {
+    "package": "SutraZen_02_Illustrations_B.zip",
+    "path": "assets/F90ACA7A-8983-456B-B4FC-7AC1EE4CB55D.jpeg",
+    "size_bytes": 833984,
+    "sha256": "8dc312e053e97096a3147e11b8028f2c4ff31a259d191256167076fb694a2267"
+  },
+  {
+    "package": "SutraZen_02_Illustrations_B.zip",
+    "path": "assets/IMG_0527.jpeg",
+    "size_bytes": 439813,
+    "sha256": "a48385cd4ac5793498fe49d23b28efbf8379957d19823446860a6320effacffc"
+  },
+  {
+    "package": "SutraZen_02_Illustrations_B.zip",
+    "path": "assets/IMG_0528.jpeg",
+    "size_bytes": 401818,
+    "sha256": "03c6bf921feb2d732c0915c497fbdc72bafa93412a9bfaebc0a7ab66488168f2"
+  },
+  {
+    "package": "SutraZen_02_Illustrations_B.zip",
+    "path": "assets/IMG_0532.jpeg",
+    "size_bytes": 523472,
+    "sha256": "760ceab554269c54a4c9e6725dc51150502d6c394800f9f2ed0bec974f7511aa"
+  },
+  {
+    "package": "SutraZen_02_Illustrations_B.zip",
+    "path": "assets/IMG_0541.jpeg",
+    "size_bytes": 455000,
+    "sha256": "d4218ef9a1584853d2cc42f605cf33dee20083bc6cb90cbd57025cb03710b276"
+  },
+  {
+    "package": "SutraZen_02_Illustrations_B.zip",
+    "path": "assets/IMG_0589.jpeg",
+    "size_bytes": 475399,
+    "sha256": "edec94e0a6800fbca8210c84cbbd5748a82910350d3f1db883e8d11a00ac54ff"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/A_Wandering_Mind_Is_an_Unhappy_Mind.pdf",
+    "size_bytes": 170965,
+    "sha256": "813efa4a935a83caad2f3a14586b2017d20333cf1d040d30f4b0c7fdadab941e"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/C242B652-2589-40D2-80E8-0896F1C50CC0.jpeg",
+    "size_bytes": 544839,
+    "sha256": "67132eb05a0bf931995def27780cac62f3e669211be9d48a24071dea6865c58d"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/a001.jpg",
+    "size_bytes": 53926,
+    "sha256": "1a429d8dd6880e31792acdddacb59e935cfc5551a7a308d1a8f516144ce14d22"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/a006.jpg",
+    "size_bytes": 116728,
+    "sha256": "b0dd44cbdc10a54e746d9e938554a6183d8ff2e542b23018cb2e627dc8314a2d"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/a008.jpg",
+    "size_bytes": 114472,
+    "sha256": "7cef1eeed0402afc7f94a6ffea1d939bdf2bbe25cf7aa9088d277a575847f74e"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/a011.jpg",
+    "size_bytes": 120461,
+    "sha256": "dc99f1ba3de7db978bdcabc4297682eadd316aa94740698054dea84b163efe14"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/a014.jpg",
+    "size_bytes": 119205,
+    "sha256": "6a43ce31d5cbcb117e5569a167fe94fa51f0ff0c1987626c080bdf7c12c46653"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/a016.jpg",
+    "size_bytes": 90438,
+    "sha256": "a684aa1724c7ebe04949d26b8c2013af30b684053b3d64cf80047ca24f3ca00a"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/a017.jpg",
+    "size_bytes": 73127,
+    "sha256": "8924bf4aad01647532189d756090d39a4c562ec4b78ba006f0b5ec52ff60cebb"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/a020.jpg",
+    "size_bytes": 122443,
+    "sha256": "4cc499497f5f64a3685a46dbd6f1a5792cbd4bdb10b57283a7c55fc8f9e97222"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/a023.jpg",
+    "size_bytes": 104218,
+    "sha256": "6d3e573e656128e6f0a0baf5c50339368a728cca043e82ab1e890cd5e54bf0f8"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/a028.jpg",
+    "size_bytes": 115832,
+    "sha256": "d2ee2f61116389c93029461d1101abd2d298ab4f1bae8df220ddfe6b30ad1772"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/a035.jpg",
+    "size_bytes": 90302,
+    "sha256": "7f1cf0ee33f6d6a38f1e9eab3c12606d5193c11e166b228f33dfe7baa7acfd7d"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/a041.jpg",
+    "size_bytes": 113114,
+    "sha256": "26a5fcf52b7c421356f0924404e472264723edabddcce8e926d34cdd643ddfdf"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/a046.jpg",
+    "size_bytes": 118139,
+    "sha256": "416eca9689203c26ddc901e56021bf02b2fd05141ea3681f5fb3792da6561947"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/b002.jpg",
+    "size_bytes": 74231,
+    "sha256": "e99c59750644f4fbf38715c9d48f848ef137aa9c60af194f96c1d63bda62e466"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/b006.jpg",
+    "size_bytes": 127172,
+    "sha256": "927a341d612044ea1f6a354aefaeabcf901a6da23f82f29cf17485aacfc98465"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/b011.jpg",
+    "size_bytes": 121678,
+    "sha256": "abae590bd230a9c3118423421f6b9c5a112bd1d2f4af2ca9f176c9cfd65b468d"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/b015.jpg",
+    "size_bytes": 110765,
+    "sha256": "f381efda1e8488759abee18617c6646662c3febaeec70938f6310cba29f8f1dc"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/b020.jpg",
+    "size_bytes": 122336,
+    "sha256": "077b4837f4e6f1ef0da4be5e930d196fd82b79a5b94cf43fcec000b4542ae0c1"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/b025.jpg",
+    "size_bytes": 140780,
+    "sha256": "778b87d124f5ee48d5228691aa874bfa4488b4bd9631307466f50882791ab355"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/b030.jpg",
+    "size_bytes": 139796,
+    "sha256": "3615721700b77350f9b33236629d7ea39d6820991c317bcb7c7a5016104c15cd"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/b034.jpg",
+    "size_bytes": 115426,
+    "sha256": "1b8b0d2a4dd4f15b6318062bcaec69f5c4518058aff42ecced1dea33ed9f6833"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/b037.jpg",
+    "size_bytes": 81318,
+    "sha256": "278e8a2627b1a19544e1c79996c8d992967eaca987291aeba88739ad0294007b"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/b041.jpg",
+    "size_bytes": 128579,
+    "sha256": "1c5161c6b5145366a48fc494775f026500f63323608a57d1efeb93aa268f5b99"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/b045.jpg",
+    "size_bytes": 119062,
+    "sha256": "fc810b37b6e26814fdfeca6972e353ebd14b218d065bc0afd69980c1a07bab36"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/b048.jpg",
+    "size_bytes": 68535,
+    "sha256": "70c4ff7080d3fb768e8e91d1738d50154d87e365564388ac69bfe3073a42f5ab"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/scripture-proof/a014.jpg",
+    "size_bytes": 119205,
+    "sha256": "6a43ce31d5cbcb117e5569a167fe94fa51f0ff0c1987626c080bdf7c12c46653"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/scripture-proof/a016.jpg",
+    "size_bytes": 90438,
+    "sha256": "a684aa1724c7ebe04949d26b8c2013af30b684053b3d64cf80047ca24f3ca00a"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/scripture-proof/a018.jpg",
+    "size_bytes": 80203,
+    "sha256": "27c4b6b404a8cae1af6b7311a2f65155e46756fd00db3bf10c7ea24b10c3861d"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/scripture-proof/a020.jpg",
+    "size_bytes": 122443,
+    "sha256": "4cc499497f5f64a3685a46dbd6f1a5792cbd4bdb10b57283a7c55fc8f9e97222"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/scripture-proof/a023.jpg",
+    "size_bytes": 104218,
+    "sha256": "6d3e573e656128e6f0a0baf5c50339368a728cca043e82ab1e890cd5e54bf0f8"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/scripture-proof/a028.jpg",
+    "size_bytes": 115832,
+    "sha256": "d2ee2f61116389c93029461d1101abd2d298ab4f1bae8df220ddfe6b30ad1772"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/scripture-proof/a031.jpg",
+    "size_bytes": 114441,
+    "sha256": "b4b21a19415e7d7b84ec9c8ca5a4c262863f0fa1eed71fc3949c067a40f2fbf9"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/scripture-proof/a036.jpg",
+    "size_bytes": 88696,
+    "sha256": "c06db7b17a78002463c33b7c4d69db758667dea957229100c34fc6c1749b82ed"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/scripture-proof/a040.jpg",
+    "size_bytes": 113610,
+    "sha256": "f846f8470fb38a76efd7da9077f6725e6dec4208192ac54c88709ad3239a9e6b"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/scripture-proof/a046.jpg",
+    "size_bytes": 118139,
+    "sha256": "416eca9689203c26ddc901e56021bf02b2fd05141ea3681f5fb3792da6561947"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/scripture-proof/b002.jpg",
+    "size_bytes": 74231,
+    "sha256": "e99c59750644f4fbf38715c9d48f848ef137aa9c60af194f96c1d63bda62e466"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/scripture-proof/b006.jpg",
+    "size_bytes": 127172,
+    "sha256": "927a341d612044ea1f6a354aefaeabcf901a6da23f82f29cf17485aacfc98465"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/scripture-proof/b011.jpg",
+    "size_bytes": 121678,
+    "sha256": "abae590bd230a9c3118423421f6b9c5a112bd1d2f4af2ca9f176c9cfd65b468d"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/scripture-proof/b015.jpg",
+    "size_bytes": 110765,
+    "sha256": "f381efda1e8488759abee18617c6646662c3febaeec70938f6310cba29f8f1dc"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/scripture-proof/b019.jpg",
+    "size_bytes": 120686,
+    "sha256": "d377c2a67119ba2bee83b72b40bb8b96c0f9a7d79ea7333b866eb4f3f2941121"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/scripture-proof/b025.jpg",
+    "size_bytes": 140780,
+    "sha256": "778b87d124f5ee48d5228691aa874bfa4488b4bd9631307466f50882791ab355"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/scripture-proof/b030.jpg",
+    "size_bytes": 139796,
+    "sha256": "3615721700b77350f9b33236629d7ea39d6820991c317bcb7c7a5016104c15cd"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/scripture-proof/b034.jpg",
+    "size_bytes": 115426,
+    "sha256": "1b8b0d2a4dd4f15b6318062bcaec69f5c4518058aff42ecced1dea33ed9f6833"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/scripture-proof/b037.jpg",
+    "size_bytes": 81318,
+    "sha256": "278e8a2627b1a19544e1c79996c8d992967eaca987291aeba88739ad0294007b"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/scripture-proof/b040.jpg",
+    "size_bytes": 128581,
+    "sha256": "c69204a5c44ce32f9c7220e0da699ab4018ce32f86d74fafc17e1d6d44b05ba9"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/scripture-proof/b044.jpg",
+    "size_bytes": 124974,
+    "sha256": "05b7712c6dcf7e447f3d382a7eebcd9aba3e81590e7b724efe6138dfb18b3d12"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/subtitle-proof/README.txt",
+    "size_bytes": 178,
+    "sha256": "19e7c3a1ca1de5bac5d7e7d47dce4275c52ab6f369c071c41680a1b5f81bab76"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/subtitle-proof/a-sheet0.png",
+    "size_bytes": 4488031,
+    "sha256": "7fd95e3f210c0abf6e20c3ce97b608f9c0409a42282a21064022e53f668d632e"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/subtitle-proof/a-sheet1.png",
+    "size_bytes": 4186350,
+    "sha256": "2732539762bb9aac23b67f46c2977a8d29e76efeb6a03a9c03d8315e4bda7261"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/subtitle-proof/a-sheet2.png",
+    "size_bytes": 4723071,
+    "sha256": "32b36db65815121edd164d85c816fb48667bedda43e08fbf212cca09d1dbc27e"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/subtitle-proof/a-sheet3.png",
+    "size_bytes": 4375990,
+    "sha256": "ba1eac8e11d00fc6ca2e6715f107a078d95b13a60e2cfbecd0177d21eba9ff93"
+  },
+  {
+    "package": "SutraZen_03_References_Subtitles_A.zip",
+    "path": "references/subtitle-proof/a-sheet4.png",
+    "size_bytes": 4255642,
+    "sha256": "01a26684f42dc18a0dc29e5466ff0ba91a3417a90ad0dcfab78b8b2ef35840da"
+  },
+  {
+    "package": "SutraZen_04_Subtitles_B.zip",
+    "path": "references/subtitle-proof/b-sheet0.png",
+    "size_bytes": 4408298,
+    "sha256": "a66d85a3ecd65c6b9449675e87402de3702446b7bdf69c2e2fe951c310d86b4f"
+  },
+  {
+    "package": "SutraZen_04_Subtitles_B.zip",
+    "path": "references/subtitle-proof/b-sheet1.png",
+    "size_bytes": 4653598,
+    "sha256": "a69090627531cb599900d588bce6d9ac9c21033c2b96db7540a3469534dd59a8"
+  },
+  {
+    "package": "SutraZen_04_Subtitles_B.zip",
+    "path": "references/subtitle-proof/b-sheet2.png",
+    "size_bytes": 4925372,
+    "sha256": "762db406b63c2149718c23cbd4f08557da454b69bda01cf7af11018676ab815d"
+  },
+  {
+    "package": "SutraZen_04_Subtitles_B.zip",
+    "path": "references/subtitle-proof/b-sheet3.png",
+    "size_bytes": 4578687,
+    "sha256": "2dfa4a483be3e831a230ac847dc98679f8545ef564891ff1ee8d8e9cd173cb6f"
+  },
+  {
+    "package": "SutraZen_04_Subtitles_B.zip",
+    "path": "references/subtitle-proof/b-sheet4.png",
+    "size_bytes": 4503163,
+    "sha256": "5781560af1001d16e5620b08b5409caee6c42d81574c9c96ac07e3a198bb8340"
+  }
+]
