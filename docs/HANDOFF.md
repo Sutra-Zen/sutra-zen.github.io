@@ -1,3 +1,17 @@
+# 四正勤字幕位置統一與住法經註解定位（2026-11-15）
+
+從main `d85447988322c00c1428f9c1f69f3f65d4e29e32` 建立fix/right-effort-caption-layout。依作者最新指示，恢復與其他繪本相同的「上方字幕、完整插畫、下方經文」，取代舊交接及前次實作的圖下口白要求；後續不得再依舊交接將字幕移回圖下。
+
+將caption DOM順序及橫式圖片保留空間恢復為最近四念處的配置，移除第09本原有的圖下字幕覆寫。翻頁、目錄、本頁經文、來源、圖片放大、重讀及S03／S07逐格遮黑保留；81頁口白／引文與11幕對應均不變，book-data僅更新layout描述。原圖、原始交接、書架、其他八本及共用檔案不變。
+
+住法經註解按鈕使用作者提供的完整九五／穢品住法經第九定位URL，專頁與verified-sources.json同步；網址的依據為作者提供，不假稱外站畫面已驗證。來源說明見SOURCES最新紀錄。
+
+check-right-effort.py更新驗收方向，重新檢查五尺寸405個逐頁狀態，量測所有故事頁caption底端不超過圖片頂端、圖片底端不超過經文頂端；另重驗四尺寸68個漫畫段落的實際亮／暗像素、放大與旋轉對齊。截圖更新於docs/previews/right-effort/及right-effort-focus/。實體Safari仍未測；發布需核對Pages、公開檔案及固定SHA完整ZIP。
+
+此工作環境未提供Notion工具，尚未寫入；待補記：docs/releases/right-effort-caption-notion.md。
+
+---
+
 # 四正勤漫畫逐格遮黑（2026-11-15）
 
 從main `3d9830eb65877547e6c272eb8466a816411e0baa` 建立fix/right-effort-comic-focus，依作者對已發布繪本的指示補上漫畫閱讀提示，承接本書發布授權。

@@ -8,7 +8,9 @@ ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'docs/previews/right-effort-fo
 BASE='3d9830eb65877547e6c272eb8466a816411e0baa'
 EXPECTED={'S03':[None,None,'tl','tr','bl','br',None,None],'S07':[None,'tl','tm','tm','tr','bl','bl','bm','br']}
 BOOK=json.loads((ROOT/'right-effort/book/book-data.js').read_text().split('const BOOK = ')[1].rstrip(';\n'))
-assert (ROOT/'right-effort/book/book-data.js').read_bytes()==subprocess.check_output(['git','show',BASE+':right-effort/book/book-data.js'],cwd=ROOT)
+old_book=json.loads(subprocess.check_output(['git','show',BASE+':right-effort/book/book-data.js'],cwd=ROOT).decode().split('const BOOK = ')[1].rstrip(';\n'))
+old_book['layout']='caption-art-scripture'
+assert BOOK==old_book
 class Quiet(http.server.SimpleHTTPRequestHandler):
  def log_message(self,*args):pass
 def settle(page):
