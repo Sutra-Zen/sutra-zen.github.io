@@ -1,0 +1,37 @@
+{
+  "baseline": "3d9830eb65877547e6c272eb8466a816411e0baa",
+  "viewports": [
+    {
+      "width": 360,
+      "height": 800,
+      "comicParagraphs": 17,
+      "pixelDimming": "passed",
+      "rotationZoomNavigation": "passed"
+    },
+    {
+      "width": 800,
+      "height": 360,
+      "comicParagraphs": 17,
+      "pixelDimming": "passed",
+      "rotationZoomNavigation": "passed"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "comicParagraphs": 17,
+      "pixelDimming": "passed",
+      "rotationZoomNavigation": "passed"
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "comicParagraphs": 17,
+      "pixelDimming": "passed",
+      "rotationZoomNavigation": "passed"
+    }
+  ],
+  "pageStates": 68,
+  "javascriptErrors": [],
+  "physicalIPadSafari": "not tested",
+  "opacity": 0.76
+}

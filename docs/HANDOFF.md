@@ -1,3 +1,16 @@
+# 四正勤漫畫逐格遮黑（2026-11-15）
+
+從main `3d9830eb65877547e6c272eb8466a816411e0baa` 建立fix/right-effort-comic-focus，依作者對已發布繪本的指示補上漫畫閱讀提示，承接本書發布授權。
+
+- 共用既有picture-panel-focus.js／css，未修改共用檔案。新書panel-focus-data.js記錄原圖分格邊界與每段口白的亮格；四格／六格的非閱讀格使用與舊書相同的76%暗色，閱讀格保留原亮度。
+- S03第1–2段總覽，第3／4／5／6段依序亮生欲／方便／精勤／心攝受，第7–8段收束顯示全圖。S07第1段總覽，第2段亮第1格，第3–4段第2格，第5段第3格，第6–7段第4格，第8段第5格，第9段第6格。
+- 依原圖白色分隔線量取邊界：四格以1672×941圖的x=784、y=443分割；六格x=553／1116、y=467。遮罩以實際完整圖片範圍定位，旋轉與放大視窗同步，無指標事件、不遮住翻頁操作。圖片替代文字提示目前閱讀的格位。
+- 這次作者要求覆蓋原交接「其他幕無遮罩」的漫畫展示方式；只有S03／S07增逐格遮黑，S10原60%總結暗幕保留。所有原圖、原始交接、81頁完整口白／引文、書架、專頁及共用檔案保持不變。
+- 原check-right-effort.py的405個逐頁狀態及舊八本入口通過；另check-right-effort-focus.py在360×800、800×360、768×1024、1024×768核對共68個漫畫段落狀態。實際截圖像素驗證亮格不變、暗格76%混色，並測試前後翻頁、總覽／離幕清除、放大及旋轉對齊、末頁重讀。截圖與結果見docs/previews/right-effort-focus/；實體Safari未測。
+- Notion工具未提供，尚未寫入；待補記見docs/releases/right-effort-focus-notion.md。發布後仍須核對合併SHA、Pages成功與固定SHA完整ZIP。
+
+---
+
 # 第09本《四正勤》（2026-11-15）
 
 從最新main `cd1cb6f743d773afe9ea22c6c548384c7760ef75` 建立feat/right-effort，[PR #25](https://github.com/rooneyflower-star/sutrazen-map/pull/25)。已讀AGENTS、PROJECT、HANDOFF、SOURCES、完整兩包交接README／CODEX_PROMPT／NARRATION_REVIEW／SOURCE_NOTES／storyboard／catalog／manifest，並檢查最近四念處的實際實作。作者本次明確授權直接發布。
