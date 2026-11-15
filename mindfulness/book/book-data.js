@@ -2,6 +2,7 @@
 const BOOK = {
   "title": "四念處與四顛倒",
   "version": 3,
+  "layout": "caption-art-scripture",
   "scenes": [
     {
       "id": "S01",
@@ -35,7 +36,8 @@ const BOOK = {
       "bakedText": "論文標題與英文字；不是可逐字引用的論文掃描",
       "summaryRows": [],
       "scrimOpacity": 0,
-      "reference": "references/a001.jpg"
+      "reference": "references/a001.jpg",
+      "start": 0
     },
     {
       "id": "S02",
@@ -75,7 +77,8 @@ const BOOK = {
       "bakedText": "快轉",
       "summaryRows": [],
       "scrimOpacity": 0,
-      "reference": "references/a006.jpg"
+      "reference": "references/a006.jpg",
+      "start": 4
     },
     {
       "id": "S03",
@@ -115,7 +118,8 @@ const BOOK = {
       "bakedText": "離別、倒退",
       "summaryRows": [],
       "scrimOpacity": 0,
-      "reference": "references/a008.jpg"
+      "reference": "references/a008.jpg",
+      "start": 7
     },
     {
       "id": "S04",
@@ -155,7 +159,8 @@ const BOOK = {
       "bakedText": "無主要教學文字",
       "summaryRows": [],
       "scrimOpacity": 0,
-      "reference": "references/a011.jpg"
+      "reference": "references/a011.jpg",
+      "start": 10
     },
     {
       "id": "S05",
@@ -216,7 +221,8 @@ const BOOK = {
       "bakedText": "無主要教學文字",
       "summaryRows": [],
       "scrimOpacity": 0,
-      "reference": "references/a014.jpg"
+      "reference": "references/a014.jpg",
+      "start": 13
     },
     {
       "id": "S06",
@@ -257,7 +263,8 @@ const BOOK = {
       "bakedText": "五格標題與底部姿勢文字",
       "summaryRows": [],
       "scrimOpacity": 0,
-      "reference": "references/a016.jpg"
+      "reference": "references/a016.jpg",
+      "start": 16
     },
     {
       "id": "S07",
@@ -303,7 +310,8 @@ const BOOK = {
       "bakedText": "吸氣、呼氣",
       "summaryRows": [],
       "scrimOpacity": 0,
-      "reference": "references/a017.jpg"
+      "reference": "references/a017.jpg",
+      "start": 18
     },
     {
       "id": "S08",
@@ -364,7 +372,8 @@ const BOOK = {
       "bakedText": "淨、常、樂、我",
       "summaryRows": [],
       "scrimOpacity": 0,
-      "reference": "references/a020.jpg"
+      "reference": "references/a020.jpg",
+      "start": 20
     },
     {
       "id": "S09",
@@ -437,7 +446,8 @@ const BOOK = {
       "bakedText": "無主要教學文字",
       "summaryRows": [],
       "scrimOpacity": 0,
-      "reference": "references/a023.jpg"
+      "reference": "references/a023.jpg",
+      "start": 24
     },
     {
       "id": "S10",
@@ -520,7 +530,8 @@ const BOOK = {
       "bakedText": "骨架（地）、液體（水）、溫暖（火）、氣流（風）",
       "summaryRows": [],
       "scrimOpacity": 0,
-      "reference": "references/a028.jpg"
+      "reference": "references/a028.jpg",
+      "start": 30
     },
     {
       "id": "S11",
@@ -576,7 +587,8 @@ const BOOK = {
       "bakedText": "六格變化標題",
       "summaryRows": [],
       "scrimOpacity": 0,
-      "reference": "references/a035.jpg"
+      "reference": "references/a035.jpg",
+      "start": 38
     },
     {
       "id": "S12",
@@ -634,7 +646,8 @@ const BOOK = {
       "bakedText": "樂顛倒—以苦為樂；受念處—觀受是苦；四聖諦—離苦解脫",
       "summaryRows": [],
       "scrimOpacity": 0,
-      "reference": "references/a041.jpg"
+      "reference": "references/a041.jpg",
+      "start": 43
     },
     {
       "id": "S13",
@@ -696,7 +709,8 @@ const BOOK = {
       "bakedText": "樂受生起、便知樂受生起、時間暫停、便知",
       "summaryRows": [],
       "scrimOpacity": 0,
-      "reference": "references/a046.jpg"
+      "reference": "references/a046.jpg",
+      "start": 49
     },
     {
       "id": "S14",
@@ -758,7 +772,8 @@ const BOOK = {
       "bakedText": "苦受生起、便知苦受生起、時間暫停、便知",
       "summaryRows": [],
       "scrimOpacity": 0,
-      "reference": "references/b002.jpg"
+      "reference": "references/b002.jpg",
+      "start": 54
     },
     {
       "id": "S15",
@@ -829,7 +844,8 @@ const BOOK = {
       "bakedText": "覺的圖鑑；身與心、食與無食、欲與無欲；六幅圖說",
       "summaryRows": [],
       "scrimOpacity": 0,
-      "reference": "references/b006.jpg"
+      "reference": "references/b006.jpg",
+      "start": 59
     },
     {
       "id": "S16",
@@ -900,7 +916,8 @@ const BOOK = {
       "bakedText": "向內看、向外看、苦受、樂受、憂受、喜受",
       "summaryRows": [],
       "scrimOpacity": 0,
-      "reference": "references/b011.jpg"
+      "reference": "references/b011.jpg",
+      "start": 64
     },
     {
       "id": "S17",
@@ -946,7 +963,8 @@ const BOOK = {
       "bakedText": "心念處觀測站、觀測重點清單",
       "summaryRows": [],
       "scrimOpacity": 0,
-      "reference": "references/b015.jpg"
+      "reference": "references/b015.jpg",
+      "start": 70
     },
     {
       "id": "S18",
@@ -1042,7 +1060,8 @@ const BOOK = {
       "bakedText": "怒氣升起；喜悅生起；兩格副標",
       "summaryRows": [],
       "scrimOpacity": 0,
-      "reference": "references/b020.jpg"
+      "reference": "references/b020.jpg",
+      "start": 72
     },
     {
       "id": "S19",
@@ -1149,7 +1168,8 @@ const BOOK = {
       "bakedText": "原圖沒有五蓋名稱",
       "summaryRows": [],
       "scrimOpacity": 0,
-      "reference": "references/b025.jpg"
+      "reference": "references/b025.jpg",
+      "start": 80
     },
     {
       "id": "S20",
@@ -1227,7 +1247,8 @@ const BOOK = {
       "bakedText": "1念、2擇法、3精進、4喜、5息、6定、7捨",
       "summaryRows": [],
       "scrimOpacity": 0,
-      "reference": "references/b030.jpg"
+      "reference": "references/b030.jpg",
+      "start": 86
     },
     {
       "id": "S21",
@@ -1278,7 +1299,8 @@ const BOOK = {
       "bakedText": "怒氣升起、怒氣消融；兩格副標",
       "summaryRows": [],
       "scrimOpacity": 0,
-      "reference": "references/b034.jpg"
+      "reference": "references/b034.jpg",
+      "start": 91
     },
     {
       "id": "S22",
@@ -1349,7 +1371,8 @@ const BOOK = {
       "bakedText": "無主要教學文字",
       "summaryRows": [],
       "scrimOpacity": 0,
-      "reference": "references/b037.jpg"
+      "reference": "references/b037.jpg",
+      "start": 95
     },
     {
       "id": "S23",
@@ -1395,7 +1418,8 @@ const BOOK = {
       "bakedText": "無主要教學文字",
       "summaryRows": [],
       "scrimOpacity": 0,
-      "reference": "references/b041.jpg"
+      "reference": "references/b041.jpg",
+      "start": 100
     },
     {
       "id": "S24",
@@ -1456,7 +1480,8 @@ const BOOK = {
       "bakedText": "無主要教學文字",
       "summaryRows": [],
       "scrimOpacity": 0,
-      "reference": "references/b045.jpg"
+      "reference": "references/b045.jpg",
+      "start": 103
     },
     {
       "id": "S25",
@@ -1478,7 +1503,3935 @@ const BOOK = {
         "觀法：點亮七覺支的光明道具・徹底擊碎我執。 → 破「我」顛倒（觀法無我）"
       ],
       "scrimOpacity": 0.65,
-      "reference": "references/b048.jpg"
+      "reference": "references/b048.jpg",
+      "start": 109
+    }
+  ],
+  "pages": [
+    {
+      "scene": "S01",
+      "title": "研究引子",
+      "paragraphId": "S01-P01",
+      "paragraphNumber": 1,
+      "part": 1,
+      "lines": [
+        "哈佛大學有一項著名的研究指出：「分心的心，是不快樂的心。」"
+      ],
+      "quotes": [],
+      "image": "../../docs/mindfulness/assets/76AE6FE5-595C-4432-8012-5F6F3C5F23F2.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S01",
+      "title": "研究引子",
+      "paragraphId": "S01-P02",
+      "paragraphNumber": 2,
+      "part": 1,
+      "lines": [
+        "我們常常以為，要得到快樂就必須去做快樂的事，例如娛樂或休息，或者避開不喜歡的事，例如工作或做家事。"
+      ],
+      "quotes": [],
+      "image": "../../docs/mindfulness/assets/76AE6FE5-595C-4432-8012-5F6F3C5F23F2.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S01",
+      "title": "研究引子",
+      "paragraphId": "S01-P03",
+      "paragraphNumber": 3,
+      "part": 1,
+      "lines": [
+        "但數據告訴我們，即使你在做一份無聊的工作，只要你專注在當下，你的快樂度也會高於你坐在辦公桌前、心神漂移去想著放假計畫。"
+      ],
+      "quotes": [],
+      "image": "../../docs/mindfulness/assets/76AE6FE5-595C-4432-8012-5F6F3C5F23F2.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S01",
+      "title": "研究引子",
+      "paragraphId": "S01-P04",
+      "paragraphNumber": 4,
+      "part": 1,
+      "lines": [
+        "簡言之，「正念」與活在當下，是提升日常幸福感最有效且成本最低的方式。"
+      ],
+      "quotes": [],
+      "image": "../../docs/mindfulness/assets/76AE6FE5-595C-4432-8012-5F6F3C5F23F2.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S02",
+      "title": "想快轉的爸爸",
+      "paragraphId": "S02-P01",
+      "paragraphNumber": 1,
+      "part": 1,
+      "lines": [
+        "現代生活太忙碌，我們的大腦為了自救，發展出了兩種逃避當下的模式。"
+      ],
+      "quotes": [],
+      "image": "../../docs/mindfulness/assets/E91F2803-66D8-4CEE-A752-EB17F52DDBA9.png",
+      "dimensions": [
+        1665,
+        945
+      ]
+    },
+    {
+      "scene": "S02",
+      "title": "想快轉的爸爸",
+      "paragraphId": "S02-P02",
+      "paragraphNumber": 2,
+      "part": 1,
+      "lines": [
+        "第一種是「時光機模式」，讓我們的心思飛到過去和未來。"
+      ],
+      "quotes": [],
+      "image": "../../docs/mindfulness/assets/E91F2803-66D8-4CEE-A752-EB17F52DDBA9.png",
+      "dimensions": [
+        1665,
+        945
+      ]
+    },
+    {
+      "scene": "S02",
+      "title": "想快轉的爸爸",
+      "paragraphId": "S02-P03",
+      "paragraphNumber": 3,
+      "part": 1,
+      "lines": [
+        "例如當小孩吵鬧時，我們覺得好累，心裡只想著「趕快長大吧」，大腦就像按下了快轉鍵，藉由幻想未來，來逃避現在的辛苦。"
+      ],
+      "quotes": [],
+      "image": "../../docs/mindfulness/assets/E91F2803-66D8-4CEE-A752-EB17F52DDBA9.png",
+      "dimensions": [
+        1665,
+        945
+      ]
+    },
+    {
+      "scene": "S03",
+      "title": "想倒退的爸爸",
+      "paragraphId": "S03-P01",
+      "paragraphNumber": 1,
+      "part": 1,
+      "lines": [
+        "可是，當孩子真的長大成人了，我們又開始後悔，想按下倒轉鍵，懊惱自己過去沒有好好專注在孩子成長的當下。"
+      ],
+      "quotes": [],
+      "image": "../../docs/mindfulness/assets/BD74B990-D46B-4DB8-9D64-049D9A0B2118.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S03",
+      "title": "想倒退的爸爸",
+      "paragraphId": "S03-P02",
+      "paragraphNumber": 2,
+      "part": 1,
+      "lines": [
+        "在佛法中，這種思緒永遠在過去和未來遊蕩、焦躁不安的狀態，類似五蓋中的掉悔，也就是五種障礙中的「掉舉不安與懊悔」。"
+      ],
+      "quotes": [],
+      "image": "../../docs/mindfulness/assets/BD74B990-D46B-4DB8-9D64-049D9A0B2118.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S03",
+      "title": "想倒退的爸爸",
+      "paragraphId": "S03-P03",
+      "paragraphNumber": 3,
+      "part": 1,
+      "lines": [
+        "這是一種「放逸」，心念散亂，沒有安住在當下的分心狀態。"
+      ],
+      "quotes": [],
+      "image": "../../docs/mindfulness/assets/BD74B990-D46B-4DB8-9D64-049D9A0B2118.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S04",
+      "title": "人在餐桌，心不在",
+      "paragraphId": "S04-P01",
+      "paragraphNumber": 1,
+      "part": 1,
+      "lines": [
+        "第二種是「自動導航模式」。就像家人親友難得聚餐，大家卻低著頭，雙眼無神地滑著手機，看著無意義的社群資訊與短影音。"
+      ],
+      "quotes": [],
+      "image": "../../docs/mindfulness/assets/00250A9F-F6B8-41BB-AE01-FB2A85DCE5AD.jpeg",
+      "dimensions": [
+        1677,
+        938
+      ]
+    },
+    {
+      "scene": "S04",
+      "title": "人在餐桌，心不在",
+      "paragraphId": "S04-P02",
+      "paragraphNumber": 2,
+      "part": 1,
+      "lines": [
+        "身體坐在餐桌前，心卻完全放空。這種逃避現實的大腦省電模式，類似五蓋，也就是五種障礙之中的「惛沉障礙」。"
+      ],
+      "quotes": [],
+      "image": "../../docs/mindfulness/assets/00250A9F-F6B8-41BB-AE01-FB2A85DCE5AD.jpeg",
+      "dimensions": [
+        1677,
+        938
+      ]
+    },
+    {
+      "scene": "S04",
+      "title": "人在餐桌，心不在",
+      "paragraphId": "S04-P03",
+      "paragraphNumber": 3,
+      "part": 1,
+      "lines": [
+        "這也是一種「放逸」，心念散亂，沒有安住在當下的分心狀態。"
+      ],
+      "quotes": [],
+      "image": "../../docs/mindfulness/assets/00250A9F-F6B8-41BB-AE01-FB2A85DCE5AD.jpeg",
+      "dimensions": [
+        1677,
+        938
+      ]
+    },
+    {
+      "scene": "S05",
+      "title": "回到當下",
+      "paragraphId": "S05-P01",
+      "paragraphNumber": 1,
+      "part": 1,
+      "lines": [
+        "不論是焦躁地想按遙控器快轉倒轉，還是麻木地滑手機自動導航，這在佛經中都稱為「放逸」。該如何改善呢？"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q01",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3
+              ],
+              "focus": "四念處；不放逸行，正念、正智"
+            }
+          ],
+          "source": "雜阿含經第621經",
+          "text": "當以四念處教令修習…精勤方便，不放逸行，正念、正智。",
+          "evidenceFrames": [
+            "references/scripture-proof/a014.jpg"
+          ],
+          "afterParagraph": 3
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/8ACD7BAD-64C1-476B-A4AD-7A63F5A2048E.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S05",
+      "title": "回到當下",
+      "paragraphId": "S05-P02",
+      "paragraphNumber": 2,
+      "part": 1,
+      "lines": [
+        "「四念處」可以讓我們擁有正念，「不放逸」地覺知此時此刻。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q01",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3
+              ],
+              "focus": "四念處；不放逸行，正念、正智"
+            }
+          ],
+          "source": "雜阿含經第621經",
+          "text": "當以四念處教令修習…精勤方便，不放逸行，正念、正智。",
+          "evidenceFrames": [
+            "references/scripture-proof/a014.jpg"
+          ],
+          "afterParagraph": 3
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/8ACD7BAD-64C1-476B-A4AD-7A63F5A2048E.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S05",
+      "title": "回到當下",
+      "paragraphId": "S05-P03",
+      "paragraphNumber": 3,
+      "part": 1,
+      "lines": [
+        "這，就是身念處的開始。「找回遺失已久的錨，第一步：身念處。」"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q01",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3
+              ],
+              "focus": "四念處；不放逸行，正念、正智"
+            }
+          ],
+          "source": "雜阿含經第621經",
+          "text": "當以四念處教令修習…精勤方便，不放逸行，正念、正智。",
+          "evidenceFrames": [
+            "references/scripture-proof/a014.jpg"
+          ],
+          "afterParagraph": 3
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/8ACD7BAD-64C1-476B-A4AD-7A63F5A2048E.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S06",
+      "title": "身念處：日常姿勢",
+      "paragraphId": "S06-P01",
+      "paragraphNumber": 1,
+      "part": 1,
+      "lines": [
+        "身念處的修行在日常生活中。走路時知道在走路；站著、坐著、甚至晚上躺下睡覺、早晨清醒睜開眼睛的那一刻，"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q02",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1
+              ],
+              "focus": "行、住、坐、臥、眠、寤的如實知"
+            }
+          ],
+          "source": "中阿含因品念處經",
+          "text": "行則知行，住則知住，坐則知坐，臥則知臥，眠則知眠，寤則知寤，眠寤則知眠寤。",
+          "evidenceFrames": [
+            "references/scripture-proof/a016.jpg"
+          ],
+          "afterParagraph": 1
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/IMG_0527.jpeg",
+      "dimensions": [
+        1376,
+        768
+      ]
+    },
+    {
+      "scene": "S06",
+      "title": "身念處：日常姿勢",
+      "paragraphId": "S06-P01",
+      "paragraphNumber": 1,
+      "part": 2,
+      "lines": [
+        "都清清楚楚地知道身體現在的狀態。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q02",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1
+              ],
+              "focus": "行、住、坐、臥、眠、寤的如實知"
+            }
+          ],
+          "source": "中阿含因品念處經",
+          "text": "行則知行，住則知住，坐則知坐，臥則知臥，眠則知眠，寤則知寤，眠寤則知眠寤。",
+          "evidenceFrames": [
+            "references/scripture-proof/a016.jpg"
+          ],
+          "afterParagraph": 1
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/IMG_0527.jpeg",
+      "dimensions": [
+        1376,
+        768
+      ]
+    },
+    {
+      "scene": "S07",
+      "title": "身念處：呼吸",
+      "paragraphId": "S07-P01",
+      "paragraphNumber": 1,
+      "part": 1,
+      "lines": [
+        "身念處也可以「觀呼吸」。不需要刻意控制，只要單純地看著。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q03",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2
+              ],
+              "focus": "入出息及長短的如實知"
+            }
+          ],
+          "source": "中阿含因品念處經",
+          "text": "念入息即知念入息，念出息即知念出息。入息長即知入息長，出息長即知出息長，入息短即知入息短，出息短即知出息短。",
+          "evidenceFrames": [
+            "references/scripture-proof/a018.jpg"
+          ],
+          "afterParagraph": 2
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/IMG_0528.jpeg",
+      "dimensions": [
+        1376,
+        768
+      ]
+    },
+    {
+      "scene": "S07",
+      "title": "身念處：呼吸",
+      "paragraphId": "S07-P02",
+      "paragraphNumber": 2,
+      "part": 1,
+      "lines": [
+        "吸氣長時，心裡知道「我現在吸氣長」；呼氣短時，知道「我現在呼氣短」。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q03",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2
+              ],
+              "focus": "入出息及長短的如實知"
+            }
+          ],
+          "source": "中阿含因品念處經",
+          "text": "念入息即知念入息，念出息即知念出息。入息長即知入息長，出息長即知出息長，入息短即知入息短，出息短即知出息短。",
+          "evidenceFrames": [
+            "references/scripture-proof/a018.jpg"
+          ],
+          "afterParagraph": 2
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/IMG_0528.jpeg",
+      "dimensions": [
+        1376,
+        768
+      ]
+    },
+    {
+      "scene": "S08",
+      "title": "四顛倒總覽",
+      "paragraphId": "S08-P01",
+      "paragraphNumber": 1,
+      "part": 1,
+      "lines": [
+        "當我們的心透過呼吸與日常覺知穩定下來，就像手電筒終於拿穩了。"
+      ],
+      "quotes": [],
+      "image": "../../docs/mindfulness/assets/C2350C0A-3A01-42DD-95F1-346029469087.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S08",
+      "title": "四顛倒總覽",
+      "paragraphId": "S08-P02",
+      "paragraphNumber": 2,
+      "part": 1,
+      "lines": [
+        "這時，手電筒的光，將照向大腦最深處的四個終極幻覺。"
+      ],
+      "quotes": [],
+      "image": "../../docs/mindfulness/assets/C2350C0A-3A01-42DD-95F1-346029469087.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S08",
+      "title": "四顛倒總覽",
+      "paragraphId": "S08-P03",
+      "paragraphNumber": 3,
+      "part": 1,
+      "lines": [
+        "《顛倒經》裡面說到，眾生因為缺乏覺察，心被混亂、想法被扭曲，總是在生活中產生四種顛倒：以無常為常、以苦為樂、以無我為我，"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q04",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                3
+              ],
+              "focus": "四種顛倒"
+            }
+          ],
+          "source": "增支部4集49經 顛倒經",
+          "text": "以無常為常想，以苦為樂想，以無我為我想，以不淨為淨想，眾生被邪見殺害，心被混亂、想被扭曲。",
+          "evidenceFrames": [
+            "references/scripture-proof/a020.jpg",
+            "references/scripture-proof/a023.jpg",
+            "references/scripture-proof/a040.jpg"
+          ],
+          "afterParagraph": 3
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/C2350C0A-3A01-42DD-95F1-346029469087.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S08",
+      "title": "四顛倒總覽",
+      "paragraphId": "S08-P03",
+      "paragraphNumber": 3,
+      "part": 2,
+      "lines": [
+        "以及「以不淨為淨」。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q04",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                3
+              ],
+              "focus": "四種顛倒"
+            }
+          ],
+          "source": "增支部4集49經 顛倒經",
+          "text": "以無常為常想，以苦為樂想，以無我為我想，以不淨為淨想，眾生被邪見殺害，心被混亂、想被扭曲。",
+          "evidenceFrames": [
+            "references/scripture-proof/a020.jpg",
+            "references/scripture-proof/a023.jpg",
+            "references/scripture-proof/a040.jpg"
+          ],
+          "afterParagraph": 3
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/C2350C0A-3A01-42DD-95F1-346029469087.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S09",
+      "title": "淨顛倒",
+      "paragraphId": "S09-P01",
+      "paragraphNumber": 1,
+      "part": 1,
+      "lines": [
+        "什麼是「以不淨為淨」的顛倒呢？"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q04",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "focus": "以不淨為淨想"
+            }
+          ],
+          "source": "增支部4集49經 顛倒經",
+          "text": "以無常為常想，以苦為樂想，以無我為我想，以不淨為淨想，眾生被邪見殺害，心被混亂、想被扭曲。",
+          "evidenceFrames": [
+            "references/scripture-proof/a020.jpg",
+            "references/scripture-proof/a023.jpg",
+            "references/scripture-proof/a040.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/IMG_0532.jpeg",
+      "dimensions": [
+        1376,
+        768
+      ]
+    },
+    {
+      "scene": "S09",
+      "title": "淨顛倒",
+      "paragraphId": "S09-P02",
+      "paragraphNumber": 2,
+      "part": 1,
+      "lines": [
+        "就像這隻愛漂亮的小貓，天天看著鏡子裡自己蓬鬆柔軟、完美無瑕的毛髮，打從心底覺得：「我的身體是多麼清淨、多麼完美、多麼永恆！」"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q04",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "focus": "以不淨為淨想"
+            }
+          ],
+          "source": "增支部4集49經 顛倒經",
+          "text": "以無常為常想，以苦為樂想，以無我為我想，以不淨為淨想，眾生被邪見殺害，心被混亂、想被扭曲。",
+          "evidenceFrames": [
+            "references/scripture-proof/a020.jpg",
+            "references/scripture-proof/a023.jpg",
+            "references/scripture-proof/a040.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/IMG_0532.jpeg",
+      "dimensions": [
+        1376,
+        768
+      ]
+    },
+    {
+      "scene": "S09",
+      "title": "淨顛倒",
+      "paragraphId": "S09-P03",
+      "paragraphNumber": 3,
+      "part": 1,
+      "lines": [
+        "我們總以為眼前的肉體是一個完整、純潔的個體。但大腦的這層粉紅濾鏡，卻讓我們遺忘了身體本質上，只是由各種不淨的元素，"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q04",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "focus": "以不淨為淨想"
+            }
+          ],
+          "source": "增支部4集49經 顛倒經",
+          "text": "以無常為常想，以苦為樂想，以無我為我想，以不淨為淨想，眾生被邪見殺害，心被混亂、想被扭曲。",
+          "evidenceFrames": [
+            "references/scripture-proof/a020.jpg",
+            "references/scripture-proof/a023.jpg",
+            "references/scripture-proof/a040.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/IMG_0532.jpeg",
+      "dimensions": [
+        1376,
+        768
+      ]
+    },
+    {
+      "scene": "S09",
+      "title": "淨顛倒",
+      "paragraphId": "S09-P03",
+      "paragraphNumber": 3,
+      "part": 2,
+      "lines": [
+        "暫時組合而成的容器。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q04",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "focus": "以不淨為淨想"
+            }
+          ],
+          "source": "增支部4集49經 顛倒經",
+          "text": "以無常為常想，以苦為樂想，以無我為我想，以不淨為淨想，眾生被邪見殺害，心被混亂、想被扭曲。",
+          "evidenceFrames": [
+            "references/scripture-proof/a020.jpg",
+            "references/scripture-proof/a023.jpg",
+            "references/scripture-proof/a040.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/IMG_0532.jpeg",
+      "dimensions": [
+        1376,
+        768
+      ]
+    },
+    {
+      "scene": "S09",
+      "title": "淨顛倒",
+      "paragraphId": "S09-P04",
+      "paragraphNumber": 4,
+      "part": 1,
+      "lines": [
+        "為了打破這層扭曲的幻覺，佛陀在「身念處」的下一階段，留給了我們一把微觀的解剖刀。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q04",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "focus": "以不淨為淨想"
+            }
+          ],
+          "source": "增支部4集49經 顛倒經",
+          "text": "以無常為常想，以苦為樂想，以無我為我想，以不淨為淨想，眾生被邪見殺害，心被混亂、想被扭曲。",
+          "evidenceFrames": [
+            "references/scripture-proof/a020.jpg",
+            "references/scripture-proof/a023.jpg",
+            "references/scripture-proof/a040.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/IMG_0532.jpeg",
+      "dimensions": [
+        1376,
+        768
+      ]
+    },
+    {
+      "scene": "S09",
+      "title": "淨顛倒",
+      "paragraphId": "S09-P05",
+      "paragraphNumber": 5,
+      "part": 1,
+      "lines": [
+        "接下來，我們要跟著小貓，一起拆解這個精緻的容器，看清身體背後的真相。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q04",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "focus": "以不淨為淨想"
+            }
+          ],
+          "source": "增支部4集49經 顛倒經",
+          "text": "以無常為常想，以苦為樂想，以無我為我想，以不淨為淨想，眾生被邪見殺害，心被混亂、想被扭曲。",
+          "evidenceFrames": [
+            "references/scripture-proof/a020.jpg",
+            "references/scripture-proof/a023.jpg",
+            "references/scripture-proof/a040.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/IMG_0532.jpeg",
+      "dimensions": [
+        1376,
+        768
+      ]
+    },
+    {
+      "scene": "S10",
+      "title": "觀身不淨：四界",
+      "paragraphId": "S10-P01",
+      "paragraphNumber": 1,
+      "part": 1,
+      "lines": [
+        "我們的大腦常有一種錯覺，以為這個身體是恆常不變、完美無瑕的。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q05",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2
+              ],
+              "focus": "觀見種種不淨充滿；身體部位的列舉"
+            }
+          ],
+          "source": "因品念處經",
+          "text": "觀見種種不淨充滿，我此身中有髮、毛、爪、齒、麁細薄膚、皮、肉、筋、骨、心、腎、肝、肺、大腸、小腸、脾、胃、摶糞、腦及腦根、淚、汗、涕、唾、膿、血、肪、髓、涎、痰、小便。",
+          "evidenceFrames": [
+            "references/scripture-proof/a028.jpg"
+          ],
+          "afterParagraph": 2
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/A6D74077-1A27-421A-AACD-F417404038BE.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S10",
+      "title": "觀身不淨：四界",
+      "paragraphId": "S10-P02",
+      "paragraphNumber": 2,
+      "part": 1,
+      "lines": [
+        "但如果我們透過覺察的魔鏡，就會看到一個由大自然零件組成的奇妙世界。從頭到腳，我們有著保暖的毛髮與皮膚、有著支撐身體的骨頭與肌肉；"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q05",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2
+              ],
+              "focus": "觀見種種不淨充滿；身體部位的列舉"
+            }
+          ],
+          "source": "因品念處經",
+          "text": "觀見種種不淨充滿，我此身中有髮、毛、爪、齒、麁細薄膚、皮、肉、筋、骨、心、腎、肝、肺、大腸、小腸、脾、胃、摶糞、腦及腦根、淚、汗、涕、唾、膿、血、肪、髓、涎、痰、小便。",
+          "evidenceFrames": [
+            "references/scripture-proof/a028.jpg"
+          ],
+          "afterParagraph": 2
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/A6D74077-1A27-421A-AACD-F417404038BE.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S10",
+      "title": "觀身不淨：四界",
+      "paragraphId": "S10-P02",
+      "paragraphNumber": 2,
+      "part": 2,
+      "lines": [
+        "在我們看不見的體內，還有心、肝、脾、肺、腎這些辛勤工作的內臟器官。甚至連我們的眼淚、汗水、唾液與血液，"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q05",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2
+              ],
+              "focus": "觀見種種不淨充滿；身體部位的列舉"
+            }
+          ],
+          "source": "因品念處經",
+          "text": "觀見種種不淨充滿，我此身中有髮、毛、爪、齒、麁細薄膚、皮、肉、筋、骨、心、腎、肝、肺、大腸、小腸、脾、胃、摶糞、腦及腦根、淚、汗、涕、唾、膿、血、肪、髓、涎、痰、小便。",
+          "evidenceFrames": [
+            "references/scripture-proof/a028.jpg"
+          ],
+          "afterParagraph": 2
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/A6D74077-1A27-421A-AACD-F417404038BE.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S10",
+      "title": "觀身不淨：四界",
+      "paragraphId": "S10-P02",
+      "paragraphNumber": 2,
+      "part": 3,
+      "lines": [
+        "都是這個身體不可或缺的流動零件。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q05",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2
+              ],
+              "focus": "觀見種種不淨充滿；身體部位的列舉"
+            }
+          ],
+          "source": "因品念處經",
+          "text": "觀見種種不淨充滿，我此身中有髮、毛、爪、齒、麁細薄膚、皮、肉、筋、骨、心、腎、肝、肺、大腸、小腸、脾、胃、摶糞、腦及腦根、淚、汗、涕、唾、膿、血、肪、髓、涎、痰、小便。",
+          "evidenceFrames": [
+            "references/scripture-proof/a028.jpg"
+          ],
+          "afterParagraph": 2
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/A6D74077-1A27-421A-AACD-F417404038BE.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S10",
+      "title": "觀身不淨：四界",
+      "paragraphId": "S10-P03",
+      "paragraphNumber": 3,
+      "part": 1,
+      "lines": [
+        "佛陀教導我們，這些看似複雜的零件，其實只是四大元素的暫時組合：堅硬的骨骼與指甲屬於「地」；流動的血液與水分屬於「水」；"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q06",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                3,
+                4
+              ],
+              "focus": "地界、水界、火界、風界；觀內身、觀外身"
+            }
+          ],
+          "source": "中阿含經 因品念處經",
+          "text": "我此身中，地界、水界、火界、風界、空界、識界。如是比丘觀內身如身，觀外身如身，立念在身，有知有見，有明有達，是謂比丘觀身如身。",
+          "evidenceFrames": [
+            "references/scripture-proof/a031.jpg"
+          ],
+          "afterParagraph": 4
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/A6D74077-1A27-421A-AACD-F417404038BE.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S10",
+      "title": "觀身不淨：四界",
+      "paragraphId": "S10-P03",
+      "paragraphNumber": 3,
+      "part": 2,
+      "lines": [
+        "維持運作的體溫屬於「火」，而我們的一呼一吸，則是穿梭其中的「風」。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q06",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                3,
+                4
+              ],
+              "focus": "地界、水界、火界、風界；觀內身、觀外身"
+            }
+          ],
+          "source": "中阿含經 因品念處經",
+          "text": "我此身中，地界、水界、火界、風界、空界、識界。如是比丘觀內身如身，觀外身如身，立念在身，有知有見，有明有達，是謂比丘觀身如身。",
+          "evidenceFrames": [
+            "references/scripture-proof/a031.jpg"
+          ],
+          "afterParagraph": 4
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/A6D74077-1A27-421A-AACD-F417404038BE.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S10",
+      "title": "觀身不淨：四界",
+      "paragraphId": "S10-P04",
+      "paragraphNumber": 4,
+      "part": 1,
+      "lines": [
+        "身體會流汗、會生病、也有一天會變老。當小貓看清了這點，他反而放鬆地笑了。因為他明白，不需要再為外表的完美而焦慮，這個身體，"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q06",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                3,
+                4
+              ],
+              "focus": "地界、水界、火界、風界；觀內身、觀外身"
+            }
+          ],
+          "source": "中阿含經 因品念處經",
+          "text": "我此身中，地界、水界、火界、風界、空界、識界。如是比丘觀內身如身，觀外身如身，立念在身，有知有見，有明有達，是謂比丘觀身如身。",
+          "evidenceFrames": [
+            "references/scripture-proof/a031.jpg"
+          ],
+          "afterParagraph": 4
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/A6D74077-1A27-421A-AACD-F417404038BE.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S10",
+      "title": "觀身不淨：四界",
+      "paragraphId": "S10-P04",
+      "paragraphNumber": 4,
+      "part": 2,
+      "lines": [
+        "只是大自然暫時借給他的一件奇妙外衣。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q06",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                3,
+                4
+              ],
+              "focus": "地界、水界、火界、風界；觀內身、觀外身"
+            }
+          ],
+          "source": "中阿含經 因品念處經",
+          "text": "我此身中，地界、水界、火界、風界、空界、識界。如是比丘觀內身如身，觀外身如身，立念在身，有知有見，有明有達，是謂比丘觀身如身。",
+          "evidenceFrames": [
+            "references/scripture-proof/a031.jpg"
+          ],
+          "afterParagraph": 4
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/A6D74077-1A27-421A-AACD-F417404038BE.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S11",
+      "title": "觀身不淨：變壞譬喻",
+      "paragraphId": "S11-P01",
+      "paragraphNumber": 1,
+      "part": 1,
+      "lines": [
+        "我們總以為完美的狀態能永恆。但你看這顆蘋果從紅潤飽滿，到青紫發脹；隨後破裂腐壞流汁。接著被蟲鳥啃食分散，直到甜美褪去，"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q07",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "focus": "見已自比；我此身亦復如是"
+            }
+          ],
+          "source": "中阿含經 因品念處經",
+          "text": "比丘觀身如身：比丘者，如本見息道，骨白如螺、青猶鴿色、赤若血塗、腐壞碎糜，見已自比：「我此身亦復如是，俱有此法，終不得離。」",
+          "evidenceFrames": [
+            "references/scripture-proof/a036.jpg"
+          ],
+          "afterParagraph": 4
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/IMG_0541.jpeg",
+      "dimensions": [
+        1376,
+        768
+      ]
+    },
+    {
+      "scene": "S11",
+      "title": "觀身不淨：變壞譬喻",
+      "paragraphId": "S11-P01",
+      "paragraphNumber": 1,
+      "part": 2,
+      "lines": [
+        "只剩如白骨般的孤獨果核，最終化為灰土，徹底回歸大地。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q07",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "focus": "見已自比；我此身亦復如是"
+            }
+          ],
+          "source": "中阿含經 因品念處經",
+          "text": "比丘觀身如身：比丘者，如本見息道，骨白如螺、青猶鴿色、赤若血塗、腐壞碎糜，見已自比：「我此身亦復如是，俱有此法，終不得離。」",
+          "evidenceFrames": [
+            "references/scripture-proof/a036.jpg"
+          ],
+          "afterParagraph": 4
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/IMG_0541.jpeg",
+      "dimensions": [
+        1376,
+        768
+      ]
+    },
+    {
+      "scene": "S11",
+      "title": "觀身不淨：變壞譬喻",
+      "paragraphId": "S11-P02",
+      "paragraphNumber": 2,
+      "part": 1,
+      "lines": [
+        "佛陀要我們去凝視這個過程，並非要我們厭惡世界，而是要在心裡自比：只要是肉身，最終都會遵循這份大自然的規律，走向消散。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q07",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "focus": "見已自比；我此身亦復如是"
+            }
+          ],
+          "source": "中阿含經 因品念處經",
+          "text": "比丘觀身如身：比丘者，如本見息道，骨白如螺、青猶鴿色、赤若血塗、腐壞碎糜，見已自比：「我此身亦復如是，俱有此法，終不得離。」",
+          "evidenceFrames": [
+            "references/scripture-proof/a036.jpg"
+          ],
+          "afterParagraph": 4
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/IMG_0541.jpeg",
+      "dimensions": [
+        1376,
+        768
+      ]
+    },
+    {
+      "scene": "S11",
+      "title": "觀身不淨：變壞譬喻",
+      "paragraphId": "S11-P03",
+      "paragraphNumber": 3,
+      "part": 1,
+      "lines": [
+        "當我們真正看清這個真相，我們就放下了對外表完美的盲目貪戀，也釋放了對衰老與死亡的恐懼。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q07",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "focus": "見已自比；我此身亦復如是"
+            }
+          ],
+          "source": "中阿含經 因品念處經",
+          "text": "比丘觀身如身：比丘者，如本見息道，骨白如螺、青猶鴿色、赤若血塗、腐壞碎糜，見已自比：「我此身亦復如是，俱有此法，終不得離。」",
+          "evidenceFrames": [
+            "references/scripture-proof/a036.jpg"
+          ],
+          "afterParagraph": 4
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/IMG_0541.jpeg",
+      "dimensions": [
+        1376,
+        768
+      ]
+    },
+    {
+      "scene": "S11",
+      "title": "觀身不淨：變壞譬喻",
+      "paragraphId": "S11-P04",
+      "paragraphNumber": 4,
+      "part": 1,
+      "lines": [
+        "只要將心安住在這個會呼吸、由四大暫時組合的身體上。你就找回了生命中，那座最穩固、最能讓你回到當下的錨。這，就是身念處。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q07",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "focus": "見已自比；我此身亦復如是"
+            }
+          ],
+          "source": "中阿含經 因品念處經",
+          "text": "比丘觀身如身：比丘者，如本見息道，骨白如螺、青猶鴿色、赤若血塗、腐壞碎糜，見已自比：「我此身亦復如是，俱有此法，終不得離。」",
+          "evidenceFrames": [
+            "references/scripture-proof/a036.jpg"
+          ],
+          "afterParagraph": 4
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/IMG_0541.jpeg",
+      "dimensions": [
+        1376,
+        768
+      ]
+    },
+    {
+      "scene": "S12",
+      "title": "觀受是苦",
+      "paragraphId": "S12-P01",
+      "paragraphNumber": 1,
+      "part": 1,
+      "lines": [
+        "你看左邊的小貓，正沉浸在「樂顛倒」的粉紅濾鏡裡。他緊緊抱著裝滿美食與讚美的彩虹泡泡，誤把短暫的感官享受，當成了永恆的快樂。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q04",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "focus": "以苦為樂想"
+            }
+          ],
+          "source": "增支部4集49經 顛倒經",
+          "text": "以無常為常想，以苦為樂想，以無我為我想，以不淨為淨想，眾生被邪見殺害，心被混亂、想被扭曲。",
+          "evidenceFrames": [
+            "references/scripture-proof/a020.jpg",
+            "references/scripture-proof/a023.jpg",
+            "references/scripture-proof/a040.jpg"
+          ],
+          "afterParagraph": 4
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/IMG_0589.jpeg",
+      "dimensions": [
+        1374,
+        768
+      ]
+    },
+    {
+      "scene": "S12",
+      "title": "觀受是苦",
+      "paragraphId": "S12-P01",
+      "paragraphNumber": 1,
+      "part": 2,
+      "lines": [
+        "卻不知道，泡泡的本質註定幻滅。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q04",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "focus": "以苦為樂想"
+            }
+          ],
+          "source": "增支部4集49經 顛倒經",
+          "text": "以無常為常想，以苦為樂想，以無我為我想，以不淨為淨想，眾生被邪見殺害，心被混亂、想被扭曲。",
+          "evidenceFrames": [
+            "references/scripture-proof/a020.jpg",
+            "references/scripture-proof/a023.jpg",
+            "references/scripture-proof/a040.jpg"
+          ],
+          "afterParagraph": 4
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/IMG_0589.jpeg",
+      "dimensions": [
+        1374,
+        768
+      ]
+    },
+    {
+      "scene": "S12",
+      "title": "觀受是苦",
+      "paragraphId": "S12-P02",
+      "paragraphNumber": 2,
+      "part": 1,
+      "lines": [
+        "啪！條件一變，畫面中間的泡泡瞬間破裂，化為冰冷的雨雲淋得他渾身濕透。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q04",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "focus": "以苦為樂想"
+            }
+          ],
+          "source": "增支部4集49經 顛倒經",
+          "text": "以無常為常想，以苦為樂想，以無我為我想，以不淨為淨想，眾生被邪見殺害，心被混亂、想被扭曲。",
+          "evidenceFrames": [
+            "references/scripture-proof/a020.jpg",
+            "references/scripture-proof/a023.jpg",
+            "references/scripture-proof/a040.jpg"
+          ],
+          "afterParagraph": 4
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/IMG_0589.jpeg",
+      "dimensions": [
+        1374,
+        768
+      ]
+    },
+    {
+      "scene": "S12",
+      "title": "觀受是苦",
+      "paragraphId": "S12-P03",
+      "paragraphNumber": 3,
+      "part": 1,
+      "lines": [
+        "受念處的關鍵就在於「觀受是苦」。勇敢看清快樂的無常與變異，我們才能在感受的巨浪中，踩下明覺的煞車。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q04",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "focus": "以苦為樂想"
+            }
+          ],
+          "source": "增支部4集49經 顛倒經",
+          "text": "以無常為常想，以苦為樂想，以無我為我想，以不淨為淨想，眾生被邪見殺害，心被混亂、想被扭曲。",
+          "evidenceFrames": [
+            "references/scripture-proof/a020.jpg",
+            "references/scripture-proof/a023.jpg",
+            "references/scripture-proof/a040.jpg"
+          ],
+          "afterParagraph": 4
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/IMG_0589.jpeg",
+      "dimensions": [
+        1374,
+        768
+      ]
+    },
+    {
+      "scene": "S12",
+      "title": "觀受是苦",
+      "paragraphId": "S12-P04",
+      "paragraphNumber": 4,
+      "part": 1,
+      "lines": [
+        "看透真相後，右邊的小貓不再瘋狂追逐泡泡。他放鬆地坐下，心自帶防護罩。外在風雨依舊，但他如實知苦、斷除貪愛，"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q04",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "focus": "以苦為樂想"
+            }
+          ],
+          "source": "增支部4集49經 顛倒經",
+          "text": "以無常為常想，以苦為樂想，以無我為我想，以不淨為淨想，眾生被邪見殺害，心被混亂、想被扭曲。",
+          "evidenceFrames": [
+            "references/scripture-proof/a020.jpg",
+            "references/scripture-proof/a023.jpg",
+            "references/scripture-proof/a040.jpg"
+          ],
+          "afterParagraph": 4
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/IMG_0589.jpeg",
+      "dimensions": [
+        1374,
+        768
+      ]
+    },
+    {
+      "scene": "S12",
+      "title": "觀受是苦",
+      "paragraphId": "S12-P04",
+      "paragraphNumber": 4,
+      "part": 2,
+      "lines": [
+        "證得了四聖諦的「離苦解脫」，找回心靈真正的自由。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q04",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "focus": "以苦為樂想"
+            }
+          ],
+          "source": "增支部4集49經 顛倒經",
+          "text": "以無常為常想，以苦為樂想，以無我為我想，以不淨為淨想，眾生被邪見殺害，心被混亂、想被扭曲。",
+          "evidenceFrames": [
+            "references/scripture-proof/a020.jpg",
+            "references/scripture-proof/a023.jpg",
+            "references/scripture-proof/a040.jpg"
+          ],
+          "afterParagraph": 4
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/IMG_0589.jpeg",
+      "dimensions": [
+        1374,
+        768
+      ]
+    },
+    {
+      "scene": "S13",
+      "title": "便知樂受",
+      "paragraphId": "S13-P01",
+      "paragraphNumber": 1,
+      "part": 1,
+      "lines": [
+        "經文說：「覺樂覺時，便知覺樂覺。」在日常生活中，這該怎麼做呢？"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q08",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "focus": "覺樂覺時，便知覺樂覺。"
+            }
+          ],
+          "source": "中阿含經 因品念處經",
+          "text": "覺樂覺時，便知覺樂覺。覺苦覺時，便知覺苦覺。覺不苦不樂覺時，便知覺不苦不樂覺。",
+          "evidenceFrames": [
+            "references/scripture-proof/a046.jpg",
+            "references/scripture-proof/b002.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/B403B03F-8A20-4FBA-AB70-792401ED5DFA.jpeg",
+      "dimensions": [
+        1681,
+        935
+      ]
+    },
+    {
+      "scene": "S13",
+      "title": "便知樂受",
+      "paragraphId": "S13-P02",
+      "paragraphNumber": 2,
+      "part": 1,
+      "lines": [
+        "看看左圖，當最愛的頂級罐頭一出現，小貓雙眼冒愛心，樂受生起，立刻被欲望的鎖鏈牢牢套住。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q08",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "focus": "覺樂覺時，便知覺樂覺。"
+            }
+          ],
+          "source": "中阿含經 因品念處經",
+          "text": "覺樂覺時，便知覺樂覺。覺苦覺時，便知覺苦覺。覺不苦不樂覺時，便知覺不苦不樂覺。",
+          "evidenceFrames": [
+            "references/scripture-proof/a046.jpg",
+            "references/scripture-proof/b002.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/B403B03F-8A20-4FBA-AB70-792401ED5DFA.jpeg",
+      "dimensions": [
+        1681,
+        935
+      ]
+    },
+    {
+      "scene": "S13",
+      "title": "便知樂受",
+      "paragraphId": "S13-P03",
+      "paragraphNumber": 3,
+      "part": 1,
+      "lines": [
+        "這時，大腦的自動導航會催促你進入「放逸」，甚至生起「貪心」。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q08",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "focus": "覺樂覺時，便知覺樂覺。"
+            }
+          ],
+          "source": "中阿含經 因品念處經",
+          "text": "覺樂覺時，便知覺樂覺。覺苦覺時，便知覺苦覺。覺不苦不樂覺時，便知覺不苦不樂覺。",
+          "evidenceFrames": [
+            "references/scripture-proof/a046.jpg",
+            "references/scripture-proof/b002.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/B403B03F-8A20-4FBA-AB70-792401ED5DFA.jpeg",
+      "dimensions": [
+        1681,
+        935
+      ]
+    },
+    {
+      "scene": "S13",
+      "title": "便知樂受",
+      "paragraphId": "S13-P04",
+      "paragraphNumber": 4,
+      "part": 1,
+      "lines": [
+        "但在關鍵的零點幾秒，受念處教我們像右圖拉下「便知」的手煞車。心裡平靜地說聲：「快樂的感受生起了。」"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q08",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "focus": "覺樂覺時，便知覺樂覺。"
+            }
+          ],
+          "source": "中阿含經 因品念處經",
+          "text": "覺樂覺時，便知覺樂覺。覺苦覺時，便知覺苦覺。覺不苦不樂覺時，便知覺不苦不樂覺。",
+          "evidenceFrames": [
+            "references/scripture-proof/a046.jpg",
+            "references/scripture-proof/b002.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/B403B03F-8A20-4FBA-AB70-792401ED5DFA.jpeg",
+      "dimensions": [
+        1681,
+        935
+      ]
+    },
+    {
+      "scene": "S13",
+      "title": "便知樂受",
+      "paragraphId": "S13-P05",
+      "paragraphNumber": 5,
+      "part": 1,
+      "lines": [
+        "啪！時間暫停，鎖鏈碎裂。你依然能欣賞這個罐頭，但你，已經不再是它的奴隸。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q08",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "focus": "覺樂覺時，便知覺樂覺。"
+            }
+          ],
+          "source": "中阿含經 因品念處經",
+          "text": "覺樂覺時，便知覺樂覺。覺苦覺時，便知覺苦覺。覺不苦不樂覺時，便知覺不苦不樂覺。",
+          "evidenceFrames": [
+            "references/scripture-proof/a046.jpg",
+            "references/scripture-proof/b002.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/B403B03F-8A20-4FBA-AB70-792401ED5DFA.jpeg",
+      "dimensions": [
+        1681,
+        935
+      ]
+    },
+    {
+      "scene": "S14",
+      "title": "便知苦受",
+      "paragraphId": "S14-P01",
+      "paragraphNumber": 1,
+      "part": 1,
+      "lines": [
+        "經文接著說：「覺苦覺時，便知覺苦覺。」那遇到痛苦時，我們又該怎麼踩煞車呢？"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q08",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "focus": "覺苦覺時，便知覺苦覺。"
+            }
+          ],
+          "source": "中阿含經 因品念處經",
+          "text": "覺樂覺時，便知覺樂覺。覺苦覺時，便知覺苦覺。覺不苦不樂覺時，便知覺不苦不樂覺。",
+          "evidenceFrames": [
+            "references/scripture-proof/a046.jpg",
+            "references/scripture-proof/b002.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/662A414E-1B2E-4B67-B848-DD8528F029CB.jpeg",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S14",
+      "title": "便知苦受",
+      "paragraphId": "S14-P02",
+      "paragraphNumber": 2,
+      "part": 1,
+      "lines": [
+        "看看左邊，當暴雨和閃電突然劈下來，小貓被淋得渾身濕透，心被「苦受」的鎖鏈死死套牢。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q08",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "focus": "覺苦覺時，便知覺苦覺。"
+            }
+          ],
+          "source": "中阿含經 因品念處經",
+          "text": "覺樂覺時，便知覺樂覺。覺苦覺時，便知覺苦覺。覺不苦不樂覺時，便知覺不苦不樂覺。",
+          "evidenceFrames": [
+            "references/scripture-proof/a046.jpg",
+            "references/scripture-proof/b002.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/662A414E-1B2E-4B67-B848-DD8528F029CB.jpeg",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S14",
+      "title": "便知苦受",
+      "paragraphId": "S14-P03",
+      "paragraphNumber": 3,
+      "part": 1,
+      "lines": [
+        "這時，大腦本能地想抱怨，憤怒與怨恨的「瞋心」正蠢蠢欲動。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q08",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "focus": "覺苦覺時，便知覺苦覺。"
+            }
+          ],
+          "source": "中阿含經 因品念處經",
+          "text": "覺樂覺時，便知覺樂覺。覺苦覺時，便知覺苦覺。覺不苦不樂覺時，便知覺不苦不樂覺。",
+          "evidenceFrames": [
+            "references/scripture-proof/a046.jpg",
+            "references/scripture-proof/b002.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/662A414E-1B2E-4B67-B848-DD8528F029CB.jpeg",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S14",
+      "title": "便知苦受",
+      "paragraphId": "S14-P04",
+      "paragraphNumber": 4,
+      "part": 1,
+      "lines": [
+        "但在抓狂爆發前，小貓敏捷地在右邊拉下「便知」的手煞車。心裡平靜地說聲：「痛苦的感受生起了。」"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q08",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "focus": "覺苦覺時，便知覺苦覺。"
+            }
+          ],
+          "source": "中阿含經 因品念處經",
+          "text": "覺樂覺時，便知覺樂覺。覺苦覺時，便知覺苦覺。覺不苦不樂覺時，便知覺不苦不樂覺。",
+          "evidenceFrames": [
+            "references/scripture-proof/a046.jpg",
+            "references/scripture-proof/b002.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/662A414E-1B2E-4B67-B848-DD8528F029CB.jpeg",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S14",
+      "title": "便知苦受",
+      "paragraphId": "S14-P05",
+      "paragraphNumber": 5,
+      "part": 1,
+      "lines": [
+        "啪！時間暫停，瞋心的鎖鏈瞬間碎裂。外面的大雨雖然還在下，但你的內心，已經放晴了。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q08",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "focus": "覺苦覺時，便知覺苦覺。"
+            }
+          ],
+          "source": "中阿含經 因品念處經",
+          "text": "覺樂覺時，便知覺樂覺。覺苦覺時，便知覺苦覺。覺不苦不樂覺時，便知覺不苦不樂覺。",
+          "evidenceFrames": [
+            "references/scripture-proof/a046.jpg",
+            "references/scripture-proof/b002.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/662A414E-1B2E-4B67-B848-DD8528F029CB.jpeg",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S15",
+      "title": "感受圖鑑",
+      "paragraphId": "S15-P01",
+      "paragraphNumber": 1,
+      "part": 1,
+      "lines": [
+        "學會了在苦樂中踩煞車，佛陀接著帶我們把鏡頭拉近，看清感受更微細的「三種基因對比」。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q09",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2
+              ],
+              "focus": "身／心的感受分類"
+            }
+          ],
+          "source": "因品念處經",
+          "text": "覺樂身、苦身、不苦不樂身；樂心、苦心、不苦不樂心；樂食、苦食、不苦不樂食、樂無食、苦無食、不苦不樂無食；樂欲、苦欲、不苦不樂欲。樂無欲覺、苦無欲覺、不苦不樂無欲覺時，便知覺不苦不樂無欲覺。",
+          "evidenceFrames": [
+            "references/scripture-proof/b006.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/D86791B4-6640-4FD4-BA5D-EF3E04B87F97.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S15",
+      "title": "感受圖鑑",
+      "paragraphId": "S15-P02",
+      "paragraphNumber": 2,
+      "part": 1,
+      "lines": [
+        "首先，去分辨這份感受是來自肉體，還是心靈？（身與心）"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q09",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2
+              ],
+              "focus": "身／心的感受分類"
+            }
+          ],
+          "source": "因品念處經",
+          "text": "覺樂身、苦身、不苦不樂身；樂心、苦心、不苦不樂心；樂食、苦食、不苦不樂食、樂無食、苦無食、不苦不樂無食；樂欲、苦欲、不苦不樂欲。樂無欲覺、苦無欲覺、不苦不樂無欲覺時，便知覺不苦不樂無欲覺。",
+          "evidenceFrames": [
+            "references/scripture-proof/b006.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/D86791B4-6640-4FD4-BA5D-EF3E04B87F97.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S15",
+      "title": "感受圖鑑",
+      "paragraphId": "S15-P03",
+      "paragraphNumber": 3,
+      "part": 1,
+      "lines": [
+        "是因為感官物慾得到滿足的世俗享樂，還是遠離物慾、內心沉靜的精神法喜？"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q09",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                3
+              ],
+              "focus": "食／無食的感受分類"
+            }
+          ],
+          "source": "因品念處經",
+          "text": "覺樂身、苦身、不苦不樂身；樂心、苦心、不苦不樂心；樂食、苦食、不苦不樂食、樂無食、苦無食、不苦不樂無食；樂欲、苦欲、不苦不樂欲。樂無欲覺、苦無欲覺、不苦不樂無欲覺時，便知覺不苦不樂無欲覺。",
+          "evidenceFrames": [
+            "references/scripture-proof/b006.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/D86791B4-6640-4FD4-BA5D-EF3E04B87F97.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S15",
+      "title": "感受圖鑑",
+      "paragraphId": "S15-P04",
+      "paragraphNumber": 4,
+      "part": 1,
+      "lines": [
+        "還有，這份快樂背後，是帶著「好想抓緊」的焦慮欲望，還是不求回報的全然自在？（欲與無欲）"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q09",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                4,
+                5
+              ],
+              "focus": "欲／無欲；便知"
+            }
+          ],
+          "source": "因品念處經",
+          "text": "覺樂身、苦身、不苦不樂身；樂心、苦心、不苦不樂心；樂食、苦食、不苦不樂食、樂無食、苦無食、不苦不樂無食；樂欲、苦欲、不苦不樂欲。樂無欲覺、苦無欲覺、不苦不樂無欲覺時，便知覺不苦不樂無欲覺。",
+          "evidenceFrames": [
+            "references/scripture-proof/b006.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/D86791B4-6640-4FD4-BA5D-EF3E04B87F97.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S15",
+      "title": "感受圖鑑",
+      "paragraphId": "S15-P05",
+      "paragraphNumber": 5,
+      "part": 1,
+      "lines": [
+        "不論感受怎麼變化，小貓都在圖鑑上蓋上「便知」的印章。看清它、分類它，它就只是大腦的一顆零件，再也無法綁架你。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q09",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                4,
+                5
+              ],
+              "focus": "欲／無欲；便知"
+            }
+          ],
+          "source": "因品念處經",
+          "text": "覺樂身、苦身、不苦不樂身；樂心、苦心、不苦不樂心；樂食、苦食、不苦不樂食、樂無食、苦無食、不苦不樂無食；樂欲、苦欲、不苦不樂欲。樂無欲覺、苦無欲覺、不苦不樂無欲覺時，便知覺不苦不樂無欲覺。",
+          "evidenceFrames": [
+            "references/scripture-proof/b006.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/D86791B4-6640-4FD4-BA5D-EF3E04B87F97.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S16",
+      "title": "內外觀受",
+      "paragraphId": "S16-P01",
+      "paragraphNumber": 1,
+      "part": 1,
+      "lines": [
+        "當這把覺察的透視鏡越來越清晰，你不僅能向內看透自己內心情緒的風浪，當外在環境變化，或是看見身邊的人在生氣、焦慮時，"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q10",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1
+              ],
+              "focus": "觀內覺如覺，觀外覺如覺"
+            }
+          ],
+          "source": "中阿含經 因品念處經",
+          "text": "如是比丘觀內覺如覺，觀外覺如覺，立念在覺，有知有見，有明有達，是謂比丘觀覺如覺。若比丘、比丘尼如是少少觀覺如覺者，是謂觀覺如覺念處。",
+          "evidenceFrames": [
+            "references/scripture-proof/b011.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/236DF7C4-998F-425E-8C89-C3AE82F54330.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S16",
+      "title": "內外觀受",
+      "paragraphId": "S16-P01",
+      "paragraphNumber": 1,
+      "part": 2,
+      "lines": [
+        "你也能穿透表象，看見他們背後的感受浪潮。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q10",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1
+              ],
+              "focus": "觀內覺如覺，觀外覺如覺"
+            }
+          ],
+          "source": "中阿含經 因品念處經",
+          "text": "如是比丘觀內覺如覺，觀外覺如覺，立念在覺，有知有見，有明有達，是謂比丘觀覺如覺。若比丘、比丘尼如是少少觀覺如覺者，是謂觀覺如覺念處。",
+          "evidenceFrames": [
+            "references/scripture-proof/b011.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/236DF7C4-998F-425E-8C89-C3AE82F54330.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S16",
+      "title": "內外觀受",
+      "paragraphId": "S16-P02",
+      "paragraphNumber": 2,
+      "part": 1,
+      "lines": [
+        "面對如此龐雜的感受運作，佛陀在經文最後叮嚀我們要「少少觀」。修行的覺察力無法一步登天。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q10",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                2,
+                3
+              ],
+              "focus": "少少觀覺如覺"
+            }
+          ],
+          "source": "中阿含經 因品念處經",
+          "text": "如是比丘觀內覺如覺，觀外覺如覺，立念在覺，有知有見，有明有達，是謂比丘觀覺如覺。若比丘、比丘尼如是少少觀覺如覺者，是謂觀覺如覺念處。",
+          "evidenceFrames": [
+            "references/scripture-proof/b011.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/236DF7C4-998F-425E-8C89-C3AE82F54330.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S16",
+      "title": "內外觀受",
+      "paragraphId": "S16-P03",
+      "paragraphNumber": 3,
+      "part": 1,
+      "lines": [
+        "我們必須從微小的局部開始，漸次地、深入地去剖析每一個生起的感受。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q10",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                2,
+                3
+              ],
+              "focus": "少少觀覺如覺"
+            }
+          ],
+          "source": "中阿含經 因品念處經",
+          "text": "如是比丘觀內覺如覺，觀外覺如覺，立念在覺，有知有見，有明有達，是謂比丘觀覺如覺。若比丘、比丘尼如是少少觀覺如覺者，是謂觀覺如覺念處。",
+          "evidenceFrames": [
+            "references/scripture-proof/b011.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/236DF7C4-998F-425E-8C89-C3AE82F54330.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S16",
+      "title": "內外觀受",
+      "paragraphId": "S16-P04",
+      "paragraphNumber": 4,
+      "part": 1,
+      "lines": [
+        "當你能夠這樣微密且持續地觀察，你便不再捲入盲目的情緒衝突，而是帶著清明與慈悲，立念在覺。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q10",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                4,
+                5
+              ],
+              "focus": "立念在覺，有知有見，有明有達"
+            }
+          ],
+          "source": "中阿含經 因品念處經",
+          "text": "如是比丘觀內覺如覺，觀外覺如覺，立念在覺，有知有見，有明有達，是謂比丘觀覺如覺。若比丘、比丘尼如是少少觀覺如覺者，是謂觀覺如覺念處。",
+          "evidenceFrames": [
+            "references/scripture-proof/b011.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/236DF7C4-998F-425E-8C89-C3AE82F54330.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S16",
+      "title": "內外觀受",
+      "paragraphId": "S16-P05",
+      "paragraphNumber": 5,
+      "part": 1,
+      "lines": [
+        "這就是佛陀所說的：「有知有見，有明有達。」透過一點一滴如實的覺察，你終於擁有了看穿一切感受幻術的終極智慧。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q10",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                4,
+                5
+              ],
+              "focus": "立念在覺，有知有見，有明有達"
+            }
+          ],
+          "source": "中阿含經 因品念處經",
+          "text": "如是比丘觀內覺如覺，觀外覺如覺，立念在覺，有知有見，有明有達，是謂比丘觀覺如覺。若比丘、比丘尼如是少少觀覺如覺者，是謂觀覺如覺念處。",
+          "evidenceFrames": [
+            "references/scripture-proof/b011.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/236DF7C4-998F-425E-8C89-C3AE82F54330.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S17",
+      "title": "心念處觀測站",
+      "paragraphId": "S17-P01",
+      "paragraphNumber": 1,
+      "part": 1,
+      "lines": [
+        "來到四念處的第三站：「心念處」。首先，我們要成為客觀的氣象觀測員。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q11",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2
+              ],
+              "focus": "有欲／無欲、有恚／無恚，知如真"
+            }
+          ],
+          "source": "中阿含經 因品念處經",
+          "text": "云何觀心如心念處？比丘者，有欲心知有欲心如真，無欲心知無欲心如真，有恚、無恚，有癡、無癡，有穢污、無穢污。有合、有散，有下、有高，有小、有大，修、不修，定、不定，有不解脫心知不解脫心如真，有解脫心知解脫心如真。",
+          "evidenceFrames": [
+            "references/scripture-proof/b015.jpg"
+          ],
+          "afterParagraph": 2
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/7DB731F6-CA65-4F5F-A665-5221D2194981.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S17",
+      "title": "心念處觀測站",
+      "paragraphId": "S17-P02",
+      "paragraphNumber": 2,
+      "part": 1,
+      "lines": [
+        "如經文所說，當心裡生起貪愛或憤怒時，如實記錄：現在是有欲心、有恚心；當煩惱消散，也如實記錄：「現在是無欲心、無恚心」。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q11",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2
+              ],
+              "focus": "有欲／無欲、有恚／無恚，知如真"
+            }
+          ],
+          "source": "中阿含經 因品念處經",
+          "text": "云何觀心如心念處？比丘者，有欲心知有欲心如真，無欲心知無欲心如真，有恚、無恚，有癡、無癡，有穢污、無穢污。有合、有散，有下、有高，有小、有大，修、不修，定、不定，有不解脫心知不解脫心如真，有解脫心知解脫心如真。",
+          "evidenceFrames": [
+            "references/scripture-proof/b015.jpg"
+          ],
+          "afterParagraph": 2
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/7DB731F6-CA65-4F5F-A665-5221D2194981.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S18",
+      "title": "觀心無常",
+      "paragraphId": "S18-P01",
+      "paragraphNumber": 1,
+      "part": 1,
+      "lines": [
+        "當你記錄久了，你會好奇：這些散亂的心、專注的心，到底從何而來？"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q12",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "focus": "觀習法，觀盡法，并觀習盡之法"
+            }
+          ],
+          "source": "增壹阿含經壹入道品第十二",
+          "text": "觀習法，觀盡法，并觀習盡之法，思惟法觀而自娛樂。",
+          "evidenceFrames": [
+            "references/scripture-proof/b019.jpg"
+          ],
+          "afterParagraph": 6
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/B8B53DDC-3F80-45AF-A76C-09EBC836A630.jpeg",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S18",
+      "title": "觀心無常",
+      "paragraphId": "S18-P02",
+      "paragraphNumber": 2,
+      "part": 1,
+      "lines": [
+        "我們的心，就像一隻在森林裡遊蕩的猿猴。牠不停地攀捉樹枝，「放一取一」，從來沒有一刻停歇。猿猴抓的樹枝，就是外在的「因緣境界」。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q12",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "focus": "觀習法，觀盡法，并觀習盡之法"
+            }
+          ],
+          "source": "增壹阿含經壹入道品第十二",
+          "text": "觀習法，觀盡法，并觀習盡之法，思惟法觀而自娛樂。",
+          "evidenceFrames": [
+            "references/scripture-proof/b019.jpg"
+          ],
+          "afterParagraph": 6
+        },
+        {
+          "quoteId": "Q15",
+          "relation": "跨幕補充對照（非本幕下方字幕）",
+          "mappings": [
+            {
+              "paragraphs": [
+                2,
+                3,
+                4
+              ],
+              "focus": "猿猴攀枝、放一取一、心意識異生異滅"
+            }
+          ],
+          "source": "雜阿含第289經",
+          "text": "猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一，彼心、意、識亦復如是，異生、異滅。",
+          "evidenceFrames": [
+            "references/scripture-proof/b034.jpg"
+          ],
+          "afterParagraph": 4
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/B8B53DDC-3F80-45AF-A76C-09EBC836A630.jpeg",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S18",
+      "title": "觀心無常",
+      "paragraphId": "S18-P03",
+      "paragraphNumber": 3,
+      "part": 1,
+      "lines": [
+        "當心抓住了討厭的境界，「瞋心」就生起了；當心抓住了喜歡的境界，「貪欲」就生起了。當因緣過去、心放開了手，這些煩惱與渴望，"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q12",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "focus": "觀習法，觀盡法，并觀習盡之法"
+            }
+          ],
+          "source": "增壹阿含經壹入道品第十二",
+          "text": "觀習法，觀盡法，并觀習盡之法，思惟法觀而自娛樂。",
+          "evidenceFrames": [
+            "references/scripture-proof/b019.jpg"
+          ],
+          "afterParagraph": 6
+        },
+        {
+          "quoteId": "Q15",
+          "relation": "跨幕補充對照（非本幕下方字幕）",
+          "mappings": [
+            {
+              "paragraphs": [
+                2,
+                3,
+                4
+              ],
+              "focus": "猿猴攀枝、放一取一、心意識異生異滅"
+            }
+          ],
+          "source": "雜阿含第289經",
+          "text": "猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一，彼心、意、識亦復如是，異生、異滅。",
+          "evidenceFrames": [
+            "references/scripture-proof/b034.jpg"
+          ],
+          "afterParagraph": 4
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/B8B53DDC-3F80-45AF-A76C-09EBC836A630.jpeg",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S18",
+      "title": "觀心無常",
+      "paragraphId": "S18-P03",
+      "paragraphNumber": 3,
+      "part": 2,
+      "lines": [
+        "也就跟著滅去了。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q12",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "focus": "觀習法，觀盡法，并觀習盡之法"
+            }
+          ],
+          "source": "增壹阿含經壹入道品第十二",
+          "text": "觀習法，觀盡法，并觀習盡之法，思惟法觀而自娛樂。",
+          "evidenceFrames": [
+            "references/scripture-proof/b019.jpg"
+          ],
+          "afterParagraph": 6
+        },
+        {
+          "quoteId": "Q15",
+          "relation": "跨幕補充對照（非本幕下方字幕）",
+          "mappings": [
+            {
+              "paragraphs": [
+                2,
+                3,
+                4
+              ],
+              "focus": "猿猴攀枝、放一取一、心意識異生異滅"
+            }
+          ],
+          "source": "雜阿含第289經",
+          "text": "猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一，彼心、意、識亦復如是，異生、異滅。",
+          "evidenceFrames": [
+            "references/scripture-proof/b034.jpg"
+          ],
+          "afterParagraph": 4
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/B8B53DDC-3F80-45AF-A76C-09EBC836A630.jpeg",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S18",
+      "title": "觀心無常",
+      "paragraphId": "S18-P04",
+      "paragraphNumber": 4,
+      "part": 1,
+      "lines": [
+        "我們的心，就是這樣跟著各種因緣條件，不斷地生起、滅去、再生起。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q12",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "focus": "觀習法，觀盡法，并觀習盡之法"
+            }
+          ],
+          "source": "增壹阿含經壹入道品第十二",
+          "text": "觀習法，觀盡法，并觀習盡之法，思惟法觀而自娛樂。",
+          "evidenceFrames": [
+            "references/scripture-proof/b019.jpg"
+          ],
+          "afterParagraph": 6
+        },
+        {
+          "quoteId": "Q15",
+          "relation": "跨幕補充對照（非本幕下方字幕）",
+          "mappings": [
+            {
+              "paragraphs": [
+                2,
+                3,
+                4
+              ],
+              "focus": "猿猴攀枝、放一取一、心意識異生異滅"
+            }
+          ],
+          "source": "雜阿含第289經",
+          "text": "猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一，彼心、意、識亦復如是，異生、異滅。",
+          "evidenceFrames": [
+            "references/scripture-proof/b034.jpg"
+          ],
+          "afterParagraph": 4
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/B8B53DDC-3F80-45AF-A76C-09EBC836A630.jpeg",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S18",
+      "title": "觀心無常",
+      "paragraphId": "S18-P05",
+      "paragraphNumber": 5,
+      "part": 1,
+      "lines": [
+        "看懂了這隻因緣猿猴，我們就能打破大腦的「常顛倒」。我們總以為心是一個固定不變的實體。但其實，根本沒有一個固定的心，"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q12",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "focus": "觀習法，觀盡法，并觀習盡之法"
+            }
+          ],
+          "source": "增壹阿含經壹入道品第十二",
+          "text": "觀習法，觀盡法，并觀習盡之法，思惟法觀而自娛樂。",
+          "evidenceFrames": [
+            "references/scripture-proof/b019.jpg"
+          ],
+          "afterParagraph": 6
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/B8B53DDC-3F80-45AF-A76C-09EBC836A630.jpeg",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S18",
+      "title": "觀心無常",
+      "paragraphId": "S18-P05",
+      "paragraphNumber": 5,
+      "part": 2,
+      "lines": [
+        "只有無數個跟著境界快速生滅的「狀態」。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q12",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "focus": "觀習法，觀盡法，并觀習盡之法"
+            }
+          ],
+          "source": "增壹阿含經壹入道品第十二",
+          "text": "觀習法，觀盡法，并觀習盡之法，思惟法觀而自娛樂。",
+          "evidenceFrames": [
+            "references/scripture-proof/b019.jpg"
+          ],
+          "afterParagraph": 6
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/B8B53DDC-3F80-45AF-A76C-09EBC836A630.jpeg",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S18",
+      "title": "觀心無常",
+      "paragraphId": "S18-P06",
+      "paragraphNumber": 6,
+      "part": 1,
+      "lines": [
+        "「觀心無常」，就是看見心的因緣生滅。因緣還在繼續，但看透真相的你，已經不再隨之起舞。這，就是心念處的自由。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q12",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "focus": "觀習法，觀盡法，并觀習盡之法"
+            }
+          ],
+          "source": "增壹阿含經壹入道品第十二",
+          "text": "觀習法，觀盡法，并觀習盡之法，思惟法觀而自娛樂。",
+          "evidenceFrames": [
+            "references/scripture-proof/b019.jpg"
+          ],
+          "afterParagraph": 6
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/B8B53DDC-3F80-45AF-A76C-09EBC836A630.jpeg",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S19",
+      "title": "法念處：辨認五蓋",
+      "paragraphId": "S19-P01",
+      "paragraphNumber": 1,
+      "part": 1,
+      "lines": [
+        "來到四念處的最後一站：「法念處」。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q13",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "focus": "欲、瞋恚、睡眠、掉悔、疑及其生滅"
+            }
+          ],
+          "source": "中阿含經 因品念處經",
+          "text": "內實有欲知有欲如真，內實無欲知無欲如真，若未生欲而生者知如真，若已生欲滅不復生者知如真。如是瞋恚、睡眠、掉悔。內實有疑知有疑如真，內實無疑知無疑如真，若未生疑而生者知如真，若已生疑滅不復生者知如真。",
+          "evidenceFrames": [
+            "references/scripture-proof/b025.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/95D90BB7-2405-4DCC-BAA1-20C484761D9E.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S19",
+      "title": "法念處：辨認五蓋",
+      "paragraphId": "S19-P02",
+      "paragraphNumber": 2,
+      "part": 1,
+      "lines": [
+        "此時，小貓的覺察力已經非常敏銳，他準備走向內心真正的清淨與解脫。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q13",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "focus": "欲、瞋恚、睡眠、掉悔、疑及其生滅"
+            }
+          ],
+          "source": "中阿含經 因品念處經",
+          "text": "內實有欲知有欲如真，內實無欲知無欲如真，若未生欲而生者知如真，若已生欲滅不復生者知如真。如是瞋恚、睡眠、掉悔。內實有疑知有疑如真，內實無疑知無疑如真，若未生疑而生者知如真，若已生疑滅不復生者知如真。",
+          "evidenceFrames": [
+            "references/scripture-proof/b025.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/95D90BB7-2405-4DCC-BAA1-20C484761D9E.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S19",
+      "title": "法念處：辨認五蓋",
+      "paragraphId": "S19-P03",
+      "paragraphNumber": 3,
+      "part": 1,
+      "lines": [
+        "然而在路上，擋在他面前的，是心智迷宮裡的五個終極反派，佛陀稱之為「五蓋」，它們像厚厚的蓋子一樣，遮蔽了我們的智慧之光。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q13",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "focus": "欲、瞋恚、睡眠、掉悔、疑及其生滅"
+            }
+          ],
+          "source": "中阿含經 因品念處經",
+          "text": "內實有欲知有欲如真，內實無欲知無欲如真，若未生欲而生者知如真，若已生欲滅不復生者知如真。如是瞋恚、睡眠、掉悔。內實有疑知有疑如真，內實無疑知無疑如真，若未生疑而生者知如真，若已生疑滅不復生者知如真。",
+          "evidenceFrames": [
+            "references/scripture-proof/b025.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/95D90BB7-2405-4DCC-BAA1-20C484761D9E.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S19",
+      "title": "法念處：辨認五蓋",
+      "paragraphId": "S19-P04",
+      "paragraphNumber": 4,
+      "part": 1,
+      "lines": [
+        "黏著不放的「貪欲」、火爆的「瞋恚」、讓人昏沉想睡的「惛沉睡眠」、讓心浮躁不安的「掉舉追悔」，"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q13",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "focus": "欲、瞋恚、睡眠、掉悔、疑及其生滅"
+            }
+          ],
+          "source": "中阿含經 因品念處經",
+          "text": "內實有欲知有欲如真，內實無欲知無欲如真，若未生欲而生者知如真，若已生欲滅不復生者知如真。如是瞋恚、睡眠、掉悔。內實有疑知有疑如真，內實無疑知無疑如真，若未生疑而生者知如真，若已生疑滅不復生者知如真。",
+          "evidenceFrames": [
+            "references/scripture-proof/b025.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/95D90BB7-2405-4DCC-BAA1-20C484761D9E.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S19",
+      "title": "法念處：辨認五蓋",
+      "paragraphId": "S19-P04",
+      "paragraphNumber": 4,
+      "part": 2,
+      "lines": [
+        "以及在十字路口猶豫不決、懷疑修行的「疑」。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q13",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "focus": "欲、瞋恚、睡眠、掉悔、疑及其生滅"
+            }
+          ],
+          "source": "中阿含經 因品念處經",
+          "text": "內實有欲知有欲如真，內實無欲知無欲如真，若未生欲而生者知如真，若已生欲滅不復生者知如真。如是瞋恚、睡眠、掉悔。內實有疑知有疑如真，內實無疑知無疑如真，若未生疑而生者知如真，若已生疑滅不復生者知如真。",
+          "evidenceFrames": [
+            "references/scripture-proof/b025.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/95D90BB7-2405-4DCC-BAA1-20C484761D9E.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S19",
+      "title": "法念處：辨認五蓋",
+      "paragraphId": "S19-P05",
+      "paragraphNumber": 5,
+      "part": 1,
+      "lines": [
+        "這五隻小怪獸，無時無刻不在阻礙我們回到當下。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q13",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "focus": "欲、瞋恚、睡眠、掉悔、疑及其生滅"
+            }
+          ],
+          "source": "中阿含經 因品念處經",
+          "text": "內實有欲知有欲如真，內實無欲知無欲如真，若未生欲而生者知如真，若已生欲滅不復生者知如真。如是瞋恚、睡眠、掉悔。內實有疑知有疑如真，內實無疑知無疑如真，若未生疑而生者知如真，若已生疑滅不復生者知如真。",
+          "evidenceFrames": [
+            "references/scripture-proof/b025.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/95D90BB7-2405-4DCC-BAA1-20C484761D9E.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S20",
+      "title": "法念處：七覺支",
+      "paragraphId": "S20-P01",
+      "paragraphNumber": 1,
+      "part": 1,
+      "lines": [
+        "面對這五個反派，佛陀教導我們不需要用憤怒去對抗。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q13",
+          "relation": "承接上一幕引文（非本幕下方字幕）",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2
+              ],
+              "focus": "內實有欲／無欲及已生滅去"
+            }
+          ],
+          "source": "中阿含經 因品念處經",
+          "text": "內實有欲知有欲如真，內實無欲知無欲如真，若未生欲而生者知如真，若已生欲滅不復生者知如真。如是瞋恚、睡眠、掉悔。內實有疑知有疑如真，內實無疑知無疑如真，若未生疑而生者知如真，若已生疑滅不復生者知如真。",
+          "evidenceFrames": [
+            "references/scripture-proof/b025.jpg"
+          ],
+          "afterParagraph": 2
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/9BFFC0D8-7F5B-4FDB-AA41-0022B5F476DB.jpeg",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S20",
+      "title": "法念處：七覺支",
+      "paragraphId": "S20-P02",
+      "paragraphNumber": 2,
+      "part": 1,
+      "lines": [
+        "當貪欲或懷疑生起時，小貓平靜地看著它：「喔，反派小怪獸出現了。」當它們消失時，也如實覺察：「喔，反派離開了。」"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q13",
+          "relation": "承接上一幕引文（非本幕下方字幕）",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2
+              ],
+              "focus": "內實有欲／無欲及已生滅去"
+            }
+          ],
+          "source": "中阿含經 因品念處經",
+          "text": "內實有欲知有欲如真，內實無欲知無欲如真，若未生欲而生者知如真，若已生欲滅不復生者知如真。如是瞋恚、睡眠、掉悔。內實有疑知有疑如真，內實無疑知無疑如真，若未生疑而生者知如真，若已生疑滅不復生者知如真。",
+          "evidenceFrames": [
+            "references/scripture-proof/b025.jpg"
+          ],
+          "afterParagraph": 2
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/9BFFC0D8-7F5B-4FDB-AA41-0022B5F476DB.jpeg",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S20",
+      "title": "法念處：七覺支",
+      "paragraphId": "S20-P03",
+      "paragraphNumber": 3,
+      "part": 1,
+      "lines": [
+        "同時，小貓點亮了內心的終極解藥「七覺支」。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q14",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                3,
+                4,
+                5
+              ],
+              "focus": "念、擇法、精進、喜、息、定、捨；轉修增廣"
+            }
+          ],
+          "source": "因品念處經",
+          "text": "內實有念覺支知有念覺支如真，內實無念覺支知無念覺支如真，若未生念覺支而生者知如真，若已生念覺支便住不忘而不衰退，轉修增廣者知如真。如是擇法、精進、喜、息、定。比丘者，內實有捨覺支知有捨覺支如真，內實無捨覺支知無捨覺支如真，若未生捨覺支而生者知如真，若已生捨覺支便住不忘而不衰退，轉修增廣者知如真。",
+          "evidenceFrames": [
+            "references/scripture-proof/b030.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/9BFFC0D8-7F5B-4FDB-AA41-0022B5F476DB.jpeg",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S20",
+      "title": "法念處：七覺支",
+      "paragraphId": "S20-P04",
+      "paragraphNumber": 4,
+      "part": 1,
+      "lines": [
+        "保持穩固的「念」、仔細辨別的「擇法」、永不放棄的「精進」、內心湧現的「喜悅」、身心輕安的「息」、安穩不動的「定」、平等的「捨」。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q14",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                3,
+                4,
+                5
+              ],
+              "focus": "念、擇法、精進、喜、息、定、捨；轉修增廣"
+            }
+          ],
+          "source": "因品念處經",
+          "text": "內實有念覺支知有念覺支如真，內實無念覺支知無念覺支如真，若未生念覺支而生者知如真，若已生念覺支便住不忘而不衰退，轉修增廣者知如真。如是擇法、精進、喜、息、定。比丘者，內實有捨覺支知有捨覺支如真，內實無捨覺支知無捨覺支如真，若未生捨覺支而生者知如真，若已生捨覺支便住不忘而不衰退，轉修增廣者知如真。",
+          "evidenceFrames": [
+            "references/scripture-proof/b030.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/9BFFC0D8-7F5B-4FDB-AA41-0022B5F476DB.jpeg",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S20",
+      "title": "法念處：七覺支",
+      "paragraphId": "S20-P05",
+      "paragraphNumber": 5,
+      "part": 1,
+      "lines": [
+        "當這七種覺醒的光明道具亮起，心靈進入了初禪到四禪的極致清淨。五隻小怪獸發現自己被徹底看穿，便在光芒中，漸漸化為無害的煙霧而消散。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q14",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                3,
+                4,
+                5
+              ],
+              "focus": "念、擇法、精進、喜、息、定、捨；轉修增廣"
+            }
+          ],
+          "source": "因品念處經",
+          "text": "內實有念覺支知有念覺支如真，內實無念覺支知無念覺支如真，若未生念覺支而生者知如真，若已生念覺支便住不忘而不衰退，轉修增廣者知如真。如是擇法、精進、喜、息、定。比丘者，內實有捨覺支知有捨覺支如真，內實無捨覺支知無捨覺支如真，若未生捨覺支而生者知如真，若已生捨覺支便住不忘而不衰退，轉修增廣者知如真。",
+          "evidenceFrames": [
+            "references/scripture-proof/b030.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/9BFFC0D8-7F5B-4FDB-AA41-0022B5F476DB.jpeg",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S21",
+      "title": "放下刺藤",
+      "paragraphId": "S21-P01",
+      "paragraphNumber": 1,
+      "part": 1,
+      "lines": [
+        "這時候，小貓迎來了生命中更深一層的洞察。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q15",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3
+              ],
+              "focus": "心、意、識，異生、異滅"
+            }
+          ],
+          "source": "雜阿含第289經",
+          "text": "猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一，彼心、意、識亦復如是，異生、異滅。",
+          "evidenceFrames": [
+            "references/scripture-proof/b034.jpg"
+          ],
+          "afterParagraph": 3
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/3DF2D5E4-25B8-47F8-B159-56DD4189763D.jpeg",
+      "dimensions": [
+        1536,
+        864
+      ]
+    },
+    {
+      "scene": "S21",
+      "title": "放下刺藤",
+      "paragraphId": "S21-P02",
+      "paragraphNumber": 2,
+      "part": 1,
+      "lines": [
+        "看著左邊的畫面，當心盲目抓住討厭的刺藤時，痛苦與怒氣就因緣而生；再看看右邊，當心選擇放開手、安住在清淨的蓮花上時，"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q15",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3
+              ],
+              "focus": "心、意、識，異生、異滅"
+            }
+          ],
+          "source": "雜阿含第289經",
+          "text": "猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一，彼心、意、識亦復如是，異生、異滅。",
+          "evidenceFrames": [
+            "references/scripture-proof/b034.jpg"
+          ],
+          "afterParagraph": 3
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/3DF2D5E4-25B8-47F8-B159-56DD4189763D.jpeg",
+      "dimensions": [
+        1536,
+        864
+      ]
+    },
+    {
+      "scene": "S21",
+      "title": "放下刺藤",
+      "paragraphId": "S21-P02",
+      "paragraphNumber": 2,
+      "part": 2,
+      "lines": [
+        "怒氣就因緣而滅。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q15",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3
+              ],
+              "focus": "心、意、識，異生、異滅"
+            }
+          ],
+          "source": "雜阿含第289經",
+          "text": "猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一，彼心、意、識亦復如是，異生、異滅。",
+          "evidenceFrames": [
+            "references/scripture-proof/b034.jpg"
+          ],
+          "afterParagraph": 3
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/3DF2D5E4-25B8-47F8-B159-56DD4189763D.jpeg",
+      "dimensions": [
+        1536,
+        864
+      ]
+    },
+    {
+      "scene": "S21",
+      "title": "放下刺藤",
+      "paragraphId": "S21-P03",
+      "paragraphNumber": 3,
+      "part": 1,
+      "lines": [
+        "不管是煩惱還是清淨，都只是跟著條件因緣，在不停地生起、滅去……"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q15",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3
+              ],
+              "focus": "心、意、識，異生、異滅"
+            }
+          ],
+          "source": "雜阿含第289經",
+          "text": "猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一，彼心、意、識亦復如是，異生、異滅。",
+          "evidenceFrames": [
+            "references/scripture-proof/b034.jpg"
+          ],
+          "afterParagraph": 3
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/3DF2D5E4-25B8-47F8-B159-56DD4189763D.jpeg",
+      "dimensions": [
+        1536,
+        864
+      ]
+    },
+    {
+      "scene": "S22",
+      "title": "觀法無我",
+      "paragraphId": "S22-P01",
+      "paragraphNumber": 1,
+      "part": 1,
+      "lines": [
+        "那大腦一直以來以為煩惱或清淨的那個「我」，到底在哪裡？"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q16",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "focus": "如實正觀世間集滅，不生有無見"
+            }
+          ],
+          "source": "雜阿含第262經",
+          "text": "如實正觀世間集者，則不生世間無見；如實正觀世間滅，則不生世間有見。",
+          "evidenceFrames": [
+            "references/scripture-proof/b037.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/45459DE4-E662-49FB-81B6-B914997A03C9.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S22",
+      "title": "觀法無我",
+      "paragraphId": "S22-P02",
+      "paragraphNumber": 2,
+      "part": 1,
+      "lines": [
+        "我們總是執著地認為「這是我的痛苦、我的性格、我的身體」，這就是最後的大魔王：「我顛倒」。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q16",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "focus": "如實正觀世間集滅，不生有無見"
+            }
+          ],
+          "source": "雜阿含第262經",
+          "text": "如實正觀世間集者，則不生世間無見；如實正觀世間滅，則不生世間有見。",
+          "evidenceFrames": [
+            "references/scripture-proof/b037.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/45459DE4-E662-49FB-81B6-B914997A03C9.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S22",
+      "title": "觀法無我",
+      "paragraphId": "S22-P03",
+      "paragraphNumber": 3,
+      "part": 1,
+      "lines": [
+        "在法念處的世界裡，佛法帶我們看清真相：如實正觀世間集者，則不生世間無見；如實正觀世間滅，則不生世間有見。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q16",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "focus": "如實正觀世間集滅，不生有無見"
+            }
+          ],
+          "source": "雜阿含第262經",
+          "text": "如實正觀世間集者，則不生世間無見；如實正觀世間滅，則不生世間有見。",
+          "evidenceFrames": [
+            "references/scripture-proof/b037.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/45459DE4-E662-49FB-81B6-B914997A03C9.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S22",
+      "title": "觀法無我",
+      "paragraphId": "S22-P04",
+      "paragraphNumber": 4,
+      "part": 1,
+      "lines": [
+        "心智的運作，只是一場由因緣共同編織出來的舞台劇。根本沒有一個固定不變的「我」在控制一切！"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q16",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "focus": "如實正觀世間集滅，不生有無見"
+            }
+          ],
+          "source": "雜阿含第262經",
+          "text": "如實正觀世間集者，則不生世間無見；如實正觀世間滅，則不生世間有見。",
+          "evidenceFrames": [
+            "references/scripture-proof/b037.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/45459DE4-E662-49FB-81B6-B914997A03C9.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S22",
+      "title": "觀法無我",
+      "paragraphId": "S22-P05",
+      "paragraphNumber": 5,
+      "part": 1,
+      "lines": [
+        "領悟到「觀法無我」，這個「我執」也被徹底看破了。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q16",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "focus": "如實正觀世間集滅，不生有無見"
+            }
+          ],
+          "source": "雜阿含第262經",
+          "text": "如實正觀世間集者，則不生世間無見；如實正觀世間滅，則不生世間有見。",
+          "evidenceFrames": [
+            "references/scripture-proof/b037.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/45459DE4-E662-49FB-81B6-B914997A03C9.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S23",
+      "title": "牧牛守田",
+      "paragraphId": "S23-P01",
+      "paragraphNumber": 1,
+      "part": 1,
+      "lines": [
+        "聽完「身、受、心、法」四個章節，你可能會覺得：修行是不是一件很累、一輩子都要神經緊繃的事？"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q17",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2
+              ],
+              "focus": "牧牛兒執杖往遮；不受、斷、除、吐"
+            }
+          ],
+          "source": "中阿含經 因品念經",
+          "text": "是故牧牛兒執杖往遮。我亦如是，生欲念，不受、斷、除、吐，生恚念、害念，不受、斷、除、吐。所以者何？我見因此故，必生無量惡不善之法。",
+          "evidenceFrames": [
+            "references/scripture-proof/b040.jpg"
+          ],
+          "afterParagraph": 2
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/CED3CE88-8343-4D7A-870F-4B2FAD34E1CA.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S23",
+      "title": "牧牛守田",
+      "paragraphId": "S23-P02",
+      "paragraphNumber": 2,
+      "part": 1,
+      "lines": [
+        "佛陀用牧牛比喻：春天穀物未收成前，牧牛人必須時刻警戒，用「覺察的杖」阻擋狂亂的心衝入誘惑的稻田，避免不善的心念踐踏我們的生活。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q17",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2
+              ],
+              "focus": "牧牛兒執杖往遮；不受、斷、除、吐"
+            }
+          ],
+          "source": "中阿含經 因品念經",
+          "text": "是故牧牛兒執杖往遮。我亦如是，生欲念，不受、斷、除、吐，生恚念、害念，不受、斷、除、吐。所以者何？我見因此故，必生無量惡不善之法。",
+          "evidenceFrames": [
+            "references/scripture-proof/b040.jpg"
+          ],
+          "afterParagraph": 2
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/CED3CE88-8343-4D7A-870F-4B2FAD34E1CA.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S23",
+      "title": "牧牛守田",
+      "paragraphId": "S23-P02",
+      "paragraphNumber": 2,
+      "part": 2,
+      "lines": [
+        "修行初期，需要這份警覺與守護。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q17",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2
+              ],
+              "focus": "牧牛兒執杖往遮；不受、斷、除、吐"
+            }
+          ],
+          "source": "中阿含經 因品念經",
+          "text": "是故牧牛兒執杖往遮。我亦如是，生欲念，不受、斷、除、吐，生恚念、害念，不受、斷、除、吐。所以者何？我見因此故，必生無量惡不善之法。",
+          "evidenceFrames": [
+            "references/scripture-proof/b040.jpg"
+          ],
+          "afterParagraph": 2
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/CED3CE88-8343-4D7A-870F-4B2FAD34E1CA.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "S24",
+      "title": "收成後安住",
+      "paragraphId": "S24-P01",
+      "paragraphNumber": 1,
+      "part": 1,
+      "lines": [
+        "但是，這種緊繃防範並不是修行的終點。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q18",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "focus": "我牛在群中；無欲念、無恚念、無害念；向法次法"
+            }
+          ],
+          "source": "中阿含經 因品念經",
+          "text": "是故彼作是念：「我牛在群中。」我亦如是，生無欲念已，復生念向法次法，生無恚念、無害念已，復生念向法次法。所以者何？我不見因此生無量惡不善之法。",
+          "evidenceFrames": [
+            "references/scripture-proof/b044.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/D36D3E3A-5B66-4701-B27C-42DF12C06155.png",
+      "dimensions": [
+        1672,
+        940
+      ]
+    },
+    {
+      "scene": "S24",
+      "title": "收成後安住",
+      "paragraphId": "S24-P02",
+      "paragraphNumber": 2,
+      "part": 1,
+      "lines": [
+        "到了秋天，當所有的穀物都收成完畢了，田地裡一片乾淨，再也沒有什麼會被踐踏破壞。這時，牧牛人放下那根曾經緊握的棍子，"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q18",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "focus": "我牛在群中；無欲念、無恚念、無害念；向法次法"
+            }
+          ],
+          "source": "中阿含經 因品念經",
+          "text": "是故彼作是念：「我牛在群中。」我亦如是，生無欲念已，復生念向法次法，生無恚念、無害念已，復生念向法次法。所以者何？我不見因此生無量惡不善之法。",
+          "evidenceFrames": [
+            "references/scripture-proof/b044.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/D36D3E3A-5B66-4701-B27C-42DF12C06155.png",
+      "dimensions": [
+        1672,
+        940
+      ]
+    },
+    {
+      "scene": "S24",
+      "title": "收成後安住",
+      "paragraphId": "S24-P02",
+      "paragraphNumber": 2,
+      "part": 2,
+      "lines": [
+        "放心地讓平靜的牛群待在廣闊的田野中，自己在樹下乘涼、悠閒地躺著。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q18",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "focus": "我牛在群中；無欲念、無恚念、無害念；向法次法"
+            }
+          ],
+          "source": "中阿含經 因品念經",
+          "text": "是故彼作是念：「我牛在群中。」我亦如是，生無欲念已，復生念向法次法，生無恚念、無害念已，復生念向法次法。所以者何？我不見因此生無量惡不善之法。",
+          "evidenceFrames": [
+            "references/scripture-proof/b044.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/D36D3E3A-5B66-4701-B27C-42DF12C06155.png",
+      "dimensions": [
+        1672,
+        940
+      ]
+    },
+    {
+      "scene": "S24",
+      "title": "收成後安住",
+      "paragraphId": "S24-P03",
+      "paragraphNumber": 3,
+      "part": 1,
+      "lines": [
+        "這，就是四念處修持圓滿的狀態。當你透過一次次的覺察，斷除了貪瞋癡的惡法，你的心田已經回歸最初的乾淨。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q18",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "focus": "我牛在群中；無欲念、無恚念、無害念；向法次法"
+            }
+          ],
+          "source": "中阿含經 因品念經",
+          "text": "是故彼作是念：「我牛在群中。」我亦如是，生無欲念已，復生念向法次法，生無恚念、無害念已，復生念向法次法。所以者何？我不見因此生無量惡不善之法。",
+          "evidenceFrames": [
+            "references/scripture-proof/b044.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/D36D3E3A-5B66-4701-B27C-42DF12C06155.png",
+      "dimensions": [
+        1672,
+        940
+      ]
+    },
+    {
+      "scene": "S24",
+      "title": "收成後安住",
+      "paragraphId": "S24-P04",
+      "paragraphNumber": 4,
+      "part": 1,
+      "lines": [
+        "這時，你不再需要刻意對抗、不再需要用力控制。你的心將變得像這片收成後的田野一樣，無比開闊、放鬆且放下。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q18",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "focus": "我牛在群中；無欲念、無恚念、無害念；向法次法"
+            }
+          ],
+          "source": "中阿含經 因品念經",
+          "text": "是故彼作是念：「我牛在群中。」我亦如是，生無欲念已，復生念向法次法，生無恚念、無害念已，復生念向法次法。所以者何？我不見因此生無量惡不善之法。",
+          "evidenceFrames": [
+            "references/scripture-proof/b044.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/D36D3E3A-5B66-4701-B27C-42DF12C06155.png",
+      "dimensions": [
+        1672,
+        940
+      ]
+    },
+    {
+      "scene": "S24",
+      "title": "收成後安住",
+      "paragraphId": "S24-P05",
+      "paragraphNumber": 5,
+      "part": 1,
+      "lines": [
+        "你只是安住在當下，靜靜地享受那份真正的涅槃與自由。"
+      ],
+      "quotes": [
+        {
+          "quoteId": "Q18",
+          "relation": "原片下方引文對應",
+          "mappings": [
+            {
+              "paragraphs": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "focus": "我牛在群中；無欲念、無恚念、無害念；向法次法"
+            }
+          ],
+          "source": "中阿含經 因品念經",
+          "text": "是故彼作是念：「我牛在群中。」我亦如是，生無欲念已，復生念向法次法，生無恚念、無害念已，復生念向法次法。所以者何？我不見因此生無量惡不善之法。",
+          "evidenceFrames": [
+            "references/scripture-proof/b044.jpg"
+          ],
+          "afterParagraph": 5
+        }
+      ],
+      "image": "../../docs/mindfulness/assets/D36D3E3A-5B66-4701-B27C-42DF12C06155.png",
+      "dimensions": [
+        1672,
+        940
+      ]
+    },
+    {
+      "scene": "S25",
+      "title": "四念處總結",
+      "lines": [],
+      "quotes": [],
+      "image": "../../docs/mindfulness/assets/D36D3E3A-5B66-4701-B27C-42DF12C06155.png",
+      "dimensions": [
+        1672,
+        940
+      ],
+      "summary": true
+    },
+    {
+      "scene": "afterword",
+      "title": "製作說明｜走入經藏的起點",
+      "lines": [
+        "本繪本所呈現的內容，係以《中阿含經》〈念處經〉為主，參照《中阿含經》〈念經〉、《雜阿含經》、《增壹阿含經》及《增支部》〈顛倒經〉所製作。",
+        "為了讓讀者更親近佛法，我們以圖文並茂的方式，用白話語言說明經意。",
+        "然而，繪本的詮釋難免簡略，無法完全涵蓋原經的深義。解讀仍請以原經文為準。",
+        "我們誠摯地鼓勵讀者參閱原經文，細細品味佛陀的智慧與慈悲。",
+        "也希望這本繪本能成為您走入經藏的起點。"
+      ],
+      "quotes": [],
+      "image": null,
+      "dimensions": null,
+      "afterword": true
     }
   ]
 };

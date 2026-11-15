@@ -1,39 +1,41 @@
 {
-  "baseline": "24983232d11bc9e775641bf444bcbe59055fe1ad",
-  "pageStates": 125,
+  "baseline": "1d964bbd8d6c9d0c05aa725f36da1b44d8ffb078",
+  "pages": 111,
+  "scenes": 25,
   "paragraphs": 92,
   "quoteMappings": 27,
   "quoteIds": 18,
+  "pageStates": 555,
   "viewports": [
     {
       "width": 360,
       "height": 800,
-      "scenes": 25,
-      "controls": "passed"
+      "pages": 111,
+      "controls": "same as book 07; passed"
     },
     {
       "width": 800,
       "height": 360,
-      "scenes": 25,
-      "controls": "passed"
+      "pages": 111,
+      "controls": "same as book 07; passed"
     },
     {
       "width": 768,
       "height": 1024,
-      "scenes": 25,
-      "controls": "passed"
+      "pages": 111,
+      "controls": "same as book 07; passed"
     },
     {
       "width": 1024,
       "height": 768,
-      "scenes": 25,
-      "controls": "passed"
+      "pages": 111,
+      "controls": "same as book 07; passed"
     },
     {
       "width": 1440,
       "height": 900,
-      "scenes": 25,
-      "controls": "passed"
+      "pages": 111,
+      "controls": "same as book 07; passed"
     }
   ],
   "javascriptErrors": [],
