@@ -1,0 +1,44 @@
+{
+  "baseline": "cd1cb6f743d773afe9ea22c6c548384c7760ef75",
+  "pages": 81,
+  "scenes": 11,
+  "narrationParagraphs": 80,
+  "quotes": 13,
+  "pageStates": 405,
+  "viewports": [
+    {
+      "width": 360,
+      "height": 800,
+      "pages": 81,
+      "controls": "passed"
+    },
+    {
+      "width": 800,
+      "height": 360,
+      "pages": 81,
+      "controls": "passed"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "pages": 81,
+      "controls": "passed"
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "pages": 81,
+      "controls": "passed"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "pages": 81,
+      "controls": "passed"
+    }
+  ],
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "physicalIPadSafari": "not tested",
+  "legacyReaders": "all 8 open/next/return passed"
+}

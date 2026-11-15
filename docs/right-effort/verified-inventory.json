@@ -1,0 +1,188 @@
+{
+  "verifiedManifestFiles": 33,
+  "missing": [],
+  "images": [
+    {
+      "path": "assets/0507CC6D-38A3-4516-90D4-B85D90098B32.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "assets/513C06B8-9B79-42CD-B9AB-AA14483E665E.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "assets/6FEE22D5-C7AA-476E-810C-DDE063530A82.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "assets/7BE74676-33B3-4D55-9E80-FABA537C37E9.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "assets/A747D953-3295-4245-87FE-6FDB70136E39.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "assets/AA4E59DD-52E0-47FC-9AEF-5A0CBB85A8FE.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "assets/ABB524ED-47E1-4E5F-9F67-C308209E0B8B.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "assets/ChatGPT Image 2026年7月12日 下午06_07_37.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "assets/E7010D9C-D875-4097-AC79-826166BD098A.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "assets/alternates/A132952F-ACF6-4CC7-B7E2-7684EE6C034B.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "assets/alternates/D4E2C5DF-F245-47EA-BE6B-E35F737B8546.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "references/end.jpg",
+      "dimensions": [
+        910,
+        512
+      ]
+    },
+    {
+      "path": "references/q123.png",
+      "dimensions": [
+        910,
+        512
+      ]
+    },
+    {
+      "path": "references/q145.png",
+      "dimensions": [
+        910,
+        512
+      ]
+    },
+    {
+      "path": "references/q15.png",
+      "dimensions": [
+        910,
+        512
+      ]
+    },
+    {
+      "path": "references/q200.png",
+      "dimensions": [
+        910,
+        512
+      ]
+    },
+    {
+      "path": "references/q215.png",
+      "dimensions": [
+        910,
+        512
+      ]
+    },
+    {
+      "path": "references/q246.png",
+      "dimensions": [
+        910,
+        512
+      ]
+    },
+    {
+      "path": "references/q250.png",
+      "dimensions": [
+        910,
+        512
+      ]
+    },
+    {
+      "path": "references/q310.png",
+      "dimensions": [
+        910,
+        512
+      ]
+    },
+    {
+      "path": "references/q360.png",
+      "dimensions": [
+        910,
+        512
+      ]
+    },
+    {
+      "path": "references/q40.png",
+      "dimensions": [
+        910,
+        512
+      ]
+    },
+    {
+      "path": "references/q400.png",
+      "dimensions": [
+        910,
+        512
+      ]
+    },
+    {
+      "path": "references/q60.png",
+      "dimensions": [
+        910,
+        512
+      ]
+    },
+    {
+      "path": "references/q90.png",
+      "dimensions": [
+        910,
+        512
+      ]
+    },
+    {
+      "path": "references/source-screenshot.png",
+      "dimensions": [
+        2360,
+        1256
+      ]
+    }
+  ]
+}

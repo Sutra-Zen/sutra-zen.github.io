@@ -1,0 +1,472 @@
+[
+  {
+    "id": "S01",
+    "title": "精進之帆",
+    "timeApprox": "00:00–00:33",
+    "asset": "assets/6FEE22D5-C7AA-476E-810C-DDE063530A82.png",
+    "narration": [
+      "在四念處的微光中，我們學會了觀察自己的身心。",
+      "然而，若沒有前行的力量，修行可能會陷入停滯、昏沉或盲目的躁動。",
+      "這時，我們需要啟動內心的動力引擎：「四正勤」。",
+      "就像偉大的恆河，順著大地的起伏，由高向低，向東傾斜，一路奔向大海；",
+      "當我們揚起「四正勤」的精進之帆，",
+      "我們的心，也會自然流向那片無比寧靜、解脫的涅槃彼岸。"
+    ],
+    "scriptureRefs": [
+      {
+        "quoteId": "Q01",
+        "narrationParagraphs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "relation": "原片下方引文"
+      }
+    ],
+    "scriptureNote": "1–6 → Q01",
+    "artOverlay": [],
+    "imageTextNote": "無",
+    "darkOverlayOpacity": 0
+  },
+  {
+    "id": "S02",
+    "title": "依戒為地・已生惡令滅",
+    "timeApprox": "00:33–01:10",
+    "asset": "assets/AA4E59DD-52E0-47FC-9AEF-5A0CBB85A8FE.png",
+    "narration": [
+      "佛陀曾說：就像世間所有需要力量的工作，都必須依止於雄厚的大地一樣；",
+      "想要整理好我們的心靈花園，同樣必須「依止於戒」。",
+      "持戒，就是為內心鋪上最穩固、最清淨的土壤。",
+      "有了這片土地，我們就能開始實踐四正勤的第一步。",
+      "也就是把「已經生起的惡」，從土裡徹底斷除。",
+      "看！花園裡不知何時，已經長出了一株黑色帶刺的雜草，",
+      "旁邊還飄浮著生氣、嫉妒、想罵人與想放棄的情緒泡泡。"
+    ],
+    "scriptureRefs": [
+      {
+        "quoteId": "Q02",
+        "narrationParagraphs": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "relation": "原片下方引文"
+      },
+      {
+        "quoteId": "Q03",
+        "narrationParagraphs": [
+          5,
+          6,
+          7
+        ],
+        "relation": "原片下方引文"
+      }
+    ],
+    "scriptureNote": "1–4 → Q02；5–7 → Q03",
+    "artOverlay": [
+      {
+        "text": "已生惡令滅",
+        "leftPct": 65.0,
+        "topPct": 15.0,
+        "widthPct": 30.0,
+        "color": "black",
+        "fontSizeCqw": 5.0,
+        "anchor": "top-left",
+        "align": "center",
+        "lineHeight": 1.2
+      }
+    ],
+    "imageTextNote": "原圖不含此主題字",
+    "darkOverlayOpacity": 0
+  },
+  {
+    "id": "S03",
+    "title": "生欲・方便・精勤・心攝受",
+    "timeApprox": "01:10–02:00",
+    "asset": "assets/0507CC6D-38A3-4516-90D4-B85D90098B32.png",
+    "narration": [
+      "這是一場全方位的清理。把「斷惡、防惡、生善、增善」都列入精進的範圍。",
+      "小貓拿起了發光的小鋤頭，啟動了內心的四種力量：",
+      "第一是「生欲」：在心中升起一股「我想要改變、想要清淨」的強烈渴望；",
+      "第二是「方便」：找到合適的心靈工具與禪修方法；",
+      "第三是「精勤」：斷除懈怠，付出持續的熱情與行動；",
+      "第四是「心攝受」：收攝起那些胡思亂想的散亂，讓意志高度聚焦。",
+      "只要每天持之以恆，帶著最大的決心，",
+      "再頑固的惡習，都能在智慧的鋤頭下，轉化為滋養大地的春泥。"
+    ],
+    "scriptureRefs": [
+      {
+        "quoteId": "Q04",
+        "narrationParagraphs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "relation": "原片下方引文"
+      }
+    ],
+    "scriptureNote": "1–8 → Q04",
+    "artOverlay": [],
+    "imageTextNote": "無；四個標題、副標、對話框、書頁文字均已在原圖",
+    "darkOverlayOpacity": 0
+  },
+  {
+    "id": "S04",
+    "title": "未生惡令不起・善護六根",
+    "timeApprox": "02:00–03:11",
+    "asset": "assets/513C06B8-9B79-42CD-B9AB-AA14483E665E.png",
+    "narration": [
+      "四正勤的第二步：未生惡令不起。",
+      "也就是在那些「還沒有生起的煩惱與壞習慣」潛入內心之前，防患於未然。",
+      "這份防線的核心，就是「善護六根」，",
+      "照看好我們的眼、耳、鼻、舌、身、意這六扇對外的小門窗。",
+      "就像在日常生活中：眼睛看見美麗的東西，不一定要生起貪著。",
+      "耳朵聽見不喜歡的話，不一定要立刻生氣。",
+      "心裡出現一個回憶，不一定要被它牽著跑。",
+      "當六根被正念守護，許多還沒有生起的不善法，就不容易生起。",
+      "小貓站在心靈的小屋裡，不是緊張地防衛，而是清醒、柔和地觀察。",
+      "外面的花花世界依然流動，但煩惱的黑色種子，再也找不到縫隙鑽進心田。",
+      "這時，我們同樣帶著渴望清淨的「生欲」，運用善護六根的「方便」，",
+      "付出隨時保持覺察的「精勤」，並以「心攝受」讓意志維持高度的清明。",
+      "這就是未生惡令不起的實踐。"
+    ],
+    "scriptureRefs": [
+      {
+        "quoteId": "Q05",
+        "narrationParagraphs": [
+          1,
+          2
+        ],
+        "relation": "原片下方引文"
+      },
+      {
+        "quoteId": "Q06",
+        "narrationParagraphs": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "relation": "原片下方引文"
+      },
+      {
+        "quoteId": "Q05",
+        "narrationParagraphs": [
+          11,
+          12,
+          13
+        ],
+        "relation": "原片下方引文"
+      }
+    ],
+    "scriptureNote": "1–2 → Q05；3–10 → Q06；11–13 → Q05",
+    "artOverlay": [
+      {
+        "text": "未生惡令不起",
+        "leftPct": 32.0,
+        "topPct": 72.0,
+        "widthPct": 36.0,
+        "color": "black",
+        "fontSizeCqw": 5.0,
+        "anchor": "top-left",
+        "align": "center",
+        "lineHeight": 1.2
+      }
+    ],
+    "imageTextNote": "原圖不含此主題字",
+    "darkOverlayOpacity": 0
+  },
+  {
+    "id": "S05",
+    "title": "未生善令起・播種與隨護",
+    "timeApprox": "03:11–04:04",
+    "asset": "assets/A747D953-3295-4245-87FE-6FDB70136E39.png",
+    "narration": [
+      "四正勤的第三步，是「未生善令生起」。",
+      "有些善心，現在也許還不明顯。也許我們還不夠有耐心、還不太會安住呼吸。",
+      "可是沒有關係，善法就像種子，只要願意播下，就有機會發芽。",
+      "佛陀提醒：",
+      "我們要善加守護心中那份好不容易得到的平靜與定境，絕不讓它退失。",
+      "當小貓把種子放進土裡，他啟動了四種內在力量：",
+      "「生欲」，是渴望美好的熱情；「方便」，是善護心靈的智慧；",
+      "「精勤」，是日復一日的堅持；",
+      "而最關鍵的「心攝受」，就是全然安住當下，",
+      "小心翼翼地「隨護」著這份得來不易的寧靜。",
+      "只要用心守護，微小的善良，終將破土而出。"
+    ],
+    "scriptureRefs": [
+      {
+        "quoteId": "Q07",
+        "narrationParagraphs": [
+          1,
+          2,
+          3
+        ],
+        "relation": "原片下方引文"
+      },
+      {
+        "quoteId": "Q08",
+        "narrationParagraphs": [
+          4,
+          5
+        ],
+        "relation": "原片下方引文"
+      },
+      {
+        "quoteId": "Q07",
+        "narrationParagraphs": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "relation": "原片下方引文"
+      }
+    ],
+    "scriptureNote": "1–3 → Q07；4–5 → Q08；6–11 → Q07",
+    "artOverlay": [
+      {
+        "text": "未生善令起",
+        "leftPct": 39.0,
+        "topPct": 60.0,
+        "widthPct": 30.0,
+        "color": "black",
+        "fontSizeCqw": 5.0,
+        "anchor": "top-left",
+        "align": "center",
+        "lineHeight": 1.2
+      }
+    ],
+    "imageTextNote": "原圖不含此主題字",
+    "darkOverlayOpacity": 0
+  },
+  {
+    "id": "S06",
+    "title": "已生善令增長・澆花",
+    "timeApprox": "04:04–04:48",
+    "asset": "assets/ABB524ED-47E1-4E5F-9F67-C308209E0B8B.png",
+    "narration": [
+      "四正勤的最後一步，「已生善令增長」。",
+      "我們可以透過持續練習「四念處」，來當作滋養善法的養分。",
+      "在這個照顧的過程中，小貓再次投入了強大的內在動能：",
+      "渴望花園繁茂的「生欲」、細心照料的「方便」、",
+      "每天不懈的「精勤」，以及全神貫注的「心攝受」。",
+      "但我們在日常生活中，偶然生起的一念慈悲心，",
+      "或是禪坐中一瞬間的平靜專注，",
+      "其實都像溫室裡的幼苗一樣，極其脆弱，非常容易退失。",
+      "光是讓種子發芽是不夠的，接下來更需要精進地去守護它成長。"
+    ],
+    "scriptureRefs": [
+      {
+        "quoteId": "Q09",
+        "narrationParagraphs": [
+          1
+        ],
+        "relation": "原片下方引文"
+      },
+      {
+        "quoteId": "Q10",
+        "narrationParagraphs": [
+          2
+        ],
+        "relation": "原片下方引文"
+      },
+      {
+        "quoteId": "Q09",
+        "narrationParagraphs": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "relation": "原片下方引文"
+      }
+    ],
+    "scriptureNote": "1 → Q09；2 → Q10；3–9 → Q09",
+    "artOverlay": [
+      {
+        "text": "已生善令增長",
+        "leftPct": 43.0,
+        "topPct": 47.0,
+        "widthPct": 36.0,
+        "color": "black",
+        "fontSizeCqw": 5.0,
+        "anchor": "top-left",
+        "align": "center",
+        "lineHeight": 1.2
+      }
+    ],
+    "imageTextNote": "原圖不含此主題字",
+    "darkOverlayOpacity": 0
+  },
+  {
+    "id": "S07",
+    "title": "善法成長六階段",
+    "timeApprox": "04:48–05:39",
+    "asset": "assets/ChatGPT Image 2026年7月12日 下午06_07_37.png",
+    "narration": [
+      "在小貓悉心照顧下，小花經歷了六個階段的奇妙變化：",
+      "第一步，安住在土壤裡。讓這份微小的平靜與善良，安穩地留在內心。",
+      "第二步，挺過風雨不消失。",
+      "時時保持覺察，像保護幼苗一樣，不讓世俗的雜念把它輕易吹熄。",
+      "第三步，體積漸漸增加。讓這份美好的狀態在心中累積，變得越來越深厚。",
+      "第四步，葉片向外擴大。",
+      "將這份慈悲與專注擴展到日常的每一個角落，影響身邊的人。",
+      "第五步，經過持續的修習，讓它從偶然的體驗變成一種穩定的生命狀態。",
+      "第六步，這份善法將開出最豐碩的解脫果實，徹底轉化我們的生命。"
+    ],
+    "scriptureRefs": [
+      {
+        "quoteId": "Q11",
+        "narrationParagraphs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "relation": "原片下方引文"
+      }
+    ],
+    "scriptureNote": "1–9 → Q11",
+    "artOverlay": [],
+    "imageTextNote": "無；六格編號與文字皆為原圖已有",
+    "darkOverlayOpacity": 0
+  },
+  {
+    "id": "S08",
+    "title": "自知之明・照鏡",
+    "timeApprox": "05:39–06:22",
+    "asset": "assets/E7010D9C-D875-4097-AC79-826166BD098A.png",
+    "narration": [
+      "經典給我們的，是一幅指南，而不是唯一的標準。",
+      "另一種四正勤的實踐方式，那就是在修行中保持「自知之明」。",
+      "小貓在花園裡放了一面清澈的鏡子。",
+      "他清楚看見自己現在有哪些五蓋煩惱的黑雲，",
+      "也清楚看見自己正擁有著哪些善法的小花。",
+      "當看清了五蓋煩惱的模樣，就運用正念與正智，挑選合適的方法滅去；",
+      "當看到善法的萌芽，就繼續精進地讓它不退轉。",
+      "無論是哪一種實踐方法，核心都在於「精勤不退、正念與正智」。"
+    ],
+    "scriptureRefs": [
+      {
+        "quoteId": "Q12",
+        "narrationParagraphs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "relation": "原片下方引文"
+      }
+    ],
+    "scriptureNote": "1–8 → Q12",
+    "artOverlay": [],
+    "imageTextNote": "無",
+    "darkOverlayOpacity": 0
+  },
+  {
+    "id": "S09",
+    "title": "調琴・中道精進",
+    "timeApprox": "06:22–07:00",
+    "asset": "assets/7BE74676-33B3-4D55-9E80-FABA537C37E9.png",
+    "narration": [
+      "既然要精進，是不是代表每天都要拼命，一刻都不能休息？",
+      "佛陀曾用「彈琴」的比喻提醒我們：",
+      "琴弦繃得太緊，弦會斷掉；調得太鬆，又彈不出聲音。",
+      "唯有不緊不鬆，才能奏出最美妙的樂章。",
+      "修行也是一樣的。",
+      "用力過猛，心會變得焦慮浮躁；太過懈怠，心又會陷入昏沉退步。",
+      "這就是四正勤的核心智慧：「中道精進」。",
+      "我們的修行可以順著心靈的節奏，找到最舒服的平衡點。"
+    ],
+    "scriptureRefs": [
+      {
+        "quoteId": "Q13",
+        "narrationParagraphs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "relation": "原片下方引文"
+      }
+    ],
+    "scriptureNote": "1–8 → Q13",
+    "artOverlay": [],
+    "imageTextNote": "無",
+    "darkOverlayOpacity": 0
+  },
+  {
+    "id": "S10",
+    "title": "四正勤總結",
+    "timeApprox": "07:00–07:18",
+    "asset": "assets/6FEE22D5-C7AA-476E-810C-DDE063530A82.png",
+    "narration": [
+      "心弦調好了，於是小船就能順著恆河的勢頭，自然流向涅槃的平靜大海。"
+    ],
+    "scriptureRefs": [],
+    "scriptureNote": "本幕無下緣經文；河流譬喻回扣 S01 的 Q01，屬跨幕補充",
+    "artOverlay": [
+      {
+        "text": "已生惡法，願它止息。\n未生惡法，願它不生。\n未生善法，願它生起。\n已生善法，願它增長。",
+        "leftPct": 24.0,
+        "topPct": 29.0,
+        "widthPct": 56.0,
+        "color": "white",
+        "fontSizeCqw": 5.0,
+        "anchor": "top-left",
+        "align": "center",
+        "lineHeight": 1.5
+      }
+    ],
+    "imageTextNote": "原圖不含此主題字",
+    "darkOverlayOpacity": 0.6
+  },
+  {
+    "id": "S11",
+    "title": "片尾閱讀說明",
+    "timeApprox": "07:18–07:20",
+    "asset": null,
+    "narration": [],
+    "textCard": [
+      "本繪本所呈現的內容，係根據《阿含經》所製作。",
+      "為了讓讀者更親近佛法，我們以圖文並茂的方式，用白話語言說明經意。",
+      "然而，繪本的詮釋難免簡略，無法完全涵蓋原經的深義。",
+      "我們誠摯地鼓勵讀者參閱原經文，細細品味佛陀的智慧與慈悲，",
+      "也希望這本繪本能成為您走入經藏的溫柔起點。"
+    ],
+    "scriptureRefs": [],
+    "artOverlay": []
+  }
+]
