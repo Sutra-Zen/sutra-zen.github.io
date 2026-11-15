@@ -1,0 +1,26 @@
+{
+  "viewports": [
+    {
+      "width": 360,
+      "height": 800,
+      "groupedExcerptsAndLinks": "passed",
+      "readerSourceEntry": "passed"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "groupedExcerptsAndLinks": "passed",
+      "readerSourceEntry": "passed"
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "groupedExcerptsAndLinks": "passed",
+      "readerSourceEntry": "passed"
+    }
+  ],
+  "javascriptErrors": [],
+  "ma98Groups": 4,
+  "ma98Excerpts": 11,
+  "physicalIPadSafari": "not tested"
+}

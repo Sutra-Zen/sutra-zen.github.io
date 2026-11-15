@@ -1,3 +1,13 @@
+# 第08本原經節錄分類與定位連結（2026-11-15）
+
+從main `7a5ac6131d2d4e437f7686915c94f5dec7784265` 建立 `fix/mindfulness-source-excerpts`。依作者指示，移除專頁最後的「影片引文來源影格」卡，保留研究論文PDF／DOI及repository內全部原始影格，並將影格用途記入 `docs/releases/mindfulness-excerpts-notion.md`。此環境未提供Notion工具，尚未寫入。
+
+中阿含98經改為觀身、觀受、觀心、觀法四類，共11段可直接閱讀的節錄：行住坐臥、呼吸、不淨、六界、死屍觀；三受、身心／食無食／欲無欲、內外觀受；如實知心／內外觀心；五蓋、七覺支。新增節錄皆從已核官方固定版本原檔截取，保留髦／膽、碎粖、調悔等原檔文字，沒有改動繪本影片錄文。分類及扁平節錄清單同步記入verified-sources.json。
+
+MA98、MA102註解按鈕照作者提供的完整百分比編碼URL更新，可定位該經；不再只用卷頁。網址見verified-sources.json。其餘來源卡、繪本111頁、書架、舊七本、共用檔案與Pages設定保持不變。手機360、iPad768直向及1024橫向核對分類、節錄、連結、無水平溢出與繪本來源往返；原典節錄包含關係及原始91檔雜湊檢查通過。驗證與截圖見docs/previews/mindfulness-excerpts/。發布仍須核對合併SHA、Pages及完整ZIP。
+
+---
+
 # 第08本介面統一與阿含經結語（2026-11-15）
 
 依作者對已發布版本的回饋，從最新main `1d964bbd8d6c9d0c05aa725f36da1b44d8ffb078` 建立 `fix/mindfulness-consistent-reader`，[PR #23](https://github.com/rooneyflower-star/sutrazen-map/pull/23)，修正本書導讀／閱讀器，承接本次網站直接發布授權。以下取代初版的整幕側欄閱讀方式；原始交接與下方歷史紀錄保留。
