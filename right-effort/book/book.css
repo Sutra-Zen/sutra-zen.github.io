@@ -211,7 +211,7 @@ button, select { font: inherit; }
 @media(orientation:landscape) {
  .scene .story { text-align:left; }
  #image-stage { display:grid; position:absolute; inset:var(--caption-space) 0 var(--scripture-space); place-items:center; }
- #art-frame { position:relative; height:auto; width:min(calc(100% - 112px),calc((var(--image-space-height) - 56px) * var(--art-ratio-number))); }
+ #art-frame { position:relative; height:auto; width:min(calc(100% - 112px),calc(var(--image-space-height) * var(--art-ratio-number))); }
  .scene .story, .scene .scripture { z-index:2; }
  .verse-body { max-height:none; overflow:hidden; }
 }
@@ -260,13 +260,8 @@ button, select { font: inherit; }
  .summary-scene #summary-text { width:min(calc(100% - 120px),48rem); margin:auto; }
 }
 
-/* Author explicitly places narration and scripture below the uncropped image in book 09. */
+/* Book 09 image labels and shades; stage placement follows the other readers. */
 .art-overlay { white-space:pre-line; line-height:var(--label-line-height,1.2); }
 #closing-shade,#zoom-shade { position:absolute; inset:0; background:#000; z-index:1; pointer-events:none; }
 #zoom-overlays { z-index:2; }
 .additional-source { display:block; min-height:44px; }
-@media(orientation:landscape) {
- .page:not(.afterword-scene) #image-stage { inset:56px 0 calc(var(--caption-space) + var(--scripture-space)); }
- .page:not(.afterword-scene) #caption { inset:auto 0 var(--scripture-space); min-height:var(--caption-space); }
- .page:not(.afterword-scene) #caption-sizer { inset:auto 0 0; }
-}

@@ -1,5 +1,13 @@
 # 原經與註解查找備忘
 
+## 四正勤住法經註解精確定位（2026-11-15）
+
+作者提供並確認〈穢品住法經〉的單經定位網址，已替換專頁及docs/right-effort/verified-sources.json原有卷23入口：
+
+https://buddhaspace.org/agama2/23.html#%E4%B9%9D%E4%BA%94_%E4%B8%AD%E9%98%BF%E5%90%AB%E7%A9%A2%E5%93%81%E4%BD%8F%E6%B3%95%E7%B6%93%E7%AC%AC%E4%B9%9D_%E7%AC%AC%E4%BA%8C%E5%B0%8F%E5%9C%9F%E5%9F%8E%E8%AA%A6
+
+未更改公開經名、原典選文或影片錄文。此定位依據作者提供，不代表環境已驗證外站畫面。
+
 ## 四正勤（第09本，2026-11-15）
 
 官方sc-data固定版本c7bba0f184e66904949d4918587975fb7fd7ec69的6份資料已實際讀取並重新下載核對SHA-256：SA877、SA879、SA254、MA95、SN49.1–12、SN49.23–34。原檔、雜湊、導讀節錄與來源卡映射在docs/right-effort/canonical/及verified-sources.json。

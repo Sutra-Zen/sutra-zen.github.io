@@ -1,4 +1,4 @@
-// Reuse the current reader controls, with book 09 narration and scripture below the artwork.
+// Match the other readers: caption above the complete artwork, scripture below.
 const $ = selector => document.querySelector(selector);
 const pages = BOOK.pages;
 const storageKey = 'sutrazen-right-effort-page';

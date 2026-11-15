@@ -56,6 +56,7 @@ def static_checks(network):
   assert all(t in clean(raw) for t in source['excerpts'])
   card=guide.xpath('//*[@id=$id]',id=f['id'])[0]
   assert card.xpath('.//blockquote/p/text()')==source['excerpts']
+  assert card.xpath('.//a[contains(@class,"source-button--annotation")]/@href')==[source.get('annotation',source.get('pali'))]
  for q in CAT:assert guide.xpath('//*[@id=$id]',id=q)
  for path in ['right-effort/index.html','right-effort/book/index.html']:
   for url in html.parse(str(ROOT/path)).xpath('//@src|//@href'):
@@ -100,8 +101,8 @@ def browser_checks(shots):
      plan=next(s for s in BOOK['scenes'] if s['id']==item['scene']);art=r['art']
      assert r['image']==item['image'] and r['natural']==item['dimensions'] and art['height']>90 and art['width']>160
      assert abs(art['width']/art['height']-item['dimensions'][0]/item['dimensions'][1])<.005
-     assert art['bottom']<=r['caption']['top']+1
-     if item['quotes']:assert r['caption']['bottom']<=r['scripture']['top']+1
+     assert r['caption']['bottom']<=art['top']+1
+     if item['quotes']:assert art['bottom']<=r['scripture']['top']+1
      assert len(r['labels'])==len(plan['artOverlay'])
      assert r['maskHidden']==(plan['darkOverlayOpacity']==0)
      if not r['maskHidden']:assert float(r['maskOpacity'])==.6
@@ -139,7 +140,7 @@ def browser_checks(shots):
    for scene in ['S02','S04','S05','S06']:
     page.goto(base+'right-effort/book/?scene='+scene);page.wait_for_function('typeof showPage==="function"');assert page.locator('.page').get_attribute('data-scene')==scene
    page.close();report['viewports'].append({'width':w,'height':h,'pages':81,'controls':'passed'})
-   print(f'{w}x{h}: 81 pages, full narration, exact switches, image labels/mask, text below image, controls, dialog, rotation, restart passed',flush=True)
+   print(f'{w}x{h}: 81 pages, full narration, exact switches, image labels/mask, caption above and scripture below, controls, dialog, rotation, restart passed',flush=True)
   page=browser.new_page(viewport={'width':1024,'height':768});cache={}
   for url in ['https://cdn.tailwindcss.com/','https://unpkg.com/lucide@latest']:
    with urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0'}),timeout=30) as r:cache[url]=(r.read(),r.headers.get('Content-Type','application/javascript'))
