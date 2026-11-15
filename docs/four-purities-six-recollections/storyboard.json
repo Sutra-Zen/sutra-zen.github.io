@@ -1,0 +1,722 @@
+{
+  "title": "四不壞淨與六念",
+  "videoId": "jCXyluhcEb0",
+  "websiteOrder": 7,
+  "videoDurationSec": 531.367,
+  "timingNotes": "時間依約 2 秒取樣，首個可辨識畫面作定位，供分鏡與字幕對照。片頭短封面只作參考。字幕為影片讀錄，可修正標點，不自動改寫文義。",
+  "scenes": [
+    {
+      "id": "S01",
+      "title": "隨法行與隨信行",
+      "startSec": 0.2,
+      "endSec": 71,
+      "originalFilename": "IMG_0393.jpeg",
+      "asset": "assets/IMG_0393.jpeg",
+      "topSubtitle": {
+        "anchor": "top-left",
+        "color": "#111111",
+        "cues": [
+          {
+            "startSec": 1,
+            "text": "在修行的這條小河畔，每個人的起點都不太一樣喔！"
+          },
+          {
+            "startSec": 7,
+            "text": "你看，這隻戴著學士帽、穿著學士袍的「隨法行」貓咪，"
+          },
+          {
+            "startSec": 11,
+            "text": "他擁有著敏銳的智慧，凡事都喜歡拿著放大鏡專注地觀察、思惟，"
+          },
+          {
+            "startSec": 19,
+            "text": "看清了書本中漂浮的邏輯，非得把生命的無常徹底想明白了，"
+          },
+          {
+            "startSec": 23,
+            "text": "才肯邁出安心的下一步。"
+          },
+          {
+            "startSec": 27,
+            "text": "而另一邊，是這隻雙手合十、眼神澄澈的「隨信行」小兔，"
+          },
+          {
+            "startSec": 33,
+            "text": "雖然他不像貓咪那樣理性思辨，但只要聽聞了清淨的佛法，"
+          },
+          {
+            "startSec": 39,
+            "text": "心中就會自然生起無比純淨的信任與安定，身邊就自然盛開出了蓮花。"
+          },
+          {
+            "startSec": 45,
+            "text": "你看，當這兩股不同的力量在主流匯合，他們都已經超越了凡夫的境界！"
+          },
+          {
+            "startSec": 53,
+            "text": "不管是貓咪那種理性的觀察智慧，還是小兔那份感性的信任信心，"
+          },
+          {
+            "startSec": 59,
+            "text": "只要目標一致，順著河流主流而下，他們都已經成為了「須陀洹」，"
+          },
+          {
+            "startSec": 65,
+            "text": "中間永不死去，必定能走向彼岸那光芒溫暖的「涅槃」寂靜！"
+          }
+        ]
+      },
+      "artOverlay": [],
+      "bakedText": "上左貓咪與「隨法行」、下左兔子與「隨信行」、中央「須陀洹」、右側「涅槃」及各牌英文，都是原圖自帶字。",
+      "safeArea": "保留合流線和四個標示，特別留出左下牌。",
+      "bottomScripture": {
+        "cues": [
+          {
+            "startSec": 1,
+            "sourceId": "SA61",
+            "text": "若於此法增上智慧思惟、觀察、忍，是名隨法行。超昇離生、越凡夫地，未得須陀洹果，中間不死，必得須陀洹果。",
+            "kind": "影片畫面錄文或摘要"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "title": "四入流分",
+      "startSec": 71,
+      "endSec": 113,
+      "originalFilename": "IMG_0395.jpeg",
+      "asset": "assets/IMG_0395.jpeg",
+      "topSubtitle": {
+        "anchor": "top-left",
+        "color": "#111111",
+        "cues": [
+          {
+            "startSec": 71,
+            "text": "那麼，我們該怎麼駕駛生命的小船，"
+          },
+          {
+            "startSec": 75,
+            "text": "正式駛入這條名為「八正道」的清淨大河呢？"
+          },
+          {
+            "startSec": 79,
+            "text": "佛陀給了一份稱為「四入流分」的航行指南："
+          },
+          {
+            "startSec": 83,
+            "text": "首先，是找到能為你提燈引路的導航員「親近善知識」；"
+          },
+          {
+            "startSec": 89,
+            "text": "接著，專心讀懂他給你的航海圖，也就是「聽聞正法」。"
+          },
+          {
+            "startSec": 95,
+            "text": "有了外部的指引後，我們必須轉向內心，"
+          },
+          {
+            "startSec": 99,
+            "text": "用正確的邏輯去核對指南針，也就是「內正思惟」；"
+          },
+          {
+            "startSec": 103,
+            "text": "最後，也是最重要的一步，就是親自握住船槳，"
+          },
+          {
+            "startSec": 109,
+            "text": "在生活中確實地划動它，也就是「法次法向」。"
+          }
+        ]
+      },
+      "artOverlay": [
+        {
+          "text": "四入流分",
+          "xPct": 43,
+          "yPct": 19,
+          "maxWidthPct": 28,
+          "fontSizePctOfImageWidth": 6,
+          "anchor": "center",
+          "align": "center",
+          "color": "#ffffff",
+          "safeArea": "上方林際與亮天空之間，位於左側善友木牌右上。",
+          "startSec": 71,
+          "endSec": 113,
+          "portraitOverride": "維持圖框百分比與單行。上緣字幕和按鍵移到圖外。"
+        }
+      ],
+      "bakedText": "四張木牌「親近善友」「聽聞正法」「內正思惟」「法次法向」已在畫中。",
+      "safeArea": "保留貓頭鷹、燈、指南針、船槳與四塊牌。",
+      "bottomScripture": {
+        "cues": [
+          {
+            "startSec": 71,
+            "sourceId": "SA843",
+            "text": "流者謂八聖道。入流分有四種，謂親近善男子、聽正法、內正思惟、法次法向。入流者成就四法，謂於佛、法、僧不壞淨，聖戒成就。",
+            "kind": "影片畫面錄文或摘要"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "title": "轉輪王與聖弟子",
+      "startSec": 113,
+      "endSec": 175,
+      "originalFilename": "IMG_0396.jpeg",
+      "asset": "assets/IMG_0396.jpeg",
+      "topSubtitle": {
+        "anchor": "top-left",
+        "color": "#111111",
+        "cues": [
+          {
+            "startSec": 113,
+            "text": "想像一下，如果有人擁有全世界的財富與權力，"
+          },
+          {
+            "startSec": 119,
+            "text": "甚至死後還能升上天堂，享受無盡的派對。"
+          },
+          {
+            "startSec": 123,
+            "text": "這樣的人，是不是最安全的呢？佛陀搖搖頭說：「不是的。」"
+          },
+          {
+            "startSec": 129,
+            "text": "就像左邊這位擁有統治權的轉輪聖王，"
+          },
+          {
+            "startSec": 133,
+            "text": "即使他擁有一切，但因為心裡沒有真正的依靠，他的王座底下，"
+          },
+          {
+            "startSec": 139,
+            "text": "依然藏著通往痛苦深淵「地獄界、畜生界、餓鬼界」的陷阱。"
+          },
+          {
+            "startSec": 145,
+            "text": "但你看看右邊這位聖弟子，他或許只能吃著簡單的粗茶淡飯，"
+          },
+          {
+            "startSec": 151,
+            "text": "披著縫補過的舊斗篷；但他的內心，卻擁有了四把無堅不摧的保護傘！"
+          },
+          {
+            "startSec": 159,
+            "text": "這四股力量化為金色的防護罩，"
+          },
+          {
+            "startSec": 163,
+            "text": "讓他徹底斬斷了掉入痛苦深淵的可能，獲得了真正的自由。"
+          },
+          {
+            "startSec": 169,
+            "text": "究竟是哪四股神奇的力量，竟然比全世界的財富與權力還要強大呢？"
+          }
+        ]
+      },
+      "artOverlay": [],
+      "bakedText": "無。",
+      "safeArea": "左邊王座及下方漩渦、右邊兔子與金色光罩都要入畫。",
+      "bottomScripture": {
+        "cues": [
+          {
+            "startSec": 113,
+            "sourceId": "SN55.1",
+            "text": "影片此幕下緣只顯示經名「相應部 SN 55.1 轉輪王經」。",
+            "kind": "影片畫面錄文或摘要"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "title": "佛不壞淨",
+      "startSec": 175,
+      "endSec": 251,
+      "originalFilename": "IMG_0397.jpeg",
+      "asset": "assets/IMG_0397.jpeg",
+      "topSubtitle": {
+        "anchor": "top-left",
+        "color": "#111111",
+        "cues": [
+          {
+            "startSec": 175,
+            "text": "這第一股讓內心強大、永不動搖的力量，就是對佛陀深深信任的「佛不壞淨」。"
+          },
+          {
+            "startSec": 183,
+            "text": "佛陀究竟是誰？祂不只是供桌上的神像，而是一位最完美的生命導師："
+          },
+          {
+            "startSec": 189,
+            "text": "祂像一位「阿羅漢」，已經斷開了所有痛苦的鎖鏈，值得我們最誠心的致敬；"
+          },
+          {
+            "startSec": 197,
+            "text": "祂是一位「等正覺者」，靠自己的智慧，徹底看清了宇宙運行的真相。"
+          },
+          {
+            "startSec": 203,
+            "text": "祂說到做到，智慧與行為完美合一，是「明行足」；"
+          },
+          {
+            "startSec": 209,
+            "text": "祂走在最安穩的解脫之路上，永不退轉，是「善逝」。"
+          },
+          {
+            "startSec": 215,
+            "text": "祂完全了解我們身處的這份複雜世界，是「世間解」；"
+          },
+          {
+            "startSec": 219,
+            "text": "對於難以調教的人心，祂是最有耐心的導師，這就是「無上士、調御丈夫」。"
+          },
+          {
+            "startSec": 227,
+            "text": "不管是天上的神靈還是人間的我們，祂都是指引方向的「天人師」。"
+          },
+          {
+            "startSec": 233,
+            "text": "祂是徹底醒覺的「佛陀」，也是這世間最珍貴、最值得尊崇的長者「世尊」。"
+          },
+          {
+            "startSec": 241,
+            "text": "當我們心裡裝著佛陀的這十種光芒，"
+          },
+          {
+            "startSec": 243,
+            "text": "就像在黑暗的海上看到了永不熄滅的燈塔，小船再也不會因為恐懼而搖晃了。"
+          }
+        ]
+      },
+      "artOverlay": [
+        {
+          "text": "佛不壞淨",
+          "xPct": 50,
+          "yPct": 37,
+          "maxWidthPct": 45,
+          "fontSizePctOfImageWidth": 9,
+          "anchor": "center",
+          "align": "center",
+          "color": "#ffffff",
+          "safeArea": "中央佛像胸口的放射光上。保留臉與下方小船。",
+          "startSec": 175,
+          "endSec": 251,
+          "portraitOverride": "維持圖框百分比與單行。上緣字幕和按鍵移到圖外。"
+        }
+      ],
+      "bakedText": "無。",
+      "safeArea": "白字疊在佛光上時加細暗描邊或陰影。",
+      "bottomScripture": {
+        "cues": [
+          {
+            "startSec": 175,
+            "sourceId": "SN55.1",
+            "text": "影片畫面依序列如來、應、等正覺、明行足、善逝、世間解、無上士、調御丈夫、天人師、佛世尊。",
+            "kind": "影片畫面錄文或摘要"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "title": "法不壞淨",
+      "startSec": 251,
+      "endSec": 311,
+      "originalFilename": "IMG_0399.jpeg",
+      "asset": "assets/IMG_0399.jpeg",
+      "topSubtitle": {
+        "anchor": "top-left",
+        "color": "#111111",
+        "cues": [
+          {
+            "startSec": 251,
+            "text": "這第二股不再動搖的力量，是對真理正法的絕對信心「法不壞淨」。"
+          },
+          {
+            "startSec": 257,
+            "text": "佛法不是什麼神祕的咒語，而是一張無比清晰的導航地圖。"
+          },
+          {
+            "startSec": 263,
+            "text": "這份真理是「善說的」，佛陀把路線畫得明明白白，沒有一點隱瞞。"
+          },
+          {
+            "startSec": 269,
+            "text": "它不需要等到下輩子才兌現，它是「即時的、非時的」；"
+          },
+          {
+            "startSec": 275,
+            "text": "只要你當下照著做，立刻就能感受到「直接可見」的改變，"
+          },
+          {
+            "startSec": 279,
+            "text": "佛陀從不強迫我們盲目相信，這條河永遠敞開著大門，"
+          },
+          {
+            "startSec": 285,
+            "text": "向世界發出邀請：「請你自己來看看吧！」。"
+          },
+          {
+            "startSec": 289,
+            "text": "這股真理的水流是「能引導的」，"
+          },
+          {
+            "startSec": 293,
+            "text": "它會穩穩地推著小船，朝著沒有痛苦的彼岸前進。"
+          },
+          {
+            "startSec": 297,
+            "text": "不過，別人說水有多甜都沒用；真理的清涼，必須像喝水一樣，"
+          },
+          {
+            "startSec": 305,
+            "text": "當你親自喝下了這口清涼的水，你對這條航線，就再也不會有任何懷疑了。"
+          }
+        ]
+      },
+      "artOverlay": [
+        {
+          "text": "法不壞淨",
+          "xPct": 50,
+          "yPct": 30,
+          "maxWidthPct": 45,
+          "fontSizePctOfImageWidth": 9,
+          "anchor": "center",
+          "align": "center",
+          "color": "#ffffff",
+          "safeArea": "正中央，橫跨上方書本的下半和山線，位於小貓帽頂上方。",
+          "startSec": 251,
+          "endSec": 311,
+          "portraitOverride": "維持圖框百分比與單行。上緣字幕和按鍵移到圖外。"
+        }
+      ],
+      "bakedText": "無。",
+      "safeArea": "保留書本輪廓、小貓望遠鏡和兔子手中的水。",
+      "bottomScripture": {
+        "cues": [
+          {
+            "startSec": 251,
+            "sourceId": "SN55.1",
+            "text": "法是被世尊善說的、直接可見的、即時的、請你來見的、能引導的、智者應該自己經驗的。",
+            "kind": "影片畫面錄文或摘要"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "title": "僧不壞淨",
+      "startSec": 311,
+      "endSec": 391,
+      "originalFilename": "IMG_0401.jpeg",
+      "asset": "assets/IMG_0401.jpeg",
+      "topSubtitle": {
+        "anchor": "top-left",
+        "color": "#111111",
+        "cues": [
+          {
+            "startSec": 311,
+            "text": "這第三股讓我們無比安心的力量，是對僧團的深深敬意與信任的「僧不壞淨」。"
+          },
+          {
+            "startSec": 319,
+            "text": "不過，這裡說的僧團，指的不是普通的旅人，"
+          },
+          {
+            "startSec": 323,
+            "text": "而是那些已經成功走在解脫道上的前輩們。"
+          },
+          {
+            "startSec": 327,
+            "text": "他們聽從了佛陀的導航，不偏不倚、誠實且正直地航行，"
+          },
+          {
+            "startSec": 333,
+            "text": "是「善向、正向、直向、等向」的實踐者。"
+          },
+          {
+            "startSec": 339,
+            "text": "這群學長姐中，有的剛進入聖流，有的已經完全覺悟，"
+          },
+          {
+            "startSec": 345,
+            "text": "總共有四個階段、八種層次的境界，他們就是「四雙八輩」聖弟子！"
+          },
+          {
+            "startSec": 351,
+            "text": "他們的小船裝滿了「戒律、禪定與智慧」，"
+          },
+          {
+            "startSec": 355,
+            "text": "早就掙脫了煩惱的麻繩，獲得了真正的自由與清晰的視野。"
+          },
+          {
+            "startSec": 361,
+            "text": "看著他們安穩前進的背影，我們心裡會生起莫大的勇氣："
+          },
+          {
+            "startSec": 367,
+            "text": "「原來這條航線是真的，原來抵達彼岸是做得到的！」"
+          },
+          {
+            "startSec": 371,
+            "text": "當我們帶著恭敬的心，向這群充滿智慧的聖者合掌致敬、學習與分享時，"
+          },
+          {
+            "startSec": 379,
+            "text": "就像是把最珍貴的善意種子，輕輕播種在世界上最肥沃的土壤裡。"
+          },
+          {
+            "startSec": 385,
+            "text": "他們，正是這世間能讓善意結出最豐碩果實的「無上福田」。"
+          }
+        ]
+      },
+      "artOverlay": [
+        {
+          "text": "僧不壞淨",
+          "xPct": 41,
+          "yPct": 24,
+          "maxWidthPct": 45,
+          "fontSizePctOfImageWidth": 9,
+          "anchor": "center",
+          "align": "center",
+          "color": "#ffffff",
+          "safeArea": "偏左上天空。右側鹿與象的位置留空。",
+          "startSec": 311,
+          "endSec": 391,
+          "portraitOverride": "維持圖框百分比與單行。上緣字幕和按鍵移到圖外。"
+        }
+      ],
+      "bakedText": "無。",
+      "safeArea": "保留鹿、象、田地及船上合掌的角色。",
+      "bottomScripture": {
+        "cues": [
+          {
+            "startSec": 311,
+            "sourceId": "SN55.1",
+            "text": "影片下緣先列善向、正向、直向、等向，接四向四果、四雙八士。",
+            "kind": "影片畫面錄文或摘要"
+          },
+          {
+            "startSec": 351,
+            "sourceId": "SN55.1",
+            "text": "影片下緣改列戒、定、慧、解脫、解脫知見，以及供養、恭敬、尊重與無上福田。",
+            "kind": "影片畫面錄文或摘要"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "title": "聖戒成就",
+      "startSec": 391,
+      "endSec": 459,
+      "originalFilename": "IMG_0400.jpeg",
+      "asset": "assets/IMG_0400.jpeg",
+      "topSubtitle": {
+        "anchor": "top-left",
+        "color": "#111111",
+        "cues": [
+          {
+            "startSec": 391,
+            "text": "最後，這股讓內心徹底安定的力量，是我們親自守護的「聖戒成就」。"
+          },
+          {
+            "startSec": 397,
+            "text": "戒律，並不是限制自由的鎖鏈，而是這艘船最堅固、最可靠的船身。"
+          },
+          {
+            "startSec": 403,
+            "text": "這艘船的木材是「無毀壞、無瑕疵」的，沒有任何裂縫，"
+          },
+          {
+            "startSec": 409,
+            "text": "所以煩惱的苦水永遠無法滲透進來；"
+          },
+          {
+            "startSec": 413,
+            "text": "它是「無污點、無雜色」的，讓我們能挺起胸膛，活得光明磊落。"
+          },
+          {
+            "startSec": 421,
+            "text": "佛陀說，這是一種「自由」的戒，"
+          },
+          {
+            "startSec": 423,
+            "text": "因為我們不再被壞習慣拉扯，也不再被罪惡感束縛。"
+          },
+          {
+            "startSec": 429,
+            "text": "這份自律與清淨，連最有智慧的人都會為你拍手稱讚。"
+          },
+          {
+            "startSec": 435,
+            "text": "我們持守它，並不是為了交換什麼獎勵，"
+          },
+          {
+            "startSec": 439,
+            "text": "而是因為唯有這份不心虛的平靜，能讓心像平靜的湖面一樣，"
+          },
+          {
+            "startSec": 443,
+            "text": "導向「定境」的深處。"
+          },
+          {
+            "startSec": 445,
+            "text": "當這四股力量，佛、法、僧、戒，在我們心裡匯聚成這座金色的防護罩時，"
+          },
+          {
+            "startSec": 453,
+            "text": "不論外面的風浪再大，這艘小船都已經獲得了永遠的平安。"
+          }
+        ]
+      },
+      "artOverlay": [
+        {
+          "text": "聖戒成就",
+          "xPct": 50,
+          "yPct": 30,
+          "maxWidthPct": 45,
+          "fontSizePctOfImageWidth": 9,
+          "anchor": "center",
+          "align": "center",
+          "color": "#ffffff",
+          "safeArea": "畫面中央，放在光罩上緣、角色頭頂以上。",
+          "startSec": 391,
+          "endSec": 459,
+          "portraitOverride": "維持圖框百分比與單行。上緣字幕和按鍵移到圖外。"
+        }
+      ],
+      "bakedText": "無。",
+      "safeArea": "保留罩頂、船身與兩名角色。",
+      "bottomScripture": {
+        "cues": [
+          {
+            "startSec": 391,
+            "sourceId": "SN55.1",
+            "text": "具備聖者所愛戒。無毀壞、無瑕疵、無污點、無雜色、自由、智者所稱讚、不取著、導向定。",
+            "kind": "影片畫面錄文或摘要"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "title": "六念",
+      "startSec": 459,
+      "endSec": 525,
+      "originalFilename": "IMG_0402.jpeg",
+      "asset": "assets/IMG_0402.jpeg",
+      "topSubtitle": {
+        "anchor": "top-left",
+        "color": "#111111",
+        "cues": [
+          {
+            "startSec": 459,
+            "text": "擁有「四不壞淨」就像獲得了生命中最強大的保險。"
+          },
+          {
+            "startSec": 465,
+            "text": "但如果你正面臨病痛、恐懼或不安的風浪時，該怎麼辦呢？"
+          },
+          {
+            "startSec": 469,
+            "text": "在雜阿含經554經中，長者摩訶男在病痛中，學會了「六念」這門修法。"
+          },
+          {
+            "startSec": 477,
+            "text": "這就像是把心轉向四種已經擁有的寶藏：念佛、念法、念僧、念戒。"
+          },
+          {
+            "startSec": 485,
+            "text": "每念一次，就像是在黑暗中點亮一盞燈，"
+          },
+          {
+            "startSec": 489,
+            "text": "讓散亂的心重新校準，回到這四種清淨的力量上。"
+          },
+          {
+            "startSec": 495,
+            "text": "除此之外，還要加上兩份溫暖的練習："
+          },
+          {
+            "startSec": 499,
+            "text": "「念布施」：回憶自己曾經分享、給予的快樂，讓心變得開闊且富有；"
+          },
+          {
+            "startSec": 505,
+            "text": "「念天」：思惟那些因善行而發光的高尚生命，提醒自己也擁有同樣的潛質。"
+          },
+          {
+            "startSec": 513,
+            "text": "透過這六種思惟，你的心會超越身體的痛苦。這就是依四不壞淨，增六念處。"
+          },
+          {
+            "startSec": 521,
+            "text": "讓原本堅固的信心，化為當下每一口呼吸的平靜。"
+          }
+        ]
+      },
+      "artOverlay": [
+        {
+          "text": "六念",
+          "xPct": 50,
+          "yPct": 30,
+          "maxWidthPct": 22,
+          "fontSizePctOfImageWidth": 9,
+          "anchor": "center",
+          "align": "center",
+          "color": "#ffffff",
+          "safeArea": "中央佛像胸前、念佛牌上方，右上念天牌仍可辨識。",
+          "startSec": 459,
+          "endSec": 525,
+          "portraitOverride": "維持圖框百分比與單行。上緣字幕和按鍵移到圖外。"
+        }
+      ],
+      "bakedText": "「念法」左上、「念天」右上偏中、「念佛」中央、「念僧」右側、「念施」船身、「念戒」右下。",
+      "safeArea": "下緣經文移到圖外，避免壓住「念戒」。注意六念的原圖是 IMG_0402.jpeg。",
+      "bottomScripture": {
+        "cues": [
+          {
+            "startSec": 459,
+            "sourceId": "SA554",
+            "text": "世尊說依四不壞淨，增六念處。我悉成就，我當修習念佛功德、念法、念僧、念戒、念施、念天。",
+            "kind": "影片畫面錄文或摘要"
+          }
+        ]
+      }
+    },
+    {
+      "id": "END",
+      "title": "收尾",
+      "startSec": 525,
+      "endSec": 531.367,
+      "asset": "assets/IMG_0402.jpeg",
+      "topSubtitle": {
+        "cues": []
+      },
+      "bottomScripture": {
+        "cues": []
+      },
+      "artOverlay": [
+        {
+          "text": "從此以後，無論風雨，\n這艘船將永不沉沒。",
+          "xPct": 50,
+          "yPct": 54,
+          "maxWidthPct": 82,
+          "fontSizePctOfImageWidth": 7.2,
+          "anchor": "center",
+          "align": "center",
+          "color": "#ffffff",
+          "startSec": 525,
+          "endSec": 531.367,
+          "safeArea": "沿用六念圖，整圖先加約 65% 黑色遮罩，文字置於遮罩上，保留兩行。",
+          "portraitOverride": "文字始終錨定圖片中心，保留兩行。"
+        }
+      ]
+    }
+  ]
+}

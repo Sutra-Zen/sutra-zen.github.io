@@ -1,0 +1,192 @@
+[
+  {
+    "path": "assets/IMG_0393.jpeg",
+    "originalFilename": "IMG_0393.jpeg",
+    "role": "illustration",
+    "sceneId": "S01",
+    "width": 1376,
+    "height": 768,
+    "bytes": 583258,
+    "sha256": "f81f51bb409b1a541831508a821e80cb1f42b833266daf3ab3c0c05e5d7e64f8"
+  },
+  {
+    "path": "reference/S01-0009.jpg",
+    "originalFilename": "005.jpg",
+    "role": "video-frame",
+    "sceneId": "S01",
+    "width": 640,
+    "height": 360,
+    "bytes": 85449,
+    "sha256": "e6d0c64416a870539ae514a3700568337872be36cbc07e4dbbca4f66e13481bd"
+  },
+  {
+    "path": "assets/IMG_0395.jpeg",
+    "originalFilename": "IMG_0395.jpeg",
+    "role": "illustration",
+    "sceneId": "S02",
+    "width": 1376,
+    "height": 768,
+    "bytes": 629548,
+    "sha256": "1bd5263539e25520264badc16570641a2cfacb1fe385480d1307b8422c346bd0"
+  },
+  {
+    "path": "reference/S02-0121.jpg",
+    "originalFilename": "041.jpg",
+    "role": "video-frame",
+    "sceneId": "S02",
+    "width": 640,
+    "height": 360,
+    "bytes": 95818,
+    "sha256": "b76771c916d32f30f757d9a0f3ef0f3f9ff712d68cc9cd25a2cc25c115082989"
+  },
+  {
+    "path": "assets/IMG_0396.jpeg",
+    "originalFilename": "IMG_0396.jpeg",
+    "role": "illustration",
+    "sceneId": "S03",
+    "width": 2752,
+    "height": 1536,
+    "bytes": 1969983,
+    "sha256": "68f9cd6b69aa2131e2e8e9cccbdc86ff4bcd2cb12d41870d1647006ea20103c3"
+  },
+  {
+    "path": "reference/S03-0205.jpg",
+    "originalFilename": "063.jpg",
+    "role": "video-frame",
+    "sceneId": "S03",
+    "width": 640,
+    "height": 360,
+    "bytes": 88300,
+    "sha256": "5d66ff4095a471794bca4c1e3128cc54144532377444a59a77732205aaac32e1"
+  },
+  {
+    "path": "assets/IMG_0397.jpeg",
+    "originalFilename": "IMG_0397.jpeg",
+    "role": "illustration",
+    "sceneId": "S04",
+    "width": 1376,
+    "height": 768,
+    "bytes": 422006,
+    "sha256": "3285d155507f461219eacdf17e50764e9ba88bfc9faf94bf57e8d40a00c39c7e"
+  },
+  {
+    "path": "reference/S04-0305.jpg",
+    "originalFilename": "093.jpg",
+    "role": "video-frame",
+    "sceneId": "S04",
+    "width": 640,
+    "height": 360,
+    "bytes": 54541,
+    "sha256": "0a5cc1dc13064c3bfea63e99bf364321daf1e88e759b19e606a259b2685abe66"
+  },
+  {
+    "path": "assets/IMG_0399.jpeg",
+    "originalFilename": "IMG_0399.jpeg",
+    "role": "illustration",
+    "sceneId": "S05",
+    "width": 1376,
+    "height": 768,
+    "bytes": 495790,
+    "sha256": "f953205e4197de4638c8e8e9a5783f533fed2794496a24f7be344d645f5366e6"
+  },
+  {
+    "path": "reference/S05-0423.jpg",
+    "originalFilename": "132.jpg",
+    "role": "video-frame",
+    "sceneId": "S05",
+    "width": 640,
+    "height": 360,
+    "bytes": 73119,
+    "sha256": "6e2df6462afbb63aef476f03c241a0ced7ce3a2975ec6fda19edd3dea16937f6"
+  },
+  {
+    "path": "assets/IMG_0401.jpeg",
+    "originalFilename": "IMG_0401.jpeg",
+    "role": "illustration",
+    "sceneId": "S06",
+    "width": 1376,
+    "height": 768,
+    "bytes": 469791,
+    "sha256": "3dbb4335db8a02a4951819a092e3c5aa122af28779af339fcf9ad3af5d36d8e3"
+  },
+  {
+    "path": "reference/S06-0543.jpg",
+    "originalFilename": "172.jpg",
+    "role": "video-frame",
+    "sceneId": "S06",
+    "width": 640,
+    "height": 360,
+    "bytes": 77961,
+    "sha256": "1282e999be5b77dbed3915a926aa603b5352fec2abe2143a5f2297f5d4fccb4e"
+  },
+  {
+    "path": "assets/IMG_0400.jpeg",
+    "originalFilename": "IMG_0400.jpeg",
+    "role": "illustration",
+    "sceneId": "S07",
+    "width": 1376,
+    "height": 768,
+    "bytes": 492863,
+    "sha256": "a232af6b09a6521a798cc4b89078719edf23116dee5e1eb40a8ebbf47edc27eb"
+  },
+  {
+    "path": "reference/S07-0645.jpg",
+    "originalFilename": "203.jpg",
+    "role": "video-frame",
+    "sceneId": "S07",
+    "width": 640,
+    "height": 360,
+    "bytes": 69336,
+    "sha256": "d6818d11764674db68442f487deb42577f058d7e8ce8f7d6acf5005886771dd6"
+  },
+  {
+    "path": "assets/IMG_0402.jpeg",
+    "originalFilename": "IMG_0402.jpeg",
+    "role": "illustration",
+    "sceneId": "S08",
+    "width": 1375,
+    "height": 768,
+    "bytes": 439320,
+    "sha256": "60ab061ea10b0b9219d25d2e4700ff25e1a43cfe67a62c7f99c819588c87222a"
+  },
+  {
+    "path": "reference/S08-0749.jpg",
+    "originalFilename": "235.jpg",
+    "role": "video-frame",
+    "sceneId": "S08",
+    "width": 640,
+    "height": 360,
+    "bytes": 77367,
+    "sha256": "accfc7734273bed4c571ec33e763621e611eee30838051b2f67f3294ab65b04d"
+  },
+  {
+    "path": "reference/END-0849.jpg",
+    "originalFilename": "265.jpg",
+    "role": "video-frame",
+    "sceneId": "END",
+    "width": 640,
+    "height": 360,
+    "bytes": 38172,
+    "sha256": "38b62a7699c406ba15d8b3083980e7602cfe2f640be868357326418de1970df7"
+  },
+  {
+    "path": "reference/video-cover.png",
+    "originalFilename": "cover.png",
+    "role": "video-frame",
+    "sceneId": null,
+    "width": 640,
+    "height": 360,
+    "bytes": 322722,
+    "sha256": "393ea778c7df1c079856e51be8acd6765aacaff2a66c78601c0f9bcb903730eb"
+  },
+  {
+    "path": "reference/scripture-screenshot.png",
+    "originalFilename": "截圖 2026-11-15 清晨7.38.15.png",
+    "role": "scripture-reference",
+    "sceneId": null,
+    "width": 1445,
+    "height": 778,
+    "bytes": 1604238,
+    "sha256": "55b1ff14a2bea4f3a75ea4edf15dfe70cf9ee13216f0f4dbfecf47649e630167"
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "baseline": "31ebc8679723ab9908f771436bc0563cc4b04270",
+  "pageChecks": 380,
+  "viewports": [
+    {
+      "width": 390,
+      "height": 844,
+      "pages": 95,
+      "interactions": "passed"
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "pages": 95,
+      "interactions": "passed"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "pages": 95,
+      "interactions": "passed"
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "pages": 95,
+      "interactions": "passed"
+    }
+  ],
+  "javascriptErrors": [],
+  "localHttpErrors": [],
+  "realIPadSafari": "not tested",
+  "existingReaders": "all six opened, next-page and return passed"
+}
