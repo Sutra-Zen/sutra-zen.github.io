@@ -1,6 +1,6 @@
 # 第09本《四正勤》（2026-11-15）
 
-從最新main `cd1cb6f743d773afe9ea22c6c548384c7760ef75` 建立feat/right-effort。已讀AGENTS、PROJECT、HANDOFF、SOURCES、完整兩包交接README／CODEX_PROMPT／NARRATION_REVIEW／SOURCE_NOTES／storyboard／catalog／manifest，並檢查最近四念處的實際實作。作者本次明確授權直接發布。
+從最新main `cd1cb6f743d773afe9ea22c6c548384c7760ef75` 建立feat/right-effort，[PR #25](https://github.com/rooneyflower-star/sutrazen-map/pull/25)。已讀AGENTS、PROJECT、HANDOFF、SOURCES、完整兩包交接README／CODEX_PROMPT／NARRATION_REVIEW／SOURCE_NOTES／storyboard／catalog／manifest，並檢查最近四念處的實際實作。作者本次明確授權直接發布。
 
 - 兩包已安全合併至docs/right-effort/；33項清單檔案的大小與SHA-256、26張圖像解碼與尺寸核對通過，無缺件。原JSON、9張正式圖、2張備用圖、14張參考影格／出處圖及片尾影格完整保留。Notion匯出只供追溯，不依賴外部Notion媒體。
 - `right-effort/`導讀與`right-effort/book/`閱讀器接上書架09及原有四正勤心智圖窗；14本中9可讀、5鎖定。沿用原#video-09的RqWhPhhP8eY；全部14支影片不變。

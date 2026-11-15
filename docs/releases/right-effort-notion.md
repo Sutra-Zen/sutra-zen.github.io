@@ -16,3 +16,4 @@
 
 - 導讀：https://rooneyflower-star.github.io/sutrazen-map/right-effort/
 - 繪本：https://rooneyflower-star.github.io/sutrazen-map/right-effort/book/
+- PR：https://github.com/rooneyflower-star/sutrazen-map/pull/25
