@@ -1,0 +1,51 @@
+{
+  "baseline": "1d16a34267e7ecbaf73543cab4580d32739bd67c",
+  "card": "anban",
+  "pdfUrl": "../docs/anapana/references/212202.pdf#page=130",
+  "versionIntroductionUrl": "https://zh.wikipedia.org/zh-tw/安般守意經",
+  "pdfSha256": "6b8a5905f14894cad909b3bbe5d96a41be4b987cee32854478cc7f61c546d674",
+  "pdfPages": 167,
+  "printedExcerptPages": [
+    122,
+    123,
+    124,
+    125
+  ],
+  "physicalPdfExcerptPages": [
+    130,
+    131,
+    132,
+    133
+  ],
+  "sourceExcerptsMatchThesis": true,
+  "sourceType": "thesis quotation, not direct manuscript",
+  "unchangedOtherSourceCards": 7,
+  "unchangedReader": true,
+  "localPdfHttp200AndMime": "passed",
+  "viewports": [
+    {
+      "width": 360,
+      "height": 800,
+      "threeExcerptsReadableNoOverflow": "passed",
+      "nativePdfEntryClick": "passed",
+      "Q39ReaderReturn": "passed"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "threeExcerptsReadableNoOverflow": "passed",
+      "nativePdfEntryClick": "passed",
+      "Q39ReaderReturn": "passed"
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "threeExcerptsReadableNoOverflow": "passed",
+      "nativePdfEntryClick": "passed",
+      "Q39ReaderReturn": "passed"
+    }
+  ],
+  "javascriptErrors": [],
+  "physicalSafari": "not tested",
+  "externalWikipedia": "403 from environment proxy; author URL retained as background link only"
+}

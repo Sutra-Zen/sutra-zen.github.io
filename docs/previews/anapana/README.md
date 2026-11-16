@@ -46,6 +46,6 @@ node --check anapana/book/book.js
 node --check anapana/book/book-data.js
 ```
 
-瀏覽器驗收使用Playwright及 `/usr/bin/chromium`，另需Pillow、lxml。`validation.json` 記錄尺寸、逐頁狀態與限制。360×800、800×360、768×1024、1024×768、1440×900各119頁，共595個狀態，逐筆檢查原口白／經文／疊字、完整圖比例、字幕在上經文在下、無水平溢出及按鍵位置。另測翻頁、12幕目錄、本頁經文與捲動、來源往返、返回導讀與地圖、放大關閉、快速點按、旋轉／重載保留頁碼、最後頁重讀、首頁書架／地圖及九本舊書入口。原始38檔及六份原典雜湊核對，舊書／共用元件／Pages設定對照main基準不變。
+瀏覽器驗收使用Playwright及 `/usr/bin/chromium`，另需Pillow、lxml；PDF來源頁碼驗證使用Poppler的pdfinfo。`validation.json` 記錄尺寸、逐頁狀態與限制。360×800、800×360、768×1024、1024×768、1440×900各119頁，共595個狀態，逐筆檢查原口白／經文／疊字、完整圖比例、字幕在上經文在下、無水平溢出及按鍵位置。另測翻頁、12幕目錄、本頁經文與捲動、來源往返、返回導讀與地圖、放大關閉、快速點按、旋轉／重載保留頁碼、最後頁重讀、首頁書架／地圖及九本舊書入口。原始38檔及六份原典雜湊核對，舊書／共用元件／Pages設定對照main基準不變。
 
 實體iPad/iPhone Safari的原生手勢、YouTube實際播放及外部註解站畫面尚未驗收；不以Chromium尺寸模擬代替。引文待校事項見 [REVIEW_TODO](../../anapana/REVIEW_TODO.md)，初值座標與分層見 [layout-audit](../../anapana/layout-audit.md)。
