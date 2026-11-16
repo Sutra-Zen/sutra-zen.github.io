@@ -1,6 +1,6 @@
 # 四如意足｜審閱版本
 
-分支 `feat/iddhipada-review`，[草稿PR #34](https://github.com/rooneyflower-star/sutrazen-map/pull/34)，基準main `140f62221726485916f3992d8ea6f5782e7507b5`。本次未合併main、未部署正式站。
+原審閱分支 `feat/iddhipada-review`，[PR #34](https://github.com/rooneyflower-star/sutrazen-map/pull/34)，基準main `140f62221726485916f3992d8ea6f5782e7507b5`。作者已於審閱交付後指示「直接發布吧」，改由本PR發布。實際部署與備份結果見PR最後核對。正式[導讀](https://rooneyflower-star.github.io/sutrazen-map/iddhipada/)與[繪本](https://rooneyflower-star.github.io/sutrazen-map/iddhipada/book/)。以下保留原校稿PDF、截圖與本機試閱方式。
 
 ## 先在iPad直接看
 

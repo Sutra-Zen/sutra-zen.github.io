@@ -1,3 +1,15 @@
+# 第11本《四如意足》發布授權（2026-11-16）
+
+作者於交付審閱版後明確指示「直接發布吧」。**此授權取代下方本書原審閱限制，允許將PR #34合併至main並發布GitHub Pages。** main仍以 `140f62221726485916f3992d8ea6f5782e7507b5` 為基準，發布同一審閱內容；只移除導讀／閱讀器noindex及試閱標示、改用正式快取版號，不改9幕、81段口白、11筆Q卡、13條疊字、原圖或既有十本。
+
+- 正式導讀：https://rooneyflower-star.github.io/sutrazen-map/iddhipada/
+- 正式繪本：https://rooneyflower-star.github.io/sutrazen-map/iddhipada/book/
+- 發布經 [PR #34](https://github.com/rooneyflower-star/sutrazen-map/pull/34)；實際合併SHA、Pages建置／公開檔案核對與固定合併SHA的完整ZIP，記錄於PR最終發布驗證。不以先前審閱ZIP代替正式備份。
+- 審閱版已通過五尺寸410個頁面狀態、65個放大字框狀態及舊十本入口檢查；發布前重核原檔／資料生成／JS語法／相對連結與原書不變。實體Safari手勢、影片播放、時間精校及來源措辭差異仍保留REVIEW_TODO，發布不等於這些項目已完成校勘。
+- 此工作環境未提供Notion工具，尚未寫入改版頁；待補記 `docs/releases/iddhipada-notion.md`。
+
+---
+
 # 第11本《四如意足》審閱實作（2026-11-16）
 
 最新main基準 `140f62221726485916f3992d8ea6f5782e7507b5`，實作分支 `feat/iddhipada-review`，[草稿PR #34](https://github.com/rooneyflower-star/sutrazen-map/pull/34)。**本次使用者明確要求審閱，不合併main、不公開部署。先前各書發布授權不適用本次。**
