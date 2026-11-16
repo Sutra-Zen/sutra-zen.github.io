@@ -1,0 +1,32 @@
+{
+  "baseline": "e95d873c3f9816cb54701f173640f5ea66b2eba3",
+  "card": "bhavanakrama",
+  "url": "https://cbetaonline.dila.edu.tw/zh-tw/B10n0067_p0715a13",
+  "sourceSha256": "466644066e14778781428ae44472d3b37d37b4a0419a18a3a262fce07bc718d9",
+  "sourceExcerptMatchesOfficialXML": true,
+  "unchangedOtherSourceCards": 7,
+  "unchangedReader": true,
+  "viewports": [
+    {
+      "width": 360,
+      "height": 800,
+      "cardReadableNoOverflow": "passed",
+      "Q32ReaderReturn": "passed"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "cardReadableNoOverflow": "passed",
+      "Q32ReaderReturn": "passed"
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "cardReadableNoOverflow": "passed",
+      "Q32ReaderReturn": "passed"
+    }
+  ],
+  "javascriptErrors": [],
+  "physicalSafari": "not tested",
+  "externalCBETAWeb": "403 from environment proxy; exact author URL preserved, official CBETA XML read and checked"
+}

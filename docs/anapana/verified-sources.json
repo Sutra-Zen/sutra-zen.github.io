@@ -163,5 +163,38 @@
       ]
     }
   ],
-  "policy": "影片118段口白與41筆錄文保持不變。以下6份官方原檔僅作對讀，差異留待作者校稿；論師兩種來源尚未逐字或版本核對，不冒充阿含主體。"
+  "policy": "影片118段口白與41筆錄文保持不變。6份官方阿含／中部原檔作對讀；導讀調身八法另依作者提供，已核CBETA《菩提道次第廣論》轉引。尚未各別逐句校勘《修次中編／下編》原本或金剛寺版，不冒充阿含主體。",
+  "commentarialSources": [
+    {
+      "repository": "cbeta-git/xml-p5a",
+      "commit": "741971afbbf665797e874443cd8b4746ee4487da",
+      "path": "B/B10/B10n0067.xml",
+      "url": "https://raw.githubusercontent.com/cbeta-git/xml-p5a/741971afbbf665797e874443cd8b4746ee4487da/B/B10/B10n0067.xml",
+      "bytes": 1240795,
+      "sha256": "466644066e14778781428ae44472d3b37d37b4a0419a18a3a262fce07bc718d9",
+      "id": "bhavanakrama",
+      "local": "canonical/B10n0067.xml",
+      "documentTitle": "《菩提道次第廣論》卷十四",
+      "author": "宗喀巴大師",
+      "translator": "法尊法師",
+      "webUrl": "https://cbetaonline.dila.edu.tw/zh-tw/B10n0067_p0715a13",
+      "webAccess": "direct web request blocked by environment proxy; supplied URL preserved",
+      "paragraphId": "pB10p0718a2401",
+      "excerptLines": "0718a24–0718b03",
+      "excerpts": [
+        "如《修次中編》、《下編》所說，於安樂具身具八法。足者，謂全跏趺，如毘盧遮那佛坐，或半跏趺。眼者，謂不應太開，亦非太閉，垂注鼻端。身者，謂非過後仰，莫太前屈，端身內念。肩者，謂平齊而住。頭者，莫揚，莫低，莫歪一方，自鼻至臍正直而住。齒與唇者，隨自然住。舌者，令抵上齒。息者，內外出入莫令有聲、粗猛急滑，必使出入無所知覺，全無功用徐徐而轉。"
+      ],
+      "verification": "author-provided quotation matches official CBETA XML after removing XML line-break whitespace",
+      "quoteIds": [
+        "Q32",
+        "Q33",
+        "Q34",
+        "Q35",
+        "Q36",
+        "Q37",
+        "Q38"
+      ],
+      "scope": "guide source card only; original video transcript and illustrations unchanged"
+    }
+  ]
 }
