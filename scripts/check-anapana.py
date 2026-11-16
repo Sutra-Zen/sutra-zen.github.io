@@ -71,7 +71,13 @@ def static_checks(network):
    target=((ROOT/path).parent/unquote(u.path)).resolve()
    if target.is_dir(): target/='index.html'
    assert target.is_file(),(path,url)
-   if u.fragment: assert html.parse(str(target)).xpath('//*[@id=$id]',id=u.fragment)
+   if u.fragment:
+    if target.suffix.lower()=='.pdf':
+     page=re.fullmatch(r'page=([1-9]\d*)',u.fragment)
+     info=subprocess.check_output(['pdfinfo',str(target)],text=True)
+     total=int(re.search(r'^Pages:\s+(\d+)',info,re.M)[1])
+     assert page and int(page[1])<=total,(path,url,'invalid PDF page')
+    else: assert html.parse(str(target)).xpath('//*[@id=$id]',id=u.fragment)
  if network:
   def verify(f):
    assert hashlib.sha256(urllib.request.urlopen(f['url'],timeout=30).read()).hexdigest()==f['sha256']; return f['id']

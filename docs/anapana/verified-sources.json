@@ -163,7 +163,7 @@
       ]
     }
   ],
-  "policy": "影片118段口白與41筆錄文保持不變。6份官方阿含／中部原檔作對讀；導讀調身八法另依作者提供，已核CBETA《菩提道次第廣論》轉引。尚未各別逐句校勘《修次中編／下編》原本或金剛寺版，不冒充阿含主體。",
+  "policy": "影片118段口白與41筆錄文保持不變。6份官方阿含／中部原檔作對讀；導讀調身八法已核CBETA《菩提道次第廣論》轉引，數／隨／止三段另依作者提供之2008年論文所引金剛寺本。轉引來源與影片錄文分開，未冒充各論原本或金剛寺抄本直接校勘。",
   "commentarialSources": [
     {
       "repository": "cbeta-git/xml-p5a",
@@ -195,6 +195,74 @@
         "Q38"
       ],
       "scope": "guide source card only; original video transcript and illustrations unchanged"
+    },
+    {
+      "id": "anban",
+      "title": "《安般守意經》金剛寺版",
+      "sourceType": "secondary_scholarly_quotation",
+      "documentTitle": "漢魏晉中國佛教安般禪觀─以《安般守意經》為中心",
+      "author": "鄧翠盈（釋妙博）",
+      "institution": "佛光大學宗教學系碩士班",
+      "year": 2008,
+      "local": "references/212202.pdf",
+      "bytes": 1338886,
+      "sha256": "6b8a5905f14894cad909b3bbe5d96a41be4b987cee32854478cc7f61c546d674",
+      "totalPdfPages": 167,
+      "pdfUrl": "../docs/anapana/references/212202.pdf#page=130",
+      "versionIntroductionUrl": "https://zh.wikipedia.org/zh-tw/安般守意經",
+      "versionIntroductionAccess": "environment proxy403; user-supplied URL preserved, no claims taken from unread article",
+      "excerpts": [
+        "數為何等？入息出息，數十息无得過，十息无得減。十息：入息至竟投一，出息至竟投二。若投二意誤，更從一投起。若至九投意誤，更從一數起，令莫誤。十息：入息出息數，是名為數。何用是數？但從是斷家中念。",
+        "隨為何等？入息至竟，當隨莫投一；出息至竟，當隨莫投二，是名隨。何用是隨？但從是斷外念。",
+        "止為何等？入息至竟，遍止鼻頭，莫隨出息至竟。著鼻頭莫隨，是為止。"
+      ],
+      "excerptLocations": [
+        {
+          "label": "數息",
+          "quoteId": "Q39",
+          "printedPages": [
+            122,
+            123
+          ],
+          "pdfPages": [
+            130,
+            131
+          ],
+          "footnote": 396
+        },
+        {
+          "label": "隨息",
+          "quoteId": "Q40",
+          "printedPages": [
+            124
+          ],
+          "pdfPages": [
+            132
+          ],
+          "footnote": 403
+        },
+        {
+          "label": "止息",
+          "quoteId": "Q41",
+          "printedPages": [
+            124,
+            125
+          ],
+          "pdfPages": [
+            132,
+            133
+          ],
+          "footnote": 407
+        }
+      ],
+      "verification": "read thesis title page, relevant quotations and footnotes; checked the rendered PDF pages130–133. This is a thesis quotation of the Kongoji text, not a direct manuscript collation.",
+      "textPolicy": "remove layout whitespace and use Unicode NFC to normalize compatibility ideographs; preserve printed wording, punctuation, 无, 投二 and 遍止鼻頭. Do not copy the Taisho quotations or the author's explanatory paragraphs into the scripture excerpt.",
+      "differencesFromVideo": [
+        "數息：出息至竟投二（原影片錄文作投一）；若投二意誤、令莫誤等依論文原字。",
+        "隨息：出息至竟當隨莫投二（原影片錄文作莫投一）。",
+        "止息：依論文保留遍止鼻頭及其標點；未接上論文此段引文沒有的影片末句。"
+      ],
+      "scope": "guide source card only; original119-page reader, narration and video-transcribed quotes preserved"
     }
   ]
 }
