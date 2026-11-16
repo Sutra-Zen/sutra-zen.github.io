@@ -1,3 +1,29 @@
+# 第11本《四如意足》發布授權（2026-11-16）
+
+作者於交付審閱版後明確指示「直接發布吧」。**此授權取代下方本書原審閱限制，允許將PR #34合併至main並發布GitHub Pages。** main仍以 `140f62221726485916f3992d8ea6f5782e7507b5` 為基準，發布同一審閱內容；只移除導讀／閱讀器noindex及試閱標示、改用正式快取版號，不改9幕、81段口白、11筆Q卡、13條疊字、原圖或既有十本。
+
+- 正式導讀：https://rooneyflower-star.github.io/sutrazen-map/iddhipada/
+- 正式繪本：https://rooneyflower-star.github.io/sutrazen-map/iddhipada/book/
+- 發布經 [PR #34](https://github.com/rooneyflower-star/sutrazen-map/pull/34)；實際合併SHA、Pages建置／公開檔案核對與固定合併SHA的完整ZIP，記錄於PR最終發布驗證。不以先前審閱ZIP代替正式備份。
+- 審閱版已通過五尺寸410個頁面狀態、65個放大字框狀態及舊十本入口檢查；發布前重核原檔／資料生成／JS語法／相對連結與原書不變。實體Safari手勢、影片播放、時間精校及來源措辭差異仍保留REVIEW_TODO，發布不等於這些項目已完成校勘。
+- 此工作環境未提供Notion工具，尚未寫入改版頁；待補記 `docs/releases/iddhipada-notion.md`。
+
+---
+
+# 第11本《四如意足》審閱實作（2026-11-16）
+
+最新main基準 `140f62221726485916f3992d8ea6f5782e7507b5`，實作分支 `feat/iddhipada-review`，[草稿PR #34](https://github.com/rooneyflower-star/sutrazen-map/pull/34)。**本次使用者明確要求審閱，不合併main、不公開部署。先前各書發布授權不適用本次。**
+
+- 新增 `iddhipada/` 導讀及 `iddhipada/book/` 閱讀器；審閱分支接書架第11本、原有四如意足地圖節點。14個影片不變，11本可讀、3本鎖定。沒有新增重複地圖節點。
+- 兩包普通ZIP完整合併於 `docs/iddhipada/`，30原始檔符合receipt與manifest；9正式PNG、1有字備用、9定位影格均解碼。網站用9張同尺寸WebP，原圖與交接JSON不改，無MOV上站。
+- 9幕、81段口白、P01–P81／時間／Q對應完整保留；另加既有格式的經典依據結語，82頁、9幕目錄。11經文卡按段重用，Q01–08中文譯意不冒名莊春江，Q09影片錄文譯者未定，Q10–11古漢譯。導讀另用5份官方來源核對的中譯／古漢譯節錄與4份巴利對照。
+- 沿用最新安那般那的字幕在上／全幅圖／經文在下、共享reader-controls／reader-restart、目錄、頁碼、經文視窗、放大與橫直按鍵。13條疊字以圖片左上百分比及cqw定位；8個字框避讓人物／燈，初值與調整記錄分開。S06正式無字版加4條教學字，原圖帆字不重疊。
+- 實測360×800、800×360、768×1024、1024×768、1440×900全82頁，共410狀態，65個放大字框狀態；翻頁、目錄、長文捲動、兩卡切換、來源往返、導讀／地圖返回、快速翻頁、旋轉重載保留頁碼、最後頁重讀及舊十本入口通過。十本舊書、共用檔與Pages設定逐檔不變。實體Safari、外站頁面及YouTube播放未測。
+- 試閱與截圖：`docs/previews/iddhipada/README.md`；另提供完整可選字PDF（81段及11卡逐字檢查）。互動試閱用本機HTTP；不將GitHub檔案頁、PDF或不存在的正式路徑冒充互動預覽。
+- `docs/iddhipada/REVIEW_TODO.md` 保留時間精校、巴利拼寫、Q09譯者及公園／精舍、依出要等差異；原口白／引用不擅改。來源固定commit與SHA在verified-sources。此工作環境未提供Notion工具，尚未寫入；待補記 `docs/iddhipada/notion-review-note.md`。
+
+---
+
 # 移除原經區說明句（2026-11-16）
 
 依作者要求，移除安那般那專頁閱讀原經區的白話詮釋／影片錄文／版本對讀說明句，其他內容與連結不變；承接發布授權。生成一致性與差異檢查通過。Notion工具未提供，尚未寫入；待補記：docs/releases/anapana-source-intro-notion.md。

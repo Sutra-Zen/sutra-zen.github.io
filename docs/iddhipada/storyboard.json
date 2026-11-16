@@ -1,0 +1,1052 @@
+{
+  "schemaVersion": 1,
+  "notionUrl": "https://app.notion.com/p/41acf2ef57db818cb5b1e8f03025b9b8?pvs=204",
+  "video": {
+    "filename": "我的影片 11-360p30.mov",
+    "durationSeconds": 443.77,
+    "url": "https://youtu.be/elA53JAE_S4",
+    "included": false
+  },
+  "timingAccuracy": "approximate_1_to_3_seconds_not_audio_verified",
+  "scenes": [
+    {
+      "sceneId": "S01",
+      "title": "鐵球與木棉・四如意足的轉化",
+      "startSeconds": 0,
+      "endSeconds": 79,
+      "originalFilename": "B8BA3740-8A87-4B0A-9412-07191E0C44E2.png",
+      "image": "assets/S01.png",
+      "narration": [
+        {
+          "id": "P01",
+          "startSeconds": 0,
+          "endSeconds": 8,
+          "text": "佛陀教會我們靠著四正勤努力划槳，拔除心中的雜草惡習。",
+          "quoteIds": [
+            "Q01"
+          ]
+        },
+        {
+          "id": "P02",
+          "startSeconds": 8,
+          "endSeconds": 11,
+          "text": "但是，光靠雙手的意志力苦苦支撐，",
+          "quoteIds": [
+            "Q01"
+          ]
+        },
+        {
+          "id": "P03",
+          "startSeconds": 11,
+          "endSeconds": 15,
+          "text": "打坐時的身體與心念，依然像一顆「冰冷且沉重的鐵球」，",
+          "quoteIds": [
+            "Q01"
+          ]
+        },
+        {
+          "id": "P04",
+          "startSeconds": 15,
+          "endSeconds": 20,
+          "text": "容易疲倦、容易僵硬，心靈的小船隨時會停滯不前。",
+          "quoteIds": [
+            "Q01"
+          ]
+        },
+        {
+          "id": "P05",
+          "startSeconds": 20,
+          "endSeconds": 26,
+          "text": "這時，我們需要啟動深層的轉化發動機「四如意足」。",
+          "quoteIds": [
+            "Q01"
+          ]
+        },
+        {
+          "id": "P06",
+          "startSeconds": 26,
+          "endSeconds": 29,
+          "text": "如意足，不是要我們用蠻力去對抗雜念，",
+          "quoteIds": [
+            "Q01"
+          ]
+        },
+        {
+          "id": "P07",
+          "startSeconds": 29,
+          "endSeconds": 35,
+          "text": "而是把四念處的微細覺察、四正勤的精進努力，透過對清淨的嚮往（欲）、",
+          "quoteIds": [
+            "Q01"
+          ]
+        },
+        {
+          "id": "P08",
+          "startSeconds": 35,
+          "endSeconds": 39,
+          "text": "不懈的毅力（勤）、安住的心智（心）與洞察的智慧（觀），",
+          "quoteIds": [
+            "Q01"
+          ]
+        },
+        {
+          "id": "P09",
+          "startSeconds": 39,
+          "endSeconds": 42,
+          "text": "徹底淬鍊為深厚穩固的禪定（三摩地）。",
+          "quoteIds": [
+            "Q01"
+          ]
+        },
+        {
+          "id": "P10",
+          "startSeconds": 42,
+          "endSeconds": 50,
+          "text": "就像一顆在烈火中鍛燒了一整天的鐵球，會變得輕快、柔軟、充滿光芒；",
+          "quoteIds": [
+            "Q01"
+          ]
+        },
+        {
+          "id": "P11",
+          "startSeconds": 50,
+          "endSeconds": 56,
+          "text": "當我們將身心沉浸於四如意足的定境中，僵硬的自我防禦消融了，",
+          "quoteIds": [
+            "Q01"
+          ]
+        },
+        {
+          "id": "P12",
+          "startSeconds": 56,
+          "endSeconds": 60,
+          "text": "粗重的身心負擔，轉化為無比的柔軟、清淨與適合作業。",
+          "quoteIds": [
+            "Q01"
+          ]
+        },
+        {
+          "id": "P13",
+          "startSeconds": 60,
+          "endSeconds": 68,
+          "text": "原本沉重的鐵球，如今像一朵輕柔的木棉花絮，在微風中自在起舞。",
+          "quoteIds": [
+            "Q01"
+          ]
+        },
+        {
+          "id": "P14",
+          "startSeconds": 68,
+          "endSeconds": 74,
+          "text": "這份由深定帶來的極致輕安與自由，正是四如意足為我們完成的心靈奇蹟。",
+          "quoteIds": [
+            "Q01"
+          ]
+        },
+        {
+          "id": "P15",
+          "startSeconds": 74,
+          "endSeconds": 79,
+          "text": "它接下了四正勤的努力，將我們送入了深不可測的寂靜海洋。",
+          "quoteIds": [
+            "Q01"
+          ]
+        }
+      ],
+      "quoteIds": [
+        "Q01"
+      ],
+      "overlays": [],
+      "bakedText": "欲、勤、心、觀（帆）",
+      "overlayNotes": "原圖已有：帆上「欲、勤、心、觀」已內嵌。<br />新增教學疊字：無新增教學字。"
+    },
+    {
+      "sceneId": "S02",
+      "title": "欲定與勤奮之行",
+      "startSeconds": 79,
+      "endSeconds": 145,
+      "originalFilename": "11232FF6-171B-4C7F-99FD-1E10552155EA.png",
+      "image": "assets/S02.png",
+      "narration": [
+        {
+          "id": "P16",
+          "startSeconds": 79,
+          "endSeconds": 86,
+          "text": "每一種如意足，都由三個精密扣合的齒輪組成：第一是一個強大的動力引擎，",
+          "quoteIds": [
+            "Q02"
+          ]
+        },
+        {
+          "id": "P17",
+          "startSeconds": 86,
+          "endSeconds": 92,
+          "text": "第二是一份心一境性的「禪定」，最後是一套永不停歇的「勤奮之行」。",
+          "quoteIds": [
+            "Q02"
+          ]
+        },
+        {
+          "id": "P18",
+          "startSeconds": 92,
+          "endSeconds": 98,
+          "text": "第一種引擎，是「欲」。當我們依靠對清淨與解脫的真切嚮往，",
+          "quoteIds": [
+            "Q02"
+          ]
+        },
+        {
+          "id": "P19",
+          "startSeconds": 98,
+          "endSeconds": 103,
+          "text": "讓心匯聚、獲得了「心一境性」，這就稱為「欲定」。",
+          "quoteIds": [
+            "Q02"
+          ]
+        },
+        {
+          "id": "P20",
+          "startSeconds": 103,
+          "endSeconds": 109,
+          "text": "但光有嚮往還不夠，小貓還必須啟動四正勤學過的「勤奮之行」。",
+          "quoteIds": [
+            "Q03"
+          ]
+        },
+        {
+          "id": "P21",
+          "startSeconds": 109,
+          "endSeconds": 115,
+          "text": "為了讓尚未產生的煩惱不再浮現、為了拔除心中已經升起的惡習，",
+          "quoteIds": [
+            "Q03"
+          ]
+        },
+        {
+          "id": "P22",
+          "startSeconds": 115,
+          "endSeconds": 121,
+          "text": "為了讓尚未生起的清淨善念萌芽、為了讓已經擁有的平靜與專注穩定延續、",
+          "quoteIds": [
+            "Q03"
+          ]
+        },
+        {
+          "id": "P23",
+          "startSeconds": 121,
+          "endSeconds": 128,
+          "text": "圓滿開展；因此生起強烈的熱忱，全力以赴地攝受自心、策勵自心。",
+          "quoteIds": [
+            "Q03"
+          ]
+        },
+        {
+          "id": "P24",
+          "startSeconds": 128,
+          "endSeconds": 135,
+          "text": "這份渴望解脫的心，是「欲」；由此生起的專注，是「欲定」，",
+          "quoteIds": [
+            "Q02",
+            "Q03"
+          ]
+        },
+        {
+          "id": "P25",
+          "startSeconds": 135,
+          "endSeconds": 140,
+          "text": "而這四種斷惡修善的努力，就是「勤奮之行」。",
+          "quoteIds": [
+            "Q02",
+            "Q03"
+          ]
+        },
+        {
+          "id": "P26",
+          "startSeconds": 140,
+          "endSeconds": 145,
+          "text": "三者圓滿結合，就成就了「欲定勤行成就如意足」。",
+          "quoteIds": [
+            "Q02",
+            "Q03"
+          ]
+        }
+      ],
+      "quoteIds": [
+        "Q02",
+        "Q03"
+      ],
+      "overlays": [
+        {
+          "text": "欲定勤行成就如意足",
+          "x": 45,
+          "y": 35,
+          "width": 50,
+          "color": "#ffffff",
+          "fontSizeCqw": 4.8,
+          "anchor": "top-left",
+          "visible": "entire_scene"
+        }
+      ],
+      "bakedText": "",
+      "overlayNotes": "原圖已有：無<br />新增教學疊字：欲定勤行成就如意足｜x45 y35 w50｜白色｜4.8cqw"
+    },
+    {
+      "sceneId": "S03",
+      "title": "精進定",
+      "startSeconds": 145,
+      "endSeconds": 182,
+      "originalFilename": "6370C410-3618-454A-9B6A-EB27BC2AF653.png",
+      "image": "assets/S03.png",
+      "narration": [
+        {
+          "id": "P27",
+          "startSeconds": 145,
+          "endSeconds": 149,
+          "text": "第二種引擎，是「勤奮與精進」。",
+          "quoteIds": [
+            "Q04",
+            "Q03"
+          ]
+        },
+        {
+          "id": "P28",
+          "startSeconds": 149,
+          "endSeconds": 154,
+          "text": "如果我們不是依靠渴望，而是依靠日復一日、不懈前行的純粹毅力，",
+          "quoteIds": [
+            "Q04",
+            "Q03"
+          ]
+        },
+        {
+          "id": "P29",
+          "startSeconds": 154,
+          "endSeconds": 159,
+          "text": "讓散亂的心凝聚為一，這就稱為「精進定」。",
+          "quoteIds": [
+            "Q04",
+            "Q03"
+          ]
+        },
+        {
+          "id": "P30",
+          "startSeconds": 159,
+          "endSeconds": 165,
+          "text": "同樣地，這份精進不是盲目的蠻力，它始終錨定在四正勤的軌道上。",
+          "quoteIds": [
+            "Q04",
+            "Q03"
+          ]
+        },
+        {
+          "id": "P31",
+          "startSeconds": 165,
+          "endSeconds": 172,
+          "text": "拔除惡習、長養善法，在每一次划槳中，細心地提振心靈、攝受雜念。",
+          "quoteIds": [
+            "Q04",
+            "Q03"
+          ]
+        },
+        {
+          "id": "P32",
+          "startSeconds": 172,
+          "endSeconds": 176,
+          "text": "這就是精進，這就是精進定，這就是勤奮之行，",
+          "quoteIds": [
+            "Q04",
+            "Q03"
+          ]
+        },
+        {
+          "id": "P33",
+          "startSeconds": 176,
+          "endSeconds": 182,
+          "text": "合起來，便成就了穩健破浪的「精進定勤行成就如意足」。",
+          "quoteIds": [
+            "Q04",
+            "Q03"
+          ]
+        }
+      ],
+      "quoteIds": [
+        "Q04",
+        "Q03"
+      ],
+      "overlays": [
+        {
+          "text": "精進定勤行成就如意足",
+          "x": 44,
+          "y": 42,
+          "width": 55,
+          "color": "#000000",
+          "fontSizeCqw": 4.5,
+          "anchor": "top-left",
+          "visible": "entire_scene"
+        }
+      ],
+      "bakedText": "",
+      "overlayNotes": "原圖已有：無<br />新增教學疊字：精進定勤行成就如意足｜x44 y42 w55｜黑色｜4.5cqw"
+    },
+    {
+      "sceneId": "S04",
+      "title": "心定",
+      "startSeconds": 182,
+      "endSeconds": 218,
+      "originalFilename": "A72F07D1-7654-4E86-A023-8EDAEF90C5B3.png",
+      "image": "assets/S04.png",
+      "narration": [
+        {
+          "id": "P34",
+          "startSeconds": 182,
+          "endSeconds": 188,
+          "text": "第三種引擎，是「心」。有些時候，心不需要強力的推進，",
+          "quoteIds": [
+            "Q05",
+            "Q03"
+          ]
+        },
+        {
+          "id": "P35",
+          "startSeconds": 188,
+          "endSeconds": 193,
+          "text": "而是依靠內在心智原本就具備的清明與專一，自然安歇於當下，",
+          "quoteIds": [
+            "Q05",
+            "Q03"
+          ]
+        },
+        {
+          "id": "P36",
+          "startSeconds": 193,
+          "endSeconds": 199,
+          "text": "由此獲得了甚深的凝定，這就稱為「心定」。",
+          "quoteIds": [
+            "Q05",
+            "Q03"
+          ]
+        },
+        {
+          "id": "P37",
+          "startSeconds": 199,
+          "endSeconds": 203,
+          "text": "在這份全然的安定中，小貓依然帶著四正勤的守護：",
+          "quoteIds": [
+            "Q05",
+            "Q03"
+          ]
+        },
+        {
+          "id": "P38",
+          "startSeconds": 203,
+          "endSeconds": 208,
+          "text": "不讓外界的染污驚擾這份清澈，細心維持內心善法的綿延流長。",
+          "quoteIds": [
+            "Q05",
+            "Q03"
+          ]
+        },
+        {
+          "id": "P39",
+          "startSeconds": 208,
+          "endSeconds": 213,
+          "text": "這就是心，這就是心定，這就是勤奮之行，",
+          "quoteIds": [
+            "Q05",
+            "Q03"
+          ]
+        },
+        {
+          "id": "P40",
+          "startSeconds": 213,
+          "endSeconds": 218,
+          "text": "水面平息，風浪不再，這就是「心定勤行成就如意足」。",
+          "quoteIds": [
+            "Q05",
+            "Q03"
+          ]
+        }
+      ],
+      "quoteIds": [
+        "Q05",
+        "Q03"
+      ],
+      "overlays": [
+        {
+          "text": "心定勤行成就如意足",
+          "x": 24,
+          "y": 24,
+          "width": 54,
+          "color": "#000000",
+          "fontSizeCqw": 4.8,
+          "anchor": "top-left",
+          "visible": "entire_scene"
+        }
+      ],
+      "bakedText": "",
+      "overlayNotes": "原圖已有：無<br />新增教學疊字：心定勤行成就如意足｜x24 y24 w54｜黑色｜4.8cqw"
+    },
+    {
+      "sceneId": "S05",
+      "title": "觀定",
+      "startSeconds": 218,
+      "endSeconds": 255,
+      "originalFilename": "5429CC0D-FF81-4E3E-9363-9BC5566D6E5F.png",
+      "image": "assets/S05.png",
+      "narration": [
+        {
+          "id": "P41",
+          "startSeconds": 218,
+          "endSeconds": 224,
+          "text": "第四種引擎，是「觀」，也就是思惟與洞察的智慧。",
+          "quoteIds": [
+            "Q06",
+            "Q03"
+          ]
+        },
+        {
+          "id": "P42",
+          "startSeconds": 224,
+          "endSeconds": 230,
+          "text": "當我們提起智慧的燈火，細細觀察身心現象的生起與熄滅，看透了實相，",
+          "quoteIds": [
+            "Q06",
+            "Q03"
+          ]
+        },
+        {
+          "id": "P43",
+          "startSeconds": 230,
+          "endSeconds": 235,
+          "text": "心不再被表象迷惑，從而生起深度的專注，這就稱為「觀定」。",
+          "quoteIds": [
+            "Q06",
+            "Q03"
+          ]
+        },
+        {
+          "id": "P44",
+          "startSeconds": 235,
+          "endSeconds": 242,
+          "text": "在智慧的照耀下，我們更清楚什麼該放下、什麼該培育，",
+          "quoteIds": [
+            "Q06",
+            "Q03"
+          ]
+        },
+        {
+          "id": "P45",
+          "startSeconds": 242,
+          "endSeconds": 246,
+          "text": "以四正勤徹底斷除煩惱的根源，讓純淨的智慧全然圓滿。",
+          "quoteIds": [
+            "Q06",
+            "Q03"
+          ]
+        },
+        {
+          "id": "P46",
+          "startSeconds": 246,
+          "endSeconds": 250,
+          "text": "這就是觀，這就是觀定，這就是勤奮之行，",
+          "quoteIds": [
+            "Q06",
+            "Q03"
+          ]
+        },
+        {
+          "id": "P47",
+          "startSeconds": 250,
+          "endSeconds": 255,
+          "text": "照亮一切幽微，這就是「觀定勤行成就如意足」。",
+          "quoteIds": [
+            "Q06",
+            "Q03"
+          ]
+        }
+      ],
+      "quoteIds": [
+        "Q06",
+        "Q03"
+      ],
+      "overlays": [
+        {
+          "text": "觀定勤行成就如意足",
+          "x": 32,
+          "y": 55,
+          "width": 55,
+          "color": "#000000",
+          "fontSizeCqw": 4.8,
+          "anchor": "top-left",
+          "visible": "entire_scene"
+        }
+      ],
+      "bakedText": "",
+      "overlayNotes": "原圖已有：無<br />新增教學疊字：觀定勤行成就如意足｜x32 y55 w55｜黑色｜4.8cqw"
+    },
+    {
+      "sceneId": "S06",
+      "title": "四種偏差的調整",
+      "startSeconds": 255,
+      "endSeconds": 301,
+      "originalFilename": "4A59853F-65C5-40B1-8BB6-178D33FF7E21.png",
+      "image": "assets/S06.png",
+      "narration": [
+        {
+          "id": "P48",
+          "startSeconds": 255,
+          "endSeconds": 261,
+          "text": "當四如意足的引擎升起，心靈小船該如何保持平穩前行？",
+          "quoteIds": [
+            "Q07"
+          ]
+        },
+        {
+          "id": "P49",
+          "startSeconds": 261,
+          "endSeconds": 264,
+          "text": "佛陀給了我們一份精密的微調指南。",
+          "quoteIds": [
+            "Q07"
+          ]
+        },
+        {
+          "id": "P50",
+          "startSeconds": 264,
+          "endSeconds": 271,
+          "text": "第一，不過於沉沒：不讓心陷入懈怠與懶散，任由船隻停滯隨波逐流；",
+          "quoteIds": [
+            "Q07"
+          ]
+        },
+        {
+          "id": "P51",
+          "startSeconds": 271,
+          "endSeconds": 278,
+          "text": "第二，不過於高舉：不讓心過度緊繃、亢奮焦躁，把風帆扯得太急；",
+          "quoteIds": [
+            "Q07"
+          ]
+        },
+        {
+          "id": "P52",
+          "startSeconds": 278,
+          "endSeconds": 286,
+          "text": "第三，不收縮於內：不讓意識像怕冷似地縮在黑暗裡，落入昏昏欲睡的迷糊；",
+          "quoteIds": [
+            "Q07"
+          ]
+        },
+        {
+          "id": "P53",
+          "startSeconds": 286,
+          "endSeconds": 293,
+          "text": "第四，不散亂於外：不讓目光被岸邊的花花世界、感官欲望所牽引。",
+          "quoteIds": [
+            "Q07"
+          ]
+        },
+        {
+          "id": "P54",
+          "startSeconds": 293,
+          "endSeconds": 298,
+          "text": "不急、不緩、不縮、不散，小貓輕輕把舵調回正中，",
+          "quoteIds": [
+            "Q07"
+          ]
+        },
+        {
+          "id": "P55",
+          "startSeconds": 298,
+          "endSeconds": 301,
+          "text": "心靈小船再次滑入最安穩的中道。",
+          "quoteIds": [
+            "Q07"
+          ]
+        }
+      ],
+      "quoteIds": [
+        "Q07"
+      ],
+      "overlays": [
+        {
+          "text": "懈怠",
+          "x": 5,
+          "y": 20,
+          "width": 22,
+          "color": "#ffffff",
+          "fontSizeCqw": 4.8,
+          "anchor": "top-left",
+          "visible": "entire_scene"
+        },
+        {
+          "text": "掉舉",
+          "x": 53,
+          "y": 20,
+          "width": 22,
+          "color": "#ffffff",
+          "fontSizeCqw": 4.8,
+          "anchor": "top-left",
+          "visible": "entire_scene"
+        },
+        {
+          "text": "昏沉睡眠",
+          "x": 2,
+          "y": 53,
+          "width": 28,
+          "color": "#ffffff",
+          "fontSizeCqw": 4.8,
+          "anchor": "top-left",
+          "visible": "entire_scene"
+        },
+        {
+          "text": "貪著散亂",
+          "x": 52,
+          "y": 53,
+          "width": 28,
+          "color": "#ffffff",
+          "fontSizeCqw": 4.8,
+          "anchor": "top-left",
+          "visible": "entire_scene"
+        }
+      ],
+      "bakedText": "",
+      "overlayNotes": "原圖已有：此檔無標字；另有57DD989E有字版本，不可混用。<br />新增教學疊字：懈怠｜x5 y20 w22；掉舉｜x53 y20 w22；昏沉睡眠｜x2 y53 w28；貪著散亂｜x52 y53 w28。皆白色，4.8cqw。"
+    },
+    {
+      "sceneId": "S07",
+      "title": "前後・上下・晝夜・光明心",
+      "startSeconds": 301,
+      "endSeconds": 354,
+      "originalFilename": "49F00704-3E04-42DD-A4A3-812C4D91017D.png",
+      "image": "assets/S07.png",
+      "narration": [
+        {
+          "id": "P56",
+          "startSeconds": 301,
+          "endSeconds": 309,
+          "text": "調好了平衡，佛陀教我們打開心的全景天窗，建立四種穿透的洞察。",
+          "quoteIds": [
+            "Q08"
+          ]
+        },
+        {
+          "id": "P57",
+          "startSeconds": 309,
+          "endSeconds": 312,
+          "text": "打坐時，「住於前後想」，",
+          "quoteIds": [
+            "Q08"
+          ]
+        },
+        {
+          "id": "P58",
+          "startSeconds": 312,
+          "endSeconds": 319,
+          "text": "開始時如何端正用心，過程中乃至結束時也同樣清晰，前後如一、始終洞察；",
+          "quoteIds": [
+            "Q08"
+          ]
+        },
+        {
+          "id": "P59",
+          "startSeconds": 319,
+          "endSeconds": 323,
+          "text": "「住於上下想」，把覺知從腳底掃描到髮梢，",
+          "quoteIds": [
+            "Q08"
+          ]
+        },
+        {
+          "id": "P60",
+          "startSeconds": 323,
+          "endSeconds": 330,
+          "text": "看清這副被皮膚包裹的身體，放下對肉體外表的盲目執戀；",
+          "quoteIds": [
+            "Q08"
+          ]
+        },
+        {
+          "id": "P61",
+          "startSeconds": 330,
+          "endSeconds": 334,
+          "text": "「住於晝夜想」，不論身處白晝的陽光下，還是夜晚的星空裡，",
+          "quoteIds": [
+            "Q08"
+          ]
+        },
+        {
+          "id": "P62",
+          "startSeconds": 334,
+          "endSeconds": 337,
+          "text": "都保持同樣清澈醒覺的特質；",
+          "quoteIds": [
+            "Q08"
+          ]
+        },
+        {
+          "id": "P63",
+          "startSeconds": 337,
+          "endSeconds": 342,
+          "text": "最後，「以開放、沒有覆蓋的心，修習光明心」。",
+          "quoteIds": [
+            "Q08"
+          ]
+        },
+        {
+          "id": "P64",
+          "startSeconds": 342,
+          "endSeconds": 348,
+          "text": "小貓放下了心中所有的防備與簾幕，讓內在的心靈全然敞開。",
+          "quoteIds": [
+            "Q08"
+          ]
+        },
+        {
+          "id": "P65",
+          "startSeconds": 348,
+          "endSeconds": 354,
+          "text": "這一刻，心如晴空般明亮無礙，沒有一絲陰暗與昏沉。",
+          "quoteIds": [
+            "Q08"
+          ]
+        }
+      ],
+      "quoteIds": [
+        "Q08"
+      ],
+      "overlays": [
+        {
+          "text": "前後想，上下想，晝夜想，光明心",
+          "x": 14,
+          "y": 43,
+          "width": 77,
+          "color": "#ffffff",
+          "fontSizeCqw": 4.5,
+          "anchor": "top-left",
+          "visible": "entire_scene"
+        }
+      ],
+      "bakedText": "",
+      "overlayNotes": "原圖已有：箭頭、光球已內嵌；無中文。<br />新增教學疊字：前後想，上下想，晝夜想，光明心｜x14 y43 w77｜白色｜4.5cqw"
+    },
+    {
+      "sceneId": "S08",
+      "title": "四如意足總覽・漏盡",
+      "startSeconds": 354,
+      "endSeconds": 375,
+      "originalFilename": "664B1787-EEA6-493A-A242-BEE9ECFF4CF7.png",
+      "image": "assets/S08.png",
+      "narration": [
+        {
+          "id": "P66",
+          "startSeconds": 354,
+          "endSeconds": 357,
+          "text": "許多人聽到「如意足」或「神足」，",
+          "quoteIds": [
+            "Q09"
+          ]
+        },
+        {
+          "id": "P67",
+          "startSeconds": 357,
+          "endSeconds": 363,
+          "text": "常會以為這是能讓人飛天遁地、變化萬千的神秘魔法。",
+          "quoteIds": [
+            "Q09"
+          ]
+        },
+        {
+          "id": "P68",
+          "startSeconds": 363,
+          "endSeconds": 369,
+          "text": "但在佛陀眼中，能將心靈從煩惱與恐懼中徹底解脫出來的能力「漏盡通」，",
+          "quoteIds": [
+            "Q09"
+          ]
+        },
+        {
+          "id": "P69",
+          "startSeconds": 369,
+          "endSeconds": 375,
+          "text": "才是四如意足帶給我們，最踏實、也最無可撼動的真正神蹟。",
+          "quoteIds": [
+            "Q09"
+          ]
+        }
+      ],
+      "quoteIds": [
+        "Q09"
+      ],
+      "overlays": [
+        {
+          "text": "欲如意足",
+          "x": 1,
+          "y": 24,
+          "width": 23,
+          "color": "#ffffff",
+          "fontSizeCqw": 4.5,
+          "anchor": "top-left",
+          "visible": "entire_scene"
+        },
+        {
+          "text": "勤如意足",
+          "x": 26,
+          "y": 24,
+          "width": 23,
+          "color": "#ffffff",
+          "fontSizeCqw": 4.5,
+          "anchor": "top-left",
+          "visible": "entire_scene"
+        },
+        {
+          "text": "心如意足",
+          "x": 51,
+          "y": 24,
+          "width": 23,
+          "color": "#ffffff",
+          "fontSizeCqw": 4.5,
+          "anchor": "top-left",
+          "visible": "entire_scene"
+        },
+        {
+          "text": "觀如意足",
+          "x": 76,
+          "y": 24,
+          "width": 23,
+          "color": "#ffffff",
+          "fontSizeCqw": 4.5,
+          "anchor": "top-left",
+          "visible": "entire_scene"
+        }
+      ],
+      "bakedText": "",
+      "overlayNotes": "原圖已有：無<br />新增教學疊字：欲如意足｜x1 y24 w23；勤如意足｜x26 y24 w23；心如意足｜x51 y24 w23；觀如意足｜x76 y24 w23。皆白色，4.5cqw。"
+    },
+    {
+      "sceneId": "S09",
+      "title": "抵達彼岸・依欲斷愛",
+      "startSeconds": 375,
+      "endSeconds": 443.77,
+      "originalFilename": "A3143710-0ACC-4105-8E36-9C64942BEEE2.png",
+      "image": "assets/S09.png",
+      "narration": [
+        {
+          "id": "P70",
+          "startSeconds": 375,
+          "endSeconds": 380,
+          "text": "一位婆羅門曾困惑地問尊者阿難：「修行是為了斷除欲望，",
+          "quoteIds": [
+            "Q10"
+          ]
+        },
+        {
+          "id": "P71",
+          "startSeconds": 380,
+          "endSeconds": 386,
+          "text": "但你們修四如意足，第一步不也是帶著『欲』去追求定力嗎？",
+          "quoteIds": [
+            "Q10"
+          ]
+        },
+        {
+          "id": "P72",
+          "startSeconds": 386,
+          "endSeconds": 392,
+          "text": "用欲望來斷除欲望，這難道不是永遠沒有盡頭嗎？」",
+          "quoteIds": [
+            "Q10"
+          ]
+        },
+        {
+          "id": "P73",
+          "startSeconds": 392,
+          "endSeconds": 396,
+          "text": "阿難微笑著回答：這就像你當初「想要」出發來到這座美麗的公園，",
+          "quoteIds": [
+            "Q10"
+          ]
+        },
+        {
+          "id": "P74",
+          "startSeconds": 396,
+          "endSeconds": 399,
+          "text": "當你的雙腳真正踏上了公園的土地時，",
+          "quoteIds": [
+            "Q10"
+          ]
+        },
+        {
+          "id": "P75",
+          "startSeconds": 399,
+          "endSeconds": 405,
+          "text": "那個當初「想要抵達」的渴望，是不是就自然平息了呢？",
+          "quoteIds": [
+            "Q10"
+          ]
+        },
+        {
+          "id": "P76",
+          "startSeconds": 405,
+          "endSeconds": 413,
+          "text": "如意足中的「善法欲」，就像送我們渡河的小船。它是工具，而不是執著。",
+          "quoteIds": [
+            "Q11"
+          ]
+        },
+        {
+          "id": "P77",
+          "startSeconds": 413,
+          "endSeconds": 420,
+          "text": "「依遠離、依無欲、依滅、向於捨，乃至斷愛，愛斷已，彼欲亦息。」",
+          "quoteIds": [
+            "Q11"
+          ]
+        },
+        {
+          "id": "P78",
+          "startSeconds": 420,
+          "endSeconds": 424,
+          "text": "當我們徹底熄滅了煩惱、登上了平靜的彼岸，",
+          "quoteIds": [
+            "Q11"
+          ]
+        },
+        {
+          "id": "P79",
+          "startSeconds": 424,
+          "endSeconds": 430,
+          "text": "連那個推動我們前進的欲望與小船，也都能留在岸邊，功成身退。",
+          "quoteIds": [
+            "Q11"
+          ]
+        },
+        {
+          "id": "P80",
+          "startSeconds": 430,
+          "endSeconds": 438,
+          "text": "不再被欲望牽引，也不再需要緊抓著工具不放，讓心徹底歸於寧靜與開闊。",
+          "quoteIds": [
+            "Q11"
+          ]
+        },
+        {
+          "id": "P81",
+          "startSeconds": 438,
+          "endSeconds": 443,
+          "text": "這，就是四如意足引導我們抵達的，終極自由。",
+          "quoteIds": [
+            "Q11"
+          ]
+        }
+      ],
+      "quoteIds": [
+        "Q10",
+        "Q11"
+      ],
+      "overlays": [],
+      "bakedText": "",
+      "overlayNotes": "原圖已有：無<br />新增教學疊字：無新增教學字。"
+    }
+  ]
+}
