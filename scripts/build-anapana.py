@@ -41,7 +41,7 @@ def compile_book():
   plan={'id':scene['sceneId'],'title':scene['title'],'image':scene['image'],'alt':scene.get('bakedText',scene['title']),'dimensions':[scene['imageWidth'],scene['imageHeight']] if scene['image'] else None,'start':len(pages),'artOverlay':scene['overlays'],'sourceType':scene.get('sourceType'),'darkOverlayOpacity':0,'summaryRows':[]}
   scenes.append(plan)
   for n in scene['narration']:
-   pages.append({'scene':scene['sceneId'],'title':scene['title'],'paragraphId':n['id'],'paragraphNumber':n['paragraph'],'lines':[n['text']],'quotes':[dict(quotes[q],quoteId=q,relation='影片下緣引文') | updates.get(q,{}) for q in n['quoteIds']],'sourceNote':n['sourceNote'],'context':'論師實修補充' if scene['sceneId'] in ['S09','S10','S11'] else None,'image':'../assets/'+scene['sceneId']+'.webp','dimensions':plan['dimensions']})
+   pages.append({'scene':scene['sceneId'],'title':scene['title'],'paragraphId':n['id'],'paragraphNumber':n['paragraph'],'lines':[n['text']],'quotes':[dict(quotes[q],quoteId=q,relation='影片下緣引文') | updates.get(q,{}) for q in n['quoteIds']],'sourceNote':None if scene['sceneId']=='S09' else n['sourceNote'],'context':'論師實修補充' if scene['sceneId'] in ['S10','S11'] else None,'image':'../assets/'+scene['sceneId']+'.webp','dimensions':plan['dimensions']})
   if scene['type']=='textSummary':
    sections=[]
    chunks=re.findall(r'<b>(.*?)</b>\s*(.*?)(?=\n\n<b>|\Z)',scene['summaryMarkdown'],re.S)

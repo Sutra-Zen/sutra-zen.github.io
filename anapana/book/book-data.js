@@ -2653,8 +2653,8 @@ const BOOK = {
         "但是，現代人的大腦真的太疲憊、太散亂了。"
       ],
       "quotes": [],
-      "sourceNote": "無下緣經文；影片自撰轉場",
-      "context": "論師實修補充",
+      "sourceNote": null,
+      "context": null,
       "image": "../assets/S09.webp",
       "dimensions": [
         1672,
@@ -2670,8 +2670,8 @@ const BOOK = {
         "我們常常才剛坐下一分鐘，內心就變成了這片森林裡橫衝直撞的獼猴。"
       ],
       "quotes": [],
-      "sourceNote": "無下緣經文；影片自撰轉場",
-      "context": "論師實修補充",
+      "sourceNote": null,
+      "context": null,
       "image": "../assets/S09.webp",
       "dimensions": [
         1672,
@@ -2687,8 +2687,8 @@ const BOOK = {
         "一下子想著等一下要吃什麼，一下子焦慮著未來的難題。"
       ],
       "quotes": [],
-      "sourceNote": "無下緣經文；影片自撰轉場",
-      "context": "論師實修補充",
+      "sourceNote": null,
+      "context": null,
       "image": "../assets/S09.webp",
       "dimensions": [
         1672,
@@ -2704,8 +2704,8 @@ const BOOK = {
         "就在小貓感到挫折的時候，天空突然亮起了一道溫暖的光，"
       ],
       "quotes": [],
-      "sourceNote": "無下緣經文；影片自撰轉場",
-      "context": "論師實修補充",
+      "sourceNote": null,
+      "context": null,
       "image": "../assets/S09.webp",
       "dimensions": [
         1672,
@@ -2721,8 +2721,8 @@ const BOOK = {
         "一本凝聚了後世無數禪師智慧的《論師實修手記》來到了你身邊。"
       ],
       "quotes": [],
-      "sourceNote": "無下緣經文；影片自撰轉場",
-      "context": "論師實修補充",
+      "sourceNote": null,
+      "context": null,
       "image": "../assets/S09.webp",
       "dimensions": [
         1672,
@@ -2738,8 +2738,8 @@ const BOOK = {
         "這雖然不是阿含經中佛陀的原話，卻是流傳千年的超實用輔助。"
       ],
       "quotes": [],
-      "sourceNote": "無下緣經文；影片自撰轉場",
-      "context": "論師實修補充",
+      "sourceNote": null,
+      "context": null,
       "image": "../assets/S09.webp",
       "dimensions": [
         1672,
@@ -3135,7 +3135,7 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q39",
-          "source": "《安般守意經》金剛寺本（論文轉引）",
+          "source": "《安般守意經》金剛寺本",
           "text": "數為何等？入息出息，數十息无得過，十息无得減。十息：入息至竟投一，出息至竟投二。若投二意誤，更從一投起。若至九投意誤，更從一數起，令莫誤。十息：入息出息數，是名為數。何用是數？但從是斷家中念。",
           "sourceType": "commentarial",
           "verification": "thesis_quotation",
@@ -3162,7 +3162,7 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q39",
-          "source": "《安般守意經》金剛寺本（論文轉引）",
+          "source": "《安般守意經》金剛寺本",
           "text": "數為何等？入息出息，數十息无得過，十息无得減。十息：入息至竟投一，出息至竟投二。若投二意誤，更從一投起。若至九投意誤，更從一數起，令莫誤。十息：入息出息數，是名為數。何用是數？但從是斷家中念。",
           "sourceType": "commentarial",
           "verification": "thesis_quotation",
@@ -3189,7 +3189,7 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q39",
-          "source": "《安般守意經》金剛寺本（論文轉引）",
+          "source": "《安般守意經》金剛寺本",
           "text": "數為何等？入息出息，數十息无得過，十息无得減。十息：入息至竟投一，出息至竟投二。若投二意誤，更從一投起。若至九投意誤，更從一數起，令莫誤。十息：入息出息數，是名為數。何用是數？但從是斷家中念。",
           "sourceType": "commentarial",
           "verification": "thesis_quotation",
@@ -3216,7 +3216,7 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q39",
-          "source": "《安般守意經》金剛寺本（論文轉引）",
+          "source": "《安般守意經》金剛寺本",
           "text": "數為何等？入息出息，數十息无得過，十息无得減。十息：入息至竟投一，出息至竟投二。若投二意誤，更從一投起。若至九投意誤，更從一數起，令莫誤。十息：入息出息數，是名為數。何用是數？但從是斷家中念。",
           "sourceType": "commentarial",
           "verification": "thesis_quotation",
@@ -3243,7 +3243,7 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q40",
-          "source": "《安般守意經》金剛寺本（論文轉引）",
+          "source": "《安般守意經》金剛寺本",
           "text": "隨為何等？入息至竟，當隨莫投一；出息至竟，當隨莫投二，是名隨。何用是隨？但從是斷外念。",
           "sourceType": "commentarial",
           "verification": "thesis_quotation",
@@ -3270,7 +3270,7 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q40",
-          "source": "《安般守意經》金剛寺本（論文轉引）",
+          "source": "《安般守意經》金剛寺本",
           "text": "隨為何等？入息至竟，當隨莫投一；出息至竟，當隨莫投二，是名隨。何用是隨？但從是斷外念。",
           "sourceType": "commentarial",
           "verification": "thesis_quotation",
@@ -3297,7 +3297,7 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q40",
-          "source": "《安般守意經》金剛寺本（論文轉引）",
+          "source": "《安般守意經》金剛寺本",
           "text": "隨為何等？入息至竟，當隨莫投一；出息至竟，當隨莫投二，是名隨。何用是隨？但從是斷外念。",
           "sourceType": "commentarial",
           "verification": "thesis_quotation",
@@ -3324,7 +3324,7 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q41",
-          "source": "《安般守意經》金剛寺本（止息段補訂）",
+          "source": "《安般守意經》金剛寺本",
           "text": "止爲何等，入息至竟，遍止鼻頭。莫隨。出息至竟，著鼻頭，莫隨。是爲止。何用是止？但欲從是止念。",
           "sourceType": "commentarial",
           "verification": "author_supplied_correction",
@@ -3351,7 +3351,7 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q41",
-          "source": "《安般守意經》金剛寺本（止息段補訂）",
+          "source": "《安般守意經》金剛寺本",
           "text": "止爲何等，入息至竟，遍止鼻頭。莫隨。出息至竟，著鼻頭，莫隨。是爲止。何用是止？但欲從是止念。",
           "sourceType": "commentarial",
           "verification": "author_supplied_correction",
@@ -3378,7 +3378,7 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q41",
-          "source": "《安般守意經》金剛寺本（止息段補訂）",
+          "source": "《安般守意經》金剛寺本",
           "text": "止爲何等，入息至竟，遍止鼻頭。莫隨。出息至竟，著鼻頭，莫隨。是爲止。何用是止？但欲從是止念。",
           "sourceType": "commentarial",
           "verification": "author_supplied_correction",
@@ -3405,7 +3405,7 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q41",
-          "source": "《安般守意經》金剛寺本（止息段補訂）",
+          "source": "《安般守意經》金剛寺本",
           "text": "止爲何等，入息至竟，遍止鼻頭。莫隨。出息至竟，著鼻頭，莫隨。是爲止。何用是止？但欲從是止念。",
           "sourceType": "commentarial",
           "verification": "author_supplied_correction",
@@ -3432,7 +3432,7 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q41",
-          "source": "《安般守意經》金剛寺本（止息段補訂）",
+          "source": "《安般守意經》金剛寺本",
           "text": "止爲何等，入息至竟，遍止鼻頭。莫隨。出息至竟，著鼻頭，莫隨。是爲止。何用是止？但欲從是止念。",
           "sourceType": "commentarial",
           "verification": "author_supplied_correction",

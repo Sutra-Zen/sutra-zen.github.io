@@ -28,7 +28,7 @@ function scriptureText(item) {
 function renderScripture(item) {
   const verse = $('#verse'); verse.replaceChildren();
   if (item.context) {
-    const context = paragraph(item.context + (item.scene === 'S09' ? '｜「論師實修手記」是本片創作名稱，不是真實古籍。' : ''));
+    const context = paragraph(item.context);
     context.className = 'source-context'; verse.append(context);
   }
   for (const quote of item.quotes) {

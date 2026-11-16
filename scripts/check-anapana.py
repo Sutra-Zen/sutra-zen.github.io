@@ -30,7 +30,7 @@ def static_checks(network):
   assert scene['image']==original['image'] and scene['artOverlay']==original['overlays']==LABELS[scene['id']]
   for entry in original['narration']:
    item=BOOK['pages'][n]; assert item['lines']==[entry['text']] and item['paragraphId']==entry['id'] and item['scene']==original['sceneId']
-   assert item['sourceNote']==entry['sourceNote'] and [q['quoteId'] for q in item['quotes']]==entry['quoteIds']
+   assert item['sourceNote']==(None if original['sceneId']=='S09' else entry['sourceNote']) and [q['quoteId'] for q in item['quotes']]==entry['quoteIds']
    for quote in item['quotes']:
     qid=quote['quoteId'];used.add(qid)
     assert all(quote[k]==v for k,v in CAT[qid].items() if qid not in COMMENTARY_IDS or k not in ['source','text','verification'])
@@ -41,7 +41,7 @@ def static_checks(network):
  assert len(BOOK['pages'][-1]['textSummary'])==5 and len(BOOK['pages'][-1]['textSummary'][-1]['rows'])==4
  assert '覺知心悅 → 覺知心定' in BOOK['pages'][-1]['textSummary'][-1]['rows'][2][1]
  ending=''.join(BOOK['pages'][-1]['editorialNote']); assert '溫柔' not in ending and '解讀仍請以原經文為準' in ending
- assert all(not x['quotes'] for x in BOOK['pages'] if x['scene']=='S09')
+ assert all(not x['quotes'] and x['sourceNote'] is None and x['context'] is None for x in BOOK['pages'] if x['scene']=='S09')
  for row in json.loads((DOCS/'receipt.json').read_text())['originalFiles']:
   raw=(DOCS/row['path']).read_bytes(); assert len(raw)==row['bytes'] and hashlib.sha256(raw).hexdigest()==row['sha256']
  for row in json.loads((DOCS/'asset-manifest.json').read_text()):
