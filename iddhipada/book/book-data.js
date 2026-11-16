@@ -1090,7 +1090,7 @@ const BOOK = {
           "source": "SN51.13｜精進定",
           "sourceUrl": "https://agama.buddhason.org/SN/SN1554.htm",
           "originalText": "Vīriyaṃ ce, bhikkhave, bhikkhu nissāya labhati samādhiṃ, labhati cittassa ekaggataṃ– ayaṃ vuccati ‘vīriyasamādhi’.",
-          "translationNote": "中文譯意：依精進獲得定及心的專一，稱精進定。此定同樣具備Q03的勤奮之行。",
+          "translationNote": "中文譯意：依精進獲得定及心的專一，稱精進定。",
           "sourceType": "pali_with_editorial_chinese_paraphrase",
           "quoteId": "Q04"
         },
@@ -1128,7 +1128,7 @@ const BOOK = {
           "source": "SN51.13｜精進定",
           "sourceUrl": "https://agama.buddhason.org/SN/SN1554.htm",
           "originalText": "Vīriyaṃ ce, bhikkhave, bhikkhu nissāya labhati samādhiṃ, labhati cittassa ekaggataṃ– ayaṃ vuccati ‘vīriyasamādhi’.",
-          "translationNote": "中文譯意：依精進獲得定及心的專一，稱精進定。此定同樣具備Q03的勤奮之行。",
+          "translationNote": "中文譯意：依精進獲得定及心的專一，稱精進定。",
           "sourceType": "pali_with_editorial_chinese_paraphrase",
           "quoteId": "Q04"
         },
@@ -1166,7 +1166,7 @@ const BOOK = {
           "source": "SN51.13｜精進定",
           "sourceUrl": "https://agama.buddhason.org/SN/SN1554.htm",
           "originalText": "Vīriyaṃ ce, bhikkhave, bhikkhu nissāya labhati samādhiṃ, labhati cittassa ekaggataṃ– ayaṃ vuccati ‘vīriyasamādhi’.",
-          "translationNote": "中文譯意：依精進獲得定及心的專一，稱精進定。此定同樣具備Q03的勤奮之行。",
+          "translationNote": "中文譯意：依精進獲得定及心的專一，稱精進定。",
           "sourceType": "pali_with_editorial_chinese_paraphrase",
           "quoteId": "Q04"
         },
@@ -1204,7 +1204,7 @@ const BOOK = {
           "source": "SN51.13｜精進定",
           "sourceUrl": "https://agama.buddhason.org/SN/SN1554.htm",
           "originalText": "Vīriyaṃ ce, bhikkhave, bhikkhu nissāya labhati samādhiṃ, labhati cittassa ekaggataṃ– ayaṃ vuccati ‘vīriyasamādhi’.",
-          "translationNote": "中文譯意：依精進獲得定及心的專一，稱精進定。此定同樣具備Q03的勤奮之行。",
+          "translationNote": "中文譯意：依精進獲得定及心的專一，稱精進定。",
           "sourceType": "pali_with_editorial_chinese_paraphrase",
           "quoteId": "Q04"
         },
@@ -1242,7 +1242,7 @@ const BOOK = {
           "source": "SN51.13｜精進定",
           "sourceUrl": "https://agama.buddhason.org/SN/SN1554.htm",
           "originalText": "Vīriyaṃ ce, bhikkhave, bhikkhu nissāya labhati samādhiṃ, labhati cittassa ekaggataṃ– ayaṃ vuccati ‘vīriyasamādhi’.",
-          "translationNote": "中文譯意：依精進獲得定及心的專一，稱精進定。此定同樣具備Q03的勤奮之行。",
+          "translationNote": "中文譯意：依精進獲得定及心的專一，稱精進定。",
           "sourceType": "pali_with_editorial_chinese_paraphrase",
           "quoteId": "Q04"
         },
@@ -1280,7 +1280,7 @@ const BOOK = {
           "source": "SN51.13｜精進定",
           "sourceUrl": "https://agama.buddhason.org/SN/SN1554.htm",
           "originalText": "Vīriyaṃ ce, bhikkhave, bhikkhu nissāya labhati samādhiṃ, labhati cittassa ekaggataṃ– ayaṃ vuccati ‘vīriyasamādhi’.",
-          "translationNote": "中文譯意：依精進獲得定及心的專一，稱精進定。此定同樣具備Q03的勤奮之行。",
+          "translationNote": "中文譯意：依精進獲得定及心的專一，稱精進定。",
           "sourceType": "pali_with_editorial_chinese_paraphrase",
           "quoteId": "Q04"
         },
@@ -1318,7 +1318,7 @@ const BOOK = {
           "source": "SN51.13｜精進定",
           "sourceUrl": "https://agama.buddhason.org/SN/SN1554.htm",
           "originalText": "Vīriyaṃ ce, bhikkhave, bhikkhu nissāya labhati samādhiṃ, labhati cittassa ekaggataṃ– ayaṃ vuccati ‘vīriyasamādhi’.",
-          "translationNote": "中文譯意：依精進獲得定及心的專一，稱精進定。此定同樣具備Q03的勤奮之行。",
+          "translationNote": "中文譯意：依精進獲得定及心的專一，稱精進定。",
           "sourceType": "pali_with_editorial_chinese_paraphrase",
           "quoteId": "Q04"
         },
@@ -1356,7 +1356,7 @@ const BOOK = {
           "source": "SN51.13｜心定",
           "sourceUrl": "https://agama.buddhason.org/SN/SN1554.htm",
           "originalText": "Cittaṃ ce, bhikkhave, bhikkhu nissāya labhati samādhiṃ, labhati cittassa ekaggataṃ– ayaṃ vuccati ‘cittasamādhi’.",
-          "translationNote": "中文譯意：依心獲得定及心的專一，稱心定。此定同樣具備Q03的勤奮之行。",
+          "translationNote": "中文譯意：依心獲得定及心的專一，稱心定。",
           "sourceType": "pali_with_editorial_chinese_paraphrase",
           "quoteId": "Q05"
         },
@@ -1394,7 +1394,7 @@ const BOOK = {
           "source": "SN51.13｜心定",
           "sourceUrl": "https://agama.buddhason.org/SN/SN1554.htm",
           "originalText": "Cittaṃ ce, bhikkhave, bhikkhu nissāya labhati samādhiṃ, labhati cittassa ekaggataṃ– ayaṃ vuccati ‘cittasamādhi’.",
-          "translationNote": "中文譯意：依心獲得定及心的專一，稱心定。此定同樣具備Q03的勤奮之行。",
+          "translationNote": "中文譯意：依心獲得定及心的專一，稱心定。",
           "sourceType": "pali_with_editorial_chinese_paraphrase",
           "quoteId": "Q05"
         },
@@ -1432,7 +1432,7 @@ const BOOK = {
           "source": "SN51.13｜心定",
           "sourceUrl": "https://agama.buddhason.org/SN/SN1554.htm",
           "originalText": "Cittaṃ ce, bhikkhave, bhikkhu nissāya labhati samādhiṃ, labhati cittassa ekaggataṃ– ayaṃ vuccati ‘cittasamādhi’.",
-          "translationNote": "中文譯意：依心獲得定及心的專一，稱心定。此定同樣具備Q03的勤奮之行。",
+          "translationNote": "中文譯意：依心獲得定及心的專一，稱心定。",
           "sourceType": "pali_with_editorial_chinese_paraphrase",
           "quoteId": "Q05"
         },
@@ -1470,7 +1470,7 @@ const BOOK = {
           "source": "SN51.13｜心定",
           "sourceUrl": "https://agama.buddhason.org/SN/SN1554.htm",
           "originalText": "Cittaṃ ce, bhikkhave, bhikkhu nissāya labhati samādhiṃ, labhati cittassa ekaggataṃ– ayaṃ vuccati ‘cittasamādhi’.",
-          "translationNote": "中文譯意：依心獲得定及心的專一，稱心定。此定同樣具備Q03的勤奮之行。",
+          "translationNote": "中文譯意：依心獲得定及心的專一，稱心定。",
           "sourceType": "pali_with_editorial_chinese_paraphrase",
           "quoteId": "Q05"
         },
@@ -1508,7 +1508,7 @@ const BOOK = {
           "source": "SN51.13｜心定",
           "sourceUrl": "https://agama.buddhason.org/SN/SN1554.htm",
           "originalText": "Cittaṃ ce, bhikkhave, bhikkhu nissāya labhati samādhiṃ, labhati cittassa ekaggataṃ– ayaṃ vuccati ‘cittasamādhi’.",
-          "translationNote": "中文譯意：依心獲得定及心的專一，稱心定。此定同樣具備Q03的勤奮之行。",
+          "translationNote": "中文譯意：依心獲得定及心的專一，稱心定。",
           "sourceType": "pali_with_editorial_chinese_paraphrase",
           "quoteId": "Q05"
         },
@@ -1546,7 +1546,7 @@ const BOOK = {
           "source": "SN51.13｜心定",
           "sourceUrl": "https://agama.buddhason.org/SN/SN1554.htm",
           "originalText": "Cittaṃ ce, bhikkhave, bhikkhu nissāya labhati samādhiṃ, labhati cittassa ekaggataṃ– ayaṃ vuccati ‘cittasamādhi’.",
-          "translationNote": "中文譯意：依心獲得定及心的專一，稱心定。此定同樣具備Q03的勤奮之行。",
+          "translationNote": "中文譯意：依心獲得定及心的專一，稱心定。",
           "sourceType": "pali_with_editorial_chinese_paraphrase",
           "quoteId": "Q05"
         },
@@ -1584,7 +1584,7 @@ const BOOK = {
           "source": "SN51.13｜心定",
           "sourceUrl": "https://agama.buddhason.org/SN/SN1554.htm",
           "originalText": "Cittaṃ ce, bhikkhave, bhikkhu nissāya labhati samādhiṃ, labhati cittassa ekaggataṃ– ayaṃ vuccati ‘cittasamādhi’.",
-          "translationNote": "中文譯意：依心獲得定及心的專一，稱心定。此定同樣具備Q03的勤奮之行。",
+          "translationNote": "中文譯意：依心獲得定及心的專一，稱心定。",
           "sourceType": "pali_with_editorial_chinese_paraphrase",
           "quoteId": "Q05"
         },
@@ -1622,7 +1622,7 @@ const BOOK = {
           "source": "SN51.13｜觀定",
           "sourceUrl": "https://agama.buddhason.org/SN/SN1554.htm",
           "originalText": "Vīmaṃsaṃ ce, bhikkhave, bhikkhu nissāya labhati samādhiṃ, labhati cittassa ekaggataṃ– ayaṃ vuccati ‘vīmaṃsāsamādhi’.",
-          "translationNote": "中文譯意：依審察獲得定及心的專一，稱審察定；影片稱「觀定」。同樣具備Q03的勤奮之行。",
+          "translationNote": "中文譯意：依審察獲得定及心的專一，稱審察定；影片稱「觀定」。",
           "sourceType": "pali_with_editorial_chinese_paraphrase",
           "quoteId": "Q06"
         },
@@ -1660,7 +1660,7 @@ const BOOK = {
           "source": "SN51.13｜觀定",
           "sourceUrl": "https://agama.buddhason.org/SN/SN1554.htm",
           "originalText": "Vīmaṃsaṃ ce, bhikkhave, bhikkhu nissāya labhati samādhiṃ, labhati cittassa ekaggataṃ– ayaṃ vuccati ‘vīmaṃsāsamādhi’.",
-          "translationNote": "中文譯意：依審察獲得定及心的專一，稱審察定；影片稱「觀定」。同樣具備Q03的勤奮之行。",
+          "translationNote": "中文譯意：依審察獲得定及心的專一，稱審察定；影片稱「觀定」。",
           "sourceType": "pali_with_editorial_chinese_paraphrase",
           "quoteId": "Q06"
         },
@@ -1698,7 +1698,7 @@ const BOOK = {
           "source": "SN51.13｜觀定",
           "sourceUrl": "https://agama.buddhason.org/SN/SN1554.htm",
           "originalText": "Vīmaṃsaṃ ce, bhikkhave, bhikkhu nissāya labhati samādhiṃ, labhati cittassa ekaggataṃ– ayaṃ vuccati ‘vīmaṃsāsamādhi’.",
-          "translationNote": "中文譯意：依審察獲得定及心的專一，稱審察定；影片稱「觀定」。同樣具備Q03的勤奮之行。",
+          "translationNote": "中文譯意：依審察獲得定及心的專一，稱審察定；影片稱「觀定」。",
           "sourceType": "pali_with_editorial_chinese_paraphrase",
           "quoteId": "Q06"
         },
@@ -1736,7 +1736,7 @@ const BOOK = {
           "source": "SN51.13｜觀定",
           "sourceUrl": "https://agama.buddhason.org/SN/SN1554.htm",
           "originalText": "Vīmaṃsaṃ ce, bhikkhave, bhikkhu nissāya labhati samādhiṃ, labhati cittassa ekaggataṃ– ayaṃ vuccati ‘vīmaṃsāsamādhi’.",
-          "translationNote": "中文譯意：依審察獲得定及心的專一，稱審察定；影片稱「觀定」。同樣具備Q03的勤奮之行。",
+          "translationNote": "中文譯意：依審察獲得定及心的專一，稱審察定；影片稱「觀定」。",
           "sourceType": "pali_with_editorial_chinese_paraphrase",
           "quoteId": "Q06"
         },
@@ -1774,7 +1774,7 @@ const BOOK = {
           "source": "SN51.13｜觀定",
           "sourceUrl": "https://agama.buddhason.org/SN/SN1554.htm",
           "originalText": "Vīmaṃsaṃ ce, bhikkhave, bhikkhu nissāya labhati samādhiṃ, labhati cittassa ekaggataṃ– ayaṃ vuccati ‘vīmaṃsāsamādhi’.",
-          "translationNote": "中文譯意：依審察獲得定及心的專一，稱審察定；影片稱「觀定」。同樣具備Q03的勤奮之行。",
+          "translationNote": "中文譯意：依審察獲得定及心的專一，稱審察定；影片稱「觀定」。",
           "sourceType": "pali_with_editorial_chinese_paraphrase",
           "quoteId": "Q06"
         },
@@ -1812,7 +1812,7 @@ const BOOK = {
           "source": "SN51.13｜觀定",
           "sourceUrl": "https://agama.buddhason.org/SN/SN1554.htm",
           "originalText": "Vīmaṃsaṃ ce, bhikkhave, bhikkhu nissāya labhati samādhiṃ, labhati cittassa ekaggataṃ– ayaṃ vuccati ‘vīmaṃsāsamādhi’.",
-          "translationNote": "中文譯意：依審察獲得定及心的專一，稱審察定；影片稱「觀定」。同樣具備Q03的勤奮之行。",
+          "translationNote": "中文譯意：依審察獲得定及心的專一，稱審察定；影片稱「觀定」。",
           "sourceType": "pali_with_editorial_chinese_paraphrase",
           "quoteId": "Q06"
         },
@@ -1850,7 +1850,7 @@ const BOOK = {
           "source": "SN51.13｜觀定",
           "sourceUrl": "https://agama.buddhason.org/SN/SN1554.htm",
           "originalText": "Vīmaṃsaṃ ce, bhikkhave, bhikkhu nissāya labhati samādhiṃ, labhati cittassa ekaggataṃ– ayaṃ vuccati ‘vīmaṃsāsamādhi’.",
-          "translationNote": "中文譯意：依審察獲得定及心的專一，稱審察定；影片稱「觀定」。同樣具備Q03的勤奮之行。",
+          "translationNote": "中文譯意：依審察獲得定及心的專一，稱審察定；影片稱「觀定」。",
           "sourceType": "pali_with_editorial_chinese_paraphrase",
           "quoteId": "Q06"
         },
@@ -2407,11 +2407,11 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q09",
-          "source": "SN51.11｜影片下緣摘錄",
+          "source": "《相應部》51.11經〈以前經〉 · 莊春江中譯",
           "sourceUrl": "https://agama.buddhason.org/SN/SN1552.htm",
-          "originalText": "多修習四神足時，漏盡滅比丘滅盡諸漏而得無漏，在這一生中自知自證，成就安住於心解脫、慧解脫。",
-          "translationNote": "以上按影片下緣可見中文字轉錄，標點整理，未確認影片採用的譯者。對應原經末段：āsavānaṃ khayā anāsavaṃ cetovimuttiṃ paññāvimuttiṃ diṭṭheva dhamme sayaṃ abhiññā sacchikatvā upasampajja viharatī。原經亦記述其他神通；影片重點放在漏盡，不表示經文否定其他神通。",
-          "sourceType": "video_quote",
+          "originalText": "比丘們！當四神足已這麼修習、已這麼多修習時，他以諸煩惱的滅盡，以證智自作證後，在當生中以進入後住於無煩惱的心解脫、慧解脫。",
+          "translationNote": "",
+          "sourceType": "modern_chinese_translation",
           "quoteId": "Q09"
         }
       ],
@@ -2436,11 +2436,11 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q09",
-          "source": "SN51.11｜影片下緣摘錄",
+          "source": "《相應部》51.11經〈以前經〉 · 莊春江中譯",
           "sourceUrl": "https://agama.buddhason.org/SN/SN1552.htm",
-          "originalText": "多修習四神足時，漏盡滅比丘滅盡諸漏而得無漏，在這一生中自知自證，成就安住於心解脫、慧解脫。",
-          "translationNote": "以上按影片下緣可見中文字轉錄，標點整理，未確認影片採用的譯者。對應原經末段：āsavānaṃ khayā anāsavaṃ cetovimuttiṃ paññāvimuttiṃ diṭṭheva dhamme sayaṃ abhiññā sacchikatvā upasampajja viharatī。原經亦記述其他神通；影片重點放在漏盡，不表示經文否定其他神通。",
-          "sourceType": "video_quote",
+          "originalText": "比丘們！當四神足已這麼修習、已這麼多修習時，他以諸煩惱的滅盡，以證智自作證後，在當生中以進入後住於無煩惱的心解脫、慧解脫。",
+          "translationNote": "",
+          "sourceType": "modern_chinese_translation",
           "quoteId": "Q09"
         }
       ],
@@ -2465,11 +2465,11 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q09",
-          "source": "SN51.11｜影片下緣摘錄",
+          "source": "《相應部》51.11經〈以前經〉 · 莊春江中譯",
           "sourceUrl": "https://agama.buddhason.org/SN/SN1552.htm",
-          "originalText": "多修習四神足時，漏盡滅比丘滅盡諸漏而得無漏，在這一生中自知自證，成就安住於心解脫、慧解脫。",
-          "translationNote": "以上按影片下緣可見中文字轉錄，標點整理，未確認影片採用的譯者。對應原經末段：āsavānaṃ khayā anāsavaṃ cetovimuttiṃ paññāvimuttiṃ diṭṭheva dhamme sayaṃ abhiññā sacchikatvā upasampajja viharatī。原經亦記述其他神通；影片重點放在漏盡，不表示經文否定其他神通。",
-          "sourceType": "video_quote",
+          "originalText": "比丘們！當四神足已這麼修習、已這麼多修習時，他以諸煩惱的滅盡，以證智自作證後，在當生中以進入後住於無煩惱的心解脫、慧解脫。",
+          "translationNote": "",
+          "sourceType": "modern_chinese_translation",
           "quoteId": "Q09"
         }
       ],
@@ -2494,11 +2494,11 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q09",
-          "source": "SN51.11｜影片下緣摘錄",
+          "source": "《相應部》51.11經〈以前經〉 · 莊春江中譯",
           "sourceUrl": "https://agama.buddhason.org/SN/SN1552.htm",
-          "originalText": "多修習四神足時，漏盡滅比丘滅盡諸漏而得無漏，在這一生中自知自證，成就安住於心解脫、慧解脫。",
-          "translationNote": "以上按影片下緣可見中文字轉錄，標點整理，未確認影片採用的譯者。對應原經末段：āsavānaṃ khayā anāsavaṃ cetovimuttiṃ paññāvimuttiṃ diṭṭheva dhamme sayaṃ abhiññā sacchikatvā upasampajja viharatī。原經亦記述其他神通；影片重點放在漏盡，不表示經文否定其他神通。",
-          "sourceType": "video_quote",
+          "originalText": "比丘們！當四神足已這麼修習、已這麼多修習時，他以諸煩惱的滅盡，以證智自作證後，在當生中以進入後住於無煩惱的心解脫、慧解脫。",
+          "translationNote": "",
+          "sourceType": "modern_chinese_translation",
           "quoteId": "Q09"
         }
       ],

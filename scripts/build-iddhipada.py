@@ -7,6 +7,7 @@ ROOT=Path(__file__).resolve().parents[1];DOCS=ROOT/'docs/iddhipada'
 def compile_book():
  subprocess.run(['python3',str(DOCS/'scripts/validate.py')],check=True)
  story=json.loads((DOCS/'storyboard.json').read_text());catalog=json.loads((DOCS/'scripture-catalog.json').read_text());layout=json.loads((DOCS/'overlay-layout.json').read_text())['overlays'];scenes=[];pages=[]
+ for qid,changes in json.loads((DOCS/'reader-edits.json').read_text()).items():catalog[qid].update(changes)
  for scene in story['scenes']:
   with Image.open(DOCS/scene['image']) as im:dimensions=list(im.size)
   scenes.append({'id':scene['sceneId'],'title':scene['title'],'image':scene['image'],'alt':scene['title'],'bakedText':scene['bakedText'],'dimensions':dimensions,'start':len(pages),'startSeconds':scene['startSeconds'],'endSeconds':scene['endSeconds'],'artOverlay':layout[scene['sceneId']],'summaryRows':[]})

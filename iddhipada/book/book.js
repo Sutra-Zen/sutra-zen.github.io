@@ -36,7 +36,10 @@ function renderScripture(item) {
       card.append(chinese, label, original);
     } else {
       const body = document.createElement('blockquote'); body.className = 'source-quotation'; body.textContent = quote.originalText;
-      const note = paragraph(quote.translationNote); note.className = 'source-note'; card.append(body, note);
+      card.append(body);
+      if (quote.translationNote) {
+        const note = paragraph(quote.translationNote); note.className = 'source-note'; card.append(note);
+      }
     }
     verse.append(card);
   }

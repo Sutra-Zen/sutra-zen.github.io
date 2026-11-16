@@ -7,17 +7,18 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 ROOT=Path(__file__).resolve().parents[1];DOCS=ROOT/'docs/iddhipada';OUT=ROOT/'docs/previews/iddhipada/Iddhipada-review.pdf'
 story=json.loads((DOCS/'storyboard.json').read_text());quotes=json.loads((DOCS/'scripture-catalog.json').read_text());layout=json.loads((DOCS/'overlay-layout.json').read_text())['overlays']
+for qid,changes in json.loads((DOCS/'reader-edits.json').read_text()).items():quotes[qid].update(changes)
 e=html.escape
 def clock(t):return f'{int(t)//60:02}:{int(t)%60:02}'
 def document():
- body=['<h1>四如意足｜完整內容校稿預覽</h1><p>審閱分支，未發布正式站。本PDF保留9幕、81段口白與11筆經文卡，方便在iPad直接閱讀；互動按鍵與橫直式畫面另見試閱說明和截圖。時間碼僅供影片定位，約有1–3秒誤差。</p>']
+ body=['<h1>四如意足｜完整內容校稿預覽</h1><p>本PDF對應目前網站內容，保留9幕、81段口白與11筆經文卡，方便在iPad直接閱讀；互動按鍵與橫直式畫面另見試閱說明和截圖。時間碼僅供影片定位，約有1–3秒誤差。</p>']
  for s in story['scenes']:
   body.append(f'<section class="scene"><h2>{s["sceneId"]}｜{e(s["title"])}</h2><div class="art"><img src="/iddhipada/assets/{s["sceneId"]}.webp" width="1672" height="941">')
   for o in layout[s['sceneId']]:body.append(f'<div class="label" style="left:{o["x"]}%;top:{o["y"]}%;width:{o["width"]}%;font-size:{o["fontSizeCqw"]}cqw;color:{o["color"]}">{e(o["text"])}</div>')
   body.append('</div><h3>完整口白</h3>')
   for p in s['narration']:body.append(f'<div class="paragraph"><p class="meta">{p["id"]} · {clock(p["startSeconds"])}–{clock(p["endSeconds"])} · {"、".join(p["quoteIds"])}</p><p>{e(p["text"])}</p></div>')
   body.append('</section>')
- body.append('<section class="scene"><h2>經文卡｜Q01–Q11</h2><p>Q01–Q08為交接稿的巴利摘錄與中文譯意，中文譯意未署名為莊春江；Q09保留影片摘錄及譯者未定的註記；Q10–Q11為古漢譯。</p>')
+ body.append('<section class="scene"><h2>經文卡｜Q01–Q11</h2><p>Q01–Q08為巴利摘錄與中文譯意，Q09為莊春江中譯，Q10–Q11為古漢譯。</p>')
  for qid,q in quotes.items():
   body.append(f'<article><h3>{qid}｜{e(q["source"])}</h3>')
   if q['sourceType']=='pali_with_editorial_chinese_paraphrase':body.append(f'<p>{e(q["translationNote"])}</p><h4>巴利原文</h4><blockquote lang="pi">{e(q["originalText"])}</blockquote>')
