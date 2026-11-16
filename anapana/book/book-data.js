@@ -2757,12 +2757,12 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q32",
-          "source": "修次中編、下編（影片摘引；論師）",
-          "text": "於安樂具身具八法。足者，謂全跏趺，如毘盧遮那佛坐，或半跏趺。",
+          "source": "蓮花戒大師《修次中編／下編》（《廣論》引述）",
+          "text": "如《修次中編》、《下編》所說，於安樂具身具八法。足者，謂全跏趺，如毘盧遮那佛坐，或半跏趺。",
           "sourceType": "commentarial",
-          "verification": "transcribed_from_video_not_externally_collated",
+          "verification": "CBETA_Guanglun_quotation",
           "quoteId": "Q32",
-          "relation": "影片下緣引文"
+          "relation": "原文對讀"
         }
       ],
       "sourceNote": null,
@@ -2784,12 +2784,12 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q32",
-          "source": "修次中編、下編（影片摘引；論師）",
-          "text": "於安樂具身具八法。足者，謂全跏趺，如毘盧遮那佛坐，或半跏趺。",
+          "source": "蓮花戒大師《修次中編／下編》（《廣論》引述）",
+          "text": "如《修次中編》、《下編》所說，於安樂具身具八法。足者，謂全跏趺，如毘盧遮那佛坐，或半跏趺。",
           "sourceType": "commentarial",
-          "verification": "transcribed_from_video_not_externally_collated",
+          "verification": "CBETA_Guanglun_quotation",
           "quoteId": "Q32",
-          "relation": "影片下緣引文"
+          "relation": "原文對讀"
         }
       ],
       "sourceNote": null,
@@ -2811,12 +2811,12 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q32",
-          "source": "修次中編、下編（影片摘引；論師）",
-          "text": "於安樂具身具八法。足者，謂全跏趺，如毘盧遮那佛坐，或半跏趺。",
+          "source": "蓮花戒大師《修次中編／下編》（《廣論》引述）",
+          "text": "如《修次中編》、《下編》所說，於安樂具身具八法。足者，謂全跏趺，如毘盧遮那佛坐，或半跏趺。",
           "sourceType": "commentarial",
-          "verification": "transcribed_from_video_not_externally_collated",
+          "verification": "CBETA_Guanglun_quotation",
           "quoteId": "Q32",
-          "relation": "影片下緣引文"
+          "relation": "原文對讀"
         }
       ],
       "sourceNote": null,
@@ -2838,12 +2838,12 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q32",
-          "source": "修次中編、下編（影片摘引；論師）",
-          "text": "於安樂具身具八法。足者，謂全跏趺，如毘盧遮那佛坐，或半跏趺。",
+          "source": "蓮花戒大師《修次中編／下編》（《廣論》引述）",
+          "text": "如《修次中編》、《下編》所說，於安樂具身具八法。足者，謂全跏趺，如毘盧遮那佛坐，或半跏趺。",
           "sourceType": "commentarial",
-          "verification": "transcribed_from_video_not_externally_collated",
+          "verification": "CBETA_Guanglun_quotation",
           "quoteId": "Q32",
-          "relation": "影片下緣引文"
+          "relation": "原文對讀"
         }
       ],
       "sourceNote": null,
@@ -2865,12 +2865,12 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q33",
-          "source": "修次中編、下編（影片摘引；論師）",
+          "source": "蓮花戒大師《修次中編／下編》（《廣論》引述）",
           "text": "身者，謂非過後仰，莫太前屈，端身內念。",
           "sourceType": "commentarial",
-          "verification": "transcribed_from_video_not_externally_collated",
+          "verification": "CBETA_Guanglun_quotation",
           "quoteId": "Q33",
-          "relation": "影片下緣引文"
+          "relation": "原文對讀"
         }
       ],
       "sourceNote": null,
@@ -2892,12 +2892,12 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q34",
-          "source": "修次中編、下編（影片摘引；論師）",
+          "source": "蓮花戒大師《修次中編／下編》（《廣論》引述）",
           "text": "肩者，謂平齊而住。",
           "sourceType": "commentarial",
-          "verification": "transcribed_from_video_not_externally_collated",
+          "verification": "CBETA_Guanglun_quotation",
           "quoteId": "Q34",
-          "relation": "影片下緣引文"
+          "relation": "原文對讀"
         }
       ],
       "sourceNote": null,
@@ -2919,12 +2919,12 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q35",
-          "source": "修次中編、下編（影片摘引；論師）",
-          "text": "頭者，莫揚，莫低，莫歪一方，且鼻至臍正直而住。",
+          "source": "蓮花戒大師《修次中編／下編》（《廣論》引述）",
+          "text": "頭者，莫揚，莫低，莫歪一方，自鼻至臍正直而住。",
           "sourceType": "commentarial",
-          "verification": "transcribed_from_video_not_externally_collated",
+          "verification": "CBETA_Guanglun_quotation",
           "quoteId": "Q35",
-          "relation": "影片下緣引文"
+          "relation": "原文對讀"
         }
       ],
       "sourceNote": null,
@@ -2946,12 +2946,12 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q36",
-          "source": "修次中編、下編（影片摘引；論師）",
+          "source": "蓮花戒大師《修次中編／下編》（《廣論》引述）",
           "text": "眼者，謂不應太開，亦非太閉，垂注鼻端。",
           "sourceType": "commentarial",
-          "verification": "transcribed_from_video_not_externally_collated",
+          "verification": "CBETA_Guanglun_quotation",
           "quoteId": "Q36",
-          "relation": "影片下緣引文"
+          "relation": "原文對讀"
         }
       ],
       "sourceNote": null,
@@ -2973,12 +2973,12 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q36",
-          "source": "修次中編、下編（影片摘引；論師）",
+          "source": "蓮花戒大師《修次中編／下編》（《廣論》引述）",
           "text": "眼者，謂不應太開，亦非太閉，垂注鼻端。",
           "sourceType": "commentarial",
-          "verification": "transcribed_from_video_not_externally_collated",
+          "verification": "CBETA_Guanglun_quotation",
           "quoteId": "Q36",
-          "relation": "影片下緣引文"
+          "relation": "原文對讀"
         }
       ],
       "sourceNote": null,
@@ -3000,12 +3000,12 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q36",
-          "source": "修次中編、下編（影片摘引；論師）",
+          "source": "蓮花戒大師《修次中編／下編》（《廣論》引述）",
           "text": "眼者，謂不應太開，亦非太閉，垂注鼻端。",
           "sourceType": "commentarial",
-          "verification": "transcribed_from_video_not_externally_collated",
+          "verification": "CBETA_Guanglun_quotation",
           "quoteId": "Q36",
-          "relation": "影片下緣引文"
+          "relation": "原文對讀"
         }
       ],
       "sourceNote": null,
@@ -3027,12 +3027,12 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q37",
-          "source": "修次中編、下編（影片摘引；論師）",
+          "source": "蓮花戒大師《修次中編／下編》（《廣論》引述）",
           "text": "齒與唇者，隨自然住。舌者，令抵上齒。",
           "sourceType": "commentarial",
-          "verification": "transcribed_from_video_not_externally_collated",
+          "verification": "CBETA_Guanglun_quotation",
           "quoteId": "Q37",
-          "relation": "影片下緣引文"
+          "relation": "原文對讀"
         }
       ],
       "sourceNote": null,
@@ -3054,12 +3054,12 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q38",
-          "source": "修次中編、下編（影片摘引；論師）",
+          "source": "蓮花戒大師《修次中編／下編》（《廣論》引述）",
           "text": "息者，內外出入莫令有聲、粗猛急滑，必使出入無所知覺，全無功用徐徐而轉。",
           "sourceType": "commentarial",
-          "verification": "transcribed_from_video_not_externally_collated",
+          "verification": "CBETA_Guanglun_quotation",
           "quoteId": "Q38",
-          "relation": "影片下緣引文"
+          "relation": "原文對讀"
         }
       ],
       "sourceNote": null,
@@ -3081,12 +3081,12 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q38",
-          "source": "修次中編、下編（影片摘引；論師）",
+          "source": "蓮花戒大師《修次中編／下編》（《廣論》引述）",
           "text": "息者，內外出入莫令有聲、粗猛急滑，必使出入無所知覺，全無功用徐徐而轉。",
           "sourceType": "commentarial",
-          "verification": "transcribed_from_video_not_externally_collated",
+          "verification": "CBETA_Guanglun_quotation",
           "quoteId": "Q38",
-          "relation": "影片下緣引文"
+          "relation": "原文對讀"
         }
       ],
       "sourceNote": null,
@@ -3108,12 +3108,12 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q38",
-          "source": "修次中編、下編（影片摘引；論師）",
+          "source": "蓮花戒大師《修次中編／下編》（《廣論》引述）",
           "text": "息者，內外出入莫令有聲、粗猛急滑，必使出入無所知覺，全無功用徐徐而轉。",
           "sourceType": "commentarial",
-          "verification": "transcribed_from_video_not_externally_collated",
+          "verification": "CBETA_Guanglun_quotation",
           "quoteId": "Q38",
-          "relation": "影片下緣引文"
+          "relation": "原文對讀"
         }
       ],
       "sourceNote": null,
@@ -3135,12 +3135,12 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q39",
-          "source": "安般守意經（影片摘引；出處截圖註金剛寺版）",
-          "text": "數為何等？入息出息數十息，無得過十息，無得減十息。入息至竟投一、出息至竟投一。若投二息誤，更從一投起；若至九投意誤，更從一數起，令與數十息入息出息數，是名為數。何用是數？但從是斷家中念。",
+          "source": "《安般守意經》金剛寺本（論文轉引）",
+          "text": "數為何等？入息出息，數十息无得過，十息无得減。十息：入息至竟投一，出息至竟投二。若投二意誤，更從一投起。若至九投意誤，更從一數起，令莫誤。十息：入息出息數，是名為數。何用是數？但從是斷家中念。",
           "sourceType": "commentarial",
-          "verification": "transcribed_from_video_not_externally_collated",
+          "verification": "thesis_quotation",
           "quoteId": "Q39",
-          "relation": "影片下緣引文"
+          "relation": "原文對讀"
         }
       ],
       "sourceNote": null,
@@ -3162,12 +3162,12 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q39",
-          "source": "安般守意經（影片摘引；出處截圖註金剛寺版）",
-          "text": "數為何等？入息出息數十息，無得過十息，無得減十息。入息至竟投一、出息至竟投一。若投二息誤，更從一投起；若至九投意誤，更從一數起，令與數十息入息出息數，是名為數。何用是數？但從是斷家中念。",
+          "source": "《安般守意經》金剛寺本（論文轉引）",
+          "text": "數為何等？入息出息，數十息无得過，十息无得減。十息：入息至竟投一，出息至竟投二。若投二意誤，更從一投起。若至九投意誤，更從一數起，令莫誤。十息：入息出息數，是名為數。何用是數？但從是斷家中念。",
           "sourceType": "commentarial",
-          "verification": "transcribed_from_video_not_externally_collated",
+          "verification": "thesis_quotation",
           "quoteId": "Q39",
-          "relation": "影片下緣引文"
+          "relation": "原文對讀"
         }
       ],
       "sourceNote": null,
@@ -3189,12 +3189,12 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q39",
-          "source": "安般守意經（影片摘引；出處截圖註金剛寺版）",
-          "text": "數為何等？入息出息數十息，無得過十息，無得減十息。入息至竟投一、出息至竟投一。若投二息誤，更從一投起；若至九投意誤，更從一數起，令與數十息入息出息數，是名為數。何用是數？但從是斷家中念。",
+          "source": "《安般守意經》金剛寺本（論文轉引）",
+          "text": "數為何等？入息出息，數十息无得過，十息无得減。十息：入息至竟投一，出息至竟投二。若投二意誤，更從一投起。若至九投意誤，更從一數起，令莫誤。十息：入息出息數，是名為數。何用是數？但從是斷家中念。",
           "sourceType": "commentarial",
-          "verification": "transcribed_from_video_not_externally_collated",
+          "verification": "thesis_quotation",
           "quoteId": "Q39",
-          "relation": "影片下緣引文"
+          "relation": "原文對讀"
         }
       ],
       "sourceNote": null,
@@ -3216,12 +3216,12 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q39",
-          "source": "安般守意經（影片摘引；出處截圖註金剛寺版）",
-          "text": "數為何等？入息出息數十息，無得過十息，無得減十息。入息至竟投一、出息至竟投一。若投二息誤，更從一投起；若至九投意誤，更從一數起，令與數十息入息出息數，是名為數。何用是數？但從是斷家中念。",
+          "source": "《安般守意經》金剛寺本（論文轉引）",
+          "text": "數為何等？入息出息，數十息无得過，十息无得減。十息：入息至竟投一，出息至竟投二。若投二意誤，更從一投起。若至九投意誤，更從一數起，令莫誤。十息：入息出息數，是名為數。何用是數？但從是斷家中念。",
           "sourceType": "commentarial",
-          "verification": "transcribed_from_video_not_externally_collated",
+          "verification": "thesis_quotation",
           "quoteId": "Q39",
-          "relation": "影片下緣引文"
+          "relation": "原文對讀"
         }
       ],
       "sourceNote": null,
@@ -3243,12 +3243,12 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q40",
-          "source": "安般守意經（影片摘引；出處截圖註金剛寺版）",
-          "text": "隨為何等？入息至竟，當隨，莫投一。出息至竟，當隨，莫投一，是名為隨。何用是隨？但從是斷外念。",
+          "source": "《安般守意經》金剛寺本（論文轉引）",
+          "text": "隨為何等？入息至竟，當隨莫投一；出息至竟，當隨莫投二，是名隨。何用是隨？但從是斷外念。",
           "sourceType": "commentarial",
-          "verification": "transcribed_from_video_not_externally_collated",
+          "verification": "thesis_quotation",
           "quoteId": "Q40",
-          "relation": "影片下緣引文"
+          "relation": "原文對讀"
         }
       ],
       "sourceNote": null,
@@ -3270,12 +3270,12 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q40",
-          "source": "安般守意經（影片摘引；出處截圖註金剛寺版）",
-          "text": "隨為何等？入息至竟，當隨，莫投一。出息至竟，當隨，莫投一，是名為隨。何用是隨？但從是斷外念。",
+          "source": "《安般守意經》金剛寺本（論文轉引）",
+          "text": "隨為何等？入息至竟，當隨莫投一；出息至竟，當隨莫投二，是名隨。何用是隨？但從是斷外念。",
           "sourceType": "commentarial",
-          "verification": "transcribed_from_video_not_externally_collated",
+          "verification": "thesis_quotation",
           "quoteId": "Q40",
-          "relation": "影片下緣引文"
+          "relation": "原文對讀"
         }
       ],
       "sourceNote": null,
@@ -3297,12 +3297,12 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q40",
-          "source": "安般守意經（影片摘引；出處截圖註金剛寺版）",
-          "text": "隨為何等？入息至竟，當隨，莫投一。出息至竟，當隨，莫投一，是名為隨。何用是隨？但從是斷外念。",
+          "source": "《安般守意經》金剛寺本（論文轉引）",
+          "text": "隨為何等？入息至竟，當隨莫投一；出息至竟，當隨莫投二，是名隨。何用是隨？但從是斷外念。",
           "sourceType": "commentarial",
-          "verification": "transcribed_from_video_not_externally_collated",
+          "verification": "thesis_quotation",
           "quoteId": "Q40",
-          "relation": "影片下緣引文"
+          "relation": "原文對讀"
         }
       ],
       "sourceNote": null,
@@ -3324,12 +3324,12 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q41",
-          "source": "安般守意經（影片摘引；出處截圖註金剛寺版）",
-          "text": "止為何等？入息至竟，還止鼻頭，莫隨。出息至竟，著鼻頭，莫隨。是為止，何用是止？但欲從是止念。",
+          "source": "《安般守意經》金剛寺本（止息段補訂）",
+          "text": "止爲何等，入息至竟，遍止鼻頭。莫隨。出息至竟，著鼻頭，莫隨。是爲止。何用是止？但欲從是止念。",
           "sourceType": "commentarial",
-          "verification": "transcribed_from_video_not_externally_collated",
+          "verification": "author_supplied_correction",
           "quoteId": "Q41",
-          "relation": "影片下緣引文"
+          "relation": "原文對讀"
         }
       ],
       "sourceNote": null,
@@ -3351,12 +3351,12 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q41",
-          "source": "安般守意經（影片摘引；出處截圖註金剛寺版）",
-          "text": "止為何等？入息至竟，還止鼻頭，莫隨。出息至竟，著鼻頭，莫隨。是為止，何用是止？但欲從是止念。",
+          "source": "《安般守意經》金剛寺本（止息段補訂）",
+          "text": "止爲何等，入息至竟，遍止鼻頭。莫隨。出息至竟，著鼻頭，莫隨。是爲止。何用是止？但欲從是止念。",
           "sourceType": "commentarial",
-          "verification": "transcribed_from_video_not_externally_collated",
+          "verification": "author_supplied_correction",
           "quoteId": "Q41",
-          "relation": "影片下緣引文"
+          "relation": "原文對讀"
         }
       ],
       "sourceNote": null,
@@ -3378,12 +3378,12 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q41",
-          "source": "安般守意經（影片摘引；出處截圖註金剛寺版）",
-          "text": "止為何等？入息至竟，還止鼻頭，莫隨。出息至竟，著鼻頭，莫隨。是為止，何用是止？但欲從是止念。",
+          "source": "《安般守意經》金剛寺本（止息段補訂）",
+          "text": "止爲何等，入息至竟，遍止鼻頭。莫隨。出息至竟，著鼻頭，莫隨。是爲止。何用是止？但欲從是止念。",
           "sourceType": "commentarial",
-          "verification": "transcribed_from_video_not_externally_collated",
+          "verification": "author_supplied_correction",
           "quoteId": "Q41",
-          "relation": "影片下緣引文"
+          "relation": "原文對讀"
         }
       ],
       "sourceNote": null,
@@ -3405,12 +3405,12 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q41",
-          "source": "安般守意經（影片摘引；出處截圖註金剛寺版）",
-          "text": "止為何等？入息至竟，還止鼻頭，莫隨。出息至竟，著鼻頭，莫隨。是為止，何用是止？但欲從是止念。",
+          "source": "《安般守意經》金剛寺本（止息段補訂）",
+          "text": "止爲何等，入息至竟，遍止鼻頭。莫隨。出息至竟，著鼻頭，莫隨。是爲止。何用是止？但欲從是止念。",
           "sourceType": "commentarial",
-          "verification": "transcribed_from_video_not_externally_collated",
+          "verification": "author_supplied_correction",
           "quoteId": "Q41",
-          "relation": "影片下緣引文"
+          "relation": "原文對讀"
         }
       ],
       "sourceNote": null,
@@ -3432,12 +3432,12 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q41",
-          "source": "安般守意經（影片摘引；出處截圖註金剛寺版）",
-          "text": "止為何等？入息至竟，還止鼻頭，莫隨。出息至竟，著鼻頭，莫隨。是為止，何用是止？但欲從是止念。",
+          "source": "《安般守意經》金剛寺本（止息段補訂）",
+          "text": "止爲何等，入息至竟，遍止鼻頭。莫隨。出息至竟，著鼻頭，莫隨。是爲止。何用是止？但欲從是止念。",
           "sourceType": "commentarial",
-          "verification": "transcribed_from_video_not_externally_collated",
+          "verification": "author_supplied_correction",
           "quoteId": "Q41",
-          "relation": "影片下緣引文"
+          "relation": "原文對讀"
         }
       ],
       "sourceNote": null,
