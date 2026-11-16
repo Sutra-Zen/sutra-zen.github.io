@@ -1,6 +1,6 @@
 # 第11本《四如意足》審閱實作（2026-11-16）
 
-最新main基準 `140f62221726485916f3992d8ea6f5782e7507b5`，實作分支 `feat/iddhipada-review`。**本次使用者明確要求審閱，不合併main、不公開部署。先前各書發布授權不適用本次。**
+最新main基準 `140f62221726485916f3992d8ea6f5782e7507b5`，實作分支 `feat/iddhipada-review`，[草稿PR #34](https://github.com/rooneyflower-star/sutrazen-map/pull/34)。**本次使用者明確要求審閱，不合併main、不公開部署。先前各書發布授權不適用本次。**
 
 - 新增 `iddhipada/` 導讀及 `iddhipada/book/` 閱讀器；審閱分支接書架第11本、原有四如意足地圖節點。14個影片不變，11本可讀、3本鎖定。沒有新增重複地圖節點。
 - 兩包普通ZIP完整合併於 `docs/iddhipada/`，30原始檔符合receipt與manifest；9正式PNG、1有字備用、9定位影格均解碼。網站用9張同尺寸WebP，原圖與交接JSON不改，無MOV上站。

@@ -1,6 +1,6 @@
 # 四如意足｜審閱版本
 
-分支 `feat/iddhipada-review`，基準main `140f62221726485916f3992d8ea6f5782e7507b5`。本次未合併main、未部署正式站。
+分支 `feat/iddhipada-review`，[草稿PR #34](https://github.com/rooneyflower-star/sutrazen-map/pull/34)，基準main `140f62221726485916f3992d8ea6f5782e7507b5`。本次未合併main、未部署正式站。
 
 ## 先在iPad直接看
 
