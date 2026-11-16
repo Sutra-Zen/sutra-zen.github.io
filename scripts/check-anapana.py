@@ -11,6 +11,9 @@ ROOT=Path(__file__).resolve().parents[1]; DOCS=ROOT/'docs/anapana'; OUT=ROOT/'do
 BASELINE='0034db754a478bbce76c79b0dbe7479822dfee76'
 STORY=json.loads((DOCS/'storyboard.json').read_text()); CAT=json.loads((DOCS/'scripture-catalog.json').read_text()); LABELS=json.loads((DOCS/'overlays.json').read_text())
 BOOK=json.loads((ROOT/'anapana/book/book-data.js').read_text().split('const BOOK = ')[1].rstrip(';\n'))
+DISPLAY_CAT={q['quoteId']:q for page in BOOK['pages'] for q in page['quotes']}
+COMMENTARY_IDS={f'Q{i:02}' for i in range(32,42)}
+STOP_TEXT='止爲何等，入息至竟，遍止鼻頭。莫隨。出息至竟，著鼻頭，莫隨。是爲止。何用是止？但欲從是止念。'
 SOURCES=json.loads((DOCS/'verified-sources.json').read_text())
 SIZES=[(360,800),(800,360),(768,1024),(1024,768),(1440,900)]
 LEGACY=['four-truths','five-aggregates','six-senses','twelve-links','eightfold-path','four-fruits-ten-fetters','four-purities-six-recollections','mindfulness','right-effort']
@@ -29,7 +32,10 @@ def static_checks(network):
    item=BOOK['pages'][n]; assert item['lines']==[entry['text']] and item['paragraphId']==entry['id'] and item['scene']==original['sceneId']
    assert item['sourceNote']==entry['sourceNote'] and [q['quoteId'] for q in item['quotes']]==entry['quoteIds']
    for quote in item['quotes']:
-    used.add(quote['quoteId']); assert all(quote[k]==v for k,v in CAT[quote['quoteId']].items())
+    qid=quote['quoteId'];used.add(qid)
+    assert all(quote[k]==v for k,v in CAT[qid].items() if qid not in COMMENTARY_IDS or k not in ['source','text','verification'])
+    if qid in COMMENTARY_IDS:
+     assert quote==DISPLAY_CAT[qid] and quote['relation']=='原文對讀' and '影片摘引' not in quote['source']
    n+=1
  assert n==118 and used==set(CAT) and sum(map(len,LABELS.values()))==12
  assert len(BOOK['pages'][-1]['textSummary'])==5 and len(BOOK['pages'][-1]['textSummary'][-1]['rows'])==4
@@ -57,6 +63,21 @@ def static_checks(network):
   else: assert maps[0][key]['content'][:-6] in maps[1][key]['content']
  guide=html.parse(str(ROOT/'anapana/index.html'))
  assert len(guide.xpath('//*[@id="sources"]//article'))==6 and len(guide.xpath('//*[@id="commentary"]//article'))==2
+ # Reader cue order remains tied to narration; reconstruct the guide order to catch stale or missing clauses.
+ revision={s['id']:s for s in SOURCES['commentarialSources']}
+ a=guide.xpath('//*[@id="bhavanakrama"]')[0];b=guide.xpath('//*[@id="anban"]')[0]
+ assert a.xpath('./h3/text()')==['蓮花戒大師《修次中編／下編》']
+ assert a.xpath('.//*[@class="source-meta"]/text()')==['《菩提道次第廣論》卷十四引述 · 宗喀巴大師造／法尊法師譯']
+ assert ''.join(DISPLAY_CAT[q]['text'] for q in ['Q32','Q36','Q33','Q34','Q35','Q37','Q38'])==a.xpath('.//blockquote/p/text()')[0]==revision['bhavanakrama']['excerpts'][0]
+ assert '自鼻至臍' in DISPLAY_CAT['Q35']['text']
+ assert [DISPLAY_CAT[q]['text'] for q in ['Q39','Q40','Q41']]==b.xpath('.//blockquote/p/text()')==revision['anban']['excerpts']
+ assert DISPLAY_CAT['Q41']['text']==STOP_TEXT
+ assert '投二' in DISPLAY_CAT['Q39']['text'] and '莫投二' in DISPLAY_CAT['Q40']['text']
+ for q in COMMENTARY_IDS:
+  expected=revision['bhavanakrama']['readerSourceLabel'] if q<'Q39' else revision['anban']['readerStopSourceLabel' if q=='Q41' else 'readerSourceLabel']
+  assert DISPLAY_CAT[q]['source']==expected
+ for source in revision.values():
+  assert hashlib.sha256((DOCS/source['local']).read_bytes()).hexdigest()==source['sha256']
  for f in SOURCES['files']:
   raw=(DOCS/f['local']).read_bytes(); assert hashlib.sha256(raw).hexdigest()==f['sha256']
   source=next(s for s in SOURCES['sources'] if s['id']==f['id']); assert all(t in clean(raw) for t in source['excerpts'])
@@ -82,7 +103,7 @@ def static_checks(network):
   def verify(f):
    assert hashlib.sha256(urllib.request.urlopen(f['url'],timeout=30).read()).hexdigest()==f['sha256']; return f['id']
   print('Official source hashes:',list(ThreadPoolExecutor(max_workers=6).map(verify,SOURCES['files'])),flush=True)
- print('Static fidelity: 11 originals, 27 images, 12 scenes, 118 paragraphs, 41 quotes, 12 labels; all 9 previous books unchanged',flush=True)
+ print('Static fidelity: 11 originals, 27 images, 12 scenes, 118 paragraphs, 41 quotes (10 commentary cues synchronized with guide), 12 labels; all 9 previous books unchanged',flush=True)
 class Quiet(http.server.SimpleHTTPRequestHandler):
  def log_message(self,*args): pass
 def settle(page):
@@ -114,7 +135,7 @@ def enlarged_checks(browser,base,report,shots):
 def browser_checks(shots):
  OUT.mkdir(parents=True,exist_ok=True)
  server=http.server.ThreadingHTTPServer(('127.0.0.1',0),functools.partial(Quiet,directory=str(ROOT))); threading.Thread(target=server.serve_forever,daemon=True).start(); base=f'http://127.0.0.1:{server.server_port}/'
- report={'baseline':BASELINE,'pages':119,'scenes':12,'originalImages':11,'narrationParagraphs':118,'quotes':41,'overlays':12,'pageStates':0,'viewports':[],'javascriptErrors':[],'httpErrors':[],'physicalIPadSafari':'not tested','production':'not deployed'}
+ report={'baseline':BASELINE,'pages':119,'scenes':12,'originalImages':11,'narrationParagraphs':118,'quotes':41,'updatedCommentaryQuoteIds':sorted(COMMENTARY_IDS),'overlays':12,'pageStates':0,'viewports':[],'javascriptErrors':[],'httpErrors':[],'physicalIPadSafari':'not tested','production':'local verification; deployment verified separately'}
  with sync_playwright() as p:
   browser=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox'])
   for w,h in SIZES:
@@ -184,8 +205,8 @@ def browser_checks(shots):
    # Long scripture is directly visible and scrolls; dialog/source/rotation retain exact paragraph.
    index=next(i for i,x in enumerate(BOOK['pages']) if any(q['quoteId']=='Q39' for q in x['quotes']))
    page.evaluate('i=>showPage(i)',index); settle(page)
-   page.locator('.verse-body').evaluate('e=>e.scrollTop=e.scrollHeight'); assert page.locator('.scripture-card blockquote').text_content()==CAT['Q39']['text']
-   position=page.locator('#position-text').inner_text(); page.locator('#open-verse').click(); assert CAT['Q39']['text'] in page.locator('#dialog-verse').inner_text()
+   page.locator('.verse-body').evaluate('e=>e.scrollTop=e.scrollHeight'); assert page.locator('.scripture-card blockquote').text_content()==DISPLAY_CAT['Q39']['text']
+   position=page.locator('#position-text').inner_text(); page.locator('#open-verse').click(); assert DISPLAY_CAT['Q39']['text'] in page.locator('#dialog-verse').inner_text()
    page.locator('.verse-scroll').focus(); page.keyboard.press('ArrowRight'); assert page.locator('#position-text').inner_text()==position
    page.locator('#dialog-source').click(); assert page.url.endswith('#Q39')
    page.go_back(); page.wait_for_function('typeof showPage==="function"'); assert page.locator('#position-text').inner_text()==position

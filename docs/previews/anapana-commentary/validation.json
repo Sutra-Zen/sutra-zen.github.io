@@ -1,0 +1,66 @@
+{
+  "baseline": "0034db754a478bbce76c79b0dbe7479822dfee76",
+  "pages": 119,
+  "scenes": 12,
+  "originalImages": 11,
+  "narrationParagraphs": 118,
+  "quotes": 41,
+  "updatedCommentaryQuoteIds": [
+    "Q32",
+    "Q33",
+    "Q34",
+    "Q35",
+    "Q36",
+    "Q37",
+    "Q38",
+    "Q39",
+    "Q40",
+    "Q41"
+  ],
+  "overlays": 12,
+  "pageStates": 595,
+  "viewports": [
+    {
+      "width": 360,
+      "height": 800,
+      "pages": 119,
+      "controls": "passed"
+    },
+    {
+      "width": 800,
+      "height": 360,
+      "pages": 119,
+      "controls": "passed"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "pages": 119,
+      "controls": "passed"
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "pages": 119,
+      "controls": "passed"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "pages": 119,
+      "controls": "passed"
+    }
+  ],
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "physicalIPadSafari": "not tested",
+  "production": "local verification; deployment verified separately",
+  "enlargedOverlayStates": 24,
+  "backToMap": "passed at phone and iPad landscape",
+  "offlineFilePreview": "file:// blocked by managed-browser policy; use documented local HTTP server",
+  "localHTTPPreview": "guide/reader/next/reload/return passed",
+  "legacyReaders": "all 9 open/next/return passed",
+  "specificCommentarySourceReturnStates": 8,
+  "stopFullTextAndDialog": "exact author text, including final two sentences",
+  "kamalashilaAttribution": "guide and reader both updated"
+}

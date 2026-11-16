@@ -163,7 +163,7 @@
       ]
     }
   ],
-  "policy": "影片118段口白與41筆錄文保持不變。6份官方阿含／中部原檔作對讀；導讀調身八法已核CBETA《菩提道次第廣論》轉引，數／隨／止三段另依作者提供之2008年論文所引金剛寺本。轉引來源與影片錄文分開，未冒充各論原本或金剛寺抄本直接校勘。",
+  "policy": "原始交接118段口白、41筆影片錄文及插畫完整保留；公開閱讀器Q01–Q31保留原錄文，Q32–Q38按CBETA《廣論》所引蓮花戒修次，Q39–Q40按附件論文轉引，Q41按作者補訂全文。專頁與閱讀器共用commentarialSources，區分原典／轉引／補訂，不宣稱已直接校勘各論原本或金剛寺抄本。",
   "commentarialSources": [
     {
       "repository": "cbeta-git/xml-p5a",
@@ -194,7 +194,15 @@
         "Q37",
         "Q38"
       ],
-      "scope": "guide source card only; original video transcript and illustrations unchanged"
+      "scope": "shared guide and S10 reader quotations; original handoff/narration/images retained",
+      "title": "蓮花戒大師《修次中編／下編》",
+      "referencedAuthor": "蓮花戒大師",
+      "referencedWorks": [
+        "修次中編",
+        "修次下編"
+      ],
+      "guideMeta": "《菩提道次第廣論》卷十四引述 · 宗喀巴大師造／法尊法師譯",
+      "readerSourceLabel": "蓮花戒大師《修次中編／下編》（《廣論》引述）"
     },
     {
       "id": "anban",
@@ -214,7 +222,7 @@
       "excerpts": [
         "數為何等？入息出息，數十息无得過，十息无得減。十息：入息至竟投一，出息至竟投二。若投二意誤，更從一投起。若至九投意誤，更從一數起，令莫誤。十息：入息出息數，是名為數。何用是數？但從是斷家中念。",
         "隨為何等？入息至竟，當隨莫投一；出息至竟，當隨莫投二，是名隨。何用是隨？但從是斷外念。",
-        "止為何等？入息至竟，遍止鼻頭，莫隨出息至竟。著鼻頭莫隨，是為止。"
+        "止爲何等，入息至竟，遍止鼻頭。莫隨。出息至竟，著鼻頭，莫隨。是爲止。何用是止？但欲從是止念。"
       ],
       "excerptLocations": [
         {
@@ -252,17 +260,23 @@
             132,
             133
           ],
-          "footnote": 407
+          "footnote": 407,
+          "originalThesisExcerpt": "止為何等？入息至竟，遍止鼻頭，莫隨出息至竟。著鼻頭莫隨，是為止。",
+          "textAuthority": "author correction supplied 2026-11-16",
+          "verification": "author explicitly supplied full paragraph including final two sentences; not claimed as a verbatim quotation of the thesis excerpt"
         }
       ],
-      "verification": "read thesis title page, relevant quotations and footnotes; checked the rendered PDF pages130–133. This is a thesis quotation of the Kongoji text, not a direct manuscript collation.",
-      "textPolicy": "remove layout whitespace and use Unicode NFC to normalize compatibility ideographs; preserve printed wording, punctuation, 无, 投二 and 遍止鼻頭. Do not copy the Taisho quotations or the author's explanatory paragraphs into the scripture excerpt.",
+      "verification": "數／隨：已讀並渲染附件論文第130–133頁，依論文轉引。止：使用作者2026-11-16最新全文與末兩句，原PDF節錄另存originalThesisExcerpt；不宣稱新全文逐字出自PDF或抄本。",
+      "textPolicy": "數／隨依論文，僅去除排版空白、以Unicode NFC處理相容漢字並保留无／投二等原字。止依作者最新全文，保留爲與標點及末兩句；原PDF節錄另存excerptLocations，不假稱補訂全文逐字出自PDF。",
       "differencesFromVideo": [
         "數息：出息至竟投二（原影片錄文作投一）；若投二意誤、令莫誤等依論文原字。",
         "隨息：出息至竟當隨莫投二（原影片錄文作莫投一）。",
-        "止息：依論文保留遍止鼻頭及其標點；未接上論文此段引文沒有的影片末句。"
+        "止息依作者新全文保留遍止鼻頭、爲與指定標點，補回何用是止／但欲從是止念兩句；原PDF節錄另存，非冒稱全段PDF逐字原文。"
       ],
-      "scope": "guide source card only; original119-page reader, narration and video-transcribed quotes preserved"
+      "scope": "shared guide and S11 reader quotations; replaces stale video excerpts by explicit author instruction; original handoff/narration/images retained",
+      "guideMeta": "金剛寺本引文 · 論文轉引／止息段補訂",
+      "readerSourceLabel": "《安般守意經》金剛寺本（論文轉引）",
+      "readerStopSourceLabel": "《安般守意經》金剛寺本（止息段補訂）"
     }
   ]
 }
