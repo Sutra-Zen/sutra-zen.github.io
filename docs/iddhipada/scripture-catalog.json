@@ -1,0 +1,90 @@
+{
+  "Q01": {
+    "id": "Q01",
+    "source": "SN51.22｜鐵球經",
+    "sourceUrl": "https://agama.buddhason.org/SN/SN1563.htm",
+    "originalText": "Seyyathāpi, ānanda, ayoguḷo divasaṃ santatto lahutaro ceva hoti mudutaro ca kammaniyataro ca pabhassarataro ca.",
+    "translationNote": "中文譯意：阿難，譬如整日受熱的鐵球，變得更輕、更柔軟、更適於運用、更明亮。原經另以輕棉絮隨風上升為喻；敘述背景為如來的神通，影片將它轉為修心故事。",
+    "sourceType": "pali_with_editorial_chinese_paraphrase"
+  },
+  "Q02": {
+    "id": "Q02",
+    "source": "SN51.13｜意欲定經",
+    "sourceUrl": "https://agama.buddhason.org/SN/SN1554.htm",
+    "originalText": "Chandaṃ ce, bhikkhave, bhikkhu nissāya labhati samādhiṃ, labhati cittassa ekaggataṃ– ayaṃ vuccati chandasamādhi.",
+    "translationNote": "中文譯意：比丘依欲而獲得定、心的專一，稱為欲定。",
+    "sourceType": "pali_with_editorial_chinese_paraphrase"
+  },
+  "Q03": {
+    "id": "Q03",
+    "source": "SN51.13｜勤奮之行",
+    "sourceUrl": "https://agama.buddhason.org/SN/SN1554.htm",
+    "originalText": "So anuppannānaṃ pāpakānaṃ akusalānaṃ dhammānaṃ anuppādāya chandaṃ janeti vāyamati vīriyaṃ ārabhati cittaṃ paggaṇhāti padahati. Uppannānaṃ pāpakānaṃ akusalānaṃ dhammānaṃ pahānāya chandaṃ janeti vāyamati vīriyaṃ ārabhati cittaṃ paggaṇhāti padahati. Anuppannānaṃ kusalānaṃ dhammānaṃ uppādāya chandaṃ janeti vāyamati vīriyaṃ ārabhati cittaṃ paggaṇhāti padahati. Uppannānaṃ kusalānaṃ dhammānaṃ ṭhitiyā asammosāya bhiyyobhāvāya vepullāya bhāvanāya pāripūriyā chandaṃ janeti vāyamati vīriyaṃ ārabhati cittaṃ paggaṇhāti padahati.",
+    "translationNote": "中文譯意：為未生惡法不生、已生惡法斷除、未生善法生起、已生善法住持不失並增廣修習圓滿，發起意願、努力、精進，提起心而勤修。",
+    "sourceType": "pali_with_editorial_chinese_paraphrase"
+  },
+  "Q04": {
+    "id": "Q04",
+    "source": "SN51.13｜精進定",
+    "sourceUrl": "https://agama.buddhason.org/SN/SN1554.htm",
+    "originalText": "Vīriyaṃ ce, bhikkhave, bhikkhu nissāya labhati samādhiṃ, labhati cittassa ekaggataṃ– ayaṃ vuccati ‘vīriyasamādhi’.",
+    "translationNote": "中文譯意：依精進獲得定及心的專一，稱精進定。此定同樣具備Q03的勤奮之行。",
+    "sourceType": "pali_with_editorial_chinese_paraphrase"
+  },
+  "Q05": {
+    "id": "Q05",
+    "source": "SN51.13｜心定",
+    "sourceUrl": "https://agama.buddhason.org/SN/SN1554.htm",
+    "originalText": "Cittaṃ ce, bhikkhave, bhikkhu nissāya labhati samādhiṃ, labhati cittassa ekaggataṃ– ayaṃ vuccati ‘cittasamādhi’.",
+    "translationNote": "中文譯意：依心獲得定及心的專一，稱心定。此定同樣具備Q03的勤奮之行。",
+    "sourceType": "pali_with_editorial_chinese_paraphrase"
+  },
+  "Q06": {
+    "id": "Q06",
+    "source": "SN51.13｜觀定",
+    "sourceUrl": "https://agama.buddhason.org/SN/SN1554.htm",
+    "originalText": "Vīmaṃsaṃ ce, bhikkhave, bhikkhu nissāya labhati samādhiṃ, labhati cittassa ekaggataṃ– ayaṃ vuccati ‘vīmaṃsāsamādhi’.",
+    "translationNote": "中文譯意：依審察獲得定及心的專一，稱審察定；影片稱「觀定」。同樣具備Q03的勤奮之行。",
+    "sourceType": "pali_with_editorial_chinese_paraphrase"
+  },
+  "Q07": {
+    "id": "Q07",
+    "source": "SN51.20｜四種偏差",
+    "sourceUrl": "https://agama.buddhason.org/SN/SN1561.htm",
+    "originalText": "iti me chando na ca atilīno bhavissati, na ca atippaggahito bhavissati, na ca ajjhattaṃ saṃkhitto bhavissati, na ca bahiddhā vikkhitto bhavissati",
+    "translationNote": "中文譯意：意欲不過低沉、不過高張、不向內緊縮、不向外散亂。經中分別解釋為懈怠、掉舉、惛沉睡眠，以及散逐外在五欲；亦適用精進、心、審察。",
+    "sourceType": "pali_with_editorial_chinese_paraphrase"
+  },
+  "Q08": {
+    "id": "Q08",
+    "source": "SN51.20｜前後、上下、晝夜與光明",
+    "sourceUrl": "https://agama.buddhason.org/SN/SN1561.htm",
+    "originalText": "Pacchāpuresaññī ca viharati– ‘yathā pure tathā pacchā, yathā pacchā tathā pure; yathā adho tathā uddhaṃ, yathā uddhaṃ tathā adho; yathā divā tathā rattiṃ yathā rattiṃ tathā divā’. Iti vivaṭena cetasā apariyonaddhena sappabhāsaṃ cittaṃ bhāveti.",
+    "translationNote": "中文譯意：安住前後之想，前後相如、上下相如、晝夜相如；以敞開、無覆蔽的心修習明亮心。經文對上下的解說包含觀察身體諸不淨成分；對晝夜的解說為以相同行相修習；光明心涉及善取光明想與確立白晝想。影片的「掃描身體」「放下心理防備」是白話詮釋。",
+    "sourceType": "pali_with_editorial_chinese_paraphrase"
+  },
+  "Q09": {
+    "id": "Q09",
+    "source": "SN51.11｜影片下緣摘錄",
+    "sourceUrl": "https://agama.buddhason.org/SN/SN1552.htm",
+    "originalText": "多修習四神足時，漏盡滅比丘滅盡諸漏而得無漏，在這一生中自知自證，成就安住於心解脫、慧解脫。",
+    "translationNote": "以上按影片下緣可見中文字轉錄，標點整理，未確認影片採用的譯者。對應原經末段：āsavānaṃ khayā anāsavaṃ cetovimuttiṃ paññāvimuttiṃ diṭṭheva dhamme sayaṃ abhiññā sacchikatvā upasampajja viharatī。原經亦記述其他神通；影片重點放在漏盡，不表示經文否定其他神通。",
+    "sourceType": "video_quote"
+  },
+  "Q10": {
+    "id": "Q10",
+    "source": "雜阿含經561｜依欲斷愛的問答",
+    "sourceUrl": "https://buddhaspace.org/agama/sub/561.html",
+    "originalText": "婆羅門！於意云何？汝先有欲來詣精舍不？……如是，婆羅門！來至精舍已，彼欲息不？",
+    "translationNote": "古漢譯原經節錄。省略號為本頁省略答語。原經地點是精舍；影片將其改寫為公園，小船則是影片譬喻。",
+    "sourceType": "classical_chinese"
+  },
+  "Q11": {
+    "id": "Q11",
+    "source": "雜阿含經561｜影片下緣原經",
+    "sourceUrl": "https://buddhaspace.org/agama/sub/561.html",
+    "originalText": "聖弟子修欲定斷行成就如意足，依離、依無欲、依出要、依滅、向於捨，乃至斷愛，愛斷已，彼欲亦息。修精進定、心定、思惟定斷行成就，依離、依無欲、依出要、依滅、向於捨，乃至愛盡，愛盡已，思惟則息。",
+    "translationNote": "古漢譯原文，與影片下緣對照。口白第77段改說「依遠離」且省略「依出要」，保留口白差異，不冒充逐字經文。",
+    "sourceType": "classical_chinese"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "policy": "This is a mechanical comparison, not a translation or doctrinal certification. Original story/catalog unchanged.",
+  "pali": [
+    {
+      "quoteId": "Q01",
+      "canonical": "sn51.22",
+      "normalizedContinuousMatch": true,
+      "normalization": "case, whitespace, punctuation and ṁ/ṃ only; sandhi not rewritten",
+      "longestContinuousMatchCharacters": 95,
+      "quoteNormalizedCharacters": 95,
+      "status": "match under stated normalization"
+    },
+    {
+      "quoteId": "Q02",
+      "canonical": "sn51.13",
+      "normalizedContinuousMatch": false,
+      "normalization": "case, whitespace, punctuation and ṁ/ṃ only; sandhi not rewritten",
+      "longestContinuousMatchCharacters": 88,
+      "quoteNormalizedCharacters": 95,
+      "status": "wording differs; original handoff preserved; compare sandhi and excerpt boundaries"
+    },
+    {
+      "quoteId": "Q03",
+      "canonical": "sn51.13",
+      "normalizedContinuousMatch": true,
+      "normalization": "case, whitespace, punctuation and ṁ/ṃ only; sandhi not rewritten",
+      "longestContinuousMatchCharacters": 462,
+      "quoteNormalizedCharacters": 462,
+      "status": "match under stated normalization"
+    },
+    {
+      "quoteId": "Q04",
+      "canonical": "sn51.13",
+      "normalizedContinuousMatch": false,
+      "normalization": "case, whitespace, punctuation and ṁ/ṃ only; sandhi not rewritten",
+      "longestContinuousMatchCharacters": 88,
+      "quoteNormalizedCharacters": 95,
+      "status": "wording differs; original handoff preserved; compare sandhi and excerpt boundaries"
+    },
+    {
+      "quoteId": "Q05",
+      "canonical": "sn51.13",
+      "normalizedContinuousMatch": false,
+      "normalization": "case, whitespace, punctuation and ṁ/ṃ only; sandhi not rewritten",
+      "longestContinuousMatchCharacters": 87,
+      "quoteNormalizedCharacters": 93,
+      "status": "wording differs; original handoff preserved; compare sandhi and excerpt boundaries"
+    },
+    {
+      "quoteId": "Q06",
+      "canonical": "sn51.13",
+      "normalizedContinuousMatch": false,
+      "normalization": "case, whitespace, punctuation and ṁ/ṃ only; sandhi not rewritten",
+      "longestContinuousMatchCharacters": 89,
+      "quoteNormalizedCharacters": 97,
+      "status": "wording differs; original handoff preserved; compare sandhi and excerpt boundaries"
+    },
+    {
+      "quoteId": "Q07",
+      "canonical": "sn51.20",
+      "normalizedContinuousMatch": false,
+      "normalization": "case, whitespace, punctuation and ṁ/ṃ only; sandhi not rewritten",
+      "longestContinuousMatchCharacters": 74,
+      "quoteNormalizedCharacters": 122,
+      "status": "wording differs; original handoff preserved; compare sandhi and excerpt boundaries"
+    },
+    {
+      "quoteId": "Q08",
+      "canonical": "sn51.20",
+      "normalizedContinuousMatch": true,
+      "normalization": "case, whitespace, punctuation and ṁ/ṃ only; sandhi not rewritten",
+      "longestContinuousMatchCharacters": 201,
+      "quoteNormalizedCharacters": 201,
+      "status": "match under stated normalization"
+    }
+  ],
+  "reviewItems": [
+    "Q02/Q04/Q05/Q06: expanded nasal + ce in handoff versus ñce sandhi in bilara.",
+    "Q07: handoff saṃkhitto versus bilara saṅkhitto at sn51.20:2.3; not normalized as the same spelling and not silently corrected.",
+    "Q09: translator unknown; do not attribute the video wording to 莊春江.",
+    "Q10: ellipsis omits the reply; story 公園 differs from canonical 精舍.",
+    "Q11: P77 omits 依出要 and uses 依遠離; quote retains classical text."
+  ]
+}

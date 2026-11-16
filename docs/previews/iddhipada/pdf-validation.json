@@ -1,0 +1,10 @@
+{
+  "file": "Iddhipada-review.pdf",
+  "pages": 23,
+  "bytes": 6178413,
+  "sha256": "cfff5ca8cf1a9ef03de5e661965211b540c93295a7c3e7f14e74025c4f468b7c",
+  "originalNarrationParagraphs": 81,
+  "completeQuoteCards": 11,
+  "selectableText": "all original narration/quotation/note strings verified with pdftotext",
+  "purpose": "content review only; interactive UI tested separately; not deployed"
+}

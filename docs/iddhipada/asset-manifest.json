@@ -1,0 +1,147 @@
+[
+  {
+    "path": "CODEX_PROMPT.txt",
+    "bytes": 3354,
+    "sha256": "e3c4a77679f76fba2a2d8ce31ba6d3149aef3ebc3892a403735f9f9ad56dabd1"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1354,
+    "sha256": "e4092aeb59c25918c749d2dae3cd39f02970d318889076f3ea7c789dc056fb66"
+  },
+  {
+    "path": "assets/S01.png",
+    "bytes": 3227221,
+    "sha256": "ee4da4b2b2498eaf6a9bfa117447a151ce267bb539cd5a024dc6551c4f277547"
+  },
+  {
+    "path": "assets/S02.png",
+    "bytes": 3258001,
+    "sha256": "13645a2db143380a36e2c91981b8242c4a31bd0568bbaa99b0ee6f29858c0e8e"
+  },
+  {
+    "path": "assets/S03.png",
+    "bytes": 2925471,
+    "sha256": "3267f0cd041941974812e8187530b1118fdb741d6ee2107d2da25ac8d95a0ca0"
+  },
+  {
+    "path": "assets/S04.png",
+    "bytes": 2857190,
+    "sha256": "55146e54870c44925f5d0f24117ea5899b2bca4e5822b1bc2d89b583d5b5edf5"
+  },
+  {
+    "path": "assets/S05.png",
+    "bytes": 3047138,
+    "sha256": "df7a15e4bc71c6a1948040aa5f792932bb98add70125f6264a3c627acf9e3459"
+  },
+  {
+    "path": "assets/S06.png",
+    "bytes": 3293031,
+    "sha256": "d51bc74970130d72cf390dcf2443f0f57ebb98a04104852c5ce49edf013b8fee"
+  },
+  {
+    "path": "assets/S07.png",
+    "bytes": 3208455,
+    "sha256": "a894c3cfc37bfb926718737dde71da09bfba052ee93efb234b8cd05cb6a3202e"
+  },
+  {
+    "path": "assets/S08.png",
+    "bytes": 3235596,
+    "sha256": "20b776fdd95f1b888a1fbac6173ba9adefbc1cc2e597ef1884369515f43b5fcf"
+  },
+  {
+    "path": "assets/S09.png",
+    "bytes": 4526986,
+    "sha256": "62850febc2291936f87657912085838a415e10d7652c41fa827916417c77b6f3"
+  },
+  {
+    "path": "docs/NOTION_SNAPSHOT.md",
+    "bytes": 28186,
+    "sha256": "d05c4571ac77e30377e206eda2261cc27e5ebdc7712f6c8a2e87efe26c123c7a"
+  },
+  {
+    "path": "docs/OVERLAY_SPEC.md",
+    "bytes": 2371,
+    "sha256": "8985170db6aaaa2c290082ded680b1c30dbc87ce3557066c97a4f67d4a358f51"
+  },
+  {
+    "path": "docs/SOURCE_NOTES.md",
+    "bytes": 1451,
+    "sha256": "f465850e114f9d5a64f536a5aa764bd05b89051b9cde1bba04cedf6effa69050"
+  },
+  {
+    "path": "docs/STORYBOARD.md",
+    "bytes": 26173,
+    "sha256": "213e098f53825015be6d3583cde8c197987eeb24d362dbe75cff2952e5a07f4f"
+  },
+  {
+    "path": "overlays.json",
+    "bytes": 2866,
+    "sha256": "5a9106e711c32933a9c89f313f0cb8fca6e13c2361f1d57433268718a1b604b7"
+  },
+  {
+    "path": "references/S01-video.png",
+    "bytes": 635167,
+    "sha256": "4d98612226f136ff1ce515023509448a5aa7f1e49065eb236651d90620b85986"
+  },
+  {
+    "path": "references/S02-video.png",
+    "bytes": 611278,
+    "sha256": "d5ec3d136f57e14b4387d61309e3e9565c2c70debbb95f7e87c7ce53717e8916"
+  },
+  {
+    "path": "references/S03-video.png",
+    "bytes": 622394,
+    "sha256": "619d1017f77370b57f953896e64bb78d46b8937d609b367b0f2a9b55866edb69"
+  },
+  {
+    "path": "references/S04-video.png",
+    "bytes": 597510,
+    "sha256": "d92662d9078a5f48913e56c6a5586ef7ececbee801991c08615b2831f2431a92"
+  },
+  {
+    "path": "references/S05-video.png",
+    "bytes": 632043,
+    "sha256": "c8e127a004ff3cc845ca6dcedc10032f1ea4ac758dbf029ea906ec4af4afb1c5"
+  },
+  {
+    "path": "references/S06-labelled-alternative.png",
+    "bytes": 3114916,
+    "sha256": "a1fba51290be3f252e80d212b8138fa535369b39d303416c695382643d7ba5cc"
+  },
+  {
+    "path": "references/S06-video.png",
+    "bytes": 646503,
+    "sha256": "4eaa3d899a00a8a713699bd3ca6c50f2ff97794baacc608e4859c05311e12e96"
+  },
+  {
+    "path": "references/S07-video.png",
+    "bytes": 643491,
+    "sha256": "261c964438acc91ecafe3b19a21dfd9ed336b0d5ccaee89828f60bc141acbfe4"
+  },
+  {
+    "path": "references/S08-video.png",
+    "bytes": 634821,
+    "sha256": "a5c471d11b2133dd6d8eebef2004bf28ca6730da78dce6c2325ba9c645277c1a"
+  },
+  {
+    "path": "references/S09-video.png",
+    "bytes": 651733,
+    "sha256": "a9d60000b24626d15e9e1b35bb4424d54efcbfa7759c4597f6cf5bf82598f017"
+  },
+  {
+    "path": "scripts/validate.py",
+    "bytes": 782,
+    "sha256": "411bf065d159931dc73370cb3540ff40443f78fcba6aed244c0522127c219af8"
+  },
+  {
+    "path": "scripture-catalog.json",
+    "bytes": 6905,
+    "sha256": "e9546e8e4f98ab31158c7ede5cbeb32018933322715183b74ec819042ef876e5"
+  },
+  {
+    "path": "storyboard.json",
+    "bytes": 29485,
+    "sha256": "4f1e8cf074b0eaf593cf3d70d18a25b851908a55ddc1984482c4e8b74d6cb036"
+  }
+]

@@ -1,0 +1,148 @@
+{
+  "S01": [],
+  "S02": [
+    {
+      "text": "欲定勤行成就如意足",
+      "x": 45,
+      "y": 35,
+      "width": 50,
+      "color": "#ffffff",
+      "fontSizeCqw": 4.8,
+      "anchor": "top-left",
+      "visible": "entire_scene"
+    }
+  ],
+  "S03": [
+    {
+      "text": "精進定勤行成就如意足",
+      "x": 44,
+      "y": 42,
+      "width": 55,
+      "color": "#000000",
+      "fontSizeCqw": 4.5,
+      "anchor": "top-left",
+      "visible": "entire_scene"
+    }
+  ],
+  "S04": [
+    {
+      "text": "心定勤行成就如意足",
+      "x": 24,
+      "y": 24,
+      "width": 54,
+      "color": "#000000",
+      "fontSizeCqw": 4.8,
+      "anchor": "top-left",
+      "visible": "entire_scene"
+    }
+  ],
+  "S05": [
+    {
+      "text": "觀定勤行成就如意足",
+      "x": 32,
+      "y": 55,
+      "width": 55,
+      "color": "#000000",
+      "fontSizeCqw": 4.8,
+      "anchor": "top-left",
+      "visible": "entire_scene"
+    }
+  ],
+  "S06": [
+    {
+      "text": "懈怠",
+      "x": 5,
+      "y": 20,
+      "width": 22,
+      "color": "#ffffff",
+      "fontSizeCqw": 4.8,
+      "anchor": "top-left",
+      "visible": "entire_scene"
+    },
+    {
+      "text": "掉舉",
+      "x": 53,
+      "y": 20,
+      "width": 22,
+      "color": "#ffffff",
+      "fontSizeCqw": 4.8,
+      "anchor": "top-left",
+      "visible": "entire_scene"
+    },
+    {
+      "text": "昏沉睡眠",
+      "x": 2,
+      "y": 53,
+      "width": 28,
+      "color": "#ffffff",
+      "fontSizeCqw": 4.8,
+      "anchor": "top-left",
+      "visible": "entire_scene"
+    },
+    {
+      "text": "貪著散亂",
+      "x": 52,
+      "y": 53,
+      "width": 28,
+      "color": "#ffffff",
+      "fontSizeCqw": 4.8,
+      "anchor": "top-left",
+      "visible": "entire_scene"
+    }
+  ],
+  "S07": [
+    {
+      "text": "前後想，上下想，晝夜想，光明心",
+      "x": 14,
+      "y": 43,
+      "width": 77,
+      "color": "#ffffff",
+      "fontSizeCqw": 4.5,
+      "anchor": "top-left",
+      "visible": "entire_scene"
+    }
+  ],
+  "S08": [
+    {
+      "text": "欲如意足",
+      "x": 1,
+      "y": 24,
+      "width": 23,
+      "color": "#ffffff",
+      "fontSizeCqw": 4.5,
+      "anchor": "top-left",
+      "visible": "entire_scene"
+    },
+    {
+      "text": "勤如意足",
+      "x": 26,
+      "y": 24,
+      "width": 23,
+      "color": "#ffffff",
+      "fontSizeCqw": 4.5,
+      "anchor": "top-left",
+      "visible": "entire_scene"
+    },
+    {
+      "text": "心如意足",
+      "x": 51,
+      "y": 24,
+      "width": 23,
+      "color": "#ffffff",
+      "fontSizeCqw": 4.5,
+      "anchor": "top-left",
+      "visible": "entire_scene"
+    },
+    {
+      "text": "觀如意足",
+      "x": 76,
+      "y": 24,
+      "width": 23,
+      "color": "#ffffff",
+      "fontSizeCqw": 4.5,
+      "anchor": "top-left",
+      "visible": "entire_scene"
+    }
+  ],
+  "S09": []
+}

@@ -1,0 +1,168 @@
+{
+  "commit": "c7bba0f184e66904949d4918587975fb7fd7ec69",
+  "files": [
+    {
+      "id": "sn51.22",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/sn/sn51/sn51.22.html",
+      "sha256": "385dee1c6c57872164fc92cca402eee362964811af4c32041861f79bf4bcccd3",
+      "bytes": 2650,
+      "local": "canonical/sn51.22.html"
+    },
+    {
+      "id": "sn51.13",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/sn/sn51/sn51.13.html",
+      "sha256": "86d24dd73414e7ca00a55df188bf95476465a2fd4727f6a609790db3f7665acf",
+      "bytes": 2683,
+      "local": "canonical/sn51.13.html"
+    },
+    {
+      "id": "sn51.20",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/sn/sn51/sn51.20.html",
+      "sha256": "d9b0e8cbf3cf8d96ac2659fed645806e75f6b65b78268fcb85c668aafb37a1af",
+      "bytes": 7020,
+      "local": "canonical/sn51.20.html"
+    },
+    {
+      "id": "sn51.11",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/sn/sn51/sn51.11.html",
+      "sha256": "83596a110ee85bdb096c3cf030491b7bd0a975cfbcfa59f2530782b02010c95e",
+      "bytes": 5555,
+      "local": "canonical/sn51.11.html"
+    },
+    {
+      "id": "sa561",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa501-600/sa561.html",
+      "sha256": "ff31ed400187f336a92d63b77fb296fd54fbecb12a720691684b54bac7e9279c",
+      "bytes": 4686,
+      "local": "canonical/sa561.html"
+    }
+  ],
+  "paliFiles": [
+    {
+      "id": "sn51.11",
+      "url": "https://raw.githubusercontent.com/suttacentral/bilara-data/baa73bb5dae8a99d71073a3f7370bfd22de633e2/root/pli/ms/sutta/sn/sn51/sn51.11_root-pli-ms.json",
+      "local": "canonical/sn51.11-pli.json",
+      "sha256": "90a57535c23a16ec42295a451adc01f08ce147a1ff403c76afef66a09b4a4915",
+      "commit": "baa73bb5dae8a99d71073a3f7370bfd22de633e2"
+    },
+    {
+      "id": "sn51.13",
+      "url": "https://raw.githubusercontent.com/suttacentral/bilara-data/baa73bb5dae8a99d71073a3f7370bfd22de633e2/root/pli/ms/sutta/sn/sn51/sn51.13_root-pli-ms.json",
+      "local": "canonical/sn51.13-pli.json",
+      "sha256": "3ce230b745075094fc4b2e4628fdad944fc2585388982876ff55e0cabeefa9a9",
+      "commit": "baa73bb5dae8a99d71073a3f7370bfd22de633e2"
+    },
+    {
+      "id": "sn51.20",
+      "url": "https://raw.githubusercontent.com/suttacentral/bilara-data/baa73bb5dae8a99d71073a3f7370bfd22de633e2/root/pli/ms/sutta/sn/sn51/sn51.20_root-pli-ms.json",
+      "local": "canonical/sn51.20-pli.json",
+      "sha256": "0e1c72c61edc77775cc0d3855099d07d5a1f19d41f1537c1bb062d7a9d65b8de",
+      "commit": "baa73bb5dae8a99d71073a3f7370bfd22de633e2"
+    },
+    {
+      "id": "sn51.22",
+      "url": "https://raw.githubusercontent.com/suttacentral/bilara-data/baa73bb5dae8a99d71073a3f7370bfd22de633e2/root/pli/ms/sutta/sn/sn51/sn51.22_root-pli-ms.json",
+      "local": "canonical/sn51.22-pli.json",
+      "sha256": "1df26653ae240e64351f2f41373fb7ea79f39868fc3f248b369441252d238b00",
+      "commit": "baa73bb5dae8a99d71073a3f7370bfd22de633e2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "sn51.22",
+      "title": "《相應部》51.22經〈鐵球經〉",
+      "meta": "南傳經典 · 相應部 · 莊春江中譯",
+      "quoteIds": [
+        "Q01"
+      ],
+      "original": "https://agama.buddhason.org/SN/SN1563.htm",
+      "comparison": "https://suttacentral.net/sn51.22/pli/ms",
+      "comparisonLabel": "巴利原文",
+      "provider": "莊春江讀經站",
+      "excerpts": [
+        "阿難！猶如白天被曬熱的鐵球成為較輕、較柔軟、較適合作業、較輝耀，同樣的，阿難！每當如來將身置入心中；將心置入身中，並且住於進入關於身的幸福想與輕想時，阿難！那時，如來的身體成為較輕、較柔軟、較適合作業、較輝耀。",
+        "阿難！猶如輕盈的木棉花絨或棉花絨容易地從地面上升到虛空，同樣的，每當如來將身置入心中；將心置入身中，並且住於進入關於身的幸福想與輕想時，阿難！那時，如來的身體容易地從地面上升到虛空，他經驗各種神通：有了一個後變成多個，有了多個後變成一個；……（中略）以身體自在行進直到梵天世界。」"
+      ]
+    },
+    {
+      "id": "sn51.13",
+      "title": "《相應部》51.13經〈欲定經〉",
+      "meta": "南傳經典 · 相應部 · 莊春江中譯",
+      "quoteIds": [
+        "Q02",
+        "Q03",
+        "Q04",
+        "Q05",
+        "Q06"
+      ],
+      "original": "https://agama.buddhason.org/SN/SN1554.htm",
+      "comparison": "https://suttacentral.net/sn51.13/pli/ms",
+      "comparisonLabel": "巴利原文",
+      "provider": "莊春江讀經站",
+      "excerpts": [
+        "「比丘們！如果比丘依止欲而得到定、得到心一境性，這被稱為『欲定』。",
+        "他為了未生起的惡不善法之不生起而生欲，努力、生起活力，發心、勤奮；為了已生起的惡不善法之捨斷而生欲，努力、生起活力，發心、勤奮；為了未生起的善法之生起而生欲，努力、生起活力，發心、勤奮；為了已生起的善法之存續、不消失、增加、擴大、圓滿修習而生欲，努力、生起活力，發心、勤奮，這被稱為『勤奮之行』。",
+        "這樣，這是欲，這是欲定，這些是勤奮之行，比丘們！這被稱為『具備欲定勤奮之行的神足』。",
+        "比丘們！如果比丘依止活力而得到定、得到心一境性，這被稱為『活力定』。",
+        "比丘們！如果比丘依止心而得到定、得到心一境性，這被稱為『心定』。",
+        "比丘們！如果比丘依止考察而得到定、得到心一境性，這被稱為『考察定』。",
+        "他為了未生起的惡不善法之不生起而生欲，努力、生起活力，發心、勤奮；……（中略）為了已生起的善法之存續、不消失、增加、擴大、圓滿修習而生欲，努力、生起活力，發心、勤奮，這被稱為『勤奮之行』。"
+      ]
+    },
+    {
+      "id": "sn51.20",
+      "title": "《相應部》51.20經〈解析經〉",
+      "meta": "南傳經典 · 相應部 · 莊春江中譯",
+      "quoteIds": [
+        "Q07",
+        "Q08"
+      ],
+      "original": "https://agama.buddhason.org/SN/SN1561.htm",
+      "comparison": "https://suttacentral.net/sn51.20/pli/ms",
+      "comparisonLabel": "巴利原文",
+      "provider": "莊春江讀經站",
+      "excerpts": [
+        "而，比丘們！當四神足如何已修習、如何已多修習時，有大果、大效益呢？比丘們！這裡，比丘修習具備欲定勤奮之行的神足［而心想］：『像這樣，我的欲將不過於鬆，也不過於緊；不過於內斂，也不過於外散。』他住於前後有感知的：『後如前那樣地，前如後那樣地；上如下那樣地，下如上那樣地；夜晚如白天那樣地，白天如夜晚那樣地。』像這樣，以無遮蔽、不被覆蓋的心，修習有光輝的心。",
+        "比丘們！什麼是過於鬆的欲呢？比丘們！凡欲與倦怠俱行、與倦怠相應者，比丘們！這被稱為過於鬆的欲。",
+        "比丘們！什麼是過於緊的欲呢？比丘們！凡欲與掉舉俱行、與掉舉相應者，比丘們！這被稱為過於緊的欲。",
+        "比丘們！什麼是過於內斂的欲呢？比丘們！凡欲與惛沈睡眠俱行、與惛沈睡眠相應者，比丘們！這被稱為過於內斂的欲。",
+        "比丘們！什麼是過於外散的欲呢？比丘們！凡欲被關於外部的五種欲分散、散開者，比丘們！這被稱為過於外散的欲。",
+        "比丘們！比丘如何住於上如下那樣地，下如上那樣地呢？比丘們！這裡，比丘觀察此身：從腳掌底往上，髮梢往下，皮膚所包覆充滿種種不淨的：『此身有頭髮、體毛、指甲、牙齒、皮膚、肌肉、筋腱、骨骼、骨髓、腎臟、心臟、肝臟、肋膜、脾臟、肺臟、腸子、腸間膜、胃、糞便、膽汁、痰、膿、血、汗、脂肪、眼淚、油脂、唾液、鼻涕、關節液、尿。』比丘們！比丘這樣住於上如下那樣地，下如上那樣地。",
+        "比丘們！比丘如何以無遮蔽、不被覆蓋的心修習有光輝的心呢？比丘們！這裡，比丘善把握光明想，善決意白天想，比丘們！比丘這樣以無遮蔽、不被覆蓋的心修習有光輝的心。"
+      ]
+    },
+    {
+      "id": "sn51.11",
+      "title": "《相應部》51.11經〈以前經〉",
+      "meta": "南傳經典 · 相應部 · 莊春江中譯",
+      "quoteIds": [
+        "Q09"
+      ],
+      "original": "https://agama.buddhason.org/SN/SN1552.htm",
+      "comparison": "https://suttacentral.net/sn51.11/pli/ms",
+      "comparisonLabel": "巴利原文",
+      "provider": "莊春江讀經站",
+      "excerpts": [
+        "比丘們！當四神足已這麼修習、已這麼多修習時，他以諸煩惱的滅盡，以證智自作證後，在當生中以進入後住於無煩惱的心解脫、慧解脫。』」"
+      ]
+    },
+    {
+      "id": "sa561",
+      "title": "《雜阿含經》第561經",
+      "meta": "北傳漢譯 · 大正藏T02，No.99",
+      "quoteIds": [
+        "Q10",
+        "Q11"
+      ],
+      "original": "https://suttacentral.net/sa561/lzh/taisho",
+      "comparison": "https://buddhaspace.org/agama/sub/561.html",
+      "comparisonLabel": "註解導讀",
+      "provider": "SuttaCentral 大正藏版",
+      "excerpts": [
+        "婆羅門！於意云何？汝先有欲來詣精舍不？」婆羅門答言：「如是，阿難！」「如是，婆羅門！來至精舍已，彼欲息不？",
+        "聖弟子修欲定斷行成就如意足，依離、依無欲、依出要、依滅、向於捨，乃至斷愛，愛斷已，彼欲亦息。修精進定、心定、思惟定斷行成就，依離、依無欲、依出要、依滅、向於捨，乃至愛盡，愛盡已，思惟則息。"
+      ]
+    }
+  ],
+  "policy": "讀本Q01–Q08保留交接本頁中文譯意及巴利摘錄，不冒署莊春江；導讀具名中譯節錄另依實際讀取官方原檔。Q09保留影片摘錄且不推定譯者。Q10–Q11保留古漢譯與省略標示。原外站403不等同缺少來源。"
+}

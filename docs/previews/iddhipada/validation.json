@@ -1,0 +1,50 @@
+{
+  "baseline": "140f62221726485916f3992d8ea6f5782e7507b5",
+  "scenes": 9,
+  "pages": 82,
+  "narrationParagraphs": 81,
+  "quotes": 11,
+  "overlays": 13,
+  "originalImages": 9,
+  "pageStates": 410,
+  "enlargedOverlayStates": 65,
+  "viewports": [
+    {
+      "width": 360,
+      "height": 800,
+      "pages": 82,
+      "controls": "passed"
+    },
+    {
+      "width": 800,
+      "height": 360,
+      "pages": 82,
+      "controls": "passed"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "pages": 82,
+      "controls": "passed"
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "pages": 82,
+      "controls": "passed"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "pages": 82,
+      "controls": "passed"
+    }
+  ],
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "physicalIPadSafari": "not tested",
+  "production": "review branch only; not merged or deployed",
+  "legacyReaders": "all 10 open/next/return passed",
+  "rootEntrances": "shelf #11 and existing map node passed",
+  "localHTTPPreview": "guide/reader/menu/navigation/quotes/enlargement/return/restart passed"
+}
