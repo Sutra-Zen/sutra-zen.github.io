@@ -1,3 +1,13 @@
+# 第10本發布授權（2026-11-16）
+
+作者於審閱實作交付後明確指示「直接發佈」，取代下方歷史審閱限制。以PR #28發布《安那般那與止觀》；不改動已驗證的119頁、原始交接與其它九本。移除新專頁／閱讀器的試閱noindex及導讀標題中的試閱字樣，快取版本改為正式標記。
+
+發布完成必須核對實際合併SHA、GitHub Pages build成功及公開首頁／導讀／閱讀器／圖片檔案，並下載固定合併SHA完整ZIP核對CRC及追蹤檔案。以下595個頁面狀態為同一套內容與互動的發布前驗收，不代表實體Safari驗收。正式入口為 https://rooneyflower-star.github.io/sutrazen-map/anapana/ 與 /anapana/book/；成功與否以發布回報及PR #28最終驗證記錄為準。
+
+本環境工具清單仍無Notion搜尋／讀取／更新工具，尚未寫入改版頁。待補記文字為 `docs/releases/anapana-notion.md`；不得稱為已補記。來源疑點仍保留REVIEW_TODO，不因作者授權發布而自行改寫引文。
+
+---
+
 # 第10本《安那般那與止觀》審閱實作（2026-11-16）
 
 **本次作者只授權審閱實作，不合併main、不部署正式站。** 從最新main `0034db754a478bbce76c79b0dbe7479822dfee76` 建立 `feat/anapana-review`，以draft PR交付。GitHub Pages仍為main根目錄，書架第10本只在本分支開放，正式站不變。

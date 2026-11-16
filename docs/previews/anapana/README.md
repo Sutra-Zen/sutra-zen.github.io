@@ -1,6 +1,6 @@
 # 安那般那與止觀｜試閱
 
-2026-11-16，分支 `feat/anapana-review`。**此版本未合併 main、未發布正式站。** 正式網站目前不會出現本次新書入口。
+2026-11-16，原審閱分支 `feat/anapana-review`。作者已於交付後授權直接發布，由PR #28進行。以下保留原試閱與驗收方式；正式發布結果見PR #28最終核對記錄及最新HANDOFF。正式入口為 https://rooneyflower-star.github.io/sutrazen-map/anapana/ 。
 
 ## 開啟互動試閱
 
