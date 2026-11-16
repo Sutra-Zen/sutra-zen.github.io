@@ -10,6 +10,7 @@ from playwright.sync_api import sync_playwright
 ROOT=Path(__file__).resolve().parents[1]; DOCS=ROOT/'docs/iddhipada'; OUT=ROOT/'docs/previews/iddhipada'
 BASELINE='140f62221726485916f3992d8ea6f5782e7507b5'
 STORY=json.loads((DOCS/'storyboard.json').read_text());CAT=json.loads((DOCS/'scripture-catalog.json').read_text())
+for qid,changes in json.loads((DOCS/'reader-edits.json').read_text()).items():CAT[qid].update(changes)
 LABELS=json.loads((DOCS/'overlay-layout.json').read_text())['overlays']; SOURCES=json.loads((DOCS/'verified-sources.json').read_text())
 BOOK=json.loads((ROOT/'iddhipada/book/book-data.js').read_text().split('const BOOK = ')[1].rstrip(';\n'))
 SIZES=[(360,800),(800,360),(768,1024),(1024,768),(1440,900)]
@@ -35,6 +36,9 @@ def static_checks(network):
     qid=q['quoteId'];used.add(qid);assert q==dict(CAT[qid],quoteId=qid)
    n+=1
  assert n==81 and used==set(CAT) and BOOK['timingAccuracy']==STORY['timingAccuracy']
+ assert not CAT['Q09']['translationNote'] and CAT['Q09']['originalText'] in clean((DOCS/'canonical/sn51.11.html').read_bytes())
+ assert CAT['Q09']['sourceType']=='modern_chinese_translation' and '莊春江' in CAT['Q09']['source']
+ assert all('Q03' not in q['translationNote'] for q in CAT.values())
  assert BOOK['scenes'][5]['image']=='assets/S06.png'
  assert all(s['artOverlay']==[] for s in [BOOK['scenes'][0],BOOK['scenes'][-1]])
  ending=BOOK['pages'][-1];assert ending['afterword'] and not ending['lines'] and not ending['quotes']
@@ -120,7 +124,7 @@ def browser_checks(shots):
     assert r['lines']==item['lines'] and r['number']==f'{i+1} / 82 頁'
     assert not r['overflow'] and r['touch']=='manipulation',(w,h,i,'overflow/touch')
     assert r['paragraph']==item.get('paragraphId','') and r['start']==str(item.get('startSeconds','')) and r['end']==str(item.get('endSeconds',''))
-    assert r['quotes']==[{'id':q['quoteId'],'type':q['sourceType'],'source':q['source'],'original':q['originalText'],'chinese':q['translationNote'] if q['sourceType']=='pali_with_editorial_chinese_paraphrase' else None,'note':None if q['sourceType']=='pali_with_editorial_chinese_paraphrase' else q['translationNote']} for q in item['quotes']]
+    assert r['quotes']==[{'id':q['quoteId'],'type':q['sourceType'],'source':q['source'],'original':q['originalText'],'chinese':q['translationNote'] if q['sourceType']=='pali_with_editorial_chinese_paraphrase' else None,'note':None if q['sourceType']=='pali_with_editorial_chinese_paraphrase' else q['translationNote'] or None} for q in item['quotes']]
     if item['image']:
      plan=next(s for s in BOOK['scenes'] if s['id']==item['scene']);art=r['art']
      assert r['image']==item['image'] and r['natural']==item['dimensions'] and art['height']>65 and art['width']>115,(w,h,i,art)
