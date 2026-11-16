@@ -1,0 +1,164 @@
+{
+  "S01": [],
+  "S02": [],
+  "S03": [
+    {
+      "text": "貪欲",
+      "x": 13.5,
+      "y": 50.0,
+      "width": 12.0,
+      "color": "#000000",
+      "fontSizeCqw": 5.0,
+      "anchor": "top-left",
+      "textAlign": "center",
+      "visible": "entire_scene",
+      "mobileMode": "scale_with_image"
+    },
+    {
+      "text": "瞋恚",
+      "x": 28.0,
+      "y": 37.0,
+      "width": 12.0,
+      "color": "#000000",
+      "fontSizeCqw": 5.0,
+      "anchor": "top-left",
+      "textAlign": "center",
+      "visible": "entire_scene",
+      "mobileMode": "scale_with_image"
+    },
+    {
+      "text": "惛沉",
+      "x": 45.0,
+      "y": 24.0,
+      "width": 13.0,
+      "color": "#000000",
+      "fontSizeCqw": 5.0,
+      "anchor": "top-left",
+      "textAlign": "center",
+      "visible": "entire_scene",
+      "mobileMode": "scale_with_image"
+    },
+    {
+      "text": "掉悔",
+      "x": 62.0,
+      "y": 37.0,
+      "width": 13.0,
+      "color": "#000000",
+      "fontSizeCqw": 5.0,
+      "anchor": "top-left",
+      "textAlign": "center",
+      "visible": "entire_scene",
+      "mobileMode": "scale_with_image"
+    },
+    {
+      "text": "疑",
+      "x": 82.0,
+      "y": 50.0,
+      "width": 8.0,
+      "color": "#000000",
+      "fontSizeCqw": 5.0,
+      "anchor": "top-left",
+      "textAlign": "center",
+      "visible": "entire_scene",
+      "mobileMode": "scale_with_image"
+    }
+  ],
+  "S04": [
+    {
+      "text": "十六勝行：身隨觀",
+      "x": 27.0,
+      "y": 84.0,
+      "width": 48.0,
+      "color": "#ffffff",
+      "fontSizeCqw": 4.8,
+      "anchor": "top-left",
+      "textAlign": "center",
+      "visible": "entire_scene",
+      "mobileMode": "scale_with_image"
+    }
+  ],
+  "S05": [
+    {
+      "text": "十六勝行：受隨觀",
+      "x": 27.0,
+      "y": 84.0,
+      "width": 48.0,
+      "color": "#ffffff",
+      "fontSizeCqw": 4.8,
+      "anchor": "top-left",
+      "textAlign": "center",
+      "visible": "entire_scene",
+      "mobileMode": "scale_with_image"
+    }
+  ],
+  "S06": [
+    {
+      "text": "十六勝行：心隨觀",
+      "x": 27.0,
+      "y": 84.0,
+      "width": 48.0,
+      "color": "#ffffff",
+      "fontSizeCqw": 4.8,
+      "anchor": "top-left",
+      "textAlign": "center",
+      "visible": "entire_scene",
+      "mobileMode": "scale_with_image"
+    }
+  ],
+  "S07": [
+    {
+      "text": "十六勝行：法隨觀",
+      "x": 27.0,
+      "y": 84.0,
+      "width": 48.0,
+      "color": "#ffffff",
+      "fontSizeCqw": 4.8,
+      "anchor": "top-left",
+      "textAlign": "center",
+      "visible": "entire_scene",
+      "mobileMode": "scale_with_image"
+    }
+  ],
+  "S08": [],
+  "S09": [],
+  "S10": [
+    {
+      "text": "眼微開",
+      "x": 52.0,
+      "y": 87.0,
+      "width": 6.2,
+      "color": "#fff5d8",
+      "fontSizeCqw": 1.4,
+      "anchor": "top-left",
+      "textAlign": "center",
+      "visible": "entire_scene",
+      "mobileMode": "outside_image_when_width_below_600px"
+    },
+    {
+      "text": "齒唇自然合",
+      "x": 59.1,
+      "y": 87.0,
+      "width": 7.3,
+      "color": "#fff5d8",
+      "fontSizeCqw": 1.4,
+      "anchor": "top-left",
+      "textAlign": "center",
+      "visible": "entire_scene",
+      "mobileMode": "outside_image_when_width_below_600px"
+    },
+    {
+      "text": "舌抵上顎",
+      "x": 67.1,
+      "y": 87.0,
+      "width": 6.2,
+      "color": "#fff5d8",
+      "fontSizeCqw": 1.4,
+      "anchor": "top-left",
+      "textAlign": "center",
+      "visible": "entire_scene",
+      "mobileMode": "outside_image_when_width_below_600px"
+    }
+  ],
+  "S11": [],
+  "S12": []
+}

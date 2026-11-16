@@ -1,0 +1,218 @@
+[
+  {
+    "path": "assets/S01.png",
+    "bytes": 2947711,
+    "sha256": "f74d06deb8650aeea3287115e19055999c33f0e85a575a3084f714ceba63a67c",
+    "width": 1672,
+    "height": 941,
+    "originalFilename": "B9CB10F4-5065-4F03-BE21-6E5045648D51.PNG"
+  },
+  {
+    "path": "assets/S02.png",
+    "bytes": 3403624,
+    "sha256": "ec9e29259df0a96ef29a532ec324bc3c576c50de99a9cac36b7e0a20debb5c37",
+    "width": 1672,
+    "height": 941,
+    "originalFilename": "A4C80AA7-19A3-41CF-BFAF-D21865FA538B.PNG"
+  },
+  {
+    "path": "assets/S03.png",
+    "bytes": 3206906,
+    "sha256": "e7b5143c9b3141749275d054ca4ec6bd553e9cbbfef12e702b67d5fab66b5100",
+    "width": 1672,
+    "height": 941,
+    "originalFilename": "95D90BB7-2405-4DCC-BAA1-20C484761D9E(1).PNG"
+  },
+  {
+    "path": "assets/S04.png",
+    "bytes": 3121802,
+    "sha256": "6ab994309fa343140ac21759be0a6854ecee094c1cf5de656849bcfa84999a40",
+    "width": 1672,
+    "height": 941,
+    "originalFilename": "C9782E3D-B072-46C8-8C26-C588E695135E.PNG"
+  },
+  {
+    "path": "assets/S05.png",
+    "bytes": 2785981,
+    "sha256": "a8eb2082dc6c89b56e00fbb3d5e851fc2867333695a44eac6734969e19d3407b",
+    "width": 1672,
+    "height": 941,
+    "originalFilename": "C42B24A5-F1AE-43E5-9D3C-96E73F29C037.PNG"
+  },
+  {
+    "path": "assets/S06.png",
+    "bytes": 3080079,
+    "sha256": "bae52f04cae88eacc053c7fccd4b07b5a6e6d2cbc6230e1978a8ff96a47c9d34",
+    "width": 1672,
+    "height": 941,
+    "originalFilename": "898F7BF7-E790-4D02-8C5E-93173898B479.PNG"
+  },
+  {
+    "path": "assets/S07.png",
+    "bytes": 2913782,
+    "sha256": "661fea59c87699b10424f0227f78f68ec26d051d65f7b9c84bf9cc5ac521421f",
+    "width": 1672,
+    "height": 941,
+    "originalFilename": "FA80D450-E0F3-469B-B675-637478E6646D.PNG"
+  },
+  {
+    "path": "assets/S08.png",
+    "bytes": 2953554,
+    "sha256": "74fce71b5973d307932c961b5f9ebd8841a7a7a8e95ac21263759ea07d94ebfa",
+    "width": 1672,
+    "height": 941,
+    "originalFilename": "68C0CCAE-2C75-447B-A39F-B308A0FEC4FB.PNG"
+  },
+  {
+    "path": "assets/S09.png",
+    "bytes": 3451409,
+    "sha256": "dddcaab65d093010cda0175f06d3f62f27aa34551983628e5d9f90239d95e2b3",
+    "width": 1672,
+    "height": 941,
+    "originalFilename": "CE486EBF-2DD2-4501-92C6-98F1CA573730.PNG"
+  },
+  {
+    "path": "assets/S10.png",
+    "bytes": 3189433,
+    "sha256": "db774f7234a63583d0e9fededa11361a09c089fafafa4a35f5c13df96f8a5f96",
+    "width": 1672,
+    "height": 941,
+    "originalFilename": "6563E62C-7CC3-4338-87B1-23B9A9B17BC2.PNG"
+  },
+  {
+    "path": "assets/S11.png",
+    "bytes": 3216481,
+    "sha256": "85ffca7907daf7fc99eb53371de94b5293d619b862ce3dbc9c99fcd5b33abb71",
+    "width": 1672,
+    "height": 941,
+    "originalFilename": "F769E2FA-BC51-4EBE-B56E-4DF9B3B6E0A8.PNG"
+  },
+  {
+    "path": "references/S01-video.png",
+    "bytes": 613475,
+    "sha256": "63fa1873b6a18af434182dcf51c581dda25953b2cd48af81714f78ad46791346",
+    "width": 640,
+    "height": 360,
+    "originalFilename": null
+  },
+  {
+    "path": "references/S02-video.png",
+    "bytes": 641276,
+    "sha256": "6f3241ff6c304d14972620bb63c6ea320709b0e15894037faacbd8579ce0406f",
+    "width": 640,
+    "height": 360,
+    "originalFilename": null
+  },
+  {
+    "path": "references/S03-video.png",
+    "bytes": 631533,
+    "sha256": "4d82aa8c4442fbf03b1f649317920750a4369eff61ca4891b61e38e6cb2ad401",
+    "width": 640,
+    "height": 360,
+    "originalFilename": null
+  },
+  {
+    "path": "references/S04-video.png",
+    "bytes": 577495,
+    "sha256": "095d3ccab8f3f397837103704aeb2cf12aa40cf78cfafe91b98c60cfec0af5e3",
+    "width": 640,
+    "height": 360,
+    "originalFilename": null
+  },
+  {
+    "path": "references/S05-video.png",
+    "bytes": 551820,
+    "sha256": "1dbda70e320031b2e185110a8b6388255823814a4770781626106c61039c4f15",
+    "width": 640,
+    "height": 360,
+    "originalFilename": null
+  },
+  {
+    "path": "references/S06-video.png",
+    "bytes": 575188,
+    "sha256": "d1078385dedc0a0f4f87e29d4b8dfc28e864427820441b4f3ee131405a557163",
+    "width": 640,
+    "height": 360,
+    "originalFilename": null
+  },
+  {
+    "path": "references/S07-video.png",
+    "bytes": 552317,
+    "sha256": "e1120cb0876431f7776b28866c44957fa06aa67e096f372fd19167f7e224452c",
+    "width": 640,
+    "height": 360,
+    "originalFilename": null
+  },
+  {
+    "path": "references/S08-video.png",
+    "bytes": 554171,
+    "sha256": "a6b69fdcfb6ba33b8763152dcb01a2fa9279e6ad8fb544e8d28b4ff90f68d052",
+    "width": 640,
+    "height": 360,
+    "originalFilename": null
+  },
+  {
+    "path": "references/S09-video.png",
+    "bytes": 634023,
+    "sha256": "239253ae0afe47d378a3f59d9cbd720b799f0e025261a4484384048e8ccd157a",
+    "width": 640,
+    "height": 360,
+    "originalFilename": null
+  },
+  {
+    "path": "references/S10-video.png",
+    "bytes": 593528,
+    "sha256": "66be4f542d1e7cb38b4d58bf145902e795e501a72054d004b437c70203365f63",
+    "width": 640,
+    "height": 360,
+    "originalFilename": null
+  },
+  {
+    "path": "references/S11-video.png",
+    "bytes": 607432,
+    "sha256": "91c2f7e3b71d67f094d672c84fa836b119b0fb5c32f61913cae3cecf2f4fc479",
+    "width": 640,
+    "height": 360,
+    "originalFilename": null
+  },
+  {
+    "path": "references/S12-video.png",
+    "bytes": 61989,
+    "sha256": "6cae43385a5eec02b7e1a9a8366b01a8796910adb35280375a7c9d1fe92d3e32",
+    "width": 640,
+    "height": 360,
+    "originalFilename": null
+  },
+  {
+    "path": "references/source-screenshot.png",
+    "bytes": 308980,
+    "sha256": "43efe207e219394806ea4ba54a906d9b0e7ee0d4215875743db4ecf7708bc58d",
+    "width": 1408,
+    "height": 753,
+    "originalFilename": "截圖 2026-11-15 晚上10.28.24.png"
+  },
+  {
+    "path": "references/video-550s.png",
+    "bytes": 597040,
+    "sha256": "11ba7e0d1eb2c92b188fb47617712accaff1388ba84298ea9e5f9d4d0a8a5f42",
+    "width": 640,
+    "height": 360,
+    "originalFilename": null
+  },
+  {
+    "path": "references/video-600s.png",
+    "bytes": 603714,
+    "sha256": "464a111cac7f3837be9319a214ce34247ae36ca2ff0072e2e94466c38600a599",
+    "width": 640,
+    "height": 360,
+    "originalFilename": null
+  },
+  {
+    "path": "references/video-615s.png",
+    "bytes": 604080,
+    "sha256": "f555afd6044f527667b6084dcef81bcedc81e08e2efe30b73ce837d07fdff2a9",
+    "width": 640,
+    "height": 360,
+    "originalFilename": null
+  }
+]

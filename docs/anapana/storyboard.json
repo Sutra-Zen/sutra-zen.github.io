@@ -1,0 +1,1439 @@
+{
+  "schemaVersion": 1,
+  "language": "zh-Hant",
+  "notionUrl": "https://app.notion.com/p/419cf2ef57db81d99f88d90cfadce19a",
+  "video": {
+    "filename": "我的影片 10-360p30.mov",
+    "durationSeconds": 647.37,
+    "included": false,
+    "url": "https://youtu.be/QzAUik0ePm8"
+  },
+  "coordinateSystem": {
+    "origin": "image_top_left",
+    "units": "percent",
+    "anchor": "top-left",
+    "includeOriginalImageBorder": true,
+    "fontUnit": "cqw",
+    "approximate": true
+  },
+  "scenes": [
+    {
+      "sceneId": "S01",
+      "title": "安那般那・入息與出息",
+      "type": "illustration",
+      "timeRange": "00:00–00:32",
+      "startSeconds": 0,
+      "endSeconds": 32,
+      "image": "assets/S01.png",
+      "originalFilename": "B9CB10F4-5065-4F03-BE21-6E5045648D51.PNG",
+      "imageWidth": 1672,
+      "imageHeight": 941,
+      "bakedText": "安那（Āna）：入息；般那（Apāna）：出息。兩個標題已烘焙於原圖，不另加。",
+      "narration": [
+        {
+          "id": "S01-P01",
+          "paragraph": 1,
+          "text": "在修行的路上，我們都渴望讓心獲得真正的平靜，",
+          "quoteIds": [
+            "Q01"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S01-P02",
+          "paragraph": 2,
+          "text": "甚至開啟心靈深處那股不可思議的專注力量。",
+          "quoteIds": [
+            "Q01"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S01-P03",
+          "paragraph": 3,
+          "text": "佛陀指導了一個人人都能就地發動禪定的方式，叫做「安那般那」。",
+          "quoteIds": [
+            "Q01"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S01-P04",
+          "paragraph": 4,
+          "text": "這個名字聽起來很神秘，",
+          "quoteIds": [
+            "Q01"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S01-P05",
+          "paragraph": 5,
+          "text": "但從古印度梵語的語言學來說明，它其實非常平易近人：",
+          "quoteIds": [
+            "Q01"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S01-P06",
+          "paragraph": 6,
+          "text": "「安那」指的是吸氣，「般那」則是呼氣。",
+          "quoteIds": [
+            "Q01"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S01-P07",
+          "paragraph": 7,
+          "text": "也就是透過我們每一個當下的呼吸，來培育清明覺照的正念。",
+          "quoteIds": [
+            "Q01"
+          ],
+          "sourceNote": null
+        }
+      ],
+      "overlays": [],
+      "sourceType": "canonical_with_narration",
+      "notes": "\n\n原圖已有：安那（Āna）：入息；般那（Apāna）：出息。兩個標題已烘焙於原圖，不另加。\n\n本幕新增教學疊字為空，不要再生成主題標籤覆蓋原圖。\n\n"
+    },
+    {
+      "sceneId": "S02",
+      "title": "禪定準備・輕裝檢查清單",
+      "type": "illustration",
+      "timeRange": "00:32–01:07",
+      "startSeconds": 32,
+      "endSeconds": 67,
+      "image": "assets/S02.png",
+      "originalFilename": "A4C80AA7-19A3-41CF-BFAF-D21865FA538B.PNG",
+      "imageWidth": 1672,
+      "imageHeight": 941,
+      "bakedText": "1 持戒無悔；2 少欲少務；3 飲食知量；4 警策清醒；5 空閑寂靜。五塊木牌已有文字。",
+      "narration": [
+        {
+          "id": "S02-P01",
+          "paragraph": 1,
+          "text": "在開始前，佛陀叮嚀我們先幫身心完成一張「輕裝檢查清單」。",
+          "quoteIds": [
+            "Q02"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S02-P02",
+          "paragraph": 2,
+          "text": "第一，安住在淨戒中，像小貓小心翼翼不踩傷花朵，避免產生悔恨的心。",
+          "quoteIds": [
+            "Q02"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S02-P03",
+          "paragraph": 3,
+          "text": "第二，給生活減重，暫時卸下沉重的心理行李與繁雜事務；",
+          "quoteIds": [
+            "Q03"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S02-P04",
+          "paragraph": 4,
+          "text": "第三，讓身體剛剛好的舒服，飲食適量，不昏沉也不飢餓。",
+          "quoteIds": [
+            "Q04"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S02-P05",
+          "paragraph": 5,
+          "text": "第四，用清涼的露水拍拍臉，喚醒沉睡懈怠的心。",
+          "quoteIds": [
+            "Q05"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S02-P06",
+          "paragraph": 6,
+          "text": "第五，選擇安靜不被打擾的環境。",
+          "quoteIds": [],
+          "sourceNote": "補充出處截圖803經：或空露地；影片此句未另切經文"
+        }
+      ],
+      "overlays": [],
+      "sourceType": "canonical_with_narration",
+      "notes": "\n\n原圖已有：1 持戒無悔；2 少欲少務；3 飲食知量；4 警策清醒；5 空閑寂靜。五塊木牌已有文字。\n\n本幕新增教學疊字為空，不要再生成主題標籤覆蓋原圖。\n\n"
+    },
+    {
+      "sceneId": "S03",
+      "title": "遠離五蓋",
+      "type": "illustration",
+      "timeRange": "01:07–01:22",
+      "startSeconds": 67,
+      "endSeconds": 82,
+      "image": "assets/S03.png",
+      "originalFilename": "95D90BB7-2405-4DCC-BAA1-20C484761D9E(1).PNG",
+      "imageWidth": 1672,
+      "imageHeight": 941,
+      "bakedText": "無中文名稱，五個名稱須新增，見下表。",
+      "narration": [
+        {
+          "id": "S03-P01",
+          "paragraph": 1,
+          "text": "當這一切準備就緒，",
+          "quoteIds": [
+            "Q06"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S03-P02",
+          "paragraph": 2,
+          "text": "我們可以遠離貪欲、瞋恚、昏沉睡眠、掉舉追悔，以及疑惑的五蓋煩惱。",
+          "quoteIds": [
+            "Q06"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S03-P03",
+          "paragraph": 3,
+          "text": "接著讓我們跟著小貓一起正念專注，學習「安那般那」呼吸法。",
+          "quoteIds": [
+            "Q06"
+          ],
+          "sourceNote": null
+        }
+      ],
+      "overlays": [
+        {
+          "text": "貪欲",
+          "x": 13.5,
+          "y": 50.0,
+          "width": 12.0,
+          "color": "#000000",
+          "fontSizeCqw": 5.0,
+          "anchor": "top-left",
+          "textAlign": "center",
+          "visible": "entire_scene",
+          "mobileMode": "scale_with_image"
+        },
+        {
+          "text": "瞋恚",
+          "x": 28.0,
+          "y": 37.0,
+          "width": 12.0,
+          "color": "#000000",
+          "fontSizeCqw": 5.0,
+          "anchor": "top-left",
+          "textAlign": "center",
+          "visible": "entire_scene",
+          "mobileMode": "scale_with_image"
+        },
+        {
+          "text": "惛沉",
+          "x": 45.0,
+          "y": 24.0,
+          "width": 13.0,
+          "color": "#000000",
+          "fontSizeCqw": 5.0,
+          "anchor": "top-left",
+          "textAlign": "center",
+          "visible": "entire_scene",
+          "mobileMode": "scale_with_image"
+        },
+        {
+          "text": "掉悔",
+          "x": 62.0,
+          "y": 37.0,
+          "width": 13.0,
+          "color": "#000000",
+          "fontSizeCqw": 5.0,
+          "anchor": "top-left",
+          "textAlign": "center",
+          "visible": "entire_scene",
+          "mobileMode": "scale_with_image"
+        },
+        {
+          "text": "疑",
+          "x": 82.0,
+          "y": 50.0,
+          "width": 8.0,
+          "color": "#000000",
+          "fontSizeCqw": 5.0,
+          "anchor": "top-left",
+          "textAlign": "center",
+          "visible": "entire_scene",
+          "mobileMode": "scale_with_image"
+        }
+      ],
+      "sourceType": "canonical_with_narration",
+      "notes": "\n\n原圖已有：無中文名稱，五個名稱須新增，見下表。\n\n| 新增文字 | 左x% | 上y% | 寬% | 字色 | 字級cqw |\n| --- | --- | --- | --- | --- | --- |\n| 貪欲 | 13.5 | 50 | 12 | #000000 | 5 |\n| 瞋恚 | 28 | 37 | 12 | #000000 | 5 |\n| 惛沉 | 45 | 24 | 13 | #000000 | 5 |\n| 掉悔 | 62 | 37 | 13 | #000000 | 5 |\n| 疑 | 82 | 50 | 8 | #000000 | 5 |\n\n位置對應左側糖果怪、左上火球、上方樹懶、右上飛蟲、右側疑雲。五條字同時顯示。原片為黑字；可加淡米色細描邊提升對比，勿新增大色塊蓋住怪物臉。\n\n"
+    },
+    {
+      "sceneId": "S04",
+      "title": "十六勝行・身隨觀",
+      "type": "illustration",
+      "timeRange": "01:22–02:22",
+      "startSeconds": 82,
+      "endSeconds": 142,
+      "image": "assets/S04.png",
+      "originalFilename": "C9782E3D-B072-46C8-8C26-C588E695135E.PNG",
+      "imageWidth": 1672,
+      "imageHeight": 941,
+      "bakedText": "知息長、知息短、覺一切身、身行息，四格直書已存在。",
+      "narration": [
+        {
+          "id": "S04-P01",
+          "paragraph": 1,
+          "text": "首先，是帶領我們安頓身體的「身隨觀」：",
+          "quoteIds": [
+            "Q07"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S04-P02",
+          "paragraph": 2,
+          "text": "第一【知息長】：當你吸氣長、呼氣長的時候，不要去控制它。",
+          "quoteIds": [
+            "Q07"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S04-P03",
+          "paragraph": 3,
+          "text": "只是單純地知道：「現在的呼吸正長長地進出。」",
+          "quoteIds": [
+            "Q07"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S04-P04",
+          "paragraph": 4,
+          "text": "第二【知息短】：當吸氣短、呼氣短的時候，",
+          "quoteIds": [
+            "Q07"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S04-P05",
+          "paragraph": 5,
+          "text": "也只是清明地看著它：「此時的呼吸正短暫而細微。」",
+          "quoteIds": [
+            "Q07"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S04-P06",
+          "paragraph": 6,
+          "text": "第三【覺一切身】：接著，不要只盯著鼻頭呼吸。",
+          "quoteIds": [
+            "Q08"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S04-P07",
+          "paragraph": 7,
+          "text": "把你的覺察力像毛毯一樣鋪開，感受全身上下隨著呼吸產生的微細波動。",
+          "quoteIds": [
+            "Q08"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S04-P08",
+          "paragraph": 8,
+          "text": "第四【身行息】：",
+          "quoteIds": [
+            "Q09"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S04-P09",
+          "paragraph": 9,
+          "text": "當全身上下都沉浸在呼吸中，緊繃的肌肉放鬆了，狂奔的雜念也踩了煞車。",
+          "quoteIds": [
+            "Q09"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S04-P10",
+          "paragraph": 10,
+          "text": "身體和呼吸，在這一刻達到了前所未有的極致平靜。",
+          "quoteIds": [
+            "Q09"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S04-P11",
+          "paragraph": 11,
+          "text": "此時的我們，正以熱心、正知與正念，調伏世間的貪婪與憂愁。",
+          "quoteIds": [
+            "Q10"
+          ],
+          "sourceNote": null
+        }
+      ],
+      "overlays": [
+        {
+          "text": "十六勝行：身隨觀",
+          "x": 27.0,
+          "y": 84.0,
+          "width": 48.0,
+          "color": "#ffffff",
+          "fontSizeCqw": 4.8,
+          "anchor": "top-left",
+          "textAlign": "center",
+          "visible": "entire_scene",
+          "mobileMode": "scale_with_image"
+        }
+      ],
+      "sourceType": "canonical_with_narration",
+      "notes": "\n\n原圖已有：知息長、知息短、覺一切身、身行息，四格直書已存在。\n\n| 新增文字 | 左x% | 上y% | 寬% | 字色 | 字級cqw |\n| --- | --- | --- | --- | --- | --- |\n| 十六勝行：身隨觀 | 27 | 84 | 48 | #ffffff | 4.8 |\n\n本幕主題字同時跨越中間兩格的下方，留在圖內；使用輕微黑色陰影提升白字可讀性，不要移到頁首，也不要蓋住左側直書標籤。四格對應本幕口白第一至第四項，保持由左至右順序。\n\n"
+    },
+    {
+      "sceneId": "S05",
+      "title": "十六勝行・受隨觀",
+      "type": "illustration",
+      "timeRange": "02:22–03:45",
+      "startSeconds": 142,
+      "endSeconds": 225,
+      "image": "assets/S05.png",
+      "originalFilename": "C42B24A5-F1AE-43E5-9D3C-96E73F29C037.PNG",
+      "imageWidth": 1672,
+      "imageHeight": 941,
+      "bakedText": "覺知喜、覺知樂、覺知心行、心行息，四格直書已存在。",
+      "narration": [
+        {
+          "id": "S05-P01",
+          "paragraph": 1,
+          "text": "當身體完全平靜下來後，心靈的感官開始變得敏銳。",
+          "quoteIds": [
+            "Q11"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S05-P02",
+          "paragraph": 2,
+          "text": "接下來，我們進入調和情緒與感受的「受隨觀」：",
+          "quoteIds": [
+            "Q11"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S05-P03",
+          "paragraph": 3,
+          "text": "第一【覺知喜】：",
+          "quoteIds": [
+            "Q11"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S05-P04",
+          "paragraph": 4,
+          "text": "隨著呼吸越來越清涼，內心會自然湧現出一股如泉水般的喜悅。",
+          "quoteIds": [
+            "Q11"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S05-P05",
+          "paragraph": 5,
+          "text": "此時，清楚地覺察這份愉悅，不抗拒，也不貪戀。",
+          "quoteIds": [
+            "Q11"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S05-P06",
+          "paragraph": 6,
+          "text": "第二【覺知樂】：",
+          "quoteIds": [
+            "Q12"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S05-P07",
+          "paragraph": 7,
+          "text": "漸漸地，雀躍的喜悅沉澱下來，化作一種深深的、溫暖的舒適與滿足。",
+          "quoteIds": [
+            "Q12"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S05-P08",
+          "paragraph": 8,
+          "text": "這是一種被全然療癒的「樂」，全身上下都像包在溫柔的光芒裡。",
+          "quoteIds": [
+            "Q12"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S05-P09",
+          "paragraph": 9,
+          "text": "第三【覺知心行】：",
+          "quoteIds": [
+            "Q13"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S05-P10",
+          "paragraph": 10,
+          "text": "這時候，佛陀提醒我們去觀察：這些美好的感受，會如何引發心靈的波動？",
+          "quoteIds": [
+            "Q13"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S05-P11",
+          "paragraph": 11,
+          "text": "感受會帶來想法，想法會帶來情緒。",
+          "quoteIds": [
+            "Q13"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S05-P12",
+          "paragraph": 12,
+          "text": "看著內心像水面一樣泛起微細的漣漪，只是看著，不被它帶走。",
+          "quoteIds": [
+            "Q13"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S05-P13",
+          "paragraph": 13,
+          "text": "第四【心行息】：當你只是純粹地陪伴，不對這些情緒編織更多的故事，",
+          "quoteIds": [
+            "Q14"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S05-P14",
+          "paragraph": 14,
+          "text": "心靈的漣漪自然會漸漸擴散、平息。",
+          "quoteIds": [
+            "Q14"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S05-P15",
+          "paragraph": 15,
+          "text": "最終，心平靜得像一面沒有波紋的鏡子，倒映著絕對的寧靜。",
+          "quoteIds": [
+            "Q14"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S05-P16",
+          "paragraph": 16,
+          "text": "看清了情緒與感受的起伏，就這樣安住在諸受之中，調伏世間的貪婪與憂愁。",
+          "quoteIds": [
+            "Q15"
+          ],
+          "sourceNote": null
+        }
+      ],
+      "overlays": [
+        {
+          "text": "十六勝行：受隨觀",
+          "x": 27.0,
+          "y": 84.0,
+          "width": 48.0,
+          "color": "#ffffff",
+          "fontSizeCqw": 4.8,
+          "anchor": "top-left",
+          "textAlign": "center",
+          "visible": "entire_scene",
+          "mobileMode": "scale_with_image"
+        }
+      ],
+      "sourceType": "canonical_with_narration",
+      "notes": "\n\n原圖已有：覺知喜、覺知樂、覺知心行、心行息，四格直書已存在。\n\n| 新增文字 | 左x% | 上y% | 寬% | 字色 | 字級cqw |\n| --- | --- | --- | --- | --- | --- |\n| 十六勝行：受隨觀 | 27 | 84 | 48 | #ffffff | 4.8 |\n\n本幕主題字同時跨越中間兩格的下方，留在圖內；使用輕微黑色陰影提升白字可讀性，不要移到頁首，也不要蓋住左側直書標籤。四格對應本幕口白第一至第四項，保持由左至右順序。\n\n"
+    },
+    {
+      "sceneId": "S06",
+      "title": "十六勝行・心隨觀",
+      "type": "illustration",
+      "timeRange": "03:45–05:01",
+      "startSeconds": 225,
+      "endSeconds": 301,
+      "image": "assets/S06.png",
+      "originalFilename": "898F7BF7-E790-4D02-8C5E-93173898B479.PNG",
+      "imageWidth": 1672,
+      "imageHeight": 941,
+      "bakedText": "覺知心、令心喜、令心攝、令心解脫，四格直書已存在。",
+      "narration": [
+        {
+          "id": "S06-P01",
+          "paragraph": 1,
+          "text": "身體放鬆了，情緒平息了，現在我們要來面對修行的總指揮官：我們的心。",
+          "quoteIds": [
+            "Q16"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S06-P02",
+          "paragraph": 2,
+          "text": "接下來，進入觀照與引導心靈的「心隨觀」：",
+          "quoteIds": [
+            "Q16"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S06-P03",
+          "paragraph": 3,
+          "text": "第一【覺知心】：靜靜地轉過身來，看看你現在的心。它是清澈明亮的？",
+          "quoteIds": [
+            "Q16"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S06-P04",
+          "paragraph": 4,
+          "text": "還是有點放逸、或是有些昏沉？如實地看著它此刻的模樣。",
+          "quoteIds": [
+            "Q16"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S06-P05",
+          "paragraph": 5,
+          "text": "第二【令心喜】：如果發現心變得有點沉悶、提不起勁，",
+          "quoteIds": [
+            "Q17"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S06-P06",
+          "paragraph": 6,
+          "text": "在心底點亮一盞快樂的燈，讓心重新歡喜跳躍起來。",
+          "quoteIds": [
+            "Q17"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S06-P07",
+          "paragraph": 7,
+          "text": "第三【令心攝】：當心充滿了活力，我們要把它散落四處的注意力回收。",
+          "quoteIds": [
+            "Q18"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S06-P08",
+          "paragraph": 8,
+          "text": "讓心安定，不再動搖。",
+          "quoteIds": [
+            "Q18"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S06-P09",
+          "paragraph": 9,
+          "text": "第四【令心解脫】：最後，連這份「專注的力氣」也輕輕放下。",
+          "quoteIds": [
+            "Q19"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S06-P10",
+          "paragraph": 10,
+          "text": "解開所有隱形的束縛與執著，讓心徹底解放，",
+          "quoteIds": [
+            "Q19"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S06-P11",
+          "paragraph": 11,
+          "text": "如同飛向無邊星空的小鳥，體驗到前所未有的自由與廣闊。",
+          "quoteIds": [
+            "Q19"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S06-P12",
+          "paragraph": 12,
+          "text": "佛陀說，只有正念清明的人，才能成功觀照心靈。",
+          "quoteIds": [
+            "Q20"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S06-P13",
+          "paragraph": 13,
+          "text": "此時，這顆不忘失、正知的心，已經牢牢調伏了世間的貪婪與憂愁。",
+          "quoteIds": [
+            "Q20"
+          ],
+          "sourceNote": null
+        }
+      ],
+      "overlays": [
+        {
+          "text": "十六勝行：心隨觀",
+          "x": 27.0,
+          "y": 84.0,
+          "width": 48.0,
+          "color": "#ffffff",
+          "fontSizeCqw": 4.8,
+          "anchor": "top-left",
+          "textAlign": "center",
+          "visible": "entire_scene",
+          "mobileMode": "scale_with_image"
+        }
+      ],
+      "sourceType": "canonical_with_narration",
+      "notes": "\n\n原圖已有：覺知心、令心喜、令心攝、令心解脫，四格直書已存在。\n\n| 新增文字 | 左x% | 上y% | 寬% | 字色 | 字級cqw |\n| --- | --- | --- | --- | --- | --- |\n| 十六勝行：心隨觀 | 27 | 84 | 48 | #ffffff | 4.8 |\n\n本幕主題字同時跨越中間兩格的下方，留在圖內；使用輕微黑色陰影提升白字可讀性，不要移到頁首，也不要蓋住左側直書標籤。四格對應本幕口白第一至第四項，保持由左至右順序。\n\n"
+    },
+    {
+      "sceneId": "S07",
+      "title": "十六勝行・法隨觀",
+      "type": "illustration",
+      "timeRange": "05:01–06:23",
+      "startSeconds": 301,
+      "endSeconds": 383,
+      "image": "assets/S07.png",
+      "originalFilename": "FA80D450-E0F3-469B-B675-637478E6646D.PNG",
+      "imageWidth": 1672,
+      "imageHeight": 941,
+      "bakedText": "觀無常、觀斷、觀無欲、觀滅，四格直書已存在。",
+      "narration": [
+        {
+          "id": "S07-P01",
+          "paragraph": 1,
+          "text": "最後，小貓帶著那顆清澈與自由的心，走向徹底開悟的「法隨觀」：",
+          "quoteIds": [
+            "Q21"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S07-P02",
+          "paragraph": 2,
+          "text": "第一【觀無常】：",
+          "quoteIds": [
+            "Q21"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S07-P03",
+          "paragraph": 3,
+          "text": "看著呼吸的生起與滅去，小貓發現，這世間沒有任何事物是永恆不變的。",
+          "quoteIds": [
+            "Q21"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S07-P04",
+          "paragraph": 4,
+          "text": "不論是快樂、痛苦、還是念頭，都像風中的落葉與繁花，來了，又走了。",
+          "quoteIds": [
+            "Q21"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S07-P05",
+          "paragraph": 5,
+          "text": "第二【觀斷】：",
+          "quoteIds": [
+            "Q22"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S07-P06",
+          "paragraph": 6,
+          "text": "既然一切都在無常改變，原本緊緊抓在手裡的執著，就顯得如此虛幻。",
+          "quoteIds": [
+            "Q22"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S07-P07",
+          "paragraph": 7,
+          "text": "小貓輕輕鬆開了手，那些綁住心靈的隱形鎖鏈寸寸「斷」裂，化作微塵。",
+          "quoteIds": [
+            "Q22"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S07-P08",
+          "paragraph": 8,
+          "text": "第三【觀無欲】：當執著斷開了，",
+          "quoteIds": [
+            "Q23"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S07-P09",
+          "paragraph": 9,
+          "text": "內心那些因為對外境執著而升起的焦慮與貪婪，也徹底失去了燃料。",
+          "quoteIds": [
+            "Q23"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S07-P10",
+          "paragraph": 10,
+          "text": "心靈的火焰冷卻下來，進入了沒有渴望、沒有負擔的「無欲」狀態。",
+          "quoteIds": [
+            "Q23"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S07-P11",
+          "paragraph": 11,
+          "text": "第四【觀滅】：最後，連最微細的煩惱也完全「滅」去，消散在虛空中。",
+          "quoteIds": [
+            "Q24"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S07-P12",
+          "paragraph": 12,
+          "text": "痛苦止息了，心靈迎來了前所未有、極度清涼的寂靜。",
+          "quoteIds": [
+            "Q24"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S07-P13",
+          "paragraph": 13,
+          "text": "當我們以智慧看見世間的貪婪與憂愁被徹底捨斷，",
+          "quoteIds": [
+            "Q25"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S07-P14",
+          "paragraph": 14,
+          "text": "小貓就成了一個最安穩的善旁觀者。",
+          "quoteIds": [
+            "Q25"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S07-P15",
+          "paragraph": 15,
+          "text": "十六個階梯走完，四念處也在此刻，不可思議地圓滿了。",
+          "quoteIds": [
+            "Q26"
+          ],
+          "sourceNote": null
+        }
+      ],
+      "overlays": [
+        {
+          "text": "十六勝行：法隨觀",
+          "x": 27.0,
+          "y": 84.0,
+          "width": 48.0,
+          "color": "#ffffff",
+          "fontSizeCqw": 4.8,
+          "anchor": "top-left",
+          "textAlign": "center",
+          "visible": "entire_scene",
+          "mobileMode": "scale_with_image"
+        }
+      ],
+      "sourceType": "canonical_with_narration",
+      "notes": "\n\n原圖已有：觀無常、觀斷、觀無欲、觀滅，四格直書已存在。\n\n| 新增文字 | 左x% | 上y% | 寬% | 字色 | 字級cqw |\n| --- | --- | --- | --- | --- | --- |\n| 十六勝行：法隨觀 | 27 | 84 | 48 | #ffffff | 4.8 |\n\n本幕主題字同時跨越中間兩格的下方，留在圖內；使用輕微黑色陰影提升白字可讀性，不要移到頁首，也不要蓋住左側直書標籤。四格對應本幕口白第一至第四項，保持由左至右順序。\n\n"
+    },
+    {
+      "sceneId": "S08",
+      "title": "止觀雙修・四種方式",
+      "type": "illustration",
+      "timeRange": "06:23–07:41",
+      "startSeconds": 383,
+      "endSeconds": 461,
+      "image": "assets/S08.png",
+      "originalFilename": "68C0CCAE-2C75-447B-A39F-B308A0FEC4FB.PNG",
+      "imageWidth": 1672,
+      "imageHeight": 941,
+      "bakedText": "先止後觀、先觀後止、掉亂後止、止觀並行；止（Samatha）、觀（Vipassana）、掉亂心及箭頭均已存在。",
+      "narration": [
+        {
+          "id": "S08-P01",
+          "paragraph": 1,
+          "text": "這就是佛陀所傳授的止觀雙修。",
+          "quoteIds": [
+            "Q27"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S08-P02",
+          "paragraph": 2,
+          "text": "透過呼吸，我們讓身體止息下來，培育了「止」的定力；",
+          "quoteIds": [
+            "Q27"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S08-P03",
+          "paragraph": 3,
+          "text": "又在呼吸的生滅中看清無常，開啟了「觀」的智慧。",
+          "quoteIds": [
+            "Q27"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S08-P04",
+          "paragraph": 4,
+          "text": "「止觀」兩位使者齊心協力，終於把我們的心，穩穩地送到解脫的彼岸。",
+          "quoteIds": [
+            "Q27"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S08-P05",
+          "paragraph": 5,
+          "text": "另外佛陀也說明了，每個人的特質不同，適合的修行風格也完全不同。",
+          "quoteIds": [
+            "Q28"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S08-P06",
+          "paragraph": 6,
+          "text": "【先止後觀】的修行人：",
+          "quoteIds": [
+            "Q28"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S08-P07",
+          "paragraph": 7,
+          "text": "你喜歡先把船錨定好，先透過方法讓心完全安定（止），",
+          "quoteIds": [
+            "Q28"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S08-P08",
+          "paragraph": 8,
+          "text": "當心變得像止水一樣平靜時，再睜開智慧的眼去剖析世間的實相（觀）。",
+          "quoteIds": [
+            "Q28"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S08-P09",
+          "paragraph": 9,
+          "text": "【先觀後止】的修行人：",
+          "quoteIds": [
+            "Q29"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S08-P10",
+          "paragraph": 10,
+          "text": "你是理性思考者，喜歡先在生活中思維佛法、選擇與思量真理（觀），",
+          "quoteIds": [
+            "Q29"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S08-P11",
+          "paragraph": 11,
+          "text": "當大腦想通了、看透了，浮躁的心自然而然就會安頓沉澱下來（止）。",
+          "quoteIds": [
+            "Q29"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S08-P12",
+          "paragraph": 12,
+          "text": "【掉亂後止】的修行人：如果思緒被焦慮與雜念的大風吹得東倒西歪，",
+          "quoteIds": [
+            "Q30"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S08-P13",
+          "paragraph": 13,
+          "text": "別氣餒，佛陀說，這時我們要先用特殊的技巧，調伏這顆狂奔的心。",
+          "quoteIds": [
+            "Q30"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S08-P14",
+          "paragraph": 14,
+          "text": "【止觀並行】的修行人：",
+          "quoteIds": [
+            "Q31"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S08-P15",
+          "paragraph": 15,
+          "text": "你的定力與智慧像雙手一樣，齊頭並進、和合俱行，在呼吸間同步成長。",
+          "quoteIds": [
+            "Q31"
+          ],
+          "sourceNote": null
+        }
+      ],
+      "overlays": [],
+      "sourceType": "canonical_with_narration",
+      "notes": "\n\n原圖已有：先止後觀、先觀後止、掉亂後止、止觀並行；止（Samatha）、觀（Vipassana）、掉亂心及箭頭均已存在。\n\n本幕新增教學疊字為空，不要再生成主題標籤覆蓋原圖。\n\n"
+    },
+    {
+      "sceneId": "S09",
+      "title": "論師實修手記・轉場",
+      "type": "illustration",
+      "timeRange": "07:41–08:17",
+      "startSeconds": 461,
+      "endSeconds": 497,
+      "image": "assets/S09.png",
+      "originalFilename": "CE486EBF-2DD2-4501-92C6-98F1CA573730.PNG",
+      "imageWidth": 1672,
+      "imageHeight": 941,
+      "bakedText": "卷軸上的「論師實修手記」已存在。",
+      "narration": [
+        {
+          "id": "S09-P01",
+          "paragraph": 1,
+          "text": "但是，現代人的大腦真的太疲憊、太散亂了。",
+          "quoteIds": [],
+          "sourceNote": "無下緣經文；影片自撰轉場"
+        },
+        {
+          "id": "S09-P02",
+          "paragraph": 2,
+          "text": "我們常常才剛坐下一分鐘，內心就變成了這片森林裡橫衝直撞的獼猴。",
+          "quoteIds": [],
+          "sourceNote": "無下緣經文；影片自撰轉場"
+        },
+        {
+          "id": "S09-P03",
+          "paragraph": 3,
+          "text": "一下子想著等一下要吃什麼，一下子焦慮著未來的難題。",
+          "quoteIds": [],
+          "sourceNote": "無下緣經文；影片自撰轉場"
+        },
+        {
+          "id": "S09-P04",
+          "paragraph": 4,
+          "text": "就在小貓感到挫折的時候，天空突然亮起了一道溫暖的光，",
+          "quoteIds": [],
+          "sourceNote": "無下緣經文；影片自撰轉場"
+        },
+        {
+          "id": "S09-P05",
+          "paragraph": 5,
+          "text": "一本凝聚了後世無數禪師智慧的《論師實修手記》來到了你身邊。",
+          "quoteIds": [],
+          "sourceNote": "無下緣經文；影片自撰轉場"
+        },
+        {
+          "id": "S09-P06",
+          "paragraph": 6,
+          "text": "這雖然不是阿含經中佛陀的原話，卻是流傳千年的超實用輔助。",
+          "quoteIds": [],
+          "sourceNote": "無下緣經文；影片自撰轉場"
+        }
+      ],
+      "overlays": [],
+      "sourceType": "narration",
+      "notes": "\n\n原圖已有：卷軸上的「論師實修手記」已存在。\n\n本幕新增教學疊字為空，不要再生成主題標籤覆蓋原圖。\n\n"
+    },
+    {
+      "sceneId": "S10",
+      "title": "論師調身・四格姿勢",
+      "type": "illustration",
+      "timeRange": "08:17–09:32",
+      "startSeconds": 497,
+      "endSeconds": 572,
+      "image": "assets/S10.png",
+      "originalFilename": "6563E62C-7CC3-4338-87B1-23B9A9B17BC2.PNG",
+      "imageWidth": 1672,
+      "imageHeight": 941,
+      "bakedText": "穩固坐姿、中軸對齊、微調五官、徐徐而轉，四個標題已存在；第三格下緣三個小圖的說明文字尚未存在。",
+      "narration": [
+        {
+          "id": "S10-P01",
+          "paragraph": 1,
+          "text": "首先該如何調整我們的身體呢？",
+          "quoteIds": [
+            "Q32"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S10-P02",
+          "paragraph": 2,
+          "text": "蓮華戒大師在《修次中編》、《下編》，列出了一套物理調身指引。",
+          "quoteIds": [
+            "Q32"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S10-P03",
+          "paragraph": 3,
+          "text": "第一【穩固坐姿】，雙腳：選擇單盤或雙盤。",
+          "quoteIds": [
+            "Q32"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S10-P04",
+          "paragraph": 4,
+          "text": "至於雙手，不用死板限制，只要交疊放鬆在膝上或腹前即可。",
+          "quoteIds": [
+            "Q32"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S10-P05",
+          "paragraph": 5,
+          "text": "第二【中軸對齊】，身體：讓脊椎自然豎直，不要後仰也不要前屈；",
+          "quoteIds": [
+            "Q33"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S10-P06",
+          "paragraph": 6,
+          "text": "肩膀：保持平齊放鬆。",
+          "quoteIds": [
+            "Q34"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S10-P07",
+          "paragraph": 7,
+          "text": "頭部：不要偏斜。讓鼻子與肚臍，正直地對齊在同一條垂直線上。",
+          "quoteIds": [
+            "Q35"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S10-P08",
+          "paragraph": 8,
+          "text": "第三【微調五官】，",
+          "quoteIds": [
+            "Q36"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S10-P09",
+          "paragraph": 9,
+          "text": "雙眼：把眼皮輕輕垂下，微張三分、垂注鼻端，",
+          "quoteIds": [
+            "Q36"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S10-P10",
+          "paragraph": 10,
+          "text": "眼睛微張能讓我們不昏沉、意識專注在出入息的鼻端；",
+          "quoteIds": [
+            "Q36"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S10-P11",
+          "paragraph": 11,
+          "text": "牙齒嘴唇：自然閉合。舌尖：輕輕頂住上排牙齒內側的齒齦。",
+          "quoteIds": [
+            "Q37"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S10-P12",
+          "paragraph": 12,
+          "text": "第四【徐徐而轉】，當硬體對齊後，大師叮嚀：",
+          "quoteIds": [
+            "Q38"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S10-P13",
+          "paragraph": 13,
+          "text": "讓入息與出息維持在沒有聲音、不再粗猛急促的狀態。",
+          "quoteIds": [
+            "Q38"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S10-P14",
+          "paragraph": 14,
+          "text": "在全然放鬆中，呼吸開始全無功用地、徐徐而轉。",
+          "quoteIds": [
+            "Q38"
+          ],
+          "sourceNote": null
+        }
+      ],
+      "overlays": [
+        {
+          "text": "眼微開",
+          "x": 52.0,
+          "y": 87.0,
+          "width": 6.2,
+          "color": "#fff5d8",
+          "fontSizeCqw": 1.4,
+          "anchor": "top-left",
+          "textAlign": "center",
+          "visible": "entire_scene",
+          "mobileMode": "outside_image_when_width_below_600px"
+        },
+        {
+          "text": "齒唇自然合",
+          "x": 59.1,
+          "y": 87.0,
+          "width": 7.3,
+          "color": "#fff5d8",
+          "fontSizeCqw": 1.4,
+          "anchor": "top-left",
+          "textAlign": "center",
+          "visible": "entire_scene",
+          "mobileMode": "outside_image_when_width_below_600px"
+        },
+        {
+          "text": "舌抵上顎",
+          "x": 67.1,
+          "y": 87.0,
+          "width": 6.2,
+          "color": "#fff5d8",
+          "fontSizeCqw": 1.4,
+          "anchor": "top-left",
+          "textAlign": "center",
+          "visible": "entire_scene",
+          "mobileMode": "outside_image_when_width_below_600px"
+        }
+      ],
+      "sourceType": "commentarial",
+      "notes": "\n\n原圖已有：穩固坐姿、中軸對齊、微調五官、徐徐而轉，四個標題已存在；第三格下緣三個小圖的說明文字尚未存在。\n\n| 新增文字 | 左x% | 上y% | 寬% | 字色 | 字級cqw |\n| --- | --- | --- | --- | --- | --- |\n| 眼微開 | 52 | 87 | 6.2 | #fff5d8 | 1.4 |\n| 齒唇自然合 | 59.1 | 87 | 7.3 | #fff5d8 | 1.4 |\n| 舌抵上顎 | 67.1 | 87 | 6.2 | #fff5d8 | 1.4 |\n\n三條新增小字分別對準第三格的眼、嘴、舌小圖下緣，不得放在四格上方。原片「舌抵上顎」是提示短語，下方引文是「舌者，令抵上齒」，口白說上排牙齒內側齒齦，保留差異供校稿。\n\n"
+    },
+    {
+      "sceneId": "S11",
+      "title": "論師調心・數息隨息止與收尾",
+      "type": "illustration",
+      "timeRange": "09:32–10:36",
+      "startSeconds": 572,
+      "endSeconds": 636,
+      "image": "assets/S11.png",
+      "originalFilename": "F769E2FA-BC51-4EBE-B56E-4DF9B3B6E0A8.PNG",
+      "imageWidth": 1672,
+      "imageHeight": 941,
+      "bakedText": "數息：數數降噪；隨息：跟隨呼吸；止：正念就緒；1–10數字皆已存在。",
+      "narration": [
+        {
+          "id": "S11-P01",
+          "paragraph": 1,
+          "text": "身體調整好了，再來如何調心呢？首先是【數息：數數降噪】：",
+          "quoteIds": [
+            "Q39"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S11-P02",
+          "paragraph": 2,
+          "text": "當心太亂、抓不準呼吸時，就給大腦一份單純的工作。",
+          "quoteIds": [
+            "Q39"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S11-P03",
+          "paragraph": 3,
+          "text": "吸氣、呼氣，在心裡默數「一、二、三」……一路數到「十」。",
+          "quoteIds": [
+            "Q39"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S11-P04",
+          "paragraph": 4,
+          "text": "用數字當韁繩，把心神收回來。",
+          "quoteIds": [
+            "Q39"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S11-P05",
+          "paragraph": 5,
+          "text": "再來是【隨息：跟隨呼吸】：",
+          "quoteIds": [
+            "Q40"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S11-P06",
+          "paragraph": 6,
+          "text": "當心念逐漸安定，我們就可以鬆開手、不再數數了。",
+          "quoteIds": [
+            "Q40"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S11-P07",
+          "paragraph": 7,
+          "text": "心念只是純粹地「跟隨」著呼吸在鼻頭的微細進出。",
+          "quoteIds": [
+            "Q40"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S11-P08",
+          "paragraph": 8,
+          "text": "最後是【止：正念就緒】：當你只是純粹地陪伴呼吸，",
+          "quoteIds": [
+            "Q41"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S11-P09",
+          "paragraph": 9,
+          "text": "心靈的波浪終於完全停「止」，穩穩地錨定在當下。",
+          "quoteIds": [
+            "Q41"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S11-P10",
+          "paragraph": 10,
+          "text": "身體正直了，心也安靜了。現在，硬體與軟體都已完美就緒。",
+          "quoteIds": [
+            "Q41"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S11-P11",
+          "paragraph": 11,
+          "text": "我們就可以正式接回佛陀親傳的十六勝行大道，",
+          "quoteIds": [
+            "Q41"
+          ],
+          "sourceNote": null
+        },
+        {
+          "id": "S11-P12",
+          "paragraph": 12,
+          "text": "重新去如實體驗那第一步：吸氣長時，知吸氣長……",
+          "quoteIds": [
+            "Q41"
+          ],
+          "sourceNote": null
+        }
+      ],
+      "overlays": [],
+      "sourceType": "commentarial",
+      "notes": "\n\n原圖已有：數息：數數降噪；隨息：跟隨呼吸；止：正念就緒；1–10數字皆已存在。\n\n本幕新增教學疊字為空，不要再生成主題標籤覆蓋原圖。\n\n"
+    },
+    {
+      "sceneId": "S12",
+      "title": "片尾修行總覽",
+      "type": "textSummary",
+      "timeRange": "10:36–10:47",
+      "startSeconds": 636,
+      "endSeconds": 647.37,
+      "image": null,
+      "narration": [],
+      "overlays": [],
+      "summaryMarkdown": "時間約10:36–10:47。原片黑底白字，無口白，純文字頁。網頁用可選取文字重排，不需要生成插畫。桌機可兩欄，手機一欄；每節獨立段落，不用絕對座標壓字。\n\n<b>一、禪定準備</b>\n\n持戒無悔，少欲少務，飲食知量，警策清醒，空閑寂靜。\n\n<b>二、遠離五蓋</b>\n\n斷世貪欲、離諸瞋恚、清淨惛沉睡眠、斷除掉舉追悔、度越一切疑惑。\n\n<b>三、禪定調身（後世論師建議）</b>\n\n足者，謂全跏趺，如毘盧遮那佛坐，或半跏趺。<br />眼者，不應太開，亦非太閉，垂注鼻端。<br />身者，謂非過後仰，莫太前屈，端身內念。<br />肩者，謂平齊而住。<br />頭者，莫揚，莫低，莫歪一方，且鼻至臍正直而住。<br />齒與唇者，隨自然住。<br />舌者，令抵上齒。<br />息者，內外出入莫令有聲、粗猛急滑，必使出入無所知覺，全無功用徐徐而轉。\n\n<b>四、禪定調心（後世論師建議）</b>\n\n數息 → 隨息 → 止。\n\n<b>五、十六勝行（止觀雙運）</b>\n\n| 組別 | 原片總覽順序 |\n| --- | --- |\n| 身隨觀 | 知息長 → 知息短 → 覺一切身 → 身行息 |\n| 受隨觀 | 覺知喜 → 覺知樂 → 覺知心行 → 心行息 |\n| 心隨觀 | 覺知心 → 覺知心悅 → 覺知心定 → 覺知心解脫 |\n| 法隨觀 | 觀察無常 → 觀察斷 → 觀察無欲 → 觀察滅 |\n\n本幕屬前文複習：一、二對應S02–S03；三對應S10；四對應S11；五對應S04–S07。不另虛構新的經文。心隨觀總覽用803經措辭，插畫用「令心喜／令心攝」，不要因字面不同誤判缺圖。",
+      "sourceSceneIds": [
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S10",
+        "S11"
+      ]
+    }
+  ]
+}
