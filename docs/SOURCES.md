@@ -89,3 +89,13 @@ MA98新增觀身／觀受／觀心／觀法分類，共11段節錄，全部來�
 - `scriptureRefs.narrationParagraphs` 共27組，逐段配對；S10兩組引文分開，六界引文保留空界、識界。S18補充Q15及S20承接Q13明標，不冒充當幕原片下方字幕。校稿提醒與敘事詮釋分開記錄，見 `REVIEW_TODO.md` 與原始兩份REVIEW文件。
 - 論文：Matthew A. Killingsworth、Daniel T. Gilbert, *A Wandering Mind Is an Unhappy Mind*, Science (2010), DOI https://doi.org/10.1126/science.1192439 。實際讀取包內 `references/A_Wandering_Mind_Is_an_Unhappy_Mind.pdf`，核對2250名成人與46.9%心智遊移的研究描述；導讀明示相關性，不把研究當作所有故事詮釋的因果證明。
 - 導讀影片沿用基準網站既有#video-08 `EQjXvgt5OOA`，未虛構包內A／B片段各自的影片網址。
+
+## 安那般那與止觀：審閱實作來源（2026-11-16）
+
+兩包互補普通ZIP完整合併於 `docs/anapana/`；`receipt.json` 記錄兩包SHA-256及38份原檔的大小與雜湊。11張正式PNG、16張參考圖與出處截圖相關影格均未改動；網頁採同尺寸WebP副本，對應見 `web-assets.json`。
+
+已實際讀取SuttaCentral官方sc-data固定版本 `c7bba0f184e66904949d4918587975fb7fd7ec69` 的 SA801、802、803、464、560 及 MN118 六份原檔，存 `canonical/`，原網址／SHA-256／導讀節錄存 `verified-sources.json`。導讀節錄均是所讀原檔的連續原文；MN118明列莊春江中譯，另有巴利原文入口。台大獅子吼以既有雜阿含逐經 `/agama/sub/經號.html` 作註解入口；此環境尚未驗證其外站實際顯示。官方原檔讀取成功不等於外站頁面或YouTube播放驗收。
+
+閱讀器41筆影片錄文與118段白話口白原樣保留，並未因上述對讀直接改成另一個版本。逐筆字串比對僅供找差異，見 `source-comparison.json`；異文、來源標示與譯句問題另列 `REVIEW_TODO.md`。S02無下緣引文的補充與S09創作卷軸名稱分開標示，不充作經文。S12心悅／心定與原圖令心喜／令心攝保留對照。沒有加入SN54.1。
+
+《修次中編／下編》及《安般守意經》金剛寺版各設論師補充卡，提供對應閱讀段落與原出處截圖，尚未冒稱逐字或版本覆核完成；不拿通行《大安般守意經》替換金剛寺本。Notion來源頁僅作來源快照，實作不依賴其媒體；目前未提供Notion工具，未讀寫外部Notion頁面。這次未合併、未發布。

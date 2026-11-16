@@ -1,0 +1,51 @@
+{
+  "baseline": "0034db754a478bbce76c79b0dbe7479822dfee76",
+  "pages": 119,
+  "scenes": 12,
+  "originalImages": 11,
+  "narrationParagraphs": 118,
+  "quotes": 41,
+  "overlays": 12,
+  "pageStates": 595,
+  "viewports": [
+    {
+      "width": 360,
+      "height": 800,
+      "pages": 119,
+      "controls": "passed"
+    },
+    {
+      "width": 800,
+      "height": 360,
+      "pages": 119,
+      "controls": "passed"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "pages": 119,
+      "controls": "passed"
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "pages": 119,
+      "controls": "passed"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "pages": 119,
+      "controls": "passed"
+    }
+  ],
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "physicalIPadSafari": "not tested",
+  "production": "not deployed",
+  "offlineFilePreview": "file:// blocked by managed-browser policy; use documented local HTTP server",
+  "localHTTPPreview": "guide/reader/next/reload/return passed",
+  "legacyReaders": "all 9 open/next/return passed",
+  "enlargedOverlayStates": 24,
+  "backToMap": "passed at phone and iPad landscape"
+}

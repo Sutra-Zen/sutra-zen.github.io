@@ -1,0 +1,167 @@
+{
+  "commit": "c7bba0f184e66904949d4918587975fb7fd7ec69",
+  "files": [
+    {
+      "id": "sa801",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa801-900/sa801.html",
+      "path": "html_text/lzh/sutta/sa/sa801-900/sa801.html",
+      "sha256": "b7c5c9ca4af07cbf90daf5ac97c2102bbc80db4f6d83d1d9d87461ab10f845a7",
+      "local": "canonical/sa801.html"
+    },
+    {
+      "id": "sa802",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa801-900/sa802.html",
+      "path": "html_text/lzh/sutta/sa/sa801-900/sa802.html",
+      "sha256": "4c80d91b02c8b782629b7d4ea01faed133d0d031332b0913081de586494a27b9",
+      "local": "canonical/sa802.html"
+    },
+    {
+      "id": "sa803",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa801-900/sa803.html",
+      "path": "html_text/lzh/sutta/sa/sa801-900/sa803.html",
+      "sha256": "487a635f9cbae66c194012f96c799300c67f80c03ffaef82651572668f97579c",
+      "local": "canonical/sa803.html"
+    },
+    {
+      "id": "sa464",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa401-500/sa464.html",
+      "path": "html_text/lzh/sutta/sa/sa401-500/sa464.html",
+      "sha256": "45fafee47c1adb052ff5ab72f0b828bf988686cc75ca6b8cf0d55dd29a003af5",
+      "local": "canonical/sa464.html"
+    },
+    {
+      "id": "sa560",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa501-600/sa560.html",
+      "path": "html_text/lzh/sutta/sa/sa501-600/sa560.html",
+      "sha256": "dc3d38d6620de45c4527bfbdfbf531576bcf917d59e1fdf5eb0207f0f495c61f",
+      "local": "canonical/sa560.html"
+    },
+    {
+      "id": "mn118",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/mn/mn118.html",
+      "path": "html_text/zh/pli/sutta/mn/mn118.html",
+      "sha256": "2628cbd83d6538765843b79cafc8060507f1a0d5b643219159712f0b5f689279",
+      "local": "canonical/mn118.html"
+    }
+  ],
+  "sources": [
+    {
+      "id": "sa803",
+      "title": "《雜阿含經》第803經",
+      "meta": "北傳漢譯 · 大正藏 T02，No.99",
+      "intro": "本片主體，從準備、遠離五蓋到身、受、心、法的呼吸觀察。心隨觀以「覺知心悅／覺知心定」對讀原圖的「令心喜／令心攝」。",
+      "original": "https://suttacentral.net/sa803/lzh/taisho",
+      "annotation": "https://buddhaspace.org/agama/sub/803.html",
+      "quoteIds": [
+        "Q06",
+        "Q07",
+        "Q08",
+        "Q09",
+        "Q11",
+        "Q12",
+        "Q13",
+        "Q14",
+        "Q16",
+        "Q17",
+        "Q18",
+        "Q19",
+        "Q21",
+        "Q22",
+        "Q23",
+        "Q24"
+      ],
+      "excerpts": [
+        "或入林中、閑房、樹下，或空露地，端身正坐，繫念面前，斷世貪愛，離欲清淨，瞋恚、睡眠、掉悔、疑斷，度諸疑惑，於諸善法心得決定。遠離五蓋煩惱於心，令慧力羸，為障礙分，不趣涅槃。念於內息，繫念善學，念於外息，繫念善學。",
+        "息長息短，覺知一切身入息，於一切身入息善學，覺知一切身出息，於一切身出息善學。覺知一切身行息入息，於一切身行息入息善學，覺知一切身行息出息，於一切身行息出息善學。覺知喜，覺知樂，覺知心行，覺知心行息入息，於覺知心行息入息善學；覺知心行息出息，於覺知心行息出息善學。覺知心，覺知心悅，覺知心定，覺知心解脫入息，於覺知心解脫入息善學，覺知心解脫出息，於覺知心解脫出息善學，觀察無常，觀察斷，觀察無欲，觀察滅入息，於觀察滅入息善學；觀察滅出息，於觀察滅出息善學，是名修安那般那念，身止息、心止息，有覺有觀，寂滅、純一，明分想修習滿足。"
+      ]
+    },
+    {
+      "id": "sa801",
+      "title": "《雜阿含經》第801經",
+      "meta": "北傳漢譯 · 大正藏 T02，No.99",
+      "intro": "說明淨戒、少欲少事少務、飲食知量、警策清醒與空閑林中等準備。",
+      "original": "https://suttacentral.net/sa801/lzh/taisho",
+      "annotation": "https://buddhaspace.org/agama/sub/801.html",
+      "quoteIds": [
+        "Q02",
+        "Q03",
+        "Q04",
+        "Q05"
+      ],
+      "excerpts": [
+        "有五法，多所饒益修安那般那念。何等為五？住於淨戒波羅提木叉律儀，威儀行處具足，於微細罪能生怖畏，受持學戒，是名第一多所饒益修習安那般那念。復次，比丘！少欲、少事、少務，是名二法多所饒益修習安那般那念。復次，比丘！飲食知量，多少得中，不為飲食起求欲想，精勤思惟，是名三法多所饒益修安那般那念。復次，比丘！初夜、後夜不著睡眠，精勤思惟，是名四法多所饒益修安那般那念。復次，比丘！空閑林中，離諸憒閙，是名五法多種饒益修習安那般那念。"
+      ]
+    },
+    {
+      "id": "sa802",
+      "title": "《雜阿含經》第802經",
+      "meta": "北傳漢譯 · 大正藏 T02，No.99",
+      "intro": "說明修習安那般那念的身、心止息。",
+      "original": "https://suttacentral.net/sa802/lzh/taisho",
+      "annotation": "https://buddhaspace.org/agama/sub/802.html",
+      "quoteIds": [
+        "Q01"
+      ],
+      "excerpts": [
+        "當修安那般那念。若比丘修習安那般那念多修習者，得身止息及心止息，有覺有觀，寂滅、純一，明分想修習滿足。"
+      ]
+    },
+    {
+      "id": "mn118",
+      "title": "《中部》118經〈入出息念經〉",
+      "meta": "南傳經典 · 中部 · 莊春江中譯",
+      "intro": "入出息念與四念住的對讀。繪本保留影片譯句；此處另提供具名中譯與巴利原文入口。",
+      "original": "https://suttacentral.net/mn118/zh/zhuang",
+      "pali": "https://suttacentral.net/mn118/pli/ms",
+      "quoteIds": [
+        "Q10",
+        "Q15",
+        "Q20",
+        "Q25",
+        "Q26"
+      ],
+      "excerpts": [
+        "比丘們！當入出息念這麼已修習、這麼已多修習時，有大果、大效益。",
+        "比丘們！比丘每當吸氣長時，他了知：『我吸氣長。』或當呼氣長時，他了知：『我呼氣長』、當吸氣短時，他了知：『我吸氣短。』或當呼氣短時，他了知：『我呼氣短。』、他學習：『感受著一切身，我將吸氣。』他學習：『感受著一切身，我將呼氣。』他學習：『使身行寧靜著，我將吸氣。』他學習：『使身行寧靜著，我將呼氣。』比丘們！那時，比丘住於在身上隨觀身，熱心、正知、有念，能調伏對於世間的貪與憂，比丘們！我說這樣是在身上之身的一種，即：吸氣與呼氣。因此，比丘們！在這裡，那時，比丘住於在身上隨觀身，熱心、正知、有念，能調伏對於世間的貪與憂。",
+        "比丘們！比丘每當他學習：『感受著喜，我將吸氣。』他學習：『感受著喜，我將呼氣。』、他學習：『感受著樂，我將吸氣。』他學習：『感受著樂，我將呼氣。』、他學習：『感受著心行，我將吸氣。』他學習：『感受著心行，我將呼氣。』、他學習：『使心行寧靜著，我將吸氣。』他學習：『使心行寧靜著，我將呼氣。』比丘們！那時，比丘住於在受上隨觀受，熱心、正知、有念，能調伏對於世間的貪與憂，比丘們！我說這樣是在受上之受的一種，即：吸氣與呼氣的好好作意。因此，比丘們！在這裡，那時，比丘住於在受上隨觀受，熱心、正知、有念，能調伏對於世間的貪與憂。",
+        "比丘們！比丘每當他學習：『感受著心，我將吸氣。』他學習：『感受著心，我將呼氣。』、他學習：『使心喜悅著，我將吸氣。』他學習：『使心喜悅著，我將呼氣。』、他學習：『集中著心，我將吸氣。』他學習：『集中著心，我將呼氣。』、他學習：『使心解脫著，我將吸氣。』他學習：『使心解脫著，我將呼氣。』比丘們！那時，比丘住於在心上隨觀心，熱心、正知、有念，能調伏對於世間的貪與憂，比丘們！我說念已忘失、不正知者無入出息念。因此，比丘們！在這裡，那時，比丘住於在心上隨觀心，熱心、正知、有念，能調伏對於世間的貪與憂。",
+        "比丘們！比丘每當他學習：『隨觀無常，我將吸氣。』他學習：『隨觀無常，我將呼氣。』、他學習：『隨觀離貪，我將吸氣。』他學習：『隨觀離貪，我將呼氣。』、他學習：『隨觀滅，我將吸氣。』他學習：『隨觀滅，我將呼氣。』、他學習：『隨觀斷念，我將吸氣。』他學習：『隨觀斷念，我將呼氣。』比丘們！那時，比丘住於在法上隨觀法，熱心、正知、有念，能調伏對於世間的貪與憂，凡以慧見了貪與憂的捨斷者，他是善旁觀者。因此，比丘們！在這裡，那時，比丘住於在法上隨觀法，熱心、正知、有念，能調伏對於世間的貪與憂。"
+      ]
+    },
+    {
+      "id": "sa464",
+      "title": "《雜阿含經》第464經",
+      "meta": "北傳漢譯 · 大正藏 T02，No.99",
+      "intro": "止、觀互相成就及止觀俱修的對讀。",
+      "original": "https://suttacentral.net/sa464/lzh/taisho",
+      "annotation": "https://buddhaspace.org/agama/sub/464.html",
+      "quoteIds": [
+        "Q27"
+      ],
+      "excerpts": [
+        "修習於止，終成於觀，修習觀已，亦成於止。謂聖弟子止、觀俱修，得諸解脫界。"
+      ]
+    },
+    {
+      "id": "sa560",
+      "title": "《雜阿含經》第560經",
+      "meta": "北傳漢譯 · 大正藏 T02，No.99",
+      "intro": "四種修習方式依影片順序對讀；故事中的性格與船隻譬喻是白話詮釋。",
+      "original": "https://suttacentral.net/sa560/lzh/taisho",
+      "annotation": "https://buddhaspace.org/agama/sub/560.html",
+      "quoteIds": [
+        "Q28",
+        "Q29",
+        "Q30",
+        "Q31"
+      ],
+      "excerpts": [
+        "若比丘、比丘尼坐，作如是住心、善住心、局住心、調伏心、止、觀、一心、等受，分別於法量度，修習多修習已，得斷諸使。",
+        "復次，比丘、比丘尼正坐思惟，於法選擇，思量住心，善住、局住，調伏止觀，一心等受。如是正向多住，得離諸使，",
+        "復次，比丘、比丘尼為掉亂所持，以調伏心坐、正坐，住心、善住心、局住心，調伏止觀，一心等受化。如是正向多住已，則斷諸使，",
+        "復次，比丘、比丘尼止觀和合俱行，作如是正向多住，則斷諸使。"
+      ]
+    }
+  ],
+  "policy": "影片118段口白與41筆錄文保持不變。以下6份官方原檔僅作對讀，差異留待作者校稿；論師兩種來源尚未逐字或版本核對，不冒充阿含主體。"
+}
