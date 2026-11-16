@@ -1,0 +1,41 @@
+{
+  "baseline": "444df223dd9bdb47a1e4e914ee27d28aa2f73fed",
+  "changedNarration": 0,
+  "changedQuoteText": 0,
+  "changedImages": 0,
+  "changedReaderControls": 0,
+  "guideOtherSourceCardsPreserved": 7,
+  "pageStates": 72,
+  "viewports": [
+    {
+      "width": 360,
+      "height": 800,
+      "states": 18,
+      "S09NoBandAndS11PlainLabels": "passed",
+      "rotationAndSourceReturn": "passed"
+    },
+    {
+      "width": 800,
+      "height": 360,
+      "states": 18,
+      "S09NoBandAndS11PlainLabels": "passed",
+      "rotationAndSourceReturn": "passed"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "states": 18,
+      "S09NoBandAndS11PlainLabels": "passed",
+      "rotationAndSourceReturn": "passed"
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "states": 18,
+      "S09NoBandAndS11PlainLabels": "passed",
+      "rotationAndSourceReturn": "passed"
+    }
+  ],
+  "javascriptErrors": [],
+  "physicalSafari": "not tested"
+}
