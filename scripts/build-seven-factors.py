@@ -27,8 +27,12 @@ def guide():
  main=root.xpath('//main')[0];main.xpath('./h1')[0].text='七覺支';lead=main.xpath('./p[@class="lead"]')[0];lead.clear();lead.set('class','lead');strong=etree.SubElement(lead,'strong');strong.text='先看清自己的心，再調整用功的火候。';strong.tail='跟著小貓認識念、擇法、精進、喜、輕安、定、捨：心太沉時提起精神，心太浮動時安穩下來，念則始終幫助我們看清當下。'
  section=main.xpath('./section')[0];section.xpath('./h2')[0].text='翻頁繪本 · 七覺支篇';cover=section.xpath('.//a[@class="book-cover"]')[0];cover.set('aria-label','開始翻閱七覺支');im=cover.xpath('./img')[0];im.set('src','assets/04.webp');im.set('alt','小貓覺察呼吸與飄過的落葉')
  chapter=main.xpath('./section')[1];chapter.clear();etree.SubElement(chapter,'h2').text='認識覺支，照看心的火候';grid=etree.SubElement(chapter,'div',{'class':'chapter-grid'})
- for s in read('storyboard.json'):
-  a=etree.SubElement(grid,'a',href='book/index.html?scene='+s['id']);etree.SubElement(a,'strong').text=s['title'];etree.SubElement(a,'span').text=s['cues'][0]['text']
+ for topic in read('guide-topics.json'):
+  a=etree.SubElement(grid,'a',href='book/index.html?scene='+topic['scene']);etree.SubElement(a,'strong').text=topic['title']
+  for paragraph in topic['paragraphs']:etree.SubElement(a,'span').text=paragraph
+ fire=etree.SubElement(chapter,'div',{'class':'source-intro'});etree.SubElement(fire,'h3').text='看火候，調整用功'
+ etree.SubElement(fire,'p').text='依第714經，心微劣、提不起精神時，宜培養擇法、精進、喜，像替小火添乾薪；心浮動、停不下來時，宜修輕安、定、捨，讓心安穩下來。念則一切兼助，幫助我們看清此刻需要怎樣調整。'
+ etree.SubElement(fire,'p').text='七覺支的修習也包括觀察：哪些已生起、哪些尚未生起，如何讓未生者生起、已生者修習圓滿。這與《中部》第10經的覺支觀察相互對讀。'
  video=root.xpath('//*[@id="video"]')[0];video.xpath('./h2')[0].text='療癒系佛法繪本 · 七覺支篇';frame=video.xpath('.//iframe')[0];frame.set('src','https://www.youtube.com/embed/8tlCxoV5x5I');frame.set('title','療癒系佛法繪本 · 七覺支篇')
  refs=root.xpath('//*[@id="sources"]')[0];template=copy.deepcopy(refs.xpath('./article')[0]);icons=[copy.deepcopy(x) for x in template.xpath('.//a[contains(@class,"source-button")]/svg')]
  for a in refs.xpath('./article'):refs.remove(a)

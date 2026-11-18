@@ -1,0 +1,102 @@
+[
+  {
+    "size": [
+      360,
+      800
+    ],
+    "guide": "five-roots-powers",
+    "cards": 5,
+    "overflow": false,
+    "allCardReaderLinks": "passed"
+  },
+  {
+    "size": [
+      360,
+      800
+    ],
+    "guide": "seven-factors",
+    "cards": 7,
+    "overflow": false,
+    "allCardReaderLinks": "passed"
+  },
+  {
+    "size": [
+      800,
+      360
+    ],
+    "guide": "five-roots-powers",
+    "cards": 5,
+    "overflow": false,
+    "allCardReaderLinks": "passed"
+  },
+  {
+    "size": [
+      800,
+      360
+    ],
+    "guide": "seven-factors",
+    "cards": 7,
+    "overflow": false,
+    "allCardReaderLinks": "passed"
+  },
+  {
+    "size": [
+      768,
+      1024
+    ],
+    "guide": "five-roots-powers",
+    "cards": 5,
+    "overflow": false,
+    "allCardReaderLinks": "passed"
+  },
+  {
+    "size": [
+      768,
+      1024
+    ],
+    "guide": "seven-factors",
+    "cards": 7,
+    "overflow": false,
+    "allCardReaderLinks": "passed"
+  },
+  {
+    "size": [
+      1024,
+      768
+    ],
+    "guide": "five-roots-powers",
+    "cards": 5,
+    "overflow": false,
+    "allCardReaderLinks": "passed"
+  },
+  {
+    "size": [
+      1024,
+      768
+    ],
+    "guide": "seven-factors",
+    "cards": 7,
+    "overflow": false,
+    "allCardReaderLinks": "passed"
+  },
+  {
+    "size": [
+      1440,
+      900
+    ],
+    "guide": "five-roots-powers",
+    "cards": 5,
+    "overflow": false,
+    "allCardReaderLinks": "passed"
+  },
+  {
+    "size": [
+      1440,
+      900
+    ],
+    "guide": "seven-factors",
+    "cards": 7,
+    "overflow": false,
+    "allCardReaderLinks": "passed"
+  }
+]
