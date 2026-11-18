@@ -122,7 +122,9 @@ function layoutArtwork() {
   $('#closing-shade').hidden = true; $('#summary-text').hidden = !pages[current].textSummary;
   const narrow = $('#art-frame').getBoundingClientRect().width < 600;
   $('#art-frame').classList.toggle('small-art', narrow);
-  const hints = BOOK.scenes.find(s => s.id === pages[current].scene).artOverlay.filter(o => o.mobileMode === 'outside_image_when_width_below_600px');
+  const activePanel = PANEL_FOCUS.scenes[pages[current].scene]?.pages[pages[current].paragraphNumber - 1];
+  const hints = BOOK.scenes.find(s => s.id === pages[current].scene).artOverlay.filter(o =>
+    o.mobileMode === 'outside_image_when_width_below_600px' && (!activePanel || activePanel === 'p3'));
   $('#outside-labels').hidden = !narrow || !hints.length || !pages[current].image;
   $('#outside-labels').textContent = hints.length ? '由左到右：' + hints.map(o => o.text).join('／') : '';
   $('.page').classList.toggle('has-outside-labels', !$('#outside-labels').hidden);

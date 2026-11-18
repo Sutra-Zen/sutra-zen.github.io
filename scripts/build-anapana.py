@@ -35,13 +35,15 @@ def compile_book():
  subprocess.run(['python3',str(DOCS/'scripts/validate.py')],check=True)
  story=json.loads((DOCS/'storyboard.json').read_text());quotes=json.loads((DOCS/'scripture-catalog.json').read_text());overlays=json.loads((DOCS/'overlays.json').read_text())
  updates=commentary_quotes(json.loads((DOCS/'verified-sources.json').read_text()))
+ edits=json.loads((DOCS/'reader-edits.json').read_text())
+ for qid,label in edits['sourceLabels'].items():updates.setdefault(qid,{})['source']=label
  scenes=[];pages=[]
  for scene in story['scenes']:
   assert overlays[scene['sceneId']]==scene['overlays']
   plan={'id':scene['sceneId'],'title':scene['title'],'image':scene['image'],'alt':scene.get('bakedText',scene['title']),'dimensions':[scene['imageWidth'],scene['imageHeight']] if scene['image'] else None,'start':len(pages),'artOverlay':scene['overlays'],'sourceType':scene.get('sourceType'),'darkOverlayOpacity':0,'summaryRows':[]}
   scenes.append(plan)
   for n in scene['narration']:
-   pages.append({'scene':scene['sceneId'],'title':scene['title'],'paragraphId':n['id'],'paragraphNumber':n['paragraph'],'lines':[n['text']],'quotes':[dict(quotes[q],quoteId=q,relation='影片下緣引文') | updates.get(q,{}) for q in n['quoteIds']],'sourceNote':None if scene['sceneId']=='S09' else n['sourceNote'],'context':'論師實修補充' if scene['sceneId'] in ['S10','S11'] else None,'image':'../assets/'+scene['sceneId']+'.webp','dimensions':plan['dimensions']})
+   pages.append({'scene':scene['sceneId'],'title':scene['title'],'paragraphId':n['id'],'paragraphNumber':n['paragraph'],'lines':[n['text']],'quotes':[dict(quotes[q],quoteId=q,relation='影片下緣引文') | updates.get(q,{}) for q in n['quoteIds']],'sourceNote':None if scene['sceneId']=='S09' else n['sourceNote'],'context':'論師實修補充' if scene['sceneId'] in ['S10','S11'] else None,'image':'../assets/'+scene['sceneId']+'.webp','dimensions':plan['dimensions']} | edits['paragraphs'].get(n['id'],{}))
   if scene['type']=='textSummary':
    sections=[]
    chunks=re.findall(r'<b>(.*?)</b>\s*(.*?)(?=\n\n<b>|\Z)',scene['summaryMarkdown'],re.S)
@@ -60,4 +62,4 @@ if __name__=='__main__':
  parser=argparse.ArgumentParser();parser.add_argument('--check',action='store_true');args=parser.parse_args();target=ROOT/'anapana/book/book-data.js';content=compile_book();guide=compile_guide(json.loads((DOCS/'verified-sources.json').read_text()))
  if args.check:assert target.read_text()==content and (ROOT/'anapana/index.html').read_text()==guide
  else:target.parent.mkdir(parents=True,exist_ok=True);target.write_text(content);(ROOT/'anapana/index.html').write_text(guide)
- print('12 scenes / 118 intact narration paragraphs / 41 quotes (10 commentary sources synchronized) / 12 overlays / 119 reader pages')
+ print('12 scenes / 118 intact narration paragraphs / 41 original quotes + SA803 quiet-place excerpt (10 commentary sources synchronized) / 12 overlays / 119 reader pages')
