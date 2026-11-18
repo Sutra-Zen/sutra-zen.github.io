@@ -1,0 +1,52 @@
+{
+  "baseline": "7f19874e1380102577eae1a6a34f2bf6a99a7326",
+  "viewports": [
+    [
+      360,
+      800
+    ],
+    [
+      800,
+      360
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      1440,
+      900
+    ]
+  ],
+  "targetPageStates": 115,
+  "focusedZoomStates": 40,
+  "nonComicStates": 35,
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "screenshots": [
+    "S01-p3-360x800.webp",
+    "S06-p3-360x800.webp",
+    "S01-p1-768x1024.webp",
+    "S01-p2-768x1024.webp",
+    "S01-p3-768x1024.webp",
+    "S01-p4-768x1024.webp",
+    "S06-p1-768x1024.webp",
+    "S06-p2-768x1024.webp",
+    "S06-p3-768x1024.webp",
+    "S06-p4-768x1024.webp",
+    "S06-p4-zoom-768x1024.webp",
+    "S01-p1-1024x768.webp",
+    "S01-p2-1024x768.webp",
+    "S01-p3-1024x768.webp",
+    "S01-p4-1024x768.webp",
+    "S06-p1-1024x768.webp",
+    "S06-p2-1024x768.webp",
+    "S06-p3-1024x768.webp",
+    "S06-p4-1024x768.webp"
+  ],
+  "physicalSafari": "未測；以Chromium觸控模擬"
+}
