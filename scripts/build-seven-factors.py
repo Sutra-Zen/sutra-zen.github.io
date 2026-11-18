@@ -25,7 +25,7 @@ def book():
 def guide():
  root=html.parse(str(R/'five-roots-powers/index.html'));root.xpath('//title')[0].text='七覺支｜SutraZen 主題導讀';head=root.xpath('//head')[0];root.xpath('//meta[@name="description"]')[0].set('content','看見心的浮動與沉滯，閱讀七覺支十二幕繪本，對讀原經並下載離線閱讀。')
  main=root.xpath('//main')[0];main.xpath('./h1')[0].text='七覺支';lead=main.xpath('./p[@class="lead"]')[0];lead.clear();lead.set('class','lead');strong=etree.SubElement(lead,'strong');strong.text='先看清自己的心，再調整用功的火候。';strong.tail='跟著小貓認識念、擇法、精進、喜、輕安、定、捨：心太沉時提起精神，心太浮動時安穩下來，念則始終幫助我們看清當下。'
- section=main.xpath('./section')[0];section.xpath('./h2')[0].text='翻頁繪本 · 七覺支篇';cover=section.xpath('.//a[@class="book-cover"]')[0];cover.set('aria-label','開始翻閱七覺支');im=cover.xpath('./img')[0];im.set('src','assets/04.webp');im.set('alt','小貓覺察呼吸與飄過的落葉');actions=etree.SubElement(section,'div',{'class':'source-actions'});a=etree.SubElement(actions,'a',{'class':'source-button source-button--original','href':'../downloads/SutraZen-Seven-Factors-Offline.zip','download':''});a.text='下載繪本（離線 ZIP）'
+ section=main.xpath('./section')[0];section.xpath('./h2')[0].text='翻頁繪本 · 七覺支篇';cover=section.xpath('.//a[@class="book-cover"]')[0];cover.set('aria-label','開始翻閱七覺支');im=cover.xpath('./img')[0];im.set('src','assets/04.webp');im.set('alt','小貓覺察呼吸與飄過的落葉')
  chapter=main.xpath('./section')[1];chapter.clear();etree.SubElement(chapter,'h2').text='認識覺支，照看心的火候';grid=etree.SubElement(chapter,'div',{'class':'chapter-grid'})
  for s in read('storyboard.json'):
   a=etree.SubElement(grid,'a',href='book/index.html?scene='+s['id']);etree.SubElement(a,'strong').text=s['title'];etree.SubElement(a,'span').text=s['cues'][0]['text']
@@ -42,7 +42,6 @@ def guide():
   for p in source['providers']:etree.SubElement(providers,'p').text=p
   body=etree.SubElement(article,'div',{'class':'source-text'})
   for section in source['sections']:etree.SubElement(body,'h4',{'class':'source-text-heading'}).text=section['title'];etree.SubElement(etree.SubElement(body,'blockquote'),'p').text=section['text']
- p=etree.SubElement(refs,'p');etree.SubElement(p,'a',href='assets/13.jpeg',target='_blank').text='原片經典出處截圖'
  return S/'index.html',html.tostring(root,encoding='unicode',doctype='<!doctype html>')+'\n'
 if __name__=='__main__':
  p=argparse.ArgumentParser();p.add_argument('--check',action='store_true');a=p.parse_args();validate();outputs=book();path,text=guide();outputs[path]=text
