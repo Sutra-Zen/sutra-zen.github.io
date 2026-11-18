@@ -1,0 +1,152 @@
+{
+  "files": [
+    {
+      "id": "sa646",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa601-700/sa646.html",
+      "local": "canonical/sa646.html",
+      "sha256": "dbedf18051e6ee3b20b4a5002a18402d69dec4fde13e9635cc4a12bbf0a7fdc1"
+    },
+    {
+      "id": "sa647",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa601-700/sa647.html",
+      "local": "canonical/sa647.html",
+      "sha256": "eeb91ddebd87e5b52994d28fbc0017e171a554c1866949af093c1b7d4f62c699"
+    },
+    {
+      "id": "sa654",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa601-700/sa654.html",
+      "local": "canonical/sa654.html",
+      "sha256": "8b042d262ee0f5402e1a2bf1e9c42493b0f5cb6c66b8952763c8c359602d9a39"
+    },
+    {
+      "id": "sa675",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa601-700/sa675.html",
+      "local": "canonical/sa675.html",
+      "sha256": "23ed2f38779c277595b695ebf908b7e7d948fc1bcdcdfc1376e6eca0878546e4"
+    },
+    {
+      "id": "sn48.43",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/sn/sn48/sn48.43.html",
+      "local": "canonical/sn48.43.html",
+      "sha256": "7b275bee11a7880f716e7267de311c3e6f747d33c56a056948e2bf6e2e459502"
+    }
+  ],
+  "sources": [
+    {
+      "id": "sn48.43",
+      "title": "《相應部》第48.43經〈娑雞多經〉",
+      "meta": "南傳經典 · 莊春江中譯",
+      "primary": "https://suttacentral.net/sn48.43/zh/zhuang",
+      "comparison": "https://suttacentral.net/sn48.43/pli/ms",
+      "comparisonLabel": "巴利對讀",
+      "providers": [
+        "中譯經文：SuttaCentral／莊春江",
+        "巴利對讀：SuttaCentral"
+      ],
+      "excerpts": [
+        "比丘們！猶如河向東低斜、向東傾斜、向東坡斜，在其中央有小島，比丘們！有法門，由此法門來到該河就名為一條水流，又，比丘們！有法門，由此法門來到該河就名為二條水流。",
+        "比丘們！什麼法門，由此法門來到該河就名為一條水流呢？比丘們！［分］該島東邊的水與該島西邊的水，比丘們！這是法門，由此法門來到該河就名為一條水流。",
+        "比丘們！什麼法門，由此法門來到該河就名為二條水流呢？比丘們！［分］該島北邊的水與該島南邊的水，比丘們！這是法門，由此法門來到該河就名為二條水流。",
+        "同樣的，比丘們！凡信根者，是信力；凡信力者，是信根，凡活力根者，是活力之力；凡活力之力者，是活力根，凡念根者，是念力；凡念力者，是念根，凡定根者，是定力；凡定力者，是定根，凡慧根者，是慧力；凡慧力者，是慧根。"
+      ],
+      "quoteIds": [
+        "Q01"
+      ]
+    },
+    {
+      "id": "sa646",
+      "title": "《雜阿含經》第646經",
+      "meta": "北傳漢譯 · 大正藏 T02，No.99",
+      "primary": "https://suttacentral.net/sa646/lzh/taisho",
+      "comparison": "https://buddhaspace.org/agama/sub/646.html",
+      "comparisonLabel": "註解導讀",
+      "providers": [
+        "漢譯經文：SuttaCentral 大正藏版",
+        "註解導讀：台大獅子吼佛學專站"
+      ],
+      "excerpts": [
+        "爾時，世尊告諸比丘：「有五根。何等為五？謂信根、精進根、念根、定根、慧根。信根者，當知是四不壞淨；精進根者，當知是四正斷；念根者，當知是四念處；定根者，當知是四禪；慧根者，當知是四聖諦。」"
+      ],
+      "quoteIds": [
+        "Q02",
+        "Q03",
+        "Q05",
+        "Q07",
+        "Q09",
+        "Q11"
+      ]
+    },
+    {
+      "id": "sa647",
+      "title": "《雜阿含經》第647經",
+      "meta": "北傳漢譯 · 大正藏 T02，No.99",
+      "primary": "https://suttacentral.net/sa647/lzh/taisho",
+      "comparison": "https://buddhaspace.org/agama/sub/647.html",
+      "comparisonLabel": "註解導讀",
+      "providers": [
+        "漢譯經文：SuttaCentral 大正藏版",
+        "註解導讀：台大獅子吼佛學專站"
+      ],
+      "excerpts": [
+        "「何等為信根？若比丘於如來所起淨信心，根本堅固，餘沙門、婆羅門、諸天、魔、梵、沙門、婆羅門，及餘世間，無能沮壞其心者，是名信根。",
+        "「何等為精進根？已生惡不善法令斷，生欲、方便、攝心、增進；未生惡不善法不起，生欲、方便、攝心、增進；未生善法令起，生欲、方便、攝心、增進；已生善法住不忘，修習增廣，生欲、方便、攝心、增進，是名精進根。",
+        "「何等為念根？若比丘內身身觀住，慇懃方便，正念正智，調伏世間貪憂；外身、內外身，受、心、法法觀念住亦如是說，是名念根。",
+        "「何等為定根？若比丘離欲惡不善法，有覺有觀，離生喜樂，乃至第四禪具足住，是名定根。",
+        "「何等為慧根？若比丘苦聖諦如實知，苦集聖諦、苦滅聖諦、苦滅道跡聖諦如實知，是名慧根。」"
+      ],
+      "quoteIds": [
+        "Q04",
+        "Q06",
+        "Q08",
+        "Q10",
+        "Q12"
+      ]
+    },
+    {
+      "id": "sa675",
+      "title": "《雜阿含經》第675經",
+      "meta": "北傳漢譯 · 大正藏 T02，No.99",
+      "primary": "https://suttacentral.net/sa675/lzh/taisho",
+      "comparison": "https://buddhaspace.org/agama/sub/675.html",
+      "comparisonLabel": "註解導讀",
+      "providers": [
+        "漢譯經文：SuttaCentral 大正藏版",
+        "註解導讀：台大獅子吼佛學專站"
+      ],
+      "excerpts": [
+        "爾時，世尊告諸比丘……如上說。差別者：「彼信力，當知是四不壞淨。精進力者，當知是四正斷。念力者，當知四念處。定力者，當知是四禪。慧力者，當知是四聖諦。」"
+      ],
+      "quoteIds": [
+        "Q13"
+      ]
+    },
+    {
+      "id": "sa654",
+      "title": "《雜阿含經》第654經",
+      "meta": "北傳漢譯 · 大正藏 T02，No.99",
+      "primary": "https://suttacentral.net/sa654/lzh/taisho",
+      "comparison": "https://buddhaspace.org/agama/sub/654.html",
+      "comparisonLabel": "註解導讀",
+      "providers": [
+        "漢譯經文：SuttaCentral 大正藏版",
+        "註解導讀：台大獅子吼佛學專站"
+      ],
+      "excerpts": [
+        "爾時，世尊告諸比丘：「有五根。何等為五？謂信根、精進根、念根、定根、慧根。此五根，一切皆為慧根所攝受。譬如堂閣眾材，棟為其首，皆依於棟，以攝持故。如是五根，慧為其首，以攝持故。」"
+      ],
+      "quoteIds": [
+        "Q14"
+      ]
+    }
+  ],
+  "comparisonSites": "Buddhaspace CONNECT403; published single-sutra routes retained; canonical text verified via official fixed GitHub source",
+  "paliFiles": [
+    {
+      "id": "sn48.43-pli",
+      "local": "canonical/sn48.43-pli.json",
+      "url": "https://raw.githubusercontent.com/suttacentral/bilara-data/published/root/pli/ms/sutta/sn/sn48/sn48.43_root-pli-ms.json",
+      "sha256": "fdda24f8494f6c536b0ff152343df21a182ecd46a707cbce8fb0a254da978b89",
+      "edition": "published snapshot retrieved 2026-11-18; not quoted as Chinese translation"
+    }
+  ]
+}

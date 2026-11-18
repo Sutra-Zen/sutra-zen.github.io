@@ -1,0 +1,23 @@
+[
+  {
+    "url": "https://buddhaspace.org/agama/sub/646.html",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "url": "https://buddhaspace.org/agama/sub/647.html",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "url": "https://buddhaspace.org/agama/sub/654.html",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "url": "https://buddhaspace.org/agama/sub/675.html",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/suttacentral/bilara-data/published/root/pli/ms/sutta/sn/sn48/sn48.43_root-pli-ms.json",
+    "status": 200,
+    "bytes": 3640
+  }
+]
