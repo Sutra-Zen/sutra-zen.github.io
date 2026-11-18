@@ -41,7 +41,7 @@
       {
         "text": "瞋恚",
         "x": 29,
-        "y": 29,
+        "y": 17,
         "width": 14,
         "color": "#000000",
         "fontSizeCqw": 3.4,
@@ -104,6 +104,30 @@
         "anchor": "top-left"
       },
       "reason": "原建議會落在窗框內；下移至窗底與貓額上方窄隙，字級同比縮放，手機可用既有放大操作。"
+    },
+    {
+      "scene": "S05",
+      "original": {
+        "text": "瞋恚",
+        "x": 29,
+        "y": 29,
+        "width": 14,
+        "color": "#000000",
+        "fontSizeCqw": 3.4,
+        "textAlign": "center",
+        "anchor": "top-left"
+      },
+      "implemented": {
+        "text": "瞋恚",
+        "x": 29,
+        "y": 17,
+        "width": 14,
+        "color": "#000000",
+        "fontSizeCqw": 3.4,
+        "textAlign": "center",
+        "anchor": "top-left"
+      },
+      "reason": "依作者指示上移至火焰上方區域，避開瞋恚小怪獸的眼睛與臉。"
     }
   ]
 }

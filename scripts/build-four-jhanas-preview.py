@@ -15,10 +15,6 @@ def document():
   for o in LABELS[sid]:body.append(f'<div class="label" style="left:{o["x"]}%;top:{o["y"]}%;width:{o["width"]}%;font-size:{o["fontSizeCqw"]}cqw;color:{o["color"]}">{e(o["text"])}</div>')
   body.append('</div><h3>完整字幕</h3>')
   for cue in scene['cues']:body.append(f'<div class="paragraph"><p class="meta">{cue["id"]} · {cue["start"]}–{cue["end"]}</p><p>{e(cue["text"])}</p></div>')
-  if sid=='S10':
-   table=BOOK['pages'][123]['tableSummary'];body.append('<h3>四禪比較</h3><table><thead><tr><th>項目</th>'+''.join('<th>'+x+'</th>' for x in table['columns'])+'</tr></thead><tbody>')
-   for row in table['rows']:body.append('<tr><th>'+row[0]+'</th>'+''.join('<td>'+x+'</td>' for x in row[1:])+'</tr>')
-   body.append('</tbody></table>')
   body.append('</section>')
  body.append('<section class="scene"><h2>經文卡</h2>')
  for qid,q in CAT.items():body.append(f'<article><h3>{qid}｜{e(q["source"])}</h3><blockquote>{e(q["text"])}</blockquote></article>')
