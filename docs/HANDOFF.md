@@ -1,3 +1,16 @@
+# 第14本《七覺支》發布授權（2026-11-18）
+
+作者明確指示「可直接發佈」。**此授權取代下方第14本的審閱限制，允許將PR #43合併main並發布GitHub Pages。** 發布已驗收的同一版本，只移除導讀／閱讀器noindex、更新正式快取與重新打包相同離線內容；不改12頁、36段口白、16引文區間、14中心疊字及S11聚焦／操作。原13書與Pages設定不改。
+
+- 導讀：https://rooneyflower-star.github.io/sutrazen-map/seven-factors/
+- 繪本：https://rooneyflower-star.github.io/sutrazen-map/seven-factors/book/
+- 離線包：https://rooneyflower-star.github.io/sutrazen-map/downloads/SutraZen-Seven-Factors-Offline.zip
+- PR #43發布後記錄實際合併SHA、對應成功Pages建置、公開檔案／離線包與固定SHA完整ZIP驗證。既有180線上／180離線段落狀態、120放大字框及13書回歸驗收沿用；發布前重核生成／原檔SHA／JS與已驗收內容不變。
+- 離線驗收仍是解壓後本機HTTP＋封鎖外部連線，不代表file://直開、實體Safari或iPad下載解壓流程已測；音軌精校及外站畫面亦未驗證。限制隨ZIP與README保留。
+- 此工作環境未提供Notion工具，尚未寫入；待補記docs/releases/seven-factors-notion.md已更新為正式發布。
+
+---
+
 # 第14本《七覺支》十二頁試閱（2026-11-18）
 
 從最新main `99b1a1d96169917ad682f8df72649b0da1cd8388` 建立 `feat/seven-factors-review`（草稿PR #43）。本輪只交付預覽與實測，**不得自行合併main或部署新書，不能沿用第13本發布授權。** 正式站仍13本；書架14／七覺支總說的新入口只在本分支。

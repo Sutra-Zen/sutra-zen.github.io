@@ -1,7 +1,7 @@
 {
   "file": "SutraZen-Seven-Factors-Offline.zip",
-  "bytes": 6661887,
-  "sha256": "7a7d35b6f77212e2acf4e082b1764172bbf8e1f1c911bbaeb84a53f127fa05bb",
+  "bytes": 6661854,
+  "sha256": "d0e49aa56ca35a340e4b68332a3aea2aa27fac71e38c2f0a8b40db91ec011d75",
   "files": {
     "README.txt": "571a1b7e245bd42f6c3886c9ad71764481b4d3f0e85bd19f9afd55d1845d0999",
     "guide-header.css": "b2699b337f8c884c2a553a7ab58ed67434bd72009d242873e2b92e3203cd1316",
@@ -27,10 +27,10 @@
     "seven-factors/book/book-data.js": "136dc707236dedc0e3a3a022c1df702d7bcbbc7e577eae41fad3b5788c3805cc",
     "seven-factors/book/book.css": "8024531ea189559aaa4c76423c00efb9e01c3b7ea15fd923b837dfebe2f782af",
     "seven-factors/book/book.js": "e3aa16bfe220c8936f67f4348d8ea2352d2eed3e5c69671436f07657bd9bd12d",
-    "seven-factors/book/index.html": "255c093db5fda116a57057bcb8aa2c24a62c1418add812428fae674feda2f831",
+    "seven-factors/book/index.html": "3df7aae3912f4dec770de315fa7865606129a4553351911598fc74ee32c66c23",
     "seven-factors/book/panel-focus-data.js": "db13784dd964c60fce38683d56d080d362e0347e906b6e21823b24218541a657",
     "seven-factors/guide.css": "acf065ad8f78be123020c318def9cb850c22dff7fe26f0e648a2f27e9d2d227e",
-    "seven-factors/index.html": "610148c4f385a7e28978cea09ad9580f19fbe24172f29ba384818595e3e34c1b",
+    "seven-factors/index.html": "0d7f9f083bcd4d11dc396b2b7d0cf1d0131f727f164a6222d6844b4ff55599b0",
     "start-local.py": "001333a6071b1a416cad41cc6717d6f7d5a6abe2295cfbe1f131c9c26bc4386c"
   },
   "format": "standard ZIP,relative files,no CDN or Base64",

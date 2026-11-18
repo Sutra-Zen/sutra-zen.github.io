@@ -2,7 +2,7 @@
 
 兩份普通ZIP已安全合併：原storyboard.md、Codex_Prompt.txt與images/01–13共15檔。CRC／SHA-256與圖片尺寸見input-zips.json、receipt.json。原檔不改；本目錄的storyboard.json是依Markdown整理的程式資料，不冒稱作者原JSON。
 
-網站為`seven-factors/`導讀及`seven-factors/book/`閱讀器；接原書架14和既有七覺支總說地圖節點。從main99b1a1d建立`feat/seven-factors-review`，先交付審閱，不合併或發布。
+網站為`seven-factors/`導讀及`seven-factors/book/`閱讀器；接原書架14和既有七覺支總說地圖節點。從main99b1a1d建立`feat/seven-factors-review`，作者於2026-11-18另行授權直接發布，經PR #43處理，取代原審閱限制。
 
 依作者要求保持**12個圖頁、36段原口白**：左右／下方主按鍵切換圖頁；上方「上一段／下一段」及時間選單切換同頁口白、對應經文與第11幕聚焦。翻頁不強迫看完每段；每段皆完整保留且可返回，旋轉／重載保留圖頁與段落。第12頁下方保留共用經典依據結語與回第一頁功能，不額外加第13頁。
 
