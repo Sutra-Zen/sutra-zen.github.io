@@ -1,0 +1,34 @@
+[
+  {
+    "size": [
+      800,
+      360
+    ],
+    "belowArt": {
+      "height": 86,
+      "content": 219,
+      "top": 133
+    },
+    "dialog": {
+      "height": 260,
+      "content": 319,
+      "top": 59
+    }
+  },
+  {
+    "size": [
+      768,
+      1024
+    ],
+    "belowArt": {
+      "height": 219,
+      "content": 219,
+      "top": 0
+    },
+    "dialog": {
+      "height": 319,
+      "content": 319,
+      "top": 0
+    }
+  }
+]

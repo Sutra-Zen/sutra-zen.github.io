@@ -1,6 +1,6 @@
 # 五根五力｜完整試閱與驗收
 
-分支：`feat/five-roots-powers-review`，基準main：`2376c9cafb4b59e5eeba6aaa2833ec3c900497fc`。新書先供作者審閱，尚未合併或部署正式站；同輪安那般那止觀四式的更新已另外透過PR #40發布。
+[草稿PR #41](https://github.com/rooneyflower-star/sutrazen-map/pull/41)，分支：`feat/five-roots-powers-review`，基準main：`2376c9cafb4b59e5eeba6aaa2833ec3c900497fc`。新書先供作者審閱，尚未合併或部署正式站；同輪安那般那止觀四式的更新已另外透過PR #40發布。
 
 ## 在iPad直接看
 
