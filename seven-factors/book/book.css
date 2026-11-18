@@ -306,3 +306,8 @@ button, select { font: inherit; }
  .reader-at-end .scene { width:var(--stage-width); }
  .reading-links { flex-wrap:nowrap; }
 }
+
+/* Override shared end-page width only for illustrated scenes. */
+@media(orientation:landscape) {
+ .reader-at-end .page:not(.afterword-scene) .scene { width:var(--stage-width); }
+}
