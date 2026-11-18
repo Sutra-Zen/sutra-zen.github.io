@@ -1,6 +1,6 @@
 # 第12本《四禪》實作與審閱（2026-11-18）
 
-從最新main `c4e6670d30416b4203767287cf14cd754dea8dd7` 建立 `feat/four-jhanas-review`。作者本次要求製作與驗證，尚未明確授權新書發布；**勿自行合併main或部署，也勿沿用前一本四如意足的發布授權。**
+從最新main `c4e6670d30416b4203767287cf14cd754dea8dd7` 建立 `feat/four-jhanas-review`（[草稿PR #36](https://github.com/rooneyflower-star/sutrazen-map/pull/36)）。作者本次要求製作與驗證，尚未明確授權新書發布；**勿自行合併main或部署，也勿沿用前一本四如意足的發布授權。**
 
 - 新增 `four-jhanas/` 主題專頁、`four-jhanas/book/` 閱讀器；在本分支接上書架第12本及原有四禪地圖節點。14支影片不變，12本可讀、2本鎖定僅屬此分支。
 - 作者ZIP的15份原檔完整存 `docs/four-jhanas/`；CRC、SHA256SUMS、11圖尺寸／解碼核對。10幕、P001–P130字串與時間完整保留，另接片尾出處與共同經典依據結語，共132頁、10幕目錄。

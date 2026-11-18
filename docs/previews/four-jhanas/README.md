@@ -1,6 +1,6 @@
 # 四禪｜分支試閱
 
-分支 `feat/four-jhanas-review`，基準main `c4e6670d30416b4203767287cf14cd754dea8dd7`。本次未合併main、未公開部署。
+分支 `feat/four-jhanas-review`（[草稿PR #36](https://github.com/rooneyflower-star/sutrazen-map/pull/36)），基準main `c4e6670d30416b4203767287cf14cd754dea8dd7`。本次未合併main、未公開部署。
 
 ## 直接在iPad看
 

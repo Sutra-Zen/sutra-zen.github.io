@@ -1,6 +1,6 @@
 # 四禪｜實作與待校事項（2026-11-18）
 
-本次為新書實作與驗證，分支 `feat/four-jhanas-review`，基準main `c4e6670d30416b4203767287cf14cd754dea8dd7`。尚未合併或公開部署；先前四如意足的發布授權不套用到本書。
+本次為新書實作與驗證，分支 `feat/four-jhanas-review`（[草稿PR #36](https://github.com/rooneyflower-star/sutrazen-map/pull/36)），基準main `c4e6670d30416b4203767287cf14cd754dea8dd7`。尚未合併或公開部署；先前四如意足的發布授權不套用到本書。
 
 ## 原始交接與成品
 
