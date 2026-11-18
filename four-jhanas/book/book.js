@@ -22,29 +22,11 @@ function overlays(container, plan) {
   }));
 }
 function scriptureText(item) {
-  const table = item.tableSummary ? '四禪比較\n' + item.tableSummary.rows.map(row => row[0] + '：' + row.slice(1).map((cell, i) => item.tableSummary.columns[i] + '：' + cell).join('；')).join('\n') + '\n\n' : '';
-  return table + item.quotes.map(q => q.source + '\n' + q.text).join('\n\n');
+  return item.quotes.map(q => q.source + '\n' + q.text).join('\n\n');
 }
 
 function renderScripture(item) {
   const verse = $('#verse'); verse.replaceChildren();
-  if (item.tableSummary) {
-    const wrap = document.createElement('div'); wrap.className = 'table-transcript';
-    const table = document.createElement('table'), caption = document.createElement('caption'); caption.textContent = '四禪比較'; table.append(caption);
-    const head = document.createElement('thead'), header = document.createElement('tr');
-    for (const label of ['項目', ...item.tableSummary.columns]) {
-      const th = document.createElement('th'); th.scope = 'col'; th.textContent = label; header.append(th);
-    }
-    head.append(header); table.append(head); const body = document.createElement('tbody');
-    for (const values of item.tableSummary.rows) {
-      const row = document.createElement('tr');
-      for (const [i, value] of values.entries()) {
-        const cell = document.createElement(i ? 'td' : 'th'); if (!i) cell.scope = 'row'; cell.textContent = value; row.append(cell);
-      }
-      body.append(row);
-    }
-    table.append(body); wrap.append(table); verse.append(wrap);
-  }
   if (item.context) {
     const context = paragraph(item.context);
     context.className = 'source-context'; verse.append(context);

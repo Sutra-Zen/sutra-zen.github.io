@@ -1,0 +1,52 @@
+{
+  "baseline": "e578c2a85131c646ad4986e8c1367d7d60f8e652",
+  "viewports": [
+    [
+      360,
+      800
+    ],
+    [
+      800,
+      360
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      1440,
+      900
+    ]
+  ],
+  "anapanaPageStates": 275,
+  "jhanasPageStates": 65,
+  "zoomStates": 80,
+  "errors": [],
+  "physicalSafari": "未測；以Chromium觸控模擬",
+  "screenshots": [
+    "anapana-S04-360x800.webp",
+    "anapana-S05-360x800.webp",
+    "anapana-S06-360x800.webp",
+    "anapana-S07-360x800.webp",
+    "jhanas-S05-360x800.webp",
+    "jhanas-S10-360x800.webp",
+    "anapana-S04-768x1024.webp",
+    "anapana-S05-768x1024.webp",
+    "anapana-S06-768x1024.webp",
+    "anapana-zoom-768x1024.webp",
+    "anapana-S07-768x1024.webp",
+    "jhanas-S05-768x1024.webp",
+    "jhanas-S10-768x1024.webp",
+    "anapana-S04-1024x768.webp",
+    "anapana-S05-1024x768.webp",
+    "anapana-S06-1024x768.webp",
+    "anapana-S07-1024x768.webp",
+    "jhanas-S05-1024x768.webp",
+    "jhanas-S10-1024x768.webp"
+  ],
+  "preserved": "130 Jhanas captions/times/quotes unchanged; Anapana119page data unchanged; original art and other10books/shared/Pages unchanged"
+}

@@ -90,6 +90,7 @@ function showPage(index) {
     $('#art-frame').style.setProperty('--art-ratio-number', String(item.dimensions[0] / item.dimensions[1]));
   }
   overlays($('#art-overlays'), plan);
+  SutraZenPanelFocus.update($('#art-frame'), $('#art'), PANEL_FOCUS.scenes[item.scene], item.paragraphNumber);
   $('#summary-overlay').replaceChildren(...(plan?.summaryRows || []).map((text, i) => {
     const row = paragraph(text); row.className = 'summary-row'; row.style.top = (25 + 12 * i) + '%'; return row;
   }));
@@ -170,6 +171,7 @@ function enlargeImage() {
 
   $('#zoom-shade').hidden = true;
   $('#image-dialog').showModal(); $('.image-scroll').scrollTo(0, 0);
+  SutraZenPanelFocus.update($('#zoom-frame'), $('#zoom-art'), PANEL_FOCUS.scenes[item.scene], item.paragraphNumber);
 }
 $('#art').onclick = enlargeImage;
 $('#art').onkeydown = event => {

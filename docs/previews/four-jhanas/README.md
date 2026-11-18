@@ -2,9 +2,11 @@
 
 分支 `feat/four-jhanas-review`（[PR #36](https://github.com/rooneyflower-star/sutrazen-map/pull/36)），基準main `c4e6670d30416b4203767287cf14cd754dea8dd7`。作者已於2026-11-18授權直接發布，經PR #36處理；實際發布結果見該PR最終核對。正式入口：[主題專頁](https://rooneyflower-star.github.io/sutrazen-map/four-jhanas/)／[互動繪本](https://rooneyflower-star.github.io/sutrazen-map/four-jhanas/book/)。以下保留原試閱與驗收方式。
 
+2026-11-18更新：五蓋「瞋恚」已上移避開臉，S10圖下重複HTML表與讀經轉錄已移除，PDF同步更新。以下舊截圖保留作歷史驗收；[最新橫直式截圖與340個受影響頁面狀態驗證](../reading-focus/README.md)另列。
+
 ## 直接在iPad看
 
-- [完整校稿PDF（24頁）](Four-Jhanas-review.pdf)：十幕全圖及7條疊字、130段字幕／起迄時間、8筆完整經文、總結表與獨立閱讀說明。文字可選取；操作介面另見下方實際截圖。
+- [完整校稿PDF（24頁）](Four-Jhanas-review.pdf)：十幕全圖及7條疊字、130段字幕／起迄時間、8筆完整經文、原圖總結表與獨立閱讀說明。文字可選取；操作介面另見下方實際截圖。
 - [手機守護六根](S02-360x800.webp)、[手機第四禪第三格](S09-360x800.webp)、[手機總結表](S10-360x800.webp)。
 
 | 核對項目 | iPad橫式1024×768 | iPad直式768×1024 |

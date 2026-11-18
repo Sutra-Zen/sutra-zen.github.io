@@ -100,3 +100,7 @@ Following publication via PR #34 (main97dc5fb), the author's correction replaces
 ## Book12: remove credits page (2026-11-18)
 
 At the author's request, the standalone credits screenshot page is removed from the published reader and review PDF. The130 original timed captions now lead straight to the editorial afterword:131 reader pages,10 menu scenes; PDF24 pages. Guide scripture sources and all original handoff files remain. The generator reflects the removal, and old132-page links/session positions clamp to the current final page. See newest HANDOFF and docs/previews/four-jhanas-ending for scoped verification.
+
+## Reader corrections: 四禪 / 安那般那 (2026-11-18)
+
+The author requested maintenance of the published readers. Four Jhanas S10 keeps its original comparison artwork and scripture, removes the duplicate HTML/dialog table and updates the PDF; S05瞋恚 moves from y29% to17% above the face. Anapana S04–S07 use the unchanged shared panel-focus helper, with16 measured column rectangles and paragraph-specific focus. Intro/closing pages stay full frame; zoom/rotation follow the same focus. Both original page counts, timed narration, scripture data and all artwork remain. See newest HANDOFF and docs/previews/reading-focus for scoped340-page-state/80-zoom validation; physical Safari remains untested.

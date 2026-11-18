@@ -19,6 +19,7 @@ def text_source(raw):
 def static_checks():
  subprocess.run(['python3','scripts/build-four-jhanas.py','--check'],cwd=ROOT,check=True)
  assert len(STORY)==len(BOOK['scenes'])==10 and len(BOOK['pages'])==131 and len(CAT)==8
+ assert all(not p.get('tableSummary') for p in BOOK['pages'])
  n=0;used=set()
  for scene,display in zip(STORY,BOOK['scenes']):
   assert scene['id']==display['id'] and scene['asset']==display['image'] and display['start']==n
@@ -62,7 +63,9 @@ def static_checks():
    if u.fragment:assert html.parse(str(target)).xpath('//*[@id=$id]',id=u.fragment)
  for name in subprocess.check_output(['git','ls-tree','-r','--name-only',BASE],cwd=ROOT,text=True).splitlines():
   if any(name.startswith(k+'/') for k in LEGACY) or name.startswith('.github/') or name in ['shelf.css','guide-ui.css','guide-header.css','reader-controls.css','reader-restart.js','picture-panel-focus.css','picture-panel-focus.js','.nojekyll','CNAME']:
-   assert (ROOT/name).read_bytes()==old(name),name
+   # The author's later Anapana focus change only touches its reader wiring.
+   if name not in ['anapana/book/book.js','anapana/book/index.html']:
+    assert (ROOT/name).read_bytes()==old(name),name
  before=old('index.html').decode();after=(ROOT/'index.html').read_text();root=html.fromstring(after)
  assert len(root.xpath('//ol[@class="sz-books"]/li'))==14 and len(root.xpath('//*[@class="sz-book-lock"]'))==2
  assert len(root.xpath('//*[contains(concat(" ",@class," ")," sz-ready ")]'))==12
@@ -71,7 +74,7 @@ def static_checks():
  for key in maps[0]:
   if key!='四禪':assert maps[0][key]==maps[1][key]
   else:assert maps[0][key]['content'][:-6] in maps[1][key]['content']
- print('Static fidelity passed: 10 scenes, 130 captions, 8 Q cards, 7 overlays, 11 images; all 11 existing books unchanged',flush=True)
+ print('Static fidelity passed: 10 scenes, 130 captions, 8 Q cards, 7 overlays, 11 images; legacy data/artwork preserved (Anapana focus wiring allowed)',flush=True)
 class Quiet(http.server.SimpleHTTPRequestHandler):
  def log_message(self,*args):pass
 def settle(page):
@@ -110,7 +113,7 @@ def browser_checks(shots):
       active=FOCUS[item['scene']]['pages'][item['paragraphNumber']-1];assert r['focus']==active
       if active:assert page.locator('#art-frame .picture-panel-focus > span:not(.active)').count()==3
      else:assert r['focus'] is None
-     if item.get('tableSummary'):assert page.locator('#verse table tbody tr').count()==3
+     if item['scene']=='S10':assert page.locator('#verse table').count()==0
      if shots and (w,h) in [(768,1024),(1024,768)] and (i==plan['start'] or i in [21,50,77,111,130]):capture(page,f'{item["scene"]}-page{i+1}-{w}x{h}.webp')
      if shots and w==360 and i in [6,111,123]:capture(page,f'{item["scene"]}-{w}x{h}.webp')
     else:

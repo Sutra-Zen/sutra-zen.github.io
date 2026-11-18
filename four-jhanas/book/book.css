@@ -287,10 +287,6 @@ button, select { font: inherit; }
 #summary-text th,#summary-text td { border:1px solid var(--line); padding:10px; text-align:left; vertical-align:top; }
 #summary-text th { min-width:5em; }
 #summary-text caption { text-align:left; font-size:1rem; margin-bottom:8px; }
-.table-transcript { overflow-x:auto; margin-bottom:16px; max-width:100%; }
-.table-transcript table { border-collapse:collapse; min-width:520px; width:100%; font-size:1rem; }
-.table-transcript caption { text-align:left; margin-bottom:8px; color:var(--accent); }
-.table-transcript th,.table-transcript td { text-align:left; padding:8px; border:1px solid var(--line); }
 #summary-text { overflow-wrap:anywhere; }
 @media(orientation:landscape) {
  .verse-body { max-height:clamp(70px,24dvh,220px); overflow-y:auto; overscroll-behavior:contain; }
