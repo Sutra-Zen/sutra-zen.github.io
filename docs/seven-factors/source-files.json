@@ -1,0 +1,32 @@
+[
+  {
+    "id": "sa713",
+    "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa701-800/sa713.html",
+    "local": "canonical/sa713.html",
+    "sha256": "b63b7a312c8f2f2b50a0e19188d3d92fb82792621b2c733fde477ba09acd92a8"
+  },
+  {
+    "id": "sa714",
+    "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa701-800/sa714.html",
+    "local": "canonical/sa714.html",
+    "sha256": "0545842537084ffedf9cbecaa20060caefb7d5c66de5ed4803c5ff13dfb63b83"
+  },
+  {
+    "id": "sa715",
+    "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa701-800/sa715.html",
+    "local": "canonical/sa715.html",
+    "sha256": "300f757a5a857efdbe431c46fe61f250370b25304ef76bac47c17d4bd8159dc3"
+  },
+  {
+    "id": "sa810",
+    "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa801-900/sa810.html",
+    "local": "canonical/sa810.html",
+    "sha256": "e94cf550a7fb4ddef69ed5d4b440b266cfb3e7eb56a81087e9ec4758d5f120fd"
+  },
+  {
+    "id": "mn10",
+    "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/mn/mn10.html",
+    "local": "canonical/mn10.html",
+    "sha256": "96383879dcaffc8aaf9c0f6c25ecbdba6e047ca0dba519f610f86b01f5276e21"
+  }
+]

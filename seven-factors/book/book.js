@@ -1,0 +1,219 @@
+// Match the other readers: caption above the complete artwork, scripture below.
+const $ = selector => document.querySelector(selector);
+const pages = BOOK.pages;
+const storageKey = 'sutrazen-seven-factors-page';
+const sceneStarts = new Map(BOOK.scenes.map(scene => [scene.id, scene.start]));
+
+let current = 0;
+let cueIndex = 0;
+function currentItem() { return {...pages[current], ...pages[current].cues[cueIndex]}; }
+function showCue(index) { if (pages[current].cues[index]) showPage(current, index); }
+let measuredScene = null;
+function paragraph(text) {
+  const p = document.createElement('p'); p.textContent = text; return p;
+}
+function overlays(container, plan) {
+  container.replaceChildren(...(plan?.artOverlay || []).map(o => {
+    const label = document.createElement('div');
+    label.className = 'art-overlay'; label.textContent = o.text; label.dataset.color = o.color;
+    if (o.mobileMode === 'outside_image_when_width_below_600px') label.dataset.smallHint = 'true';
+    for (const [key, value] of Object.entries({
+      '--overlay-x': o.x + '%', '--overlay-y': o.y + '%', '--overlay-width': o.width + '%',
+      '--overlay-font': o.fontSizeCqw + 'cqw', '--label-color': o.color, '--label-align': o.textAlign, '--label-line-height': '1.15',
+    })) label.style.setProperty(key, value);
+    return label;
+  }));
+}
+function scriptureText(item) {
+  return item.quotes.map(q => q.source + '\n' + q.text).join('\n\n');
+}
+
+function renderScripture(item) {
+  const verse = $('#verse'); verse.replaceChildren();
+  if (item.context) {
+    const context = paragraph(item.context);
+    context.className = 'source-context'; verse.append(context);
+  }
+  for (const quote of item.quotes) {
+    const card = document.createElement('article'); card.className = 'scripture-card'; card.dataset.quoteId = quote.quoteId;
+    const source = document.createElement('h3'); source.textContent = quote.source;
+    const body = document.createElement('blockquote'); body.textContent = quote.text;
+    card.append(source, body); verse.append(card);
+  }
+  if (item.sourceNote) {
+    const note = paragraph('補充說明：' + item.sourceNote); note.className = 'source-note'; verse.append(note);
+  }
+}
+function renderSummary(item) {
+  const summary = $('#summary-text'); summary.replaceChildren();
+  for (const entry of item.textSummary || []) {
+    const section = document.createElement('section'); const heading = document.createElement('h3'); heading.textContent = entry.title; section.append(heading);
+    for (const text of entry.paragraphs) section.append(paragraph(text));
+    if (entry.rows.length) {
+      const table = document.createElement('table'); const caption = document.createElement('caption'); caption.textContent = '十六勝行對照'; table.append(caption);
+      for (const [title, steps] of entry.rows) {
+        const row = document.createElement('tr'), name = document.createElement('th'), content = document.createElement('td');
+        name.scope = 'row'; name.textContent = title; content.textContent = steps; row.append(name, content); table.append(row);
+      }
+      section.append(table);
+    }
+    summary.append(section);
+  }
+  if (item.editorialNote) {
+    const footer = document.createElement('section'); const heading = document.createElement('h3'); heading.textContent = '閱讀說明'; footer.append(heading, ...item.editorialNote.map(paragraph)); summary.append(footer);
+  }
+}
+
+function showPage(index, wantedCue = 0) {
+  if (!pages[index]) return;
+  current = index;
+  cueIndex = Math.max(0, Math.min(Number.isInteger(wantedCue) ? wantedCue : 0, pages[index].cues.length - 1));
+  const item = currentItem();
+  try { sessionStorage.setItem(storageKey + '-cue', JSON.stringify({page:current, cue:cueIndex})); } catch {}
+  try { sessionStorage.setItem(storageKey, String(index)); } catch {}
+  const url = new URL(location.href);
+  url.searchParams.set('cue', String(cueIndex + 1));
+  url.searchParams.set('scene', item.scene); url.searchParams.set('page', String(index + 1));
+  history.replaceState(null, '', url);
+  const plan = BOOK.scenes.find(s => s.id === item.scene);
+  const page = $('.page'); page.dataset.scene = item.scene; page.dataset.paragraph = item.id; page.dataset.startSeconds = item.startSeconds; page.dataset.endSeconds = item.endSeconds;
+  page.classList.toggle('afterword-scene', Boolean(item.afterword));
+  page.classList.toggle('text-summary-scene', Boolean(item.textSummary));
+  $('#page-title').textContent = item.title;
+  $('#narration').replaceChildren(...item.lines.map(paragraph));
+  $('#cue-select').replaceChildren(...pages[current].cues.map((c, i) => new Option(`${c.startTime} · 第${i + 1}/${pages[current].cues.length}段`, String(i))));
+  $('#cue-select').value = String(cueIndex);
+  $('#cue-previous').disabled = cueIndex === 0; $('#cue-next').disabled = cueIndex === pages[current].cues.length - 1;
+  $('#reader-note').hidden = current !== pages.length - 1;
+  $('#caption').hidden = Boolean(item.textSummary);
+  $('#caption-sizer').hidden = Boolean(item.afterword || item.summary);
+  if (measuredScene !== item.scene) {
+    measuredScene = item.scene;
+    $('#caption-sizer').replaceChildren(...pages[current].cues.map(p => {
+      const wrapper = document.createElement('div'); wrapper.append(...p.lines.map(paragraph)); return wrapper;
+    }));
+  }
+  $('#art-frame').hidden = !item.image;
+  if (item.image) {
+    if ($('#art').getAttribute('src') !== item.image) $('#art').src = item.image;
+    $('#art').alt = item.alt || plan.alt;
+    $('#art-frame').style.setProperty('--art-ratio', item.dimensions.join(' / '));
+    $('#art-frame').style.setProperty('--art-ratio-number', String(item.dimensions[0] / item.dimensions[1]));
+  }
+  overlays($('#art-overlays'), plan);
+  SutraZenPanelFocus.update($('#art-frame'), $('#art'), PANEL_FOCUS.scenes[item.scene], cueIndex + 1);
+  $('#summary-overlay').replaceChildren(...(plan?.summaryRows || []).map((text, i) => {
+    const row = paragraph(text); row.className = 'summary-row'; row.style.top = (25 + 12 * i) + '%'; return row;
+  }));
+  $('#summary-text').replaceChildren(...(plan?.summaryRows || []).map(paragraph));
+  renderScripture(item);
+  renderSummary(item);
+  $('.scripture').hidden = !item.quotes.length && !item.sourceNote && !item.context;
+  $('.verse-body').scrollTop = 0;
+  $('#source-link').hidden = !item.quotes.length;
+  if (item.quotes.length) $('#source-link').href = '../index.html#' + item.quotes[0].quoteId;
+  else $('#source-link').removeAttribute('href');
+  $('#open-verse').hidden = !item.quotes.length;
+  $('#previous').disabled = index === 0; $('#next').disabled = index === pages.length - 1;
+  $('#page-select').value = item.scene;
+  $('#position-text').textContent = `${index + 1} / ${pages.length} 頁`;
+  $('.scene').scrollTop = 0;
+  if (window.scrollY) window.scrollTo(0, 0);
+  const next = pages.slice(index + 1).find(p => p.image && p.image !== item.image);
+  if (next) new Image().src = next.image;
+  layoutArtwork();
+}
+function layoutArtwork() {
+  const scene = $('.scene');
+  const caption = $('#caption-sizer').getBoundingClientRect().height + $('#cue-nav').getBoundingClientRect().height + 8;
+  const scripture = $('.scripture').hidden ? 0 : $('.scripture').getBoundingClientRect().height;
+  scene.style.setProperty('--caption-space', caption + 'px');
+  scene.style.setProperty('--scripture-space', scripture + 'px');
+  scene.style.setProperty('--image-space-height', Math.max(1, scene.clientHeight - caption - scripture) + 'px');
+  $('#closing-shade').hidden = true; $('#summary-text').hidden = !pages[current].textSummary;
+  const narrow = $('#art-frame').getBoundingClientRect().width < 600;
+  $('#art-frame').classList.toggle('small-art', narrow);
+  const hints = BOOK.scenes.find(s => s.id === pages[current].scene).artOverlay.filter(o => o.mobileMode === 'outside_image_when_width_below_600px');
+  $('#outside-labels').hidden = !narrow || !hints.length || !pages[current].image;
+  $('#outside-labels').textContent = hints.length ? '由左到右：' + hints.map(o => o.text).join('／') : '';
+  $('.page').classList.toggle('has-outside-labels', !$('#outside-labels').hidden);
+  scene.style.setProperty('--hint-space', $('#outside-labels').getBoundingClientRect().height + 'px');
+}
+const observer = new ResizeObserver(layoutArtwork);
+observer.observe($('#caption-sizer')); observer.observe($('.scripture')); observer.observe($('#art-frame'));
+observer.observe($('#outside-labels'));
+window.addEventListener('resize', layoutArtwork); document.fonts.ready.then(layoutArtwork);
+for (const scene of BOOK.scenes) $('#page-select').add(new Option(`${scene.id.slice(1)} · ${scene.title}`, scene.id));
+
+$('.controls').hidden = false; $('#hint').hidden = false;
+$('#previous').onclick = () => showPage(current - 1); $('#next').onclick = () => showPage(current + 1);
+$('#page-select').onchange = () => showPage(sceneStarts.get($('#page-select').value));
+let saved = 0;
+try {
+  const stored = sessionStorage.getItem(storageKey);
+  saved = stored === null ? 0 : Number(stored);
+} catch {}
+const requested = new URLSearchParams(location.search);
+const requestedPage = Math.min(Number(requested.get('page')) - 1, pages.length - 1), requestedScene = requested.get('scene');
+const start = requestedScene && sceneStarts.has(requestedScene)
+  ? (pages[requestedPage]?.scene === requestedScene ? requestedPage : sceneStarts.get(requestedScene))
+  : (Number.isInteger(saved) && saved >= 0 ? Math.min(saved, pages.length - 1) : 0);
+let cueSaved = {};
+try { cueSaved = JSON.parse(sessionStorage.getItem(storageKey + '-cue') || '{}'); } catch {}
+showPage(start, requested.has('cue') ? Number(requested.get('cue')) - 1 : (cueSaved.page === start ? cueSaved.cue : 0));
+$('#cue-select').onchange = () => showCue(Number($('#cue-select').value));
+$('#cue-previous').onclick = () => showCue(cueIndex - 1); $('#cue-next').onclick = () => showCue(cueIndex + 1);
+$('#open-verse').onclick = () => {
+  const item = currentItem(); $('#dialog-verse').textContent = scriptureText(item);
+  $('#dialog-source').hidden = !item.quotes.length;
+  if (item.quotes.length) $('#dialog-source').href = '../index.html#' + item.quotes[0].quoteId;
+  document.querySelectorAll('.additional-source').forEach(el => el.remove());
+  for (const quote of item.quotes.slice(1)) {
+    const link = document.createElement('a'); link.className = 'additional-source';
+    link.textContent = '查看經典出處 · ' + quote.source; link.href = '../index.html#' + quote.quoteId; $('.verse-scroll').append(link);
+  }
+  $('#verse-dialog').showModal(); $('.verse-scroll').scrollTop = 0;
+};
+// Enlarge the complete image without introducing a separate persistent toolbar.
+$('#art').tabIndex = 0; $('#art').setAttribute('role', 'button');
+$('#art').setAttribute('aria-haspopup', 'dialog'); $('#art').title = '點選放大圖片';
+let swiped = false;
+function enlargeImage() {
+  const item = currentItem(); if (!item.image || swiped) return;
+  $('#zoom-art').src = item.image; $('#zoom-art').alt = $('#art').alt;
+  const plan = BOOK.scenes.find(s => s.id === item.scene);
+  overlays($('#zoom-overlays'), plan);
+
+  $('#zoom-shade').hidden = true;
+  $('#image-dialog').showModal(); $('.image-scroll').scrollTo(0, 0);
+  SutraZenPanelFocus.update($('#zoom-frame'), $('#zoom-art'), PANEL_FOCUS.scenes[item.scene], cueIndex + 1);
+}
+$('#art').onclick = enlargeImage;
+$('#art').onkeydown = event => {
+  if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); enlargeImage(); }
+};
+const readingText = 'select,input,textarea,.verse-body,.verse-scroll,#summary-text';
+document.addEventListener('keydown', event => {
+  if ($('#verse-dialog').open || $('#image-dialog').open || event.target.closest(readingText) ||
+      event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
+  if (event.key === 'ArrowRight' || event.key === 'ArrowLeft') {
+    event.preventDefault(); showPage(current + (event.key === 'ArrowRight' ? 1 : -1));
+  }
+});
+let touchStart;
+$('.page').addEventListener('touchstart', event => {
+  swiped = false;
+  touchStart = event.touches.length === 1 && !event.target.closest('a,' + readingText)
+    ? {x: event.touches[0].clientX, y: event.touches[0].clientY} : null;
+}, {passive:true});
+$('.page').addEventListener('touchcancel', () => { touchStart = null; });
+$('.page').addEventListener('touchend', event => {
+  if (!touchStart) return;
+  const dx = event.changedTouches[0].clientX - touchStart.x, dy = event.changedTouches[0].clientY - touchStart.y; touchStart = null;
+  if (!window.getSelection()?.toString() && Math.abs(dx) > 55 && Math.abs(dx) > Math.abs(dy) * 1.5) {
+    swiped = true; showPage(current + (dx < 0 ? 1 : -1));
+  }
+}, {passive:true});
+matchMedia('(orientation:portrait)').addEventListener('change', event => {
+  if (event.matches && $('#verse-dialog').open) $('#verse-dialog').close();
+});
