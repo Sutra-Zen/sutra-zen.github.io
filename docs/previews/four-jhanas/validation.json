@@ -1,0 +1,44 @@
+{
+  "baseline": "c4e6670d30416b4203767287cf14cd754dea8dd7",
+  "scenes": 10,
+  "originalCaptions": 130,
+  "pages": 132,
+  "scriptures": 8,
+  "overlays": 7,
+  "pageStates": 660,
+  "enlargedLabelStates": 35,
+  "focusZoomStates": 20,
+  "viewports": [
+    {
+      "width": 360,
+      "height": 800,
+      "pages": 132
+    },
+    {
+      "width": 800,
+      "height": 360,
+      "pages": 132
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "pages": 132
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "pages": 132
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "pages": 132
+    }
+  ],
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "physicalSafari": "not tested",
+  "publication": "review implementation; not merged or deployed",
+  "rootEntrances": "shelf #12 and existing 四禪 map node passed",
+  "legacyReaders": "11 open/next/return passed"
+}

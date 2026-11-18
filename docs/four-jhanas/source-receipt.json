@@ -1,0 +1,19 @@
+{
+  "commit": "c7bba0f184e66904949d4918587975fb7fd7ec69",
+  "files": [
+    {
+      "id": "sa483",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa401-500/sa483.html",
+      "local": "canonical/sa483.html",
+      "bytes": 4185,
+      "sha256": "3fe202d5ac87a5ee93bf881a368b8ed1d0623e502a1d2acf92e24ad4742e94be"
+    },
+    {
+      "id": "dn2",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/dn/dn2.html",
+      "local": "canonical/dn2.html",
+      "bytes": 63943,
+      "sha256": "b66af8483b393560360a0195ce84f7d198b3904c69a3eba498340e28aa4f2718"
+    }
+  ]
+}

@@ -1,0 +1,919 @@
+{
+  "S01": [
+    {
+      "paragraphId": "P001",
+      "quoteIds": [],
+      "panel": null
+    },
+    {
+      "paragraphId": "P002",
+      "quoteIds": [],
+      "panel": null
+    },
+    {
+      "paragraphId": "P003",
+      "quoteIds": [],
+      "panel": null
+    },
+    {
+      "paragraphId": "P004",
+      "quoteIds": [],
+      "panel": null
+    },
+    {
+      "paragraphId": "P005",
+      "quoteIds": [],
+      "panel": null
+    },
+    {
+      "paragraphId": "P006",
+      "quoteIds": [],
+      "panel": null
+    }
+  ],
+  "S02": [
+    {
+      "paragraphId": "P007",
+      "quoteIds": [],
+      "panel": null
+    },
+    {
+      "paragraphId": "P008",
+      "quoteIds": [],
+      "panel": null
+    }
+  ],
+  "S03": [
+    {
+      "paragraphId": "P009",
+      "quoteIds": [],
+      "panel": null
+    },
+    {
+      "paragraphId": "P010",
+      "quoteIds": [],
+      "panel": null
+    }
+  ],
+  "S04": [
+    {
+      "paragraphId": "P011",
+      "quoteIds": [],
+      "panel": null
+    },
+    {
+      "paragraphId": "P012",
+      "quoteIds": [],
+      "panel": null
+    },
+    {
+      "paragraphId": "P013",
+      "quoteIds": [],
+      "panel": null
+    }
+  ],
+  "S05": [
+    {
+      "paragraphId": "P014",
+      "quoteIds": [],
+      "panel": null
+    },
+    {
+      "paragraphId": "P015",
+      "quoteIds": [],
+      "panel": null
+    },
+    {
+      "paragraphId": "P016",
+      "quoteIds": [],
+      "panel": null
+    },
+    {
+      "paragraphId": "P017",
+      "quoteIds": [],
+      "panel": null
+    },
+    {
+      "paragraphId": "P018",
+      "quoteIds": [],
+      "panel": null
+    },
+    {
+      "paragraphId": "P019",
+      "quoteIds": [],
+      "panel": null
+    }
+  ],
+  "S06": [
+    {
+      "paragraphId": "P020",
+      "quoteIds": [
+        "Q01"
+      ],
+      "panel": null
+    },
+    {
+      "paragraphId": "P021",
+      "quoteIds": [
+        "Q01"
+      ],
+      "panel": null
+    },
+    {
+      "paragraphId": "P022",
+      "quoteIds": [
+        "Q01"
+      ],
+      "panel": "p1"
+    },
+    {
+      "paragraphId": "P023",
+      "quoteIds": [
+        "Q01"
+      ],
+      "panel": "p1"
+    },
+    {
+      "paragraphId": "P024",
+      "quoteIds": [
+        "Q01"
+      ],
+      "panel": "p1"
+    },
+    {
+      "paragraphId": "P025",
+      "quoteIds": [
+        "Q01"
+      ],
+      "panel": "p1"
+    },
+    {
+      "paragraphId": "P026",
+      "quoteIds": [
+        "Q01"
+      ],
+      "panel": "p2"
+    },
+    {
+      "paragraphId": "P027",
+      "quoteIds": [
+        "Q01"
+      ],
+      "panel": "p2"
+    },
+    {
+      "paragraphId": "P028",
+      "quoteIds": [
+        "Q01"
+      ],
+      "panel": "p2"
+    },
+    {
+      "paragraphId": "P029",
+      "quoteIds": [
+        "Q01"
+      ],
+      "panel": "p2"
+    },
+    {
+      "paragraphId": "P030",
+      "quoteIds": [
+        "Q01"
+      ],
+      "panel": "p2"
+    },
+    {
+      "paragraphId": "P031",
+      "quoteIds": [
+        "Q01"
+      ],
+      "panel": "p2"
+    },
+    {
+      "paragraphId": "P032",
+      "quoteIds": [
+        "Q01"
+      ],
+      "panel": "p2"
+    },
+    {
+      "paragraphId": "P033",
+      "quoteIds": [
+        "Q01"
+      ],
+      "panel": "p3"
+    },
+    {
+      "paragraphId": "P034",
+      "quoteIds": [
+        "Q01"
+      ],
+      "panel": "p3"
+    },
+    {
+      "paragraphId": "P035",
+      "quoteIds": [
+        "Q01"
+      ],
+      "panel": "p3"
+    },
+    {
+      "paragraphId": "P036",
+      "quoteIds": [
+        "Q02"
+      ],
+      "panel": "p4"
+    },
+    {
+      "paragraphId": "P037",
+      "quoteIds": [
+        "Q02"
+      ],
+      "panel": "p4"
+    },
+    {
+      "paragraphId": "P038",
+      "quoteIds": [
+        "Q02"
+      ],
+      "panel": "p4"
+    },
+    {
+      "paragraphId": "P039",
+      "quoteIds": [
+        "Q02"
+      ],
+      "panel": "p4"
+    },
+    {
+      "paragraphId": "P040",
+      "quoteIds": [
+        "Q02"
+      ],
+      "panel": "p4"
+    },
+    {
+      "paragraphId": "P041",
+      "quoteIds": [
+        "Q01"
+      ],
+      "panel": null
+    },
+    {
+      "paragraphId": "P042",
+      "quoteIds": [
+        "Q01"
+      ],
+      "panel": null
+    }
+  ],
+  "S07": [
+    {
+      "paragraphId": "P043",
+      "quoteIds": [
+        "Q03"
+      ],
+      "panel": null
+    },
+    {
+      "paragraphId": "P044",
+      "quoteIds": [
+        "Q03"
+      ],
+      "panel": null
+    },
+    {
+      "paragraphId": "P045",
+      "quoteIds": [
+        "Q03"
+      ],
+      "panel": "p1"
+    },
+    {
+      "paragraphId": "P046",
+      "quoteIds": [
+        "Q03"
+      ],
+      "panel": "p1"
+    },
+    {
+      "paragraphId": "P047",
+      "quoteIds": [
+        "Q03"
+      ],
+      "panel": "p1"
+    },
+    {
+      "paragraphId": "P048",
+      "quoteIds": [
+        "Q03"
+      ],
+      "panel": "p1"
+    },
+    {
+      "paragraphId": "P049",
+      "quoteIds": [
+        "Q03"
+      ],
+      "panel": "p1"
+    },
+    {
+      "paragraphId": "P050",
+      "quoteIds": [
+        "Q03"
+      ],
+      "panel": "p1"
+    },
+    {
+      "paragraphId": "P051",
+      "quoteIds": [
+        "Q03"
+      ],
+      "panel": "p2"
+    },
+    {
+      "paragraphId": "P052",
+      "quoteIds": [
+        "Q03"
+      ],
+      "panel": "p2"
+    },
+    {
+      "paragraphId": "P053",
+      "quoteIds": [
+        "Q03"
+      ],
+      "panel": "p2"
+    },
+    {
+      "paragraphId": "P054",
+      "quoteIds": [
+        "Q03"
+      ],
+      "panel": "p2"
+    },
+    {
+      "paragraphId": "P055",
+      "quoteIds": [
+        "Q03"
+      ],
+      "panel": "p3"
+    },
+    {
+      "paragraphId": "P056",
+      "quoteIds": [
+        "Q03"
+      ],
+      "panel": "p3"
+    },
+    {
+      "paragraphId": "P057",
+      "quoteIds": [
+        "Q03"
+      ],
+      "panel": "p3"
+    },
+    {
+      "paragraphId": "P058",
+      "quoteIds": [
+        "Q03"
+      ],
+      "panel": "p3"
+    },
+    {
+      "paragraphId": "P059",
+      "quoteIds": [
+        "Q04"
+      ],
+      "panel": "p4"
+    },
+    {
+      "paragraphId": "P060",
+      "quoteIds": [
+        "Q04"
+      ],
+      "panel": "p4"
+    },
+    {
+      "paragraphId": "P061",
+      "quoteIds": [
+        "Q04"
+      ],
+      "panel": "p4"
+    },
+    {
+      "paragraphId": "P062",
+      "quoteIds": [
+        "Q04"
+      ],
+      "panel": "p4"
+    },
+    {
+      "paragraphId": "P063",
+      "quoteIds": [
+        "Q04"
+      ],
+      "panel": "p4"
+    },
+    {
+      "paragraphId": "P064",
+      "quoteIds": [
+        "Q04"
+      ],
+      "panel": "p4"
+    },
+    {
+      "paragraphId": "P065",
+      "quoteIds": [
+        "Q04"
+      ],
+      "panel": "p4"
+    },
+    {
+      "paragraphId": "P066",
+      "quoteIds": [
+        "Q03"
+      ],
+      "panel": null
+    },
+    {
+      "paragraphId": "P067",
+      "quoteIds": [
+        "Q03"
+      ],
+      "panel": null
+    },
+    {
+      "paragraphId": "P068",
+      "quoteIds": [
+        "Q03"
+      ],
+      "panel": null
+    },
+    {
+      "paragraphId": "P069",
+      "quoteIds": [
+        "Q03"
+      ],
+      "panel": null
+    }
+  ],
+  "S08": [
+    {
+      "paragraphId": "P070",
+      "quoteIds": [
+        "Q05"
+      ],
+      "panel": null
+    },
+    {
+      "paragraphId": "P071",
+      "quoteIds": [
+        "Q05"
+      ],
+      "panel": null
+    },
+    {
+      "paragraphId": "P072",
+      "quoteIds": [
+        "Q05"
+      ],
+      "panel": "p1"
+    },
+    {
+      "paragraphId": "P073",
+      "quoteIds": [
+        "Q05"
+      ],
+      "panel": "p1"
+    },
+    {
+      "paragraphId": "P074",
+      "quoteIds": [
+        "Q05"
+      ],
+      "panel": "p1"
+    },
+    {
+      "paragraphId": "P075",
+      "quoteIds": [
+        "Q05"
+      ],
+      "panel": "p1"
+    },
+    {
+      "paragraphId": "P076",
+      "quoteIds": [
+        "Q05"
+      ],
+      "panel": "p1"
+    },
+    {
+      "paragraphId": "P077",
+      "quoteIds": [
+        "Q05"
+      ],
+      "panel": "p1"
+    },
+    {
+      "paragraphId": "P078",
+      "quoteIds": [
+        "Q05"
+      ],
+      "panel": "p2"
+    },
+    {
+      "paragraphId": "P079",
+      "quoteIds": [
+        "Q05"
+      ],
+      "panel": "p2"
+    },
+    {
+      "paragraphId": "P080",
+      "quoteIds": [
+        "Q05"
+      ],
+      "panel": "p2"
+    },
+    {
+      "paragraphId": "P081",
+      "quoteIds": [
+        "Q05"
+      ],
+      "panel": "p2"
+    },
+    {
+      "paragraphId": "P082",
+      "quoteIds": [
+        "Q05"
+      ],
+      "panel": "p3"
+    },
+    {
+      "paragraphId": "P083",
+      "quoteIds": [
+        "Q05"
+      ],
+      "panel": "p3"
+    },
+    {
+      "paragraphId": "P084",
+      "quoteIds": [
+        "Q05"
+      ],
+      "panel": "p3"
+    },
+    {
+      "paragraphId": "P085",
+      "quoteIds": [
+        "Q05"
+      ],
+      "panel": "p3"
+    },
+    {
+      "paragraphId": "P086",
+      "quoteIds": [
+        "Q05"
+      ],
+      "panel": "p3"
+    },
+    {
+      "paragraphId": "P087",
+      "quoteIds": [
+        "Q06"
+      ],
+      "panel": "p4"
+    },
+    {
+      "paragraphId": "P088",
+      "quoteIds": [
+        "Q06"
+      ],
+      "panel": "p4"
+    },
+    {
+      "paragraphId": "P089",
+      "quoteIds": [
+        "Q06"
+      ],
+      "panel": "p4"
+    },
+    {
+      "paragraphId": "P090",
+      "quoteIds": [
+        "Q06"
+      ],
+      "panel": "p4"
+    },
+    {
+      "paragraphId": "P091",
+      "quoteIds": [
+        "Q06"
+      ],
+      "panel": "p4"
+    },
+    {
+      "paragraphId": "P092",
+      "quoteIds": [
+        "Q06"
+      ],
+      "panel": "p4"
+    },
+    {
+      "paragraphId": "P093",
+      "quoteIds": [
+        "Q05"
+      ],
+      "panel": null
+    },
+    {
+      "paragraphId": "P094",
+      "quoteIds": [
+        "Q05"
+      ],
+      "panel": null
+    },
+    {
+      "paragraphId": "P095",
+      "quoteIds": [
+        "Q05"
+      ],
+      "panel": null
+    },
+    {
+      "paragraphId": "P096",
+      "quoteIds": [
+        "Q05"
+      ],
+      "panel": null
+    },
+    {
+      "paragraphId": "P097",
+      "quoteIds": [
+        "Q05"
+      ],
+      "panel": null
+    },
+    {
+      "paragraphId": "P098",
+      "quoteIds": [
+        "Q05"
+      ],
+      "panel": null
+    },
+    {
+      "paragraphId": "P099",
+      "quoteIds": [
+        "Q05"
+      ],
+      "panel": null
+    }
+  ],
+  "S09": [
+    {
+      "paragraphId": "P100",
+      "quoteIds": [
+        "Q07"
+      ],
+      "panel": null
+    },
+    {
+      "paragraphId": "P101",
+      "quoteIds": [
+        "Q07"
+      ],
+      "panel": null
+    },
+    {
+      "paragraphId": "P102",
+      "quoteIds": [
+        "Q07"
+      ],
+      "panel": "p1"
+    },
+    {
+      "paragraphId": "P103",
+      "quoteIds": [
+        "Q07"
+      ],
+      "panel": "p1"
+    },
+    {
+      "paragraphId": "P104",
+      "quoteIds": [
+        "Q07"
+      ],
+      "panel": "p1"
+    },
+    {
+      "paragraphId": "P105",
+      "quoteIds": [
+        "Q07"
+      ],
+      "panel": "p1"
+    },
+    {
+      "paragraphId": "P106",
+      "quoteIds": [
+        "Q07"
+      ],
+      "panel": "p1"
+    },
+    {
+      "paragraphId": "P107",
+      "quoteIds": [
+        "Q07"
+      ],
+      "panel": "p1"
+    },
+    {
+      "paragraphId": "P108",
+      "quoteIds": [
+        "Q07"
+      ],
+      "panel": "p2"
+    },
+    {
+      "paragraphId": "P109",
+      "quoteIds": [
+        "Q07"
+      ],
+      "panel": "p2"
+    },
+    {
+      "paragraphId": "P110",
+      "quoteIds": [
+        "Q07"
+      ],
+      "panel": "p2"
+    },
+    {
+      "paragraphId": "P111",
+      "quoteIds": [
+        "Q07"
+      ],
+      "panel": "p2"
+    },
+    {
+      "paragraphId": "P112",
+      "quoteIds": [
+        "Q07"
+      ],
+      "panel": "p3"
+    },
+    {
+      "paragraphId": "P113",
+      "quoteIds": [
+        "Q07"
+      ],
+      "panel": "p3"
+    },
+    {
+      "paragraphId": "P114",
+      "quoteIds": [
+        "Q07"
+      ],
+      "panel": "p3"
+    },
+    {
+      "paragraphId": "P115",
+      "quoteIds": [
+        "Q07"
+      ],
+      "panel": "p3"
+    },
+    {
+      "paragraphId": "P116",
+      "quoteIds": [
+        "Q07"
+      ],
+      "panel": "p3"
+    },
+    {
+      "paragraphId": "P117",
+      "quoteIds": [
+        "Q08"
+      ],
+      "panel": "p4"
+    },
+    {
+      "paragraphId": "P118",
+      "quoteIds": [
+        "Q08"
+      ],
+      "panel": "p4"
+    },
+    {
+      "paragraphId": "P119",
+      "quoteIds": [
+        "Q08"
+      ],
+      "panel": "p4"
+    },
+    {
+      "paragraphId": "P120",
+      "quoteIds": [
+        "Q08"
+      ],
+      "panel": "p4"
+    },
+    {
+      "paragraphId": "P121",
+      "quoteIds": [
+        "Q08"
+      ],
+      "panel": "p4"
+    },
+    {
+      "paragraphId": "P122",
+      "quoteIds": [
+        "Q08"
+      ],
+      "panel": "p4"
+    },
+    {
+      "paragraphId": "P123",
+      "quoteIds": [
+        "Q07"
+      ],
+      "panel": null
+    }
+  ],
+  "S10": [
+    {
+      "paragraphId": "P124",
+      "quoteIds": [
+        "Q01",
+        "Q02",
+        "Q03",
+        "Q04",
+        "Q05",
+        "Q06",
+        "Q07",
+        "Q08"
+      ],
+      "panel": null
+    },
+    {
+      "paragraphId": "P125",
+      "quoteIds": [
+        "Q01",
+        "Q02"
+      ],
+      "panel": null
+    },
+    {
+      "paragraphId": "P126",
+      "quoteIds": [
+        "Q03",
+        "Q04"
+      ],
+      "panel": null
+    },
+    {
+      "paragraphId": "P127",
+      "quoteIds": [
+        "Q05",
+        "Q06"
+      ],
+      "panel": null
+    },
+    {
+      "paragraphId": "P128",
+      "quoteIds": [
+        "Q07",
+        "Q08"
+      ],
+      "panel": null
+    },
+    {
+      "paragraphId": "P129",
+      "quoteIds": [
+        "Q01",
+        "Q02",
+        "Q03",
+        "Q04",
+        "Q05",
+        "Q06",
+        "Q07",
+        "Q08"
+      ],
+      "panel": null
+    },
+    {
+      "paragraphId": "P130",
+      "quoteIds": [
+        "Q01",
+        "Q02",
+        "Q03",
+        "Q04",
+        "Q05",
+        "Q06",
+        "Q07",
+        "Q08"
+      ],
+      "panel": null
+    }
+  ]
+}

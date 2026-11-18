@@ -1,0 +1,109 @@
+{
+  "coordinateBasis": "uncropped displayed image; top-left percentages",
+  "overlays": {
+    "S01": [
+      {
+        "text": "由戒生定",
+        "x": 55,
+        "y": 53,
+        "width": 35,
+        "color": "#ffffff",
+        "fontSizeCqw": 4.2,
+        "textAlign": "center",
+        "anchor": "top-left"
+      }
+    ],
+    "S02": [
+      {
+        "text": "守護六根",
+        "x": 38,
+        "y": 45.2,
+        "width": 24,
+        "color": "#000000",
+        "fontSizeCqw": 1.8,
+        "textAlign": "center",
+        "anchor": "top-left"
+      }
+    ],
+    "S03": [],
+    "S04": [],
+    "S05": [
+      {
+        "text": "貪欲",
+        "x": 10,
+        "y": 44,
+        "width": 15,
+        "color": "#000000",
+        "fontSizeCqw": 3.4,
+        "textAlign": "center",
+        "anchor": "top-left"
+      },
+      {
+        "text": "瞋恚",
+        "x": 29,
+        "y": 29,
+        "width": 14,
+        "color": "#000000",
+        "fontSizeCqw": 3.4,
+        "textAlign": "center",
+        "anchor": "top-left"
+      },
+      {
+        "text": "惛沉",
+        "x": 50,
+        "y": 18,
+        "width": 13,
+        "color": "#000000",
+        "fontSizeCqw": 3.4,
+        "textAlign": "center",
+        "anchor": "top-left"
+      },
+      {
+        "text": "掉悔",
+        "x": 65,
+        "y": 34,
+        "width": 13,
+        "color": "#000000",
+        "fontSizeCqw": 3.4,
+        "textAlign": "center",
+        "anchor": "top-left"
+      },
+      {
+        "text": "疑",
+        "x": 84,
+        "y": 49,
+        "width": 10,
+        "color": "#000000",
+        "fontSizeCqw": 3.4,
+        "textAlign": "center",
+        "anchor": "top-left"
+      }
+    ],
+    "S06": [],
+    "S07": [],
+    "S08": [],
+    "S09": [],
+    "S10": []
+  },
+  "changes": [
+    {
+      "scene": "S02",
+      "original": {
+        "x": 38,
+        "y": 39,
+        "width": 24
+      },
+      "implemented": {
+        "text": "守護六根",
+        "x": 38,
+        "y": 45.2,
+        "width": 24,
+        "color": "#000000",
+        "fontSizeCqw": 1.8,
+        "textAlign": "center",
+        "anchor": "top-left"
+      },
+      "reason": "原建議會落在窗框內；下移至窗底與貓額上方窄隙，字級同比縮放，手機可用既有放大操作。"
+    }
+  ]
+}
