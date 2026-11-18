@@ -22,7 +22,7 @@ def document():
   body.append('</section>')
  body.append('<section class="scene"><h2>經文卡</h2>')
  for qid,q in CAT.items():body.append(f'<article><h3>{qid}｜{e(q["source"])}</h3><blockquote>{e(q["text"])}</blockquote></article>')
- body.append('</section><section class="scene"><h2>片尾出處</h2><div class="art"><img src="/four-jhanas/assets/credits.webp"></div></section><section class="scene"><h2>閱讀說明</h2>')
+ body.append('</section><section class="scene"><h2>閱讀說明</h2>')
  for block in BOOK['pages'][-1]['textSummary']:
   for text in block['paragraphs']:body.append('<p>'+e(text)+'</p>')
  return '<!doctype html><html lang="zh-Hant-TW"><meta charset="utf-8"><title>四禪｜SutraZen 校稿預覽</title><style>'+STYLE+'</style><body>'+''.join(body)+'</section></body></html>'
@@ -34,7 +34,7 @@ class Handler(http.server.SimpleHTTPRequestHandler):
   else:super().do_GET()
 server=http.server.ThreadingHTTPServer(('127.0.0.1',0),functools.partial(Handler,directory=str(ROOT)));threading.Thread(target=server.serve_forever,daemon=True).start()
 with sync_playwright() as p:
- browser=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox']);page=browser.new_page();page.goto(f'http://127.0.0.1:{server.server_port}/review.html');page.evaluate('()=>document.fonts.ready');page.wait_for_function('[...document.images].every(i=>i.complete&&i.naturalWidth>0)');assert page.locator('img').count()==11 and page.locator('.label').count()==7;OUT.parent.mkdir(parents=True,exist_ok=True);page.pdf(path=str(OUT),format='A4',print_background=True);browser.close()
+ browser=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox']);page=browser.new_page();page.goto(f'http://127.0.0.1:{server.server_port}/review.html');page.evaluate('()=>document.fonts.ready');page.wait_for_function('[...document.images].every(i=>i.complete&&i.naturalWidth>0)');assert page.locator('img').count()==10 and page.locator('.label').count()==7;OUT.parent.mkdir(parents=True,exist_ok=True);page.pdf(path=str(OUT),format='A4',print_background=True);browser.close()
 server.shutdown()
 with tempfile.TemporaryDirectory(prefix='four-jhanas-pdf-') as tmp:
  raw=Path(tmp)/'full.pdf';shutil.copyfile(OUT,raw);pdf=fitz.open(raw);seen=set()

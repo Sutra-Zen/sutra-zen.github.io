@@ -162,10 +162,10 @@ try {
   saved = stored === null ? 0 : Number(stored);
 } catch {}
 const requested = new URLSearchParams(location.search);
-const requestedPage = Number(requested.get('page')) - 1, requestedScene = requested.get('scene');
+const requestedPage = Math.min(Number(requested.get('page')) - 1, pages.length - 1), requestedScene = requested.get('scene');
 const start = requestedScene && sceneStarts.has(requestedScene)
   ? (pages[requestedPage]?.scene === requestedScene ? requestedPage : sceneStarts.get(requestedScene))
-  : (Number.isInteger(saved) && pages[saved] ? saved : 0);
+  : (Number.isInteger(saved) && saved >= 0 ? Math.min(saved, pages.length - 1) : 0);
 showPage(start);
 $('#open-verse').onclick = () => {
   const item = pages[current]; $('#dialog-verse').textContent = scriptureText(item);

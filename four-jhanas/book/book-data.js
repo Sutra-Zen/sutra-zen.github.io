@@ -5207,24 +5207,8 @@ const BOOK = {
     },
     {
       "scene": "S10",
-      "title": "片尾出處",
-      "paragraphNumber": 8,
-      "lines": [],
-      "quotes": [],
-      "sourceNote": null,
-      "context": "繪本主體：《長部》第二經〈沙門果經〉 · 參考：《雜阿含經》第483經",
-      "sourceAnchor": "sources",
-      "image": "../assets/credits.webp",
-      "dimensions": [
-        1235,
-        790
-      ],
-      "summary": true
-    },
-    {
-      "scene": "S10",
       "title": "閱讀說明",
-      "paragraphNumber": 9,
+      "paragraphNumber": 8,
       "lines": [],
       "quotes": [],
       "sourceNote": null,
