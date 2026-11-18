@@ -2383,26 +2383,8 @@ const BOOK = {
     },
     {
       "scene": "S10",
-      "title": "經典出處",
-      "paragraphNumber": 5,
-      "lines": [
-        "經典出處"
-      ],
-      "quotes": [],
-      "context": null,
-      "sourceNote": null,
-      "image": "../assets/sources.png",
-      "dimensions": [
-        1231,
-        820
-      ],
-      "alt": "五根五力片尾經典出處，點圖可放大閱讀",
-      "credits": true
-    },
-    {
-      "scene": "S10",
       "title": "閱讀說明",
-      "paragraphNumber": 6,
+      "paragraphNumber": 5,
       "lines": [],
       "quotes": [],
       "context": null,

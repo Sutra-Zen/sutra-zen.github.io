@@ -1,3 +1,5 @@
+2026-11-18追加修正：依作者指示移除片尾來源圖，繪本現75頁；PDF同步。下方76頁／來源圖截圖為原版本歷史驗收，勿視為現版。
+
 # 五根五力｜完整試閱與驗收
 
 [PR #41](https://github.com/rooneyflower-star/sutrazen-map/pull/41)，分支：`feat/five-roots-powers-review`，基準main：`2376c9cafb4b59e5eeba6aaa2833ec3c900497fc`。作者已於2026-11-18授權直接發布，經PR #41處理；正式入口：[主題專頁](https://rooneyflower-star.github.io/sutrazen-map/five-roots-powers/)／[繪本](https://rooneyflower-star.github.io/sutrazen-map/five-roots-powers/book/)。實際Pages與正式ZIP核對見PR最後發布驗證；以下保留原試閱方式與380頁面狀態的歷史驗收。
