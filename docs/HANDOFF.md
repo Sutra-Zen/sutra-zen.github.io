@@ -1,3 +1,15 @@
+# 第12本《四禪》發布授權（2026-11-18）
+
+作者本輪明確指示「直接發佈吧」。**此授權取代下方四禪的審閱限制，允許將PR #36合併至main並發布GitHub Pages。** 發布已驗收的同一版本，移除導讀／閱讀器noindex與試閱標示、更新正式快取版號；不變更十幕、P001–P130、Q01–Q08、原圖、7條疊字與既有十一書。
+
+- 專頁：https://rooneyflower-star.github.io/sutrazen-map/four-jhanas/
+- 繪本：https://rooneyflower-star.github.io/sutrazen-map/four-jhanas/book/
+- 發布經 [PR #36](https://github.com/rooneyflower-star/sutrazen-map/pull/36)。實際合併SHA、對應成功Pages建置、公開檔案與固定合併SHA完整ZIP，記錄在PR最後發布驗證；不以先前審閱ZIP代替正式備份。
+- 既有五尺寸660頁面狀態、35放大疊字及20分格放大狀態驗收結果沿用；發布前重核生成一致性、原檔SHA、JS語法、相對路徑與原書不變。實體Safari、外部影片播放、音軌精校及來源斷句差異仍依REVIEW記錄，不因發布宣稱已完成。
+- 此工作環境未提供Notion工具，尚未寫入改版頁；待補記 `docs/releases/four-jhanas-notion.md`。
+
+---
+
 # 第12本《四禪》實作與審閱（2026-11-18）
 
 從最新main `c4e6670d30416b4203767287cf14cd754dea8dd7` 建立 `feat/four-jhanas-review`（[草稿PR #36](https://github.com/rooneyflower-star/sutrazen-map/pull/36)）。作者本次要求製作與驗證，尚未明確授權新書發布；**勿自行合併main或部署，也勿沿用前一本四如意足的發布授權。**

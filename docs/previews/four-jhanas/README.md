@@ -1,6 +1,6 @@
-# 四禪｜分支試閱
+# 四禪｜試閱紀錄與正式入口
 
-分支 `feat/four-jhanas-review`（[草稿PR #36](https://github.com/rooneyflower-star/sutrazen-map/pull/36)），基準main `c4e6670d30416b4203767287cf14cd754dea8dd7`。本次未合併main、未公開部署。
+分支 `feat/four-jhanas-review`（[PR #36](https://github.com/rooneyflower-star/sutrazen-map/pull/36)），基準main `c4e6670d30416b4203767287cf14cd754dea8dd7`。作者已於2026-11-18授權直接發布，經PR #36處理；實際發布結果見該PR最終核對。正式入口：[主題專頁](https://rooneyflower-star.github.io/sutrazen-map/four-jhanas/)／[互動繪本](https://rooneyflower-star.github.io/sutrazen-map/four-jhanas/book/)。以下保留原試閱與驗收方式。
 
 ## 直接在iPad看
 
@@ -37,7 +37,7 @@ python3 -m http.server 8765 --bind 127.0.0.1
 
 第四禪第三格：`http://127.0.0.1:8765/four-jhanas/book/index.html?scene=S09&page=112`。
 
-首頁可測第12本書架與原四禪地圖節點。iPad與電腦連同一區域網路時，將bind改成 `0.0.0.0`，iPad Safari開啟 `http://電腦的區域網路IP:8765/four-jhanas/`。結束伺服器用Ctrl+C。這是本機試閱，並未發布GitHub Pages。
+首頁可測第12本書架與原四禪地圖節點。iPad與電腦連同一區域網路時，將bind改成 `0.0.0.0`，iPad Safari開啟 `http://電腦的區域網路IP:8765/four-jhanas/`。結束伺服器用Ctrl+C。本機試閱不會變更GitHub Pages正式站。
 
 沒有宣稱直接雙擊HTML、GitHub程式碼頁或iPad「檔案」快速預覽可以執行完整網站。PDF與截圖可直接開啟，互動版需上述HTTP方式。
 
