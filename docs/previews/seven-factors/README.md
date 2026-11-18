@@ -1,6 +1,6 @@
 # 七覺支｜十二頁試閱
 
-分支`feat/seven-factors-review`，從main99b1a1d建立。新書先交付審閱，未合併或發布；正式站仍為13本，本分支接通書架14及原七覺支總說節點。
+[草稿PR #43](https://github.com/rooneyflower-star/sutrazen-map/pull/43)，分支`feat/seven-factors-review`，從main99b1a1d建立。新書先交付審閱，未合併或發布；正式站仍為13本，本分支接通書架14及原七覺支總說節點。
 
 - [12頁完整PDF](Seven-Factors-review.pdf)：12張原圖與14條中心疊字，完整36段口白及其對應引文，文字可選取。A3橫式供放大對讀，非網頁操作介面。
 - [離線ZIP](../../../downloads/SutraZen-Seven-Factors-Offline.zip)：先完整解壓，執行`python3 start-local.py`，開啟http://127.0.0.1:8765/。包內有說明；不需要Internet素材，影片與外部經典網站除外。
