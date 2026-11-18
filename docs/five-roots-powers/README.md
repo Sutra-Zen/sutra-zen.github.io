@@ -13,7 +13,7 @@
 - `canonical/`／`verified-sources.json`：官方固定版原典五份及巴利對照，導讀節錄與影片錄文分開。外站註解頁因CONNECT403未驗證呈現，不能說不存在。
 - 網頁為`five-roots-powers/`及`five-roots-powers/book/`，沿用最新安那般那閱讀器，接原書架13及既有地圖節點。
 
-74段各一頁，另加片尾來源圖與共用經典依據結語，共76頁、目錄十幕。時間為秒級近似，非精準音軌字幕。先交付可審閱分支，不合併或發布新書。
+74段各一頁，另加片尾來源圖與共用經典依據結語，共76頁、目錄十幕。時間為秒級近似，非精準音軌字幕。作者於2026-11-18另行授權直接發布，取代原審閱限制；以PR #41發布，實際Pages與完整備份驗證見該PR。
 
 重建：`python3 scripts/build-five-roots-powers.py`；核對：同指令加`--check`。互動驗收：`python3 scripts/check-five-roots-powers.py`。PDF：`python3 scripts/build-five-roots-powers-preview.py`。
 

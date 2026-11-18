@@ -1,3 +1,15 @@
+# 第13本《五根五力》發布授權（2026-11-18）
+
+作者明確指示「可以直接發佈五根五力」。**此授權取代下方第13本的審閱限制，允許將PR #41合併main並部署GitHub Pages。** 發布已驗收的同一版本，移除導讀／閱讀器noindex、更新正式快取版號，不改十幕、74段口白與時間、14引文卡、五條疊字、來源圖／結語共76頁及原十二書。
+
+- 主題專頁：https://rooneyflower-star.github.io/sutrazen-map/five-roots-powers/
+- 繪本：https://rooneyflower-star.github.io/sutrazen-map/five-roots-powers/book/
+- 發布經PR #41；實際合併SHA、對應成功Pages建置、公開檔案及固定SHA完整ZIP驗證，於發布後記入該PR，不以先前審閱檔代替正式備份。
+- 先前五尺寸380頁面狀態、25放大疊字及5來源圖放大狀態沿用；發布前重核生成一致性、原素材／原書不變與JS語法，發布後驗證實際公開檔案。不因發布宣稱已完成實體Safari、影片播放、音軌精校或引文版本差異的校勘。
+- 此工作環境未提供Notion工具，尚未寫入改版頁；待補記docs/releases/five-roots-powers-notion.md已更新為正式發布紀錄。
+
+---
+
 # 第13本《五根五力》完整試閱（2026-11-18）
 
 從最新main `2376c9cafb4b59e5eeba6aaa2833ec3c900497fc` 建立 `feat/five-roots-powers-review`（草稿PR #41）。本輪要求完成製作、提供預覽與測試；新書先供審閱，**不要自行合併main或部署，不能沿用其他繪本的發布授權。** 同輪安那般那S08遮黑已另經PR #40發布，main仍只有12本可讀；以下第13本書架／地圖變更只在審閱分支。
