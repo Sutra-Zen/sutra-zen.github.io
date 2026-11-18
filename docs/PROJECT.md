@@ -104,3 +104,7 @@ At the author's request, the standalone credits screenshot page is removed from 
 ## Reader corrections: 四禪 / 安那般那 (2026-11-18)
 
 The author requested maintenance of the published readers. Four Jhanas S10 keeps its original comparison artwork and scripture, removes the duplicate HTML/dialog table and updates the PDF; S05瞋恚 moves from y29% to17% above the face. Anapana S04–S07 use the unchanged shared panel-focus helper, with16 measured column rectangles and paragraph-specific focus. Intro/closing pages stay full frame; zoom/rotation follow the same focus. Both original page counts, timed narration, scripture data and all artwork remain. See newest HANDOFF and docs/previews/reading-focus for scoped340-page-state/80-zoom validation; physical Safari remains untested.
+
+## Book11 comic focus (2026-11-18)
+
+At the author's request, the published Iddhipada reader adds shared76% noncurrent-panel dimming to S01's four columns and S06's2x2 deviations. S08 remains a full-frame overview because its narration discusses all four together. Focus is keyed by scene-local page offset, not the book's global paragraphNumber. Enlargement and rotation stay synchronized; the82-page data,81 timed paragraphs,11 scripture cards,13 overlays and all artwork/source text remain unchanged. Scoped115-page/40-zoom/35-noncomic checks and screenshots are in docs/previews/iddhipada-focus; physical Safari remains untested.
