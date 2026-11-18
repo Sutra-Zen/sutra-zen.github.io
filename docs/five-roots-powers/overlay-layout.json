@@ -1,0 +1,71 @@
+{
+  "coordinateBasis": "full-original-image-top-left",
+  "overlays": {
+    "S01": [],
+    "S02": [],
+    "S03": [],
+    "S04": [
+      {
+        "text": "信",
+        "x": 60,
+        "y": 46,
+        "width": 12,
+        "fontSizeCqw": 5,
+        "color": "#000000",
+        "textAlign": "left",
+        "anchor": "top-left"
+      }
+    ],
+    "S05": [
+      {
+        "text": "精進",
+        "x": 73,
+        "y": 11,
+        "width": 18,
+        "fontSizeCqw": 5,
+        "color": "#000000",
+        "textAlign": "left",
+        "anchor": "top-left"
+      }
+    ],
+    "S06": [
+      {
+        "text": "念",
+        "x": 77,
+        "y": 11,
+        "width": 12,
+        "fontSizeCqw": 5,
+        "color": "#000000",
+        "textAlign": "left",
+        "anchor": "top-left"
+      }
+    ],
+    "S07": [
+      {
+        "text": "定",
+        "x": 77,
+        "y": 11,
+        "width": 12,
+        "fontSizeCqw": 5,
+        "color": "#000000",
+        "textAlign": "left",
+        "anchor": "top-left"
+      }
+    ],
+    "S08": [
+      {
+        "text": "慧",
+        "x": 64,
+        "y": 11,
+        "width": 12,
+        "fontSizeCqw": 5,
+        "color": "#000000",
+        "textAlign": "left",
+        "anchor": "top-left"
+      }
+    ],
+    "S09": [],
+    "S10": []
+  },
+  "note": "x/y依原稿；原稿未指定寬度字級，先採12%（精進18%）、5cqw，圖內左上錨定，不聲稱逐秒還原。"
+}

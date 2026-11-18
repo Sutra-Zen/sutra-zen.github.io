@@ -1,0 +1,102 @@
+[
+  {
+    "scene": "S01",
+    "original": "assets/S01.png",
+    "web": "five-roots-powers/assets/S01.webp",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "sha256": "90d0e68d1eb7642dbc327d83542e14f35044d8e9c46fc69d79086d204e4a3096"
+  },
+  {
+    "scene": "S02",
+    "original": "assets/S02.png",
+    "web": "five-roots-powers/assets/S02.webp",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "sha256": "218dc69b3e2d6386690de87c8319a141737037e5c7c86e86d837e2ba7ff6f8f5"
+  },
+  {
+    "scene": "S03",
+    "original": "assets/S03.png",
+    "web": "five-roots-powers/assets/S03.webp",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "sha256": "ab46922ccd6141831c7534361fd7aba1c2ad4478d20d78a4be750fa994ca2bd7"
+  },
+  {
+    "scene": "S04",
+    "original": "assets/S04.png",
+    "web": "five-roots-powers/assets/S04.webp",
+    "dimensions": [
+      1671,
+      941
+    ],
+    "sha256": "7ed09302314b5139f83214c43a7ced4d96984c62a182e44c76aba1c6f2758dd9"
+  },
+  {
+    "scene": "S05",
+    "original": "assets/S05.png",
+    "web": "five-roots-powers/assets/S05.webp",
+    "dimensions": [
+      1671,
+      941
+    ],
+    "sha256": "e1a174ef4653f63bb0af8583243f5240d7de8f8fd302f889baf53016b906b9a6"
+  },
+  {
+    "scene": "S06",
+    "original": "assets/S06.png",
+    "web": "five-roots-powers/assets/S06.webp",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "sha256": "d4601d490593867bfd5b07a61b3063f3f6858609dec15243c2ddc43d76bda935"
+  },
+  {
+    "scene": "S07",
+    "original": "assets/S07.png",
+    "web": "five-roots-powers/assets/S07.webp",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "sha256": "0cc5c8e052ee47e791acbc1c2e77dc5ad646bafd84fb294b43f7c1dc08bd0d79"
+  },
+  {
+    "scene": "S08",
+    "original": "assets/S08.png",
+    "web": "five-roots-powers/assets/S08.webp",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "sha256": "d56643a005963bf076de6eb00daf4d099380d2d74e362cbf90cb925151f3a2b9"
+  },
+  {
+    "scene": "S09",
+    "original": "assets/S09.png",
+    "web": "five-roots-powers/assets/S09.webp",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "sha256": "1d6abe13a8ce1b763c7318723b7ab5f2198a394bd57bd871deaebb96b177afc1"
+  },
+  {
+    "scene": "S10",
+    "original": "assets/S10.png",
+    "web": "five-roots-powers/assets/S10.webp",
+    "dimensions": [
+      1670,
+      941
+    ],
+    "sha256": "9f82ef48d95ea712b41209c1aef483572c6dc34b327841a362f0e42b9f7a4de9"
+  }
+]

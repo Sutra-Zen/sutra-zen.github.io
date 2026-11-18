@@ -1,0 +1,102 @@
+{
+  "storyboard.json": {
+    "bytes": 16408,
+    "sha256": "357350d5c219dad47d18f9029211bfddca0f6440b2d3f2f67d3c878743708123"
+  },
+  "storyboard.md": {
+    "bytes": 12006,
+    "sha256": "4978a4149c2f8f0be65d73694df35d3893341d84ef244925bc88836abada26dc"
+  },
+  "CODEX_PROMPT.txt": {
+    "bytes": 799,
+    "sha256": "0999851afa9c5c35bd2379b18d0d1ca123fe4eaaef963f5c68d8847bb7cdb37d"
+  },
+  "assets/S05.png": {
+    "bytes": 3594293,
+    "sha256": "2f7880d85dc99be2079b8c7cb7eaf96aed3aca4b50fcf0de143770b0ab004e31",
+    "dimensions": [
+      1671,
+      941
+    ]
+  },
+  "assets/S02.png": {
+    "bytes": 3699165,
+    "sha256": "52d3310c10cf4926b4aedd85f50a346f8396920657cfd43ede97f3500e3d12bd",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "assets/S10.png": {
+    "bytes": 3618055,
+    "sha256": "ecb1cb1a9886541614bf47abe42671773254bb2fbc4610c350f93da210fe2f91",
+    "dimensions": [
+      1670,
+      941
+    ]
+  },
+  "assets/S01.png": {
+    "bytes": 3899678,
+    "sha256": "f104cf3c45bbe78be3b709ef7b558fdb45e2551ce34d0187cbfc8523a72b2958",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "assets/S07.png": {
+    "bytes": 3681309,
+    "sha256": "5cd201e48b04525a42378fbb914ad02232069f0e62cb0d19bc9d8a58da2ca0d9",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "assets/S03.png": {
+    "bytes": 3907541,
+    "sha256": "f6a768ad91a541e9c523dc09bd5d50645ba3645df1b2ca33522ec22a56b28fa0",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "assets/S06.png": {
+    "bytes": 3476714,
+    "sha256": "fe08ebb3b95228e45a0af998048717acf58dea53a3cccbd6fd3b6996bba19c60",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "assets/S04.png": {
+    "bytes": 3422210,
+    "sha256": "dd532ed3b2d0bffd7ec3a5940de7260523798d254095b9c277f21c94a998f313",
+    "dimensions": [
+      1671,
+      941
+    ]
+  },
+  "assets/S08.png": {
+    "bytes": 4417260,
+    "sha256": "12b83d5f20e469a15828296bb7abb2b7a4fa7f3659dfc3579c438e5eb48b24de",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "assets/S09.png": {
+    "bytes": 4119928,
+    "sha256": "4cffb167e30860e812e68e7a17319d8a81463542e2ed68f36ea8de4b4de90625",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "assets/sources.png": {
+    "bytes": 370364,
+    "sha256": "6766f51628ccd4b9bf2f4c22813ea84c12eac3fff603f1fd5f914758284108a4",
+    "dimensions": [
+      1231,
+      820
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "baseline": "2376c9cafb4b59e5eeba6aaa2833ec3c900497fc",
+  "scenes": 10,
+  "originalParagraphs": 74,
+  "pages": 76,
+  "quotes": 14,
+  "overlays": 5,
+  "pageStates": 380,
+  "zoomOverlayStates": 25,
+  "creditsZoomStates": 5,
+  "viewports": [
+    [
+      360,
+      800
+    ],
+    [
+      800,
+      360
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      1440,
+      900
+    ]
+  ],
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "physicalSafari": "not tested",
+  "publication": "review branch only; not merged or deployed",
+  "entrances": "shelf13 and existing map node passed;12legacy readers open/next/return passed"
+}
