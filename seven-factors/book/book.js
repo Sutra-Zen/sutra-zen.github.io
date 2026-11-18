@@ -6,8 +6,11 @@ const sceneStarts = new Map(BOOK.scenes.map(scene => [scene.id, scene.start]));
 
 let current = 0;
 let cueIndex = 0;
-function currentItem() { return {...pages[current], ...pages[current].cues[cueIndex]}; }
-const readingSteps = pages.flatMap((page, p) => page.cues.map((cue, c) => ({page:p, cue:c})));
+function currentItem() {
+  if (current === pages.length - 1 && cueIndex === pages[current].cues.length) return {...pages[current], id:'afterword', image:null, quotes:[], lines:[], afterword:true, textSummary:[{title:'經典依據', paragraphs:[...document.querySelectorAll('#reader-note p')].map(p=>p.textContent), rows:[]}]};
+  return {...pages[current], ...pages[current].cues[cueIndex]};
+}
+const readingSteps = pages.flatMap((page, p) => page.cues.map((cue, c) => ({page:p, cue:c}))).concat({page:pages.length-1, cue:pages.at(-1).cues.length});
 function readingPosition() { return readingSteps.findIndex(step => step.page === current && step.cue === cueIndex); }
 function stepReading(delta) {
   const step = readingSteps[readingPosition() + delta];
@@ -72,7 +75,7 @@ function renderSummary(item) {
 function showPage(index, wantedCue = 0) {
   if (!pages[index]) return;
   current = index;
-  cueIndex = Math.max(0, Math.min(Number.isInteger(wantedCue) ? wantedCue : 0, pages[index].cues.length - 1));
+  cueIndex = Math.max(0, Math.min(Number.isInteger(wantedCue) ? wantedCue : 0, pages[index].cues.length - (index === pages.length - 1 ? 0 : 1)));
   const item = currentItem();
   try { sessionStorage.setItem(storageKey + '-cue', JSON.stringify({page:current, cue:cueIndex})); } catch {}
   try { sessionStorage.setItem(storageKey, String(index)); } catch {}
@@ -86,7 +89,7 @@ function showPage(index, wantedCue = 0) {
   page.classList.toggle('text-summary-scene', Boolean(item.textSummary));
   $('#page-title').textContent = item.title;
   $('#narration').replaceChildren(...item.lines.map(paragraph));
-  $('#reader-note').hidden = current !== pages.length - 1;
+  $('#reader-note').hidden = true;
   $('#caption').hidden = Boolean(item.textSummary);
   $('#caption-sizer').hidden = Boolean(item.afterword || item.summary);
   if (measuredScene !== item.scene) {
@@ -132,7 +135,7 @@ function layoutArtwork() {
   scene.style.setProperty('--caption-space', caption + 'px');
   scene.style.setProperty('--scripture-space', scripture + 'px');
   scene.style.setProperty('--image-space-height', Math.max(1, scene.clientHeight - caption - scripture) + 'px');
-  $('#closing-shade').hidden = true; $('#summary-text').hidden = !pages[current].textSummary;
+  $('#closing-shade').hidden = true; $('#summary-text').hidden = !currentItem().textSummary;
   const narrow = $('#art-frame').getBoundingClientRect().width < 600;
   $('#art-frame').classList.toggle('small-art', narrow);
   const hints = BOOK.scenes.find(s => s.id === pages[current].scene).artOverlay.filter(o => o.mobileMode === 'outside_image_when_width_below_600px');

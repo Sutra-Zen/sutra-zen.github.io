@@ -15,9 +15,9 @@ class Quiet(http.server.SimpleHTTPRequestHandler):
 def verify(page,k):
  i,j,c=steps[k];old.settle(page);assert page.locator('#narration p').all_text_contents()==[c['text']],(k,c['id']);assert page.locator('.page').get_attribute('data-paragraph')==c['id']
  assert page.locator('#verse blockquote').all_text_contents()==[q['text'] for q in c['quotes']]
- assert page.locator('#position-text').inner_text()==f'{k+1} / 36 段 · {i+1}/12 頁'
+ assert page.locator('#position-text').inner_text()==f'{k+1} / 37 段 · {i+1}/12 頁'
  assert not page.evaluate('document.documentElement.scrollWidth>innerWidth');old.focus(page,old.BOOK['pages'][i]['scene'],j)
- assert page.locator('#next').get_attribute('aria-label')==('回到第一頁' if k==35 else '下一頁')
+ assert page.locator('#next').get_attribute('aria-label')=='下一頁'
  assert page.locator('#cue-nav').count()==0
 server=http.server.ThreadingHTTPServer(('127.0.0.1',0),functools.partial(Quiet,directory=str(R)));threading.Thread(target=server.serve_forever,daemon=True).start();base=f'http://127.0.0.1:{server.server_port}/'
 report={'forward':0,'reverse':0,'offlineForward':0,'viewports':old.SIZES,'errors':[],'physicalSafari':'not tested','data':'all36original cues/times/quotes byte-identical to published version'}
@@ -39,7 +39,7 @@ with sync_playwright() as p:
   page.set_viewport_size({'width':h,'height':w});old.settle(page);verify(page,9);page.set_viewport_size({'width':w,'height':h});page.reload();verify(page,9)
   page.evaluate('showPage(11,0)');assert page.locator('#next').get_attribute('aria-label')=='下一頁'
   for _ in range(5):page.locator('#next').tap()
-  verify(page,35);page.locator('#next').tap();verify(page,0)
+  verify(page,35);page.locator('#next').tap();assert '走入經藏的起點' in page.locator('#summary-text').inner_text();page.locator('#next').tap();verify(page,0)
   page.locator('.top a').click();page.wait_for_load_state();assert page.locator('a[download]').count()==0 and page.locator('a[href="assets/13.jpeg"]').count()==0
   with tempfile.TemporaryDirectory(prefix='seven-sequence-') as tmp:
    with zipfile.ZipFile(R/'downloads/SutraZen-Seven-Factors-Offline.zip') as z:assert z.testzip() is None;z.extractall(tmp)
@@ -47,7 +47,7 @@ with sync_playwright() as p:
    for k in range(36):
     verify(offline,k);report['offlineForward']+=1
     if k<35:offline.locator('#next').tap()
-   offline.locator('#next').tap();verify(offline,0);context.close();local.shutdown()
+   offline.locator('#next').tap();assert '走入經藏的起點' in offline.locator('#summary-text').inner_text();offline.locator('#next').tap();verify(offline,0);context.close();local.shutdown()
   page.close();print(w,h,'all36main-next/main-previous/offline-next and keyboard/swipe/restart passed',flush=True)
  b.close()
 server.shutdown();assert not report['errors'];assert report['forward']==report['reverse']==report['offlineForward']==180;(O/'validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')

@@ -20,7 +20,7 @@ for name in ['seven-factors/index.html','seven-factors/book/index.html']:
 files['index.html']='''<!doctype html><html lang="zh-Hant-TW"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>七覺支離線目錄</title><link rel="stylesheet" href="guide-ui.css"><body class="topic-guide"><main class="wrap guide-content"><h1>七覺支離線繪本</h1><p><a href="seven-factors/book/index.html">開始閱讀十二頁繪本</a></p><p><a href="seven-factors/index.html">主題導讀與經文節錄</a></p><p>本包的插圖、口白、經文、翻頁與放大均可離線使用。影片與外部原經網站需要網路。</p></main></body></html>'''.encode()
 files['README.txt']='''七覺支離線繪本
 請先完整解壓ZIP，保持目錄結構；建議以下述本機網站方式在瀏覽器開啟index.html。
-共有12頁、36段口白；主按鍵依序讀完全部36段口白、當時經文與聚焦，保留12幅圖頁；不需另外切換段落。
+共有12幅圖、36段口白及獨立結語；主按鍵依序讀完全部36段口白、當時經文與聚焦，保留12幅圖頁；不需另外切換段落。
 不需要登入或外部圖片，請勿只從壓縮檔內預覽單一HTML。
 已測方式：解壓後在該目錄執行 python3 start-local.py ，瀏覽器開啟 http://127.0.0.1:8765/ ，無外部網路仍可翻頁。
 直接開啟file://未在本次環境驗證（受管理瀏覽器禁止本機檔案網址）。
