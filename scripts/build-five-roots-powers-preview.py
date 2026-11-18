@@ -21,7 +21,7 @@ def document():
    q=cat[qid];body.append('<h3>'+e(q['source'])+'</h3><blockquote>'+e(q['text'])+'</blockquote>')
   if sid=='S02':body.append('<p>'+e(s['scripture'])+'</p>')
   body.append('</section>')
- body.append('<section class="scene"><h2>片尾經典出處</h2><div class="art"><img src="/five-roots-powers/assets/sources.png"></div></section><section class="scene"><h2>經典依據</h2>')
+ body.append('<section class="scene"><h2>經典依據</h2>')
  for text in book['pages'][-1]['textSummary'][0]['paragraphs']:body.append('<p>'+e(text)+'</p>')
  return '<!doctype html><html lang="zh-Hant-TW"><meta charset="utf-8"><style>'+STYLE+'</style><body>'+''.join(body)+'</body></html>'
 class Handler(http.server.SimpleHTTPRequestHandler):
@@ -32,7 +32,7 @@ class Handler(http.server.SimpleHTTPRequestHandler):
   else:super().do_GET()
 s=http.server.ThreadingHTTPServer(('127.0.0.1',0),functools.partial(Handler,directory=str(R)));threading.Thread(target=s.serve_forever,daemon=True).start();dest=O/'Five-Roots-Powers-review.pdf'
 with sync_playwright() as p:
- b=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox']);page=b.new_page();page.goto(f'http://127.0.0.1:{s.server_port}/review.html');page.evaluate('()=>document.fonts.ready');page.wait_for_function('[...document.images].every(i=>i.complete&&i.naturalWidth>0)');assert page.locator('img').count()==11 and page.locator('.label').count()==5;page.pdf(path=str(dest),format='A4',print_background=True);b.close()
+ b=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox']);page=b.new_page();page.goto(f'http://127.0.0.1:{s.server_port}/review.html');page.evaluate('()=>document.fonts.ready');page.wait_for_function('[...document.images].every(i=>i.complete&&i.naturalWidth>0)');assert page.locator('img').count()==10 and page.locator('.label').count()==5;page.pdf(path=str(dest),format='A4',print_background=True);b.close()
 s.shutdown()
 with tempfile.TemporaryDirectory(prefix='roots-pdf-') as tmp:
  raw=Path(tmp)/'full.pdf';shutil.copyfile(dest,raw);pdf=fitz.open(raw);seen=set()
@@ -46,5 +46,5 @@ text=re.sub(r'\s+','',subprocess.check_output(['pdftotext','-layout',str(dest),'
 for s in story:
  for c in s['cues']:assert re.sub(r'\s+','',c['text']) in text,c['text']
 for q in cat.values():assert re.sub(r'\s+','',q['text']) in text,q['quoteId']
-with fitz.open(dest) as pdf:report={'pages':len(pdf),'bytes':dest.stat().st_size,'sha256':hashlib.sha256(dest.read_bytes()).hexdigest(),'all74Narrations':'retained','all14QuoteCards':'retained','images':11,'overlays':5}
+with fitz.open(dest) as pdf:report={'pages':len(pdf),'bytes':dest.stat().st_size,'sha256':hashlib.sha256(dest.read_bytes()).hexdigest(),'all74Narrations':'retained','all14QuoteCards':'retained','images':10,'overlays':5}
 (O/'pdf-validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps(report,ensure_ascii=False),flush=True)

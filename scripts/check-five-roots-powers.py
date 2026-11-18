@@ -14,7 +14,7 @@ LEGACY=['four-truths','five-aggregates','six-senses','twelve-links','eightfold-p
 def old(path):return subprocess.check_output(['git','show',BASE+':'+path],cwd=R)
 def static():
  subprocess.run(['python3','scripts/build-five-roots-powers.py','--check'],cwd=R,check=True)
- assert len(B['scenes'])==10 and len(B['pages'])==76 and len(CAT)==14 and sum(len(s['artOverlay']) for s in B['scenes'])==5
+ assert len(B['scenes'])==10 and len(B['pages'])==75 and len(CAT)==14 and sum(len(s['artOverlay']) for s in B['scenes'])==5
  n=0;markdown=(D/'storyboard.md').read_text()
  for s,scene in zip(STORY,B['scenes']):
   assert scene['image']==s['asset'] and scene['artOverlay']==LABELS[scene['id']] and scene['start']==n
@@ -22,7 +22,7 @@ def static():
    p=B['pages'][n];assert p['lines']==[cue['text']] and p['paragraphId']==mapping['paragraphId']==f'P{n+1:03}'
    assert [p['startTime'],p['endTime']]==[cue['start'],cue['end']] and cue['text'] in markdown
    assert p['quotes']==[CAT[q] for q in mapping['quoteIds']];n+=1
- assert n==74 and B['pages'][74]['credits'] and B['pages'][75]['afterword']
+ assert n==74 and B['pages'][74]['afterword']
  for q in CAT.values():assert any(q['text'] in s['scripture'] for s in STORY)
  assert '樹根站穩與抗風是影片的教學譬喻' in B['pages'][12]['sourceNote']
  assert (R/'five-roots-powers/assets/sources.png').read_bytes()==(D/'assets/sources.png').read_bytes()
@@ -68,7 +68,7 @@ def overlays(page,selector,frame,plan):
   assert a['r']['right']<=frame['right']+1 and a['r']['bottom']<=frame['bottom']+1
 def browser():
  server=http.server.ThreadingHTTPServer(('127.0.0.1',0),functools.partial(Quiet,directory=str(R)));threading.Thread(target=server.serve_forever,daemon=True).start();base=f'http://127.0.0.1:{server.server_port}/'
- report={'baseline':BASE,'scenes':10,'originalParagraphs':74,'pages':76,'quotes':14,'overlays':5,'pageStates':0,'zoomOverlayStates':0,'creditsZoomStates':0,'viewports':SIZES,'javascriptErrors':[],'httpErrors':[],'physicalSafari':'not tested','publication':'review branch only; not merged or deployed'}
+ report={'baseline':BASE,'scenes':10,'originalParagraphs':74,'pages':75,'quotes':14,'overlays':5,'pageStates':0,'zoomOverlayStates':0,'creditsZoomStates':0,'viewports':SIZES,'javascriptErrors':[],'httpErrors':[],'physicalSafari':'not tested','publication':'review branch only; not merged or deployed'}
  with sync_playwright() as p:
   b=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox'])
   cache={}
@@ -77,7 +77,7 @@ def browser():
   for w,h in SIZES:
    page=b.new_page(viewport={'width':w,'height':h},has_touch=True);page.on('pageerror',lambda e:report['javascriptErrors'].append(str(e)));page.on('response',lambda r:report['httpErrors'].append(r.url) if r.url.startswith(base) and r.status>=400 else None);page.route('https://www.youtube.com/**',lambda route:route.abort());page.goto(base+'five-roots-powers/book/');page.wait_for_function('typeof showPage==="function"')
    for i,item in enumerate(B['pages']):
-    page.evaluate('i=>showPage(i)',i);settle(page);assert page.locator('#position-text').inner_text()==f'{i+1} / 76 頁' and page.locator('#narration p').all_text_contents()==item['lines']
+    page.evaluate('i=>showPage(i)',i);settle(page);assert page.locator('#position-text').inner_text()==f'{i+1} / 75 頁' and page.locator('#narration p').all_text_contents()==item['lines']
     assert page.locator('#verse .scripture-card blockquote').all_text_contents()==[q['text'] for q in item['quotes']]
     assert not page.evaluate('document.documentElement.scrollWidth>innerWidth') and page.locator('#next').evaluate('e=>getComputedStyle(e).touchAction')=='manipulation'
     if item['image']:
@@ -89,16 +89,13 @@ def browser():
      if w==360 and item.get('paragraphId') in ['P028','P034','P056']:shot(page,f'{item["scene"]}-360x800.webp')
     else:assert '走入經藏的起點' in page.locator('#summary-text').inner_text()
     report['pageStates']+=1
-   page.locator('#next').tap();assert page.locator('#position-text').inner_text()=='1 / 76 頁'
+   page.locator('#next').tap();assert page.locator('#position-text').inner_text()=='1 / 75 頁'
    for _ in range(8):page.locator('#next').tap()
-   page.locator('#previous').tap();assert page.locator('#position-text').inner_text()=='8 / 76 頁' and page.evaluate('visualViewport.scale')==1
+   page.locator('#previous').tap();assert page.locator('#position-text').inner_text()=='8 / 75 頁' and page.evaluate('visualViewport.scale')==1
    for scene in B['scenes']:
     page.select_option('#page-select',scene['id']);settle(page);assert page.locator('.page').get_attribute('data-scene')==scene['id']
     if scene['artOverlay']:
      page.locator('#art').click();page.wait_for_function('document.querySelector("#zoom-art").complete');frame=page.locator('#zoom-frame').evaluate('e=>e.getBoundingClientRect().toJSON()');overlays(page,'#zoom-overlays .art-overlay',frame,scene['artOverlay']);report['zoomOverlayStates']+=1;page.locator('#image-dialog form button').click()
-   page.evaluate('showPage(74)');settle(page);page.locator('#art').click();page.wait_for_function('document.querySelector("#zoom-art").complete');assert page.locator('#zoom-art').get_attribute('src')=='../assets/sources.png';assert page.locator('#zoom-overlays .art-overlay').count()==0;report['creditsZoomStates']+=1
-   if w==768:shot(page,'credits-zoom-768x1024.webp')
-   page.locator('#image-dialog form button').click()
    page.evaluate('showPage(28)');settle(page);position=page.locator('#position-text').inner_text();page.set_viewport_size({'width':h,'height':w});settle(page);assert page.locator('#position-text').inner_text()==position;page.set_viewport_size({'width':w,'height':h});page.reload();settle(page);assert page.locator('#position-text').inner_text()==position
    page.locator('#open-verse').click();text=page.locator('#dialog-verse').inner_text();assert 'undefined' not in text and all(q['text'] in text for q in B['pages'][28]['quotes']);page.locator('.verse-scroll').evaluate('e=>e.scrollTop=e.scrollHeight');page.locator('#dialog-source').click();assert '#Q03' in page.url;page.go_back();settle(page);assert page.locator('#position-text').inner_text()==position
    page.locator('.top a').click();page.wait_for_load_state();page.evaluate('()=>document.fonts.ready');assert urlsplit(page.url).path=='/five-roots-powers/index.html';assert not page.evaluate('document.documentElement.scrollWidth>innerWidth');page.locator('.book-cover').click();settle(page);assert page.locator('#position-text').inner_text()==position
@@ -110,6 +107,6 @@ def browser():
   for name in LEGACY:
    page.goto(base+name+'/book/');page.locator('#next').wait_for(state='visible');before=page.locator('#position-text').inner_text();page.locator('#next').click();assert page.locator('#position-text').inner_text()!=before;page.locator('.top a').click();assert urlsplit(page.url).path in ['/'+name+'/','/'+name+'/index.html']
   b.close()
- server.shutdown();assert not report['javascriptErrors'] and not report['httpErrors'],report;assert report['pageStates']==380 and report['zoomOverlayStates']==25 and report['creditsZoomStates']==5
+ server.shutdown();assert not report['javascriptErrors'] and not report['httpErrors'],report;assert report['pageStates']==375 and report['zoomOverlayStates']==25 and report['creditsZoomStates']==0
  report['entrances']='shelf13 and existing map node passed;12legacy readers open/next/return passed';(O/'validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 if __name__=='__main__':static();browser()
