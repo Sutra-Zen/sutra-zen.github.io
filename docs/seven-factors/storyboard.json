@@ -1,0 +1,733 @@
+[
+  {
+    "id": "S01",
+    "title": "浮動",
+    "startSeconds": 0.0,
+    "endSeconds": 15.0,
+    "asset": "images/01.png",
+    "cues": [
+      {
+        "id": "P001",
+        "startTime": "0:00",
+        "startSeconds": 0.0,
+        "text": "想要專心修行的小貓，想讓自己的心安靜下來。",
+        "endSeconds": 5.0,
+        "quoteIds": []
+      },
+      {
+        "id": "P002",
+        "startTime": "0:05",
+        "startSeconds": 5.0,
+        "text": "可是，明明身體坐著不動，心卻一下想東、一下想西。",
+        "endSeconds": 11.0,
+        "quoteIds": []
+      },
+      {
+        "id": "P003",
+        "startTime": "0:11",
+        "startSeconds": 11.0,
+        "text": "為什麼越想安靜，心反而越靜不下來呢？",
+        "endSeconds": 15.0,
+        "quoteIds": []
+      }
+    ],
+    "scriptureCues": [],
+    "artOverlay": [],
+    "originalOverlaySpecification": "無"
+  },
+  {
+    "id": "S02",
+    "title": "昏沉",
+    "startSeconds": 15.0,
+    "endSeconds": 28.0,
+    "asset": "images/02.png",
+    "cues": [
+      {
+        "id": "P004",
+        "startTime": "0:15",
+        "startSeconds": 15.0,
+        "text": "可是，有時候又剛好相反。才靜坐一下子，小貓就昏昏欲睡，提不起精神。",
+        "endSeconds": 24.0,
+        "quoteIds": []
+      },
+      {
+        "id": "P005",
+        "startTime": "0:24",
+        "startSeconds": 24.0,
+        "text": "原來，心有時太浮動，有時又太沉滯。",
+        "endSeconds": 28.0,
+        "quoteIds": []
+      }
+    ],
+    "scriptureCues": [],
+    "artOverlay": [],
+    "originalOverlaySpecification": "無"
+  },
+  {
+    "id": "S03",
+    "title": "五蓋",
+    "startSeconds": 28.0,
+    "endSeconds": 43.0,
+    "asset": "images/03.png",
+    "cues": [
+      {
+        "id": "P006",
+        "startTime": "0:28",
+        "startSeconds": 28.0,
+        "text": "在修行的路上，心常常會被各種障礙打擾。佛法把這些障礙，叫做「五蓋」。",
+        "endSeconds": 36.0,
+        "quoteIds": [
+          "Q01"
+        ]
+      },
+      {
+        "id": "P007",
+        "startTime": "0:36",
+        "startSeconds": 36.0,
+        "text": "不過，小貓眼前最常遇到的，還是兩種狀況：心太浮動，和心太沉滯。",
+        "endSeconds": 43.0,
+        "quoteIds": [
+          "Q01"
+        ]
+      }
+    ],
+    "scriptureCues": [
+      {
+        "startSeconds": 28.0,
+        "quoteId": "Q01"
+      }
+    ],
+    "artOverlay": [
+      {
+        "text": "貪欲",
+        "x": 18,
+        "y": 70,
+        "width": 16,
+        "fontSizeCqw": 5.065191387559809,
+        "color": "#000000",
+        "textAlign": "center",
+        "anchor": "center",
+        "heightPct": 9
+      },
+      {
+        "text": "瞋恚",
+        "x": 33,
+        "y": 57,
+        "width": 16,
+        "fontSizeCqw": 5.065191387559809,
+        "color": "#000000",
+        "textAlign": "center",
+        "anchor": "center",
+        "heightPct": 9
+      },
+      {
+        "text": "惛沉",
+        "x": 50,
+        "y": 44,
+        "width": 16,
+        "fontSizeCqw": 5.065191387559809,
+        "color": "#000000",
+        "textAlign": "center",
+        "anchor": "center",
+        "heightPct": 9
+      },
+      {
+        "text": "掉悔",
+        "x": 67,
+        "y": 57,
+        "width": 16,
+        "fontSizeCqw": 5.065191387559809,
+        "color": "#000000",
+        "textAlign": "center",
+        "anchor": "center",
+        "heightPct": 9
+      },
+      {
+        "text": "疑",
+        "x": 84,
+        "y": 70,
+        "width": 16,
+        "fontSizeCqw": 5.065191387559809,
+        "color": "#000000",
+        "textAlign": "center",
+        "anchor": "center",
+        "heightPct": 9
+      }
+    ],
+    "originalOverlaySpecification": "貪欲 (18,70)、瞋恚 (33,57)、惛沉 (50,44)、掉悔 (67,57)、疑 (84,70)。黑色粗體，各對應一個角色。"
+  },
+  {
+    "id": "S04",
+    "title": "念",
+    "startSeconds": 43.0,
+    "endSeconds": 65.0,
+    "asset": "images/04.png",
+    "cues": [
+      {
+        "id": "P008",
+        "startTime": "0:43",
+        "startSeconds": 43.0,
+        "text": "佛陀教導七種幫助我們走向覺悟的修習，稱為「七覺支」。",
+        "endSeconds": 49.0,
+        "quoteIds": [
+          "Q02"
+        ]
+      },
+      {
+        "id": "P009",
+        "startTime": "0:49",
+        "startSeconds": 49.0,
+        "text": "第一個，是「念覺支」。",
+        "endSeconds": 52.0,
+        "quoteIds": [
+          "Q03"
+        ]
+      },
+      {
+        "id": "P010",
+        "startTime": "0:52",
+        "startSeconds": 52.0,
+        "text": "依四念處，清楚覺察身體、感受、心念，以及所經驗的種種現象。",
+        "endSeconds": 59.0,
+        "quoteIds": [
+          "Q03"
+        ]
+      },
+      {
+        "id": "P011",
+        "startTime": "0:59",
+        "startSeconds": 59.0,
+        "text": "就像小貓覺察自己的呼吸，也看見念頭如落葉般飄過，不必跟著它走。",
+        "endSeconds": 65.0,
+        "quoteIds": [
+          "Q04"
+        ]
+      }
+    ],
+    "scriptureCues": [
+      {
+        "startSeconds": 43.0,
+        "quoteId": "Q02"
+      },
+      {
+        "startSeconds": 49.0,
+        "quoteId": "Q03"
+      },
+      {
+        "startSeconds": 59.0,
+        "quoteId": "Q04"
+      }
+    ],
+    "artOverlay": [
+      {
+        "text": "念",
+        "x": 64,
+        "y": 53,
+        "width": 24,
+        "fontSizeCqw": 7.3163875598086126,
+        "color": "#000000",
+        "textAlign": "center",
+        "anchor": "center",
+        "heightPct": 13
+      }
+    ],
+    "originalOverlaySpecification": "念 (64,53)"
+  },
+  {
+    "id": "S05",
+    "title": "擇法",
+    "startSeconds": 65.0,
+    "endSeconds": 79.0,
+    "asset": "images/05.png",
+    "cues": [
+      {
+        "id": "P012",
+        "startTime": "1:05",
+        "startSeconds": 65.0,
+        "text": "第二個，是「擇法覺支」。",
+        "endSeconds": 69.0,
+        "quoteIds": [
+          "Q05"
+        ]
+      },
+      {
+        "id": "P013",
+        "startTime": "1:09",
+        "startSeconds": 69.0,
+        "text": "學會分辨善法與不善法，知道什麼值得培養，什麼應該遠離。",
+        "endSeconds": 75.0,
+        "quoteIds": [
+          "Q05"
+        ]
+      },
+      {
+        "id": "P014",
+        "startTime": "1:15",
+        "startSeconds": 75.0,
+        "text": "就像照顧花園，要認得幼苗，也要認得雜草。",
+        "endSeconds": 79.0,
+        "quoteIds": [
+          "Q05"
+        ]
+      }
+    ],
+    "scriptureCues": [
+      {
+        "startSeconds": 65.0,
+        "quoteId": "Q05"
+      }
+    ],
+    "artOverlay": [
+      {
+        "text": "擇法",
+        "x": 70,
+        "y": 53,
+        "width": 24,
+        "fontSizeCqw": 7.3163875598086126,
+        "color": "#000000",
+        "textAlign": "center",
+        "anchor": "center",
+        "heightPct": 13
+      }
+    ],
+    "originalOverlaySpecification": "擇法 (70,53)"
+  },
+  {
+    "id": "S06",
+    "title": "精進",
+    "startSeconds": 79.0,
+    "endSeconds": 93.0,
+    "asset": "images/06.png",
+    "cues": [
+      {
+        "id": "P015",
+        "startTime": "1:19",
+        "startSeconds": 79.0,
+        "text": "第三個，是「精進覺支」。分辨清楚後，還要付諸行動。",
+        "endSeconds": 86.0,
+        "quoteIds": [
+          "Q06"
+        ]
+      },
+      {
+        "id": "P016",
+        "startTime": "1:26",
+        "startSeconds": 86.0,
+        "text": "就像四正勤所教導的：避免、斷除不善法，讓善法生起，並持續增長。",
+        "endSeconds": 93.0,
+        "quoteIds": [
+          "Q07"
+        ]
+      }
+    ],
+    "scriptureCues": [
+      {
+        "startSeconds": 79.0,
+        "quoteId": "Q06"
+      },
+      {
+        "startSeconds": 86.0,
+        "quoteId": "Q07"
+      }
+    ],
+    "artOverlay": [
+      {
+        "text": "精進",
+        "x": 70,
+        "y": 53,
+        "width": 24,
+        "fontSizeCqw": 7.3163875598086126,
+        "color": "#000000",
+        "textAlign": "center",
+        "anchor": "center",
+        "heightPct": 13
+      }
+    ],
+    "originalOverlaySpecification": "精進 (70,53)"
+  },
+  {
+    "id": "S07",
+    "title": "喜",
+    "startSeconds": 93.0,
+    "endSeconds": 105.0,
+    "asset": "images/07.png",
+    "cues": [
+      {
+        "id": "P017",
+        "startTime": "1:33",
+        "startSeconds": 93.0,
+        "text": "第四個，是「喜覺支」。當善法逐漸增長，心也生起清明的歡喜。",
+        "endSeconds": 101.0,
+        "quoteIds": [
+          "Q08"
+        ]
+      },
+      {
+        "id": "P018",
+        "startTime": "1:41",
+        "startSeconds": 101.0,
+        "text": "這份喜悅，來自修行，而不只是外在的享樂。",
+        "endSeconds": 105.0,
+        "quoteIds": [
+          "Q08"
+        ]
+      }
+    ],
+    "scriptureCues": [
+      {
+        "startSeconds": 93.0,
+        "quoteId": "Q08"
+      }
+    ],
+    "artOverlay": [
+      {
+        "text": "喜",
+        "x": 49,
+        "y": 53,
+        "width": 24,
+        "fontSizeCqw": 7.3163875598086126,
+        "color": "#000000",
+        "textAlign": "center",
+        "anchor": "center",
+        "heightPct": 13
+      }
+    ],
+    "originalOverlaySpecification": "喜 (49,53)"
+  },
+  {
+    "id": "S08",
+    "title": "輕安",
+    "startSeconds": 105.0,
+    "endSeconds": 118.0,
+    "asset": "images/08.png",
+    "cues": [
+      {
+        "id": "P019",
+        "startTime": "1:45",
+        "startSeconds": 105.0,
+        "text": "第五個，是「輕安覺支」。歡喜之後，身與心漸漸平息，變得柔和、安穩。",
+        "endSeconds": 114.0,
+        "quoteIds": [
+          "Q09"
+        ]
+      },
+      {
+        "id": "P020",
+        "startTime": "1:54",
+        "startSeconds": 114.0,
+        "text": "這不是昏沉，而是清醒而舒適的寧靜。",
+        "endSeconds": 118.0,
+        "quoteIds": [
+          "Q09"
+        ]
+      }
+    ],
+    "scriptureCues": [
+      {
+        "startSeconds": 105.0,
+        "quoteId": "Q09"
+      }
+    ],
+    "artOverlay": [
+      {
+        "text": "輕安",
+        "x": 56,
+        "y": 19,
+        "width": 24,
+        "fontSizeCqw": 7.3163875598086126,
+        "color": "#000000",
+        "textAlign": "center",
+        "anchor": "center",
+        "heightPct": 13
+      }
+    ],
+    "originalOverlaySpecification": "輕安 (56,19)，位於臉部右上方天空。"
+  },
+  {
+    "id": "S09",
+    "title": "定",
+    "startSeconds": 118.0,
+    "endSeconds": 130.0,
+    "asset": "images/09.png",
+    "cues": [
+      {
+        "id": "P021",
+        "startTime": "1:58",
+        "startSeconds": 118.0,
+        "text": "第六個，是「定覺支」。身心安穩後，心逐漸集中，不再四處散亂。",
+        "endSeconds": 126.0,
+        "quoteIds": [
+          "Q10"
+        ]
+      },
+      {
+        "id": "P022",
+        "startTime": "2:06",
+        "startSeconds": 126.0,
+        "text": "就像湖水平靜下來，心能穩穩地安住。",
+        "endSeconds": 130.0,
+        "quoteIds": [
+          "Q10"
+        ]
+      }
+    ],
+    "scriptureCues": [
+      {
+        "startSeconds": 118.0,
+        "quoteId": "Q10"
+      }
+    ],
+    "artOverlay": [
+      {
+        "text": "定",
+        "x": 69,
+        "y": 53,
+        "width": 24,
+        "fontSizeCqw": 7.3163875598086126,
+        "color": "#000000",
+        "textAlign": "center",
+        "anchor": "center",
+        "heightPct": 13
+      }
+    ],
+    "originalOverlaySpecification": "定 (69,53)"
+  },
+  {
+    "id": "S10",
+    "title": "捨",
+    "startSeconds": 130.0,
+    "endSeconds": 142.0,
+    "asset": "images/10.png",
+    "cues": [
+      {
+        "id": "P023",
+        "startTime": "2:10",
+        "startSeconds": 130.0,
+        "text": "第七個，是「捨覺支」。隨著定力成熟，貪著與憂惱逐漸止息。",
+        "endSeconds": 137.0,
+        "quoteIds": [
+          "Q11"
+        ]
+      },
+      {
+        "id": "P024",
+        "startTime": "2:17",
+        "startSeconds": 137.0,
+        "text": "心保持平等安穩，不再被喜歡與討厭牽著走。",
+        "endSeconds": 142.0,
+        "quoteIds": [
+          "Q12"
+        ]
+      }
+    ],
+    "scriptureCues": [
+      {
+        "startSeconds": 130.0,
+        "quoteId": "Q11"
+      },
+      {
+        "startSeconds": 137.0,
+        "quoteId": "Q12"
+      }
+    ],
+    "artOverlay": [
+      {
+        "text": "捨",
+        "x": 62,
+        "y": 28,
+        "width": 24,
+        "fontSizeCqw": 7.3163875598086126,
+        "color": "#000000",
+        "textAlign": "center",
+        "anchor": "center",
+        "heightPct": 13
+      }
+    ],
+    "originalOverlaySpecification": "捨 (62,28)"
+  },
+  {
+    "id": "S11",
+    "title": "看火候，調整用功",
+    "startSeconds": 142.0,
+    "endSeconds": 179.0,
+    "asset": "images/11.jpeg",
+    "cues": [
+      {
+        "id": "P025",
+        "startTime": "2:22",
+        "startSeconds": 142.0,
+        "text": "修心，不是每次都用同一種方法。",
+        "endSeconds": 146.0,
+        "quoteIds": [
+          "Q13"
+        ]
+      },
+      {
+        "id": "P026",
+        "startTime": "2:26",
+        "startSeconds": 146.0,
+        "text": "就像照顧火一樣，火太小，要幫它升起來；火太大，要讓它安穩下來。",
+        "endSeconds": 153.0,
+        "quoteIds": [
+          "Q13"
+        ]
+      },
+      {
+        "id": "P027",
+        "startTime": "2:33",
+        "startSeconds": 153.0,
+        "text": "火候剛剛好時，就要好好守護。",
+        "endSeconds": 157.0,
+        "quoteIds": [
+          "Q13"
+        ]
+      },
+      {
+        "id": "P028",
+        "startTime": "2:37",
+        "startSeconds": 157.0,
+        "text": "當心太沉、提不起精神時，可以多修擇法、精進、喜，讓心重新明亮起來。",
+        "endSeconds": 165.0,
+        "quoteIds": [
+          "Q13"
+        ]
+      },
+      {
+        "id": "P029",
+        "startTime": "2:45",
+        "startSeconds": 165.0,
+        "text": "當心太躁、停不下來時，就多修輕安、定、捨，讓心慢慢安穩下來。",
+        "endSeconds": 173.0,
+        "quoteIds": [
+          "Q14"
+        ]
+      },
+      {
+        "id": "P030",
+        "startTime": "2:53",
+        "startSeconds": 173.0,
+        "text": "而念覺支，始終幫助我們看清，現在的心，到底需要什麼。",
+        "endSeconds": 179.0,
+        "quoteIds": [
+          "Q15"
+        ]
+      }
+    ],
+    "scriptureCues": [
+      {
+        "startSeconds": 142.0,
+        "quoteId": "Q13"
+      },
+      {
+        "startSeconds": 165.0,
+        "quoteId": "Q14"
+      },
+      {
+        "startSeconds": 173.0,
+        "quoteId": "Q15"
+      }
+    ],
+    "artOverlay": [
+      {
+        "text": "昏沉",
+        "x": 27,
+        "y": 57,
+        "width": 16,
+        "fontSizeCqw": 5.068222621184919,
+        "color": "#000000",
+        "textAlign": "center",
+        "anchor": "center",
+        "heightPct": 9
+      },
+      {
+        "text": "浮動",
+        "x": 87,
+        "y": 57,
+        "width": 16,
+        "fontSizeCqw": 5.068222621184919,
+        "color": "#000000",
+        "textAlign": "center",
+        "anchor": "center",
+        "heightPct": 9
+      }
+    ],
+    "originalOverlaySpecification": "昏沉 (27,57)、浮動 (87,57)。中央念燈及兩側六個角色的名稱已在原圖內。"
+  },
+  {
+    "id": "S12",
+    "title": "七覺支總結",
+    "startSeconds": 179.0,
+    "endSeconds": 213.21,
+    "asset": "images/12.jpeg",
+    "cues": [
+      {
+        "id": "P031",
+        "startTime": "2:59",
+        "startSeconds": 179.0,
+        "text": "所以，修習七覺支，不只是把七個名字記起來。",
+        "endSeconds": 184.0,
+        "quoteIds": [
+          "Q16"
+        ]
+      },
+      {
+        "id": "P032",
+        "startTime": "3:04",
+        "startSeconds": 184.0,
+        "text": "更要時時觀察，現在，哪些覺支已經生起？哪些還沒有？",
+        "endSeconds": 191.0,
+        "quoteIds": [
+          "Q16"
+        ]
+      },
+      {
+        "id": "P033",
+        "startTime": "3:11",
+        "startSeconds": 191.0,
+        "text": "還沒生起的，如何培養？已經生起的，又如何修習，直到圓滿？",
+        "endSeconds": 198.0,
+        "quoteIds": [
+          "Q16"
+        ]
+      },
+      {
+        "id": "P034",
+        "startTime": "3:18",
+        "startSeconds": 198.0,
+        "text": "原來，修行不是勉強把心壓得平靜，",
+        "endSeconds": 201.0,
+        "quoteIds": [
+          "Q16"
+        ]
+      },
+      {
+        "id": "P035",
+        "startTime": "3:21",
+        "startSeconds": 201.0,
+        "text": "而是先清楚看見自己的心，再依當下的需要，善巧地修習。",
+        "endSeconds": 207.0,
+        "quoteIds": [
+          "Q16"
+        ]
+      },
+      {
+        "id": "P036",
+        "startTime": "3:27",
+        "startSeconds": 207.0,
+        "text": "讓七覺支漸漸成熟，走向覺悟與解脫。",
+        "endSeconds": 213.21,
+        "quoteIds": [
+          "Q16"
+        ]
+      }
+    ],
+    "scriptureCues": [
+      {
+        "startSeconds": 179.0,
+        "quoteId": "Q16"
+      }
+    ],
+    "artOverlay": [],
+    "originalOverlaySpecification": "無。原圖已有中央「念」，以及擇法、精進、喜、輕安、定、捨六個標籤。"
+  }
+]

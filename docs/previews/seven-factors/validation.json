@@ -1,0 +1,34 @@
+{
+  "baseline": "99b1a1d96169917ad682f8df72649b0da1cd8388",
+  "viewports": [
+    [
+      360,
+      800
+    ],
+    [
+      800,
+      360
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      1440,
+      900
+    ]
+  ],
+  "onlineCueStates": 180,
+  "offlineCueStates": 180,
+  "zoomLabels": 120,
+  "errors": [],
+  "physicalSafari": "not tested",
+  "publication": "review only,not merged or deployed",
+  "offlineMethod": "Actual guide-button ZIP downloaded,CRC checked,extracted;local HTTP serving extracted files with all other origins blocked;36cues and12pages each viewport",
+  "fileUrl": "Not verified: managed Chromium blocks file:// with ERR_BLOCKED_BY_ADMINISTRATOR",
+  "legacyReaders": "13open/next/return passed"
+}

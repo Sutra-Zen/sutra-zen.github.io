@@ -1,0 +1,110 @@
+[
+  {
+    "original": "images/01.png",
+    "web": "seven-factors/assets/01.webp",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "sha256": "d55e4039907d30b4e6c489774ff513151440882083767c56c54e28fc8b8e5b71"
+  },
+  {
+    "original": "images/02.png",
+    "web": "seven-factors/assets/02.webp",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "sha256": "03ce8b915d26a7ecdb9ce35da3e0e84e3755c2eeb1b3b128759a34bdee1dea0a"
+  },
+  {
+    "original": "images/03.png",
+    "web": "seven-factors/assets/03.webp",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "sha256": "c1babbbc1265e717463d7b9c87500a743902979421a20105f5fb6031a595d1ab"
+  },
+  {
+    "original": "images/04.png",
+    "web": "seven-factors/assets/04.webp",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "sha256": "17cbca01b556f43640ba1ed9299c330e9f57e6708e69f0a846b5eb5fc9ca53b5"
+  },
+  {
+    "original": "images/05.png",
+    "web": "seven-factors/assets/05.webp",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "sha256": "3b9d0534ed02bd36924386514cb22a02770d4e4ed459f6e05f2987c69fdf39db"
+  },
+  {
+    "original": "images/06.png",
+    "web": "seven-factors/assets/06.webp",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "sha256": "bbd87056bda0f162ef62919e8a5fb677f9e44e8ba6e84b6933c678458f9c6270"
+  },
+  {
+    "original": "images/07.png",
+    "web": "seven-factors/assets/07.webp",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "sha256": "1e592f5645a2691657064dcbe1496e9f074655ee9db0da0d32e73e87d1c821b3"
+  },
+  {
+    "original": "images/08.png",
+    "web": "seven-factors/assets/08.webp",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "sha256": "7ebe8f0ec21fab423dd1a2279a71b9b0f47b4d4a2f9a02926474d8dec324a665"
+  },
+  {
+    "original": "images/09.png",
+    "web": "seven-factors/assets/09.webp",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "sha256": "f930e1e0cc89a4b1ca61321945775a40feee7114275d9bf2ecd6829d8e15000d"
+  },
+  {
+    "original": "images/10.png",
+    "web": "seven-factors/assets/10.webp",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "sha256": "5ffa08b79b1e96755f28c6311a2e40de8f2553e01d91a9a1fabc52fb436f03b9"
+  },
+  {
+    "original": "images/11.jpeg",
+    "web": "seven-factors/assets/11.webp",
+    "dimensions": [
+      1671,
+      941
+    ],
+    "sha256": "42df54718fe2bc0ac714654cf628070b987aac5c91519d5c93449dc15177b97e"
+  },
+  {
+    "original": "images/12.jpeg",
+    "web": "seven-factors/assets/12.webp",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "sha256": "0f2719034e01ec879e6af050db5ae1ea1e8714dcb7af85a5785a09d82fcdd66e"
+  }
+]
