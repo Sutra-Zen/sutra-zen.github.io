@@ -1,0 +1,31 @@
+{
+  "baseline": "623bc69a98f220f1ab5fd06f0c2b6f21a555de33",
+  "pageStates": 595,
+  "mainControlComicStates": 130,
+  "zoomStates": 35,
+  "errors": [],
+  "httpErrors": [],
+  "viewports": [
+    [
+      360,
+      800
+    ],
+    [
+      800,
+      360
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      1440,
+      900
+    ]
+  ],
+  "physicalSafari": "not tested"
+}

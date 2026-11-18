@@ -664,8 +664,16 @@ const BOOK = {
       "lines": [
         "第五，選擇安靜不被打擾的環境。"
       ],
-      "quotes": [],
-      "sourceNote": "補充出處截圖803經：或空露地；影片此句未另切經文",
+      "quotes": [
+        {
+          "quoteId": "sa803",
+          "source": "《雜阿含經》第803經",
+          "text": "或入林中、閑房、樹下，或空露地，端身正坐，繫念面前。",
+          "relation": "原文對讀",
+          "verification": "canonical/sa803.html；節錄末標點作句號"
+        }
+      ],
+      "sourceNote": null,
       "context": null,
       "image": "../assets/S02.webp",
       "dimensions": [
@@ -1035,7 +1043,7 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q10",
-          "source": "中部118經・入出息念經（影片譯文）",
+          "source": "中部118經・入出息念經",
           "text": "我說這樣是在諸身中的一種，即：吸氣與呼氣。比丘們！因此，在這裡，在那時，比丘在身上隨看身地住：熱心的、正知的、有念的，調伏世間中的貪婪、憂惱。",
           "sourceType": "canonical",
           "verification": "transcribed_from_video_not_externally_collated",
@@ -1467,7 +1475,7 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q15",
-          "source": "中部118經・入出息念經（影片譯文）",
+          "source": "中部118經・入出息念經",
           "text": "這樣是在諸受中受的一種，即：吸氣與呼氣的好好作意。比丘們！因此，在這裡，在那時，比丘在諸受上隨看受地住：熱心的、正知的、有念的，調伏世間中的貪婪、憂惱。",
           "sourceType": "canonical",
           "verification": "transcribed_from_video_not_externally_collated",
@@ -1791,7 +1799,7 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q20",
-          "source": "中部118經・入出息念經（影片譯文）",
+          "source": "中部118經・入出息念經",
           "text": "比丘們！我不說念已忘失、不正知者有入出息念。比丘們！因此，在這裡，在那時，比丘在心上隨看心地住：熱心的、正知的、有念的，調伏世間中的貪婪、憂惱。",
           "sourceType": "canonical",
           "verification": "transcribed_from_video_not_externally_collated",
@@ -1818,7 +1826,7 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q20",
-          "source": "中部118經・入出息念經（影片譯文）",
+          "source": "中部118經・入出息念經",
           "text": "比丘們！我不說念已忘失、不正知者有入出息念。比丘們！因此，在這裡，在那時，比丘在心上隨看心地住：熱心的、正知的、有念的，調伏世間中的貪婪、憂惱。",
           "sourceType": "canonical",
           "verification": "transcribed_from_video_not_externally_collated",
@@ -2169,7 +2177,7 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q25",
-          "source": "中部118經・入出息念經（影片譯文）",
+          "source": "中部118經・入出息念經",
           "text": "凡是能以智慧照見那裡貪憂已被斷除的人，他就是一個善於保持平靜觀照的人。比丘們！因此，在那個當下，比丘就是在法上隨觀法而住：熱心的、正知的、有念的，調伏了世間的貪婪與憂愁。",
           "sourceType": "canonical",
           "verification": "transcribed_from_video_not_externally_collated",
@@ -2196,7 +2204,7 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q25",
-          "source": "中部118經・入出息念經（影片譯文）",
+          "source": "中部118經・入出息念經",
           "text": "凡是能以智慧照見那裡貪憂已被斷除的人，他就是一個善於保持平靜觀照的人。比丘們！因此，在那個當下，比丘就是在法上隨觀法而住：熱心的、正知的、有念的，調伏了世間的貪婪與憂愁。",
           "sourceType": "canonical",
           "verification": "transcribed_from_video_not_externally_collated",
@@ -2223,7 +2231,7 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q26",
-          "source": "中部118經・入出息念經（影片譯文）",
+          "source": "中部118經・入出息念經",
           "text": "因此，在那個當下，比丘就是在法上隨觀法而住：熱心的、正知的、有念的，調伏了世間的貪婪與憂愁。比丘們！入出息念這麼已修習、這麼已多作使四念住完成。",
           "sourceType": "canonical",
           "verification": "transcribed_from_video_not_externally_collated",
