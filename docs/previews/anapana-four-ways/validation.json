@@ -1,0 +1,28 @@
+{
+  "pageStates": 75,
+  "zoomStates": 20,
+  "errors": [],
+  "viewports": [
+    [
+      360,
+      800
+    ],
+    [
+      800,
+      360
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      1440,
+      900
+    ]
+  ],
+  "physicalSafari": "not tested"
+}
