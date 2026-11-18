@@ -298,18 +298,11 @@ button, select { font: inherit; }
 
 /* This handoff uses image-center coordinates, unlike earlier top-left books. */
 .art-overlay { transform:translate(-50%,-50%); text-align:center; line-height:1; }
-#cue-nav { display:flex; justify-content:center; align-items:center; gap:8px; margin-top:8px; font-size:.85rem; }
-#cue-nav button,#cue-nav select { min-height:44px; min-width:0; border:1px solid var(--line); border-radius:7px; background:var(--surface); color:var(--ink); padding:5px 8px; touch-action:manipulation; }
-#cue-nav button { flex:none; cursor:pointer; }
-#cue-nav select { width:min(100%,190px); flex:0 1 190px; }
-#cue-nav button:disabled { opacity:.45; }
 .reading-links { flex-wrap:wrap; }
 #reader-note { margin:24px auto; width:min(100%,48rem); line-height:1.8; padding:14px; color:var(--muted); }
 #reader-note h2 { font-size:1.1rem; color:var(--accent); }
 @media(orientation:landscape) {
  #reader-note:not([hidden]) { position:absolute; top:calc(100dvh + 10px); left:50%; width:min(calc(100% - 240px),48rem); transform:translateX(-50%); }
  .reader-at-end .scene { width:var(--stage-width); }
- #cue-nav { margin-top:4px; font-size:.78rem; }
- #cue-nav button,#cue-nav select { min-height:36px; }
  .reading-links { flex-wrap:nowrap; }
 }

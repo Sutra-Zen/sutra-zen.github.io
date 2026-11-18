@@ -7,7 +7,12 @@ const sceneStarts = new Map(BOOK.scenes.map(scene => [scene.id, scene.start]));
 let current = 0;
 let cueIndex = 0;
 function currentItem() { return {...pages[current], ...pages[current].cues[cueIndex]}; }
-function showCue(index) { if (pages[current].cues[index]) showPage(current, index); }
+const readingSteps = pages.flatMap((page, p) => page.cues.map((cue, c) => ({page:p, cue:c})));
+function readingPosition() { return readingSteps.findIndex(step => step.page === current && step.cue === cueIndex); }
+function stepReading(delta) {
+  const step = readingSteps[readingPosition() + delta];
+  if (step) showPage(step.page, step.cue);
+}
 let measuredScene = null;
 function paragraph(text) {
   const p = document.createElement('p'); p.textContent = text; return p;
@@ -81,9 +86,6 @@ function showPage(index, wantedCue = 0) {
   page.classList.toggle('text-summary-scene', Boolean(item.textSummary));
   $('#page-title').textContent = item.title;
   $('#narration').replaceChildren(...item.lines.map(paragraph));
-  $('#cue-select').replaceChildren(...pages[current].cues.map((c, i) => new Option(`${c.startTime} · 第${i + 1}/${pages[current].cues.length}段`, String(i))));
-  $('#cue-select').value = String(cueIndex);
-  $('#cue-previous').disabled = cueIndex === 0; $('#cue-next').disabled = cueIndex === pages[current].cues.length - 1;
   $('#reader-note').hidden = current !== pages.length - 1;
   $('#caption').hidden = Boolean(item.textSummary);
   $('#caption-sizer').hidden = Boolean(item.afterword || item.summary);
@@ -114,9 +116,9 @@ function showPage(index, wantedCue = 0) {
   if (item.quotes.length) $('#source-link').href = '../index.html#' + item.quotes[0].quoteId;
   else $('#source-link').removeAttribute('href');
   $('#open-verse').hidden = !item.quotes.length;
-  $('#previous').disabled = index === 0; $('#next').disabled = index === pages.length - 1;
+  $('#previous').disabled = readingPosition() === 0; $('#next').disabled = readingPosition() === readingSteps.length - 1;
   $('#page-select').value = item.scene;
-  $('#position-text').textContent = `${index + 1} / ${pages.length} 頁`;
+  $('#position-text').textContent = `${readingPosition() + 1} / ${readingSteps.length} 段 · ${index + 1}/${pages.length} 頁`;
   $('.scene').scrollTop = 0;
   if (window.scrollY) window.scrollTo(0, 0);
   const next = pages.slice(index + 1).find(p => p.image && p.image !== item.image);
@@ -125,7 +127,7 @@ function showPage(index, wantedCue = 0) {
 }
 function layoutArtwork() {
   const scene = $('.scene');
-  const caption = $('#caption-sizer').getBoundingClientRect().height + $('#cue-nav').getBoundingClientRect().height + 8;
+  const caption = $('#caption-sizer').getBoundingClientRect().height;
   const scripture = $('.scripture').hidden ? 0 : $('.scripture').getBoundingClientRect().height;
   scene.style.setProperty('--caption-space', caption + 'px');
   scene.style.setProperty('--scripture-space', scripture + 'px');
@@ -146,7 +148,7 @@ window.addEventListener('resize', layoutArtwork); document.fonts.ready.then(layo
 for (const scene of BOOK.scenes) $('#page-select').add(new Option(`${scene.id.slice(1)} · ${scene.title}`, scene.id));
 
 $('.controls').hidden = false; $('#hint').hidden = false;
-$('#previous').onclick = () => showPage(current - 1); $('#next').onclick = () => showPage(current + 1);
+$('#previous').onclick = () => stepReading(-1); $('#next').onclick = () => stepReading(1);
 $('#page-select').onchange = () => showPage(sceneStarts.get($('#page-select').value));
 let saved = 0;
 try {
@@ -161,8 +163,6 @@ const start = requestedScene && sceneStarts.has(requestedScene)
 let cueSaved = {};
 try { cueSaved = JSON.parse(sessionStorage.getItem(storageKey + '-cue') || '{}'); } catch {}
 showPage(start, requested.has('cue') ? Number(requested.get('cue')) - 1 : (cueSaved.page === start ? cueSaved.cue : 0));
-$('#cue-select').onchange = () => showCue(Number($('#cue-select').value));
-$('#cue-previous').onclick = () => showCue(cueIndex - 1); $('#cue-next').onclick = () => showCue(cueIndex + 1);
 $('#open-verse').onclick = () => {
   const item = currentItem(); $('#dialog-verse').textContent = scriptureText(item);
   $('#dialog-source').hidden = !item.quotes.length;
@@ -197,7 +197,7 @@ document.addEventListener('keydown', event => {
   if ($('#verse-dialog').open || $('#image-dialog').open || event.target.closest(readingText) ||
       event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
   if (event.key === 'ArrowRight' || event.key === 'ArrowLeft') {
-    event.preventDefault(); showPage(current + (event.key === 'ArrowRight' ? 1 : -1));
+    event.preventDefault(); stepReading(event.key === 'ArrowRight' ? 1 : -1);
   }
 });
 let touchStart;
@@ -211,7 +211,7 @@ $('.page').addEventListener('touchend', event => {
   if (!touchStart) return;
   const dx = event.changedTouches[0].clientX - touchStart.x, dy = event.changedTouches[0].clientY - touchStart.y; touchStart = null;
   if (!window.getSelection()?.toString() && Math.abs(dx) > 55 && Math.abs(dx) > Math.abs(dy) * 1.5) {
-    swiped = true; showPage(current + (dx < 0 ? 1 : -1));
+    swiped = true; stepReading(dx < 0 ? 1 : -1);
   }
 }, {passive:true});
 matchMedia('(orientation:portrait)').addEventListener('change', event => {

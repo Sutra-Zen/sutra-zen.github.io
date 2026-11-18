@@ -114,4 +114,6 @@ def browser():
   b.close()
  server.shutdown();assert not report['errors'],report;assert report['onlineCueStates']==180 and report['offlineCueStates']==180
  report['offlineMethod']='Actual guide-button ZIP downloaded,CRC checked,extracted;local HTTP serving extracted files with all other origins blocked;36cues and12pages each viewport';report['fileUrl']='Not verified: managed Chromium blocks file:// with ERR_BLOCKED_BY_ADMINISTRATOR';report['legacyReaders']='13open/next/return passed';(O/'validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
-if __name__=='__main__':static();browser()
+if __name__=='__main__':
+ # Keep the original check entry point; current main-control regression supersedes cue-toolbar tests.
+ subprocess.run(['python3',str(R/'scripts/check-seven-factors-sequence.py')],cwd=R,check=True)

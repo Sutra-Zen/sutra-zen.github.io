@@ -1,3 +1,5 @@
+2026-11-18追加修正：主按鍵現逐段讀完36段後換圖，移除獨立換段列、專頁下載與出處圖連結。下方截圖／180狀態為舊操作模式歷史驗收；[最新主按鍵完整閱讀回歸與截圖](../seven-sequence/README.md)另列。
+
 # 七覺支｜十二頁試閱
 
 [PR #43](https://github.com/rooneyflower-star/sutrazen-map/pull/43)，分支`feat/seven-factors-review`，從main99b1a1d建立。作者已於2026-11-18授權直接發布，經PR #43處理。正式入口：[導讀](https://rooneyflower-star.github.io/sutrazen-map/seven-factors/)／[繪本](https://rooneyflower-star.github.io/sutrazen-map/seven-factors/book/)。實際Pages與正式備份核對見PR最後紀錄；以下保留原試閱方式與歷史驗收。

@@ -1,0 +1,30 @@
+{
+  "forward": 180,
+  "reverse": 180,
+  "offlineForward": 180,
+  "viewports": [
+    [
+      360,
+      800
+    ],
+    [
+      800,
+      360
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      1440,
+      900
+    ]
+  ],
+  "errors": [],
+  "physicalSafari": "not tested",
+  "data": "all36original cues/times/quotes byte-identical to published version"
+}
