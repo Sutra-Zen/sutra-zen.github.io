@@ -1,0 +1,29 @@
+{
+  "pages": 131,
+  "originalCaptions": 130,
+  "viewports": [
+    [
+      360,
+      800
+    ],
+    [
+      800,
+      360
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      1440,
+      900
+    ]
+  ],
+  "endingStates": 15,
+  "errors": [],
+  "physicalSafari": "not tested"
+}

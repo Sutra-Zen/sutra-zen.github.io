@@ -18,7 +18,7 @@ def text_source(raw):
  return re.sub(r'\s+','',r.text_content())
 def static_checks():
  subprocess.run(['python3','scripts/build-four-jhanas.py','--check'],cwd=ROOT,check=True)
- assert len(STORY)==len(BOOK['scenes'])==10 and len(BOOK['pages'])==132 and len(CAT)==8
+ assert len(STORY)==len(BOOK['scenes'])==10 and len(BOOK['pages'])==131 and len(CAT)==8
  n=0;used=set()
  for scene,display in zip(STORY,BOOK['scenes']):
   assert scene['id']==display['id'] and scene['asset']==display['image'] and display['start']==n
@@ -32,7 +32,7 @@ def static_checks():
     if a<=number<=b:assert [q['quoteId'] for q in item['quotes']]==[qid]
    if number<20:assert not item['quotes'] and item['context'].startswith('《長部》第二經') and item['sourceAnchor']
    n+=1
- assert n==130 and used==set(CAT) and BOOK['pages'][-2]['image']=='../assets/credits.webp' and BOOK['pages'][-1]['afterword']
+ assert n==130 and used==set(CAT) and BOOK['pages'][-2]['paragraphId']=='P130' and BOOK['pages'][-1]['afterword']
  assert '溫柔' not in str(BOOK['pages'][-1]) and '走入經藏的起點' in str(BOOK['pages'][-1])
  assert sum(len(s['artOverlay']) for s in BOOK['scenes'])==7
  for scene in BOOK['scenes']:
@@ -87,15 +87,15 @@ def labels(page,selector,frame,plan):
   assert a['r']['right']<=frame['right']+1 and a['r']['bottom']<=frame['bottom']+1
 def browser_checks(shots):
  OUT.mkdir(parents=True,exist_ok=True);server=http.server.ThreadingHTTPServer(('127.0.0.1',0),functools.partial(Quiet,directory=str(ROOT)));threading.Thread(target=server.serve_forever,daemon=True).start();base=f'http://127.0.0.1:{server.server_port}/'
- report={'baseline':BASE,'scenes':10,'originalCaptions':130,'pages':132,'scriptures':8,'overlays':7,'pageStates':0,'enlargedLabelStates':0,'focusZoomStates':0,'viewports':[],'javascriptErrors':[],'httpErrors':[],'physicalSafari':'not tested','publication':'review implementation; not merged or deployed'}
+ report={'baseline':BASE,'scenes':10,'originalCaptions':130,'pages':131,'scriptures':8,'overlays':7,'pageStates':0,'enlargedLabelStates':0,'focusZoomStates':0,'viewports':[],'javascriptErrors':[],'httpErrors':[],'physicalSafari':'not tested','publication':'review implementation; not merged or deployed'}
  with sync_playwright() as p:
   browser=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox'])
   for w,h in SIZES:
-   page=browser.new_page(viewport={'width':w,'height':h},has_touch=True);page.on('pageerror',lambda e:report['javascriptErrors'].append(str(e)));page.on('response',lambda r:report['httpErrors'].append(r.url) if r.url.startswith(base) and r.status>=400 else None);page.route('https://www.youtube.com/**',lambda route:route.abort());page.goto(base+'four-jhanas/book/');page.wait_for_function('typeof showPage==="function" && document.querySelector("#position-text").textContent.includes("132")')
+   page=browser.new_page(viewport={'width':w,'height':h},has_touch=True);page.on('pageerror',lambda e:report['javascriptErrors'].append(str(e)));page.on('response',lambda r:report['httpErrors'].append(r.url) if r.url.startswith(base) and r.status>=400 else None);page.route('https://www.youtube.com/**',lambda route:route.abort());page.goto(base+'four-jhanas/book/');page.wait_for_function('typeof showPage==="function" && document.querySelector("#position-text").textContent.includes("131")')
    for i,item in enumerate(BOOK['pages']):
     page.evaluate('i=>showPage(i)',i);settle(page)
     r=page.evaluate('''()=>{const $=s=>document.querySelector(s),rect=s=>$(s).getBoundingClientRect().toJSON();return {lines:[...$('#narration').children].map(x=>x.textContent),position:$('#position-text').textContent,paragraph:$('.page').dataset.paragraph,start:$('.page').dataset.startSeconds,end:$('.page').dataset.endSeconds,overflow:document.documentElement.scrollWidth>innerWidth,touch:getComputedStyle($('#next')).touchAction,art:rect('#art-frame'),caption:rect('#caption'),scripture:rect('.scripture'),source:$('#source-link').getAttribute('href'),natural:[$('#art').naturalWidth,$('#art').naturalHeight],quotes:[...$('#verse').querySelectorAll('.scripture-card')].map(x=>({id:x.dataset.quoteId,source:x.querySelector('h3').textContent,text:x.querySelector('blockquote').textContent})),context:$('#verse .source-context')?.textContent||null,focus:$('#art-frame .picture-panel-focus:not([hidden])')?.dataset.activePanel||null};}''')
-    assert r['lines']==item['lines'] and r['position']==f'{i+1} / 132 頁' and r['paragraph']==item.get('paragraphId','')
+    assert r['lines']==item['lines'] and r['position']==f'{i+1} / 131 頁' and r['paragraph']==item.get('paragraphId','')
     assert r['start']==str(item.get('startSeconds','')) and r['end']==str(item.get('endSeconds',''))
     assert not r['overflow'] and r['touch']=='manipulation',(w,h,i,'overflow/touch')
     assert r['quotes']==[{'id':q['quoteId'],'source':q['source'],'text':q['text']} for q in item['quotes']] and r['context']==item['context']
@@ -117,9 +117,9 @@ def browser_checks(shots):
      assert page.locator('#summary-text').inner_text().endswith('走入經藏的起點。')
      if shots and w==768:capture(page,'ending-768x1024.webp')
     report['pageStates']+=1
-   page.locator('#next').tap();assert page.locator('#position-text').inner_text()=='1 / 132 頁'
+   page.locator('#next').tap();assert page.locator('#position-text').inner_text()=='1 / 131 頁'
    for _ in range(8):page.locator('#next').tap()
-   page.locator('#previous').tap();assert page.locator('#position-text').inner_text()=='8 / 132 頁' and page.evaluate('visualViewport.scale')==1
+   page.locator('#previous').tap();assert page.locator('#position-text').inner_text()=='8 / 131 頁' and page.evaluate('visualViewport.scale')==1
    other=browser.new_page(viewport={'width':w,'height':h});other.goto(base+'anapana/book/');other.wait_for_function('typeof showPage==="function"')
    for selector in ['#next','.position']:
     actual=page.locator(selector).bounding_box();expected=other.locator(selector).bounding_box();assert abs(actual['x']-expected['x'])<1 and abs(actual['y']-expected['y'])<1
@@ -139,7 +139,7 @@ def browser_checks(shots):
    page.set_viewport_size({'width':h,'height':w});settle(page);assert page.locator('#position-text').inner_text()==position;page.set_viewport_size({'width':w,'height':h});page.locator('.top a').click();page.locator('.book-cover').click();page.wait_for_function('typeof showPage==="function"');assert page.locator('#position-text').inner_text()==position
    page.locator('.reading-links a').last.click();assert page.url==base+'index.html';page.goto(base+'four-jhanas/');assert not page.evaluate('document.documentElement.scrollWidth>innerWidth')
    if shots and (w,h) in [(768,1024),(1024,768)]:capture(page,f'guide-{w}x{h}.webp');page.locator('#sources').scroll_into_view_if_needed();capture(page,f'sources-{w}x{h}.webp')
-   page.close();report['viewports'].append({'width':w,'height':h,'pages':132});print(f'{w}x{h}: 132 pages and reader interactions passed',flush=True)
+   page.close();report['viewports'].append({'width':w,'height':h,'pages':131});print(f'{w}x{h}: 131 pages and reader interactions passed',flush=True)
   page=browser.new_page(viewport={'width':1024,'height':768});cache={}
   for url in ['https://cdn.tailwindcss.com/','https://unpkg.com/lucide@latest']:
    with urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0'}),timeout=40) as r:cache[url]=(r.read(),r.headers.get('Content-Type','application/javascript'))
@@ -151,6 +151,6 @@ def browser_checks(shots):
    page.goto(base+name+'/book/');page.locator('#next').wait_for(state='visible');before=page.locator('#position-text').inner_text();page.locator('#next').click();assert page.locator('#position-text').inner_text()!=before;page.locator('.top a').click();assert urlsplit(page.url).path in ['/'+name+'/','/'+name+'/index.html']
   report['rootEntrances']='shelf #12 and existing 四禪 map node passed';report['legacyReaders']='11 open/next/return passed';browser.close()
  server.shutdown();assert not report['javascriptErrors'] and not report['httpErrors'],report
- (OUT/'validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print('660 page states, 35 enlarged overlay states and 20 comic focus zoom states passed',flush=True)
+ (OUT/'validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print('655 page states, 35 enlarged overlay states and 20 comic focus zoom states passed',flush=True)
 if __name__=='__main__':
  p=argparse.ArgumentParser();p.add_argument('--screenshots',action='store_true');args=p.parse_args();static_checks();browser_checks(args.screenshots)
