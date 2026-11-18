@@ -1,0 +1,42 @@
+[
+  {
+    "quoteId": "Q01",
+    "source": "sa483",
+    "matchIgnoringPunctuationAndWhitespace": true
+  },
+  {
+    "quoteId": "Q02",
+    "source": "dn2",
+    "matchIgnoringPunctuationAndWhitespace": true
+  },
+  {
+    "quoteId": "Q03",
+    "source": "sa483",
+    "matchIgnoringPunctuationAndWhitespace": true
+  },
+  {
+    "quoteId": "Q04",
+    "source": "dn2",
+    "matchIgnoringPunctuationAndWhitespace": true
+  },
+  {
+    "quoteId": "Q05",
+    "source": "sa483",
+    "matchIgnoringPunctuationAndWhitespace": true
+  },
+  {
+    "quoteId": "Q06",
+    "source": "dn2",
+    "matchIgnoringPunctuationAndWhitespace": true
+  },
+  {
+    "quoteId": "Q07",
+    "source": "sa483",
+    "matchIgnoringPunctuationAndWhitespace": true
+  },
+  {
+    "quoteId": "Q08",
+    "source": "dn2",
+    "matchIgnoringPunctuationAndWhitespace": true
+  }
+]

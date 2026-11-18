@@ -1,0 +1,69 @@
+{
+  "zip": {
+    "name": "SutraZen_Four_Jhanas_Codex.zip",
+    "bytes": 19789737,
+    "sha256": "821ebb19fc2d0319ec6b3ce5d83d01139f980afda2345a74ef4edfd9d6d0df29"
+  },
+  "originalFiles": {
+    "storyboard.json": {
+      "bytes": 33511,
+      "sha256": "9b6cc9df9be852b312faa55148661f0dbeab7d84ec814758ff97efededec155e"
+    },
+    "README.md": {
+      "bytes": 27536,
+      "sha256": "73571c50c50fd30831fd0dbb4e7606a72e31dd3a16272e7debdfd3d0d251302b"
+    },
+    "SHA256SUMS": {
+      "bytes": 1208,
+      "sha256": "a0cbdd32a127c155a1dbe50a66a1b8384a42b4b24cd4c6d413ef133f077859b1"
+    },
+    "CODEX_PROMPT.txt": {
+      "bytes": 840,
+      "sha256": "bc7da38c4f7f9b4ab4cf03e05842e87d6b808f57a653b779f536760ce392793b"
+    },
+    "assets/9A373B0F-ECD4-4060-971F-47B1ED7DDFEF.jpeg": {
+      "bytes": 709992,
+      "sha256": "c39a8c1a22f49ec426a08ac72d8fcbedc5b9bcb7c176cf1a33b9ffba659dc147"
+    },
+    "assets/2E013188-E369-41E5-89B4-42E9BB516D39.png": {
+      "bytes": 3578052,
+      "sha256": "b4a3f46d31322b2ad9654cf8496ef887ee783aa20ff75157e90ea7f819a70b3e"
+    },
+    "assets/37B75B76-ABE8-4062-B439-0D4B9A983648.png": {
+      "bytes": 2699468,
+      "sha256": "93d2a10cd45b9717149568a4a4713b06f8574d458106cdbdbb88b022352c098b"
+    },
+    "assets/3A1C9428-025F-40E8-8A5C-0E400BAE3862.jpeg": {
+      "bytes": 682210,
+      "sha256": "923ba54aa219a0c343bb8304e6ff8751c0273a4593bd00e077295fd476fad89e"
+    },
+    "assets/截圖_2026-11-16_晚上10.51.54.png": {
+      "bytes": 455243,
+      "sha256": "3664386ae2dd792ccb09ccdcab5671f27f825286178e9f0fc55449b6b244de81"
+    },
+    "assets/6D0F3023-F92B-4440-BE51-5F886500B005.png": {
+      "bytes": 3518790,
+      "sha256": "fed90790813a832a98734b0d7fca76fcd7d33b828c2eb2dddfe60fd973cb67e2"
+    },
+    "assets/8E72FC23-3408-4BFB-BD6F-3378ECA3C31C.png": {
+      "bytes": 3468597,
+      "sha256": "a8ac5cb80f2c5dacd6092e38a8cc7bc8773c8b06aec847c917b4edaf634f33ce"
+    },
+    "assets/IMG_0527(1).jpeg": {
+      "bytes": 439813,
+      "sha256": "a48385cd4ac5793498fe49d23b28efbf8379957d19823446860a6320effacffc"
+    },
+    "assets/95D90BB7-2405-4DCC-BAA1-20C484761D9E(2).png": {
+      "bytes": 3206906,
+      "sha256": "e7b5143c9b3141749275d054ca4ec6bd553e9cbbfef12e702b67d5fab66b5100"
+    },
+    "assets/Gemini_Generated_Image_ok291aok291aok29.jpeg": {
+      "bytes": 808967,
+      "sha256": "063f106947b769272b3d0f007db51e5b53b138c942ea0187ba1b7db54f9f8099"
+    },
+    "assets/IMG_0153.jpeg": {
+      "bytes": 452384,
+      "sha256": "a890b74e50eb5031bb835dafd73e21d4cbd54cbd2c6a54fe67f8e9432bd13bd3"
+    }
+  }
+}

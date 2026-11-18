@@ -1,0 +1,112 @@
+[
+  {
+    "original": "assets/Gemini_Generated_Image_ok291aok291aok29.jpeg",
+    "web": "four-jhanas/assets/S01.webp",
+    "dimensions": [
+      1536,
+      857
+    ],
+    "quality": 95,
+    "sha256": "7ebabaa3ba3ec7e2f019117c0f13601cc47b6f9c773382a2395554449ba9541c"
+  },
+  {
+    "original": "assets/IMG_0153.jpeg",
+    "web": "four-jhanas/assets/S02.webp",
+    "dimensions": [
+      1536,
+      857
+    ],
+    "quality": 95,
+    "sha256": "37dc5c6c0d00774a0aa3c99b9df278a0b6c9fc17757e1f4ec0c0166d39baa9a6"
+  },
+  {
+    "original": "assets/IMG_0527(1).jpeg",
+    "web": "four-jhanas/assets/S03.webp",
+    "dimensions": [
+      1376,
+      768
+    ],
+    "quality": 95,
+    "sha256": "bbb81a8949e65fb0784752ff3d14c4f08a24fb06640c5c3176777a80eeed8401"
+  },
+  {
+    "original": "assets/8E72FC23-3408-4BFB-BD6F-3378ECA3C31C.png",
+    "web": "four-jhanas/assets/S04.webp",
+    "dimensions": [
+      1678,
+      937
+    ],
+    "quality": 95,
+    "sha256": "07beab457d9c38dac503ab211995ee66ece41ce4b2a2979736634fa1bac732e8"
+  },
+  {
+    "original": "assets/95D90BB7-2405-4DCC-BAA1-20C484761D9E(2).png",
+    "web": "four-jhanas/assets/S05.webp",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "quality": 95,
+    "sha256": "89d07e4dae346934066180ba9a83be9ec0fc7d3b7828fe308bbc838dfaef675f"
+  },
+  {
+    "original": "assets/2E013188-E369-41E5-89B4-42E9BB516D39.png",
+    "web": "four-jhanas/assets/S06.webp",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "quality": 95,
+    "sha256": "b7e50b3540cbdc7c9ad1212a2adeb684bbfddc6a276e615faf35baab9e29bfa2"
+  },
+  {
+    "original": "assets/6D0F3023-F92B-4440-BE51-5F886500B005.png",
+    "web": "four-jhanas/assets/S07.webp",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "quality": 95,
+    "sha256": "ce702f6dee74545c48419aed7883687141787fb6fcb57b729ebf8364cb27a559"
+  },
+  {
+    "original": "assets/9A373B0F-ECD4-4060-971F-47B1ED7DDFEF.jpeg",
+    "web": "four-jhanas/assets/S08.webp",
+    "dimensions": [
+      1536,
+      864
+    ],
+    "quality": 95,
+    "sha256": "481239558846018fa065c23bc1f8aed6140705a4022b70d744e7f20897cee34d"
+  },
+  {
+    "original": "assets/3A1C9428-025F-40E8-8A5C-0E400BAE3862.jpeg",
+    "web": "four-jhanas/assets/S09.webp",
+    "dimensions": [
+      1536,
+      864
+    ],
+    "quality": 95,
+    "sha256": "dcf48a2e2c3b5524a7e1559d2fa0edbbfa0bc80178e4f52280fea8870a0078ad"
+  },
+  {
+    "original": "assets/37B75B76-ABE8-4062-B439-0D4B9A983648.png",
+    "web": "four-jhanas/assets/S10.webp",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "quality": 95,
+    "sha256": "4cff30d0a4c0431d556e72328e526896bddb5a00f9bfc3ee87125730dfd012c4"
+  },
+  {
+    "original": "assets/截圖_2026-11-16_晚上10.51.54.png",
+    "web": "four-jhanas/assets/credits.webp",
+    "dimensions": [
+      1235,
+      790
+    ],
+    "quality": 98,
+    "sha256": "07554e51effc5c9970fbecece5eda510e25cbbdaf8721ee4ed1226bf7999f253"
+  }
+]
