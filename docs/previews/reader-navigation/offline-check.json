@@ -1,0 +1,10 @@
+{
+  "zip": "downloads/SutraZen-Seven-Factors-Offline.zip",
+  "bytes": 6663193,
+  "sha256": "7a19e84a62dea5c836f3cc2a365a8de79afc98b74808fe35882d79e98dec2989",
+  "entries": 29,
+  "crc": "passed",
+  "manifestHashes": "all passed",
+  "sharedReaderCss": "matches website",
+  "returnAction": "existing offline menu, not a missing external map"
+}

@@ -1,0 +1,348 @@
+{
+  "baseline": "a3dc88dcd39c353c1587f6de675883012f9b79fa",
+  "readers": [
+    {
+      "book": "four-truths",
+      "linksBefore": [
+        {
+          "text": "閱讀原經",
+          "href": "../#sources"
+        }
+      ],
+      "imageEnlargement": false,
+      "linksAfter": [
+        {
+          "text": "閱讀原經",
+          "href": "../#sources"
+        },
+        {
+          "text": "回修道地圖",
+          "href": "../../index.html"
+        }
+      ],
+      "verseButtonAfter": "本頁經文",
+      "legacyBandCorrection": true,
+      "plainSceneBandCorrection": false
+    },
+    {
+      "book": "five-aggregates",
+      "linksBefore": [
+        {
+          "text": "閱讀原經",
+          "href": "../#sources"
+        }
+      ],
+      "imageEnlargement": false,
+      "linksAfter": [
+        {
+          "text": "閱讀原經",
+          "href": "../#sources"
+        },
+        {
+          "text": "回修道地圖",
+          "href": "../../index.html"
+        }
+      ],
+      "verseButtonAfter": "本頁經文",
+      "legacyBandCorrection": true,
+      "plainSceneBandCorrection": false
+    },
+    {
+      "book": "six-senses",
+      "linksBefore": [
+        {
+          "text": "閱讀原經",
+          "href": "../#sources"
+        }
+      ],
+      "imageEnlargement": false,
+      "linksAfter": [
+        {
+          "text": "閱讀原經",
+          "href": "../#sources"
+        },
+        {
+          "text": "回修道地圖",
+          "href": "../../index.html"
+        }
+      ],
+      "verseButtonAfter": "本頁經文",
+      "legacyBandCorrection": true,
+      "plainSceneBandCorrection": false
+    },
+    {
+      "book": "twelve-links",
+      "linksBefore": [
+        {
+          "text": "閱讀原經",
+          "href": "../#sources"
+        }
+      ],
+      "imageEnlargement": false,
+      "linksAfter": [
+        {
+          "text": "閱讀原經",
+          "href": "../#sources"
+        },
+        {
+          "text": "回修道地圖",
+          "href": "../../index.html"
+        }
+      ],
+      "verseButtonAfter": "本頁經文",
+      "legacyBandCorrection": true,
+      "plainSceneBandCorrection": false
+    },
+    {
+      "book": "eightfold-path",
+      "linksBefore": [
+        {
+          "text": "閱讀原經",
+          "href": "../#sources"
+        }
+      ],
+      "imageEnlargement": false,
+      "linksAfter": [
+        {
+          "text": "閱讀原經",
+          "href": "../#sources"
+        },
+        {
+          "text": "回修道地圖",
+          "href": "../../index.html"
+        }
+      ],
+      "verseButtonAfter": "本頁經文",
+      "legacyBandCorrection": false,
+      "plainSceneBandCorrection": true
+    },
+    {
+      "book": "four-fruits-ten-fetters",
+      "linksBefore": [
+        {
+          "text": "閱讀原經",
+          "href": "../#sources"
+        }
+      ],
+      "imageEnlargement": false,
+      "linksAfter": [
+        {
+          "text": "閱讀原經",
+          "href": "../#sources"
+        },
+        {
+          "text": "回修道地圖",
+          "href": "../../index.html"
+        }
+      ],
+      "verseButtonAfter": "本頁經文",
+      "legacyBandCorrection": false,
+      "plainSceneBandCorrection": false
+    },
+    {
+      "book": "four-purities-six-recollections",
+      "linksBefore": [
+        {
+          "text": "閱讀原經",
+          "href": "../#sources"
+        }
+      ],
+      "imageEnlargement": false,
+      "linksAfter": [
+        {
+          "text": "閱讀原經",
+          "href": "../#sources"
+        },
+        {
+          "text": "回修道地圖",
+          "href": "../../index.html"
+        }
+      ],
+      "verseButtonAfter": "本頁經文",
+      "legacyBandCorrection": false,
+      "plainSceneBandCorrection": false
+    },
+    {
+      "book": "mindfulness",
+      "linksBefore": [
+        {
+          "text": "閱讀原經",
+          "href": "../#sources"
+        }
+      ],
+      "imageEnlargement": true,
+      "linksAfter": [
+        {
+          "text": "閱讀原經",
+          "href": "../#sources"
+        },
+        {
+          "text": "回修道地圖",
+          "href": "../../index.html"
+        }
+      ],
+      "verseButtonAfter": "本頁經文",
+      "legacyBandCorrection": false,
+      "plainSceneBandCorrection": false
+    },
+    {
+      "book": "right-effort",
+      "linksBefore": [
+        {
+          "text": "閱讀原經",
+          "href": "../#sources"
+        }
+      ],
+      "imageEnlargement": true,
+      "linksAfter": [
+        {
+          "text": "閱讀原經",
+          "href": "../#sources"
+        },
+        {
+          "text": "回修道地圖",
+          "href": "../../index.html"
+        }
+      ],
+      "verseButtonAfter": "本頁經文",
+      "legacyBandCorrection": false,
+      "plainSceneBandCorrection": false
+    },
+    {
+      "book": "anapana",
+      "linksBefore": [
+        {
+          "text": "閱讀原經",
+          "href": "../index.html#sources"
+        },
+        {
+          "text": "回修道地圖",
+          "href": "../../index.html"
+        }
+      ],
+      "imageEnlargement": true,
+      "linksAfter": [
+        {
+          "text": "閱讀原經",
+          "href": "../index.html#sources"
+        },
+        {
+          "text": "回修道地圖",
+          "href": "../../index.html"
+        }
+      ],
+      "verseButtonAfter": "本頁經文",
+      "legacyBandCorrection": false,
+      "plainSceneBandCorrection": false
+    },
+    {
+      "book": "iddhipada",
+      "linksBefore": [
+        {
+          "text": "閱讀原經",
+          "href": "../index.html#sources"
+        },
+        {
+          "text": "回修道地圖",
+          "href": "../../index.html"
+        }
+      ],
+      "imageEnlargement": true,
+      "linksAfter": [
+        {
+          "text": "閱讀原經",
+          "href": "../index.html#sources"
+        },
+        {
+          "text": "回修道地圖",
+          "href": "../../index.html"
+        }
+      ],
+      "verseButtonAfter": "本頁經文",
+      "legacyBandCorrection": false,
+      "plainSceneBandCorrection": false
+    },
+    {
+      "book": "four-jhanas",
+      "linksBefore": [
+        {
+          "text": "閱讀原經",
+          "href": "../index.html#sources"
+        },
+        {
+          "text": "回修道地圖",
+          "href": "../../index.html"
+        }
+      ],
+      "imageEnlargement": true,
+      "linksAfter": [
+        {
+          "text": "閱讀原經",
+          "href": "../index.html#sources"
+        },
+        {
+          "text": "回修道地圖",
+          "href": "../../index.html"
+        }
+      ],
+      "verseButtonAfter": "本頁經文",
+      "legacyBandCorrection": false,
+      "plainSceneBandCorrection": false
+    },
+    {
+      "book": "five-roots-powers",
+      "linksBefore": [
+        {
+          "text": "閱讀原經",
+          "href": "../index.html#sources"
+        },
+        {
+          "text": "回修道地圖",
+          "href": "../../index.html"
+        }
+      ],
+      "imageEnlargement": true,
+      "linksAfter": [
+        {
+          "text": "閱讀原經",
+          "href": "../index.html#sources"
+        },
+        {
+          "text": "回修道地圖",
+          "href": "../../index.html"
+        }
+      ],
+      "verseButtonAfter": "本頁經文",
+      "legacyBandCorrection": false,
+      "plainSceneBandCorrection": false
+    },
+    {
+      "book": "seven-factors",
+      "linksBefore": [
+        {
+          "text": "閱讀原經",
+          "href": "../index.html#sources"
+        },
+        {
+          "text": "回修道地圖",
+          "href": "../../index.html"
+        }
+      ],
+      "imageEnlargement": true,
+      "linksAfter": [
+        {
+          "text": "閱讀原經",
+          "href": "../index.html#sources"
+        },
+        {
+          "text": "回修道地圖",
+          "href": "../../index.html"
+        }
+      ],
+      "verseButtonAfter": "本頁經文",
+      "legacyBandCorrection": false,
+      "plainSceneBandCorrection": false
+    }
+  ],
+  "scope": "Unify map/source navigation and scripture action; preserve original story/quotes/images. Existing optional image enlargement in later books is not a new feature port in this change."
+}

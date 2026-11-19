@@ -145,3 +145,8 @@ At the author's request, the published Iddhipada reader adds shared76% noncurren
 ## Seven Factors continuous reading fix (2026-11-18)
 
 The original36cues were intact, but main navigation advanced image pages and skipped within-scene narration unless the reader used separate cue controls. Main buttons, keyboard and swipes now traverse all36cues before changing the12images; the separate cue toolbar is removed and the shared restart only triggers at cue36. Guide download/source-screenshot links are removed at the author's request; canonical source cards remain. New main-control forward/reverse/offline regression covers the complete reading path. See newest HANDOFF and docs/previews/seven-sequence/.
+
+
+## All-reader map navigation and reading bands (2026-11-20)
+
+All fourteen readers now keep the same source/map pair, with a direct root map action in both orientations, and use「本頁經文」for their scripture dialog. Shared reader-controls.css reserves the correct actual scene gutter. The original four readers and Eightfold Path plain scenes load reader-layout.js to preserve complete-image caption/art/scripture bands; text/Heart Sutra/afterword pages and original scene data remain. See the newest HANDOFF and docs/previews/reader-navigation for local and publication verification; the author explicitly authorized publication of this correction.

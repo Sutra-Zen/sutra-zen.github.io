@@ -1,7 +1,7 @@
 {
   "file": "SutraZen-Seven-Factors-Offline.zip",
-  "bytes": 6662649,
-  "sha256": "c117003cb11e058695ed46c0f021191d4624ccd08dbd907a10a6a8f2a7847fda",
+  "bytes": 6663193,
+  "sha256": "7a19e84a62dea5c836f3cc2a365a8de79afc98b74808fe35882d79e98dec2989",
   "files": {
     "README.txt": "82aba4d7f2aec3b292728111e381f85f603d7b4e49c0c22f398b0ff276c43551",
     "guide-header.css": "b2699b337f8c884c2a553a7ab58ed67434bd72009d242873e2b92e3203cd1316",
@@ -9,7 +9,7 @@
     "index.html": "295fb16a63e42253441d1bb81ab2bb2cbf0c703ec2901ea1bcbbfc5629dc7f96",
     "picture-panel-focus.css": "c163c926cea647699b3df7687cbe3fcd28695d88b603f27a203769a1acdd3bca",
     "picture-panel-focus.js": "d09baa9cb8d321b619583a69e774dbcdb82925bef45fc1d5c5286bc2553057a6",
-    "reader-controls.css": "01f2f294ae925585cb9438e727307cbd29fc493d4f5f0f93a7eb0d5eb5ae5206",
+    "reader-controls.css": "1660aeaa0ea215bb268b0247e5c5af18c1b4bba2fbf710b88f40e25fe35d6f39",
     "reader-restart.js": "e641e13609324f3192f6fe97d7901375d375c7abb137fe322506bb0198f8bda1",
     "seven-factors/assets/01.webp": "d55e4039907d30b4e6c489774ff513151440882083767c56c54e28fc8b8e5b71",
     "seven-factors/assets/02.webp": "03ce8b915d26a7ecdb9ce35da3e0e84e3755c2eeb1b3b128759a34bdee1dea0a",
@@ -27,7 +27,7 @@
     "seven-factors/book/book-data.js": "136dc707236dedc0e3a3a022c1df702d7bcbbc7e577eae41fad3b5788c3805cc",
     "seven-factors/book/book.css": "c0a01e015bcb10e5d70b8b1f29060b7789b0b900f86717c7f512a6995e7dbaad",
     "seven-factors/book/book.js": "b01c503aa9f5ed650e24b83284f984baaa2b4af282659e75a6c739fb39176f46",
-    "seven-factors/book/index.html": "7f447fc8619579a5703be5907db3d22cb44d9972d897f93cfd350def92e60e5e",
+    "seven-factors/book/index.html": "8cc3e825e93deca646f4e446a050a110395f90242e846b843580ee7e29a098ad",
     "seven-factors/book/panel-focus-data.js": "db13784dd964c60fce38683d56d080d362e0347e906b6e21823b24218541a657",
     "seven-factors/guide.css": "acf065ad8f78be123020c318def9cb850c22dff7fe26f0e648a2f27e9d2d227e",
     "seven-factors/index.html": "639c1b2587bd4d3c563a1b5c926e026894a3511b94cb9bf2231684f82762a8e6",

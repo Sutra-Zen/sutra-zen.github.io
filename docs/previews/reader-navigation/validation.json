@@ -1,0 +1,57 @@
+{
+  "mode": "local HTTP",
+  "pageStates": 1115,
+  "navigationStates": 70,
+  "dialogStates": 58,
+  "rotationStates": 70,
+  "layoutStates": 988,
+  "errors": [],
+  "httpErrors": [],
+  "publicFiles": {},
+  "books": {
+    "four-truths": {
+      "pageItems": 29
+    },
+    "five-aggregates": {
+      "pageItems": 54
+    },
+    "six-senses": {
+      "pageItems": 115
+    },
+    "twelve-links": {
+      "pageItems": 77
+    },
+    "eightfold-path": {
+      "pageItems": 111
+    },
+    "four-fruits-ten-fetters": {
+      "pageItems": 75
+    },
+    "four-purities-six-recollections": {
+      "pageItems": 95
+    },
+    "mindfulness": {
+      "pageItems": 111
+    },
+    "right-effort": {
+      "pageItems": 81
+    },
+    "anapana": {
+      "pageItems": 119
+    },
+    "iddhipada": {
+      "pageItems": 82
+    },
+    "four-jhanas": {
+      "pageItems": 131
+    },
+    "five-roots-powers": {
+      "pageItems": 75
+    },
+    "seven-factors": {
+      "pageItems": 12
+    }
+  },
+  "physicalSafari": "not tested",
+  "cdnMode": "Test browser receives existing downloaded Tailwind/Lucide; no CDN availability claim"
+}
