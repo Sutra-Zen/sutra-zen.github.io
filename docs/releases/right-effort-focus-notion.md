@@ -8,4 +8,4 @@
 
 原圖、81頁口白／經文、原有疊字及S10的60%總結暗幕均保留。原有405個逐頁狀態與舊八本入口檢查通過；新增四尺寸共68個漫畫段落狀態與實際像素混色驗證，並確認翻頁、放大、旋轉及離幕清除。實體iPad Safari仍待驗收。
 
-繪本：https://rooneyflower-star.github.io/sutrazen-map/right-effort/book/
+繪本：https://sutra-zen.github.io/right-effort/book/

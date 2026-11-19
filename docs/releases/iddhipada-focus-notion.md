@@ -12,6 +12,6 @@
 
 原82頁、81段口白與時間、11筆經文、13條疊字及來源維持。手機、iPad橫直式與桌機五尺寸模擬完成115個漫畫頁面狀態、40個分格放大狀態與35個非漫畫狀態檢查；實體Safari尚未測。
 
-入口：https://rooneyflower-star.github.io/sutrazen-map/iddhipada/book/
+入口：https://sutra-zen.github.io/iddhipada/book/
 
 分支：`fix/iddhipada-panel-focus`。發布後的PR、合併SHA、Pages與固定SHA完整ZIP驗證結果記入該PR。

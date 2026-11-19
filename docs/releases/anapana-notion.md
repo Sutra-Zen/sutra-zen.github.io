@@ -13,7 +13,7 @@
 - 延續字幕在上、完整插畫在中、經文在下的共同介面，翻頁／目錄／本頁經文／圖片放大／末頁重讀相同。S10三條提示按實際圖寬切換圖內／圖外，放大同步。
 - 阿含主體／MN118對讀與論師補充分開；影片錄文保留，異文與修次／金剛寺版待校事項另列REVIEW_TODO，未假稱已完成校勘。
 - 五尺寸595個逐頁狀態及24個放大標籤座標狀態通過；九本舊入口、來源往返、重載／旋轉保留頁碼、快速點按與末頁重讀通過。實體Safari手勢尚未驗收。
-- 導讀：https://rooneyflower-star.github.io/sutrazen-map/anapana/
-- 繪本：https://rooneyflower-star.github.io/sutrazen-map/anapana/book/
-- PR：https://github.com/rooneyflower-star/sutrazen-map/pull/28
+- 導讀：https://sutra-zen.github.io/anapana/
+- 繪本：https://sutra-zen.github.io/anapana/book/
+- PR：https://github.com/Sutra-Zen/sutra-zen.github.io/pull/28
 - 原驗收與影格核對保留於docs/previews/anapana/與docs/anapana/；正式備份使用最終合併SHA的完整repository ZIP，不以審閱版ZIP替代。

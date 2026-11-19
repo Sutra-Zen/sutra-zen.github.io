@@ -14,6 +14,6 @@
 - 沿用安那般那的字幕在上／完整插畫／經文在下、目錄、橫直式翻頁、本頁經文、圖片放大及末頁重讀；沒有新增另一套介面。
 - Q01–08為交接中文譯意與巴利摘錄，不冒名莊春江；Q09影片摘錄譯者未定，Q10–11古漢譯保留。導讀另以官方資料核對的5份中譯／古漢譯與4份巴利檔供對讀；口白公園／原經精舍、連音拼寫及時間精校等疑點保留，不以發布冒稱已完成校勘。
 - 五尺寸410個頁面狀態與65個放大字框狀態、舊十本入口及共享操作驗收通過；實體Safari及外部影片播放尚未驗收。正式發布後另核對Pages建置與公開檔案，並提供固定合併SHA的完整ZIP。
-- 導讀：https://rooneyflower-star.github.io/sutrazen-map/iddhipada/
-- 繪本：https://rooneyflower-star.github.io/sutrazen-map/iddhipada/book/
-- PR：https://github.com/rooneyflower-star/sutrazen-map/pull/34
+- 導讀：https://sutra-zen.github.io/iddhipada/
+- 繪本：https://sutra-zen.github.io/iddhipada/book/
+- PR：https://github.com/Sutra-Zen/sutra-zen.github.io/pull/34

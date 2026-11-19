@@ -2,7 +2,7 @@
 
 此工作環境未提供Notion工具，以下尚未寫入外部頁面。
 
-審閱PR：https://github.com/rooneyflower-star/sutrazen-map/pull/34
+審閱PR：https://github.com/Sutra-Zen/sutra-zen.github.io/pull/34
 
 2026-11-16：以最新main `140f62221726485916f3992d8ea6f5782e7507b5` 建立 `feat/iddhipada-review`。作者兩份普通ZIP完整合併，9幕、81段口白及P／時間／Q對應、11筆經文卡、13條圖片相對疊字、9張正式原圖核對完成。新增四如意足主題導讀與繪本，接上審閱分支的第11本書架及既有地圖節點。沿用安那般那閱讀器、來源卡、共享按鍵與最後頁重讀。
 

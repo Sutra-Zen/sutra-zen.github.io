@@ -17,5 +17,5 @@
 
 - Chromium實測五種尺寸與全部82頁（81段原口白＋獨立經典依據結語），包括手機及iPad兩方向。實體iPad/iPhone Safari原生雙擊／旋轉／全螢幕手勢仍請作者試閱。
 - 莊春江中譯／古漢譯5份官方HTML、巴利4份官方JSON已實際讀取，固定commit與SHA-256可追溯。這不等同外站網頁呈現驗收；讀經站、台大獅子吼、SuttaCentral服務站的實際畫面及YouTube播放尚未驗收。
-- 審閱時互動閱讀以本機HTTP驗證；作者後續授權透過PR #34發布，正式入口為 https://rooneyflower-star.github.io/sutrazen-map/iddhipada/book/ ，部署結果以PR最終核對為準。歷史PDF與截圖保留，不冒充實體Safari驗收。
+- 審閱時互動閱讀以本機HTTP驗證；作者後續授權透過PR #34發布，正式入口為 https://sutra-zen.github.io/iddhipada/book/ ，部署結果以PR最終核對為準。歷史PDF與截圖保留，不冒充實體Safari驗收。
 - 此工作環境未提供Notion工具，未讀寫外部Notion；可離線完成所有內容與實作。待補記文字另存 `notion-review-note.md`，沒有宣稱正式版已更新。

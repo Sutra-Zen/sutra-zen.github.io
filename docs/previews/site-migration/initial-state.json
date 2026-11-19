@@ -1,0 +1,71 @@
+{
+  "repository": {
+    "default_branch": "main",
+    "full_name": "Sutra-Zen/sutra-zen.github.io",
+    "homepage": "https://sutra-zen.github.io/",
+    "html_url": "https://github.com/Sutra-Zen/sutra-zen.github.io",
+    "id": 1441581789
+  },
+  "pages": {
+    "url": "https://api.github.com/repos/Sutra-Zen/sutra-zen.github.io/pages",
+    "status": "built",
+    "cname": null,
+    "custom_404": false,
+    "html_url": "https://sutra-zen.github.io/",
+    "build_type": "legacy",
+    "source": {
+      "branch": "main",
+      "path": "/"
+    },
+    "public": true,
+    "protected_domain_state": null,
+    "pending_domain_unverified_at": null,
+    "https_enforced": true
+  },
+  "initialLatestBuild": {
+    "url": "https://api.github.com/repos/Sutra-Zen/sutra-zen.github.io/pages/builds/1384268490",
+    "status": "built",
+    "error": {
+      "message": null
+    },
+    "pusher": {
+      "login": "Sutra-Zen",
+      "id": 248778889,
+      "node_id": "U_kgDODtQQiQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/248778889?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Sutra-Zen",
+      "html_url": "https://github.com/Sutra-Zen",
+      "followers_url": "https://api.github.com/users/Sutra-Zen/followers",
+      "following_url": "https://api.github.com/users/Sutra-Zen/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Sutra-Zen/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Sutra-Zen/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Sutra-Zen/subscriptions",
+      "organizations_url": "https://api.github.com/users/Sutra-Zen/orgs",
+      "repos_url": "https://api.github.com/users/Sutra-Zen/repos",
+      "events_url": "https://api.github.com/users/Sutra-Zen/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Sutra-Zen/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "commit": "2ec341a6ffa1a4f0108183da980e9af85c55bd31",
+    "duration": 123747,
+    "created_at": "2026-11-19T14:28:52Z",
+    "updated_at": "2026-11-19T14:30:55Z"
+  },
+  "local": {
+    "cwd": "/workspace/sutrazen-map",
+    "initialBranch": "main",
+    "initialWorktree": "clean; no unstaged or untracked edits to preserve",
+    "baselineMain": "2ec341a6ffa1a4f0108183da980e9af85c55bd31",
+    "origin": "https://github.com/Sutra-Zen/sutra-zen.github.io.git"
+  },
+  "networkLimitation": {
+    "site": "sutra-zen.github.io",
+    "observed": "urllib CONNECT denied 403",
+    "reason": "effective cloud environment allowlist includes old site host but omits current site host",
+    "requested": "owner add current site host to environment allowed domains; publication itself uses permitted GitHub API",
+    "liveBrowserVerified": false
+  }
+}

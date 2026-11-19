@@ -17,8 +17,8 @@
 - 三本110／54／115頁於手機及iPad橫直四尺寸，共1116次頁面檢查通過；另8組白字像素檢查、經文來源／返回及捲動隔離通過。實體iPad/Safari未測。
 - 作者明確同意直接發布本次修正，後續從正式站檢視。
 
-八正道：https://rooneyflower-star.github.io/sutrazen-map/eightfold-path/book/
-五陰：https://rooneyflower-star.github.io/sutrazen-map/five-aggregates/book/
-六處：https://rooneyflower-star.github.io/sutrazen-map/six-senses/book/
-PR：https://github.com/rooneyflower-star/sutrazen-map/pull/12
+八正道：https://sutra-zen.github.io/eightfold-path/book/
+五陰：https://sutra-zen.github.io/five-aggregates/book/
+六處：https://sutra-zen.github.io/six-senses/book/
+PR：https://github.com/Sutra-Zen/sutra-zen.github.io/pull/12
 正式版ZIP：以PR #12實際merge commit的GitHub固定版本ZIP為準。

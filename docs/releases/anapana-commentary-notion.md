@@ -10,5 +10,5 @@
 
 口白118段、119頁、12幕、插畫及原始交接不變。五尺寸595逐頁狀態、24放大標籤與四尺寸8次Q35／Q41對話窗／來源往返驗證通過，九本舊書正常。正式合併SHA、Pages、公開檔案核對及完整ZIP見本次PR最終發布記錄。
 
-入口：https://rooneyflower-star.github.io/sutrazen-map/anapana/#commentary
-繪本止息頁：https://rooneyflower-star.github.io/sutrazen-map/anapana/book/?scene=S11&page=114
+入口：https://sutra-zen.github.io/anapana/#commentary
+繪本止息頁：https://sutra-zen.github.io/anapana/book/?scene=S11&page=114

@@ -1,0 +1,721 @@
+{
+  "localReferences": 325,
+  "webHtmlFiles": 29,
+  "readerStates": [
+    {
+      "book": "four-truths",
+      "size": [
+        360,
+        800
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "five-aggregates",
+      "size": [
+        360,
+        800
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "six-senses",
+      "size": [
+        360,
+        800
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "twelve-links",
+      "size": [
+        360,
+        800
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "eightfold-path",
+      "size": [
+        360,
+        800
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "four-fruits-ten-fetters",
+      "size": [
+        360,
+        800
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "four-purities-six-recollections",
+      "size": [
+        360,
+        800
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "mindfulness",
+      "size": [
+        360,
+        800
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "right-effort",
+      "size": [
+        360,
+        800
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "anapana",
+      "size": [
+        360,
+        800
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "iddhipada",
+      "size": [
+        360,
+        800
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "four-jhanas",
+      "size": [
+        360,
+        800
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "five-roots-powers",
+      "size": [
+        360,
+        800
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "seven-factors",
+      "size": [
+        360,
+        800
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "four-truths",
+      "size": [
+        800,
+        360
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "five-aggregates",
+      "size": [
+        800,
+        360
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "six-senses",
+      "size": [
+        800,
+        360
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "twelve-links",
+      "size": [
+        800,
+        360
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "eightfold-path",
+      "size": [
+        800,
+        360
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "four-fruits-ten-fetters",
+      "size": [
+        800,
+        360
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "four-purities-six-recollections",
+      "size": [
+        800,
+        360
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "mindfulness",
+      "size": [
+        800,
+        360
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "right-effort",
+      "size": [
+        800,
+        360
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "anapana",
+      "size": [
+        800,
+        360
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "iddhipada",
+      "size": [
+        800,
+        360
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "four-jhanas",
+      "size": [
+        800,
+        360
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "five-roots-powers",
+      "size": [
+        800,
+        360
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "seven-factors",
+      "size": [
+        800,
+        360
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "four-truths",
+      "size": [
+        768,
+        1024
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "five-aggregates",
+      "size": [
+        768,
+        1024
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "six-senses",
+      "size": [
+        768,
+        1024
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "twelve-links",
+      "size": [
+        768,
+        1024
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "eightfold-path",
+      "size": [
+        768,
+        1024
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "four-fruits-ten-fetters",
+      "size": [
+        768,
+        1024
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "four-purities-six-recollections",
+      "size": [
+        768,
+        1024
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "mindfulness",
+      "size": [
+        768,
+        1024
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "right-effort",
+      "size": [
+        768,
+        1024
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "anapana",
+      "size": [
+        768,
+        1024
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "iddhipada",
+      "size": [
+        768,
+        1024
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "four-jhanas",
+      "size": [
+        768,
+        1024
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "five-roots-powers",
+      "size": [
+        768,
+        1024
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "seven-factors",
+      "size": [
+        768,
+        1024
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "four-truths",
+      "size": [
+        1024,
+        768
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "five-aggregates",
+      "size": [
+        1024,
+        768
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "six-senses",
+      "size": [
+        1024,
+        768
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "twelve-links",
+      "size": [
+        1024,
+        768
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "eightfold-path",
+      "size": [
+        1024,
+        768
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "four-fruits-ten-fetters",
+      "size": [
+        1024,
+        768
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "four-purities-six-recollections",
+      "size": [
+        1024,
+        768
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "mindfulness",
+      "size": [
+        1024,
+        768
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "right-effort",
+      "size": [
+        1024,
+        768
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "anapana",
+      "size": [
+        1024,
+        768
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "iddhipada",
+      "size": [
+        1024,
+        768
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "four-jhanas",
+      "size": [
+        1024,
+        768
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "five-roots-powers",
+      "size": [
+        1024,
+        768
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "seven-factors",
+      "size": [
+        1024,
+        768
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "four-truths",
+      "size": [
+        1440,
+        900
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "five-aggregates",
+      "size": [
+        1440,
+        900
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "six-senses",
+      "size": [
+        1440,
+        900
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "twelve-links",
+      "size": [
+        1440,
+        900
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "eightfold-path",
+      "size": [
+        1440,
+        900
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "four-fruits-ten-fetters",
+      "size": [
+        1440,
+        900
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "four-purities-six-recollections",
+      "size": [
+        1440,
+        900
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "mindfulness",
+      "size": [
+        1440,
+        900
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "right-effort",
+      "size": [
+        1440,
+        900
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "anapana",
+      "size": [
+        1440,
+        900
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "iddhipada",
+      "size": [
+        1440,
+        900
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "four-jhanas",
+      "size": [
+        1440,
+        900
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "five-roots-powers",
+      "size": [
+        1440,
+        900
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    },
+    {
+      "book": "seven-factors",
+      "size": [
+        1440,
+        900
+      ],
+      "image": "loaded",
+      "previousNext": "passed",
+      "returnViaGuide": "passed"
+    }
+  ],
+  "javascriptErrors": [],
+  "siteHttpErrors": [],
+  "physicalSafari": "not tested",
+  "mode": "local root HTTP",
+  "baseUrl": "http://127.0.0.1:39125/",
+  "cdnSubstitutions": [
+    {
+      "cdn": "https://cdn.tailwindcss.com/",
+      "sha256": "176e894661aa9cdc9a5cba6c720044cbbf7b8bd80d1c9a142a7c24b1b6c50d15"
+    },
+    {
+      "cdn": "https://unpkg.com/lucide@latest",
+      "sha256": "7de3b98fb62b89fac714ee9303d24253d90a0991cbb6aa06516d87c29dca42bb"
+    }
+  ]
+}

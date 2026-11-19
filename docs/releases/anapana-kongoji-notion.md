@@ -8,4 +8,4 @@
 
 附件為鄧翠盈（釋妙博）2008年佛光大學碩士論文，已核對論文頁122–125（PDF第130–133頁）的金剛寺本轉引。清楚標示二手轉引來源，不冒充抄本原件；「投二／莫投二」「遍止鼻頭」等依附件保留，原閱讀器影片錄文不暗改，差異另列校稿記錄。其餘七張來源卡及各繪本不變。正式合併SHA、Pages與公開PDF核對、完整ZIP備份見本次PR最終發布記錄。
 
-入口：https://rooneyflower-star.github.io/sutrazen-map/anapana/#anban
+入口：https://sutra-zen.github.io/anapana/#anban

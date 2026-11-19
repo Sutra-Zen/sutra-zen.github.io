@@ -3,7 +3,7 @@
 這是第06本的實作分支，**尚未合併main或發布正式站**。
 
 - 分支：`feat/four-fruits-ten-fetters-preview`
-- [試閱草稿PR #15](https://github.com/rooneyflower-star/sutrazen-map/pull/15)，目標main，尚未合併。
+- [試閱草稿PR #15](https://github.com/Sutra-Zen/sutra-zen.github.io/pull/15)，目標main，尚未合併。
 - 導讀：`four-fruits-ten-fetters/`
 - 互動繪本：`four-fruits-ten-fetters/book/`，11幕、74頁。
 - 11張插畫來自作者ZIP，13個素材（含2張參考圖）的尺寸／大小／SHA-256全部相符。
@@ -36,7 +36,7 @@
 
 ## 互動試閱：完整ZIP＋電腦連接iPad
 
-[下載本分支完整試閱ZIP](https://github.com/rooneyflower-star/sutrazen-map/archive/refs/heads/feat/four-fruits-ten-fetters-preview.zip)。ZIP包含完整網站目錄，圖片均為相對路徑，既有五本也一併保留。交付訊息另附固定commit的ZIP，方便留存當次版本。
+[下載本分支完整試閱ZIP](https://github.com/Sutra-Zen/sutra-zen.github.io/archive/refs/heads/feat/four-fruits-ten-fetters-preview.zip)。ZIP包含完整網站目錄，圖片均為相對路徑，既有五本也一併保留。交付訊息另附固定commit的ZIP，方便留存當次版本。
 
 1. 在電腦下載、解壓ZIP，在解壓後含`index.html`的專案根目錄開啟終端機。
 2. 有Python 3的電腦執行`python3 -m http.server 8765 --bind 0.0.0.0`；Windows可用`py -m http.server 8765 --bind 0.0.0.0`。

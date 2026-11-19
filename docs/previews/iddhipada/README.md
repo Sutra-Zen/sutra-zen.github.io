@@ -1,6 +1,6 @@
 # 四如意足｜審閱版本
 
-原審閱分支 `feat/iddhipada-review`，[PR #34](https://github.com/rooneyflower-star/sutrazen-map/pull/34)，基準main `140f62221726485916f3992d8ea6f5782e7507b5`。作者已於審閱交付後指示「直接發布吧」，改由本PR發布。實際部署與備份結果見PR最後核對。正式[導讀](https://rooneyflower-star.github.io/sutrazen-map/iddhipada/)與[繪本](https://rooneyflower-star.github.io/sutrazen-map/iddhipada/book/)。以下保留原校稿PDF、截圖與本機試閱方式。
+原審閱分支 `feat/iddhipada-review`，[PR #34](https://github.com/Sutra-Zen/sutra-zen.github.io/pull/34)，基準main `140f62221726485916f3992d8ea6f5782e7507b5`。作者已於審閱交付後指示「直接發布吧」，改由本PR發布。實際部署與備份結果見PR最後核對。正式[導讀](https://sutra-zen.github.io/iddhipada/)與[繪本](https://sutra-zen.github.io/iddhipada/book/)。以下保留原校稿PDF、截圖與本機試閱方式。
 
 ## 先在iPad直接看
 
@@ -25,7 +25,7 @@
 
 ## 開啟互動試閱
 
-下載[審閱分支ZIP](https://github.com/rooneyflower-star/sutrazen-map/archive/refs/heads/feat/iddhipada-review.zip)，解壓縮後，在有首頁 `index.html` 的專案根目錄執行：
+下載[審閱分支ZIP](https://github.com/Sutra-Zen/sutra-zen.github.io/archive/refs/heads/feat/iddhipada-review.zip)，解壓縮後，在有首頁 `index.html` 的專案根目錄執行：
 
 ```sh
 python3 -m http.server 8765 --bind 127.0.0.1

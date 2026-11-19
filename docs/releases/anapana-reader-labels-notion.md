@@ -8,5 +8,5 @@
 
 原口白、引文（含完整止息末兩句）、圖片與來源連結不變，原始證據及研究核對仍留內部資料。四尺寸72個受影響頁面狀態及來源往返／旋轉檢查通過。正式合併SHA、Pages、公開檔案與完整ZIP備份見本次PR最終發布記錄。
 
-專頁：https://rooneyflower-star.github.io/sutrazen-map/anapana/#commentary
-繪本：https://rooneyflower-star.github.io/sutrazen-map/anapana/book/?scene=S09
+專頁：https://sutra-zen.github.io/anapana/#commentary
+繪本：https://sutra-zen.github.io/anapana/book/?scene=S09

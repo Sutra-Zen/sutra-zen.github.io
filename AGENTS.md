@@ -1,5 +1,13 @@
 # SutraZen — Codex project instructions
 
+## Current repository and release target (verified 2026-11-19)
+- Repository: https://github.com/Sutra-Zen/sutra-zen.github.io (GitHub repository ID 1441581789).
+- Production: https://sutra-zen.github.io/ ; serve this repository at the domain root, with no project-path prefix.
+- This is the renamed original project. Continue its existing history, fourteen books, illustrations and approved fixes.
+- The current cloud checkout may still be `/workspace/sutrazen-map`; that is a local mount name, not a website URL. Verify `git remote -v` and current main before working; preserve local edits.
+- GitHub Pages currently uses `main` and `/` (legacy branch source), with GitHub's managed `pages-build-deployment` workflow. Keep this method. When publication is authorized, use a reviewable branch/PR into main, then verify the exact merge SHA's Pages build and live behavior.
+- Use current URLs in new work. Original handoff packages and historical artifact hashes stay intact; their old project names do not override this section.
+
 ## Purpose
 Maintain the SutraZen Buddhist learning website and its interactive picture books. The human author discusses Buddhist source texts, storyboards, illustrations, narration, and interaction design in ChatGPT. Codex implements approved changes in this repository.
 

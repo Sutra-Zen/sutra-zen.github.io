@@ -1,3 +1,17 @@
+# GitHub改名銜接與根網域發布（2026-11-19）
+
+本專案已由原rooneyflower-star/sutrazen-map改名為 **Sutra-Zen/sutra-zen.github.io**，GitHub ID仍1441581789，main基準2ec341a6完整保留十四本與最新安那般那修正。正式網址 **https://sutra-zen.github.io/**，不加舊專案前綴。首次檢查工作目錄/workspace/sutrazen-map、main且工作樹乾淨，沒有丟棄或重設修改；固定掛載名稱保留，origin已更新為https://github.com/Sutra-Zen/sutra-zen.github.io.git。雲端儲存庫設定仍使用相同repository_id，不應因資料夾舊名另建或覆蓋專案。
+
+已讀AGENTS／PROJECT／本HANDOFF及實際程式，核對GitHub Pages API：legacy，main的根目錄/，無CNAME，HTTPS強制，正式網址如上。GitHub管理dynamic/pages/pages-build-deployment，沒有本庫自訂workflow；本次沿用分支PR合併main後自動發布，不更換來源或部署平台。最新確認結果存docs/previews/site-migration/initial-state.json；發布後同SHA建置／workflow與完整ZIP證據記入本次PR。
+
+網站HTML／CSS／JS本身採相對路徑，沒有舊帳號或舊站網址，也沒有需修正的/sutrazen-map/前綴；全部網站程式／原圖／繪本內容逐檔不改。已更新README、AGENTS、PROJECT、維護中的試閱與待補記文件網址，四支舊檢查程式的預設本機網址改為根路徑。原作者交接檔、原始prompt／manifest與已存歷史報告保留，不為改名破壞原始雜湊。
+
+遷移檢查scripts/check-site-migration.py與報告／截圖docs/previews/site-migration/。本機已檢查29份網站HTML、325個相對資產／連結；五尺寸十四本入口、圖片、前後翻頁、返回導讀再回首頁共70狀態通過，無JS或本機HTTP錯誤。管理瀏覽器的外部CDN連線受限制，本機測試明確使用既存Tailwind與下載的Lucide副本，不代表CDN外站驗收。
+
+**直接正式站瀏覽驗收待完成：** 現行環境允許清單只有舊站host、沒有sutra-zen.github.io，實際CONNECT收到403；已請作者在環境設定新增並套用。GitHub API可讀寫／發布，此403不等於GitHub Pages發布失敗。未核准前不得宣稱正式站HTTP／圖片／翻頁已實測，套用後需重試新網域。本機Chromium測試不等於實體Safari。此環境未提供Notion工具，尚未寫入，待補記docs/releases/site-migration-notion.md。
+
+---
+
 # 安那般那：安靜處經文與論師漫畫聚焦（2026-11-19）
 
 依作者對已發布本書的修正要求，S02-P06直接補《雜阿含經》第803經「或入林中、閑房、樹下，或空露地，端身正坐，繫念面前。」節錄，取代原補充說明；已對本庫固定版本原典SHA及文字核對，節錄末標點作句號。來源可從經文區／本頁經文視窗連回既有sa803卡。五筆中部118經標題移除「（影片譯文）」，引文本身不改、不冒署譯者。reader-edits.json保留公開修正，原交接41筆／118段及圖不改。
@@ -37,9 +51,9 @@ S10依P03–04／05–07／08–11／12–14依次亮起四欄，P01–02總說�
 
 作者明確指示「可直接發佈」。**此授權取代下方第14本的審閱限制，允許將PR #43合併main並發布GitHub Pages。** 發布已驗收的同一版本，只移除導讀／閱讀器noindex、更新正式快取與重新打包相同離線內容；不改12頁、36段口白、16引文區間、14中心疊字及S11聚焦／操作。原13書與Pages設定不改。
 
-- 導讀：https://rooneyflower-star.github.io/sutrazen-map/seven-factors/
-- 繪本：https://rooneyflower-star.github.io/sutrazen-map/seven-factors/book/
-- 離線包：https://rooneyflower-star.github.io/sutrazen-map/downloads/SutraZen-Seven-Factors-Offline.zip
+- 導讀：https://sutra-zen.github.io/seven-factors/
+- 繪本：https://sutra-zen.github.io/seven-factors/book/
+- 離線包：https://sutra-zen.github.io/downloads/SutraZen-Seven-Factors-Offline.zip
 - PR #43發布後記錄實際合併SHA、對應成功Pages建置、公開檔案／離線包與固定SHA完整ZIP驗證。既有180線上／180離線段落狀態、120放大字框及13書回歸驗收沿用；發布前重核生成／原檔SHA／JS與已驗收內容不變。
 - 離線驗收仍是解壓後本機HTTP＋封鎖外部連線，不代表file://直開、實體Safari或iPad下載解壓流程已測；音軌精校及外站畫面亦未驗證。限制隨ZIP與README保留。
 - 此工作環境未提供Notion工具，尚未寫入；待補記docs/releases/seven-factors-notion.md已更新為正式發布。
@@ -71,8 +85,8 @@ S10依P03–04／05–07／08–11／12–14依次亮起四欄，P01–02總說�
 
 作者明確指示「可以直接發佈五根五力」。**此授權取代下方第13本的審閱限制，允許將PR #41合併main並部署GitHub Pages。** 發布已驗收的同一版本，移除導讀／閱讀器noindex、更新正式快取版號，不改十幕、74段口白與時間、14引文卡、五條疊字、來源圖／結語共76頁及原十二書。
 
-- 主題專頁：https://rooneyflower-star.github.io/sutrazen-map/five-roots-powers/
-- 繪本：https://rooneyflower-star.github.io/sutrazen-map/five-roots-powers/book/
+- 主題專頁：https://sutra-zen.github.io/five-roots-powers/
+- 繪本：https://sutra-zen.github.io/five-roots-powers/book/
 - 發布經PR #41；實際合併SHA、對應成功Pages建置、公開檔案及固定SHA完整ZIP驗證，於發布後記入該PR，不以先前審閱檔代替正式備份。
 - 先前五尺寸380頁面狀態、25放大疊字及5來源圖放大狀態沿用；發布前重核生成一致性、原素材／原書不變與JS語法，發布後驗證實際公開檔案。不因發布宣稱已完成實體Safari、影片播放、音軌精校或引文版本差異的校勘。
 - 此工作環境未提供Notion工具，尚未寫入改版頁；待補記docs/releases/five-roots-powers-notion.md已更新為正式發布紀錄。
@@ -143,9 +157,9 @@ S10依P03–04／05–07／08–11／12–14依次亮起四欄，P01–02總說�
 
 作者本輪明確指示「直接發佈吧」。**此授權取代下方四禪的審閱限制，允許將PR #36合併至main並發布GitHub Pages。** 發布已驗收的同一版本，移除導讀／閱讀器noindex與試閱標示、更新正式快取版號；不變更十幕、P001–P130、Q01–Q08、原圖、7條疊字與既有十一書。
 
-- 專頁：https://rooneyflower-star.github.io/sutrazen-map/four-jhanas/
-- 繪本：https://rooneyflower-star.github.io/sutrazen-map/four-jhanas/book/
-- 發布經 [PR #36](https://github.com/rooneyflower-star/sutrazen-map/pull/36)。實際合併SHA、對應成功Pages建置、公開檔案與固定合併SHA完整ZIP，記錄在PR最後發布驗證；不以先前審閱ZIP代替正式備份。
+- 專頁：https://sutra-zen.github.io/four-jhanas/
+- 繪本：https://sutra-zen.github.io/four-jhanas/book/
+- 發布經 [PR #36](https://github.com/Sutra-Zen/sutra-zen.github.io/pull/36)。實際合併SHA、對應成功Pages建置、公開檔案與固定合併SHA完整ZIP，記錄在PR最後發布驗證；不以先前審閱ZIP代替正式備份。
 - 既有五尺寸660頁面狀態、35放大疊字及20分格放大狀態驗收結果沿用；發布前重核生成一致性、原檔SHA、JS語法、相對路徑與原書不變。實體Safari、外部影片播放、音軌精校及來源斷句差異仍依REVIEW記錄，不因發布宣稱已完成。
 - 此工作環境未提供Notion工具，尚未寫入改版頁；待補記 `docs/releases/four-jhanas-notion.md`。
 
@@ -153,7 +167,7 @@ S10依P03–04／05–07／08–11／12–14依次亮起四欄，P01–02總說�
 
 # 第12本《四禪》實作與審閱（2026-11-18）
 
-從最新main `c4e6670d30416b4203767287cf14cd754dea8dd7` 建立 `feat/four-jhanas-review`（[草稿PR #36](https://github.com/rooneyflower-star/sutrazen-map/pull/36)）。作者本次要求製作與驗證，尚未明確授權新書發布；**勿自行合併main或部署，也勿沿用前一本四如意足的發布授權。**
+從最新main `c4e6670d30416b4203767287cf14cd754dea8dd7` 建立 `feat/four-jhanas-review`（[草稿PR #36](https://github.com/Sutra-Zen/sutra-zen.github.io/pull/36)）。作者本次要求製作與驗證，尚未明確授權新書發布；**勿自行合併main或部署，也勿沿用前一本四如意足的發布授權。**
 
 - 新增 `four-jhanas/` 主題專頁、`four-jhanas/book/` 閱讀器；在本分支接上書架第12本及原有四禪地圖節點。14支影片不變，12本可讀、2本鎖定僅屬此分支。
 - 作者ZIP的15份原檔完整存 `docs/four-jhanas/`；CRC、SHA256SUMS、11圖尺寸／解碼核對。10幕、P001–P130字串與時間完整保留，另接片尾出處與共同經典依據結語，共132頁、10幕目錄。
@@ -183,9 +197,9 @@ S10依P03–04／05–07／08–11／12–14依次亮起四欄，P01–02總說�
 
 作者於交付審閱版後明確指示「直接發布吧」。**此授權取代下方本書原審閱限制，允許將PR #34合併至main並發布GitHub Pages。** main仍以 `140f62221726485916f3992d8ea6f5782e7507b5` 為基準，發布同一審閱內容；只移除導讀／閱讀器noindex及試閱標示、改用正式快取版號，不改9幕、81段口白、11筆Q卡、13條疊字、原圖或既有十本。
 
-- 正式導讀：https://rooneyflower-star.github.io/sutrazen-map/iddhipada/
-- 正式繪本：https://rooneyflower-star.github.io/sutrazen-map/iddhipada/book/
-- 發布經 [PR #34](https://github.com/rooneyflower-star/sutrazen-map/pull/34)；實際合併SHA、Pages建置／公開檔案核對與固定合併SHA的完整ZIP，記錄於PR最終發布驗證。不以先前審閱ZIP代替正式備份。
+- 正式導讀：https://sutra-zen.github.io/iddhipada/
+- 正式繪本：https://sutra-zen.github.io/iddhipada/book/
+- 發布經 [PR #34](https://github.com/Sutra-Zen/sutra-zen.github.io/pull/34)；實際合併SHA、Pages建置／公開檔案核對與固定合併SHA的完整ZIP，記錄於PR最終發布驗證。不以先前審閱ZIP代替正式備份。
 - 審閱版已通過五尺寸410個頁面狀態、65個放大字框狀態及舊十本入口檢查；發布前重核原檔／資料生成／JS語法／相對連結與原書不變。實體Safari手勢、影片播放、時間精校及來源措辭差異仍保留REVIEW_TODO，發布不等於這些項目已完成校勘。
 - 此工作環境未提供Notion工具，尚未寫入改版頁；待補記 `docs/releases/iddhipada-notion.md`。
 
@@ -193,7 +207,7 @@ S10依P03–04／05–07／08–11／12–14依次亮起四欄，P01–02總說�
 
 # 第11本《四如意足》審閱實作（2026-11-16）
 
-最新main基準 `140f62221726485916f3992d8ea6f5782e7507b5`，實作分支 `feat/iddhipada-review`，[草稿PR #34](https://github.com/rooneyflower-star/sutrazen-map/pull/34)。**本次使用者明確要求審閱，不合併main、不公開部署。先前各書發布授權不適用本次。**
+最新main基準 `140f62221726485916f3992d8ea6f5782e7507b5`，實作分支 `feat/iddhipada-review`，[草稿PR #34](https://github.com/Sutra-Zen/sutra-zen.github.io/pull/34)。**本次使用者明確要求審閱，不合併main、不公開部署。先前各書發布授權不適用本次。**
 
 - 新增 `iddhipada/` 導讀及 `iddhipada/book/` 閱讀器；審閱分支接書架第11本、原有四如意足地圖節點。14個影片不變，11本可讀、3本鎖定。沒有新增重複地圖節點。
 - 兩包普通ZIP完整合併於 `docs/iddhipada/`，30原始檔符合receipt與manifest；9正式PNG、1有字備用、9定位影格均解碼。網站用9張同尺寸WebP，原圖與交接JSON不改，無MOV上站。
@@ -266,7 +280,7 @@ CBETA網頁直接請求受代理403限制，網址按作者提供保留；已改
 
 作者於審閱實作交付後明確指示「直接發佈」，取代下方歷史審閱限制。以PR #28發布《安那般那與止觀》；不改動已驗證的119頁、原始交接與其它九本。移除新專頁／閱讀器的試閱noindex及導讀標題中的試閱字樣，快取版本改為正式標記。
 
-發布完成必須核對實際合併SHA、GitHub Pages build成功及公開首頁／導讀／閱讀器／圖片檔案，並下載固定合併SHA完整ZIP核對CRC及追蹤檔案。以下595個頁面狀態為同一套內容與互動的發布前驗收，不代表實體Safari驗收。正式入口為 https://rooneyflower-star.github.io/sutrazen-map/anapana/ 與 /anapana/book/；成功與否以發布回報及PR #28最終驗證記錄為準。
+發布完成必須核對實際合併SHA、GitHub Pages build成功及公開首頁／導讀／閱讀器／圖片檔案，並下載固定合併SHA完整ZIP核對CRC及追蹤檔案。以下595個頁面狀態為同一套內容與互動的發布前驗收，不代表實體Safari驗收。正式入口為 https://sutra-zen.github.io/anapana/ 與 /anapana/book/；成功與否以發布回報及PR #28最終驗證記錄為準。
 
 本環境工具清單仍無Notion搜尋／讀取／更新工具，尚未寫入改版頁。待補記文字為 `docs/releases/anapana-notion.md`；不得稱為已補記。來源疑點仍保留REVIEW_TODO，不因作者授權發布而自行改寫引文。
 
@@ -318,7 +332,7 @@ check-right-effort.py更新驗收方向，重新檢查五尺寸405個逐頁狀�
 
 # 第09本《四正勤》（2026-11-15）
 
-從最新main `cd1cb6f743d773afe9ea22c6c548384c7760ef75` 建立feat/right-effort，[PR #25](https://github.com/rooneyflower-star/sutrazen-map/pull/25)。已讀AGENTS、PROJECT、HANDOFF、SOURCES、完整兩包交接README／CODEX_PROMPT／NARRATION_REVIEW／SOURCE_NOTES／storyboard／catalog／manifest，並檢查最近四念處的實際實作。作者本次明確授權直接發布。
+從最新main `cd1cb6f743d773afe9ea22c6c548384c7760ef75` 建立feat/right-effort，[PR #25](https://github.com/Sutra-Zen/sutra-zen.github.io/pull/25)。已讀AGENTS、PROJECT、HANDOFF、SOURCES、完整兩包交接README／CODEX_PROMPT／NARRATION_REVIEW／SOURCE_NOTES／storyboard／catalog／manifest，並檢查最近四念處的實際實作。作者本次明確授權直接發布。
 
 - 兩包已安全合併至docs/right-effort/；33項清單檔案的大小與SHA-256、26張圖像解碼與尺寸核對通過，無缺件。原JSON、9張正式圖、2張備用圖、14張參考影格／出處圖及片尾影格完整保留。Notion匯出只供追溯，不依賴外部Notion媒體。
 - `right-effort/`導讀與`right-effort/book/`閱讀器接上書架09及原有四正勤心智圖窗；14本中9可讀、5鎖定。沿用原#video-09的RqWhPhhP8eY；全部14支影片不變。
@@ -345,7 +359,7 @@ MA98、MA102註解按鈕照作者提供的完整百分比編碼URL更新，可�
 
 # 第08本介面統一與阿含經結語（2026-11-15）
 
-依作者對已發布版本的回饋，從最新main `1d964bbd8d6c9d0c05aa725f36da1b44d8ffb078` 建立 `fix/mindfulness-consistent-reader`，[PR #23](https://github.com/rooneyflower-star/sutrazen-map/pull/23)，修正本書導讀／閱讀器，承接本次網站直接發布授權。以下取代初版的整幕側欄閱讀方式；原始交接與下方歷史紀錄保留。
+依作者對已發布版本的回饋，從最新main `1d964bbd8d6c9d0c05aa725f36da1b44d8ffb078` 建立 `fix/mindfulness-consistent-reader`，[PR #23](https://github.com/Sutra-Zen/sutra-zen.github.io/pull/23)，修正本書導讀／閱讀器，承接本次網站直接發布授權。以下取代初版的整幕側欄閱讀方式；原始交接與下方歷史紀錄保留。
 
 - 閱讀器採用第06／07本的實際HTML與CSS結構：上方字幕、完整插畫、下方經文；手機底部按鍵、橫式左右按鍵、右上目錄與頁碼、本頁經文視窗及閱讀原經入口均相同，不再使用整幕側欄或另一組常駐工具列。完整92段口白按原標點分頁，逐段拼接與原文相同，共109張字幕頁＋既定S25總結＋製作說明＝111頁。
 - 25幕、圖片對應、18筆影片錄文、27組段落對應及圖片百分比標籤不變。每頁顯示所屬段落的下緣經文；S10前後兩組不混用，S18補充／S20承接仍明標。手機經文可直接捲動，橫式可開啟與舊書相同的本頁經文視窗。點選插畫可放大，沒有另一組常駐放大／全螢幕按鈕。
@@ -361,7 +375,7 @@ MA98、MA102註解按鈕照作者提供的完整百分比編碼URL更新，可�
 
 # 第08本《四念處與四顛倒》實作與發布交接（2026-11-15）
 
-作者在第04包訊息明確授權「收齊你就可以做專頁和繪本了，可直接發佈」，取代舊交接提示中的先試閱限制。本次從最新main `24983232d11bc9e775641bf444bcbe59055fe1ad` 的實作分支 `feat/mindfulness-preview` 完成，[PR #22](https://github.com/rooneyflower-star/sutrazen-map/pull/22)，原有七本及GitHub Pages設定保持不變。是否正式上線以PR實際合併SHA及相應Pages成功為準，交付時另提供固定SHA ZIP備份。
+作者在第04包訊息明確授權「收齊你就可以做專頁和繪本了，可直接發佈」，取代舊交接提示中的先試閱限制。本次從最新main `24983232d11bc9e775641bf444bcbe59055fe1ad` 的實作分支 `feat/mindfulness-preview` 完成，[PR #22](https://github.com/Sutra-Zen/sutra-zen.github.io/pull/22)，原有七本及GitHub Pages設定保持不變。是否正式上線以PR實際合併SHA及相應Pages成功為準，交付時另提供固定SHA ZIP備份。
 
 ## 完整素材及內容
 
@@ -418,7 +432,7 @@ MA98、MA102註解按鈕照作者提供的完整百分比編碼URL更新，可�
 
 # 第07本《四不壞淨與六念》（2026-11-15）
 
-作者本次明確授權直接上線。實作PR：https://github.com/rooneyflower-star/sutrazen-map/pull/19 。分支`feat/four-purities-six-recollections`從最新main `31ebc8679723ab9908f771436bc0563cc4b04270`建立。正式部署須核對實際合併SHA與Pages成功，不能以push成功代替。
+作者本次明確授權直接上線。實作PR：https://github.com/Sutra-Zen/sutra-zen.github.io/pull/19 。分支`feat/four-purities-six-recollections`從最新main `31ebc8679723ab9908f771436bc0563cc4b04270`建立。正式部署須核對實際合併SHA與Pages成功，不能以push成功代替。
 
 ## 完成實作
 
@@ -468,7 +482,7 @@ Status: **第06本《四向四果與十結》導讀與繪本試閱完成；等�
 ## 分支與交接
 
 - 實作分支 `feat/four-fruits-ten-fetters-preview`，以最新main `bc29ec604dacf8515245669c553af8c27318a95d` 開始；已讀AGENTS、PROJECT、HANDOFF、SOURCES及實際八正道／十二因緣介面。
-- 試閱草稿PR：https://github.com/rooneyflower-star/sutrazen-map/pull/15 ，目標main；尚未合併。
+- 試閱草稿PR：https://github.com/Sutra-Zen/sutra-zen.github.io/pull/15 ，目標main；尚未合併。
 - fetch `content/four-fruits-ten-fetters-handoff`，固定交接commit `d82957317cd6733553c97149ebb49d1bd7bd7bad`，只帶入 `docs/four-fruits-ten-fetters/`。四份交接文字檔與作者附件ZIP逐位元組一致，完整讀取README、JSON／Markdown分鏡與manifest後實作。
 - 插畫取自作者附件 `SutraZen_Four_Fruits_Ten_Fetters_Handoff.zip`，11張正式WebP及2張reference的檔名、尺寸、大小與SHA-256全部符合清單。S05採柱上「五受陰」、皮帶上「貪愛」版本；reference僅供比對，未用作內頁。
 
@@ -528,7 +542,7 @@ Status: **十八界與四格疊字、偈頌排版、結語及原經直讀修正�
 
 ## 本次修正
 
-- PR：https://github.com/rooneyflower-star/sutrazen-map/pull/13 。分支 `fix/reader-labels-and-scripture`，基準 main `f01ffa80e6936c81572f8b9d29e99bb084ab26e5`。先確認最新main，保留原圖、原字幕、經文與既有操作；只有作者點名的字樣與新增結語作內容調整。
+- PR：https://github.com/Sutra-Zen/sutra-zen.github.io/pull/13 。分支 `fix/reader-labels-and-scripture`，基準 main `f01ffa80e6936c81572f8b9d29e99bb084ab26e5`。先確認最新main，保留原圖、原字幕、經文與既有操作；只有作者點名的字樣與新增結語作內容調整。
 - 六處第二幕的十八界標籤按原圖1536×1024中六扇窗的實際中心排列，根／境／識三排都在各自窗內。資料存於該幕 `windowLayout`；全圖以實際顯示圖片百分比定位，原四格、遮罩和內嵌圖片不變。
 - 八正道惡行四格右下只標「心不定」，移除「十惡業：」；其餘確屬惡業的標籤保留。善行四格移除左上「八正道：正業」，前段保留不偷盜／不殺生，安睡頁沒有多餘字樣，圖像與焦點不因空疊字跳動。
 - 雜阿含771的原典轉錄 `excerpt` 與來源雜湊保留，新增 `displayExcerpt` 去除全形縮排並排成四行；忽略空白後字句／標點完全相同。導讀與閱讀器採同一呈現文本。
@@ -556,7 +570,7 @@ Status: **作者已明確授權發布畫面疊字與多格閱讀焦點修正；�
 ## 2026-11-14 — PR #12 直接發布授權
 
 - 作者最新指示「通常繪本我無法試閱，你直接發布吧」，明確授權發布這次已完成的疊字與遮罩修正，取代本輪先前的試閱限制。這是本次授權，不擴張成所有未來工作的發布授權。
-- PR：https://github.com/rooneyflower-star/sutrazen-map/pull/12 。沿用已通過1116頁面檢查與8組旁白像素檢查的實作；另對八正道閱讀器資產加入版本查詢，避免舊JS快取與新HTML混用。圖片、字幕、經文、分頁及疊字位置不另改。
+- PR：https://github.com/Sutra-Zen/sutra-zen.github.io/pull/12 。沿用已通過1116頁面檢查與8組旁白像素檢查的實作；另對八正道閱讀器資產加入版本查詢，避免舊JS快取與新HTML混用。圖片、字幕、經文、分頁及疊字位置不另改。
 - 正式入口：`eightfold-path/book/`、`five-aggregates/book/`、`six-senses/book/`。發布須確認實際merge commit的Pages成功，並檢查線上資產與互動。
 - 每次正式發布提供精確merge commit的GitHub固定ZIP，實際下載驗證，避免只交付對話附件。
 - 此工作環境未提供Notion工具，尚未寫入；待補記內容存於 `docs/releases/picture-book-overlays-notion.md`。實際發布資訊另記於PR。
@@ -597,7 +611,7 @@ Status: **八正道與十善業道已獲作者明確發布授權；發布記錄�
 ## 2026-11-14 — 八正道發布授權與交付
 
 - 作者明確指示「你直接發布吧，我看有問題再來改」，授權把本次新增內容合併 main 並發布；此最新指示取代本頁先前的試閱等待狀態。
-- 發布 PR：https://github.com/rooneyflower-star/sutrazen-map/pull/11 。移除新主題導讀的 noindex；閱讀器沿現有慣例保留。故事、圖片、控制與所有舊書保持試閱測試版本。
+- 發布 PR：https://github.com/Sutra-Zen/sutra-zen.github.io/pull/11 。移除新主題導讀的 noindex；閱讀器沿現有慣例保留。故事、圖片、控制與所有舊書保持試閱測試版本。
 - 正式入口：`eightfold-path/`（導讀）、`eightfold-path/book/`（110頁繪本）、首頁第05本與八正道心智圖說明窗。
 - 合併與部署須以 PR 的 merge commit 及該 SHA 的 Pages 成功結果為準；不能只因 git push 成功而聲稱已上線。發布後另外驗證正式網址與新書操作。
 - 每次正式發布的 ZIP 使用精確 merge commit。前次對話附件下載失敗，這次另提供 GitHub `/archive/<mergeSHA>.zip` 固定版本下載入口，並保留本地檔與 SHA-256。

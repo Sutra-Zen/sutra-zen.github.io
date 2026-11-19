@@ -16,7 +16,7 @@
 - 作者明確同意直接發布本版，後續依正式站實際觀察調整。
 - 待確認：貓群封面原圖尚缺，先用正見地圖加書名；白話校訂另列；實體iPad/Safari、外部YouTube播放及中阿含註解深層定位尚未驗證。
 
-網站：https://rooneyflower-star.github.io/sutrazen-map/eightfold-path/
-繪本：https://rooneyflower-star.github.io/sutrazen-map/eightfold-path/book/
-PR：https://github.com/rooneyflower-star/sutrazen-map/pull/11
+網站：https://sutra-zen.github.io/eightfold-path/
+繪本：https://sutra-zen.github.io/eightfold-path/book/
+PR：https://github.com/Sutra-Zen/sutra-zen.github.io/pull/11
 正式版 ZIP：以 PR #11 實際 merge commit 的 GitHub 固定版本 ZIP 為準。

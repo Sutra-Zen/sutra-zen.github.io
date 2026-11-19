@@ -11,7 +11,7 @@ from pathlib import Path
 from PIL import Image
 from playwright.sync_api import sync_playwright
 
-BASE = os.environ.get('SUTRAZEN_TEST_URL', 'http://127.0.0.1:8012/sutrazen-map/')
+BASE = os.environ.get('SUTRAZEN_TEST_URL', 'http://127.0.0.1:8012/')
 OUT = Path(os.environ.get('SUTRAZEN_TEST_ARTIFACTS', '/tmp/picture-book-overlay-tests'))
 OUT.mkdir(parents=True, exist_ok=True)
 results = []
