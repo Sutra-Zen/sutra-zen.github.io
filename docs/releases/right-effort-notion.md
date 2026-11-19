@@ -14,6 +14,6 @@
 
 五尺寸共405個逐頁狀態及舊八本入口通過。實體iPad Safari、外部YouTube播放及註解站實際畫面仍待驗收。正式部署SHA、Pages與完整ZIP備份詳本次PR及交付紀錄。
 
-- 導讀：https://rooneyflower-star.github.io/sutrazen-map/right-effort/
-- 繪本：https://rooneyflower-star.github.io/sutrazen-map/right-effort/book/
-- PR：https://github.com/rooneyflower-star/sutrazen-map/pull/25
+- 導讀：https://sutra-zen.github.io/right-effort/
+- 繪本：https://sutra-zen.github.io/right-effort/book/
+- PR：https://github.com/Sutra-Zen/sutra-zen.github.io/pull/25

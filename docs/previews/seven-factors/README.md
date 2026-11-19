@@ -2,7 +2,7 @@
 
 # 七覺支｜十二頁試閱
 
-[PR #43](https://github.com/rooneyflower-star/sutrazen-map/pull/43)，分支`feat/seven-factors-review`，從main99b1a1d建立。作者已於2026-11-18授權直接發布，經PR #43處理。正式入口：[導讀](https://rooneyflower-star.github.io/sutrazen-map/seven-factors/)／[繪本](https://rooneyflower-star.github.io/sutrazen-map/seven-factors/book/)。實際Pages與正式備份核對見PR最後紀錄；以下保留原試閱方式與歷史驗收。
+[PR #43](https://github.com/Sutra-Zen/sutra-zen.github.io/pull/43)，分支`feat/seven-factors-review`，從main99b1a1d建立。作者已於2026-11-18授權直接發布，經PR #43處理。正式入口：[導讀](https://sutra-zen.github.io/seven-factors/)／[繪本](https://sutra-zen.github.io/seven-factors/book/)。實際Pages與正式備份核對見PR最後紀錄；以下保留原試閱方式與歷史驗收。
 
 - [12頁完整PDF](Seven-Factors-review.pdf)：12張原圖與14條中心疊字，完整36段口白及其對應引文，文字可選取。A3橫式供放大對讀，非網頁操作介面。
 - [離線ZIP](../../../downloads/SutraZen-Seven-Factors-Offline.zip)：先完整解壓，執行`python3 start-local.py`，開啟http://127.0.0.1:8765/。包內有說明；不需要Internet素材，影片與外部經典網站除外。

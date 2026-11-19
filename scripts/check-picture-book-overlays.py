@@ -14,7 +14,7 @@ from lxml import html
 from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE = os.environ.get('SUTRAZEN_TEST_URL', 'http://127.0.0.1:8012/sutrazen-map/')
+BASE = os.environ.get('SUTRAZEN_TEST_URL', 'http://127.0.0.1:8012/')
 OUT = Path(os.environ.get('SUTRAZEN_TEST_ARTIFACTS', '/tmp/picture-book-overlay-tests'))
 OUT.mkdir(parents=True, exist_ok=True)
 BASELINE = 'f01ffa80e6936c81572f8b9d29e99bb084ab26e5'

@@ -15,4 +15,4 @@
 
 新增段落皆核對固定版本原檔，繪本口白、引文、111頁與插圖保持不變。中阿含98及102經註解改用作者提供的直接定位網址，完整網址存docs/mindfulness/verified-sources.json。手機及iPad橫直式的閱讀、連結、無水平溢出與繪本來源入口檢查通過。
 
-專頁：https://rooneyflower-star.github.io/sutrazen-map/mindfulness/#sources
+專頁：https://sutra-zen.github.io/mindfulness/#sources

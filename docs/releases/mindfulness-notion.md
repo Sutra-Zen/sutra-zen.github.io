@@ -12,8 +12,8 @@
 
 手機／iPad／桌面五尺寸共125個逐幕狀態、全文與經文對應、目錄、翻頁、放大、全螢幕、旋轉／重載保留位置、來源往返及七本既有入口通過。實體iPad Safari及外部YouTube播放仍待作者驗收；經義差異保留獨立校稿清單，未擅自改寫。
 
-- 導讀：https://rooneyflower-star.github.io/sutrazen-map/mindfulness/
-- 繪本：https://rooneyflower-star.github.io/sutrazen-map/mindfulness/book/
-- 校稿清單：https://github.com/rooneyflower-star/sutrazen-map/blob/main/docs/mindfulness/REVIEW_TODO.md
-- PR：https://github.com/rooneyflower-star/sutrazen-map/pull/22
+- 導讀：https://sutra-zen.github.io/mindfulness/
+- 繪本：https://sutra-zen.github.io/mindfulness/book/
+- 校稿清單：https://github.com/Sutra-Zen/sutra-zen.github.io/blob/main/docs/mindfulness/REVIEW_TODO.md
+- PR：https://github.com/Sutra-Zen/sutra-zen.github.io/pull/22
 - 分支：feat/mindfulness-preview；實際合併SHA、成功部署及固定SHA ZIP以本次交付訊息／PR紀錄為準。

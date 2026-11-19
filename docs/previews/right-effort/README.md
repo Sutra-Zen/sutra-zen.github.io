@@ -1,6 +1,6 @@
 # 四正勤：畫面與驗證
 
-[PR #25](https://github.com/rooneyflower-star/sutrazen-map/pull/25)，分支feat/right-effort，從main `cd1cb6f743d773afe9ea22c6c548384c7760ef75`開始。作者明確授權直接發布；正式上線以PR合併、Pages成功及公開檔案核對為準。
+[PR #25](https://github.com/Sutra-Zen/sutra-zen.github.io/pull/25)，分支feat/right-effort，從main `cd1cb6f743d773afe9ea22c6c548384c7760ef75`開始。作者明確授權直接發布；正式上線以PR合併、Pages成功及公開檔案核對為準。
 
 - 導讀：`right-effort/`
 - 繪本：`right-effort/book/`

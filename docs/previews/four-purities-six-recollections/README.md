@@ -1,6 +1,6 @@
 # 《四不壞淨與六念》試閱與核對
 
-[實作PR #19](https://github.com/rooneyflower-star/sutrazen-map/pull/19)，分支：`feat/four-purities-six-recollections`。作者已授權本次直接發布；是否上線，以PR實際合併SHA及Pages成功為準。
+[實作PR #19](https://github.com/Sutra-Zen/sutra-zen.github.io/pull/19)，分支：`feat/four-purities-six-recollections`。作者已授權本次直接發布；是否上線，以PR實際合併SHA及Pages成功為準。
 
 - 導讀入口：`four-purities-six-recollections/`
 - 閱讀器：`four-purities-six-recollections/book/`
@@ -29,7 +29,7 @@
 
 ## 發布前的本機試閱
 
-[下載本分支完整ZIP](https://github.com/rooneyflower-star/sutrazen-map/archive/refs/heads/feat/four-purities-six-recollections.zip)，解壓後在含`index.html`的根目錄執行：
+[下載本分支完整ZIP](https://github.com/Sutra-Zen/sutra-zen.github.io/archive/refs/heads/feat/four-purities-six-recollections.zip)，解壓後在含`index.html`的根目錄執行：
 
 ```sh
 python3 -m http.server 8765 --bind 0.0.0.0

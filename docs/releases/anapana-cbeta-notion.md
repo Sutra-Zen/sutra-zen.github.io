@@ -6,4 +6,4 @@
 
 2026-11-16｜《安那般那與止觀》導讀的《修次中編／下編》來源卡，依作者提供改用CBETA原文入口與完整「調身八法」引文，移除該卡影片截圖附錄及影片摘引標示。原文引用《菩提道次第廣論》卷十四，明列宗喀巴造／法尊譯；已讀官方CBETA XML固定版本核對完整文字，保留指定網址。Q32–Q38來源連結及原經卡UI保留，閱讀器、影片錄文與所有插畫不變。正式合併SHA、Pages核對與完整ZIP見本次PR最終發布記錄。
 
-入口：https://rooneyflower-star.github.io/sutrazen-map/anapana/#bhavanakrama
+入口：https://sutra-zen.github.io/anapana/#bhavanakrama

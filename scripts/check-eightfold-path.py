@@ -1,7 +1,7 @@
 """Integrity and browser checks for the Eightfold Path preview.
 
-Requires Pillow, lxml, Playwright and Chromium. Serve repository's parent with
-python -m http.server 8011 --directory /workspace
+Requires Pillow, lxml, Playwright and Chromium. From the repository root run
+python3 -m http.server 8011 --bind 127.0.0.1
 then run: python scripts/check-eightfold-path.py
 Use SUTRAZEN_TEST_URL / SUTRAZEN_TEST_ARTIFACTS to override defaults.
 """
@@ -17,7 +17,7 @@ from PIL import Image
 from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE_URL = os.environ.get('SUTRAZEN_TEST_URL', 'http://127.0.0.1:8011/sutrazen-map/')
+BASE_URL = os.environ.get('SUTRAZEN_TEST_URL', 'http://127.0.0.1:8011/')
 OUT = Path(os.environ.get('SUTRAZEN_TEST_ARTIFACTS', '/tmp/eightfold-test-results'))
 OUT.mkdir(parents=True, exist_ok=True)
 handoff = ROOT / 'docs/eightfold-path'

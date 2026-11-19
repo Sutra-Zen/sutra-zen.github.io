@@ -12,6 +12,6 @@
 
 手機／iPad橫直與桌面五尺寸檢查，核對逐頁完整文字、圖片比例與標籤、舊書相同的按鍵位置、經文捲動／視窗／來源往返、快速翻頁、旋轉／重載保留頁碼及重讀。實體iPad Safari與外部影片、註解站畫面仍待驗收；原有七本及Pages設定保持不變。正式部署與固定SHA ZIP備份詳本次PR／交付紀錄。
 
-- 導讀：https://rooneyflower-star.github.io/sutrazen-map/mindfulness/
-- 繪本：https://rooneyflower-star.github.io/sutrazen-map/mindfulness/book/
-- PR：https://github.com/rooneyflower-star/sutrazen-map/pull/23
+- 導讀：https://sutra-zen.github.io/mindfulness/
+- 繪本：https://sutra-zen.github.io/mindfulness/book/
+- PR：https://github.com/Sutra-Zen/sutra-zen.github.io/pull/23

@@ -15,7 +15,7 @@
 五種螢幕尺寸檢查本次受影響的340個頁面狀態及80個分格放大狀態；確認目錄、上下頁、快速點按、讀經捲動、返回導讀、末頁重讀與旋轉保留頁碼。實體iPad/iPhone Safari仍請作者覆核，未宣稱已實機測試。
 
 正式繪本：
-- https://rooneyflower-star.github.io/sutrazen-map/four-jhanas/book/
-- https://rooneyflower-star.github.io/sutrazen-map/anapana/book/
+- https://sutra-zen.github.io/four-jhanas/book/
+- https://sutra-zen.github.io/anapana/book/
 
 分支：`fix/jhanas-table-anapana-focus`。實際PR、Pages建置、合併SHA與完整ZIP驗證結果於發布後記入該PR。

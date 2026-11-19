@@ -1,20 +1,41 @@
 # SutraZen project context
 
 ## Project
-- GitHub repository: https://github.com/rooneyflower-star/sutrazen-map
-- GitHub Pages entry point: https://rooneyflower-star.github.io/sutrazen-map/
+- GitHub repository: https://github.com/Sutra-Zen/sutra-zen.github.io
+- GitHub Pages entry point: https://sutra-zen.github.io/
 - Related Buddhist learning map: https://sutrazen.netlify.app/map.html
 - Primary language: Traditional Chinese (Taiwan)
 
-## Repository structure (verified 2026-11-14)
-- index.html — top-level site entry
-- shelf.css — shared shelf styling
-- five-aggregates/ — five aggregates picture book, including book/ and storyboard.csv
-- four-truths/ — Four Noble Truths picture book, including assets/ and book/
-- six-senses/ — six senses picture book, including book/ and cover.webp
-- twelve-links/ — twelve-link picture book, guide, static Wheel of Life, 77-page data, storyboard and original extracted assets
-- eightfold-path/ — Eightfold Path / Ten Wholesome Actions implementation: 111-page reader (110 original subtitle pages plus an editorial afterword) and guide; original 13-scene handoff and 11 illustrations in docs/eightfold-path/
-- README.md
+## Current status and deployment (verified 2026-11-19)
+
+The owner renamed `rooneyflower-star/sutrazen-map` to `Sutra-Zen/sutra-zen.github.io`; GitHub repository ID 1441581789 and commit history are unchanged. Baseline main `2ec341a6ffa1a4f0108183da980e9af85c55bd31` includes all fourteen released books and the latest Anapana scripture/comic-focus corrections. Older dated preview restrictions below describe historical work; use the newest HANDOFF entry and the current user's authorization.
+
+GitHub Pages API confirms `build_type: legacy`, source `main` at `/`, `cname: null`, HTTPS enforced, and https://sutra-zen.github.io/ as the production entry. GitHub manages the `dynamic/pages/pages-build-deployment` workflow; there is no tracked custom Actions release workflow or application build requirement. Preserve this branch-source method. Implement from latest main on a branch, open a PR against main, merge only when authorized, verify the exact merge SHA's successful Pages build, and test the current domain. A pushed commit or a successful local test alone does not prove live availability.
+
+Website files use relative paths and work from `/`; do not prepend the old project path. The cloud mount `/workspace/sutrazen-map` is intentionally retained to avoid breaking existing local paths. `origin` now points to `https://github.com/Sutra-Zen/sutra-zen.github.io.git`. Local testing: from the repository root run `python3 -m http.server 8765 --bind 127.0.0.1`, then open `http://127.0.0.1:8765/`. For an existing check script with its own port, use that port or set `SUTRAZEN_TEST_URL` to the served repository root URL.
+
+Original author-supplied handoff documents, manifests, screenshots and historical report hashes are archival inputs; old names within them are retained. Maintained guide/test instructions and pending release notes use the new URLs. Each release still needs a fixed-merge-SHA ZIP backup and Notion update or an explicit pending note if tools are unavailable.
+
+## Repository structure (verified 2026-11-19)
+
+- `index.html` — 修道地圖、十四本書架及影片入口；`shelf.css` — 書架樣式。
+- `four-truths/` — 01 四聖諦。
+- `five-aggregates/` — 02 五陰。
+- `six-senses/` — 03 六處。
+- `twelve-links/` — 04 十二因緣。
+- `eightfold-path/` — 05 八正道與十善業道。
+- `four-fruits-ten-fetters/` — 06 四向四果與十結。
+- `four-purities-six-recollections/` — 07 四不壞淨與六念。
+- `mindfulness/` — 08 四念處與四顛倒。
+- `right-effort/` — 09 四正勤。
+- `anapana/` — 10 安那般那與止觀。
+- `iddhipada/` — 11 四如意足。
+- `four-jhanas/` — 12 四禪。
+- `five-roots-powers/` — 13 五根五力。
+- `seven-factors/` — 14 七覺支。
+- 各目錄 `index.html` 是導讀，`book/` 是既有閱讀器；圖片、來源與分鏡依各書原有慣例保留。
+- 根目錄 `reader-controls.css`、`reader-restart.js`、`picture-panel-focus.js/css` 為共用操作。
+- `docs/` — 交接、原稿與驗證；`scripts/` — 各書建置及檢查；`downloads/` — 既有離線包。
 
 The twelve-link reader is implemented in twelve-links/ and preserves 77 pages: 18 narrative scenes plus an afterword. The author approved publication on 2026-11-14. Verify the corresponding GitHub Pages deployment before claiming live availability.
 

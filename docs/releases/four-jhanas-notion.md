@@ -12,6 +12,6 @@
 - 書架第12本及既有四禪地圖節點接上；12本可讀、2本仍鎖定，14支影片及原十一書與Pages設定不變。
 - 官方固定版DN2莊春江中譯與SA483古漢譯已核對，導讀補上前行及四禪分類節錄；原稿覺觀／尋伺、Q07斷句與時間精校差異仍分開保留。
 - 五尺寸660頁面、35放大疊字與20分格放大狀態通過，PDF保留130段與8卡全文。實體Safari與影片實際播放未驗收。
-- 專頁：https://rooneyflower-star.github.io/sutrazen-map/four-jhanas/
-- 繪本：https://rooneyflower-star.github.io/sutrazen-map/four-jhanas/book/
-- PR：https://github.com/rooneyflower-star/sutrazen-map/pull/36
+- 專頁：https://sutra-zen.github.io/four-jhanas/
+- 繪本：https://sutra-zen.github.io/four-jhanas/book/
+- PR：https://github.com/Sutra-Zen/sutra-zen.github.io/pull/36

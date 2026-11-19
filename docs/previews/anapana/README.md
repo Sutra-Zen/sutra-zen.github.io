@@ -1,10 +1,10 @@
 # 安那般那與止觀｜試閱
 
-2026-11-16，原審閱分支 `feat/anapana-review`。作者已於交付後授權直接發布，由PR #28進行。以下保留原試閱與驗收方式；正式發布結果見PR #28最終核對記錄及最新HANDOFF。正式入口為 https://rooneyflower-star.github.io/sutrazen-map/anapana/ 。
+2026-11-16，原審閱分支 `feat/anapana-review`。作者已於交付後授權直接發布，由PR #28進行。以下保留原試閱與驗收方式；正式發布結果見PR #28最終核對記錄及最新HANDOFF。正式入口為 https://sutra-zen.github.io/anapana/ 。
 
 ## 開啟互動試閱
 
-1. 下載 [審閱分支完整ZIP](https://github.com/rooneyflower-star/sutrazen-map/archive/refs/heads/feat/anapana-review.zip)，解壓縮。
+1. 下載 [審閱分支完整ZIP](https://github.com/Sutra-Zen/sutra-zen.github.io/archive/refs/heads/feat/anapana-review.zip)，解壓縮。
 2. 在解壓後的專案根目錄（有 `index.html` 的一層）執行：
 
    ```sh

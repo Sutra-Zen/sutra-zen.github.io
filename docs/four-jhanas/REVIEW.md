@@ -1,6 +1,6 @@
 # 四禪｜實作與待校事項（2026-11-18）
 
-本次為新書實作與驗證，分支 `feat/four-jhanas-review`（[PR #36](https://github.com/rooneyflower-star/sutrazen-map/pull/36)），基準main `c4e6670d30416b4203767287cf14cd754dea8dd7`。作者已於2026-11-18交付後明確指示「直接發佈吧」，本書改由PR #36發布。以下保留原內容與驗收界線；發布驗證見PR最終記錄。
+本次為新書實作與驗證，分支 `feat/four-jhanas-review`（[PR #36](https://github.com/Sutra-Zen/sutra-zen.github.io/pull/36)），基準main `c4e6670d30416b4203767287cf14cd754dea8dd7`。作者已於2026-11-18交付後明確指示「直接發佈吧」，本書改由PR #36發布。以下保留原內容與驗收界線；發布驗證見PR最終記錄。
 
 ## 原始交接與成品
 

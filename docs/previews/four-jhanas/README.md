@@ -1,6 +1,6 @@
 # 四禪｜試閱紀錄與正式入口
 
-分支 `feat/four-jhanas-review`（[PR #36](https://github.com/rooneyflower-star/sutrazen-map/pull/36)），基準main `c4e6670d30416b4203767287cf14cd754dea8dd7`。作者已於2026-11-18授權直接發布，經PR #36處理；實際發布結果見該PR最終核對。正式入口：[主題專頁](https://rooneyflower-star.github.io/sutrazen-map/four-jhanas/)／[互動繪本](https://rooneyflower-star.github.io/sutrazen-map/four-jhanas/book/)。以下保留原試閱與驗收方式。
+分支 `feat/four-jhanas-review`（[PR #36](https://github.com/Sutra-Zen/sutra-zen.github.io/pull/36)），基準main `c4e6670d30416b4203767287cf14cd754dea8dd7`。作者已於2026-11-18授權直接發布，經PR #36處理；實際發布結果見該PR最終核對。正式入口：[主題專頁](https://sutra-zen.github.io/four-jhanas/)／[互動繪本](https://sutra-zen.github.io/four-jhanas/book/)。以下保留原試閱與驗收方式。
 
 2026-11-18更新：五蓋「瞋恚」已上移避開臉，S10圖下重複HTML表與讀經轉錄已移除，PDF同步更新。以下舊截圖保留作歷史驗收；[最新橫直式截圖與340個受影響頁面狀態驗證](../reading-focus/README.md)另列。
 
@@ -26,7 +26,7 @@
 
 ## 開啟互動版
 
-下載[分支ZIP](https://github.com/rooneyflower-star/sutrazen-map/archive/refs/heads/feat/four-jhanas-review.zip)，解壓後在有首頁index.html的專案根目錄執行：
+下載[分支ZIP](https://github.com/Sutra-Zen/sutra-zen.github.io/archive/refs/heads/feat/four-jhanas-review.zip)，解壓後在有首頁index.html的專案根目錄執行：
 
 ```sh
 python3 -m http.server 8765 --bind 127.0.0.1

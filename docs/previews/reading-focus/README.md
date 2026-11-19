@@ -2,7 +2,7 @@
 
 基準main：`e578c2a85131c646ad4986e8c1367d7d60f8e652`；實作分支：`fix/jhanas-table-anapana-focus`。
 
-正式入口：[四禪繪本](https://rooneyflower-star.github.io/sutrazen-map/four-jhanas/book/)／[安那般那繪本](https://rooneyflower-star.github.io/sutrazen-map/anapana/book/)。發布是否完成，以本次PR最後的Pages／公開檔案核對為準。
+正式入口：[四禪繪本](https://sutra-zen.github.io/four-jhanas/book/)／[安那般那繪本](https://sutra-zen.github.io/anapana/book/)。發布是否完成，以本次PR最後的Pages／公開檔案核對為準。
 
 ## 本次畫面
 

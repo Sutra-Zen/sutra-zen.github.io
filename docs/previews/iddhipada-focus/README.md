@@ -23,4 +23,4 @@
 python3 scripts/check-iddhipada-focus.py
 ```
 
-本機：在根目錄執行 `python3 -m http.server 8765 --bind 127.0.0.1`，開啟 `/iddhipada/book/?scene=S06&page=50`。正式[閱讀入口](https://rooneyflower-star.github.io/sutrazen-map/iddhipada/book/)的發布驗證、合併SHA與完整ZIP記錄於本次PR。
+本機：在根目錄執行 `python3 -m http.server 8765 --bind 127.0.0.1`，開啟 `/iddhipada/book/?scene=S06&page=50`。正式[閱讀入口](https://sutra-zen.github.io/iddhipada/book/)的發布驗證、合併SHA與完整ZIP記錄於本次PR。
