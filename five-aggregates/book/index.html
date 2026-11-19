@@ -335,8 +335,9 @@ button, select { font: inherit; }
 </style><link rel="stylesheet" href="../../picture-panel-focus.css">
 <script src="../../picture-panel-focus.js"></script>
 <script src="panel-focus-data.js"></script>
-<link rel="stylesheet" href="../../reader-controls.css?v=20261115-restart">
+<link rel="stylesheet" href="../../reader-controls.css?v=20261120-map-navigation">
 <script src="../../reader-restart.js?v=20261115" defer></script>
+<script src="../../reader-layout.js?v=20261120-bands" defer></script>
 </head>
 <body>
 <header class="top">
@@ -361,7 +362,7 @@ button, select { font: inherit; }
       </div>
     </div>
   </article>
-  <button id="open-verse" class="landscape-only" type="button" aria-haspopup="dialog">展開經文</button>
+  <button id="open-verse" class="landscape-only" type="button" aria-haspopup="dialog">本頁經文</button>
   <nav class="controls" aria-label="繪本翻頁" hidden>
     <button id="previous" type="button" aria-label="上一頁" disabled>←<span class="portrait-label"> 上一頁</span></button>
     <div class="position">
@@ -372,7 +373,7 @@ button, select { font: inherit; }
     </div>
     <button id="next" type="button" aria-label="下一頁"><span class="portrait-label">下一頁 </span>→</button>
   </nav>
-  <div class="reading-links"><a href="../#sources">閱讀原經</a></div>
+  <div class="reading-links"><a href="../#sources">閱讀原經</a><a href="../../index.html">回修道地圖</a></div>
   <p class="hint" id="hint" hidden>在畫面上左右滑動，也可以使用方向鍵翻頁。</p>
   <noscript><p class="hint">啟用 JavaScript 即可翻頁，也可<a href="../#video">觀看原版影片</a>。</p></noscript>
 </main>

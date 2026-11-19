@@ -1,3 +1,15 @@
+# 十四本回修道地圖與閱讀格式統一（2026-11-20）
+
+作者明確要求統一加入回修道地圖並發布。從main a3dc88dc建立fix/unified-reader-map-navigation；前九本補直接返回../../index.html，十四本固定閱讀原經／回修道地圖同一組位置，前三本經文按鈕改本頁經文。共用reader-controls.css以實際scene寬度留出左下兩連結空間，避免五陰等書舊gutter值造成壓文；觸控manipulation及末頁重讀維持。
+
+另實測發現前四本仍把字幕與經文疊在橫式圖上，直式負邊距亦壓圖。這四本及八正道無疊字頁用新增reader-layout.js／共用CSS保留圖外上下欄、完整原比例及響應式量測；八正道原overlay-scene、心經直書、純文字／結語及每書圖中文字／疊字資料均保留。來源／故事／原圖、各書原有JS與CSS、內嵌腳本及styles逐檔不改，不重做內容或閱讀器。早期七本沒有後期圖片放大的差異已在audit記錄，本輪專注共同導航及呈現修正。
+
+五尺寸1115頁狀態、988圖文幾何、70來源／返回動線、70旋轉、58讀經視窗及末頁重讀／快按通過，無溢出、JS／HTTP錯誤。詳見docs/previews/reader-navigation/及scripts/check-reader-navigation.py。七覺支離線ZIP同步共用CSS，29檔CRC／全部雜湊與本機返回入口驗證通過。新書規則加入AGENTS，後續不可再漏返回地圖。
+
+正式網域允許設定已套用；本次發布後核對Pages／managed workflow同SHA、HTTPS原始檔及正式URL瀏覽器動線，證據與固定SHA完整ZIP記入PR。瀏覽器的代理憑證以具TLS驗證的urllib傳送原站回應處理，首頁CDN測試用下載副本；非實體Safari驗收。Notion工具未提供、尚未寫入，待補記docs/releases/reader-navigation-notion.md。
+
+---
+
 # GitHub改名銜接與根網域發布（2026-11-19）
 
 本專案已由原rooneyflower-star/sutrazen-map改名為 **Sutra-Zen/sutra-zen.github.io**，GitHub ID仍1441581789，main基準2ec341a6完整保留十四本與最新安那般那修正。正式網址 **https://sutra-zen.github.io/**，不加舊專案前綴。首次檢查工作目錄/workspace/sutrazen-map、main且工作樹乾淨，沒有丟棄或重設修改；固定掛載名稱保留，origin已更新為https://github.com/Sutra-Zen/sutra-zen.github.io.git。雲端儲存庫設定仍使用相同repository_id，不應因資料夾舊名另建或覆蓋專案。
