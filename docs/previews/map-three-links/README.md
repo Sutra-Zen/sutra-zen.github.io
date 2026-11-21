@@ -8,8 +8,8 @@
 2. 翻頁繪本：依自己的步調閱讀，直接連現有book/index.html。
 3. 繪本影片：連續觀看，免翻頁；保留原影片https://youtu.be/EzZOF8vQS2k及另開分頁，外連符號提示。
 
-圖示／箭頭／白底／淡邊框沿用原視覺語言，無額外長文。三入口CSS僅作用sz-topic-resources，不影響其他彈窗。index.html只替換五根五力該節點的HTML並載入樣式；全體其他dhammaData、14個影片iframe與書架／繪本不動。
+依作者後續意見，三張卡片分別採淡紫／淡藍／淡珊瑚漸層底色、同色細邊與左側色線、半透明白色圖示底框及輕微陰影，無額外長文。此輪只調整卡片樣式，原文案與連結不改。輔助文字在各漸層端點的最低對比度分別為4.72、4.57、4.54。三入口CSS僅作用sz-topic-resources，不影響其他彈窗。index.html只替換五根五力該節點的HTML並載入樣式；全體其他dhammaData、14個影片iframe與書架／繪本不動。
 
 五尺寸360×800、390×844、768×1024、1024×768、1280×900驗證三項文案／連結、導讀與閱讀器實際導航、影片原網址及開新分頁、關閉按鍵、無水平溢出、90vh彈窗限制；無JS／本機HTTP錯誤。影片只測連結動作，未測YouTube播放。桌機／平板／手機各存彈窗與全畫面；小螢幕沿用內容區捲動與固定標題／關閉。首頁CDN在測試使用既有下載副本，非外站CDN驗收；實體Safari未測。
 
-確認後再規劃其他節點套用；本輪不改正式網站、不合併main、不發布Pages。validation.json及PNG／WebP為實際瀏覽器截圖；檢查腳本暫存在/tmp/capture-map-three-links.py，未新增永久測試。
+確認後再規劃其他節點套用；本輪不改正式網站、不合併main、不發布Pages。validation.json及PNG／WebP為實際瀏覽器截圖；檢查腳本暫存在/tmp/capture-map-three-links-colored.py，未新增永久測試。
