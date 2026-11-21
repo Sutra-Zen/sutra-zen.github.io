@@ -39,10 +39,10 @@ def static_checks():
    assert fragment in original and hashlib.sha256(fragment.encode()).hexdigest()==icon['sourceFragmentSha256']
   cover_report.append({'number':row['number'],'id':row['id'],'originalIcon':icon['kind'],'coverHash':'passed','originalReader':'available'})
  asset_report=[]
- for path in sorted((R/'play/visual-v2/assets').glob('*.png')):
+ for path in [R/'play/visual-v2/assets'/name for name in ['archipelago-concept.png','city-concept.png','garden-growth-concept.png','kitten-boat-concept.png']]:
   with Image.open(path) as im:asset_report.append({'file':path.name,'dimensions':list(im.size),'mode':im.mode,'alphaExtrema':list(im.getchannel('A').getextrema()) if 'A' in im.getbands() else None,'sha256':hashlib.sha256(path.read_bytes()).hexdigest()})
  assert len(asset_report)==4
- return {'conceptImages':asset_report,'protectedFiles':len(protected),'baseline':BASE,'allV1PlayAndFirstThreeBookFiles':'byte-for-byte unchanged','thumbnailInventory':cover_report,'originalFirstBookIcon':'No locked icon existed; any wheel is explicitly a new UI marker'}
+ return {'assetScope':'Four earlier concepts retained as historical assets; active network/rowboat assets checked by check-play-network.py','conceptImages':asset_report,'protectedFiles':len(protected),'baseline':BASE,'allV1PlayAndFirstThreeBookFiles':'byte-for-byte unchanged','thumbnailInventory':cover_report,'originalFirstBookIcon':'No locked icon existed; any wheel is explicitly a new UI marker'}
 
 def main():
  O.mkdir(parents=True,exist_ok=True);report=static_checks();report.update({'sizes':[],'javascriptErrors':[],'httpErrors':[],'physicalSafari':'not tested','publication':'not published; local HTTP prototype only','assets':'Generated watercolor concepts, not author-approved final artwork'})
@@ -52,7 +52,7 @@ def main():
   context=browser.new_context(reduced_motion='reduce');page=context.new_page();page.on('pageerror',lambda e:report['javascriptErrors'].append(str(e)));page.on('response',lambda r:report['httpErrors'].append(r.url) if r.url.startswith(base) and r.status>=400 else None)
   context.add_init_script("""(()=>{const raw=Storage.prototype.setItem;raw.call(localStorage,'sutrazen.play.v1','visual-qa-preserve');raw.call(localStorage,'sutrazen.qa.unrelated','preserve');window.__qaStorageWrites=[];for(const name of ['setItem','removeItem','clear']){const original=Storage.prototype[name];Storage.prototype[name]=function(...args){if(this===localStorage)window.__qaStorageWrites.push({method:name,args});return original.apply(this,args)}}})();""")
   for w,h in SIZES:
-   page.set_viewport_size({'width':w,'height':h});page.goto(base+'play/visual-v2/',wait_until='domcontentloaded');page.evaluate('()=>document.fonts.ready')
+   page.set_viewport_size({'width':w,'height':h});page.goto(base+'play/visual-v2/',wait_until='domcontentloaded');page.evaluate('()=>document.fonts.ready');page.locator('[data-view="map"]').click()
    page.wait_for_selector('[data-island="14"]');page.locator('.scene-art').evaluate('e=>e.decode()');page.locator('.map-boat img').evaluate('e=>e.decode()');assert page.locator('.island-pin').count()==14
    config=page.evaluate("async()=>{const d=await import('./data.js');return {islands:d.ISLANDS,spots:d.CITY_SPOTS}}")
    assert [r['id'] for r in config['islands']]==[r['id'] for r in json.loads((R/'docs/play/visual-v2/thumbnail-inventory.json').read_text())['items']]
