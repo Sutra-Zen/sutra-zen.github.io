@@ -56,3 +56,8 @@ Actual repository files and verified live behavior govern implementation status.
 - Every book reader must load the root `reader-controls.css` using the appropriate relative path (currently `../../reader-controls.css`).
 - Keep previous/next buttons inside `.controls`; shared `touch-action: manipulation` prevents rapid taps from triggering double-tap zoom in portrait and landscape. Preserve pinch zoom and normal scrolling; do not use `user-scalable=no`, `maximum-scale=1`, or document-wide touch prevention.
 - Verify computed touch-action and rapid previous/next taps at phone/iPad portrait and landscape sizes. Real Safari gesture behavior must be reported separately from Chromium simulation.
+
+## SEO and Google verification (2026-11-21-r2)
+- Fifteen public guide/homepage heads use docs/seo/seo_pages.json via scripts/site_seo.py; run `python3 -B scripts/build-seo.py --check` after guide work. Guide builders must apply the shared metadata after generating head content. Keep reader metadata separate.
+- Preserve root `googlee0c995331ec518ae.html` byte-for-byte permanently; never delete, rename, template, move, or replace it during releases. Its SHA-256 is recorded in docs/seo/site-verification.json.
+- Keep sitemap at the root with canonical URLs, retain existing robots rules (search and model-training policies are independent), and use only verified data in sharing/structured metadata.

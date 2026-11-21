@@ -2,6 +2,7 @@
 """Compile the intact Anapana handoff to the existing paragraph-page reader."""
 import argparse,json,re,subprocess
 from pathlib import Path
+from site_seo import apply_page_seo
 from lxml import html
 ROOT=Path(__file__).resolve().parents[1];DOCS=ROOT/'docs/anapana'
 def commentary_quotes(sources):
@@ -30,7 +31,7 @@ def compile_guide(sources):
   paragraphs=card.xpath('.//blockquote/p');assert len(paragraphs)==len(source['excerpts'])
   for paragraph,text in zip(paragraphs,source['excerpts']):paragraph.text=text
   content=content[:match.start()]+html.tostring(card,encoding='unicode')+content[match.end():]
- return content
+ return apply_page_seo(content, "anapana/index.html")
 def compile_book():
  subprocess.run(['python3',str(DOCS/'scripts/validate.py')],check=True)
  story=json.loads((DOCS/'storyboard.json').read_text());quotes=json.loads((DOCS/'scripture-catalog.json').read_text());overlays=json.loads((DOCS/'overlays.json').read_text())

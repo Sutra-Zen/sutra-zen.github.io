@@ -2,6 +2,7 @@
 """Build book 12 without changing the original storyboard or illustrations."""
 import argparse,hashlib,json,re
 from pathlib import Path
+from site_seo import apply_page_seo
 from html import escape as esc
 from PIL import Image
 from lxml import html
@@ -54,7 +55,7 @@ def guide():
   classical=source['id']=='sa483';text+='<article class="source-entry" id="'+source['id']+'">'+''.join('<span class="source-anchor" id="'+q+'"></span>' for q in source['quoteIds'])+'<p class="eyebrow">四禪 · 經典出處</p><h3>'+source['title']+'</h3><p class="source-meta">'+source['meta']+'</p><div class="source-actions">'+button(source['primary'],'漢譯經文' if classical else '中譯經文','original',0)+button(source['comparison'],source['comparisonLabel'],'annotation',1)+'</div><div class="source-providers">'+''.join('<p>'+esc(p)+'</p>' for p in source['providers'])+'</div><div class="source-text">'
   for section in source['sections']:text+='<h4 class="source-text-heading" id="'+section['id']+'">'+section['title']+'</h4><blockquote><p>'+esc(section['text'])+'</p></blockquote>'
   text+='</div></article>'
- return SITE/'index.html',text+'</section></main></body></html>\n'
+ return SITE/'index.html',apply_page_seo(text+'</section></main></body></html>\n', 'four-jhanas/index.html')
 if __name__=='__main__':
  p=argparse.ArgumentParser();p.add_argument('--check',action='store_true');a=p.parse_args();validate();outputs=book();path,body=guide();outputs[path]=body
  for path,body in outputs.items():

@@ -3,6 +3,7 @@
 import argparse,hashlib,json,re
 from html import escape as e
 from pathlib import Path
+from site_seo import apply_page_seo
 from PIL import Image
 from lxml import html
 R=Path(__file__).resolve().parents[1];D=R/'docs/five-roots-powers';S=R/'five-roots-powers'
@@ -42,7 +43,7 @@ def guide():
    title={'sa647':['信根','精進根','念根','定根','慧根'],'sn48.43':['中央島與河流','一條水流','兩條水流','同樣五法'],'sa646':['五根與修行法門'],'sa675':['五力與修行法門'],'sa654':['棟樑譬喻']}[source['id']][n]
    text+='<h4 class="source-text-heading">'+title+'</h4><blockquote><p>'+e(excerpt)+'</p></blockquote>'
   text+='</div></article>'
- return S/'index.html',text+'</section></main></body></html>\n'
+ return S/'index.html',apply_page_seo(text+'</section></main></body></html>\n', 'five-roots-powers/index.html')
 if __name__=='__main__':
  p=argparse.ArgumentParser();p.add_argument('--check',action='store_true');a=p.parse_args();validate()
  for path,body in [book(),guide()]:

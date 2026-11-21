@@ -154,3 +154,9 @@ All fourteen readers now keep the same source/map pair, with a direct root map a
 ## Practice-map resource cards (2026-11-21)
 
 All 32 clickable map dialogs use the approved three-card presentation: guide / picture book / video, with lavender / blue / coral backgrounds. Thirty topic/subtopic nodes link to the existing fourteen guides/readers and original videos. The two broad overview nodes direct to the existing shelf/video sections with explicit selection wording. Keep concise explanations intact and use map-topic-resources.css for future nodes. Publication was explicitly authorized by the author; verification and release evidence belong in the latest HANDOFF entry and PR.
+
+## Website SEO and ownership file (2026-11-21-r2)
+
+The 15 home/guide pages use the approved r2 titles, descriptions and canonical URLs from docs/seo/seo_pages.json. scripts/build-seo.py manages metadata/sitemap/robots and verifies the permanent root Google file googlee0c995331ec518ae.html (original53bytes). Four existing guide generators apply scripts/site_seo.py at the end; other guides remain hand-maintained HTML. Details and per-page list: docs/seo/README.md. Reader content, metadata, artwork, controls, map32nodes, shelf14books and PR54 source correction remain. Pages still uses main:/.
+
+The user explicitly authorized publishing this batch and the real verification file together in their final supplement. For this SEO batch, Notion, vidIQ, Search Console account actions and search-performance tracking belong to the original ChatGPT conversation. Codex installs and verifies the public files; no Google account verification or indexing outcome is implied.

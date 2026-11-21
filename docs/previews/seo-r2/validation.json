@@ -1,0 +1,389 @@
+{
+  "handoff_revision": "2026-11-21-r2",
+  "baseline": "db3a882b4ec2d4dd7647cbbeef9f4622a214cb84",
+  "pages": [
+    {
+      "order": 0,
+      "topic": "首頁",
+      "source_path": "index.html",
+      "canonical_url": "https://sutra-zen.github.io/",
+      "seo_title": "佛法繪本與三十七道品修道地圖｜SutraZen",
+      "meta_description": "用繪本、影片與原經對讀認識佛法。SutraZen 整理四聖諦、五陰、十二因緣、四念處、五根五力、七覺支等 14 個主題，搭配三十七道品修道地圖，從生活例子理解各法門的關聯。",
+      "website_status": "待交接",
+      "primary_question": null,
+      "implementation_note": "保留現有 H1「三十七道品修道地圖」、14 本書架與 32 個心智圖節點的三入口卡片。首頁是獨立網站設定，不新增為影片資料庫的第 15 支影片。",
+      "notion_page_url": "https://app.notion.com/p/41fcf2ef57db8116ac3ae1b08b219840",
+      "titleDescriptionCanonical": "passed",
+      "body": "byte-identical",
+      "bodySha256": "4de2d3ddef9a548d146df79ef634e5056ff692777a2a4a80d539a5c1395fdf1f",
+      "ogImage": "https://sutra-zen.github.io/four-truths/book/images/footprints.webp",
+      "jsonLd": "valid WebSite/WebPage only",
+      "localHttp": 200
+    },
+    {
+      "order": 1,
+      "topic": "四聖諦",
+      "source_path": "four-truths/index.html",
+      "canonical_url": "https://sutra-zen.github.io/four-truths/",
+      "seo_title": "四聖諦是什麼？苦集滅道的繪本導讀｜SutraZen",
+      "meta_description": "四聖諦是苦、集、滅、道，說明苦的成因、止息與修行道路。透過生活例子、翻頁繪本及阿含經文對讀，認識知苦、斷集、證滅、修道。",
+      "website_status": "待交接",
+      "primary_question": "四聖諦的苦、集、滅、道各是什麼意思？",
+      "implementation_note": "現有 title 與 description 已存在；更新 head 文案即可，保留現有 H1 及四諦段落。摘要補入繪本與經文對讀資源，四諦實踐用語沿用「知苦、斷集、證滅、修道」。",
+      "notion_page_url": "https://app.notion.com/p/413cf2ef57db813f864cdb64129da1f1",
+      "titleDescriptionCanonical": "passed",
+      "body": "byte-identical",
+      "bodySha256": "b8de480a485e983d3bf9efc0aab68e822749e7744626b18e8fab93a6ef0fc162",
+      "ogImage": "https://sutra-zen.github.io/four-truths/book/images/footprints.webp",
+      "jsonLd": "valid WebSite/WebPage only",
+      "localHttp": 200
+    },
+    {
+      "order": 2,
+      "topic": "五陰",
+      "source_path": "five-aggregates/index.html",
+      "canonical_url": "https://sutra-zen.github.io/five-aggregates/",
+      "seo_title": "五陰與五受陰有何不同？色受想行識導讀｜SutraZen",
+      "meta_description": "五陰概括色受想行識，五受陰著眼於會被執取、與煩惱相連的身心現象。透過日常例子、翻頁繪本與《雜阿含經》對讀，釐清兩者差異。",
+      "website_status": "待交接",
+      "primary_question": "五陰與五受陰有什麼不同？",
+      "implementation_note": "現有 title 與 description 已存在；主題仍以五陰和五受陰的差異為中心，不把五受陰解釋成五種感受。「五受陰」的受與色受想行識中的受，應維持既有正文的區別；本稿適用導讀頁，不覆蓋 /book/ 閱讀器的獨立標題。",
+      "notion_page_url": "https://app.notion.com/p/413cf2ef57db8120928dcdbf0b80ea5b",
+      "titleDescriptionCanonical": "passed",
+      "body": "byte-identical",
+      "bodySha256": "0fd91f8bf4b237c06b76257d3e572f49722dfca881619e31fdb1f8caa5470d65",
+      "ogImage": "https://sutra-zen.github.io/five-aggregates/book/images/a10.webp",
+      "jsonLd": "valid WebSite/WebPage only",
+      "localHttp": 200
+    },
+    {
+      "order": 3,
+      "topic": "六處",
+      "source_path": "six-senses/index.html",
+      "canonical_url": "https://sutra-zen.github.io/six-senses/",
+      "seo_title": "六處是什麼？六根、六境、六識的關係｜SutraZen",
+      "meta_description": "六處指眼、耳、鼻、舌、身、意六內入處。以圖表、翻頁繪本與《雜阿含經》對讀，認識根、境、識三事和合成觸，以及觸與感受的關係。",
+      "website_status": "待交接",
+      "primary_question": "六處與六根、六境、六識有什麼關係？",
+      "implementation_note": "現行 head 缺少 meta description，需新增。六處依本頁指六內入處，勿把六外入處或六識合稱六處；同時保留正文對觸境與三事和合為觸的區別。",
+      "notion_page_url": "https://app.notion.com/p/413cf2ef57db8126aba7e06831886667",
+      "titleDescriptionCanonical": "passed",
+      "body": "byte-identical",
+      "bodySha256": "ea9cf814be039ad38e265e2d7728f11388c70b23bcbd52c96e754a6e6e687c2d",
+      "ogImage": "https://sutra-zen.github.io/six-senses/cover.webp",
+      "jsonLd": "valid WebSite/WebPage only",
+      "localHttp": 200
+    },
+    {
+      "order": 4,
+      "topic": "十二因緣",
+      "source_path": "twelve-links/index.html",
+      "canonical_url": "https://sutra-zen.github.io/twelve-links/",
+      "seo_title": "十二因緣是什麼？十二支與緣起的繪本導讀｜SutraZen",
+      "meta_description": "十二因緣從無明、行、識到生與老死，說明苦依條件生起與止息。透過翻頁繪本、十二支圖解及《雜阿含經》原文，對照受、愛、取的關聯。",
+      "website_status": "待交接",
+      "primary_question": "十二因緣的十二支如何說明苦的生起與止息？",
+      "implementation_note": "現行 head 缺少 meta description，需新增。生命之輪是傳統圖像，標題與摘要仍以頁內阿含導讀為主，不以圖像象徵代替經典定義；保持既有逆向追問與順向圖解兩種閱讀路線。",
+      "notion_page_url": "https://app.notion.com/p/413cf2ef57db81298fe6e902808292af",
+      "titleDescriptionCanonical": "passed",
+      "body": "byte-identical",
+      "bodySha256": "481db00515c157cbc0cf23b86e47a7876a87ed23277ea2389d1cda2e3e56e542",
+      "ogImage": "https://sutra-zen.github.io/twelve-links/cover.webp",
+      "jsonLd": "valid WebSite/WebPage only",
+      "localHttp": 200
+    },
+    {
+      "order": 5,
+      "topic": "八正道與十善業道",
+      "source_path": "eightfold-path/index.html",
+      "canonical_url": "https://sutra-zen.github.io/eightfold-path/",
+      "seo_title": "八正道與十善業道：修行方向與日常善行｜SutraZen",
+      "meta_description": "八正道是通往苦止息的修行道路，十善業道涵蓋身、口、意的善行。透過繪本、關聯表與阿含經文對讀，理解八支如何互相支持、善行如何落在日常。",
+      "website_status": "待交接",
+      "primary_question": "八正道與十善業道有什麼關係？",
+      "implementation_note": "現有 title 與 description 已存在；新文案對應頁內關聯表與經文對讀。八正道與十善是相關而非逐項等同，也不把八支寫成完成一項才做下一項的八個關卡。",
+      "notion_page_url": "https://app.notion.com/p/413cf2ef57db81ccb67ed0bc5bad567d",
+      "titleDescriptionCanonical": "passed",
+      "body": "byte-identical",
+      "bodySha256": "e2b71f28a06a4a4e89804037a8de9c7735e2432fba6def7adf8216cffa397fc7",
+      "ogImage": "https://sutra-zen.github.io/docs/eightfold-path/assets/02-right-view.webp",
+      "jsonLd": "valid WebSite/WebPage only",
+      "localHttp": 200
+    },
+    {
+      "order": 6,
+      "topic": "四向四果與十結",
+      "source_path": "four-fruits-ten-fetters/index.html",
+      "canonical_url": "https://sutra-zen.github.io/four-fruits-ten-fetters/",
+      "seo_title": "四向四果與十結：果位與煩惱止息的關係｜SutraZen",
+      "meta_description": "四向四果分為趣向各果與證得各果，十結說明繫縛身心的煩惱。透過翻頁繪本、四果對照表與阿含經文對讀，認識入流至阿羅漢的修證差異。",
+      "website_status": "待交接",
+      "primary_question": "四向四果和十結有什麼關係？",
+      "implementation_note": "現有 title 與 description 已存在；摘要對應既有四果表與十結段落。維持「向」與「果」的區別，不把故事中的日常安穩直接等同證果，亦不將圖中四種出身配給四個果位。",
+      "notion_page_url": "https://app.notion.com/p/413cf2ef57db81b5b59ccc5d03116181",
+      "titleDescriptionCanonical": "passed",
+      "body": "byte-identical",
+      "bodySha256": "392f9ea1ca3ea4a3dd028d2db87a77360c74c34f14dce141b5dda52553c431ab",
+      "ogImage": "https://sutra-zen.github.io/docs/four-fruits-ten-fetters/assets/s01.webp",
+      "jsonLd": "valid WebSite/WebPage only",
+      "localHttp": 200
+    },
+    {
+      "order": 7,
+      "topic": "四不壞淨與六念",
+      "source_path": "four-purities-six-recollections/index.html",
+      "canonical_url": "https://sutra-zen.github.io/four-purities-six-recollections/",
+      "seo_title": "四不壞淨與六念：清淨信心與日常憶念｜SutraZen",
+      "meta_description": "四不壞淨指佛、法、僧不壞淨與聖戒成就；六念是憶念佛、法、僧、戒、施、天。透過翻頁繪本與經文對讀，釐清四入流分、四不壞淨及六念的關聯。",
+      "website_status": "待交接",
+      "primary_question": "四不壞淨與六念各有哪些內容？",
+      "implementation_note": "現有 title 與 description 已存在；新摘要直接定義四不壞淨與六念，保持與四入流分分開理解。保留聖戒成就、念施與念天；不把病痛故事或「中間不死」寫成健康或永生承諾。",
+      "notion_page_url": "https://app.notion.com/p/413cf2ef57db8105aa54efb603151789",
+      "titleDescriptionCanonical": "passed",
+      "body": "byte-identical",
+      "bodySha256": "432498e35d0d20d332c0476a60d7c7e1848eef9509ec32e5c6b72d06f6d3d82f",
+      "ogImage": "https://sutra-zen.github.io/docs/four-purities-six-recollections/assets/IMG_0395.jpeg",
+      "jsonLd": "valid WebSite/WebPage only",
+      "localHttp": 200
+    },
+    {
+      "order": 8,
+      "topic": "四念處與四顛倒",
+      "source_path": "mindfulness/index.html",
+      "canonical_url": "https://sutra-zen.github.io/mindfulness/",
+      "seo_title": "四念處與四顛倒：身、受、心、法導讀｜SutraZen",
+      "meta_description": "四念處如何對應四顛倒？從身、受、心、法理解日常覺察與身心的生滅，閱讀完整繪本、白話導讀及《念處經》等經文對讀，認識淨、樂、常、我的四種顛倒。",
+      "website_status": "待交接",
+      "primary_question": "四念處與四顛倒有什麼關係？",
+      "implementation_note": "保留既有 H1 與身、受、心、法的正文架構。摘要不引用走神統計，避免把頁面中的相關性研究寫成正念改善情緒的效果保證；繪本幕數不寫入摘要，以免內容調整後失準。",
+      "notion_page_url": "https://app.notion.com/p/413cf2ef57db812dadabf9197adce572",
+      "titleDescriptionCanonical": "passed",
+      "body": "byte-identical",
+      "bodySha256": "7872a4ec7bc91858cffb6bb6d155936234c9669ae13ded9b23805478181e6ed7",
+      "ogImage": "https://sutra-zen.github.io/docs/mindfulness/assets/8ACD7BAD-64C1-476B-A4AD-7A63F5A2048E.png",
+      "jsonLd": "valid WebSite/WebPage only",
+      "localHttp": 200
+    },
+    {
+      "order": 9,
+      "topic": "四正勤",
+      "source_path": "right-effort/index.html",
+      "canonical_url": "https://sutra-zen.github.io/right-effort/",
+      "seo_title": "四正勤是什麼？斷惡修善的四個方向｜SutraZen",
+      "meta_description": "認識四正勤的斷惡、防惡、生善與增善，以心靈花園繪本理解持續用功。專頁提供完整口白、白話導讀與《雜阿含經》對讀，並說明精進過急或過緩的調整。",
+      "website_status": "待交接",
+      "primary_question": "四正勤的四個精進方向各是什麼？",
+      "implementation_note": "2026-11-21 已核對並修正來源卡經號為《相應部》49.23–34（節錄）｜依戒修習四正勤，PR #54 已合併；main db3a882b4ec2d4dd7647cbbeef9f4622a214cb84 的 Pages 成功，正式專頁 HTTP 200 並顯示新標題。來源 JSON 同步修正；保留現有中譯、單經巴利連結與經文。六格小花維持教學譬喻。本項經號修正已完成；網站 SEO 文案／canonical／sitemap 尚待本次交接實作。",
+      "notion_page_url": "https://app.notion.com/p/413cf2ef57db819caa25e681db89d8bd",
+      "titleDescriptionCanonical": "passed",
+      "body": "byte-identical",
+      "bodySha256": "8c30f99e822f29b963302dd45152f06dfd051f49090595618b4ee5042760cacd",
+      "ogImage": "https://sutra-zen.github.io/docs/right-effort/assets/6FEE22D5-C7AA-476E-810C-DDE063530A82.png",
+      "jsonLd": "valid WebSite/WebPage only",
+      "localHttp": 200
+    },
+    {
+      "order": 10,
+      "topic": "安那般那與止觀",
+      "source_path": "anapana/index.html",
+      "canonical_url": "https://sutra-zen.github.io/anapana/",
+      "seo_title": "安那般那與止觀：十六勝行繪本導讀｜SutraZen",
+      "meta_description": "從入出息念認識安那般那與止觀，依身、受、心、法四組閱讀十六勝行。專頁提供完整繪本、禪定準備與原經對讀，另列論師調身、調心補充，方便循序閱讀。",
+      "website_status": "待交接",
+      "primary_question": "安那般那的十六勝行如何分為身、受、心、法四組？",
+      "implementation_note": "保留阿含主體與論師補充的區分。不同譯本的十六勝行次序及「覺知心悅／令心喜」等譯句依現有對讀呈現，不為 SEO 統一改寫；本次不改既有導讀與翻頁繪本的內容。",
+      "notion_page_url": "https://app.notion.com/p/412cf2ef57db81e494f4d4010af94644",
+      "titleDescriptionCanonical": "passed",
+      "body": "byte-identical",
+      "bodySha256": "f780f77373463178b8a973c46e95d984dc745354170779f4424fdb00fe23d527",
+      "ogImage": "https://sutra-zen.github.io/anapana/assets/S01.webp",
+      "jsonLd": "valid WebSite/WebPage only",
+      "localHttp": 200
+    },
+    {
+      "order": 11,
+      "topic": "四如意足",
+      "source_path": "iddhipada/index.html",
+      "canonical_url": "https://sutra-zen.github.io/iddhipada/",
+      "seo_title": "四如意足是什麼？欲勤心觀與專注的條件｜SutraZen",
+      "meta_description": "四如意足如何結合欲、勤、心、觀與持續用功？透過繪本、白話導讀及《相應部》《雜阿含經》對讀，認識四種定、用心的調整與「依欲斷愛」的問答。",
+      "website_status": "待交接",
+      "primary_question": "四如意足的欲、勤、心、觀各是什麼？",
+      "implementation_note": "保留「觀／考察定」等譯語對照。鐵球、木棉及箭頭圖像沿用原頁語境，不把視覺譬喻改寫成氣脈說明或神通效果保證；搜尋問題由現有四種定的正文回答。",
+      "notion_page_url": "https://app.notion.com/p/412cf2ef57db81a9b7dfcf1803f24a8b",
+      "titleDescriptionCanonical": "passed",
+      "body": "byte-identical",
+      "bodySha256": "3192ac1ab3561b360c2b731162c727b61390efd9bf66b2cabe441597cc71efcb",
+      "ogImage": "https://sutra-zen.github.io/iddhipada/assets/S01.webp",
+      "jsonLd": "valid WebSite/WebPage only",
+      "localHttp": 200
+    },
+    {
+      "order": 12,
+      "topic": "四禪",
+      "source_path": "four-jhanas/index.html",
+      "canonical_url": "https://sutra-zen.github.io/four-jhanas/",
+      "seo_title": "四禪有何不同？初禪至第四禪比較與譬喻｜SutraZen",
+      "meta_description": "初禪到第四禪，在心的狀態與感受上有何不同？透過四禪比較表與完整繪本，認識持戒、護根、斷五蓋等準備，並對讀《沙門果經》及四個經典譬喻。",
+      "website_status": "待交接",
+      "primary_question": "初禪、第二禪、第三禪與第四禪有什麼不同？",
+      "implementation_note": "以經典比較與繪本導讀定位，避免「快速入禪」等效果保證。四個譬喻依 DN 2，保留《雜阿含經》第483經對讀；不把舊研究候選第559經加入現行出處。",
+      "notion_page_url": "https://app.notion.com/p/412cf2ef57db817cafc2c0bf7cc98c5b",
+      "titleDescriptionCanonical": "passed",
+      "body": "byte-identical",
+      "bodySha256": "2459100981ce012815c307644d0c7d29ec7c7888f59cebf66f010d230f65f99a",
+      "ogImage": "https://sutra-zen.github.io/four-jhanas/assets/S06.webp",
+      "jsonLd": "valid WebSite/WebPage only",
+      "localHttp": 200
+    },
+    {
+      "order": 13,
+      "topic": "五根五力",
+      "source_path": "five-roots-powers/index.html",
+      "canonical_url": "https://sutra-zen.github.io/five-roots-powers/",
+      "seo_title": "五根五力：信、精進、念、定、慧的作用｜SutraZen",
+      "meta_description": "五根與五力是信、精進、念、定、慧的兩種觀察面向。藉由中央島、河流與棟樑譬喻，閱讀完整繪本、白話導讀及經文對讀，理解五種能力與相關法門的連結。",
+      "website_status": "待交接",
+      "primary_question": "五根與五力有什麼關係？",
+      "implementation_note": "保留同樣五法、根基與力量兩個面向的現行解說，避免改成「五根升級為另一組五力」。法門對應依《雜阿含經》第646、675經，慧攝五根的棟樑譬喻依第654經。",
+      "notion_page_url": "https://app.notion.com/p/412cf2ef57db81f3afb3e962e4228211",
+      "titleDescriptionCanonical": "passed",
+      "body": "byte-identical",
+      "bodySha256": "b062bd4ff9e03655fd1ae12140de4e2ec559bb2038c842ef4db7a5dc41b9d43b",
+      "ogImage": "https://sutra-zen.github.io/five-roots-powers/assets/S01.webp",
+      "jsonLd": "valid WebSite/WebPage only",
+      "localHttp": 200
+    },
+    {
+      "order": 14,
+      "topic": "七覺支",
+      "source_path": "seven-factors/index.html",
+      "canonical_url": "https://sutra-zen.github.io/seven-factors/",
+      "seo_title": "七覺支是什麼？認識覺支與用功的調整｜SutraZen",
+      "meta_description": "認識念、擇法、精進、喜、輕安、定、捨七覺支，理解心沉滯或浮動時如何調整用功。專頁提供完整繪本、白話導讀與原經對讀，說明各覺支的作用及培養方向。",
+      "website_status": "待交接",
+      "primary_question": "七覺支如何隨心的沉滯或浮動調整修習？",
+      "implementation_note": "標題與摘要沿用現行導讀的「輕安」；原經「猗覺分」「身猗息／心猗息」保留引文語境，勿為關鍵字一致而全頁替換。摘要省略未在此次查核重新驗證的離線下載資訊。",
+      "notion_page_url": "https://app.notion.com/p/412cf2ef57db81b2bf1ef55b7ecfcf66",
+      "titleDescriptionCanonical": "passed",
+      "body": "byte-identical",
+      "bodySha256": "cc4167ddb4b0ecc2a25b5ab538c775888d19bbab26704466a802f2a6eacedf0e",
+      "ogImage": "https://sutra-zen.github.io/seven-factors/assets/04.webp",
+      "jsonLd": "valid WebSite/WebPage only",
+      "localHttp": 200
+    }
+  ],
+  "guideGenerators": [
+    {
+      "source_path": "anapana/index.html",
+      "output": "matches committed HTML including SEO",
+      "readerFunction": "unchanged"
+    },
+    {
+      "source_path": "four-jhanas/index.html",
+      "output": "matches committed HTML including SEO",
+      "readerFunction": "unchanged"
+    },
+    {
+      "source_path": "five-roots-powers/index.html",
+      "output": "matches committed HTML including SEO",
+      "readerFunction": "unchanged"
+    },
+    {
+      "source_path": "seven-factors/index.html",
+      "output": "matches committed HTML including SEO",
+      "readerFunction": "unchanged"
+    }
+  ],
+  "bodyBytesUnchanged": true,
+  "readerArtworkAndOtherCodeUnchanged": true,
+  "browser": {
+    "pages": [
+      {
+        "url": "/",
+        "headAndOriginalH1": "passed"
+      },
+      {
+        "url": "four-truths/",
+        "headAndOriginalH1": "passed"
+      },
+      {
+        "url": "five-aggregates/",
+        "headAndOriginalH1": "passed"
+      },
+      {
+        "url": "six-senses/",
+        "headAndOriginalH1": "passed"
+      },
+      {
+        "url": "twelve-links/",
+        "headAndOriginalH1": "passed"
+      },
+      {
+        "url": "eightfold-path/",
+        "headAndOriginalH1": "passed"
+      },
+      {
+        "url": "four-fruits-ten-fetters/",
+        "headAndOriginalH1": "passed"
+      },
+      {
+        "url": "four-purities-six-recollections/",
+        "headAndOriginalH1": "passed"
+      },
+      {
+        "url": "mindfulness/",
+        "headAndOriginalH1": "passed"
+      },
+      {
+        "url": "right-effort/",
+        "headAndOriginalH1": "passed"
+      },
+      {
+        "url": "anapana/",
+        "headAndOriginalH1": "passed"
+      },
+      {
+        "url": "iddhipada/",
+        "headAndOriginalH1": "passed"
+      },
+      {
+        "url": "four-jhanas/",
+        "headAndOriginalH1": "passed"
+      },
+      {
+        "url": "five-roots-powers/",
+        "headAndOriginalH1": "passed"
+      },
+      {
+        "url": "seven-factors/",
+        "headAndOriginalH1": "passed"
+      }
+    ],
+    "jsErrors": [],
+    "localHttpErrors": [],
+    "scope": "head and unchanged H1; no visible content/navigation changed",
+    "cdn": "existing cached script copies; external CDN/playback not tested",
+    "physicalSafari": "not tested"
+  },
+  "duplicateTagsAndExistingCrawlerPolicy": "passed",
+  "shelfBooks": 14,
+  "mapNodes": 32,
+  "sitemap": {
+    "xml": "valid",
+    "exactCanonicalUrls": 15,
+    "lastmod": "omitted"
+  },
+  "robots": "Existing absence of restrictions preserved; search/training bot policy not changed",
+  "googleVerification": {
+    "filename": "googlee0c995331ec518ae.html",
+    "bytes": 53,
+    "sha256": "05359eab14af74d4d9e757d4c4c179ee57c1c455986e09c0bebbdee637f86225",
+    "policy": "User-supplied original. Keep this root file byte-for-byte; never delete or regenerate it.",
+    "originalBytes": "passed"
+  },
+  "sharingImages": {
+    "uniqueFiles": 14,
+    "localHttpAndImageDecode": "passed; existing files only"
+  }
+}
