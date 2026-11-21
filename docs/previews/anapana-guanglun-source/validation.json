@@ -1,0 +1,40 @@
+{
+  "sizes": [
+    {
+      "size": [
+        390,
+        844
+      ],
+      "pages": 14,
+      "labelWrapping": "passed",
+      "nextPrevious": "passed",
+      "scriptureDialog": "passed"
+    },
+    {
+      "size": [
+        768,
+        1024
+      ],
+      "pages": 14,
+      "labelWrapping": "passed",
+      "nextPrevious": "passed",
+      "scriptureDialog": "passed"
+    },
+    {
+      "size": [
+        1024,
+        768
+      ],
+      "pages": 14,
+      "labelWrapping": "passed",
+      "nextPrevious": "passed",
+      "scriptureDialog": "passed"
+    }
+  ],
+  "affectedPages": 14,
+  "states": 42,
+  "errors": [],
+  "httpErrors": [],
+  "unchangedDataExceptSourceLabel": true,
+  "physicalSafari": "not tested"
+}

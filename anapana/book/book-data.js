@@ -2765,7 +2765,7 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q32",
-          "source": "蓮花戒大師《修次中編／下編》（《廣論》引述）",
+          "source": "蓮花戒大師《修次中編／下編》（《菩提道次第廣論》卷十四引述）",
           "text": "如《修次中編》、《下編》所說，於安樂具身具八法。足者，謂全跏趺，如毘盧遮那佛坐，或半跏趺。",
           "sourceType": "commentarial",
           "verification": "CBETA_Guanglun_quotation",
@@ -2792,7 +2792,7 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q32",
-          "source": "蓮花戒大師《修次中編／下編》（《廣論》引述）",
+          "source": "蓮花戒大師《修次中編／下編》（《菩提道次第廣論》卷十四引述）",
           "text": "如《修次中編》、《下編》所說，於安樂具身具八法。足者，謂全跏趺，如毘盧遮那佛坐，或半跏趺。",
           "sourceType": "commentarial",
           "verification": "CBETA_Guanglun_quotation",
@@ -2819,7 +2819,7 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q32",
-          "source": "蓮花戒大師《修次中編／下編》（《廣論》引述）",
+          "source": "蓮花戒大師《修次中編／下編》（《菩提道次第廣論》卷十四引述）",
           "text": "如《修次中編》、《下編》所說，於安樂具身具八法。足者，謂全跏趺，如毘盧遮那佛坐，或半跏趺。",
           "sourceType": "commentarial",
           "verification": "CBETA_Guanglun_quotation",
@@ -2846,7 +2846,7 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q32",
-          "source": "蓮花戒大師《修次中編／下編》（《廣論》引述）",
+          "source": "蓮花戒大師《修次中編／下編》（《菩提道次第廣論》卷十四引述）",
           "text": "如《修次中編》、《下編》所說，於安樂具身具八法。足者，謂全跏趺，如毘盧遮那佛坐，或半跏趺。",
           "sourceType": "commentarial",
           "verification": "CBETA_Guanglun_quotation",
@@ -2873,7 +2873,7 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q33",
-          "source": "蓮花戒大師《修次中編／下編》（《廣論》引述）",
+          "source": "蓮花戒大師《修次中編／下編》（《菩提道次第廣論》卷十四引述）",
           "text": "身者，謂非過後仰，莫太前屈，端身內念。",
           "sourceType": "commentarial",
           "verification": "CBETA_Guanglun_quotation",
@@ -2900,7 +2900,7 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q34",
-          "source": "蓮花戒大師《修次中編／下編》（《廣論》引述）",
+          "source": "蓮花戒大師《修次中編／下編》（《菩提道次第廣論》卷十四引述）",
           "text": "肩者，謂平齊而住。",
           "sourceType": "commentarial",
           "verification": "CBETA_Guanglun_quotation",
@@ -2927,7 +2927,7 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q35",
-          "source": "蓮花戒大師《修次中編／下編》（《廣論》引述）",
+          "source": "蓮花戒大師《修次中編／下編》（《菩提道次第廣論》卷十四引述）",
           "text": "頭者，莫揚，莫低，莫歪一方，自鼻至臍正直而住。",
           "sourceType": "commentarial",
           "verification": "CBETA_Guanglun_quotation",
@@ -2954,7 +2954,7 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q36",
-          "source": "蓮花戒大師《修次中編／下編》（《廣論》引述）",
+          "source": "蓮花戒大師《修次中編／下編》（《菩提道次第廣論》卷十四引述）",
           "text": "眼者，謂不應太開，亦非太閉，垂注鼻端。",
           "sourceType": "commentarial",
           "verification": "CBETA_Guanglun_quotation",
@@ -2981,7 +2981,7 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q36",
-          "source": "蓮花戒大師《修次中編／下編》（《廣論》引述）",
+          "source": "蓮花戒大師《修次中編／下編》（《菩提道次第廣論》卷十四引述）",
           "text": "眼者，謂不應太開，亦非太閉，垂注鼻端。",
           "sourceType": "commentarial",
           "verification": "CBETA_Guanglun_quotation",
@@ -3008,7 +3008,7 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q36",
-          "source": "蓮花戒大師《修次中編／下編》（《廣論》引述）",
+          "source": "蓮花戒大師《修次中編／下編》（《菩提道次第廣論》卷十四引述）",
           "text": "眼者，謂不應太開，亦非太閉，垂注鼻端。",
           "sourceType": "commentarial",
           "verification": "CBETA_Guanglun_quotation",
@@ -3035,7 +3035,7 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q37",
-          "source": "蓮花戒大師《修次中編／下編》（《廣論》引述）",
+          "source": "蓮花戒大師《修次中編／下編》（《菩提道次第廣論》卷十四引述）",
           "text": "齒與唇者，隨自然住。舌者，令抵上齒。",
           "sourceType": "commentarial",
           "verification": "CBETA_Guanglun_quotation",
@@ -3062,7 +3062,7 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q38",
-          "source": "蓮花戒大師《修次中編／下編》（《廣論》引述）",
+          "source": "蓮花戒大師《修次中編／下編》（《菩提道次第廣論》卷十四引述）",
           "text": "息者，內外出入莫令有聲、粗猛急滑，必使出入無所知覺，全無功用徐徐而轉。",
           "sourceType": "commentarial",
           "verification": "CBETA_Guanglun_quotation",
@@ -3089,7 +3089,7 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q38",
-          "source": "蓮花戒大師《修次中編／下編》（《廣論》引述）",
+          "source": "蓮花戒大師《修次中編／下編》（《菩提道次第廣論》卷十四引述）",
           "text": "息者，內外出入莫令有聲、粗猛急滑，必使出入無所知覺，全無功用徐徐而轉。",
           "sourceType": "commentarial",
           "verification": "CBETA_Guanglun_quotation",
@@ -3116,7 +3116,7 @@ const BOOK = {
       "quotes": [
         {
           "id": "Q38",
-          "source": "蓮花戒大師《修次中編／下編》（《廣論》引述）",
+          "source": "蓮花戒大師《修次中編／下編》（《菩提道次第廣論》卷十四引述）",
           "text": "息者，內外出入莫令有聲、粗猛急滑，必使出入無所知覺，全無功用徐徐而轉。",
           "sourceType": "commentarial",
           "verification": "CBETA_Guanglun_quotation",
