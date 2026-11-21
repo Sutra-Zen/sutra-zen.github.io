@@ -1,3 +1,15 @@
+# 四正勤專頁SN49經號標題修正（2026-11-21）
+
+依作者提供的SuttaCentral固定commit482faafde8b9c52689d7926004706939f573cf2b中譯HTML，核對「相應部49相應 23－34經」及「力量所作等經十二則」；官方檔HTTPS200，且與既存canonical/sn49.23-34.html逐位元相同。將right-effort/index.html的來源標題改為「《相應部》49.23–34（節錄）｜依戒修習四正勤」，同步docs/right-effort/verified-sources.json的同名title。現有建置腳本沒有此標題常值，build-right-effort.py只建置繪本資料，不改其程式或繪本。原始交接／影片錄文中的SN49.23–24保留，未當作本次專頁標題誤植改寫。
+
+兩份實作檔逐位元比對，均只替換一次標題；經文節錄、莊春江譯者資訊、中譯sn49.23-34/zh/zhuang及巴利sn49.23/pli/ms按鈕、六格小花、所有繪本／圖片／CSS不變。既有建置--check通過。360×800、768×1024、1024×768檢查標題換行與無水平溢出，兩按鈕實際另開分頁並發出原網址請求；無頁內JS／HTTP錯誤。
+
+**尚未完成外站載入驗收：** 本環境連suttacentral.net兩網址均被代理網路政策403封鎖，Chromium報ERR_TUNNEL_CONNECTION_FAILED；不得宣稱SuttaCentral實際內容已正常載入。已向作者提出允許suttacentral.net並套用後重試的需求。報告／截圖見docs/previews/right-effort-source-title/。沿用main:/ Pages；本次合併SHA、正式本站標題與固定版本完整ZIP結果記入PR。實體Safari未測。
+
+此工作環境未提供Notion工具，尚未寫入；待補記docs/releases/right-effort-source-title-notion.md。
+
+---
+
 # 安那般那繪本出處補完整書名及卷次（2026-11-21）
 
 依作者要求，將繪本S10之Q32–Q38的「蓮花戒大師《修次中編／下編》（《廣論》引述）」改為「蓮花戒大師《修次中編／下編》（《菩提道次第廣論》卷十四引述）」。修改verified-sources.json的readerSourceLabel並由既有建置器同步14頁；更新book-data.js快取版本。導讀原已使用完整名稱，維持不變；119頁、118段口白、41筆原引文、時間、分鏡、圖片及閱讀操作全部保留。
