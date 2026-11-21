@@ -1,0 +1,63 @@
+{
+  "mode": "local",
+  "sizes": [
+    {
+      "size": [
+        360,
+        800
+      ],
+      "dialogs": 32,
+      "uniqueGuideBookRoundTrips": 14,
+      "overviewActions": 6,
+      "videoNewTab": "passed"
+    },
+    {
+      "size": [
+        390,
+        844
+      ],
+      "dialogs": 32,
+      "uniqueGuideBookRoundTrips": 14,
+      "overviewActions": 6,
+      "videoNewTab": "passed"
+    },
+    {
+      "size": [
+        768,
+        1024
+      ],
+      "dialogs": 32,
+      "uniqueGuideBookRoundTrips": 14,
+      "overviewActions": 6,
+      "videoNewTab": "passed"
+    },
+    {
+      "size": [
+        1024,
+        768
+      ],
+      "dialogs": 32,
+      "uniqueGuideBookRoundTrips": 14,
+      "overviewActions": 6,
+      "videoNewTab": "passed"
+    },
+    {
+      "size": [
+        1280,
+        900
+      ],
+      "dialogs": 32,
+      "uniqueGuideBookRoundTrips": 14,
+      "overviewActions": 6,
+      "videoNewTab": "passed"
+    }
+  ],
+  "dialogStates": 160,
+  "readerRoundTrips": 70,
+  "errors": [],
+  "httpErrors": [],
+  "transport": "local HTTP",
+  "cdn": "cached Tailwind/Lucide copies; external CDN not tested",
+  "physicalSafari": "not tested",
+  "youtubePlayback": "not tested; existing URL and new-tab behavior checked"
+}

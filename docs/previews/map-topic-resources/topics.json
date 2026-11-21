@@ -1,0 +1,290 @@
+[
+  {
+    "key": "道路總說",
+    "path": null,
+    "targets": [
+      "#books",
+      "#books",
+      "#videos"
+    ]
+  },
+  {
+    "key": "五根五力總說",
+    "path": "five-roots-powers",
+    "targets": [
+      "./five-roots-powers/index.html",
+      "./five-roots-powers/book/index.html",
+      "https://youtu.be/EzZOF8vQS2k"
+    ]
+  },
+  {
+    "key": "七覺支總說",
+    "path": "seven-factors",
+    "targets": [
+      "./seven-factors/index.html",
+      "./seven-factors/book/index.html",
+      "https://youtu.be/8tlCxoV5x5I"
+    ]
+  },
+  {
+    "key": "八正道總說",
+    "path": "eightfold-path",
+    "targets": [
+      "./eightfold-path/index.html",
+      "./eightfold-path/book/index.html",
+      "https://youtu.be/wabgCGL-Cfk"
+    ]
+  },
+  {
+    "key": "相關內容總說",
+    "path": null,
+    "targets": [
+      "#books",
+      "#books",
+      "#videos"
+    ]
+  },
+  {
+    "key": "信根信力",
+    "path": "five-roots-powers",
+    "targets": [
+      "./five-roots-powers/index.html",
+      "./five-roots-powers/book/index.html",
+      "https://youtu.be/EzZOF8vQS2k"
+    ]
+  },
+  {
+    "key": "念根念力",
+    "path": "five-roots-powers",
+    "targets": [
+      "./five-roots-powers/index.html",
+      "./five-roots-powers/book/index.html",
+      "https://youtu.be/EzZOF8vQS2k"
+    ]
+  },
+  {
+    "key": "勤根勤力",
+    "path": "five-roots-powers",
+    "targets": [
+      "./five-roots-powers/index.html",
+      "./five-roots-powers/book/index.html",
+      "https://youtu.be/EzZOF8vQS2k"
+    ]
+  },
+  {
+    "key": "定根定力",
+    "path": "five-roots-powers",
+    "targets": [
+      "./five-roots-powers/index.html",
+      "./five-roots-powers/book/index.html",
+      "https://youtu.be/EzZOF8vQS2k"
+    ]
+  },
+  {
+    "key": "慧根慧力",
+    "path": "five-roots-powers",
+    "targets": [
+      "./five-roots-powers/index.html",
+      "./five-roots-powers/book/index.html",
+      "https://youtu.be/EzZOF8vQS2k"
+    ]
+  },
+  {
+    "key": "念覺支",
+    "path": "seven-factors",
+    "targets": [
+      "./seven-factors/index.html",
+      "./seven-factors/book/index.html",
+      "https://youtu.be/8tlCxoV5x5I"
+    ]
+  },
+  {
+    "key": "擇法覺支",
+    "path": "seven-factors",
+    "targets": [
+      "./seven-factors/index.html",
+      "./seven-factors/book/index.html",
+      "https://youtu.be/8tlCxoV5x5I"
+    ]
+  },
+  {
+    "key": "精進覺支",
+    "path": "seven-factors",
+    "targets": [
+      "./seven-factors/index.html",
+      "./seven-factors/book/index.html",
+      "https://youtu.be/8tlCxoV5x5I"
+    ]
+  },
+  {
+    "key": "定覺支組",
+    "path": "seven-factors",
+    "targets": [
+      "./seven-factors/index.html",
+      "./seven-factors/book/index.html",
+      "https://youtu.be/8tlCxoV5x5I"
+    ]
+  },
+  {
+    "key": "正念",
+    "path": "eightfold-path",
+    "targets": [
+      "./eightfold-path/index.html",
+      "./eightfold-path/book/index.html",
+      "https://youtu.be/wabgCGL-Cfk"
+    ]
+  },
+  {
+    "key": "正見正志",
+    "path": "eightfold-path",
+    "targets": [
+      "./eightfold-path/index.html",
+      "./eightfold-path/book/index.html",
+      "https://youtu.be/wabgCGL-Cfk"
+    ]
+  },
+  {
+    "key": "正定",
+    "path": "eightfold-path",
+    "targets": [
+      "./eightfold-path/index.html",
+      "./eightfold-path/book/index.html",
+      "https://youtu.be/wabgCGL-Cfk"
+    ]
+  },
+  {
+    "key": "八正道中組",
+    "path": "eightfold-path",
+    "targets": [
+      "./eightfold-path/index.html",
+      "./eightfold-path/book/index.html",
+      "https://youtu.be/wabgCGL-Cfk"
+    ]
+  },
+  {
+    "key": "四不壞淨",
+    "path": "four-purities-six-recollections",
+    "targets": [
+      "./four-purities-six-recollections/index.html",
+      "./four-purities-six-recollections/book/index.html",
+      "https://youtu.be/jCXyluhcEb0"
+    ]
+  },
+  {
+    "key": "六念",
+    "path": "four-purities-six-recollections",
+    "targets": [
+      "./four-purities-six-recollections/index.html",
+      "./four-purities-six-recollections/book/index.html",
+      "https://youtu.be/jCXyluhcEb0"
+    ]
+  },
+  {
+    "key": "四念處",
+    "path": "mindfulness",
+    "targets": [
+      "./mindfulness/index.html",
+      "./mindfulness/book/index.html",
+      "https://youtu.be/EQjXvgt5OOA"
+    ]
+  },
+  {
+    "key": "四顛倒",
+    "path": "mindfulness",
+    "targets": [
+      "./mindfulness/index.html",
+      "./mindfulness/book/index.html",
+      "https://youtu.be/EQjXvgt5OOA"
+    ]
+  },
+  {
+    "key": "四正勤",
+    "path": "right-effort",
+    "targets": [
+      "./right-effort/index.html",
+      "./right-effort/book/index.html",
+      "https://youtu.be/RqWhPhhP8eY"
+    ]
+  },
+  {
+    "key": "十善業道",
+    "path": "eightfold-path",
+    "targets": [
+      "./eightfold-path/index.html",
+      "./eightfold-path/book/index.html",
+      "https://youtu.be/wabgCGL-Cfk"
+    ]
+  },
+  {
+    "key": "四禪",
+    "path": "four-jhanas",
+    "targets": [
+      "./four-jhanas/index.html",
+      "./four-jhanas/book/index.html",
+      "https://youtu.be/cNXY6hsxn6o"
+    ]
+  },
+  {
+    "key": "四如意足",
+    "path": "iddhipada",
+    "targets": [
+      "./iddhipada/index.html",
+      "./iddhipada/book/index.html",
+      "https://youtu.be/elA53JAE_S4"
+    ]
+  },
+  {
+    "key": "安那般那與止觀",
+    "path": "anapana",
+    "targets": [
+      "./anapana/index.html",
+      "./anapana/book/index.html",
+      "https://youtu.be/QzAUik0ePm8"
+    ]
+  },
+  {
+    "key": "四聖諦總說",
+    "path": "four-truths",
+    "targets": [
+      "./four-truths/index.html",
+      "./four-truths/book/index.html",
+      "https://youtu.be/YuZCfbmhla0"
+    ]
+  },
+  {
+    "key": "五陰",
+    "path": "five-aggregates",
+    "targets": [
+      "./five-aggregates/index.html",
+      "./five-aggregates/book/index.html",
+      "https://youtu.be/uT8d9eGmvhw?si=e_KsHVKivWTNmdPj"
+    ]
+  },
+  {
+    "key": "六處",
+    "path": "six-senses",
+    "targets": [
+      "./six-senses/index.html",
+      "./six-senses/book/index.html",
+      "https://youtu.be/G5MGvKRzRcw?si=E4adSLszSN-R_Oo3"
+    ]
+  },
+  {
+    "key": "十二因緣",
+    "path": "twelve-links",
+    "targets": [
+      "./twelve-links/index.html",
+      "./twelve-links/book/index.html",
+      "https://youtu.be/yaWXpSQqOx4?si=GnTNa5y2WOZNZmBD"
+    ]
+  },
+  {
+    "key": "四向四果",
+    "path": "four-fruits-ten-fetters",
+    "targets": [
+      "./four-fruits-ten-fetters/index.html",
+      "./four-fruits-ten-fetters/book/index.html",
+      "https://youtu.be/n0bco_NPmRI?si=auAIWQDjPuMrnDJ8"
+    ]
+  }
+]

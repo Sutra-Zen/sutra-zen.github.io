@@ -150,3 +150,7 @@ The original36cues were intact, but main navigation advanced image pages and ski
 ## All-reader map navigation and reading bands (2026-11-20)
 
 All fourteen readers now keep the same source/map pair, with a direct root map action in both orientations, and use「本頁經文」for their scripture dialog. Shared reader-controls.css reserves the correct actual scene gutter. The original four readers and Eightfold Path plain scenes load reader-layout.js to preserve complete-image caption/art/scripture bands; text/Heart Sutra/afterword pages and original scene data remain. See the newest HANDOFF and docs/previews/reader-navigation for local and publication verification; the author explicitly authorized publication of this correction.
+
+## Practice-map resource cards (2026-11-21)
+
+All 32 clickable map dialogs use the approved three-card presentation: guide / picture book / video, with lavender / blue / coral backgrounds. Thirty topic/subtopic nodes link to the existing fourteen guides/readers and original videos. The two broad overview nodes direct to the existing shelf/video sections with explicit selection wording. Keep concise explanations intact and use map-topic-resources.css for future nodes. Publication was explicitly authorized by the author; verification and release evidence belong in the latest HANDOFF entry and PR.
