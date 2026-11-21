@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "positions": {
+    "seven-factors": 0,
+    "four-truths": 0,
+    "five-aggregates": 0,
+    "six-senses": 0,
+    "twelve-links": 0,
+    "eightfold-path": 0,
+    "four-fruits-ten-fetters": 0,
+    "four-purities-six-recollections": 0,
+    "mindfulness": 0,
+    "right-effort": 0,
+    "anapana": 0,
+    "iddhipada": 0,
+    "four-jhanas": 0,
+    "five-roots-powers": 0
+  },
+  "completed": [
+    "seven-factors",
+    "four-truths",
+    "five-aggregates",
+    "six-senses",
+    "twelve-links",
+    "eightfold-path",
+    "four-fruits-ten-fetters",
+    "four-purities-six-recollections",
+    "mindfulness",
+    "right-effort",
+    "anapana",
+    "iddhipada",
+    "four-jhanas",
+    "five-roots-powers"
+  ],
+  "activeBook": "seven-factors"
+}

@@ -10,6 +10,9 @@ for p in (R/'seven-factors').rglob('*'):
 for name in ['reader-controls.css','reader-restart.js','picture-panel-focus.js','picture-panel-focus.css','guide-header.css','guide-ui.css']:files[name]=(R/name).read_bytes()
 for name in ['seven-factors/index.html','seven-factors/book/index.html']:
  tree=html.fromstring(files[name])
+ # The optional same-site collection app is not part of this standalone ZIP.
+ for node in tree.xpath('//script[starts-with(@src,"../../play/collection/")]'):
+  node.getparent().remove(node)
  for node in tree.xpath('//a[@download]'):
   parent=node.getparent();parent.remove(node)
  for node in tree.xpath('//iframe'):

@@ -1,0 +1,69 @@
+{
+  "version": 2,
+  "date": "2026-11-21",
+  "generatedUsing": "image_gen; original generation outputs retained in /workspace/generated_images",
+  "assets": [
+    {
+      "path": "play/visual-v2/assets/archipelago-concept.png",
+      "role": "flattened world background concept",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "bytes": 4359575,
+      "sha256": "1bba51877b345e62e6742ad34ec610b1249bc580f16902dc26e030854f4aaa08",
+      "status": "generated concept, awaiting author confirmation",
+      "reference": "seven-factors/assets/11.webp; town/world style also cross-referenced"
+    },
+    {
+      "path": "play/visual-v2/assets/city-concept.png",
+      "role": "flattened six-gate town background concept",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "bytes": 4540963,
+      "sha256": "3b7825c808445f451b377f3f6f3dbdcdac89923c40e98d3d239f60ec50aba3b1",
+      "status": "generated concept, awaiting author confirmation",
+      "reference": "seven-factors/assets/11.webp; town/world style also cross-referenced"
+    },
+    {
+      "path": "play/visual-v2/assets/kitten-boat-concept.png",
+      "role": "transparent kitten and boat concept, not separately rigged",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "bytes": 2462268,
+      "sha256": "b3831259de9a4aabd4fbdd78b566c5bc1b28262fa0c13202f059838b3c0724c5",
+      "status": "generated concept, awaiting author confirmation",
+      "reference": "seven-factors/assets/11.webp; town/world style also cross-referenced"
+    },
+    {
+      "path": "play/visual-v2/assets/garden-growth-concept.png",
+      "role": "transparent growth decoration concept",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "bytes": 1832531,
+      "sha256": "6f7036993b3551abdcfd7974c7c4899f32c96a33a9525d46f2853a188d92af8f",
+      "status": "generated concept, awaiting author confirmation",
+      "reference": "seven-factors/assets/11.webp; town/world style also cross-referenced"
+    }
+  ]
+}
