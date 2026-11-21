@@ -1,4 +1,4 @@
-/* Review-only prototype: currently used by the Five Roots/Powers map dialog. */
+/* Shared resource cards for every practice-map topic dialog. */
 .sz-topic-resources { display:grid; gap:10px; margin-top:22px; }
 .sz-topic-resource {
   --card-bg:linear-gradient(110deg,#f7f3ff,#eee8fc);

@@ -32,6 +32,7 @@ Maintain the SutraZen Buddhist learning website and its interactive picture book
 - End each book with the established editorial note explaining its actual Āgama/scripture basis and that interpretation follows the original scriptures, followed by the shared restart action. Keep「走入經藏的起點」without「溫柔」.
 - Do not let annotations obscure important artwork or scripture text.
 - Avoid adding unnecessary signposts, labels, or UI elements.
+- Practice-map dialogs use the shared `map-topic-resources.css` cards in this order:「專頁說明」「翻頁繪本」「繪本影片」(lavender / blue / coral). Preserve concise descriptions, link subtopics to their existing parent resources, and label overview links explicitly when they lead to the shelf/video sections.
 
 ## Engineering and release safeguards
 - Inspect index.html, shelf.css, and the relevant book directory before changing shared navigation.
