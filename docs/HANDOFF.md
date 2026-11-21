@@ -1,3 +1,17 @@
+# SEO與Google驗證檔：2026-11-21-r2（2026-11-21）
+
+從最新main db3a882b4ec2d4dd7647cbbeef9f4622a214cb84開分支feat/seo-2026-11-21-r2，origin新專案正確、原工作樹乾淨。先讀附件README／seo_pages.json，再讀專案規則。作者最後補充明確授權SEO與Google驗證原檔一起提交發布，取代包內只試閱指示。沿用Pages main:/及管理流程，發布後精確mergeSHA／正式站證據記於本次PR。
+
+15頁只改head：title、description、canonical採原交接JSON逐頁文案，補OG／Twitter及只含真實WebSite／WebPage的JSON-LD，分享圖只引用既存檔。四個實際產生guide head的程式（安那般那／四禪／五根五力／七覺支）最後使用共用site_seo.py；其餘11頁是手維護HTML、既有book建置器不覆寫guide。建置用build-seo.py，檢查用check-seo.py。完整來源追查、逐頁清單及維護指令：docs/seo/README.md。
+
+新增根目錄sitemap.xml（精確15個canonical、無lastmod）與robots.txt（原無規則，維持公開存取，不另改模型訓練政策）；未變更reader的noindex／canonical／標題。根目錄googlee0c995331ec518ae.html原件53bytes，SHA256 05359eab14af74d4d9e757d4c4c179ee57c1c455986e09c0bebbdee637f86225，直接複製附件、不改任何字元或換行。後續不可刪除；建置--check會檢查存在與原雜湊，規則已寫入AGENTS。
+
+所有15頁正文（含經文／書架／32節點三入口／影片與深連結）逐位元不變；reader／原圖／分鏡／CSS及PR54四正勤來源JSON保留。15頁metadata唯一且符合JSON、body與非SEO head保留、sitemap XML／URL集合、robots政策保留與冪等性、原Google檔、本機18網址及14張分享圖HTTP／解碼、4guide重建輸出與4個既有--check均通過；15頁Chromium DOM head／原H1及JS／本機HTTP無錯。報告docs/previews/seo-r2/validation.json。純head變更，未重跑所有繪本每頁；實體Safari未測，首頁CDN測試用既存副本，影片播放未測。
+
+本輪依作者分工，不操作Notion、vidIQ、Google帳戶或Search Console介面的驗證／提交sitemap／成效追蹤。VideoObject缺少完整可信上傳日期等資料，保留為後續選項；不編造日期、FAQ或收錄保證。網站檔案發布成功與Google帳戶已完成驗證／搜尋已收錄是分開的狀態。
+
+---
+
 # 四正勤專頁SN49經號標題修正（2026-11-21）
 
 依作者提供的SuttaCentral固定commit482faafde8b9c52689d7926004706939f573cf2b中譯HTML，核對「相應部49相應 23－34經」及「力量所作等經十二則」；官方檔HTTPS200，且與既存canonical/sn49.23-34.html逐位元相同。將right-effort/index.html的來源標題改為「《相應部》49.23–34（節錄）｜依戒修習四正勤」，同步docs/right-effort/verified-sources.json的同名title。現有建置腳本沒有此標題常值，build-right-effort.py只建置繪本資料，不改其程式或繪本。原始交接／影片錄文中的SN49.23–24保留，未當作本次專頁標題誤植改寫。

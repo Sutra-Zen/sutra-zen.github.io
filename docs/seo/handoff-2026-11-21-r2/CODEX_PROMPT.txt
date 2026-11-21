@@ -1,0 +1,22 @@
+請使用附上的 SutraZen SEO 交接包，完成「網站 HTML 與搜尋設定」實作。
+
+交接版本：2026-11-21-r2
+GitHub 專案：https://github.com/Sutra-Zen/sutra-zen.github.io
+正式網站：https://sutra-zen.github.io/
+本包基準 main：db3a882b4ec2d4dd7647cbbeef9f4622a214cb84
+
+先解壓縮並閱讀 README.md 與 seo_pages.json，再讀專案當前的 AGENTS.md、docs/PROJECT.md、docs/HANDOFF.md，確認最新 main、remote 及既有工作區變更。附件已包含全部逐頁文案與路徑，不需要先存取 Notion；若使用者另提供更新版，以更新版為準。
+
+本次處理首頁＋14 個主題導讀，共 15 頁：
+1. source_path 定位檔案，seo_title 套用 HTML title，meta_description 套用 meta description，canonical_url 套用 canonical。
+2. 更新既有標籤，缺少才新增；同步真正產生 head 的模板／資料／建置步驟，避免下次建置覆蓋。
+3. 根目錄建立 sitemap.xml，精確列入 JSON 的 15 個正式 canonical；新增正確 robots.txt 並列出 sitemap。保留站主既有爬蟲政策。
+4. 保留正文、經文、繪本、原圖、reader 操作與深連結、14 本書架、32 個心智圖節點入口，以及 GitHub Pages main 根目錄部署方式。
+5. 四正勤的《相應部》49.23–34（節錄）來源卡已在 PR #54 完成並上線，保留此修正及對應來源 JSON，不重新列為待核對或回退。
+6. 分享預覽與結構化資料列為第二優先，只使用可核對的真實圖片、影片與日期。Google 實際驗證檔／標記若已由使用者提供，再放入根目錄／首頁 head；尚未取得時列待補並繼續其餘工作。
+
+分工：Codex 處理網站檔案與驗證；vidIQ 影片說明、Notion 維護、Google 帳戶與 Search Console 操作、後續成效追蹤在 ChatGPT 原對話處理，不屬於本次 Codex 任務。
+
+請依 README 的驗收條件完成可審閱修改，檢查 15 頁 metadata 與 canonical、sitemap XML 與網址集合、robots、實際建置來源及 diff；可見內容若有改動，再驗證受影響頁的行動版與閱讀動線。更新 docs/HANDOFF.md，回報修改檔案、逐頁套用清單、PR／commit 或 diff、實際驗證結果及未完成項，並標明版本 2026-11-21-r2。
+
+本輪先交付可審閱的實作與驗證；正式發布依使用者後續指示與專案規則進行。未來發布後，需核對精確 merge SHA 的 Pages 成功及正式站結果，再回報哪些頁面已套用。

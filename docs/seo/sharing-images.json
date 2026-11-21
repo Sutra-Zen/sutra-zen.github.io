@@ -1,0 +1,62 @@
+{
+  "index.html": {
+    "path": "four-truths/book/images/footprints.webp",
+    "alt": "SutraZen 佛法繪本：四聖諦"
+  },
+  "four-truths/index.html": {
+    "path": "four-truths/book/images/footprints.webp",
+    "alt": "四聖諦繪本插畫"
+  },
+  "five-aggregates/index.html": {
+    "path": "five-aggregates/book/images/a10.webp",
+    "alt": "五陰繪本插畫"
+  },
+  "six-senses/index.html": {
+    "path": "six-senses/cover.webp",
+    "alt": "六處繪本插畫"
+  },
+  "twelve-links/index.html": {
+    "path": "twelve-links/cover.webp",
+    "alt": "十二因緣繪本插畫"
+  },
+  "eightfold-path/index.html": {
+    "path": "docs/eightfold-path/assets/02-right-view.webp",
+    "alt": "八正道與十善業道繪本插畫"
+  },
+  "four-fruits-ten-fetters/index.html": {
+    "path": "docs/four-fruits-ten-fetters/assets/s01.webp",
+    "alt": "四向四果與十結繪本插畫"
+  },
+  "four-purities-six-recollections/index.html": {
+    "path": "docs/four-purities-six-recollections/assets/IMG_0395.jpeg",
+    "alt": "四不壞淨與六念繪本插畫"
+  },
+  "mindfulness/index.html": {
+    "path": "docs/mindfulness/assets/8ACD7BAD-64C1-476B-A4AD-7A63F5A2048E.png",
+    "alt": "四念處與四顛倒繪本插畫"
+  },
+  "right-effort/index.html": {
+    "path": "docs/right-effort/assets/6FEE22D5-C7AA-476E-810C-DDE063530A82.png",
+    "alt": "四正勤繪本插畫"
+  },
+  "anapana/index.html": {
+    "path": "anapana/assets/S01.webp",
+    "alt": "安那般那與止觀繪本插畫"
+  },
+  "iddhipada/index.html": {
+    "path": "iddhipada/assets/S01.webp",
+    "alt": "四如意足繪本插畫"
+  },
+  "four-jhanas/index.html": {
+    "path": "four-jhanas/assets/S06.webp",
+    "alt": "四禪繪本插畫"
+  },
+  "five-roots-powers/index.html": {
+    "path": "five-roots-powers/assets/S01.webp",
+    "alt": "五根五力繪本插畫"
+  },
+  "seven-factors/index.html": {
+    "path": "seven-factors/assets/04.webp",
+    "alt": "七覺支繪本插畫"
+  }
+}

@@ -2,6 +2,7 @@
 """Build twelve Seven Factors pages with all original timed narration segments."""
 import argparse,hashlib,json,copy
 from pathlib import Path
+from site_seo import apply_page_seo
 from lxml import html,etree
 R=Path(__file__).resolve().parents[1];D=R/'docs/seven-factors';S=R/'seven-factors'
 def read(name):return json.loads((D/name).read_text())
@@ -46,7 +47,7 @@ def guide():
   for p in source['providers']:etree.SubElement(providers,'p').text=p
   body=etree.SubElement(article,'div',{'class':'source-text'})
   for section in source['sections']:etree.SubElement(body,'h4',{'class':'source-text-heading'}).text=section['title'];etree.SubElement(etree.SubElement(body,'blockquote'),'p').text=section['text']
- return S/'index.html',html.tostring(root,encoding='unicode',doctype='<!doctype html>')+'\n'
+ return S/'index.html',apply_page_seo(html.tostring(root,encoding='unicode',doctype='<!doctype html>')+'\n', 'seven-factors/index.html')
 if __name__=='__main__':
  p=argparse.ArgumentParser();p.add_argument('--check',action='store_true');a=p.parse_args();validate();outputs=book();path,text=guide();outputs[path]=text
  for path,text in outputs.items():

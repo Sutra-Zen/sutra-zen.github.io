@@ -25,3 +25,5 @@ python3 -m http.server 8765 --bind 127.0.0.1
 已核對GitHub Pages使用 **main分支、根目錄 `/`**，由GitHub內建的 `pages-build-deployment` 自動建置與部署，沒有自訂發布workflow。維護時從最新main建立分支及PR，獲授權才合併；合併後確認同一SHA的Pages建置成功，再驗證正式網址。保留此流程，不需改成其他部署服務。
 
 每次發布提供固定版本ZIP備份，並記錄驗證結果。Notion工具不可用時交付待補記文字，明確說明尚未寫入。
+
+網站SEO與Google驗證維護：見[逐頁清單及建置說明](docs/seo/README.md)，交接版本2026-11-21-r2。全站metadata檢查：`python3 -B scripts/build-seo.py --check`。請永久保留根目錄Google驗證原檔。
