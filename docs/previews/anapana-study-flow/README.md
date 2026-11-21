@@ -1,4 +1,14 @@
-# 安那般那導讀路線二稿：整合十六項（2026-11-21，未發布）
+# 安那般那導讀路線：整合十六項（2026-11-21）
+
+## 作者確認後的正式整合
+
+作者已回覆「可發佈」，以下保留的初稿限制只記錄當時審閱流程。本次將確認後的流程整合至 `anapana/index.html#anapana-study-flow`，以局部 `anapana/study-flow.css` 命名空間限定樣式，沿用既有導覽、唯一H1、SEO、封面、影片與來源卡。原獨立十六勝行表格及舊章節卡改由此流程呈現；四個既有章節入口集中保留於流程下方，完整16項及原翻譯備註均保留。沒有改動繪本、引文資料或插圖。
+
+`release-validation.json` 與 `release-flow-*.png` 是實際專頁整合後的本機驗證：360×800、390×844、768×1024、1024×768、1280×900，檢查全部詞項、無溢出／截字、閱讀順序、來源錨點與章節往返；三個繪本深連結共15條往返路徑、翻頁與返回導讀通過。來源區至頁尾逐位元保留，現有meta／canonical／JSON-LD不變。`build-anapana.py --check` 與 `build-seo.py --check` 通過。沒有實體Safari或YouTube播放驗收；不將Chromium視窗模擬當成實機測試。
+
+`preview.html`、`flow-*.png`、`page-*.webp`、`validation.json` 保留為獨立初稿審閱紀錄，不用草稿HTML覆蓋正式專頁。合併SHA、同SHA的Pages及正式站驗收與ZIP結果記於PR #56。
+
+## 初稿歷史紀錄
 
 作者希望釐清禪定準備、十六勝行、修次調身及安般數隨止的關係，明確要求先畫初稿、不要發布；第二輪建議將原十六勝行表整合到流程右上方，以減少重複。從最新main0e3d7cdd（SEO r2已發布）建立preview/anapana-study-flow；本資料夾只有獨立預覽HTML及截圖，沒有改anapana/index.html、任何閱讀器、來源資料或建置器。不可沿用先前SEO或繪本維護的發布授權合併本稿。
 

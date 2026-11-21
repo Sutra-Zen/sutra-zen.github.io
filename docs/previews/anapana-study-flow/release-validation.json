@@ -1,0 +1,220 @@
+{
+  "baseline": "0e3d7cdd9321897d45e5b54882b9362a01917faa",
+  "sixteenItems": "original four rows/16 terms and translation note preserved",
+  "h1SeoAndExistingSources": "unchanged",
+  "readerAndImages": "no changed tracked files",
+  "cssScope": "all selectors local to component",
+  "chapterLinks": [
+    "book/index.html?scene=S02",
+    "book/index.html?scene=S04",
+    "book/index.html?scene=S08",
+    "#commentary"
+  ],
+  "sizes": [
+    {
+      "size": [
+        360,
+        800
+      ],
+      "diagram": "passed; no clipping/overflow",
+      "chapterReaderRoundTrips": 3,
+      "sourcesAndSupplementAnchors": "passed",
+      "coverAndReturnMap": "passed",
+      "cards": [
+        {
+          "label": "禪定準備",
+          "last": 1283,
+          "bottom": 1303,
+          "scroll": 316,
+          "client": 316
+        },
+        {
+          "label": "入出息念・十六勝行",
+          "last": 2045.34375,
+          "bottom": 2063.34375,
+          "scroll": 712,
+          "client": 712
+        },
+        {
+          "label": "調身｜身體微調",
+          "last": 2357.40625,
+          "bottom": 2381.40625,
+          "scroll": 236,
+          "client": 236
+        },
+        {
+          "label": "調心｜數・隨・止",
+          "last": 2674.96875,
+          "bottom": 2698.96875,
+          "scroll": 277,
+          "client": 277
+        }
+      ]
+    },
+    {
+      "size": [
+        390,
+        844
+      ],
+      "diagram": "passed; no clipping/overflow",
+      "chapterReaderRoundTrips": 3,
+      "sourcesAndSupplementAnchors": "passed",
+      "coverAndReturnMap": "passed",
+      "cards": [
+        {
+          "label": "禪定準備",
+          "last": 1265.125,
+          "bottom": 1285.125,
+          "scroll": 316,
+          "client": 316
+        },
+        {
+          "label": "入出息念・十六勝行",
+          "last": 2027.46875,
+          "bottom": 2045.46875,
+          "scroll": 712,
+          "client": 712
+        },
+        {
+          "label": "調身｜身體微調",
+          "last": 2339.53125,
+          "bottom": 2363.53125,
+          "scroll": 236,
+          "client": 236
+        },
+        {
+          "label": "調心｜數・隨・止",
+          "last": 2630.09375,
+          "bottom": 2654.09375,
+          "scroll": 250,
+          "client": 250
+        }
+      ]
+    },
+    {
+      "size": [
+        768,
+        1024
+      ],
+      "diagram": "passed; no clipping/overflow",
+      "chapterReaderRoundTrips": 3,
+      "sourcesAndSupplementAnchors": "passed",
+      "coverAndReturnMap": "passed",
+      "cards": [
+        {
+          "label": "禪定準備",
+          "last": 1376.03125,
+          "bottom": 1639.6875,
+          "scroll": 548,
+          "client": 548
+        },
+        {
+          "label": "入出息念・十六勝行",
+          "last": 1622.6875,
+          "bottom": 1639.6875,
+          "scroll": 548,
+          "client": 548
+        },
+        {
+          "label": "調身｜身體微調",
+          "last": 1900.859375,
+          "bottom": 1975.6875,
+          "scroll": 283,
+          "client": 283
+        },
+        {
+          "label": "調心｜數・隨・止",
+          "last": 1914.859375,
+          "bottom": 1975.6875,
+          "scroll": 283,
+          "client": 283
+        }
+      ]
+    },
+    {
+      "size": [
+        1024,
+        768
+      ],
+      "diagram": "passed; no clipping/overflow",
+      "chapterReaderRoundTrips": 3,
+      "sourcesAndSupplementAnchors": "passed",
+      "coverAndReturnMap": "passed",
+      "cards": [
+        {
+          "label": "禪定準備",
+          "last": 1447.53125,
+          "bottom": 1607.5625,
+          "scroll": 459,
+          "client": 459
+        },
+        {
+          "label": "入出息念・十六勝行",
+          "last": 1587.5625,
+          "bottom": 1607.5625,
+          "scroll": 459,
+          "client": 459
+        },
+        {
+          "label": "調身｜身體微調",
+          "last": 1873.9375,
+          "bottom": 1928.5625,
+          "scroll": 268,
+          "client": 268
+        },
+        {
+          "label": "調心｜數・隨・止",
+          "last": 1887.9375,
+          "bottom": 1928.5625,
+          "scroll": 268,
+          "client": 268
+        }
+      ]
+    },
+    {
+      "size": [
+        1280,
+        900
+      ],
+      "diagram": "passed; no clipping/overflow",
+      "chapterReaderRoundTrips": 3,
+      "sourcesAndSupplementAnchors": "passed",
+      "coverAndReturnMap": "passed",
+      "cards": [
+        {
+          "label": "禪定準備",
+          "last": 1460.234375,
+          "bottom": 1620.265625,
+          "scroll": 459,
+          "client": 459
+        },
+        {
+          "label": "入出息念・十六勝行",
+          "last": 1600.265625,
+          "bottom": 1620.265625,
+          "scroll": 459,
+          "client": 459
+        },
+        {
+          "label": "調身｜身體微調",
+          "last": 1886.640625,
+          "bottom": 1941.265625,
+          "scroll": 268,
+          "client": 268
+        },
+        {
+          "label": "調心｜數・隨・止",
+          "last": 1900.640625,
+          "bottom": 1941.265625,
+          "scroll": 268,
+          "client": 268
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "httpErrors": [],
+  "cdn": "existing cached Tailwind/Lucide used for homepage return",
+  "videoPlayback": "not tested",
+  "physicalSafari": "not tested"
+}

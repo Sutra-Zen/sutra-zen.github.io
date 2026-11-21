@@ -1,0 +1,114 @@
+/* Approved Anapana guide flow. All selectors stay inside this component. */
+.anapana-flow {box-sizing:border-box;}
+.anapana-flow section, .anapana-flow p {margin:0;}
+.anapana-flow {--paper:#f7f4eb;--ink:#233e35;--muted:#596a60;--green:#306954;--border:#d9dfd1;--gold:#a27835;--gold-line:#c3a16b;--white:#fffdf7}
+.anapana-flow * {box-sizing:border-box}
+.anapana-flow {margin:0;background:var(--paper);color:var(--ink);font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;line-height:1.75}
+.anapana-flow a {color:inherit;text-underline-offset:4px}
+.anapana-flow a:focus-visible {outline:3px solid #a27835;outline-offset:5px}
+.anapana-flow {padding:30px 32px 24px;background:var(--white);border:1px solid var(--border);border-radius:20px}
+.anapana-flow .eyebrow {margin:0 0 7px;color:var(--green);font-size:13px;letter-spacing:.12em;font-weight:750}
+.anapana-flow .flow-title {margin:0;font-family:"Noto Serif TC","Songti TC",serif;font-size:clamp(25px,3vw,35px);line-height:1.45;letter-spacing:.02em}
+.anapana-flow .lead {color:var(--muted);margin:10px 0 19px;font-size:16px}
+.anapana-flow .legend {display:flex;flex-wrap:wrap;gap:8px 23px;font-size:13px;color:var(--muted);padding-bottom:20px}
+.anapana-flow .legend span {display:inline-flex;align-items:center;gap:8px}
+.anapana-flow .sample {display:inline-block;width:28px;height:0;border-top:2px solid var(--green)}
+.anapana-flow .sample.dotted {border-color:var(--gold-line);border-top-style:dashed}
+.anapana-flow .lane-caption {margin:0 0 9px;display:flex;align-items:center;gap:9px;font-size:14px;font-weight:700}
+.anapana-flow .lane-caption:before {content:"";width:7px;height:7px;background:var(--green);border-radius:100%}
+.anapana-flow .flows {display:grid;grid-template-columns:1fr 46px 1.14fr;grid-template-rows:auto 51px auto;align-items:start}
+.anapana-flow .prep-card {grid-area:1/1}
+.anapana-flow .main-link {grid-area:1/2}
+.anapana-flow .tetrad-card {grid-area:1/3}
+.anapana-flow .body-link {grid-area:2/1}
+.anapana-flow .mind-link {grid-area:2/3}
+.anapana-flow .body-card {grid-area:3/1}
+.anapana-flow .mind-card {grid-area:3/3}
+.anapana-flow .main-card {min-height:350px;height:100%;border:1px solid #c7d7c5;border-top:4px solid var(--green);background:#f1f6ed;border-radius:13px;padding:19px 21px;position:relative}
+.anapana-flow .main-card h3 {margin:0 0 2px;font-size:22px;line-height:1.6}
+.anapana-flow .step {display:inline-flex;align-items:center;gap:8px;font-size:12px;letter-spacing:.07em;color:#688071;font-weight:700;margin-bottom:4px}
+.anapana-flow .step b {display:grid;place-items:center;width:23px;height:23px;border-radius:50%;background:#dce8d8;color:var(--green);font-size:13px}
+.anapana-flow .source {font-size:13px;color:#60715f;margin:0 0 13px}
+.anapana-flow .prep-block {margin-top:12px}
+.anapana-flow .prep-block strong {display:block;font-size:15px;color:var(--green)}
+.anapana-flow .prep-block p {margin:2px 0;font-size:15px;line-height:1.8}
+.anapana-flow .main-link {height:100%;display:flex;align-items:center;justify-content:center;color:var(--green)}
+.anapana-flow .main-link svg {width:34px;height:22px;overflow:visible}
+.anapana-flow .tetrads {display:grid;grid-template-columns:1fr;gap:8px;margin-top:12px}
+.anapana-flow .tetrad {display:grid;grid-template-columns:62px 1fr;gap:10px;align-items:start;background:#fffdf7;border:1px solid #dbe3d4;border-radius:9px;padding:8px 11px}
+.anapana-flow .tetrad h4 {margin:0;font-size:17px;line-height:1.75}
+.anapana-flow .practice-chain {margin:0;font-size:15px;line-height:1.95;color:#3e5d4b}
+.anapana-flow .practice-term {white-space:nowrap}
+.anapana-flow .translation-note {font-size:13px;line-height:1.8;color:#60715f;margin:12px 0 0;padding-top:9px;border-top:1px solid #d6e1d1}
+.anapana-flow .within {font-size:13px;margin:10px 0 0;color:#4d6859}
+.anapana-flow .support-link {display:flex;align-items:center;justify-content:center;gap:10px;color:#8b6c3b;font-size:13px}
+.anapana-flow .support-link svg {width:20px;height:49px;flex:0 0 20px}
+.anapana-flow .support-link .mobile-label {display:none}
+.anapana-flow .support-card {background:#fff8eb;border:1px solid #e5d2ae;border-radius:13px;padding:17px 20px;min-height:270px}
+.anapana-flow .support-card h3 {margin:5px 0;font-size:21px;line-height:1.6;color:#6f542b}
+.anapana-flow .optional {display:inline-block;font-size:12px;letter-spacing:.03em;color:#8b6a33;background:#f1e4c9;border-radius:20px;padding:2px 9px}
+.anapana-flow .support-card p {margin:7px 0;font-size:15px;line-height:1.8;color:#665c46}
+.anapana-flow .support-source {margin-top:12px!important;border-top:1px solid #e7d8bd;padding-top:10px;font-size:13px!important;color:#796b50!important;line-height:1.8!important}
+.anapana-flow .steps {display:flex;gap:7px;align-items:center;margin:9px 0 6px}
+.anapana-flow .steps b {border-radius:7px;background:#f1e7d3;color:#745a32;font-size:16px;min-width:44px;text-align:center;padding:2px 12px}
+.anapana-flow .steps span {color:#ae956b;font-size:13px}
+.anapana-flow .extension {font-size:13px!important;margin-top:7px!important}
+.anapana-flow .mobile-support-heading {display:none}
+.anapana-flow .observation {margin-top:22px;background:#f1f4ed;border-radius:11px;padding:14px 18px;border-left:3px solid #94ac87}
+.anapana-flow .observation strong {display:block;font-size:16px}
+.anapana-flow .observation p {font-size:14px;margin:4px 0;color:#526457}
+.anapana-flow .observation .citation {font-size:12px;margin-top:7px;color:#77816f}
+.anapana-flow .footnote {font-size:12px;color:#7c8377;margin:15px 0 0}
+@media(max-width:800px) {
+.anapana-flow {padding:25px 23px}
+.anapana-flow .flows {grid-template-columns:1fr 35px 1fr;grid-template-rows:auto 51px auto}
+.anapana-flow .main-card {padding:16px}
+.anapana-flow .main-card h3 {font-size:20px}
+.anapana-flow .source {font-size:12px}
+.anapana-flow .main-link {height:100%}
+.anapana-flow .support-card {padding:15px;min-height:285px}
+.anapana-flow .support-card h3 {font-size:19px}
+.anapana-flow .tetrad {padding:8px}
+.anapana-flow .tetrad {grid-template-columns:55px 1fr;gap:8px}
+.anapana-flow .practice-chain {font-size:14px}
+.anapana-flow .prep-block p {font-size:14px}
+.anapana-flow .steps b {min-width:36px;padding-inline:9px}
+}
+@media(max-width:600px) {
+.anapana-flow {padding:22px 17px;border-radius:15px}
+.anapana-flow .lead {font-size:15px}
+.anapana-flow .legend {font-size:12px;gap:7px 13px;padding-bottom:15px}
+.anapana-flow .sample {width:20px}
+.anapana-flow .flows {grid-template-columns:1fr;grid-template-rows:auto}
+.anapana-flow .flows>* {grid-area:auto}
+.anapana-flow .main-card {min-height:0;padding:17px 18px}
+.anapana-flow .main-card h3 {font-size:22px}
+.anapana-flow .prep-card {grid-row:1}
+.anapana-flow .main-link {grid-row:2;height:43px}
+.anapana-flow .main-link svg {transform:rotate(90deg)}
+.anapana-flow .tetrad-card {grid-row:3}
+.anapana-flow .prep-block p {font-size:15px}
+.anapana-flow .source {font-size:13px;margin-bottom:11px}
+.anapana-flow .tetrad {padding:9px 11px}
+.anapana-flow .tetrad {grid-template-columns:1fr;gap:4px}
+.anapana-flow .practice-chain {font-size:15px}
+.anapana-flow .mobile-support-heading {display:block;grid-row:4;margin:23px 0 6px;color:#8b6a33;font-size:14px;font-weight:700}
+.anapana-flow .body-link {grid-row:5}
+.anapana-flow .body-card {grid-row:6}
+.anapana-flow .mind-link {grid-row:7;margin-top:12px}
+.anapana-flow .mind-card {grid-row:8}
+.anapana-flow .support-link {justify-content:flex-start;font-size:12px;line-height:1.6;padding:0 0 7px;height:auto}
+.anapana-flow .support-link svg, .anapana-flow .support-link .desktop-label {display:none}
+.anapana-flow .support-link .mobile-label {display:block}
+.anapana-flow .support-card {min-height:0;padding:16px 18px}
+.anapana-flow .support-card h3 {font-size:21px}
+.anapana-flow .support-source {font-size:13px!important}
+.anapana-flow .observation {padding:13px 14px;margin-top:22px}
+.anapana-flow .observation p {font-size:14px}
+.anapana-flow .observation .citation {font-size:12px}
+.anapana-flow .footnote {font-size:12px}
+}
+.anapana-flow {margin-top:40px;}
+.anapana-flow .flow-chapters {display:flex;flex-wrap:wrap;align-items:center;gap:7px 18px;margin-top:20px;padding-top:14px;border-top:1px solid var(--border);font-size:14px;}
+.anapana-flow .flow-chapters span {color:var(--muted);font-size:13px;}
+.anapana-flow .flow-chapters a {display:inline-flex;align-items:center;min-height:44px;}

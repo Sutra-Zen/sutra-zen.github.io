@@ -1,3 +1,15 @@
+# 安那般那導讀流程正式整合（2026-11-21）
+
+作者已明確回覆「可發佈」，取代下方二稿僅預覽的限制。沿用preview/anapana-study-flow及PR #56，由main 0e3d7cdd的正式安那般那專頁整合已確認設計：綠色主線禪定準備→十六勝行，右上直接顯示完整四組16項及原翻譯備註；暖色調身／數隨止兩張卡平行補充，不另加必經修證關卡。原獨立表格不再重複，原章節入口集中於流程底部。
+
+正式修改anapana/index.html，新增局部命名空間anapana/study-flow.css；沿用既有header、唯一H1、封面、影片與來源卡。十六項、四組名稱、順序與備註核對原表相同；video段落起至頁尾逐位元保留，經文與來源資料／繪本119頁／圖片／閱讀器及首頁14本32節點不改。現有SEO與Google驗證檔保留，建置器讀取既有導讀後僅更新來源卡與SEO，不會覆蓋新流程。
+
+五尺寸360×800／390×844／768×1024／1024×768／1280×900檢查無溢出、截字、卡片排列及手機閱讀順序，四個原入口及來源／延伸錨點通過；15條S02／S04／S08繪本往返路徑、前後翻頁及回導讀正常，無JS／本機HTTP錯誤。build-anapana.py --check與build-seo.py --check通過。實際整合截圖與報告見docs/previews/anapana-study-flow/release-*；實體Safari與YouTube播放未測。沿用Pages main:/，精確mergeSHA、Pages同SHA、正式站與完整固定版本ZIP證據記於PR #56。
+
+此工作環境未提供Notion工具，尚未寫入；待補記文字見docs/releases/anapana-study-flow-notion.md。
+
+---
+
 # 安那般那導讀路線二稿：完整十六項整合右上，僅預覽（2026-11-21）
 
 作者要求先畫符合來源層次的流程初稿、不要發布；本輪進一步建議把原十六勝行表格整合到流程右上。main基準0e3d7cdd，試作分支preview/anapana-study-flow、草稿PR56；只有docs/previews/anapana-study-flow/與本交接紀錄更新。anapana正式導讀、繪本、經文／圖片／建置／SEO及Google驗證檔都不改，不得沿用前一輪SEO發布授權合併此稿。
