@@ -1,0 +1,41 @@
+{
+  "verifiedOn": "2026-11-21",
+  "files": [
+    {
+      "path": "canonical/sn35.245.html",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/482faafde8b9c52689d7926004706939f573cf2b/html_text/zh/pli/sutta/sn/sn35/sn35.245.html",
+      "status": 200,
+      "bytes": 5997,
+      "sha256": "02a831885b965c463abd72814329e589ab8e8d9edecae25ad8a4ad9aa39e0426"
+    },
+    {
+      "path": "canonical/sa1175.html",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/482faafde8b9c52689d7926004706939f573cf2b/html_text/lzh/sutta/sa/sa1101-1200/sa1175.html",
+      "status": 200,
+      "bytes": 8784,
+      "sha256": "2501f4e585567b98c3c38f96328c5c2283430f3788b386f5fabe6a431586a50e"
+    },
+    {
+      "path": "canonical/sn35.204-than.html",
+      "url": "https://raw.githubusercontent.com/alexgenaud/AccessToInsight/9f446378e0b1987d9596ec4cf853fd026442ee0a/tipitaka/sn/sn35/sn35.204.than.html",
+      "status": 200,
+      "bytes": 15740,
+      "sha256": "0f0cc1775eea0b0440fb08454c366ebffaa1c07b092917c5cea56b05b56cf40b"
+    },
+    {
+      "path": "canonical/sa1175-cbeta-note.xml",
+      "url": "https://raw.githubusercontent.com/cbeta-org/xml-p5/8ebac86d00719479db5777dc6cd77ba111c3067a/T/T02/T02n0099.xml",
+      "status": 200,
+      "note": "Extracted note only, not whole XML; T02.0316a04.04",
+      "sha256": "e5744526a6f16daa43b5ae22eb048a555d8b3a390f2ad0b3f7e613a1b353dc82"
+    }
+  ],
+  "blockedDirectProviders": [
+    "legacy.suttacentral.net",
+    "www.accesstoinsight.org",
+    "www.dhammatalks.org",
+    "buddhaspace.org",
+    "cbetaonline.dila.edu.tw"
+  ],
+  "limitation": "Direct provider pages for blocked domains returned proxy403; repository content verified, actual page availability not claimed."
+}

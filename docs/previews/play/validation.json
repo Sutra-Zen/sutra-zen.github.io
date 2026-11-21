@@ -1,0 +1,121 @@
+{
+  "baseline": "b9a0dad2c2c34d7e15e6dc5e55d6125de630f57b",
+  "originalReaders": {
+    "four-truths": {
+      "total": 29,
+      "scenes": 11,
+      "pageDataSha256": "fc4ad2489fd0deb00344206e55131fbdfcda9027da2e255a91df45584bd781d3",
+      "sceneDataSha256": "ed9323c4c99b1e46462aba2d126e32968dea1c961b7d5fbf0ecb8b39ff08a00b"
+    },
+    "five-aggregates": {
+      "total": 54,
+      "scenes": 16,
+      "pageDataSha256": "cf9cb4d4fb050c793b36b0cb5913d4b8620372a8a60995c6177fd703123d8592",
+      "sceneDataSha256": "9375b95d87d87ec8c01c2fb4e2344514ae3647067a8e8e64f626e39715a54cfc"
+    },
+    "six-senses": {
+      "total": 115,
+      "scenes": 16,
+      "pageDataSha256": "b3d19ecdce3bc379dd9ed0a7805f566470d6bb955eac26d301e1bdea00f357c3",
+      "sceneDataSha256": "30ef677968d66ced004e1604282df664af8f06e44fd3293b361b16bbc0d84481"
+    }
+  },
+  "checks": [
+    "Three standalone readers preserve exact page/scene data, first/next/previous, source/map pair and touch-action",
+    "Original homepage map heading, 14-book shelf, real Four Truths map dialog and shelf-to-original-reader route pass",
+    "Start, autosave, reload and Continue resume the same original page; opening/return/reload do not complete a book",
+    "All 198 original pages reachable in ordered journey; actual Next clicks and explicit finish produce three distinct city feedback stages and final first-journey completion",
+    "After all three complete, a five-step re-read resumes from page index5 via main button and reload; finishing still counts only three",
+    "Free third-book full read/explicit finish does not fill progress; ordered third-book direct URL stays locked",
+    "Clear requires confirmation/cancel; progress download and confirmed restore work; invalid restore preserves state and unrelated localStorage survives reset",
+    "Invalid backup preserves state, locale change preserves completion and reset affects only journey key",
+    "Malformed and unavailable localStorage display an explanation and still permit reading",
+    "Completed replay yields to unfinished ordered book; free positions preserve the ordered book/page and completion prefix"
+  ],
+  "responsive": [
+    {
+      "size": [
+        360,
+        800
+      ],
+      "appCityReaderAndRotation": "passed"
+    },
+    {
+      "size": [
+        844,
+        390
+      ],
+      "appCityReaderAndRotation": "passed"
+    },
+    {
+      "size": [
+        768,
+        1024
+      ],
+      "appCityReaderAndRotation": "passed"
+    },
+    {
+      "size": [
+        1024,
+        768
+      ],
+      "appCityReaderAndRotation": "passed"
+    },
+    {
+      "size": [
+        1280,
+        900
+      ],
+      "appCityReaderAndRotation": "passed"
+    }
+  ],
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "physicalSafari": "not tested",
+  "videoPlayback": "not tested",
+  "publication": "not published; disposable local HTTP and Chromium only",
+  "protectedFiles": [
+    "index.html",
+    "shelf.css",
+    "sitemap.xml",
+    "robots.txt",
+    "googlee0c995331ec518ae.html",
+    "reader-controls.css",
+    "reader-layout.js",
+    "reader-restart.js"
+  ],
+  "readerHTMLChanges": "Each original HTML differs by exactly one opt-in module script inclusion; all other bytes unchanged",
+  "walkedReadingSteps": [
+    {
+      "book": "four-truths",
+      "total": 29,
+      "actualForwardClicks": 24,
+      "explicitFinish": true
+    },
+    {
+      "book": "five-aggregates",
+      "total": 54,
+      "actualForwardClicks": 53,
+      "explicitFinish": true
+    },
+    {
+      "book": "six-senses",
+      "total": 115,
+      "actualForwardClicks": 114,
+      "explicitFinish": true
+    }
+  ],
+  "sailing": [
+    {
+      "normalMotion": true,
+      "skip": true,
+      "landsOnFirstReaderPage": "passed"
+    },
+    {
+      "normalMotion": true,
+      "skip": false,
+      "landsOnFirstReaderPage": "passed"
+    }
+  ],
+  "homepageCDN": "Existing cached Tailwind/Lucide copies; external CDN availability not tested"
+}
