@@ -1,0 +1,56 @@
+{
+  "titleOnlyByteComparison": "passed",
+  "source": "SuttaCentral sc-data 482faafde8b9c52689d7926004706939f573cf2b; 200 and identical to existing canonical file",
+  "sizes": [
+    {
+      "size": [
+        360,
+        800
+      ],
+      "title": "passed",
+      "overflow": "none",
+      "buttons": "original href/target/rel preserved"
+    },
+    {
+      "size": [
+        768,
+        1024
+      ],
+      "title": "passed",
+      "overflow": "none",
+      "buttons": "original href/target/rel preserved"
+    },
+    {
+      "size": [
+        1024,
+        768
+      ],
+      "title": "passed",
+      "overflow": "none",
+      "buttons": "original href/target/rel preserved"
+    }
+  ],
+  "buttonTargets": [
+    "https://suttacentral.net/sn49.23-34/zh/zhuang",
+    "https://suttacentral.net/sn49.23/pli/ms"
+  ],
+  "buttonRequests": [
+    "https://suttacentral.net/sn49.23-34/zh/zhuang",
+    "https://suttacentral.net/sn49.23/pli/ms"
+  ],
+  "externalFailures": [
+    {
+      "url": "https://suttacentral.net/sn49.23-34/zh/zhuang",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    },
+    {
+      "url": "https://suttacentral.net/sn49.23/pli/ms",
+      "failure": "net::ERR_TUNNEL_CONNECTION_FAILED"
+    }
+  ],
+  "errors": [],
+  "localHttpErrors": [],
+  "externalHttpCheck": "Both SuttaCentral URLs blocked by environment proxy: Tunnel connection failed: 403 Forbidden",
+  "externalPageLoadVerified": false,
+  "physicalSafari": "not tested"
+}
