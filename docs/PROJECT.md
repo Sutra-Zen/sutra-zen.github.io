@@ -39,6 +39,10 @@ Original author-supplied handoff documents, manifests, screenshots and historica
 
 The twelve-link reader is implemented in twelve-links/ and preserves 77 pages: 18 narrative scenes plus an afterword. The author approved publication on 2026-11-14. Verify the corresponding GitHub Pages deployment before claiming live availability.
 
+## Art-direction comparison preview (2026-11-21, not published)
+
+The existing `preview/journey-visual-v2` draft now includes original-watercolor / terrain / fantasy-world map comparisons, a new no-grid top-down six-gate city and bound-book collection covers. Only proposal visuals change; source graph, collection/journey storage, fourteen reader files and production site are unchanged from `dedc066`. See `docs/play/visual-v2/ART-DIRECTIONS.md` and `docs/previews/play-art-directions/`. Main remains `b9a0dad2`; no merge or publication is authorized.
+
 ## Collection and continent preview (2026-11-21, not published)
 
 `preview/journey-visual-v2` now includes a connected bottom continent with topic mountains and a shelf for collecting fourteen books. An independent `sutrazen.play.collection.v1` store and opt-in reader module support explicit end-of-book completion across all fourteen originals; each book HTML only adds the module, preserving standalone behavior. The first-three-book journey remains separate. See `docs/play/collection/README.md` and newest HANDOFF for actual1192-step verification, art limitations and local entry routes. PR59 is a draft against the prototype branch, with no main merge or public deployment authorized.

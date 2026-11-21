@@ -3,5 +3,28 @@
 
 .scene-footer>div.network-footer:first-child{flex-direction:row}.scene-footer .network-footer>img{width:130px}.network-island:focus-visible{outline-offset:1px;border-radius:35%}
 
-.continent-art{position:absolute;inset:0;width:100%;height:100%;z-index:1;pointer-events:none}.network-lines{z-index:2}.continent-region-label{position:absolute;left:19%;top:62%;z-index:2;font:700 clamp(14px,1.3cqw,22px)/1.5 "Songti TC",serif;color:#465b36;text-shadow:0 1px 4px #fff5d0,-1px -1px #fff8df;padding:2px 8px;pointer-events:none}.network-mountain .island-paint{background-image:url('assets/mountain-atlas-concept.png');inset:-17% -18% 13%;filter:drop-shadow(0 3px 2px #4f5b3522)}.network-mountain{width:7.2%;height:7.4%}.network-mountain .node-book-icon{top:31%}.network-mountain .network-label{font-size:clamp(12px,.85cqw,17px)}.edge-return{stroke:#b18c57;stroke-width:9;stroke-dasharray:none!important;stroke-opacity:.8;filter:drop-shadow(0 0 2px #fff3c9)}.edge-return.is-highlighted{stroke:#936c37;stroke-width:11}.is-overview .network-mountain .network-label{font-size:clamp(7px,.9cqw,16px)}
+.continent-art{position:absolute;inset:0;width:100%;height:100%;z-index:1;pointer-events:none}.network-lines{z-index:2}.network-mountain .island-paint{background-image:url('assets/mountain-atlas-concept.png');inset:-17% -18% 13%;filter:drop-shadow(0 3px 2px #4f5b3522)}.network-mountain{width:7.2%;height:7.4%}.network-mountain .node-book-icon{top:31%}.network-mountain .network-label{font-size:clamp(12px,.85cqw,17px)}.edge-return{stroke:#b18c57;stroke-width:9;stroke-dasharray:none!important;stroke-opacity:.8;filter:drop-shadow(0 0 2px #fff3c9)}.edge-return.is-highlighted{stroke:#936c37;stroke-width:11}.is-overview .network-mountain .network-label{font-size:clamp(7px,.9cqw,16px)}
 .network-edge.edge-return{stroke-opacity:.88}.network-edge.edge-return.is-highlighted{stroke-opacity:1}
+
+/* Full-scene comparison art keeps its own original aspect ratio. Hit areas and
+   text remain HTML, with calibration in art-directions.js rather than pixels. */
+.network-world{aspect-ratio:var(--map-aspect,18 / 13)}
+.map-style-picker{display:flex;align-items:center;flex-wrap:wrap;gap:7px;padding:8px 12px;border:1px solid #d2bd8e;border-radius:15px;background:#f5ecd5;width:100%}
+.map-style-picker>span{font-weight:700;color:#665034;margin-right:5px}
+.map-style-picker button{border:1px solid #c2af81;background:#fffbed;border-radius:12px;padding:5px 16px}
+.network-world:not([data-map-style="watercolor"]) .island-paint{display:none}
+.network-world:not([data-map-style="watercolor"]) .network-island{width:8.8%;height:8%;justify-content:center;border-radius:45%}
+.network-world:not([data-map-style="watercolor"]) .network-mountain{width:8%;height:9%}
+.network-world:not([data-map-style="watercolor"]) [data-node="concentration-awakening-group"],.network-world:not([data-map-style="watercolor"]) [data-node="eightfold-action-group"]{width:10.5%}
+.network-world:not([data-map-style="watercolor"]) .network-label{background:#fff9e4eb;border:1px solid #c5b887;border-radius:6px;padding:3px 6px;box-shadow:0 2px 7px #172f2b35;text-shadow:none;color:#264b39}
+.network-world:not([data-map-style="watercolor"]) .node-book-icon{position:static;margin-bottom:2px;flex-shrink:0}
+.network-world:not([data-map-style="watercolor"]) .network-island.is-related .network-label{background:#fff0b9;border-color:#c1913c}
+.network-world:not([data-map-style="watercolor"]) .network-island.is-selected .network-label{outline:2px solid #e9c65d;box-shadow:0 0 14px #ffe07e}
+.network-world:not([data-map-style="watercolor"]) .network-edge{stroke:#c1e4de;stroke-opacity:.7;filter:drop-shadow(0 1px 2px #1b4a48)}
+.network-world:not([data-map-style="watercolor"]) .network-edge.edge-return{stroke:#e1b56b;stroke-width:7;stroke-opacity:.9;filter:drop-shadow(0 0 2px #654d27)}
+.network-world:not([data-map-style="watercolor"]) .network-edge.is-highlighted{stroke:#fff3ba;stroke-opacity:1}
+.network-world:not([data-map-style="watercolor"]) .route-start,.network-world:not([data-map-style="watercolor"]) .route-end{display:none}
+.is-overview .network-world:not([data-map-style="watercolor"]) .node-book-icon{width:15px;height:15px}
+.is-overview .network-world:not([data-map-style="watercolor"]) .node-book-icon svg,.is-overview .network-world:not([data-map-style="watercolor"]) .node-book-icon img{width:13px;height:13px}
+.is-overview .network-world:not([data-map-style="watercolor"]) .network-label{padding:1px 3px;font-size:clamp(7px,.9cqw,16px)}
+@media(max-width:800px){.map-style-picker{font-size:13px;padding:7px 9px}.map-style-picker button{padding:5px 11px}.is-overview .network-world:not([data-map-style="watercolor"]) .node-book-icon{display:none}}

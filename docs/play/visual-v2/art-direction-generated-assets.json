@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-21",
+  "scope": "Independent visual proposal; not published; original fourteen picture-book art unchanged",
+  "method": "Image-generation output copied byte-for-byte to a new concept asset; no original website artwork overwritten",
+  "status": "generated concept pending author confirmation, not final layered production art",
+  "assets": [
+    {
+      "path": "play/visual-v2/assets/network-terrain-concept.png",
+      "role": "俯視遊戲地形海圖",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "bytes": 3446712,
+      "sha256": "7c64dbc9a7ba3a269cc410f25dfe10f46659034b99060e75876caa55e6ad5981",
+      "originalGenerationOutput": "/workspace/generated_images/exec-ee94a45c-76ed-4d68-989a-ba3ad7da0a23.png",
+      "matchesOriginalGenerationOutput": true,
+      "status": "generated concept pending author confirmation, not final layered production art"
+    },
+    {
+      "path": "play/visual-v2/assets/network-world-concept.png",
+      "role": "奇幻世界地圖海圖",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "bytes": 3566648,
+      "sha256": "89402d1edfcc8e4ff1eb4fdcb5b27448cbdafde5957ef75e7794962d1842ab48",
+      "originalGenerationOutput": "/workspace/generated_images/exec-2bb2789e-204a-44aa-b5e4-9686584d2ce2.png",
+      "matchesOriginalGenerationOutput": true,
+      "status": "generated concept pending author confirmation, not final layered production art"
+    },
+    {
+      "path": "play/visual-v2/assets/city-tactics-concept.png",
+      "role": "俯視六門城池",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "bytes": 4290086,
+      "sha256": "44038d6ca0c3be1944aaaaf3aeaf15e9b8c99e209369b9f07d6c2776f53885f5",
+      "originalGenerationOutput": "/workspace/generated_images/exec-85eb6430-696a-4f3d-93c7-43557350d41e.png",
+      "matchesOriginalGenerationOutput": true,
+      "status": "generated concept pending author confirmation, not final layered production art"
+    }
+  ]
+}

@@ -25,11 +25,11 @@ def main():
  with sync_playwright() as p:
   b=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox']);ctx=b.new_context(reduced_motion='reduce');ctx.add_init_script("""(()=>{const native=Storage.prototype.setItem;native.call(localStorage,'sutrazen.play.v1','preserve-v1');native.call(localStorage,'sutrazen.play.collection.v1',JSON.stringify({version:1,activeBook:'four-truths',positions:{},completed:[]}));window.__writes=[];for(const method of ['setItem','removeItem','clear']){const fn=Storage.prototype[method];Storage.prototype[method]=function(...args){if(this===localStorage)window.__writes.push({method,args});return fn.apply(this,args)}}})();""");page=ctx.new_page();page.on('pageerror',lambda e:report['javascriptErrors'].append(str(e)));page.on('response',lambda r:report['httpErrors'].append(r.url) if r.url.startswith(base) and r.status>=400 else None)
   for w,h in SIZES:
-   page.set_viewport_size({'width':w,'height':h});page.goto(base+'play/visual-v2/',wait_until='domcontentloaded');page.wait_for_selector('.continent-art');page.locator('.continent-art').evaluate('e=>e.decode()');page.locator('.network-sea').evaluate('e=>e.decode()');page.evaluate('()=>document.fonts.ready')
+   page.set_viewport_size({'width':w,'height':h});page.goto(base+'play/visual-v2/?style=watercolor',wait_until='domcontentloaded');page.wait_for_selector('.continent-art');page.locator('.continent-art').evaluate('e=>e.decode()');page.locator('.network-sea').evaluate('e=>e.decode()');page.evaluate('()=>document.fonts.ready')
    nodes=N.exported('NODES');by_id={n['id']:n for n in nodes};instances=[i for i in N.exported('INSTANCES') if i['nodeId']!='related-overview']
    assert page.locator('.network-island').count()==32 and len(set(page.locator('.network-island').evaluate_all('els=>els.map(e=>e.dataset.node)')))==31
    assert page.locator('[data-node="related-overview"]').count()==0
-   region=page.locator('[data-region="related"]');assert region.count()==1 and region.evaluate('e=>e.tagName!=="BUTTON"&&!e.hasAttribute("tabindex")')
+   assert page.locator('[data-region="related"]').count()==0 and "相關內容大陸" not in page.locator(".network-world").inner_text()
    assert page.locator('.network-mountain[data-terrain="mountain"]').count()==15 and page.locator('.sea-island[data-terrain="island"]').count()==17
    assert page.locator('.continent-art').count()==1
    overlaps=page.locator('.network-island').evaluate_all('els=>{const a=els.map(e=>({id:e.dataset.instance,b:e.getBoundingClientRect()}));return a.flatMap(x=>a.filter(y=>x.id!==y.id&&x.b.x+x.b.width/2>y.b.left&&x.b.x+x.b.width/2<y.b.right&&x.b.y+x.b.height/2>y.b.top&&x.b.y+x.b.height/2<y.b.bottom).map(y=>[x.id,y.id]))}');assert not overlaps,overlaps
