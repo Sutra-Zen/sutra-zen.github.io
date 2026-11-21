@@ -50,7 +50,7 @@
   ],
   "protectedFiles": 66,
   "baseline": "5056201",
-  "allV1PlayAndFirstThreeBookFiles": "byte-for-byte unchanged",
+  "allV1PlayAndFirstThreeBookFiles": "unchanged except explicitly authorized single collection-module inclusion in reader HTML",
   "thumbnailInventory": [
     {
       "number": 1,

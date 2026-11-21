@@ -1,7 +1,7 @@
 {
   "baseline": "5056201",
   "protectedFiles": 66,
-  "protectedFilesByteEquality": "passed; v1, first three readers and original homepage/SEO untouched",
+  "protectedFilesByteEquality": "passed; v1 and original site untouched, reader HTML only authorized collection-module inclusion",
   "uniqueModalKeys": 32,
   "visualInstances": 33,
   "sourceEdges": 46,
@@ -250,7 +250,9 @@
         1280,
         900
       ],
-      "instanceDialogs": 33,
+      "instanceDialogs": 32,
+      "visibleUniqueNodes": 31,
+      "removedOverview": "related-overview is now a noninteractive continent label",
       "pairwiseButtonCenterOverlaps": 0,
       "mindfulnessChain": "related-button traversal and connected edge highlights passed",
       "routeVsRelations": "different strokes and independent toggles; no required-unlock claim",
@@ -266,7 +268,9 @@
         390,
         844
       ],
-      "instanceDialogs": 33,
+      "instanceDialogs": 32,
+      "visibleUniqueNodes": 31,
+      "removedOverview": "related-overview is now a noninteractive continent label",
       "pairwiseButtonCenterOverlaps": 0,
       "mindfulnessChain": "related-button traversal and connected edge highlights passed",
       "routeVsRelations": "different strokes and independent toggles; no required-unlock claim",
@@ -282,7 +286,9 @@
         844,
         390
       ],
-      "instanceDialogs": 33,
+      "instanceDialogs": 32,
+      "visibleUniqueNodes": 31,
+      "removedOverview": "related-overview is now a noninteractive continent label",
       "pairwiseButtonCenterOverlaps": 0,
       "mindfulnessChain": "related-button traversal and connected edge highlights passed",
       "routeVsRelations": "different strokes and independent toggles; no required-unlock claim",
@@ -298,7 +304,9 @@
         768,
         1024
       ],
-      "instanceDialogs": 33,
+      "instanceDialogs": 32,
+      "visibleUniqueNodes": 31,
+      "removedOverview": "related-overview is now a noninteractive continent label",
       "pairwiseButtonCenterOverlaps": 0,
       "mindfulnessChain": "related-button traversal and connected edge highlights passed",
       "routeVsRelations": "different strokes and independent toggles; no required-unlock claim",
@@ -314,7 +322,9 @@
         1024,
         768
       ],
-      "instanceDialogs": 33,
+      "instanceDialogs": 32,
+      "visibleUniqueNodes": 31,
+      "removedOverview": "related-overview is now a noninteractive continent label",
       "pairwiseButtonCenterOverlaps": 0,
       "mindfulnessChain": "related-button traversal and connected edge highlights passed",
       "routeVsRelations": "different strokes and independent toggles; no required-unlock claim",
@@ -330,5 +340,5 @@
   "httpErrors": [],
   "physicalSafari": "not tested",
   "publication": "not published; local-only visual concept, no first-version progress changes",
-  "actualNavigation": "Four Mindfulness guide and original full reader loaded through native anchors"
+  "actualNavigation": "Four Mindfulness guide and original full reader loaded through native anchors; explicit reader opt-in writes only collection namespace"
 }

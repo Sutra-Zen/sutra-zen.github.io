@@ -1,0 +1,632 @@
+{
+  "originalProtection": {
+    "baseline": "0f0a797",
+    "catalogBooks": 14,
+    "originalReaderChanges": "Each HTML differs only by one opt-in collection script; old journey module retained",
+    "originalCoversAndUnreadIconHashes": "14 covers and 13 old icons match inventory; book1 has no original locked icon",
+    "protectedOriginalSiteAndV1": "passed",
+    "protectedPaths": [
+      "index.html",
+      "sitemap.xml",
+      "robots.txt",
+      "googlee0c995331ec518ae.html",
+      "reader-controls.css",
+      "reader-layout.js",
+      "reader-restart.js",
+      "play/app.js",
+      "play/progress.js",
+      "play/reader-bridge.js",
+      "play/reader-bridge.css",
+      "play/i18n.js",
+      "play/books.js"
+    ]
+  },
+  "sourceNetwork": {
+    "baseline": "5056201",
+    "protectedFiles": 66,
+    "protectedFilesByteEquality": "passed; v1 and original site untouched, reader HTML only authorized collection-module inclusion",
+    "uniqueModalKeys": 32,
+    "visualInstances": 33,
+    "sourceEdges": 46,
+    "sourceDerivedMapping": [
+      {
+        "id": "road-overview",
+        "key": "道路總說",
+        "bookId": null,
+        "guideReaderMatchesOriginal": true
+      },
+      {
+        "id": "roots-powers-overview",
+        "key": "五根五力總說",
+        "bookId": "five-roots-powers",
+        "guideReaderMatchesOriginal": true
+      },
+      {
+        "id": "awakening-overview",
+        "key": "七覺支總說",
+        "bookId": "seven-factors",
+        "guideReaderMatchesOriginal": true
+      },
+      {
+        "id": "eightfold-overview",
+        "key": "八正道總說",
+        "bookId": "eightfold-path",
+        "guideReaderMatchesOriginal": true
+      },
+      {
+        "id": "related-overview",
+        "key": "相關內容總說",
+        "bookId": null,
+        "guideReaderMatchesOriginal": true
+      },
+      {
+        "id": "faith-root-power",
+        "key": "信根信力",
+        "bookId": "five-roots-powers",
+        "guideReaderMatchesOriginal": true
+      },
+      {
+        "id": "mindfulness-root-power",
+        "key": "念根念力",
+        "bookId": "five-roots-powers",
+        "guideReaderMatchesOriginal": true
+      },
+      {
+        "id": "effort-root-power",
+        "key": "勤根勤力",
+        "bookId": "five-roots-powers",
+        "guideReaderMatchesOriginal": true
+      },
+      {
+        "id": "concentration-root-power",
+        "key": "定根定力",
+        "bookId": "five-roots-powers",
+        "guideReaderMatchesOriginal": true
+      },
+      {
+        "id": "wisdom-root-power",
+        "key": "慧根慧力",
+        "bookId": "five-roots-powers",
+        "guideReaderMatchesOriginal": true
+      },
+      {
+        "id": "mindfulness-awakening",
+        "key": "念覺支",
+        "bookId": "seven-factors",
+        "guideReaderMatchesOriginal": true
+      },
+      {
+        "id": "discrimination-awakening",
+        "key": "擇法覺支",
+        "bookId": "seven-factors",
+        "guideReaderMatchesOriginal": true
+      },
+      {
+        "id": "effort-awakening",
+        "key": "精進覺支",
+        "bookId": "seven-factors",
+        "guideReaderMatchesOriginal": true
+      },
+      {
+        "id": "concentration-awakening-group",
+        "key": "定覺支組",
+        "bookId": "seven-factors",
+        "guideReaderMatchesOriginal": true
+      },
+      {
+        "id": "right-mindfulness",
+        "key": "正念",
+        "bookId": "eightfold-path",
+        "guideReaderMatchesOriginal": true
+      },
+      {
+        "id": "right-view-intention",
+        "key": "正見正志",
+        "bookId": "eightfold-path",
+        "guideReaderMatchesOriginal": true
+      },
+      {
+        "id": "right-concentration",
+        "key": "正定",
+        "bookId": "eightfold-path",
+        "guideReaderMatchesOriginal": true
+      },
+      {
+        "id": "eightfold-action-group",
+        "key": "八正道中組",
+        "bookId": "eightfold-path",
+        "guideReaderMatchesOriginal": true
+      },
+      {
+        "id": "four-purities",
+        "key": "四不壞淨",
+        "bookId": "four-purities-six-recollections",
+        "guideReaderMatchesOriginal": true
+      },
+      {
+        "id": "six-recollections",
+        "key": "六念",
+        "bookId": "four-purities-six-recollections",
+        "guideReaderMatchesOriginal": true
+      },
+      {
+        "id": "four-mindfulness",
+        "key": "四念處",
+        "bookId": "mindfulness",
+        "guideReaderMatchesOriginal": true
+      },
+      {
+        "id": "four-inversions",
+        "key": "四顛倒",
+        "bookId": "mindfulness",
+        "guideReaderMatchesOriginal": true
+      },
+      {
+        "id": "right-effort",
+        "key": "四正勤",
+        "bookId": "right-effort",
+        "guideReaderMatchesOriginal": true
+      },
+      {
+        "id": "ten-wholesome",
+        "key": "十善業道",
+        "bookId": "eightfold-path",
+        "guideReaderMatchesOriginal": true
+      },
+      {
+        "id": "four-jhanas",
+        "key": "四禪",
+        "bookId": "four-jhanas",
+        "guideReaderMatchesOriginal": true
+      },
+      {
+        "id": "iddhipada",
+        "key": "四如意足",
+        "bookId": "iddhipada",
+        "guideReaderMatchesOriginal": true
+      },
+      {
+        "id": "anapana",
+        "key": "安那般那與止觀",
+        "bookId": "anapana",
+        "guideReaderMatchesOriginal": true
+      },
+      {
+        "id": "four-truths",
+        "key": "四聖諦總說",
+        "bookId": "four-truths",
+        "guideReaderMatchesOriginal": true
+      },
+      {
+        "id": "five-aggregates",
+        "key": "五陰",
+        "bookId": "five-aggregates",
+        "guideReaderMatchesOriginal": true
+      },
+      {
+        "id": "six-senses",
+        "key": "六處",
+        "bookId": "six-senses",
+        "guideReaderMatchesOriginal": true
+      },
+      {
+        "id": "twelve-links",
+        "key": "十二因緣",
+        "bookId": "twelve-links",
+        "guideReaderMatchesOriginal": true
+      },
+      {
+        "id": "four-fruits",
+        "key": "四向四果",
+        "bookId": "four-fruits-ten-fetters",
+        "guideReaderMatchesOriginal": true
+      }
+    ],
+    "duplicateEightfold": "two visual instances, one stable book ID and same original targets",
+    "mindfulnessChain": [
+      "four-mindfulness",
+      "right-mindfulness",
+      "mindfulness-awakening",
+      "mindfulness-root-power"
+    ],
+    "conceptAssets": [
+      {
+        "file": "network-sea-concept.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "mode": "RGB",
+        "alphaExtrema": null,
+        "sha256": "e7995ffae3e8b18b05d5becc5f5753e5ca74a4b4769f10b7e9de258e8d96f6b6"
+      },
+      {
+        "file": "island-atlas-concept.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "mode": "RGBA",
+        "alphaExtrema": [
+          0,
+          253
+        ],
+        "sha256": "c72efa220df2626fc9dd3db53f4cd8a30edc8968eb3d80f7a9e5788be05cce8d"
+      },
+      {
+        "file": "kitten-rowboat-concept.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "mode": "RGBA",
+        "alphaExtrema": [
+          0,
+          254
+        ],
+        "sha256": "05d986c118ae680cca2524a85efd4508460931ee20b2b77b44f1c30fec0a6bef"
+      }
+    ]
+  },
+  "sizes": [
+    {
+      "size": [
+        1280,
+        900
+      ],
+      "visibleInstances": 32,
+      "uniqueNodes": 31,
+      "mountains": 15,
+      "seaIslands": 17,
+      "actualDialogs": 32,
+      "buttonCenterOverlaps": 0,
+      "concentrationCluster": [
+        {
+          "id": "anapana",
+          "p": {
+            "x": 65.84,
+            "y": 69.12
+          }
+        },
+        {
+          "id": "iddhipada",
+          "p": {
+            "x": 72.88,
+            "y": 71.32000000000001
+          }
+        },
+        {
+          "id": "four-jhanas",
+          "p": {
+            "x": 69.36,
+            "y": 81.44
+          }
+        }
+      ],
+      "road": "curved from right-bottom 道 portal to original 道路 entrance",
+      "overviewAndLocate": "passed",
+      "localStorageWrites": 0
+    },
+    {
+      "size": [
+        390,
+        844
+      ],
+      "visibleInstances": 32,
+      "uniqueNodes": 31,
+      "mountains": 15,
+      "seaIslands": 17,
+      "actualDialogs": 32,
+      "buttonCenterOverlaps": 0,
+      "concentrationCluster": [
+        {
+          "id": "anapana",
+          "p": {
+            "x": 65.84,
+            "y": 69.12
+          }
+        },
+        {
+          "id": "iddhipada",
+          "p": {
+            "x": 72.88,
+            "y": 71.32000000000001
+          }
+        },
+        {
+          "id": "four-jhanas",
+          "p": {
+            "x": 69.36,
+            "y": 81.44
+          }
+        }
+      ],
+      "road": "curved from right-bottom 道 portal to original 道路 entrance",
+      "overviewAndLocate": "passed",
+      "localStorageWrites": 0
+    },
+    {
+      "size": [
+        844,
+        390
+      ],
+      "visibleInstances": 32,
+      "uniqueNodes": 31,
+      "mountains": 15,
+      "seaIslands": 17,
+      "actualDialogs": 32,
+      "buttonCenterOverlaps": 0,
+      "concentrationCluster": [
+        {
+          "id": "anapana",
+          "p": {
+            "x": 65.84,
+            "y": 69.12
+          }
+        },
+        {
+          "id": "iddhipada",
+          "p": {
+            "x": 72.88,
+            "y": 71.32000000000001
+          }
+        },
+        {
+          "id": "four-jhanas",
+          "p": {
+            "x": 69.36,
+            "y": 81.44
+          }
+        }
+      ],
+      "road": "curved from right-bottom 道 portal to original 道路 entrance",
+      "overviewAndLocate": "passed",
+      "localStorageWrites": 0
+    },
+    {
+      "size": [
+        768,
+        1024
+      ],
+      "visibleInstances": 32,
+      "uniqueNodes": 31,
+      "mountains": 15,
+      "seaIslands": 17,
+      "actualDialogs": 32,
+      "buttonCenterOverlaps": 0,
+      "concentrationCluster": [
+        {
+          "id": "anapana",
+          "p": {
+            "x": 65.84,
+            "y": 69.12
+          }
+        },
+        {
+          "id": "iddhipada",
+          "p": {
+            "x": 72.88,
+            "y": 71.32000000000001
+          }
+        },
+        {
+          "id": "four-jhanas",
+          "p": {
+            "x": 69.36,
+            "y": 81.44
+          }
+        }
+      ],
+      "road": "curved from right-bottom 道 portal to original 道路 entrance",
+      "overviewAndLocate": "passed",
+      "localStorageWrites": 0
+    },
+    {
+      "size": [
+        1024,
+        768
+      ],
+      "visibleInstances": 32,
+      "uniqueNodes": 31,
+      "mountains": 15,
+      "seaIslands": 17,
+      "actualDialogs": 32,
+      "buttonCenterOverlaps": 0,
+      "concentrationCluster": [
+        {
+          "id": "anapana",
+          "p": {
+            "x": 65.84,
+            "y": 69.12
+          }
+        },
+        {
+          "id": "iddhipada",
+          "p": {
+            "x": 72.88,
+            "y": 71.32000000000001
+          }
+        },
+        {
+          "id": "four-jhanas",
+          "p": {
+            "x": 69.36,
+            "y": 81.44
+          }
+        }
+      ],
+      "road": "curved from right-bottom 道 portal to original 道路 entrance",
+      "overviewAndLocate": "passed",
+      "localStorageWrites": 0
+    }
+  ],
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "physicalSafari": "not tested",
+  "publication": "not published; local HTTP only",
+  "newConceptAssets": [
+    {
+      "file": "continent-concept.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "sha256": "9a80bb4835a8a3b4b047e187e5ef9e463f18b9a3668012c6f8bb3536b88ffc9e"
+    },
+    {
+      "file": "mountain-atlas-concept.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "sha256": "12e5989feaca8aa32163c3d6c3a0c0cd2b53b24bb0738c587f002b379a726f85"
+    },
+    {
+      "file": "library-concept.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "sha256": "cabee17485a87af331b3ce91b6d44b55cc56ea0b8c075eedbc2261e11887adb0"
+    }
+  ],
+  "roadGeometry": {
+    "start": [
+      1454.4000244140625,
+      1173.1199951171875
+    ],
+    "end": [
+      187.1999969482422,
+      543.9199829101562
+    ],
+    "expectedStart": [
+      1454.3999999999999,
+      1173.12
+    ],
+    "expectedEnd": [
+      187.20000000000002,
+      543.9200000000001
+    ],
+    "samples": [
+      [
+        1454.4000244140625,
+        1173.1199951171875
+      ],
+      [
+        1552.9365234375,
+        1131.5660400390625
+      ],
+      [
+        1582.1396484375,
+        1058.637451171875
+      ],
+      [
+        1474.9180908203125,
+        1065.0028076171875
+      ],
+      [
+        1367.5296630859375,
+        1067.242431640625
+      ],
+      [
+        1260.1209716796875,
+        1066.115966796875
+      ],
+      [
+        1152.744140625,
+        1063.1700439453125
+      ],
+      [
+        1045.3525390625,
+        1060.8992919921875
+      ],
+      [
+        937.9635620117188,
+        1062.69287109375
+      ],
+      [
+        830.7081298828125,
+        1068.4180908203125
+      ],
+      [
+        723.300537109375,
+        1068.5797119140625
+      ],
+      [
+        615.9520263671875,
+        1064.826904296875
+      ],
+      [
+        508.70672607421875,
+        1058.7642822265625
+      ],
+      [
+        401.53155517578125,
+        1051.5523681640625
+      ],
+      [
+        294.3591613769531,
+        1044.30078125
+      ],
+      [
+        187.80624389648438,
+        1033.4278564453125
+      ],
+      [
+        119.27073669433594,
+        956.8685302734375
+      ],
+      [
+        120.90558624267578,
+        850.4871215820312
+      ],
+      [
+        131.0334014892578,
+        744.2407836914062
+      ],
+      [
+        136.5436248779297,
+        637.3598022460938
+      ],
+      [
+        187.1999969482422,
+        543.9199829101562
+      ]
+    ]
+  },
+  "roadOpaqueContinentAlphaSamples": [
+    252,
+    251,
+    252,
+    251,
+    252,
+    252,
+    252,
+    252,
+    251,
+    253,
+    252,
+    252,
+    252,
+    252,
+    252,
+    251,
+    252,
+    251,
+    252,
+    251,
+    253
+  ]
+}

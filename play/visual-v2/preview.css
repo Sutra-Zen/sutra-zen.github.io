@@ -10,3 +10,5 @@
 @media(min-width:801px){.scene-scroll{max-height:none}}
 
 .lock-dot{display:grid;place-items:center}.lock-dot img{width:16px;height:16px;filter:invert(1)}
+
+.title-row nav .shelf-nav{font-size:14px;display:flex;align-items:center;text-decoration:none;padding:8px 14px;color:#4e6f45;white-space:nowrap}.title-row nav{flex-wrap:wrap}@media(max-width:540px){.title-row nav .shelf-nav{justify-content:center;width:100%;border-top:1px solid #ded4b8}}

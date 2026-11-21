@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-21",
+  "roles": [
+    "single continuous mainland plus upturned west peninsula",
+    "four mountain paint variants reused for15 separately interactive topic peaks",
+    "empty painted library backdrop; covers and labels are HTML"
+  ],
+  "assets": [
+    {
+      "path": "play/visual-v2/assets/continent-concept.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "bytes": 2318311,
+      "sha256": "9a80bb4835a8a3b4b047e187e5ef9e463f18b9a3668012c6f8bb3536b88ffc9e",
+      "status": "generated concept pending author confirmation"
+    },
+    {
+      "path": "play/visual-v2/assets/mountain-atlas-concept.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "bytes": 3082144,
+      "sha256": "12e5989feaca8aa32163c3d6c3a0c0cd2b53b24bb0738c587f002b379a726f85",
+      "status": "generated concept pending author confirmation"
+    },
+    {
+      "path": "play/visual-v2/assets/library-concept.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "bytes": 3502536,
+      "sha256": "cabee17485a87af331b3ce91b6d44b55cc56ea0b8c075eedbc2261e11887adb0",
+      "status": "generated concept pending author confirmation"
+    }
+  ]
+}

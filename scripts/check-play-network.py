@@ -19,7 +19,10 @@ def normal(href,base):
 
 def static_checks():
  tracked=subprocess.check_output(['git','ls-tree','-r','--name-only',BASE],cwd=R,text=True).splitlines();protected=[p for p in tracked if p.startswith(('play/','four-truths/','five-aggregates/','six-senses/','docs/seo/')) or p in ['AGENTS.md','index.html','shelf.css','sitemap.xml','robots.txt','googlee0c995331ec518ae.html','reader-controls.css','reader-layout.js','reader-restart.js']]
- for name in protected:assert (R/name).read_bytes()==subprocess.check_output(['git','show',BASE+':'+name],cwd=R),name
+ for name in protected:
+  current=(R/name).read_bytes()
+  if name.endswith('/book/index.html'):current=current.replace(b'<script type="module" src="../../play/collection/reader-bridge.js?v=1"></script>\n',b'')
+  assert current==subprocess.check_output(['git','show',BASE+':'+name],cwd=R),name
  source=(R/'index.html').read_text();data=json.loads(re.search(r'const dhammaData = (.*?);\s*\n',source)[1]);tree=html.fromstring(source)
  clicks=[re.search(r"openModal\('([^']+)'\)",e.get('onclick') or '') for e in tree.xpath('//*[@onclick]')];keys=[m[1] for m in clicks if m]
  nodes=exported('NODES');instances=exported('INSTANCES');edges=exported('EDGES');by_id={n['id']:n for n in nodes}
@@ -43,7 +46,7 @@ def static_checks():
  for name in ['network-sea-concept.png','island-atlas-concept.png','kitten-rowboat-concept.png']:
   path=R/'play/visual-v2/assets'/name
   with Image.open(path) as im:assets.append({'file':name,'dimensions':list(im.size),'mode':im.mode,'alphaExtrema':list(im.getchannel('A').getextrema()) if 'A' in im.getbands() else None,'sha256':hashlib.sha256(path.read_bytes()).hexdigest()})
- return {'baseline':BASE,'protectedFiles':len(protected),'protectedFilesByteEquality':'passed; v1, first three readers and original homepage/SEO untouched','uniqueModalKeys':len(nodes),'visualInstances':len(instances),'sourceEdges':len(edges),'sourceDerivedMapping':checked,'duplicateEightfold':'two visual instances, one stable book ID and same original targets','mindfulnessChain':chain,'conceptAssets':assets}
+ return {'baseline':BASE,'protectedFiles':len(protected),'protectedFilesByteEquality':'passed; v1 and original site untouched, reader HTML only authorized collection-module inclusion','uniqueModalKeys':len(nodes),'visualInstances':len(instances),'sourceEdges':len(edges),'sourceDerivedMapping':checked,'duplicateEightfold':'two visual instances, one stable book ID and same original targets','mindfulnessChain':chain,'conceptAssets':assets}
 
 class Quiet(http.server.SimpleHTTPRequestHandler):
  def log_message(self,*args):pass
@@ -60,12 +63,12 @@ def main():
   for w,h in SIZES:
    page.set_viewport_size({'width':w,'height':h});page.goto(base+'play/visual-v2/',wait_until='domcontentloaded');page.evaluate('()=>document.fonts.ready')
    page.wait_for_selector('.network-island[data-node="four-truths"]');page.locator('.network-sea').evaluate('e=>e.decode()');page.locator('.network-footer img').evaluate('e=>e.decode()')
-   nodes=exported('NODES');by_id={n['id']:n for n in nodes};instances=exported('INSTANCES')
-   assert page.locator('.network-island').count()==33 and len(set(page.locator('.network-island').evaluate_all('els=>els.map(e=>e.dataset.node)')))==32
+   nodes=exported('NODES');by_id={n['id']:n for n in nodes};instances=[i for i in exported('INSTANCES') if i['nodeId']!='related-overview']
+   assert page.locator('.network-island').count()==32 and len(set(page.locator('.network-island').evaluate_all('els=>els.map(e=>e.dataset.node)')))==31
    center_overlaps=page.locator('.network-island').evaluate_all('els=>{const r=els.map(e=>({id:e.dataset.instance,b:e.getBoundingClientRect()}));return r.flatMap(a=>r.filter(b=>a.id!==b.id&&a.b.x+a.b.width/2>b.b.left&&a.b.x+a.b.width/2<b.b.right&&a.b.y+a.b.height/2>b.b.top&&a.b.y+a.b.height/2<b.b.bottom).map(b=>[a.id,b.id]))}')
    assert not center_overlaps,center_overlaps
    assert '閱讀導覽不是修證次第' in page.locator('.network-footer').inner_text()
-   assert '單向關卡' in page.locator('.network-note').inner_text()
+   assert '閱讀航線仍只是導覽' in page.locator('.network-note').inner_text()
    route_color=page.locator('.network-reading-route').evaluate('e=>getComputedStyle(e).stroke');relation_color=page.locator('.network-edge').first.evaluate('e=>getComputedStyle(e).stroke');assert route_color!=relation_color
    point_info=page.evaluate("async()=>{const d=await import('./network-data.js'),n=await import('./network.js');const p=id=>n.point(d.INSTANCES.find(i=>i.nodeId===id));return {truth:p('four-truths'),roots:p('roots-powers-overview'),eightfoldRoute:n.routeInstance('eightfold-path').id}}")
    assert point_info['truth']['x']>point_info['roots']['x'] and point_info['truth']['y']>point_info['roots']['y']
@@ -105,12 +108,13 @@ def main():
    if w in [1280,390]:page.screenshot(path=str(O/f'hero-without-lantern-{w}x{h}.png'),full_page=True)
    assert not page.evaluate('document.documentElement.scrollWidth>innerWidth+1')
    assert page.evaluate("localStorage.getItem('sutrazen.play.v1')==='network-qa-preserve'&&localStorage.getItem('sutrazen.qa.unrelated')==='preserve'&&window.__qaStorageWrites.length===0")
-   report['viewports'].append({'size':[w,h],'instanceDialogs':33,'pairwiseButtonCenterOverlaps':0,'mindfulnessChain':'related-button traversal and connected edge highlights passed','routeVsRelations':'different strokes and independent toggles; no required-unlock claim','mirroredLRoute':'lower-right truth to upper-left summaries; eightfold bottom portal retained','locateControls':3,'fullOverview':'no internal crop','activeProtagonist':'new neutral rowboat, no lantern image or HTML 念 prop; city guardian 念 retained','storageWrites':0,'outsideSceneOverflow':False})
+   report['viewports'].append({'size':[w,h],'instanceDialogs':32,'visibleUniqueNodes':31,'removedOverview':'related-overview is now a noninteractive continent label','pairwiseButtonCenterOverlaps':0,'mindfulnessChain':'related-button traversal and connected edge highlights passed','routeVsRelations':'different strokes and independent toggles; no required-unlock claim','mirroredLRoute':'lower-right truth to upper-left summaries; eightfold bottom portal retained','locateControls':3,'fullOverview':'no internal crop','activeProtagonist':'new neutral rowboat, no lantern image or HTML 念 prop; city guardian 念 retained','storageWrites':0,'outsideSceneOverflow':False})
    print(w,h,'network passed',flush=True)
   # Follow real source and reader anchors once; all 32 target mappings were checked above.
   page.locator('[data-view="network"]').click();page.locator('.network-island[data-node="four-mindfulness"]').click();page.locator('[data-network-guide]').click();page.wait_for_load_state('domcontentloaded');assert '/mindfulness/' in page.url and page.locator('h1').count()==1
   page.go_back(wait_until='domcontentloaded');page.wait_for_selector('.network-island');page.locator('.network-island[data-node="four-mindfulness"]').click();page.locator('[data-network-reader]').click();page.wait_for_selector('#position-text');assert '/mindfulness/book/' in page.url and page.locator('#next').count()==1
-  report['actualNavigation']='Four Mindfulness guide and original full reader loaded through native anchors'
+  page.wait_for_function('document.body?.dataset.collectionBook==="mindfulness"');assert page.evaluate("localStorage.getItem('sutrazen.play.v1')==='network-qa-preserve'&&window.__qaStorageWrites.every(w=>w.args[0]==='sutrazen.play.collection.v1')")
+  report['actualNavigation']='Four Mindfulness guide and original full reader loaded through native anchors; explicit reader opt-in writes only collection namespace'
   browser.close()
  server.shutdown();assert not report['javascriptErrors'] and not report['httpErrors'],report
  (O/'validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps(report,ensure_ascii=False,indent=2))

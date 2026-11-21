@@ -39,6 +39,10 @@ Original author-supplied handoff documents, manifests, screenshots and historica
 
 The twelve-link reader is implemented in twelve-links/ and preserves 77 pages: 18 narrative scenes plus an afterword. The author approved publication on 2026-11-14. Verify the corresponding GitHub Pages deployment before claiming live availability.
 
+## Collection and continent preview (2026-11-21, not published)
+
+`preview/journey-visual-v2` now includes a connected bottom continent with topic mountains and a shelf for collecting fourteen books. An independent `sutrazen.play.collection.v1` store and opt-in reader module support explicit end-of-book completion across all fourteen originals; each book HTML only adds the module, preserving standalone behavior. The first-three-book journey remains separate. See `docs/play/collection/README.md` and newest HANDOFF for actual1192-step verification, art limitations and local entry routes. PR59 is a draft against the prototype branch, with no main merge or public deployment authorized.
+
 ## Picture-book journey prototype (2026-11-21, not published)
 
 Branch `feat/picture-book-journey-v1` adds an isolated `/play/` prototype for the first three original books, opt-in reader progress and a six-gate SN35.245 castle sketch. It does not replace the map, promote itself from the homepage or change Pages. No merge/deployment is authorized for this task. Run a local root HTTP server and open `/play/`; see `docs/play/README.md` for implementation boundaries, source verification, provisional character art, save schema and validation. The proposed production URL is not evidence of public availability.

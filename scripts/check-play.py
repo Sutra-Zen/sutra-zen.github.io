@@ -70,8 +70,8 @@ def main():
   assert original == (ROOT/name).read_bytes(), 'protected file changed: ' + name
  report['protectedFiles'] = protected
  for book in BOOKS:
-  path=book+'/book/index.html';original=subprocess.check_output(['git','show',BASELINE+':'+path],cwd=ROOT);current=(ROOT/path).read_bytes();tag=b'<script type="module" src="../../play/reader-bridge.js?v=1"></script>\n';assert current.count(tag)==1 and current.replace(tag,b'')==original,path
- report['readerHTMLChanges']='Each original HTML differs by exactly one opt-in module script inclusion; all other bytes unchanged'
+  path=book+'/book/index.html';original=subprocess.check_output(['git','show',BASELINE+':'+path],cwd=ROOT);current=(ROOT/path).read_bytes().replace(b'<script type="module" src="../../play/collection/reader-bridge.js?v=1"></script>\n',b'');tag=b'<script type="module" src="../../play/reader-bridge.js?v=1"></script>\n';assert current.count(tag)==1 and current.replace(tag,b'')==original,path
+ report['readerHTMLChanges']='Each original HTML retains v1 opt-in script; newer authorized collection inclusion is inert without collection=1; all original bytes unchanged'
  with sync_playwright() as p:
   browser = p.chromium.launch(executable_path='/usr/bin/chromium', args=['--no-sandbox'])
   context = browser.new_context(viewport={'width':1280, 'height':900}, reduced_motion='reduce')

@@ -1,0 +1,39 @@
+{
+  "viewports": [
+    {
+      "size": [
+        1280,
+        900
+      ],
+      "buttons": 32,
+      "unique": 31,
+      "mountains": 15,
+      "noRelatedOverviewButton": true,
+      "noDocumentOverflow": true,
+      "overview": true,
+      "errors": []
+    },
+    {
+      "size": [
+        390,
+        844
+      ],
+      "buttons": 32,
+      "unique": 31,
+      "mountains": 15,
+      "noRelatedOverviewButton": true,
+      "noDocumentOverflow": true,
+      "overview": false,
+      "errors": []
+    }
+  ],
+  "visualInspection": {
+    "continuousContinent": "one connected bottom landmass with western peninsula; fifteen painted mountain markers on land",
+    "concentrationCluster": "Anapana, Iddhipada and Four Jhanas form one nearby three-peak group",
+    "relatedOverview": "not a button; region heading only",
+    "road": "SVG return path connects right-bottom Eightfold Path port to Road entrance along land;101sampled centerline points all lie on continent alpha>=128",
+    "roadContrast": "return path is subtle over detailed ground; default reading-route gold dashes are more prominent",
+    "mobile": "390 screenshot is default panning/exploration view centered on Four Truths, not overview; optional full overview screenshot in /tmp/continent-mobile-overview.png"
+  },
+  "physicalSafari": "not tested"
+}
