@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "replayBook": "five-aggregates",
+  "positions": {
+    "four-truths": 28,
+    "five-aggregates": 53,
+    "six-senses": 114
+  },
+  "freePositions": {},
+  "completed": [
+    "four-truths",
+    "five-aggregates",
+    "six-senses"
+  ],
+  "activeBook": "five-aggregates",
+  "orderedBook": "five-aggregates",
+  "mode": "ordered",
+  "settings": {
+    "locale": "zh-Hant",
+    "reducedMotion": false
+  }
+}

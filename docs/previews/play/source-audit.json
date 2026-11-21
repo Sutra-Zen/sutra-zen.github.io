@@ -1,0 +1,87 @@
+{
+  "viewports": [
+    {
+      "size": [
+        360,
+        800
+      ],
+      "sixGates": true,
+      "eightMappings": true,
+      "noPageOverflow": true,
+      "diagramScroll": {
+        "width": 328,
+        "scroll": 740
+      },
+      "errors": []
+    },
+    {
+      "size": [
+        768,
+        1024
+      ],
+      "sixGates": true,
+      "eightMappings": true,
+      "noPageOverflow": true,
+      "diagramScroll": {
+        "width": 722,
+        "scroll": 740
+      },
+      "errors": []
+    },
+    {
+      "size": [
+        1024,
+        900
+      ],
+      "sixGates": true,
+      "eightMappings": true,
+      "noPageOverflow": true,
+      "diagramScroll": {
+        "width": 978,
+        "scroll": 978
+      },
+      "errors": []
+    }
+  ],
+  "links": [
+    {
+      "url": "https://suttacentral.net/sn35.245/zh/zhuang",
+      "status": 200,
+      "bytes": 9336,
+      "titleFound": true,
+      "contentNote": "HTTP response checked; JavaScript provider app may require browser rendering."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/482faafde8b9c52689d7926004706939f573cf2b/html_text/zh/pli/sutta/sn/sn35/sn35.245.html",
+      "status": 200,
+      "bytes": 5997,
+      "titleFound": true,
+      "contentNote": "HTTP response checked; JavaScript provider app may require browser rendering."
+    },
+    {
+      "url": "https://www.accesstoinsight.org/tipitaka/sn/sn35/sn35.204.than.html",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "note": "Original source text independently verified from fixed repository snapshots."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/alexgenaud/AccessToInsight/9f446378e0b1987d9596ec4cf853fd026442ee0a/tipitaka/sn/sn35/sn35.204.than.html",
+      "status": 200,
+      "bytes": 15740,
+      "titleFound": true,
+      "contentNote": "HTTP response checked; JavaScript provider app may require browser rendering."
+    },
+    {
+      "url": "https://cbetaonline.dila.edu.tw/zh/T0099_043",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "note": "Original source text independently verified from fixed repository snapshots."
+    },
+    {
+      "url": "https://buddhaspace.org/agama/sub/1175.html",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "note": "Original scripture separately verified from repository; annotation page itself not read."
+    }
+  ],
+  "method": "Source-content audit and direct HTTP checks; no claim of successful rendered external app/blocked annotation browser pages.",
+  "snapshot": "05-city-blueprint.png",
+  "physicalSafari": "not tested"
+}

@@ -39,6 +39,10 @@ Original author-supplied handoff documents, manifests, screenshots and historica
 
 The twelve-link reader is implemented in twelve-links/ and preserves 77 pages: 18 narrative scenes plus an afterword. The author approved publication on 2026-11-14. Verify the corresponding GitHub Pages deployment before claiming live availability.
 
+## Picture-book journey prototype (2026-11-21, not published)
+
+Branch `feat/picture-book-journey-v1` adds an isolated `/play/` prototype for the first three original books, opt-in reader progress and a six-gate SN35.245 castle sketch. It does not replace the map, promote itself from the homepage or change Pages. No merge/deployment is authorized for this task. Run a local root HTTP server and open `/play/`; see `docs/play/README.md` for implementation boundaries, source verification, provisional character art, save schema and validation. The proposed production URL is not evidence of public availability.
+
 ## Visual and reading experience
 - Picture-book visual language: gentle hand-drawn children's illustration, recurring kitten character where appropriate, 16:9 artwork.
 - Prefer concise, accurate Traditional Chinese on illustrations; narration and textual content should be faithful to cited Buddhist texts.
