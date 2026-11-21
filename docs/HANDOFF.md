@@ -1,3 +1,11 @@
+# 四不壞淨第1幕原圖錯字替換（2026-11-21）
+
+作者以1107518A-B643-40F7-82D9-CE2C27F541A9.PNG.zip提供修正隨法行／隨信行／須陀洹／涅槃的正式圖片；PNG1679×937、4104182bytes，SHA-256 e0f4cd6a9d12e19b35aded3ea027a00c6e6d7731ff37b41daf9abd762892245a。直接保留原PNG，未重繪、裁切或轉檔。原IMG_0393.jpeg及原manifest留存，新增replacement-assets.json，image-assignments.json新增S01→assets/S01-corrected.png；建置器同時驗原素材與替換素材。第1幕12頁改用新圖／尺寸，總95頁、原93筆口白及所有經文／時間／分鏡／疊字不改，之前S06僧不壞淨／S07聖戒對應維持。初始HTML圖片及資料快取同步更新。
+
+五尺寸85個S01及鄰幕／收尾狀態，原圖SHA與完整比例、上下字幕／經文、目錄／翻頁／快按／旋轉／讀經／末頁重讀／回地圖通過，無JS／本機HTTP錯誤及溢出。見docs/previews/four-purities-corrected/。依作者持續維護發布授權，以PR合併main並核對Pages同SHA、正式新站圖片／資料與固定版本完整ZIP；實際證據補於PR。Notion工具未提供、尚未寫入，待補記docs/releases/four-purities-image-notion.md。實體Safari未測。
+
+---
+
 # 十四本回修道地圖與閱讀格式統一（2026-11-20）
 
 作者明確要求統一加入回修道地圖並發布。從main a3dc88dc建立fix/unified-reader-map-navigation；前九本補直接返回../../index.html，十四本固定閱讀原經／回修道地圖同一組位置，前三本經文按鈕改本頁經文。共用reader-controls.css以實際scene寬度留出左下兩連結空間，避免五陰等書舊gutter值造成壓文；觸控manipulation及末頁重讀維持。

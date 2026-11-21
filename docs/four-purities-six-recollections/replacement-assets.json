@@ -1,0 +1,17 @@
+[
+  {
+    "path": "assets/S01-corrected.png",
+    "originalFilename": "1107518A-B643-40F7-82D9-CE2C27F541A9.PNG",
+    "role": "illustration",
+    "sceneId": "S01",
+    "width": 1679,
+    "height": 937,
+    "bytes": 4104182,
+    "sha256": "e0f4cd6a9d12e19b35aded3ea027a00c6e6d7731ff37b41daf9abd762892245a",
+    "sourceArchive": "1107518A-B643-40F7-82D9-CE2C27F541A9.PNG.zip",
+    "sourceArchiveSha256": "8eb5bc1d6357dd87b183937a9c87c5c81520f1ec55e319566cfdbfe2b3d0df45",
+    "approvedDate": "2026-11-21",
+    "reason": "作者提供正確文字版本，替換第1幕原AI錯字。原PNG逐位元組保留，不重新生成或轉檔。",
+    "replaces": "assets/IMG_0393.jpeg"
+  }
+]
