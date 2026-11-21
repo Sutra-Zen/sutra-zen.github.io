@@ -1,0 +1,29 @@
+{
+  "states": 85,
+  "sizes": [
+    [
+      360,
+      800
+    ],
+    [
+      800,
+      360
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      1440,
+      900
+    ]
+  ],
+  "errors": [],
+  "httpErrors": [],
+  "originalPngSha256": "e0f4cd6a9d12e19b35aded3ea027a00c6e6d7731ff37b41daf9abd762892245a",
+  "physicalSafari": "not tested"
+}

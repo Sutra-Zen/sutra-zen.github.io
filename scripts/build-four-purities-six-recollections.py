@@ -15,10 +15,13 @@ def compile_book():
     assets = json.loads((DOCS / 'assets-manifest.json').read_text())
     art = {a['path']: a for a in assets if a['role'] == 'illustration'}
     assert len(art) == 8
-    for a in assets:
+    replacement_path = DOCS / 'replacement-assets.json'
+    replacements = json.loads(replacement_path.read_text()) if replacement_path.exists() else []
+    for a in assets + replacements:
         raw = (DOCS / a['path']).read_bytes()
         assert len(raw) == a['bytes']
         assert hashlib.sha256(raw).hexdigest() == a['sha256'], a['path']
+    art.update({a['path']: a for a in replacements if a['role'] == 'illustration'})
     corrections_path = DOCS / 'editorial-corrections.json'
     corrections = json.loads(corrections_path.read_text()) if corrections_path.exists() else []
     assignments = json.loads((DOCS / 'image-assignments.json').read_text())
@@ -50,6 +53,7 @@ def compile_book():
                           'quoteKey': quote_key if quote else None, 'end': end})
     assert sum(len(s['topSubtitle']['cues']) for s in story['scenes']) == 93
     assert len(pages) == 94
+    assert len({p['image'] for p in pages}) == 8
     scenes.append({'id': 'afterword', 'title': '製作說明｜溫柔的起點', 'start': len(pages),
                    'topSubtitleLayout': {'align': 'left', 'color': 'white'}, 'artOverlay': []})
     pages.append({'scene': 'afterword', 'subtitle': 1, 'atSec': None,
@@ -77,4 +81,4 @@ if __name__ == '__main__':
     else:
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(result)
-    print('8 illustrations / 93 original captions / closing artwork / afterword = 95 pages; hashes OK')
+    print('8 active illustrations / 93 original captions / closing artwork / afterword = 95 pages; original and replacement hashes OK')

@@ -218,10 +218,10 @@ const BOOK = {
       "lines": [
         "在修行的這條小河畔，每個人的起點都不太一樣喔！"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0393.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/S01-corrected.png",
       "dimensions": [
-        1376,
-        768
+        1679,
+        937
       ],
       "verse": "比丘！若於此法以智慧思惟、觀察、分別、忍，是名隨信行；超昇離生，越凡夫地，未得須陀洹果，中間不死，必得須陀洹果。\n\n比丘！若於此法增上智慧思惟、觀察、忍，是名隨法行；超昇離生，越凡夫地，未得須陀洹果，中間不死，必得須陀洹果。",
       "verseLabel": "《雜阿含經》第61經",
@@ -237,10 +237,10 @@ const BOOK = {
       "lines": [
         "你看，這隻戴著學士帽、穿著學士袍的「隨法行」貓咪，"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0393.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/S01-corrected.png",
       "dimensions": [
-        1376,
-        768
+        1679,
+        937
       ],
       "verse": "比丘！若於此法以智慧思惟、觀察、分別、忍，是名隨信行；超昇離生，越凡夫地，未得須陀洹果，中間不死，必得須陀洹果。\n\n比丘！若於此法增上智慧思惟、觀察、忍，是名隨法行；超昇離生，越凡夫地，未得須陀洹果，中間不死，必得須陀洹果。",
       "verseLabel": "《雜阿含經》第61經",
@@ -256,10 +256,10 @@ const BOOK = {
       "lines": [
         "他擁有著敏銳的智慧，凡事都喜歡拿著放大鏡專注地觀察、思惟，"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0393.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/S01-corrected.png",
       "dimensions": [
-        1376,
-        768
+        1679,
+        937
       ],
       "verse": "比丘！若於此法以智慧思惟、觀察、分別、忍，是名隨信行；超昇離生，越凡夫地，未得須陀洹果，中間不死，必得須陀洹果。\n\n比丘！若於此法增上智慧思惟、觀察、忍，是名隨法行；超昇離生，越凡夫地，未得須陀洹果，中間不死，必得須陀洹果。",
       "verseLabel": "《雜阿含經》第61經",
@@ -275,10 +275,10 @@ const BOOK = {
       "lines": [
         "看清了書本中漂浮的邏輯，非得把生命的無常徹底想明白了，"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0393.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/S01-corrected.png",
       "dimensions": [
-        1376,
-        768
+        1679,
+        937
       ],
       "verse": "比丘！若於此法以智慧思惟、觀察、分別、忍，是名隨信行；超昇離生，越凡夫地，未得須陀洹果，中間不死，必得須陀洹果。\n\n比丘！若於此法增上智慧思惟、觀察、忍，是名隨法行；超昇離生，越凡夫地，未得須陀洹果，中間不死，必得須陀洹果。",
       "verseLabel": "《雜阿含經》第61經",
@@ -294,10 +294,10 @@ const BOOK = {
       "lines": [
         "才肯邁出安心的下一步。"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0393.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/S01-corrected.png",
       "dimensions": [
-        1376,
-        768
+        1679,
+        937
       ],
       "verse": "比丘！若於此法以智慧思惟、觀察、分別、忍，是名隨信行；超昇離生，越凡夫地，未得須陀洹果，中間不死，必得須陀洹果。\n\n比丘！若於此法增上智慧思惟、觀察、忍，是名隨法行；超昇離生，越凡夫地，未得須陀洹果，中間不死，必得須陀洹果。",
       "verseLabel": "《雜阿含經》第61經",
@@ -313,10 +313,10 @@ const BOOK = {
       "lines": [
         "而另一邊，是這隻雙手合十、眼神澄澈的「隨信行」小兔，"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0393.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/S01-corrected.png",
       "dimensions": [
-        1376,
-        768
+        1679,
+        937
       ],
       "verse": "比丘！若於此法以智慧思惟、觀察、分別、忍，是名隨信行；超昇離生，越凡夫地，未得須陀洹果，中間不死，必得須陀洹果。\n\n比丘！若於此法增上智慧思惟、觀察、忍，是名隨法行；超昇離生，越凡夫地，未得須陀洹果，中間不死，必得須陀洹果。",
       "verseLabel": "《雜阿含經》第61經",
@@ -332,10 +332,10 @@ const BOOK = {
       "lines": [
         "雖然他不像貓咪那樣理性思辨，但只要聽聞了清淨的佛法，"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0393.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/S01-corrected.png",
       "dimensions": [
-        1376,
-        768
+        1679,
+        937
       ],
       "verse": "比丘！若於此法以智慧思惟、觀察、分別、忍，是名隨信行；超昇離生，越凡夫地，未得須陀洹果，中間不死，必得須陀洹果。\n\n比丘！若於此法增上智慧思惟、觀察、忍，是名隨法行；超昇離生，越凡夫地，未得須陀洹果，中間不死，必得須陀洹果。",
       "verseLabel": "《雜阿含經》第61經",
@@ -351,10 +351,10 @@ const BOOK = {
       "lines": [
         "心中就會自然生起無比純淨的信任與安定，身邊就自然盛開出了蓮花。"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0393.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/S01-corrected.png",
       "dimensions": [
-        1376,
-        768
+        1679,
+        937
       ],
       "verse": "比丘！若於此法以智慧思惟、觀察、分別、忍，是名隨信行；超昇離生，越凡夫地，未得須陀洹果，中間不死，必得須陀洹果。\n\n比丘！若於此法增上智慧思惟、觀察、忍，是名隨法行；超昇離生，越凡夫地，未得須陀洹果，中間不死，必得須陀洹果。",
       "verseLabel": "《雜阿含經》第61經",
@@ -370,10 +370,10 @@ const BOOK = {
       "lines": [
         "你看，當這兩股不同的力量在主流匯合，他們都已經超越了凡夫的境界！"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0393.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/S01-corrected.png",
       "dimensions": [
-        1376,
-        768
+        1679,
+        937
       ],
       "verse": "比丘！若於此法以智慧思惟、觀察、分別、忍，是名隨信行；超昇離生，越凡夫地，未得須陀洹果，中間不死，必得須陀洹果。\n\n比丘！若於此法增上智慧思惟、觀察、忍，是名隨法行；超昇離生，越凡夫地，未得須陀洹果，中間不死，必得須陀洹果。",
       "verseLabel": "《雜阿含經》第61經",
@@ -389,10 +389,10 @@ const BOOK = {
       "lines": [
         "不管是貓咪那種理性的觀察智慧，還是小兔那份感性的信任信心，"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0393.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/S01-corrected.png",
       "dimensions": [
-        1376,
-        768
+        1679,
+        937
       ],
       "verse": "比丘！若於此法以智慧思惟、觀察、分別、忍，是名隨信行；超昇離生，越凡夫地，未得須陀洹果，中間不死，必得須陀洹果。\n\n比丘！若於此法增上智慧思惟、觀察、忍，是名隨法行；超昇離生，越凡夫地，未得須陀洹果，中間不死，必得須陀洹果。",
       "verseLabel": "《雜阿含經》第61經",
@@ -408,10 +408,10 @@ const BOOK = {
       "lines": [
         "只要目標一致，順著河流主流而下，他們都已經成為了「須陀洹」，"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0393.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/S01-corrected.png",
       "dimensions": [
-        1376,
-        768
+        1679,
+        937
       ],
       "verse": "比丘！若於此法以智慧思惟、觀察、分別、忍，是名隨信行；超昇離生，越凡夫地，未得須陀洹果，中間不死，必得須陀洹果。\n\n比丘！若於此法增上智慧思惟、觀察、忍，是名隨法行；超昇離生，越凡夫地，未得須陀洹果，中間不死，必得須陀洹果。",
       "verseLabel": "《雜阿含經》第61經",
@@ -427,10 +427,10 @@ const BOOK = {
       "lines": [
         "中間永不死去，必定能走向彼岸那光芒溫暖的「涅槃」寂靜！"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0393.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/S01-corrected.png",
       "dimensions": [
-        1376,
-        768
+        1679,
+        937
       ],
       "verse": "比丘！若於此法以智慧思惟、觀察、分別、忍，是名隨信行；超昇離生，越凡夫地，未得須陀洹果，中間不死，必得須陀洹果。\n\n比丘！若於此法增上智慧思惟、觀察、忍，是名隨法行；超昇離生，越凡夫地，未得須陀洹果，中間不死，必得須陀洹果。",
       "verseLabel": "《雜阿含經》第61經",
