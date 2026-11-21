@@ -1,0 +1,134 @@
+{
+  "previewOnly": true,
+  "originalTableText": "unchanged",
+  "sizes": [
+    {
+      "size": [
+        1200,
+        1200
+      ],
+      "overflow": "none",
+      "cards": [
+        {
+          "label": "禪定準備",
+          "height": 350,
+          "scroll": 345,
+          "client": 345,
+          "last": 655.8125,
+          "bottom": 701.5
+        },
+        {
+          "label": "入出息念・十六勝行",
+          "height": 350,
+          "scroll": 345,
+          "client": 345,
+          "last": 660.75,
+          "bottom": 701.5
+        },
+        {
+          "label": "調身｜身體微調",
+          "height": 270,
+          "scroll": 268,
+          "client": 268,
+          "last": 967.875,
+          "bottom": 1022.5
+        },
+        {
+          "label": "調心｜數・隨・止",
+          "height": 270,
+          "scroll": 268,
+          "client": 268,
+          "last": 981.875,
+          "bottom": 1022.5
+        }
+      ],
+      "anchor": "passed"
+    },
+    {
+      "size": [
+        768,
+        1024
+      ],
+      "overflow": "none",
+      "cards": [
+        {
+          "label": "禪定準備",
+          "height": 365,
+          "scroll": 360,
+          "client": 360,
+          "last": 621.125,
+          "bottom": 697
+        },
+        {
+          "label": "入出息念・十六勝行",
+          "height": 365,
+          "scroll": 360,
+          "client": 360,
+          "last": 629.90625,
+          "bottom": 697
+        },
+        {
+          "label": "調身｜身體微調",
+          "height": 285,
+          "scroll": 283,
+          "client": 283,
+          "last": 958.171875,
+          "bottom": 1033
+        },
+        {
+          "label": "調心｜數・隨・止",
+          "height": 285,
+          "scroll": 283,
+          "client": 283,
+          "last": 972.171875,
+          "bottom": 1033
+        }
+      ],
+      "anchor": "passed"
+    },
+    {
+      "size": [
+        390,
+        844
+      ],
+      "overflow": "none",
+      "cards": [
+        {
+          "label": "禪定準備",
+          "height": 321.3125,
+          "scroll": 316,
+          "client": 316,
+          "last": 663.0625,
+          "bottom": 683.0625
+        },
+        {
+          "label": "入出息念・十六勝行",
+          "height": 328.25,
+          "scroll": 323,
+          "client": 323,
+          "last": 1036.3125,
+          "bottom": 1054.3125
+        },
+        {
+          "label": "調身｜身體微調",
+          "height": 238.375,
+          "scroll": 236,
+          "client": 236,
+          "last": 1348.375,
+          "bottom": 1372.375
+        },
+        {
+          "label": "調心｜數・隨・止",
+          "height": 252.375,
+          "scroll": 250,
+          "client": 250,
+          "last": 1638.9375,
+          "bottom": 1662.9375
+        }
+      ],
+      "anchor": "passed"
+    }
+  ],
+  "errors": [],
+  "httpErrors": []
+}
