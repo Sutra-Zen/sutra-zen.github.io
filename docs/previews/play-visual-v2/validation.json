@@ -1,0 +1,266 @@
+{
+  "conceptImages": [
+    {
+      "file": "archipelago-concept.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "sha256": "1bba51877b345e62e6742ad34ec610b1249bc580f16902dc26e030854f4aaa08"
+    },
+    {
+      "file": "city-concept.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "sha256": "3b7825c808445f451b377f3f6f3dbdcdac89923c40e98d3d239f60ec50aba3b1"
+    },
+    {
+      "file": "garden-growth-concept.png",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "sha256": "6f7036993b3551abdcfd7974c7c4899f32c96a33a9525d46f2853a188d92af8f"
+    },
+    {
+      "file": "kitten-boat-concept.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "sha256": "b3831259de9a4aabd4fbdd78b566c5bc1b28262fa0c13202f059838b3c0724c5"
+    }
+  ],
+  "protectedFiles": 66,
+  "baseline": "5056201",
+  "allV1PlayAndFirstThreeBookFiles": "byte-for-byte unchanged",
+  "thumbnailInventory": [
+    {
+      "number": 1,
+      "id": "four-truths",
+      "originalIcon": "absent",
+      "coverHash": "passed",
+      "originalReader": "available"
+    },
+    {
+      "number": 2,
+      "id": "five-aggregates",
+      "originalIcon": "inline-svg",
+      "coverHash": "passed",
+      "originalReader": "available"
+    },
+    {
+      "number": 3,
+      "id": "six-senses",
+      "originalIcon": "inline-svg",
+      "coverHash": "passed",
+      "originalReader": "available"
+    },
+    {
+      "number": 4,
+      "id": "twelve-links",
+      "originalIcon": "inline-svg",
+      "coverHash": "passed",
+      "originalReader": "available"
+    },
+    {
+      "number": 5,
+      "id": "eightfold-path",
+      "originalIcon": "inline-svg",
+      "coverHash": "passed",
+      "originalReader": "available"
+    },
+    {
+      "number": 6,
+      "id": "four-fruits-ten-fetters",
+      "originalIcon": "inline-svg",
+      "coverHash": "passed",
+      "originalReader": "available"
+    },
+    {
+      "number": 7,
+      "id": "four-purities-six-recollections",
+      "originalIcon": "inline-svg",
+      "coverHash": "passed",
+      "originalReader": "available"
+    },
+    {
+      "number": 8,
+      "id": "mindfulness",
+      "originalIcon": "inline-svg",
+      "coverHash": "passed",
+      "originalReader": "available"
+    },
+    {
+      "number": 9,
+      "id": "right-effort",
+      "originalIcon": "inline-svg",
+      "coverHash": "passed",
+      "originalReader": "available"
+    },
+    {
+      "number": 10,
+      "id": "anapana",
+      "originalIcon": "inline-svg",
+      "coverHash": "passed",
+      "originalReader": "available"
+    },
+    {
+      "number": 11,
+      "id": "iddhipada",
+      "originalIcon": "inline-svg",
+      "coverHash": "passed",
+      "originalReader": "available"
+    },
+    {
+      "number": 12,
+      "id": "four-jhanas",
+      "originalIcon": "inline-svg",
+      "coverHash": "passed",
+      "originalReader": "available"
+    },
+    {
+      "number": 13,
+      "id": "five-roots-powers",
+      "originalIcon": "inline-svg",
+      "coverHash": "passed",
+      "originalReader": "available"
+    },
+    {
+      "number": 14,
+      "id": "seven-factors",
+      "originalIcon": "inline-svg",
+      "coverHash": "passed",
+      "originalReader": "available"
+    }
+  ],
+  "originalFirstBookIcon": "No locked icon existed; any wheel is explicitly a new UI marker",
+  "sizes": [
+    {
+      "size": [
+        1280,
+        900
+      ],
+      "islandDialogs": 14,
+      "cityHotspots": 13,
+      "tabsAndFeedback": "passed",
+      "simulationStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "flowerGrowthAndGateLights": "stages0/1 no growth,2 growth,3 growth+lights",
+      "locateButtons": 3,
+      "overviewFit": "no internal clipping",
+      "celebrationBoatAndContinue": "whole boat frame within scene scroll viewport; story and continue visible",
+      "storageWrites": 0,
+      "overflow": "none outside native scene pan"
+    },
+    {
+      "size": [
+        390,
+        844
+      ],
+      "islandDialogs": 14,
+      "cityHotspots": 13,
+      "tabsAndFeedback": "passed",
+      "simulationStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "flowerGrowthAndGateLights": "stages0/1 no growth,2 growth,3 growth+lights",
+      "locateButtons": 3,
+      "overviewFit": "no internal clipping",
+      "celebrationBoatAndContinue": "whole boat frame within scene scroll viewport; story and continue visible",
+      "storageWrites": 0,
+      "overflow": "none outside native scene pan"
+    },
+    {
+      "size": [
+        844,
+        390
+      ],
+      "islandDialogs": 14,
+      "cityHotspots": 13,
+      "tabsAndFeedback": "passed",
+      "simulationStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "flowerGrowthAndGateLights": "stages0/1 no growth,2 growth,3 growth+lights",
+      "locateButtons": 3,
+      "overviewFit": "no internal clipping",
+      "celebrationBoatAndContinue": "whole boat frame within scene scroll viewport; story and continue visible",
+      "storageWrites": 0,
+      "overflow": "none outside native scene pan"
+    },
+    {
+      "size": [
+        768,
+        1024
+      ],
+      "islandDialogs": 14,
+      "cityHotspots": 13,
+      "tabsAndFeedback": "passed",
+      "simulationStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "flowerGrowthAndGateLights": "stages0/1 no growth,2 growth,3 growth+lights",
+      "locateButtons": 3,
+      "overviewFit": "no internal clipping",
+      "celebrationBoatAndContinue": "whole boat frame within scene scroll viewport; story and continue visible",
+      "storageWrites": 0,
+      "overflow": "none outside native scene pan"
+    },
+    {
+      "size": [
+        1024,
+        768
+      ],
+      "islandDialogs": 14,
+      "cityHotspots": 13,
+      "tabsAndFeedback": "passed",
+      "simulationStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "flowerGrowthAndGateLights": "stages0/1 no growth,2 growth,3 growth+lights",
+      "locateButtons": 3,
+      "overviewFit": "no internal clipping",
+      "celebrationBoatAndContinue": "whole boat frame within scene scroll viewport; story and continue visible",
+      "storageWrites": 0,
+      "overflow": "none outside native scene pan"
+    }
+  ],
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "physicalSafari": "not tested",
+  "publication": "not published; local HTTP prototype only",
+  "assets": "Generated watercolor concepts, not author-approved final artwork"
+}
