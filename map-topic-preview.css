@@ -1,0 +1,20 @@
+/* Review-only prototype: currently used by the Five Roots/Powers map dialog. */
+.sz-topic-resources { display:grid; gap:10px; margin-top:22px; }
+.sz-topic-resource {
+  display:flex; align-items:center; gap:12px; min-height:78px;
+  padding:14px 16px; border:1px solid #e2e8f0; border-radius:12px;
+  background:#fff; color:#1e293b; text-decoration:none;
+  transition:background-color .15s,border-color .15s,box-shadow .15s;
+}
+.sz-topic-resource:hover { background:#f8faff; border-color:#a5b4fc; }
+.sz-topic-resource:focus-visible { outline:3px solid #818cf8; outline-offset:3px; }
+.sz-topic-resource-icon {
+  display:flex; align-items:center; justify-content:center; flex:0 0 40px;
+  width:40px; height:40px; border-radius:10px; background:#eef2ff; color:#4f46e5;
+}
+.sz-topic-resource-icon svg { width:22px; height:22px; }
+.sz-topic-resource-copy { flex:1; min-width:0; }
+.sz-topic-resource-copy strong { display:block; font-size:17px; line-height:1.4; font-weight:700; }
+.sz-topic-resource-copy > span { display:block; margin-top:3px; color:#64748b; font-size:14px; line-height:1.5; }
+.sz-topic-resource-arrow { flex:0 0 18px; width:18px; height:18px; color:#94a3b8; }
+@media (prefers-reduced-motion:reduce) { .sz-topic-resource { transition:none; } }
