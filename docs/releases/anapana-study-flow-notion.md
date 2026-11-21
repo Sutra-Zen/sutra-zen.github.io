@@ -8,3 +8,5 @@
 
 - 正式入口：https://sutra-zen.github.io/anapana/#anapana-study-flow
 - PR與正式發布SHA／Pages驗收／固定版本ZIP：https://github.com/Sutra-Zen/sutra-zen.github.io/pull/56
+
+後續補充：調身卡改為完整八項白話說明，依原文順序列足、眼、身、肩、頭、齒與唇、舌、息；來源原文與閱讀器內容維持。
