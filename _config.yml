@@ -14,3 +14,4 @@ exclude:
   - docs/previews/game-immersion
   - docs/previews/game-fullscreen-dock
   - docs/previews/game-ocean-overview
+  - docs/previews/game-original-frame
