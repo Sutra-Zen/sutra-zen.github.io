@@ -13,3 +13,4 @@ exclude:
   - docs/previews/play-game-release
   - docs/previews/game-immersion
   - docs/previews/game-fullscreen-dock
+  - docs/previews/game-ocean-overview

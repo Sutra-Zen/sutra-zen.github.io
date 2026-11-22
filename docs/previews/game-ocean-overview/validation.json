@@ -1,0 +1,1149 @@
+{
+  "baseline": "53e8eee0db9d2465ea5f584a840649d3c73d0f8d",
+  "protectedTrackedFiles": 615,
+  "originalFourteenReadersIncludingHtml": "byte-for-byte unchanged",
+  "originalNarrationScripturePicturesAndSourceArchives": "byte-for-byte unchanged",
+  "rootHomepageSeoGoogleAndSharedReaderControls": "byte-for-byte unchanged",
+  "phase": "Local review only",
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "physicalSafari": "Not tested; Chromium CDP and viewport emulation only",
+  "protectedGameCore": [
+    "play/collection/store.js",
+    "play/collection/reader-bridge.js",
+    "play/reader-bridge.js",
+    "play/collection/catalog.js",
+    "play/route",
+    "play/worldmap-v4/data.js",
+    "play/visual-v2/network-data.js",
+    "play/title-screen.js",
+    "play/title-screen.css",
+    "play/game-ui-text.js",
+    "play/assets/CC1A7C32-0620-4DB2-BCD2-A9457A83C259.jpeg"
+  ],
+  "entryTitleMarkupUnchanged": true,
+  "overviewChecks": [
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "prior": {
+        "x": 1074.7368421052631,
+        "y": 593.1578947368421,
+        "scale": 1.2349999999999999,
+        "fitScale": 0.624,
+        "overview": false,
+        "restored": false,
+        "viewport": {
+          "width": 1280,
+          "height": 900
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 0.95,
+        "outerBounds": {
+          "left": -200,
+          "top": -140,
+          "right": 1800,
+          "bottom": 1120,
+          "width": 2000,
+          "height": 1260
+        },
+        "safeInsets": {
+          "top": 16,
+          "right": 16,
+          "bottom": 95,
+          "left": 16
+        },
+        "visibleViewport": {
+          "left": 16,
+          "top": 16,
+          "width": 1248,
+          "height": 789,
+          "right": 1264,
+          "bottom": 805,
+          "centerX": 640,
+          "centerY": 410.5
+        },
+        "canReturn": false,
+        "overviewExplicit": false,
+        "offsetX": -687.2999999999997,
+        "offsetY": -322.04999999999984
+      },
+      "fitted": {
+        "x": 800,
+        "y": 490,
+        "scale": 0.624,
+        "fitScale": 0.624,
+        "overview": true,
+        "restored": false,
+        "viewport": {
+          "width": 1280,
+          "height": 900
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 0.95,
+        "outerBounds": {
+          "left": -200,
+          "top": -140,
+          "right": 1800,
+          "bottom": 1120,
+          "width": 2000,
+          "height": 1260
+        },
+        "safeInsets": {
+          "top": 16,
+          "right": 16,
+          "bottom": 95,
+          "left": 16
+        },
+        "visibleViewport": {
+          "left": 16,
+          "top": 16,
+          "width": 1248,
+          "height": 789,
+          "right": 1264,
+          "bottom": 805,
+          "centerX": 640,
+          "centerY": 410.5
+        },
+        "canReturn": true,
+        "overviewExplicit": true,
+        "offsetX": 140.8,
+        "offsetY": 104.74000000000001
+      },
+      "overviewGeometry": {
+        "art": {
+          "x": 140.8000030517578,
+          "y": 104.73999786376953,
+          "w": 998.4000854492188,
+          "h": 561.6000366210938,
+          "bottom": 666.3400344848633,
+          "right": 1139.2000885009766
+        },
+        "world": {
+          "x": 140.8000030517578,
+          "y": 104.73999786376953,
+          "w": 998.4000854492188,
+          "h": 561.6000366210938
+        },
+        "svg": {
+          "x": 140.8000030517578,
+          "y": 104.73999786376953,
+          "w": 998.4000854492188,
+          "h": 561.6000366210938
+        },
+        "dockTop": 821,
+        "screen": [
+          1280,
+          900
+        ]
+      },
+      "returnExact": true,
+      "repeatNoDrift": true,
+      "reloadReturnExact": true,
+      "rotationReturnExact": true,
+      "nativeFocusScrollStayedZero": true,
+      "sourceAnchorAlignment": true,
+      "southernKeyboardLabels": [
+        "path_bridge_concentration",
+        "path_bridge_effort_ethics",
+        "path_bridge_mindfulness",
+        "path_bridge_wisdom",
+        "path_station"
+      ]
+    },
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "prior": {
+        "x": 1243.578947368421,
+        "y": 593.1578947368421,
+        "scale": 1.2349999999999999,
+        "fitScale": 0.164,
+        "overview": false,
+        "restored": false,
+        "viewport": {
+          "width": 360,
+          "height": 800
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 0.95,
+        "outerBounds": {
+          "left": -200,
+          "top": -140,
+          "right": 1800,
+          "bottom": 1120,
+          "width": 2000,
+          "height": 1260
+        },
+        "safeInsets": {
+          "top": 16,
+          "right": 16,
+          "bottom": 95,
+          "left": 16
+        },
+        "visibleViewport": {
+          "left": 16,
+          "top": 16,
+          "width": 328,
+          "height": 689,
+          "right": 344,
+          "bottom": 705,
+          "centerX": 180,
+          "centerY": 360.5
+        },
+        "canReturn": false,
+        "overviewExplicit": false,
+        "offsetX": -1355.82,
+        "offsetY": -372.04999999999984
+      },
+      "fitted": {
+        "x": 800,
+        "y": 490,
+        "scale": 0.164,
+        "fitScale": 0.164,
+        "overview": true,
+        "restored": false,
+        "viewport": {
+          "width": 360,
+          "height": 800
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 0.95,
+        "outerBounds": {
+          "left": -200,
+          "top": -140,
+          "right": 1800,
+          "bottom": 1120,
+          "width": 2000,
+          "height": 1260
+        },
+        "safeInsets": {
+          "top": 16,
+          "right": 16,
+          "bottom": 95,
+          "left": 16
+        },
+        "visibleViewport": {
+          "left": 16,
+          "top": 16,
+          "width": 328,
+          "height": 689,
+          "right": 344,
+          "bottom": 705,
+          "centerX": 180,
+          "centerY": 360.5
+        },
+        "canReturn": true,
+        "overviewExplicit": true,
+        "offsetX": 48.79999999999998,
+        "offsetY": 280.14
+      },
+      "overviewGeometry": {
+        "art": {
+          "x": 48.79999923706055,
+          "y": 280.1400146484375,
+          "w": 262.3999938964844,
+          "h": 147.60000610351562,
+          "bottom": 427.7400207519531,
+          "right": 311.1999931335449
+        },
+        "world": {
+          "x": 48.79999923706055,
+          "y": 280.1400146484375,
+          "w": 262.3999938964844,
+          "h": 147.60000610351562
+        },
+        "svg": {
+          "x": 48.79999923706055,
+          "y": 280.1400146484375,
+          "w": 262.3999938964844,
+          "h": 147.60000610351562
+        },
+        "dockTop": 721,
+        "screen": [
+          360,
+          800
+        ]
+      },
+      "returnExact": true,
+      "repeatNoDrift": true,
+      "reloadReturnExact": true,
+      "rotationReturnExact": true,
+      "nativeFocusScrollStayedZero": true,
+      "sourceAnchorAlignment": true,
+      "southernKeyboardLabels": [
+        "path_bridge_concentration",
+        "path_bridge_effort_ethics",
+        "path_bridge_mindfulness",
+        "path_bridge_wisdom",
+        "path_station"
+      ]
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "prior": {
+        "x": 1243.578947368421,
+        "y": 593.1578947368421,
+        "scale": 1.2349999999999999,
+        "fitScale": 0.23239087301587302,
+        "overview": false,
+        "restored": false,
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 0.95,
+        "outerBounds": {
+          "left": -200,
+          "top": -140,
+          "right": 1800,
+          "bottom": 1120,
+          "width": 2000,
+          "height": 1260
+        },
+        "safeInsets": {
+          "top": 16,
+          "right": 16,
+          "bottom": 81.1875,
+          "left": 16
+        },
+        "visibleViewport": {
+          "left": 16,
+          "top": 16,
+          "width": 812,
+          "height": 292.8125,
+          "right": 828,
+          "bottom": 308.8125,
+          "centerX": 422,
+          "centerY": 162.40625
+        },
+        "canReturn": false,
+        "overviewExplicit": false,
+        "offsetX": -1113.82,
+        "offsetY": -570.1437499999998
+      },
+      "fitted": {
+        "x": 800,
+        "y": 490,
+        "scale": 0.23239087301587302,
+        "fitScale": 0.23239087301587302,
+        "overview": true,
+        "restored": false,
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 0.95,
+        "outerBounds": {
+          "left": -200,
+          "top": -140,
+          "right": 1800,
+          "bottom": 1120,
+          "width": 2000,
+          "height": 1260
+        },
+        "safeInsets": {
+          "top": 16,
+          "right": 16,
+          "bottom": 81.1875,
+          "left": 16
+        },
+        "visibleViewport": {
+          "left": 16,
+          "top": 16,
+          "width": 812,
+          "height": 292.8125,
+          "right": 828,
+          "bottom": 308.8125,
+          "centerX": 422,
+          "centerY": 162.40625
+        },
+        "canReturn": true,
+        "overviewExplicit": true,
+        "offsetX": 236.08730158730157,
+        "offsetY": 48.534722222222214
+      },
+      "overviewGeometry": {
+        "art": {
+          "x": 236.08729553222656,
+          "y": 48.53472137451172,
+          "w": 371.82537841796875,
+          "h": 209.15176391601562,
+          "bottom": 257.68648529052734,
+          "right": 607.9126739501953
+        },
+        "world": {
+          "x": 236.08729553222656,
+          "y": 48.53472137451172,
+          "w": 371.82537841796875,
+          "h": 209.15176391601562
+        },
+        "svg": {
+          "x": 236.08729553222656,
+          "y": 48.53472137451172,
+          "w": 371.82537841796875,
+          "h": 209.15176391601562
+        },
+        "dockTop": 324.8125,
+        "screen": [
+          844,
+          390
+        ]
+      },
+      "returnExact": true,
+      "repeatNoDrift": true,
+      "reloadReturnExact": true,
+      "rotationReturnExact": true,
+      "nativeFocusScrollStayedZero": true,
+      "sourceAnchorAlignment": true,
+      "southernKeyboardLabels": [
+        "path_bridge_concentration",
+        "path_bridge_effort_ethics",
+        "path_bridge_mindfulness",
+        "path_bridge_wisdom",
+        "path_station"
+      ]
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "prior": {
+        "x": 1243.578947368421,
+        "y": 593.1578947368421,
+        "scale": 1.2349999999999999,
+        "fitScale": 0.368,
+        "overview": false,
+        "restored": false,
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 0.95,
+        "outerBounds": {
+          "left": -200,
+          "top": -140,
+          "right": 1800,
+          "bottom": 1120,
+          "width": 2000,
+          "height": 1260
+        },
+        "safeInsets": {
+          "top": 16,
+          "right": 16,
+          "bottom": 95,
+          "left": 16
+        },
+        "visibleViewport": {
+          "left": 16,
+          "top": 16,
+          "width": 736,
+          "height": 913,
+          "right": 752,
+          "bottom": 929,
+          "centerX": 384,
+          "centerY": 472.5
+        },
+        "canReturn": false,
+        "overviewExplicit": false,
+        "offsetX": -1151.82,
+        "offsetY": -260.04999999999984
+      },
+      "fitted": {
+        "x": 800,
+        "y": 490,
+        "scale": 0.368,
+        "fitScale": 0.368,
+        "overview": true,
+        "restored": false,
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 0.95,
+        "outerBounds": {
+          "left": -200,
+          "top": -140,
+          "right": 1800,
+          "bottom": 1120,
+          "width": 2000,
+          "height": 1260
+        },
+        "safeInsets": {
+          "top": 16,
+          "right": 16,
+          "bottom": 95,
+          "left": 16
+        },
+        "visibleViewport": {
+          "left": 16,
+          "top": 16,
+          "width": 736,
+          "height": 913,
+          "right": 752,
+          "bottom": 929,
+          "centerX": 384,
+          "centerY": 472.5
+        },
+        "canReturn": true,
+        "overviewExplicit": true,
+        "offsetX": 89.60000000000002,
+        "offsetY": 292.18
+      },
+      "overviewGeometry": {
+        "art": {
+          "x": 89.5999984741211,
+          "y": 292.17999267578125,
+          "w": 588.7999877929688,
+          "h": 331.20001220703125,
+          "bottom": 623.3800048828125,
+          "right": 678.3999862670898
+        },
+        "world": {
+          "x": 89.5999984741211,
+          "y": 292.17999267578125,
+          "w": 588.7999877929688,
+          "h": 331.20001220703125
+        },
+        "svg": {
+          "x": 89.5999984741211,
+          "y": 292.17999267578125,
+          "w": 588.7999877929688,
+          "h": 331.20001220703125
+        },
+        "dockTop": 945,
+        "screen": [
+          768,
+          1024
+        ]
+      },
+      "returnExact": true,
+      "repeatNoDrift": true,
+      "reloadReturnExact": true,
+      "rotationReturnExact": true,
+      "nativeFocusScrollStayedZero": true,
+      "sourceAnchorAlignment": true,
+      "southernKeyboardLabels": [
+        "path_bridge_concentration",
+        "path_bridge_effort_ethics",
+        "path_bridge_mindfulness",
+        "path_bridge_wisdom",
+        "path_station"
+      ]
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "prior": {
+        "x": 1209.4736842105262,
+        "y": 593.1578947368421,
+        "scale": 1.2349999999999999,
+        "fitScale": 0.496,
+        "overview": false,
+        "restored": false,
+        "viewport": {
+          "width": 1024,
+          "height": 768
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 0.95,
+        "outerBounds": {
+          "left": -200,
+          "top": -140,
+          "right": 1800,
+          "bottom": 1120,
+          "width": 2000,
+          "height": 1260
+        },
+        "safeInsets": {
+          "top": 16,
+          "right": 16,
+          "bottom": 95,
+          "left": 16
+        },
+        "visibleViewport": {
+          "left": 16,
+          "top": 16,
+          "width": 992,
+          "height": 657,
+          "right": 1008,
+          "bottom": 673,
+          "centerX": 512,
+          "centerY": 344.5
+        },
+        "canReturn": false,
+        "overviewExplicit": false,
+        "offsetX": -981.6999999999998,
+        "offsetY": -388.04999999999984
+      },
+      "fitted": {
+        "x": 800,
+        "y": 490,
+        "scale": 0.496,
+        "fitScale": 0.496,
+        "overview": true,
+        "restored": false,
+        "viewport": {
+          "width": 1024,
+          "height": 768
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 0.95,
+        "outerBounds": {
+          "left": -200,
+          "top": -140,
+          "right": 1800,
+          "bottom": 1120,
+          "width": 2000,
+          "height": 1260
+        },
+        "safeInsets": {
+          "top": 16,
+          "right": 16,
+          "bottom": 95,
+          "left": 16
+        },
+        "visibleViewport": {
+          "left": 16,
+          "top": 16,
+          "width": 992,
+          "height": 657,
+          "right": 1008,
+          "bottom": 673,
+          "centerX": 512,
+          "centerY": 344.5
+        },
+        "canReturn": true,
+        "overviewExplicit": true,
+        "offsetX": 115.19999999999999,
+        "offsetY": 101.46000000000001
+      },
+      "overviewGeometry": {
+        "art": {
+          "x": 115.19999694824219,
+          "y": 101.45999908447266,
+          "w": 793.5999755859375,
+          "h": 446.3999938964844,
+          "bottom": 547.859992980957,
+          "right": 908.7999725341797
+        },
+        "world": {
+          "x": 115.19999694824219,
+          "y": 101.45999908447266,
+          "w": 793.5999755859375,
+          "h": 446.3999938964844
+        },
+        "svg": {
+          "x": 115.19999694824219,
+          "y": 101.45999908447266,
+          "w": 793.5999755859375,
+          "h": 446.3999938964844
+        },
+        "dockTop": 689,
+        "screen": [
+          1024,
+          768
+        ]
+      },
+      "returnExact": true,
+      "repeatNoDrift": true,
+      "reloadReturnExact": true,
+      "rotationReturnExact": true,
+      "nativeFocusScrollStayedZero": true,
+      "sourceAnchorAlignment": true,
+      "southernKeyboardLabels": [
+        "path_bridge_concentration",
+        "path_bridge_effort_ethics",
+        "path_bridge_mindfulness",
+        "path_bridge_wisdom",
+        "path_station"
+      ]
+    }
+  ],
+  "overviewWithoutPriorView": [
+    {
+      "case": "legacy-v1-no-snapshot",
+      "noPriorSnapshotFabricated": true,
+      "explicitArrowVisible": true,
+      "fallbackToCurrentAtNormalZoom": true,
+      "before": {
+        "x": 800,
+        "y": 490,
+        "scale": 0.624,
+        "fitScale": 0.624,
+        "overview": true,
+        "restored": true,
+        "viewport": {
+          "width": 1280,
+          "height": 900
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 0.95,
+        "outerBounds": {
+          "left": -200,
+          "top": -140,
+          "right": 1800,
+          "bottom": 1120,
+          "width": 2000,
+          "height": 1260
+        },
+        "safeInsets": {
+          "top": 16,
+          "right": 16,
+          "bottom": 95,
+          "left": 16
+        },
+        "visibleViewport": {
+          "left": 16,
+          "top": 16,
+          "width": 1248,
+          "height": 789,
+          "right": 1264,
+          "bottom": 805,
+          "centerX": 640,
+          "centerY": 410.5
+        },
+        "canReturn": false,
+        "overviewExplicit": false,
+        "offsetX": 140.8,
+        "offsetY": 104.74000000000001
+      },
+      "after": {
+        "x": 1143.157894736842,
+        "y": 630,
+        "scale": 0.95,
+        "fitScale": 0.624,
+        "overview": false,
+        "restored": true,
+        "viewport": {
+          "width": 1280,
+          "height": 900
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 0.95,
+        "outerBounds": {
+          "left": -200,
+          "top": -140,
+          "right": 1800,
+          "bottom": 1120,
+          "width": 2000,
+          "height": 1260
+        },
+        "safeInsets": {
+          "top": 16,
+          "right": 16,
+          "bottom": 95,
+          "left": 16
+        },
+        "visibleViewport": {
+          "left": 16,
+          "top": 16,
+          "width": 1248,
+          "height": 789,
+          "right": 1264,
+          "bottom": 805,
+          "centerX": 640,
+          "centerY": 410.5
+        },
+        "canReturn": false,
+        "overviewExplicit": false,
+        "offsetX": -446,
+        "offsetY": -188
+      }
+    },
+    {
+      "case": "manual-zoom-out",
+      "noPriorSnapshotFabricated": true,
+      "explicitArrowVisible": true,
+      "fallbackToCurrentAtNormalZoom": true,
+      "before": {
+        "x": 800,
+        "y": 490,
+        "scale": 0.624,
+        "fitScale": 0.624,
+        "overview": true,
+        "restored": false,
+        "viewport": {
+          "width": 1280,
+          "height": 900
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 0.95,
+        "outerBounds": {
+          "left": -200,
+          "top": -140,
+          "right": 1800,
+          "bottom": 1120,
+          "width": 2000,
+          "height": 1260
+        },
+        "safeInsets": {
+          "top": 16,
+          "right": 16,
+          "bottom": 95,
+          "left": 16
+        },
+        "visibleViewport": {
+          "left": 16,
+          "top": 16,
+          "width": 1248,
+          "height": 789,
+          "right": 1264,
+          "bottom": 805,
+          "centerX": 640,
+          "centerY": 410.5
+        },
+        "canReturn": false,
+        "overviewExplicit": false,
+        "offsetX": 140.8,
+        "offsetY": 104.74000000000001
+      },
+      "after": {
+        "x": 1143.157894736842,
+        "y": 630,
+        "scale": 0.95,
+        "fitScale": 0.624,
+        "overview": false,
+        "restored": false,
+        "viewport": {
+          "width": 1280,
+          "height": 900
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 0.95,
+        "outerBounds": {
+          "left": -200,
+          "top": -140,
+          "right": 1800,
+          "bottom": 1120,
+          "width": 2000,
+          "height": 1260
+        },
+        "safeInsets": {
+          "top": 16,
+          "right": 16,
+          "bottom": 95,
+          "left": 16
+        },
+        "visibleViewport": {
+          "left": 16,
+          "top": 16,
+          "width": 1248,
+          "height": 789,
+          "right": 1264,
+          "bottom": 805,
+          "centerX": 640,
+          "centerY": 410.5
+        },
+        "canReturn": false,
+        "overviewExplicit": false,
+        "offsetX": -446,
+        "offsetY": -188
+      }
+    }
+  ],
+  "nativeRegression": {
+    "singleFingerBackgroundPan": true,
+    "singleFingerLabelPanWithoutOpening": true,
+    "touchCancelWithoutOpening": true,
+    "simulatedPinchWithoutDocumentZoom": true,
+    "actualNextSteps": 5,
+    "reloadAndRotationAt": 5,
+    "returnAndMainResumeAt": 5,
+    "futureDirectReaderLocked": true,
+    "countUnchanged": true,
+    "readerHasNoGameDock": true,
+    "nativeDockSwipeNotMapPan": true,
+    "halfCastleNativeCityEntry": true
+  },
+  "result": "passed",
+  "finalArtReview": [
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "finalQuietOceanRecaptured": true,
+      "sourceAnchorErrors": [
+        {
+          "id": "path_station",
+          "error": [
+            4.8828125045474735e-05,
+            3.356933575560106e-06
+          ]
+        },
+        {
+          "id": "path_bridge_mindfulness",
+          "error": [
+            1.8310546465727384e-06,
+            6.1035156022626325e-06
+          ]
+        },
+        {
+          "id": "path_bridge_effort_ethics",
+          "error": [
+            7.324218813664629e-06,
+            6.1035156022626325e-06
+          ]
+        },
+        {
+          "id": "path_bridge_concentration",
+          "error": [
+            3.173828122271516e-05,
+            6.1035156022626325e-06
+          ]
+        },
+        {
+          "id": "path_bridge_wisdom",
+          "error": [
+            5.6152343859139364e-05,
+            6.1035156022626325e-06
+          ]
+        }
+      ]
+    },
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "finalQuietOceanRecaptured": true,
+      "sourceAnchorErrors": [
+        {
+          "id": "path_station",
+          "error": [
+            4.8828125045474735e-05,
+            1.9531250018189894e-05
+          ]
+        },
+        {
+          "id": "path_bridge_mindfulness",
+          "error": [
+            1.3427734415927262e-05,
+            6.1035156022626325e-06
+          ]
+        },
+        {
+          "id": "path_bridge_effort_ethics",
+          "error": [
+            7.324218813664629e-06,
+            6.1035156022626325e-06
+          ]
+        },
+        {
+          "id": "path_bridge_concentration",
+          "error": [
+            3.173828122271516e-05,
+            6.1035156022626325e-06
+          ]
+        },
+        {
+          "id": "path_bridge_wisdom",
+          "error": [
+            5.6152343859139364e-05,
+            6.1035156022626325e-06
+          ]
+        }
+      ]
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "finalQuietOceanRecaptured": true,
+      "sourceAnchorErrors": [
+        {
+          "id": "path_station",
+          "error": [
+            4.8828125045474735e-05,
+            1.9531250018189894e-05
+          ]
+        },
+        {
+          "id": "path_bridge_mindfulness",
+          "error": [
+            1.3427734415927262e-05,
+            6.1035156022626325e-06
+          ]
+        },
+        {
+          "id": "path_bridge_effort_ethics",
+          "error": [
+            2.319335931133537e-05,
+            6.1035156022626325e-06
+          ]
+        },
+        {
+          "id": "path_bridge_concentration",
+          "error": [
+            3.173828122271516e-05,
+            6.1035156022626325e-06
+          ]
+        },
+        {
+          "id": "path_bridge_wisdom",
+          "error": [
+            5.6152343859139364e-05,
+            6.1035156022626325e-06
+          ]
+        }
+      ]
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "finalQuietOceanRecaptured": true,
+      "sourceAnchorErrors": [
+        {
+          "id": "path_station",
+          "error": [
+            4.8828125045474735e-05,
+            3.356933575560106e-06
+          ]
+        },
+        {
+          "id": "path_bridge_mindfulness",
+          "error": [
+            1.3427734415927262e-05,
+            6.1035156022626325e-06
+          ]
+        },
+        {
+          "id": "path_bridge_effort_ethics",
+          "error": [
+            7.324218813664629e-06,
+            6.1035156022626325e-06
+          ]
+        },
+        {
+          "id": "path_bridge_concentration",
+          "error": [
+            3.173828122271516e-05,
+            6.1035156022626325e-06
+          ]
+        },
+        {
+          "id": "path_bridge_wisdom",
+          "error": [
+            5.6152343859139364e-05,
+            6.1035156022626325e-06
+          ]
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "finalQuietOceanRecaptured": true,
+      "sourceAnchorErrors": [
+        {
+          "id": "path_station",
+          "error": [
+            4.8828125045474735e-05,
+            1.9531250018189894e-05
+          ]
+        },
+        {
+          "id": "path_bridge_mindfulness",
+          "error": [
+            3.250122074405226e-05,
+            6.1035156022626325e-06
+          ]
+        },
+        {
+          "id": "path_bridge_effort_ethics",
+          "error": [
+            7.324218813664629e-06,
+            6.1035156022626325e-06
+          ]
+        },
+        {
+          "id": "path_bridge_concentration",
+          "error": [
+            3.173828122271516e-05,
+            6.1035156022626325e-06
+          ]
+        },
+        {
+          "id": "path_bridge_wisdom",
+          "error": [
+            5.6152343859139364e-05,
+            6.1035156022626325e-06
+          ]
+        }
+      ]
+    }
+  ],
+  "oldUnversionedTextProbe": {
+    "unversionedBaselineProvidedIfRequested": true,
+    "staleUnversionedRequestsServed": 1,
+    "versionedMainUiLoaded": true,
+    "actualTextRequests": [
+      "http://127.0.0.1:45113/play/worldmap-v4/text.js?v=ocean-return-1",
+      "http://127.0.0.1:45113/play/worldmap-v4/text.js"
+    ],
+    "returnLabelsDefined": true
+  },
+  "finalOceanPresentation": "Original-crop mean blue #0061b8, low-contrast water layers and 8/12px edge mask; final five-size recapture"
+}

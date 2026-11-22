@@ -4,11 +4,12 @@ import {canStartGameBook,canReviewGameBook,getGameBookAccess} from '../route/eli
 import {routeMetadata} from '../route/metadata.js';
 import {initializeGameShell,GAME_URLS} from '../game-shell.js';
 import {initializeTitleScreen} from '../title-screen.js?v=title-brand-2';
-import {createMapCamera} from './camera.js';
+import {createMapCamera} from './camera.js?v=ocean-return-1';
+import {OCEAN_PADDING,renderOuterOcean} from './ocean-frame.js?v=ocean-return-1';
 import {renderHarborCastle,HARBOR_CASTLE_GEOMETRY} from './harbor-castle.js';
 import {compactCompletionFeedback} from './completion-feedback.js';
 import {WORLD,LANDMARKS,MEMBERS,NODES,EDGES,GEOGRAPHIC_ROAD,MAP_CONNECTIONS,conceptAnchor,sourceGroupAnchor,PRIMARY_BOOK_LANDMARK} from './data.js';
-import {T} from './text.js';
+import {T} from './text.js?v=ocean-return-1';
 
 const $=s=>document.querySelector(s);
 const books=new Map(routeBooks.map(b=>[b.id,b]));
@@ -26,6 +27,17 @@ const toolsDialog=$('#wm-tools-dialog');let toolsFocus=null;
 toolsDialog.addEventListener('close',()=>toolsFocus?.isConnected&&toolsFocus.focus({preventScroll:true}));
 const status=()=>{const s=store.get();return routeStatus(s.completed,s.positions,routeMetadata.get());};
 const currentBook=()=>books.get(status().nextBookId)||null;
+function updateOverviewControls(state){
+ const back=$('[data-wm-return]'),button=$('[data-wm-overview]');
+ const returning=state.canReturn||state.overview;back.hidden=!returning;back.textContent='← '+T.returnToMap;back.setAttribute('aria-label',state.canReturn?T.returnToMapLabel:T.returnToCurrentLabel);
+ button.textContent=returning?'← '+T.returnToMap:T.fullMap;button.setAttribute('aria-pressed',String(returning));
+}
+function returnToExploration(){if(!camera)return;if(camera.getState().canReturn){camera.returnFromOverview();return;}const l=landmarkFor(currentBook()?.id||'four-truths');selected=l.id;camera.focus({x:l.x,y:l.y});render();}
+function toggleOverview(){if(!camera)return;const s=camera.getState();if(s.canReturn||s.overview)returnToExploration();else camera.fit();}
+function mapInsets(){
+ const style=getComputedStyle($('.wm-viewport')),safe=side=>parseFloat(style.getPropertyValue('--wm-safe-'+side))||0;
+ return {top:safe('top')+16,left:safe('left')+16,right:safe('right')+16,bottom:$('.game-dock').getBoundingClientRect().height+16};
+}
 const landmarkFor=id=>LANDMARKS.find(l=>l.id===PRIMARY_BOOK_LANDMARK[id]);
 const revealed=(l,s)=>l.bookId!=='four-fruits-ten-fetters'||s.finalChapterRevealed;
 const name=(l,s)=>revealed(l,s)?T.names[l.id]:T.unknown;
@@ -45,7 +57,7 @@ function sourceLines(){
 function mountWorld(){
  const marks=LANDMARKS.map(l=>'<button class="wm-landmark '+(l.type==='scroll'?'is-scroll':'')+'" data-wm-landmark="'+l.id+'" data-landmark="'+l.id+'" data-book="'+(l.bookId||'')+'" data-concept="'+l.conceptId+'" style="--x:'+l.x+'px;--y:'+l.y+'px"><span class="wm-pin" aria-hidden="true"></span><span class="wm-label"></span><span class="wm-status-chip"></span></button>').join('');
  const regions=T.regions.map((r,i)=>'<button class="wm-region" data-wm-region="'+i+'" style="--x:'+r.x+'px;--y:'+r.y+'px">'+escape(r.title)+'</button>').join('');
- $('#wm-host').innerHTML='<div class="wm-viewport" tabindex="0" aria-label="'+T.cameraLabel+'"><div class="wm-world" data-world-size="1600x900"><img class="wm-background" src="'+asset('assets/worldmap-master-concept.png')+'" width="1600" height="900" alt="'+T.worldAlt+'"><svg class="wm-geography" viewBox="0 0 1600 900" aria-hidden="true"></svg><div class="wm-fog-layer"></div><svg class="wm-lines" viewBox="0 0 1600 900" aria-hidden="true"></svg>'+marks+regions+'<img class="wm-traveler" src="'+new URL('../visual-v2/assets/kitten-rowboat-concept.png',import.meta.url).href+'" alt="'+T.travelerAlt+'">'+renderHarborCastle({label:T.cityTab,ariaLabel:T.enterCity})+'</div><div class="wm-load-state" role="status">'+T.loadingMap+'</div></div>';
+ $('#wm-host').innerHTML='<div class="wm-viewport" tabindex="0" aria-label="'+T.cameraLabel+'"><div class="wm-world" data-world-size="1600x900">'+renderOuterOcean(asset('assets/worldmap-master-concept.png'))+'<img class="wm-background" src="'+asset('assets/worldmap-master-concept.png')+'" width="1600" height="900" alt="'+T.worldAlt+'"><svg class="wm-geography" viewBox="0 0 1600 900" aria-hidden="true"></svg><div class="wm-fog-layer"></div><svg class="wm-lines" viewBox="0 0 1600 900" aria-hidden="true"></svg>'+marks+regions+'<img class="wm-traveler" src="'+new URL('../visual-v2/assets/kitten-rowboat-concept.png',import.meta.url).href+'" alt="'+T.travelerAlt+'">'+renderHarborCastle({label:T.cityTab,ariaLabel:T.enterCity})+'</div><div class="wm-load-state" role="status">'+T.loadingMap+'</div></div>';
  const image=$('.wm-background'),loading=$('.wm-load-state');
  const loaded=()=>{loading.hidden=true;};
  image.addEventListener('load',loaded);
@@ -63,7 +75,7 @@ function render(){
  $('[data-wm-lines]').setAttribute('aria-pressed',String(links!=='none'));
  $('[data-wm-labels]').textContent=T.labels;$('[data-wm-labels]').setAttribute('aria-pressed',String(labels));
  $('[data-wm-locate]').textContent=T.currentLevel;
- $('[data-wm-overview]').textContent=T.fullMap;$('[data-wm-tools-open]').textContent=T.moreTools;$('#wm-tools-title').textContent=T.mapToolsTitle;
+ if(camera)updateOverviewControls(camera.getState());else $('[data-wm-overview]').textContent=T.fullMap;$('[data-wm-tools-open]').textContent=T.moreTools;$('#wm-tools-title').textContent=T.mapToolsTitle;
  $('#wm-host').querySelectorAll('[data-wm-landmark]').forEach(el=>{
   const l=LANDMARKS.find(l=>l.id===el.dataset.landmark),a=access(l,s),primary=PRIMARY_BOOK_LANDMARK[l.bookId]===l.id;
   const state=!l.bookId?'harbor':a.status;
@@ -129,7 +141,8 @@ function activateMap(){
  if(active){camera?.refresh();return;}
  active=true;mountWorld();render();
  const book=currentBook(),l=book?landmarkFor(book.id):landmarkFor('four-truths');
- camera=createMapCamera($('.wm-viewport'),$('.wm-world'),{width:WORLD.width,height:WORLD.height,initialCenter:{x:l.x,y:l.y}});
+ camera=createMapCamera($('.wm-viewport'),$('.wm-world'),{width:WORLD.width,height:WORLD.height,initialCenter:{x:l.x,y:l.y},outerPadding:OCEAN_PADDING,getInsets:mapInsets,onChange:updateOverviewControls});
+ const dockObserver=new ResizeObserver(()=>camera.refresh());dockObserver.observe($('.game-dock'));
  $('.wm-viewport').addEventListener('focusin',event=>{
   const target=event.target.closest('.wm-landmark,.wm-harbor-castle__entry');
   if(!target||!target.matches(':focus-visible'))return; // Pointer taps must not move their target before click.
@@ -158,7 +171,8 @@ document.addEventListener('click',e=>{
  if(b.hasAttribute('data-wm-current')){dialog.close();locateNext();}
  if(b.hasAttribute('data-wm-next-station')){dialog.close();locateNext();}
  if(b.hasAttribute('data-wm-locate'))locateNext();
- if(b.hasAttribute('data-wm-overview')||b.hasAttribute('data-wm-zoom'))camera?.fit();
+ if(b.hasAttribute('data-wm-overview')||b.hasAttribute('data-wm-zoom'))toggleOverview();
+ if(b.hasAttribute('data-wm-return'))returnToExploration();
  if(b.hasAttribute('data-wm-zoom-in'))camera?.zoomBy(1.3);
  if(b.hasAttribute('data-wm-zoom-out'))camera?.zoomBy(1/1.3);
  if(b.dataset.wmRegion!==undefined){const r=T.regions[Number(b.dataset.wmRegion)];camera?.focus({x:r.x,y:r.y});}
