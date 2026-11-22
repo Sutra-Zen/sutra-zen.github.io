@@ -1,0 +1,33 @@
+// UI labels only. Book IDs and scripture data never depend on the display locale.
+export const LOCALE='zh-Hant';
+export const FUTURE_LOCALES=['zh-Hans','en','ja'];
+export const T={
+ title:'繪本旅程・山海世界',eyebrow:'沿著海岸，讀進故事裡。',preview:'試稿・未發布',
+ description:'從右下的法輪出發。湖灣、花田與橋梁，連起十四本繪本的旅程。',
+ route:'依序旅程',free:'自由選讀',continue:'繼續閱讀',start:'開始旅程',restart:'重新閱讀',
+ returnJourney:'回繪本旅程',returnMap:'回世界地圖',sourceMap:'原修道地圖',shelf:'收集書架',city:'六門城池',
+ linesOn:'查看互通連線',linesOff:'收起互通連線',labels:'地名標牌',zoomIn:'放大平移',zoomOut:'回到全景',locate:'定位閱讀處',
+ collection:n=>`已讀 ${n}／14 本`,firstComplete:'第一段旅程完成',unknown:'尚未揭曉的旅程',
+ unfinished:'薄霧中的地景',available:'現在可以出發',earned:'這本已讀完',reading:'閱讀中',
+ read:'閱讀並收集這本',guide:'主題導讀與原經',related:'原心智圖直接相鄰的主題',sameBook:'同一本的其他地景',
+ routeNote:'這是閱讀路線，不代表修證階段；完成閱讀不表示取得禪定、聖果或解脫。',
+ figureNote:'島嶼、湖灣、木造燈亭與橋梁是本次地景設計。文字與連線由網頁呈現，原繪本內容保留。',
+ fogNote:'未解鎖地景覆上薄霧；道路、港口與繼續閱讀入口一直可用。自由選讀可提前閱讀任何一本。',
+ completeTitle:title=>`讀完《${title}》，回城看看`,nextTitle:title=>`接著讀《${title}》 →`,
+ completionCopy:'閱讀紀錄已保存。城池依已讀的書逐步顯現，不會替其他書補上完成紀錄。',
+ allComplete:'十四本已收集完成',ending:'回到城中，學會放下',endingCopy:'終章的閱讀條件已齊備。以下保留已選定的方向與經句；完整終章演出仍待製作，不另計第十五本。',
+ endingDirection:'放下不是消滅自己或摧毀世界；城、六門與角色仍繼續運作，回看的是抓取與控制的方式。',
+ details:'地景細節與本輪素材',nativeNote:'無字母圖原生 1672×941；另有四張較大比例的區域細節稿。細節稿不是精確象限，沒有拼接成或宣稱為完整4K原畫。',
+ detailNames:{northwest:'西北・概念群島與木造燈亭',northeast:'東北・概念島與雙湖',southwest:'西南・湖灣與沿海公路',southeast:'東南・輪庭、船塢與馬車驛站'},
+ detailNote:'區域高細節概念稿，供檢查畫風；不是地圖錨點或連線的座標依據。',
+ names:{harbor:'三十七道品海陸港口',awakening_overview:'七覺支群島',faculties_overview:'五根五力群島',
+ 'mindfulness-awakening':'念覺支','effort-awakening':'精進覺支','concentration-awakening-group':'喜・息・定・捨覺支','discrimination-awakening':'擇法覺支',
+ 'faith-root-power':'信根・信力','mindfulness-root-power':'念根・念力','effort-root-power':'勤根・勤力','concentration-root-power':'定根・定力','wisdom-root-power':'慧根・慧力',
+ confidence_lagoon:'四不壞淨湖',recollection_lighthouse:'六念木造燈塔',mindfulness_pavilion:'四念處觀照亭',inversion_grove:'四顛倒鏡影林',
+ effort_garden:'四正勤花田',wholesome_lake:'十善業道湖',breathing_grove:'安那般那與止觀',endeavor_boathouse:'四如意足船塢',jhana_water_garden:'四禪靜水庭園',
+ aggregates_lake:'苦諦-五陰湖',senses_lake:'苦諦-六處湖',sense_landings:'六處水岸入口',dependent_origination_court:'集諦-十二因緣輪庭',
+ truth_wheel_ruin:'四聖諦法輪遺跡',fruition_valley:'滅諦-四向四果與十結',path_station:'道諦-八正道驛站',path_road:'八正道公路',
+ path_bridge_mindfulness:'正念橋',path_bridge_effort_ethics:'正精進・正語\n正業・正命橋群',path_bridge_concentration:'正定橋',path_bridge_wisdom:'正見／正志橋'},
+ familyNames:{faith:'信',mindfulness:'念',effort:'勤',concentration:'定',wisdom:'慧'},
+ members:{joy:'喜覺支',tranquility:'息覺支（輕安）',concentration:'定覺支',equanimity:'捨覺支',effort:'正精進',speech:'正語',action:'正業',livelihood:'正命',view:'正見',intention:'正志',root:'根',power:'力'},
+};

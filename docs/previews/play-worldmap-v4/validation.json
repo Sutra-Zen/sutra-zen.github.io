@@ -1,0 +1,884 @@
+{
+  "baseline": "4f4e1fd",
+  "protectedTrackedFiles": 613,
+  "originalSiteReadersCollectionStoreAndOldJourneyBridge": "byte-for-byte unchanged",
+  "collectionBridge": "Only opt-in collectionReturn=worldmap-v4 return URL and label differ; normalized bytes exactly match baseline",
+  "originalFullReadingCoverage": "docs/previews/play-collection/validation.json: 1192 original reading steps; not repeated for an unchanged core",
+  "worldmapMaster": {
+    "path": "play/worldmap-v4/assets/worldmap-master-concept.png",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "sha256": "a45b83312286730830310e0035dca6dcfd8d994d30c248d11e9a884799afb5a7",
+    "visualInspection": "Generated concept base has no baked text, fog or locks; artwork remains an unapproved proposal"
+  },
+  "generatedAssets": {
+    "assets": [
+      {
+        "path": "play/worldmap-v4/assets/worldmap-master-concept.png",
+        "size": [
+          1672,
+          941
+        ],
+        "sha256": "a45b83312286730830310e0035dca6dcfd8d994d30c248d11e9a884799afb5a7"
+      },
+      {
+        "path": "play/visual-v2/assets/city-cats-concept.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "sha256": "6f87d36440d41c73d484fddd604505ed370fe89cd2d8ca0c2fb495d3979cceac"
+      },
+      {
+        "path": "play/worldmap-v4/assets/detail-northwest.png",
+        "size": [
+          1672,
+          941
+        ],
+        "sha256": "499749b280f5ff52ebeedcc8a40414f3c9df4b596bf5e4d324f3dc69f6712632"
+      },
+      {
+        "path": "play/worldmap-v4/assets/detail-northeast.png",
+        "size": [
+          1672,
+          941
+        ],
+        "sha256": "3cb93dbbb37cbff3b2241a01d6848d4a055aeb2b22c61db7aa57ebfeb176c955"
+      },
+      {
+        "path": "play/worldmap-v4/assets/detail-southwest.png",
+        "size": [
+          1672,
+          941
+        ],
+        "sha256": "a2fb1969b4402e604d8fd9c443e4e6b031a2450811b5452003bbedab6664ddd6"
+      },
+      {
+        "path": "play/worldmap-v4/assets/detail-southeast.png",
+        "size": [
+          1672,
+          941
+        ],
+        "sha256": "6cea49791ee546643e9ee8f6144c642e9de7ddfed614332b8321c85dd78f5a13"
+      },
+      {
+        "path": "play/visual-v2/assets/city-dharma-dock-concept.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "sha256": "2bbe41bd04e24a9ca5c78bbdc00a0318f19c052d8ff5d9c2548e569b4545bd22"
+      }
+    ],
+    "masterNative4K": false,
+    "detailsStitchable": false,
+    "reviewStatus": "Generated concept images, pending author confirmation"
+  },
+  "specifications": [
+    "2026-11-22-map-v4",
+    "2026-11-22-r3"
+  ],
+  "publication": "Local review only; not merged or publicly deployed",
+  "fixtures": "Valid collection backups in isolated disposable browser contexts; no product completion shortcuts",
+  "physicalSafari": "Not tested; Chromium viewport simulation only",
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "mapData": {
+    "world": {
+      "width": 1600,
+      "height": 900
+    },
+    "columns": {
+      "faith": 432,
+      "mindfulness": 672,
+      "effort": 912,
+      "concentration": 1152,
+      "wisdom": 1392
+    },
+    "landmarks": [
+      {
+        "id": "harbor",
+        "bookId": null,
+        "conceptId": "road-overview",
+        "x": 128,
+        "y": 423,
+        "type": "harbor",
+        "alwaysClear": true
+      },
+      {
+        "id": "awakening_overview",
+        "bookId": "seven-factors",
+        "conceptId": "awakening-overview",
+        "x": 168,
+        "y": 108,
+        "type": "scroll",
+        "overview": true
+      },
+      {
+        "id": "faculties_overview",
+        "bookId": "five-roots-powers",
+        "conceptId": "roots-powers-overview",
+        "x": 168,
+        "y": 243,
+        "type": "scroll",
+        "overview": true
+      },
+      {
+        "id": "mindfulness-awakening",
+        "bookId": "seven-factors",
+        "conceptId": "mindfulness-awakening",
+        "x": 672,
+        "y": 108,
+        "type": "island",
+        "family": "mindfulness",
+        "row": "awakening"
+      },
+      {
+        "id": "effort-awakening",
+        "bookId": "seven-factors",
+        "conceptId": "effort-awakening",
+        "x": 912,
+        "y": 108,
+        "type": "island",
+        "family": "effort",
+        "row": "awakening"
+      },
+      {
+        "id": "concentration-awakening-group",
+        "bookId": "seven-factors",
+        "conceptId": "concentration-awakening-group",
+        "x": 1152,
+        "y": 108,
+        "type": "island",
+        "family": "concentration",
+        "row": "awakening"
+      },
+      {
+        "id": "discrimination-awakening",
+        "bookId": "seven-factors",
+        "conceptId": "discrimination-awakening",
+        "x": 1392,
+        "y": 108,
+        "type": "island",
+        "family": "wisdom",
+        "row": "awakening"
+      },
+      {
+        "id": "faith-root-power",
+        "bookId": "five-roots-powers",
+        "conceptId": "faith-root-power",
+        "x": 432,
+        "y": 243,
+        "type": "island",
+        "family": "faith",
+        "row": "faculties"
+      },
+      {
+        "id": "mindfulness-root-power",
+        "bookId": "five-roots-powers",
+        "conceptId": "mindfulness-root-power",
+        "x": 672,
+        "y": 243,
+        "type": "island",
+        "family": "mindfulness",
+        "row": "faculties"
+      },
+      {
+        "id": "effort-root-power",
+        "bookId": "five-roots-powers",
+        "conceptId": "effort-root-power",
+        "x": 912,
+        "y": 243,
+        "type": "island",
+        "family": "effort",
+        "row": "faculties"
+      },
+      {
+        "id": "concentration-root-power",
+        "bookId": "five-roots-powers",
+        "conceptId": "concentration-root-power",
+        "x": 1152,
+        "y": 243,
+        "type": "island",
+        "family": "concentration",
+        "row": "faculties"
+      },
+      {
+        "id": "wisdom-root-power",
+        "bookId": "five-roots-powers",
+        "conceptId": "wisdom-root-power",
+        "x": 1392,
+        "y": 243,
+        "type": "island",
+        "family": "wisdom",
+        "row": "faculties"
+      },
+      {
+        "id": "recollection_lighthouse",
+        "bookId": "four-purities-six-recollections",
+        "conceptId": "six-recollections",
+        "x": 432,
+        "y": 405,
+        "family": "faith"
+      },
+      {
+        "id": "confidence_lagoon",
+        "bookId": "four-purities-six-recollections",
+        "conceptId": "four-purities",
+        "x": 432,
+        "y": 540,
+        "family": "faith"
+      },
+      {
+        "id": "mindfulness_pavilion",
+        "bookId": "mindfulness",
+        "conceptId": "four-mindfulness",
+        "x": 672,
+        "y": 423,
+        "family": "mindfulness"
+      },
+      {
+        "id": "inversion_grove",
+        "bookId": "mindfulness",
+        "conceptId": "four-inversions",
+        "x": 672,
+        "y": 585,
+        "family": "mindfulness"
+      },
+      {
+        "id": "effort_garden",
+        "bookId": "right-effort",
+        "conceptId": "right-effort",
+        "x": 912,
+        "y": 486,
+        "family": "effort"
+      },
+      {
+        "id": "wholesome_lake",
+        "bookId": "eightfold-path",
+        "conceptId": "ten-wholesome",
+        "x": 912,
+        "y": 630,
+        "family": "effort"
+      },
+      {
+        "id": "breathing_grove",
+        "bookId": "anapana",
+        "conceptId": "anapana",
+        "x": 1152,
+        "y": 405,
+        "family": "concentration"
+      },
+      {
+        "id": "endeavor_boathouse",
+        "bookId": "iddhipada",
+        "conceptId": "iddhipada",
+        "x": 1152,
+        "y": 531,
+        "family": "concentration"
+      },
+      {
+        "id": "jhana_water_garden",
+        "bookId": "four-jhanas",
+        "conceptId": "four-jhanas",
+        "x": 1152,
+        "y": 630,
+        "family": "concentration"
+      },
+      {
+        "id": "aggregates_lake",
+        "bookId": "five-aggregates",
+        "conceptId": "five-aggregates",
+        "x": 1312,
+        "y": 414,
+        "family": "wisdom"
+      },
+      {
+        "id": "senses_lake",
+        "bookId": "six-senses",
+        "conceptId": "six-senses",
+        "x": 1496,
+        "y": 414,
+        "family": "wisdom"
+      },
+      {
+        "id": "dependent_origination_court",
+        "bookId": "twelve-links",
+        "conceptId": "twelve-links",
+        "x": 1376,
+        "y": 504,
+        "family": "wisdom"
+      },
+      {
+        "id": "fruition_valley",
+        "bookId": "four-fruits-ten-fetters",
+        "conceptId": "four-fruits",
+        "x": 1512,
+        "y": 585,
+        "family": "wisdom"
+      },
+      {
+        "id": "truth_wheel_ruin",
+        "bookId": "four-truths",
+        "conceptId": "four-truths",
+        "x": 1312,
+        "y": 630,
+        "family": "wisdom"
+      },
+      {
+        "id": "path_station",
+        "bookId": "eightfold-path",
+        "conceptId": "eightfold-overview",
+        "x": 1480,
+        "y": 693,
+        "type": "station",
+        "family": "wisdom",
+        "alwaysAccessible": true
+      },
+      {
+        "id": "path_road",
+        "bookId": "eightfold-path",
+        "conceptId": "eightfold-overview",
+        "x": 368,
+        "y": 760,
+        "type": "scroll",
+        "alwaysClear": true
+      },
+      {
+        "id": "path_bridge_mindfulness",
+        "bookId": "eightfold-path",
+        "conceptId": "right-mindfulness",
+        "x": 672,
+        "y": 810,
+        "type": "bridge",
+        "family": "mindfulness"
+      },
+      {
+        "id": "path_bridge_effort_ethics",
+        "bookId": "eightfold-path",
+        "conceptId": "eightfold-action-group",
+        "x": 912,
+        "y": 810,
+        "type": "bridge",
+        "family": "effort"
+      },
+      {
+        "id": "path_bridge_concentration",
+        "bookId": "eightfold-path",
+        "conceptId": "right-concentration",
+        "x": 1152,
+        "y": 810,
+        "type": "bridge",
+        "family": "concentration"
+      },
+      {
+        "id": "path_bridge_wisdom",
+        "bookId": "eightfold-path",
+        "conceptId": "right-view-intention",
+        "x": 1392,
+        "y": 810,
+        "type": "bridge",
+        "family": "wisdom"
+      }
+    ],
+    "secondary": [
+      {
+        "id": "sense_landings",
+        "bookId": "six-senses",
+        "conceptId": "six-senses",
+        "x": 1520,
+        "y": 450,
+        "label": false
+      },
+      {
+        "id": "calm_insight_streams",
+        "bookId": "anapana",
+        "conceptId": "anapana",
+        "x": 1168,
+        "y": 441,
+        "label": false
+      },
+      {
+        "id": "path_stream",
+        "bookId": "eightfold-path",
+        "conceptId": "ten-wholesome",
+        "x": 1008,
+        "y": 585,
+        "label": false
+      }
+    ],
+    "groups": [
+      {
+        "id": "faith-landscape",
+        "family": "faith",
+        "x": 432,
+        "y": 540
+      },
+      {
+        "id": "mindfulness-landscape",
+        "family": "mindfulness",
+        "x": 672,
+        "y": 540
+      },
+      {
+        "id": "effort-landscape",
+        "family": "effort",
+        "x": 912,
+        "y": 540
+      },
+      {
+        "id": "concentration-landscape",
+        "family": "concentration",
+        "x": 1152,
+        "y": 540
+      },
+      {
+        "id": "wisdom-landscape",
+        "family": "wisdom",
+        "x": 1392,
+        "y": 540
+      }
+    ],
+    "originalConcepts": 32,
+    "originalRelations": 46,
+    "compatibilityMembers": 20,
+    "landmarksPerBook": {
+      "seven-factors": 5,
+      "five-roots-powers": 6,
+      "four-purities-six-recollections": 2,
+      "mindfulness": 2,
+      "right-effort": 1,
+      "eightfold-path": 8,
+      "anapana": 2,
+      "iddhipada": 1,
+      "four-jhanas": 1,
+      "five-aggregates": 1,
+      "six-senses": 2,
+      "twelve-links": 1,
+      "four-fruits-ten-fetters": 1,
+      "four-truths": 1
+    }
+  },
+  "layouts": [
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "nativeLandmarkDialogs": 32,
+      "sameBaseAndGeometryWithLinesOnOff": true,
+      "originalRelationPaths": 46,
+      "initialFourTruthsReadableWithoutFog": true,
+      "allFourteenNoFog": true,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "nativeLandmarkDialogs": 32,
+      "sameBaseAndGeometryWithLinesOnOff": true,
+      "originalRelationPaths": 46,
+      "initialFourTruthsReadableWithoutFog": true,
+      "allFourteenNoFog": true,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "nativeLandmarkDialogs": 32,
+      "sameBaseAndGeometryWithLinesOnOff": true,
+      "originalRelationPaths": 46,
+      "initialFourTruthsReadableWithoutFog": true,
+      "allFourteenNoFog": true,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "nativeLandmarkDialogs": 32,
+      "sameBaseAndGeometryWithLinesOnOff": true,
+      "originalRelationPaths": 46,
+      "initialFourTruthsReadableWithoutFog": true,
+      "allFourteenNoFog": true,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "nativeLandmarkDialogs": 32,
+      "sameBaseAndGeometryWithLinesOnOff": true,
+      "originalRelationPaths": 46,
+      "initialFourTruthsReadableWithoutFog": true,
+      "allFourteenNoFog": true,
+      "viewportOverflow": "none"
+    }
+  ],
+  "finalStates": [
+    {
+      "fixture": "initial",
+      "count": 0,
+      "revealed": false,
+      "endingEligible": false,
+      "next": "four-truths"
+    },
+    {
+      "fixture": "final-bookmark-zero",
+      "count": 0,
+      "revealed": true,
+      "endingEligible": false,
+      "next": "four-truths"
+    },
+    {
+      "fixture": "final-only",
+      "count": 1,
+      "revealed": true,
+      "endingEligible": false,
+      "next": "four-truths"
+    },
+    {
+      "fixture": "random-thirteen",
+      "count": 13,
+      "revealed": true,
+      "endingEligible": false,
+      "next": "four-truths"
+    },
+    {
+      "fixture": "first-thirteen",
+      "count": 13,
+      "revealed": true,
+      "endingEligible": false,
+      "next": "four-fruits-ten-fetters"
+    },
+    {
+      "fixture": "all-fourteen",
+      "count": 14,
+      "revealed": true,
+      "endingEligible": true,
+      "next": null
+    }
+  ],
+  "freeMode": "All14 readable; switching/inspecting does not modify completion or positions",
+  "primaryResume": "Actual free Four Jhanas Next0→5, return and primary resume5/reload5 while recommendation remains Four Truths; earned Four Truths reread0→5, return/resume5 and explicit re-finish leaves count1",
+  "storageAndModeIsolation": {
+    "existingAllFourteenSave": "Exact original raw string preserved by world render, view switches and line/label controls; immediately ending eligible",
+    "corrupt": "Raw malformed value preserved on map view; visible notice and reader Next still work",
+    "blocked": "Visible storage notice; reader Next remains usable",
+    "standalone": "First3 original readers Next/Previous/links/touch-action unchanged without opt-in",
+    "ordinaryCollectionReturn": "Still returns to legacy collection shelf; only collectionReturn=worldmap-v4 uses new destination"
+  },
+  "cities": [
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "fixture": "initial",
+      "stage": 0,
+      "realSourceHotspots": 0,
+      "sixGateHotspots": 0,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "fixture": "dock",
+      "stage": 1,
+      "realSourceHotspots": 1,
+      "sixGateHotspots": 0,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "fixture": "body",
+      "stage": 2,
+      "realSourceHotspots": 4,
+      "sixGateHotspots": 0,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "fixture": "gates",
+      "stage": 3,
+      "realSourceHotspots": 10,
+      "sixGateHotspots": 6,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "fixture": "all",
+      "stage": 3,
+      "realSourceHotspots": 14,
+      "sixGateHotspots": 6,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "fixture": "initial",
+      "stage": 0,
+      "realSourceHotspots": 0,
+      "sixGateHotspots": 0,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "fixture": "dock",
+      "stage": 1,
+      "realSourceHotspots": 1,
+      "sixGateHotspots": 0,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "fixture": "body",
+      "stage": 2,
+      "realSourceHotspots": 4,
+      "sixGateHotspots": 0,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "fixture": "gates",
+      "stage": 3,
+      "realSourceHotspots": 10,
+      "sixGateHotspots": 6,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "fixture": "all",
+      "stage": 3,
+      "realSourceHotspots": 14,
+      "sixGateHotspots": 6,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "fixture": "initial",
+      "stage": 0,
+      "realSourceHotspots": 0,
+      "sixGateHotspots": 0,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "fixture": "dock",
+      "stage": 1,
+      "realSourceHotspots": 1,
+      "sixGateHotspots": 0,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "fixture": "body",
+      "stage": 2,
+      "realSourceHotspots": 4,
+      "sixGateHotspots": 0,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "fixture": "gates",
+      "stage": 3,
+      "realSourceHotspots": 10,
+      "sixGateHotspots": 6,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "fixture": "all",
+      "stage": 3,
+      "realSourceHotspots": 14,
+      "sixGateHotspots": 6,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "fixture": "initial",
+      "stage": 0,
+      "realSourceHotspots": 0,
+      "sixGateHotspots": 0,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "fixture": "dock",
+      "stage": 1,
+      "realSourceHotspots": 1,
+      "sixGateHotspots": 0,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "fixture": "body",
+      "stage": 2,
+      "realSourceHotspots": 4,
+      "sixGateHotspots": 0,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "fixture": "gates",
+      "stage": 3,
+      "realSourceHotspots": 10,
+      "sixGateHotspots": 6,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "fixture": "all",
+      "stage": 3,
+      "realSourceHotspots": 14,
+      "sixGateHotspots": 6,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "fixture": "initial",
+      "stage": 0,
+      "realSourceHotspots": 0,
+      "sixGateHotspots": 0,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "fixture": "dock",
+      "stage": 1,
+      "realSourceHotspots": 1,
+      "sixGateHotspots": 0,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "fixture": "body",
+      "stage": 2,
+      "realSourceHotspots": 4,
+      "sixGateHotspots": 0,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "fixture": "gates",
+      "stage": 3,
+      "realSourceHotspots": 10,
+      "sixGateHotspots": 6,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "fixture": "all",
+      "stage": 3,
+      "realSourceHotspots": 14,
+      "sixGateHotspots": 6,
+      "viewportOverflow": "none"
+    }
+  ],
+  "earnedPendingCityRoles": "Early mindfulness/anapana rewards preview without placing or fabricating body/gates; completing body+gates later auto-places both without rereading",
+  "actualFirstThree": {
+    "actualReadingSteps": 198,
+    "books": [
+      "four-truths",
+      "five-aggregates",
+      "six-senses"
+    ],
+    "progressChangesOnlyOnExplicitFinish": true,
+    "cityStages": [
+      "1",
+      "2",
+      "3"
+    ],
+    "reloadAndReturnResume": "Four Truths step5",
+    "rotationPreservesPosition": "Five Aggregates step3",
+    "nextAfterThird": "twelve-links",
+    "priorJourneyAndUnrelatedKeys": "preserved",
+    "javascriptErrors": [],
+    "httpErrors": []
+  },
+  "routeModel": {
+    "report": "route-model-validation.json",
+    "completionSubsets": 16384,
+    "assertions": 1245459
+  },
+  "lastStyleRefresh": "Mobile legacy-city header brand span hides cleanly; initial/all city screenshots refreshed at1280x900 and390x844, no viewport overflow. No behavior changed."
+}

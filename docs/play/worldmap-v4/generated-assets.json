@@ -1,0 +1,130 @@
+{
+  "date": "2026-11-22",
+  "versions": [
+    "2026-11-22-map-v4",
+    "2026-11-22-r3"
+  ],
+  "method": "Image-generation outputs retained at their actual native dimensions; copied byte-for-byte, not resized or upscaled.",
+  "status": "Generated concept art pending author confirmation; not published.",
+  "resolutionLimit": {
+    "masterNative": [
+      1672,
+      941
+    ],
+    "requestedFullScene4K": "not delivered",
+    "fourDetailsAreStitchable": false,
+    "reason": "Independent regenerated regional references differ in geometry/contents from the master. They must not be assembled or claimed to be one faithful 4K map.",
+    "coordinateAuthority": "All map anchors and relation overlays refer only to the shared1600×900 world/master display, not detail image pixels.",
+    "textResolution": "HTML/SVG labels remain vector-rendered independently of raster native size."
+  },
+  "assets": [
+    {
+      "path": "play/worldmap-v4/assets/worldmap-master-concept.png",
+      "role": "worldmap-master",
+      "note": "Only shared geographic background; 1600×900 interaction frame displays this full image without crop.",
+      "nativeDimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "bytes": 3550547,
+      "sha256": "a45b83312286730830310e0035dca6dcfd8d994d30c248d11e9a884799afb5a7",
+      "generationOutput": "/workspace/generated_images/exec-f309aad9-efbb-42a6-b539-a744c45536eb.png",
+      "matchesOriginalOutputByteForByte": true
+    },
+    {
+      "path": "play/visual-v2/assets/city-cats-concept.png",
+      "role": "city-character-concept",
+      "note": "City concept containing orange tabby crowned bearded lord, guardian, black-and-white and calico messenger cats; final roles and placements require visual validation.",
+      "nativeDimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "bytes": 3839442,
+      "sha256": "6f87d36440d41c73d484fddd604505ed370fe89cd2d8ca0c2fb495d3979cceac",
+      "generationOutput": "/workspace/generated_images/exec-3039b040-83dc-41d7-bdf5-b0f5c72b3901.png",
+      "matchesOriginalOutputByteForByte": true
+    },
+    {
+      "path": "play/worldmap-v4/assets/detail-northwest.png",
+      "role": "independent-regional-detail-reference",
+      "note": "Independent northwest detail concept; NOT a pixel-faithful quarter, NOT stitchable to master, NOT an interactive coordinate authority.",
+      "nativeDimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "bytes": 3455230,
+      "sha256": "499749b280f5ff52ebeedcc8a40414f3c9df4b596bf5e4d324f3dc69f6712632",
+      "generationOutput": "/workspace/generated_images/exec-57ceefc7-e20e-4612-bb6d-0bbf5a7246f7.png",
+      "matchesOriginalOutputByteForByte": true
+    },
+    {
+      "path": "play/worldmap-v4/assets/detail-northeast.png",
+      "role": "independent-regional-detail-reference",
+      "note": "Independent northeast detail concept; NOT a pixel-faithful quarter, NOT stitchable to master, NOT an interactive coordinate authority.",
+      "nativeDimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "bytes": 3418121,
+      "sha256": "3cb93dbbb37cbff3b2241a01d6848d4a055aeb2b22c61db7aa57ebfeb176c955",
+      "generationOutput": "/workspace/generated_images/exec-893b0483-a193-42b4-afac-51d545f78715.png",
+      "matchesOriginalOutputByteForByte": true
+    },
+    {
+      "path": "play/worldmap-v4/assets/detail-southwest.png",
+      "role": "independent-regional-detail-reference",
+      "note": "Independent southwest detail concept; NOT a pixel-faithful quarter, NOT stitchable to master, NOT an interactive coordinate authority.",
+      "nativeDimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "bytes": 3830766,
+      "sha256": "a2fb1969b4402e604d8fd9c443e4e6b031a2450811b5452003bbedab6664ddd6",
+      "generationOutput": "/workspace/generated_images/exec-6bb97fe9-5076-4dab-881c-f90939edf5d6.png",
+      "matchesOriginalOutputByteForByte": true
+    },
+    {
+      "path": "play/worldmap-v4/assets/detail-southeast.png",
+      "role": "independent-regional-detail-reference",
+      "note": "Independent southeast detail concept; NOT a pixel-faithful quarter, NOT stitchable to master, NOT an interactive coordinate authority.",
+      "nativeDimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "bytes": 3851675,
+      "sha256": "6cea49791ee546643e9ee8f6144c642e9de7ddfed614332b8321c85dd78f5a13",
+      "generationOutput": "/workspace/generated_images/exec-3bee53de-d7e2-40f0-9be6-0e03dbe19dc1.png",
+      "matchesOriginalOutputByteForByte": true
+    },
+    {
+      "path": "play/visual-v2/assets/city-dharma-dock-concept.png",
+      "role": "separate-four-truths-city-dock",
+      "note": "Independent transparent dock and eight-spoke Dharma wheel concept layer, earned by Four Truths; does not replace the canonical four-elements plaza.",
+      "nativeDimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "bytes": 2069123,
+      "sha256": "2bbe41bd04e24a9ca5c78bbdc00a0318f19c052d8ff5d9c2548e569b4545bd22",
+      "generationOutput": "/workspace/generated_images/exec-d891a4f2-4ac6-487c-a6da-d97626553594.png",
+      "matchesOriginalOutputByteForByte": true
+    }
+  ]
+}

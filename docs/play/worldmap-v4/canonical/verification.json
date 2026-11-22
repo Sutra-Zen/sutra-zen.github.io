@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-22",
+  "source": "SuttaCentral public sc-data repository, ancient Chinese text",
+  "url": "https://raw.githubusercontent.com/suttacentral/sc-data/482faafde8b9c52689d7926004706939f573cf2b/html_text/lzh/sutta/sa/sa201-300/sa262.html",
+  "commit": "482faafde8b9c52689d7926004706939f573cf2b",
+  "path": "canonical/sa262.html",
+  "status": 200,
+  "bytes": 10493,
+  "sha256": "1b56f2c7174c176de5c0ceb05d83ddbafe1b2967576ef4764f8259ef41f335f1",
+  "verifiedPassage": "如實正觀世間集者，則不生世間無見，如實正觀世間滅，則不生世間有見。",
+  "scope": "Ending quote content verified from fixed raw HTML; not a claim that external app/annotation page loaded."
+}

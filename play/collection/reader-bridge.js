@@ -28,12 +28,14 @@ async function initializeCollection() {
   document.head.append(stylesheet);
   document.body.classList.add('collection-reading');
   document.body.dataset.collectionBook = bookId;
-  const shelfURL = new URL('../visual-v2/shelf.html', import.meta.url);
+  const worldmapReturn = new URLSearchParams(location.search).get('collectionReturn') === 'worldmap-v4';
+  const shelfURL = new URL(worldmapReturn ? '../worldmap-v4/' : '../visual-v2/shelf.html', import.meta.url);
+  const returnLabel = worldmapReturn ? (await import('../worldmap-v4/text.js')).T.returnJourney : text.returnShelf;
   // Reuse the top-left slot; another landscape toolbar would cover narration.
   const returnLink = document.querySelector('.top > a') || document.createElement('a');
   returnLink.classList.add('collection-reader-return');
-  returnLink.href = shelfURL.href; returnLink.textContent = text.returnShelf;
-  returnLink.setAttribute('aria-label', text.returnShelf);
+  returnLink.href = shelfURL.href; returnLink.textContent = returnLabel;
+  returnLink.setAttribute('aria-label', returnLabel);
   if (!returnLink.isConnected) document.querySelector('.top')?.prepend(returnLink);
   const readPosition = () => {
     // The first fraction is the real reading-step count, including all cues in

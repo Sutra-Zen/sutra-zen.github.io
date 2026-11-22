@@ -39,6 +39,10 @@ Original author-supplied handoff documents, manifests, screenshots and historica
 
 The twelve-link reader is implemented in twelve-links/ and preserves 77 pages: 18 narrative scenes plus an afterword. The author approved publication on 2026-11-14. Verify the corresponding GitHub Pages deployment before claiming live availability.
 
+## World landscape map-v4 and route-r3 (2026-11-22, not published)
+
+The current draft adds `/play/worldmap-v4/`: a shared1600×900 two-row/five-column landscape, fog without map locks, editable labels, original relation overlays and route-r3 recommendations. All fourteen existing readers remain supported; collection completion IDs are the sole source for map/shelf/city rewards. The optional `collectionReturn=worldmap-v4` integration returns only this new entry to real city feedback; default collection and standalone readers retain their behavior. New cat city art has the crowned short-bearded orange lord, black-white/calico messengers and an independent wooden Dharma dock. See `docs/play/worldmap-v4/README.md` and `docs/previews/play-worldmap-v4/`. The3840×2160 exports are browser renders, while the native illustration remains1672×941; full native4K/layered art and the complete ending remain pending. DraftPR59 is still against the prototype branch, with no main merge/deployment authorized; latest main remains `b9a0dad2`.
+
 ## Art-direction comparison preview (2026-11-21, not published)
 
 The existing `preview/journey-visual-v2` draft now includes original-watercolor / terrain / fantasy-world map comparisons, a new no-grid top-down six-gate city and bound-book collection covers. Only proposal visuals change; source graph, collection/journey storage, fourteen reader files and production site are unchanged from `dedc066`. See `docs/play/visual-v2/ART-DIRECTIONS.md` and `docs/previews/play-art-directions/`. Main remains `b9a0dad2`; no merge or publication is authorized.
