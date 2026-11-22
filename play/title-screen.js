@@ -5,7 +5,7 @@ export const TITLE_ART_FILENAME='CC1A7C32-0620-4DB2-BCD2-A9457A83C259.jpeg';
 export function initializeTitleScreen({onEnterMap,shell,enabled=/^\/game(?:\/|$)/.test(location.pathname)}={}){
  const host=document.querySelector('#game-title-screen'),content=document.querySelector('#game-content');if(!host||!content)throw Error('Missing title/game content hosts.');
  const href=new URL('./title-screen.css',import.meta.url).href;if(![...document.querySelectorAll('link[rel="stylesheet"]')].some(n=>n.href===href)){const link=document.createElement('link');link.rel='stylesheet';link.href=href;document.head.append(link);}
- host.querySelector('[data-title-brand]').textContent=T.brand;host.querySelector('[data-title-heading]').textContent=T.title;host.querySelector('[data-title-subtitle]').textContent=T.subtitle;host.querySelector('[data-title-settings]').textContent=T.settings;
+ host.querySelector('[data-title-brand]').textContent=T.brand;host.querySelector('[data-title-heading]').textContent=T.title;host.querySelector('[data-title-subtitle]').textContent=T.subtitle;host.querySelector('[data-title-tagline]').textContent=T.tagline;host.querySelector('[data-title-settings]').textContent=T.settings;
  let entered=false;
  function refresh(){const s=store.get();host.querySelector('[data-title-start]').textContent=s.completed.length||Object.keys(s.positions).length?T.continue:T.start;}
  function enterMap({updateHash=true}={}){if(updateHash&&enabled){const url=new URL(location.href);url.hash='map';history.replaceState(null,'',url.href);}host.hidden=true;content.hidden=false;shell?.setVisible(true);if(!entered){entered=true;onEnterMap?.();}}
