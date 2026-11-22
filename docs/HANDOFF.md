@@ -1,3 +1,13 @@
+# 序幕跑馬燈與作者首頁重置（2026-11-22）
+
+從已發布main `35d59e3bc41faed5fe7b0d22d1a0797398c6de59` 建立 `feat/game-prologue-author-reset`，起始乾淨、origin正確。作者希望重看首次小貓口白與片頭；新 `/game/` 先在原貓咪JPEG上播放作者三段六行原文，由下往上捲動，播完／點一下／鍵盤略過才顯示既有置中選單。返回海圖不重播。降低動態模式提供可捲動靜態全文與進入選單。
+
+首頁重置只在暫用作者入口 `/game/?author=1` 建立，普通玩家入口不顯示；未來可關閉 `AUTHOR_REVIEW_ENABLED`，它不是權限機制。確認後僅清遊戲collection、路線metadata、story已看紀錄及遊戲camera/tip session，取消不變，不用localStorage.clear、不碰原站讀本資料。修正既有collection.reset忽略session備援刪除失敗、可能重載復活舊紀錄的邊界，只動reset清理與如實回報。連同同一module instance中的story記憶體一起重置，重頭開始會再次出現第一幕口白。儲存失敗明示本分頁狀態與永久保存限制。
+
+新 `play/prologue/` 純呈現、文字集中可替換；新 `play/title-review.js` 隔離試玩工具。原圖、原書、資格、進度格式與source graph不改。來源HTML／產生後game及快取版本同步；詳[本輪交接](play/game-prologue/README.md)與[測試截圖](previews/game-prologue/README.md)。main:/發布方式保留，QA排除十五目錄；精確merge SHA、Pages／live與固定SHA ZIP記本輪PR交付。實機Safari未測，Notion無連接器待補PR及發布紀錄。
+
+---
+
 # 城池原色雲霧、路線回饋與小貓開場（2026-11-22）
 
 從最新main `be78106f6414ebf447eaedadd5c94883359be58e` 建立 `feat/game-city-story`，起始工作樹乾淨、origin仍為Sutra-Zen/sutra-zen.github.io。最新指示取代上輪港口城池徽章：海圖示意入口移除，保留固定底列城池；原圖鏡頭範圍、半島避讓與全圖返回不改。
