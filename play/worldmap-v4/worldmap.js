@@ -3,7 +3,7 @@ import {routeStatus,routeBooks} from '../route/selectors.js';
 import {canStartGameBook,canReviewGameBook,getGameBookAccess} from '../route/eligibility.js';
 import {routeMetadata} from '../route/metadata.js';
 import {initializeGameShell,GAME_URLS} from '../game-shell.js';
-import {initializeTitleScreen} from '../title-screen.js';
+import {initializeTitleScreen} from '../title-screen.js?v=title-brand-2';
 import {createMapCamera} from './camera.js';
 import {renderHarborCastle,HARBOR_CASTLE_GEOMETRY} from './harbor-castle.js';
 import {compactCompletionFeedback} from './completion-feedback.js';

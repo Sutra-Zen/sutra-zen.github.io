@@ -13,3 +13,6 @@
 .game-title-subtitle{margin-bottom:12px}.game-title-tagline{margin:0 0 23px;color:#405336;font:700 17px/1.7 "PingFang TC","Microsoft JhengHei",sans-serif;text-wrap:balance}
 @media(max-width:650px){.game-title-paper h1{font-size:32px}.game-title-tagline{font-size:16px;margin-bottom:20px}}
 @media(max-height:500px){.game-title-tagline{font-size:15px;margin-bottom:13px}.game-title-subtitle{margin-bottom:8px}.game-title-screen .game-title-brand{font-size:18px}}
+
+/* Brand belongs to the paper, never a sibling in the centering flex row. */
+.game-title-screen .game-title-paper>.game-title-brand{position:static;display:block;width:max-content;max-width:100%;margin:12px 0 0 auto;padding:0;background:transparent;border-radius:0;font:700 18px/1.3 Georgia,serif;text-align:right;color:#53633f}
