@@ -1,0 +1,669 @@
+{
+  "baseline": "be78106f6414ebf447eaedadd5c94883359be58e",
+  "protectedTrackedFiles": 615,
+  "originalFourteenReadersIncludingHtml": "byte-for-byte unchanged",
+  "originalNarrationScripturePicturesAndSourceArchives": "byte-for-byte unchanged",
+  "rootHomepageSeoGoogleAndSharedReaderControls": "byte-for-byte unchanged",
+  "phase": "Local review only",
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "physicalSafari": "Not tested; Chromium viewport/input simulation only",
+  "fixtures": "Completed-book fixtures are isolated historical saves, not claimed native fourteen-book completions.",
+  "portrait": {
+    "path": "play/story/assets/kitten-traveler-portrait-concept.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "actualAlphaExtrema": [
+      0,
+      255
+    ],
+    "sha256": "63c4983bae65b1982ef66b7b0b4606d48003c04d76851cf7440ec7f770d14cc2",
+    "status": "New generated concept portrait; original book artwork unchanged"
+  },
+  "storyStoreModel": {
+    "dedupSeen": true,
+    "unknownSceneRejected": true,
+    "unrelatedReadingKeyUnchanged": true,
+    "reloadEquivalent": true,
+    "corruptStoryIsolated": true,
+    "disabledLocalSessionFallback": true,
+    "getWorksSetThrowsRecovery": true,
+    "changedCanonicalRawInvalidatesRecovery": true
+  },
+  "protectedGameCore": [
+    "play/collection/store.js",
+    "play/collection/reader-bridge.js",
+    "play/reader-bridge.js",
+    "play/route",
+    "play/worldmap-v4/data.js",
+    "play/visual-v2/network-data.js",
+    "play/worldmap-v4/camera.js",
+    "play/title-screen.js",
+    "play/title-screen.css",
+    "play/game-ui-text.js",
+    "play/assets/CC1A7C32-0620-4DB2-BCD2-A9457A83C259.jpeg"
+  ],
+  "introChecks": [
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "exactHtmlNarration": true,
+      "onceMarkedOnShow": true,
+      "topOverlay": {
+        "x": 190,
+        "y": 14,
+        "width": 900,
+        "height": 199.59375
+      },
+      "skipReloadNoRepeat": true,
+      "replayNoBookOrProgressMutation": true
+    },
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "exactHtmlNarration": true,
+      "onceMarkedOnShow": true,
+      "topOverlay": {
+        "x": 10,
+        "y": 10,
+        "width": 340,
+        "height": 232.546875
+      },
+      "skipReloadNoRepeat": true,
+      "replayNoBookOrProgressMutation": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "exactHtmlNarration": true,
+      "onceMarkedOnShow": true,
+      "topOverlay": {
+        "x": 14,
+        "y": 8,
+        "width": 816,
+        "height": 158.578125
+      },
+      "skipReloadNoRepeat": true,
+      "replayNoBookOrProgressMutation": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "exactHtmlNarration": true,
+      "onceMarkedOnShow": true,
+      "topOverlay": {
+        "x": 14,
+        "y": 14,
+        "width": 740,
+        "height": 186.78125
+      },
+      "skipReloadNoRepeat": true,
+      "replayNoBookOrProgressMutation": true
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "exactHtmlNarration": true,
+      "onceMarkedOnShow": true,
+      "topOverlay": {
+        "x": 62,
+        "y": 14,
+        "width": 900,
+        "height": 177
+      },
+      "skipReloadNoRepeat": true,
+      "replayNoBookOrProgressMutation": true
+    }
+  ],
+  "introReaderAction": {
+    "actualCtaEnteredFirstBook": true,
+    "actualNextClicks": 2,
+    "reloadResumeAtIndex": 2,
+    "readerReturnNoRepeat": true,
+    "completionZero": true
+  },
+  "returningProfileIntroSuppressed": true,
+  "storyStorageFallback": {
+    "blockedLocalStorageWarningShown": true,
+    "actualFirstBookNextStillWorks": true,
+    "sameTabReturnDoesNotRepeat": true,
+    "noPermanentSaveClaim": true
+  },
+  "crossPageOnce": {
+    "cityReturnWhileIntroWasOpenNoRepeat": true,
+    "shelfReturnNoRepeat": true,
+    "newBrowserContextWithSeenSaveNoRepeat": true,
+    "noReadingProgressFabricated": true
+  },
+  "freshIntroFullBook": {
+    "actualSequentialReadingTrace": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "completionOnlyAfterExplicitButton": true,
+    "firstRewardDockVisible": true,
+    "nextStationFocusFiveAggregatesWithoutAutostart": true,
+    "actualFullReviewSteps": 29,
+    "reviewNoRewardRepeatOrExtraCompletion": true,
+    "introNeverRepeated": true
+  },
+  "portraitFailureRecovery": {
+    "expectedInjectedAbort": 1,
+    "fullTextAndActionsAvailable": true,
+    "replayRecoveredPortraitLayout": true
+  },
+  "cityVisualAndRewards": [
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "historicalCompletedCount": 0,
+      "fullColorAndNoOuterOverflow": {
+        "painted": [
+          {
+            "class": "artboard city-tactics-board stage-0  without-city-body  ",
+            "filter": "none",
+            "opacity": "1"
+          },
+          {
+            "class": "tactics-painted-layer",
+            "filter": "none",
+            "opacity": "1"
+          },
+          {
+            "class": "scene-art tactics-art",
+            "filter": "none",
+            "opacity": "1"
+          }
+        ],
+        "screen": [
+          1280,
+          900
+        ],
+        "overflow": [
+          1280,
+          900
+        ]
+      },
+      "localFogOnly": true,
+      "completedIdsUnchanged": true,
+      "sevenCompanions": false,
+      "canonicalVersusCreativeSourceLabels": true
+    },
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "historicalCompletedCount": 13,
+      "fullColorAndNoOuterOverflow": {
+        "painted": [
+          {
+            "class": "artboard city-tactics-board stage-3  has-city-body has-six-gates has-truth-dock",
+            "filter": "none",
+            "opacity": "1"
+          },
+          {
+            "class": "tactics-painted-layer",
+            "filter": "none",
+            "opacity": "1"
+          },
+          {
+            "class": "scene-art tactics-art",
+            "filter": "none",
+            "opacity": "1"
+          }
+        ],
+        "screen": [
+          1280,
+          900
+        ],
+        "overflow": [
+          1280,
+          900
+        ]
+      },
+      "localFogOnly": true,
+      "completedIdsUnchanged": true,
+      "sevenCompanions": true,
+      "canonicalVersusCreativeSourceLabels": true
+    },
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "historicalCompletedCount": 0,
+      "fullColorAndNoOuterOverflow": {
+        "painted": [
+          {
+            "class": "artboard city-tactics-board stage-0  without-city-body  ",
+            "filter": "none",
+            "opacity": "1"
+          },
+          {
+            "class": "tactics-painted-layer",
+            "filter": "none",
+            "opacity": "1"
+          },
+          {
+            "class": "scene-art tactics-art",
+            "filter": "none",
+            "opacity": "1"
+          }
+        ],
+        "screen": [
+          360,
+          800
+        ],
+        "overflow": [
+          360,
+          800
+        ]
+      },
+      "localFogOnly": true,
+      "completedIdsUnchanged": true,
+      "sevenCompanions": false,
+      "canonicalVersusCreativeSourceLabels": true
+    },
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "historicalCompletedCount": 13,
+      "fullColorAndNoOuterOverflow": {
+        "painted": [
+          {
+            "class": "artboard city-tactics-board stage-3  has-city-body has-six-gates has-truth-dock",
+            "filter": "none",
+            "opacity": "1"
+          },
+          {
+            "class": "tactics-painted-layer",
+            "filter": "none",
+            "opacity": "1"
+          },
+          {
+            "class": "scene-art tactics-art",
+            "filter": "none",
+            "opacity": "1"
+          }
+        ],
+        "screen": [
+          360,
+          800
+        ],
+        "overflow": [
+          360,
+          800
+        ]
+      },
+      "localFogOnly": true,
+      "completedIdsUnchanged": true,
+      "sevenCompanions": true,
+      "canonicalVersusCreativeSourceLabels": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "historicalCompletedCount": 0,
+      "fullColorAndNoOuterOverflow": {
+        "painted": [
+          {
+            "class": "artboard city-tactics-board stage-0  without-city-body  ",
+            "filter": "none",
+            "opacity": "1"
+          },
+          {
+            "class": "tactics-painted-layer",
+            "filter": "none",
+            "opacity": "1"
+          },
+          {
+            "class": "scene-art tactics-art",
+            "filter": "none",
+            "opacity": "1"
+          }
+        ],
+        "screen": [
+          844,
+          390
+        ],
+        "overflow": [
+          844,
+          390
+        ]
+      },
+      "localFogOnly": true,
+      "completedIdsUnchanged": true,
+      "sevenCompanions": false,
+      "canonicalVersusCreativeSourceLabels": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "historicalCompletedCount": 13,
+      "fullColorAndNoOuterOverflow": {
+        "painted": [
+          {
+            "class": "artboard city-tactics-board stage-3  has-city-body has-six-gates has-truth-dock",
+            "filter": "none",
+            "opacity": "1"
+          },
+          {
+            "class": "tactics-painted-layer",
+            "filter": "none",
+            "opacity": "1"
+          },
+          {
+            "class": "scene-art tactics-art",
+            "filter": "none",
+            "opacity": "1"
+          }
+        ],
+        "screen": [
+          844,
+          390
+        ],
+        "overflow": [
+          844,
+          390
+        ]
+      },
+      "localFogOnly": true,
+      "completedIdsUnchanged": true,
+      "sevenCompanions": true,
+      "canonicalVersusCreativeSourceLabels": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "historicalCompletedCount": 0,
+      "fullColorAndNoOuterOverflow": {
+        "painted": [
+          {
+            "class": "artboard city-tactics-board stage-0  without-city-body  ",
+            "filter": "none",
+            "opacity": "1"
+          },
+          {
+            "class": "tactics-painted-layer",
+            "filter": "none",
+            "opacity": "1"
+          },
+          {
+            "class": "scene-art tactics-art",
+            "filter": "none",
+            "opacity": "1"
+          }
+        ],
+        "screen": [
+          768,
+          1024
+        ],
+        "overflow": [
+          768,
+          1024
+        ]
+      },
+      "localFogOnly": true,
+      "completedIdsUnchanged": true,
+      "sevenCompanions": false,
+      "canonicalVersusCreativeSourceLabels": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "historicalCompletedCount": 13,
+      "fullColorAndNoOuterOverflow": {
+        "painted": [
+          {
+            "class": "artboard city-tactics-board stage-3  has-city-body has-six-gates has-truth-dock",
+            "filter": "none",
+            "opacity": "1"
+          },
+          {
+            "class": "tactics-painted-layer",
+            "filter": "none",
+            "opacity": "1"
+          },
+          {
+            "class": "scene-art tactics-art",
+            "filter": "none",
+            "opacity": "1"
+          }
+        ],
+        "screen": [
+          768,
+          1024
+        ],
+        "overflow": [
+          768,
+          1024
+        ]
+      },
+      "localFogOnly": true,
+      "completedIdsUnchanged": true,
+      "sevenCompanions": true,
+      "canonicalVersusCreativeSourceLabels": true
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "historicalCompletedCount": 0,
+      "fullColorAndNoOuterOverflow": {
+        "painted": [
+          {
+            "class": "artboard city-tactics-board stage-0  without-city-body  ",
+            "filter": "none",
+            "opacity": "1"
+          },
+          {
+            "class": "tactics-painted-layer",
+            "filter": "none",
+            "opacity": "1"
+          },
+          {
+            "class": "scene-art tactics-art",
+            "filter": "none",
+            "opacity": "1"
+          }
+        ],
+        "screen": [
+          1024,
+          768
+        ],
+        "overflow": [
+          1024,
+          768
+        ]
+      },
+      "localFogOnly": true,
+      "completedIdsUnchanged": true,
+      "sevenCompanions": false,
+      "canonicalVersusCreativeSourceLabels": true
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "historicalCompletedCount": 13,
+      "fullColorAndNoOuterOverflow": {
+        "painted": [
+          {
+            "class": "artboard city-tactics-board stage-3  has-city-body has-six-gates has-truth-dock",
+            "filter": "none",
+            "opacity": "1"
+          },
+          {
+            "class": "tactics-painted-layer",
+            "filter": "none",
+            "opacity": "1"
+          },
+          {
+            "class": "scene-art tactics-art",
+            "filter": "none",
+            "opacity": "1"
+          }
+        ],
+        "screen": [
+          1024,
+          768
+        ],
+        "overflow": [
+          1024,
+          768
+        ]
+      },
+      "localFogOnly": true,
+      "completedIdsUnchanged": true,
+      "sevenCompanions": true,
+      "canonicalVersusCreativeSourceLabels": true
+    }
+  ],
+  "historicalRewardFixtures": [
+    {
+      "fixture": "before-seven",
+      "completedIdsRetained": [
+        "four-truths",
+        "five-aggregates",
+        "six-senses",
+        "twelve-links",
+        "eightfold-path",
+        "four-purities-six-recollections",
+        "mindfulness",
+        "right-effort",
+        "anapana",
+        "iddhipada",
+        "four-jhanas",
+        "five-roots-powers"
+      ],
+      "pendingOnly": false,
+      "readingSaveUnchanged": true,
+      "companionDomCount": 0
+    },
+    {
+      "fixture": "only-seven",
+      "completedIdsRetained": [
+        "seven-factors"
+      ],
+      "pendingOnly": true,
+      "readingSaveUnchanged": true,
+      "companionDomCount": 0
+    },
+    {
+      "fixture": "body-and-seven",
+      "completedIdsRetained": [
+        "five-aggregates",
+        "seven-factors"
+      ],
+      "pendingOnly": false,
+      "readingSaveUnchanged": true,
+      "companionDomCount": 7,
+      "visibleSourceCompanionCount": 6,
+      "existingGuardianVisible": false,
+      "existingGuardianPending": true,
+      "explicitPendingStatusVerified": true,
+      "actualPendingStatus": "六位夥伴已登場；念-守門人待城門與四念處齊備"
+    },
+    {
+      "fixture": "roots-and-body",
+      "completedIdsRetained": [
+        "five-aggregates",
+        "five-roots-powers"
+      ],
+      "pendingOnly": false,
+      "readingSaveUnchanged": true,
+      "companionDomCount": 0
+    },
+    {
+      "fixture": "roots-faith-source",
+      "completedIdsRetained": [
+        "five-aggregates",
+        "five-roots-powers",
+        "four-purities-six-recollections"
+      ],
+      "pendingOnly": false,
+      "readingSaveUnchanged": true,
+      "companionDomCount": 0
+    },
+    {
+      "fixture": "all-fourteen",
+      "completedIdsRetained": [
+        "four-truths",
+        "five-aggregates",
+        "six-senses",
+        "twelve-links",
+        "eightfold-path",
+        "four-purities-six-recollections",
+        "mindfulness",
+        "right-effort",
+        "anapana",
+        "iddhipada",
+        "four-jhanas",
+        "five-roots-powers",
+        "seven-factors",
+        "four-fruits-ten-fetters"
+      ],
+      "pendingOnly": false,
+      "readingSaveUnchanged": true,
+      "companionDomCount": 7
+    }
+  ],
+  "futureBookmarksNoRewardsOrAccess": true,
+  "result": "passed",
+  "dialogScrollResetVerifiedAtFiveViewports": true
+}

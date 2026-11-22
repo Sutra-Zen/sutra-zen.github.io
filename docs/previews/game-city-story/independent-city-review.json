@@ -1,0 +1,382 @@
+[
+  {
+    "case": "fresh",
+    "size": [
+      360,
+      800
+    ],
+    "filter": "none",
+    "opacity": "1",
+    "clouds": 11,
+    "companionCount": 0,
+    "guardianPlaced": null,
+    "guardianPending": null,
+    "overlap": [],
+    "minTarget": 48,
+    "finalRewardVisible": false,
+    "rawUnchanged": true,
+    "errors": [],
+    "http": []
+  },
+  {
+    "case": "fresh",
+    "size": [
+      844,
+      390
+    ],
+    "filter": "none",
+    "opacity": "1",
+    "clouds": 11,
+    "companionCount": 0,
+    "guardianPlaced": null,
+    "guardianPending": null,
+    "overlap": [],
+    "minTarget": 44,
+    "finalRewardVisible": false,
+    "rawUnchanged": true,
+    "errors": [],
+    "http": []
+  },
+  {
+    "case": "fresh",
+    "size": [
+      768,
+      1024
+    ],
+    "filter": "none",
+    "opacity": "1",
+    "clouds": 11,
+    "companionCount": 0,
+    "guardianPlaced": null,
+    "guardianPending": null,
+    "overlap": [],
+    "minTarget": 44,
+    "finalRewardVisible": false,
+    "rawUnchanged": true,
+    "errors": [],
+    "http": []
+  },
+  {
+    "case": "fresh",
+    "size": [
+      1024,
+      768
+    ],
+    "filter": "none",
+    "opacity": "1",
+    "clouds": 11,
+    "companionCount": 0,
+    "guardianPlaced": null,
+    "guardianPending": null,
+    "overlap": [],
+    "minTarget": 44,
+    "finalRewardVisible": false,
+    "rawUnchanged": true,
+    "errors": [],
+    "http": []
+  },
+  {
+    "case": "fresh",
+    "size": [
+      1280,
+      900
+    ],
+    "filter": "none",
+    "opacity": "1",
+    "clouds": 11,
+    "companionCount": 0,
+    "guardianPlaced": null,
+    "guardianPending": null,
+    "overlap": [],
+    "minTarget": 44,
+    "finalRewardVisible": false,
+    "rawUnchanged": true,
+    "errors": [],
+    "http": []
+  },
+  {
+    "case": "seven_sparse",
+    "size": [
+      360,
+      800
+    ],
+    "filter": "none",
+    "opacity": "1",
+    "clouds": 9,
+    "companionCount": 7,
+    "guardianPlaced": "false",
+    "guardianPending": true,
+    "overlap": [],
+    "minTarget": 48,
+    "finalRewardVisible": false,
+    "rawUnchanged": true,
+    "errors": [],
+    "http": []
+  },
+  {
+    "case": "seven_sparse",
+    "size": [
+      844,
+      390
+    ],
+    "filter": "none",
+    "opacity": "1",
+    "clouds": 9,
+    "companionCount": 7,
+    "guardianPlaced": "false",
+    "guardianPending": true,
+    "overlap": [],
+    "minTarget": 44,
+    "finalRewardVisible": false,
+    "rawUnchanged": true,
+    "errors": [],
+    "http": []
+  },
+  {
+    "case": "seven_sparse",
+    "size": [
+      768,
+      1024
+    ],
+    "filter": "none",
+    "opacity": "1",
+    "clouds": 9,
+    "companionCount": 7,
+    "guardianPlaced": "false",
+    "guardianPending": true,
+    "overlap": [],
+    "minTarget": 44,
+    "finalRewardVisible": false,
+    "rawUnchanged": true,
+    "errors": [],
+    "http": []
+  },
+  {
+    "case": "seven_sparse",
+    "size": [
+      1024,
+      768
+    ],
+    "filter": "none",
+    "opacity": "1",
+    "clouds": 9,
+    "companionCount": 7,
+    "guardianPlaced": "false",
+    "guardianPending": true,
+    "overlap": [],
+    "minTarget": 44,
+    "finalRewardVisible": false,
+    "rawUnchanged": true,
+    "errors": [],
+    "http": []
+  },
+  {
+    "case": "seven_sparse",
+    "size": [
+      1280,
+      900
+    ],
+    "filter": "none",
+    "opacity": "1",
+    "clouds": 9,
+    "companionCount": 7,
+    "guardianPlaced": "false",
+    "guardianPending": true,
+    "overlap": [],
+    "minTarget": 44,
+    "finalRewardVisible": false,
+    "rawUnchanged": true,
+    "errors": [],
+    "http": []
+  },
+  {
+    "case": "faculties_sparse",
+    "size": [
+      360,
+      800
+    ],
+    "filter": "none",
+    "opacity": "1",
+    "clouds": 9,
+    "companionCount": 0,
+    "guardianPlaced": null,
+    "guardianPending": null,
+    "overlap": [],
+    "minTarget": 48,
+    "finalRewardVisible": false,
+    "rawUnchanged": true,
+    "errors": [],
+    "http": []
+  },
+  {
+    "case": "faculties_sparse",
+    "size": [
+      844,
+      390
+    ],
+    "filter": "none",
+    "opacity": "1",
+    "clouds": 9,
+    "companionCount": 0,
+    "guardianPlaced": null,
+    "guardianPending": null,
+    "overlap": [],
+    "minTarget": 44,
+    "finalRewardVisible": false,
+    "rawUnchanged": true,
+    "errors": [],
+    "http": []
+  },
+  {
+    "case": "faculties_sparse",
+    "size": [
+      768,
+      1024
+    ],
+    "filter": "none",
+    "opacity": "1",
+    "clouds": 9,
+    "companionCount": 0,
+    "guardianPlaced": null,
+    "guardianPending": null,
+    "overlap": [],
+    "minTarget": 44,
+    "finalRewardVisible": false,
+    "rawUnchanged": true,
+    "errors": [],
+    "http": []
+  },
+  {
+    "case": "faculties_sparse",
+    "size": [
+      1024,
+      768
+    ],
+    "filter": "none",
+    "opacity": "1",
+    "clouds": 9,
+    "companionCount": 0,
+    "guardianPlaced": null,
+    "guardianPending": null,
+    "overlap": [],
+    "minTarget": 44,
+    "finalRewardVisible": false,
+    "rawUnchanged": true,
+    "errors": [],
+    "http": []
+  },
+  {
+    "case": "faculties_sparse",
+    "size": [
+      1280,
+      900
+    ],
+    "filter": "none",
+    "opacity": "1",
+    "clouds": 9,
+    "companionCount": 0,
+    "guardianPlaced": null,
+    "guardianPending": null,
+    "overlap": [],
+    "minTarget": 44,
+    "finalRewardVisible": false,
+    "rawUnchanged": true,
+    "errors": [],
+    "http": []
+  },
+  {
+    "case": "all",
+    "size": [
+      360,
+      800
+    ],
+    "filter": "none",
+    "opacity": "1",
+    "clouds": 0,
+    "companionCount": 7,
+    "guardianPlaced": "true",
+    "guardianPending": false,
+    "overlap": [],
+    "minTarget": 48,
+    "finalRewardVisible": true,
+    "rawUnchanged": true,
+    "errors": [],
+    "http": []
+  },
+  {
+    "case": "all",
+    "size": [
+      844,
+      390
+    ],
+    "filter": "none",
+    "opacity": "1",
+    "clouds": 0,
+    "companionCount": 7,
+    "guardianPlaced": "true",
+    "guardianPending": false,
+    "overlap": [],
+    "minTarget": 44,
+    "finalRewardVisible": true,
+    "rawUnchanged": true,
+    "errors": [],
+    "http": []
+  },
+  {
+    "case": "all",
+    "size": [
+      768,
+      1024
+    ],
+    "filter": "none",
+    "opacity": "1",
+    "clouds": 0,
+    "companionCount": 7,
+    "guardianPlaced": "true",
+    "guardianPending": false,
+    "overlap": [],
+    "minTarget": 44,
+    "finalRewardVisible": true,
+    "rawUnchanged": true,
+    "errors": [],
+    "http": []
+  },
+  {
+    "case": "all",
+    "size": [
+      1024,
+      768
+    ],
+    "filter": "none",
+    "opacity": "1",
+    "clouds": 0,
+    "companionCount": 7,
+    "guardianPlaced": "true",
+    "guardianPending": false,
+    "overlap": [],
+    "minTarget": 44,
+    "finalRewardVisible": true,
+    "rawUnchanged": true,
+    "errors": [],
+    "http": []
+  },
+  {
+    "case": "all",
+    "size": [
+      1280,
+      900
+    ],
+    "filter": "none",
+    "opacity": "1",
+    "clouds": 0,
+    "companionCount": 7,
+    "guardianPlaced": "true",
+    "guardianPending": false,
+    "overlap": [],
+    "minTarget": 44,
+    "finalRewardVisible": true,
+    "rawUnchanged": true,
+    "errors": [],
+    "http": []
+  }
+]

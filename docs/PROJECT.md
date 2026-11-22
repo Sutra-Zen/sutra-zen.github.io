@@ -6,6 +6,12 @@
 - Related Buddhist learning map: https://sutrazen.netlify.app/map.html
 - Primary language: Traditional Chinese (Taiwan)
 
+## Current city / authored arrival dialogue (2026-11-22)
+
+Latest [city/story round](play/game-city-story/README.md), branch `feat/game-city-story` from published PR66 `be78106f6414ebf447eaedadd5c94883359be58e`, removes the harbor city badge and retains the fixed bottom city tab. Original-frame camera behavior stays unchanged. City artwork remains full color with local locked-feature clouds, and route-r3 extended rewards are presented separately from the SN35.245 allegory / SA1175 parallel.
+
+New `play/story/` owns the author's first arrival scene, transparent provisional kitten portrait, translatable UI and isolated seen-scene storage. Fresh players see the top-overlay conversation once; existing players can replay through map tools without resetting reading progress. Later story/enemy/ending writing remains pending. Original books/site/SEO and strict fourteen-book eligibility are preserved. Fourteen QA directories are excluded from main:/ Pages; exact merge-SHA release evidence is recorded in the new PR. Real Safari is untested.
+
 ## Current original-frame camera and harbor badge (2026-11-22)
 
 Author's three-screen follow-up replaces the outer-ocean layout: [original-frame handoff](play/game-original-frame/README.md). Exploration covers the readable area with the original1600×900 map and clamps its edges; only the dock-covered strip has a blue backing. Overview fits the original image with neutral matte letterboxing and retains return snapshots. The pasted half-city scene becomes a compact port-side city UI badge. Original art/data/progress and Pages main:/ are unchanged; thirteen QA directories are excluded from deployment. Exact release status belongs to the new PR's Pages/live evidence; physical Safari is untested.

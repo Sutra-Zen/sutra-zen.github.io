@@ -1,0 +1,52 @@
+[
+  {
+    "viewport": [
+      360,
+      800
+    ],
+    "actualSpotClicks": 14,
+    "labelsAboveDock": true,
+    "dockRemovedFromCanonicalGroup": true,
+    "unearnedExtendedNoMisleadingCanonicalLink": true
+  },
+  {
+    "viewport": [
+      844,
+      390
+    ],
+    "actualSpotClicks": 14,
+    "labelsAboveDock": true,
+    "dockRemovedFromCanonicalGroup": true,
+    "unearnedExtendedNoMisleadingCanonicalLink": true
+  },
+  {
+    "viewport": [
+      768,
+      1024
+    ],
+    "actualSpotClicks": 14,
+    "labelsAboveDock": true,
+    "dockRemovedFromCanonicalGroup": true,
+    "unearnedExtendedNoMisleadingCanonicalLink": true
+  },
+  {
+    "viewport": [
+      1024,
+      768
+    ],
+    "actualSpotClicks": 14,
+    "labelsAboveDock": true,
+    "dockRemovedFromCanonicalGroup": true,
+    "unearnedExtendedNoMisleadingCanonicalLink": true
+  },
+  {
+    "viewport": [
+      1280,
+      900
+    ],
+    "actualSpotClicks": 14,
+    "labelsAboveDock": true,
+    "dockRemovedFromCanonicalGroup": true,
+    "unearnedExtendedNoMisleadingCanonicalLink": true
+  }
+]
