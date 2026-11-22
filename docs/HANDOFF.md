@@ -14,7 +14,7 @@ play/route/將路線、獎勵、擺放與已知／已開書名及動畫記錄分
 
 新無字母圖原生1672×941，四張區域細節圖各1672×941，城池1536×1024，木碼頭RGBA1536×1024，原件與SHA見generated-assets.json。另輸出有線／無線各3840×2160實際網頁截圖，文字由網頁重新描繪；這是瀏覽器輸出尺寸，不是原生4K插畫。四區另生圖與母圖有差異，沒有拼接或作互動座標；完整同構圖原生4K與正式分層素材仍待補。新標牌／群組／操作文案集中於text.js，zh-Hans/en/ja只留結構、不冒稱全書翻譯。
 
-驗證：r3全部16384個完成子集、13組語意情境、舊key保留／末關知悉／組合不循環通過。實際新主流程按Next走完29＋54＋115＝198步，各末步後真實城景stage1／2／3及十二因緣推薦正確；第5步重整與返回續讀、手機旋轉、自由四禪第5步主按鈕續讀、已讀重讀不重計、普通collection／獨立閱讀回歸通過。五尺寸32地標、46來源線／共同底圖與錨點、同欄四橋、無鎖頭／迷霧／標牌、14城池來源熱區與亂序安置、花田四組狀態／末關六組狀態、壞檔／不可用儲存仍可閱讀通過；無JS／本機HTTP錯誤。前輪1192步完整驗證保留，本輪未重走未變內容。實機Safari／GPU效能未測。scripts/check-play-worldmap-v4.py、check-play-route-r3.py、play/route/check-route.mjs、SEO --check、JS與diff檢查為本輪依據；詳docs/previews/play-worldmap-v4/。
+驗證：r3全部16384個完成子集、13組語意情境、舊key保留／末關知悉／組合不循環通過。實際新主流程按Next走完29＋54＋115＝198步，各末步後真實城景stage1／2／3及十二因緣推薦正確；第5步重整與返回續讀、手機旋轉、自由四禪第5步主按鈕續讀、已讀重讀不重計、普通collection／獨立閱讀回歸通過。五尺寸32地標、46來源線／共同底圖與錨點、同欄四橋、無鎖頭／迷霧／標牌、14城池來源熱區與亂序安置、花田四組狀態／末關六組狀態、壞檔／不可用儲存仍可閱讀通過；無JS／本機HTTP錯誤。前輪1192步完整驗證保留，本輪未重走未變內容。實機Safari／GPU效能未測。scripts/check-play-worldmap-v4.py、check-play-route-r3.py、play/route/check-route.mjs、SEO --check、JS與維護檔diff檢查為本輪依據（原封路線附件末尾空行提示保留，不改作者原件）；詳docs/previews/play-worldmap-v4/。
 
 試閱：根目錄python3 -m http.server 8765後開http://localhost:8765/play/worldmap-v4/，自由模式加?mode=free；原v2比較保留，新城池入口../visual-v2/?view=city。無公開預覽；正式站未發布，無發布ZIP／Notion改版寫入。
 
