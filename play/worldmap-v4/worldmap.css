@@ -66,3 +66,16 @@
 .wm-traveler{position:absolute;z-index:4;width:100px;height:auto;pointer-events:none;transform:translate(-50%,-50%) scale(var(--wm-marker-scale,1));filter:drop-shadow(0 3px 4px #193f4955)}.wm-is-overview .wm-traveler{display:none}
 
 .wm-once-tip{left:max(16px,env(safe-area-inset-left,0px))}
+
+/* Outer sea shares the world transform; original geography is not rescaled separately. */
+.wm-outer-ocean{position:absolute;left:-4000px;top:-4000px;width:9600px;height:8900px;max-width:none;z-index:-1;pointer-events:none;user-select:none}
+.wm-overview-return{position:absolute;z-index:14;left:max(12px,env(safe-area-inset-left,0px));top:calc(12px + env(safe-area-inset-top,0px));display:flex;align-items:center;justify-content:center;gap:6px;min-width:132px;min-height:48px;padding:9px 14px;border:1px solid #a77e3b;border-radius:12px;background:#fff3daf2;color:#30533c;box-shadow:0 3px 12px #153b4650;font:700 16px/1.4 "PingFang TC","Microsoft JhengHei",sans-serif;touch-action:manipulation;cursor:pointer}
+.wm-overview-return[hidden]{display:none}
+
+.wm-viewport{--wm-safe-top:env(safe-area-inset-top,0px);--wm-safe-left:env(safe-area-inset-left,0px);--wm-safe-right:env(safe-area-inset-right,0px)}
+/* The camera is the only map navigator. Unlike hidden, clip also prevents
+   the browser from auto-scrolling the oversized sea layer on keyboard focus. */
+.wm-page #game-content,.wm-page #wm-host,.wm-page .wm-viewport{overflow:clip}
+
+/* Blend only the original water-edge pixels into the sampled outer ocean. */
+.wm-background{mask-image:linear-gradient(to right,transparent,#000 8px,#000 calc(100% - 8px),transparent),linear-gradient(to bottom,transparent,#000 12px,#000 calc(100% - 12px),transparent);mask-composite:intersect}

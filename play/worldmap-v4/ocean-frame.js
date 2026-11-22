@@ -1,0 +1,6 @@
+// Decorative sea extension only. The authored 1600×900 map and all its anchors
+// remain unchanged; this SVG samples an empty-water area of that same artwork.
+export const OCEAN_PADDING=Object.freeze({left:200,right:200,top:140,bottom:220});
+export function renderOuterOcean(imageURL){
+ return `<svg class="wm-outer-ocean" viewBox="-4000 -4000 9600 8900" aria-hidden="true" focusable="false"><defs><g id="wm-water-tile"><svg width="240" height="240" viewBox="20 20 240 240"><image href="${imageURL}" width="1600" height="900" preserveAspectRatio="none"/></svg></g><pattern id="wm-outer-water" width="480" height="480" patternUnits="userSpaceOnUse"><use href="#wm-water-tile"/><use href="#wm-water-tile" transform="translate(480 0) scale(-1 1)"/><use href="#wm-water-tile" transform="translate(0 480) scale(1 -1)"/><use href="#wm-water-tile" transform="translate(480 480) scale(-1 -1)"/></pattern></defs><rect x="-4000" y="-4000" width="9600" height="8900" fill="#0061b8"/><rect x="-4000" y="-4000" width="9600" height="8900" fill="url(#wm-outer-water)" opacity=".22"/><rect x="-8000" y="-8000" width="16000" height="16000" fill="url(#wm-outer-water)" opacity=".22" transform="translate(83 117) rotate(23)"/></svg>`;
+}

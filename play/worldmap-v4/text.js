@@ -2,7 +2,7 @@
 export const LOCALE='zh-Hant';
 export const FUTURE_LOCALES=['zh-Hans','en','ja'];
 export const T={
- readingAt:(page,total)=>'閱讀中 · '+page+'／'+total,readDone:'已讀',moreTools:'工具',mapToolsTitle:'地圖工具',newLevel:'新關卡',currentLevel:'目前關卡',fullMap:'全圖',startReading:'開始閱讀',reviewBook:'複習這本',reviewShelf:'到書架複習',
+ readingAt:(page,total)=>'閱讀中 · '+page+'／'+total,readDone:'已讀',moreTools:'工具',mapToolsTitle:'地圖工具',newLevel:'新關卡',currentLevel:'目前關卡',fullMap:'全圖',returnToMap:'返回海圖',returnToMapLabel:'返回進入全圖前的海圖位置',returnToCurrentLabel:'返回目前關卡的海圖',startReading:'開始閱讀',reviewBook:'複習這本',reviewShelf:'到書架複習',
  startBook:title=>'開始閱讀《'+title+'》',resumeBook:(title,page,total)=>'繼續《'+title+'》 · '+page+'／'+total+' 頁',nextStation:'前往下一站',viewEnding:'觀看旅程結尾',
  lockedTitle:'先完成目前這一站',lockedCopy:'這本尚未開放。完成目前關卡後，下一站就會亮起。',goCurrent:'前往目前關卡',
  cameraLabel:'山海旅程地圖，可以拖曳探索及雙指縮放',cameraTip:'拖曳探索地圖，點新關卡開始。',loadingMap:'正在展開海圖…',mapLoadFailed:'海圖暫時未能載入，請重試。',retry:'重新載入',
@@ -10,7 +10,7 @@ export const T={
  mapReward:title=>'地圖：'+title+'已亮起。',routeList:'十四站旅程',storageIssue:'本次進度暫時無法永久保存，仍可繼續閱讀。請到設定查看備份選項。',
  travelerAlt:'穿金色衣袍、握槳的小橘色虎斑旅人',worldAlt:'完整山海世界：北排群島、近岸五根五力、中央修學地景與下方八正道公路。',
  regions:[{title:'北方群島',x:870,y:170},{title:'修學海岸',x:660,y:480},{title:'四諦之地',x:1370,y:525},{title:'八正道半島',x:840,y:800}],
- title:'小貓的山海旅程',eyebrow:'沿著海岸，讀進故事裡。',preview:'試玩版',
+ title:'佛陀的解憂之旅',eyebrow:'沿著海岸，讀進故事裡。',preview:'試玩版',
  description:'從右下的法輪出發。湖灣、花田與橋梁，連起十四本繪本的旅程。',
  route:'依序旅程',free:'自由選讀',continue:'繼續閱讀',start:'開始旅程',restart:'重新閱讀',
  returnJourney:'回繪本旅程',returnMap:'回世界地圖',sourceMap:'原修道地圖',shelf:'收集書架',city:'六門城池',

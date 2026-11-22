@@ -6,6 +6,10 @@
 - Related Buddhist learning map: https://sutrazen.netlify.app/map.html
 - Primary language: Traditional Chinese (Taiwan)
 
+## Current outer ocean and overview return (2026-11-22)
+
+Latest game follow-up: [outer ocean / overview handoff](play/game-ocean-overview/README.md). Original 1600×900 geography and all anchors remain unchanged, with an outer-sea display frame and camera-safe dock inset. Overview fits the enlarged frame and offers a visible return arrow restoring the previous camera; old camera/session and reading progress remain compatible. Twelve QA evidence directories are excluded from Pages only. Exact publication status is recorded by the new PR's merge-SHA Pages/live checks; physical Safari remains untested.
+
 ## Current full-window map and bottom overlay (2026-11-22)
 
 Latest follow-up to PR61: [full-window/dock handoff](play/game-fullscreen-dock/README.md), branch `feat/game-fullscreen-dock` from `ab311d9a2e030cf7e608e3bd9bc83a006445532e`. This supersedes the earlier separated top HUD/bottom navigation layout. Map fills the entire usable viewport; all common controls share a translucent single bottom row with local horizontal scrolling/arrows at narrow widths. Title is centered; an actual miniature castle is half clipped by the west world boundary at the harbor. A reproduced single-touch capture hand-off cancellation on labels is fixed in camera.js. Store/eligibility/reader content and the world source graph stay unchanged. Eleven QA directories are excluded from Pages, whose source remains main:/. Actual validation/screenshots: [evidence](previews/game-fullscreen-dock/README.md). Exact merge/Pages/live status belongs to the new PR release record; real Safari is untested.
