@@ -1,3 +1,11 @@
+# 遊戲首頁文案與品牌位置（2026-11-22）
+
+從最新 main `a32a4b667f41d162cdda20edc08f9cdf0f58f6db` 建立 `feat/game-title-copy`，起始工作樹乾淨。依作者原句更新主標「佛陀的解憂之旅」、副標「療癒系佛法繪本遊戲」、粗體引導「跟著小貓，讀懂煩惱，練習放下。」；SutraZen 從紙卡移至首頁右下角，保留安全區。文案集中 game-ui-text.js，來源 worldmap HTML 與 game 產生器同步，背景／開始續讀／進度與原繪本不改。沿用遊戲發布授權經 PR 發布，精確 merge SHA／Pages／live 記於 PR 交付留言。
+
+五尺寸 Chromium 檢查主標／副標／引導句、品牌位置與開始操作；實機 Safari 未測。Notion 不可用，待補記本次新名稱與三行文案及新 PR 的固定 SHA ZIP。
+
+---
+
 # 海圖全視窗、半透明底列與觸控拖曳修正（2026-11-22）
 
 作者遊玩後要求地圖占滿視窗、所有常用控制集中於最底下一列且半透明覆蓋地圖，並修正單指拖動、首頁置中及港口半座城堡入口。從最新 main／PR61 merge `ab311d9a2e030cf7e608e3bd9bc83a006445532e` 建立 `feat/game-fullscreen-dock`；起始工作樹乾淨、remote 正確，沿用 `/game/` 發布授權。新 PR 的交付留言會記精確 merge SHA、Pages 與正式站結果，不能用本文件推定已上線。

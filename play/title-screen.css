@@ -6,3 +6,10 @@
 .game-title-screen .game-title-settings{font-family:inherit;font-size:15px;font-weight:600;line-height:1.4}
 @media (max-height:500px) and (min-width:651px){.game-title-screen .game-title-start{font-size:18px}}
 @media(prefers-reduced-motion:reduce){.game-title-background{transition:none}}
+
+/* Title copy remains HTML; the brand is separate from the centered paper. */
+.game-title-screen{padding-top:calc(44px + env(safe-area-inset-top,0px));padding-bottom:calc(44px + env(safe-area-inset-bottom,0px))}
+.game-title-screen .game-title-brand{position:absolute;right:calc(18px + env(safe-area-inset-right,0px));bottom:calc(12px + env(safe-area-inset-bottom,0px));margin:0;padding:5px 10px;border-radius:7px;background:#fff4d6dc;color:#445b37;font:700 20px/1.2 Georgia,serif;letter-spacing:.03em}
+.game-title-subtitle{margin-bottom:12px}.game-title-tagline{margin:0 0 23px;color:#405336;font:700 17px/1.7 "PingFang TC","Microsoft JhengHei",sans-serif;text-wrap:balance}
+@media(max-width:650px){.game-title-paper h1{font-size:32px}.game-title-tagline{font-size:16px;margin-bottom:20px}}
+@media(max-height:500px){.game-title-tagline{font-size:15px;margin-bottom:13px}.game-title-subtitle{margin-bottom:8px}.game-title-screen .game-title-brand{font-size:18px}}
