@@ -1,3 +1,15 @@
+# 海圖全視窗、半透明底列與觸控拖曳修正（2026-11-22）
+
+作者遊玩後要求地圖占滿視窗、所有常用控制集中於最底下一列且半透明覆蓋地圖，並修正單指拖動、首頁置中及港口半座城堡入口。從最新 main／PR61 merge `ab311d9a2e030cf7e608e3bd9bc83a006445532e` 建立 `feat/game-fullscreen-dock`；起始工作樹乾淨、remote 正確，沿用 `/game/` 發布授權。新 PR 的交付留言會記精確 merge SHA、Pages 與正式站結果，不能用本文件推定已上線。
+
+海圖 `.wm-viewport` 現為全視窗 `inset:0`，沒有頂部 HUD／底部導覽的保留色帶。進度、續讀含頁碼、地圖／城池／書架、目前關卡、全圖＋－、工具與設定移入同一半透明底列。寬版一列全顯示，窄版列內可滑／48px左右箭頭，維持按鍵與文字大小；原生工具 dialog 從底列上方開啟，路線選擇關工具後再顯示主題。相同底列套城池／書架，原讀本不注入。
+
+實際重現觸控錯誤：從地名標牌拖80px只走第一13.33px，原因是子元素隱含capture移交視口時的冒泡lostpointercapture被當成取消。相機現在區分子元素移交與視口真正失去capture，保留雙指／取消／防誤開。港口城景以既有原圖＋鬍鬚層微縮，半座在世界左界外，露出城門並以短路接港口；標牌可換語言，未改來源關係。首頁原始貓咪JPEG及開始／繼續保留，標題紙卡水平垂直置中，短橫式卡內可捲。
+
+實作與邊界見 [本輪交接](play/game-fullscreen-dock/README.md)，[實際檢查／截圖](previews/game-fullscreen-dock/README.md)。615 原站保護檔、store／資格／讀本橋接及32地標／46關係保留；新QA排除後共十一目錄，main:/與SEO／Google原檔不改。實機 Safari 尚未驗證，Notion工具不可用，待補筆記含於本輪交接。正式發布依原授權經新PR，再核精確SHA Pages與live，提供固定SHA ZIP。
+
+---
+
 # 小貓的山海旅程：沉浸介面、原始封面與統一關卡（2026-11-22）
 
 沿用作者先前對 `/game/` 可直接發布的授權，本輪從最新 main／PR60 merge `7e39f04a383ab98d3b747365ea3e513ad7140a0e` 建立 `feat/game-immersion-sequential`；origin 正確、開始時工作樹乾淨，提交前 fetch 確認 main 未變。新版經新 PR 進 main，精確 merge SHA、Pages 成功與正式站驗收將記於該 PR 交付留言。下方舊自由選讀、任意 activeBook 續讀及玩家 review-all 屬歷史設計，不再是現行遊戲規則。

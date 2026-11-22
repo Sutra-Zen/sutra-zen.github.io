@@ -2,7 +2,7 @@
 export const LOCALE='zh-Hant';
 export const FUTURE_LOCALES=['zh-Hans','en','ja'];
 export const T={
- readingAt:(page,total)=>'閱讀中 · '+page+'／'+total,readDone:'已讀',moreTools:'工具',newLevel:'新關卡',currentLevel:'目前關卡',fullMap:'全圖',startReading:'開始閱讀',reviewBook:'複習這本',reviewShelf:'到書架複習',
+ readingAt:(page,total)=>'閱讀中 · '+page+'／'+total,readDone:'已讀',moreTools:'工具',mapToolsTitle:'地圖工具',newLevel:'新關卡',currentLevel:'目前關卡',fullMap:'全圖',startReading:'開始閱讀',reviewBook:'複習這本',reviewShelf:'到書架複習',
  startBook:title=>'開始閱讀《'+title+'》',resumeBook:(title,page,total)=>'繼續《'+title+'》 · '+page+'／'+total+' 頁',nextStation:'前往下一站',viewEnding:'觀看旅程結尾',
  lockedTitle:'先完成目前這一站',lockedCopy:'這本尚未開放。完成目前關卡後，下一站就會亮起。',goCurrent:'前往目前關卡',
  cameraLabel:'山海旅程地圖，可以拖曳探索及雙指縮放',cameraTip:'拖曳探索地圖，點新關卡開始。',loadingMap:'正在展開海圖…',mapLoadFailed:'海圖暫時未能載入，請重試。',retry:'重新載入',

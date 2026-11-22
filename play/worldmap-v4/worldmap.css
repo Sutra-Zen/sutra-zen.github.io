@@ -1,5 +1,5 @@
 .wm-page{--wm-blue:#0b516b;--wm-gold:#bc902e;background:#0b516b}
-.wm-page #game-content{position:fixed;inset:var(--game-content-top,58px) 0 var(--game-content-bottom,80px);max-width:none;margin:0;padding:0;overflow:hidden;background:#0b516b}
+.wm-page #game-content{position:fixed;inset:0;max-width:none;margin:0;padding:0;overflow:hidden;background:#0b516b}
 .wm-page #game-content[hidden]{display:none}
 .wm-heading,.wm-notes,.wm-art-details{display:none!important}
 #wm-host,.wm-viewport{position:absolute;inset:0;width:100%;height:100%;overflow:hidden;background:#0a5671}
@@ -28,23 +28,19 @@
 .wm-region{display:none;max-width:180px;border:2px solid #ab7c31;border-radius:13px;background:#fff0d9f5;box-shadow:0 3px 9px #183e4866;padding:7px 12px}
 .wm-is-overview .wm-landmark{visibility:hidden;pointer-events:none}.wm-is-overview .wm-region{display:flex}.wm-is-overview .wm-city-landmark{z-index:8}
 .wm-labels-hidden .wm-landmark:not(.is-next) .wm-label{display:none}
-.wm-tools{position:absolute;left:12px;top:12px;z-index:12;display:flex;align-items:center;gap:6px;flex-wrap:wrap;max-width:calc(100% - 24px);pointer-events:none}
-.wm-tools>button,.wm-tools>details{pointer-events:auto}
-.wm-tools button,.wm-secondary-tools>summary{display:inline-flex;align-items:center;justify-content:center;min-width:48px;min-height:48px;margin:0;padding:6px 12px;border:1px solid #aa8348;border-radius:10px;background:#fff5dfee;color:#2e503b;font:700 15px/1.35 "Noto Sans TC","PingFang TC",sans-serif;touch-action:manipulation;box-shadow:0 2px 5px #123c4755}
+.wm-tools{position:static;display:flex;align-items:center;gap:4px;flex-wrap:nowrap;max-width:none;margin:0;padding:0}
+.wm-tools button,.wm-menu-action>button{display:inline-flex;align-items:center;justify-content:center;min-width:48px;min-height:54px;margin:0;padding:6px 10px;border:1px solid #aa83485e;border-radius:10px;background:#fff5df7a;color:#2e503b;font:700 14px/1.35 "Noto Sans TC","PingFang TC",sans-serif;touch-action:manipulation;white-space:nowrap}
 .wm-tools [data-wm-zoom-in],.wm-tools [data-wm-zoom-out]{font-size:24px;padding:3px 10px}
-.wm-secondary-tools{position:relative}.wm-secondary-tools>summary{cursor:pointer;list-style:none;font-size:14px}
-.wm-secondary-tools>summary::-webkit-details-marker{display:none}
-.wm-secondary-tools[open]{border-radius:12px}
-.wm-secondary-tools[open]>div{position:absolute;top:54px;left:0;max-height:min(55dvh,430px);width:280px;overflow:auto;background:#fff6e7;padding:12px;border:1px solid #a78b53;border-radius:12px;box-shadow:0 8px 20px #153d4855}
+.wm-menu-action{position:static;display:flex}
+.wm-tool-menu>button{min-height:48px;padding:8px 12px;border:1px solid #a1b18d;background:#edf0df;border-radius:9px;color:#31583f;line-height:1.5;margin:4px}
 .wm-route-list{list-style:none;margin:8px 0;padding:0;display:grid;gap:6px}
 .wm-route-list button{width:100%;text-align:left;justify-content:flex-start;border:1px solid #d5bd8e;background:#fffaf0;box-shadow:none;white-space:normal}
 .wm-route-list button[data-level-state=locked]{color:#737a6d;border-style:dashed}
 .wm-route-list button[aria-current=true]{background:#e2ecd8;border-color:#759064}
 .wm-route-details>summary{min-height:48px;padding:8px 3px;cursor:pointer;font-weight:700}
-.wm-main-action{position:absolute;bottom:16px;right:16px;z-index:11;display:flex;justify-content:center;max-width:calc(100% - 32px);pointer-events:none}
-.wm-main-action>span{display:none}
-.wm-main-action button{pointer-events:auto;min-height:56px;min-width:230px;max-width:100%;padding:10px 22px;border:2px solid #f5d27e;border-radius:15px;background:#305b41;color:#fff7dc;font:750 18px/1.5 "Noto Sans TC","PingFang TC",sans-serif;box-shadow:0 4px 0 #1a3b2b,0 5px 14px #0b3b494d;white-space:normal;touch-action:manipulation}
-.wm-once-tip{position:absolute;left:16px;bottom:92px;z-index:10;max-width:calc(100% - 32px);padding:9px 14px;background:#fff8e9e8;border:1px solid #b59a60;border-radius:14px;color:#365c43;font-size:14px;line-height:1.6;pointer-events:none}
+.wm-main-action{position:static;display:flex;justify-content:center;max-width:none;margin:0;pointer-events:auto}
+.wm-main-action>span{display:none}.wm-main-action button{min-height:56px;width:clamp(195px,23vw,300px);padding:8px 15px;border:1px solid #f5d27ec7;border-radius:11px;background:#305b41d9;color:#fff7dc;font:750 16px/1.4 "Noto Sans TC","PingFang TC",sans-serif;box-shadow:0 2px 0 #1a3b2b77;white-space:normal;touch-action:manipulation}
+.wm-once-tip{position:absolute;left:16px;bottom:calc(var(--game-dock-height,82px) + 14px);z-index:10;max-width:calc(100% - 32px);padding:9px 14px;background:#fff8e9e8;border:1px solid #b59a60;border-radius:14px;color:#365c43;font-size:14px;line-height:1.6;pointer-events:none}
 #wm-storage-notice{position:absolute;left:12px;right:12px;top:72px;z-index:14;margin:0;background:#fff0d1;padding:10px;border:1px solid #b3843e;border-radius:10px;color:#5a472a;font-size:14px;line-height:1.6}
 #wm-storage-notice[hidden]{display:none}
 .wm-load-state{position:absolute;inset:0;z-index:4;display:flex;align-items:center;justify-content:center;gap:12px;background:#0a5671dd;color:#fff8e7;font-size:18px}
@@ -61,12 +57,12 @@
 .wm-reward-feature-art{display:block;width:110px;height:110px;object-fit:contain}.wm-reward-book-art{max-height:110px}.wm-compact-reward p{margin:0}
 .wm-completion-actions{position:sticky;bottom:-22px;padding:14px 0 4px;background:#fff9e9}.wm-world-reward{color:#4c6d40;font-weight:700}
 @keyframes wm-glow{0%,100%{box-shadow:0 0 0 3px #f8d77766,0 3px 7px #193e4666}50%{box-shadow:0 0 0 9px #ffdf9555,0 0 25px #ffdc81bb}}
-@media(max-width:600px){.wm-tools{left:8px;top:8px;gap:5px;max-width:calc(100% - 16px)}.wm-tools button,.wm-secondary-tools>summary{font-size:14px;padding:6px 9px}.wm-main-action{left:14px;right:14px;bottom:14px}.wm-main-action button{width:100%;font-size:17px}.wm-once-tip{bottom:91px;left:14px}.wm-page dialog{padding:18px}.wm-page dialog h2{font-size:22px}.wm-compact-reward{gap:10px;padding:10px}.wm-reward-feature{flex-basis:80px}.wm-reward-feature-art{width:80px;height:85px}.wm-compact-reward p{font-size:14px}.wm-secondary-tools[open]>div{left:auto;right:0;width:min(300px,calc(100vw - 24px))}}
-@media(max-height:500px){.wm-main-action{right:12px;left:auto;bottom:10px;max-width:290px}.wm-main-action button{min-height:48px;min-width:210px;font-size:16px}.wm-once-tip{bottom:12px;max-width:calc(100% - 320px);font-size:12px;padding:6px 9px}.wm-tools{top:8px}}
+@media(max-width:600px){.wm-main-action button{width:142px;font-size:14px;padding:6px 9px}.wm-once-tip{left:14px;font-size:13px}.wm-page dialog{padding:18px}.wm-page dialog h2{font-size:22px}.wm-compact-reward{gap:10px;padding:10px}.wm-reward-feature{flex-basis:80px}.wm-reward-feature-art{width:80px;height:85px}.wm-compact-reward p{font-size:14px}}
+@media(max-height:500px){.wm-main-action button{width:190px;min-height:48px;font-size:14px}.wm-once-tip{max-width:calc(100% - 28px);font-size:12px;padding:6px 9px}.wm-tools button,.wm-menu-action>button{min-height:48px}}
 @media(prefers-reduced-motion:reduce){.wm-landmark.is-next .wm-label{animation:none;box-shadow:0 0 0 4px #f8d77788}}
 
-#game-content>.wm-secondary-tools{position:absolute;top:12px;right:12px;z-index:13}#game-content>.wm-secondary-tools>summary{min-width:48px;padding:6px 10px}#game-content>.wm-secondary-tools[open]>.wm-tool-menu{position:absolute;right:0;left:auto;top:54px;width:280px;max-height:55dvh;overflow:auto;background:#fff6e7;border:1px solid #a78b53;border-radius:12px;padding:12px;box-shadow:0 8px 20px #153d4855}#game-content>.wm-secondary-tools .wm-tool-menu>button{min-height:48px;padding:8px 12px;border:1px solid #a1b18d;background:#edf0df;border-radius:9px;color:#31583f;line-height:1.5;margin:4px}
+.wm-page dialog.wm-tools-dialog{top:auto;bottom:calc(var(--game-dock-height,82px) + 8px);margin:0 auto;max-height:calc(100dvh - var(--game-dock-height,82px) - env(safe-area-inset-top,0px) - 22px);width:min(460px,calc(100% - 24px))}.wm-page dialog.wm-tools-dialog::backdrop{background:#082b354d}
 
 .wm-traveler{position:absolute;z-index:4;width:100px;height:auto;pointer-events:none;transform:translate(-50%,-50%) scale(var(--wm-marker-scale,1));filter:drop-shadow(0 3px 4px #193f4955)}.wm-is-overview .wm-traveler{display:none}
 
-.wm-tools{left:max(12px,env(safe-area-inset-left,0px))}#game-content>.wm-secondary-tools{right:max(12px,env(safe-area-inset-right,0px))}.wm-main-action{right:max(16px,env(safe-area-inset-right,0px))}.wm-once-tip{left:max(16px,env(safe-area-inset-left,0px))}@media(max-width:600px){.wm-main-action{left:max(14px,env(safe-area-inset-left,0px));right:max(14px,env(safe-area-inset-right,0px))}}
+.wm-once-tip{left:max(16px,env(safe-area-inset-left,0px))}

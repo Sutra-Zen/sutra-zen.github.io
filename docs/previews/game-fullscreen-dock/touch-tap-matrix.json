@@ -1,0 +1,348 @@
+[
+  {
+    "mobile": false,
+    "motion": "reduce",
+    "interGestureMs": 30,
+    "panCssPx": 80.00000000000011,
+    "tapTarget": "wm-label",
+    "dialog": 0,
+    "events": [
+      {
+        "type": "pointerdown",
+        "target": "wm-label",
+        "id": 2,
+        "x": 194.9998779296875,
+        "y": 587.5
+      },
+      {
+        "type": "pointerup",
+        "target": "wm-viewport",
+        "id": 2,
+        "x": 274.9998779296875,
+        "y": 587.5
+      },
+      {
+        "type": "pointerdown",
+        "target": "wm-label",
+        "id": 3,
+        "x": 274.9998779296875,
+        "y": 587.5
+      },
+      {
+        "type": "pointerup",
+        "target": "wm-label",
+        "id": 3,
+        "x": 274.9998779296875,
+        "y": 587.5
+      }
+    ]
+  },
+  {
+    "mobile": false,
+    "motion": "reduce",
+    "interGestureMs": 300,
+    "panCssPx": 80.00000000000011,
+    "tapTarget": "wm-label",
+    "dialog": 1,
+    "events": [
+      {
+        "type": "pointerdown",
+        "target": "wm-label",
+        "id": 2,
+        "x": 194.9998779296875,
+        "y": 587.5
+      },
+      {
+        "type": "pointerup",
+        "target": "wm-viewport",
+        "id": 2,
+        "x": 274.9998779296875,
+        "y": 587.5
+      },
+      {
+        "type": "pointerdown",
+        "target": "wm-label",
+        "id": 3,
+        "x": 274.9998779296875,
+        "y": 587.5
+      },
+      {
+        "type": "pointerup",
+        "target": "wm-label",
+        "id": 3,
+        "x": 274.9998779296875,
+        "y": 587.5
+      },
+      {
+        "type": "click",
+        "target": "wm-label",
+        "id": 3,
+        "x": 275,
+        "y": 588
+      }
+    ]
+  },
+  {
+    "mobile": false,
+    "motion": "no-preference",
+    "interGestureMs": 30,
+    "panCssPx": 80.00000000000011,
+    "tapTarget": "wm-label",
+    "dialog": 1,
+    "events": [
+      {
+        "type": "pointerdown",
+        "target": "wm-label",
+        "id": 2,
+        "x": 194.9998779296875,
+        "y": 587.5
+      },
+      {
+        "type": "pointerup",
+        "target": "wm-viewport",
+        "id": 2,
+        "x": 274.9998779296875,
+        "y": 587.5
+      },
+      {
+        "type": "pointerdown",
+        "target": "wm-label",
+        "id": 3,
+        "x": 274.9998779296875,
+        "y": 587.5
+      },
+      {
+        "type": "pointerup",
+        "target": "wm-label",
+        "id": 3,
+        "x": 274.9998779296875,
+        "y": 587.5
+      },
+      {
+        "type": "click",
+        "target": "wm-label",
+        "id": 3,
+        "x": 275,
+        "y": 588
+      }
+    ]
+  },
+  {
+    "mobile": false,
+    "motion": "no-preference",
+    "interGestureMs": 300,
+    "panCssPx": 80.00000000000011,
+    "tapTarget": "wm-label",
+    "dialog": 1,
+    "events": [
+      {
+        "type": "pointerdown",
+        "target": "wm-label",
+        "id": 2,
+        "x": 194.9998779296875,
+        "y": 587.5
+      },
+      {
+        "type": "pointerup",
+        "target": "wm-viewport",
+        "id": 2,
+        "x": 274.9998779296875,
+        "y": 587.5
+      },
+      {
+        "type": "pointerdown",
+        "target": "wm-label",
+        "id": 3,
+        "x": 274.9998779296875,
+        "y": 587.5
+      },
+      {
+        "type": "pointerup",
+        "target": "wm-label",
+        "id": 3,
+        "x": 274.9998779296875,
+        "y": 587.5
+      },
+      {
+        "type": "click",
+        "target": "wm-label",
+        "id": 3,
+        "x": 275,
+        "y": 588
+      }
+    ]
+  },
+  {
+    "mobile": true,
+    "motion": "reduce",
+    "interGestureMs": 30,
+    "panCssPx": 80.00000000000011,
+    "tapTarget": "wm-label",
+    "dialog": 0,
+    "events": [
+      {
+        "type": "pointerdown",
+        "target": "wm-label",
+        "id": 2,
+        "x": 194.9998779296875,
+        "y": 587.5
+      },
+      {
+        "type": "pointerup",
+        "target": "wm-viewport",
+        "id": 2,
+        "x": 274.9998779296875,
+        "y": 587.5
+      },
+      {
+        "type": "pointerdown",
+        "target": "wm-label",
+        "id": 3,
+        "x": 274.9998779296875,
+        "y": 587.5
+      },
+      {
+        "type": "pointerup",
+        "target": "wm-label",
+        "id": 3,
+        "x": 274.9998779296875,
+        "y": 587.5
+      }
+    ]
+  },
+  {
+    "mobile": true,
+    "motion": "reduce",
+    "interGestureMs": 300,
+    "panCssPx": 80.00000000000011,
+    "tapTarget": "wm-label",
+    "dialog": 1,
+    "events": [
+      {
+        "type": "pointerdown",
+        "target": "wm-label",
+        "id": 2,
+        "x": 194.9998779296875,
+        "y": 587.5
+      },
+      {
+        "type": "pointerup",
+        "target": "wm-viewport",
+        "id": 2,
+        "x": 274.9998779296875,
+        "y": 587.5
+      },
+      {
+        "type": "pointerdown",
+        "target": "wm-label",
+        "id": 3,
+        "x": 274.9998779296875,
+        "y": 587.5
+      },
+      {
+        "type": "pointerup",
+        "target": "wm-label",
+        "id": 3,
+        "x": 274.9998779296875,
+        "y": 587.5
+      },
+      {
+        "type": "click",
+        "target": "wm-label",
+        "id": 3,
+        "x": 275,
+        "y": 588
+      }
+    ]
+  },
+  {
+    "mobile": true,
+    "motion": "no-preference",
+    "interGestureMs": 30,
+    "panCssPx": 80.00000000000011,
+    "tapTarget": "wm-label",
+    "dialog": 1,
+    "events": [
+      {
+        "type": "pointerdown",
+        "target": "wm-label",
+        "id": 2,
+        "x": 194.9998779296875,
+        "y": 587.5
+      },
+      {
+        "type": "pointerup",
+        "target": "wm-viewport",
+        "id": 2,
+        "x": 274.9998779296875,
+        "y": 587.5
+      },
+      {
+        "type": "pointerdown",
+        "target": "wm-label",
+        "id": 3,
+        "x": 274.9998779296875,
+        "y": 587.5
+      },
+      {
+        "type": "pointerup",
+        "target": "wm-label",
+        "id": 3,
+        "x": 274.9998779296875,
+        "y": 587.5
+      },
+      {
+        "type": "click",
+        "target": "wm-label",
+        "id": 3,
+        "x": 275,
+        "y": 588
+      }
+    ]
+  },
+  {
+    "mobile": true,
+    "motion": "no-preference",
+    "interGestureMs": 300,
+    "panCssPx": 80.00000000000011,
+    "tapTarget": "wm-label",
+    "dialog": 1,
+    "events": [
+      {
+        "type": "pointerdown",
+        "target": "wm-label",
+        "id": 2,
+        "x": 194.9998779296875,
+        "y": 587.5
+      },
+      {
+        "type": "pointerup",
+        "target": "wm-viewport",
+        "id": 2,
+        "x": 274.9998779296875,
+        "y": 587.5
+      },
+      {
+        "type": "pointerdown",
+        "target": "wm-label",
+        "id": 3,
+        "x": 274.9998779296875,
+        "y": 587.5
+      },
+      {
+        "type": "pointerup",
+        "target": "wm-label",
+        "id": 3,
+        "x": 274.9998779296875,
+        "y": 587.5
+      },
+      {
+        "type": "click",
+        "target": "wm-label",
+        "id": 3,
+        "x": 275,
+        "y": 588
+      }
+    ]
+  }
+]
