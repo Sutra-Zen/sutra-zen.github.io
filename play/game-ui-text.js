@@ -3,7 +3,7 @@ export const GAME_LOCALE='zh-Hant';
 export const GAME_FUTURE_LOCALES=Object.freeze(['zh-Hans','en','ja']);
 export const GAME_UI=Object.freeze({
  brand:'SutraZen',title:'小貓的山海旅程',subtitle:'佛法繪本探索遊戲',
- navigation:'遊戲主選單',map:'地圖',city:'城池',shelf:'書架',
+ dockLabel:'旅程底部操作列，可左右滑動查看所有操作',dockPrevious:'向左查看旅程選單',dockNext:'向右查看地圖工具',navigation:'遊戲主選單',map:'地圖',city:'城池',shelf:'書架',
  progress:(count,total)=>`已讀 ${count}／${total} 本`,settings:'設定',settingsTitle:'旅程設定',close:'關閉',start:'開始旅程',continue:'繼續旅程',
  titleArtUnavailable:'旅程封面尚未載入，您仍可開始。',localSave:'旅程進度保存在此裝置的瀏覽器。',
  storageUnavailable:'進度目前無法永久保存；離開後可能無法續讀，本次仍可閱讀。',storageCorrupt:'原有存檔暫時無法讀取，您仍可開始閱讀或還原備份。',

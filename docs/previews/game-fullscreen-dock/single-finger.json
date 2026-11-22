@@ -1,0 +1,66 @@
+{
+  "baseline": "ab311d9",
+  "checks": [
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "singleLabelDragCssPx": 80,
+      "singleBackgroundDragCssPx": 60,
+      "pinchWorks": true,
+      "cancelClearsGesture": true,
+      "noAccidentalDialog": true,
+      "freshTapAfterEachGesture": true,
+      "cameraReloadRetained": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "singleLabelDragCssPx": 80,
+      "singleBackgroundDragCssPx": 60,
+      "pinchWorks": true,
+      "cancelClearsGesture": true,
+      "noAccidentalDialog": true,
+      "freshTapAfterEachGesture": true,
+      "cameraReloadRetained": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "singleLabelDragCssPx": 80,
+      "singleBackgroundDragCssPx": 60,
+      "pinchWorks": true,
+      "cancelClearsGesture": true,
+      "noAccidentalDialog": true,
+      "freshTapAfterEachGesture": true,
+      "cameraReloadRetained": true
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "singleLabelDragCssPx": 80,
+      "singleBackgroundDragCssPx": 60,
+      "pinchWorks": true,
+      "cancelClearsGesture": true,
+      "noAccidentalDialog": true,
+      "freshTapAfterEachGesture": true,
+      "cameraReloadRetained": true
+    }
+  ],
+  "errors": [],
+  "physicalSafari": "Not tested; Chromium CDP touch simulation only",
+  "postGestureTapMs": 300,
+  "rapidTapObservation": "Separate tap-matrix.json records Chromium reduced-motion no-click for a tap begun30ms afterdrag; normal300ms tap is tested here without synthesizing clicks.",
+  "baselineReproduction": {
+    "requestedDragCssPx": 80,
+    "actualDragCssPx": 13.33332824707022,
+    "cause": "Implicit child capture loss bubbles and prematurely cancels active viewport gesture"
+  }
+}

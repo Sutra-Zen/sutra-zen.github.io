@@ -166,6 +166,14 @@ export function createMapCamera(viewport, worldElement, options = {}) {
     viewport.dataset.cameraGesture = gesture?.type || 'none';
     persist();
   }
+  function lostPointerCapture(event) {
+    // Touch starts with implicit capture on the tapped label/image. When a drag
+    // takes ownership, that child's capture-loss event bubbles through here;
+    // it is a hand-off, not cancellation of the viewport's active gesture.
+    if (event.target !== viewport || !pointers.has(event.pointerId) ||
+        viewport.hasPointerCapture?.(event.pointerId)) return;
+    pointerEnd({type: 'pointercancel', pointerId: event.pointerId});
+  }
   function cancelAll() {
     if (pointers.size) blockGestureClick();
     for (const id of pointers.keys()) release(id);
@@ -204,7 +212,7 @@ export function createMapCamera(viewport, worldElement, options = {}) {
   listen(window,'pointermove',pointerMove,{passive:false});
   listen(window,'pointerup',pointerEnd);
   listen(window,'pointercancel',pointerEnd);
-  listen(viewport,'lostpointercapture',event=>{if(pointers.has(event.pointerId))pointerEnd({...event,type:'pointercancel',pointerId:event.pointerId});});
+  listen(viewport,'lostpointercapture',lostPointerCapture);
   listen(viewport,'click',clickCapture,true);
   listen(viewport,'wheel',wheel,{passive:false});
   listen(viewport,'keydown',keyDown);

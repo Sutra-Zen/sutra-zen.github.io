@@ -1,0 +1,765 @@
+{
+  "baseline": "ab311d9a2e030cf7e608e3bd9bc83a006445532e",
+  "protectedTrackedFiles": 615,
+  "originalFourteenReadersIncludingHtml": "byte-for-byte unchanged",
+  "originalNarrationScripturePicturesAndSourceArchives": "byte-for-byte unchanged",
+  "rootHomepageSeoGoogleAndSharedReaderControls": "byte-for-byte unchanged",
+  "phase": "Local review only; not published",
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "physicalSafari": "Not tested; Chromium CDP input and viewport emulation only",
+  "unchangedGamePolicyAndContentFiles": [
+    "play/collection/store.js",
+    "play/collection/reader-bridge.js",
+    "play/collection/catalog.js",
+    "play/route/eligibility.js",
+    "play/route/data.js",
+    "play/route/selectors.js",
+    "play/route/metadata.js",
+    "play/worldmap-v4/data.js"
+  ],
+  "viewportChecks": [
+    {
+      "size": [
+        1280,
+        900
+      ],
+      "titleCentered": true,
+      "geometry": {
+        "viewport": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 900
+        },
+        "content": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 900
+        },
+        "screen": [
+          1280,
+          900
+        ],
+        "outer": [
+          1280,
+          900
+        ],
+        "y": 0
+      },
+      "dock": {
+        "background": "rgba(0, 0, 0, 0)",
+        "gradient": "linear-gradient(rgba(255, 248, 230, 0.66), rgba(233, 223, 200, 0.78))",
+        "backdrop": "blur(9px)",
+        "rect": {
+          "x": 0,
+          "y": 821,
+          "width": 1280,
+          "height": 79,
+          "top": 821,
+          "right": 1280,
+          "bottom": 900,
+          "left": 0
+        }
+      },
+      "oneRowActions": [
+        {
+          "selector": "map",
+          "box": {
+            "x": 107.875,
+            "y": 831,
+            "width": 80.90625,
+            "height": 60
+          }
+        },
+        {
+          "selector": "city",
+          "box": {
+            "x": 191.78125,
+            "y": 831,
+            "width": 80.90625,
+            "height": 60
+          }
+        },
+        {
+          "selector": "shelf",
+          "box": {
+            "x": 275.6875,
+            "y": 831,
+            "width": 80.90625,
+            "height": 60
+          }
+        },
+        {
+          "selector": "開始閱讀《四聖諦》",
+          "box": {
+            "x": 366.59375,
+            "y": 833,
+            "width": 294.390625,
+            "height": 56
+          }
+        },
+        {
+          "selector": "目前關卡",
+          "box": {
+            "x": 794.125,
+            "y": 834,
+            "width": 78,
+            "height": 54
+          }
+        },
+        {
+          "selector": "全圖",
+          "box": {
+            "x": 876.125,
+            "y": 834,
+            "width": 50,
+            "height": 54
+          }
+        },
+        {
+          "selector": "放大地圖",
+          "box": {
+            "x": 930.125,
+            "y": 834,
+            "width": 48,
+            "height": 54
+          }
+        },
+        {
+          "selector": "縮小地圖",
+          "box": {
+            "x": 982.125,
+            "y": 834,
+            "width": 48,
+            "height": 54
+          }
+        },
+        {
+          "selector": "工具",
+          "box": {
+            "x": 1040.125,
+            "y": 834,
+            "width": 50,
+            "height": 54
+          }
+        },
+        {
+          "selector": "設定",
+          "box": {
+            "x": 1100.125,
+            "y": 839,
+            "width": 72,
+            "height": 44
+          }
+        }
+      ],
+      "toolMenuAboveDock": {
+        "x": 410,
+        "y": 608,
+        "width": 460,
+        "height": 205
+      },
+      "keyboardDialogAndFocusRestore": true
+    },
+    {
+      "size": [
+        360,
+        800
+      ],
+      "titleCentered": true,
+      "geometry": {
+        "viewport": {
+          "x": 0,
+          "y": 0,
+          "w": 360,
+          "h": 800
+        },
+        "content": {
+          "x": 0,
+          "y": 0,
+          "w": 360,
+          "h": 800
+        },
+        "screen": [
+          360,
+          800
+        ],
+        "outer": [
+          360,
+          800
+        ],
+        "y": 0
+      },
+      "dock": {
+        "background": "rgba(0, 0, 0, 0)",
+        "gradient": "linear-gradient(rgba(255, 248, 230, 0.66), rgba(233, 223, 200, 0.78))",
+        "backdrop": "blur(9px)",
+        "rect": {
+          "x": 0,
+          "y": 721,
+          "width": 360,
+          "height": 79,
+          "top": 721,
+          "right": 360,
+          "bottom": 800,
+          "left": 0
+        }
+      },
+      "oneRowActions": [
+        {
+          "selector": "map",
+          "box": {
+            "x": 10,
+            "y": 731,
+            "width": 48,
+            "height": 60
+          }
+        },
+        {
+          "selector": "city",
+          "box": {
+            "x": 59,
+            "y": 731,
+            "width": 48,
+            "height": 60
+          }
+        },
+        {
+          "selector": "shelf",
+          "box": {
+            "x": 108,
+            "y": 731,
+            "width": 48,
+            "height": 60
+          }
+        },
+        {
+          "selector": "開始閱讀《四聖諦》",
+          "box": {
+            "x": 162,
+            "y": 733,
+            "width": 142,
+            "height": 56
+          }
+        },
+        {
+          "selector": "目前關卡",
+          "box": {
+            "x": 165.140625,
+            "y": 734,
+            "width": 78,
+            "height": 54
+          }
+        },
+        {
+          "selector": "全圖",
+          "box": {
+            "x": 247.140625,
+            "y": 734,
+            "width": 50,
+            "height": 54
+          }
+        },
+        {
+          "selector": "放大地圖",
+          "box": {
+            "x": 256.140625,
+            "y": 734,
+            "width": 48,
+            "height": 54
+          }
+        },
+        {
+          "selector": "縮小地圖",
+          "box": {
+            "x": 156.140625,
+            "y": 734,
+            "width": 48,
+            "height": 54
+          }
+        },
+        {
+          "selector": "工具",
+          "box": {
+            "x": 210.140625,
+            "y": 734,
+            "width": 50,
+            "height": 54
+          }
+        },
+        {
+          "selector": "設定",
+          "box": {
+            "x": 298.140625,
+            "y": 734.90625,
+            "width": 52,
+            "height": 52.1875
+          }
+        }
+      ],
+      "toolMenuAboveDock": {
+        "x": 12,
+        "y": 519,
+        "width": 336,
+        "height": 194
+      },
+      "keyboardDialogAndFocusRestore": true
+    },
+    {
+      "size": [
+        844,
+        390
+      ],
+      "titleCentered": true,
+      "geometry": {
+        "viewport": {
+          "x": 0,
+          "y": 0,
+          "w": 844,
+          "h": 390
+        },
+        "content": {
+          "x": 0,
+          "y": 0,
+          "w": 844,
+          "h": 390
+        },
+        "screen": [
+          844,
+          390
+        ],
+        "outer": [
+          844,
+          390
+        ],
+        "y": 0
+      },
+      "dock": {
+        "background": "rgba(0, 0, 0, 0)",
+        "gradient": "linear-gradient(rgba(255, 248, 230, 0.66), rgba(233, 223, 200, 0.78))",
+        "backdrop": "blur(9px)",
+        "rect": {
+          "x": 0,
+          "y": 324.8125,
+          "width": 844,
+          "height": 65.1875,
+          "top": 324.8125,
+          "right": 844,
+          "bottom": 390,
+          "left": 0
+        }
+      },
+      "oneRowActions": [
+        {
+          "selector": "map",
+          "box": {
+            "x": 10,
+            "y": 331.90625,
+            "width": 71.78125,
+            "height": 52
+          }
+        },
+        {
+          "selector": "city",
+          "box": {
+            "x": 84.78125,
+            "y": 331.90625,
+            "width": 71.78125,
+            "height": 52
+          }
+        },
+        {
+          "selector": "shelf",
+          "box": {
+            "x": 159.5625,
+            "y": 331.90625,
+            "width": 71.78125,
+            "height": 52
+          }
+        },
+        {
+          "selector": "開始閱讀《四聖諦》",
+          "box": {
+            "x": 237.34375,
+            "y": 333.90625,
+            "width": 190,
+            "height": 48
+          }
+        },
+        {
+          "selector": "目前關卡",
+          "box": {
+            "x": 544.484375,
+            "y": 333.90625,
+            "width": 78,
+            "height": 48
+          }
+        },
+        {
+          "selector": "全圖",
+          "box": {
+            "x": 626.484375,
+            "y": 333.90625,
+            "width": 50,
+            "height": 48
+          }
+        },
+        {
+          "selector": "放大地圖",
+          "box": {
+            "x": 680.484375,
+            "y": 333.90625,
+            "width": 48,
+            "height": 48
+          }
+        },
+        {
+          "selector": "縮小地圖",
+          "box": {
+            "x": 732.484375,
+            "y": 333.90625,
+            "width": 48,
+            "height": 48
+          }
+        },
+        {
+          "selector": "工具",
+          "box": {
+            "x": 786.484375,
+            "y": 333.90625,
+            "width": 50,
+            "height": 48
+          }
+        },
+        {
+          "selector": "設定",
+          "box": {
+            "x": 782.484375,
+            "y": 331.8125,
+            "width": 52,
+            "height": 52.1875
+          }
+        }
+      ],
+      "toolMenuAboveDock": {
+        "x": 192,
+        "y": 111.8125,
+        "width": 460,
+        "height": 205
+      },
+      "keyboardDialogAndFocusRestore": true
+    },
+    {
+      "size": [
+        768,
+        1024
+      ],
+      "titleCentered": true,
+      "geometry": {
+        "viewport": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 1024
+        },
+        "content": {
+          "x": 0,
+          "y": 0,
+          "w": 768,
+          "h": 1024
+        },
+        "screen": [
+          768,
+          1024
+        ],
+        "outer": [
+          768,
+          1024
+        ],
+        "y": 0
+      },
+      "dock": {
+        "background": "rgba(0, 0, 0, 0)",
+        "gradient": "linear-gradient(rgba(255, 248, 230, 0.66), rgba(233, 223, 200, 0.78))",
+        "backdrop": "blur(9px)",
+        "rect": {
+          "x": 0,
+          "y": 945,
+          "width": 768,
+          "height": 79,
+          "top": 945,
+          "right": 768,
+          "bottom": 1024,
+          "left": 0
+        }
+      },
+      "oneRowActions": [
+        {
+          "selector": "map",
+          "box": {
+            "x": 10,
+            "y": 955,
+            "width": 56,
+            "height": 60
+          }
+        },
+        {
+          "selector": "city",
+          "box": {
+            "x": 69,
+            "y": 955,
+            "width": 56,
+            "height": 60
+          }
+        },
+        {
+          "selector": "shelf",
+          "box": {
+            "x": 128,
+            "y": 955,
+            "width": 56,
+            "height": 60
+          }
+        },
+        {
+          "selector": "開始閱讀《四聖諦》",
+          "box": {
+            "x": 190,
+            "y": 957,
+            "width": 195,
+            "height": 56
+          }
+        },
+        {
+          "selector": "目前關卡",
+          "box": {
+            "x": 502.140625,
+            "y": 958,
+            "width": 78,
+            "height": 54
+          }
+        },
+        {
+          "selector": "全圖",
+          "box": {
+            "x": 584.140625,
+            "y": 958,
+            "width": 50,
+            "height": 54
+          }
+        },
+        {
+          "selector": "放大地圖",
+          "box": {
+            "x": 638.140625,
+            "y": 958,
+            "width": 48,
+            "height": 54
+          }
+        },
+        {
+          "selector": "縮小地圖",
+          "box": {
+            "x": 712.140625,
+            "y": 958,
+            "width": 48,
+            "height": 54
+          }
+        },
+        {
+          "selector": "工具",
+          "box": {
+            "x": 650.140625,
+            "y": 958,
+            "width": 50,
+            "height": 54
+          }
+        },
+        {
+          "selector": "設定",
+          "box": {
+            "x": 706.140625,
+            "y": 958.90625,
+            "width": 52,
+            "height": 52.1875
+          }
+        }
+      ],
+      "toolMenuAboveDock": {
+        "x": 154,
+        "y": 732,
+        "width": 460,
+        "height": 205
+      },
+      "keyboardDialogAndFocusRestore": true
+    },
+    {
+      "size": [
+        1024,
+        768
+      ],
+      "titleCentered": true,
+      "geometry": {
+        "viewport": {
+          "x": 0,
+          "y": 0,
+          "w": 1024,
+          "h": 768
+        },
+        "content": {
+          "x": 0,
+          "y": 0,
+          "w": 1024,
+          "h": 768
+        },
+        "screen": [
+          1024,
+          768
+        ],
+        "outer": [
+          1024,
+          768
+        ],
+        "y": 0
+      },
+      "dock": {
+        "background": "rgba(0, 0, 0, 0)",
+        "gradient": "linear-gradient(rgba(255, 248, 230, 0.66), rgba(233, 223, 200, 0.78))",
+        "backdrop": "blur(9px)",
+        "rect": {
+          "x": 0,
+          "y": 689,
+          "width": 1024,
+          "height": 79,
+          "top": 689,
+          "right": 1024,
+          "bottom": 768,
+          "left": 0
+        }
+      },
+      "oneRowActions": [
+        {
+          "selector": "map",
+          "box": {
+            "x": 46.671875,
+            "y": 699,
+            "width": 56,
+            "height": 60
+          }
+        },
+        {
+          "selector": "city",
+          "box": {
+            "x": 105.671875,
+            "y": 699,
+            "width": 56,
+            "height": 60
+          }
+        },
+        {
+          "selector": "shelf",
+          "box": {
+            "x": 164.671875,
+            "y": 699,
+            "width": 56,
+            "height": 60
+          }
+        },
+        {
+          "selector": "開始閱讀《四聖諦》",
+          "box": {
+            "x": 230.671875,
+            "y": 701,
+            "width": 235.515625,
+            "height": 56
+          }
+        },
+        {
+          "selector": "目前關卡",
+          "box": {
+            "x": 599.328125,
+            "y": 702,
+            "width": 78,
+            "height": 54
+          }
+        },
+        {
+          "selector": "全圖",
+          "box": {
+            "x": 681.328125,
+            "y": 702,
+            "width": 50,
+            "height": 54
+          }
+        },
+        {
+          "selector": "放大地圖",
+          "box": {
+            "x": 735.328125,
+            "y": 702,
+            "width": 48,
+            "height": 54
+          }
+        },
+        {
+          "selector": "縮小地圖",
+          "box": {
+            "x": 787.328125,
+            "y": 702,
+            "width": 48,
+            "height": 54
+          }
+        },
+        {
+          "selector": "工具",
+          "box": {
+            "x": 845.328125,
+            "y": 702,
+            "width": 50,
+            "height": 54
+          }
+        },
+        {
+          "selector": "設定",
+          "box": {
+            "x": 905.328125,
+            "y": 707,
+            "width": 72,
+            "height": 44
+          }
+        }
+      ],
+      "toolMenuAboveDock": {
+        "x": 282,
+        "y": 476,
+        "width": 460,
+        "height": 205
+      },
+      "keyboardDialogAndFocusRestore": true
+    }
+  ],
+  "nativeRegression": {
+    "singleFingerBackgroundPan": true,
+    "singleFingerLabelPanWithoutOpening": true,
+    "touchCancelWithoutOpening": true,
+    "simulatedPinchWithoutDocumentZoom": true,
+    "actualNextSteps": 5,
+    "reloadAndRotationAt": 5,
+    "returnAndMainResumeAt": 5,
+    "futureDirectReaderLocked": true,
+    "countUnchanged": true,
+    "readerHasNoGameDock": true,
+    "nativeDockSwipeNotMapPan": true,
+    "halfCastleNativeCityEntry": true
+  },
+  "keyboardWorldFocus": {
+    "actualTabReached": 33,
+    "uniqueLandmarksAndHarbor": 33,
+    "allFocusVisibleAboveDock": true,
+    "visiblePointerTapDoesNotMoveCamera": true,
+    "dialogCloseDoesNotMovePointerCamera": true
+  },
+  "result": "passed"
+}

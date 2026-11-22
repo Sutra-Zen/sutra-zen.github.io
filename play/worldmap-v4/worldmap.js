@@ -5,6 +5,7 @@ import {routeMetadata} from '../route/metadata.js';
 import {initializeGameShell,GAME_URLS} from '../game-shell.js';
 import {initializeTitleScreen} from '../title-screen.js';
 import {createMapCamera} from './camera.js';
+import {renderHarborCastle,HARBOR_CASTLE_GEOMETRY} from './harbor-castle.js';
 import {compactCompletionFeedback} from './completion-feedback.js';
 import {WORLD,LANDMARKS,MEMBERS,NODES,EDGES,GEOGRAPHIC_ROAD,MAP_CONNECTIONS,conceptAnchor,sourceGroupAnchor,PRIMARY_BOOK_LANDMARK} from './data.js';
 import {T} from './text.js';
@@ -20,6 +21,9 @@ const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&g
 let camera=null,active=false,links='none',labels=true,selected=null,lastFocus=null,completed=params.get('completed');
 const dialog=$('#wm-dialog'),content=$('#wm-dialog-content');
 const shell=initializeGameShell({active:'map',onMap:()=>activateMap()});
+shell.mountMapControls({primary:$('.wm-main-action'),tools:$('.wm-tools'),menu:$('.wm-menu-action')});
+const toolsDialog=$('#wm-tools-dialog');let toolsFocus=null;
+toolsDialog.addEventListener('close',()=>toolsFocus?.isConnected&&toolsFocus.focus({preventScroll:true}));
 const status=()=>{const s=store.get();return routeStatus(s.completed,s.positions,routeMetadata.get());};
 const currentBook=()=>books.get(status().nextBookId)||null;
 const landmarkFor=id=>LANDMARKS.find(l=>l.id===PRIMARY_BOOK_LANDMARK[id]);
@@ -41,7 +45,7 @@ function sourceLines(){
 function mountWorld(){
  const marks=LANDMARKS.map(l=>'<button class="wm-landmark '+(l.type==='scroll'?'is-scroll':'')+'" data-wm-landmark="'+l.id+'" data-landmark="'+l.id+'" data-book="'+(l.bookId||'')+'" data-concept="'+l.conceptId+'" style="--x:'+l.x+'px;--y:'+l.y+'px"><span class="wm-pin" aria-hidden="true"></span><span class="wm-label"></span><span class="wm-status-chip"></span></button>').join('');
  const regions=T.regions.map((r,i)=>'<button class="wm-region" data-wm-region="'+i+'" style="--x:'+r.x+'px;--y:'+r.y+'px">'+escape(r.title)+'</button>').join('');
- $('#wm-host').innerHTML='<div class="wm-viewport" tabindex="0" aria-label="'+T.cameraLabel+'"><div class="wm-world" data-world-size="1600x900"><img class="wm-background" src="'+asset('assets/worldmap-master-concept.png')+'" width="1600" height="900" alt="'+T.worldAlt+'"><svg class="wm-geography" viewBox="0 0 1600 900" aria-hidden="true"></svg><div class="wm-fog-layer"></div><svg class="wm-lines" viewBox="0 0 1600 900" aria-hidden="true"></svg>'+marks+regions+'<img class="wm-traveler" src="'+new URL('../visual-v2/assets/kitten-rowboat-concept.png',import.meta.url).href+'" alt="'+T.travelerAlt+'"><button class="wm-city-landmark" data-wm-city-entry style="--x:138px;--y:337px" aria-label="'+T.enterCity+'"><span aria-hidden="true">♜</span><span>'+T.cityTab+'</span></button></div><div class="wm-load-state" role="status">'+T.loadingMap+'</div></div>';
+ $('#wm-host').innerHTML='<div class="wm-viewport" tabindex="0" aria-label="'+T.cameraLabel+'"><div class="wm-world" data-world-size="1600x900"><img class="wm-background" src="'+asset('assets/worldmap-master-concept.png')+'" width="1600" height="900" alt="'+T.worldAlt+'"><svg class="wm-geography" viewBox="0 0 1600 900" aria-hidden="true"></svg><div class="wm-fog-layer"></div><svg class="wm-lines" viewBox="0 0 1600 900" aria-hidden="true"></svg>'+marks+regions+'<img class="wm-traveler" src="'+new URL('../visual-v2/assets/kitten-rowboat-concept.png',import.meta.url).href+'" alt="'+T.travelerAlt+'">'+renderHarborCastle({label:T.cityTab,ariaLabel:T.enterCity})+'</div><div class="wm-load-state" role="status">'+T.loadingMap+'</div></div>';
  const image=$('.wm-background'),loading=$('.wm-load-state');
  const loaded=()=>{loading.hidden=true;};
  image.addEventListener('load',loaded);
@@ -59,7 +63,7 @@ function render(){
  $('[data-wm-lines]').setAttribute('aria-pressed',String(links!=='none'));
  $('[data-wm-labels]').textContent=T.labels;$('[data-wm-labels]').setAttribute('aria-pressed',String(labels));
  $('[data-wm-locate]').textContent=T.currentLevel;
- $('[data-wm-overview]').textContent=T.fullMap;$('.wm-secondary-tools>summary').textContent=T.moreTools;
+ $('[data-wm-overview]').textContent=T.fullMap;$('[data-wm-tools-open]').textContent=T.moreTools;$('#wm-tools-title').textContent=T.mapToolsTitle;
  $('#wm-host').querySelectorAll('[data-wm-landmark]').forEach(el=>{
   const l=LANDMARKS.find(l=>l.id===el.dataset.landmark),a=access(l,s),primary=PRIMARY_BOOK_LANDMARK[l.bookId]===l.id;
   const state=!l.bookId?'harbor':a.status;
@@ -126,6 +130,15 @@ function activateMap(){
  active=true;mountWorld();render();
  const book=currentBook(),l=book?landmarkFor(book.id):landmarkFor('four-truths');
  camera=createMapCamera($('.wm-viewport'),$('.wm-world'),{width:WORLD.width,height:WORLD.height,initialCenter:{x:l.x,y:l.y}});
+ $('.wm-viewport').addEventListener('focusin',event=>{
+  const target=event.target.closest('.wm-landmark,.wm-harbor-castle__entry');
+  if(!target||!target.matches(':focus-visible'))return; // Pointer taps must not move their target before click.
+  const clipped=()=>{const r=target.getBoundingClientRect(),view=$('.wm-viewport').getBoundingClientRect(),dock=$('.game-dock').getBoundingClientRect();return r.left<view.left+3||r.right>view.right-3||r.top<view.top+3||r.bottom>dock.top-3;};
+  if(!clipped())return;
+  const mark=LANDMARKS.find(item=>item.id===target.dataset.wmLandmark),point=mark||HARBOR_CASTLE_GEOMETRY.label;
+  const scale=camera.getState().scale;camera.focus(point,scale);
+  if(clipped())camera.focus(point,Math.max(scale,1.5));
+ });
  if(params.get('focus')==='current')locateNext();
  if(completed){const id=completed;completed=null;history.replaceState(null,'',GAME_URLS.map);completedFeedback(id);}
  let taught=false;try{taught=sessionStorage.getItem('sutrazen.play.map-tip.v1')==='1';}catch{}
@@ -139,6 +152,8 @@ dialog.addEventListener('close',()=>lastFocus?.isConnected&&lastFocus.focus({pre
 document.addEventListener('click',e=>{
  const b=e.target.closest('button');if(!b)return;
  if(b.hasAttribute('data-wm-close'))dialog.close();
+ if(b.hasAttribute('data-wm-tools-open')){toolsFocus=b;toolsDialog.showModal();}
+ if(b.hasAttribute('data-wm-tools-close'))toolsDialog.close();
  if(b.hasAttribute('data-wm-next')){const book=currentBook();if(book)openReader(book.id);else showEnding();}
  if(b.hasAttribute('data-wm-current')){dialog.close();locateNext();}
  if(b.hasAttribute('data-wm-next-station')){dialog.close();locateNext();}
@@ -151,7 +166,7 @@ document.addEventListener('click',e=>{
  if(b.hasAttribute('data-wm-labels')){labels=!labels;render();}
  if(b.hasAttribute('data-wm-city-entry'))location.assign(GAME_URLS.city);
  if(b.dataset.wmLandmark){const l=LANDMARKS.find(l=>l.id===b.dataset.wmLandmark);if(l)inspect(l);}
- if(b.dataset.wmBook){const l=landmarkFor(b.dataset.wmBook);if(l)inspect(l);}
+ if(b.dataset.wmBook){toolsDialog.close();const l=landmarkFor(b.dataset.wmBook);if(l)inspect(l);}
  if(b.dataset.wmRead)openReader(b.dataset.wmRead);
  if(b.hasAttribute('data-wm-retry')){const img=$('.wm-background');img.src=asset('assets/worldmap-master-concept.png')+'?retry='+Date.now();}
 });

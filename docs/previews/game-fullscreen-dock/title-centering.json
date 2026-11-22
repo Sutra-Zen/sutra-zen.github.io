@@ -1,0 +1,177 @@
+{
+  "viewports": [
+    {
+      "size": [
+        1280,
+        900
+      ],
+      "paper": {
+        "x": 387.5,
+        "y": 272.953125,
+        "width": 505,
+        "height": 354.09375
+      },
+      "centerDelta": [
+        0,
+        0
+      ],
+      "scrollHeight": 352,
+      "clientHeight": 352,
+      "viewport": [
+        1280,
+        900
+      ],
+      "outerScrollY": 0,
+      "screenshot": "/workspace/artifacts/game-fullscreen-dock/title-1280x900.png"
+    },
+    {
+      "size": [
+        360,
+        800
+      ],
+      "paper": {
+        "x": 16,
+        "y": 255.25,
+        "width": 328,
+        "height": 289.484375
+      },
+      "centerDelta": [
+        0,
+        -0.0078125
+      ],
+      "scrollHeight": 287,
+      "clientHeight": 287,
+      "viewport": [
+        360,
+        800
+      ],
+      "outerScrollY": 0,
+      "screenshot": "/workspace/artifacts/game-fullscreen-dock/title-360x800.png"
+    },
+    {
+      "size": [
+        844,
+        390
+      ],
+      "paper": {
+        "x": 197,
+        "y": 63.09375,
+        "width": 450,
+        "height": 263.796875
+      },
+      "centerDelta": [
+        0,
+        -0.0078125
+      ],
+      "scrollHeight": 262,
+      "clientHeight": 262,
+      "viewport": [
+        844,
+        390
+      ],
+      "outerScrollY": 0,
+      "screenshot": "/workspace/artifacts/game-fullscreen-dock/title-844x390.png"
+    },
+    {
+      "size": [
+        768,
+        1024
+      ],
+      "paper": {
+        "x": 131.5,
+        "y": 359.859375,
+        "width": 505,
+        "height": 304.265625
+      },
+      "centerDelta": [
+        0,
+        -0.0078125
+      ],
+      "scrollHeight": 302,
+      "clientHeight": 302,
+      "viewport": [
+        768,
+        1024
+      ],
+      "outerScrollY": 0,
+      "screenshot": "/workspace/artifacts/game-fullscreen-dock/title-768x1024.png"
+    },
+    {
+      "size": [
+        1024,
+        768
+      ],
+      "paper": {
+        "x": 259.5,
+        "y": 222.046875,
+        "width": 505,
+        "height": 323.90625
+      },
+      "centerDelta": [
+        0,
+        0
+      ],
+      "scrollHeight": 322,
+      "clientHeight": 322,
+      "viewport": [
+        1024,
+        768
+      ],
+      "outerScrollY": 0,
+      "screenshot": "/workspace/artifacts/game-fullscreen-dock/title-1024x768.png"
+    }
+  ],
+  "stress": {
+    "844x240": {
+      "paperScrollsInternally": true,
+      "settingsAndStartClickable": true,
+      "outerScrollY": 0,
+      "paper": {
+        "x": 197,
+        "y": 16,
+        "width": 450,
+        "height": 208
+      },
+      "centerDelta": [
+        0,
+        0
+      ],
+      "scrollHeight": 262,
+      "clientHeight": 206,
+      "viewport": [
+        844,
+        240
+      ]
+    },
+    "syntheticSafePadding": {
+      "paddingTopRightBottomLeft": [
+        34,
+        60,
+        50,
+        20
+      ],
+      "paper": {
+        "x": 177,
+        "y": 55.09375,
+        "width": 450,
+        "height": 263.796875
+      },
+      "centerDelta": [
+        0,
+        -0.0078125
+      ],
+      "scrollHeight": 262,
+      "clientHeight": 262,
+      "viewport": [
+        844,
+        390
+      ],
+      "outerScrollY": 0
+    }
+  },
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "originalTitleArtSHA256": "fc7cb28c894890127a20fd1bb898d2448950d51be86c3b36200faa6c2ae523e9",
+  "physicalSafari": "Not tested; Chromium viewports and a synthetic safe-padding geometry probe only.",
+  "landscapeMediaQuery": "Valid explicit and condition; 844x390 and short-height probes rerun after correction."
+}

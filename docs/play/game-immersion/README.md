@@ -1,3 +1,5 @@
+> 後續海圖全視窗／單列半透明工具列與觸控移交修正見 [最新交接](../game-fullscreen-dock/README.md)。以下保留本輪依序資格、封面原件及首次沉浸殼的歷史驗證。
+
 # 小貓的山海旅程：沉浸介面與依序閱讀
 
 2026-11-22。實作分支 `feat/game-immersion-sequential`，基準為首次遊戲發布 PR60 的 `7e39f04a383ab98d3b747365ea3e513ad7140a0e`；開始及提交前均確認 origin/main，保留既有歷史。沿用作者先前對 `/game/` 的發布授權，經新 PR 進 main。實際 merge SHA、Pages 成功與正式站檢查記於該 PR 交付留言，不以分支存在推定已部署。

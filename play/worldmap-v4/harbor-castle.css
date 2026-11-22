@@ -1,0 +1,10 @@
+/* Art and coast stay in world coordinates; only the HTML label/touch area
+   receives the same minimum-readable sizing policy as other map controls. */
+.wm-harbor-castle{position:absolute;left:0;top:var(--harbor-castle-top,232px);width:220px;height:230px;z-index:4;pointer-events:none;isolation:isolate}
+.wm-harbor-castle__window{position:absolute;inset:0 auto auto 0;display:block;width:180px;height:var(--harbor-castle-height);overflow:hidden;pointer-events:none}
+.wm-harbor-castle__art{position:absolute;left:-180px;top:0;display:block;width:var(--harbor-castle-width);height:var(--harbor-castle-height);max-width:none;overflow:visible;filter:drop-shadow(1px 3px 2px #103f4c45);pointer-events:none;user-select:none}
+.wm-harbor-castle__approach{position:absolute;inset:0;z-index:1;width:220px;height:230px;overflow:visible;pointer-events:none}.wm-harbor-castle__approach path{fill:none;stroke-linecap:round;stroke-linejoin:round}.wm-harbor-castle__road-edge{stroke:#88713fb3;stroke-width:8}.wm-harbor-castle__road{stroke:#ead69c;stroke-width:5}
+.wm-harbor-castle__entry{position:absolute;left:var(--harbor-castle-label-x,143px);top:var(--harbor-castle-label-y,86px);transform:translate(-50%,-50%);z-index:2;display:flex;align-items:center;justify-content:center;min-width:max(56px,calc(48px / var(--wm-camera-scale,1)));min-height:max(56px,calc(48px / var(--wm-camera-scale,1)));max-width:none;padding:0;border:0;border-radius:10px;background:transparent;color:#2e503b;cursor:pointer;pointer-events:auto;touch-action:manipulation;font:700 calc(16px * var(--wm-marker-scale,1))/1.4 "Noto Serif TC","Songti TC",serif;white-space:nowrap}
+.wm-harbor-castle__label{display:block;padding:4px 9px;border:1px solid #a77e3b;border-radius:7px;background:#fff0d4f0;box-shadow:0 2px 5px #173c4160;text-shadow:0 1px #fff7df;pointer-events:none}.wm-harbor-castle__label>span{color:#86642e}
+.wm-harbor-castle__entry:hover .wm-harbor-castle__label{background:#fff4cf;border-color:#87612c}.wm-harbor-castle__entry:focus-visible{outline:3px solid #ffdb75;outline-offset:2px}
+.wm-is-overview .wm-harbor-castle{z-index:8}

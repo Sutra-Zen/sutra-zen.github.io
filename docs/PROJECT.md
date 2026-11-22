@@ -6,6 +6,10 @@
 - Related Buddhist learning map: https://sutrazen.netlify.app/map.html
 - Primary language: Traditional Chinese (Taiwan)
 
+## Current full-window map and bottom overlay (2026-11-22)
+
+Latest follow-up to PR61: [full-window/dock handoff](play/game-fullscreen-dock/README.md), branch `feat/game-fullscreen-dock` from `ab311d9a2e030cf7e608e3bd9bc83a006445532e`. This supersedes the earlier separated top HUD/bottom navigation layout. Map fills the entire usable viewport; all common controls share a translucent single bottom row with local horizontal scrolling/arrows at narrow widths. Title is centered; an actual miniature castle is half clipped by the west world boundary at the harbor. A reproduced single-touch capture hand-off cancellation on labels is fixed in camera.js. Store/eligibility/reader content and the world source graph stay unchanged. Eleven QA directories are excluded from Pages, whose source remains main:/. Actual validation/screenshots: [evidence](previews/game-fullscreen-dock/README.md). Exact merge/Pages/live status belongs to the new PR release record; real Safari is untested.
+
 ## Current game immersion and shared progression (2026-11-22)
 
 Latest game implementation: [immersion handoff](play/game-immersion/README.md), branch `feat/game-immersion-sequential`, from published PR60 merge `7e39f04a383ab98d3b747365ea3e513ad7140a0e`. This supersedes older free-selection / arbitrary-bookmark / player review-all descriptions below; those sections retain historical design and test evidence. The original fourteen public book URLs remain free.
