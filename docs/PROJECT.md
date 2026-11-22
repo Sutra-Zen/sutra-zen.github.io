@@ -6,6 +6,16 @@
 - Related Buddhist learning map: https://sutrazen.netlify.app/map.html
 - Primary language: Traditional Chinese (Taiwan)
 
+## Current game immersion and shared progression (2026-11-22)
+
+Latest game implementation: [immersion handoff](play/game-immersion/README.md), branch `feat/game-immersion-sequential`, from published PR60 merge `7e39f04a383ab98d3b747365ea3e513ad7140a0e`. This supersedes older free-selection / arbitrary-bookmark / player review-all descriptions below; those sections retain historical design and test evidence. The original fourteen public book URLs remain free.
+
+`/game/` uses the author's unchanged 2752×1536 cat-cover JPEG, HTML title/buttons, then an immersive map/city/shelf shell. `play/worldmap-v4/index.html` is the source for `scripts/build-game-entry.py`; root-relative module imports replace the old `<base>` approach. Shared `route/eligibility.js` governs every game entry and completion write: first unfinished only, completed-book review only, historical non-sequential completions retained. Future bookmarks remain stored without unlocking or changing the mainline. Shelf reviews return to the shelf without rewards. Completion feedback goes back to the map and focuses the next station before opening a book.
+
+All world layers share one 1600×900 camera transform with drag/pinch, visible controls, readable labels and session camera persistence. The harbor city marker and fixed city tab share the same page. Full「念-守門人」labels and canonical city correspondences remain. Settings hold backups and secondary site/source navigation; developer art inspection is isolated from game storage. The new shell is never injected into public readers.
+
+615 protected original files are byte-identical to the baseline. `_config.yml` now excludes ten game QA directories only; legacy Pages main:/, homepage, SEO, Google verification and original content remain. Five-size UI tests, native first-book completion/review, storage/eligibility/history models and camera gestures pass; real iPhone/iPad Safari remains untested. See [actual evidence](previews/game-immersion/README.md). Publication follows existing author authorization and a new PR; exact merge-SHA Pages/live evidence is recorded in that PR, not inferred from this implementation status. Notion is unavailable; [pending note](play/game-immersion/PENDING_NOTION.md) is provided.
+
 ## Public game entry release (2026-11-22)
 
 The author explicitly authorized this round's publication at `https://sutra-zen.github.io/game/`, superseding the earlier game-preview-only restrictions. `release/game-first-playable` starts from reviewed prototype `a2b3225`, which already contains current main `b9a0dad2`; [release PR60](https://github.com/Sutra-Zen/sutra-zen.github.io/pull/60) targets main while retaining the prototype review history. The PR's delivery record must confirm the actual merge SHA, Pages result and live checks before the public URL is claimed available.

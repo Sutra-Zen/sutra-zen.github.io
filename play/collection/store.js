@@ -1,8 +1,12 @@
-import { CATALOG_IDS } from './catalog.js';
+import { CATALOG_IDS, CATALOG } from './catalog.js';
+import { canReadGameBook, canReviewGameBook, canCompleteGameBook, currentGameBookId } from '../route/eligibility.js';
 
 // Collection achievement never controls access to the public readers.
 export const STORAGE_KEY = 'sutrazen.play.collection.v1';
+// Recovery is a single-tab continuation only, never an additional completion set.
+export const SESSION_FALLBACK_KEY = 'sutrazen.play.collection.session.v1';
 const known = id => CATALOG_IDS.includes(id);
+const stepCounts = new Map(CATALOG.map(book => [book.id, book.totalSteps]));
 const fresh = () => ({ version: 1, positions: {}, completed: [], activeBook: CATALOG_IDS[0] });
 const clone = value => JSON.parse(JSON.stringify(value));
 let issue = null;
@@ -19,35 +23,71 @@ function validate(raw) {
   result.activeBook = raw.activeBook;
   return result;
 }
-let state;
-try {
-  const raw = localStorage.getItem(STORAGE_KEY);
-  try { state = raw ? validate(JSON.parse(raw)) : fresh(); }
+let state, lastLocalRaw = null;
+function readRecovery() {
+  try {
+    const raw = sessionStorage.getItem(SESSION_FALLBACK_KEY);
+    if (!raw) return null;
+    const record = JSON.parse(raw);
+    if (!record || record.version !== 1 || !(record.baseRaw === null || typeof record.baseRaw === 'string')) return null;
+    return { baseRaw: record.baseRaw, state: validate(record.state) };
+  } catch { return null; }
+}
+function clearRecovery() { try { sessionStorage.removeItem(SESSION_FALLBACK_KEY); } catch {} }
+function saveRecovery() {
+  try { sessionStorage.setItem(SESSION_FALLBACK_KEY, JSON.stringify({version:1,baseRaw:lastLocalRaw,state})); }
+  catch {} // With both storage mechanisms blocked, this document remains usable.
+}
+let localReadable = true;
+try { lastLocalRaw = localStorage.getItem(STORAGE_KEY); }
+catch { localReadable = false; issue = 'unavailable'; }
+const recovery = readRecovery();
+if (recovery && (!localReadable || recovery.baseRaw === lastLocalRaw)) {
+  // A quota failure can leave a valid but stale local value. Prefer this tab's
+  // continuation only while the canonical local value still matches its base.
+  state = recovery.state;
+  if (!localReadable) lastLocalRaw = recovery.baseRaw;
+  issue = 'unavailable';
+} else {
+  if (recovery) clearRecovery(); // External restore/new canonical save wins; never merge.
+  try { state = lastLocalRaw ? validate(JSON.parse(lastLocalRaw)) : fresh(); }
   catch { state = fresh(); issue = 'corrupt'; }
-} catch { state = fresh(); issue = 'unavailable'; }
+}
+
 function announce() {
   window.dispatchEvent(new CustomEvent('sutrazen:collection-progress', { detail: { issue } }));
 }
 function persist() {
-  try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); }
-  catch { issue = 'unavailable'; }
+  try {
+    const raw = JSON.stringify(state); localStorage.setItem(STORAGE_KEY, raw);
+    lastLocalRaw = raw; clearRecovery();
+    if (issue === 'unavailable') issue = null;
+  } catch { issue = 'unavailable'; saveRecovery(); }
   announce();
 }
 export const store = {
   get: () => clone(state),
   get issue() { return issue; },
   savePosition(id, index) {
-    if (!known(id) || !Number.isInteger(index) || index < 0 || index > 10000) return false;
-    state.positions[id] = index; state.activeBook = id; persist(); return true;
+    if (!known(id) || !Number.isInteger(index) || index < 0 || index >= stepCounts.get(id) || !canReadGameBook(id, state.completed)) return false;
+    state.positions[id] = index;
+    // Review bookmarks belong to that book, not to the mainline active target.
+    if (!canReviewGameBook(id, state.completed)) state.activeBook = id;
+    persist(); return true;
   },
   complete(id) {
     if (!known(id)) return false;
-    if (!state.completed.includes(id)) state.completed.push(id);
-    state.activeBook = id; persist(); return true;
+    if (state.completed.includes(id)) return true; // Idempotent, with no write/event/reward.
+    if (!canCompleteGameBook(id, state.completed) || state.positions[id] !== stepCounts.get(id) - 1) return false;
+    state.completed.push(id);
+    state.activeBook = currentGameBookId(state.completed) || id;
+    persist(); return true;
   },
   reset() {
     state = fresh(); issue = null;
-    try { localStorage.removeItem(STORAGE_KEY); } catch { issue = 'unavailable'; }
+    clearRecovery();
+    try { localStorage.removeItem(STORAGE_KEY); lastLocalRaw = null; }
+    catch { issue = 'unavailable'; saveRecovery(); }
     announce();
   },
   exportBackup: () => JSON.stringify(state, null, 2),
@@ -58,7 +98,7 @@ export const store = {
 };
 window.addEventListener('storage', event => {
   if (event.key !== STORAGE_KEY) return;
-  try { state = event.newValue ? validate(JSON.parse(event.newValue)) : fresh(); issue = null; }
+  try { state = event.newValue ? validate(JSON.parse(event.newValue)) : fresh(); lastLocalRaw = event.newValue; clearRecovery(); issue = null; }
   catch { issue = 'corrupt'; }
   announce();
 });

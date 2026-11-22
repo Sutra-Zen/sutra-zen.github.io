@@ -30,13 +30,13 @@ check('no completion is inferred from all bookmarks or animation metadata', () =
   const s = routeStatus([], positions, { playedAnimationIds: Object.keys(normative) });
   assert.equal(s.count, 0); assert.equal(s.total, 14); assert.equal(s.nextBookId, 'four-truths');
   assert.equal(s.endingAvailable, false); assert(s.city.rewards.every(reward => !reward.earned));
-  assert(s.books.every(book => book.canRead));
+  assert.deepEqual(s.books.filter(book => book.canRead).map(book => book.id), ['four-truths']);
 });
-check('opening / knowing / completing final reveals name but does not fill previous books', () => {
+check('bookmarks / known metadata do not reveal final; legal historical completion still reveals it', () => {
   assert.equal(routeStatus([]).finalChapterRevealed, false);
   assert.equal(routeStatus([]).books.at(-1).mainlineTitle, '尚未揭曉的旅程');
   for (const state of [routeStatus([], { [final]:0 }), routeStatus([], {}, { knownBookIds:[final] }), routeStatus([], {}, { openedBookIds:[final] })]) {
-    assert.equal(state.finalChapterRevealed, true); assert.equal(state.count, 0); assert.equal(state.endingAvailable, false);
+    assert.equal(state.finalChapterRevealed, false); assert.equal(state.count, 0); assert.equal(state.endingAvailable, false);
   }
   const early = routeStatus([final]); assert.equal(early.count, 1); assert.equal(early.finalChapterRevealed, true);
   assert.equal(early.endingAvailable, false); assert.equal(early.nextBookId, 'four-truths');
@@ -77,7 +77,8 @@ check('garden is independent; irrigation is extra two-book feedback and never a 
   const path = routeStatus(['eightfold-path']); assert.equal(path.world.pathActive, true); assert.equal(path.world.gardenActive, false); assert.equal(path.world.irrigationActive, false);
   const garden = routeStatus(['right-effort']); assert.equal(garden.world.gardenActive, true); assert.equal(garden.world.pathActive, false); assert.equal(garden.world.irrigationActive, false);
   const both = routeStatus(['right-effort','eightfold-path']); assert.equal(both.world.irrigationActive, true);
-  assert(both.books.every(book => book.canRead));
+  assert.deepEqual(both.books.filter(book => book.canStart).map(book => book.id), ['four-truths']);
+  assert.deepEqual(both.books.filter(book => book.canReview).map(book => book.id), ['eightfold-path','right-effort']);
   for (const id of ['path_station','path_road','path_bridge_wisdom','path_bridge_concentration','path_bridge_effort_ethics','path_bridge_mindfulness','path_stream','wholesome_lake']) assert.equal(path.landmarks[id].active, true);
   assert.equal(path.landmarks.effort_garden.active, false);
 });
@@ -106,7 +107,7 @@ check('metadata touches only its own key, never duplicates completed records or 
   assert.equal(metadata.markKnown('fake'), false);
   assert.deepEqual([...old].filter(([key]) => key !== ROUTE_METADATA_KEY), before);
   const raw = JSON.parse(old.get(ROUTE_METADATA_KEY)); assert.equal(Object.hasOwn(raw,'completed'), false); assert.equal(Object.hasOwn(raw,'positions'), false);
-  assert.equal(routeStatus([], {}, metadata.get()).finalChapterRevealed, true);
+  assert.equal(routeStatus([], {}, metadata.get()).finalChapterRevealed, false);
   metadata.reset(); assert.deepEqual([...old], before);
   const blocked = createRouteMetadataStore({getItem(){throw Error('blocked')},setItem(){throw Error('blocked')},removeItem(){throw Error('blocked')}});
   blocked.markOpened(final); assert.equal(blocked.issue,'unavailable'); assert.equal(routeStatus([], {}, blocked.get()).count,0);

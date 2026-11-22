@@ -22,9 +22,9 @@ python3 -m http.server 8765 --bind 127.0.0.1
 
 ## 繪本旅程試玩版
 
-遊戲入口為 `/game/`，與原首頁、心智圖及十四本繪本並存。本機可開 http://127.0.0.1:8765/game/ 。入口共用 `play/worldmap-v4/` 的程式、資料與素材；`python3 -B scripts/build-game-entry.py --check` 可確認入口模板同步。城池與收集書架讀取同一份本機閱讀紀錄，只有末步明確完成才計入已讀。
+遊戲入口為 `/game/`，主標「小貓的山海旅程」，與原首頁、心智圖及十四本繪本並存。本機可開 http://127.0.0.1:8765/game/ 。封面採作者原始貓咪 JPEG，接續滿版地圖、城池與書架；底部三個固定分頁。遊戲依序開放十四本，只有末步明確完成才計入；書架只供已讀複習。合法歷史完成與書籤保留，原網站十四本仍自由閱讀。
 
-首次公開實作與發布界線見 [遊戲交接](docs/play/game-release/README.md)。公開驗收以該次 PR 的精確 merge SHA、Pages 成功及正式 `/game/` 結果為準。遊戲 QA 圖片保留在 GitHub；`_config.yml` 僅排除九個遊戲測試證據目錄，避免大型審稿截圖占用 Pages 體積，不排除繪本或來源素材。
+入口共用 `play/worldmap-v4/` 的程式、資料與素材；`python3 -B scripts/build-game-entry.py --check` 可確認入口模板同步。最新實作、保存規則及待補項目見[沉浸旅程交接](docs/play/game-immersion/README.md)，[實際驗證與截圖](docs/previews/game-immersion/README.md)可在 GitHub 審閱。正式發布以新 PR 的精確 merge SHA、Pages 成功及正式 `/game/` 結果為準。`_config.yml` 僅排除十個遊戲 QA 證據目錄，避免審稿截圖占用 Pages 體積，不排除繪本或來源素材。
 
 ## 發布方式
 

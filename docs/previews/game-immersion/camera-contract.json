@@ -1,0 +1,18 @@
+{
+  "checks": [
+    "Native marker click survives pointer tracking",
+    "Marker-origin drag pans without opening marker",
+    "Immediate genuine tap after dragging remains usable",
+    "Zoom preserves the world point under its anchor",
+    "Art and hit-area parent share the actual transform",
+    "Two-pointer pinch zooms without generating a book click",
+    "Pointer cancellation clears gesture without opening book",
+    "Orientation/viewport resize preserves a legal center and scale",
+    "Page navigation/reload resumes saved camera",
+    "Clamping prevents dragging into an empty world",
+    "Full-world view explicitly switches to overview mode",
+    "Unavailable session storage does not block reading or camera"
+  ],
+  "errors": [],
+  "physicalTouch": "Not tested; desktop Chromium/CDP simulation"
+}

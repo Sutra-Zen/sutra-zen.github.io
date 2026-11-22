@@ -1,0 +1,115 @@
+{
+  "phase": "Local independent gallery separation and actual-title smoke; not live publication evidence",
+  "physicalSafari": "Not tested; Chromium viewport simulation",
+  "gallery": {
+    "storageProbe": "Both localStorage and sessionStorage getters throw and count every access",
+    "styleAndDialogCases": [
+      {
+        "viewport": [
+          1280,
+          900
+        ],
+        "style": "watercolor",
+        "storageAccesses": 0,
+        "nativeNodeDialog": true,
+        "publicReaderURLHasNoCollectionParameter": true,
+        "dialogFocusRestored": true
+      },
+      {
+        "viewport": [
+          1280,
+          900
+        ],
+        "style": "terrain",
+        "storageAccesses": 0,
+        "nativeNodeDialog": true,
+        "publicReaderURLHasNoCollectionParameter": true,
+        "dialogFocusRestored": true
+      },
+      {
+        "viewport": [
+          1280,
+          900
+        ],
+        "style": "world",
+        "storageAccesses": 0,
+        "nativeNodeDialog": true,
+        "publicReaderURLHasNoCollectionParameter": true,
+        "dialogFocusRestored": true
+      },
+      {
+        "viewport": [
+          390,
+          844
+        ],
+        "style": "watercolor",
+        "storageAccesses": 0,
+        "nativeNodeDialog": true,
+        "publicReaderURLHasNoCollectionParameter": true,
+        "dialogFocusRestored": true
+      },
+      {
+        "viewport": [
+          390,
+          844
+        ],
+        "style": "terrain",
+        "storageAccesses": 0,
+        "nativeNodeDialog": true,
+        "publicReaderURLHasNoCollectionParameter": true,
+        "dialogFocusRestored": true
+      },
+      {
+        "viewport": [
+          390,
+          844
+        ],
+        "style": "world",
+        "storageAccesses": 0,
+        "nativeNodeDialog": true,
+        "publicReaderURLHasNoCollectionParameter": true,
+        "dialogFocusRestored": true
+      }
+    ],
+    "staticOriginalMap": "Rendered at both sizes,0storageaccesses",
+    "cityAndCelebration": "Both old query routes redirect to /play/city/inspection.html,0storageaccesses; city label toggle also tested",
+    "forbiddenRuntimeRequests": 0,
+    "networkDataUnchangedAgainstHEAD": true,
+    "networkDataSha256": "36575768f6fd6b7a49cc2d14c2751d5770898fcb7ac1acca36b14f3a712e086a"
+  },
+  "actualTitle": {
+    "authorJPEG": "play/assets/CC1A7C32-0620-4DB2-BCD2-A9457A83C259.jpeg",
+    "nativeSize": [
+      2752,
+      1536
+    ],
+    "sha256": "fc7cb28c894890127a20fd1bb898d2448950d51be86c3b36200faa6c2ae523e9",
+    "sourceBytesUnchanged": true,
+    "viewportCases": [
+      [
+        390,
+        844
+      ],
+      [
+        844,
+        390
+      ],
+      [
+        1280,
+        900
+      ]
+    ],
+    "visualReview": "Fullbleed cat-pattern art with readable paper title and buttons; panel inside viewport at all3sizes",
+    "imageRequestsBeforeBegin": "Only the supplied title JPEG; no map or book images",
+    "beginToMap": true,
+    "existingSaveContinueLabel": true
+  },
+  "javascriptErrors": [],
+  "localHTTPErrors": [],
+  "staticChecks": [
+    "node --check preview.js",
+    "node --check network.js",
+    "build-game-entry.py --check",
+    "scoped git diff --check"
+  ]
+}

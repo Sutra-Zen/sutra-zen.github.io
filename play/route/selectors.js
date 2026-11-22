@@ -1,4 +1,5 @@
 import { CATALOG } from '../collection/catalog.js';
+import { getGameBookAccess, isFinalGameBookRevealed } from './eligibility.js';
 import {
   routeOrder, FINAL_BOOK_ID, FIRST_THIRTEEN, rewardDefinitions,
   combinationScenes, facultiesSources, landmarkBooks, endingDefinition,
@@ -11,12 +12,8 @@ const array = value => value instanceof Set ? [...value] : Array.isArray(value) 
 const doneSet = completed => new Set(array(completed).filter(id => routeOrder.includes(id)));
 const hasEvery = (set, ids) => ids.every(id => set.has(id));
 const missing = (set, ids) => ids.filter(id => !set.has(id));
-function knownFinal(set, positions, metadata) {
-  const lists = ['knownBookIds', 'openedBookIds', 'visitedBookIds', 'discoveredBookIds'];
-  return set.has(FINAL_BOOK_ID) || hasEvery(set, FIRST_THIRTEEN) ||
-    (Object.hasOwn(positions || {}, FINAL_BOOK_ID) && Number.isInteger(positions[FINAL_BOOK_ID]) && positions[FINAL_BOOK_ID] >= 0) ||
-    lists.some(key => array(metadata?.[key]).includes(FINAL_BOOK_ID));
-}
+function knownFinal(set) { return isFinalGameBookRevealed(set); }
+
 export function recommendNextBook(completed, supportedBookIds = routeOrder) {
   const set = doneSet(completed), supported = new Set(array(supportedBookIds));
   return routeOrder.find(id => supported.has(id) && !set.has(id)) || null;
@@ -62,20 +59,21 @@ export function routeStatus(completed, positions = {}, metadata = {}) {
   const combinations = sceneAvailability(completed), nextBookId = recommendNextBook(completed);
   const books = routeOrder.map((id, index) => {
     const book = catalog.get(id), completedBook = set.has(id), position = positions?.[id];
-    return { ...book, order: index + 1, completed: completedBook, canRead: true,
+    const access = getGameBookAccess(id, completed, positions);
+    return { ...book, ...access, order: index + 1, completed: completedBook,
       revealed: id !== FINAL_BOOK_ID || finalChapterRevealed,
       mainlineTitle: id === FINAL_BOOK_ID && !finalChapterRevealed ? '尚未揭曉的旅程' : book.title,
       // Reading position never creates a completion. Completed re-reading keeps its bookmark.
       position: Number.isInteger(position) && position >= 0 ? position : null,
-      inProgress: Number.isInteger(position) && position >= 0 && (!completedBook || position < book.totalSteps - 1),
+      inProgress: access.canStart && access.hasBookmark,
     };
   });
   const landmarks = Object.fromEntries(Object.entries(landmarkBooks).map(([id, bookId]) => [id, {
-    id, bookId, active: set.has(bookId), canRead: true,
+    ...getGameBookAccess(bookId, completed, positions), id, bookId, active: set.has(bookId),
     visible: bookId !== FINAL_BOOK_ID || finalChapterRevealed,
   }]));
   return {
-    version: '2026-11-22-r3', total: routeOrder.length,
+    version: '2026-11-22-r3', eligibilityPolicy: 'strict-sequential-v1', total: routeOrder.length,
     completedBookIds: routeOrder.filter(id => set.has(id)), count: set.size,
     nextBookId, books, finalChapterRevealed,
     endingAvailable: combinations.ending_release.available,

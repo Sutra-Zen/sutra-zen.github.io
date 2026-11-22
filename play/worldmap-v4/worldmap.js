@@ -1,141 +1,163 @@
 import {store} from '../collection/store.js';
-import {routeStatus,routeBooks,routeOrder} from '../route/selectors.js';
+import {routeStatus,routeBooks} from '../route/selectors.js';
+import {canStartGameBook,canReviewGameBook,getGameBookAccess} from '../route/eligibility.js';
 import {routeMetadata} from '../route/metadata.js';
-import {renderGameNavigation} from '../navigation.js';
+import {initializeGameShell,GAME_URLS} from '../game-shell.js';
+import {initializeTitleScreen} from '../title-screen.js';
+import {createMapCamera} from './camera.js';
 import {compactCompletionFeedback} from './completion-feedback.js';
-import {WORLD,COLUMNS,LANDMARKS,SECONDARY,MEMBERS,NODES,EDGES,GEOGRAPHIC_ROAD,MAP_CONNECTIONS,conceptAnchor,sourceGroupAnchor,PRIMARY_BOOK_LANDMARK} from './data.js';
+import {WORLD,LANDMARKS,MEMBERS,NODES,EDGES,GEOGRAPHIC_ROAD,MAP_CONNECTIONS,conceptAnchor,sourceGroupAnchor,PRIMARY_BOOK_LANDMARK} from './data.js';
 import {T} from './text.js';
 
-const $=s=>document.querySelector(s),bookById=new Map(routeBooks.map(b=>[b.id,b])),nodeById=new Map(NODES.map(n=>[n.id,n]));
-const query=new URLSearchParams(location.search),catalogURL=new URL('../collection/catalog.js',import.meta.url);
-// The public /game/ shell reuses this exact runtime; legacy URLs keep their return.
+const $=s=>document.querySelector(s);
+const books=new Map(routeBooks.map(b=>[b.id,b]));
+const nodes=new Map(NODES.map(n=>[n.id,n]));
+const params=new URLSearchParams(location.search);
 const gameEntry=/^\/game(?:\/|$)/.test(location.pathname);
-let mode=query.get('mode')==='free'?'free':'route',overview=true,links='none',labels=true,selected=null;
-const dialog=$('#wm-dialog'),dialogContent=$('#wm-dialog-content');
-$('.proposal-header nav').outerHTML=renderGameNavigation({active:'map'});
-const escape=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-function status(){const s=store.get();return routeStatus(s.completed,s.positions,routeMetadata.get());}
-function primaryReader(s){
- const saved=store.get(),active=bookById.get(saved.activeBook),at=active?saved.positions[active.id]:null;
- // Resume the actual current reading, including a partial re-read. Recommendation
- // order stays separate and still points at the first unfinished route book.
- if(active&&Number.isInteger(at)&&at>=0&&(!s.completedBookIds.includes(active.id)||at<active.totalSteps-1))return active;
- return bookById.get(s.nextBookId)||null;
-}
-function unlocked(l,s){
- if(l.alwaysClear||!l.bookId||mode==='free')return true;
- const b=s.books.find(b=>b.id===l.bookId);
- return b.completed||b.inProgress||routeOrder.indexOf(l.bookId)<=routeOrder.indexOf(s.nextBookId);
-}
-function name(l,s){return l.bookId==='four-fruits-ten-fetters'&&mode==='route'&&!s.finalChapterRevealed?T.unknown:T.names[l.id];}
+const catalogURL=new URL('../collection/catalog.js',import.meta.url);
+const asset=p=>new URL(p,import.meta.url).href;
+const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let camera=null,active=false,links='none',labels=true,selected=null,lastFocus=null,completed=params.get('completed');
+const dialog=$('#wm-dialog'),content=$('#wm-dialog-content');
+const shell=initializeGameShell({active:'map',onMap:()=>activateMap()});
+const status=()=>{const s=store.get();return routeStatus(s.completed,s.positions,routeMetadata.get());};
+const currentBook=()=>books.get(status().nextBookId)||null;
+const landmarkFor=id=>LANDMARKS.find(l=>l.id===PRIMARY_BOOK_LANDMARK[id]);
+const revealed=(l,s)=>l.bookId!=='four-fruits-ten-fetters'||s.finalChapterRevealed;
+const name=(l,s)=>revealed(l,s)?T.names[l.id]:T.unknown;
+const access=(l,s)=>getGameBookAccess(l.bookId,s.completedBookIds,store.get().positions);
 function sourceLines(){
  const chosen=LANDMARKS.find(l=>l.id===selected);
  const paths=EDGES.map(e=>{
   const p=sourceGroupAnchor(e.fromGroup)||conceptAnchor(e.from),q=sourceGroupAnchor(e.toGroup)||conceptAnchor(e.to);
-  if(!p||!q)throw Error(`Missing source anchor ${e.id}`);
   const direct=chosen&&(e.from===chosen.conceptId||e.to===chosen.conceptId);
-  const hidden=links==='none'||(links==='direct'&&!direct);
   const coast=e.kind==='return'||e.id==='overview-branch-road-overview-eightfold-overview';
-  const d=coast?GEOGRAPHIC_ROAD:`M${p.x} ${p.y}L${q.x} ${q.y}`;
-  return `<path class="wm-relation ${direct?'is-direct':''} ${hidden?'is-hidden':''}" data-source-edge="${e.id}" data-from="${e.from}" data-to="${e.to}" ${coast?'data-display-routing="coastal-road"':''} d="${d}"/>`;
+  const d=coast?GEOGRAPHIC_ROAD:'M'+p.x+' '+p.y+'L'+q.x+' '+q.y;
+  return '<path class="wm-relation '+(direct?'is-direct ':'')+((links==='none'||(links==='direct'&&!direct))?'is-hidden':'')+'" data-source-edge="'+e.id+'" data-from="'+e.from+'" data-to="'+e.to+'" d="'+d+'"/>';
  }).join('');
- const guide=links==='all'?`<g class="wm-alignment" data-layout-guides><path data-row="awakening" d="M168 108H1392"/><path data-row="faculties" d="M168 243H1392"/>${Object.entries(COLUMNS).map(([family,x])=>`<path data-column="${family}" d="M${x} ${family==='faith'?243:108}V${family==='faith'?540:810}"/>`).join('')}</g>`:'';
- const access=MAP_CONNECTIONS.map(c=>{
-  const shown=links==='all'||(links==='direct'&&c.landmarkIds.includes(chosen?.id));
-  return `<path class="wm-display-connector ${shown?'':'is-hidden'}" data-display-route="${c.id}" data-route-kind="${c.kind}" data-is-source-relation="false" d="${c.d}"/>`;
- }).join('');
- return `<svg class="wm-lines" viewBox="0 0 1600 900" preserveAspectRatio="none" aria-hidden="true">${guide}${paths}${access}</svg>`;
+ const extra=MAP_CONNECTIONS.map(c=>'<path class="wm-display-connector '+((links==='all'||(links==='direct'&&c.landmarkIds.includes(chosen?.id)))?'':'is-hidden')+'" data-display-route="'+c.id+'" data-is-source-relation="false" d="'+c.d+'"/>').join('');
+ return paths+extra;
 }
-function landscape(s){
- const chosen=LANDMARKS.find(l=>l.id===selected),nextLandmark=PRIMARY_BOOK_LANDMARK[s.nextBookId];
- const fog=LANDMARKS.filter(l=>!unlocked(l,s)).map(l=>`<div class="wm-fog ${l.type==='island'?'is-island-fog':''} ${l.type==='scroll'?'is-scroll-fog':''} ${l.id==='fruition_valley'?'is-final-fog':''}" data-fog-for="${l.id}" style="left:${l.x/16}%;top:${l.y/9}%" aria-hidden="true"></div>`).join('');
- const marks=LANDMARKS.map(l=>{
-  const earned=s.completedBookIds.includes(l.bookId),available=unlocked(l,s),same=chosen?.bookId&&chosen.bookId===l.bookId;
-  return `<button class="wm-landmark ${l.type==='scroll'?'is-scroll':''} ${l.id===selected?'is-selected':''} ${same?'is-same-book':''} ${earned?'is-earned':''} ${nextLandmark===l.id?'is-next':''}" data-wm-landmark="${l.id}" data-landmark="${l.id}" data-book="${l.bookId||''}" data-concept="${l.conceptId}" data-unlocked="${available}" data-completed="${earned}" ${l.row?`data-row="${l.row}"`:''} ${l.family?`data-column="${l.family}"`:''} style="--x:${l.x/16}%;--y:${l.y/9}%" aria-label="${escape(name(l,s))}，${earned?T.earned:available?T.available:T.unfinished}"><span class="wm-label">${escape(name(l,s))}</span></button>`;
- }).join('');
- return `<div class="wm-viewport ${overview?'is-overview':''}" tabindex="0" aria-label="完整山海世界，可放大並左右上下平移"><div class="wm-world ${labels?'':'wm-labels-hidden'}" data-world-size="1600x900" data-world-version="2026-11-22-map-v4" data-mode="${mode}"><img class="wm-background" src="assets/worldmap-master-concept.png" width="1672" height="941" alt="無字山海世界：七覺支北排、五根五力近岸排，中段為木造燈亭、湖灣、鏡影林、花田、竹林、船塢、庭園及輪庭，下方公路半島與四組橋由藍色水道分隔"><svg class="wm-geography" viewBox="0 0 1600 900" preserveAspectRatio="none" aria-hidden="true">${s.world.pathActive?`<path class="wm-road-active" data-path-active d="${GEOGRAPHIC_ROAD}"/>`:''}${s.world.irrigationActive?'<path class="wm-irrigation" data-irrigation-active d="M912 630Q958 582 912 515"/>':''}</svg>${fog}${sourceLines()}${marks}</div></div>`;
+function mountWorld(){
+ const marks=LANDMARKS.map(l=>'<button class="wm-landmark '+(l.type==='scroll'?'is-scroll':'')+'" data-wm-landmark="'+l.id+'" data-landmark="'+l.id+'" data-book="'+(l.bookId||'')+'" data-concept="'+l.conceptId+'" style="--x:'+l.x+'px;--y:'+l.y+'px"><span class="wm-pin" aria-hidden="true"></span><span class="wm-label"></span><span class="wm-status-chip"></span></button>').join('');
+ const regions=T.regions.map((r,i)=>'<button class="wm-region" data-wm-region="'+i+'" style="--x:'+r.x+'px;--y:'+r.y+'px">'+escape(r.title)+'</button>').join('');
+ $('#wm-host').innerHTML='<div class="wm-viewport" tabindex="0" aria-label="'+T.cameraLabel+'"><div class="wm-world" data-world-size="1600x900"><img class="wm-background" src="'+asset('assets/worldmap-master-concept.png')+'" width="1600" height="900" alt="'+T.worldAlt+'"><svg class="wm-geography" viewBox="0 0 1600 900" aria-hidden="true"></svg><div class="wm-fog-layer"></div><svg class="wm-lines" viewBox="0 0 1600 900" aria-hidden="true"></svg>'+marks+regions+'<img class="wm-traveler" src="'+new URL('../visual-v2/assets/kitten-rowboat-concept.png',import.meta.url).href+'" alt="'+T.travelerAlt+'"><button class="wm-city-landmark" data-wm-city-entry style="--x:138px;--y:337px" aria-label="'+T.enterCity+'"><span aria-hidden="true">♜</span><span>'+T.cityTab+'</span></button></div><div class="wm-load-state" role="status">'+T.loadingMap+'</div></div>';
+ const image=$('.wm-background'),loading=$('.wm-load-state');
+ const loaded=()=>{loading.hidden=true;};
+ image.addEventListener('load',loaded);
+ image.addEventListener('error',()=>{loading.hidden=false;loading.innerHTML='<span>'+T.mapLoadFailed+'</span><button data-wm-retry>'+T.retry+'</button>';});
+ if(image.complete&&image.naturalWidth)loaded();
 }
 function render(){
- const s=status(),next=primaryReader(s);
+ const s=status(),book=books.get(s.nextBookId),saved=store.get();
  $('#wm-title').textContent=T.title;$('#wm-eyebrow').textContent=T.eyebrow;$('#wm-description').textContent=T.description;
- $('#wm-count').textContent=T.collection(s.count);
- $('[data-wm-next]').textContent=!next?T.allComplete:s.count||s.books.some(b=>b.inProgress)?T.continue:T.start;
- $('[data-wm-next]').setAttribute('aria-label',next?`${T.continue}《${next.title}》`:T.allComplete);
- $('[data-wm-next]').dataset.nextBook=next?.id||'';
- $('[data-wm-lines]').textContent=links==='all'?T.linesOff:links==='direct'?'查看全部互通連線':T.linesOn;
+ $('#wm-count').textContent=T.collection(s.count);shell.setProgress(s.count,14);
+ const next=$('[data-wm-next]'),at=book?getGameBookAccess(book.id,s.completedBookIds,saved.positions):null;
+ next.textContent=book?(at.status==='reading'?T.resumeBook(book.title,at.resumePosition+1,book.totalSteps):T.startBook(book.title)):T.viewEnding;
+ next.dataset.nextBook=book?.id||'';
+ $('[data-wm-lines]').textContent=links==='none'?T.linesOn:T.linesOff;
  $('[data-wm-lines]').setAttribute('aria-pressed',String(links!=='none'));
- $('[data-wm-zoom]').textContent=overview?T.zoomIn:T.zoomOut;
- $('[data-wm-labels]').setAttribute('aria-pressed',String(labels));
- document.querySelectorAll('[data-wm-mode]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.wmMode===mode)));
- $('#wm-fog-note').textContent=T.fogNote;$('#wm-route-note').textContent=T.routeNote;
- $('#wm-details-title').textContent=T.details;$('#wm-native-note').textContent=T.nativeNote;$('#wm-figure-note').textContent=T.figureNote;
- $('#wm-detail-buttons').innerHTML=Object.entries(T.detailNames).map(([id,title])=>`<button data-wm-detail="${id}">${title}</button>`).join('');
- const was=$('.wm-viewport'),scroll=was?{left:was.scrollLeft,top:was.scrollTop}:null;
- $('#wm-host').innerHTML=landscape(s);
- if(scroll&&!overview){const sc=$('.wm-viewport');sc.scrollTo(scroll);}
- $('#wm-route-strip').innerHTML=`<details class="wm-route-details"><summary>${mode==='free'?T.free:'十四本閱讀路線'} · ${T.collection(s.count)}</summary><ol class="wm-route-list">${s.books.map(b=>`<li><button data-wm-book="${b.id}" aria-current="${b.id===s.nextBookId}"><span class="wm-order">${String(b.order).padStart(2,'0')}</span>${escape(mode==='free'?b.title:b.mainlineTitle)}${b.completed?' ✓':''}</button></li>`).join('')}</ol></details>${s.endingAvailable?`<button class="primary" data-wm-ending>${T.ending}</button>`:''}`;
- const notice=$('#wm-storage-notice');notice.hidden=!(store.issue||routeMetadata.issue);notice.className='wm-storage-notice';notice.textContent=store.issue?'此瀏覽器暫時無法保存閱讀紀錄，仍可繼續閱讀。':routeMetadata.issue?'角色與書名的顯示紀錄暫時無法保存，已讀紀錄維持原狀。':'';
+ $('[data-wm-labels]').textContent=T.labels;$('[data-wm-labels]').setAttribute('aria-pressed',String(labels));
+ $('[data-wm-locate]').textContent=T.currentLevel;
+ $('[data-wm-overview]').textContent=T.fullMap;$('.wm-secondary-tools>summary').textContent=T.moreTools;
+ $('#wm-host').querySelectorAll('[data-wm-landmark]').forEach(el=>{
+  const l=LANDMARKS.find(l=>l.id===el.dataset.landmark),a=access(l,s),primary=PRIMARY_BOOK_LANDMARK[l.bookId]===l.id;
+  const state=!l.bookId?'harbor':a.status;
+  const flag=a.canStart&&primary?(a.status==='reading'?T.readingAt(a.resumePosition+1,a.totalSteps):T.newLevel):a.canReview?T.readDone:'';
+  el.classList.toggle('is-earned',a.canReview);el.classList.toggle('is-locked',Boolean(l.bookId&&!a.canRead));
+  el.classList.toggle('is-next',a.canStart&&primary);el.classList.toggle('is-selected',l.id===selected);
+  el.dataset.levelState=state;el.dataset.unlocked=String(!l.bookId||a.canRead);el.dataset.completed=String(a.canReview);
+  el.setAttribute('aria-label',name(l,s)+(flag?'，'+flag:''));el.querySelector('.wm-label').textContent=name(l,s);
+  el.querySelector('.wm-status-chip').textContent=flag;
+ });
+ $('.wm-world').classList.toggle('wm-labels-hidden',!labels);
+ const place=landmarkFor(s.nextBookId||'four-truths'),traveler=$('.wm-traveler');traveler.style.left=(place.x-110)+'px';traveler.style.top=(place.y+53)+'px';
+ $('.wm-fog-layer').innerHTML=LANDMARKS.filter(l=>l.bookId&&!l.alwaysClear&&!access(l,s).canRead).map(l=>'<div class="wm-fog" data-fog-for="'+l.id+'" style="left:'+l.x+'px;top:'+l.y+'px" aria-hidden="true"></div>').join('');
+ $('.wm-lines').innerHTML=sourceLines();
+ $('.wm-geography').innerHTML=(s.world.pathActive?'<path class="wm-road-active" d="'+GEOGRAPHIC_ROAD+'"/>':'')+(s.world.irrigationActive?'<path class="wm-irrigation" d="M912 630Q958 582 912 515"/>':'');
+ const routeKey=JSON.stringify(s.books.map(b=>[b.id,b.completed,b.canRead,b.inProgress,b.mainlineTitle]));
+ if($('#wm-route-strip').dataset.signature!==routeKey){$('#wm-route-strip').dataset.signature=routeKey;$('#wm-route-strip').innerHTML='<details class="wm-route-details"><summary>'+T.routeList+'</summary><ol class="wm-route-list">'+s.books.map(b=>'<li><button data-wm-book="'+b.id+'" data-level-state="'+getGameBookAccess(b.id,s.completedBookIds,saved.positions).status+'" aria-current="'+(b.id===s.nextBookId)+'">'+String(b.order).padStart(2,'0')+' · '+escape(b.mainlineTitle)+(b.completed?' ✓':'')+'</button></li>').join('')+'</ol></details>';}
+ const notice=$('#wm-storage-notice');notice.hidden=true;notice.textContent='';
 }
-function open(title,html,detail=false){
- dialog.classList.remove('wm-completion-dialog');
- dialog.classList.toggle('wm-detail-dialog',detail);dialogContent.innerHTML=`<h2 id="wm-dialog-title">${escape(title)}</h2>${html}`;
+function open(title,html){
+ lastFocus=document.activeElement;dialog.classList.remove('wm-completion-dialog');
+ content.innerHTML='<h2 id="wm-dialog-title">'+escape(title)+'</h2>'+html;
  if(!dialog.open)dialog.showModal();
 }
-function openReader(id){
- const b=bookById.get(id);if(!b)return;
- routeMetadata.markOpened(id);const s=store.get(),u=new URL(b.reader,catalogURL);
- u.searchParams.set('collection','1');u.searchParams.set('collectionReturn',gameEntry?'game':'worldmap-v4');
- const at=s.positions[id];
- if(Number.isInteger(at)&&(!s.completed.includes(id)||at<b.totalSteps-1))u.searchParams.set('collectionPage',at);
- else if(s.completed.includes(id))u.searchParams.set('collectionPage','0');
- location.assign(u.href);
+function lockPanel(){
+ open(T.lockedTitle,'<p>'+T.lockedCopy+'</p><button class="primary" data-wm-current>'+T.goCurrent+'</button>');
 }
 function inspect(l){
- selected=l.id;links=links==='none'?'direct':links;render();const s=status();
- if(!l.bookId){
-  open(T.names.harbor,`<p>從港口接續閱讀，或回城池看看已讀故事帶來的變化。</p><div class="wm-dialog-actions"><button class="primary" data-wm-next>${T.continue}</button><a data-wm-city href="../city/">${T.city}</a><a href="../visual-v2/shelf.html">${T.shelf}</a></div>`);return;
- }
- const b=s.books.find(b=>b.id===l.bookId),concealed=mode==='route'&&!b.revealed;
- const neighbours=new Set(EDGES.filter(e=>e.from===l.conceptId||e.to===l.conceptId).flatMap(e=>[e.from,e.to]));neighbours.delete(l.conceptId);
- const members=MEMBERS.filter(m=>m.sourceParentId===l.conceptId);
- const node=nodeById.get(l.conceptId),same=LANDMARKS.filter(p=>p.bookId===l.bookId&&p.id!==l.id);
- const caption=b.completed?T.earned:b.inProgress?T.reading:unlocked(l,s)?T.available:T.unfinished;
- open(concealed?T.unknown:name(l,s),`<span class="status-label">${caption}</span><p>${concealed?'前十三本完成後，主線會揭曉這段旅程。原網站與自由選讀保持開放。':`這處地景屬於《${escape(b.title)}》。${l.id==='recollection_lighthouse'?'木造燈塔與六盞步道燈，同屬四不壞淨與六念這一本。':''}`}</p>${members.length?`<ul>${members.map(m=>`<li data-concept-member="${m.id}" data-source-parent="${m.sourceParentId}">${escape((m.key==='root'||m.key==='power'?T.familyNames[node.family]:'')+T.members[m.key])}</li>`).join('')}</ul>`:''}<div class="wm-dialog-actions"><button class="primary" data-wm-read="${b.id}">${concealed?'自由選讀':b.inProgress?T.continue:b.completed?T.restart:T.read}</button>${!concealed?`<a data-wm-guide href="${new URL(b.guide,catalogURL).href}">${T.guide}</a>`:''}</div>${same.length&&!concealed?`<h3>${T.sameBook}</h3><div class="wm-related">${same.map(p=>`<button data-wm-select="${p.id}">${escape(name(p,s))}</button>`).join('')}</div>`:''}${neighbours.size&&!concealed?`<h3>${T.related}</h3><div class="wm-related">${[...neighbours].map(id=>{const p=LANDMARKS.find(l=>l.conceptId===id);return p?`<button data-wm-select="${p.id}">${escape(name(p,s))}</button>`:'';}).join('')}</div>`:''}<p class="wm-source-note">${T.routeNote}</p>${node?'<p class="wm-source-note">對讀關係沿用原心智圖；地景位置與閱讀次序是本次教學設計。</p>':''}`);
+ selected=l.id;render();const s=status(),a=access(l,s);
+ if(!l.bookId){open(T.names.harbor,'<p>'+T.harborCopy+'</p><div class="wm-dialog-actions"><button class="primary" data-wm-current>'+T.goCurrent+'</button><a href="'+GAME_URLS.city+'">'+T.enterCity+'</a></div>');return;}
+ if(!a.canRead){lockPanel();return;}
+ const b=books.get(l.bookId),members=MEMBERS.filter(m=>m.sourceParentId===l.conceptId),node=nodes.get(l.conceptId);
+ const memberMarkup=members.length?'<ul>'+members.map(m=>'<li>'+escape((m.key==='root'||m.key==='power'?T.familyNames[node.family]:'')+T.members[m.key])+'</li>').join('')+'</ul>':'';
+ open(name(l,s),'<p class="wm-book-caption">'+escape(b.title)+'</p>'+memberMarkup+'<div class="wm-dialog-actions"><button class="primary" data-wm-read="'+b.id+'">'+(a.canReview?T.reviewBook:a.status==='reading'?T.continue:T.startReading)+'</button><a href="'+new URL(b.guide,catalogURL).href+'">'+T.guide+'</a></div><p class="wm-source-note">'+T.routeNote+'</p>');
+}
+function openReader(id){
+ const s=store.get(),b=books.get(id),a=getGameBookAccess(id,s.completed,s.positions);
+ if(!b||!a.canRead){lockPanel();return;}
+ if(a.canStart)routeMetadata.markOpened(id);
+ const u=new URL(b.reader,catalogURL);
+ u.searchParams.set('collection','1');u.searchParams.set('collectionReturn','game');
+ if(a.canReview)u.searchParams.set('collectionReview','1');
+ const at=a.canReview&&a.resumePosition===b.totalSteps-1?0:(a.resumePosition??0);
+ u.searchParams.set('collectionPage',String(at));
+ location.assign(u.href);
 }
 function locateNext(){
- const next=primaryReader(status())?.id;if(!next)return;const l=LANDMARKS.find(l=>l.id===PRIMARY_BOOK_LANDMARK[next]);
- overview=false;selected=l.id;render();requestAnimationFrame(()=>{const sc=$('.wm-viewport'),world=$('.wm-world');sc.scrollTo({left:l.x/WORLD.width*world.clientWidth-sc.clientWidth/2,top:l.y/WORLD.height*world.clientHeight-sc.clientHeight/2});});
+ const book=currentBook();if(!book){showEnding();return;}
+ const l=landmarkFor(book.id);selected=l.id;render();camera?.focus({x:l.x,y:l.y});
 }
 function showEnding(){
  const s=status();if(!s.endingAvailable)return;
- open(T.ending,`<p>${T.endingCopy}</p><p>${T.endingDirection}</p><blockquote>${escape(s.ending.quote)}</blockquote><p><a href="https://buddhaspace.org/agama/sub/262.html" target="_blank" rel="noopener">${s.ending.quoteSource}</a></p><div class="wm-dialog-actions"><a class="primary" href="../../index.html#books">回原網站書架</a><a href="../city/">${T.city}</a></div>`);
+ open(T.ending,'<p>'+T.endingCopy+'</p><p>'+T.endingDirection+'</p><blockquote>'+escape(s.ending.quote)+'</blockquote><a href="https://buddhaspace.org/agama/sub/262.html" target="_blank" rel="noopener">'+s.ending.quoteSource+'</a><div class="wm-dialog-actions"><a href="'+GAME_URLS.shelf+'" class="primary">'+T.reviewShelf+'</a></div>');
 }
 function completedFeedback(id){
- const s=status(),b=bookById.get(id);if(!b||!s.completedBookIds.includes(id))return;
- const firstThree=id==='six-senses'&&['four-truths','five-aggregates','six-senses'].every(id=>s.completedBookIds.includes(id));
- const next=bookById.get(s.nextBookId);
- open(T.completeTitle(b.title),`${firstThree?`<p class="wm-success">${T.firstComplete}</p>`:''}${compactCompletionFeedback(id,s)}<p class="wm-completion-count">${T.collection(s.count)}</p><div class="wm-dialog-actions wm-completion-actions">${next?`<button class="primary" data-wm-read="${next.id}">${escape(T.nextTitle(next.title))}</button>`:`<button class="primary" data-wm-ending>${T.ending}</button>`}<a data-wm-city href="../city/">${T.seeCity}</a></div>`);
+ const s=status(),b=books.get(id);if(!b||!s.completedBookIds.includes(id))return;
+ const primary=landmarkFor(id);
+ open(T.completeTitle(b.title),'<p class="wm-world-reward">'+T.mapReward(name(primary,s))+'</p>'+compactCompletionFeedback(id,s)+'<p>'+T.collection(s.count)+'</p><div class="wm-dialog-actions wm-completion-actions"><button class="primary" data-wm-next-station>'+(s.nextBookId?T.nextStation:T.viewEnding)+'</button><a href="'+GAME_URLS.city+'">'+T.seeCity+'</a></div>');
  dialog.classList.add('wm-completion-dialog');
 }
+function activateMap(){
+ $('#game-content').hidden=false;shell.setVisible(true);
+ if(active){camera?.refresh();return;}
+ active=true;mountWorld();render();
+ const book=currentBook(),l=book?landmarkFor(book.id):landmarkFor('four-truths');
+ camera=createMapCamera($('.wm-viewport'),$('.wm-world'),{width:WORLD.width,height:WORLD.height,initialCenter:{x:l.x,y:l.y}});
+ if(params.get('focus')==='current')locateNext();
+ if(completed){const id=completed;completed=null;history.replaceState(null,'',GAME_URLS.map);completedFeedback(id);}
+ let taught=false;try{taught=sessionStorage.getItem('sutrazen.play.map-tip.v1')==='1';}catch{}
+ if(!taught){
+  const tip=document.createElement('p');tip.className='wm-once-tip';tip.textContent=T.cameraTip;$('#wm-host').append(tip);
+  try{sessionStorage.setItem('sutrazen.play.map-tip.v1','1');}catch{}
+  setTimeout(()=>tip.remove(),6500);
+ }
+}
+dialog.addEventListener('close',()=>lastFocus?.isConnected&&lastFocus.focus({preventScroll:true}));
 document.addEventListener('click',e=>{
  const b=e.target.closest('button');if(!b)return;
  if(b.hasAttribute('data-wm-close'))dialog.close();
- if(b.hasAttribute('data-wm-lines')){links=links==='all'?'none':'all';render();}
- if(b.hasAttribute('data-wm-labels')){labels=!labels;render();}
- if(b.hasAttribute('data-wm-zoom')){overview=!overview;render();}
+ if(b.hasAttribute('data-wm-next')){const book=currentBook();if(book)openReader(book.id);else showEnding();}
+ if(b.hasAttribute('data-wm-current')){dialog.close();locateNext();}
+ if(b.hasAttribute('data-wm-next-station')){dialog.close();locateNext();}
  if(b.hasAttribute('data-wm-locate'))locateNext();
- if(b.dataset.wmMode){mode=b.dataset.wmMode;render();}
- if(b.dataset.wmLandmark||b.dataset.wmSelect){const l=LANDMARKS.find(l=>l.id===(b.dataset.wmLandmark||b.dataset.wmSelect));if(l)inspect(l);}
- if(b.dataset.wmBook){const l=LANDMARKS.find(l=>l.id===PRIMARY_BOOK_LANDMARK[b.dataset.wmBook]);if(l)inspect(l);}
- if(b.hasAttribute('data-wm-next')){const next=primaryReader(status())?.id;if(next)openReader(next);else showEnding();}
+ if(b.hasAttribute('data-wm-overview')||b.hasAttribute('data-wm-zoom'))camera?.fit();
+ if(b.hasAttribute('data-wm-zoom-in'))camera?.zoomBy(1.3);
+ if(b.hasAttribute('data-wm-zoom-out'))camera?.zoomBy(1/1.3);
+ if(b.dataset.wmRegion!==undefined){const r=T.regions[Number(b.dataset.wmRegion)];camera?.focus({x:r.x,y:r.y});}
+ if(b.hasAttribute('data-wm-lines')){links=links==='none'?'all':'none';render();}
+ if(b.hasAttribute('data-wm-labels')){labels=!labels;render();}
+ if(b.hasAttribute('data-wm-city-entry'))location.assign(GAME_URLS.city);
+ if(b.dataset.wmLandmark){const l=LANDMARKS.find(l=>l.id===b.dataset.wmLandmark);if(l)inspect(l);}
+ if(b.dataset.wmBook){const l=landmarkFor(b.dataset.wmBook);if(l)inspect(l);}
  if(b.dataset.wmRead)openReader(b.dataset.wmRead);
- if(b.dataset.wmDetail){const id=b.dataset.wmDetail;if(Object.hasOwn(T.detailNames,id))open(T.detailNames[id],`<p>${T.detailNote}</p><img class="wm-detail-art" src="assets/detail-${id}.png" alt="${escape(T.detailNames[id])}">`,true);}
- if(b.hasAttribute('data-wm-ending'))showEnding();
+ if(b.hasAttribute('data-wm-retry')){const img=$('.wm-background');img.src=asset('assets/worldmap-master-concept.png')+'?retry='+Date.now();}
 });
-window.addEventListener('sutrazen:collection-progress',render);
-window.addEventListener('sutrazen:route-metadata',render);
-window.addEventListener('pageshow',render);
-render();
-const completed=query.get('completed');
-if(completed){history.replaceState(null,'',location.pathname);completedFeedback(completed);}
-window.SutraZenWorldmap={getState:()=>({mode,links,overview,selected,status:status()}),locateNext};
+for(const event of ['sutrazen:collection-progress','sutrazen:route-metadata'])window.addEventListener(event,()=>{if(active)render();});
+window.addEventListener('pageshow',()=>{if(active){render();camera?.refresh();}});
+const alias=location.hash==='#city'?'city':location.hash==='#shelf'?'shelf':null;
+if(alias)location.replace(GAME_URLS[alias]);
+else initializeTitleScreen({shell,enabled:gameEntry,onEnterMap:activateMap});
+window.SutraZenWorldmap={getState:()=>({mode:'route',links,selected,status:status(),camera:camera?.getState()||null}),locateNext,activateMap};

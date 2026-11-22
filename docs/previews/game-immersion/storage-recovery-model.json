@@ -1,0 +1,13 @@
+{
+  "result": "passed",
+  "checks": [
+    "quota leaves stale valid local bytes; same-tab module/navigation recovers bookmark and explicit completion without duplicate count",
+    "temporary local-read denial preserves the recovery base marker; later readable unchanged canonical bytes do not discard session progress",
+    "legal out-of-order restore survives temporary persistence; successful local write clears recovery and keeps IDs/order",
+    "changed canonical base from external restore wins exactly, clears stale recovery and does not merge completed sets",
+    "both storages blocked remains honest single-document memory only, with no cross-page preservation claim"
+  ],
+  "primaryKey": "sutrazen.play.collection.v1",
+  "recoveryKey": "sutrazen.play.collection.session.v1",
+  "otherNamespaces": "unchanged"
+}

@@ -1,0 +1,26 @@
+{
+  "scope": "Real reader/store policy; blank same-origin /game/ return transport only. No camera, title-screen or physical Safari claim.",
+  "fixtures": "Isolated disposable browser saves, never author progress",
+  "checks": [
+    {
+      "lockedEntryVariants": [
+        "four-jhanas/book/?collection=1",
+        "four-jhanas/book/?collection=1&collectionReturn=game&collectionPage=130",
+        "four-jhanas/book/?collection=1&collectionReturn=worldmap-v4",
+        "four-jhanas/book/?collection=1&collectionReturn=https%3A%2F%2Fevil.invalid%2F",
+        "four-jhanas/book/?collection=1&collectionReview=1",
+        "four-jhanas/book/?collection=1&journey=game",
+        "six-senses/book/?collection=1&journey=free"
+      ],
+      "result": "denied before bookmark/completion/v1 mutation"
+    },
+    "Bare public Four Jhanas is readable and makes no collection write",
+    "Actual Four Truths Next0→5 halfway complete rejected/reload/return/resume5→28; arrival does not complete, explicit finish counts once and advances current to Five Aggregates",
+    "Historical Four Jhanas review stays available; completed Four Truths review0→5 return/resume5→28 finish returns shelf with no completed marker, reward or mainline-active change",
+    "Restore while reading revokes future eligibility and redirects without overwriting its preserved bookmark",
+    "Bare old journey mode still reads/saves its own namespace; collection and unrelated keys unchanged",
+    "Actual quota-blocked local writes keep stale canonical bytes while same-tab recovery carries explicit completion and Five Aggregates step3 across navigation/reload; successful local retry clears fallback without losing future bookmark"
+  ],
+  "javascriptErrors": [],
+  "httpErrors": []
+}
