@@ -1,4 +1,4 @@
-import * as cityArt from '../visual-v2/city-tactics.js';
+import * as cityArt from '../visual-v2/city-tactics.js?v=20261122-city-rewards';
 import {routeBooks} from '../route/selectors.js';
 import {T} from './text.js';
 
