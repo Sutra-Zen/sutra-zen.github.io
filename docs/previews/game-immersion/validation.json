@@ -1,0 +1,649 @@
+{
+  "baseline": "7e39f04a383ab98d3b747365ea3e513ad7140a0e",
+  "protectedTrackedFiles": 615,
+  "originalFourteenReadersIncludingHtml": "byte-for-byte unchanged",
+  "originalNarrationScripturePicturesAndSourceArchives": "byte-for-byte unchanged",
+  "rootHomepageSeoGoogleAndSharedReaderControls": "byte-for-byte unchanged",
+  "specification": "SutraZen_Game_Immersion_Codex_Prompt_2026-11-22.md, full224 lines read",
+  "phase": "Local review only; no publication claim",
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "titleArt": {
+    "requestedFile": "CC1A7C32-0620-4DB2-BCD2-A9457A83C259.jpeg",
+    "specifiedArtVerified": true,
+    "sha256": "fc7cb28c894890127a20fd1bb898d2448950d51be86c3b36200faa6c2ae523e9",
+    "sourceDimensions": [
+      2752,
+      1536
+    ],
+    "viewports": [
+      {
+        "viewport": [
+          1280,
+          900
+        ],
+        "naturalDimensions": [
+          2752,
+          1536
+        ],
+        "bookDownloadsBeforeBegin": 0
+      },
+      {
+        "viewport": [
+          360,
+          800
+        ],
+        "naturalDimensions": [
+          2752,
+          1536
+        ],
+        "bookDownloadsBeforeBegin": 0
+      },
+      {
+        "viewport": [
+          844,
+          390
+        ],
+        "naturalDimensions": [
+          2752,
+          1536
+        ],
+        "bookDownloadsBeforeBegin": 0
+      },
+      {
+        "viewport": [
+          768,
+          1024
+        ],
+        "naturalDimensions": [
+          2752,
+          1536
+        ],
+        "bookDownloadsBeforeBegin": 0
+      },
+      {
+        "viewport": [
+          1024,
+          768
+        ],
+        "naturalDimensions": [
+          2752,
+          1536
+        ],
+        "bookDownloadsBeforeBegin": 0
+      }
+    ],
+    "verification": "Author supplied original JPEG; no substitute artwork"
+  },
+  "physicalSafari": "Not tested; desktop Chromium input and viewport simulation only",
+  "historicalCoverage": "Prior1192-step original reader report retained; obsolete game free-reading expectations are not rewritten",
+  "nativeReading": {
+    "firstBookSteps": 29,
+    "actualSequentialNextTrace": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "reloadAndRotationAt": 5,
+    "completionOnlyAfterExplicitButton": true,
+    "nextStationReturnsMapWithoutAutostart": true,
+    "nextBook": "five-aggregates",
+    "actualReviewSteps": 29,
+    "reviewNoRewardReplayOrMainlineChange": true
+  },
+  "historyFixtures": [
+    {
+      "fixture": "future-bookmarks",
+      "retained": {
+        "version": 1,
+        "completed": [
+          "four-truths"
+        ],
+        "positions": {
+          "four-jhanas": 5,
+          "six-senses": 4
+        },
+        "activeBook": "four-jhanas"
+      },
+      "mainline": "five-aggregates"
+    },
+    {
+      "fixture": "sparse-history",
+      "retained": {
+        "version": 1,
+        "completed": [
+          "four-jhanas"
+        ],
+        "positions": {
+          "four-jhanas": 5
+        },
+        "activeBook": "four-jhanas"
+      },
+      "mainline": "four-truths"
+    },
+    {
+      "fixture": "final-bookmark-is-not-reveal",
+      "retained": {
+        "version": 1,
+        "completed": [],
+        "positions": {
+          "four-fruits-ten-fetters": 6
+        },
+        "activeBook": "four-fruits-ten-fetters"
+      },
+      "mainline": "four-truths"
+    },
+    {
+      "fixture": "historic-final-completion",
+      "retained": {
+        "version": 1,
+        "completed": [
+          "four-fruits-ten-fetters"
+        ],
+        "positions": {},
+        "activeBook": "four-truths"
+      },
+      "mainline": "four-truths"
+    },
+    {
+      "fixture": "first-thirteen",
+      "retained": {
+        "version": 1,
+        "completed": [
+          "four-truths",
+          "five-aggregates",
+          "six-senses",
+          "twelve-links",
+          "eightfold-path",
+          "four-purities-six-recollections",
+          "mindfulness",
+          "right-effort",
+          "anapana",
+          "iddhipada",
+          "four-jhanas",
+          "five-roots-powers",
+          "seven-factors"
+        ],
+        "positions": {},
+        "activeBook": "four-truths"
+      },
+      "mainline": "four-fruits-ten-fetters"
+    },
+    {
+      "fixture": "all-fourteen",
+      "retained": {
+        "version": 1,
+        "completed": [
+          "four-truths",
+          "five-aggregates",
+          "six-senses",
+          "twelve-links",
+          "eightfold-path",
+          "four-purities-six-recollections",
+          "mindfulness",
+          "right-effort",
+          "anapana",
+          "iddhipada",
+          "four-jhanas",
+          "five-roots-powers",
+          "seven-factors",
+          "four-fruits-ten-fetters"
+        ],
+        "positions": {},
+        "activeBook": "four-truths"
+      },
+      "mainline": null
+    }
+  ],
+  "entryGuards": {
+    "lockedRouteDialogNoReaderAction": true,
+    "focusRestored": true,
+    "futureOldAndGameQueriesBlocked": 4,
+    "bareOriginalReadersNativeNextUnaffected": 2
+  },
+  "viewports": [
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "shell": {
+        "w": 1280,
+        "h": 900,
+        "sw": 1280,
+        "sh": 900,
+        "y": 0,
+        "nav": [
+          {
+            "w": 211.328125,
+            "h": 55,
+            "b": 894
+          },
+          {
+            "w": 211.328125,
+            "h": 55,
+            "b": 894
+          },
+          {
+            "w": 211.328125,
+            "h": 55,
+            "b": 894
+          }
+        ]
+      },
+      "dragSuppressedClick": true,
+      "sameWorldTransform": {
+        "world": [
+          2329.599853515625,
+          1310.4000244140625
+        ],
+        "art": [
+          2329.599853515625,
+          1310.4000244140625
+        ],
+        "same": true,
+        "transform": "matrix(1.456, 0, 0, 1.456, -857.6, -418)"
+      },
+      "cameraTabAndReloadRestore": true,
+      "fit": {
+        "x": 800,
+        "y": 450,
+        "scale": 0.8,
+        "fitScale": 0.8,
+        "overview": true,
+        "restored": true,
+        "viewport": {
+          "width": 1280,
+          "height": 776
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 1.1199999999999999,
+        "offsetX": 0,
+        "offsetY": 28
+      }
+    },
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "shell": {
+        "w": 360,
+        "h": 800,
+        "sw": 360,
+        "sh": 800,
+        "y": 0,
+        "nav": [
+          {
+            "w": 106.65625,
+            "h": 55,
+            "b": 794
+          },
+          {
+            "w": 106.671875,
+            "h": 55,
+            "b": 794
+          },
+          {
+            "w": 106.65625,
+            "h": 55,
+            "b": 794
+          }
+        ]
+      },
+      "dragSuppressedClick": true,
+      "sameWorldTransform": {
+        "world": [
+          1976,
+          1111.5
+        ],
+        "art": [
+          1976,
+          1111.5
+        ],
+        "same": true,
+        "transform": "matrix(1.235, 0, 0, 1.235, -1440.32, -334.1)"
+      },
+      "cameraTabAndReloadRestore": true,
+      "fit": {
+        "x": 800,
+        "y": 450,
+        "scale": 0.225,
+        "fitScale": 0.225,
+        "overview": true,
+        "restored": true,
+        "viewport": {
+          "width": 360,
+          "height": 676
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 0.95,
+        "offsetX": 0,
+        "offsetY": 236.75
+      }
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "shell": {
+        "w": 844,
+        "h": 390,
+        "sw": 844,
+        "sh": 390,
+        "y": 0,
+        "nav": [
+          {
+            "w": 268,
+            "h": 48,
+            "b": 387
+          },
+          {
+            "w": 268,
+            "h": 48,
+            "b": 387
+          },
+          {
+            "w": 268,
+            "h": 48,
+            "b": 387
+          }
+        ]
+      },
+      "dragSuppressedClick": true,
+      "sameWorldTransform": {
+        "world": [
+          1976,
+          1111.5
+        ],
+        "art": [
+          1976,
+          1111.5
+        ],
+        "same": true,
+        "transform": "matrix(1.235, 0, 0, 1.235, -1005.4, -636.05)"
+      },
+      "cameraTabAndReloadRestore": true,
+      "fit": {
+        "x": 800,
+        "y": 450,
+        "scale": 0.31555555555555553,
+        "fitScale": 0.31555555555555553,
+        "overview": true,
+        "restored": true,
+        "viewport": {
+          "width": 844,
+          "height": 284
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 0.95,
+        "offsetX": 169.55555555555557,
+        "offsetY": 0
+      }
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "shell": {
+        "w": 768,
+        "h": 1024,
+        "sw": 768,
+        "sh": 1024,
+        "y": 0,
+        "nav": [
+          {
+            "w": 242.65625,
+            "h": 55,
+            "b": 1018
+          },
+          {
+            "w": 242.671875,
+            "h": 55,
+            "b": 1018
+          },
+          {
+            "w": 242.671875,
+            "h": 55,
+            "b": 1018
+          }
+        ]
+      },
+      "dragSuppressedClick": true,
+      "sameWorldTransform": {
+        "world": [
+          1976,
+          1111.5
+        ],
+        "art": [
+          1976,
+          1111.5
+        ],
+        "same": true,
+        "transform": "matrix(1.235, 0, 0, 1.235, -1092.8, -105.75)"
+      },
+      "cameraTabAndReloadRestore": true,
+      "fit": {
+        "x": 800,
+        "y": 450,
+        "scale": 0.48,
+        "fitScale": 0.48,
+        "overview": true,
+        "restored": true,
+        "viewport": {
+          "width": 768,
+          "height": 900
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 0.95,
+        "offsetX": 0,
+        "offsetY": 234
+      }
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "shell": {
+        "w": 1024,
+        "h": 768,
+        "sw": 1024,
+        "sh": 768,
+        "y": 0,
+        "nav": [
+          {
+            "w": 211.328125,
+            "h": 55,
+            "b": 762
+          },
+          {
+            "w": 211.328125,
+            "h": 55,
+            "b": 762
+          },
+          {
+            "w": 211.328125,
+            "h": 55,
+            "b": 762
+          }
+        ]
+      },
+      "dragSuppressedClick": true,
+      "sameWorldTransform": {
+        "world": [
+          1976,
+          1111.5
+        ],
+        "art": [
+          1976,
+          1111.5
+        ],
+        "same": true,
+        "transform": "matrix(1.235, 0, 0, 1.235, -798.4, -370.9)"
+      },
+      "cameraTabAndReloadRestore": true,
+      "fit": {
+        "x": 800,
+        "y": 450,
+        "scale": 0.64,
+        "fitScale": 0.64,
+        "overview": true,
+        "restored": true,
+        "viewport": {
+          "width": 1024,
+          "height": 644
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 0.95,
+        "offsetX": 0,
+        "offsetY": 34
+      }
+    }
+  ],
+  "simulatedPinch": {
+    "before": 0.95,
+    "after": 1.9,
+    "documentScale": 1,
+    "touchCancelWithoutEntry": true,
+    "physicalDevice": false
+  },
+  "settings": {
+    "resetCancelPreserves": true,
+    "nativeBackupAndRestore": true,
+    "invalidRestorePreserves": true,
+    "clearOnlyOwnKey": true,
+    "focusRestored": true
+  },
+  "storageFallbacks": [
+    {
+      "storage": "corrupt",
+      "warningShown": true,
+      "nativeNextStillReadable": true
+    },
+    {
+      "storage": "blocked",
+      "warningShown": true,
+      "nativeNextStillReadable": true
+    }
+  ],
+  "result": "passed",
+  "continueTitle": {
+    "existingSaveShowsContinue": true,
+    "entersMapOnly": true,
+    "futureActiveDoesNotOverrideMainline": true
+  },
+  "isolatedPreviewChecks": [
+    {
+      "path": "play/visual-v2/",
+      "storageTouches": 0,
+      "gameReadingActions": 0,
+      "originalSaveRetained": true
+    },
+    {
+      "path": "play/city/inspection.html",
+      "storageTouches": 0,
+      "gameReadingActions": 0,
+      "originalSaveRetained": true
+    }
+  ],
+  "relatedSpecialistChecks": [
+    "City rejects future bookmark/review override; guardian title and focus restore; only completed dock review.",
+    "Empty shelf has no reading controls and conceals final title.",
+    "One-book shelf exposes only completed Four Truths.",
+    "Historical out-of-order final completion remains reviewable.",
+    "390x844: city 14 points and 6 gates; complete labels/hair; shelf14reviews; no outer overflow.",
+    "844x390: city 14 points and 6 gates; complete labels/hair; shelf14reviews; no outer overflow.",
+    "768x1024: city 14 points and 6 gates; complete labels/hair; shelf14reviews; no outer overflow.",
+    "1024x768: city 14 points and 6 gates; complete labels/hair; shelf14reviews; no outer overflow.",
+    "1280x900: city 14 points and 6 gates; complete labels/hair; shelf14reviews; no outer overflow.",
+    "Developer inspection: no storage reads/writes,14 labels, no player/read controls."
+  ],
+  "reviewEntryPositions": [
+    {
+      "entry": "map",
+      "savedReviewPosition": 28,
+      "actualInitialPosition": 0,
+      "reloadAndNext": true,
+      "mainlineAndCountPreserved": true
+    },
+    {
+      "entry": "map",
+      "savedReviewPosition": 5,
+      "actualInitialPosition": 5,
+      "reloadAndNext": true,
+      "mainlineAndCountPreserved": true
+    },
+    {
+      "entry": "shelf",
+      "savedReviewPosition": 28,
+      "actualInitialPosition": 0,
+      "reloadAndNext": true,
+      "mainlineAndCountPreserved": true
+    },
+    {
+      "entry": "shelf",
+      "savedReviewPosition": 5,
+      "actualInitialPosition": 5,
+      "reloadAndNext": true,
+      "mainlineAndCountPreserved": true
+    },
+    {
+      "entry": "city",
+      "savedReviewPosition": 28,
+      "actualInitialPosition": 0,
+      "reloadAndNext": true,
+      "mainlineAndCountPreserved": true
+    },
+    {
+      "entry": "city",
+      "savedReviewPosition": 5,
+      "actualInitialPosition": 5,
+      "reloadAndNext": true,
+      "mainlineAndCountPreserved": true
+    }
+  ]
+}

@@ -1,3 +1,5 @@
+> 目前遊戲請以[沉浸式旅程與統一資格規則](game-immersion/README.md)為準。以下保留本階段的歷史設計與驗證；舊的遊戲自由選讀／任意書籤優先已移除，十四本公開原網址仍自由閱讀。
+
 # 佛法繪本旅程 v1（試做，未發布）
 
 本版從 main `b9a0dad2c2c34d7e15e6dc5e55d6125de630f57b` 開始，實作分支 `feat/picture-book-journey-v1`。正式站預定路徑 `/play/` 尚未發布；不新增首頁推廣入口、不改 Pages main 根目錄來源、不合併 main。

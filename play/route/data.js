@@ -1,5 +1,6 @@
 // Author handoff: 2026-11-22-r3 + 2026-11-22-map-v4.
-// Recommendation order is teaching design, never a prerequisite for reading.
+// The order gates the game journey under the current immersion specification.
+// It is teaching design, not a claim of attainment order; public readers remain free.
 export const ROUTE_VERSION = '2026-11-22-r3';
 export const MAP_VERSION = '2026-11-22-map-v4';
 export const routeOrder = Object.freeze([

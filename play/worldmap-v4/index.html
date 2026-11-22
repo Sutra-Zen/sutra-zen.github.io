@@ -1,8 +1,21 @@
 <!doctype html>
-<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>SutraZen 繪本旅程｜山海世界試稿</title><link rel="stylesheet" href="../visual-v2/preview.css"><link rel="stylesheet" href="../visual-v2/city-tactics.css"><link rel="stylesheet" href="worldmap.css"><link rel="stylesheet" href="../navigation.css"><script type="module" src="worldmap.js"></script></head>
-<body class="visual-proposal wm-page"><header class="proposal-header sz-game-header"><a href="./">SutraZen <span>繪本旅程</span></a><span class="proposal-stamp">試稿・未發布</span><nav aria-label="旅程導覽"><a href="../city/">六門城池</a><a href="../visual-v2/shelf.html">收集書架</a><a href="../../index.html#map-heading">原修道地圖</a></nav></header>
-<main><div class="wm-heading"><div><p class="eyebrow" id="wm-eyebrow"></p><h1 id="wm-title"></h1><p id="wm-description"></p></div><div class="wm-main-action"><span id="wm-count" aria-live="polite"></span><button class="primary" data-wm-next></button></div></div>
-<p id="wm-storage-notice" role="status" hidden></p><div class="wm-tools" aria-label="地圖操作"><div class="wm-mode" role="group" aria-label="閱讀方式"><button data-wm-mode="route" aria-pressed="true">依序旅程</button><button data-wm-mode="free" aria-pressed="false">自由選讀</button></div><button data-wm-locate>定位閱讀處</button><button data-wm-zoom>放大平移</button><button data-wm-lines aria-pressed="false">查看互通連線</button><button data-wm-labels aria-pressed="true">地名標牌</button></div>
-<section id="wm-host" aria-label="可探索的山海世界"></section><p class="wm-notes" id="wm-fog-note"></p><p class="wm-notes" id="wm-route-note"></p><section id="wm-route-strip" aria-label="十四本推薦閱讀路線"></section>
-<details class="wm-art-details"><summary id="wm-details-title"></summary><p id="wm-native-note"></p><div id="wm-detail-buttons"></div><p id="wm-figure-note"></p><a href="../../docs/play/worldmap-v4/README.md">本輪規格與試閱說明</a> · <a href="../visual-v2/?style=watercolor">保留的畫風比較</a></details>
-</main><dialog id="wm-dialog" aria-labelledby="wm-dialog-title"><button class="close-dialog" data-wm-close aria-label="關閉">×</button><div id="wm-dialog-content"></div></dialog><noscript>請啟用JavaScript探索地圖。原網站十四本繪本仍可閱讀。</noscript></body></html>
+<html lang="zh-Hant">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="robots" content="noindex,nofollow"><title>小貓的山海旅程｜SutraZen</title><link rel="stylesheet" href="/play/visual-v2/preview.css"><link rel="stylesheet" href="/play/visual-v2/city-tactics.css"><link rel="stylesheet" href="/play/worldmap-v4/worldmap.css"><link rel="stylesheet" href="/play/navigation.css"><link rel="stylesheet" href="/play/game-shell.css"><link rel="stylesheet" href="/play/title-screen.css"><script type="module" src="/play/worldmap-v4/worldmap.js"></script></head>
+<body class="visual-proposal wm-page game-shell">
+<section id="game-title-screen" class="game-title-screen" data-title-art-ready="pending" data-title-art-src="/play/assets/CC1A7C32-0620-4DB2-BCD2-A9457A83C259.jpeg" aria-labelledby="game-title-heading" hidden>
+  <img class="game-title-background" data-title-art alt="" aria-hidden="true"><div class="game-title-shade" aria-hidden="true"></div>
+  <div class="game-title-paper"><p class="game-title-brand" data-title-brand>SutraZen</p><h1 id="game-title-heading" data-title-heading>小貓的山海旅程</h1><p class="game-title-subtitle" data-title-subtitle>佛法繪本探索遊戲</p><div class="game-title-actions"><button class="game-title-start" data-title-start>開始旅程</button><button class="game-title-settings" data-title-settings>設定</button></div><p class="game-title-art-notice" data-title-art-notice role="status" hidden></p></div>
+</section>
+<main id="game-content" hidden>
+  <div class="wm-heading" hidden><p id="wm-eyebrow"></p><h2 id="wm-title"></h2><p id="wm-description"></p><span id="wm-count"></span></div>
+  <section id="wm-host" aria-label="可探索的山海世界"></section>
+  <p id="wm-storage-notice" role="status" hidden></p>
+  <div class="wm-tools" aria-label="地圖操作"><button data-wm-locate>目前關卡</button><button data-wm-overview>全圖</button><button data-wm-zoom-in aria-label="放大地圖">＋</button><button data-wm-zoom-out aria-label="縮小地圖">−</button><button data-wm-zoom hidden>放大平移</button></div>
+  <details class="wm-secondary-tools"><summary>地圖工具</summary><div class="wm-tool-menu"><button data-wm-lines aria-pressed="false">查看互通連線</button><button data-wm-labels aria-pressed="true">地名標牌</button><section id="wm-route-strip" aria-label="十四本推薦閱讀路線"></section></div></details>
+  <div class="wm-main-action"><button class="primary" data-wm-next>開始旅程</button></div>
+  <p id="wm-fog-note" hidden></p><p id="wm-route-note" hidden></p>
+  <details class="wm-art-details"><summary id="wm-details-title"></summary><p id="wm-native-note"></p><div id="wm-detail-buttons"></div><p id="wm-figure-note"></p><a href="/docs/play/worldmap-v4/README.md">本輪規格與試閱說明</a> · <a href="/play/visual-v2/?style=watercolor">保留的畫風比較</a></details>
+</main>
+<dialog id="wm-dialog" aria-labelledby="wm-dialog-title"><button class="close-dialog" data-wm-close aria-label="關閉">×</button><div id="wm-dialog-content"></div></dialog>
+<noscript>請啟用JavaScript探索地圖。<a href="/index.html#books">原網站十四本繪本仍可閱讀。</a></noscript>
+</body></html>

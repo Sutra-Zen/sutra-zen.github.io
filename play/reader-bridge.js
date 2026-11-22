@@ -1,7 +1,7 @@
 // Opt-in adapter only. Existing books, scripture and independent reading stay intact.
 const query = new URLSearchParams(location.search);
 const journeyMode = query.get('journey');
-if (journeyMode === 'ordered' || journeyMode === 'free') {
+if ((journeyMode === 'ordered' || journeyMode === 'free') && query.get('collection') !== '1') {
   initializeJourney().catch(async () => {
     const { readerLabels } = await import('./reader-labels.js');
     const warning = document.createElement('p');

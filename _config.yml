@@ -11,3 +11,4 @@ exclude:
   - docs/previews/play-visual-v2
   - docs/previews/play-worldmap-v4
   - docs/previews/play-game-release
+  - docs/previews/game-immersion

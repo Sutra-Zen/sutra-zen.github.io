@@ -1,6 +1,11 @@
 // The module is inert unless this reader was explicitly opened from collection.
 // It never reads, writes or completes the three-book v1 journey.
-if (new URLSearchParams(location.search).get('collection') === '1') {
+const collectionParams = new URLSearchParams(location.search);
+if (collectionParams.get('collection') === '1' && collectionParams.has('journey')) {
+  // A mixed old-mode URL must not bypass collection policy or run two bridges.
+  const clean = new URL(location.href); clean.searchParams.delete('journey');
+  location.replace(clean.href);
+} else if (collectionParams.get('collection') === '1') {
   initializeCollection().catch(async () => {
     const { COLLECTION_TEXT: text } = await import('./catalog.js');
     const notice = document.createElement('p');
@@ -11,15 +16,24 @@ if (new URLSearchParams(location.search).get('collection') === '1') {
 }
 
 async function initializeCollection() {
-  const [{ store }, { CATALOG, COLLECTION_TEXT: text }] = await Promise.all([
-    import('./store.js'), import('./catalog.js'),
+  const [{ store }, { CATALOG, COLLECTION_TEXT: text }, policy] = await Promise.all([
+    import('./store.js'), import('./catalog.js'), import('../route/eligibility.js'),
   ]);
   const parts = location.pathname.split('/').filter(Boolean);
   const bookId = parts[parts.indexOf('book') - 1];
   if (!CATALOG.some(book => book.id === bookId) || typeof window.showPage !== 'function') return;
-  // Avoid running two optional integrations if an edited URL contains both modes.
-  // Normal collection links contain only collection=1.
-  if (new URLSearchParams(location.search).has('journey')) return;
+  let redirecting = false;
+  const gameURL = new URL('../../game/', import.meta.url);
+  const denyEntry = () => {
+    if (redirecting) return;
+    redirecting = true;
+    const destination = new URL(gameURL);
+    destination.searchParams.set('notice', 'locked'); destination.hash = 'map';
+    location.replace(destination.href);
+  };
+  const eligible = () => policy.canReadGameBook(bookId, store.get().completed);
+  if (!eligible()) { denyEntry(); return; }
+  const reviewing = policy.canReviewGameBook(bookId, store.get().completed);
   const next = document.getElementById('next');
   const position = document.getElementById('position-text');
   if (!next || !position) return;
@@ -28,15 +42,14 @@ async function initializeCollection() {
   document.head.append(stylesheet);
   document.body.classList.add('collection-reading');
   document.body.dataset.collectionBook = bookId;
-  const requestedReturn = new URLSearchParams(location.search).get('collectionReturn');
-  const worldmapReturn = requestedReturn === 'worldmap-v4';
-  const gameReturn = requestedReturn === 'game';
-  const shelfURL = new URL(gameReturn ? '../../game/' : worldmapReturn ? '../worldmap-v4/' : '../visual-v2/shelf.html', import.meta.url);
-  const returnLabel = worldmapReturn || gameReturn ? (await import('../worldmap-v4/text.js')).T.returnJourney : text.returnShelf;
+  document.body.dataset.collectionMode = reviewing ? 'review' : 'mainline';
+  // Return hints never grant access. All game readers now share the same shell.
+  const returnURL = new URL(gameURL); returnURL.hash = reviewing ? 'shelf' : 'map';
+  const returnLabel = reviewing ? text.returnShelf : (await import('../worldmap-v4/text.js')).T.returnJourney;
   // Reuse the top-left slot; another landscape toolbar would cover narration.
   const returnLink = document.querySelector('.top > a') || document.createElement('a');
   returnLink.classList.add('collection-reader-return');
-  returnLink.href = shelfURL.href; returnLink.textContent = returnLabel;
+  returnLink.href = returnURL.href; returnLink.textContent = returnLabel;
   returnLink.setAttribute('aria-label', returnLabel);
   if (!returnLink.isConnected) document.querySelector('.top')?.prepend(returnLink);
   const readPosition = () => {
@@ -48,11 +61,13 @@ async function initializeCollection() {
   let lastSaved = -1;
   let finishing = false;
   const update = () => {
+    if (!eligible()) { denyEntry(); return; }
     const at = readPosition(); if (!at) return;
     document.body.dataset.collectionIndex = String(at.index);
     document.body.dataset.collectionTotal = String(at.total);
     if (at.index !== lastSaved && !finishing) {
-      store.savePosition(bookId, at.index); lastSaved = at.index;
+      if (!store.savePosition(bookId, at.index)) { denyEntry(); return; }
+      lastSaved = at.index;
     }
     const last = at.index === at.total - 1;
     next.classList.toggle('collection-reader-finish', last);
@@ -62,18 +77,23 @@ async function initializeCollection() {
     }
   };
   const originalShow = window.showPage;
-  window.showPage = function (...args) { originalShow(...args); update(); };
+  window.showPage = function (...args) { if (!eligible()) { denyEntry(); return; } originalShow(...args); update(); };
   // Capture at document level before original reader/restart button listeners.
   document.addEventListener('click', event => {
     if (!event.target.closest?.('#next')) return;
     const at = readPosition(); if (!at || at.index !== at.total - 1) return;
     event.preventDefault(); event.stopImmediatePropagation();
     if (finishing) return;
+    if (!eligible()) { denyEntry(); return; }
     finishing = true;
-    store.savePosition(bookId, at.index);
-    if (store.complete(bookId)) {
-      shelfURL.searchParams.set('completed', bookId); location.assign(shelfURL.href);
-    } else finishing = false;
+    if (!store.savePosition(bookId, at.index)) { finishing = false; denyEntry(); return; }
+    if (reviewing || policy.canReviewGameBook(bookId, store.get().completed)) {
+      const shelf = new URL(gameURL); shelf.hash = 'shelf';
+      location.assign(shelf.href); // No completion marker, write or reward replay.
+    } else if (policy.canCompleteGameBook(bookId, store.get().completed) && store.complete(bookId)) {
+      const next = new URL(gameURL); next.searchParams.set('completed', bookId); next.hash = 'map';
+      location.assign(next.href);
+    } else { finishing = false; denyEntry(); }
   }, true);
   new MutationObserver(update).observe(position, { childList: true, subtree: true, characterData: true });
   let warned = null;
@@ -87,9 +107,11 @@ async function initializeCollection() {
     close.addEventListener('click', () => { dialog.close(); dialog.remove(); });
     dialog.append(heading, copy, close); document.body.append(dialog); dialog.showModal();
   };
-  window.addEventListener('sutrazen:collection-progress', warn); warn();
+  window.addEventListener('sutrazen:collection-progress', () => { warn(); if (!eligible()) denyEntry(); }); warn();
   const query = new URLSearchParams(location.search);
-  const requested = query.has('collectionPage') ? Number(query.get('collectionPage')) : store.get().positions[bookId];
+  const savedPosition = store.get().positions[bookId];
+  const requested = query.has('collectionPage') ? Number(query.get('collectionPage')) :
+    reviewing && savedPosition === readPosition().total - 1 ? 0 : savedPosition;
   const at = readPosition();
   const target = Number.isInteger(requested) && requested >= 0 && requested < at.total ? requested : 0;
   if (query.has('collectionPage')) {
@@ -100,7 +122,7 @@ async function initializeCollection() {
     const step = readingSteps[target]; window.showPage(step.page, step.cue);
   } else window.showPage(target);
   Object.defineProperty(window, 'SutraZenCollectionBridge', {
-    configurable: true, get: () => ({ bookId, ...readPosition() }),
+    configurable: true, get: () => ({ bookId, ...readPosition(), mode: reviewing ? 'review' : 'mainline' }),
   });
   window.addEventListener('pagehide', () => {
     if (finishing) return;

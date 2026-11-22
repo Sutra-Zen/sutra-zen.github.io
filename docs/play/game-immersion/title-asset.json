@@ -1,0 +1,18 @@
+{
+  "sourceArchive": "docs/play/game-immersion/handoff/0封面.zip",
+  "sourceArchiveSHA256": "cea7cb75b0d0ccbb97323ededa0f71f3a65ef2342a84d307457b87ffb28e699c",
+  "originalEntry": "0σ░üΘ¥ó.jpeg",
+  "decodedOriginalFilename": "0封面.jpeg",
+  "canonicalAsset": "play/assets/CC1A7C32-0620-4DB2-BCD2-A9457A83C259.jpeg",
+  "bytes": 1561826,
+  "sha256": "fc7cb28c894890127a20fd1bb898d2448950d51be86c3b36200faa6c2ae523e9",
+  "format": "JPEG",
+  "mode": "RGB",
+  "nativeDimensions": [
+    2752,
+    1536
+  ],
+  "exifOrientation": 1,
+  "matchesZipEntryByteForByte": true,
+  "method": "Original author JPEG bytes copied unchanged to the specified runtime asset filename; not regenerated or re-encoded."
+}

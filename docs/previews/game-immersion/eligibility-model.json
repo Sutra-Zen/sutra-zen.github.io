@@ -1,0 +1,15 @@
+{
+  "policy": "strict-sequential-v1",
+  "result": "passed",
+  "checks": [
+    "existing out-of-order history, future bookmark and activeBook load unchanged, no initial writes",
+    "only earliest unfinished starts/completes across all14 prefix states; bookmarks do not grant entry",
+    "halfway/arrival never complete; formal last bookmark plus explicit eligible complete counts once",
+    "review retains completion and current mainline active target; only review bookmark changes",
+    "entry eligibility is rechecked after reset/restore while a reader is open",
+    "final title is not revealed by an old future bookmark/open metadata; historical completion remains",
+    "arbitrary legal legacy completion order is preserved on restore; no fabricated prerequisite completion",
+    "only existing collection key written; oldjourney/unrelated unchanged"
+  ],
+  "scope": "Real store and pure eligibility; no reader or camera rewrite."
+}
