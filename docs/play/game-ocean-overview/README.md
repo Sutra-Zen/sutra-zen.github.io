@@ -1,3 +1,5 @@
+> 作者後續三張截圖已改採[原圖邊界與港口徽章](../game-original-frame/README.md)，不再延伸外海或顯示半幅城景。以下保留前輪設計與驗證歷史。
+
 # 外海留白與全圖返回
 
 2026-11-22。從 main `53e8eee0db9d2465ea5f584a840649d3c73d0f8d` 建立 `feat/game-ocean-overview`，起始工作樹乾淨、origin 正確。依作者遊玩回饋延續 `/game/` 已授權發布流程；精確 merge SHA、Pages、正式站與固定 SHA ZIP 以新 PR 交付紀錄為準。

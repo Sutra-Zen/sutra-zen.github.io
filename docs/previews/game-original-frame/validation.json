@@ -1,0 +1,769 @@
+{
+  "baseline": "0971b459e5c1eab99460ba4ad3cdb75ec6ce2685",
+  "protectedTrackedFiles": 615,
+  "originalFourteenReadersIncludingHtml": "byte-for-byte unchanged",
+  "originalNarrationScripturePicturesAndSourceArchives": "byte-for-byte unchanged",
+  "rootHomepageSeoGoogleAndSharedReaderControls": "byte-for-byte unchanged",
+  "phase": "Local review only",
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "physicalSafari": "Not tested; Chromium CDP viewport/input simulation only",
+  "protectedGameData": [
+    "play/collection/store.js",
+    "play/collection/reader-bridge.js",
+    "play/reader-bridge.js",
+    "play/route",
+    "play/worldmap-v4/data.js",
+    "play/visual-v2/network-data.js",
+    "play/title-screen.js",
+    "play/title-screen.css",
+    "play/game-ui-text.js",
+    "play/assets/CC1A7C32-0620-4DB2-BCD2-A9457A83C259.jpeg"
+  ],
+  "frameChecks": [
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "initial": {
+        "art": {
+          "x": -512,
+          "y": -187,
+          "right": 1280,
+          "bottom": 821,
+          "w": 1792,
+          "h": 1008
+        },
+        "screen": [
+          1280,
+          900
+        ],
+        "dockTop": 821,
+        "mask": "none",
+        "opacity": "1",
+        "filter": "none",
+        "matte": "rgb(29, 48, 44)",
+        "overflow": [
+          1280,
+          900
+        ],
+        "nativeScroll": [
+          0,
+          0
+        ]
+      },
+      "hardEdgeNativeTraces": {
+        "left": [
+          {
+            "x": 571.4285714285714,
+            "y": 533.4821428571429,
+            "scale": 1.1199999999999999
+          },
+          {
+            "x": 571.4285714285714,
+            "y": 533.4821428571429,
+            "scale": 1.1199999999999999
+          }
+        ],
+        "right": [
+          {
+            "x": 1028.5714285714284,
+            "y": 533.4821428571429,
+            "scale": 1.1199999999999999
+          },
+          {
+            "x": 1028.5714285714284,
+            "y": 533.4821428571429,
+            "scale": 1.1199999999999999
+          }
+        ],
+        "top": [
+          {
+            "x": 1028.5714285714284,
+            "y": 366.51785714285717,
+            "scale": 1.1199999999999999
+          },
+          {
+            "x": 1028.5714285714284,
+            "y": 366.51785714285717,
+            "scale": 1.1199999999999999
+          }
+        ],
+        "bottom": [
+          {
+            "x": 1028.5714285714284,
+            "y": 533.4821428571429,
+            "scale": 1.1199999999999999
+          },
+          {
+            "x": 1028.5714285714284,
+            "y": 533.4821428571429,
+            "scale": 1.1199999999999999
+          }
+        ]
+      },
+      "fitOriginalScale": 0.8,
+      "overview": {
+        "art": {
+          "x": 0,
+          "y": 50.5,
+          "right": 1280,
+          "bottom": 770.5,
+          "w": 1280,
+          "h": 720
+        },
+        "screen": [
+          1280,
+          900
+        ],
+        "dockTop": 821,
+        "mask": "none",
+        "opacity": "1",
+        "filter": "none",
+        "matte": "rgb(29, 48, 44)",
+        "overflow": [
+          1280,
+          900
+        ],
+        "nativeScroll": [
+          0,
+          0
+        ]
+      },
+      "compactBadge": {
+        "x": 142.5859375,
+        "y": 300.5,
+        "width": 98.828125,
+        "height": 52
+      },
+      "returnExact": true,
+      "reloadRotationReturnExact": true,
+      "nativeCityEntry": true
+    },
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "initial": {
+        "art": {
+          "x": -1066.4000244140625,
+          "y": -134,
+          "right": 453.5999755859375,
+          "bottom": 721,
+          "w": 1520,
+          "h": 855
+        },
+        "screen": [
+          360,
+          800
+        ],
+        "dockTop": 721,
+        "mask": "none",
+        "opacity": "1",
+        "filter": "none",
+        "matte": "rgb(29, 48, 44)",
+        "overflow": [
+          360,
+          800
+        ],
+        "nativeScroll": [
+          0,
+          0
+        ]
+      },
+      "hardEdgeNativeTraces": {
+        "left": [
+          {
+            "x": 1046.7368421052638,
+            "y": 520.5263157894736,
+            "scale": 0.95
+          },
+          {
+            "x": 781.4736842105269,
+            "y": 520.5263157894736,
+            "scale": 0.95
+          },
+          {
+            "x": 516.21052631579,
+            "y": 520.5263157894736,
+            "scale": 0.95
+          },
+          {
+            "x": 250.94736842105317,
+            "y": 520.5263157894736,
+            "scale": 0.95
+          },
+          {
+            "x": 189.47368421052633,
+            "y": 520.5263157894736,
+            "scale": 0.95
+          },
+          {
+            "x": 189.47368421052633,
+            "y": 520.5263157894736,
+            "scale": 0.95
+          }
+        ],
+        "right": [
+          {
+            "x": 454.7368421052632,
+            "y": 520.5263157894736,
+            "scale": 0.95
+          },
+          {
+            "x": 720,
+            "y": 520.5263157894736,
+            "scale": 0.95
+          },
+          {
+            "x": 985.2631578947369,
+            "y": 520.5263157894736,
+            "scale": 0.95
+          },
+          {
+            "x": 1250.526315789473,
+            "y": 520.5263157894736,
+            "scale": 0.95
+          },
+          {
+            "x": 1410.5263157894738,
+            "y": 520.5263157894736,
+            "scale": 0.95
+          },
+          {
+            "x": 1410.5263157894738,
+            "y": 520.5263157894736,
+            "scale": 0.95
+          }
+        ],
+        "top": [
+          {
+            "x": 1410.5263157894738,
+            "y": 379.47368421052636,
+            "scale": 0.95
+          },
+          {
+            "x": 1410.5263157894738,
+            "y": 379.47368421052636,
+            "scale": 0.95
+          }
+        ],
+        "bottom": [
+          {
+            "x": 1410.5263157894738,
+            "y": 520.5263157894736,
+            "scale": 0.95
+          },
+          {
+            "x": 1410.5263157894738,
+            "y": 520.5263157894736,
+            "scale": 0.95
+          }
+        ]
+      },
+      "fitOriginalScale": 0.225,
+      "overview": {
+        "art": {
+          "x": 0,
+          "y": 259.25,
+          "right": 360,
+          "bottom": 461.75,
+          "w": 360,
+          "h": 202.5
+        },
+        "screen": [
+          360,
+          800
+        ],
+        "dockTop": 721,
+        "mask": "none",
+        "opacity": "1",
+        "filter": "none",
+        "matte": "rgb(29, 48, 44)",
+        "overflow": [
+          360,
+          800
+        ],
+        "nativeScroll": [
+          0,
+          0
+        ]
+      },
+      "compactBadge": {
+        "x": 4.585933685302734,
+        "y": 310.875,
+        "width": 98.82812881469727,
+        "height": 52
+      },
+      "returnExact": true,
+      "reloadRotationReturnExact": true,
+      "nativeCityEntry": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "initial": {
+        "art": {
+          "x": -676,
+          "y": -436.09375,
+          "right": 844,
+          "bottom": 418.90625,
+          "w": 1520,
+          "h": 855
+        },
+        "screen": [
+          844,
+          390
+        ],
+        "dockTop": 324.8125,
+        "mask": "none",
+        "opacity": "1",
+        "filter": "none",
+        "matte": "rgb(29, 48, 44)",
+        "overflow": [
+          844,
+          390
+        ],
+        "nativeScroll": [
+          0,
+          0
+        ]
+      },
+      "hardEdgeNativeTraces": {
+        "left": [
+          {
+            "x": 533.8947095369033,
+            "y": 630,
+            "scale": 0.95
+          },
+          {
+            "x": 444.2105263157895,
+            "y": 630,
+            "scale": 0.95
+          },
+          {
+            "x": 444.2105263157895,
+            "y": 630,
+            "scale": 0.95
+          }
+        ],
+        "right": [
+          {
+            "x": 1066.1052904630965,
+            "y": 630,
+            "scale": 0.95
+          },
+          {
+            "x": 1155.7894736842104,
+            "y": 630,
+            "scale": 0.95
+          },
+          {
+            "x": 1155.7894736842104,
+            "y": 630,
+            "scale": 0.95
+          }
+        ],
+        "top": [
+          {
+            "x": 1155.7894736842104,
+            "y": 424.85525833932974,
+            "scale": 0.95
+          },
+          {
+            "x": 1155.7894736842104,
+            "y": 219.7105166786596,
+            "scale": 0.95
+          },
+          {
+            "x": 1155.7894736842104,
+            "y": 170.95394736842107,
+            "scale": 0.95
+          },
+          {
+            "x": 1155.7894736842104,
+            "y": 170.95394736842107,
+            "scale": 0.95
+          }
+        ],
+        "bottom": [
+          {
+            "x": 1155.7894736842104,
+            "y": 376.09868902909125,
+            "scale": 0.95
+          },
+          {
+            "x": 1155.7894736842104,
+            "y": 581.2434306897615,
+            "scale": 0.95
+          },
+          {
+            "x": 1155.7894736842104,
+            "y": 729.046052631579,
+            "scale": 0.95
+          },
+          {
+            "x": 1155.7894736842104,
+            "y": 729.046052631579,
+            "scale": 0.95
+          }
+        ]
+      },
+      "fitOriginalScale": 0.3609027777777778,
+      "overview": {
+        "art": {
+          "x": 133.27777099609375,
+          "y": 0,
+          "right": 710.7222290039062,
+          "bottom": 324.8125,
+          "w": 577.4444580078125,
+          "h": 324.8125
+        },
+        "screen": [
+          844,
+          390
+        ],
+        "dockTop": 324.8125,
+        "mask": "none",
+        "opacity": "1",
+        "filter": "none",
+        "matte": "rgb(29, 48, 44)",
+        "overflow": [
+          844,
+          390
+        ],
+        "nativeScroll": [
+          0,
+          0
+        ]
+      },
+      "compactBadge": {
+        "x": 170.48037719726562,
+        "y": 98.51145935058594,
+        "width": 98.828125,
+        "height": 52
+      },
+      "returnExact": true,
+      "reloadRotationReturnExact": true,
+      "nativeCityEntry": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "initial": {
+        "art": {
+          "x": -912,
+          "y": 0,
+          "right": 767.9998779296875,
+          "bottom": 944.9999389648438,
+          "w": 1679.9998779296875,
+          "h": 944.9999389648438
+        },
+        "screen": [
+          768,
+          1024
+        ],
+        "dockTop": 945,
+        "mask": "none",
+        "opacity": "1",
+        "filter": "none",
+        "matte": "rgb(29, 48, 44)",
+        "overflow": [
+          768,
+          1024
+        ],
+        "nativeScroll": [
+          0,
+          0
+        ]
+      },
+      "hardEdgeNativeTraces": {
+        "left": [
+          {
+            "x": 722.2857230050222,
+            "y": 450,
+            "scale": 1.05
+          },
+          {
+            "x": 365.7142857142857,
+            "y": 450,
+            "scale": 1.05
+          },
+          {
+            "x": 365.7142857142857,
+            "y": 450,
+            "scale": 1.05
+          }
+        ],
+        "right": [
+          {
+            "x": 877.7142769949778,
+            "y": 450,
+            "scale": 1.05
+          },
+          {
+            "x": 1234.2857142857142,
+            "y": 450,
+            "scale": 1.05
+          },
+          {
+            "x": 1234.2857142857142,
+            "y": 450,
+            "scale": 1.05
+          }
+        ],
+        "top": [
+          {
+            "x": 1234.2857142857142,
+            "y": 450,
+            "scale": 1.05
+          }
+        ],
+        "bottom": [
+          {
+            "x": 1234.2857142857142,
+            "y": 450,
+            "scale": 1.05
+          }
+        ]
+      },
+      "fitOriginalScale": 0.48,
+      "overview": {
+        "art": {
+          "x": 0,
+          "y": 256.5,
+          "right": 768,
+          "bottom": 688.5,
+          "w": 768,
+          "h": 432
+        },
+        "screen": [
+          768,
+          1024
+        ],
+        "dockTop": 945,
+        "mask": "none",
+        "opacity": "1",
+        "filter": "none",
+        "matte": "rgb(29, 48, 44)",
+        "overflow": [
+          768,
+          1024
+        ],
+        "nativeScroll": [
+          0,
+          0
+        ]
+      },
+      "compactBadge": {
+        "x": 65.78594207763672,
+        "y": 396.1000061035156,
+        "width": 98.82813262939453,
+        "height": 52
+      },
+      "returnExact": true,
+      "reloadRotationReturnExact": true,
+      "nativeCityEntry": true
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "initial": {
+        "art": {
+          "x": -496,
+          "y": -166,
+          "right": 1024,
+          "bottom": 689,
+          "w": 1520,
+          "h": 855
+        },
+        "screen": [
+          1024,
+          768
+        ],
+        "dockTop": 689,
+        "mask": "none",
+        "opacity": "1",
+        "filter": "none",
+        "matte": "rgb(29, 48, 44)",
+        "overflow": [
+          1024,
+          768
+        ],
+        "nativeScroll": [
+          0,
+          0
+        ]
+      },
+      "hardEdgeNativeTraces": {
+        "left": [
+          {
+            "x": 538.9473684210526,
+            "y": 537.3684210526316,
+            "scale": 0.95
+          },
+          {
+            "x": 538.9473684210526,
+            "y": 537.3684210526316,
+            "scale": 0.95
+          }
+        ],
+        "right": [
+          {
+            "x": 1061.0526315789475,
+            "y": 537.3684210526316,
+            "scale": 0.95
+          },
+          {
+            "x": 1061.0526315789475,
+            "y": 537.3684210526316,
+            "scale": 0.95
+          }
+        ],
+        "top": [
+          {
+            "x": 1061.0526315789475,
+            "y": 362.63157894736844,
+            "scale": 0.95
+          },
+          {
+            "x": 1061.0526315789475,
+            "y": 362.63157894736844,
+            "scale": 0.95
+          }
+        ],
+        "bottom": [
+          {
+            "x": 1061.0526315789475,
+            "y": 537.3684210526316,
+            "scale": 0.95
+          },
+          {
+            "x": 1061.0526315789475,
+            "y": 537.3684210526316,
+            "scale": 0.95
+          }
+        ]
+      },
+      "fitOriginalScale": 0.64,
+      "overview": {
+        "art": {
+          "x": 0,
+          "y": 56.5,
+          "right": 1024,
+          "bottom": 632.5,
+          "w": 1024,
+          "h": 576
+        },
+        "screen": [
+          1024,
+          768
+        ],
+        "dockTop": 689,
+        "mask": "none",
+        "opacity": "1",
+        "filter": "none",
+        "matte": "rgb(29, 48, 44)",
+        "overflow": [
+          1024,
+          768
+        ],
+        "nativeScroll": [
+          0,
+          0
+        ]
+      },
+      "compactBadge": {
+        "x": 104.1859359741211,
+        "y": 251.3000030517578,
+        "width": 98.82811737060547,
+        "height": 51.99998474121094
+      },
+      "returnExact": true,
+      "reloadRotationReturnExact": true,
+      "nativeCityEntry": true
+    }
+  ],
+  "oldCameraClamps": [
+    {
+      "case": "legacy-v1-low-scale",
+      "safeOriginalCover": {
+        "art": {
+          "x": 0,
+          "y": 0,
+          "right": 1281.7777099609375,
+          "bottom": 721,
+          "w": 1281.7777099609375,
+          "h": 721
+        },
+        "screen": [
+          360,
+          800
+        ],
+        "dockTop": 721,
+        "mask": "none",
+        "opacity": "1",
+        "filter": "none",
+        "matte": "rgb(29, 48, 44)",
+        "overflow": [
+          360,
+          800
+        ],
+        "nativeScroll": [
+          0,
+          0
+        ]
+      },
+      "readingSaveUnchanged": true
+    },
+    {
+      "case": "old-padded-return",
+      "safeOriginalCover": {
+        "art": {
+          "x": -1400,
+          "y": -269,
+          "right": 360,
+          "bottom": 721,
+          "w": 1760,
+          "h": 990
+        },
+        "screen": [
+          360,
+          800
+        ],
+        "dockTop": 721,
+        "mask": "none",
+        "opacity": "1",
+        "filter": "none",
+        "matte": "rgb(29, 48, 44)",
+        "overflow": [
+          360,
+          800
+        ],
+        "nativeScroll": [
+          0,
+          0
+        ]
+      },
+      "readingSaveUnchanged": true
+    }
+  ],
+  "readerAndPinch": {
+    "normalViewBadgeNativeCityRoundTrip": true,
+    "nativePinchOutStopsAtCover": true,
+    "documentScaleUnchanged": true,
+    "actualNextClicks": 2,
+    "reloadRotationAndReturnAtPage3": true,
+    "completionStillZero": true,
+    "futureDirectBookLocked": true
+  },
+  "result": "passed"
+}

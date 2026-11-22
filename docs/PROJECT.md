@@ -6,6 +6,10 @@
 - Related Buddhist learning map: https://sutrazen.netlify.app/map.html
 - Primary language: Traditional Chinese (Taiwan)
 
+## Current original-frame camera and harbor badge (2026-11-22)
+
+Author's three-screen follow-up replaces the outer-ocean layout: [original-frame handoff](play/game-original-frame/README.md). Exploration covers the readable area with the original1600×900 map and clamps its edges; only the dock-covered strip has a blue backing. Overview fits the original image with neutral matte letterboxing and retains return snapshots. The pasted half-city scene becomes a compact port-side city UI badge. Original art/data/progress and Pages main:/ are unchanged; thirteen QA directories are excluded from deployment. Exact release status belongs to the new PR's Pages/live evidence; physical Safari is untested.
+
 ## Current outer ocean and overview return (2026-11-22)
 
 Latest game follow-up: [outer ocean / overview handoff](play/game-ocean-overview/README.md). Original 1600×900 geography and all anchors remain unchanged, with an outer-sea display frame and camera-safe dock inset. Overview fits the enlarged frame and offers a visible return arrow restoring the previous camera; old camera/session and reading progress remain compatible. Twelve QA evidence directories are excluded from Pages only. Exact publication status is recorded by the new PR's merge-SHA Pages/live checks; physical Safari remains untested.

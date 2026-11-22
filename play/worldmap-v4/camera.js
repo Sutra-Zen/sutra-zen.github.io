@@ -9,7 +9,7 @@ const validView = value => value && finite(value.x) && finite(value.y) &&
   finite(value.scale) && value.scale > 0 && value.scale <= 20;
 
 function layoutFor(viewport, world, settings = {}) {
-  const padding = edges(settings.outerPadding), insets = edges(settings.safeInsets);
+  const insets = edges(settings.safeInsets);
   // Leave one usable CSS pixel even when an overlay is temporarily larger than
   // a very short viewport. Insets never change the original world coordinates.
   const horizontal = Math.min(1, Math.max(0, viewport.width - 1) / Math.max(1, insets.left + insets.right));
@@ -21,15 +21,19 @@ function layoutFor(viewport, world, settings = {}) {
     height: Math.max(1, viewport.height - insets.top - insets.bottom)};
   visible.right = visible.left + visible.width; visible.bottom = visible.top + visible.height;
   visible.centerX = visible.left + visible.width / 2; visible.centerY = visible.top + visible.height / 2;
-  const bounds = {left: -padding.left, top: -padding.top, right: world.width + padding.right,
-    bottom: world.height + padding.bottom, width: world.width + padding.left + padding.right,
-    height: world.height + padding.top + padding.bottom};
-  return {visible, bounds, insets, fitScale: Math.min(visible.width / bounds.width, visible.height / bounds.height)};
+  const bounds = {left: 0, top: 0, right: world.width, bottom: world.height,
+    width: world.width, height: world.height};
+  return {visible, bounds, insets,
+    fitScale: Math.min(visible.width / bounds.width, visible.height / bounds.height),
+    coverScale: Math.max(visible.width / bounds.width, visible.height / bounds.height)};
 }
 
 export function constrainCamera(state, viewport, world, maxScale = 2.5, settings = {}) {
-  const {visible, bounds, fitScale} = layoutFor(viewport, world, settings);
-  const scale = clamp(state.scale, fitScale, Math.max(fitScale, maxScale));
+  const {visible, bounds, fitScale, coverScale} = layoutFor(viewport, world, settings);
+  // Only an explicit full-image overview may letterbox. Exploration always
+  // covers the usable viewport and stops at the original illustration frame.
+  const minimum = settings.overviewExplicit ? fitScale : coverScale;
+  const scale = clamp(state.scale, minimum, Math.max(coverScale, maxScale));
   const halfWidth = visible.width / (2 * scale), halfHeight = visible.height / (2 * scale);
   return {
     x: halfWidth >= bounds.width / 2 ? (bounds.left + bounds.right) / 2 :
@@ -45,12 +49,11 @@ export function createMapCamera(viewport, worldElement, options = {}) {
   const initial = options.initialCenter || {x: world.width / 2, y: world.height / 2};
   const initialScale = options.initialScale || .95, maxScale = options.maxScale || 2.5;
   const key = options.storageKey || 'sutrazen.play.camera.v1';
-  const outerPadding = edges(options.outerPadding);
   const saved = readSaved();
   let state = saved ? {x: saved.x, y: saved.y, scale: saved.scale} : {x: initial.x, y: initial.y, scale: initialScale};
   let returnView = saved?.returnView || null, overviewExplicit = Boolean(saved?.overviewExplicit);
   let size = {width: 0, height: 0}, destroyed = false, saveTimer = null;
-  let layout = layoutFor(size, world, {outerPadding});
+  let layout = layoutFor(size, world);
   let pointers = new Map(), gesture = null, suppressClick = false, suppressUntil = 0;
   const listeners = [];
   const original = {transform: worldElement.style.transform, transformOrigin: worldElement.style.transformOrigin,
@@ -81,14 +84,15 @@ export function createMapCamera(viewport, worldElement, options = {}) {
   }
   function schedulePersist() { clearTimeout(saveTimer); saveTimer = setTimeout(persist, 100); }
   function fitScale() { return size.width && size.height ? layout.fitScale : 0; }
-  function focusScale() { return Math.min(maxScale, Math.max(initialScale, fitScale() * 1.4)); }
+  function coverScale() { return size.width && size.height ? layout.coverScale : 0; }
+  function focusScale() { return Math.max(coverScale(), Math.min(maxScale, Math.max(initialScale, fitScale() * 1.4))); }
   function fitView() {
     return {x: (layout.bounds.left + layout.bounds.right) / 2,
       y: (layout.bounds.top + layout.bounds.bottom) / 2, scale: fitScale() || initialScale};
   }
   function getState() {
-    const fit = fitScale(), overview = state.scale < .65 || (fit > 0 && state.scale <= fit * 1.08);
-    return {...state, fitScale: fit, overview, restored: Boolean(saved),
+    const fit = fitScale(), overview = overviewExplicit;
+    return {...state, fitScale: fit, coverScale: coverScale(), overview, restored: Boolean(saved),
       viewport: {...size}, world: {...world}, defaultFocusScale: focusScale(),
       outerBounds: {...layout.bounds}, safeInsets: {...layout.insets}, visibleViewport: {...layout.visible},
       canReturn: Boolean(returnView), overviewExplicit,
@@ -97,7 +101,7 @@ export function createMapCamera(viewport, worldElement, options = {}) {
   }
   function apply(reason = 'change') {
     if (destroyed || !size.width || !size.height) return getState();
-    state = constrainCamera(state, size, world, maxScale, {outerPadding, safeInsets: layout.insets});
+    state = constrainCamera(state, size, world, maxScale, {safeInsets: layout.insets, overviewExplicit});
     const snapshot = getState();
     worldElement.style.transform = `translate(${snapshot.offsetX}px, ${snapshot.offsetY}px) scale(${state.scale})`;
     worldElement.style.setProperty('--wm-camera-scale', String(state.scale));
@@ -121,7 +125,7 @@ export function createMapCamera(viewport, worldElement, options = {}) {
     let safeInsets = options.safeInsets;
     try { if (typeof options.getInsets === 'function') safeInsets = options.getInsets(); }
     catch (_) { /* A missing overlay measurement must not block the map. */ }
-    layout = layoutFor(size, world, {outerPadding, safeInsets});
+    layout = layoutFor(size, world, {safeInsets});
     if (firstVisible && !saved) state.scale = focusScale();
     if (overviewExplicit) state = fitView();
     return apply('resize');
@@ -140,8 +144,9 @@ export function createMapCamera(viewport, worldElement, options = {}) {
   }
   function zoomBy(factor, point = {x: layout.visible.centerX, y: layout.visible.centerY}) {
     if (!finite(factor) || factor <= 0 || !size.width || !size.height) return getState();
+    if (overviewExplicit && factor <= 1) return apply('zoom');
     const anchor = viewportToWorld(point);
-    const scale = clamp(state.scale * factor, fitScale(), Math.max(fitScale(), maxScale));
+    const scale = clamp(state.scale * factor, coverScale(), Math.max(coverScale(), maxScale));
     state = {x: anchor.x + (layout.visible.centerX - point.x) / scale,
       y: anchor.y + (layout.visible.centerY - point.y) / scale, scale};
     overviewExplicit = false;
@@ -193,21 +198,27 @@ export function createMapCamera(viewport, worldElement, options = {}) {
       if (gesture.type !== 'pinch') startGesture();
       const [a,b] = [...pointers.values()];
       const middle = {x: (a.x + b.x) / 2, y: (a.y + b.y) / 2};
-      const scale = clamp(gesture.scale * Math.hypot(a.x-b.x,a.y-b.y) / gesture.distance,
-        fitScale(), Math.max(fitScale(), maxScale));
-      state = {x: gesture.anchor.x + (layout.visible.centerX - middle.x) / scale,
-        y: gesture.anchor.y + (layout.visible.centerY - middle.y) / scale, scale};
-      overviewExplicit = false;
+      const distance = Math.max(1, Math.hypot(a.x-b.x,a.y-b.y));
+      const desired = gesture.scale * distance / gesture.distance;
+      if (overviewExplicit && desired <= fitScale()) state = fitView();
+      else {
+        const scale = clamp(desired, coverScale(), Math.max(coverScale(), maxScale));
+        state = {x: gesture.anchor.x + (layout.visible.centerX - middle.x) / scale,
+          y: gesture.anchor.y + (layout.visible.centerY - middle.y) / scale, scale};
+        overviewExplicit = false;
+      }
       blockGestureClick(); event.preventDefault(); apply('pinch');
+      // Consume clamped movement so reversing at an edge responds immediately.
+      gesture.scale = state.scale; gesture.distance = distance; gesture.anchor = viewportToWorld(middle);
     } else {
       const point = pointers.values().next().value;
       const dx = point.x - gesture.start.x, dy = point.y - gesture.start.y;
       if (!gesture.moved && Math.hypot(dx,dy) <= 6) return;
       gesture.moved = true; capture(event.pointerId); blockGestureClick();
-      overviewExplicit = false;
       state = {x: gesture.camera.x - dx / gesture.camera.scale,
         y: gesture.camera.y - dy / gesture.camera.scale, scale: gesture.camera.scale};
       event.preventDefault(); apply('drag');
+      gesture.start = {...point}; gesture.camera = {...state};
     }
   }
   function pointerEnd(event) {
@@ -246,7 +257,6 @@ export function createMapCamera(viewport, worldElement, options = {}) {
     const distance = event.shiftKey ? 100 : 45;
     if (['ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(event.key)) {
       event.preventDefault();
-      overviewExplicit = false;
       if (event.key==='ArrowLeft') state.x-=distance/state.scale;
       if (event.key==='ArrowRight') state.x+=distance/state.scale;
       if (event.key==='ArrowUp') state.y-=distance/state.scale;

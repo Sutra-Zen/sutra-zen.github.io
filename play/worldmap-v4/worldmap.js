@@ -4,12 +4,11 @@ import {canStartGameBook,canReviewGameBook,getGameBookAccess} from '../route/eli
 import {routeMetadata} from '../route/metadata.js';
 import {initializeGameShell,GAME_URLS} from '../game-shell.js';
 import {initializeTitleScreen} from '../title-screen.js?v=title-brand-2';
-import {createMapCamera} from './camera.js?v=ocean-return-1';
-import {OCEAN_PADDING,renderOuterOcean} from './ocean-frame.js?v=ocean-return-1';
-import {renderHarborCastle,HARBOR_CASTLE_GEOMETRY} from './harbor-castle.js';
+import {createMapCamera} from './camera.js?v=original-frame-1';
+import {renderHarborCastle,HARBOR_CASTLE_GEOMETRY} from './harbor-castle.js?v=original-frame-1';
 import {compactCompletionFeedback} from './completion-feedback.js';
 import {WORLD,LANDMARKS,MEMBERS,NODES,EDGES,GEOGRAPHIC_ROAD,MAP_CONNECTIONS,conceptAnchor,sourceGroupAnchor,PRIMARY_BOOK_LANDMARK} from './data.js';
-import {T} from './text.js?v=ocean-return-1';
+import {T} from './text.js?v=original-frame-1';
 
 const $=s=>document.querySelector(s);
 const books=new Map(routeBooks.map(b=>[b.id,b]));
@@ -35,8 +34,7 @@ function updateOverviewControls(state){
 function returnToExploration(){if(!camera)return;if(camera.getState().canReturn){camera.returnFromOverview();return;}const l=landmarkFor(currentBook()?.id||'four-truths');selected=l.id;camera.focus({x:l.x,y:l.y});render();}
 function toggleOverview(){if(!camera)return;const s=camera.getState();if(s.canReturn||s.overview)returnToExploration();else camera.fit();}
 function mapInsets(){
- const style=getComputedStyle($('.wm-viewport')),safe=side=>parseFloat(style.getPropertyValue('--wm-safe-'+side))||0;
- return {top:safe('top')+16,left:safe('left')+16,right:safe('right')+16,bottom:$('.game-dock').getBoundingClientRect().height+16};
+ return {top:0,left:0,right:0,bottom:$('.game-dock').getBoundingClientRect().height};
 }
 const landmarkFor=id=>LANDMARKS.find(l=>l.id===PRIMARY_BOOK_LANDMARK[id]);
 const revealed=(l,s)=>l.bookId!=='four-fruits-ten-fetters'||s.finalChapterRevealed;
@@ -57,7 +55,7 @@ function sourceLines(){
 function mountWorld(){
  const marks=LANDMARKS.map(l=>'<button class="wm-landmark '+(l.type==='scroll'?'is-scroll':'')+'" data-wm-landmark="'+l.id+'" data-landmark="'+l.id+'" data-book="'+(l.bookId||'')+'" data-concept="'+l.conceptId+'" style="--x:'+l.x+'px;--y:'+l.y+'px"><span class="wm-pin" aria-hidden="true"></span><span class="wm-label"></span><span class="wm-status-chip"></span></button>').join('');
  const regions=T.regions.map((r,i)=>'<button class="wm-region" data-wm-region="'+i+'" style="--x:'+r.x+'px;--y:'+r.y+'px">'+escape(r.title)+'</button>').join('');
- $('#wm-host').innerHTML='<div class="wm-viewport" tabindex="0" aria-label="'+T.cameraLabel+'"><div class="wm-world" data-world-size="1600x900">'+renderOuterOcean(asset('assets/worldmap-master-concept.png'))+'<img class="wm-background" src="'+asset('assets/worldmap-master-concept.png')+'" width="1600" height="900" alt="'+T.worldAlt+'"><svg class="wm-geography" viewBox="0 0 1600 900" aria-hidden="true"></svg><div class="wm-fog-layer"></div><svg class="wm-lines" viewBox="0 0 1600 900" aria-hidden="true"></svg>'+marks+regions+'<img class="wm-traveler" src="'+new URL('../visual-v2/assets/kitten-rowboat-concept.png',import.meta.url).href+'" alt="'+T.travelerAlt+'">'+renderHarborCastle({label:T.cityTab,ariaLabel:T.enterCity})+'</div><div class="wm-load-state" role="status">'+T.loadingMap+'</div></div>';
+ $('#wm-host').innerHTML='<div class="wm-viewport" tabindex="0" aria-label="'+T.cameraLabel+'"><div class="wm-world" data-world-size="1600x900"><img class="wm-background" src="'+asset('assets/worldmap-master-concept.png')+'" width="1600" height="900" alt="'+T.worldAlt+'"><svg class="wm-geography" viewBox="0 0 1600 900" aria-hidden="true"></svg><div class="wm-fog-layer"></div><svg class="wm-lines" viewBox="0 0 1600 900" aria-hidden="true"></svg>'+marks+regions+'<img class="wm-traveler" src="'+new URL('../visual-v2/assets/kitten-rowboat-concept.png',import.meta.url).href+'" alt="'+T.travelerAlt+'">'+renderHarborCastle({label:T.cityTab,ariaLabel:T.enterCity})+'</div><div class="wm-load-state" role="status">'+T.loadingMap+'</div></div>';
  const image=$('.wm-background'),loading=$('.wm-load-state');
  const loaded=()=>{loading.hidden=true;};
  image.addEventListener('load',loaded);
@@ -141,7 +139,7 @@ function activateMap(){
  if(active){camera?.refresh();return;}
  active=true;mountWorld();render();
  const book=currentBook(),l=book?landmarkFor(book.id):landmarkFor('four-truths');
- camera=createMapCamera($('.wm-viewport'),$('.wm-world'),{width:WORLD.width,height:WORLD.height,initialCenter:{x:l.x,y:l.y},outerPadding:OCEAN_PADDING,getInsets:mapInsets,onChange:updateOverviewControls});
+ camera=createMapCamera($('.wm-viewport'),$('.wm-world'),{width:WORLD.width,height:WORLD.height,initialCenter:{x:l.x,y:l.y},getInsets:mapInsets,onChange:updateOverviewControls});
  const dockObserver=new ResizeObserver(()=>camera.refresh());dockObserver.observe($('.game-dock'));
  $('.wm-viewport').addEventListener('focusin',event=>{
   const target=event.target.closest('.wm-landmark,.wm-harbor-castle__entry');

@@ -1,0 +1,1526 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "originalBoundsEdges": [
+        {
+          "requested": [
+            -10000,
+            -10000
+          ],
+          "view": {
+            "x": 133.33333333333331,
+            "y": 266.66666666666663,
+            "scale": 1.35,
+            "fitScale": 0.225,
+            "coverScale": 0.8,
+            "overview": false,
+            "restored": false,
+            "viewport": {
+              "width": 360,
+              "height": 800
+            },
+            "world": {
+              "width": 1600,
+              "height": 900
+            },
+            "defaultFocusScale": 1.35,
+            "outerBounds": {
+              "left": 0,
+              "top": 0,
+              "right": 1600,
+              "bottom": 900,
+              "width": 1600,
+              "height": 900
+            },
+            "safeInsets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 80,
+              "left": 0
+            },
+            "visibleViewport": {
+              "left": 0,
+              "top": 0,
+              "width": 360,
+              "height": 720,
+              "right": 360,
+              "bottom": 720,
+              "centerX": 180,
+              "centerY": 360
+            },
+            "canReturn": false,
+            "overviewExplicit": false,
+            "offsetX": 0,
+            "offsetY": 0
+          },
+          "frame": {
+            "x": 0,
+            "y": 0,
+            "right": 2160,
+            "bottom": 1215
+          }
+        },
+        {
+          "requested": [
+            10000,
+            -10000
+          ],
+          "view": {
+            "x": 1466.6666666666667,
+            "y": 266.66666666666663,
+            "scale": 1.35,
+            "fitScale": 0.225,
+            "coverScale": 0.8,
+            "overview": false,
+            "restored": false,
+            "viewport": {
+              "width": 360,
+              "height": 800
+            },
+            "world": {
+              "width": 1600,
+              "height": 900
+            },
+            "defaultFocusScale": 1.35,
+            "outerBounds": {
+              "left": 0,
+              "top": 0,
+              "right": 1600,
+              "bottom": 900,
+              "width": 1600,
+              "height": 900
+            },
+            "safeInsets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 80,
+              "left": 0
+            },
+            "visibleViewport": {
+              "left": 0,
+              "top": 0,
+              "width": 360,
+              "height": 720,
+              "right": 360,
+              "bottom": 720,
+              "centerX": 180,
+              "centerY": 360
+            },
+            "canReturn": false,
+            "overviewExplicit": false,
+            "offsetX": -1800.0000000000002,
+            "offsetY": 0
+          },
+          "frame": {
+            "x": -1800,
+            "y": 0,
+            "right": 360,
+            "bottom": 1215
+          }
+        },
+        {
+          "requested": [
+            -10000,
+            10000
+          ],
+          "view": {
+            "x": 133.33333333333331,
+            "y": 633.3333333333334,
+            "scale": 1.35,
+            "fitScale": 0.225,
+            "coverScale": 0.8,
+            "overview": false,
+            "restored": false,
+            "viewport": {
+              "width": 360,
+              "height": 800
+            },
+            "world": {
+              "width": 1600,
+              "height": 900
+            },
+            "defaultFocusScale": 1.35,
+            "outerBounds": {
+              "left": 0,
+              "top": 0,
+              "right": 1600,
+              "bottom": 900,
+              "width": 1600,
+              "height": 900
+            },
+            "safeInsets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 80,
+              "left": 0
+            },
+            "visibleViewport": {
+              "left": 0,
+              "top": 0,
+              "width": 360,
+              "height": 720,
+              "right": 360,
+              "bottom": 720,
+              "centerX": 180,
+              "centerY": 360
+            },
+            "canReturn": false,
+            "overviewExplicit": false,
+            "offsetX": 0,
+            "offsetY": -495.0000000000001
+          },
+          "frame": {
+            "x": 0,
+            "y": -495,
+            "right": 2160,
+            "bottom": 720
+          }
+        },
+        {
+          "requested": [
+            10000,
+            10000
+          ],
+          "view": {
+            "x": 1466.6666666666667,
+            "y": 633.3333333333334,
+            "scale": 1.35,
+            "fitScale": 0.225,
+            "coverScale": 0.8,
+            "overview": false,
+            "restored": false,
+            "viewport": {
+              "width": 360,
+              "height": 800
+            },
+            "world": {
+              "width": 1600,
+              "height": 900
+            },
+            "defaultFocusScale": 1.35,
+            "outerBounds": {
+              "left": 0,
+              "top": 0,
+              "right": 1600,
+              "bottom": 900,
+              "width": 1600,
+              "height": 900
+            },
+            "safeInsets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 80,
+              "left": 0
+            },
+            "visibleViewport": {
+              "left": 0,
+              "top": 0,
+              "width": 360,
+              "height": 720,
+              "right": 360,
+              "bottom": 720,
+              "centerX": 180,
+              "centerY": 360
+            },
+            "canReturn": false,
+            "overviewExplicit": false,
+            "offsetX": -1800.0000000000002,
+            "offsetY": -495.0000000000001
+          },
+          "frame": {
+            "x": -1800,
+            "y": -495,
+            "right": 360,
+            "bottom": 720
+          }
+        }
+      ],
+      "minusAndNativePinchOutBoundedByCover": true,
+      "shortLandscapeShowsLandmarks": true,
+      "overviewOriginalImageFullyVisible": true,
+      "overviewDragDoesNotJump": true,
+      "returnExact": true,
+      "reloadReturnExact": true,
+      "rotationRoundTripReturnExact": true,
+      "destroyRecreateReturnExact": true,
+      "dynamicDockRefit": true,
+      "edgeReverseImmediatelyCssPx": {
+        "horizontal": 20,
+        "vertical": 20
+      },
+      "nativeLabelDragPx": 70,
+      "nativePinchMidpointAnchored": true,
+      "nativeTapAfterDragPinchCancel": true,
+      "progressKeyUntouched": true,
+      "fitted": {
+        "x": 800,
+        "y": 450,
+        "scale": 0.225,
+        "fitScale": 0.225,
+        "coverScale": 0.8,
+        "overview": true,
+        "restored": false,
+        "viewport": {
+          "width": 360,
+          "height": 800
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 1.35,
+        "outerBounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1600,
+          "bottom": 900,
+          "width": 1600,
+          "height": 900
+        },
+        "safeInsets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 80,
+          "left": 0
+        },
+        "visibleViewport": {
+          "left": 0,
+          "top": 0,
+          "width": 360,
+          "height": 720,
+          "right": 360,
+          "bottom": 720,
+          "centerX": 180,
+          "centerY": 360
+        },
+        "canReturn": true,
+        "overviewExplicit": true,
+        "offsetX": 0,
+        "offsetY": 258.75
+      }
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "originalBoundsEdges": [
+        {
+          "requested": [
+            -10000,
+            -10000
+          ],
+          "view": {
+            "x": 312.59259259259255,
+            "y": 114.81481481481481,
+            "scale": 1.35,
+            "fitScale": 0.34444444444444444,
+            "coverScale": 0.5275,
+            "overview": false,
+            "restored": false,
+            "viewport": {
+              "width": 844,
+              "height": 390
+            },
+            "world": {
+              "width": 1600,
+              "height": 900
+            },
+            "defaultFocusScale": 1.35,
+            "outerBounds": {
+              "left": 0,
+              "top": 0,
+              "right": 1600,
+              "bottom": 900,
+              "width": 1600,
+              "height": 900
+            },
+            "safeInsets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 80,
+              "left": 0
+            },
+            "visibleViewport": {
+              "left": 0,
+              "top": 0,
+              "width": 844,
+              "height": 310,
+              "right": 844,
+              "bottom": 310,
+              "centerX": 422,
+              "centerY": 155
+            },
+            "canReturn": false,
+            "overviewExplicit": false,
+            "offsetX": 0,
+            "offsetY": 0
+          },
+          "frame": {
+            "x": 0,
+            "y": 0,
+            "right": 2160,
+            "bottom": 1215
+          }
+        },
+        {
+          "requested": [
+            10000,
+            -10000
+          ],
+          "view": {
+            "x": 1287.4074074074074,
+            "y": 114.81481481481481,
+            "scale": 1.35,
+            "fitScale": 0.34444444444444444,
+            "coverScale": 0.5275,
+            "overview": false,
+            "restored": false,
+            "viewport": {
+              "width": 844,
+              "height": 390
+            },
+            "world": {
+              "width": 1600,
+              "height": 900
+            },
+            "defaultFocusScale": 1.35,
+            "outerBounds": {
+              "left": 0,
+              "top": 0,
+              "right": 1600,
+              "bottom": 900,
+              "width": 1600,
+              "height": 900
+            },
+            "safeInsets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 80,
+              "left": 0
+            },
+            "visibleViewport": {
+              "left": 0,
+              "top": 0,
+              "width": 844,
+              "height": 310,
+              "right": 844,
+              "bottom": 310,
+              "centerX": 422,
+              "centerY": 155
+            },
+            "canReturn": false,
+            "overviewExplicit": false,
+            "offsetX": -1316,
+            "offsetY": 0
+          },
+          "frame": {
+            "x": -1316,
+            "y": 0,
+            "right": 844,
+            "bottom": 1215
+          }
+        },
+        {
+          "requested": [
+            -10000,
+            10000
+          ],
+          "view": {
+            "x": 312.59259259259255,
+            "y": 785.1851851851852,
+            "scale": 1.35,
+            "fitScale": 0.34444444444444444,
+            "coverScale": 0.5275,
+            "overview": false,
+            "restored": false,
+            "viewport": {
+              "width": 844,
+              "height": 390
+            },
+            "world": {
+              "width": 1600,
+              "height": 900
+            },
+            "defaultFocusScale": 1.35,
+            "outerBounds": {
+              "left": 0,
+              "top": 0,
+              "right": 1600,
+              "bottom": 900,
+              "width": 1600,
+              "height": 900
+            },
+            "safeInsets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 80,
+              "left": 0
+            },
+            "visibleViewport": {
+              "left": 0,
+              "top": 0,
+              "width": 844,
+              "height": 310,
+              "right": 844,
+              "bottom": 310,
+              "centerX": 422,
+              "centerY": 155
+            },
+            "canReturn": false,
+            "overviewExplicit": false,
+            "offsetX": 0,
+            "offsetY": -905.0000000000002
+          },
+          "frame": {
+            "x": 0,
+            "y": -905,
+            "right": 2160,
+            "bottom": 310
+          }
+        },
+        {
+          "requested": [
+            10000,
+            10000
+          ],
+          "view": {
+            "x": 1287.4074074074074,
+            "y": 785.1851851851852,
+            "scale": 1.35,
+            "fitScale": 0.34444444444444444,
+            "coverScale": 0.5275,
+            "overview": false,
+            "restored": false,
+            "viewport": {
+              "width": 844,
+              "height": 390
+            },
+            "world": {
+              "width": 1600,
+              "height": 900
+            },
+            "defaultFocusScale": 1.35,
+            "outerBounds": {
+              "left": 0,
+              "top": 0,
+              "right": 1600,
+              "bottom": 900,
+              "width": 1600,
+              "height": 900
+            },
+            "safeInsets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 80,
+              "left": 0
+            },
+            "visibleViewport": {
+              "left": 0,
+              "top": 0,
+              "width": 844,
+              "height": 310,
+              "right": 844,
+              "bottom": 310,
+              "centerX": 422,
+              "centerY": 155
+            },
+            "canReturn": false,
+            "overviewExplicit": false,
+            "offsetX": -1316,
+            "offsetY": -905.0000000000002
+          },
+          "frame": {
+            "x": -1316,
+            "y": -905,
+            "right": 844,
+            "bottom": 310
+          }
+        }
+      ],
+      "minusAndNativePinchOutBoundedByCover": true,
+      "shortLandscapeShowsLandmarks": true,
+      "overviewOriginalImageFullyVisible": true,
+      "overviewDragDoesNotJump": true,
+      "returnExact": true,
+      "reloadReturnExact": true,
+      "rotationRoundTripReturnExact": true,
+      "destroyRecreateReturnExact": true,
+      "dynamicDockRefit": true,
+      "edgeReverseImmediatelyCssPx": {
+        "horizontal": 20,
+        "vertical": 20
+      },
+      "nativeLabelDragPx": 70,
+      "nativePinchMidpointAnchored": true,
+      "nativeTapAfterDragPinchCancel": true,
+      "progressKeyUntouched": true,
+      "fitted": {
+        "x": 800,
+        "y": 450,
+        "scale": 0.34444444444444444,
+        "fitScale": 0.34444444444444444,
+        "coverScale": 0.5275,
+        "overview": true,
+        "restored": false,
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 1.35,
+        "outerBounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1600,
+          "bottom": 900,
+          "width": 1600,
+          "height": 900
+        },
+        "safeInsets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 80,
+          "left": 0
+        },
+        "visibleViewport": {
+          "left": 0,
+          "top": 0,
+          "width": 844,
+          "height": 310,
+          "right": 844,
+          "bottom": 310,
+          "centerX": 422,
+          "centerY": 155
+        },
+        "canReturn": true,
+        "overviewExplicit": true,
+        "offsetX": 146.44444444444446,
+        "offsetY": 0
+      }
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "originalBoundsEdges": [
+        {
+          "requested": [
+            -10000,
+            -10000
+          ],
+          "view": {
+            "x": 284.4444444444444,
+            "y": 349.6296296296296,
+            "scale": 1.35,
+            "fitScale": 0.48,
+            "coverScale": 1.048888888888889,
+            "overview": false,
+            "restored": false,
+            "viewport": {
+              "width": 768,
+              "height": 1024
+            },
+            "world": {
+              "width": 1600,
+              "height": 900
+            },
+            "defaultFocusScale": 1.35,
+            "outerBounds": {
+              "left": 0,
+              "top": 0,
+              "right": 1600,
+              "bottom": 900,
+              "width": 1600,
+              "height": 900
+            },
+            "safeInsets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 80,
+              "left": 0
+            },
+            "visibleViewport": {
+              "left": 0,
+              "top": 0,
+              "width": 768,
+              "height": 944,
+              "right": 768,
+              "bottom": 944,
+              "centerX": 384,
+              "centerY": 472
+            },
+            "canReturn": false,
+            "overviewExplicit": false,
+            "offsetX": 5.684341886080802e-14,
+            "offsetY": 0
+          },
+          "frame": {
+            "x": 5.684341886080802e-14,
+            "y": 0,
+            "right": 2160,
+            "bottom": 1215
+          }
+        },
+        {
+          "requested": [
+            10000,
+            -10000
+          ],
+          "view": {
+            "x": 1315.5555555555557,
+            "y": 349.6296296296296,
+            "scale": 1.35,
+            "fitScale": 0.48,
+            "coverScale": 1.048888888888889,
+            "overview": false,
+            "restored": false,
+            "viewport": {
+              "width": 768,
+              "height": 1024
+            },
+            "world": {
+              "width": 1600,
+              "height": 900
+            },
+            "defaultFocusScale": 1.35,
+            "outerBounds": {
+              "left": 0,
+              "top": 0,
+              "right": 1600,
+              "bottom": 900,
+              "width": 1600,
+              "height": 900
+            },
+            "safeInsets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 80,
+              "left": 0
+            },
+            "visibleViewport": {
+              "left": 0,
+              "top": 0,
+              "width": 768,
+              "height": 944,
+              "right": 768,
+              "bottom": 944,
+              "centerX": 384,
+              "centerY": 472
+            },
+            "canReturn": false,
+            "overviewExplicit": false,
+            "offsetX": -1392.0000000000002,
+            "offsetY": 0
+          },
+          "frame": {
+            "x": -1392,
+            "y": 0,
+            "right": 768,
+            "bottom": 1215
+          }
+        },
+        {
+          "requested": [
+            -10000,
+            10000
+          ],
+          "view": {
+            "x": 284.4444444444444,
+            "y": 550.3703703703704,
+            "scale": 1.35,
+            "fitScale": 0.48,
+            "coverScale": 1.048888888888889,
+            "overview": false,
+            "restored": false,
+            "viewport": {
+              "width": 768,
+              "height": 1024
+            },
+            "world": {
+              "width": 1600,
+              "height": 900
+            },
+            "defaultFocusScale": 1.35,
+            "outerBounds": {
+              "left": 0,
+              "top": 0,
+              "right": 1600,
+              "bottom": 900,
+              "width": 1600,
+              "height": 900
+            },
+            "safeInsets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 80,
+              "left": 0
+            },
+            "visibleViewport": {
+              "left": 0,
+              "top": 0,
+              "width": 768,
+              "height": 944,
+              "right": 768,
+              "bottom": 944,
+              "centerX": 384,
+              "centerY": 472
+            },
+            "canReturn": false,
+            "overviewExplicit": false,
+            "offsetX": 5.684341886080802e-14,
+            "offsetY": -271.0000000000001
+          },
+          "frame": {
+            "x": 5.684341886080802e-14,
+            "y": -271,
+            "right": 2160,
+            "bottom": 944
+          }
+        },
+        {
+          "requested": [
+            10000,
+            10000
+          ],
+          "view": {
+            "x": 1315.5555555555557,
+            "y": 550.3703703703704,
+            "scale": 1.35,
+            "fitScale": 0.48,
+            "coverScale": 1.048888888888889,
+            "overview": false,
+            "restored": false,
+            "viewport": {
+              "width": 768,
+              "height": 1024
+            },
+            "world": {
+              "width": 1600,
+              "height": 900
+            },
+            "defaultFocusScale": 1.35,
+            "outerBounds": {
+              "left": 0,
+              "top": 0,
+              "right": 1600,
+              "bottom": 900,
+              "width": 1600,
+              "height": 900
+            },
+            "safeInsets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 80,
+              "left": 0
+            },
+            "visibleViewport": {
+              "left": 0,
+              "top": 0,
+              "width": 768,
+              "height": 944,
+              "right": 768,
+              "bottom": 944,
+              "centerX": 384,
+              "centerY": 472
+            },
+            "canReturn": false,
+            "overviewExplicit": false,
+            "offsetX": -1392.0000000000002,
+            "offsetY": -271.0000000000001
+          },
+          "frame": {
+            "x": -1392,
+            "y": -271,
+            "right": 768,
+            "bottom": 944
+          }
+        }
+      ],
+      "minusAndNativePinchOutBoundedByCover": true,
+      "shortLandscapeShowsLandmarks": true,
+      "overviewOriginalImageFullyVisible": true,
+      "overviewDragDoesNotJump": true,
+      "returnExact": true,
+      "reloadReturnExact": true,
+      "rotationRoundTripReturnExact": true,
+      "destroyRecreateReturnExact": true,
+      "dynamicDockRefit": true,
+      "edgeReverseImmediatelyCssPx": {
+        "horizontal": 20,
+        "vertical": 20
+      },
+      "nativeLabelDragPx": 70,
+      "nativePinchMidpointAnchored": true,
+      "nativeTapAfterDragPinchCancel": true,
+      "progressKeyUntouched": true,
+      "fitted": {
+        "x": 800,
+        "y": 450,
+        "scale": 0.48,
+        "fitScale": 0.48,
+        "coverScale": 1.048888888888889,
+        "overview": true,
+        "restored": false,
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 1.35,
+        "outerBounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1600,
+          "bottom": 900,
+          "width": 1600,
+          "height": 900
+        },
+        "safeInsets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 80,
+          "left": 0
+        },
+        "visibleViewport": {
+          "left": 0,
+          "top": 0,
+          "width": 768,
+          "height": 944,
+          "right": 768,
+          "bottom": 944,
+          "centerX": 384,
+          "centerY": 472
+        },
+        "canReturn": true,
+        "overviewExplicit": true,
+        "offsetX": 0,
+        "offsetY": 256
+      }
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "originalBoundsEdges": [
+        {
+          "requested": [
+            -10000,
+            -10000
+          ],
+          "view": {
+            "x": 379.25925925925924,
+            "y": 254.8148148148148,
+            "scale": 1.35,
+            "fitScale": 0.64,
+            "coverScale": 0.7644444444444445,
+            "overview": false,
+            "restored": false,
+            "viewport": {
+              "width": 1024,
+              "height": 768
+            },
+            "world": {
+              "width": 1600,
+              "height": 900
+            },
+            "defaultFocusScale": 1.35,
+            "outerBounds": {
+              "left": 0,
+              "top": 0,
+              "right": 1600,
+              "bottom": 900,
+              "width": 1600,
+              "height": 900
+            },
+            "safeInsets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 80,
+              "left": 0
+            },
+            "visibleViewport": {
+              "left": 0,
+              "top": 0,
+              "width": 1024,
+              "height": 688,
+              "right": 1024,
+              "bottom": 688,
+              "centerX": 512,
+              "centerY": 344
+            },
+            "canReturn": false,
+            "overviewExplicit": false,
+            "offsetX": 0,
+            "offsetY": 0
+          },
+          "frame": {
+            "x": 0,
+            "y": 0,
+            "right": 2160,
+            "bottom": 1215
+          }
+        },
+        {
+          "requested": [
+            10000,
+            -10000
+          ],
+          "view": {
+            "x": 1220.7407407407409,
+            "y": 254.8148148148148,
+            "scale": 1.35,
+            "fitScale": 0.64,
+            "coverScale": 0.7644444444444445,
+            "overview": false,
+            "restored": false,
+            "viewport": {
+              "width": 1024,
+              "height": 768
+            },
+            "world": {
+              "width": 1600,
+              "height": 900
+            },
+            "defaultFocusScale": 1.35,
+            "outerBounds": {
+              "left": 0,
+              "top": 0,
+              "right": 1600,
+              "bottom": 900,
+              "width": 1600,
+              "height": 900
+            },
+            "safeInsets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 80,
+              "left": 0
+            },
+            "visibleViewport": {
+              "left": 0,
+              "top": 0,
+              "width": 1024,
+              "height": 688,
+              "right": 1024,
+              "bottom": 688,
+              "centerX": 512,
+              "centerY": 344
+            },
+            "canReturn": false,
+            "overviewExplicit": false,
+            "offsetX": -1136.0000000000002,
+            "offsetY": 0
+          },
+          "frame": {
+            "x": -1136,
+            "y": 0,
+            "right": 1024,
+            "bottom": 1215
+          }
+        },
+        {
+          "requested": [
+            -10000,
+            10000
+          ],
+          "view": {
+            "x": 379.25925925925924,
+            "y": 645.1851851851852,
+            "scale": 1.35,
+            "fitScale": 0.64,
+            "coverScale": 0.7644444444444445,
+            "overview": false,
+            "restored": false,
+            "viewport": {
+              "width": 1024,
+              "height": 768
+            },
+            "world": {
+              "width": 1600,
+              "height": 900
+            },
+            "defaultFocusScale": 1.35,
+            "outerBounds": {
+              "left": 0,
+              "top": 0,
+              "right": 1600,
+              "bottom": 900,
+              "width": 1600,
+              "height": 900
+            },
+            "safeInsets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 80,
+              "left": 0
+            },
+            "visibleViewport": {
+              "left": 0,
+              "top": 0,
+              "width": 1024,
+              "height": 688,
+              "right": 1024,
+              "bottom": 688,
+              "centerX": 512,
+              "centerY": 344
+            },
+            "canReturn": false,
+            "overviewExplicit": false,
+            "offsetX": 0,
+            "offsetY": -527.0000000000001
+          },
+          "frame": {
+            "x": 0,
+            "y": -527,
+            "right": 2160,
+            "bottom": 688
+          }
+        },
+        {
+          "requested": [
+            10000,
+            10000
+          ],
+          "view": {
+            "x": 1220.7407407407409,
+            "y": 645.1851851851852,
+            "scale": 1.35,
+            "fitScale": 0.64,
+            "coverScale": 0.7644444444444445,
+            "overview": false,
+            "restored": false,
+            "viewport": {
+              "width": 1024,
+              "height": 768
+            },
+            "world": {
+              "width": 1600,
+              "height": 900
+            },
+            "defaultFocusScale": 1.35,
+            "outerBounds": {
+              "left": 0,
+              "top": 0,
+              "right": 1600,
+              "bottom": 900,
+              "width": 1600,
+              "height": 900
+            },
+            "safeInsets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 80,
+              "left": 0
+            },
+            "visibleViewport": {
+              "left": 0,
+              "top": 0,
+              "width": 1024,
+              "height": 688,
+              "right": 1024,
+              "bottom": 688,
+              "centerX": 512,
+              "centerY": 344
+            },
+            "canReturn": false,
+            "overviewExplicit": false,
+            "offsetX": -1136.0000000000002,
+            "offsetY": -527.0000000000001
+          },
+          "frame": {
+            "x": -1136,
+            "y": -527,
+            "right": 1024,
+            "bottom": 688
+          }
+        }
+      ],
+      "minusAndNativePinchOutBoundedByCover": true,
+      "shortLandscapeShowsLandmarks": true,
+      "overviewOriginalImageFullyVisible": true,
+      "overviewDragDoesNotJump": true,
+      "returnExact": true,
+      "reloadReturnExact": true,
+      "rotationRoundTripReturnExact": true,
+      "destroyRecreateReturnExact": true,
+      "dynamicDockRefit": true,
+      "edgeReverseImmediatelyCssPx": {
+        "horizontal": 20,
+        "vertical": 20
+      },
+      "nativeLabelDragPx": 70,
+      "nativePinchMidpointAnchored": true,
+      "nativeTapAfterDragPinchCancel": true,
+      "progressKeyUntouched": true,
+      "fitted": {
+        "x": 800,
+        "y": 450,
+        "scale": 0.64,
+        "fitScale": 0.64,
+        "coverScale": 0.7644444444444445,
+        "overview": true,
+        "restored": false,
+        "viewport": {
+          "width": 1024,
+          "height": 768
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 1.35,
+        "outerBounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1600,
+          "bottom": 900,
+          "width": 1600,
+          "height": 900
+        },
+        "safeInsets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 80,
+          "left": 0
+        },
+        "visibleViewport": {
+          "left": 0,
+          "top": 0,
+          "width": 1024,
+          "height": 688,
+          "right": 1024,
+          "bottom": 688,
+          "centerX": 512,
+          "centerY": 344
+        },
+        "canReturn": true,
+        "overviewExplicit": true,
+        "offsetX": 0,
+        "offsetY": 56
+      }
+    },
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "originalBoundsEdges": [
+        {
+          "requested": [
+            -10000,
+            -10000
+          ],
+          "view": {
+            "x": 474.074074074074,
+            "y": 303.7037037037037,
+            "scale": 1.35,
+            "fitScale": 0.8,
+            "coverScale": 0.9111111111111111,
+            "overview": false,
+            "restored": false,
+            "viewport": {
+              "width": 1280,
+              "height": 900
+            },
+            "world": {
+              "width": 1600,
+              "height": 900
+            },
+            "defaultFocusScale": 1.35,
+            "outerBounds": {
+              "left": 0,
+              "top": 0,
+              "right": 1600,
+              "bottom": 900,
+              "width": 1600,
+              "height": 900
+            },
+            "safeInsets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 80,
+              "left": 0
+            },
+            "visibleViewport": {
+              "left": 0,
+              "top": 0,
+              "width": 1280,
+              "height": 820,
+              "right": 1280,
+              "bottom": 820,
+              "centerX": 640,
+              "centerY": 410
+            },
+            "canReturn": false,
+            "overviewExplicit": false,
+            "offsetX": 0,
+            "offsetY": 0
+          },
+          "frame": {
+            "x": 0,
+            "y": 0,
+            "right": 2160,
+            "bottom": 1215
+          }
+        },
+        {
+          "requested": [
+            10000,
+            -10000
+          ],
+          "view": {
+            "x": 1125.925925925926,
+            "y": 303.7037037037037,
+            "scale": 1.35,
+            "fitScale": 0.8,
+            "coverScale": 0.9111111111111111,
+            "overview": false,
+            "restored": false,
+            "viewport": {
+              "width": 1280,
+              "height": 900
+            },
+            "world": {
+              "width": 1600,
+              "height": 900
+            },
+            "defaultFocusScale": 1.35,
+            "outerBounds": {
+              "left": 0,
+              "top": 0,
+              "right": 1600,
+              "bottom": 900,
+              "width": 1600,
+              "height": 900
+            },
+            "safeInsets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 80,
+              "left": 0
+            },
+            "visibleViewport": {
+              "left": 0,
+              "top": 0,
+              "width": 1280,
+              "height": 820,
+              "right": 1280,
+              "bottom": 820,
+              "centerX": 640,
+              "centerY": 410
+            },
+            "canReturn": false,
+            "overviewExplicit": false,
+            "offsetX": -880.0000000000002,
+            "offsetY": 0
+          },
+          "frame": {
+            "x": -880,
+            "y": 0,
+            "right": 1280,
+            "bottom": 1215
+          }
+        },
+        {
+          "requested": [
+            -10000,
+            10000
+          ],
+          "view": {
+            "x": 474.074074074074,
+            "y": 596.2962962962963,
+            "scale": 1.35,
+            "fitScale": 0.8,
+            "coverScale": 0.9111111111111111,
+            "overview": false,
+            "restored": false,
+            "viewport": {
+              "width": 1280,
+              "height": 900
+            },
+            "world": {
+              "width": 1600,
+              "height": 900
+            },
+            "defaultFocusScale": 1.35,
+            "outerBounds": {
+              "left": 0,
+              "top": 0,
+              "right": 1600,
+              "bottom": 900,
+              "width": 1600,
+              "height": 900
+            },
+            "safeInsets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 80,
+              "left": 0
+            },
+            "visibleViewport": {
+              "left": 0,
+              "top": 0,
+              "width": 1280,
+              "height": 820,
+              "right": 1280,
+              "bottom": 820,
+              "centerX": 640,
+              "centerY": 410
+            },
+            "canReturn": false,
+            "overviewExplicit": false,
+            "offsetX": 0,
+            "offsetY": -395.0000000000001
+          },
+          "frame": {
+            "x": 0,
+            "y": -395,
+            "right": 2160,
+            "bottom": 820
+          }
+        },
+        {
+          "requested": [
+            10000,
+            10000
+          ],
+          "view": {
+            "x": 1125.925925925926,
+            "y": 596.2962962962963,
+            "scale": 1.35,
+            "fitScale": 0.8,
+            "coverScale": 0.9111111111111111,
+            "overview": false,
+            "restored": false,
+            "viewport": {
+              "width": 1280,
+              "height": 900
+            },
+            "world": {
+              "width": 1600,
+              "height": 900
+            },
+            "defaultFocusScale": 1.35,
+            "outerBounds": {
+              "left": 0,
+              "top": 0,
+              "right": 1600,
+              "bottom": 900,
+              "width": 1600,
+              "height": 900
+            },
+            "safeInsets": {
+              "top": 0,
+              "right": 0,
+              "bottom": 80,
+              "left": 0
+            },
+            "visibleViewport": {
+              "left": 0,
+              "top": 0,
+              "width": 1280,
+              "height": 820,
+              "right": 1280,
+              "bottom": 820,
+              "centerX": 640,
+              "centerY": 410
+            },
+            "canReturn": false,
+            "overviewExplicit": false,
+            "offsetX": -880.0000000000002,
+            "offsetY": -395.0000000000001
+          },
+          "frame": {
+            "x": -880,
+            "y": -395,
+            "right": 1280,
+            "bottom": 820
+          }
+        }
+      ],
+      "minusAndNativePinchOutBoundedByCover": true,
+      "shortLandscapeShowsLandmarks": true,
+      "overviewOriginalImageFullyVisible": true,
+      "overviewDragDoesNotJump": true,
+      "returnExact": true,
+      "reloadReturnExact": true,
+      "rotationRoundTripReturnExact": true,
+      "destroyRecreateReturnExact": true,
+      "dynamicDockRefit": true,
+      "edgeReverseImmediatelyCssPx": {
+        "horizontal": 20,
+        "vertical": 20
+      },
+      "nativeLabelDragPx": 70,
+      "nativePinchMidpointAnchored": true,
+      "nativeTapAfterDragPinchCancel": true,
+      "progressKeyUntouched": true,
+      "fitted": {
+        "x": 800,
+        "y": 450,
+        "scale": 0.8,
+        "fitScale": 0.8,
+        "coverScale": 0.9111111111111111,
+        "overview": true,
+        "restored": false,
+        "viewport": {
+          "width": 1280,
+          "height": 900
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 1.35,
+        "outerBounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1600,
+          "bottom": 900,
+          "width": 1600,
+          "height": 900
+        },
+        "safeInsets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 80,
+          "left": 0
+        },
+        "visibleViewport": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 820,
+          "right": 1280,
+          "bottom": 820,
+          "centerX": 640,
+          "centerY": 410
+        },
+        "canReturn": true,
+        "overviewExplicit": true,
+        "offsetX": 0,
+        "offsetY": 50
+      }
+    }
+  ],
+  "errors": [],
+  "physicalSafari": "Not tested; real Chromium/CDP generated touch events, not physical device gestures",
+  "oldPaddedViewAndReturnLegallyClamped": true,
+  "oldV1RecordRetained": true,
+  "corruptRecordFallback": true,
+  "blockedSessionStorageMemoryFallback": true
+}
