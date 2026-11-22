@@ -1,0 +1,470 @@
+{
+  "baseline": "dedc066",
+  "protectedFiles": 31,
+  "coreAndReaderBytes": "unchanged",
+  "shelfBehaviorHandlers": "unchanged",
+  "priorCompleteReadingCoverage": "docs/previews/play-collection/validation.json (1192 actual reading steps); no full repeat for art-only changes",
+  "maps": [
+    {
+      "size": [
+        1280,
+        900
+      ],
+      "style": "terrain",
+      "nativeNodeDialogs": 32,
+      "originalEdgeIds": 46,
+      "centerOverlaps": 0,
+      "linksAndStyleRetention": "passed",
+      "removedLiteralContinentLabel": true
+    },
+    {
+      "size": [
+        1280,
+        900
+      ],
+      "style": "world",
+      "nativeNodeDialogs": 32,
+      "originalEdgeIds": 46,
+      "centerOverlaps": 0,
+      "linksAndStyleRetention": "passed",
+      "removedLiteralContinentLabel": true
+    },
+    {
+      "size": [
+        390,
+        844
+      ],
+      "style": "terrain",
+      "nativeNodeDialogs": 32,
+      "originalEdgeIds": 46,
+      "centerOverlaps": 0,
+      "linksAndStyleRetention": "passed",
+      "removedLiteralContinentLabel": true
+    },
+    {
+      "size": [
+        390,
+        844
+      ],
+      "style": "world",
+      "nativeNodeDialogs": 32,
+      "originalEdgeIds": 46,
+      "centerOverlaps": 0,
+      "linksAndStyleRetention": "passed",
+      "removedLiteralContinentLabel": true
+    },
+    {
+      "size": [
+        844,
+        390
+      ],
+      "style": "terrain",
+      "nativeNodeDialogs": 32,
+      "originalEdgeIds": 46,
+      "centerOverlaps": 0,
+      "linksAndStyleRetention": "passed",
+      "removedLiteralContinentLabel": true
+    },
+    {
+      "size": [
+        844,
+        390
+      ],
+      "style": "world",
+      "nativeNodeDialogs": 32,
+      "originalEdgeIds": 46,
+      "centerOverlaps": 0,
+      "linksAndStyleRetention": "passed",
+      "removedLiteralContinentLabel": true
+    },
+    {
+      "size": [
+        768,
+        1024
+      ],
+      "style": "terrain",
+      "nativeNodeDialogs": 32,
+      "originalEdgeIds": 46,
+      "centerOverlaps": 0,
+      "linksAndStyleRetention": "passed",
+      "removedLiteralContinentLabel": true
+    },
+    {
+      "size": [
+        768,
+        1024
+      ],
+      "style": "world",
+      "nativeNodeDialogs": 32,
+      "originalEdgeIds": 46,
+      "centerOverlaps": 0,
+      "linksAndStyleRetention": "passed",
+      "removedLiteralContinentLabel": true
+    },
+    {
+      "size": [
+        1024,
+        768
+      ],
+      "style": "terrain",
+      "nativeNodeDialogs": 32,
+      "originalEdgeIds": 46,
+      "centerOverlaps": 0,
+      "linksAndStyleRetention": "passed",
+      "removedLiteralContinentLabel": true
+    },
+    {
+      "size": [
+        1024,
+        768
+      ],
+      "style": "world",
+      "nativeNodeDialogs": 32,
+      "originalEdgeIds": 46,
+      "centerOverlaps": 0,
+      "linksAndStyleRetention": "passed",
+      "removedLiteralContinentLabel": true
+    }
+  ],
+  "cities": [
+    {
+      "size": [
+        1280,
+        900
+      ],
+      "gates": 6,
+      "nativeSourceHotspots": 13,
+      "progressStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "noGridOverlay": "DOM and visual screenshot checked",
+      "progressStorage": "unchanged"
+    },
+    {
+      "size": [
+        390,
+        844
+      ],
+      "gates": 6,
+      "nativeSourceHotspots": 13,
+      "progressStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "noGridOverlay": "DOM and visual screenshot checked",
+      "progressStorage": "unchanged"
+    },
+    {
+      "size": [
+        844,
+        390
+      ],
+      "gates": 6,
+      "nativeSourceHotspots": 13,
+      "progressStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "noGridOverlay": "DOM and visual screenshot checked",
+      "progressStorage": "unchanged"
+    },
+    {
+      "size": [
+        768,
+        1024
+      ],
+      "gates": 6,
+      "nativeSourceHotspots": 13,
+      "progressStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "noGridOverlay": "DOM and visual screenshot checked",
+      "progressStorage": "unchanged"
+    },
+    {
+      "size": [
+        1024,
+        768
+      ],
+      "gates": 6,
+      "nativeSourceHotspots": 13,
+      "progressStages": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "noGridOverlay": "DOM and visual screenshot checked",
+      "progressStorage": "unchanged"
+    }
+  ],
+  "shelves": [
+    {
+      "size": [
+        1280,
+        900
+      ],
+      "fixture": "unearned",
+      "completedCovers": 0,
+      "portraitCoverAspect": "height/width >1.3",
+      "titlesInsideCover": true,
+      "overflow": "none"
+    },
+    {
+      "size": [
+        1280,
+        900
+      ],
+      "fixture": "one-earned",
+      "completedCovers": 1,
+      "portraitCoverAspect": "height/width >1.3",
+      "titlesInsideCover": true,
+      "overflow": "none"
+    },
+    {
+      "size": [
+        1280,
+        900
+      ],
+      "fixture": "all-earned",
+      "completedCovers": 14,
+      "portraitCoverAspect": "height/width >1.3",
+      "titlesInsideCover": true,
+      "overflow": "none"
+    },
+    {
+      "size": [
+        390,
+        844
+      ],
+      "fixture": "unearned",
+      "completedCovers": 0,
+      "portraitCoverAspect": "height/width >1.3",
+      "titlesInsideCover": true,
+      "overflow": "none"
+    },
+    {
+      "size": [
+        390,
+        844
+      ],
+      "fixture": "one-earned",
+      "completedCovers": 1,
+      "portraitCoverAspect": "height/width >1.3",
+      "titlesInsideCover": true,
+      "overflow": "none"
+    },
+    {
+      "size": [
+        390,
+        844
+      ],
+      "fixture": "all-earned",
+      "completedCovers": 14,
+      "portraitCoverAspect": "height/width >1.3",
+      "titlesInsideCover": true,
+      "overflow": "none"
+    },
+    {
+      "size": [
+        844,
+        390
+      ],
+      "fixture": "unearned",
+      "completedCovers": 0,
+      "portraitCoverAspect": "height/width >1.3",
+      "titlesInsideCover": true,
+      "overflow": "none"
+    },
+    {
+      "size": [
+        844,
+        390
+      ],
+      "fixture": "one-earned",
+      "completedCovers": 1,
+      "portraitCoverAspect": "height/width >1.3",
+      "titlesInsideCover": true,
+      "overflow": "none"
+    },
+    {
+      "size": [
+        844,
+        390
+      ],
+      "fixture": "all-earned",
+      "completedCovers": 14,
+      "portraitCoverAspect": "height/width >1.3",
+      "titlesInsideCover": true,
+      "overflow": "none"
+    },
+    {
+      "size": [
+        768,
+        1024
+      ],
+      "fixture": "unearned",
+      "completedCovers": 0,
+      "portraitCoverAspect": "height/width >1.3",
+      "titlesInsideCover": true,
+      "overflow": "none"
+    },
+    {
+      "size": [
+        768,
+        1024
+      ],
+      "fixture": "one-earned",
+      "completedCovers": 1,
+      "portraitCoverAspect": "height/width >1.3",
+      "titlesInsideCover": true,
+      "overflow": "none"
+    },
+    {
+      "size": [
+        768,
+        1024
+      ],
+      "fixture": "all-earned",
+      "completedCovers": 14,
+      "portraitCoverAspect": "height/width >1.3",
+      "titlesInsideCover": true,
+      "overflow": "none"
+    },
+    {
+      "size": [
+        1024,
+        768
+      ],
+      "fixture": "unearned",
+      "completedCovers": 0,
+      "portraitCoverAspect": "height/width >1.3",
+      "titlesInsideCover": true,
+      "overflow": "none"
+    },
+    {
+      "size": [
+        1024,
+        768
+      ],
+      "fixture": "one-earned",
+      "completedCovers": 1,
+      "portraitCoverAspect": "height/width >1.3",
+      "titlesInsideCover": true,
+      "overflow": "none"
+    },
+    {
+      "size": [
+        1024,
+        768
+      ],
+      "fixture": "all-earned",
+      "completedCovers": 14,
+      "portraitCoverAspect": "height/width >1.3",
+      "titlesInsideCover": true,
+      "overflow": "none"
+    }
+  ],
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "physicalSafari": "not tested",
+  "publication": "not published; art-direction local previews only",
+  "shelfVisualFixtures": "Valid disposable browser backup states are used to render unread/one/all14; these are QA fixtures, not fake achievement controls in product",
+  "shelfResume": "Native cover opens completed-book bookmark6, Next7 and reload7; return retains1earned cover and leaves old journey key unchanged",
+  "actualCompletionSmoke": "Actual29-step Four Truths read (reload at step5), explicit finish changes only its real cover and count1/14; old journey key preserved",
+  "finalPolishChecks": [
+    {
+      "size": [
+        1280,
+        900
+      ],
+      "style": "terrain",
+      "expandedGroupNativeClicks": 2
+    },
+    {
+      "size": [
+        1280,
+        900
+      ],
+      "style": "world",
+      "expandedGroupNativeClicks": 2
+    },
+    {
+      "size": [
+        390,
+        844
+      ],
+      "style": "terrain",
+      "expandedGroupNativeClicks": 2
+    },
+    {
+      "size": [
+        390,
+        844
+      ],
+      "style": "world",
+      "expandedGroupNativeClicks": 2
+    },
+    {
+      "size": [
+        844,
+        390
+      ],
+      "style": "terrain",
+      "expandedGroupNativeClicks": 2
+    },
+    {
+      "size": [
+        844,
+        390
+      ],
+      "style": "world",
+      "expandedGroupNativeClicks": 2
+    },
+    {
+      "size": [
+        768,
+        1024
+      ],
+      "style": "terrain",
+      "expandedGroupNativeClicks": 2
+    },
+    {
+      "size": [
+        768,
+        1024
+      ],
+      "style": "world",
+      "expandedGroupNativeClicks": 2
+    },
+    {
+      "size": [
+        1024,
+        768
+      ],
+      "style": "terrain",
+      "expandedGroupNativeClicks": 2
+    },
+    {
+      "size": [
+        1024,
+        768
+      ],
+      "style": "world",
+      "expandedGroupNativeClicks": 2
+    }
+  ],
+  "finalCityCalibration": "Guardian/messenger relocated away from art faces; native clicks checked at five sizes; stage3 screenshots refreshed",
+  "shelfContrastRefresh": "All15 fixture states rechecked; status has cream background and no text shadow; selected screenshots refreshed",
+  "cityInitialRefresh": "Fresh direct city view stage0 captured after revised saturation/opacity"
+}

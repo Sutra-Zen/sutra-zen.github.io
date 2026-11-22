@@ -1,0 +1,978 @@
+{
+  "version": 1,
+  "checkedDate": "2026-11-22",
+  "scope": "Conservative superset: all retained /play files, /game entry, docs/play readable sources, all14 catalog covers/icons and reader/guide entry files. Not a claim that every file downloads on first render. Original full reader assets retain their existing trees and prior1192step coverage.",
+  "publicationStatus": "Not evidence of live publication; exact merge SHA Pages success and live checks are required.",
+  "pagesSource": {
+    "buildType": "legacy",
+    "branch": "main",
+    "path": "/"
+  },
+  "exclusions": [
+    "docs/previews/play",
+    "docs/previews/play-art-directions",
+    "docs/previews/play-city-entry",
+    "docs/previews/play-collection",
+    "docs/previews/play-continent",
+    "docs/previews/play-network",
+    "docs/previews/play-visual-v2",
+    "docs/previews/play-worldmap-v4",
+    "docs/previews/play-game-release"
+  ],
+  "baselineSizeEstimate": {
+    "gitRef": "a2b3225220cbf579d5ace90352081dee91fb753e",
+    "sourceBytes": 957103187,
+    "excludedBytes": 182597158,
+    "estimatedSourceBytesAfterExclusion": 774506029,
+    "excludedByDirectory": [
+      {
+        "path": "docs/previews/play",
+        "files": 21,
+        "bytes": 6505916
+      },
+      {
+        "path": "docs/previews/play-art-directions",
+        "files": 27,
+        "bytes": 38686633
+      },
+      {
+        "path": "docs/previews/play-city-entry",
+        "files": 16,
+        "bytes": 33132913
+      },
+      {
+        "path": "docs/previews/play-collection",
+        "files": 12,
+        "bytes": 9699710
+      },
+      {
+        "path": "docs/previews/play-continent",
+        "files": 8,
+        "bytes": 6939881
+      },
+      {
+        "path": "docs/previews/play-network",
+        "files": 11,
+        "bytes": 12891315
+      },
+      {
+        "path": "docs/previews/play-visual-v2",
+        "files": 16,
+        "bytes": 22124236
+      },
+      {
+        "path": "docs/previews/play-worldmap-v4",
+        "files": 33,
+        "bytes": 52616554
+      },
+      {
+        "path": "docs/previews/play-game-release",
+        "files": 0,
+        "bytes": 0
+      }
+    ]
+  },
+  "checks": {
+    "everyListedFileExists": true,
+    "noListedAssetExcludedByPagesConfig": true,
+    "everyListedFileReturnsLocalHttp200": true,
+    "runtimeCopiesUnderGame": false,
+    "independent390x844PublicMountSmoke": "Passed: public shell hidden art-review; real Four Truths entry and return to/game; count0 retained;14shelf cards;3city labels; both full scene and lord close-up include shared beard layer; no JS/localHTTP/overflow errors."
+  },
+  "files": [
+    {
+      "path": "anapana/assets/S01.webp",
+      "bytes": 662168,
+      "sha256": "073e2a3fb52cf3d644825d6768ccd890cb34311083b4d3f722f503bd96243ea8",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "anapana/book/index.html",
+      "bytes": 4011,
+      "sha256": "2d80e8eee036065c0aa46ab09c845a914db6af339e91479b53950d9aeaf0530e",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "anapana/index.html",
+      "bytes": 30105,
+      "sha256": "c196ef73f1ef9205a1e35a8841bd5c2549f4a08d3f8813ee65c57d6ba09154b4",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "docs/eightfold-path/assets/02-right-view.webp",
+      "bytes": 1286382,
+      "sha256": "aa32613ad536f88ffbe6725c5d258735caf1858257a71b7e5197644a065daab8",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "docs/four-fruits-ten-fetters/assets/s01.webp",
+      "bytes": 191186,
+      "sha256": "c27f11a2508e1327af8c612713b4413eefc1a8e4952756212128c491a652b7d8",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "docs/four-purities-six-recollections/assets/IMG_0395.jpeg",
+      "bytes": 629548,
+      "sha256": "1bd5263539e25520264badc16570641a2cfacb1fe385480d1307b8422c346bd0",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "docs/mindfulness/assets/8ACD7BAD-64C1-476B-A4AD-7A63F5A2048E.png",
+      "bytes": 2916066,
+      "sha256": "e25807351814716cb0affad57dcee38e67e311cf3faa172accd3c07c2a5996a2",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "docs/play/README.md",
+      "bytes": 5841,
+      "sha256": "40150b7f6fad32944d5500e6e80a976f6c8fe81eac0fc9264682c1cdc4666b84",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "docs/play/SOURCES.md",
+      "bytes": 4031,
+      "sha256": "24fae160bdd03f18b360914f6c0d0f10f797c69a970a13c6400cae7b87d0b73c",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "docs/play/canonical/sa1175-cbeta-note.xml",
+      "bytes": 232,
+      "sha256": "e5744526a6f16daa43b5ae22eb048a555d8b3a390f2ad0b3f7e613a1b353dc82",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "docs/play/canonical/sa1175.html",
+      "bytes": 8784,
+      "sha256": "2501f4e585567b98c3c38f96328c5c2283430f3788b386f5fabe6a431586a50e",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "docs/play/canonical/sn35.204-than.html",
+      "bytes": 15740,
+      "sha256": "0f0cc1775eea0b0440fb08454c366ebffaa1c07b092917c5cea56b05b56cf40b",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "docs/play/canonical/sn35.245.html",
+      "bytes": 5997,
+      "sha256": "02a831885b965c463abd72814329e589ab8e8d9edecae25ad8a4ad9aa39e0426",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "docs/play/city-entry/README.md",
+      "bytes": 5619,
+      "sha256": "0416f48c2143f3e8c24480f60e1b40c6c400d7bd6b0678f8e7170814a8fe469a",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "docs/play/collection/README.md",
+      "bytes": 4167,
+      "sha256": "0020d3efff1ac0b49f89b66b512c661b61785b69eef837764d3575a8897598c7",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "docs/play/game-release/README.md",
+      "bytes": 5412,
+      "sha256": "80bc0ff5c8f32bc7edbfbbaaad0830231331cee9f141e94fd967b4bb0ece9581",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "docs/play/visual-v2/ART-BRIEF.md",
+      "bytes": 9556,
+      "sha256": "fd2e0dc42130badf345bec11173347e91c0255cddaab355ce4c32e41d754761b",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "docs/play/visual-v2/ART-DIRECTIONS.md",
+      "bytes": 5176,
+      "sha256": "7c4a2e4c2c58fec5464a14dabfbe457668af974cd23aa3e9c1c0a235560444c7",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "docs/play/visual-v2/ASSET-AUDIT.md",
+      "bytes": 4081,
+      "sha256": "9ac33e917c7b423512e034b4e85e717efe7d2b216c067f2c51c5e91b8040126c",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "docs/play/visual-v2/CHARACTER.md",
+      "bytes": 7296,
+      "sha256": "73fbc0c06847c00705df0e3714dcca3a2177ce1c634d0ffbdc04aa179449ead3",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "docs/play/visual-v2/COMPOSITION.md",
+      "bytes": 12572,
+      "sha256": "72a4a8dd8405b62f64f2c27e659cb19eaa034f6ba0ac5f614e068e313cd1ab51",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "docs/play/visual-v2/CONTINENT.md",
+      "bytes": 8352,
+      "sha256": "29a75045d575a3f03a337ca59771ba82f1b60662e616a5a6db368cc6941f11ae",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "docs/play/visual-v2/NETWORK.md",
+      "bytes": 5887,
+      "sha256": "0cfd068ec1bf560382ac13d877e230727e01e422df2b423b0d15650f2bdae226",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "docs/play/visual-v2/README.md",
+      "bytes": 8620,
+      "sha256": "4c09704bfb77d51db97f4fab6e1308571fbf5ca9aaa816e2481090ef84d0d332",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "docs/play/worldmap-v4/README.md",
+      "bytes": 7961,
+      "sha256": "e20c6bd77ce5ca64b41864d3f8a6ad3332930b38b70f0ac6d0c5af3ecc6eff4c",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "docs/play/worldmap-v4/SPEC-NOTES.md",
+      "bytes": 9715,
+      "sha256": "c8e26460e6a693b0322b141ec7b933f325a162636e6adc0ffe2ea09679ebe1d7",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "docs/play/worldmap-v4/canonical/sa262.html",
+      "bytes": 10493,
+      "sha256": "1b56f2c7174c176de5c0ceb05d83ddbafe1b2967576ef4764f8259ef41f335f1",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "docs/play/worldmap-v4/handoff/SutraZen_Codex_Route_Unlocks_v2.md",
+      "bytes": 19957,
+      "sha256": "52c5cf42c6556393d091ad9d114c216cf232a0866ab0d0021705aa0294264ec2",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "docs/play/worldmap-v4/handoff/SutraZen_Worldmap_Landscape_Design_v1.md",
+      "bytes": 22252,
+      "sha256": "51e0c282ad548e6856c7db5012ade8e3dccc82e1360af789bf16c7cdc33ff5d9",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "docs/right-effort/assets/6FEE22D5-C7AA-476E-810C-DDE063530A82.png",
+      "bytes": 3244499,
+      "sha256": "642cebab1aecae8e47aa95db710a75a4863d6291c178aa89bae1fa889f6010ce",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "eightfold-path/book/index.html",
+      "bytes": 3675,
+      "sha256": "7250df438e7fea3db3baf0b458285ccb3ad4c53e2f30458fef789f6766fbdf7d",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "eightfold-path/index.html",
+      "bytes": 28003,
+      "sha256": "e26a0ce8a0510d0ae66e4c789e088afae6e7c883eea899e0eb2f59fbd32e5476",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "five-aggregates/book/images/a10.webp",
+      "bytes": 750984,
+      "sha256": "5b8566426796b3a1d4eb1a825c5a275d5a6c6505e3402f2271d4a8c5833a41c9",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "five-aggregates/book/index.html",
+      "bytes": 40540,
+      "sha256": "8db730c39658d9841e0d7d7c84d2121b0080fae23c630c7038c4de297dcb8f54",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "five-aggregates/index.html",
+      "bytes": 25023,
+      "sha256": "9b96846bb4548d827c9cfbee5dfa6655965acc150cf71d4e4f33bdda0c337e68",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "five-roots-powers/assets/S03.webp",
+      "bytes": 876164,
+      "sha256": "ab46922ccd6141831c7534361fd7aba1c2ad4478d20d78a4be750fa994ca2bd7",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "five-roots-powers/book/index.html",
+      "bytes": 3801,
+      "sha256": "f622d27643b0d1015b7bd1fec85d9c8b5d0c9d3bee8687bbabb4cb2d76d61fd2",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "five-roots-powers/index.html",
+      "bytes": 17087,
+      "sha256": "3ccc229cf250643e233c7ef2ea9caac803b4515fe0a98f5c4c883419c1c0302e",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "four-fruits-ten-fetters/book/index.html",
+      "bytes": 3328,
+      "sha256": "02bbd05eaa1373b8164702e44bdfadabbf528054a0c8aba57f727290c3679fc9",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "four-fruits-ten-fetters/index.html",
+      "bytes": 23154,
+      "sha256": "dbdacd1882a3a06f6fe6e85b73290c93b9a4dbba6f41715afe720f114e7b1df0",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "four-jhanas/assets/S06.webp",
+      "bytes": 863282,
+      "sha256": "b7e50b3540cbdc7c9ad1212a2adeb684bbfddc6a276e615faf35baab9e29bfa2",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "four-jhanas/book/index.html",
+      "bytes": 3956,
+      "sha256": "4a3da85b83b89e1bb195f64e7a7d43d28a9071827c30077c847dcd777ccde482",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "four-jhanas/index.html",
+      "bytes": 15781,
+      "sha256": "c5305f0eb42b9a7c9667b981c7a6666dbb2a664ccbc187f9f8cc948709bfa673",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "four-purities-six-recollections/book/index.html",
+      "bytes": 3460,
+      "sha256": "47d143400efe6ab148f97a28ac6dd70b695479b8da9b44b7d9f3554d9e8c2b83",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "four-purities-six-recollections/index.html",
+      "bytes": 15391,
+      "sha256": "cb871f401e5c0695810050b854c2f4d9397c765619ae64f96e74c2a77c7d980d",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "four-truths/book/images/footprints.webp",
+      "bytes": 454242,
+      "sha256": "c4b3fe8efc7e7604d6e274beb0495c921ca91fbd0f302bc4cc162e327879fa16",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "four-truths/book/index.html",
+      "bytes": 3310,
+      "sha256": "be514f00c174a69cac26facc3a4362d39f8dcbacce05d15dc31339d1e34e40b4",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "four-truths/index.html",
+      "bytes": 24366,
+      "sha256": "27ec53b3ae0dda67fca38c30bb47391f31b4124989eda8abf1e50bbc7572d0db",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "game/index.html",
+      "bytes": 2555,
+      "sha256": "30f3b7e80d1658639e29325c52d21f460e16054867ceb2b689a766b335ad2460",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "iddhipada/assets/S01.webp",
+      "bytes": 741582,
+      "sha256": "48175f1e92133f0ab59319fa3decf50a88d65d57b863a7c3280fcfd5316ef36a",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "iddhipada/book/index.html",
+      "bytes": 3991,
+      "sha256": "64782328533476c659c70e59b9f3270635b2e0e098880e440a321d33f493b254",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "iddhipada/index.html",
+      "bytes": 16985,
+      "sha256": "d1489181141c560fe58694f612b74bc105db53658275a3e7581a7de71d524418",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "mindfulness/book/index.html",
+      "bytes": 3763,
+      "sha256": "7fd496ad25881417c63d0e2aa693a1a4e354584c69d69f5a78860530b7cb76d7",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "mindfulness/index.html",
+      "bytes": 24755,
+      "sha256": "ff1dac184bca048bad1265091c9574d73a6e8440be7ca1629f19985392b45799",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/app.js",
+      "bytes": 11277,
+      "sha256": "169dd565ea0527e3ba508f8b24a57cf30f6c2631b121572944c7cdaa0b34f6a6",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/books.js",
+      "bytes": 607,
+      "sha256": "e8d97273d1dcc072f9121c4edebad245a7202b1f249e0c0b3cac22cad11a035a",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/city.css",
+      "bytes": 4075,
+      "sha256": "4fd404eeab6d0f5ce9517bd0ca31d22ab69dd2bc310eeafea41d96dad47222c7",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/city.js",
+      "bytes": 4534,
+      "sha256": "89878d943d66d796e257ac774ff096b0923d04813f85aa801f02c108a5101171",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/city/city.css",
+      "bytes": 4377,
+      "sha256": "2f721a60eaaef8a413360e934edfb38436d2064fdb01da6d0aaecccbd4b2680a",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/city/city.js",
+      "bytes": 6612,
+      "sha256": "85b6b15e40beb17bce38d35931c1f675ae6dc0cba9403fca1677d589b651544b",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/city/index.html",
+      "bytes": 1011,
+      "sha256": "9b635b560581d02d70bb8a3a1212398302f5bbd38a8d32119c105bdf71366119",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/collection/catalog.js",
+      "bytes": 5177,
+      "sha256": "f065c564d306532fcb4de09ee8a42216ac3f1c0c8a5b40b81a4fbcdf2c526946",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/collection/reader-bridge.js",
+      "bytes": 6008,
+      "sha256": "6016871fcae1cf15118a91038dcb944c86cbc6c36da1efaebe9f6ddcbdd28053",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/collection/reader.css",
+      "bytes": 1434,
+      "sha256": "3e4f037042c4d5c2e67940370849cbf036d747ac7de0fc1ebb4c0529b6c0dc55",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/collection/shelf-text.js",
+      "bytes": 2081,
+      "sha256": "ebb6341030da55e1323ce3319ea66e6cf3345378012d7aa53335795bd013facb",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/collection/store.js",
+      "bytes": 2580,
+      "sha256": "66960cf31363adff56f4c3a610233a1f19ead8fa8e8523e23932ac3dd4b7c974",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/i18n.js",
+      "bytes": 3960,
+      "sha256": "8325d6b746278ecd88f396a7b342610ccdbb10757884a49167b4e2cb2c39ab09",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/index.html",
+      "bytes": 1003,
+      "sha256": "97f3664c24ff30f69713b48f2771eb8364ca1ce2f97e762a8b875715dc955d85",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/navigation.css",
+      "bytes": 1965,
+      "sha256": "fce1ae3126ab2be613f98aa9a8891f40fe47e6778e8787b3a47a783e65306d78",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/navigation.js",
+      "bytes": 1431,
+      "sha256": "7f78ecce54c3c7a0c2bf76c1d062d64d37ff459fd736e5ce23fd3c98362f9ed6",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/play.css",
+      "bytes": 10573,
+      "sha256": "be8ee8ca3fd2285ec29cab6507a12976f960e22bdc087bb3c416413169e5ac6e",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/progress.js",
+      "bytes": 4418,
+      "sha256": "529e7d6d3103e04f0cfff60ec2692706362c4f862f847a952a2246e06561108a",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/reader-bridge.css",
+      "bytes": 1546,
+      "sha256": "a85ad30614e5685ed9ee48e71a77435715d489238e5f1dffa31aad3230d861f7",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/reader-bridge.js",
+      "bytes": 6199,
+      "sha256": "df9c8bdc4a852c385d52779ad19d9b7d1c9db891ed8423e9ad27876a6ffa48fa",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/reader-labels.js",
+      "bytes": 875,
+      "sha256": "89b219cce66c904da6c438f5e9f824558f30a0140d0a9c2d5bcb8ab96a4f9b15",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/route/README.md",
+      "bytes": 6326,
+      "sha256": "2e57a6622e7ef8c7da7cbef93eaaeeee4839f7c0de2ba46cdda66c9c4eb4c799",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/route/check-route.mjs",
+      "bytes": 9671,
+      "sha256": "d3cd32601e67ade257fddf6c8cb308ee3c76948e76e9d59fd7eb93196d047cea",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/route/data.js",
+      "bytes": 7478,
+      "sha256": "e56abfdb2cc5414f313684b776bff282adac6754c6b09279a47076baf9206747",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/route/metadata.js",
+      "bytes": 3130,
+      "sha256": "46648a0582f2f85436fec6edce4d9e8b2acb4bfff125b8c6dcf2bcff1c932386",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/route/selectors.js",
+      "bytes": 5768,
+      "sha256": "929bf1a0f0e27a71010360b6590a452d744a52df9a15d2cfa61a0b0387f8def9",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/source-data.js",
+      "bytes": 2924,
+      "sha256": "2408f06e94e9f663280cc264b897b44631561c3fd0e48e617fde0aeb648e81bf",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/sources.html",
+      "bytes": 5513,
+      "sha256": "973193b7f50424b4f7c97505d284283dcf485a8e2e0a8b98dee97c3a73193cb3",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/art-directions.js",
+      "bytes": 3199,
+      "sha256": "38226f50b9ff65dfc67932e4b4a1da85f3b3d83aefda682d9b0db0932fe9e60f",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/assets/archipelago-concept.png",
+      "bytes": 4359575,
+      "sha256": "1bba51877b345e62e6742ad34ec610b1249bc580f16902dc26e030854f4aaa08",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/assets/city-cats-concept.png",
+      "bytes": 3839442,
+      "sha256": "6f87d36440d41c73d484fddd604505ed370fe89cd2d8ca0c2fb495d3979cceac",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/assets/city-concept.png",
+      "bytes": 4540963,
+      "sha256": "3b7825c808445f451b377f3f6f3dbdcdac89923c40e98d3d239f60ec50aba3b1",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/assets/city-dharma-dock-concept.png",
+      "bytes": 2069123,
+      "sha256": "2bbe41bd04e24a9ca5c78bbdc00a0318f19c052d8ff5d9c2548e569b4545bd22",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/assets/city-lord-facial-hair-layer.png",
+      "bytes": 2154990,
+      "sha256": "8a1bc7638be862d85090b678a4be4a30855bfd70392b36ccb417ae0beaf1a300",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/assets/city-moustache-concept.png",
+      "bytes": 4014835,
+      "sha256": "e90e84c33f3679e2e80cfce3c486c59af8b4a5dfe4eeec427cac2412efedba00",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/assets/city-scroll-audience-concept.png",
+      "bytes": 3457217,
+      "sha256": "af2db3ed196e19ad3f98b17a8f86de6d3d5475546701e5e6b26a160815ca048c",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/assets/city-tactics-concept.png",
+      "bytes": 4290086,
+      "sha256": "44038d6ca0c3be1944aaaaf3aeaf15e9b8c99e209369b9f07d6c2776f53885f5",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/assets/continent-concept.png",
+      "bytes": 2318311,
+      "sha256": "9a80bb4835a8a3b4b047e187e5ef9e463f18b9a3668012c6f8bb3536b88ffc9e",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/assets/garden-growth-concept.png",
+      "bytes": 1832531,
+      "sha256": "6f7036993b3551abdcfd7974c7c4899f32c96a33a9525d46f2853a188d92af8f",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/assets/island-atlas-concept.png",
+      "bytes": 3144769,
+      "sha256": "c72efa220df2626fc9dd3db53f4cd8a30edc8968eb3d80f7a9e5788be05cce8d",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/assets/kitten-boat-concept.png",
+      "bytes": 2462268,
+      "sha256": "b3831259de9a4aabd4fbdd78b566c5bc1b28262fa0c13202f059838b3c0724c5",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/assets/kitten-rowboat-concept.png",
+      "bytes": 2418210,
+      "sha256": "05d986c118ae680cca2524a85efd4508460931ee20b2b77b44f1c30fec0a6bef",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/assets/library-concept.png",
+      "bytes": 3502536,
+      "sha256": "cabee17485a87af331b3ce91b6d44b55cc56ea0b8c075eedbc2261e11887adb0",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/assets/mountain-atlas-concept.png",
+      "bytes": 3082144,
+      "sha256": "12e5989feaca8aa32163c3d6c3a0c0cd2b53b24bb0738c587f002b379a726f85",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/assets/network-sea-concept.png",
+      "bytes": 3227949,
+      "sha256": "e7995ffae3e8b18b05d5becc5f5753e5ca74a4b4769f10b7e9de258e8d96f6b6",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/assets/network-terrain-concept.png",
+      "bytes": 3446712,
+      "sha256": "7c64dbc9a7ba3a269cc410f25dfe10f46659034b99060e75876caa55e6ad5981",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/assets/network-world-concept.png",
+      "bytes": 3566648,
+      "sha256": "89402d1edfcc8e4ff1eb4fdcb5b27448cbdafde5957ef75e7794962d1842ab48",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/assets/shelf-02.svg",
+      "bytes": 346,
+      "sha256": "83b258dced655e12036a75fd1f3bc3a73b3d4bcc775b7569d75d6d5f518c7e38",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/assets/shelf-03.svg",
+      "bytes": 360,
+      "sha256": "5037ac6891a9931d0d661b95cd028bbc95910cbc4bf2c11af76f75c29affebdc",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/assets/shelf-04.svg",
+      "bytes": 277,
+      "sha256": "c46be08c8687bee22c303c11f9be121e23078e35483fabb333ed850fe74498d0",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/assets/shelf-05.svg",
+      "bytes": 273,
+      "sha256": "5847e18e5d39e06820d77495b3ea68f1e6f0a3b512ce1bb3f70621fec1858e5f",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/assets/shelf-06.svg",
+      "bytes": 286,
+      "sha256": "75741c878a8ce72a0b3aea5b0e0b54639389cb54c4bd06a8f37294e9522f99bb",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/assets/shelf-07.svg",
+      "bytes": 267,
+      "sha256": "a8e197fc8849f7b8941509aaec125b89505dfcf0b382d84d240e9cd7f4837002",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/assets/shelf-08.svg",
+      "bytes": 279,
+      "sha256": "99dad7ca661dc040e4d7acaf62f4c987c0d109eacca14a8619e634253c633536",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/assets/shelf-09.svg",
+      "bytes": 358,
+      "sha256": "04007c11449c37107694770a962392380f571dbe1490f8eeeac91975c9f1dc42",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/assets/shelf-10.svg",
+      "bytes": 258,
+      "sha256": "51addbe26df79e7e9a4c66504b4211018cbef1aea694f8f1b26c9dd21cd687ac",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/assets/shelf-11.svg",
+      "bytes": 277,
+      "sha256": "08dadb4a5cc9778028ede2e714268b5bc0216012da63f37d1e8ec38c627e423f",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/assets/shelf-12.svg",
+      "bytes": 265,
+      "sha256": "bda3e715d614eea1be69324f1c09e8f9872386105e37db345676f83b18346273",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/assets/shelf-13.svg",
+      "bytes": 326,
+      "sha256": "392dfa4161d6727a33da09305314336af467e9201e21e6c25d53587221a790d6",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/assets/shelf-14.svg",
+      "bytes": 304,
+      "sha256": "7e5c6add3d643edb61d9e159779d59aaf1c868fb5f461032bf2a78bb261a65c2",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/assets/shelf-lock.svg",
+      "bytes": 226,
+      "sha256": "3ab8e2d51e47aae7a03c963b403f15f292f148bd60049a4e8f29430efe3a1ed4",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/city-tactics.css",
+      "bytes": 7164,
+      "sha256": "fa1534ad993b086d46c5304b2a2fe61331761397e41ff3b1677f5d8de9752860",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/city-tactics.js",
+      "bytes": 14332,
+      "sha256": "8e6b09b8c7ca9a840f5d8f6e93efbe5558bbb0b770f87a050f3c96f08516ec90",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/data.js",
+      "bytes": 4494,
+      "sha256": "cc712c9fe52939239a1b5f0638565b7b3fd4022090530560f80d0b5faf13c5c6",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/index.html",
+      "bytes": 2706,
+      "sha256": "bda4f131363dd5ff84c8230f7446acbac6fb0591dc9433dcafd0ec5918aff5db",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/network-data.js",
+      "bytes": 46305,
+      "sha256": "36575768f6fd6b7a49cc2d14c2751d5770898fcb7ac1acca36b14f3a712e086a",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/network.css",
+      "bytes": 8600,
+      "sha256": "712008de410b93549c4b0e20df51f2332e8b0d3d05e6dc50f55d8995e34908ce",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/network.js",
+      "bytes": 8219,
+      "sha256": "ed9a5f6eb6f7c93751387d426a9b4fcce0667d1eb1d85014ca7985c7f8d9341a",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/preview.css",
+      "bytes": 12309,
+      "sha256": "5d149c9228fa623955fb91a345faaf1d31cd9c0a08f86fcc41d2b3b1887d1480",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/preview.js",
+      "bytes": 13046,
+      "sha256": "cf69aefb3a7030bd4f57eaf639b54b4515ebb9004aa2dc0ad9f8f0036380689e",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/shelf.css",
+      "bytes": 7731,
+      "sha256": "399ce403c2b5bfea6452b0602a7856f466192a7d09c01e955fd44aedbd566d22",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/shelf.html",
+      "bytes": 2286,
+      "sha256": "5c4d5787495362c1adc89b358d2b883536642a3fcad02d6f5b9aeeb9660de234",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/visual-v2/shelf.js",
+      "bytes": 5379,
+      "sha256": "995c076924fb32d729f30111f6a80bd9396cbe44e0e59c0e61c695058782dfd8",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/worldmap-v4/assets/detail-northeast.png",
+      "bytes": 3418121,
+      "sha256": "3cb93dbbb37cbff3b2241a01d6848d4a055aeb2b22c61db7aa57ebfeb176c955",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/worldmap-v4/assets/detail-northwest.png",
+      "bytes": 3455230,
+      "sha256": "499749b280f5ff52ebeedcc8a40414f3c9df4b596bf5e4d324f3dc69f6712632",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/worldmap-v4/assets/detail-southeast.png",
+      "bytes": 3851675,
+      "sha256": "6cea49791ee546643e9ee8f6144c642e9de7ddfed614332b8321c85dd78f5a13",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/worldmap-v4/assets/detail-southwest.png",
+      "bytes": 3830766,
+      "sha256": "a2fb1969b4402e604d8fd9c443e4e6b031a2450811b5452003bbedab6664ddd6",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/worldmap-v4/assets/worldmap-master-concept.png",
+      "bytes": 3550547,
+      "sha256": "a45b83312286730830310e0035dca6dcfd8d994d30c248d11e9a884799afb5a7",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/worldmap-v4/completion-feedback.js",
+      "bytes": 1737,
+      "sha256": "8c41d43510230f8feed466ceac3709dddbdd45176f406fc189e18639535b5c20",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/worldmap-v4/data.js",
+      "bytes": 5862,
+      "sha256": "bf782fc6564ee1012fde0cae10a42bd317844b6153458de23ed158ba3b924a3f",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/worldmap-v4/index.html",
+      "bytes": 2523,
+      "sha256": "819e4436a6c423c2085f65d2cb083dc22bcaec303449de799bd303585a893f84",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/worldmap-v4/text.js",
+      "bytes": 4695,
+      "sha256": "79cf8963e2ca5a93b8a0f19fa9bbf5e445816266965190dac1bf9a9c3ea1298b",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/worldmap-v4/worldmap.css",
+      "bytes": 9299,
+      "sha256": "2b941be11695fcbe238debaaa17b0dcc7664545c2dab9b7a3d367acceba8b732",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "play/worldmap-v4/worldmap.js",
+      "bytes": 14631,
+      "sha256": "2201471a63a8edd8969d88cd37c7d6f6ab5410afda530c9886d984eac46451a8",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "right-effort/book/index.html",
+      "bytes": 3943,
+      "sha256": "70105fd240e259dec153ab6a68fe20faa907d9910bc7f65f88bfae6f9c2a8d95",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "right-effort/index.html",
+      "bytes": 17427,
+      "sha256": "ac3c0738d9c06a94addcb01362a51eabf6596d7dcedc9a21733d4b3cee48bf5f",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "seven-factors/assets/12.webp",
+      "bytes": 554156,
+      "sha256": "0f2719034e01ec879e6af050db5ae1ea1e8714dcb7af85a5785a09d82fcdd66e",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "seven-factors/book/index.html",
+      "bytes": 4239,
+      "sha256": "e6aedfd96766ce2871be58024dd13fc1887e6895bb68461c52e03c2af0cb0dd4",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "seven-factors/index.html",
+      "bytes": 21115,
+      "sha256": "a072842e9586b03b2c8416b399a0259a85582284b2c60a69b542a2b18e4c6c17",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "six-senses/book/index.html",
+      "bytes": 15672595,
+      "sha256": "75f4ff83ab1300625a035e0a5430e5f21f93a1d939a17ee9625719548e2ee67b",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "six-senses/cover.webp",
+      "bytes": 96216,
+      "sha256": "241d0ad99ec6074a94cd4affd2fadd5bd7e4617f6f114b141dbc065d9d63d98a",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "six-senses/index.html",
+      "bytes": 1339219,
+      "sha256": "c59ad8fa761f7c6d1b710d05a4b369f294aa0624fe85710a6119b71ec7130e04",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "twelve-links/book/index.html",
+      "bytes": 486951,
+      "sha256": "33c34659d67b9ede0102e40a60275f711088a518157b0efaf6f686104453d356",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "twelve-links/cover.webp",
+      "bytes": 362820,
+      "sha256": "4f51c8d834a0e487660fdfa4edbd130157e283b7f9b344fd0e840ae54c511843",
+      "localHttpHeadStatus": 200
+    },
+    {
+      "path": "twelve-links/index.html",
+      "bytes": 45388,
+      "sha256": "bbe193f16c59f131a4d4f41260ab1ba25afc88bc53abf735e8dd2edf75be2dc1",
+      "localHttpHeadStatus": 200
+    }
+  ]
+}

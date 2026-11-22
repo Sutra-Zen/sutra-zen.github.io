@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-21",
+  "activeTraveler": "kitten-rowboat-concept.png; no lantern, no text",
+  "supersedes": "kitten-boat-concept.png retained only as earlier proposal artifact",
+  "assets": [
+    {
+      "path": "play/visual-v2/assets/kitten-rowboat-concept.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "bytes": 2418210,
+      "sha256": "05d986c118ae680cca2524a85efd4508460931ee20b2b77b44f1c30fec0a6bef",
+      "status": "generated concept pending author review"
+    },
+    {
+      "path": "play/visual-v2/assets/island-atlas-concept.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        253
+      ],
+      "bytes": 3144769,
+      "sha256": "c72efa220df2626fc9dd3db53f4cd8a30edc8968eb3d80f7a9e5788be05cce8d",
+      "status": "generated concept pending author review"
+    },
+    {
+      "path": "play/visual-v2/assets/network-sea-concept.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "bytes": 3227949,
+      "sha256": "e7995ffae3e8b18b05d5becc5f5753e5ca74a4b4769f10b7e9de258e8d96f6b6",
+      "status": "generated concept pending author review"
+    }
+  ]
+}

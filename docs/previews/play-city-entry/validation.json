@@ -1,0 +1,376 @@
+{
+  "baseline": "fd7d44c",
+  "protectedTrackedFiles": 619,
+  "originalFourteenBooksAndSourcePackages": "byte-for-byte unchanged",
+  "collectionStoreCatalogBridgeAndRoute": "byte-for-byte unchanged",
+  "rootHomepageSEOAndSharedReaderControls": "byte-for-byte unchanged",
+  "cityArt": {
+    "assets": [
+      {
+        "path": "play/visual-v2/assets/city-moustache-concept.png",
+        "size": [
+          1672,
+          941
+        ],
+        "sha256": "e90e84c33f3679e2e80cfce3c486c59af8b4a5dfe4eeec427cac2412efedba00"
+      }
+    ],
+    "visualInspection": "Six painted gates; crowned orange-tabby lord with moustache; guardian and black-white/calico messengers remain distinct; no baked name labels",
+    "native4K": false,
+    "status": "Generated concept pending author confirmation"
+  },
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "publication": "Local review only; not merged or deployed",
+  "physicalSafari": "Not tested; Chromium viewport simulation only",
+  "fixtureBoundary": "Disposable valid browser backups exercise presentation; genuine completion is separately verified with native Next buttons",
+  "navigation": [
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "origin": "map",
+      "fourLinksAndCastleSvg": true,
+      "headerVisibleAfterScroll": true,
+      "nativeCityEntry": "independent /play/city/ page",
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "origin": "city",
+      "fourLinksAndCastleSvg": true,
+      "headerVisibleAfterScroll": true,
+      "nativeCityEntry": "independent /play/city/ page",
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "origin": "shelf",
+      "fourLinksAndCastleSvg": true,
+      "headerVisibleAfterScroll": true,
+      "nativeCityEntry": "independent /play/city/ page",
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "origin": "map",
+      "fourLinksAndCastleSvg": true,
+      "headerVisibleAfterScroll": true,
+      "nativeCityEntry": "independent /play/city/ page",
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "origin": "city",
+      "fourLinksAndCastleSvg": true,
+      "headerVisibleAfterScroll": true,
+      "nativeCityEntry": "independent /play/city/ page",
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "origin": "shelf",
+      "fourLinksAndCastleSvg": true,
+      "headerVisibleAfterScroll": true,
+      "nativeCityEntry": "independent /play/city/ page",
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "origin": "map",
+      "fourLinksAndCastleSvg": true,
+      "headerVisibleAfterScroll": true,
+      "nativeCityEntry": "independent /play/city/ page",
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "origin": "city",
+      "fourLinksAndCastleSvg": true,
+      "headerVisibleAfterScroll": true,
+      "nativeCityEntry": "independent /play/city/ page",
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "origin": "shelf",
+      "fourLinksAndCastleSvg": true,
+      "headerVisibleAfterScroll": true,
+      "nativeCityEntry": "independent /play/city/ page",
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "origin": "map",
+      "fourLinksAndCastleSvg": true,
+      "headerVisibleAfterScroll": true,
+      "nativeCityEntry": "independent /play/city/ page",
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "origin": "city",
+      "fourLinksAndCastleSvg": true,
+      "headerVisibleAfterScroll": true,
+      "nativeCityEntry": "independent /play/city/ page",
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "origin": "shelf",
+      "fourLinksAndCastleSvg": true,
+      "headerVisibleAfterScroll": true,
+      "nativeCityEntry": "independent /play/city/ page",
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "origin": "map",
+      "fourLinksAndCastleSvg": true,
+      "headerVisibleAfterScroll": true,
+      "nativeCityEntry": "independent /play/city/ page",
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "origin": "city",
+      "fourLinksAndCastleSvg": true,
+      "headerVisibleAfterScroll": true,
+      "nativeCityEntry": "independent /play/city/ page",
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "origin": "shelf",
+      "fourLinksAndCastleSvg": true,
+      "headerVisibleAfterScroll": true,
+      "nativeCityEntry": "independent /play/city/ page",
+      "viewportOverflow": "none"
+    }
+  ],
+  "coastalLine": {
+    "originalEdges": 46,
+    "sourceIdentityPreserved": true,
+    "target": "overview-branch-road-overview-eightfold-overview",
+    "displayPath": "M1480 693C1580 700 1536 770 1440 810L672 810C475 830 185 825 128 770S45 630 80 540L128 423",
+    "originalEndpointPair": [
+      [
+        1480,
+        693
+      ],
+      [
+        128,
+        423
+      ]
+    ],
+    "centralDiagonalCrossings": 0,
+    "landmarkAnchors": "unchanged",
+    "noInventedHarborIddhipadaJhanaEdges": true,
+    "separateGeographicAccess": {
+      "start": [
+        1152,
+        630
+      ],
+      "via": [
+        1152,
+        531
+      ],
+      "end": [
+        128,
+        423
+      ]
+    },
+    "geographicAccessIsNotSemanticNeighbour": true
+  },
+  "cityLayouts": [
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "htmlLabels": 14,
+      "gates": 6,
+      "nativeComponentDialogs": 14,
+      "leaderEndpointsFollowLabels": true,
+      "imageAndOverlayFrame": [
+        1672,
+        941
+      ],
+      "completeImageNotCropped": true,
+      "labelsSelectable": true,
+      "progressUnchangedByInspection": true,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "htmlLabels": 14,
+      "gates": 6,
+      "nativeComponentDialogs": 14,
+      "leaderEndpointsFollowLabels": true,
+      "imageAndOverlayFrame": [
+        1672,
+        941
+      ],
+      "completeImageNotCropped": true,
+      "labelsSelectable": true,
+      "progressUnchangedByInspection": true,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "htmlLabels": 14,
+      "gates": 6,
+      "nativeComponentDialogs": 14,
+      "leaderEndpointsFollowLabels": true,
+      "imageAndOverlayFrame": [
+        1672,
+        941
+      ],
+      "completeImageNotCropped": true,
+      "labelsSelectable": true,
+      "progressUnchangedByInspection": true,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "htmlLabels": 14,
+      "gates": 6,
+      "nativeComponentDialogs": 14,
+      "leaderEndpointsFollowLabels": true,
+      "imageAndOverlayFrame": [
+        1672,
+        941
+      ],
+      "completeImageNotCropped": true,
+      "labelsSelectable": true,
+      "progressUnchangedByInspection": true,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "htmlLabels": 14,
+      "gates": 6,
+      "nativeComponentDialogs": 14,
+      "leaderEndpointsFollowLabels": true,
+      "imageAndOverlayFrame": [
+        1672,
+        941
+      ],
+      "completeImageNotCropped": true,
+      "labelsSelectable": true,
+      "progressUnchangedByInspection": true,
+      "viewportOverflow": "none"
+    }
+  ],
+  "nativeCityReading": {
+    "componentBook": "lord→five-aggregates",
+    "actualNext": "0→1→2→3, reload3, city primary resume3, Next4 without completing",
+    "resizePreservesBookmark": "390x844→844x390",
+    "rereadFixture": "Earned book restarts0, Next1/reload1, city primary resumes1 with count1",
+    "originalJourneyAndUnrelatedKeys": "preserved"
+  },
+  "actualCompletion": {
+    "book": "four-truths",
+    "nativeReadingSteps": 29,
+    "reload": "step5",
+    "arrivalAtLastPageDoesNotComplete": true,
+    "explicitFinishCount": "1/14",
+    "destination": "/play/worldmap-v4/",
+    "reward": "compact optional city entry, no full city embed",
+    "primaryNext": "five-aggregates step0",
+    "cityViaHeader": "independent page stage1/count1"
+  },
+  "lastBookFeedbackFixture": "Valid restored final-book bookmark74 with13completed; explicit last action adds only final to14, compact ending action and optional native city link work; no fifteenth book",
+  "highResolutionExport": {
+    "method": "Actual world-element browser screenshots at deviceScaleFactor3; page chrome hidden only for export",
+    "nativeBackground": [
+      1672,
+      941
+    ],
+    "native4KArtwork": false,
+    "progressFixture": "Free exploration in an empty disposable browser, no completion record written",
+    "exports": [
+      {
+        "path": "docs/previews/play-city-entry/worldmap-3840x2160-no-lines.png",
+        "pixels": [
+          3840,
+          2160
+        ],
+        "linesVisible": false,
+        "cssWorld": [
+          1280,
+          720
+        ],
+        "originalSourceEdges": 46
+      },
+      {
+        "path": "docs/previews/play-city-entry/worldmap-3840x2160-with-lines.png",
+        "pixels": [
+          3840,
+          2160
+        ],
+        "linesVisible": true,
+        "cssWorld": [
+          1280,
+          720
+        ],
+        "originalSourceEdges": 46
+      }
+    ]
+  }
+}

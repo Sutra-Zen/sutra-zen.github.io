@@ -6,6 +6,16 @@
 - Related Buddhist learning map: https://sutrazen.netlify.app/map.html
 - Primary language: Traditional Chinese (Taiwan)
 
+## Public game entry release (2026-11-22)
+
+The author explicitly authorized this round's publication at `https://sutra-zen.github.io/game/`, superseding the earlier game-preview-only restrictions. `release/game-first-playable` starts from reviewed prototype `a2b3225`, which already contains current main `b9a0dad2`; [release PR60](https://github.com/Sutra-Zen/sutra-zen.github.io/pull/60) targets main while retaining the prototype review history. The PR's delivery record must confirm the actual merge SHA, Pages result and live checks before the public URL is claimed available.
+
+`game/index.html` mounts the existing worldmap shell using an explicit base URL; `scripts/build-game-entry.py` keeps the intentional title/base/brand/badge differences reproducible. Runtime, book data, images, saved book IDs and storage keys remain shared. The opt-in reader bridge accepts only the existing worldmap return, the new `game` return, or the default collection shelf. City, shelf and source return links lead to `/game/`; standalone original books retain their interface. The public trial is deliberately noindex, with the existing fifteen-page SEO/Google files preserved.
+
+Sea-map labels are 「安那般那與止觀竹林」 and 「六念燈塔」. The city audience scene places the crowned moustached/goateed lord forward by the plaza, with black-white/calico messengers and an open cream scroll. Editable labels read 「地水火風四大廣場」「止・觀使者」「如實消息・涅槃」; the message leader uses the scroll's image-relative center. Scroll and facial hair are story artwork, not additions to the canonical allegory.
+
+`_config.yml` preserves legacy main:/ Pages publishing and only excludes nine game QA evidence directories from its artifact; all Git history, older preview URLs, original documents, book images and source PDFs remain. The source-size estimate falls from about957MB to775MB before this round's small assets. See `docs/play/game-release/` for the runtime asset manifest and limitations, and `docs/previews/play-game-release/` on GitHub for actual checks/screenshots. Real iPhone/iPad Safari remains untested unless a later record says otherwise.
+
 ## Current status and deployment (verified 2026-11-19)
 
 The owner renamed `rooneyflower-star/sutrazen-map` to `Sutra-Zen/sutra-zen.github.io`; GitHub repository ID 1441581789 and commit history are unchanged. Baseline main `2ec341a6ffa1a4f0108183da980e9af85c55bd31` includes all fourteen released books and the latest Anapana scripture/comic-focus corrections. Older dated preview restrictions below describe historical work; use the newest HANDOFF entry and the current user's authorization.
@@ -38,6 +48,28 @@ Original author-supplied handoff documents, manifests, screenshots and historica
 - `docs/` — 交接、原稿與驗證；`scripts/` — 各書建置及檢查；`downloads/` — 既有離線包。
 
 The twelve-link reader is implemented in twelve-links/ and preserves 77 pages: 18 narrative scenes plus an afterword. The author approved publication on 2026-11-14. Verify the corresponding GitHub Pages deployment before claiming live availability.
+
+## Independent city preview (2026-11-22, not published)
+
+`/play/city/` now owns the complete six-gate city scene. Opted-in preview headers share `play/navigation.js/css`: sea map, original mind map, castle icon + city, shelf. The city keeps a primary continue-reading action, a sea-map return, image-relative editable labels, feature explanations and original-book rereading. `?review=all` shows an explicitly marked full-art review without changing saved progress; default entry reads the real collection. Old `visual-v2/?view=city` entries redirect here and retain a valid review parameter. The small harbor-city illustration remains future artwork, not an additional map button in this round.
+
+The new crowned lord concept adds an eight-shaped moustache while retaining the chin beard; black-white and calico messengers remain separate. Native art is1672×941, not4K or fully separated animation layers. Completion dialogs show only a compact reward feature with “continue next book” primary and “see city” secondary; they no longer embed the full city. The misleading harbor/eightfold-station diagonal follows the coastal road. A separate geographic-only path connects Four Jhanas → Iddhipada → harbor, without changing the original46 source relations or route progression. Details, limitations and screenshots: `docs/play/city-entry/` and `docs/previews/play-city-entry/`.
+
+## World landscape map-v4 and route-r3 (2026-11-22, not published)
+
+The current draft adds `/play/worldmap-v4/`: a shared1600×900 two-row/five-column landscape, fog without map locks, editable labels, original relation overlays and route-r3 recommendations. All fourteen existing readers remain supported; collection completion IDs are the sole source for map/shelf/city rewards. The optional `collectionReturn=worldmap-v4` integration returns only this new entry to real city feedback; default collection and standalone readers retain their behavior. New cat city art has the crowned short-bearded orange lord, black-white/calico messengers and an independent wooden Dharma dock. See `docs/play/worldmap-v4/README.md` and `docs/previews/play-worldmap-v4/`. The3840×2160 exports are browser renders, while the native illustration remains1672×941; full native4K/layered art and the complete ending remain pending. DraftPR59 is still against the prototype branch, with no main merge/deployment authorized; latest main remains `b9a0dad2`.
+
+## Art-direction comparison preview (2026-11-21, not published)
+
+The existing `preview/journey-visual-v2` draft now includes original-watercolor / terrain / fantasy-world map comparisons, a new no-grid top-down six-gate city and bound-book collection covers. Only proposal visuals change; source graph, collection/journey storage, fourteen reader files and production site are unchanged from `dedc066`. See `docs/play/visual-v2/ART-DIRECTIONS.md` and `docs/previews/play-art-directions/`. Main remains `b9a0dad2`; no merge or publication is authorized.
+
+## Collection and continent preview (2026-11-21, not published)
+
+`preview/journey-visual-v2` now includes a connected bottom continent with topic mountains and a shelf for collecting fourteen books. An independent `sutrazen.play.collection.v1` store and opt-in reader module support explicit end-of-book completion across all fourteen originals; each book HTML only adds the module, preserving standalone behavior. The first-three-book journey remains separate. See `docs/play/collection/README.md` and newest HANDOFF for actual1192-step verification, art limitations and local entry routes. PR59 is a draft against the prototype branch, with no main merge or public deployment authorized.
+
+## Picture-book journey prototype (2026-11-21, not published)
+
+Branch `feat/picture-book-journey-v1` adds an isolated `/play/` prototype for the first three original books, opt-in reader progress and a six-gate SN35.245 castle sketch. It does not replace the map, promote itself from the homepage or change Pages. No merge/deployment is authorized for this task. Run a local root HTTP server and open `/play/`; see `docs/play/README.md` for implementation boundaries, source verification, provisional character art, save schema and validation. The proposed production URL is not evidence of public availability.
 
 ## Visual and reading experience
 - Picture-book visual language: gentle hand-drawn children's illustration, recurring kitten character where appropriate, 16:9 artwork.

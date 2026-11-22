@@ -1,0 +1,40 @@
+{
+  "method": "Actual browser world-element screenshot at deviceScaleFactor3,1280x720 CSS world; outside page chrome hidden only for export; original illustration file not resized or replaced",
+  "mode": "free exploration, empty disposable collection save; not completed achievements",
+  "nativeBackground": [
+    1672,
+    941
+  ],
+  "exports": [
+    {
+      "path": "docs/previews/play-worldmap-v4/worldmap-3840x2160-no-lines.png",
+      "pixels": [
+        3840,
+        2160
+      ],
+      "linesVisible": false,
+      "worldBox": {
+        "x": 29,
+        "y": 1,
+        "width": 1280,
+        "height": 720
+      },
+      "originalBackgroundUnmodified": true
+    },
+    {
+      "path": "docs/previews/play-worldmap-v4/worldmap-3840x2160-with-lines.png",
+      "pixels": [
+        3840,
+        2160
+      ],
+      "linesVisible": true,
+      "worldBox": {
+        "x": 29,
+        "y": 1,
+        "width": 1280,
+        "height": 720
+      },
+      "originalBackgroundUnmodified": true
+    }
+  ]
+}

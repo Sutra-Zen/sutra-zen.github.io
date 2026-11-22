@@ -1,0 +1,89 @@
+{
+  "baseline": "0f0a797",
+  "books": {
+    "four-truths": {
+      "position": "1 / 29 頁",
+      "kind": "pages/scenes",
+      "originalDataSha256": "4dfc4a637cb9a15541d7caf6a1f91e939358c9d9d46e00747e438b552068c132",
+      "total": 29
+    },
+    "five-aggregates": {
+      "position": "1 / 54 頁",
+      "kind": "pages/scenes",
+      "originalDataSha256": "008936cd50d077193faa98fe65a8f58f9b0a23429ce9cd34d9586d793f939b07",
+      "total": 54
+    },
+    "six-senses": {
+      "position": "1 / 115 頁",
+      "kind": "pages/scenes",
+      "originalDataSha256": "ad4b8be1dcc6a4966988ed2a4760aa41f3febe1db3e6698d003bcd22bf30ba91",
+      "total": 115
+    },
+    "twelve-links": {
+      "position": "1 / 77 頁",
+      "kind": "BOOK",
+      "originalDataSha256": "ed2d679f76c9809ffff60f5c15ec87095d8735ba5654a5cf38705dca49aaeaf6",
+      "total": 77
+    },
+    "eightfold-path": {
+      "position": "1 / 111 頁",
+      "kind": "BOOK",
+      "originalDataSha256": "46de5329eaf86241867eb311a73c2f635b26771afa722148ba5d66b8874d3c3e",
+      "total": 111
+    },
+    "four-fruits-ten-fetters": {
+      "position": "1 / 75 頁",
+      "kind": "BOOK",
+      "originalDataSha256": "599d1e715a69c25427247a6348c8646cd8ff26a528564309c9fac5fcfe62bcfd",
+      "total": 75
+    },
+    "four-purities-six-recollections": {
+      "position": "1 / 95 頁",
+      "kind": "BOOK",
+      "originalDataSha256": "bae0138167bdeb71792953f302b70e46164447015e2cd2f6603245ddf28e1859",
+      "total": 95
+    },
+    "mindfulness": {
+      "position": "1 / 111 頁",
+      "kind": "BOOK",
+      "originalDataSha256": "48eef8838cbfabe907aef5466edca29b4241213f61109b28a25f112db3041b6e",
+      "total": 111
+    },
+    "right-effort": {
+      "position": "1 / 81 頁",
+      "kind": "BOOK",
+      "originalDataSha256": "4ae4322c43fbf668ba1b56737ea5d81340521c6bc30025caa659fb455a57850f",
+      "total": 81
+    },
+    "anapana": {
+      "position": "1 / 119 頁",
+      "kind": "BOOK",
+      "originalDataSha256": "75bb38cf0675d0e4da17f94295578652a8e05dc4740f905d8191f34df0590c9d",
+      "total": 119
+    },
+    "iddhipada": {
+      "position": "1 / 82 頁",
+      "kind": "BOOK",
+      "originalDataSha256": "08b0fa99fb283312decdacfc8d68f35975e9b06b0e7c7c05d3cfe77e01a5f874",
+      "total": 82
+    },
+    "four-jhanas": {
+      "position": "1 / 131 頁",
+      "kind": "BOOK",
+      "originalDataSha256": "6de3bbac68f1c3ab51a60b79992c098d04fc61c6ce786eea995f56365816bc3a",
+      "total": 131
+    },
+    "five-roots-powers": {
+      "position": "1 / 75 頁",
+      "kind": "BOOK",
+      "originalDataSha256": "f21d6b75ca26c039f2351cc43fa117ba6d079388ff77086f19925dfbc14f462b",
+      "total": 75
+    },
+    "seven-factors": {
+      "position": "1 / 37 段 · 1/12 頁",
+      "kind": "BOOK",
+      "originalDataSha256": "dbaa5089143ff6080800af70507b6870c7ac4e73b45a4f31c21135474fc1c766",
+      "total": 37
+    }
+  }
+}

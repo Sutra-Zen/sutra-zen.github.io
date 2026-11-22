@@ -1,0 +1,572 @@
+{
+  "version": 1,
+  "auditedDate": "2026-11-21",
+  "repository": "Sutra-Zen/sutra-zen.github.io",
+  "currentBaseCommit": "b9a0dad2c2c34d7e15e6dc5e55d6125de630f57b",
+  "originalShelfCommit": "6aaa1af08a4a205a29d840b6d430bcc7f334d378",
+  "originalShelfSource": "index.html",
+  "originalDataUrlCount": 0,
+  "currentDataUrlCount": 0,
+  "summary": "Original locked miniatures 02–14 are inline SVG icons, not embedded WebP or image data URLs. Current published covers are separate local image assets. All 14 original public readers remain available; only the first 3 are playable within journey v1.",
+  "items": [
+    {
+      "number": 1,
+      "id": "four-truths",
+      "title": "四聖諦",
+      "gameState": "playable-in-v1",
+      "originalPublicReader": {
+        "sitePath": "/four-truths/book/",
+        "available": true
+      },
+      "originalLockedIcon": {
+        "kind": "absent",
+        "reason": "The original shelf first launched with book 01 already readable and its elephant-footprint artwork. It never had the same locked inline icon as 02–14. A new wheel mark, if used, must be labelled as a new interface marker."
+      },
+      "currentCover": {
+        "kind": "local-image",
+        "sitePath": "/four-truths/book/images/footprints.webp",
+        "previewSrc": "../../four-truths/book/images/footprints.webp",
+        "sourceLocator": ".sz-books > li:nth-child(1) .sz-cover > img[src]",
+        "width": 1600,
+        "height": 893,
+        "format": "WEBP",
+        "bytes": 454242,
+        "sha256": "c4b3fe8efc7e7604d6e274beb0495c921ca91fbd0f302bc4cc162e327879fa16"
+      }
+    },
+    {
+      "number": 2,
+      "id": "five-aggregates",
+      "title": "五陰",
+      "gameState": "playable-in-v1",
+      "originalPublicReader": {
+        "sitePath": "/five-aggregates/book/",
+        "available": true
+      },
+      "originalLockedIcon": {
+        "kind": "inline-svg",
+        "assetPath": "play/visual-v2/assets/shelf-02.svg",
+        "previewSrc": "assets/shelf-02.svg",
+        "viewBox": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "intrinsicDimensions": null,
+        "sourceCommit": "6aaa1af08a4a205a29d840b6d430bcc7f334d378",
+        "sourceFile": "index.html",
+        "sourceLocator": ".sz-books > li:nth-child(2) .sz-cover > svg",
+        "sourceFragmentSha256": "58333601e45cf2fdc1bd6f8f2a5595b11607d84ea37684d990233976adf96fde",
+        "assetSha256": "83b258dced655e12036a75fd1f3bc3a73b3d4bcc775b7569d75d6d5f518c7e38",
+        "bytes": 346,
+        "extraction": "Original inline SVG verbatim, with xmlns added for standalone SVG decoding and one final newline; no rasterization, redraw, recoloring or geometry changes."
+      },
+      "currentCover": {
+        "kind": "local-image",
+        "sitePath": "/five-aggregates/book/images/a10.webp",
+        "previewSrc": "../../five-aggregates/book/images/a10.webp",
+        "sourceLocator": ".sz-books > li:nth-child(2) .sz-cover > img[src]",
+        "width": 1536,
+        "height": 1024,
+        "format": "WEBP",
+        "bytes": 750984,
+        "sha256": "5b8566426796b3a1d4eb1a825c5a275d5a6c6505e3402f2271d4a8c5833a41c9"
+      }
+    },
+    {
+      "number": 3,
+      "id": "six-senses",
+      "title": "六處",
+      "gameState": "playable-in-v1",
+      "originalPublicReader": {
+        "sitePath": "/six-senses/book/",
+        "available": true
+      },
+      "originalLockedIcon": {
+        "kind": "inline-svg",
+        "assetPath": "play/visual-v2/assets/shelf-03.svg",
+        "previewSrc": "assets/shelf-03.svg",
+        "viewBox": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "intrinsicDimensions": null,
+        "sourceCommit": "6aaa1af08a4a205a29d840b6d430bcc7f334d378",
+        "sourceFile": "index.html",
+        "sourceLocator": ".sz-books > li:nth-child(3) .sz-cover > svg",
+        "sourceFragmentSha256": "73167bf73f8355b5ef6661894e030bc9543ab4dfd5f428c601bfa786b3a92a4b",
+        "assetSha256": "5037ac6891a9931d0d661b95cd028bbc95910cbc4bf2c11af76f75c29affebdc",
+        "bytes": 360,
+        "extraction": "Original inline SVG verbatim, with xmlns added for standalone SVG decoding and one final newline; no rasterization, redraw, recoloring or geometry changes."
+      },
+      "currentCover": {
+        "kind": "local-image",
+        "sitePath": "/six-senses/cover.webp",
+        "previewSrc": "../../six-senses/cover.webp",
+        "sourceLocator": "shelf.css: .sz-book[href=\"./six-senses/book/\"] .sz-cover background url",
+        "width": 900,
+        "height": 600,
+        "format": "WEBP",
+        "bytes": 96216,
+        "sha256": "241d0ad99ec6074a94cd4affd2fadd5bd7e4617f6f114b141dbc065d9d63d98a"
+      }
+    },
+    {
+      "number": 4,
+      "id": "twelve-links",
+      "title": "十二因緣",
+      "gameState": "later-journey",
+      "originalPublicReader": {
+        "sitePath": "/twelve-links/book/",
+        "available": true
+      },
+      "originalLockedIcon": {
+        "kind": "inline-svg",
+        "assetPath": "play/visual-v2/assets/shelf-04.svg",
+        "previewSrc": "assets/shelf-04.svg",
+        "viewBox": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "intrinsicDimensions": null,
+        "sourceCommit": "6aaa1af08a4a205a29d840b6d430bcc7f334d378",
+        "sourceFile": "index.html",
+        "sourceLocator": ".sz-books > li:nth-child(4) .sz-cover > svg",
+        "sourceFragmentSha256": "7298e7ebbc7ab220a02ef35aaede0ae0b38cb60a94ca9e0917903b147a0b0918",
+        "assetSha256": "c46be08c8687bee22c303c11f9be121e23078e35483fabb333ed850fe74498d0",
+        "bytes": 277,
+        "extraction": "Original inline SVG verbatim, with xmlns added for standalone SVG decoding and one final newline; no rasterization, redraw, recoloring or geometry changes."
+      },
+      "currentCover": {
+        "kind": "local-image",
+        "sitePath": "/twelve-links/cover.webp",
+        "previewSrc": "../../twelve-links/cover.webp",
+        "sourceLocator": ".sz-books > li:nth-child(4) .sz-cover > img[src]",
+        "width": 1920,
+        "height": 1072,
+        "format": "WEBP",
+        "bytes": 362820,
+        "sha256": "4f51c8d834a0e487660fdfa4edbd130157e283b7f9b344fd0e840ae54c511843"
+      }
+    },
+    {
+      "number": 5,
+      "id": "eightfold-path",
+      "title": "八正道與十善業道",
+      "gameState": "later-journey",
+      "originalPublicReader": {
+        "sitePath": "/eightfold-path/book/",
+        "available": true
+      },
+      "originalLockedIcon": {
+        "kind": "inline-svg",
+        "assetPath": "play/visual-v2/assets/shelf-05.svg",
+        "previewSrc": "assets/shelf-05.svg",
+        "viewBox": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "intrinsicDimensions": null,
+        "sourceCommit": "6aaa1af08a4a205a29d840b6d430bcc7f334d378",
+        "sourceFile": "index.html",
+        "sourceLocator": ".sz-books > li:nth-child(5) .sz-cover > svg",
+        "sourceFragmentSha256": "cf11474b1aa9f8a32161df63ce7bb47917d1595b890b5d514074ea7305edef34",
+        "assetSha256": "5847e18e5d39e06820d77495b3ea68f1e6f0a3b512ce1bb3f70621fec1858e5f",
+        "bytes": 273,
+        "extraction": "Original inline SVG verbatim, with xmlns added for standalone SVG decoding and one final newline; no rasterization, redraw, recoloring or geometry changes."
+      },
+      "currentCover": {
+        "kind": "local-image",
+        "sitePath": "/docs/eightfold-path/assets/02-right-view.webp",
+        "previewSrc": "../../docs/eightfold-path/assets/02-right-view.webp",
+        "sourceLocator": ".sz-books > li:nth-child(5) .sz-cover > img[src]",
+        "width": 2752,
+        "height": 1536,
+        "format": "WEBP",
+        "bytes": 1286382,
+        "sha256": "aa32613ad536f88ffbe6725c5d258735caf1858257a71b7e5197644a065daab8"
+      }
+    },
+    {
+      "number": 6,
+      "id": "four-fruits-ten-fetters",
+      "title": "四向四果與十結",
+      "gameState": "later-journey",
+      "originalPublicReader": {
+        "sitePath": "/four-fruits-ten-fetters/book/",
+        "available": true
+      },
+      "originalLockedIcon": {
+        "kind": "inline-svg",
+        "assetPath": "play/visual-v2/assets/shelf-06.svg",
+        "previewSrc": "assets/shelf-06.svg",
+        "viewBox": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "intrinsicDimensions": null,
+        "sourceCommit": "6aaa1af08a4a205a29d840b6d430bcc7f334d378",
+        "sourceFile": "index.html",
+        "sourceLocator": ".sz-books > li:nth-child(6) .sz-cover > svg",
+        "sourceFragmentSha256": "d496acbc1928a3dbaaf5ab28ce28f4c3928712be5dc844c5df0a7ba92f6dc644",
+        "assetSha256": "75741c878a8ce72a0b3aea5b0e0b54639389cb54c4bd06a8f37294e9522f99bb",
+        "bytes": 286,
+        "extraction": "Original inline SVG verbatim, with xmlns added for standalone SVG decoding and one final newline; no rasterization, redraw, recoloring or geometry changes."
+      },
+      "currentCover": {
+        "kind": "local-image",
+        "sitePath": "/docs/four-fruits-ten-fetters/assets/s01.webp",
+        "previewSrc": "../../docs/four-fruits-ten-fetters/assets/s01.webp",
+        "sourceLocator": ".sz-books > li:nth-child(6) .sz-cover > img[src]",
+        "width": 1376,
+        "height": 768,
+        "format": "WEBP",
+        "bytes": 191186,
+        "sha256": "c27f11a2508e1327af8c612713b4413eefc1a8e4952756212128c491a652b7d8"
+      }
+    },
+    {
+      "number": 7,
+      "id": "four-purities-six-recollections",
+      "title": "四不壞淨與六念",
+      "gameState": "later-journey",
+      "originalPublicReader": {
+        "sitePath": "/four-purities-six-recollections/book/",
+        "available": true
+      },
+      "originalLockedIcon": {
+        "kind": "inline-svg",
+        "assetPath": "play/visual-v2/assets/shelf-07.svg",
+        "previewSrc": "assets/shelf-07.svg",
+        "viewBox": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "intrinsicDimensions": null,
+        "sourceCommit": "6aaa1af08a4a205a29d840b6d430bcc7f334d378",
+        "sourceFile": "index.html",
+        "sourceLocator": ".sz-books > li:nth-child(7) .sz-cover > svg",
+        "sourceFragmentSha256": "aa1a2664badc39020496d27afc4883b2ad8428d6ff2244fd8230d24335dff9c8",
+        "assetSha256": "a8e197fc8849f7b8941509aaec125b89505dfcf0b382d84d240e9cd7f4837002",
+        "bytes": 267,
+        "extraction": "Original inline SVG verbatim, with xmlns added for standalone SVG decoding and one final newline; no rasterization, redraw, recoloring or geometry changes."
+      },
+      "currentCover": {
+        "kind": "local-image",
+        "sitePath": "/docs/four-purities-six-recollections/assets/IMG_0395.jpeg",
+        "previewSrc": "../../docs/four-purities-six-recollections/assets/IMG_0395.jpeg",
+        "sourceLocator": ".sz-books > li:nth-child(7) .sz-cover > img[src]",
+        "width": 1376,
+        "height": 768,
+        "format": "JPEG",
+        "bytes": 629548,
+        "sha256": "1bd5263539e25520264badc16570641a2cfacb1fe385480d1307b8422c346bd0"
+      }
+    },
+    {
+      "number": 8,
+      "id": "mindfulness",
+      "title": "四念處與四顛倒",
+      "gameState": "later-journey",
+      "originalPublicReader": {
+        "sitePath": "/mindfulness/book/",
+        "available": true
+      },
+      "originalLockedIcon": {
+        "kind": "inline-svg",
+        "assetPath": "play/visual-v2/assets/shelf-08.svg",
+        "previewSrc": "assets/shelf-08.svg",
+        "viewBox": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "intrinsicDimensions": null,
+        "sourceCommit": "6aaa1af08a4a205a29d840b6d430bcc7f334d378",
+        "sourceFile": "index.html",
+        "sourceLocator": ".sz-books > li:nth-child(8) .sz-cover > svg",
+        "sourceFragmentSha256": "49174832f8e13903aeacf18131691d13bfbd27d5affa96b413c1da5fdd199503",
+        "assetSha256": "99dad7ca661dc040e4d7acaf62f4c987c0d109eacca14a8619e634253c633536",
+        "bytes": 279,
+        "extraction": "Original inline SVG verbatim, with xmlns added for standalone SVG decoding and one final newline; no rasterization, redraw, recoloring or geometry changes."
+      },
+      "currentCover": {
+        "kind": "local-image",
+        "sitePath": "/docs/mindfulness/assets/8ACD7BAD-64C1-476B-A4AD-7A63F5A2048E.png",
+        "previewSrc": "../../docs/mindfulness/assets/8ACD7BAD-64C1-476B-A4AD-7A63F5A2048E.png",
+        "sourceLocator": ".sz-books > li:nth-child(8) .sz-cover > img[src]",
+        "width": 1672,
+        "height": 941,
+        "format": "PNG",
+        "bytes": 2916066,
+        "sha256": "e25807351814716cb0affad57dcee38e67e311cf3faa172accd3c07c2a5996a2"
+      }
+    },
+    {
+      "number": 9,
+      "id": "right-effort",
+      "title": "四正勤",
+      "gameState": "later-journey",
+      "originalPublicReader": {
+        "sitePath": "/right-effort/book/",
+        "available": true
+      },
+      "originalLockedIcon": {
+        "kind": "inline-svg",
+        "assetPath": "play/visual-v2/assets/shelf-09.svg",
+        "previewSrc": "assets/shelf-09.svg",
+        "viewBox": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "intrinsicDimensions": null,
+        "sourceCommit": "6aaa1af08a4a205a29d840b6d430bcc7f334d378",
+        "sourceFile": "index.html",
+        "sourceLocator": ".sz-books > li:nth-child(9) .sz-cover > svg",
+        "sourceFragmentSha256": "21d90b84e5b3cd85bbd19d37adbb671bedccade154407c5680d0cea3b7ced72b",
+        "assetSha256": "04007c11449c37107694770a962392380f571dbe1490f8eeeac91975c9f1dc42",
+        "bytes": 358,
+        "extraction": "Original inline SVG verbatim, with xmlns added for standalone SVG decoding and one final newline; no rasterization, redraw, recoloring or geometry changes."
+      },
+      "currentCover": {
+        "kind": "local-image",
+        "sitePath": "/docs/right-effort/assets/6FEE22D5-C7AA-476E-810C-DDE063530A82.png",
+        "previewSrc": "../../docs/right-effort/assets/6FEE22D5-C7AA-476E-810C-DDE063530A82.png",
+        "sourceLocator": ".sz-books > li:nth-child(9) .sz-cover > img[src]",
+        "width": 1672,
+        "height": 941,
+        "format": "PNG",
+        "bytes": 3244499,
+        "sha256": "642cebab1aecae8e47aa95db710a75a4863d6291c178aa89bae1fa889f6010ce"
+      }
+    },
+    {
+      "number": 10,
+      "id": "anapana",
+      "title": "安那般那與止觀",
+      "gameState": "later-journey",
+      "originalPublicReader": {
+        "sitePath": "/anapana/book/index.html",
+        "available": true
+      },
+      "originalLockedIcon": {
+        "kind": "inline-svg",
+        "assetPath": "play/visual-v2/assets/shelf-10.svg",
+        "previewSrc": "assets/shelf-10.svg",
+        "viewBox": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "intrinsicDimensions": null,
+        "sourceCommit": "6aaa1af08a4a205a29d840b6d430bcc7f334d378",
+        "sourceFile": "index.html",
+        "sourceLocator": ".sz-books > li:nth-child(10) .sz-cover > svg",
+        "sourceFragmentSha256": "5a4f2888e910c7067589194088b411f21fcc5a43603c8b4749c4bf1b13a9df55",
+        "assetSha256": "51addbe26df79e7e9a4c66504b4211018cbef1aea694f8f1b26c9dd21cd687ac",
+        "bytes": 258,
+        "extraction": "Original inline SVG verbatim, with xmlns added for standalone SVG decoding and one final newline; no rasterization, redraw, recoloring or geometry changes."
+      },
+      "currentCover": {
+        "kind": "local-image",
+        "sitePath": "/anapana/assets/S01.webp",
+        "previewSrc": "../../anapana/assets/S01.webp",
+        "sourceLocator": ".sz-books > li:nth-child(10) .sz-cover > img[src]",
+        "width": 1672,
+        "height": 941,
+        "format": "WEBP",
+        "bytes": 662168,
+        "sha256": "073e2a3fb52cf3d644825d6768ccd890cb34311083b4d3f722f503bd96243ea8"
+      }
+    },
+    {
+      "number": 11,
+      "id": "iddhipada",
+      "title": "四如意足",
+      "gameState": "later-journey",
+      "originalPublicReader": {
+        "sitePath": "/iddhipada/book/index.html",
+        "available": true
+      },
+      "originalLockedIcon": {
+        "kind": "inline-svg",
+        "assetPath": "play/visual-v2/assets/shelf-11.svg",
+        "previewSrc": "assets/shelf-11.svg",
+        "viewBox": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "intrinsicDimensions": null,
+        "sourceCommit": "6aaa1af08a4a205a29d840b6d430bcc7f334d378",
+        "sourceFile": "index.html",
+        "sourceLocator": ".sz-books > li:nth-child(11) .sz-cover > svg",
+        "sourceFragmentSha256": "ea927e87319eb107014a0e4887d17b0fc0d962d691af83ba7df32c6883be47a4",
+        "assetSha256": "08dadb4a5cc9778028ede2e714268b5bc0216012da63f37d1e8ec38c627e423f",
+        "bytes": 277,
+        "extraction": "Original inline SVG verbatim, with xmlns added for standalone SVG decoding and one final newline; no rasterization, redraw, recoloring or geometry changes."
+      },
+      "currentCover": {
+        "kind": "local-image",
+        "sitePath": "/iddhipada/assets/S01.webp",
+        "previewSrc": "../../iddhipada/assets/S01.webp",
+        "sourceLocator": ".sz-books > li:nth-child(11) .sz-cover > img[src]",
+        "width": 1672,
+        "height": 941,
+        "format": "WEBP",
+        "bytes": 741582,
+        "sha256": "48175f1e92133f0ab59319fa3decf50a88d65d57b863a7c3280fcfd5316ef36a"
+      }
+    },
+    {
+      "number": 12,
+      "id": "four-jhanas",
+      "title": "四禪",
+      "gameState": "later-journey",
+      "originalPublicReader": {
+        "sitePath": "/four-jhanas/book/index.html",
+        "available": true
+      },
+      "originalLockedIcon": {
+        "kind": "inline-svg",
+        "assetPath": "play/visual-v2/assets/shelf-12.svg",
+        "previewSrc": "assets/shelf-12.svg",
+        "viewBox": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "intrinsicDimensions": null,
+        "sourceCommit": "6aaa1af08a4a205a29d840b6d430bcc7f334d378",
+        "sourceFile": "index.html",
+        "sourceLocator": ".sz-books > li:nth-child(12) .sz-cover > svg",
+        "sourceFragmentSha256": "20ee0217664b0e5a35264dfd70cb39af34f1f26722b39a247658e8315630134b",
+        "assetSha256": "bda3e715d614eea1be69324f1c09e8f9872386105e37db345676f83b18346273",
+        "bytes": 265,
+        "extraction": "Original inline SVG verbatim, with xmlns added for standalone SVG decoding and one final newline; no rasterization, redraw, recoloring or geometry changes."
+      },
+      "currentCover": {
+        "kind": "local-image",
+        "sitePath": "/four-jhanas/assets/S06.webp",
+        "previewSrc": "../../four-jhanas/assets/S06.webp",
+        "sourceLocator": ".sz-books > li:nth-child(12) .sz-cover > img[src]",
+        "width": 1672,
+        "height": 941,
+        "format": "WEBP",
+        "bytes": 863282,
+        "sha256": "b7e50b3540cbdc7c9ad1212a2adeb684bbfddc6a276e615faf35baab9e29bfa2"
+      }
+    },
+    {
+      "number": 13,
+      "id": "five-roots-powers",
+      "title": "五根五力",
+      "gameState": "later-journey",
+      "originalPublicReader": {
+        "sitePath": "/five-roots-powers/book/index.html",
+        "available": true
+      },
+      "originalLockedIcon": {
+        "kind": "inline-svg",
+        "assetPath": "play/visual-v2/assets/shelf-13.svg",
+        "previewSrc": "assets/shelf-13.svg",
+        "viewBox": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "intrinsicDimensions": null,
+        "sourceCommit": "6aaa1af08a4a205a29d840b6d430bcc7f334d378",
+        "sourceFile": "index.html",
+        "sourceLocator": ".sz-books > li:nth-child(13) .sz-cover > svg",
+        "sourceFragmentSha256": "175e2a3d1ebdeb7d805a4f52d3ad7032de0ec5ededc533bdbb88eb31ae3f14ef",
+        "assetSha256": "392dfa4161d6727a33da09305314336af467e9201e21e6c25d53587221a790d6",
+        "bytes": 326,
+        "extraction": "Original inline SVG verbatim, with xmlns added for standalone SVG decoding and one final newline; no rasterization, redraw, recoloring or geometry changes."
+      },
+      "currentCover": {
+        "kind": "local-image",
+        "sitePath": "/five-roots-powers/assets/S03.webp",
+        "previewSrc": "../../five-roots-powers/assets/S03.webp",
+        "sourceLocator": ".sz-books > li:nth-child(13) .sz-cover > img[src]",
+        "width": 1672,
+        "height": 941,
+        "format": "WEBP",
+        "bytes": 876164,
+        "sha256": "ab46922ccd6141831c7534361fd7aba1c2ad4478d20d78a4be750fa994ca2bd7"
+      }
+    },
+    {
+      "number": 14,
+      "id": "seven-factors",
+      "title": "七覺支",
+      "gameState": "later-journey",
+      "originalPublicReader": {
+        "sitePath": "/seven-factors/book/index.html",
+        "available": true
+      },
+      "originalLockedIcon": {
+        "kind": "inline-svg",
+        "assetPath": "play/visual-v2/assets/shelf-14.svg",
+        "previewSrc": "assets/shelf-14.svg",
+        "viewBox": [
+          0,
+          0,
+          80,
+          80
+        ],
+        "intrinsicDimensions": null,
+        "sourceCommit": "6aaa1af08a4a205a29d840b6d430bcc7f334d378",
+        "sourceFile": "index.html",
+        "sourceLocator": ".sz-books > li:nth-child(14) .sz-cover > svg",
+        "sourceFragmentSha256": "d5e27668d581a303c6610a5b0dc6e4da3ba1c5537ffcc27b9e00ce1b3220a5a3",
+        "assetSha256": "7e5c6add3d643edb61d9e159779d59aaf1c868fb5f461032bf2a78bb261a65c2",
+        "bytes": 304,
+        "extraction": "Original inline SVG verbatim, with xmlns added for standalone SVG decoding and one final newline; no rasterization, redraw, recoloring or geometry changes."
+      },
+      "currentCover": {
+        "kind": "local-image",
+        "sitePath": "/seven-factors/assets/12.webp",
+        "previewSrc": "../../seven-factors/assets/12.webp",
+        "sourceLocator": ".sz-books > li:nth-child(14) .sz-cover > img[src]",
+        "width": 1672,
+        "height": 941,
+        "format": "WEBP",
+        "bytes": 554156,
+        "sha256": "0f2719034e01ec879e6af050db5ae1ea1e8714dcb7af85a5785a09d82fcdd66e"
+      }
+    }
+  ],
+  "commonLock": {
+    "kind": "inline-svg",
+    "assetPath": "play/visual-v2/assets/shelf-lock.svg",
+    "previewSrc": "assets/shelf-lock.svg",
+    "viewBox": "0 0 24 24",
+    "sourceCommit": "6aaa1af08a4a205a29d840b6d430bcc7f334d378",
+    "sourceFile": "index.html",
+    "sourceLocator": ".sz-book-lock > svg",
+    "sourceOccurrences": 13,
+    "sourceFragmentSha256": "46aa3ed447859e96a94c1d4ae624814129e1c03ed5804fcf34c6d427ff2da9b5",
+    "assetSha256": "3ab8e2d51e47aae7a03c963b403f15f292f148bd60049a4e8f29430efe3a1ed4",
+    "bytes": 226,
+    "extraction": "Original inline SVG verbatim, with xmlns added for standalone decoding and one final newline."
+  }
+}

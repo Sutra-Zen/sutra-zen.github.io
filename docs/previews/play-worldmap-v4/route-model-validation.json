@@ -1,0 +1,193 @@
+{
+  "scope": "2026-11-22-r3 pure route/reward selectors and presentation metadata",
+  "environment": "Local HTTP + desktop Chromium ES modules; no physical Safari or external source tests",
+  "protectedBaseline": "4f4e1fd",
+  "protectedFiles": [
+    {
+      "path": "play/collection/catalog.js",
+      "sha256": "f065c564d306532fcb4de09ee8a42216ac3f1c0c8a5b40b81a4fbcdf2c526946",
+      "normalizedSha256": "f065c564d306532fcb4de09ee8a42216ac3f1c0c8a5b40b81a4fbcdf2c526946",
+      "permittedChanges": [],
+      "result": "byte-identical"
+    },
+    {
+      "path": "play/collection/store.js",
+      "sha256": "66960cf31363adff56f4c3a610233a1f19ead8fa8e8523e23932ac3dd4b7c974",
+      "normalizedSha256": "66960cf31363adff56f4c3a610233a1f19ead8fa8e8523e23932ac3dd4b7c974",
+      "permittedChanges": [],
+      "result": "byte-identical"
+    },
+    {
+      "path": "play/collection/reader-bridge.js",
+      "sha256": "57856fc8d7172882773a670ec03ae8236af6f877a918cc3c743b6daac26bfaec",
+      "normalizedSha256": "878fbae5c0e400fe9e00859b8a122cbb54b11bf7cfc6f22f397dfced02717c11",
+      "permittedChanges": [
+        "collectionReturn=worldmap-v4 opt-in return URL and translated return label only"
+      ],
+      "result": "normalized byte-identical"
+    },
+    {
+      "path": "play/collection/reader.css",
+      "sha256": "3e4f037042c4d5c2e67940370849cbf036d747ac7de0fc1ebb4c0529b6c0dc55",
+      "normalizedSha256": "3e4f037042c4d5c2e67940370849cbf036d747ac7de0fc1ebb4c0529b6c0dc55",
+      "permittedChanges": [],
+      "result": "byte-identical"
+    }
+  ],
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "limitations": [
+    "No UI, artwork, source-link loading or reader-navigation assertion belongs to this model-only test.",
+    "All completion-subset fixtures are isolated test inputs, not a user's saved achievements.",
+    "No claim that the independent epilogue has been implemented or publicly deployed."
+  ],
+  "model": {
+    "result": "passed",
+    "assertionCount": 1245459,
+    "scenarioCount": 13,
+    "exhaustiveCompletionSubsets": 16384,
+    "scenarios": [
+      {
+        "id": "stable IDs, new recommendation order, original catalog order unchanged",
+        "assertions": 12,
+        "result": "passed"
+      },
+      {
+        "id": "first missing supported book, not numeric chapter completion",
+        "assertions": 8,
+        "result": "passed"
+      },
+      {
+        "id": "one book activates many landmarks but counts once",
+        "assertions": 25,
+        "result": "passed"
+      },
+      {
+        "id": "eightfold path and right effort independently unlock world rewards",
+        "assertions": 31,
+        "result": "passed"
+      },
+      {
+        "id": "earned preview is separate from later city placement",
+        "assertions": 30,
+        "result": "passed"
+      },
+      {
+        "id": "complete city allegory depends on five exact books, not ordinal nine",
+        "assertions": 13,
+        "result": "passed"
+      },
+      {
+        "id": "faculties source areas never complete missing books",
+        "assertions": 48,
+        "result": "passed"
+      },
+      {
+        "id": "hidden final title, known-book exceptions, reveal and ending are distinct",
+        "assertions": 39,
+        "result": "passed"
+      },
+      {
+        "id": "order independence, deduplication and input objects are immutable",
+        "assertions": 7,
+        "result": "passed"
+      },
+      {
+        "id": "city canonical correspondences remain separate from creative rewards",
+        "assertions": 7,
+        "result": "passed"
+      },
+      {
+        "id": "all 16384 completion subsets: counts, recommendation, rewards and endings",
+        "assertions": 1245184,
+        "result": "passed"
+      },
+      {
+        "id": "presentation metadata cannot overwrite authoritative collection records",
+        "assertions": 21,
+        "result": "passed"
+      },
+      {
+        "id": "invalid old metadata preserved on load and unavailable storage remains usable",
+        "assertions": 34,
+        "result": "passed"
+      }
+    ],
+    "ending": {
+      "eligibilityVerified": true,
+      "implemented": false,
+      "claim": "Eligibility data only; no complete epilogue is claimed."
+    }
+  },
+  "legacyStorageFixtures": [
+    {
+      "kind": "recognizable bookmark-zero record",
+      "rawUnchanged": true,
+      "collectionIssue": null,
+      "initialCount": 1,
+      "afterMetadataCount": 1,
+      "initialFinalKnown": true,
+      "initialEndingEligible": false,
+      "afterMetadataFinalKnown": true,
+      "positionsUnchanged": true,
+      "metadataFields": [
+        "knownBookIds",
+        "openedBookIds",
+        "playedAnimationIds",
+        "version"
+      ]
+    },
+    {
+      "kind": "preexisting all-fourteen completion and bookmark record",
+      "rawUnchanged": true,
+      "collectionIssue": null,
+      "initialCount": 14,
+      "afterMetadataCount": 14,
+      "initialFinalKnown": true,
+      "initialEndingEligible": true,
+      "afterMetadataFinalKnown": true,
+      "positionsUnchanged": true,
+      "metadataFields": [
+        "knownBookIds",
+        "openedBookIds",
+        "playedAnimationIds",
+        "version"
+      ]
+    },
+    {
+      "kind": "unconfirmed malformed old record",
+      "rawUnchanged": true,
+      "collectionIssue": "corrupt",
+      "initialCount": 0,
+      "afterMetadataCount": 0,
+      "initialFinalKnown": false,
+      "initialEndingEligible": false,
+      "afterMetadataFinalKnown": true,
+      "positionsUnchanged": true,
+      "metadataFields": [
+        "knownBookIds",
+        "openedBookIds",
+        "playedAnimationIds",
+        "version"
+      ]
+    },
+    {
+      "kind": "unconfirmed numeric-version old record",
+      "rawUnchanged": true,
+      "collectionIssue": "corrupt",
+      "initialCount": 0,
+      "afterMetadataCount": 0,
+      "initialFinalKnown": false,
+      "initialEndingEligible": false,
+      "afterMetadataFinalKnown": true,
+      "positionsUnchanged": true,
+      "metadataFields": [
+        "knownBookIds",
+        "openedBookIds",
+        "playedAnimationIds",
+        "version"
+      ]
+    }
+  ],
+  "result": "passed"
+}

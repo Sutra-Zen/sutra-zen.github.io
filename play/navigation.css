@@ -1,0 +1,12 @@
+/* Load after each game's existing header stylesheet; opt in with sz-game-header. */
+.sz-game-nav,header.sz-game-header nav.sz-game-nav{display:flex;flex:0 0 auto;flex-wrap:nowrap;align-items:center;gap:5px;margin-left:auto;white-space:nowrap;font:500 clamp(13px,1.1vw,15px)/1.3 "Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif}
+.sz-game-nav .sz-game-nav__link{display:inline-flex;flex:0 0 auto;align-items:center;justify-content:center;gap:4px;box-sizing:border-box;min-width:44px;min-height:44px;margin:0;padding:7px 9px;border:1px solid transparent;border-radius:9px;color:#315a47;background:transparent;text-decoration:none;white-space:nowrap;touch-action:manipulation}
+.sz-game-nav .sz-game-nav__link:hover{background:#edf0e5;border-color:#d6ddcb}
+.sz-game-nav .sz-game-nav__link.is-active{color:#234936;background:#e5ecdc;border-color:#bcccad;font-weight:700}
+.sz-game-nav .sz-game-nav__link:focus-visible{outline:3px solid #a27835;outline-offset:3px}
+.sz-game-nav__castle{display:block;flex:none;width:18px;height:18px}
+.sz-game-header{position:sticky;top:0;z-index:40;background:var(--paper,#fcf8eb);display:flex;box-sizing:border-box;align-items:center;flex-wrap:nowrap;gap:15px}
+.sz-game-header>a:first-child{min-width:0;white-space:nowrap}
+@media(max-width:900px){.sz-game-header>a:first-child>span,.sz-game-header>.proposal-stamp{display:none}.sz-game-header{gap:10px}.sz-game-nav,header.sz-game-header nav.sz-game-nav{gap:2px}.sz-game-nav .sz-game-nav__link{padding-inline:6px}}
+@media(max-width:600px){.sz-game-header{padding:13px 16px;gap:8px}.sz-game-header>a:first-child{font-size:22px}.sz-game-nav,header.sz-game-header nav.sz-game-nav{font-size:13px;gap:2px}.sz-game-nav .sz-game-nav__link{padding-inline:4px}}
+@media(max-width:380px){.sz-game-header{padding:11px 12px;gap:4px}.sz-game-header>a:first-child{font-size:20px}.sz-game-nav,header.sz-game-header nav.sz-game-nav{gap:1px}.sz-game-nav .sz-game-nav__link{padding-inline:2px}}

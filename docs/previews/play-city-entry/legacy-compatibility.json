@@ -1,0 +1,218 @@
+{
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "scope": "Focused compatibility checks only: two city viewports and compact completion fixtures; no 198-step reading re-run, historical reports untouched.",
+  "unchangedOriginals": {
+    "baseline": "4f4e1fd",
+    "protectedTrackedFiles": 613,
+    "originalSiteReadersCollectionStoreAndOldJourneyBridge": "byte-for-byte unchanged",
+    "collectionBridge": "Only opt-in collectionReturn=worldmap-v4 return URL and label differ; normalized bytes exactly match baseline",
+    "originalFullReadingCoverage": "docs/previews/play-collection/validation.json: 1192 original reading steps; not repeated for an unchanged core",
+    "worldmapMaster": {
+      "path": "play/worldmap-v4/assets/worldmap-master-concept.png",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "sha256": "a45b83312286730830310e0035dca6dcfd8d994d30c248d11e9a884799afb5a7",
+      "visualInspection": "Generated concept base has no baked text, fog or locks; artwork remains an unapproved proposal"
+    }
+  },
+  "cities": [
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "fixture": "initial",
+      "stage": 0,
+      "realSourceHotspots": 14,
+      "availableSourceHotspots": 0,
+      "sixGateHotspots": 6,
+      "availableGateHotspots": 0,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "fixture": "dock",
+      "stage": 1,
+      "realSourceHotspots": 14,
+      "availableSourceHotspots": 1,
+      "sixGateHotspots": 6,
+      "availableGateHotspots": 0,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "fixture": "body",
+      "stage": 2,
+      "realSourceHotspots": 14,
+      "availableSourceHotspots": 4,
+      "sixGateHotspots": 6,
+      "availableGateHotspots": 0,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "fixture": "gates",
+      "stage": 3,
+      "realSourceHotspots": 14,
+      "availableSourceHotspots": 10,
+      "sixGateHotspots": 6,
+      "availableGateHotspots": 6,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "fixture": "all",
+      "stage": 3,
+      "realSourceHotspots": 14,
+      "availableSourceHotspots": 14,
+      "sixGateHotspots": 6,
+      "availableGateHotspots": 6,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "fixture": "initial",
+      "stage": 0,
+      "realSourceHotspots": 14,
+      "availableSourceHotspots": 0,
+      "sixGateHotspots": 6,
+      "availableGateHotspots": 0,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "fixture": "dock",
+      "stage": 1,
+      "realSourceHotspots": 14,
+      "availableSourceHotspots": 1,
+      "sixGateHotspots": 6,
+      "availableGateHotspots": 0,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "fixture": "body",
+      "stage": 2,
+      "realSourceHotspots": 14,
+      "availableSourceHotspots": 4,
+      "sixGateHotspots": 6,
+      "availableGateHotspots": 0,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "fixture": "gates",
+      "stage": 3,
+      "realSourceHotspots": 14,
+      "availableSourceHotspots": 10,
+      "sixGateHotspots": 6,
+      "availableGateHotspots": 6,
+      "viewportOverflow": "none"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "fixture": "all",
+      "stage": 3,
+      "realSourceHotspots": 14,
+      "availableSourceHotspots": 14,
+      "sixGateHotspots": 6,
+      "availableGateHotspots": 6,
+      "viewportOverflow": "none"
+    }
+  ],
+  "earnedPendingCityRoles": "Early mindfulness/anapana rewards preview without placing or fabricating body/gates; completing body+gates later auto-places both without rereading",
+  "legacyCityRedirect": "Standalone city destination; valid review=all/0 preserved, invalid review ignored, actual collection unchanged",
+  "compactCompletionFixtures": [
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "book": "four-truths",
+      "derivedCityStage": 1,
+      "singlePrimaryNextReader": "passed",
+      "collectionRaw": "preserved"
+    },
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "book": "five-aggregates",
+      "derivedCityStage": 2,
+      "singlePrimaryNextReader": "passed",
+      "collectionRaw": "preserved"
+    },
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "book": "six-senses",
+      "derivedCityStage": 3,
+      "singlePrimaryNextReader": "passed",
+      "collectionRaw": "preserved"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "book": "four-truths",
+      "derivedCityStage": 1,
+      "singlePrimaryNextReader": "passed",
+      "collectionRaw": "preserved"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "book": "five-aggregates",
+      "derivedCityStage": 2,
+      "singlePrimaryNextReader": "passed",
+      "collectionRaw": "preserved"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "book": "six-senses",
+      "derivedCityStage": 3,
+      "singlePrimaryNextReader": "passed",
+      "collectionRaw": "preserved"
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "baseline": "0f0a797",
+  "catalogBooks": 14,
+  "originalReaderChanges": "Each HTML differs only by one opt-in collection script; old journey module retained",
+  "originalCoversAndUnreadIconHashes": "14 covers and 13 old icons match inventory; book1 has no original locked icon",
+  "protectedOriginalSiteAndV1": "passed",
+  "protectedPaths": [
+    "index.html",
+    "sitemap.xml",
+    "robots.txt",
+    "googlee0c995331ec518ae.html",
+    "reader-controls.css",
+    "reader-layout.js",
+    "reader-restart.js",
+    "play/app.js",
+    "play/progress.js",
+    "play/reader-bridge.js",
+    "play/reader-bridge.css",
+    "play/i18n.js",
+    "play/books.js"
+  ],
+  "checks": [
+    "All14 standalone readers preserve original runtime content hashes and next/previous behavior; no collection save without opt-in",
+    "1192 original reading steps traversed by actual Next buttons, starting with book14 proves arbitrary collection order; no book completes before explicit last action; each cover appears only afterwards",
+    "Completed-book re-read returns through shelf to reading step6 and reload preserves it; re-finishing does not double-count or create extra covers",
+    "Confirmed reset/cancel and real JSON backup/restore preserve v1 and unrelated storage; restored fourteen covers are derived from the same IDs",
+    "Menu jump, arrival at last page, reload and return-to-shelf do not earn a book",
+    "Original v1 journey still completes29-step Four Truths through real controls while collection module stays inert and collection storage untouched"
+  ],
+  "readers": [
+    {
+      "id": "seven-factors",
+      "totalOriginalSteps": 37,
+      "actualForwardClicks": 36,
+      "completedByExplicitLastAction": true,
+      "originalRuntimeDataHash": "unchanged"
+    },
+    {
+      "id": "four-truths",
+      "totalOriginalSteps": 29,
+      "actualForwardClicks": 28,
+      "completedByExplicitLastAction": true,
+      "originalRuntimeDataHash": "unchanged"
+    },
+    {
+      "id": "five-aggregates",
+      "totalOriginalSteps": 54,
+      "actualForwardClicks": 53,
+      "completedByExplicitLastAction": true,
+      "originalRuntimeDataHash": "unchanged"
+    },
+    {
+      "id": "six-senses",
+      "totalOriginalSteps": 115,
+      "actualForwardClicks": 114,
+      "completedByExplicitLastAction": true,
+      "originalRuntimeDataHash": "unchanged"
+    },
+    {
+      "id": "twelve-links",
+      "totalOriginalSteps": 77,
+      "actualForwardClicks": 76,
+      "completedByExplicitLastAction": true,
+      "originalRuntimeDataHash": "unchanged"
+    },
+    {
+      "id": "eightfold-path",
+      "totalOriginalSteps": 111,
+      "actualForwardClicks": 110,
+      "completedByExplicitLastAction": true,
+      "originalRuntimeDataHash": "unchanged"
+    },
+    {
+      "id": "four-fruits-ten-fetters",
+      "totalOriginalSteps": 75,
+      "actualForwardClicks": 74,
+      "completedByExplicitLastAction": true,
+      "originalRuntimeDataHash": "unchanged"
+    },
+    {
+      "id": "four-purities-six-recollections",
+      "totalOriginalSteps": 95,
+      "actualForwardClicks": 94,
+      "completedByExplicitLastAction": true,
+      "originalRuntimeDataHash": "unchanged"
+    },
+    {
+      "id": "mindfulness",
+      "totalOriginalSteps": 111,
+      "actualForwardClicks": 110,
+      "completedByExplicitLastAction": true,
+      "originalRuntimeDataHash": "unchanged"
+    },
+    {
+      "id": "right-effort",
+      "totalOriginalSteps": 81,
+      "actualForwardClicks": 80,
+      "completedByExplicitLastAction": true,
+      "originalRuntimeDataHash": "unchanged"
+    },
+    {
+      "id": "anapana",
+      "totalOriginalSteps": 119,
+      "actualForwardClicks": 118,
+      "completedByExplicitLastAction": true,
+      "originalRuntimeDataHash": "unchanged"
+    },
+    {
+      "id": "iddhipada",
+      "totalOriginalSteps": 82,
+      "actualForwardClicks": 81,
+      "completedByExplicitLastAction": true,
+      "originalRuntimeDataHash": "unchanged"
+    },
+    {
+      "id": "four-jhanas",
+      "totalOriginalSteps": 131,
+      "actualForwardClicks": 130,
+      "completedByExplicitLastAction": true,
+      "originalRuntimeDataHash": "unchanged"
+    },
+    {
+      "id": "five-roots-powers",
+      "totalOriginalSteps": 75,
+      "actualForwardClicks": 74,
+      "completedByExplicitLastAction": true,
+      "originalRuntimeDataHash": "unchanged"
+    }
+  ],
+  "viewports": [
+    {
+      "size": [
+        1280,
+        900
+      ],
+      "allFourteenReaderControlsAndRotation": "passed",
+      "shelfOverflow": "none"
+    },
+    {
+      "size": [
+        390,
+        844
+      ],
+      "allFourteenReaderControlsAndRotation": "passed",
+      "shelfOverflow": "none"
+    },
+    {
+      "size": [
+        844,
+        390
+      ],
+      "allFourteenReaderControlsAndRotation": "passed",
+      "shelfOverflow": "none"
+    },
+    {
+      "size": [
+        768,
+        1024
+      ],
+      "allFourteenReaderControlsAndRotation": "passed",
+      "shelfOverflow": "none"
+    },
+    {
+      "size": [
+        1024,
+        768
+      ],
+      "allFourteenReaderControlsAndRotation": "passed",
+      "shelfOverflow": "none"
+    }
+  ],
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "physicalSafari": "not tested",
+  "publication": "not published; local HTTP only",
+  "storageErrors": [
+    {
+      "case": "corrupt",
+      "noticeAndReading": "passed"
+    },
+    {
+      "case": "unavailable",
+      "noticeAndReading": "passed"
+    }
+  ],
+  "v1Coexistence": "Original29-step v1 journey succeeds and leaves collection key unchanged"
+}

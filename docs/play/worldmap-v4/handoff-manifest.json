@@ -1,0 +1,24 @@
+{
+  "versions": [
+    "2026-11-22-map-v4",
+    "2026-11-22-r3"
+  ],
+  "files": [
+    {
+      "path": "docs/play/worldmap-v4/handoff/SutraZen_Worldmap_Landscape_Design_v1.md",
+      "originalName": "SutraZen_Worldmap_Landscape_Design_v1.md",
+      "bytes": 22252,
+      "sha256": "51e0c282ad548e6856c7db5012ade8e3dccc82e1360af789bf16c7cdc33ff5d9",
+      "preservation": "byte-for-byte copy of user attachment",
+      "authorityNote": "User-provided handoff; current user prompt resolves conflicts, not an independent higher-priority instruction"
+    },
+    {
+      "path": "docs/play/worldmap-v4/handoff/SutraZen_Codex_Route_Unlocks_v2.md",
+      "originalName": "SutraZen_Codex_Route_Unlocks_v2.md",
+      "bytes": 19957,
+      "sha256": "52c5cf42c6556393d091ad9d114c216cf232a0866ab0d0021705aa0294264ec2",
+      "preservation": "byte-for-byte copy of user attachment",
+      "authorityNote": "User-provided handoff; current user prompt resolves conflicts, not an independent higher-priority instruction"
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "baseline": "5056201",
+  "protectedFiles": 66,
+  "protectedFilesByteEquality": "passed; v1 and original site untouched, reader HTML only authorized collection-module inclusion",
+  "uniqueModalKeys": 32,
+  "visualInstances": 33,
+  "sourceEdges": 46,
+  "sourceDerivedMapping": [
+    {
+      "id": "road-overview",
+      "key": "道路總說",
+      "bookId": null,
+      "guideReaderMatchesOriginal": true
+    },
+    {
+      "id": "roots-powers-overview",
+      "key": "五根五力總說",
+      "bookId": "five-roots-powers",
+      "guideReaderMatchesOriginal": true
+    },
+    {
+      "id": "awakening-overview",
+      "key": "七覺支總說",
+      "bookId": "seven-factors",
+      "guideReaderMatchesOriginal": true
+    },
+    {
+      "id": "eightfold-overview",
+      "key": "八正道總說",
+      "bookId": "eightfold-path",
+      "guideReaderMatchesOriginal": true
+    },
+    {
+      "id": "related-overview",
+      "key": "相關內容總說",
+      "bookId": null,
+      "guideReaderMatchesOriginal": true
+    },
+    {
+      "id": "faith-root-power",
+      "key": "信根信力",
+      "bookId": "five-roots-powers",
+      "guideReaderMatchesOriginal": true
+    },
+    {
+      "id": "mindfulness-root-power",
+      "key": "念根念力",
+      "bookId": "five-roots-powers",
+      "guideReaderMatchesOriginal": true
+    },
+    {
+      "id": "effort-root-power",
+      "key": "勤根勤力",
+      "bookId": "five-roots-powers",
+      "guideReaderMatchesOriginal": true
+    },
+    {
+      "id": "concentration-root-power",
+      "key": "定根定力",
+      "bookId": "five-roots-powers",
+      "guideReaderMatchesOriginal": true
+    },
+    {
+      "id": "wisdom-root-power",
+      "key": "慧根慧力",
+      "bookId": "five-roots-powers",
+      "guideReaderMatchesOriginal": true
+    },
+    {
+      "id": "mindfulness-awakening",
+      "key": "念覺支",
+      "bookId": "seven-factors",
+      "guideReaderMatchesOriginal": true
+    },
+    {
+      "id": "discrimination-awakening",
+      "key": "擇法覺支",
+      "bookId": "seven-factors",
+      "guideReaderMatchesOriginal": true
+    },
+    {
+      "id": "effort-awakening",
+      "key": "精進覺支",
+      "bookId": "seven-factors",
+      "guideReaderMatchesOriginal": true
+    },
+    {
+      "id": "concentration-awakening-group",
+      "key": "定覺支組",
+      "bookId": "seven-factors",
+      "guideReaderMatchesOriginal": true
+    },
+    {
+      "id": "right-mindfulness",
+      "key": "正念",
+      "bookId": "eightfold-path",
+      "guideReaderMatchesOriginal": true
+    },
+    {
+      "id": "right-view-intention",
+      "key": "正見正志",
+      "bookId": "eightfold-path",
+      "guideReaderMatchesOriginal": true
+    },
+    {
+      "id": "right-concentration",
+      "key": "正定",
+      "bookId": "eightfold-path",
+      "guideReaderMatchesOriginal": true
+    },
+    {
+      "id": "eightfold-action-group",
+      "key": "八正道中組",
+      "bookId": "eightfold-path",
+      "guideReaderMatchesOriginal": true
+    },
+    {
+      "id": "four-purities",
+      "key": "四不壞淨",
+      "bookId": "four-purities-six-recollections",
+      "guideReaderMatchesOriginal": true
+    },
+    {
+      "id": "six-recollections",
+      "key": "六念",
+      "bookId": "four-purities-six-recollections",
+      "guideReaderMatchesOriginal": true
+    },
+    {
+      "id": "four-mindfulness",
+      "key": "四念處",
+      "bookId": "mindfulness",
+      "guideReaderMatchesOriginal": true
+    },
+    {
+      "id": "four-inversions",
+      "key": "四顛倒",
+      "bookId": "mindfulness",
+      "guideReaderMatchesOriginal": true
+    },
+    {
+      "id": "right-effort",
+      "key": "四正勤",
+      "bookId": "right-effort",
+      "guideReaderMatchesOriginal": true
+    },
+    {
+      "id": "ten-wholesome",
+      "key": "十善業道",
+      "bookId": "eightfold-path",
+      "guideReaderMatchesOriginal": true
+    },
+    {
+      "id": "four-jhanas",
+      "key": "四禪",
+      "bookId": "four-jhanas",
+      "guideReaderMatchesOriginal": true
+    },
+    {
+      "id": "iddhipada",
+      "key": "四如意足",
+      "bookId": "iddhipada",
+      "guideReaderMatchesOriginal": true
+    },
+    {
+      "id": "anapana",
+      "key": "安那般那與止觀",
+      "bookId": "anapana",
+      "guideReaderMatchesOriginal": true
+    },
+    {
+      "id": "four-truths",
+      "key": "四聖諦總說",
+      "bookId": "four-truths",
+      "guideReaderMatchesOriginal": true
+    },
+    {
+      "id": "five-aggregates",
+      "key": "五陰",
+      "bookId": "five-aggregates",
+      "guideReaderMatchesOriginal": true
+    },
+    {
+      "id": "six-senses",
+      "key": "六處",
+      "bookId": "six-senses",
+      "guideReaderMatchesOriginal": true
+    },
+    {
+      "id": "twelve-links",
+      "key": "十二因緣",
+      "bookId": "twelve-links",
+      "guideReaderMatchesOriginal": true
+    },
+    {
+      "id": "four-fruits",
+      "key": "四向四果",
+      "bookId": "four-fruits-ten-fetters",
+      "guideReaderMatchesOriginal": true
+    }
+  ],
+  "duplicateEightfold": "two visual instances, one stable book ID and same original targets",
+  "mindfulnessChain": [
+    "four-mindfulness",
+    "right-mindfulness",
+    "mindfulness-awakening",
+    "mindfulness-root-power"
+  ],
+  "conceptAssets": [
+    {
+      "file": "network-sea-concept.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "sha256": "e7995ffae3e8b18b05d5becc5f5753e5ca74a4b4769f10b7e9de258e8d96f6b6"
+    },
+    {
+      "file": "island-atlas-concept.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        253
+      ],
+      "sha256": "c72efa220df2626fc9dd3db53f4cd8a30edc8968eb3d80f7a9e5788be05cce8d"
+    },
+    {
+      "file": "kitten-rowboat-concept.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "sha256": "05d986c118ae680cca2524a85efd4508460931ee20b2b77b44f1c30fec0a6bef"
+    }
+  ],
+  "viewports": [
+    {
+      "size": [
+        1280,
+        900
+      ],
+      "instanceDialogs": 32,
+      "visibleUniqueNodes": 31,
+      "removedOverview": "related-overview is now a noninteractive continent label",
+      "pairwiseButtonCenterOverlaps": 0,
+      "mindfulnessChain": "related-button traversal and connected edge highlights passed",
+      "routeVsRelations": "different strokes and independent toggles; no required-unlock claim",
+      "mirroredLRoute": "lower-right truth to upper-left summaries; eightfold bottom portal retained",
+      "locateControls": 3,
+      "fullOverview": "no internal crop",
+      "activeProtagonist": "new neutral rowboat, no lantern image or HTML 念 prop; city guardian 念 retained",
+      "storageWrites": 0,
+      "outsideSceneOverflow": false
+    },
+    {
+      "size": [
+        390,
+        844
+      ],
+      "instanceDialogs": 32,
+      "visibleUniqueNodes": 31,
+      "removedOverview": "related-overview is now a noninteractive continent label",
+      "pairwiseButtonCenterOverlaps": 0,
+      "mindfulnessChain": "related-button traversal and connected edge highlights passed",
+      "routeVsRelations": "different strokes and independent toggles; no required-unlock claim",
+      "mirroredLRoute": "lower-right truth to upper-left summaries; eightfold bottom portal retained",
+      "locateControls": 3,
+      "fullOverview": "no internal crop",
+      "activeProtagonist": "new neutral rowboat, no lantern image or HTML 念 prop; city guardian 念 retained",
+      "storageWrites": 0,
+      "outsideSceneOverflow": false
+    },
+    {
+      "size": [
+        844,
+        390
+      ],
+      "instanceDialogs": 32,
+      "visibleUniqueNodes": 31,
+      "removedOverview": "related-overview is now a noninteractive continent label",
+      "pairwiseButtonCenterOverlaps": 0,
+      "mindfulnessChain": "related-button traversal and connected edge highlights passed",
+      "routeVsRelations": "different strokes and independent toggles; no required-unlock claim",
+      "mirroredLRoute": "lower-right truth to upper-left summaries; eightfold bottom portal retained",
+      "locateControls": 3,
+      "fullOverview": "no internal crop",
+      "activeProtagonist": "new neutral rowboat, no lantern image or HTML 念 prop; city guardian 念 retained",
+      "storageWrites": 0,
+      "outsideSceneOverflow": false
+    },
+    {
+      "size": [
+        768,
+        1024
+      ],
+      "instanceDialogs": 32,
+      "visibleUniqueNodes": 31,
+      "removedOverview": "related-overview is now a noninteractive continent label",
+      "pairwiseButtonCenterOverlaps": 0,
+      "mindfulnessChain": "related-button traversal and connected edge highlights passed",
+      "routeVsRelations": "different strokes and independent toggles; no required-unlock claim",
+      "mirroredLRoute": "lower-right truth to upper-left summaries; eightfold bottom portal retained",
+      "locateControls": 3,
+      "fullOverview": "no internal crop",
+      "activeProtagonist": "new neutral rowboat, no lantern image or HTML 念 prop; city guardian 念 retained",
+      "storageWrites": 0,
+      "outsideSceneOverflow": false
+    },
+    {
+      "size": [
+        1024,
+        768
+      ],
+      "instanceDialogs": 32,
+      "visibleUniqueNodes": 31,
+      "removedOverview": "related-overview is now a noninteractive continent label",
+      "pairwiseButtonCenterOverlaps": 0,
+      "mindfulnessChain": "related-button traversal and connected edge highlights passed",
+      "routeVsRelations": "different strokes and independent toggles; no required-unlock claim",
+      "mirroredLRoute": "lower-right truth to upper-left summaries; eightfold bottom portal retained",
+      "locateControls": 3,
+      "fullOverview": "no internal crop",
+      "activeProtagonist": "new neutral rowboat, no lantern image or HTML 念 prop; city guardian 念 retained",
+      "storageWrites": 0,
+      "outsideSceneOverflow": false
+    }
+  ],
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "physicalSafari": "not tested",
+  "publication": "not published; local-only visual concept, no first-version progress changes",
+  "actualNavigation": "Four Mindfulness guide and original full reader loaded through native anchors; explicit reader opt-in writes only collection namespace"
+}

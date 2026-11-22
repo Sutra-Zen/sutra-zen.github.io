@@ -1,0 +1,19 @@
+{
+  "version": "2026-11-22-r3 + map-v4",
+  "checks": [
+    "r3 order uses permanent IDs; catalog shelf order is independent",
+    "no completion is inferred from all bookmarks or animation metadata",
+    "opening / knowing / completing final reveals name but does not fill previous books",
+    "arbitrary order / repeated completions produce identical rewards without mutating inputs",
+    "guardian and gates acquired early are previews until actual city sources are completed",
+    "first three states derive from IDs, including out-of-order reads",
+    "garden is independent; irrigation is extra two-book feedback and never a gate",
+    "faculties book does not manufacture source-book completion or five filled zones",
+    "recommendation selects first supported unread stable ID",
+    "metadata touches only its own key, never duplicates completed records or rewrites old saves",
+    "all 16384 completion subsets match normative combination conditions without order shortcuts"
+  ],
+  "subsets": 16384,
+  "result": "passed",
+  "scope": "Pure route/reward/metadata risks; original readers and 1192-step content are unchanged and not rerun here."
+}
