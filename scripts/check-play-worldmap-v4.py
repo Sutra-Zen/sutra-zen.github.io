@@ -95,9 +95,11 @@ def unchanged_originals():
         cwd=ROOT, text=True,
     )
     new_bridge = (ROOT / 'play/collection/reader-bridge.js').read_text()
-    new_return = """  const worldmapReturn = new URLSearchParams(location.search).get('collectionReturn') === 'worldmap-v4';
-  const shelfURL = new URL(worldmapReturn ? '../worldmap-v4/' : '../visual-v2/shelf.html', import.meta.url);
-  const returnLabel = worldmapReturn ? (await import('../worldmap-v4/text.js')).T.returnJourney : text.returnShelf;"""
+    new_return = """  const requestedReturn = new URLSearchParams(location.search).get('collectionReturn');
+  const worldmapReturn = requestedReturn === 'worldmap-v4';
+  const gameReturn = requestedReturn === 'game';
+  const shelfURL = new URL(gameReturn ? '../../game/' : worldmapReturn ? '../worldmap-v4/' : '../visual-v2/shelf.html', import.meta.url);
+  const returnLabel = worldmapReturn || gameReturn ? (await import('../worldmap-v4/text.js')).T.returnJourney : text.returnShelf;"""
     assert new_bridge.count(new_return) == 1
     normalized = new_bridge.replace(new_return, "  const shelfURL = new URL('../visual-v2/shelf.html', import.meta.url);")
     normalized = normalized.replace('returnLink.textContent = returnLabel;', 'returnLink.textContent = text.returnShelf;')
@@ -109,7 +111,7 @@ def unchanged_originals():
         'baseline': BASE,
         'protectedTrackedFiles': len(tracked),
         'originalSiteReadersCollectionStoreAndOldJourneyBridge': 'byte-for-byte unchanged',
-        'collectionBridge': 'Only opt-in collectionReturn=worldmap-v4 return URL and label differ; normalized bytes exactly match baseline',
+        'collectionBridge': 'Only explicit collectionReturn=worldmap-v4/game whitelist, return URL and label differ; normalized bytes exactly match baseline',
         'originalFullReadingCoverage':
             'docs/previews/play-collection/validation.json: 1192 original reading steps; not repeated for an unchanged core',
         'worldmapMaster': {

@@ -4,7 +4,7 @@ export const NAV_TEXT = Object.freeze({
   label: '遊戲導覽', map: '海圖', mindmap: '心智圖', city: '城池', shelf: '書架',
 });
 export const NAV_ITEMS = Object.freeze([
-  { id: 'map', href: new URL('./worldmap-v4/', import.meta.url).href },
+  { id: 'map', href: new URL('../game/', import.meta.url).href },
   { id: 'mindmap', href: new URL('../index.html#map-heading', import.meta.url).href },
   { id: 'city', href: new URL('./city/', import.meta.url).href },
   { id: 'shelf', href: new URL('./visual-v2/shelf.html', import.meta.url).href },

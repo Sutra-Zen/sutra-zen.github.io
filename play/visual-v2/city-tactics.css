@@ -25,3 +25,5 @@
 .city-tactics-board .tactics-label{width:auto;height:auto;min-width:44px;min-height:44px;max-width:26%;padding:3px 8px;border:1px solid #b7a477;border-radius:8px;background:#fffae9e8;color:#315541;font-size:clamp(12px,1.3cqw,18px);line-height:1.3;box-shadow:0 1px 4px #3c533d20;text-align:center;white-space:nowrap}.city-tactics-board .tactics-label.is-future{background:#f3f1e6e5;color:#707766;border-style:dashed}.city-tactics-board .tactics-label-text{display:block;user-select:text}.is-overview .city-tactics-board .tactics-label{display:block}
 
 .city-tactics-board .tactics-label{display:flex;align-items:center;justify-content:center;padding:0 4px;border:0;background:transparent;box-shadow:none}.city-tactics-board .tactics-label.is-future{background:transparent;border:0}.city-tactics-board .tactics-label-text{padding:4px 7px;border:1px solid #b7a477;border-radius:6px;background:#fffae9ed;box-shadow:0 1px 3px #365a3b18}.city-tactics-board .tactics-label.is-future .tactics-label-text{background:#f3f1e6e8;border-style:dashed;color:#707766}
+
+.city-tactics-board .tactics-lord-hair{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}

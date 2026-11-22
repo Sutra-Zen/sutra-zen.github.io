@@ -8,6 +8,8 @@ import {T} from './text.js';
 
 const $=s=>document.querySelector(s),bookById=new Map(routeBooks.map(b=>[b.id,b])),nodeById=new Map(NODES.map(n=>[n.id,n]));
 const query=new URLSearchParams(location.search),catalogURL=new URL('../collection/catalog.js',import.meta.url);
+// The public /game/ shell reuses this exact runtime; legacy URLs keep their return.
+const gameEntry=/^\/game(?:\/|$)/.test(location.pathname);
 let mode=query.get('mode')==='free'?'free':'route',overview=true,links='none',labels=true,selected=null;
 const dialog=$('#wm-dialog'),dialogContent=$('#wm-dialog-content');
 $('.proposal-header nav').outerHTML=renderGameNavigation({active:'map'});
@@ -82,7 +84,7 @@ function open(title,html,detail=false){
 function openReader(id){
  const b=bookById.get(id);if(!b)return;
  routeMetadata.markOpened(id);const s=store.get(),u=new URL(b.reader,catalogURL);
- u.searchParams.set('collection','1');u.searchParams.set('collectionReturn','worldmap-v4');
+ u.searchParams.set('collection','1');u.searchParams.set('collectionReturn',gameEntry?'game':'worldmap-v4');
  const at=s.positions[id];
  if(Number.isInteger(at)&&(!s.completed.includes(id)||at<b.totalSteps-1))u.searchParams.set('collectionPage',at);
  else if(s.completed.includes(id))u.searchParams.set('collectionPage','0');

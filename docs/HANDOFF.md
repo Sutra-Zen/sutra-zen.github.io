@@ -1,3 +1,25 @@
+# 繪本旅程首次公開試玩：/game/（2026-11-22，已獲本輪發布授權）
+
+作者本輪明確要求更新海圖及城池並直接發布有`/game/`的網址；此授權取代下方歷史試作的不得發布限制。沿用新專案`Sutra-Zen/sutra-zen.github.io`，起始`a2b3225`乾淨，最新main為`b9a0dad2c2c34d7e15e6dc5e55d6125de630f57b`且已包含於原型歷史，建立`release/game-first-playable`。整批現有旅程與本輪修正以單一發布PR進main，保留PR58／59原型審閱歷史；Pages仍用legacy main根目錄。實際發布狀態與精確merge SHA必須以本輪PR交付、Pages及正式站驗收記錄核對，不能由此授權段落推定已上線。
+
+新增`game/index.html`實際共用山海地圖，非iframe、非轉址、不複製圖文。`<base>`指回原worldmap模組／素材位置，`scripts/build-game-entry.py`管理五項必要殼差異：base、標題、品牌返回、試玩版標記與隱藏內部美術審稿區。正式入口為`https://sutra-zen.github.io/game/`。海圖名稱改「安那般那與止觀竹林」「六念燈塔」，建物本身仍保留木造畫風。固定海圖按鈕、城池／書架／經典配置返回皆指新入口；舊worldmap入口與普通collection、獨立原閱讀器保持相容。
+
+城池全圖改為接見使者的場景：皇冠橘貓城主前移到廣場北緣，後方建物保留；黑白與三花止觀使者到右前方，朝向城主，共持展開米白卷軸。城主八字鬍接山羊鬍覆住嘴巴，新增獨立RGBA鬍鬚圖層；全城、城主局部與五陰完成獎勵皆以同份合成函式畫出，避免局部漏層。原生底圖1671×941、髮層1536×1024，實際來源／SHA及放置表見`docs/play/game-release/generated-assets.json`，原件及舊版本保留，沒有Python改畫。
+
+可替換HTML標牌改「地水火風四大廣場」「止・觀使者」「如實消息・涅槃」。卷軸中心為原圖64.6918%／49.4155%，消息用近旁短引線；城主與使者的引線避開臉。卷軸／鬍鬚／方位是故事美術，SN35.245六門城喻、城主識、四大、念、止觀及涅槃的對應與漢巴平行對讀不改。新法義說明保留卷軸是場景道具，不冒充經文明文。
+
+保存與完成邏輯不改：沿用`sutrazen.play.collection.v1`及r3metadata，橋接只增加白名單`collectionReturn=game`及相應返回文字／網址；未開遊戲參數時原書介面不變。前三本共29＋54＋115＝198步已從新入口實際逐頁走完，末步明確完成才記1／2／3冊及stage1／2／3，回新入口看精簡回饋並接十二因緣；中途重整、旋轉、返回續讀與舊儲存鍵保留。全14本1192步原稿驗證沿用歷史證據；本輪不重新走未變內容。純模型再次通過16384個完成子集。
+
+根目錄新增最小`_config.yml`只排除九個遊戲QA證據目錄，原圖、來源、舊預覽PDF及整個Git歷史皆保留。a2來源約957MB，排除182.6MB遊戲審稿證據後約775MB再加本輪小幅素材，避免Pages體積上限；不改Pages發布來源，不加全站service worker，不動首頁推廣、14本書架／32節點或15頁SEO／sitemap／robots／Google原件。排除路徑的截圖改從GitHub／PR查閱，不能報成正式站圖片網址。
+
+本輪五尺寸160次海圖＋70次城池原生對話、全文標牌／全幅圖框／手機標牌無裁切、卷軸短線落點、新入口往返城池／書架／來源均通過。全城、城主局部及五陰獎勵都確認含鬍鬚圖層；自由先讀末章只完成該本、重讀不重計、普通collection／獨立閱讀／舊v1隔離、壞檔及儲存禁用仍可讀通過。616個原書／來源／首頁／SEO保護檔對正式main相同（14本HTML僅既定opt-in module），21個核心對原型相同，完成與保存函式未改。無JS／本機HTTP錯誤。
+
+本輪實作與限制見`docs/play/game-release/README.md`，完整本機驗收與截圖見GitHub內`docs/previews/play-game-release/`，主要檢查為`scripts/check-game-release.py`、入口模板與SEO --check。維護檔diff通過；原經鏡像及作者原封交接檔的既存空白原樣保留，不為格式檢查改原文。實機iPhone／iPad Safari及原生觸控未驗證；未完成語系、完整終章演出與完整獨立人物／建築動畫層仍待後續。未新增帳號服務或把閱讀完成當作修證。
+
+Notion工具本輪不可用，待補文字留在`docs/play/game-release/PENDING_NOTION.md`；沒有代為寫入。發布時提供精確merge SHA的GitHub原始碼ZIP備份及Pages／正式站結果。
+
+---
+
 # 獨立城池、八字鬍標牌與完成回饋（2026-11-22，試閱未發布）
 
 依作者最新說明延續`preview/journey-visual-v2`及草稿PR59，起始HEAD為`fd7d44cfa1975914d82134b41ee57c1f4a018a94`。正式main仍為`b9a0dad2c2c34d7e15e6dc5e55d6125de630f57b`，remote正確；本輪不合併main、不部署Pages。PR59仍以`feat/picture-book-journey-v1`為base，不是直接對正式main。

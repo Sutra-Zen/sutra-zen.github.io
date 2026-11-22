@@ -1,0 +1,304 @@
+{
+  "mainBaseline": "b9a0dad2c2c34d7e15e6dc5e55d6125de630f57b",
+  "draftBaseline": "a2b3225",
+  "originalBookAndSourceFiles": 595,
+  "fourteenReaders": [
+    {
+      "path": "anapana/book/index.html",
+      "permittedModuleTags": 1,
+      "normalizedSha256": "e3407bb381f9e61cee950eb457e24575c2d806944d34bd30be863976d0f61eb5"
+    },
+    {
+      "path": "eightfold-path/book/index.html",
+      "permittedModuleTags": 1,
+      "normalizedSha256": "b15d95a8f7c4477dce32d0870e369c5dbd2077a61c68b5f7ba4fbc5e78ee1cc9"
+    },
+    {
+      "path": "five-aggregates/book/index.html",
+      "permittedModuleTags": 2,
+      "normalizedSha256": "9363d2ce62233a015bd9d9cb2c8b134d3a94b3b5a24c92f7998f008acbe01453"
+    },
+    {
+      "path": "five-roots-powers/book/index.html",
+      "permittedModuleTags": 1,
+      "normalizedSha256": "77e1d05cc9674c5d9249f96d10018cef927f07a8c7aa63e0aff0de4ad4a4af21"
+    },
+    {
+      "path": "four-fruits-ten-fetters/book/index.html",
+      "permittedModuleTags": 1,
+      "normalizedSha256": "a1392704b590a2bf6c68eae7a1314e050d961cc72e79c0d3d438d2108c5e273a"
+    },
+    {
+      "path": "four-jhanas/book/index.html",
+      "permittedModuleTags": 1,
+      "normalizedSha256": "c5b7268374e872400a15155acd8646cb829b5037013b76ed87118806502a1d98"
+    },
+    {
+      "path": "four-purities-six-recollections/book/index.html",
+      "permittedModuleTags": 1,
+      "normalizedSha256": "97069a83c377f37a127427d2c88893d450efc46b5c2bea349888b398e7ad78e7"
+    },
+    {
+      "path": "four-truths/book/index.html",
+      "permittedModuleTags": 2,
+      "normalizedSha256": "2776dc817c99e56e9a6c9f1bec44ef31734cfa558274aaddfd3aab749ea2353d"
+    },
+    {
+      "path": "iddhipada/book/index.html",
+      "permittedModuleTags": 1,
+      "normalizedSha256": "fc3acf646bdcd71eb49102d7e5a2304f8d08cd2eebc4fd471235d3e85bd7da24"
+    },
+    {
+      "path": "mindfulness/book/index.html",
+      "permittedModuleTags": 1,
+      "normalizedSha256": "0f06b329824b4e7794c2dfdda1dff443b85f92c05731a6a395a153c9e3feeb16"
+    },
+    {
+      "path": "right-effort/book/index.html",
+      "permittedModuleTags": 1,
+      "normalizedSha256": "bb28dfcdd1a8a088563b80e3d8cb4ab265f74a57bc6b70b95e93d8cb8d715937"
+    },
+    {
+      "path": "seven-factors/book/index.html",
+      "permittedModuleTags": 1,
+      "normalizedSha256": "9ff586adc335fb376ca9fa2081462ba80dc738568ffa62acd3d8e9a2c5f5d2d4"
+    },
+    {
+      "path": "six-senses/book/index.html",
+      "permittedModuleTags": 2,
+      "normalizedSha256": "6f7bfadee039c4378d18d65b39025d53eb02659099e6e1e2efde811c08b1a65c"
+    },
+    {
+      "path": "twelve-links/book/index.html",
+      "permittedModuleTags": 1,
+      "normalizedSha256": "906654b84e76bd639be49b419c4f9b85d3ded9104bd51dd4662428aaa73a5436"
+    }
+  ],
+  "allOtherOriginalContent": "byte-for-byte unchanged",
+  "rootHomepageSeoGoogleAndControls": "byte-for-byte unchanged",
+  "collectionAndOldJourneyStoresAndRouteLogic": "byte-for-byte unchanged",
+  "readerBridge": "Only collectionReturn=game destination/label branch; normalizing this block gives byte-exact draft bridge",
+  "priorAllFourteenReadingEvidence": "docs/previews/play-collection/validation.json:1192 original steps; unchanged core not fully re-walked",
+  "phase": "Local pre-publication validation; production status requires separate exact-SHA evidence",
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "physicalSafari": "Not tested; Chromium viewport simulation only",
+  "fixtures": "Valid backups in disposable browser contexts exercise presentation, separately from the native198-step flow",
+  "nativeFirstThree": {
+    "entry": "/game/",
+    "steps": 198,
+    "books": [
+      "four-truths",
+      "five-aggregates",
+      "six-senses"
+    ],
+    "completionOnlyOnExplicitLastAction": true,
+    "compactFeedback": true,
+    "cityStages": [
+      1,
+      2,
+      3
+    ],
+    "nextBook": "twelve-links step0",
+    "reloadAndReturnResume": "Four Truths step5",
+    "rotation": "Five Aggregates step3 at390x844 and1024x768",
+    "oldJourneyAndUnrelatedKeys": "preserved",
+    "artworkBoundary": "City art was pending; no city-art screenshot claim belongs to this reading trace",
+    "recordedAtUtc": "2026-11-22T04:00:58.585218+00:00",
+    "nativeCoreHashes": {
+      "game/index.html": "30f3b7e80d1658639e29325c52d21f460e16054867ceb2b689a766b335ad2460",
+      "play/worldmap-v4/worldmap.js": "2201471a63a8edd8969d88cd37c7d6f6ab5410afda530c9886d984eac46451a8",
+      "play/collection/catalog.js": "f065c564d306532fcb4de09ee8a42216ac3f1c0c8a5b40b81a4fbcdf2c526946",
+      "play/collection/store.js": "66960cf31363adff56f4c3a610233a1f19ead8fa8e8523e23932ac3dd4b7c974",
+      "play/collection/reader-bridge.js": "6016871fcae1cf15118a91038dcb944c86cbc6c36da1efaebe9f6ddcbdd28053",
+      "play/route/data.js": "e56abfdb2cc5414f313684b776bff282adac6754c6b09279a47076baf9206747",
+      "play/route/selectors.js": "929bf1a0f0e27a71010360b6590a452d744a52df9a15d2cfa61a0b0387f8def9",
+      "play/route/metadata.js": "46648a0582f2f85436fec6edce4d9e8b2acb4bfff125b8c6dcf2bcff1c932386",
+      "four-truths/book/index.html": "be514f00c174a69cac26facc3a4362d39f8dcbacce05d15dc31339d1e34e40b4",
+      "five-aggregates/book/index.html": "8db730c39658d9841e0d7d7c84d2121b0080fae23c630c7038c4de297dcb8f54",
+      "six-senses/book/index.html": "75f4ff83ab1300625a035e0a5430e5f21f93a1d939a17ee9625719548e2ee67b"
+    }
+  },
+  "nativeTraceReuse": "Earlier actual198-step run reused after exact runtime hash comparison; only final art/anchor/label checks are run again",
+  "layouts": [
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "mapNativeDialogs": 32,
+      "cityNativeDialogs": 14,
+      "fullRequestedLabels": true,
+      "cityNativeFrame": [
+        1671,
+        941
+      ],
+      "sixGates": true,
+      "hairLayerInSceneAndLordDialog": true,
+      "scrollLeaderNativeLength": 99.60012817382812,
+      "scrollEndpoint": [
+        1081,
+        465
+      ],
+      "nativeReturnToGame": true,
+      "horizontalOverflow": "none"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "mapNativeDialogs": 32,
+      "cityNativeDialogs": 14,
+      "fullRequestedLabels": true,
+      "cityNativeFrame": [
+        1671,
+        941
+      ],
+      "sixGates": true,
+      "hairLayerInSceneAndLordDialog": true,
+      "scrollLeaderNativeLength": 138.58531188964844,
+      "scrollEndpoint": [
+        1081,
+        465
+      ],
+      "nativeReturnToGame": true,
+      "horizontalOverflow": "none"
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "mapNativeDialogs": 32,
+      "cityNativeDialogs": 14,
+      "fullRequestedLabels": true,
+      "cityNativeFrame": [
+        1671,
+        941
+      ],
+      "sixGates": true,
+      "hairLayerInSceneAndLordDialog": true,
+      "scrollLeaderNativeLength": 99.60012817382812,
+      "scrollEndpoint": [
+        1081,
+        465
+      ],
+      "nativeReturnToGame": true,
+      "horizontalOverflow": "none"
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "mapNativeDialogs": 32,
+      "cityNativeDialogs": 14,
+      "fullRequestedLabels": true,
+      "cityNativeFrame": [
+        1671,
+        941
+      ],
+      "sixGates": true,
+      "hairLayerInSceneAndLordDialog": true,
+      "scrollLeaderNativeLength": 99.60012817382812,
+      "scrollEndpoint": [
+        1081,
+        465
+      ],
+      "nativeReturnToGame": true,
+      "horizontalOverflow": "none"
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "mapNativeDialogs": 32,
+      "cityNativeDialogs": 14,
+      "fullRequestedLabels": true,
+      "cityNativeFrame": [
+        1671,
+        941
+      ],
+      "sixGates": true,
+      "hairLayerInSceneAndLordDialog": true,
+      "scrollLeaderNativeLength": 99.60012817382812,
+      "scrollEndpoint": [
+        1081,
+        465
+      ],
+      "nativeReturnToGame": true,
+      "horizontalOverflow": "none"
+    }
+  ],
+  "sharedPublicRoutes": {
+    "map": "/game/",
+    "city": "/play/city/",
+    "shelf": "/play/visual-v2/shelf.html",
+    "sources": "/play/sources.html",
+    "allMapReturnLinks": "/game/"
+  },
+  "modeIsolation": {
+    "freeGame": "Open/Next/return keeps0; native final-chapter selection does not complete; explicit finish earns only Six Senses1/14 and recommends Four Truths",
+    "oldV1": "Distinct valid prior Four Truths completion and Six Senses free bookmark6 preserved by/game; old free reader resumes6→7 without changing collection",
+    "ordinaryCollection": "Still returns to the shared shelf; shelf sea link points/game",
+    "standalone": "First3 native Next/Previous and touch-action unchanged, no opt-in UI, neither store rewritten",
+    "legacyDraftMount": "/play/worldmap-v4/ remains usable with its own collectionReturn target"
+  },
+  "cityReadingAndFinalArtFeedback": {
+    "nativeCityReread": "Five Aggregates0→1/reload1, back/game, city primary resumes1 without completion",
+    "feedbackFixtures": [
+      "four-truths",
+      "five-aggregates",
+      "six-senses",
+      "four-fruits-ten-fetters"
+    ],
+    "hairLayerInFiveAggregatesReward": true,
+    "compactOptionalCityEntry": true,
+    "noFifteenthBook": true
+  },
+  "storageEdges": {
+    "existingFourteenBookSave": "Exact raw string preserved through public map controls/city; no automatic migration or clearing",
+    "corrupt": "Untouched on initial read-only mount; warning and original reader remain usable",
+    "unavailable": "Warning and reader Next usable; persistence is not promised",
+    "oldV1AndUnrelatedKeys": "preserved"
+  },
+  "releaseFiles": {
+    "gameBuilderCheck": "passed; single shell shares one runtime/store",
+    "pagesConfig": "Only docs/previews QA artifacts excluded; runtime and original sources stay included",
+    "excludedQaDirectories": [
+      "docs/previews/play",
+      "docs/previews/play-art-directions",
+      "docs/previews/play-city-entry",
+      "docs/previews/play-collection",
+      "docs/previews/play-continent",
+      "docs/previews/play-network",
+      "docs/previews/play-visual-v2",
+      "docs/previews/play-worldmap-v4",
+      "docs/previews/play-game-release"
+    ],
+    "generatedAssets": [
+      {
+        "path": "play/visual-v2/assets/city-scroll-audience-concept.png",
+        "size": [
+          1671,
+          941
+        ],
+        "mode": "RGB",
+        "sha256": "af2db3ed196e19ad3f98b17a8f86de6d3d5475546701e5e6b26a160815ca048c"
+      },
+      {
+        "path": "play/visual-v2/assets/city-lord-facial-hair-layer.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "mode": "RGBA",
+        "sha256": "8a1bc7638be862d85090b678a4be4a30855bfd70392b36ccb417ae0beaf1a300"
+      }
+    ],
+    "modelCompletionSubsets": 16384,
+    "productionProof": "Exact merge SHA Pages success and live smoke handled separately"
+  }
+}

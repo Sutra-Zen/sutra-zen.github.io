@@ -2,7 +2,7 @@
 export const LOCALE='zh-Hant';
 export const FUTURE_LOCALES=['zh-Hans','en','ja'];
 export const T={
- title:'繪本旅程・山海世界',eyebrow:'沿著海岸，讀進故事裡。',preview:'試稿・未發布',
+ title:'繪本旅程・山海世界',eyebrow:'沿著海岸，讀進故事裡。',preview:'試玩版',
  description:'從右下的法輪出發。湖灣、花田與橋梁，連起十四本繪本的旅程。',
  route:'依序旅程',free:'自由選讀',continue:'繼續閱讀',start:'開始旅程',restart:'重新閱讀',
  returnJourney:'回繪本旅程',returnMap:'回世界地圖',sourceMap:'原修道地圖',shelf:'收集書架',city:'六門城池',
@@ -29,8 +29,8 @@ export const T={
  names:{harbor:'三十七道品海陸港口',awakening_overview:'七覺支群島',faculties_overview:'五根五力群島',
  'mindfulness-awakening':'念覺支','effort-awakening':'精進覺支','concentration-awakening-group':'喜・息・定・捨覺支','discrimination-awakening':'擇法覺支',
  'faith-root-power':'信根・信力','mindfulness-root-power':'念根・念力','effort-root-power':'勤根・勤力','concentration-root-power':'定根・定力','wisdom-root-power':'慧根・慧力',
- confidence_lagoon:'四不壞淨湖',recollection_lighthouse:'六念木造燈塔',mindfulness_pavilion:'四念處觀照亭',inversion_grove:'四顛倒鏡影林',
- effort_garden:'四正勤花田',wholesome_lake:'十善業道湖',breathing_grove:'安那般那與止觀',endeavor_boathouse:'四如意足船塢',jhana_water_garden:'四禪靜水庭園',
+ confidence_lagoon:'四不壞淨湖',recollection_lighthouse:'六念燈塔',mindfulness_pavilion:'四念處觀照亭',inversion_grove:'四顛倒鏡影林',
+ effort_garden:'四正勤花田',wholesome_lake:'十善業道湖',breathing_grove:'安那般那與止觀竹林',endeavor_boathouse:'四如意足船塢',jhana_water_garden:'四禪靜水庭園',
  aggregates_lake:'苦諦-五陰湖',senses_lake:'苦諦-六處湖',sense_landings:'六處水岸入口',dependent_origination_court:'集諦-十二因緣輪庭',
  truth_wheel_ruin:'四聖諦法輪遺跡',fruition_valley:'滅諦-四向四果與十結',path_station:'道諦-八正道驛站',path_road:'八正道公路',
  path_bridge_mindfulness:'正念橋',path_bridge_effort_ethics:'正精進・正語\n正業・正命橋群',path_bridge_concentration:'正定橋',path_bridge_wisdom:'正見／正志橋'},

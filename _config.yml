@@ -1,0 +1,13 @@
+# Keep GitHub Pages' existing legacy main:/ Jekyll publishing method.
+# These game-only QA screenshots/reports stay in Git and PRs, but are not
+# runtime website assets. Existing source archives and older previews remain.
+exclude:
+  - docs/previews/play
+  - docs/previews/play-art-directions
+  - docs/previews/play-city-entry
+  - docs/previews/play-collection
+  - docs/previews/play-continent
+  - docs/previews/play-network
+  - docs/previews/play-visual-v2
+  - docs/previews/play-worldmap-v4
+  - docs/previews/play-game-release

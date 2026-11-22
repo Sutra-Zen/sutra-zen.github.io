@@ -28,9 +28,11 @@ async function initializeCollection() {
   document.head.append(stylesheet);
   document.body.classList.add('collection-reading');
   document.body.dataset.collectionBook = bookId;
-  const worldmapReturn = new URLSearchParams(location.search).get('collectionReturn') === 'worldmap-v4';
-  const shelfURL = new URL(worldmapReturn ? '../worldmap-v4/' : '../visual-v2/shelf.html', import.meta.url);
-  const returnLabel = worldmapReturn ? (await import('../worldmap-v4/text.js')).T.returnJourney : text.returnShelf;
+  const requestedReturn = new URLSearchParams(location.search).get('collectionReturn');
+  const worldmapReturn = requestedReturn === 'worldmap-v4';
+  const gameReturn = requestedReturn === 'game';
+  const shelfURL = new URL(gameReturn ? '../../game/' : worldmapReturn ? '../worldmap-v4/' : '../visual-v2/shelf.html', import.meta.url);
+  const returnLabel = worldmapReturn || gameReturn ? (await import('../worldmap-v4/text.js')).T.returnJourney : text.returnShelf;
   // Reuse the top-left slot; another landscape toolbar would cover narration.
   const returnLink = document.querySelector('.top > a') || document.createElement('a');
   returnLink.classList.add('collection-reader-return');

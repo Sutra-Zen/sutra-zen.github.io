@@ -33,7 +33,7 @@ function render(){
 function read(id,{restart=false}={}){
  const b=books.get(id);if(!b)return;
  routeMetadata.markOpened(id);const saved=store.get(),u=new URL(b.reader,catalogURL),at=saved.positions[id];
- u.searchParams.set('collection','1');u.searchParams.set('collectionReturn','worldmap-v4');
+ u.searchParams.set('collection','1');u.searchParams.set('collectionReturn','game');
  if(restart)u.searchParams.set('collectionPage','0');
  else if(Number.isInteger(at)&&at>=0&&at<b.totalSteps&&(!saved.completed.includes(id)||at<b.totalSteps-1))u.searchParams.set('collectionPage',String(at));
  else if(saved.completed.includes(id))u.searchParams.set('collectionPage','0');

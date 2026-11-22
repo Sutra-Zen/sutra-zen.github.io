@@ -1,0 +1,158 @@
+{
+  "version": "2026-11-22-game-release-city-audience-v1",
+  "purpose": "Provenance and measured geometry for the author-authorized /game/ release; deployment is verified separately by release checks.",
+  "generationTool": "image_gen.imagegen",
+  "originalReference": {
+    "path": "play/visual-v2/assets/city-moustache-concept.png",
+    "retained": true,
+    "sha256": "e90e84c33f3679e2e80cfce3c486c59af8b4a5dfe4eeec427cac2412efedba00"
+  },
+  "assets": [
+    {
+      "path": "play/visual-v2/assets/city-scroll-audience-concept.png",
+      "generatedOriginal": "/workspace/generated_images/exec-d3042f21-1439-40ff-bea9-a7916eb19702.png",
+      "width": 1671,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 3457217,
+      "sha256": "af2db3ed196e19ad3f98b17a8f86de6d3d5475546701e5e6b26a160815ca048c",
+      "status": "Selected full-scene edit; render with the separate facial-hair layer below.",
+      "changes": [
+        "One crowned orange kitten lord stands forward at the north edge of the four-elements plaza; the rear palace remains.",
+        "Black-white and calico messenger kittens stand to the lord’s right foreground, looking toward him and jointly holding one open cream parchment scroll.",
+        "No baked teaching labels or tactical grid were added."
+      ],
+      "preservedComposition": [
+        "Six perimeter gates",
+        "Separate guardian kitten near the southwest gate",
+        "Four-elements plaza",
+        "Rear palace",
+        "Water, paths, walls and gardens"
+      ],
+      "limitations": [
+        "Image generation repaints some texture; unchanged regions are compositionally retained, not byte-identical.",
+        "The flat scene alone retains a tiny mouth-colored mark. The separately generated opaque hair layer is required to fulfill the fully obscured mouth request."
+      ],
+      "anchors": {
+        "lord": {
+          "x": 840,
+          "y": 375,
+          "xPct": 50.2693,
+          "yPct": 39.851222
+        },
+        "blackWhiteMessenger": {
+          "x": 1093,
+          "y": 451,
+          "xPct": 65.409934,
+          "yPct": 47.927736
+        },
+        "calicoMessenger": {
+          "x": 1167,
+          "y": 474,
+          "xPct": 69.83842,
+          "yPct": 50.371945
+        },
+        "openScrollCenter": {
+          "x": 1081,
+          "y": 465,
+          "xPct": 64.691801,
+          "yPct": 49.415515
+        }
+      },
+      "cropsNativeXYWH": {
+        "lord": [
+          750,
+          280,
+          165,
+          190
+        ],
+        "messengers": [
+          1025,
+          378,
+          190,
+          155
+        ],
+        "openScroll": [
+          1024,
+          414,
+          120,
+          96
+        ]
+      },
+      "nativeAspectRatio": "1671:941"
+    },
+    {
+      "path": "play/visual-v2/assets/city-lord-facial-hair-layer.png",
+      "generatedOriginal": "/workspace/generated_images/exec-9cc5959f-fa1f-4bc3-9b79-28a8a6bd710c.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "bytes": 2154990,
+      "sha256": "8a1bc7638be862d85090b678a4be4a30855bfd70392b36ccb417ae0beaf1a300",
+      "status": "Selected transparent illustration layer, displayed with the full scene and any lord close-up.",
+      "content": "Connected dark-chestnut curved 八字鬍 and pointed 山羊鬍, with solid hair bridging the entire mouth area.",
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "anyPositiveBBoxXYXY": [
+          0,
+          3,
+          1535,
+          1024
+        ],
+        "threshold32BBoxXYXY": [
+          50,
+          85,
+          1486,
+          972
+        ],
+        "threshold128BBoxXYXY": [
+          50,
+          86,
+          1485,
+          971
+        ],
+        "coverageAtUnderlyingMouthMinimum": 252
+      },
+      "placementOnCityFullPngXYWH": [
+        778,
+        350,
+        128,
+        85.33333333333333
+      ],
+      "equivalentAlpha32CropViewBoxXYWH": [
+        50,
+        85,
+        1436,
+        887
+      ],
+      "equivalentAlpha32DestinationXYWH": [
+        782.1666666666666,
+        357.0833333333333,
+        119.66666666666667,
+        73.91666666666667
+      ],
+      "referenceInspection": "/tmp/city-audience-fourth-detail.png",
+      "combinedInspection": "/tmp/city-audience-final-1671-detail.png",
+      "pixelEditing": "No Python raster edits. Original generated PNG bytes are copied without transformation; browser/SVG composition positions the transparent layer."
+    }
+  ],
+  "inspection": {
+    "method": "Full-image visual review and a browser-rendered 2x close-up of the scene with the transparent hair layer.",
+    "sixGatesVisible": true,
+    "singleLordAtPlazaNorthEdge": true,
+    "blankOpenCreamScroll": true,
+    "messengersFaceLord": true,
+    "mouthFullyObscuredInCombinedRendering": true,
+    "originalReferenceRetained": true,
+    "fullSceneInspection": "/tmp/city-audience-final-fullview.png"
+  },
+  "coordinateNotes": [
+    "All city anchors and destination rectangles use the selected 1671x941 native artwork, not the earlier 1672x941 image.",
+    "The mouth-hiding illustration layer must share the image-relative SVG/image coordinate system, including enlarged lord crops.",
+    "HTML/SVG teaching labels and their leader lines are maintained in product data, not burned into these images."
+  ],
+  "unselectedIterations": "Other full-scene generation attempts remain only in /workspace/generated_images; they are not added as unused repository variants."
+}

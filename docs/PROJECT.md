@@ -6,6 +6,16 @@
 - Related Buddhist learning map: https://sutrazen.netlify.app/map.html
 - Primary language: Traditional Chinese (Taiwan)
 
+## Public game entry release (2026-11-22)
+
+The author explicitly authorized this round's publication at `https://sutra-zen.github.io/game/`, superseding the earlier game-preview-only restrictions. `release/game-first-playable` starts from reviewed prototype `a2b3225`, which already contains current main `b9a0dad2`; publish through one PR into main while retaining the prototype review history. Actual merge SHA, Pages result and live checks must be recorded before claiming the public URL is available.
+
+`game/index.html` mounts the existing worldmap shell using an explicit base URL; `scripts/build-game-entry.py` keeps the intentional title/base/brand/badge differences reproducible. Runtime, book data, images, saved book IDs and storage keys remain shared. The opt-in reader bridge accepts only the existing worldmap return, the new `game` return, or the default collection shelf. City, shelf and source return links lead to `/game/`; standalone original books retain their interface. The public trial is deliberately noindex, with the existing fifteen-page SEO/Google files preserved.
+
+Sea-map labels are 「安那般那與止觀竹林」 and 「六念燈塔」. The city audience scene places the crowned moustached/goateed lord forward by the plaza, with black-white/calico messengers and an open cream scroll. Editable labels read 「地水火風四大廣場」「止・觀使者」「如實消息・涅槃」; the message leader uses the scroll's image-relative center. Scroll and facial hair are story artwork, not additions to the canonical allegory.
+
+`_config.yml` preserves legacy main:/ Pages publishing and only excludes nine game QA evidence directories from its artifact; all Git history, older preview URLs, original documents, book images and source PDFs remain. The source-size estimate falls from about957MB to775MB before this round's small assets. See `docs/play/game-release/` for the runtime asset manifest and limitations, and `docs/previews/play-game-release/` on GitHub for actual checks/screenshots. Real iPhone/iPad Safari remains untested unless a later record says otherwise.
+
 ## Current status and deployment (verified 2026-11-19)
 
 The owner renamed `rooneyflower-star/sutrazen-map` to `Sutra-Zen/sutra-zen.github.io`; GitHub repository ID 1441581789 and commit history are unchanged. Baseline main `2ec341a6ffa1a4f0108183da980e9af85c55bd31` includes all fourteen released books and the latest Anapana scripture/comic-focus corrections. Older dated preview restrictions below describe historical work; use the newest HANDOFF entry and the current user's authorization.

@@ -11,7 +11,7 @@ function rewardArt(id,title){
  const role=roles[id],crop=(cityArt.CITY_REWARD_CROPS||fallbackCrops)[role];
  if(role&&crop){
   const box=Array.isArray(crop)?crop:[crop.x,crop.y,crop.w,crop.h];
-  return `<svg class="wm-reward-feature-art" viewBox="${box.join(' ')}" role="img" aria-label="${escape(title)}"><image href="${cityArt.TACTICS_ART.path}" width="${cityArt.TACTICS_ART.width}" height="${cityArt.TACTICS_ART.height}"/></svg>`;
+  return `<svg class="wm-reward-feature-art" viewBox="${box.join(' ')}" role="img" aria-label="${escape(title)}">${cityArt.renderCitySVGImages()}</svg>`;
  }
  const book=routeBooks.find(b=>b.id===id);
  return book?`<img class="wm-reward-feature-art wm-reward-book-art" src="${new URL(book.cover,catalogURL).href}" alt="${escape(book.title)}">`:'';
