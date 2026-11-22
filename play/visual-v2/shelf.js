@@ -1,7 +1,9 @@
+import { renderGameNavigation } from '../navigation.js';
 import { CATALOG } from '../collection/catalog.js';
 import { store } from '../collection/store.js';
 import { T } from '../collection/shelf-text.js';
 import { recommendNextBook } from '../route/selectors.js';
+document.querySelector('[data-game-nav-host]').outerHTML=renderGameNavigation({active:'shelf'});
 const moduleURL=new URL('../collection/catalog.js',import.meta.url);
 const books=document.querySelector('#collection-books'),count=document.querySelector('#collection-count'),bar=document.querySelector('#collection-progress'),feedback=document.querySelector('#collection-feedback'),notice=document.querySelector('#collection-notice'),dialog=document.querySelector('#collection-dialog'),dialogContent=document.querySelector('#collection-dialog-content');
 const urlFor=value=>new URL(value,moduleURL).href;

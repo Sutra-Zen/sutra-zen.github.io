@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-22",
+  "method": "Original image-generation output copied byte-for-byte without resampling or upscaling.",
+  "assets": [
+    {
+      "path": "play/visual-v2/assets/city-moustache-concept.png",
+      "role": "independent16x9city-scene-with-crowned-moustached-lord",
+      "nativeDimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "bytes": 4014835,
+      "sha256": "e90e84c33f3679e2e80cfce3c486c59af8b4a5dfe4eeec427cac2412efedba00",
+      "originalGenerationOutput": "/workspace/generated_images/exec-868f318d-72bf-46bb-8f58-6b4328be5357.png",
+      "matchesOriginalOutputByteForByte": true,
+      "notes": [
+        "Generated concept pending author confirmation, not published.",
+        "Full16x9scene sixgates retained; notnative4K artwork.",
+        "Lord uses crowned orange-tabby kitten base with visible moustache; doctrinal role remains consciousness.",
+        "Figures and architecture are painted within one scene; not final independent animation layers."
+      ]
+    }
+  ]
+}

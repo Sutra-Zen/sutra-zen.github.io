@@ -1,10 +1,17 @@
+import { renderGameNavigation } from '../navigation.js';
 import { networkMarkup, nodePanel, point } from './network.js';
 import { MAP_STYLES } from './art-directions.js';
 import { NODES, INSTANCES } from './network-data.js';
 import { ISLANDS, RELATIONS, COPY } from './data.js';
 import { TACTICS_SPOTS as CITY_SPOTS, renderTacticsCity, getCitySnapshot, cityReviewControls, citySpotStatus, cityFeedbackText, renderCityRolePreview } from './city-tactics.js';
 const host=document.querySelector('#scene-host'),controls=document.querySelector('#scene-controls'),footer=document.querySelector('#scene-footer'),dialog=document.querySelector('#inspect-dialog'),content=document.querySelector('#inspect-content');
+document.querySelector('[data-game-nav-host]').outerHTML=renderGameNavigation({active:'map'});
 const previewParams=new URLSearchParams(location.search);
+if(previewParams.get('view')==='city'){
+ const cityURL=new URL('../city/',import.meta.url),review=previewParams.get('review');
+ if(/^(all|[0-3])$/.test(review||''))cityURL.searchParams.set('review',review);
+ location.replace(cityURL.href);
+}
 let mapStyle=Object.hasOwn(MAP_STYLES,previewParams.get('style'))?previewParams.get('style'):'terrain';
 let view=['network','map','city','celebrate'].includes(previewParams.get('view'))?previewParams.get('view'):'network',stage=0,relations=false,showSpots=true,zoom=view==='network'&&innerWidth>800;
 let selectedNode=null,showReadingRoute=true,showNetworkLinks=true,cameraNode='four-truths';
@@ -36,7 +43,7 @@ function render(){
 document.addEventListener('click',e=>{
  const b=e.target.closest('button');if(!b)return;
  if(b.dataset.mapStyle){mapStyle=b.dataset.mapStyle;render();}
- if(b.dataset.view){view=b.dataset.view;zoom=view==='network'&&innerWidth>800;render();}
+ if(b.dataset.view){if(b.dataset.view==='city'){location.assign(new URL('../city/',import.meta.url).href);return;}view=b.dataset.view;zoom=view==='network'&&innerWidth>800;render();}
  if(b.dataset.netLocate){cameraNode=b.dataset.netLocate;selectedNode=cameraNode;zoom=false;render();}
  if(b.hasAttribute('data-net-clear')){selectedNode=null;render();}
  if(b.dataset.netToggle){if(b.dataset.netToggle==='route')showReadingRoute=!showReadingRoute;if(b.dataset.netToggle==='links')showNetworkLinks=!showNetworkLinks;render();}
@@ -45,7 +52,7 @@ document.addEventListener('click',e=>{
  if(b.hasAttribute('data-city-review')){cityReviewStage=b.dataset.cityReview==='real'?null:b.dataset.cityReview==='all'?'all':Number(b.dataset.cityReview);render();}
  if(b.dataset.toggle){if(b.dataset.toggle==='relations')relations=!relations;if(b.dataset.toggle==='spots')showSpots=!showSpots;if(b.dataset.toggle==='zoom')zoom=!zoom;render();}
  if(b.dataset.locate){zoom=false;render();const i=ISLANDS.find(i=>i.n===Number(b.dataset.locate));requestAnimationFrame(()=>{const sc=host.querySelector('.scene-scroll'),board=host.querySelector('.artboard');sc.scrollTo({left:board.clientWidth*i.x/100-sc.clientWidth/2,top:board.clientHeight*i.y/100-sc.clientHeight/2,behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'instant':'smooth'});});}
- if(b.dataset.go){view=b.dataset.go;render();}
+ if(b.dataset.go){if(b.dataset.go==='city'){location.assign(new URL('../city/',import.meta.url).href);return;}view=b.dataset.go;render();}
  if(b.hasAttribute('data-island')){
  const i=ISLANDS.find(i=>i.n===Number(b.dataset.island));const locked=i.n<=3&&i.n>stage+1;
  const status=i.n>3?'後續旅程':locked?'薄霧中的下一站':i.n<=stage?'已讀狀態示範':'現在可以出發';

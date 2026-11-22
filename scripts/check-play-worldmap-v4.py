@@ -167,6 +167,21 @@ def geometry(page):
     }""")
 
 
+def compact_completion(page, book_id):
+    """Check the approved concise reward, retaining the actual city-state proof."""
+    reward = page.locator('#wm-dialog .wm-compact-reward')
+    assert reward.count() == 1
+    assert reward.get_attribute('data-completed-book') == book_id
+    assert reward.locator('.wm-reward-feature-art').count() == 1
+    assert reward.locator('p').inner_text().strip()
+    assert page.locator('#wm-dialog .city-tactics-board').count() == 0
+    assert page.locator('#wm-dialog [data-wm-city]').get_attribute('href') == '../city/'
+    city = page.evaluate('SutraZenWorldmap.getState().status.city')
+    expected = next(item for item in city['rewards'] if item['bookId'] == book_id)
+    assert reward.get_attribute('data-reward-available') == str(expected['available']).lower()
+    return city
+
+
 def check_layouts(browser, base, report):
     context = browser.new_context(reduced_motion='reduce')
     context.add_init_script("localStorage.setItem('sutrazen.play.v1','worldmap-layout-preserve-v1');localStorage.setItem('unrelated-site-setting','keep');")
@@ -303,6 +318,7 @@ def check_resume_modes(browser, base, report):
         page.wait_for_function('(n)=>document.body?.dataset.collectionIndex===String(n)', arg=index)
     page.locator('#next').click()
     page.wait_for_selector('#wm-dialog[open]')
+    compact_completion(page, 'four-truths')
     assert page.evaluate('(k)=>JSON.parse(localStorage.getItem(k)).completed', COLLECTION_KEY) == ['four-truths']
     assert '1／14' in page.locator('#wm-count').inner_text()
     report['primaryResume'] = 'Actual free Four Jhanas Next0→5, return and primary resume5/reload5 while recommendation remains Four Truths; earned Four Truths reread0→5, return/resume5 and explicit re-finish leaves count1'
@@ -395,16 +411,23 @@ def check_city_r3(browser, base, report):
             page.goto(base + 'play/worldmap-v4/')
             page.wait_for_selector('.wm-world')
             restore_fixture(page, fixture(completed))
-            page.goto(base + 'play/visual-v2/?view=city')
+            page.goto(base + 'play/city/')
             page.wait_for_selector('.city-tactics-board')
             board = page.locator('.city-tactics-board')
             assert board.get_attribute('data-city-stage') == str(stage)
             assert page.locator('[data-city-state-source="collection"]').count() == 1
-            assert page.locator('.city-spot[data-spot]').count() == count
-            assert page.locator('.tactics-gate-hotspot').count() == gates
+            # All fourteen labels remain inspectable before acquisition; the
+            # availability flags, not the existence of labels, prove progress.
+            assert page.locator('.city-spot[data-spot]').count() == 14
+            assert page.locator('.city-spot[data-city-label]').count() == 14
+            assert page.locator('.city-spot[data-feature-available="true"]').count() == count
+            assert page.locator('.city-spot[data-feature-available="false"]').count() == 14 - count
+            assert page.locator('.tactics-gate-hotspot').count() == 6
+            assert page.locator('.tactics-gate-hotspot[data-feature-available="true"]').count() == gates
             assert page.locator('.tactics-road-light.is-active').count() == int('eightfold-path' in completed)
             assert page.locator('.tactics-plaza-light.is-active').count() == int('five-aggregates' in completed)
-            page.locator('#scene-host img').evaluate_all('els=>Promise.all(els.map(i=>i.decode()))')
+            assert not page.locator('#city-review-options').evaluate('e=>e.open')
+            page.locator('#city-scene-host img').evaluate_all('els=>Promise.all(els.map(i=>i.decode()))')
             no_overflow(page)
             if name in ['initial', 'all'] and width in [1280, 390]:
                 page.screenshot(path=str(OUT / f'city-actual-{name}-{width}x{height}.png'), full_page=True)
@@ -412,14 +435,15 @@ def check_city_r3(browser, base, report):
                 spot_ids = page.locator('.city-spot[data-spot]').evaluate_all('els=>els.map(e=>e.dataset.spot)')
                 for spot_id in spot_ids:
                     page.locator('.city-spot[data-spot="' + spot_id + '"]').click(timeout=5000)
-                    assert 'SN 35.245' in page.locator('#inspect-dialog').inner_text()
-                    assert page.locator('#inspect-dialog a[href="../sources.html"]').count() == 1
-                    page.locator('#inspect-dialog .close-dialog').click()
-            report.setdefault('cities', []).append({'viewport': [width, height], 'fixture': name, 'stage': stage, 'realSourceHotspots': count, 'sixGateHotspots': gates, 'viewportOverflow': 'none'})
+                    assert 'SN 35.245' in page.locator('#city-dialog').inner_text()
+                    assert page.locator('#city-dialog a[href="' + base + 'play/sources.html"]').count() == 1
+                    page.locator('#city-dialog [data-city-close]').click()
+            report.setdefault('cities', []).append({'viewport': [width, height], 'fixture': name, 'stage': stage, 'realSourceHotspots': 14, 'availableSourceHotspots': count, 'sixGateHotspots': 6, 'availableGateHotspots': gates, 'viewportOverflow': 'none'})
         before = page.evaluate('(k)=>localStorage.getItem(k)', COLLECTION_KEY)
+        page.locator('#city-review-options > summary').click()
         page.locator('[data-city-review="0"]').click()
         assert page.locator('[data-city-state-source="review"]').count() == 1
-        assert '不會新增、刪除或清空' in page.locator('.tactics-state-caption').inner_text()
+        assert '不會新增、刪除或清空' in page.locator('#city-review-options').inner_text()
         page.locator('[data-city-review="all"]').click()
         assert page.evaluate('(k)=>localStorage.getItem(k)', COLLECTION_KEY) == before
         page.locator('[data-city-review="real"]').click()
@@ -433,7 +457,7 @@ def check_city_r3(browser, base, report):
         page.goto(base + 'play/worldmap-v4/')
         page.wait_for_selector('.wm-world')
         restore_fixture(page, fixture(completed))
-        page.goto(base + 'play/visual-v2/?view=city')
+        page.goto(base + 'play/city/')
         page.wait_for_selector('.city-tactics-board')
         assert page.locator('.city-tactics-board').get_attribute('data-city-guardian') == str(guardian).lower()
         assert page.locator('.city-tactics-board').get_attribute('data-city-messengers') == str(messengers).lower()
@@ -441,6 +465,21 @@ def check_city_r3(browser, base, report):
             assert page.locator('[data-preview-reward="' + reward_id + '"]').count() == 1
         assert page.evaluate('(k)=>JSON.parse(localStorage.getItem(k)).completed.length', COLLECTION_KEY) == len(completed)
     report['earnedPendingCityRoles'] = 'Early mindfulness/anapana rewards preview without placing or fabricating body/gates; completing body+gates later auto-places both without rereading'
+    # Legacy bookmarks still lead to the new page. Valid read-only review
+    # parameters must survive; unrelated/invalid parameters are not promoted.
+    before = page.evaluate('(k)=>localStorage.getItem(k)', COLLECTION_KEY)
+    for review, expected_query, expected_stage, source in [
+        ('all', '?review=all', '3', 'review'),
+        ('0', '?review=0', '0', 'review'),
+        ('invalid', '', '3', 'collection'),
+    ]:
+        page.goto(base + 'play/visual-v2/?view=city&review=' + review)
+        page.wait_for_url(base + 'play/city/' + expected_query)
+        page.wait_for_selector('.city-tactics-board')
+        assert page.locator('.city-tactics-board').get_attribute('data-city-stage') == expected_stage
+        assert page.locator('[data-city-state-source="' + source + '"]').count() == 1
+        assert page.evaluate('(k)=>localStorage.getItem(k)', COLLECTION_KEY) == before
+    report['legacyCityRedirect'] = 'Standalone city destination; valid review=all/0 preserved, invalid review ignored, actual collection unchanged'
     context.close()
 
 
@@ -564,16 +603,16 @@ def real_first_three_flow(browser, base):
             '(key)=>JSON.parse(localStorage.getItem(key)).completed', COLLECTION_KEY,
         ) == finished
         assert f'{len(finished)}／14' in page.locator('#wm-count').inner_text()
-        board = page.locator('#wm-dialog .city-tactics-board')
-        assert board.get_attribute('data-city-stage') == str(len(finished))
-        stages.append(board.get_attribute('data-city-stage'))
+        city = compact_completion(page, book_id)
+        assert city['stage'] == len(finished)
+        stages.append(str(city['stage']))
         if len(finished) == 1:
-            assert board.locator('.tactics-truth-dock.is-earned').count() == 1
-            assert board.get_attribute('data-city-body') == 'false'
+            assert city['features']['truth_dock']
+            assert not city['features']['city_body']
         else:
-            assert board.get_attribute('data-city-body') == 'true'
-        assert board.get_attribute('data-city-guardian') == 'false'
-        assert board.get_attribute('data-city-messengers') == 'false'
+            assert city['features']['city_body']
+        assert not city['features']['mindfulness_guard']
+        assert not city['features']['calm_insight_messengers']
         page.locator('#wm-dialog img').evaluate_all('els=>Promise.all(els.map(i=>i.decode()))')
         page.screenshot(path=str(OUT / f'actual-feedback-{book_id}-1280x900.png'), full_page=True)
         # The one salient completion action advances to the next actual reader.

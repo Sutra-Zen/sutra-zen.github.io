@@ -1,14 +1,16 @@
 import {store} from '../collection/store.js';
 import {routeStatus,routeBooks,routeOrder} from '../route/selectors.js';
 import {routeMetadata} from '../route/metadata.js';
-import {renderTacticsCity} from '../visual-v2/city-tactics.js';
-import {WORLD,COLUMNS,LANDMARKS,SECONDARY,MEMBERS,NODES,EDGES,GEOGRAPHIC_ROAD,conceptAnchor,sourceGroupAnchor,PRIMARY_BOOK_LANDMARK} from './data.js';
+import {renderGameNavigation} from '../navigation.js';
+import {compactCompletionFeedback} from './completion-feedback.js';
+import {WORLD,COLUMNS,LANDMARKS,SECONDARY,MEMBERS,NODES,EDGES,GEOGRAPHIC_ROAD,MAP_CONNECTIONS,conceptAnchor,sourceGroupAnchor,PRIMARY_BOOK_LANDMARK} from './data.js';
 import {T} from './text.js';
 
 const $=s=>document.querySelector(s),bookById=new Map(routeBooks.map(b=>[b.id,b])),nodeById=new Map(NODES.map(n=>[n.id,n]));
 const query=new URLSearchParams(location.search),catalogURL=new URL('../collection/catalog.js',import.meta.url);
 let mode=query.get('mode')==='free'?'free':'route',overview=true,links='none',labels=true,selected=null;
 const dialog=$('#wm-dialog'),dialogContent=$('#wm-dialog-content');
+$('.proposal-header nav').outerHTML=renderGameNavigation({active:'map'});
 const escape=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function status(){const s=store.get();return routeStatus(s.completed,s.positions,routeMetadata.get());}
 function primaryReader(s){
@@ -31,11 +33,16 @@ function sourceLines(){
   if(!p||!q)throw Error(`Missing source anchor ${e.id}`);
   const direct=chosen&&(e.from===chosen.conceptId||e.to===chosen.conceptId);
   const hidden=links==='none'||(links==='direct'&&!direct);
-  const d=e.kind==='return'?GEOGRAPHIC_ROAD:`M${p.x} ${p.y}L${q.x} ${q.y}`;
-  return `<path class="wm-relation ${direct?'is-direct':''} ${hidden?'is-hidden':''}" data-source-edge="${e.id}" data-from="${e.from}" data-to="${e.to}" d="${d}"/>`;
+  const coast=e.kind==='return'||e.id==='overview-branch-road-overview-eightfold-overview';
+  const d=coast?GEOGRAPHIC_ROAD:`M${p.x} ${p.y}L${q.x} ${q.y}`;
+  return `<path class="wm-relation ${direct?'is-direct':''} ${hidden?'is-hidden':''}" data-source-edge="${e.id}" data-from="${e.from}" data-to="${e.to}" ${coast?'data-display-routing="coastal-road"':''} d="${d}"/>`;
  }).join('');
  const guide=links==='all'?`<g class="wm-alignment" data-layout-guides><path data-row="awakening" d="M168 108H1392"/><path data-row="faculties" d="M168 243H1392"/>${Object.entries(COLUMNS).map(([family,x])=>`<path data-column="${family}" d="M${x} ${family==='faith'?243:108}V${family==='faith'?540:810}"/>`).join('')}</g>`:'';
- return `<svg class="wm-lines" viewBox="0 0 1600 900" preserveAspectRatio="none" aria-hidden="true">${guide}${paths}</svg>`;
+ const access=MAP_CONNECTIONS.map(c=>{
+  const shown=links==='all'||(links==='direct'&&c.landmarkIds.includes(chosen?.id));
+  return `<path class="wm-display-connector ${shown?'':'is-hidden'}" data-display-route="${c.id}" data-route-kind="${c.kind}" data-is-source-relation="false" d="${c.d}"/>`;
+ }).join('');
+ return `<svg class="wm-lines" viewBox="0 0 1600 900" preserveAspectRatio="none" aria-hidden="true">${guide}${paths}${access}</svg>`;
 }
 function landscape(s){
  const chosen=LANDMARKS.find(l=>l.id===selected),nextLandmark=PRIMARY_BOOK_LANDMARK[s.nextBookId];
@@ -68,6 +75,7 @@ function render(){
  const notice=$('#wm-storage-notice');notice.hidden=!(store.issue||routeMetadata.issue);notice.className='wm-storage-notice';notice.textContent=store.issue?'此瀏覽器暫時無法保存閱讀紀錄，仍可繼續閱讀。':routeMetadata.issue?'角色與書名的顯示紀錄暫時無法保存，已讀紀錄維持原狀。':'';
 }
 function open(title,html,detail=false){
+ dialog.classList.remove('wm-completion-dialog');
  dialog.classList.toggle('wm-detail-dialog',detail);dialogContent.innerHTML=`<h2 id="wm-dialog-title">${escape(title)}</h2>${html}`;
  if(!dialog.open)dialog.showModal();
 }
@@ -83,7 +91,7 @@ function openReader(id){
 function inspect(l){
  selected=l.id;links=links==='none'?'direct':links;render();const s=status();
  if(!l.bookId){
-  open(T.names.harbor,`<p>從港口接續閱讀，或回城池看看已讀故事帶來的變化。</p><div class="wm-dialog-actions"><button class="primary" data-wm-next>${T.continue}</button><a href="../visual-v2/?view=city">${T.city}</a><a href="../visual-v2/shelf.html">${T.shelf}</a></div>`);return;
+  open(T.names.harbor,`<p>從港口接續閱讀，或回城池看看已讀故事帶來的變化。</p><div class="wm-dialog-actions"><button class="primary" data-wm-next>${T.continue}</button><a data-wm-city href="../city/">${T.city}</a><a href="../visual-v2/shelf.html">${T.shelf}</a></div>`);return;
  }
  const b=s.books.find(b=>b.id===l.bookId),concealed=mode==='route'&&!b.revealed;
  const neighbours=new Set(EDGES.filter(e=>e.from===l.conceptId||e.to===l.conceptId).flatMap(e=>[e.from,e.to]));neighbours.delete(l.conceptId);
@@ -98,13 +106,14 @@ function locateNext(){
 }
 function showEnding(){
  const s=status();if(!s.endingAvailable)return;
- open(T.ending,`<p>${T.endingCopy}</p><p>${T.endingDirection}</p><blockquote>${escape(s.ending.quote)}</blockquote><p><a href="https://buddhaspace.org/agama/sub/262.html" target="_blank" rel="noopener">${s.ending.quoteSource}</a></p><div class="wm-dialog-actions"><a class="primary" href="../../index.html#books">回原網站書架</a><a href="../visual-v2/?view=city">${T.city}</a></div>`);
+ open(T.ending,`<p>${T.endingCopy}</p><p>${T.endingDirection}</p><blockquote>${escape(s.ending.quote)}</blockquote><p><a href="https://buddhaspace.org/agama/sub/262.html" target="_blank" rel="noopener">${s.ending.quoteSource}</a></p><div class="wm-dialog-actions"><a class="primary" href="../../index.html#books">回原網站書架</a><a href="../city/">${T.city}</a></div>`);
 }
 function completedFeedback(id){
  const s=status(),b=bookById.get(id);if(!b||!s.completedBookIds.includes(id))return;
- const firstThree=['four-truths','five-aggregates','six-senses'].every(id=>s.completedBookIds.includes(id));
+ const firstThree=id==='six-senses'&&['four-truths','five-aggregates','six-senses'].every(id=>s.completedBookIds.includes(id));
  const next=bookById.get(s.nextBookId);
- open(T.completeTitle(b.title),`${firstThree?`<p class="wm-success">${T.firstComplete} · ${T.collection(s.count)}</p>`:''}<p>${T.completionCopy}</p><div class="wm-reward-city">${renderTacticsCity({celebrate:true,showSpots:false})}</div><div class="wm-dialog-actions">${next?`<button class="primary" data-wm-read="${next.id}">${escape(T.nextTitle(next.title))}</button>`:`<button class="primary" data-wm-ending>${T.ending}</button>`}<a href="../visual-v2/?view=city">${T.city}</a></div>`);
+ open(T.completeTitle(b.title),`${firstThree?`<p class="wm-success">${T.firstComplete}</p>`:''}${compactCompletionFeedback(id,s)}<p class="wm-completion-count">${T.collection(s.count)}</p><div class="wm-dialog-actions wm-completion-actions">${next?`<button class="primary" data-wm-read="${next.id}">${escape(T.nextTitle(next.title))}</button>`:`<button class="primary" data-wm-ending>${T.ending}</button>`}<a data-wm-city href="../city/">${T.seeCity}</a></div>`);
+ dialog.classList.add('wm-completion-dialog');
 }
 document.addEventListener('click',e=>{
  const b=e.target.closest('button');if(!b)return;

@@ -44,6 +44,13 @@ export const MEMBERS=Object.freeze([
  ...['faith','mindfulness','effort','concentration','wisdom'].flatMap(family=>['root','power'].map(key=>({id:`${family}-root-power--${key}`,key,sourceParentId:`${family}-root-power`,provenance:'member-of-source-aggregate'}))),
 ]);
 export const GEOGRAPHIC_ROAD='M1480 693C1580 700 1536 770 1440 810L672 810C475 830 185 825 128 770S45 630 80 540L128 423';
+// Author-requested geographic access, separate from the original 46 relations.
+// Four Jhanas reaches the harbor through the existing Iddhipada group.
+export const MAP_CONNECTIONS=Object.freeze([
+ Object.freeze({id:'harbor-concentration-access',kind:'author-geographic-access',relation:false,
+  landmarkIds:Object.freeze(['jhana_water_garden','endeavor_boathouse','harbor']),
+  d:'M1152 630L1152 531C950 520 500 504 200 504Q128 504 128 423'})
+]);
 export function conceptAnchor(id){
  const found=LANDMARKS.find(l=>l.conceptId===id);if(found)return {x:found.x,y:found.y};
  if(id==='related-overview')return {x:240,y:540};
