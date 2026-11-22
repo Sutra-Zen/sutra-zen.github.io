@@ -1,5 +1,5 @@
 import { STORY_ACTORS, STORY_SCENES, STORY_UI as T } from './data.js';
-import { storyStore } from './store.js';
+import { storyStore } from './store.js?v=prologue-1';
 
 export function initializeStoryDialogue({ host, onAction, onClose } = {}) {
   if (!host) throw Error('Missing story dialogue host.');

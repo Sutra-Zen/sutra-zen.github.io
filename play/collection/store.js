@@ -85,9 +85,14 @@ export const store = {
   },
   reset() {
     state = fresh(); issue = null;
-    clearRecovery();
+    let recoveryRemoved = true;
+    try { sessionStorage.removeItem(SESSION_FALLBACK_KEY); }
+    catch { recoveryRemoved = false; issue = 'unavailable'; }
     try { localStorage.removeItem(STORAGE_KEY); lastLocalRaw = null; }
     catch { issue = 'unavailable'; saveRecovery(); }
+    // Deleting the canonical value must not revive a stale session fallback
+    // whose base was also null. Replace it with this empty state if possible.
+    if (!recoveryRemoved) saveRecovery();
     announce();
   },
   exportBackup: () => JSON.stringify(state, null, 2),

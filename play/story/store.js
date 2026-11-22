@@ -49,6 +49,21 @@ export function createStoryStore(storage, session) {
       }
       return true;
     },
+    reset() {
+      state = fresh(); issue = null;
+      let localReset = false;
+      try {
+        if (!storage) throw Error('unavailable');
+        storage.removeItem(STORY_STORAGE_KEY); localRaw = null; localReset = true;
+      } catch { issue = 'unavailable'; }
+      let sessionReset = true;
+      try { session?.removeItem(SESSION_KEY); } catch { sessionReset = false; issue = 'unavailable'; }
+      if (!localReset || !sessionReset) {
+        // Replace any stale fallback with the empty state too. A successful
+        // local deletion must not resurrect a same-tab 'seen' fallback.
+        try { session?.setItem(SESSION_KEY, JSON.stringify({ version: 1, baseRaw: localRaw, state })); } catch {}
+      }
+    },
   };
 }
 export const storyStore = createStoryStore();

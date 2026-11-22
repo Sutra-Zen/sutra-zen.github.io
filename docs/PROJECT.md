@@ -6,6 +6,12 @@
 - Related Buddhist learning map: https://sutrazen.netlify.app/map.html
 - Primary language: Traditional Chinese (Taiwan)
 
+## Current title prologue / author reset (2026-11-22)
+
+Latest [prologue/reset round](play/game-prologue/README.md), from published PR67 `35d59e3bc41faed5fe7b0d22d1a0797398c6de59`, adds the author's exact three-paragraph upward crawl over the unchanged cat background before the centered title menu. Natural completion or one-tap/keyboard skip reveals the menu; returns to the map skip the film. Reduced motion has a static reading view.
+
+Only `/game/?author=1` creates the temporary homepage reset button; plain `/game/` has no author reset control. Confirmation resets game completion/bookmarks, route/story presentation records and map-session settings; ordinary readers and unrelated storage remain untouched. The new story reset API shares one module instance with map/dialogue. Existing collection.reset now detects failed session cleanup and replaces stale recovery state, without changing the save schema or book eligibility. `AUTHOR_REVIEW_ENABLED` can disable the tool after review; it is not authentication. Fifteen QA directories are excluded from unchanged main:/ Pages; release proof belongs to the new PR's exact-SHA/live delivery. Physical Safari remains untested.
+
 ## Current city / authored arrival dialogue (2026-11-22)
 
 Latest [city/story round](play/game-city-story/README.md), branch `feat/game-city-story` from published PR66 `be78106f6414ebf447eaedadd5c94883359be58e`, removes the harbor city badge and retains the fixed bottom city tab. Original-frame camera behavior stays unchanged. City artwork remains full color with local locked-feature clouds, and route-r3 extended rewards are presented separately from the SN35.245 allegory / SA1175 parallel.

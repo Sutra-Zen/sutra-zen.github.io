@@ -1,0 +1,248 @@
+{
+  "baseline": "35d59e3bc41faed5fe7b0d22d1a0797398c6de59",
+  "protectedTrackedFiles": 615,
+  "originalFourteenReadersIncludingHtml": "byte-for-byte unchanged",
+  "originalNarrationScripturePicturesAndSourceArchives": "byte-for-byte unchanged",
+  "rootHomepageSeoGoogleAndSharedReaderControls": "byte-for-byte unchanged",
+  "phase": "Local review only",
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "physicalSafari": "Not tested; desktop Chromium viewport/input simulation",
+  "exactAuthorCopy": [
+    "兩千多年前，印度的鹿野苑。\n佛陀向五位比丘說起了苦，也說起了走出苦的路。",
+    "相傳，佛陀般涅槃後，弟子們齊聚王舍城，\n一同誦出他的教法。後人稱這場聚會為「第一次結集」。",
+    "一代人誦給下一代人聽。\n今天翻開《阿含經》，依然能讀到佛陀與弟子關於離苦的問答。"
+  ],
+  "protectedGameCoreAndArt": [
+    "play/collection/reader-bridge.js",
+    "play/reader-bridge.js",
+    "play/route",
+    "play/worldmap-v4/data.js",
+    "play/worldmap-v4/camera.js",
+    "play/visual-v2/network-data.js",
+    "play/visual-v2/assets",
+    "play/worldmap-v4/assets",
+    "play/story/assets"
+  ],
+  "collectionStoreException": "Only reset() cleanup block changed; all other bytes identical",
+  "staticViewportChecks": [
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "exactThreeAuthoredBlocks": true,
+      "htmlSelectable": true,
+      "menuHiddenAndInert": true,
+      "reducedMotionManualOnly": true,
+      "nativeScrollAndSkip": true,
+      "storageUnchanged": true,
+      "paperCentered": {
+        "x": 387.5,
+        "y": 258.203125,
+        "width": 505,
+        "height": 383.578125
+      }
+    },
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "exactThreeAuthoredBlocks": true,
+      "htmlSelectable": true,
+      "menuHiddenAndInert": true,
+      "reducedMotionManualOnly": true,
+      "nativeScrollAndSkip": true,
+      "storageUnchanged": true,
+      "paperCentered": {
+        "x": 16,
+        "y": 237.515625,
+        "width": 328,
+        "height": 324.96875
+      }
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "exactThreeAuthoredBlocks": true,
+      "htmlSelectable": true,
+      "menuHiddenAndInert": true,
+      "reducedMotionManualOnly": true,
+      "nativeScrollAndSkip": true,
+      "storageUnchanged": true,
+      "paperCentered": {
+        "x": 197,
+        "y": 44.65625,
+        "width": 450,
+        "height": 300.6875
+      }
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "exactThreeAuthoredBlocks": true,
+      "htmlSelectable": true,
+      "menuHiddenAndInert": true,
+      "reducedMotionManualOnly": true,
+      "nativeScrollAndSkip": true,
+      "storageUnchanged": true,
+      "paperCentered": {
+        "x": 131.5,
+        "y": 345.125,
+        "width": 505,
+        "height": 333.75
+      }
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "exactThreeAuthoredBlocks": true,
+      "htmlSelectable": true,
+      "menuHiddenAndInert": true,
+      "reducedMotionManualOnly": true,
+      "nativeScrollAndSkip": true,
+      "storageUnchanged": true,
+      "paperCentered": {
+        "x": 259.5,
+        "y": 207.296875,
+        "width": 505,
+        "height": 353.390625
+      }
+    }
+  ],
+  "naturalPlayback": {
+    "viewport": [
+      1280,
+      900
+    ],
+    "actualWallSeconds": 29.88059525100107,
+    "animationDurationMs": 30000,
+    "automaticFinishCount": 1,
+    "noSeekingOrFastForward": true,
+    "storageUnchangedBeforeStart": true,
+    "naturalEndFreshStartWorksWithoutSkipDelay": true
+  },
+  "skipInputChecks": [
+    {
+      "method": "touch",
+      "didNotClickThroughToStart": true
+    },
+    {
+      "method": "Enter",
+      "didNotClickThroughToStart": true
+    },
+    {
+      "method": "Space",
+      "didNotClickThroughToStart": true
+    },
+    {
+      "method": "Escape",
+      "didNotClickThroughToStart": true
+    }
+  ],
+  "authorReset": {
+    "authorQueryOnly": true,
+    "nativeCancelAllStorageByteIdentical": true,
+    "confirmedClearedCurrentCollectionRouteStoryAndCamera": true,
+    "clearedRecoveryEntries": true,
+    "prototypePublicReaderRolesAndUnrelatedKeysPreserved": true,
+    "countAndAwardsFresh": true,
+    "arrivalSceneShownAgain": true,
+    "actualNextClicks": 2,
+    "reloadAndReturnResumeAtPage3": true,
+    "mapReturnNoPrologueOrArrivalReplay": true
+  },
+  "failedReset": {
+    "injectedCollectionRemovalDenied": true,
+    "persistentRecordStillPresent": true,
+    "temporaryOnlyWarningHonest": true,
+    "unrelatedKeyPreserved": true
+  },
+  "staleRecoveryResetRegression": [
+    {
+      "sessionRecoveryRemovalDenied": true,
+      "replacementAlsoDenied": false,
+      "cachedBaselineStoreResponse": false,
+      "resetMemoryFresh": true,
+      "temporaryOnlyWarningHonest": true,
+      "reloadFreshWhenRecoveryReplacementWorks": true,
+      "ifAllRecoveryWritesDeniedOldStateMayReturnAsWarned": false,
+      "unrelatedKeysPreserved": true
+    },
+    {
+      "sessionRecoveryRemovalDenied": true,
+      "replacementAlsoDenied": true,
+      "cachedBaselineStoreResponse": false,
+      "resetMemoryFresh": true,
+      "temporaryOnlyWarningHonest": true,
+      "reloadFreshWhenRecoveryReplacementWorks": false,
+      "ifAllRecoveryWritesDeniedOldStateMayReturnAsWarned": true,
+      "unrelatedKeysPreserved": true
+    },
+    {
+      "sessionRecoveryRemovalDenied": true,
+      "replacementAlsoDenied": false,
+      "cachedBaselineStoreResponse": true,
+      "resetMemoryFresh": true,
+      "temporaryOnlyWarningHonest": true,
+      "reloadFreshWhenRecoveryReplacementWorks": true,
+      "ifAllRecoveryWritesDeniedOldStateMayReturnAsWarned": false,
+      "unrelatedKeysPreserved": true
+    }
+  ],
+  "result": "passed",
+  "authorButtonViewports": [
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "nativeAuthorResetReachable": true,
+      "height": 48,
+      "cancelPreservesStorage": true
+    },
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "nativeAuthorResetReachable": true,
+      "height": 48,
+      "cancelPreservesStorage": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "nativeAuthorResetReachable": true,
+      "height": 48,
+      "cancelPreservesStorage": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "nativeAuthorResetReachable": true,
+      "height": 48,
+      "cancelPreservesStorage": true
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "nativeAuthorResetReachable": true,
+      "height": 48,
+      "cancelPreservesStorage": true
+    }
+  ]
+}

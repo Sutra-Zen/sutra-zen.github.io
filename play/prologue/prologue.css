@@ -1,0 +1,17 @@
+/* This overlay uses the existing title's cat artwork; no image is replaced. */
+.game-prologue{position:absolute;z-index:25;inset:0;overflow:hidden;isolation:isolate;color:#fff5da;background:linear-gradient(180deg,#27271ee0,#30291bc9 35%,#30291bce 70%,#20241ce8);font-family:"Noto Serif TC","Songti TC","PingFang TC",serif;touch-action:auto}
+.game-prologue[hidden]{display:none!important}
+.is-prologue-active .game-title-paper{visibility:hidden!important;pointer-events:none!important}
+.prologue-viewport{position:absolute;top:calc(74px + env(safe-area-inset-top,0px));bottom:calc(82px + env(safe-area-inset-bottom,0px));left:0;right:0;overflow:hidden;mask-image:linear-gradient(transparent,#000 8%,#000 91%,transparent);-webkit-mask-image:linear-gradient(transparent,#000 8%,#000 91%,transparent)}
+.prologue-copy{position:absolute;top:0;left:0;right:0;width:min(860px,calc(100% - 48px));margin:0 auto;transform:translateY(calc(100vh + 24px));will-change:transform;font-size:clamp(20px,2.15vw,31px);line-height:1.9;letter-spacing:.045em;text-align:center;text-wrap:pretty;text-shadow:0 2px 6px #080d07,0 0 18px #1a2114;user-select:text}
+.prologue-copy p{margin:0 0 1.65em;white-space:pre-line}.prologue-copy p:last-child{margin-bottom:0}
+.game-prologue .prologue-action{position:absolute;z-index:2;right:calc(16px + env(safe-area-inset-right,0px));top:calc(13px + env(safe-area-inset-top,0px));display:inline-flex;align-items:center;justify-content:center;min-width:104px;min-height:48px;padding:8px 16px;border:1px solid #cfba8199;border-radius:11px;background:#1b291abf;color:#fff5da;font:600 15px/1.4 "PingFang TC","Microsoft JhengHei",sans-serif;cursor:pointer;touch-action:manipulation}
+.game-prologue .prologue-action:hover{background:#405037}.game-prologue :focus-visible{outline:3px solid #ffdb8b;outline-offset:3px}
+.prologue-hint{position:absolute;z-index:1;left:calc(18px + env(safe-area-inset-left,0px));right:calc(18px + env(safe-area-inset-right,0px));bottom:calc(18px + env(safe-area-inset-bottom,0px));margin:0;text-align:center;color:#f2e4bc;font:14px/1.6 "PingFang TC","Microsoft JhengHei",sans-serif;text-shadow:0 1px 4px #152111}
+.game-prologue.is-static .prologue-viewport{overflow-y:auto;overscroll-behavior:contain;mask-image:none;-webkit-mask-image:none;padding:12px 0 22px;scrollbar-width:thin}
+.game-prologue.is-static .prologue-copy{position:relative;transform:none!important;will-change:auto}
+.game-prologue.is-static .prologue-action{top:auto;right:50%;bottom:calc(14px + env(safe-area-inset-bottom,0px));transform:translateX(50%);min-width:144px;background:#f7e7ba;color:#2c442b;border-color:#e4ce92;font-size:17px}
+.game-prologue.is-static .prologue-hint{top:calc(17px + env(safe-area-inset-top,0px));bottom:auto;font-size:13px}
+@media(max-width:420px){.prologue-copy{width:calc(100% - 36px);font-size:20px;line-height:1.85;letter-spacing:.02em}}
+@media(max-height:500px){.prologue-viewport{top:calc(62px + env(safe-area-inset-top,0px));bottom:calc(63px + env(safe-area-inset-bottom,0px))}.prologue-copy{font-size:20px;line-height:1.75}.prologue-copy p{margin-bottom:1.25em}.prologue-hint{bottom:calc(13px + env(safe-area-inset-bottom,0px));font-size:12px}.game-prologue .prologue-action{top:calc(7px + env(safe-area-inset-top,0px))}.game-prologue.is-static .prologue-action{top:auto;bottom:calc(8px + env(safe-area-inset-bottom,0px))}.game-prologue.is-static .prologue-hint{top:calc(12px + env(safe-area-inset-top,0px))}}
+@media(prefers-reduced-motion:reduce){.game-prologue .prologue-copy{will-change:auto}}

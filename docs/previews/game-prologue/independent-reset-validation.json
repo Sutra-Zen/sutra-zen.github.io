@@ -1,0 +1,58 @@
+{
+  "result": "passed",
+  "checks": {
+    "staleRecoveryRemovalDenied": {
+      "before": {
+        "version": 1,
+        "positions": {
+          "four-truths": 28
+        },
+        "completed": [
+          "four-truths"
+        ],
+        "activeBook": "five-aggregates"
+      },
+      "result": {
+        "persistent": false
+      },
+      "after": {
+        "version": 1,
+        "positions": {},
+        "completed": [],
+        "activeBook": "four-truths"
+      },
+      "reloaded": {
+        "version": 1,
+        "positions": {},
+        "completed": [],
+        "activeBook": "four-truths"
+      },
+      "unrelatedKeyPreserved": true,
+      "recovery": {
+        "version": 1,
+        "baseRaw": null,
+        "state": {
+          "version": 1,
+          "positions": {},
+          "completed": [],
+          "activeBook": "four-truths"
+        }
+      }
+    },
+    "allStorageIoBlocked": {
+      "result": {
+        "persistent": false
+      },
+      "after": {
+        "version": 1,
+        "positions": {},
+        "completed": [],
+        "activeBook": "four-truths"
+      },
+      "collectionIssue": "unavailable",
+      "storyIssue": "unavailable",
+      "unrelatedKeyPreserved": true,
+      "noCrossPagePersistenceClaim": true
+    }
+  }
+}
