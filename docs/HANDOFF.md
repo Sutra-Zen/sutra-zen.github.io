@@ -1,6 +1,6 @@
 # 繪本旅程首次公開試玩：/game/（2026-11-22，已獲本輪發布授權）
 
-作者本輪明確要求更新海圖及城池並直接發布有`/game/`的網址；此授權取代下方歷史試作的不得發布限制。沿用新專案`Sutra-Zen/sutra-zen.github.io`，起始`a2b3225`乾淨，最新main為`b9a0dad2c2c34d7e15e6dc5e55d6125de630f57b`且已包含於原型歷史，建立`release/game-first-playable`。整批現有旅程與本輪修正以單一發布PR進main，保留PR58／59原型審閱歷史；Pages仍用legacy main根目錄。實際發布狀態與精確merge SHA必須以本輪PR交付、Pages及正式站驗收記錄核對，不能由此授權段落推定已上線。
+作者本輪明確要求更新海圖及城池並直接發布有`/game/`的網址；此授權取代下方歷史試作的不得發布限制。沿用新專案`Sutra-Zen/sutra-zen.github.io`，起始`a2b3225`乾淨，最新main為`b9a0dad2c2c34d7e15e6dc5e55d6125de630f57b`且已包含於原型歷史，建立`release/game-first-playable`。整批現有旅程與本輪修正由[發布PR60](https://github.com/Sutra-Zen/sutra-zen.github.io/pull/60)進main，保留PR58／59原型審閱歷史；Pages仍用legacy main根目錄。實際發布狀態與精確merge SHA必須以PR60交付、Pages及正式站驗收記錄核對，不能由此授權段落推定已上線。
 
 新增`game/index.html`實際共用山海地圖，非iframe、非轉址、不複製圖文。`<base>`指回原worldmap模組／素材位置，`scripts/build-game-entry.py`管理五項必要殼差異：base、標題、品牌返回、試玩版標記與隱藏內部美術審稿區。正式入口為`https://sutra-zen.github.io/game/`。海圖名稱改「安那般那與止觀竹林」「六念燈塔」，建物本身仍保留木造畫風。固定海圖按鈕、城池／書架／經典配置返回皆指新入口；舊worldmap入口與普通collection、獨立原閱讀器保持相容。
 

@@ -8,7 +8,7 @@
 
 ## Public game entry release (2026-11-22)
 
-The author explicitly authorized this round's publication at `https://sutra-zen.github.io/game/`, superseding the earlier game-preview-only restrictions. `release/game-first-playable` starts from reviewed prototype `a2b3225`, which already contains current main `b9a0dad2`; publish through one PR into main while retaining the prototype review history. Actual merge SHA, Pages result and live checks must be recorded before claiming the public URL is available.
+The author explicitly authorized this round's publication at `https://sutra-zen.github.io/game/`, superseding the earlier game-preview-only restrictions. `release/game-first-playable` starts from reviewed prototype `a2b3225`, which already contains current main `b9a0dad2`; [release PR60](https://github.com/Sutra-Zen/sutra-zen.github.io/pull/60) targets main while retaining the prototype review history. The PR's delivery record must confirm the actual merge SHA, Pages result and live checks before the public URL is claimed available.
 
 `game/index.html` mounts the existing worldmap shell using an explicit base URL; `scripts/build-game-entry.py` keeps the intentional title/base/brand/badge differences reproducible. Runtime, book data, images, saved book IDs and storage keys remain shared. The opt-in reader bridge accepts only the existing worldmap return, the new `game` return, or the default collection shelf. City, shelf and source return links lead to `/game/`; standalone original books retain their interface. The public trial is deliberately noindex, with the existing fifteen-page SEO/Google files preserved.
 
