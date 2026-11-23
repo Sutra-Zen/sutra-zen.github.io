@@ -2,14 +2,14 @@ import {store} from '../collection/store.js';
 import {routeStatus,routeBooks} from '../route/selectors.js';
 import {canStartGameBook,canReviewGameBook,getGameBookAccess} from '../route/eligibility.js';
 import {routeMetadata} from '../route/metadata.js';
-import {initializeGameShell,GAME_URLS} from '../game-shell.js?v=doubt-reader-2';
-import {initializeTitleScreen} from '../title-screen.js?v=doubt-1';
+import {initializeGameShell,GAME_URLS} from '../game-shell.js?v=cyan-aggregates-1';
+import {initializeTitleScreen} from '../title-screen.js?v=cyan-aggregates-1';
 import {createMapCamera} from './camera.js?v=original-frame-1';
-import {initializeStoryDialogue} from '../story/dialogue.js?v=doubt-1';
-import {storyStore} from '../story/store.js?v=doubt-1';
+import {initializeStoryDialogue} from '../story/dialogue.js?v=cyan-aggregates-1';
+import {storyStore} from '../story/store.js?v=cyan-aggregates-1';
 import {consumeFirstCompletionReceipt} from '../story/completion-receipt.js?v=doubt-1';
-import {initializeDoubtStage} from '../story/doubt-stage.js?v=doubt-stage-1';
-import {STORY_UI} from '../story/data.js?v=doubt-1';
+import {initializeDoubtStage} from '../story/doubt-stage.js?v=cyan-aggregates-1';
+import {STORY_UI} from '../story/data.js?v=cyan-aggregates-1';
 import {compactCompletionFeedback} from './completion-feedback.js?v=city-story-1';
 import {WORLD,LANDMARKS,MEMBERS,NODES,EDGES,GEOGRAPHIC_ROAD,MAP_CONNECTIONS,conceptAnchor,sourceGroupAnchor,PRIMARY_BOOK_LANDMARK} from './data.js';
 import {T} from './text.js?v=original-frame-1';
@@ -30,6 +30,7 @@ const toolsDialog=$('#wm-tools-dialog');let toolsFocus=null;
 let doubtStage=null,activeStoryScene=null;
 const story=initializeStoryDialogue({host:$('#game-content'),onClose:()=>$('[data-wm-next]').focus({preventScroll:true}),onScene:scene=>{activeStoryScene=scene;syncDoubtStage();camera?.refresh();if(scene?.doubtState)camera?.focus({x:1248,y:566});},onDismiss:(scene,{replay})=>{if(!replay&&scene?.group==='first-completion'){storyStore.markSeen('doubt-recedes');completedFeedback('four-truths');}},onAction:(scene,{replay})=>{
  if(!replay&&scene.action==='enter-first-book'&&currentBook()?.id===scene.bookId)openReader(scene.bookId,{bypassDoubt:true});
+ else if(!replay&&scene.action==='enter-aggregates-book'&&currentBook()?.id===scene.bookId)openReader(scene.bookId,{bypassAggregatesIntro:true});
  else if(!replay&&scene.action==='show-first-completion')completedFeedback('four-truths');
  else{locateNext();$('[data-wm-next]').focus({preventScroll:true});}
 }});
@@ -138,14 +139,22 @@ function inspect(l){
  const memberMarkup=members.length?'<ul>'+members.map(m=>'<li>'+escape((m.key==='root'||m.key==='power'?T.familyNames[node.family]:'')+T.members[m.key])+'</li>').join('')+'</ul>':'';
  open(name(l,s),'<p class="wm-book-caption">'+escape(b.title)+'</p>'+memberMarkup+'<div class="wm-dialog-actions"><button class="primary" data-wm-read="'+b.id+'">'+(a.canReview?T.reviewBook:a.status==='reading'?T.continue:T.startReading)+'</button><a href="'+new URL(b.guide,catalogURL).href+'">'+T.guide+'</a></div><p class="wm-source-note">'+T.routeNote+'</p>');
 }
-function openReader(id,{bypassDoubt=false}={}){
+function aggregatesEntryStory(){
+ const id='five-aggregates',s=store.get(),a=getGameBookAccess(id,s.completed,s.positions);
+ // Narrative only: existing bookmarks/reviews resume directly, never unlock.
+ if(!a.canStart||Object.hasOwn(s.positions,id)||storyStore.hasSeen('toward-aggregates-lake'))return false;
+ const l=landmarkFor(id);selected=l.id;render();dialog.close();camera?.focus({x:l.x,y:l.y});
+ return story.show('toward-aggregates-lake');
+}
+function openReader(id,{bypassDoubt=false,bypassAggregatesIntro=false}={}){
  const s=store.get(),b=books.get(id),a=getGameBookAccess(id,s.completed,s.positions);
  if(!b||!a.canRead){lockPanel();return;}
  if(id==='four-truths'&&a.canStart&&!bypassDoubt&&!Object.hasOwn(s.positions,id)&&!storyStore.hasSeen('doubt-at-ruins')){dialog.close();story.show('doubt-at-ruins');return;}
+ if(id==='five-aggregates'&&!bypassAggregatesIntro&&aggregatesEntryStory())return;
  if(a.canStart)routeMetadata.markOpened(id);
  const u=new URL(b.reader,catalogURL);
  u.searchParams.set('collection','1');u.searchParams.set('collectionReturn','game');
- if(id==='four-truths'&&a.canStart)u.searchParams.set('collectionStory','doubt-2');
+ u.searchParams.set('collectionStory','cyan-1');
  if(a.canReview)u.searchParams.set('collectionReview','1');
  const at=a.canReview&&a.resumePosition===b.totalSteps-1?0:(a.resumePosition??0);
  u.searchParams.set('collectionPage',String(at));
@@ -197,7 +206,7 @@ function activateMap(){
   setTimeout(()=>tip.remove(),6500);
  }
 }
-dialog.addEventListener('close',()=>lastFocus?.isConnected&&lastFocus.focus({preventScroll:true}));
+dialog.addEventListener('close',()=>!story.isOpen&&lastFocus?.isConnected&&lastFocus.focus({preventScroll:true}));
 document.addEventListener('click',e=>{
  const b=e.target.closest('button');if(!b)return;
  if(b.hasAttribute('data-wm-close'))dialog.close();
@@ -205,7 +214,7 @@ document.addEventListener('click',e=>{
  if(b.hasAttribute('data-wm-tools-close'))toolsDialog.close();
  if(b.hasAttribute('data-wm-next')){const book=currentBook();if(book)openReader(book.id);else showEnding();}
  if(b.hasAttribute('data-wm-current')){dialog.close();locateNext();}
- if(b.hasAttribute('data-wm-next-station')){dialog.close();locateNext();}
+ if(b.hasAttribute('data-wm-next-station')){dialog.close();locateNext();aggregatesEntryStory();}
  if(b.hasAttribute('data-wm-locate'))locateNext();
  if(b.hasAttribute('data-wm-overview')||b.hasAttribute('data-wm-zoom'))toggleOverview();
  if(b.hasAttribute('data-wm-return'))returnToExploration();

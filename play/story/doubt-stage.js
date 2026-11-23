@@ -1,4 +1,4 @@
-import { STORY_UI } from './data.js?v=doubt-1';
+import { STORY_UI } from './data.js?v=cyan-aggregates-1';
 
 // Presentation only. Reading eligibility, completion and saved story flags are
 // owned by the caller; this stage never writes storage or advances the story.

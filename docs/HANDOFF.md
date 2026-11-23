@@ -1,3 +1,15 @@
+# 淺藍青瓷操作與五陰湖銜接（2026-11-23）
+
+本輪從已發布main `0d44d7229195d60bf1781e55e88ab53b8d7fcc7f` 建立 `feat/game-cyan-aggregates`，工作樹起始乾淨、origin正確。依作者要求把遊戲主要／建議操作與目前關卡等深綠語意改成淺藍青瓷，保留深青靛半透明對話／選單與原插畫。加入小貓苦集滅道→苦的心理運作→前往五陰湖短文；四聖諦原完成回饋保留，前往下一站後按新對話CTA才開原五陰。已看過／已有五陰書籤／複習直接續讀；資格、完成冊數及獎勵不變。
+
+故事文字集中於story/data.js，已看紀錄沿用story.v1，作者重置共享同一module instance。處理game／city／shelf／讀本回程的HTML、bridge及CSS快取版本；十四本HTML各只改既有bridge script query，正規化該單一URL後須逐位元等於基準。未帶collection參數的原站閱讀器保持自由閱讀，不套遊戲主題或進度。原站SEO／Google／原圖經文／相機及存檔不改。
+
+實測first29原生按鍵→原回饋→新五陰對話→原五陰0–3與重整／旋轉／返回續讀通過；五尺寸淺藍各狀態及對比、略過／歷史書籤／鎖定／唯讀重看／作者重置、615檔保護、產生器與15頁SEO檢查通過，無JS／本機HTTP錯誤。
+
+詳[本輪交接](play/game-cyan-aggregates/README.md)與[驗證／截圖](previews/game-cyan-aggregates/README.md)。沿用明確遊戲發布授權經新PR，精確merge SHA／Pages／live與固定SHA ZIP以PR交付紀錄為準，不能以本段推定已發布。main:/來源不變，QA排除十七目錄；實機Safari未測。Notion無連接器待原對話補記。
+
+---
+
 # 半透明深色介面、完整頭像與疑過場（2026-11-23）
 
 從已發布main `44dce2f6624e568ff83d6cf79e675fe61a53c325` 建立 `feat/game-doubt-dialogue-theme`，工作樹乾淨、origin正確。作者已明確授權發布前輪保留需求及本輪新增劇情：對話與選單統一深色半透明，背景圖保留原色；小貓頭像取消圓形裁切，完整露耳；新疑角色依原安那般那S03／四禪S05生成透明概念稿，問號由網頁呈現。

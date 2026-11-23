@@ -1,7 +1,7 @@
 import {store,SESSION_FALLBACK_KEY} from './collection/store.js';
 import {clearFirstCompletionReceipt} from './story/completion-receipt.js?v=doubt-1';
 import {routeMetadata} from './route/metadata.js';
-import {storyStore} from './story/store.js?v=doubt-1';
+import {storyStore} from './story/store.js?v=cyan-aggregates-1';
 
 // Temporary author opt-in UI, not authentication or a game unlock mechanism.
 // Turn this off when the author-testing round ends; ordinary /game/ never

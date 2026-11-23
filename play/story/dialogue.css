@@ -7,7 +7,7 @@
 .story-dialogue__line{margin:0;font-size:clamp(18px,1.7vw,22px);font-weight:550;line-height:1.7;text-align:left;overflow-wrap:anywhere}
 .story-dialogue__actions{grid-column:2;display:flex;flex-wrap:wrap;gap:8px;justify-content:flex-end;padding-top:12px}
 .story-dialogue__actions button{min-height:48px;padding:8px 16px;border:1px solid #bca16e99;border-radius:10px;font:700 16px/1.4 "PingFang TC","Microsoft JhengHei",sans-serif;touch-action:manipulation;cursor:pointer}
-.story-dialogue__next{background:var(--game-button,rgba(40,77,73,.96));color:var(--game-ink,#f6efdf);box-shadow:0 2px 0 #102b2c}
+.story-dialogue__next{background:var(--game-button,linear-gradient(145deg,#8ee9ec,#55bdd8));color:var(--game-action-ink,#173d50);border-color:var(--game-action-border,#9bd9e4);box-shadow:inset 0 1px #ffffffad,0 2px 0 #28546d99}
 .story-dialogue__skip{background:rgba(30,46,59,.72);color:var(--game-muted,#c7d2c9)}.story-dialogue__actions button:focus-visible{outline:3px solid var(--game-focus,#ffe0a0);outline-offset:3px}
 .story-dialogue__notice{font-size:13px;line-height:1.5;margin:7px 0 0;color:#ead0a6}
 .story-dialogue--no-art{grid-template-columns:minmax(0,1fr)}.story-dialogue--no-art .story-dialogue__portrait{display:none}.story-dialogue--no-art .story-dialogue__actions{grid-column:1}
@@ -17,3 +17,7 @@
 
 /* Transparent portrait stays rectangular and contained: neither ear is cut by a circular mask. */
 .story-dialogue__portrait img{clip-path:none;border-radius:0}
+
+/* Primary story navigation uses the same blue-celadon action treatment. */
+.story-dialogue__next:not(:disabled):not([aria-disabled=true]):hover{background:var(--game-button-hover,linear-gradient(145deg,#b3f6f3,#79d9e9));color:var(--game-action-ink,#173d50)}
+.story-dialogue__next:is(:disabled,[aria-disabled=true]){background:var(--game-action-disabled,linear-gradient(145deg,#b6ced2,#9bb9c2));color:var(--game-action-disabled-ink,#254552);border-color:#8facb8;box-shadow:none;opacity:1;cursor:not-allowed}

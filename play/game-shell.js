@@ -1,15 +1,15 @@
 import {store} from './collection/store.js';
 import {CATALOG_IDS} from './collection/catalog.js';
 import {GAME_UI as T} from './game-ui-text.js';
-import {renderGameNavigation,GAME_URLS} from './navigation.js?v=doubt-reader-2';
+import {renderGameNavigation,GAME_URLS} from './navigation.js?v=cyan-aggregates-1';
 export {GAME_URLS};
 const settingsIcon='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><path d="M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8Z"/><path d="m9 3-1 3-3 1-2 3 2 2-1 3 2 3h3l2 3 3-1 2-2 3-1 2-3-2-2 1-3-2-3h-3l-2-3-3 1Z"/></svg>';
 function loadStyle(name){const href=new URL(name,import.meta.url).href;if(![...document.querySelectorAll('link[rel="stylesheet"]')].some(n=>n.href===href)){const link=document.createElement('link');link.rel='stylesheet';link.href=href;document.head.append(link);}}
 export function initializeGameShell({active='map',onMap}={}){
  if(document.body.classList.contains('collection-reading')||/\/book\//.test(location.pathname))throw Error('The game shell is not a reader toolbar.');
  if(document.querySelector('#game-shell-hud'))return window.SutraZenGameShell;
- loadStyle('./navigation.css');loadStyle('./game-shell.css');loadStyle('./game-theme.css?v=game-theme-1');
- const themeURL=new URL('./game-theme.css?v=game-theme-1',import.meta.url).href;const themeLink=[...document.querySelectorAll('link[rel="stylesheet"]')].find(link=>link.href===themeURL);if(themeLink)document.head.append(themeLink);
+ loadStyle('./navigation.css');loadStyle('./game-shell.css');loadStyle('./game-theme.css?v=cyan-1');
+ const themeURL=new URL('./game-theme.css?v=cyan-1',import.meta.url).href;const themeLink=[...document.querySelectorAll('link[rel="stylesheet"]')].find(link=>link.href===themeURL);if(themeLink)document.head.append(themeLink);
  document.body.classList.add('game-shell',`game-shell--${active}`);
  const hud=document.createElement('header');hud.id='game-shell-hud';hud.className='game-hud';hud.innerHTML=`<span class="game-hud__progress" data-game-progress aria-live="polite"></span><button class="game-hud__settings" data-game-settings>${settingsIcon}<span>${T.settings}</span></button>`;
  const navHost=document.createElement('div');navHost.innerHTML=renderGameNavigation({active});const nav=navHost.firstElementChild;

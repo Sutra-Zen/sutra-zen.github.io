@@ -1,5 +1,5 @@
-import {STORY_ACTORS,STORY_SCENES,STORY_UI as T} from './data.js?v=doubt-1';
-import {storyStore} from './store.js?v=doubt-1';
+import {STORY_ACTORS,STORY_SCENES,STORY_UI as T} from './data.js?v=cyan-aggregates-1';
+import {storyStore} from './store.js?v=cyan-aggregates-1';
 
 export function initializeStoryDialogue({host,onAction,onClose,onDismiss,onScene}={}){
  if(!host)throw Error('Missing story dialogue host.');
