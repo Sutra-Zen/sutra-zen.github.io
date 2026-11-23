@@ -1,3 +1,13 @@
+# 自動新增城景與精簡城池（2026-11-23）
+
+從已發布main `1ba30cfb016ed6affaefe1a62ee6ae9d1678efd9` 建立 `feat/game-auto-city`，起始乾淨、origin正確。作者改為讀完自動新增，不要長輩手動安置；追加要求完成通知邀請回城。原末頁完成／四段尾聲／閱讀資格保留，通知明寫城池自動新增並提供「前往城池看看」／繼續下一站。
+
+模組原圖與拆分保留，get純由合法completed＋原source前置推導，空／舊安置清單不影響畫面，不造未讀城景；canPlace false、舊API無寫入。city v1/v2旅程備份相容，restore reading即可重建。僅點角色保存對話呈現紀錄，進城不自動開對話。移除上排選項、安置列／＋／計數與大底部文案，繼續閱讀移共用dock，城景滿窗。右上全景圖示、左上back精確恢復，legacy無snapshot回廣場。對話姓名去心想、只有X/Escape；景物來源右上X，非canonical來源label明確。六覺支夥伴各有短創作回應，不冒充原經；garden點擊層高於透明城界而低於其他建物角色。
+
+新city store/import鏈統一auto-city-1；原story/collection/receipt/eligibility與原圖／文字／經文／操作／SEO15／Google保持。14HTML僅bridge query，generator同步，Pages main:/不變，QA排除21目錄。詳[說明與保存格式](play/game-auto-city/README.md)及[實際驗證](previews/game-auto-city/README.md)。真first29與fixture／最後targeted分開；實機Safari未測。延續作者本輪發布授權，新PR交付需核精確merge SHA、Pages成功與正式站結果。
+
+---
+
 # 四聖諦過場先於城池／下一站（2026-11-23）
 
 從已發布main `2720747323f4d3a05474bf0c2919ac5332810cb2` 建立 `fix/game-outro-before-next-station`，起始乾淨、origin正確。作者回報先安置法輪碼頭後才出現四聖諦接五陰對話。本輪把正常首次完成改成心得→疑退場→波旬→五陰短句→原取得面板，再分流城池或下一站；尾幕CTA回取得面板而非直接讀five。

@@ -2,54 +2,27 @@
 .mod-city__viewport{position:absolute;inset:0;overflow:clip;outline-offset:-5px;background:#24463e;touch-action:none}
 .mod-city__world{position:absolute;left:0;top:0;width:1600px;height:900px;isolation:isolate;transform-origin:0 0}
 .mod-city__ground{position:absolute;inset:0;width:1600px;height:900px;object-fit:cover;pointer-events:none;user-select:none}
-.mod-city__art-layer,.mod-city__npc-layer,.mod-city__target-layer{position:absolute;inset:0;pointer-events:none}
+.mod-city__art-layer,.mod-city__npc-layer{position:absolute;inset:0;pointer-events:none}
 .mod-city__placed-art{position:absolute;display:block;transform:translate(-50%,-50%);border:0;padding:0;margin:0;background:none;box-shadow:none;pointer-events:auto;color:inherit;touch-action:manipulation;cursor:pointer;overflow:visible}
 .mod-city__sprite{display:block;width:100%;height:100%;overflow:hidden;pointer-events:none}
 .mod-city__effect{position:absolute;display:block;border-radius:50%;transform:translate(-50%,-50%);background:radial-gradient(ellipse,transparent 40%,#fff6aa2e 53%,#fff1a58c 62%,#fff6b333 67%,transparent 74%);pointer-events:none;mix-blend-mode:screen;animation:mod-city-effect 4.5s ease-in-out infinite alternate}
 .mod-city__world-label{position:absolute;bottom:1%;left:50%;transform:translate(-50%,80%) scale(var(--wm-marker-scale,1));transform-origin:50% 0;padding:4px 8px;border:1px solid #e6c5788c;border-radius:9px;background:#122e40db;color:#fff5d5;font:650 14px/1.4 "PingFang TC","Microsoft JhengHei",sans-serif;white-space:nowrap;box-shadow:0 2px 4px #183b3c44;pointer-events:none}
 .mod-city__world-label[hidden]{display:none}
+.wm-is-overview .mod-city__world-label{--wm-marker-scale:1}
 .mod-city__placed-art[data-city-slot="four-elements-garden"] .mod-city__world-label{top:0;bottom:auto;transform:translate(-50%,-105%) scale(var(--wm-marker-scale,1))}
-.mod-city__target{position:absolute;z-index:150;display:flex;align-items:center;justify-content:center;width:58px;height:58px;padding:0;border:2px solid #fff1a1;border-radius:50%;background:var(--game-button,linear-gradient(#c2f3ef,#9cd8e4));box-shadow:0 0 0 6px #fff4a02e,0 0 24px #ffeb9780;color:var(--game-action-ink,#21444d);transform:translate(-50%,-50%) scale(var(--wm-marker-scale,1));touch-action:manipulation;pointer-events:auto;cursor:pointer;animation:mod-city-target 3s ease-in-out infinite}
-.mod-city__target>span:first-child{font:500 42px/1 sans-serif}
-.mod-city__target-label{position:absolute;top:calc(100% + 8px);left:50%;transform:translateX(-50%);max-width:190px;width:max-content;padding:5px 8px;border-radius:9px;background:#153244e8;color:#fff6d4;font:700 14px/1.45 "PingFang TC","Microsoft JhengHei",sans-serif;text-align:center}
-.mod-city__target.is-drop-ready{outline:4px solid #b6f5ed;box-shadow:0 0 0 12px #87eee77d,0 0 35px #fff4ab;animation:none}
 .mod-city__npc .mod-city__actor-art{transform-origin:50% 84%;animation:mod-city-sway 5.4s ease-in-out infinite alternate}
 .mod-city__npc:nth-child(2n) .mod-city__actor-art{animation-delay:-2.7s}
 .mod-city__actor--mara .mod-city__actor-art{animation:mod-city-mara 5.5s ease-in-out infinite}
 .mod-city__sweat{position:absolute;right:19%;top:26%;width:6%;height:10%;border:1px solid #65acd5;border-radius:65% 65% 65% 8%;background:#c2f3ff;opacity:0;pointer-events:none;animation:mod-city-sweat 3.6s ease-out infinite;transform:rotate(32deg)}
 .mod-city__sweat:last-child{right:9%;top:34%;animation-delay:1.6s;width:5%;height:8%}
 .mod-city__actor--lord.is-calm .mod-city__sweat{animation-duration:7s}
-.mod-city__inventory{position:absolute;z-index:200;left:max(10px,env(safe-area-inset-left,0px));right:max(10px,env(safe-area-inset-right,0px));bottom:10px;margin:0 auto;max-width:1100px;border:1px solid #f0ce7f8c;border-radius:15px;background:#122b3de8;box-shadow:0 7px 25px #102d3c66;backdrop-filter:blur(9px)}
 .mod-city button{font-family:inherit}
-.mod-city__inventory-toggle{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:52px;width:100%;padding:9px 17px;border:0;border-radius:14px;background:#122b3dba;color:#fff0c2;font-size:17px;font-weight:700;touch-action:manipulation;cursor:pointer}
-.mod-city__inventory-toggle>span:last-child{font-size:25px;line-height:1;transition:transform .2s}
-.mod-city.is-inventory-open .mod-city__inventory-toggle>span:last-child{transform:rotate(180deg)}
-.mod-city__drawer{padding:0 14px 12px;max-height:min(310px,48dvh);overflow:auto;overscroll-behavior:contain}
-.mod-city__drawer[hidden]{display:none}
-.mod-city__inventory-heading{display:flex;align-items:center;justify-content:space-between;gap:12px}.mod-city__inventory-heading h2{margin:0;font-size:17px;font-weight:650}
-.mod-city__inventory-heading button,.mod-city__inventory-actions button,.mod-city__art-notice button{min-width:48px;min-height:44px;padding:7px 11px;border:1px solid #c0d5d877;border-radius:9px;background:#203e50;color:#fff3d3;font-size:14px;line-height:1.4;touch-action:manipulation;cursor:pointer}
-.mod-city__selection-hint{font-size:14px;line-height:1.5;margin:0 0 8px;color:#e9f1e7}
-.mod-city__inventory-list{display:flex;gap:8px;overflow-x:auto;overscroll-behavior-x:contain;padding:3px 2px 10px;scrollbar-color:#a5c6cb55 transparent;touch-action:pan-x}
-.mod-city__inventory-card{flex:0 0 128px;display:flex;flex-direction:column;align-items:center;gap:3px;min-height:126px;min-width:0;padding:7px 7px 6px;border:1px solid #becebb80;border-radius:12px;background:#254b53c9;color:#fff7dc;line-height:1.35;touch-action:pan-x;cursor:grab}
-.mod-city__inventory-art{display:block;flex:0 0 56px;width:100%;height:56px}.mod-city__inventory-title{font-weight:700;font-size:13px}.mod-city__inventory-card small{font-size:11px;color:#c9e4df;white-space:normal}
-.mod-city__inventory-card[aria-pressed="true"]{border:2px solid #b9f3f0;background:var(--game-button,linear-gradient(#c2f3ef,#9cd8e4));color:var(--game-action-ink,#21444d);box-shadow:0 0 0 2px #85d9d65c;padding:6px 6px 5px}
-.mod-city__inventory-card[aria-pressed="true"] small{color:var(--game-action-ink,#21444d)}
-.mod-city__inventory-card[data-city-module-state="locked"]{color:#b9c8ca;background:#203a48;cursor:default}.mod-city__inventory-card[data-city-module-state="locked"] .mod-city__inventory-art{filter:grayscale(1);opacity:.38}
-.mod-city__inventory-card[data-city-module-state="waiting"]{border-style:dashed;color:#d1ddda;cursor:default}.mod-city__inventory-card[data-city-module-state="waiting"] .mod-city__inventory-art{filter:grayscale(.7);opacity:.62}
-.mod-city__inventory-card[data-city-module-state="placed"]{background:#203e43;cursor:pointer}.mod-city__inventory-card[data-city-module-state="placed"] small{color:#a8ead4}
-.mod-city__inventory-actions{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}.mod-city__inventory-actions .mod-city__auto-place{background:linear-gradient(#c2f3ef,#9cd8e4);border-color:#defaf6;color:#21444d;font-weight:750}
-.mod-city button:disabled{cursor:default}.mod-city__auto-place:disabled{opacity:.45}
-.mod-city__storage-note{margin:8px 0 0;color:#ffe5a4;font-size:13px;line-height:1.5}
-.mod-city__drag-ghost{position:absolute;z-index:250;width:115px;height:100px;transform:translate(-50%,-72%);filter:drop-shadow(0 5px 8px #09263f99);pointer-events:none;opacity:.9}
-.mod-city.is-dragging-module .mod-city__inventory{opacity:.58}.mod-city.is-placing [data-city-place]{pointer-events:none}
 .mod-city__art-notice{position:absolute;left:10px;right:10px;top:10px;z-index:210;display:flex;gap:8px;align-items:center;justify-content:center;padding:8px 10px;border-radius:10px;background:#152e42eb;color:#fff0c7;font-size:13px;line-height:1.5}.mod-city__art-notice[hidden]{display:none}
-.mod-city__announcement{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
 .mod-city :focus-visible{outline:3px solid #c7f7f4;outline-offset:4px}
-@keyframes mod-city-target{0%,100%{box-shadow:0 0 0 5px #fff4a02e,0 0 18px #ffeb9770}50%{box-shadow:0 0 0 10px #fff4a04a,0 0 30px #ffeb979c}}
 @keyframes mod-city-sway{from{transform:rotate(-3deg)}to{transform:rotate(3deg)}}
 @keyframes mod-city-effect{from{opacity:.5}to{opacity:1}}
 @keyframes mod-city-mara{0%,100%{transform:translateY(0) rotate(-1deg)}50%{transform:translateY(-9px) rotate(1deg)}}
 @keyframes mod-city-sweat{0%,40%,100%{opacity:0;translate:0 0}47%{opacity:.95;translate:0 -4px}70%{opacity:0;translate:5px 15px}}
-@media(max-width:600px){.mod-city__inventory{left:7px;right:7px;bottom:7px}.mod-city__inventory-toggle{min-height:48px;padding:8px 13px;font-size:16px}.mod-city__drawer{padding:0 9px 9px;max-height:min(300px,48dvh)}.mod-city__inventory-card{flex-basis:112px;min-height:119px}.mod-city__inventory-art{flex-basis:50px;height:50px}.mod-city__selection-hint{font-size:13px}.mod-city__world-label{font-size:13px}}
-@media(max-height:500px){.mod-city__inventory{max-width:600px;left:auto;width:48%;right:8px;bottom:7px}.mod-city__drawer{max-height:65dvh}.mod-city__inventory-card{flex-basis:112px;min-height:111px}.mod-city__inventory-art{flex-basis:42px;height:42px}.mod-city__inventory-heading h2{font-size:15px}.mod-city__selection-hint{font-size:12px}.mod-city__inventory-heading button{min-height:36px}.mod-city__inventory-toggle{min-height:46px;font-size:15px}}
+.mod-city__art-notice button{min-width:48px;min-height:44px;padding:7px 11px;border:1px solid #c0d5d877;border-radius:9px;background:#203e50;color:#fff3d3;font-size:14px;font-weight:600;line-height:1.4;touch-action:manipulation;cursor:pointer}
+@media(max-width:600px){.mod-city__world-label{font-size:13px}}
 @media(prefers-reduced-motion:reduce){.mod-city *, .mod-city *::before,.mod-city *::after{animation:none!important;transition:none!important}.mod-city__sweat{opacity:0}}

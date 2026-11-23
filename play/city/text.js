@@ -2,10 +2,12 @@
 export const T = {
   pageTitle: '六門城池｜佛陀的解憂之旅',
   scene: '六門城池',
-  thoughts:'城裡的心聲',sceneVisible:'場景已顯現',sceneWaiting:'等待模組安置',
+  sceneVisible:'場景已顯現',sceneWaiting:'完成相關讀本後顯現',
   labels: '城內標牌',
   enlarge: '放大查看',
   overview: '看完整城池',
+  returnCity: '返回城池',
+  currentBook: title => `前往下一站・${title}`,
   meanings: '城景與出處',
   canonicalHeading: '六門城喻的對應',
   rewardHeading: '故事帶來的城景',

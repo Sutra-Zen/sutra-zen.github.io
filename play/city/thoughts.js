@@ -1,21 +1,27 @@
 // Fictional city inner voices. Separate from scripture and reading completion.
-import {renderSprite} from './modules/scene.js';
+import {renderSprite} from './modules/scene.js?v=auto-city-1';
 const COPY=Object.freeze({
- label:'城裡的心聲',close:'繼續佈置',change:'換個人想什麼',
- lordName:'識・城主（心想）',maraName:'波旬（心想）',guardianName:'念-守門人（心想）',messengersName:'止・觀使者',
- lordEarly:'哎呀，花園裡怎麼來了這麼多客人？先把新取得的模組安置好，再慢慢看清楚吧。',
+ label:'城池角色對話',close:'關閉對話',
+ lordName:'識・城主',maraName:'波旬',guardianName:'念-守門人',messengersName:'止・觀使者',
+ lordEarly:'哎呀，花園裡怎麼來了這麼多客人？先慢慢看清楚，聽聽大家在說什麼吧。',
  lordWatched:'有人幫忙留意城門，我可以先聽清楚、看清楚，再慢慢回應。花園也需要繼續照料呢。',
  maraEarly:'只有花園和碼頭，大家還忙成一團。讓我在附近看看，有沒有熱鬧可湊！',
  maraGates:'哼，門蓋得倒漂亮，卻連個看門的都沒有！',
  maraWatched:'那位提燈的傢伙開始留意我們了……先到旁邊看看。',
  guardian:'先看看來的是誰，再提醒大家。六道門仍要正常通行，我會留意眼前發生的事。',
  messengersReady:'我們帶著展開的卷軸來了。到四大廣場，把消息清楚地傳達給城主吧。',
- messengersWaiting:'卷軸準備好了。等道路與接引的位置安置妥當，再去四大廣場傳達消息吧。',
- desireName:'五蓋眾・貪欲（心想）',desire:'那邊的甜點看起來好好吃……這個也想要，那個也想帶走！',
- angerName:'五蓋眾・瞋恚（心想）',anger:'哼，我現在就是不高興！先讓我在旁邊轉兩圈。',
- slothName:'五蓋眾・昏沉（心想）',sloth:'眼皮好重……先讓我在草地上睡一下。',
- restlessnessName:'五蓋眾・掉悔（心想）',restlessness:'這邊看看，那邊也得看看……我又想到剛才的事了！',
- doubtName:'五蓋眾・疑（心想）',doubt:'真的要走這條路嗎……？先在附近看看好了。',
+ messengersWaiting:'卷軸準備好了。等道路與接引的條件齊備，再去四大廣場傳達消息吧。',
+ desireName:'五蓋眾・貪欲',desire:'那邊的甜點看起來好好吃……這個也想要，那個也想帶走！',
+ angerName:'五蓋眾・瞋恚',anger:'哼，我現在就是不高興！先讓我在旁邊轉兩圈。',
+ slothName:'五蓋眾・昏沉',sloth:'眼皮好重……先讓我在草地上睡一下。',
+ restlessnessName:'五蓋眾・掉悔',restlessness:'這邊看看，那邊也得看看……我又想到剛才的事了！',
+ doubtName:'五蓋眾・疑',doubt:'真的要走這條路嗎……？先在附近看看好了。',
+ owlName:'擇法夥伴・貓頭鷹',owl:'先仔細看一看，分清什麼能幫上忙，再決定怎麼做。',
+ rabbitName:'精進夥伴・兔子',rabbit:'慢慢走也沒關係，今天再向前一步吧！',
+ birdName:'喜夥伴・藍鳥',bird:'看見大家一起前進，我也想唱首歌！',
+ turtleName:'輕安夥伴・烏龜',turtle:'把肩膀放鬆，讓腳步穩一點，慢慢來。',
+ lotusName:'定夥伴・蓮花',lotus:'先安靜待一會兒，把注意留在眼前。',
+ deerName:'捨夥伴・小鹿',deer:'不急著追，也不忙著躲，先平穩地看著變化。',
 });
 export const CITY_THOUGHT_LOCALE='zh-Hant';
 export const CITY_THOUGHT_FUTURE_LOCALES=Object.freeze(['zh-Hans','en','ja']);
@@ -29,12 +35,19 @@ const FIGURES=Object.freeze({
  sloth:{asset:'hindrance_sloth',name:'slothName',id:'sloth-at-city'},
  restlessness:{asset:'hindrance_restlessness',name:'restlessnessName',id:'restlessness-at-city'},
  doubt:{asset:'hindrance_doubt',name:'doubtName',id:'doubt-at-city'},
+ 'awakening-owl':{asset:'companion_owl',name:'owlName',text:'owl',id:'awakening-owl-at-city'},
+ 'awakening-rabbit':{asset:'companion_rabbit',name:'rabbitName',text:'rabbit',id:'awakening-rabbit-at-city'},
+ 'awakening-bird':{asset:'companion_bird',name:'birdName',text:'bird',id:'awakening-bird-at-city'},
+ 'awakening-turtle':{asset:'companion_turtle',name:'turtleName',text:'turtle',id:'awakening-turtle-at-city'},
+ 'awakening-lotus':{asset:'companion_lotus',name:'lotusName',text:'lotus',id:'awakening-lotus-at-city'},
+ 'awakening-deer':{asset:'companion_deer',name:'deerName',text:'deer',id:'awakening-deer-at-city'},
 });
 function thought(actor,state){
  const placed=new Set(state.placedIds||[]),figure=FIGURES[actor];if(!figure||!state.baseVisible)return null;
  if(actor==='guardian'&&!placed.has('mindfulness_guard'))return null;
  if(actor==='messengers'&&!placed.has('calm_insight_messengers'))return null;
- let key=actor,id=figure.id;
+ if(actor.startsWith('awakening-')&&!placed.has('awakening_companions'))return null;
+ let key=figure.text||actor,id=figure.id;
  if(actor==='lord')key=placed.has('mindfulness_guard')?'lordWatched':'lordEarly';
  if(actor==='mara'){
   key=placed.has('mindfulness_guard')?'maraWatched':placed.has('six_gates')?'maraGates':'maraEarly';
@@ -45,10 +58,10 @@ function thought(actor,state){
 }
 export function initializeCityThoughts({host,getState,onSeen,onClose}={}){
  const panel=document.createElement('section');panel.className='city-thought';panel.hidden=true;panel.setAttribute('aria-label',COPY.label);
- panel.innerHTML='<div class="city-thought__portrait" aria-hidden="true"></div><div class="city-thought__body"><h2></h2><p class="city-thought__line"></p></div><div class="city-thought__actions"><button data-city-thought-change></button><button class="primary" data-city-thought-close></button></div>';
+ panel.setAttribute('role','dialog');panel.setAttribute('aria-labelledby','city-thought-speaker');
+ panel.innerHTML='<button class="city-thought__close" data-city-thought-close type="button" aria-label="'+COPY.close+'">×</button><div class="city-thought__portrait" aria-hidden="true"></div><div class="city-thought__body"><h2 id="city-thought-speaker"></h2><p class="city-thought__line"></p></div>';
  host.append(panel);let current=null,opener=null;
- panel.querySelector('[data-city-thought-change]').textContent=COPY.change;panel.querySelector('[data-city-thought-close]').textContent=COPY.close;
- function close(){panel.hidden=true;current=null;host.classList.remove('has-city-thought');if(opener?.isConnected&&opener.getClientRects().length)opener.focus({preventScroll:true});else onClose?.();}
+ function close(){if(panel.hidden)return;panel.hidden=true;current=null;host.classList.remove('has-city-thought');if(opener?.isConnected&&opener.getClientRects().length)opener.focus({preventScroll:true});else onClose?.();}
  function show(actor='lord',{remember=true,focus=true}={}){
   const value=thought(actor,getState());if(!value)return false;
   if(panel.hidden)opener=document.activeElement;current=value;panel.dataset.actor=actor;panel.dataset.thought=value.id;
@@ -58,9 +71,6 @@ export function initializeCityThoughts({host,getState,onSeen,onClose}={}){
   if(focus)panel.querySelector('[data-city-thought-close]').focus({preventScroll:true});return true;
  }
  panel.querySelector('[data-city-thought-close]').addEventListener('click',close);
- panel.querySelector('[data-city-thought-change]').addEventListener('click',()=>{
-  const state=getState(),actors=Object.keys(FIGURES).filter(actor=>thought(actor,state)),index=actors.indexOf(current?.actor);show(actors[(index+1)%actors.length]);
- });
  panel.addEventListener('keydown',event=>{if(event.key==='Escape'){event.preventDefault();close();}});
  return {show,close,get isOpen(){return !panel.hidden;},get currentActor(){return current?.actor||null;}};
 }

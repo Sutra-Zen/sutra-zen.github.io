@@ -1,0 +1,451 @@
+{
+  "baseline": "1ba30cfb016ed6affaefe1a62ee6ae9d1678efd9",
+  "protectedOriginalFiles": 615,
+  "originalSiteNarrationScripturePicturesReaderJsCssSeoGoogle": "unchanged; reader HTML only bridge cache query normalized",
+  "readingReceiptEligibilityCameraAndExistingArt": "byte-for-byte unchanged",
+  "storyOutroLogic": "unchanged except cache import queries",
+  "bridgeException": "return cache query only",
+  "phase": "Local automatic city integration",
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "fixtureNotice": "Only nativeFirstAutoCityFive is a real complete first29 walk. Historical layouts/backups/viewport cases are explicitly isolated synthetic saves.",
+  "physicalSafari": "Not tested; Chromium desktop viewport/mouse/CDP touch simulation.",
+  "nativeFirstAutoCityFive": {
+    "actualFirstNextTrace": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "noCompletionUntilExplicitFinish": true,
+    "outroOrder": [
+      "first-book-insight",
+      "doubt-recedes",
+      "mara-watches",
+      "toward-aggregates-lake",
+      "new-module-notification",
+      "city-automatic-truth-dock"
+    ],
+    "noticeText": "×\n讀完《四聖諦》了\n\n地圖：四聖諦法輪遺跡已亮起。\n\n城池有新變化\n城池已自動新增「法輪碼頭」。快到城池看看新的變化吧！\n\n已讀 1／14 本\n\n前往下一站\n前往城池看看",
+    "noManualPlacementOrExtraReadingWrite": true,
+    "actorCloseAndPlazaSourceClose": true,
+    "overviewReturn": {
+      "before": {
+        "x": 800,
+        "y": 440,
+        "scale": 1.1059999999999999,
+        "fitScale": 0.79,
+        "coverScale": 0.8944444444444445,
+        "overview": false,
+        "restored": false,
+        "viewport": {
+          "width": 1280,
+          "height": 900
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 1.1059999999999999,
+        "outerBounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1600,
+          "bottom": 900,
+          "width": 1600,
+          "height": 900
+        },
+        "safeInsets": {
+          "top": 8,
+          "right": 8,
+          "bottom": 87,
+          "left": 8
+        },
+        "visibleViewport": {
+          "left": 8,
+          "top": 8,
+          "width": 1264,
+          "height": 805,
+          "right": 1272,
+          "bottom": 813,
+          "centerX": 640,
+          "centerY": 410.5
+        },
+        "canReturn": false,
+        "overviewExplicit": false,
+        "offsetX": -244.79999999999995,
+        "offsetY": -76.13999999999993
+      },
+      "after": {
+        "x": 800,
+        "y": 440,
+        "scale": 1.1059999999999999,
+        "fitScale": 0.79,
+        "coverScale": 0.8944444444444445,
+        "overview": false,
+        "restored": false,
+        "viewport": {
+          "width": 1280,
+          "height": 900
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 1.1059999999999999,
+        "outerBounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1600,
+          "bottom": 900,
+          "width": 1600,
+          "height": 900
+        },
+        "safeInsets": {
+          "top": 8,
+          "right": 8,
+          "bottom": 87,
+          "left": 8
+        },
+        "visibleViewport": {
+          "left": 8,
+          "top": 8,
+          "width": 1264,
+          "height": 805,
+          "right": 1272,
+          "bottom": 813,
+          "centerX": 640,
+          "centerY": 410.5
+        },
+        "canReturn": false,
+        "overviewExplicit": false,
+        "offsetX": -244.79999999999995,
+        "offsetY": -76.13999999999993
+      },
+      "exactCameraReturn": true
+    },
+    "fiveActualNextTrace": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "reloadRotationResumeIndex": 3,
+    "cityStillAutomaticallyMatchesFirstOnly": true
+  },
+  "automaticHistoricalFixtures": [
+    {
+      "fixture": "1 historical completed books, empty legacy placements",
+      "visibleIds": [
+        "truth_dock"
+      ],
+      "noCollectionWriteOnCityVisitOrReload": true
+    },
+    {
+      "fixture": "3 historical completed books, empty legacy placements",
+      "visibleIds": [
+        "truth_dock",
+        "city_body",
+        "six_gates"
+      ],
+      "noCollectionWriteOnCityVisitOrReload": true
+    },
+    {
+      "fixture": "7 historical completed books, empty legacy placements",
+      "visibleIds": [
+        "truth_dock",
+        "city_body",
+        "six_gates",
+        "conditions_wheel",
+        "noble_path",
+        "confidence_harbor",
+        "mindfulness_guard"
+      ],
+      "noCollectionWriteOnCityVisitOrReload": true
+    },
+    {
+      "fixture": "14 historical completed books, empty legacy placements",
+      "visibleIds": [
+        "truth_dock",
+        "city_body",
+        "six_gates",
+        "conditions_wheel",
+        "noble_path",
+        "confidence_harbor",
+        "mindfulness_guard",
+        "effort_garden",
+        "calm_insight_messengers",
+        "endeavor_boat",
+        "jhana_garden",
+        "faculties_links",
+        "awakening_companions",
+        "fruition_guide"
+      ],
+      "noCollectionWriteOnCityVisitOrReload": true
+    },
+    {
+      "fixture": "unearned old placedIds cannot grant buildings",
+      "expectedVisible": [
+        "truth_dock"
+      ],
+      "noInventedBookPrerequisitesOrCompletion": true
+    },
+    {
+      "fixture": "only historical seven-factors, no first base",
+      "expectedVisible": [],
+      "noInventedBookPrerequisitesOrCompletion": true
+    },
+    {
+      "fixture": "first and seven-factors, missing aggregates prerequisite",
+      "expectedVisible": [
+        "truth_dock"
+      ],
+      "noInventedBookPrerequisitesOrCompletion": true
+    }
+  ],
+  "fiveViewportAutomaticCity": [
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "fullSceneAndDock": {
+        "viewport": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 900
+        },
+        "dock": {
+          "x": 0,
+          "y": 821,
+          "width": 1280,
+          "height": 79
+        }
+      },
+      "noOldPlacementDomOrCopy": true,
+      "nativeSingleFingerPanAndPinch": true,
+      "dragDoesNotOpenActorOrSource": true,
+      "rotationKeepsDerivedCityAndReading": true
+    },
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "fullSceneAndDock": {
+        "viewport": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 800
+        },
+        "dock": {
+          "x": 0,
+          "y": 721,
+          "width": 360,
+          "height": 79
+        }
+      },
+      "noOldPlacementDomOrCopy": true,
+      "nativeSingleFingerPanAndPinch": true,
+      "dragDoesNotOpenActorOrSource": true,
+      "rotationKeepsDerivedCityAndReading": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "fullSceneAndDock": {
+        "viewport": {
+          "x": 0,
+          "y": 0,
+          "width": 844,
+          "height": 390
+        },
+        "dock": {
+          "x": 0,
+          "y": 324.8125,
+          "width": 844,
+          "height": 65.1875
+        }
+      },
+      "noOldPlacementDomOrCopy": true,
+      "nativeSingleFingerPanAndPinch": true,
+      "dragDoesNotOpenActorOrSource": true,
+      "rotationKeepsDerivedCityAndReading": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "fullSceneAndDock": {
+        "viewport": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 1024
+        },
+        "dock": {
+          "x": 0,
+          "y": 945,
+          "width": 768,
+          "height": 79
+        }
+      },
+      "noOldPlacementDomOrCopy": true,
+      "nativeSingleFingerPanAndPinch": true,
+      "dragDoesNotOpenActorOrSource": true,
+      "rotationKeepsDerivedCityAndReading": true
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "fullSceneAndDock": {
+        "viewport": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 768
+        },
+        "dock": {
+          "x": 0,
+          "y": 689,
+          "width": 1024,
+          "height": 79
+        }
+      },
+      "noOldPlacementDomOrCopy": true,
+      "nativeSingleFingerPanAndPinch": true,
+      "dragDoesNotOpenActorOrSource": true,
+      "rotationKeepsDerivedCityAndReading": true
+    },
+    {
+      "fixture": "legacy explicit overview without return snapshot",
+      "viewport": [
+        360,
+        800
+      ],
+      "backFallsToNormalCityWithoutProgressMutation": true
+    }
+  ],
+  "backupAndResetFixtures": {
+    "fixture": "historical all14, empty legacy placements",
+    "downloadedV2PreservesReading": true,
+    "nativeResetCancelByteIdentical": true,
+    "confirmedResetClearsAutomaticCityWithoutUnrelatedKey": true,
+    "v2RestoreAutomaticallyDerivesAll14": true,
+    "invalidCityNoPartialMutation": true,
+    "legacyV1RestoreAutomaticallyDerivesThreeAndKeepsBookmarks": true
+  },
+  "originalSiteSmoke": {
+    "readableShelfBooks": 14,
+    "mapTopicKeys": 32,
+    "threeBareReadersNativeNextSourceAndMapLinks": [
+      "four-truths",
+      "five-aggregates",
+      "six-senses"
+    ],
+    "noGameShellOrCollectionWrites": true
+  },
+  "generatedEntryAndSeoCheck": "passed",
+  "finalTargetedSourcesAndCompanions": {
+    "historicalPlazaHits": [
+      {
+        "fixture": "3 historical completions",
+        "nativePlazaClickAfterCityOutlineAutomaticallyVisible": true,
+        "sourceXClosesAndKeepsCollectionBytes": true
+      },
+      {
+        "fixture": "7 historical completions",
+        "nativePlazaClickAfterCityOutlineAutomaticallyVisible": true,
+        "sourceXClosesAndKeepsCollectionBytes": true
+      },
+      {
+        "fixture": "14 historical completions",
+        "nativePlazaClickAfterCityOutlineAutomaticallyVisible": true,
+        "sourceXClosesAndKeepsCollectionBytes": true
+      }
+    ],
+    "actualSixCompanionConversations": [
+      {
+        "actor": "awakening-owl",
+        "name": "擇法夥伴・貓頭鷹",
+        "fictionalDialogue": "先仔細看一看，分清什麼能幫上忙，再決定怎麼做。",
+        "actualClickAndX": true
+      },
+      {
+        "actor": "awakening-rabbit",
+        "name": "精進夥伴・兔子",
+        "fictionalDialogue": "慢慢走也沒關係，今天再向前一步吧！",
+        "actualClickAndX": true
+      },
+      {
+        "actor": "awakening-bird",
+        "name": "喜夥伴・藍鳥",
+        "fictionalDialogue": "看見大家一起前進，我也想唱首歌！",
+        "actualClickAndX": true
+      },
+      {
+        "actor": "awakening-turtle",
+        "name": "輕安夥伴・烏龜",
+        "fictionalDialogue": "把肩膀放鬆，讓腳步穩一點，慢慢來。",
+        "actualClickAndX": true
+      },
+      {
+        "actor": "awakening-lotus",
+        "name": "定夥伴・蓮花",
+        "fictionalDialogue": "先安靜待一會兒，把注意留在眼前。",
+        "actualClickAndX": true
+      },
+      {
+        "actor": "awakening-deer",
+        "name": "捨夥伴・小鹿",
+        "fictionalDialogue": "不急著追，也不忙著躲，先平穩地看著變化。",
+        "actualClickAndX": true
+      }
+    ],
+    "sameV1MetadataShape": [
+      "placedIds",
+      "thoughtSeenIds",
+      "version"
+    ],
+    "sixSeenFlagsPersistAndDeduplicate": true,
+    "oneGuardianNoSecondMindfulnessCat": true,
+    "collectionBytesUnchanged": true
+  },
+  "runScope": {
+    "fullIntegratedRun": "Actual native first29, complete outro, automatic city notice, actor/source/overview and Five0-3; historical and five-viewport input/rotation, backup/reset, original site/SEO/generator all passed.",
+    "finalTargetedRun": "After raising garden above the transparent city-outline hitbox and adding six companion dialogue roles, re-tested native plaza/X at first3/7/14 and all six animal/X conversations, seen persistence/dedup and collection immutability. No unrelated book walk repeated."
+  },
+  "result": "passed"
+}

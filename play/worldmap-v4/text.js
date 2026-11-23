@@ -21,7 +21,7 @@ export const T={
  routeNote:'這是閱讀路線，不代表修證階段；完成閱讀不表示取得禪定、聖果或解脫。',
  figureNote:'島嶼、湖灣、木造燈亭與橋梁是本次地景設計。文字與連線由網頁呈現，原繪本內容保留。',
  fogNote:'未解鎖地景覆上薄霧；道路、港口與繼續閱讀入口一直可用。原網站的繪本仍可自由閱讀。',
- completeTitle:title=>`讀完《${title}》了`,nextTitle:title=>`繼續下一本：《${title}》 →`,seeCity:'看看城池',
+ completeTitle:title=>`讀完《${title}》了`,nextTitle:title=>`繼續下一本：《${title}》 →`,seeCity:'前往城池看看',
  completionCopy:'讀過的故事，讓城池多了一處新的景色。',
  rewardCopy:{
   'four-truths':'城池：法輪碼頭點亮了，遠處的城影從薄霧中浮現。',

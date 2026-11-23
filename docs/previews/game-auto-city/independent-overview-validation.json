@@ -1,0 +1,26 @@
+{
+  "result": "passed",
+  "scope": "Targeted full fourteen-book fixture overview label scaling and exact return; prior five-size gesture run is retained separately.",
+  "checks": [
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "allLabelsPresentInOverview": true,
+      "labelsScaleWithPainting": true,
+      "exactReturn": true,
+      "normalReadableScalingRestored": true
+    },
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "allLabelsPresentInOverview": true,
+      "labelsScaleWithPainting": true,
+      "exactReturn": true,
+      "normalReadableScalingRestored": true
+    }
+  ]
+}

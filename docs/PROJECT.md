@@ -6,6 +6,12 @@
 - Related Buddhist learning map: https://sutrazen.netlify.app/map.html
 - Primary language: Traditional Chinese (Taiwan)
 
+## Current automatic city (2026-11-23)
+
+The [automatic-city round](play/game-auto-city/README.md) starts from published PR74 `1ba30cfb016ed6affaefe1a62ee6ae9d1678efd9`. Earned scenery now appears automatically from existing completed books and source prerequisites; the watercolor modules remain separate. The completion modal explicitly announces the added scenery and invites the player to the city after the unchanged full outro. Placement/inventory/top toolbar are removed; continuation is in the bottom dock. Click actors for dialogue and scenery for sources, close with top-right X, and use the top-right overview icon / top-left return snapshot. Six Awakening companions also have short fictional replies.
+
+City v1 shape and v1/v2 reading backups remain; old placement IDs are metadata only, get is write-free, and disabled/corrupt city storage cannot hide earned scenery. Original reading/eligibility/art/SEO/Google and main:/ remain. Coherent auto-city-1 imports keep the new city store singleton; original collection/story singleton URLs stay. Twenty-one QA directories excluded. Exact Pages/live proof belongs to the new PR; physical Safari is untested.
+
 ## Current Four Truths outro order (2026-11-23)
 
 The [outro-order fix](play/game-outro-order/README.md) starts from published PR73 `2720747323f4d3a05474bf0c2919ac5332810cb2`. The actual first completion now presents insight, Doubt, Mara and the Five Aggregates lake transition **before** the reward panel branches to city construction or the next station. Completion context keeps the original entry action separate, blocks ordinary navigation until an explicit continuation/skip, and resumes the pending tail after reload. Historical Five bookmarks (including0), seen scenes and ordinary review remain; the previous split-outro save may show its missing tail on map return.

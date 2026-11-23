@@ -1,0 +1,130 @@
+{
+  "result": "passed",
+  "fixtureNotice": "Completed lists are isolated scene QA fixtures. Root integration separately tests real reading. No reading or city records are written.",
+  "checks": [
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "noPlacementUI": true,
+      "fullViewportNoTrayInset": true,
+      "rootInsetsHonoredExactly": true,
+      "firstAutoDockAndFreeBase": true,
+      "nativeActorDrag65pxNoThought": true,
+      "freshNativeTapThought": true,
+      "nativePinchNoAccidentalClick": true,
+      "nativeCancelClean": true,
+      "fitTripleReturnExact": true,
+      "reloadReturnExact": true,
+      "orientationRoundtripReturnExact": true,
+      "sourcePlazaAndMessageClickable": true,
+      "allFourteenAutomaticFixture": true,
+      "sixGatesOneGuardianSixCompanions": true,
+      "sameStateAnimationNotRestarted": true,
+      "noReadingOrCityWrites": true,
+      "noPageOverflow": true,
+      "destroyClean": true
+    },
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "noPlacementUI": true,
+      "fullViewportNoTrayInset": true,
+      "rootInsetsHonoredExactly": true,
+      "firstAutoDockAndFreeBase": true,
+      "nativeActorDrag65pxNoThought": true,
+      "freshNativeTapThought": true,
+      "nativePinchNoAccidentalClick": true,
+      "nativeCancelClean": true,
+      "fitTripleReturnExact": true,
+      "reloadReturnExact": true,
+      "orientationRoundtripReturnExact": true,
+      "sourcePlazaAndMessageClickable": true,
+      "allFourteenAutomaticFixture": true,
+      "sixGatesOneGuardianSixCompanions": true,
+      "sameStateAnimationNotRestarted": true,
+      "noReadingOrCityWrites": true,
+      "noPageOverflow": true,
+      "destroyClean": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "noPlacementUI": true,
+      "fullViewportNoTrayInset": true,
+      "rootInsetsHonoredExactly": true,
+      "firstAutoDockAndFreeBase": true,
+      "nativeActorDrag65pxNoThought": true,
+      "freshNativeTapThought": true,
+      "nativePinchNoAccidentalClick": true,
+      "nativeCancelClean": true,
+      "fitTripleReturnExact": true,
+      "reloadReturnExact": true,
+      "orientationRoundtripReturnExact": true,
+      "sourcePlazaAndMessageClickable": true,
+      "allFourteenAutomaticFixture": true,
+      "sixGatesOneGuardianSixCompanions": true,
+      "sameStateAnimationNotRestarted": true,
+      "noReadingOrCityWrites": true,
+      "noPageOverflow": true,
+      "destroyClean": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "noPlacementUI": true,
+      "fullViewportNoTrayInset": true,
+      "rootInsetsHonoredExactly": true,
+      "firstAutoDockAndFreeBase": true,
+      "nativeActorDrag65pxNoThought": true,
+      "freshNativeTapThought": true,
+      "nativePinchNoAccidentalClick": true,
+      "nativeCancelClean": true,
+      "fitTripleReturnExact": true,
+      "reloadReturnExact": true,
+      "orientationRoundtripReturnExact": true,
+      "sourcePlazaAndMessageClickable": true,
+      "allFourteenAutomaticFixture": true,
+      "sixGatesOneGuardianSixCompanions": true,
+      "sameStateAnimationNotRestarted": true,
+      "noReadingOrCityWrites": true,
+      "noPageOverflow": true,
+      "destroyClean": true
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "noPlacementUI": true,
+      "fullViewportNoTrayInset": true,
+      "rootInsetsHonoredExactly": true,
+      "firstAutoDockAndFreeBase": true,
+      "nativeActorDrag65pxNoThought": true,
+      "freshNativeTapThought": true,
+      "nativePinchNoAccidentalClick": true,
+      "nativeCancelClean": true,
+      "fitTripleReturnExact": true,
+      "reloadReturnExact": true,
+      "orientationRoundtripReturnExact": true,
+      "sourcePlazaAndMessageClickable": true,
+      "allFourteenAutomaticFixture": true,
+      "sixGatesOneGuardianSixCompanions": true,
+      "sameStateAnimationNotRestarted": true,
+      "noReadingOrCityWrites": true,
+      "noPageOverflow": true,
+      "destroyClean": true
+    }
+  ],
+  "errors": [],
+  "physicalSafari": "Not tested; Chromium/CDP touch emulation only",
+  "reducedMotionStatic": true,
+  "persistentArtErrorSurvivesRetry": true
+}
