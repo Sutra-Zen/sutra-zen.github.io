@@ -1,0 +1,321 @@
+{
+  "baseline": "2720747323f4d3a05474bf0c2919ac5332810cb2",
+  "protectedOriginalFiles": 615,
+  "originalNarrationScriptureArtReaderJsCssHomepageSeoGoogle": "unchanged; reader HTML allows cache query only",
+  "coreReceiptEligibilityCollectionAndCityPlacement": "byte-for-byte unchanged",
+  "storySchemaStoreException": "data import query only",
+  "readerBridgeException": "return cache query only",
+  "phase": "Local outro ordering validation",
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "fixtureNotice": "Only nativeFirstTailCityFive is an actual complete first29 read; pending/history/reset/five-size scenes use isolated synthetic saves.",
+  "physicalSafari": "Not tested; Chromium desktop viewports and native browser clicks, not physical iPhone/iPad Safari.",
+  "nativeFirstTailCityFive": {
+    "actualFirstNextTrace": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "noCompletionBeforeExplicitFinish": true,
+    "outroOrder": [
+      "first-book-insight",
+      "doubt-recedes",
+      "mara-watches",
+      "toward-aggregates-lake",
+      "original-reward",
+      "city-handplace-truth_dock",
+      "five-original-reader"
+    ],
+    "navigationBlock": {
+      "nativeCityShelfMapPrimaryToolsLandmarkAndKeyboardEntryBlocked": true,
+      "collectionStoryCityBytesUnchanged": true
+    },
+    "maraReloadRestoresPending": true,
+    "tailSeenOnShowButCutoffPendingUntilAcknowledged": true,
+    "tailReloadRetainsCompletionContext": {
+      "id": "toward-aggregates-lake",
+      "actor": "traveler",
+      "speaker": "小貓",
+      "text": "原來，四個重要的真理是苦、集、滅、道。但我還不太懂苦的心理運作……那邊有座五陰湖，去看看好了！"
+    },
+    "originalRewardOnlyAfterTail": true,
+    "cityOptionalBeforeFiveAndNoDuplicateTail": true,
+    "fiveActualNextTrace": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "reloadRotationReturnAtIndex": 3,
+    "completedStillFirstOnly": true
+  },
+  "fiveViewportTailFixtures": [
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "fixture": "first-complete pending tail already shown, no cutoff",
+      "scene": {
+        "id": "toward-aggregates-lake",
+        "actor": "traveler",
+        "speaker": "小貓",
+        "text": "原來，四個重要的真理是苦、集、滅、道。但我還不太懂苦的心理運作……那邊有座五陰湖，去看看好了！"
+      },
+      "cyanCta": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+        "color": "rgb(23, 61, 80)",
+        "outline": "rgb(255, 224, 160)",
+        "rect": {
+          "x": 922.984375,
+          "y": 148.59375,
+          "width": 146.015625,
+          "height": 48,
+          "top": 148.59375,
+          "right": 1069,
+          "bottom": 196.59375,
+          "left": 922.984375
+        },
+        "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+      },
+      "fullPortraitButtonsAboveDock": true,
+      "tailSkipThenOriginalRewardAndNextStationWithoutRepeatedTransition": true,
+      "collectionUnchanged": true
+    },
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "fixture": "first-complete pending tail already shown, no cutoff",
+      "scene": {
+        "id": "toward-aggregates-lake",
+        "actor": "traveler",
+        "speaker": "小貓",
+        "text": "原來，四個重要的真理是苦、集、滅、道。但我還不太懂苦的心理運作……那邊有座五陰湖，去看看好了！"
+      },
+      "cyanCta": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+        "color": "rgb(23, 61, 80)",
+        "outline": "rgb(255, 224, 160)",
+        "rect": {
+          "x": 193.984375,
+          "y": 179.546875,
+          "width": 142.015625,
+          "height": 48,
+          "top": 179.546875,
+          "right": 336,
+          "bottom": 227.546875,
+          "left": 193.984375
+        },
+        "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+      },
+      "fullPortraitButtonsAboveDock": true,
+      "tailSkipThenOriginalRewardAndNextStationWithoutRepeatedTransition": true,
+      "collectionUnchanged": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "fixture": "first-complete pending tail already shown, no cutoff",
+      "scene": {
+        "id": "toward-aggregates-lake",
+        "actor": "traveler",
+        "speaker": "小貓",
+        "text": "原來，四個重要的真理是苦、集、滅、道。但我還不太懂苦的心理運作……那邊有座五陰湖，去看看好了！"
+      },
+      "cyanCta": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+        "color": "rgb(23, 61, 80)",
+        "outline": "rgb(255, 224, 160)",
+        "rect": {
+          "x": 668.984375,
+          "y": 105.578125,
+          "width": 146.015625,
+          "height": 48,
+          "top": 105.578125,
+          "right": 815,
+          "bottom": 153.578125,
+          "left": 668.984375
+        },
+        "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+      },
+      "fullPortraitButtonsAboveDock": true,
+      "tailSkipThenOriginalRewardAndNextStationWithoutRepeatedTransition": true,
+      "collectionUnchanged": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "fixture": "first-complete pending tail already shown, no cutoff",
+      "scene": {
+        "id": "toward-aggregates-lake",
+        "actor": "traveler",
+        "speaker": "小貓",
+        "text": "原來，四個重要的真理是苦、集、滅、道。但我還不太懂苦的心理運作……那邊有座五陰湖，去看看好了！"
+      },
+      "cyanCta": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+        "color": "rgb(23, 61, 80)",
+        "outline": "rgb(255, 224, 160)",
+        "rect": {
+          "x": 586.984375,
+          "y": 135.78125,
+          "width": 146.015625,
+          "height": 48,
+          "top": 135.78125,
+          "right": 733,
+          "bottom": 183.78125,
+          "left": 586.984375
+        },
+        "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+      },
+      "fullPortraitButtonsAboveDock": true,
+      "tailSkipThenOriginalRewardAndNextStationWithoutRepeatedTransition": true,
+      "collectionUnchanged": true
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "fixture": "first-complete pending tail already shown, no cutoff",
+      "scene": {
+        "id": "toward-aggregates-lake",
+        "actor": "traveler",
+        "speaker": "小貓",
+        "text": "原來，四個重要的真理是苦、集、滅、道。但我還不太懂苦的心理運作……那邊有座五陰湖，去看看好了！"
+      },
+      "cyanCta": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+        "color": "rgb(23, 61, 80)",
+        "outline": "rgb(255, 224, 160)",
+        "rect": {
+          "x": 794.984375,
+          "y": 135.78125,
+          "width": 146.015625,
+          "height": 48,
+          "top": 135.78125,
+          "right": 941,
+          "bottom": 183.78125,
+          "left": 794.984375
+        },
+        "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+      },
+      "fullPortraitButtonsAboveDock": true,
+      "tailSkipThenOriginalRewardAndNextStationWithoutRepeatedTransition": true,
+      "collectionUnchanged": true
+    }
+  ],
+  "skipHistoricalAndReplayFixtures": [
+    {
+      "fixture": "explicit isolated receipt at first insight, not native reader completion",
+      "skipInsightThenTailReloadStaysTailBeforeCutoff": true,
+      "tailConfirmShowsRewardOnlyAfterAcknowledgement": true,
+      "collectionUnchanged": true
+    },
+    {
+      "fixture": "pending doubt-recedes",
+      "skipMustVisitTailBeforeReward": true,
+      "reloadAfterSkipStaysTailUntilAcknowledged": true,
+      "noReadingWrites": true
+    },
+    {
+      "fixture": "pending mara-watches",
+      "skipMustVisitTailBeforeReward": true,
+      "reloadAfterSkipStaysTailUntilAcknowledged": true,
+      "noReadingWrites": true
+    },
+    {
+      "fixture": "old interrupted insight plus lake seen, Mara not seen",
+      "resumeRetreatThenMaraBeforeRewardWithoutRepeatingPreviouslySeenLake": true,
+      "collectionUnchanged": true
+    },
+    {
+      "fixture": "legacy cutoff+Mara, no tail/five bookmark",
+      "oneTimeTailCatchupThenReward": true
+    },
+    {
+      "fixture": "pre-story historical completion",
+      "noForcedCompletionTail": true,
+      "readingStateUnchanged": true
+    },
+    {
+      "fixture": "tail already accepted",
+      "noForcedCompletionTail": true,
+      "readingStateUnchanged": true
+    },
+    {
+      "fixture": "five bookmark zero",
+      "noForcedCompletionTail": true,
+      "readingStateUnchanged": true
+    },
+    {
+      "fixture": "five bookmark four",
+      "noForcedCompletionTail": true,
+      "readingStateUnchanged": true
+    },
+    {
+      "fixture": "first review in progress",
+      "noForcedCompletionTail": true,
+      "readingStateUnchanged": true
+    },
+    {
+      "fixture": "future bookmark but first incomplete",
+      "fiveStaysLockedNoTailAndNoCompletion": true
+    },
+    {
+      "fixture": "explicit completed-book replay",
+      "includesTailReadonlyNoSeenOrCollectionOrCityWrites": true,
+      "noRewardAndNoReaderEntry": true
+    }
+  ],
+  "settingsResetDuringPendingOutro": {
+    "fixture": "pending tail",
+    "settingsUsableWhileOtherNavigationBlocked": true,
+    "cancelAllStorageByteIdentical": true,
+    "confirmClearsSameStoryV1AndReadingAndCity": true,
+    "unrelatedKeyPreserved": true,
+    "freshArrivalFromSameStorySingleton": true
+  },
+  "runScope": {
+    "fullIntegratedRun": "Native first29/city/five and five viewport tails passed before the isolated final skip/reload and settings-close focus repairs.",
+    "finalTargetedRun": "Re-ran all skip/history/replay cases including insight skip→tail→reload and reset/focus against final runtime; source guards refreshed. Unrelated native reading flow was not needlessly repeated."
+  },
+  "result": "passed"
+}

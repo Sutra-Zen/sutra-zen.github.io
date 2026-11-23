@@ -6,6 +6,12 @@
 - Related Buddhist learning map: https://sutrazen.netlify.app/map.html
 - Primary language: Traditional Chinese (Taiwan)
 
+## Current Four Truths outro order (2026-11-23)
+
+The [outro-order fix](play/game-outro-order/README.md) starts from published PR73 `2720747323f4d3a05474bf0c2919ac5332810cb2`. The actual first completion now presents insight, Doubt, Mara and the Five Aggregates lake transition **before** the reward panel branches to city construction or the next station. Completion context keeps the original entry action separate, blocks ordinary navigation until an explicit continuation/skip, and resumes the pending tail after reload. Historical Five bookmarks (including0), seen scenes and ordinary review remain; the previous split-outro save may show its missing tail on map return.
+
+Reading/store schema, original manuscripts/art, city modules, original site/SEO/Google remain. Cache entries use outro-order-1 while story/reset share the existing mara-1 store. Generated entry and legacy main:/ remain, with twenty QA directories excluded. Exact release/live proof belongs to the new PR; physical Safari is untested.
+
 ## Current modular city / NPC thoughts (2026-11-23)
 
 Latest [modular-city round](play/game-modular-city/README.md) starts from published PR72 `6bb59a61d5d045b87102989532a55dc814eafa42`. The live city uses genuine watercolor grass/sprites and fixed placement slots. First-book completion reveals the free four-elements garden/lord; fourteen reading rewards are owned separately from placed modules. Tap/card-to-plus, native drag and automatic placement preserve strict reading eligibility and historical completions. Five round hindrances sway, full-body maskless Mara floats, the lord sweats, and screen-space inner voices are optional; reduced motion stops effects. One guardian plus six Awakening companions stays correct, with canonical sources preserved.

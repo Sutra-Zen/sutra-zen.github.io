@@ -1,4 +1,4 @@
-import {initializeGameShell,GAME_URLS} from '../game-shell.js?v=modular-city-1';
+import {initializeGameShell,GAME_URLS} from '../game-shell.js?v=outro-order-1';
 import {store} from '../collection/store.js';
 import {routeMetadata} from '../route/metadata.js';
 import {routeStatus,routeBooks} from '../route/selectors.js';
@@ -9,7 +9,7 @@ import {cityStore,CITY_LAYOUT_EVENT} from './modules/store.js';
 import {MODULE_UI as U} from './modules/text.js';
 import {initializeModularCity,renderSprite} from './modules/scene.js';
 import {initializeCityThoughts} from './thoughts.js';
-import {T} from './text.js?v=modular-city-1';
+import {T} from './text.js?v=outro-order-1';
 
 const main=document.querySelector('#city-main'),dialog=document.querySelector('#city-dialog'),content=document.querySelector('#city-dialog-content');
 const catalogURL=new URL('../collection/catalog.js',import.meta.url),books=new Map(routeBooks.map(book=>[book.id,book]));
@@ -65,7 +65,7 @@ function meanings(){
 function read(id){
  const saved=store.get(),book=books.get(id);if(!book)return;
  const review=canReviewGameBook(id,saved.completed);if(!review&&!canStartGameBook(id,saved.completed)){location.assign(GAME_URLS.map);return;}
- const url=new URL(book.reader,catalogURL),at=saved.positions[id];url.searchParams.set('collection','1');url.searchParams.set('collectionReturn','game');url.searchParams.set('collectionStory','modular-city-1');
+ const url=new URL(book.reader,catalogURL),at=saved.positions[id];url.searchParams.set('collection','1');url.searchParams.set('collectionReturn','game');url.searchParams.set('collectionStory','outro-order-1');
  if(review){url.searchParams.set('collectionReview','1');url.searchParams.set('collectionPage',String(Number.isInteger(at)&&at>=0&&at<book.totalSteps-1?at:0));}
  else if(Number.isInteger(at)&&at>=0&&at<book.totalSteps)url.searchParams.set('collectionPage',String(at));location.assign(url.href);
 }
