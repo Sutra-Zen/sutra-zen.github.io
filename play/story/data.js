@@ -5,6 +5,7 @@ export const STORY_FUTURE_LOCALES = Object.freeze(['zh-Hans', 'en', 'ja']);
 export const STORY_ACTORS = Object.freeze({
  traveler: Object.freeze({name:'小貓',portrait:new URL('./assets/kitten-traveler-portrait-concept.png',import.meta.url).href}),
  doubt: Object.freeze({name:'五蓋眾・疑',portrait:new URL('./assets/doubt-creature-concept.png',import.meta.url).href}),
+ mara: Object.freeze({name:'波旬',portrait:new URL('./assets/mara-portrait-concept.png',import.meta.url).href}),
 });
 export const STORY_SCENES = Object.freeze({
  'arrival-at-wheel': Object.freeze({actorId:'traveler',bookId:'four-truths',group:'arrival',
@@ -18,8 +19,11 @@ export const STORY_SCENES = Object.freeze({
  'first-book-insight': Object.freeze({actorId:'traveler',bookId:'four-truths',group:'first-completion',doubtState:'thinning',
   text:'讀完四聖諦，苦與離苦的路好像清楚一點了。「正智」和「慧根／慧力」，我也想繼續慢慢練習！',
   nextSceneId:'doubt-recedes',nextLabel:'接著看',dismissLabel:'看閱讀回饋'}),
- 'doubt-recedes': Object.freeze({actorId:'traveler',bookId:'four-truths',group:'first-completion',doubtState:'receding',
+ 'doubt-recedes': Object.freeze({actorId:'traveler',bookId:'four-truths',group:'first-completion',doubtState:'receding',seenOn:'outro-end',
   text:'咦，剛才那隻怪生物身上的問號變少了……牠退進霧裡，入口也露出來了。先把剛才學到的記在心裡，再走下一站吧！',
+  nextSceneId:'mara-watches',nextLabel:'接著看',dismissLabel:'看閱讀回饋'}),
+ 'mara-watches': Object.freeze({actorId:'mara',bookId:'four-truths',group:'first-completion',
+  text:'站在遠方觀看的波旬心想：「可惡，小貓好像慢慢開始破除五蓋了……」',
   action:'show-first-completion',nextLabel:'看看旅程的變化',dismissLabel:'看閱讀回饋'}),
  'toward-aggregates-lake': Object.freeze({actorId:'traveler',bookId:'five-aggregates',group:'book-entry',
   text:'原來，四個重要的真理是苦、集、滅、道。但我還不太懂苦的心理運作……那邊有座五陰湖，去看看好了！',
