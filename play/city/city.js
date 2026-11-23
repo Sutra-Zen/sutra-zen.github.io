@@ -1,4 +1,4 @@
-import {initializeGameShell,GAME_URLS} from '../game-shell.js?v=cyan-aggregates-1';
+import {initializeGameShell,GAME_URLS} from '../game-shell.js?v=mara-1';
 import {store} from '../collection/store.js';
 import {routeMetadata} from '../route/metadata.js';
 import {routeStatus,routeBooks} from '../route/selectors.js';
@@ -36,7 +36,7 @@ function read(id,{review=false}={}){
  const b=books.get(id),saved=store.get();if(!b)return;
  const allowed=review?canReviewGameBook(id,saved.completed):canStartGameBook(id,saved.completed);
  if(!allowed){location.assign(GAME_URLS.map);return;}
- const u=new URL(b.reader,catalogURL),at=saved.positions[id];u.searchParams.set('collection','1');u.searchParams.set('collectionReturn','game');u.searchParams.set('collectionStory','cyan-1');
+ const u=new URL(b.reader,catalogURL),at=saved.positions[id];u.searchParams.set('collection','1');u.searchParams.set('collectionReturn','game');u.searchParams.set('collectionStory','mara-1');
  if(review){u.searchParams.set('collectionReview','1');u.searchParams.set('collectionPage',String(Number.isInteger(at)&&at>=0&&at<b.totalSteps-1?at:0));}
  else if(Number.isInteger(at)&&at>=0&&at<b.totalSteps)u.searchParams.set('collectionPage',String(at));
  location.assign(u.href);

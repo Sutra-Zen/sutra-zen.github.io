@@ -6,6 +6,12 @@
 - Related Buddhist learning map: https://sutrazen.netlify.app/map.html
 - Primary language: Traditional Chinese (Taiwan)
 
+## Current Mara cameo after Doubt retreats (2026-11-23)
+
+Latest [Mara/story round](play/game-mara-story/README.md) starts from published PR71 `71de5285bef079f515abcc44577eb50a4aa8cea3`. A transparent right-facing portrait follows the author's upper-right purple/gold character, removes the handheld orange mask and preserves the original forehead ornament, amber eyes and red-orange horns. The cameo follows Doubt's retreat, then the unchanged reading reward and Five Aggregates lake transition. The line is Mara's fictional inner thought, not an attainment score or scripture quotation.
+
+The old retreat cutoff is deferred until the new final scene is accepted, allowing reload to resume Mara without forcing new scenes into already-finished historical saves. Replays remain read-only, reset shares story v1, and the original collection schema/eligibility/receipt/camera/CSS remain unchanged. Cache versions use mara-1; fourteen original HTML readers only update their bridge query. Eighteen QA directories are excluded from unchanged main:/ Pages. Exact release evidence belongs to the new PR; physical Safari is untested and Notion update pending.
+
 ## Current blue-celadon actions / Five Aggregates transition (2026-11-23)
 
 Latest [cyan/actions round](play/game-cyan-aggregates/README.md) starts from published PR70 `0d44d7229195d60bf1781e55e88ab53b8d7fcc7f`. Game primary/current states use fresh light-cyan gradients with dark text, while deep translucent panels and artwork remain. After the unchanged first-book reward, the next-station map presents the author's short Four Truths → Five Aggregates lake line; the CTA enters the original reader only when eligible. Existing bookmarks/reviews skip the one-time story. Story v1 and author reset share one module instance; completion/store/camera semantics remain unchanged.

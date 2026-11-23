@@ -2,14 +2,14 @@ import {store} from '../collection/store.js';
 import {routeStatus,routeBooks} from '../route/selectors.js';
 import {canStartGameBook,canReviewGameBook,getGameBookAccess} from '../route/eligibility.js';
 import {routeMetadata} from '../route/metadata.js';
-import {initializeGameShell,GAME_URLS} from '../game-shell.js?v=cyan-aggregates-1';
-import {initializeTitleScreen} from '../title-screen.js?v=cyan-aggregates-1';
+import {initializeGameShell,GAME_URLS} from '../game-shell.js?v=mara-1';
+import {initializeTitleScreen} from '../title-screen.js?v=mara-1';
 import {createMapCamera} from './camera.js?v=original-frame-1';
-import {initializeStoryDialogue} from '../story/dialogue.js?v=cyan-aggregates-1';
-import {storyStore} from '../story/store.js?v=cyan-aggregates-1';
+import {initializeStoryDialogue} from '../story/dialogue.js?v=mara-1';
+import {storyStore} from '../story/store.js?v=mara-1';
 import {consumeFirstCompletionReceipt} from '../story/completion-receipt.js?v=doubt-1';
-import {initializeDoubtStage} from '../story/doubt-stage.js?v=cyan-aggregates-1';
-import {STORY_UI} from '../story/data.js?v=cyan-aggregates-1';
+import {initializeDoubtStage} from '../story/doubt-stage.js?v=mara-1';
+import {STORY_UI} from '../story/data.js?v=mara-1';
 import {compactCompletionFeedback} from './completion-feedback.js?v=city-story-1';
 import {WORLD,LANDMARKS,MEMBERS,NODES,EDGES,GEOGRAPHIC_ROAD,MAP_CONNECTIONS,conceptAnchor,sourceGroupAnchor,PRIMARY_BOOK_LANDMARK} from './data.js';
 import {T} from './text.js?v=original-frame-1';
@@ -31,7 +31,7 @@ let doubtStage=null,activeStoryScene=null;
 const story=initializeStoryDialogue({host:$('#game-content'),onClose:()=>$('[data-wm-next]').focus({preventScroll:true}),onScene:scene=>{activeStoryScene=scene;syncDoubtStage();camera?.refresh();if(scene?.doubtState)camera?.focus({x:1248,y:566});},onDismiss:(scene,{replay})=>{if(!replay&&scene?.group==='first-completion'){storyStore.markSeen('doubt-recedes');completedFeedback('four-truths');}},onAction:(scene,{replay})=>{
  if(!replay&&scene.action==='enter-first-book'&&currentBook()?.id===scene.bookId)openReader(scene.bookId,{bypassDoubt:true});
  else if(!replay&&scene.action==='enter-aggregates-book'&&currentBook()?.id===scene.bookId)openReader(scene.bookId,{bypassAggregatesIntro:true});
- else if(!replay&&scene.action==='show-first-completion')completedFeedback('four-truths');
+ else if(!replay&&scene.action==='show-first-completion'){storyStore.markSeen('doubt-recedes');completedFeedback('four-truths');}
  else{locateNext();$('[data-wm-next]').focus({preventScroll:true});}
 }});
 $('[data-wm-story-replay]').textContent=STORY_UI.replay;
@@ -46,7 +46,9 @@ function firstCompletionStory(hasReceipt){
  const pending=storyStore.hasSeen('first-book-insight')&&!storyStore.hasSeen('doubt-recedes');
  if(!done||!last||!storyStore.hasSeen('doubt-at-ruins')||storyStore.hasSeen('doubt-recedes')||(!hasReceipt&&!pending))return false;
  const l=landmarkFor('four-truths');selected=l.id;camera?.focus({x:l.x,y:l.y});
- story.show(pending?'doubt-recedes':'first-book-insight');return true;
+ // Old saves already containing the retreat cutoff never auto-play new scenes.
+ // During the new outro, its cutoff stays pending until Mara is acknowledged.
+ story.show(pending?(storyStore.hasSeen('mara-watches')?'mara-watches':'doubt-recedes'):'first-book-insight');return true;
 }
 toolsDialog.addEventListener('close',()=>!story.isOpen&&toolsFocus?.isConnected&&toolsFocus.focus({preventScroll:true}));
 const status=()=>{const s=store.get();return routeStatus(s.completed,s.positions,routeMetadata.get());};
@@ -154,7 +156,7 @@ function openReader(id,{bypassDoubt=false,bypassAggregatesIntro=false}={}){
  if(a.canStart)routeMetadata.markOpened(id);
  const u=new URL(b.reader,catalogURL);
  u.searchParams.set('collection','1');u.searchParams.set('collectionReturn','game');
- u.searchParams.set('collectionStory','cyan-1');
+ u.searchParams.set('collectionStory','mara-1');
  if(a.canReview)u.searchParams.set('collectionReview','1');
  const at=a.canReview&&a.resumePosition===b.totalSteps-1?0:(a.resumePosition??0);
  u.searchParams.set('collectionPage',String(at));

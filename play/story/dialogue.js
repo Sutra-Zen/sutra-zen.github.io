@@ -1,5 +1,5 @@
-import {STORY_ACTORS,STORY_SCENES,STORY_UI as T} from './data.js?v=cyan-aggregates-1';
-import {storyStore} from './store.js?v=cyan-aggregates-1';
+import {STORY_ACTORS,STORY_SCENES,STORY_UI as T} from './data.js?v=mara-1';
+import {storyStore} from './store.js?v=mara-1';
 
 export function initializeStoryDialogue({host,onAction,onClose,onDismiss,onScene}={}){
  if(!host)throw Error('Missing story dialogue host.');
@@ -24,7 +24,8 @@ export function initializeStoryDialogue({host,onAction,onClose,onDismiss,onScene
   panel.querySelector('.story-dialogue__skip').textContent=scene.dismissLabel||T.skip;
   panel.querySelector('.story-dialogue__next').textContent=scene.nextSceneId?(scene.nextLabel||T.next):replay?T.returnToMap:(scene.nextLabel||T.enter);
   image.hidden=false;image.src=actor.portrait;
-  if(!reviewing)storyStore.markSeen(id);
+  // The legacy first-outro cutoff is acknowledged only at the new final scene.
+  if(!reviewing&&scene.seenOn!=='outro-end')storyStore.markSeen(id);
   const notice=panel.querySelector('.story-dialogue__notice');notice.textContent=storyStore.issue==='corrupt'?T.storageCorrupt:storyStore.issue?T.storageUnavailable:'';notice.hidden=!notice.textContent;
   panel.hidden=false;host.classList.add('has-story-dialogue');panel.scrollTop=0;onScene?.(scene);
   if(focus)panel.querySelector('.story-dialogue__next').focus({preventScroll:true});return true;
