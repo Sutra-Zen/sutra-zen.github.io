@@ -1,4 +1,4 @@
-import {PROLOGUE_VERSION,PROLOGUE_PARAGRAPHS,PROLOGUE_UI as T,PROLOGUE_TIMING as C} from './data.js?v=simple-ui-1';
+import {PROLOGUE_VERSION,PROLOGUE_PARAGRAPHS,PROLOGUE_UI as T,PROLOGUE_TIMING as C} from './data.js?v=stable-art-1';
 export {PROLOGUE_VERSION};
 const clamp=(n,min,max)=>Math.max(min,Math.min(max,n));
 // No storage, book data, route selectors or completion records are used here.

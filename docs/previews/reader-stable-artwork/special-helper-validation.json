@@ -1,0 +1,1421 @@
+{
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "specialMatrix": [
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "book": "four-truths",
+      "mode": "public",
+      "nativeHeartTransition": {
+        "nativeTransition": [
+          22,
+          23
+        ],
+        "imageFrame": {
+          "x": 182.6015625,
+          "y": 64,
+          "width": 478.796875,
+          "height": 266,
+          "top": 64,
+          "right": 661.3984375,
+          "bottom": 330,
+          "left": 182.6015625
+        },
+        "heartFrame": {
+          "x": 182.6015625,
+          "y": 64,
+          "width": 478.796875,
+          "height": 266,
+          "top": 64,
+          "right": 661.3984375,
+          "bottom": 330,
+          "left": 182.6015625
+        },
+        "captionTopBeforeAfter": [
+          0,
+          0
+        ]
+      },
+      "specialSamples": [
+        {
+          "index": 21,
+          "classes": "page reader-standard-layout document-scene reader-bands reader-stable-artwork",
+          "detail": {
+            "illustratedSummaryOrWideDocument": true,
+            "frame": {
+              "x": 182.6015625,
+              "y": 64,
+              "width": 478.796875,
+              "height": 266,
+              "top": 64,
+              "right": 661.3984375,
+              "bottom": 330,
+              "left": 182.6015625
+            },
+            "paint": {
+              "x": 182.6015625,
+              "y": 125.6168721516927,
+              "width": 478.796875,
+              "height": 142.7662556966146
+            }
+          },
+          "captionTop": 0
+        },
+        {
+          "index": 23,
+          "classes": "page reader-standard-layout document-scene text-scene heart-scene reader-framed-heart",
+          "detail": {
+            "client": 447,
+            "scroll": 737,
+            "height": 234,
+            "textMode": "vertical-rl",
+            "overflow": "auto"
+          },
+          "captionTop": 0
+        },
+        {
+          "index": 27,
+          "classes": "page reader-standard-layout document-scene text-scene heart-scene reader-framed-heart",
+          "detail": {
+            "client": 447,
+            "scroll": 737,
+            "height": 234,
+            "textMode": "vertical-rl",
+            "overflow": "auto"
+          },
+          "captionTop": 0
+        },
+        {
+          "index": 28,
+          "classes": "page reader-standard-layout document-scene text-scene reader-framed-ending",
+          "detail": {
+            "textCharacters": 130,
+            "client": 390,
+            "scroll": 390,
+            "overflow": "auto",
+            "top": 0,
+            "paddingTop": "8px",
+            "endOfOriginalTextReachable": true,
+            "readingStepUnchanged": true
+          },
+          "captionTop": null
+        }
+      ],
+      "noCompletionFromGeometry": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "book": "four-truths",
+      "mode": "public",
+      "nativeHeartTransition": {
+        "nativeTransition": [
+          22,
+          23
+        ],
+        "imageFrame": {
+          "x": 10,
+          "y": 139,
+          "width": 748,
+          "height": 415.546875,
+          "top": 139,
+          "right": 758,
+          "bottom": 554.546875,
+          "left": 10
+        },
+        "heartFrame": {
+          "x": 10,
+          "y": 139,
+          "width": 748,
+          "height": 415.546875,
+          "top": 139,
+          "right": 758,
+          "bottom": 554.546875,
+          "left": 10
+        },
+        "captionTopBeforeAfter": [
+          48,
+          48
+        ]
+      },
+      "specialSamples": [
+        {
+          "index": 21,
+          "classes": "page reader-standard-layout document-scene reader-stable-artwork",
+          "detail": {
+            "illustratedSummaryOrWideDocument": true,
+            "frame": {
+              "x": 10,
+              "y": 139,
+              "width": 748,
+              "height": 415.546875,
+              "top": 139,
+              "right": 758,
+              "bottom": 554.546875,
+              "left": 10
+            },
+            "paint": {
+              "x": 10,
+              "y": 235.25520833333331,
+              "width": 748,
+              "height": 223.03645833333334
+            }
+          },
+          "captionTop": 48
+        },
+        {
+          "index": 23,
+          "classes": "page reader-standard-layout document-scene text-scene heart-scene reader-framed-heart",
+          "detail": {
+            "client": 716,
+            "scroll": 716,
+            "height": 384,
+            "textMode": "vertical-rl",
+            "overflow": "auto"
+          },
+          "captionTop": 48
+        },
+        {
+          "index": 27,
+          "classes": "page reader-standard-layout document-scene text-scene heart-scene reader-framed-heart",
+          "detail": {
+            "client": 716,
+            "scroll": 716,
+            "height": 384,
+            "textMode": "vertical-rl",
+            "overflow": "auto"
+          },
+          "captionTop": 48
+        },
+        {
+          "index": 28,
+          "classes": "page reader-standard-layout document-scene text-scene reader-framed-ending",
+          "detail": {
+            "textCharacters": 130,
+            "client": 221,
+            "scroll": 221,
+            "overflow": "visible",
+            "top": 48,
+            "paddingTop": "8px",
+            "endOfOriginalTextReachable": true,
+            "readingStepUnchanged": true
+          },
+          "captionTop": null
+        }
+      ],
+      "noCompletionFromGeometry": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "book": "five-aggregates",
+      "mode": "public",
+      "nativeHeartTransition": {
+        "nativeTransition": [
+          50,
+          51
+        ],
+        "imageFrame": {
+          "x": 222.5,
+          "y": 64,
+          "width": 399,
+          "height": 266,
+          "top": 64,
+          "right": 621.5,
+          "bottom": 330,
+          "left": 222.5
+        },
+        "heartFrame": {
+          "x": 222.5,
+          "y": 64,
+          "width": 399,
+          "height": 266,
+          "top": 64,
+          "right": 621.5,
+          "bottom": 330,
+          "left": 222.5
+        },
+        "captionTopBeforeAfter": [
+          null,
+          0
+        ]
+      },
+      "specialSamples": [
+        {
+          "index": 0,
+          "classes": "page reader-standard-layout text-scene reader-framed-ending",
+          "detail": {
+            "textCharacters": 194,
+            "client": 390,
+            "scroll": 409,
+            "overflow": "auto",
+            "top": 0,
+            "paddingTop": "8px",
+            "endOfOriginalTextReachable": true,
+            "readingStepUnchanged": true
+          },
+          "captionTop": 58
+        },
+        {
+          "index": 50,
+          "classes": "page reader-standard-layout summary-scene document-scene reader-bands reader-stable-artwork",
+          "detail": {
+            "illustratedSummaryOrWideDocument": true,
+            "frame": {
+              "x": 222.5,
+              "y": 64,
+              "width": 399,
+              "height": 266,
+              "top": 64,
+              "right": 621.5,
+              "bottom": 330,
+              "left": 222.5
+            },
+            "paint": {
+              "x": 222.5,
+              "y": 64,
+              "width": 399,
+              "height": 266
+            }
+          },
+          "captionTop": null
+        },
+        {
+          "index": 51,
+          "classes": "page reader-standard-layout text-scene heart-scene reader-framed-heart",
+          "detail": {
+            "client": 367,
+            "scroll": 765,
+            "height": 234,
+            "textMode": "vertical-rl",
+            "overflow": "auto"
+          },
+          "captionTop": 0
+        },
+        {
+          "index": 52,
+          "classes": "page reader-standard-layout text-scene heart-scene reader-framed-heart",
+          "detail": {
+            "client": 367,
+            "scroll": 765,
+            "height": 234,
+            "textMode": "vertical-rl",
+            "overflow": "auto"
+          },
+          "captionTop": 0
+        },
+        {
+          "index": 53,
+          "classes": "page reader-standard-layout text-scene reader-framed-ending",
+          "detail": {
+            "textCharacters": 131,
+            "client": 390,
+            "scroll": 390,
+            "overflow": "auto",
+            "top": 0,
+            "paddingTop": "8px",
+            "endOfOriginalTextReachable": true,
+            "readingStepUnchanged": true
+          },
+          "captionTop": 58
+        }
+      ],
+      "noCompletionFromGeometry": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "book": "five-aggregates",
+      "mode": "public",
+      "nativeHeartTransition": {
+        "nativeTransition": [
+          50,
+          51
+        ],
+        "imageFrame": {
+          "x": 72.328125,
+          "y": 48,
+          "width": 623.328125,
+          "height": 415.546875,
+          "top": 48,
+          "right": 695.65625,
+          "bottom": 463.546875,
+          "left": 72.328125
+        },
+        "heartFrame": {
+          "x": 72.328125,
+          "y": 139,
+          "width": 623.328125,
+          "height": 415.546875,
+          "top": 139,
+          "right": 695.65625,
+          "bottom": 554.546875,
+          "left": 72.328125
+        },
+        "captionTopBeforeAfter": [
+          null,
+          48
+        ]
+      },
+      "specialSamples": [
+        {
+          "index": 0,
+          "classes": "page reader-standard-layout text-scene reader-framed-ending",
+          "detail": {
+            "textCharacters": 194,
+            "client": 471,
+            "scroll": 471,
+            "overflow": "visible",
+            "top": 48,
+            "paddingTop": "8px",
+            "endOfOriginalTextReachable": true,
+            "readingStepUnchanged": true
+          },
+          "captionTop": 104
+        },
+        {
+          "index": 50,
+          "classes": "page reader-standard-layout summary-scene document-scene reader-stable-artwork",
+          "detail": {
+            "illustratedSummaryOrWideDocument": true,
+            "frame": {
+              "x": 72.328125,
+              "y": 48,
+              "width": 623.328125,
+              "height": 415.546875,
+              "top": 48,
+              "right": 695.65625,
+              "bottom": 463.546875,
+              "left": 72.328125
+            },
+            "paint": {
+              "x": 72.33203125,
+              "y": 48,
+              "width": 623.3203125,
+              "height": 415.546875
+            }
+          },
+          "captionTop": null
+        },
+        {
+          "index": 51,
+          "classes": "page reader-standard-layout text-scene heart-scene reader-framed-heart",
+          "detail": {
+            "client": 591,
+            "scroll": 667,
+            "height": 384,
+            "textMode": "vertical-rl",
+            "overflow": "auto"
+          },
+          "captionTop": 48
+        },
+        {
+          "index": 52,
+          "classes": "page reader-standard-layout text-scene heart-scene reader-framed-heart",
+          "detail": {
+            "client": 591,
+            "scroll": 667,
+            "height": 384,
+            "textMode": "vertical-rl",
+            "overflow": "auto"
+          },
+          "captionTop": 48
+        },
+        {
+          "index": 53,
+          "classes": "page reader-standard-layout text-scene reader-framed-ending",
+          "detail": {
+            "textCharacters": 131,
+            "client": 242,
+            "scroll": 242,
+            "overflow": "visible",
+            "top": 48,
+            "paddingTop": "8px",
+            "endOfOriginalTextReachable": true,
+            "readingStepUnchanged": true
+          },
+          "captionTop": 104
+        }
+      ],
+      "noCompletionFromGeometry": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "book": "six-senses",
+      "mode": "public",
+      "nativeHeartTransition": {
+        "nativeTransition": [
+          109,
+          110
+        ],
+        "imageFrame": {
+          "x": 222.5,
+          "y": 64,
+          "width": 399,
+          "height": 266,
+          "top": 64,
+          "right": 621.5,
+          "bottom": 330,
+          "left": 222.5
+        },
+        "heartFrame": {
+          "x": 222.5,
+          "y": 64,
+          "width": 399,
+          "height": 266,
+          "top": 64,
+          "right": 621.5,
+          "bottom": 330,
+          "left": 222.5
+        },
+        "captionTopBeforeAfter": [
+          0,
+          0
+        ]
+      },
+      "specialSamples": [
+        {
+          "index": 0,
+          "classes": "page reader-standard-layout text-scene reader-framed-ending",
+          "detail": {
+            "textCharacters": 194,
+            "client": 390,
+            "scroll": 409,
+            "overflow": "auto",
+            "top": 0,
+            "paddingTop": "8px",
+            "endOfOriginalTextReachable": true,
+            "readingStepUnchanged": true
+          },
+          "captionTop": 58
+        },
+        {
+          "index": 110,
+          "classes": "page reader-standard-layout text-scene heart-scene reader-framed-heart",
+          "detail": {
+            "client": 367,
+            "scroll": 765,
+            "height": 234,
+            "textMode": "vertical-rl",
+            "overflow": "auto"
+          },
+          "captionTop": 0
+        },
+        {
+          "index": 113,
+          "classes": "page reader-standard-layout text-scene heart-scene reader-framed-heart",
+          "detail": {
+            "client": 367,
+            "scroll": 765,
+            "height": 234,
+            "textMode": "vertical-rl",
+            "overflow": "auto"
+          },
+          "captionTop": 0
+        },
+        {
+          "index": 114,
+          "classes": "page reader-standard-layout text-scene reader-framed-ending",
+          "detail": {
+            "textCharacters": 127,
+            "client": 390,
+            "scroll": 390,
+            "overflow": "auto",
+            "top": 0,
+            "paddingTop": "8px",
+            "endOfOriginalTextReachable": true,
+            "readingStepUnchanged": true
+          },
+          "captionTop": 58
+        }
+      ],
+      "noCompletionFromGeometry": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "book": "six-senses",
+      "mode": "public",
+      "nativeHeartTransition": {
+        "nativeTransition": [
+          109,
+          110
+        ],
+        "imageFrame": {
+          "x": 72.328125,
+          "y": 139,
+          "width": 623.328125,
+          "height": 415.546875,
+          "top": 139,
+          "right": 695.65625,
+          "bottom": 554.546875,
+          "left": 72.328125
+        },
+        "heartFrame": {
+          "x": 72.328125,
+          "y": 139,
+          "width": 623.328125,
+          "height": 415.546875,
+          "top": 139,
+          "right": 695.65625,
+          "bottom": 554.546875,
+          "left": 72.328125
+        },
+        "captionTopBeforeAfter": [
+          48,
+          48
+        ]
+      },
+      "specialSamples": [
+        {
+          "index": 0,
+          "classes": "page reader-standard-layout text-scene reader-framed-ending",
+          "detail": {
+            "textCharacters": 194,
+            "client": 471,
+            "scroll": 471,
+            "overflow": "visible",
+            "top": 48,
+            "paddingTop": "8px",
+            "endOfOriginalTextReachable": true,
+            "readingStepUnchanged": true
+          },
+          "captionTop": 104
+        },
+        {
+          "index": 110,
+          "classes": "page reader-standard-layout text-scene heart-scene reader-framed-heart",
+          "detail": {
+            "client": 591,
+            "scroll": 667,
+            "height": 384,
+            "textMode": "vertical-rl",
+            "overflow": "auto"
+          },
+          "captionTop": 48
+        },
+        {
+          "index": 113,
+          "classes": "page reader-standard-layout text-scene heart-scene reader-framed-heart",
+          "detail": {
+            "client": 591,
+            "scroll": 667,
+            "height": 384,
+            "textMode": "vertical-rl",
+            "overflow": "auto"
+          },
+          "captionTop": 48
+        },
+        {
+          "index": 114,
+          "classes": "page reader-standard-layout text-scene reader-framed-ending",
+          "detail": {
+            "textCharacters": 127,
+            "client": 242,
+            "scroll": 242,
+            "overflow": "visible",
+            "top": 48,
+            "paddingTop": "8px",
+            "endOfOriginalTextReachable": true,
+            "readingStepUnchanged": true
+          },
+          "captionTop": 104
+        }
+      ],
+      "noCompletionFromGeometry": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "book": "twelve-links",
+      "mode": "public",
+      "nativeHeartTransition": {
+        "nativeTransition": [
+          73,
+          74
+        ],
+        "imageFrame": {
+          "x": 183.796875,
+          "y": 64,
+          "width": 476.40625,
+          "height": 266,
+          "top": 64,
+          "right": 660.203125,
+          "bottom": 330,
+          "left": 183.796875
+        },
+        "heartFrame": {
+          "x": 183.796875,
+          "y": 64,
+          "width": 476.40625,
+          "height": 266,
+          "top": 64,
+          "right": 660.203125,
+          "bottom": 330,
+          "left": 183.796875
+        },
+        "captionTopBeforeAfter": [
+          0,
+          0
+        ]
+      },
+      "specialSamples": [
+        {
+          "index": 74,
+          "classes": "page reader-standard-layout text-scene heart-scene reader-framed-heart",
+          "detail": {
+            "client": 444,
+            "scroll": 724,
+            "height": 234,
+            "textMode": "vertical-rl",
+            "overflow": "auto"
+          },
+          "captionTop": 0
+        },
+        {
+          "index": 75,
+          "classes": "page reader-standard-layout text-scene heart-scene reader-framed-heart",
+          "detail": {
+            "client": 444,
+            "scroll": 724,
+            "height": 234,
+            "textMode": "vertical-rl",
+            "overflow": "auto"
+          },
+          "captionTop": 0
+        },
+        {
+          "index": 76,
+          "classes": "page reader-standard-layout text-scene reader-framed-ending",
+          "detail": {
+            "textCharacters": 130,
+            "client": 390,
+            "scroll": 390,
+            "overflow": "auto",
+            "top": 0,
+            "paddingTop": "8px",
+            "endOfOriginalTextReachable": true,
+            "readingStepUnchanged": true
+          },
+          "captionTop": null
+        }
+      ],
+      "noCompletionFromGeometry": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "book": "twelve-links",
+      "mode": "public",
+      "nativeHeartTransition": {
+        "nativeTransition": [
+          73,
+          74
+        ],
+        "imageFrame": {
+          "x": 11.859375,
+          "y": 139,
+          "width": 744.265625,
+          "height": 415.546875,
+          "top": 139,
+          "right": 756.125,
+          "bottom": 554.546875,
+          "left": 11.859375
+        },
+        "heartFrame": {
+          "x": 11.859375,
+          "y": 139,
+          "width": 744.265625,
+          "height": 415.546875,
+          "top": 139,
+          "right": 756.125,
+          "bottom": 554.546875,
+          "left": 11.859375
+        },
+        "captionTopBeforeAfter": [
+          48,
+          48
+        ]
+      },
+      "specialSamples": [
+        {
+          "index": 74,
+          "classes": "page reader-standard-layout text-scene heart-scene reader-framed-heart",
+          "detail": {
+            "client": 712,
+            "scroll": 712,
+            "height": 384,
+            "textMode": "vertical-rl",
+            "overflow": "auto"
+          },
+          "captionTop": 48
+        },
+        {
+          "index": 75,
+          "classes": "page reader-standard-layout text-scene heart-scene reader-framed-heart",
+          "detail": {
+            "client": 712,
+            "scroll": 712,
+            "height": 384,
+            "textMode": "vertical-rl",
+            "overflow": "auto"
+          },
+          "captionTop": 48
+        },
+        {
+          "index": 76,
+          "classes": "page reader-standard-layout text-scene reader-framed-ending",
+          "detail": {
+            "textCharacters": 130,
+            "client": 221,
+            "scroll": 221,
+            "overflow": "visible",
+            "top": 48,
+            "paddingTop": "8px",
+            "endOfOriginalTextReachable": true,
+            "readingStepUnchanged": true
+          },
+          "captionTop": null
+        }
+      ],
+      "noCompletionFromGeometry": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "book": "eightfold-path",
+      "mode": "public",
+      "nativeHeartTransition": null,
+      "specialSamples": [
+        {
+          "index": 108,
+          "classes": "page reader-standard-layout text-scene reader-framed-ending",
+          "detail": {
+            "textCharacters": 235,
+            "client": 390,
+            "scroll": 630,
+            "overflow": "auto",
+            "top": 0,
+            "paddingTop": "8px",
+            "endOfOriginalTextReachable": true,
+            "readingStepUnchanged": true
+          },
+          "captionTop": 58
+        },
+        {
+          "index": 110,
+          "classes": "page reader-standard-layout text-scene reader-framed-ending afterword-scene",
+          "detail": {
+            "textCharacters": 151,
+            "client": 390,
+            "scroll": 390,
+            "overflow": "auto",
+            "top": 0,
+            "paddingTop": "8px",
+            "endOfOriginalTextReachable": true,
+            "readingStepUnchanged": true
+          },
+          "captionTop": 58
+        }
+      ],
+      "noCompletionFromGeometry": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "book": "eightfold-path",
+      "mode": "public",
+      "nativeHeartTransition": null,
+      "specialSamples": [
+        {
+          "index": 108,
+          "classes": "page reader-standard-layout text-scene reader-framed-ending",
+          "detail": {
+            "textCharacters": 241,
+            "client": 676,
+            "scroll": 676,
+            "overflow": "visible",
+            "top": 48,
+            "paddingTop": "8px",
+            "endOfOriginalTextReachable": true,
+            "readingStepUnchanged": true
+          },
+          "captionTop": 104
+        },
+        {
+          "index": 110,
+          "classes": "page reader-standard-layout text-scene reader-framed-ending afterword-scene",
+          "detail": {
+            "textCharacters": 151,
+            "client": 303,
+            "scroll": 303,
+            "overflow": "visible",
+            "top": 48,
+            "paddingTop": "8px",
+            "endOfOriginalTextReachable": true,
+            "readingStepUnchanged": true
+          },
+          "captionTop": 104
+        }
+      ],
+      "noCompletionFromGeometry": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "book": "four-purities-six-recollections",
+      "mode": "public",
+      "nativeHeartTransition": null,
+      "specialSamples": [
+        {
+          "index": 94,
+          "classes": "page image-scene reader-standard-layout afterword-scene reader-framed-ending",
+          "detail": {
+            "textCharacters": 169,
+            "client": 390,
+            "scroll": 390,
+            "overflow": "auto",
+            "top": 0,
+            "paddingTop": "8px",
+            "endOfOriginalTextReachable": true,
+            "readingStepUnchanged": true
+          },
+          "captionTop": 58
+        }
+      ],
+      "noCompletionFromGeometry": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "book": "four-purities-six-recollections",
+      "mode": "public",
+      "nativeHeartTransition": null,
+      "specialSamples": [
+        {
+          "index": 94,
+          "classes": "page image-scene reader-standard-layout afterword-scene reader-framed-ending",
+          "detail": {
+            "textCharacters": 169,
+            "client": 336,
+            "scroll": 336,
+            "overflow": "visible",
+            "top": 48,
+            "paddingTop": "8px",
+            "endOfOriginalTextReachable": true,
+            "readingStepUnchanged": true
+          },
+          "captionTop": 106
+        }
+      ],
+      "noCompletionFromGeometry": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "book": "mindfulness",
+      "mode": "public",
+      "nativeHeartTransition": null,
+      "specialSamples": [
+        {
+          "index": 109,
+          "classes": "page image-scene reader-standard-layout reader-bands reader-stable-artwork summary-scene",
+          "detail": {
+            "illustratedSummaryOrWideDocument": true,
+            "frame": {
+              "x": 185.4375,
+              "y": 64,
+              "width": 473.125,
+              "height": 266,
+              "top": 64,
+              "right": 658.5625,
+              "bottom": 330,
+              "left": 185.4375
+            },
+            "paint": {
+              "x": 185.4375,
+              "y": 64.00433612440193,
+              "width": 473.125,
+              "height": 265.99132775119614
+            }
+          },
+          "captionTop": 0
+        },
+        {
+          "index": 110,
+          "classes": "page image-scene reader-standard-layout afterword-scene reader-framed-ending",
+          "detail": {
+            "textCharacters": 183,
+            "client": 390,
+            "scroll": 390,
+            "overflow": "auto",
+            "top": 0,
+            "paddingTop": "8px",
+            "endOfOriginalTextReachable": true,
+            "readingStepUnchanged": true
+          },
+          "captionTop": 58
+        }
+      ],
+      "noCompletionFromGeometry": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "book": "mindfulness",
+      "mode": "public",
+      "nativeHeartTransition": null,
+      "specialSamples": [
+        {
+          "index": 109,
+          "classes": "page image-scene reader-standard-layout summary-scene reader-stable-artwork",
+          "detail": {
+            "illustratedSummaryOrWideDocument": true,
+            "frame": {
+              "x": 14.421875,
+              "y": 48,
+              "width": 739.15625,
+              "height": 415.546875,
+              "top": 48,
+              "right": 753.578125,
+              "bottom": 463.546875,
+              "left": 14.421875
+            },
+            "paint": {
+              "x": 14.428523936170222,
+              "y": 48,
+              "width": 739.1429521276596,
+              "height": 415.546875
+            }
+          },
+          "captionTop": null
+        },
+        {
+          "index": 110,
+          "classes": "page image-scene reader-standard-layout afterword-scene reader-framed-ending",
+          "detail": {
+            "textCharacters": 183,
+            "client": 336,
+            "scroll": 336,
+            "overflow": "visible",
+            "top": 48,
+            "paddingTop": "8px",
+            "endOfOriginalTextReachable": true,
+            "readingStepUnchanged": true
+          },
+          "captionTop": 106
+        }
+      ],
+      "noCompletionFromGeometry": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "book": "right-effort",
+      "mode": "public",
+      "nativeHeartTransition": null,
+      "specialSamples": [
+        {
+          "index": 80,
+          "classes": "page image-scene reader-standard-layout afterword-scene reader-framed-ending",
+          "detail": {
+            "textCharacters": 153,
+            "client": 390,
+            "scroll": 390,
+            "overflow": "auto",
+            "top": 0,
+            "paddingTop": "8px",
+            "endOfOriginalTextReachable": true,
+            "readingStepUnchanged": true
+          },
+          "captionTop": 58
+        }
+      ],
+      "noCompletionFromGeometry": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "book": "right-effort",
+      "mode": "public",
+      "nativeHeartTransition": null,
+      "specialSamples": [
+        {
+          "index": 80,
+          "classes": "page image-scene reader-standard-layout afterword-scene reader-framed-ending",
+          "detail": {
+            "textCharacters": 153,
+            "client": 356,
+            "scroll": 356,
+            "overflow": "visible",
+            "top": 48,
+            "paddingTop": "8px",
+            "endOfOriginalTextReachable": true,
+            "readingStepUnchanged": true
+          },
+          "captionTop": 106
+        }
+      ],
+      "noCompletionFromGeometry": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "book": "anapana",
+      "mode": "public",
+      "nativeHeartTransition": null,
+      "specialSamples": [
+        {
+          "index": 118,
+          "classes": "page image-scene reader-standard-layout afterword-scene text-summary-scene reader-framed-ending",
+          "detail": {
+            "textCharacters": 466,
+            "client": 390,
+            "scroll": 1386,
+            "overflow": "auto",
+            "top": 0,
+            "paddingTop": "8px",
+            "endOfOriginalTextReachable": true,
+            "readingStepUnchanged": true
+          },
+          "captionTop": null
+        }
+      ],
+      "noCompletionFromGeometry": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "book": "anapana",
+      "mode": "public",
+      "nativeHeartTransition": null,
+      "specialSamples": [
+        {
+          "index": 118,
+          "classes": "page image-scene reader-standard-layout afterword-scene text-summary-scene reader-framed-ending",
+          "detail": {
+            "textCharacters": 466,
+            "client": 1302,
+            "scroll": 1302,
+            "overflow": "visible",
+            "top": 48,
+            "paddingTop": "8px",
+            "endOfOriginalTextReachable": true,
+            "readingStepUnchanged": true
+          },
+          "captionTop": null
+        }
+      ],
+      "noCompletionFromGeometry": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "book": "iddhipada",
+      "mode": "public",
+      "nativeHeartTransition": null,
+      "specialSamples": [
+        {
+          "index": 81,
+          "classes": "page image-scene reader-standard-layout afterword-scene text-summary-scene reader-framed-ending",
+          "detail": {
+            "textCharacters": 86,
+            "client": 390,
+            "scroll": 390,
+            "overflow": "auto",
+            "top": 0,
+            "paddingTop": "8px",
+            "endOfOriginalTextReachable": true,
+            "readingStepUnchanged": true
+          },
+          "captionTop": null
+        }
+      ],
+      "noCompletionFromGeometry": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "book": "iddhipada",
+      "mode": "public",
+      "nativeHeartTransition": null,
+      "specialSamples": [
+        {
+          "index": 81,
+          "classes": "page image-scene reader-standard-layout afterword-scene text-summary-scene reader-framed-ending",
+          "detail": {
+            "textCharacters": 86,
+            "client": 246,
+            "scroll": 246,
+            "overflow": "visible",
+            "top": 48,
+            "paddingTop": "8px",
+            "endOfOriginalTextReachable": true,
+            "readingStepUnchanged": true
+          },
+          "captionTop": null
+        }
+      ],
+      "noCompletionFromGeometry": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "book": "four-jhanas",
+      "mode": "public",
+      "nativeHeartTransition": null,
+      "specialSamples": [
+        {
+          "index": 130,
+          "classes": "page image-scene reader-standard-layout afterword-scene text-summary-scene reader-framed-ending",
+          "detail": {
+            "textCharacters": 83,
+            "client": 390,
+            "scroll": 390,
+            "overflow": "auto",
+            "top": 0,
+            "paddingTop": "8px",
+            "endOfOriginalTextReachable": true,
+            "readingStepUnchanged": true
+          },
+          "captionTop": null
+        }
+      ],
+      "noCompletionFromGeometry": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "book": "four-jhanas",
+      "mode": "public",
+      "nativeHeartTransition": null,
+      "specialSamples": [
+        {
+          "index": 130,
+          "classes": "page image-scene reader-standard-layout afterword-scene text-summary-scene reader-framed-ending",
+          "detail": {
+            "textCharacters": 83,
+            "client": 246,
+            "scroll": 246,
+            "overflow": "visible",
+            "top": 48,
+            "paddingTop": "8px",
+            "endOfOriginalTextReachable": true,
+            "readingStepUnchanged": true
+          },
+          "captionTop": null
+        }
+      ],
+      "noCompletionFromGeometry": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "book": "five-roots-powers",
+      "mode": "public",
+      "nativeHeartTransition": null,
+      "specialSamples": [
+        {
+          "index": 74,
+          "classes": "page image-scene reader-standard-layout afterword-scene text-summary-scene reader-framed-ending",
+          "detail": {
+            "textCharacters": 112,
+            "client": 390,
+            "scroll": 390,
+            "overflow": "auto",
+            "top": 0,
+            "paddingTop": "8px",
+            "endOfOriginalTextReachable": true,
+            "readingStepUnchanged": true
+          },
+          "captionTop": null
+        }
+      ],
+      "noCompletionFromGeometry": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "book": "five-roots-powers",
+      "mode": "public",
+      "nativeHeartTransition": null,
+      "specialSamples": [
+        {
+          "index": 74,
+          "classes": "page image-scene reader-standard-layout afterword-scene text-summary-scene reader-framed-ending",
+          "detail": {
+            "textCharacters": 112,
+            "client": 279,
+            "scroll": 279,
+            "overflow": "visible",
+            "top": 48,
+            "paddingTop": "8px",
+            "endOfOriginalTextReachable": true,
+            "readingStepUnchanged": true
+          },
+          "captionTop": null
+        }
+      ],
+      "noCompletionFromGeometry": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "book": "seven-factors",
+      "mode": "public",
+      "nativeHeartTransition": null,
+      "specialSamples": [
+        {
+          "index": 36,
+          "classes": "page image-scene reader-standard-layout afterword-scene text-summary-scene reader-framed-ending",
+          "detail": {
+            "textCharacters": 88,
+            "client": 390,
+            "scroll": 390,
+            "overflow": "auto",
+            "top": 0,
+            "paddingTop": "8px",
+            "endOfOriginalTextReachable": true,
+            "readingStepUnchanged": true
+          },
+          "captionTop": null
+        }
+      ],
+      "noCompletionFromGeometry": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "book": "seven-factors",
+      "mode": "public",
+      "nativeHeartTransition": null,
+      "specialSamples": [
+        {
+          "index": 36,
+          "classes": "page image-scene reader-standard-layout afterword-scene text-summary-scene reader-framed-ending",
+          "detail": {
+            "textCharacters": 88,
+            "client": 246,
+            "scroll": 246,
+            "overflow": "visible",
+            "top": 48,
+            "paddingTop": "8px",
+            "endOfOriginalTextReachable": true,
+            "readingStepUnchanged": true
+          },
+          "captionTop": null
+        }
+      ],
+      "noCompletionFromGeometry": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "book": "four-fruits-ten-fetters",
+      "mode": "public",
+      "nativeHeartTransition": null,
+      "specialSamples": [
+        {
+          "index": 74,
+          "classes": "page image-scene reader-standard-layout afterword-scene reader-framed-ending",
+          "detail": {
+            "textCharacters": 170,
+            "client": 390,
+            "scroll": 390,
+            "overflow": "auto",
+            "top": 0,
+            "paddingTop": "8px",
+            "endOfOriginalTextReachable": true,
+            "readingStepUnchanged": true
+          },
+          "captionTop": 58
+        }
+      ],
+      "noCompletionFromGeometry": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "book": "four-fruits-ten-fetters",
+      "mode": "public",
+      "nativeHeartTransition": null,
+      "specialSamples": [
+        {
+          "index": 74,
+          "classes": "page image-scene reader-standard-layout afterword-scene reader-framed-ending",
+          "detail": {
+            "textCharacters": 170,
+            "client": 336,
+            "scroll": 336,
+            "overflow": "visible",
+            "top": 48,
+            "paddingTop": "8px",
+            "endOfOriginalTextReachable": true,
+            "readingStepUnchanged": true
+          },
+          "captionTop": 106
+        }
+      ],
+      "noCompletionFromGeometry": true
+    }
+  ],
+  "result": "passed"
+}

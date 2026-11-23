@@ -1,0 +1,1299 @@
+{
+  "result": "passed",
+  "sizes": [
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "labels": [
+        {
+          "label": "開始旅程",
+          "normal": {
+            "background": "rgba(27, 41, 54, 0.45)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "settingsUnchanged": {
+            "background": "rgba(27, 41, 54, 0.45)",
+            "image": "none",
+            "color": "rgb(203, 215, 220)",
+            "borderWidth": "0px",
+            "borderStyle": "none",
+            "boxShadow": "none",
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(203, 215, 220)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "hover": {
+            "background": "rgba(42, 65, 82, 0.9)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "active": {
+            "background": "rgba(42, 65, 82, 0.9)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "focus": {
+            "background": "rgba(27, 41, 54, 0.45)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "keyboardEnteredMap": true
+        },
+        {
+          "label": "繼續旅程",
+          "normal": {
+            "background": "rgba(27, 41, 54, 0.45)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "settingsUnchanged": {
+            "background": "rgba(27, 41, 54, 0.45)",
+            "image": "none",
+            "color": "rgb(203, 215, 220)",
+            "borderWidth": "0px",
+            "borderStyle": "none",
+            "boxShadow": "none",
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(203, 215, 220)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "hover": {
+            "background": "rgba(42, 65, 82, 0.9)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "active": {
+            "background": "rgba(42, 65, 82, 0.9)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "focus": {
+            "background": "rgba(27, 41, 54, 0.45)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "keyboardEnteredMap": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "labels": [
+        {
+          "label": "開始旅程",
+          "normal": {
+            "background": "rgba(27, 41, 54, 0.45)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "settingsUnchanged": {
+            "background": "rgba(27, 41, 54, 0.45)",
+            "image": "none",
+            "color": "rgb(203, 215, 220)",
+            "borderWidth": "0px",
+            "borderStyle": "none",
+            "boxShadow": "none",
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(203, 215, 220)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "hover": {
+            "background": "rgba(42, 65, 82, 0.9)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "active": {
+            "background": "rgba(42, 65, 82, 0.9)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "focus": {
+            "background": "rgba(27, 41, 54, 0.45)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "keyboardEnteredMap": true
+        },
+        {
+          "label": "繼續旅程",
+          "normal": {
+            "background": "rgba(27, 41, 54, 0.45)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "settingsUnchanged": {
+            "background": "rgba(27, 41, 54, 0.45)",
+            "image": "none",
+            "color": "rgb(203, 215, 220)",
+            "borderWidth": "0px",
+            "borderStyle": "none",
+            "boxShadow": "none",
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(203, 215, 220)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "hover": {
+            "background": "rgba(42, 65, 82, 0.9)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "active": {
+            "background": "rgba(42, 65, 82, 0.9)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "focus": {
+            "background": "rgba(27, 41, 54, 0.45)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "keyboardEnteredMap": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "labels": [
+        {
+          "label": "開始旅程",
+          "normal": {
+            "background": "rgba(27, 41, 54, 0.45)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "settingsUnchanged": {
+            "background": "rgba(27, 41, 54, 0.45)",
+            "image": "none",
+            "color": "rgb(203, 215, 220)",
+            "borderWidth": "0px",
+            "borderStyle": "none",
+            "boxShadow": "none",
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(203, 215, 220)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "hover": {
+            "background": "rgba(42, 65, 82, 0.9)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "active": {
+            "background": "rgba(42, 65, 82, 0.9)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "focus": {
+            "background": "rgba(27, 41, 54, 0.45)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "keyboardEnteredMap": true
+        },
+        {
+          "label": "繼續旅程",
+          "normal": {
+            "background": "rgba(27, 41, 54, 0.45)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "settingsUnchanged": {
+            "background": "rgba(27, 41, 54, 0.45)",
+            "image": "none",
+            "color": "rgb(203, 215, 220)",
+            "borderWidth": "0px",
+            "borderStyle": "none",
+            "boxShadow": "none",
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(203, 215, 220)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "hover": {
+            "background": "rgba(42, 65, 82, 0.9)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "active": {
+            "background": "rgba(42, 65, 82, 0.9)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "focus": {
+            "background": "rgba(27, 41, 54, 0.45)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "keyboardEnteredMap": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "labels": [
+        {
+          "label": "開始旅程",
+          "normal": {
+            "background": "rgba(27, 41, 54, 0.45)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "settingsUnchanged": {
+            "background": "rgba(27, 41, 54, 0.45)",
+            "image": "none",
+            "color": "rgb(203, 215, 220)",
+            "borderWidth": "0px",
+            "borderStyle": "none",
+            "boxShadow": "none",
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(203, 215, 220)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "hover": {
+            "background": "rgba(42, 65, 82, 0.9)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "active": {
+            "background": "rgba(42, 65, 82, 0.9)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "focus": {
+            "background": "rgba(27, 41, 54, 0.45)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "keyboardEnteredMap": true
+        },
+        {
+          "label": "繼續旅程",
+          "normal": {
+            "background": "rgba(27, 41, 54, 0.45)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "settingsUnchanged": {
+            "background": "rgba(27, 41, 54, 0.45)",
+            "image": "none",
+            "color": "rgb(203, 215, 220)",
+            "borderWidth": "0px",
+            "borderStyle": "none",
+            "boxShadow": "none",
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(203, 215, 220)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "hover": {
+            "background": "rgba(42, 65, 82, 0.9)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "active": {
+            "background": "rgba(42, 65, 82, 0.9)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "focus": {
+            "background": "rgba(27, 41, 54, 0.45)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "keyboardEnteredMap": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "labels": [
+        {
+          "label": "開始旅程",
+          "normal": {
+            "background": "rgba(27, 41, 54, 0.45)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "settingsUnchanged": {
+            "background": "rgba(27, 41, 54, 0.45)",
+            "image": "none",
+            "color": "rgb(203, 215, 220)",
+            "borderWidth": "0px",
+            "borderStyle": "none",
+            "boxShadow": "none",
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(203, 215, 220)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "hover": {
+            "background": "rgba(42, 65, 82, 0.9)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "active": {
+            "background": "rgba(42, 65, 82, 0.9)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "focus": {
+            "background": "rgba(27, 41, 54, 0.45)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "keyboardEnteredMap": true
+        },
+        {
+          "label": "繼續旅程",
+          "normal": {
+            "background": "rgba(27, 41, 54, 0.45)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "settingsUnchanged": {
+            "background": "rgba(27, 41, 54, 0.45)",
+            "image": "none",
+            "color": "rgb(203, 215, 220)",
+            "borderWidth": "0px",
+            "borderStyle": "none",
+            "boxShadow": "none",
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(203, 215, 220)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "hover": {
+            "background": "rgba(42, 65, 82, 0.9)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "active": {
+            "background": "rgba(42, 65, 82, 0.9)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "focus": {
+            "background": "rgba(27, 41, 54, 0.45)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "keyboardEnteredMap": true
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "labels": [
+        {
+          "label": "開始旅程",
+          "normal": {
+            "background": "rgba(27, 41, 54, 0.45)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "settingsUnchanged": {
+            "background": "rgba(27, 41, 54, 0.45)",
+            "image": "none",
+            "color": "rgb(203, 215, 220)",
+            "borderWidth": "0px",
+            "borderStyle": "none",
+            "boxShadow": "none",
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(203, 215, 220)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "hover": {
+            "background": "rgba(42, 65, 82, 0.9)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "active": {
+            "background": "rgba(42, 65, 82, 0.9)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "focus": {
+            "background": "rgba(27, 41, 54, 0.45)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "keyboardEnteredMap": true
+        },
+        {
+          "label": "繼續旅程",
+          "normal": {
+            "background": "rgba(27, 41, 54, 0.45)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "settingsUnchanged": {
+            "background": "rgba(27, 41, 54, 0.45)",
+            "image": "none",
+            "color": "rgb(203, 215, 220)",
+            "borderWidth": "0px",
+            "borderStyle": "none",
+            "boxShadow": "none",
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(203, 215, 220)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "hover": {
+            "background": "rgba(42, 65, 82, 0.9)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "active": {
+            "background": "rgba(42, 65, 82, 0.9)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "focus": {
+            "background": "rgba(27, 41, 54, 0.45)",
+            "image": "none",
+            "color": "rgb(178, 232, 238)",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "boxShadow": "none",
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 224, 160)",
+            "textTransform": "none",
+            "display": "block",
+            "touch": "manipulation"
+          },
+          "keyboardEnteredMap": true
+        }
+      ]
+    }
+  ],
+  "prologue": [
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "reduced": "no-preference",
+      "computed": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "none",
+        "color": "rgb(255, 255, 255)",
+        "borderWidth": "0px",
+        "borderStyle": "none",
+        "boxShadow": "none",
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(255, 224, 160)",
+        "textTransform": "none",
+        "display": "flex",
+        "touch": "manipulation"
+      },
+      "target": {
+        "x": 75,
+        "y": 738,
+        "width": 210,
+        "height": 48
+      },
+      "clickOrSpaceWorks": true,
+      "followthroughBlocked": true
+    },
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "reduced": "reduce",
+      "computed": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "none",
+        "color": "rgb(255, 255, 255)",
+        "borderWidth": "0px",
+        "borderStyle": "none",
+        "boxShadow": "none",
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(255, 224, 160)",
+        "textTransform": "none",
+        "display": "flex",
+        "touch": "manipulation"
+      },
+      "target": {
+        "x": 75,
+        "y": 738,
+        "width": 210,
+        "height": 48
+      },
+      "clickOrSpaceWorks": true,
+      "followthroughBlocked": true
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "reduced": "no-preference",
+      "computed": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "none",
+        "color": "rgb(255, 255, 255)",
+        "borderWidth": "0px",
+        "borderStyle": "none",
+        "boxShadow": "none",
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(255, 224, 160)",
+        "textTransform": "none",
+        "display": "flex",
+        "touch": "manipulation"
+      },
+      "target": {
+        "x": 90,
+        "y": 782,
+        "width": 210,
+        "height": 48
+      },
+      "clickOrSpaceWorks": true,
+      "followthroughBlocked": true
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "reduced": "reduce",
+      "computed": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "none",
+        "color": "rgb(255, 255, 255)",
+        "borderWidth": "0px",
+        "borderStyle": "none",
+        "boxShadow": "none",
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(255, 224, 160)",
+        "textTransform": "none",
+        "display": "flex",
+        "touch": "manipulation"
+      },
+      "target": {
+        "x": 90,
+        "y": 782,
+        "width": 210,
+        "height": 48
+      },
+      "clickOrSpaceWorks": true,
+      "followthroughBlocked": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "reduced": "no-preference",
+      "computed": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "none",
+        "color": "rgb(255, 255, 255)",
+        "borderWidth": "0px",
+        "borderStyle": "none",
+        "boxShadow": "none",
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(255, 224, 160)",
+        "textTransform": "none",
+        "display": "flex",
+        "touch": "manipulation"
+      },
+      "target": {
+        "x": 317,
+        "y": 334,
+        "width": 210,
+        "height": 48
+      },
+      "clickOrSpaceWorks": true,
+      "followthroughBlocked": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "reduced": "reduce",
+      "computed": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "none",
+        "color": "rgb(255, 255, 255)",
+        "borderWidth": "0px",
+        "borderStyle": "none",
+        "boxShadow": "none",
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(255, 224, 160)",
+        "textTransform": "none",
+        "display": "flex",
+        "touch": "manipulation"
+      },
+      "target": {
+        "x": 317,
+        "y": 334,
+        "width": 210,
+        "height": 48
+      },
+      "clickOrSpaceWorks": true,
+      "followthroughBlocked": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "reduced": "no-preference",
+      "computed": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "none",
+        "color": "rgb(255, 255, 255)",
+        "borderWidth": "0px",
+        "borderStyle": "none",
+        "boxShadow": "none",
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(255, 224, 160)",
+        "textTransform": "none",
+        "display": "flex",
+        "touch": "manipulation"
+      },
+      "target": {
+        "x": 279,
+        "y": 962,
+        "width": 210,
+        "height": 48
+      },
+      "clickOrSpaceWorks": true,
+      "followthroughBlocked": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "reduced": "reduce",
+      "computed": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "none",
+        "color": "rgb(255, 255, 255)",
+        "borderWidth": "0px",
+        "borderStyle": "none",
+        "boxShadow": "none",
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(255, 224, 160)",
+        "textTransform": "none",
+        "display": "flex",
+        "touch": "manipulation"
+      },
+      "target": {
+        "x": 279,
+        "y": 962,
+        "width": 210,
+        "height": 48
+      },
+      "clickOrSpaceWorks": true,
+      "followthroughBlocked": true
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "reduced": "no-preference",
+      "computed": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "none",
+        "color": "rgb(255, 255, 255)",
+        "borderWidth": "0px",
+        "borderStyle": "none",
+        "boxShadow": "none",
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(255, 224, 160)",
+        "textTransform": "none",
+        "display": "flex",
+        "touch": "manipulation"
+      },
+      "target": {
+        "x": 407,
+        "y": 706,
+        "width": 210,
+        "height": 48
+      },
+      "clickOrSpaceWorks": true,
+      "followthroughBlocked": true
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "reduced": "reduce",
+      "computed": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "none",
+        "color": "rgb(255, 255, 255)",
+        "borderWidth": "0px",
+        "borderStyle": "none",
+        "boxShadow": "none",
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(255, 224, 160)",
+        "textTransform": "none",
+        "display": "flex",
+        "touch": "manipulation"
+      },
+      "target": {
+        "x": 407,
+        "y": 706,
+        "width": 210,
+        "height": 48
+      },
+      "clickOrSpaceWorks": true,
+      "followthroughBlocked": true
+    },
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "reduced": "no-preference",
+      "computed": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "none",
+        "color": "rgb(255, 255, 255)",
+        "borderWidth": "0px",
+        "borderStyle": "none",
+        "boxShadow": "none",
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(255, 224, 160)",
+        "textTransform": "none",
+        "display": "flex",
+        "touch": "manipulation"
+      },
+      "target": {
+        "x": 535,
+        "y": 838,
+        "width": 210,
+        "height": 48
+      },
+      "clickOrSpaceWorks": true,
+      "followthroughBlocked": true
+    },
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "reduced": "reduce",
+      "computed": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "none",
+        "color": "rgb(255, 255, 255)",
+        "borderWidth": "0px",
+        "borderStyle": "none",
+        "boxShadow": "none",
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(255, 224, 160)",
+        "textTransform": "none",
+        "display": "flex",
+        "touch": "manipulation"
+      },
+      "target": {
+        "x": 535,
+        "y": 838,
+        "width": 210,
+        "height": 48
+      },
+      "clickOrSpaceWorks": true,
+      "followthroughBlocked": true
+    }
+  ],
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "physicalSafari": "Not tested; desktop Chromium viewports and keyboard/pointer only",
+  "animatedBackgroundTap": true,
+  "naturalEnd": {
+    "elapsedSeconds": 30.08,
+    "menuOnly": true
+  }
+}

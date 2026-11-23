@@ -7,7 +7,7 @@ R=Path(__file__).resolve().parents[1];out=R/'downloads/SutraZen-Seven-Factors-Of
 files={}
 for p in (R/'seven-factors').rglob('*'):
  if p.is_file():files[str(p.relative_to(R))]=p.read_bytes()
-for name in ['reader-controls.css','reader-restart.js','picture-panel-focus.js','picture-panel-focus.css','guide-header.css','guide-ui.css']:files[name]=(R/name).read_bytes()
+for name in ['reader-controls.css','reader-layout.js','reader-restart.js','picture-panel-focus.js','picture-panel-focus.css','guide-header.css','guide-ui.css']:files[name]=(R/name).read_bytes()
 for name in ['seven-factors/index.html','seven-factors/book/index.html']:
  tree=html.fromstring(files[name])
  # The optional same-site collection app is not part of this standalone ZIP.

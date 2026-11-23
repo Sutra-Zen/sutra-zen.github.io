@@ -59,3 +59,135 @@
     object-fit:contain;
   }
 }
+
+/* One illustration height for every reader and collection mode. Each overlay
+   remains on the exact natural-ratio frame; narration cannot resize artwork. */
+body.reader-unified-controls .page.reader-stable-artwork .scene #art-frame {
+  width:calc(var(--reader-art-height) * var(--reader-art-ratio));
+  height:var(--reader-art-height);
+  aspect-ratio:var(--reader-art-ratio);
+  max-width:none;
+  margin:0 auto;
+}
+body.reader-unified-controls .page.reader-stable-artwork #art-frame #art {
+  display:block;width:100%;height:100%;aspect-ratio:auto;object-fit:contain;
+}
+body.reader-unified-controls .page.reader-stable-artwork #art-layer {
+  position:relative;inset:auto;transform:none;width:100%;height:100%;
+  aspect-ratio:var(--reader-art-ratio);
+}
+body.reader-unified-controls .page.reader-stable-artwork #art-layer #art {
+  width:100%;height:100%;aspect-ratio:auto;object-fit:contain;
+}
+body.reader-unified-controls .page.reader-stable-artwork #outside-labels {
+  position:static;inset:auto;margin:4px 0 0;padding:0;font-size:.92rem;line-height:1.5;
+}
+@media (orientation:portrait) {
+  body.reader-unified-controls .page.reader-stable-artwork .scene #image-stage {
+    position:relative;inset:auto;display:block;width:100%;
+  }
+  body.reader-unified-controls .page.reader-stable-artwork .scene #art-frame {
+    position:relative;left:auto;top:auto;transform:none;
+  }
+  body.reader-unified-controls .page:is(.reader-stable-artwork,.reader-framed-heart) .scene :is(#caption,#reader-summary-caption) {
+    position:relative;inset:auto;margin:0;min-height:calc(3.35em + 24px);
+    height:auto;max-height:none;padding:12px clamp(14px,3vw,30px);
+    font-size:clamp(1.25rem,2.5vw,1.55rem);line-height:1.55;
+  }
+}
+@media (orientation:landscape) {
+  body.reader-unified-controls .page:is(.reader-stable-artwork,.reader-framed-heart) .scene {width:100%}
+  body.reader-unified-controls .page.reader-stable-artwork .scene #image-stage {
+    position:absolute;inset:0;display:block;
+  }
+  body.reader-unified-controls .page.reader-stable-artwork .scene #art-frame {
+    position:absolute;left:50%;
+    top:calc(var(--reader-caption-space) + var(--reader-image-space) / 2);
+    transform:translate(-50%,-50%);
+  }
+  body.reader-unified-controls .page:is(.reader-stable-artwork,.reader-framed-heart) .scene :is(#caption,#reader-summary-caption) {
+    position:absolute;inset:0 0 auto;margin:0;
+    height:var(--reader-caption-space);min-height:var(--reader-caption-space);
+    max-height:var(--reader-caption-space);
+    padding:8px var(--reader-caption-right) 8px var(--reader-caption-left);
+    font-size:clamp(1rem,3.5dvh,1.25rem);line-height:1.4;
+    overflow:auto;overscroll-behavior:contain;scrollbar-width:thin;
+  }
+  body.reader-unified-controls .page.reader-stable-artwork .scene .scripture {
+    position:absolute;inset:auto 0 0;margin:0;
+    height:var(--reader-scripture-space);min-height:var(--reader-scripture-space);
+    max-height:var(--reader-scripture-space);
+    padding:5px var(--reader-verse-right) 5px var(--reader-verse-left);
+    display:flex;align-items:center;overflow:hidden;
+  }
+  body.reader-unified-controls .page.reader-stable-artwork .scene .verse-body {
+    width:100%;height:100%;min-height:0;max-height:none;
+    overflow:auto;overscroll-behavior:contain;scrollbar-width:thin;
+  }
+  body.reader-unified-controls .page.reader-stable-artwork .scene #verse {
+    display:block;margin:0;overflow:visible;-webkit-line-clamp:unset;
+    font-size:clamp(.94rem,3.3dvh,1.125rem);line-height:1.4;
+  }
+}
+
+/* Heart Sutra keeps its original vertical text, emphasis and horizontal scroll,
+   but occupies the same picture frame while narration stays in the top band. */
+body.reader-unified-controls .page.reader-framed-heart .scene {
+  width:100%;max-width:none;margin:0;padding:0;top:auto;
+  max-height:none;border-radius:0;overflow:visible;
+}
+body.reader-unified-controls .page.reader-framed-heart .scripture {
+  width:calc(var(--reader-art-height) * var(--reader-art-ratio));
+  height:var(--reader-art-height);min-height:0;max-height:none;
+  margin:0 auto;padding:16px;border:0;background:#090807;overflow:hidden;
+}
+body.reader-unified-controls .page.reader-framed-heart .verse-body {
+  width:100%;height:100%;max-height:none;overflow:auto;overscroll-behavior:contain;
+  direction:rtl;white-space:nowrap;
+}
+body.reader-unified-controls .page.reader-framed-heart #verse {
+  display:inline-block;inline-size:calc(var(--reader-art-height) - 32px);
+  block-size:max-content;max-height:none;overflow:visible;-webkit-line-clamp:unset;
+}
+body.reader-unified-controls .page.reader-framed-heart #page-title {
+  max-height:100%;overflow-wrap:anywhere;
+}
+body.reader-unified-controls .page.reader-framed-ending .scene {
+  width:100%;max-width:none;margin:0;padding:8px 14px 12px;top:auto;
+  max-height:none;border-radius:0;
+}
+body.reader-unified-controls .page.reader-framed-ending .scene :is(#caption,#reader-summary-caption) {
+  position:relative;inset:auto;width:100%;height:auto;min-height:0;max-height:none;
+  margin:0;padding:0;overflow:visible;
+}
+body.reader-unified-controls .page.reader-framed-ending .scene #summary-text {
+  position:relative;inset:auto;width:100%;height:auto;max-height:none;margin:0;padding:0;
+}
+body.reader-unified-controls .page.reader-framed-ending .scene .scripture {
+  position:relative;inset:auto;display:block;height:auto;min-height:0;
+  margin:14px 0 0;padding:0;background:transparent;
+}
+body.reader-unified-controls .page.reader-framed-ending .scene .verse-body {
+  max-height:none;overflow:visible;
+}
+body.reader-unified-controls .page.reader-framed-ending .scene #verse {
+  display:block;overflow:visible;-webkit-line-clamp:unset;
+}
+body.reader-unified-controls .page.reader-stable-artwork :is(#caption,#reader-summary-caption) #summary-text {
+  margin:8px 0 0;padding:0;overflow:visible;
+}
+@media (orientation:landscape) {
+  body.reader-unified-controls .page.reader-framed-heart .scene {height:100%}
+  body.reader-unified-controls .page.reader-framed-heart .scripture {
+    position:absolute;left:50%;right:auto;bottom:auto;
+    top:calc(var(--reader-caption-space) + var(--reader-image-space) / 2);
+    transform:translate(-50%,-50%);
+  }
+  body.reader-unified-controls .page.reader-framed-ending .scene {
+    height:100%;padding:8px max(60px,var(--reader-ending-right))
+      max(64px,var(--reader-scripture-space)) max(60px,var(--reader-ending-left));
+    overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;
+  }
+}
+
+body.reader-unified-controls .page.reader-stable-artwork #reader-summary-caption #summary-text {margin:0;padding:0}

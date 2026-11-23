@@ -25,3 +25,4 @@ exclude:
   - docs/previews/game-auto-city
   - docs/previews/game-framing
   - docs/previews/game-simple-ui
+  - docs/previews/reader-stable-artwork

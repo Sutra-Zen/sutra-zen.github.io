@@ -1,0 +1,33 @@
+{
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "rebuiltSevenFactorsOffline": {
+    "archiveBytes": 6667968,
+    "members": 30,
+    "CRC": "passed",
+    "added": [
+      "reader-layout.js"
+    ],
+    "sharedLayoutAndCssEqualCurrentRepository": true,
+    "allOriginalImagesNarrationQuotesAndBookJsEqualOldArchive": true,
+    "offlineGuideBodyEqualOldArchiveSeoHeadSyncedFromExistingSite": true,
+    "network": "All requests outside extracted localhost archive aborted",
+    "nativeBeginningTrace": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "nativeSummaryToEndingTrace": [
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ],
+    "notClaimedFull37OfflineRead": true
+  },
+  "result": "passed"
+}
