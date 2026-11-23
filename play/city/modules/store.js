@@ -1,10 +1,11 @@
 import {routeOrder} from '../../route/data.js';
 import {isFinalGameBookRevealed} from '../../route/eligibility.js';
-import {MODULES,MODULE_IDS,MODULE_BY_ID,THOUGHT_IDS,BASE_PLINTH} from './catalog.js';
-import {MODULE_UI} from './text.js';
+import {MODULES,MODULE_IDS,MODULE_BY_ID,THOUGHT_IDS,BASE_PLINTH} from './catalog.js?v=auto-city-1';
+import {MODULE_UI} from './text.js?v=auto-city-1';
 
-// This store owns arrangement and presentation flags only. It does not import
-// the collection store, change completed books, or grant reading eligibility.
+// City scenery is derived from a read-only completed-book snapshot. This store
+// preserves legacy arrangement IDs and presentation flags for v1 backups only;
+// it never imports/writes the collection store or grants reading eligibility.
 export const CITY_STORAGE_KEY='sutrazen.play.city.v1';
 export const CITY_SESSION_KEY='sutrazen.play.city.session.v1';
 export const CITY_LAYOUT_EVENT='sutrazen:city-layout';
@@ -23,9 +24,11 @@ export function validateCityBackup(value){
 const bookSet=completed=>new Set((completed instanceof Set?[...completed]:Array.isArray(completed)?completed:[]).filter(id=>routeOrder.includes(id)));
 export function deriveCityModules(saved,completed){
   const state=validateCityBackup(saved),done=bookSet(completed),baseVisible=done.has(BASE_PLINTH.requiredBookId),savedPlaced=new Set(state.placedIds),effective=new Set();
-  // The catalog is dependency ordered. No missing prerequisite is inserted.
+  // The catalog is dependency ordered. Show each earned scene automatically
+  // once its actual source books and earlier scenery exist. A historic placed
+  // ID cannot supply a missing book or suppress scenery after a backup restore.
   for(const module of MODULES){
-    if(baseVisible&&savedPlaced.has(module.id)&&module.requiredBookIds.every(id=>done.has(id))&&module.requires.every(id=>effective.has(id)))effective.add(module.id);
+    if(baseVisible&&done.has(module.bookId)&&module.requiredBookIds.every(id=>done.has(id))&&module.requires.every(id=>effective.has(id)))effective.add(module.id);
   }
   const modules=MODULES.map(module=>{
     const unlocked=done.has(module.bookId),missingBookIds=[...new Set([...(baseVisible?[]:[BASE_PLINTH.requiredBookId]),...module.requiredBookIds.filter(id=>!done.has(id))])],missingModuleIds=module.requires.filter(id=>!effective.has(id));
@@ -33,20 +36,26 @@ export function deriveCityModules(saved,completed){
     const revealed=module.bookId!=='four-fruits-ten-fetters'||isFinalGameBookRevealed(done);
     return {...module,revealed,title:revealed?module.title:MODULE_UI.unrevealedTitle,displayTitle:revealed?module.title:MODULE_UI.unrevealedTitle,
       description:revealed?module.description:MODULE_UI.unrevealedDescription,inventoryAssetKey:revealed?module.inventoryAssetKey:null,
-      unlocked,earned:unlocked,available,canPlace:available&&!placed,placed,savedPlaced:savedPlaced.has(module.id),
+      unlocked,earned:unlocked,available,canPlace:false,placed,visible:placed,savedPlaced:savedPlaced.has(module.id),
       missingBookIds,missingModuleIds,status:placed?'placed':!unlocked?'locked':available?'available':'waiting',
       slots:module.slots.map(slot=>({...slot,available:placed&&(!slot.requires||slot.requires.every(id=>effective.has(id))),visible:placed&&(!slot.requires||slot.requires.every(id=>effective.has(id)))})),
     };
   });
-  return {version:1,completed:routeOrder.filter(id=>done.has(id)),placedIds:MODULE_IDS.filter(id=>effective.has(id)),savedPlacedIds:[...state.placedIds],thoughtSeenIds:[...state.thoughtSeenIds],baseVisible,
+  return {version:1,displayMode:'automatic',completed:routeOrder.filter(id=>done.has(id)),placedIds:MODULE_IDS.filter(id=>effective.has(id)),savedPlacedIds:[...state.placedIds],thoughtSeenIds:[...state.thoughtSeenIds],baseVisible,
     base:{...BASE_PLINTH,visible:baseVisible,slots:BASE_PLINTH.slots.map(slot=>({...slot,visible:baseVisible,available:baseVisible}))},modules,inventory:modules};
 }
 
-// get(completed) derives ownership from a read-only caller snapshot; it never
-// auto-places. canPlace is boolean. Mutation methods return a result object:
+// get(completed) is a pure derivation: no storage writes, events or migration.
+// placedIds/module.placed/slot.visible mean automatically visible scenery;
+// savedPlacedIds is legacy backup metadata and never controls the picture.
+// canPlace is always false. Deprecated place/placeAll are write-free no-ops.
+// Remaining mutation methods return a result object:
 // {ok,changed,placedIds,placedNow,issue,persistence,reason?}. `ok` in memory
 // means the current document changed, not that a permanent write succeeded.
-// exportBackup returns JSON; restoreBackup accepts a validated object or JSON.
+// exportBackup preserves city-v1 JSON; restoreBackup accepts an object or JSON.
+// Auto scenery is not persisted: restoring reading alone can reconstruct it.
+// reset clears only city metadata/thoughts; it cannot hide earned scenery while
+// the caller's completed books remain unchanged.
 export function createCityStore(storage,session,eventTarget=globalThis.window){
   if(storage===undefined){try{storage=globalThis.localStorage;}catch{storage=null;}}
   if(session===undefined){try{session=globalThis.sessionStorage;}catch{session=null;}}
@@ -79,22 +88,17 @@ export function createCityStore(storage,session,eventTarget=globalThis.window){
   }
   const result=(ok,{changed=false,placedNow=[],reason}={})=>({ok,changed,placedIds:[...state.placedIds],placedNow,issue,persistence,...(reason?{reason}:{})});
   const get=completed=>({...deriveCityModules(state,completed),issue,persistence});
-  const canPlace=(id,completed)=>Boolean(get(completed).modules.find(module=>module.id===id)?.canPlace);
+  const canPlace=()=>false;
   const api={
     get,get issue(){return issue;},get persistence(){return persistence;},canPlace,
     place(id,completed){
       if(!Object.hasOwn(MODULE_BY_ID,id))return result(false,{reason:'unknown-module'});
       const module=get(completed).modules.find(module=>module.id===id);
-      if(module.placed)return result(true,{reason:'already-placed'});
-      if(!module.canPlace)return result(false,{reason:!module.unlocked?'locked':module.missingBookIds.length?'missing-books':'missing-modules'});
-      state.placedIds=[...new Set([...state.placedIds,id])];persist();return result(true,{changed:true,placedNow:[id]});
+      if(module.placed)return {...result(true,{reason:'auto-derived'}),visibleIds:get(completed).placedIds};
+      return result(false,{reason:!module.unlocked?'locked':module.missingBookIds.length?'missing-books':'missing-modules'});
     },
     placeAll(completed){
-      const placedNow=[];
-      // Re-evaluate after each placement; each unlocked module can satisfy the
-      // next module's placement prerequisite without inventing a book finish.
-      for(const module of MODULES){if(canPlace(module.id,completed)){state.placedIds=[...new Set([...state.placedIds,module.id])];placedNow.push(module.id);}}
-      if(placedNow.length)persist();return result(true,{changed:Boolean(placedNow.length),placedNow,...(!placedNow.length?{reason:'nothing-placeable'}:{})});
+      return {...result(true,{reason:'auto-derived'}),visibleIds:get(completed).placedIds};
     },
     markThoughtSeen(id){
       if(!THOUGHT_IDS.includes(id))return result(false,{reason:'unknown-thought'});

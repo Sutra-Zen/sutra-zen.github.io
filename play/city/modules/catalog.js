@@ -1,6 +1,6 @@
 import {CATALOG} from '../../collection/catalog.js';
 import {routeOrder,rewardDefinitions} from '../../route/data.js';
-import {MODULE_COPY,MODULE_SLOT_LABELS} from './text.js';
+import {MODULE_COPY,MODULE_SLOT_LABELS} from './text.js?v=auto-city-1';
 
 // Fixed world-space slots. x/y are image centres, widths/heights are world
 // pixels; only module IDs are saved, never these coordinates or translated text.
@@ -12,7 +12,7 @@ const slot=(id,x,y,width,assetKey,z=20,extra={})=>Object.freeze({id,x,y,width,as
 export const BASE_PLINTH = Object.freeze({
   id:'four-elements-base',requiredBookId:'four-truths',free:true,
   slots:Object.freeze([
-    slot('four-elements-garden',800,440,600,'base_garden',5,{height:390,actorId:'source_plaza'}),
+    slot('four-elements-garden',800,440,600,'base_garden',11,{height:390,actorId:'source_plaza'}),
     slot('city-lord',800,415,122,'city_lord',45,{height:150,actorId:'lord'}),
   ]),
 });
@@ -50,12 +50,12 @@ const placements={
   ]},
   awakening_companions:{requires:['city_body'],inventoryAssetKey:'awakening_companions',slots:[
     slot('awakening-mindfulness',515,570,155,'mindfulness_glow',48,{effect:'mindfulness',requires:['mindfulness_guard']}),
-    slot('awakening-owl',620,250,108,'companion_owl',43,{height:120}),
-    slot('awakening-rabbit',620,655,108,'companion_rabbit',43,{height:120}),
-    slot('awakening-bird',795,245,98,'companion_bird',44,{height:100}),
-    slot('awakening-turtle',1000,400,108,'companion_turtle',43,{height:110}),
-    slot('awakening-lotus',1000,600,108,'companion_lotus',43,{height:110}),
-    slot('awakening-deer',800,630,108,'companion_deer',43,{height:120}),
+    slot('awakening-owl',620,250,108,'companion_owl',43,{height:120,actorId:'awakening-owl'}),
+    slot('awakening-rabbit',620,655,108,'companion_rabbit',43,{height:120,actorId:'awakening-rabbit'}),
+    slot('awakening-bird',795,245,98,'companion_bird',44,{height:100,actorId:'awakening-bird'}),
+    slot('awakening-turtle',1000,400,108,'companion_turtle',43,{height:110,actorId:'awakening-turtle'}),
+    slot('awakening-lotus',1000,600,108,'companion_lotus',43,{height:110,actorId:'awakening-lotus'}),
+    slot('awakening-deer',800,630,108,'companion_deer',43,{height:120,actorId:'awakening-deer'}),
   ]},
   fruition_guide:{requires:[],slots:[slot('fruition-guide',1360,205,265,'fruition_guide',24,{height:200})]},
 };
@@ -77,4 +77,6 @@ export const THOUGHT_IDS=Object.freeze([
   'city-lord-introduction','mindfulness-guardian-introduction','calm-insight-messengers-arrival',
   'doubt-at-city','mara-at-city','six-gates-unwatched','desire-at-city','anger-at-city',
   'sloth-at-city','restlessness-at-city',
+  'awakening-owl-at-city','awakening-rabbit-at-city','awakening-bird-at-city',
+  'awakening-turtle-at-city','awakening-lotus-at-city','awakening-deer-at-city',
 ]);

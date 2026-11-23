@@ -2,17 +2,17 @@ import {store} from '../collection/store.js';
 import {routeStatus,routeBooks} from '../route/selectors.js';
 import {canStartGameBook,canReviewGameBook,getGameBookAccess} from '../route/eligibility.js';
 import {routeMetadata} from '../route/metadata.js';
-import {initializeGameShell,GAME_URLS} from '../game-shell.js?v=outro-order-1';
-import {initializeTitleScreen} from '../title-screen.js?v=outro-order-1';
+import {initializeGameShell,GAME_URLS} from '../game-shell.js?v=auto-city-1';
+import {initializeTitleScreen} from '../title-screen.js?v=auto-city-1';
 import {createMapCamera} from './camera.js?v=original-frame-1';
 import {initializeStoryDialogue} from '../story/dialogue.js?v=outro-order-1';
 import {storyStore} from '../story/store.js?v=mara-1';
 import {consumeFirstCompletionReceipt} from '../story/completion-receipt.js?v=doubt-1';
 import {initializeDoubtStage} from '../story/doubt-stage.js?v=mara-1';
 import {STORY_UI} from '../story/data.js?v=outro-order-1';
-import {compactCompletionFeedback} from './completion-feedback.js?v=outro-order-1';
+import {compactCompletionFeedback} from './completion-feedback.js?v=auto-city-1';
 import {WORLD,LANDMARKS,MEMBERS,NODES,EDGES,GEOGRAPHIC_ROAD,MAP_CONNECTIONS,conceptAnchor,sourceGroupAnchor,PRIMARY_BOOK_LANDMARK} from './data.js';
-import {T} from './text.js?v=original-frame-1';
+import {T} from './text.js?v=auto-city-1';
 
 const $=s=>document.querySelector(s);
 const books=new Map(routeBooks.map(b=>[b.id,b]));
@@ -198,7 +198,7 @@ function openReader(id,{bypassDoubt=false,bypassAggregatesIntro=false}={}){
  if(a.canStart)routeMetadata.markOpened(id);
  const u=new URL(b.reader,catalogURL);
  u.searchParams.set('collection','1');u.searchParams.set('collectionReturn','game');
- u.searchParams.set('collectionStory','outro-order-1');
+ u.searchParams.set('collectionStory','auto-city-1');
  if(a.canReview)u.searchParams.set('collectionReview','1');
  const at=a.canReview&&a.resumePosition===b.totalSteps-1?0:(a.resumePosition??0);
  u.searchParams.set('collectionPage',String(at));
@@ -216,7 +216,7 @@ function completedFeedback(id){
  const s=status(),b=books.get(id);if(!b||!s.completedBookIds.includes(id))return;
  if(id==='four-truths'&&resumeLegacyTransition())return;
  const primary=landmarkFor(id);
- open(T.completeTitle(b.title),'<p class="wm-world-reward">'+T.mapReward(name(primary,s))+'</p>'+compactCompletionFeedback(id,s)+'<p>'+T.collection(s.count)+'</p><div class="wm-dialog-actions wm-completion-actions"><button class="primary" data-wm-next-station>'+(s.nextBookId?T.nextStation:T.viewEnding)+'</button><a href="'+GAME_URLS.city+'">'+T.seeCity+'</a></div>');
+ open(T.completeTitle(b.title),'<p class="wm-world-reward">'+T.mapReward(name(primary,s))+'</p>'+compactCompletionFeedback(id,s)+'<p>'+T.collection(s.count)+'</p><div class="wm-dialog-actions wm-completion-actions"><button class="primary" data-wm-next-station>'+(s.nextBookId?T.nextStation:T.viewEnding)+'</button><a data-wm-city-update href="'+GAME_URLS.city+'">'+T.seeCity+'</a></div>');
  dialog.classList.add('wm-completion-dialog');
 }
 function activateMap(){
