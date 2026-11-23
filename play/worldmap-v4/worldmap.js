@@ -3,7 +3,7 @@ import {routeStatus,routeBooks} from '../route/selectors.js';
 import {canStartGameBook,canReviewGameBook,getGameBookAccess} from '../route/eligibility.js';
 import {routeMetadata} from '../route/metadata.js';
 import {initializeGameShell,GAME_URLS} from '../game-shell.js?v=stable-art-1';
-import {initializeTitleScreen} from '../title-screen.js?v=stable-art-1';
+import {initializeTitleScreen} from '../title-screen.js?v=entry-no-frame-1';
 import {createMapCamera} from './camera.js?v=original-frame-1';
 import {initializeStoryDialogue} from '../story/dialogue.js?v=simple-ui-1';
 import {storyStore} from '../story/store.js?v=mara-1';

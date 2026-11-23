@@ -26,3 +26,5 @@
 #game-title-screen .game-title-paper .game-title-start{background:rgba(27,41,54,.45);color:var(--game-teal,#b2e8ee);border-color:transparent;box-shadow:none}
 #game-title-screen .game-title-paper .game-title-start:is(:hover,:active){background:rgba(42,65,82,.9);color:var(--game-teal,#b2e8ee);border-color:transparent;box-shadow:none}
 #game-title-screen .game-title-paper .game-title-start:focus-visible{outline:3px solid var(--game-focus,#ffe0a0);outline-offset:3px}
+
+#game-title-screen .game-title-paper .game-title-start:focus-visible{outline:none;text-decoration:underline;text-underline-offset:.25em}
