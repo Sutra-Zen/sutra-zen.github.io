@@ -33,3 +33,13 @@
 根目錄執行 `python3 -B scripts/check-game-doubt-story.py`。手動可用 `python3 -m http.server 8780 --bind 127.0.0.1`，開啟 `http://127.0.0.1:8780/game/`；試玩重置加 `?author=1`。
 
 這是桌面 Chromium 的尺寸及輸入模擬，沒有實機 Safari 驗證。角色演出是可獨立略過的教學故事，不是證果或斷疑的判定；新「疑」素材仍為待作者確認的概念稿。原書未改，故不重跑十四本 1192 步。此次完整原生閱讀只計前述 29 步；歷史、pending、故障與近末步複習案例均獨立標示。
+
+## PR70：舊 HTML 快取的窄幅補驗
+
+原 PR69 [validation.json](validation.json) 保留不覆寫。另列 [cache-validation.json](cache-validation.json)：以攔截回應實際提供基準版舊 game HTML／舊 worldmap JS、舊四聖諦 HTML／v1 bridge，且先以負向 probe 確認舊快取規則確實啟用。
+
+從新的 `/game/?author=1&v=doubt-2` 入口，再實際走三段初遇與完整 29 步。首次主線讀本必須帶 `collectionStory=doubt-2`，載入 `reader-bridge.js?v=doubt-reader-2`；遊戲載入 `worldmap.js?v=doubt-reader-2`。真完成收據被消耗，兩句退場與原回饋都出現。[實際縮問號截圖](cache-fresh-reader-actual-post-844x390.png)。完成後重整與城池 → 書架 → 地圖三個原生分頁往返，網址都保留 `v=doubt-2`、不重播過場、不變更已讀數。
+
+這證明版本化入口、reader 來回及三分頁主導覽能避開該舊快取情境；不宣稱所有手動開啟的未加版本舊網址都立即清除瀏覽器既有快取。這次僅調整快取 query 與對應的精準 guard，原文、圖片、資格與進度核心不改，未重跑五尺寸／十四本。
+
+重現：`python3 -B scripts/check-game-doubt-story.py --cache-only`；只輸出獨立 cache 報告及其截圖，不覆寫 PR69 主驗證結果。此補驗仍是本機驗證，發布狀態另看精確 merge SHA 的 Pages／正式站紀錄。

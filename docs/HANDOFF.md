@@ -4,7 +4,7 @@
 
 新流程保留原arrival，疑只說「愚痴……」，小貓繞過入口後讀原四聖諦。只有真正末頁完成後才接正智／慧根慧力的短心得及問號減少、退入霧中，再回原法輪碼頭回饋／五陰。文案表達理解與練習，不當作斷疑、證果或能力數值；不把疑與愚痴作經義等同。場景演出只屬遊戲故事。
 
-新presentation completion receipt由既有讀本bridge成功完成分支發出，海圖核對／消耗；URL或歷史done不單獨觸發過場。四聖諦HTML只改bridge快取版本一處，其餘原書內容與圖片／資格／順序／store／鏡頭不改。中斷可續短過場，明確略過／重看不重發獎勵；工具可手動看已完成第一本的過場。作者重置連receipt一起清除；儲存失敗邊界保留。
+新presentation completion receipt由既有讀本bridge成功完成分支發出，海圖核對／消耗；URL或歷史done不單獨觸發過場。四聖諦HTML只改bridge快取版本一處；發佈補修加入first-reader `collectionStory=doubt-2`／return `v=doubt-2`以避開600秒舊HTML快取，詳[快取補修](play/game-doubt-story/CACHE-FOLLOWUP.md)。其餘原書內容與圖片／資格／順序／store／鏡頭不改。中斷可續短過場，明確略過／重看不重發獎勵；工具可手動看已完成第一本的過場。作者重置連receipt一起清除；儲存失敗邊界保留。
 
 詳[本輪規格與素材](play/game-doubt-story/README.md)、[實際驗證與截圖](previews/game-doubt-story/README.md)。全程實測first29與相關續讀／歷史／資產失敗／五尺寸；不把fixture稱全十四本實讀。Safari實機未測。main:/與原站SEO／Google檔保留，QA排除十六目錄。精確merge SHA／Pages／live與固定SHA ZIP以本輪PR交付為準；Notion無連接器，待補本輪紀錄。
 

@@ -1,0 +1,91 @@
+{
+  "baseline": "44dce2f6624e568ff83d6cf79e675fe61a53c325",
+  "protectedOriginalFiles": 615,
+  "singleOriginalHtmlException": "Four-truths bridge src cache query only; normalize then full text equal",
+  "originalNarrationScriptureArtReaderJsAndCss": "byte-for-byte unchanged",
+  "rootHomepageSeoGoogleAndSharedReaderControls": "byte-for-byte unchanged",
+  "additionalUnchangedCoreAndArt": [
+    "play/collection/store.js",
+    "play/reader-bridge.js",
+    "play/route",
+    "play/prologue",
+    "play/worldmap-v4/data.js",
+    "play/worldmap-v4/camera.js",
+    "play/visual-v2/network-data.js",
+    "play/visual-v2/assets",
+    "play/worldmap-v4/assets",
+    "play/assets/CC1A7C32-0620-4DB2-BCD2-A9457A83C259.jpeg",
+    "play/story/assets/kitten-traveler-portrait-concept.png"
+  ],
+  "authorizedBridgeAndResetExceptions": "Exact receipt import/issue and receipt clear only; removing those lines and story cache query equals baseline",
+  "phase": "Local PR70 cache follow-up only",
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "physicalSafari": "Not tested; desktop Chromium viewport/input simulation",
+  "cacheFollowup": {
+    "baselineOldResponses": "44dce2f6624e568ff83d6cf79e675fe61a53c325",
+    "oldCacheFaultsActuallyExercised": [
+      {
+        "kind": "cached-game-html",
+        "url": "http://127.0.0.1:46129/game/"
+      },
+      {
+        "kind": "cached-old-worldmap-js",
+        "url": "http://127.0.0.1:46129/play/worldmap-v4/worldmap.js?v=prologue-1"
+      },
+      {
+        "kind": "cached-reader-html",
+        "url": "http://127.0.0.1:46129/four-truths/book/?collection=1&collectionReturn=game"
+      },
+      {
+        "kind": "cached-v1-bridge",
+        "url": "http://127.0.0.1:46129/play/collection/reader-bridge.js?v=1"
+      }
+    ],
+    "entry": "/game/?author=1&v=doubt-2",
+    "mainlineReaderHasCollectionStoryDoubt2": true,
+    "readerLoadsBridgeDoubtReader2": true,
+    "gameLoadsWorldmapDoubtReader2": true,
+    "actualSequentialNextIndices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "actualReceiptConsumedAndPostStoryShown": true,
+    "originalRewardAndNextFiveAggregates": true,
+    "primaryHopUrls": [
+      "http://127.0.0.1:46129/play/city/?v=doubt-2#city",
+      "http://127.0.0.1:46129/play/visual-v2/shelf.html?v=doubt-2#shelf",
+      "http://127.0.0.1:46129/game/?v=doubt-2#map"
+    ],
+    "refreshAndPrimaryHopsRetainV2": true,
+    "scope": "Fresh versioned entry, reader return and primary three-tab navigation. Does not claim that every manually opened unversioned URL bypasses all pre-existing HTML cache."
+  },
+  "result": "passed"
+}
