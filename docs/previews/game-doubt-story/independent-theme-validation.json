@@ -1,0 +1,65 @@
+[
+  {
+    "viewport": "390x844",
+    "settings": {
+      "color": "rgb(246, 239, 223)",
+      "bg": "rgba(18, 28, 40, 0.9)",
+      "border": "rgba(204, 180, 126, 0.55)",
+      "height": 638.984375,
+      "width": 362
+    },
+    "portraitUnclipped": true,
+    "transparentBackdrop": true
+  },
+  {
+    "viewport": "844x390",
+    "settings": {
+      "color": "rgb(246, 239, 223)",
+      "bg": "rgba(18, 28, 40, 0.9)",
+      "border": "rgba(204, 180, 126, 0.55)",
+      "height": 362,
+      "width": 520
+    },
+    "portraitUnclipped": true,
+    "transparentBackdrop": true
+  },
+  {
+    "viewport": "768x1024",
+    "settings": {
+      "color": "rgb(246, 239, 223)",
+      "bg": "rgba(18, 28, 40, 0.9)",
+      "border": "rgba(204, 180, 126, 0.55)",
+      "height": 584.984375,
+      "width": 520
+    },
+    "portraitUnclipped": true,
+    "transparentBackdrop": true
+  },
+  {
+    "viewport": "1024x768",
+    "settings": {
+      "color": "rgb(246, 239, 223)",
+      "bg": "rgba(18, 28, 40, 0.9)",
+      "border": "rgba(204, 180, 126, 0.55)",
+      "height": 584.984375,
+      "width": 520
+    },
+    "portraitUnclipped": true,
+    "transparentBackdrop": true
+  },
+  {
+    "viewport": "1280x900",
+    "settings": {
+      "color": "rgb(246, 239, 223)",
+      "bg": "rgba(18, 28, 40, 0.9)",
+      "border": "rgba(204, 180, 126, 0.55)",
+      "height": 584.984375,
+      "width": 520
+    },
+    "portraitUnclipped": true,
+    "transparentBackdrop": true
+  },
+  {
+    "publicReaderUntouched": true
+  }
+]

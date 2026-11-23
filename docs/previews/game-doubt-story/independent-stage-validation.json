@@ -1,0 +1,236 @@
+{
+  "result": "passed",
+  "checks": [
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "geometry": {
+        "stage": {
+          "x": 835.3599853515625,
+          "y": 395.52001953125,
+          "w": 100.800048828125,
+          "h": 100.79998779296875
+        },
+        "expected": {
+          "x": 885.7600000000001,
+          "y": 445.92000000000013
+        },
+        "pointer": "none",
+        "parent": "wm-world",
+        "art": {
+          "x": 835.3599853515625,
+          "y": 395.52001953125,
+          "w": 100.800048828125,
+          "h": 100.79998779296875
+        },
+        "label": {
+          "x": 882.3912353515625,
+          "y": 491.28875732421875,
+          "w": 150.0975341796875,
+          "h": 40.75750732421875
+        },
+        "pin": {
+          "x": 949.03125,
+          "y": 472.248779296875,
+          "w": 16.800048828125,
+          "h": 16.79998779296875
+        },
+        "boat": {
+          "x": 778.239990234375,
+          "y": 539.6325073242188,
+          "w": 112,
+          "h": 74.65496826171875
+        }
+      },
+      "visibleAlphaBounds": {
+        "x": 842.4336729886239,
+        "y": 405.3267169082374,
+        "w": 86.65267355400219,
+        "h": 80.8650619774534
+      },
+      "sevenHTMLMarks": true,
+      "twoMarksAfterThinning": true,
+      "retreatTransparentAfter1400ms": true,
+      "sameStateDoesNotRestart": true,
+      "noLabelPinBoatOverlap": true,
+      "noStageStorageWrites": true,
+      "destroyRemovesDOM": true
+    },
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "geometry": {
+        "stage": {
+          "x": 76.449951171875,
+          "y": 359.9499816894531,
+          "w": 85.5,
+          "h": 85.50003051757812
+        },
+        "expected": {
+          "x": 119.2,
+          "y": 402.7000000000001
+        },
+        "pointer": "none",
+        "parent": "wm-world",
+        "art": {
+          "x": 76.449951171875,
+          "y": 359.9499816894531,
+          "w": 85.5,
+          "h": 85.50003051757812
+        },
+        "label": {
+          "x": 112.9921875,
+          "y": 440.0078125,
+          "w": 134.015625,
+          "h": 36.390625
+        },
+        "pin": {
+          "x": 172.4921875,
+          "y": 423.0078125,
+          "w": 14.9998779296875,
+          "h": 15
+        },
+        "boat": {
+          "x": 25.5,
+          "y": 480.52191162109375,
+          "w": 100,
+          "h": 66.65625
+        }
+      },
+      "visibleAlphaBounds": {
+        "x": 82.449951171875,
+        "y": 368.2681664766497,
+        "w": 73.5,
+        "h": 68.59093357311292
+      },
+      "sevenHTMLMarks": true,
+      "twoMarksAfterThinning": true,
+      "retreatTransparentAfter1400ms": true,
+      "sameStateDoesNotRestart": true,
+      "noLabelPinBoatOverlap": true,
+      "noStageStorageWrites": true,
+      "destroyRemovesDOM": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "geometry": {
+        "stage": {
+          "x": 466.8499755859375,
+          "y": 51.449981689453125,
+          "w": 85.5,
+          "h": 85.50003051757812
+        },
+        "expected": {
+          "x": 509.60000000000014,
+          "y": 94.2
+        },
+        "pointer": "none",
+        "parent": "wm-world",
+        "art": {
+          "x": 466.8499755859375,
+          "y": 51.449981689453125,
+          "w": 85.5,
+          "h": 85.50003051757812
+        },
+        "label": {
+          "x": 503.3922119140625,
+          "y": 131.5078125,
+          "w": 134.015625,
+          "h": 36.390625
+        },
+        "pin": {
+          "x": 562.8922119140625,
+          "y": 114.5078125,
+          "w": 14.9998779296875,
+          "h": 15
+        },
+        "boat": {
+          "x": 415.9000244140625,
+          "y": 172.02191162109375,
+          "w": 100,
+          "h": 66.65625
+        }
+      },
+      "visibleAlphaBounds": {
+        "x": 472.8499755859375,
+        "y": 59.768166476649725,
+        "w": 73.5,
+        "h": 68.59093357311292
+      },
+      "sevenHTMLMarks": true,
+      "twoMarksAfterThinning": true,
+      "retreatTransparentAfter1400ms": true,
+      "sameStateDoesNotRestart": true,
+      "noLabelPinBoatOverlap": true,
+      "noStageStorageWrites": true,
+      "destroyRemovesDOM": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "geometry": {
+        "stage": {
+          "x": 351.59112548828125,
+          "y": 546.4711303710938,
+          "w": 94.4000244140625,
+          "h": 94.4000244140625
+        },
+        "expected": {
+          "x": 398.79111111111115,
+          "y": 593.671111111111
+        },
+        "pointer": "none",
+        "parent": "wm-world",
+        "art": {
+          "x": 351.59112548828125,
+          "y": 546.4711303710938,
+          "w": 94.4000244140625,
+          "h": 94.4000244140625
+        },
+        "label": {
+          "x": 395.63629150390625,
+          "y": 636.1593017578125,
+          "w": 140.5675048828125,
+          "h": 38.16973876953125
+        },
+        "pin": {
+          "x": 458.04522705078125,
+          "y": 618.3281860351562,
+          "w": 15.7332763671875,
+          "h": 15.73333740234375
+        },
+        "boat": {
+          "x": 298.09783935546875,
+          "y": 681.4336547851562,
+          "w": 104.888916015625,
+          "h": 69.91497802734375
+        }
+      },
+      "visibleAlphaBounds": {
+        "x": 358.21568860505755,
+        "y": 555.6551837829882,
+        "w": 81.15089818050987,
+        "h": 75.7308010849656
+      },
+      "sevenHTMLMarks": true,
+      "twoMarksAfterThinning": true,
+      "retreatTransparentAfter1400ms": true,
+      "sameStateDoesNotRestart": true,
+      "noLabelPinBoatOverlap": true,
+      "noStageStorageWrites": true,
+      "destroyRemovesDOM": true
+    }
+  ],
+  "errors": [],
+  "physicalSafari": "Not tested; Chromium viewport emulation only",
+  "reducedMotionImmediateStaticThenHide": true
+}

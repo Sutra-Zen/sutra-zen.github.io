@@ -8,7 +8,9 @@ function loadStyle(name){const href=new URL(name,import.meta.url).href;if(![...d
 export function initializeGameShell({active='map',onMap}={}){
  if(document.body.classList.contains('collection-reading')||/\/book\//.test(location.pathname))throw Error('The game shell is not a reader toolbar.');
  if(document.querySelector('#game-shell-hud'))return window.SutraZenGameShell;
- loadStyle('./navigation.css');loadStyle('./game-shell.css');document.body.classList.add('game-shell',`game-shell--${active}`);
+ loadStyle('./navigation.css');loadStyle('./game-shell.css');loadStyle('./game-theme.css?v=game-theme-1');
+ const themeURL=new URL('./game-theme.css?v=game-theme-1',import.meta.url).href;const themeLink=[...document.querySelectorAll('link[rel="stylesheet"]')].find(link=>link.href===themeURL);if(themeLink)document.head.append(themeLink);
+ document.body.classList.add('game-shell',`game-shell--${active}`);
  const hud=document.createElement('header');hud.id='game-shell-hud';hud.className='game-hud';hud.innerHTML=`<span class="game-hud__progress" data-game-progress aria-live="polite"></span><button class="game-hud__settings" data-game-settings>${settingsIcon}<span>${T.settings}</span></button>`;
  const navHost=document.createElement('div');navHost.innerHTML=renderGameNavigation({active});const nav=navHost.firstElementChild;
  const settingsButton=hud.querySelector('[data-game-settings]');

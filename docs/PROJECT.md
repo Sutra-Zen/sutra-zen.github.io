@@ -6,6 +6,12 @@
 - Related Buddhist learning map: https://sutrazen.netlify.app/map.html
 - Primary language: Traditional Chinese (Taiwan)
 
+## Current dark panels / Doubt encounter (2026-11-23)
+
+Latest [Doubt/story round](play/game-doubt-story/README.md) starts from published PR68 `44dce2f6624e568ff83d6cf79e675fe61a53c325`. Dark translucent panels unify game menus/dialogues without dimming original artwork; kitten portraits keep full ears. A provisional blue-gray Doubt cutout uses HTML question marks and a world-coordinate stage, based on the existing Anapana/Four Jhanas creature.
+
+The original arrival leads into two short pre-book lines; actual first-book completion leads into two short reflections and the creature's retreat before existing reward/next-station UI. No attainment score or extra completion is introduced. A presentation receipt is issued only after the existing explicit reader finish succeeds; historical saves/URL flags do not alone trigger the story. First-book HTML only updates the bridge cache tag, with original content preserved. Author reset clears the receipt, optional replays are read-only, and the original prologue/eligibility/camera/store/SEO remain. Sixteen QA directories are excluded from unchanged main:/ Pages. Exact release proof belongs to this round's PR; physical Safari is untested.
+
 ## Current title prologue / author reset (2026-11-22)
 
 Latest [prologue/reset round](play/game-prologue/README.md), from published PR67 `35d59e3bc41faed5fe7b0d22d1a0797398c6de59`, adds the author's exact three-paragraph upward crawl over the unchanged cat background before the centered title menu. Natural completion or one-tap/keyboard skip reveals the menu; returns to the map skip the film. Reduced motion has a static reading view.

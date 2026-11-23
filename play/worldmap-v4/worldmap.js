@@ -2,12 +2,14 @@ import {store} from '../collection/store.js';
 import {routeStatus,routeBooks} from '../route/selectors.js';
 import {canStartGameBook,canReviewGameBook,getGameBookAccess} from '../route/eligibility.js';
 import {routeMetadata} from '../route/metadata.js';
-import {initializeGameShell,GAME_URLS} from '../game-shell.js';
-import {initializeTitleScreen} from '../title-screen.js?v=prologue-1';
+import {initializeGameShell,GAME_URLS} from '../game-shell.js?v=doubt-1';
+import {initializeTitleScreen} from '../title-screen.js?v=doubt-1';
 import {createMapCamera} from './camera.js?v=original-frame-1';
-import {initializeStoryDialogue} from '../story/dialogue.js?v=prologue-1';
-import {storyStore} from '../story/store.js?v=prologue-1';
-import {STORY_UI} from '../story/data.js';
+import {initializeStoryDialogue} from '../story/dialogue.js?v=doubt-1';
+import {storyStore} from '../story/store.js?v=doubt-1';
+import {consumeFirstCompletionReceipt} from '../story/completion-receipt.js?v=doubt-1';
+import {initializeDoubtStage} from '../story/doubt-stage.js?v=doubt-stage-1';
+import {STORY_UI} from '../story/data.js?v=doubt-1';
 import {compactCompletionFeedback} from './completion-feedback.js?v=city-story-1';
 import {WORLD,LANDMARKS,MEMBERS,NODES,EDGES,GEOGRAPHIC_ROAD,MAP_CONNECTIONS,conceptAnchor,sourceGroupAnchor,PRIMARY_BOOK_LANDMARK} from './data.js';
 import {T} from './text.js?v=original-frame-1';
@@ -25,11 +27,26 @@ const dialog=$('#wm-dialog'),content=$('#wm-dialog-content');
 const shell=initializeGameShell({active:'map',onMap:()=>activateMap()});
 shell.mountMapControls({primary:$('.wm-main-action'),tools:$('.wm-tools'),menu:$('.wm-menu-action')});
 const toolsDialog=$('#wm-tools-dialog');let toolsFocus=null;
-const story=initializeStoryDialogue({host:$('#game-content'),onClose:()=>$('[data-wm-next]').focus({preventScroll:true}),onAction:(scene,{replay})=>{
- if(!replay&&scene.action==='enter-first-book'&&currentBook()?.id===scene.bookId)openReader(scene.bookId);
+let doubtStage=null,activeStoryScene=null;
+const story=initializeStoryDialogue({host:$('#game-content'),onClose:()=>$('[data-wm-next]').focus({preventScroll:true}),onScene:scene=>{activeStoryScene=scene;syncDoubtStage();camera?.refresh();if(scene?.doubtState)camera?.focus({x:1248,y:566});},onDismiss:(scene,{replay})=>{if(!replay&&scene?.group==='first-completion'){storyStore.markSeen('doubt-recedes');completedFeedback('four-truths');}},onAction:(scene,{replay})=>{
+ if(!replay&&scene.action==='enter-first-book'&&currentBook()?.id===scene.bookId)openReader(scene.bookId,{bypassDoubt:true});
+ else if(!replay&&scene.action==='show-first-completion')completedFeedback('four-truths');
  else{locateNext();$('[data-wm-next]').focus({preventScroll:true});}
 }});
 $('[data-wm-story-replay]').textContent=STORY_UI.replay;
+$('[data-wm-completion-replay]').textContent=STORY_UI.replayCompletion;
+function syncDoubtStage(){
+ const done=store.get().completed.includes('four-truths');
+ const state=activeStoryScene?.doubtState||(!done&&storyStore.hasSeen('doubt-at-ruins')?'waiting':'hidden');
+ doubtStage?.update({state});
+}
+function firstCompletionStory(hasReceipt){
+ const saved=store.get(),done=saved.completed.includes('four-truths'),last=saved.positions['four-truths']===books.get('four-truths').totalSteps-1;
+ const pending=storyStore.hasSeen('first-book-insight')&&!storyStore.hasSeen('doubt-recedes');
+ if(!done||!last||!storyStore.hasSeen('doubt-at-ruins')||storyStore.hasSeen('doubt-recedes')||(!hasReceipt&&!pending))return false;
+ const l=landmarkFor('four-truths');selected=l.id;camera?.focus({x:l.x,y:l.y});
+ story.show(pending?'doubt-recedes':'first-book-insight');return true;
+}
 toolsDialog.addEventListener('close',()=>!story.isOpen&&toolsFocus?.isConnected&&toolsFocus.focus({preventScroll:true}));
 const status=()=>{const s=store.get();return routeStatus(s.completed,s.positions,routeMetadata.get());};
 const currentBook=()=>books.get(status().nextBookId)||null;
@@ -41,7 +58,9 @@ function updateOverviewControls(state){
 function returnToExploration(){if(!camera)return;if(camera.getState().canReturn){camera.returnFromOverview();return;}const l=landmarkFor(currentBook()?.id||'four-truths');selected=l.id;camera.focus({x:l.x,y:l.y});render();}
 function toggleOverview(){if(!camera)return;const s=camera.getState();if(s.canReturn||s.overview)returnToExploration();else camera.fit();}
 function mapInsets(){
- return {top:0,left:0,right:0,bottom:$('.game-dock').getBoundingClientRect().height};
+ const bottom=$('.game-dock').getBoundingClientRect().height;
+ const panel=$('.story-dialogue'),top=activeStoryScene?.doubtState&&panel&&!panel.hidden?Math.max(0,panel.getBoundingClientRect().bottom+8):0;
+ return {top:Math.min(top,Math.max(0,innerHeight-bottom-100)),left:0,right:0,bottom};
 }
 const landmarkFor=id=>LANDMARKS.find(l=>l.id===PRIMARY_BOOK_LANDMARK[id]);
 const revealed=(l,s)=>l.bookId!=='four-fruits-ten-fetters'||s.finalChapterRevealed;
@@ -63,6 +82,7 @@ function mountWorld(){
  const marks=LANDMARKS.map(l=>'<button class="wm-landmark '+(l.type==='scroll'?'is-scroll':'')+'" data-wm-landmark="'+l.id+'" data-landmark="'+l.id+'" data-book="'+(l.bookId||'')+'" data-concept="'+l.conceptId+'" style="--x:'+l.x+'px;--y:'+l.y+'px"><span class="wm-pin" aria-hidden="true"></span><span class="wm-label"></span><span class="wm-status-chip"></span></button>').join('');
  const regions=T.regions.map((r,i)=>'<button class="wm-region" data-wm-region="'+i+'" style="--x:'+r.x+'px;--y:'+r.y+'px">'+escape(r.title)+'</button>').join('');
  $('#wm-host').innerHTML='<div class="wm-viewport" tabindex="0" aria-label="'+T.cameraLabel+'"><div class="wm-world" data-world-size="1600x900"><img class="wm-background" src="'+asset('assets/worldmap-master-concept.png')+'" width="1600" height="900" alt="'+T.worldAlt+'"><svg class="wm-geography" viewBox="0 0 1600 900" aria-hidden="true"></svg><div class="wm-fog-layer"></div><svg class="wm-lines" viewBox="0 0 1600 900" aria-hidden="true"></svg>'+marks+regions+'<img class="wm-traveler" src="'+new URL('../visual-v2/assets/kitten-rowboat-concept.png',import.meta.url).href+'" alt="'+T.travelerAlt+'"></div><div class="wm-load-state" role="status">'+T.loadingMap+'</div></div>';
+ doubtStage=initializeDoubtStage({world:$('.wm-world'),anchor:{x:1248,y:566}});
  const image=$('.wm-background'),loading=$('.wm-load-state');
  const loaded=()=>{loading.hidden=true;};
  image.addEventListener('load',loaded);
@@ -98,6 +118,8 @@ function render(){
  $('.wm-geography').innerHTML=(s.world.pathActive?'<path class="wm-road-active" d="'+GEOGRAPHIC_ROAD+'"/>':'')+(s.world.irrigationActive?'<path class="wm-irrigation" d="M912 630Q958 582 912 515"/>':'');
  const routeKey=JSON.stringify(s.books.map(b=>[b.id,b.completed,b.canRead,b.inProgress,b.mainlineTitle]));
  if($('#wm-route-strip').dataset.signature!==routeKey){$('#wm-route-strip').dataset.signature=routeKey;$('#wm-route-strip').innerHTML='<details class="wm-route-details"><summary>'+T.routeList+'</summary><ol class="wm-route-list">'+s.books.map(b=>'<li><button data-wm-book="'+b.id+'" data-level-state="'+getGameBookAccess(b.id,s.completedBookIds,saved.positions).status+'" aria-current="'+(b.id===s.nextBookId)+'">'+String(b.order).padStart(2,'0')+' · '+escape(b.mainlineTitle)+(b.completed?' ✓':'')+'</button></li>').join('')+'</ol></details>';}
+ $('[data-wm-completion-replay]').hidden=!s.completedBookIds.includes('four-truths');
+ syncDoubtStage();
  const notice=$('#wm-storage-notice');notice.hidden=true;notice.textContent='';
 }
 function open(title,html){
@@ -116,9 +138,10 @@ function inspect(l){
  const memberMarkup=members.length?'<ul>'+members.map(m=>'<li>'+escape((m.key==='root'||m.key==='power'?T.familyNames[node.family]:'')+T.members[m.key])+'</li>').join('')+'</ul>':'';
  open(name(l,s),'<p class="wm-book-caption">'+escape(b.title)+'</p>'+memberMarkup+'<div class="wm-dialog-actions"><button class="primary" data-wm-read="'+b.id+'">'+(a.canReview?T.reviewBook:a.status==='reading'?T.continue:T.startReading)+'</button><a href="'+new URL(b.guide,catalogURL).href+'">'+T.guide+'</a></div><p class="wm-source-note">'+T.routeNote+'</p>');
 }
-function openReader(id){
+function openReader(id,{bypassDoubt=false}={}){
  const s=store.get(),b=books.get(id),a=getGameBookAccess(id,s.completed,s.positions);
  if(!b||!a.canRead){lockPanel();return;}
+ if(id==='four-truths'&&a.canStart&&!bypassDoubt&&!Object.hasOwn(s.positions,id)&&!storyStore.hasSeen('doubt-at-ruins')){dialog.close();story.show('doubt-at-ruins');return;}
  if(a.canStart)routeMetadata.markOpened(id);
  const u=new URL(b.reader,catalogURL);
  u.searchParams.set('collection','1');u.searchParams.set('collectionReturn','game');
@@ -159,9 +182,11 @@ function activateMap(){
   if(clipped())camera.focus(point,Math.max(scale,1.5));
  });
  if(params.get('focus')==='current')locateNext();
- if(completed){const id=completed;completed=null;history.replaceState(null,'',GAME_URLS.map);completedFeedback(id);}
+ const receipt=consumeFirstCompletionReceipt();
+ if(completed){const id=completed;completed=null;history.replaceState(null,'',GAME_URLS.map);if(id!=='four-truths'||!firstCompletionStory(receipt))completedFeedback(id);}
+ else firstCompletionStory(receipt);
  const saved=store.get();
- if(!params.has('completed')&&!saved.completed.length&&!Object.keys(saved.positions).length&&!storyStore.hasSeen('arrival-at-wheel')){
+ if(!story.isOpen&&!params.has('completed')&&!saved.completed.length&&!Object.keys(saved.positions).length&&!storyStore.hasSeen('arrival-at-wheel')){
   story.show('arrival-at-wheel');
  }
  let taught=false;try{taught=sessionStorage.getItem('sutrazen.play.map-tip.v1')==='1';}catch{}
@@ -188,7 +213,8 @@ document.addEventListener('click',e=>{
  if(b.dataset.wmRegion!==undefined){const r=T.regions[Number(b.dataset.wmRegion)];camera?.focus({x:r.x,y:r.y});}
  if(b.hasAttribute('data-wm-lines')){links=links==='none'?'all':'none';render();}
  if(b.hasAttribute('data-wm-labels')){labels=!labels;render();}
- if(b.hasAttribute('data-wm-story-replay')){toolsDialog.close();story.show('arrival-at-wheel',{replay:true});}
+ if(b.hasAttribute('data-wm-story-replay')){toolsDialog.close();dialog.close();story.show('arrival-at-wheel',{replay:true});}
+ if(b.hasAttribute('data-wm-completion-replay')&&store.get().completed.includes('four-truths')){toolsDialog.close();dialog.close();const l=landmarkFor('four-truths');camera?.focus({x:l.x,y:l.y});story.show('first-book-insight',{replay:true});}
  if(b.dataset.wmLandmark){const l=LANDMARKS.find(l=>l.id===b.dataset.wmLandmark);if(l)inspect(l);}
  if(b.dataset.wmBook){toolsDialog.close();const l=landmarkFor(b.dataset.wmBook);if(l)inspect(l);}
  if(b.dataset.wmRead)openReader(b.dataset.wmRead);

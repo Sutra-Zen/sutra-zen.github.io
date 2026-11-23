@@ -16,8 +16,8 @@ if (collectionParams.get('collection') === '1' && collectionParams.has('journey'
 }
 
 async function initializeCollection() {
-  const [{ store }, { CATALOG, COLLECTION_TEXT: text }, policy] = await Promise.all([
-    import('./store.js'), import('./catalog.js'), import('../route/eligibility.js'),
+  const [{ store }, { CATALOG, COLLECTION_TEXT: text }, policy, {issueFirstCompletionReceipt}] = await Promise.all([
+    import('./store.js'), import('./catalog.js'), import('../route/eligibility.js'), import('../story/completion-receipt.js?v=doubt-1').catch(() => ({issueFirstCompletionReceipt: () => false})),
   ]);
   const parts = location.pathname.split('/').filter(Boolean);
   const bookId = parts[parts.indexOf('book') - 1];
@@ -91,6 +91,7 @@ async function initializeCollection() {
       const shelf = new URL(gameURL); shelf.hash = 'shelf';
       location.assign(shelf.href); // No completion marker, write or reward replay.
     } else if (policy.canCompleteGameBook(bookId, store.get().completed) && store.complete(bookId)) {
+      if (bookId === 'four-truths') issueFirstCompletionReceipt();
       const next = new URL(gameURL); next.searchParams.set('completed', bookId); next.hash = 'map';
       location.assign(next.href);
     } else { finishing = false; denyEntry(); }

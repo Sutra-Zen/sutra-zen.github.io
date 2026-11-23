@@ -1,0 +1,75 @@
+{
+  "result": "passed",
+  "cases": [
+    {
+      "case": "invalid-json",
+      "scene": null,
+      "completionRecordByteIdentical": true,
+      "receiptRemoved": true,
+      "javascriptErrors": []
+    },
+    {
+      "case": "wrong-version",
+      "scene": null,
+      "completionRecordByteIdentical": true,
+      "receiptRemoved": true,
+      "javascriptErrors": []
+    },
+    {
+      "case": "wrong-event",
+      "scene": null,
+      "completionRecordByteIdentical": true,
+      "receiptRemoved": true,
+      "javascriptErrors": []
+    },
+    {
+      "case": "primitive",
+      "scene": null,
+      "completionRecordByteIdentical": true,
+      "receiptRemoved": true,
+      "javascriptErrors": []
+    },
+    {
+      "case": "array",
+      "scene": null,
+      "completionRecordByteIdentical": true,
+      "receiptRemoved": true,
+      "javascriptErrors": []
+    },
+    {
+      "case": "valid-no-completed",
+      "scene": null,
+      "completionRecordByteIdentical": true,
+      "receiptRemoved": true,
+      "javascriptErrors": []
+    },
+    {
+      "case": "valid-not-last",
+      "scene": null,
+      "completionRecordByteIdentical": true,
+      "receiptRemoved": true,
+      "javascriptErrors": []
+    },
+    {
+      "case": "valid-no-encounter",
+      "scene": null,
+      "completionRecordByteIdentical": true,
+      "receiptRemoved": true,
+      "javascriptErrors": []
+    },
+    {
+      "case": "seen-last-suppresses-stale-valid",
+      "scene": null,
+      "completionRecordByteIdentical": true,
+      "receiptRemoved": true,
+      "javascriptErrors": []
+    },
+    {
+      "case": "pending-resumes-second",
+      "scene": "doubt-recedes",
+      "completionRecordByteIdentical": true,
+      "receiptRemoved": true,
+      "javascriptErrors": []
+    }
+  ]
+}
