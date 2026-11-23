@@ -12,3 +12,6 @@
 @media(max-width:420px){.prologue-copy{width:calc(100% - 36px);font-size:20px;line-height:1.85;letter-spacing:.02em}}
 @media(max-height:500px){.prologue-viewport{top:calc(12px + env(safe-area-inset-top,0px));bottom:calc(72px + env(safe-area-inset-bottom,0px))}.prologue-copy{font-size:20px;line-height:1.75}.prologue-copy p{margin-bottom:1.25em}.game-prologue .prologue-hint{bottom:calc(8px + env(safe-area-inset-bottom,0px))}}
 @media(prefers-reduced-motion:reduce){.game-prologue .prologue-copy{will-change:auto}}
+
+/* Entry stays plain text, including its automatic initial focus. */
+.game-prologue .prologue-hint:focus-visible{outline:none;text-decoration:underline;text-underline-offset:.3em}
