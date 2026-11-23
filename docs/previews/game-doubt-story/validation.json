@@ -1,0 +1,1984 @@
+{
+  "baseline": "44dce2f6624e568ff83d6cf79e675fe61a53c325",
+  "protectedOriginalFiles": 615,
+  "singleOriginalHtmlException": "Four-truths bridge src cache query only; normalize then full text equal",
+  "originalNarrationScriptureArtReaderJsAndCss": "byte-for-byte unchanged",
+  "rootHomepageSeoGoogleAndSharedReaderControls": "byte-for-byte unchanged",
+  "additionalUnchangedCoreAndArt": [
+    "play/collection/store.js",
+    "play/reader-bridge.js",
+    "play/route",
+    "play/prologue",
+    "play/worldmap-v4/data.js",
+    "play/worldmap-v4/camera.js",
+    "play/visual-v2/network-data.js",
+    "play/visual-v2/assets",
+    "play/worldmap-v4/assets",
+    "play/assets/CC1A7C32-0620-4DB2-BCD2-A9457A83C259.jpeg",
+    "play/story/assets/kitten-traveler-portrait-concept.png"
+  ],
+  "authorizedBridgeAndResetExceptions": "Exact receipt import/issue and receipt clear only; removing those lines and story cache query equals baseline",
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "actualFirstBook": {
+    "beforeBookScenes": [
+      {
+        "id": "arrival-at-wheel",
+        "actor": "traveler",
+        "speaker": "小貓",
+        "text": "咦？我剛才明明還趴在窗邊等朋友回訊息……怎麼一抬頭，就到了法輪遺跡？進去看看！"
+      },
+      {
+        "id": "doubt-at-ruins",
+        "actor": "doubt",
+        "speaker": "五蓋眾・疑",
+        "text": "愚痴……"
+      },
+      {
+        "id": "doubt-detour",
+        "actor": "traveler",
+        "speaker": "小貓",
+        "text": "這隻滿身問號的生物是什麼啊？竟然擋在入口……我先繞過牠，進去看看好了。"
+      }
+    ],
+    "actualSequentialNextIndices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "reloadRotateAndReturnAtIndex": 5,
+    "completionEmptyUntilExplicitFinish": true,
+    "receiptOnlyIssuedByActualFinishThenConsumed": true,
+    "afterBookScenes": [
+      {
+        "id": "first-book-insight",
+        "actor": "traveler",
+        "speaker": "小貓",
+        "text": "讀完四聖諦，苦與離苦的路好像清楚一點了。「正智」和「慧根／慧力」，我也想繼續慢慢練習！"
+      },
+      {
+        "id": "doubt-recedes",
+        "actor": "traveler",
+        "speaker": "小貓",
+        "text": "咦，剛才那隻怪生物身上的問號變少了……牠退進霧裡，入口也露出來了。先把剛才學到的記在心裡，再走下一站吧！"
+      }
+    ],
+    "questionMarksBefore": 7,
+    "questionMarksAfter": 2,
+    "retreatThenOriginalReward": true,
+    "nextStationFiveAggregatesNoAutostart": true,
+    "reloadNoRepeatedStoryOrReward": true,
+    "actualReviewChapterSelectionLastStepNoNewReceiptOrReward": true,
+    "explicitStoryReplayNoProgressOrSeenWrites": true,
+    "savedAfterFirstCompletion": {
+      "version": 1,
+      "positions": {
+        "four-truths": 28
+      },
+      "completed": [
+        "four-truths"
+      ],
+      "activeBook": "five-aggregates"
+    }
+  },
+  "fiveViewportThemeAndDialogue": [
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "title": {
+        "selector": ".game-title-paper",
+        "computed": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(135deg, rgba(20, 31, 43, 0.91), rgba(28, 40, 51, 0.86))",
+          "color": "rgb(246, 239, 223)",
+          "filter": "blur(8px)"
+        },
+        "whiteBackdropTextContrast": 8.39367081420533
+      },
+      "settings": {
+        "selector": "#game-settings",
+        "computed": {
+          "background": "rgba(18, 28, 40, 0.9)",
+          "image": "none",
+          "color": "rgb(246, 239, 223)",
+          "filter": "blur(10px)"
+        },
+        "whiteBackdropTextContrast": 11.218585102657077
+      },
+      "dialogue": {
+        "selector": ".story-dialogue",
+        "computed": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(115deg, rgba(18, 29, 42, 0.91), rgba(25, 36, 48, 0.87))",
+          "color": "rgb(246, 239, 223)",
+          "filter": "none"
+        },
+        "whiteBackdropTextContrast": 9.132297885628008
+      },
+      "tools": {
+        "selector": "#wm-tools-dialog",
+        "computed": {
+          "background": "rgba(18, 28, 40, 0.9)",
+          "image": "none",
+          "color": "rgb(246, 239, 223)",
+          "filter": "blur(10px)"
+        },
+        "whiteBackdropTextContrast": 11.218585102657077
+      },
+      "city": {
+        "selector": "#city-dialog",
+        "computed": {
+          "background": "rgba(18, 28, 40, 0.9)",
+          "image": "none",
+          "color": "rgb(246, 239, 223)",
+          "filter": "blur(10px)"
+        },
+        "whiteBackdropTextContrast": 11.218585102657077
+      },
+      "shelf": {
+        "selector": ".collection-empty",
+        "computed": {
+          "background": "rgba(18, 28, 40, 0.9)",
+          "image": "none",
+          "color": "rgb(246, 239, 223)",
+          "filter": "blur(7px)"
+        },
+        "whiteBackdropTextContrast": 11.218585102657077
+      },
+      "portraitFullContainNoCircularClip": {
+        "portrait": {
+          "x": 201,
+          "y": 40.296875,
+          "width": 145,
+          "height": 145,
+          "top": 40.296875,
+          "right": 346,
+          "bottom": 185.296875,
+          "left": 201
+        },
+        "image": {
+          "x": 207,
+          "y": 46.296875,
+          "width": 133,
+          "height": 133,
+          "top": 46.296875,
+          "right": 340,
+          "bottom": 179.296875,
+          "left": 207
+        },
+        "portraitOverflow": "visible",
+        "portraitRadius": "0px",
+        "imageClip": "none",
+        "imageRadius": "0px",
+        "fit": "contain",
+        "natural": [
+          1254,
+          1254
+        ]
+      },
+      "waitingWorldQuestionMarks": 7,
+      "doubtOnlySpokenLine": "愚痴……",
+      "noReadingCompletionOrBookmark": true,
+      "worldArtUndimmed": true
+    },
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "title": {
+        "selector": ".game-title-paper",
+        "computed": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(135deg, rgba(20, 31, 43, 0.91), rgba(28, 40, 51, 0.86))",
+          "color": "rgb(246, 239, 223)",
+          "filter": "blur(8px)"
+        },
+        "whiteBackdropTextContrast": 8.39367081420533
+      },
+      "settings": {
+        "selector": "#game-settings",
+        "computed": {
+          "background": "rgba(18, 28, 40, 0.9)",
+          "image": "none",
+          "color": "rgb(246, 239, 223)",
+          "filter": "blur(10px)"
+        },
+        "whiteBackdropTextContrast": 11.218585102657077
+      },
+      "dialogue": {
+        "selector": ".story-dialogue",
+        "computed": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(115deg, rgba(18, 29, 42, 0.91), rgba(25, 36, 48, 0.87))",
+          "color": "rgb(246, 239, 223)",
+          "filter": "none"
+        },
+        "whiteBackdropTextContrast": 9.132297885628008
+      },
+      "tools": {
+        "selector": "#wm-tools-dialog",
+        "computed": {
+          "background": "rgba(18, 28, 40, 0.9)",
+          "image": "none",
+          "color": "rgb(246, 239, 223)",
+          "filter": "blur(10px)"
+        },
+        "whiteBackdropTextContrast": 11.218585102657077
+      },
+      "city": {
+        "selector": "#city-dialog",
+        "computed": {
+          "background": "rgba(18, 28, 40, 0.9)",
+          "image": "none",
+          "color": "rgb(246, 239, 223)",
+          "filter": "blur(10px)"
+        },
+        "whiteBackdropTextContrast": 11.218585102657077
+      },
+      "shelf": {
+        "selector": ".collection-empty",
+        "computed": {
+          "background": "rgba(18, 28, 40, 0.9)",
+          "image": "none",
+          "color": "rgb(246, 239, 223)",
+          "filter": "blur(7px)"
+        },
+        "whiteBackdropTextContrast": 11.218585102657077
+      },
+      "portraitFullContainNoCircularClip": {
+        "portrait": {
+          "x": 17,
+          "y": 30,
+          "width": 82,
+          "height": 82,
+          "top": 30,
+          "right": 99,
+          "bottom": 112,
+          "left": 17
+        },
+        "image": {
+          "x": 20,
+          "y": 33,
+          "width": 76,
+          "height": 76,
+          "top": 33,
+          "right": 96,
+          "bottom": 109,
+          "left": 20
+        },
+        "portraitOverflow": "visible",
+        "portraitRadius": "0px",
+        "imageClip": "none",
+        "imageRadius": "0px",
+        "fit": "contain",
+        "natural": [
+          1254,
+          1254
+        ]
+      },
+      "waitingWorldQuestionMarks": 7,
+      "doubtOnlySpokenLine": "愚痴……",
+      "noReadingCompletionOrBookmark": true,
+      "worldArtUndimmed": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "title": {
+        "selector": ".game-title-paper",
+        "computed": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(135deg, rgba(20, 31, 43, 0.91), rgba(28, 40, 51, 0.86))",
+          "color": "rgb(246, 239, 223)",
+          "filter": "blur(8px)"
+        },
+        "whiteBackdropTextContrast": 8.39367081420533
+      },
+      "settings": {
+        "selector": "#game-settings",
+        "computed": {
+          "background": "rgba(18, 28, 40, 0.9)",
+          "image": "none",
+          "color": "rgb(246, 239, 223)",
+          "filter": "blur(10px)"
+        },
+        "whiteBackdropTextContrast": 11.218585102657077
+      },
+      "dialogue": {
+        "selector": ".story-dialogue",
+        "computed": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(115deg, rgba(18, 29, 42, 0.91), rgba(25, 36, 48, 0.87))",
+          "color": "rgb(246, 239, 223)",
+          "filter": "none"
+        },
+        "whiteBackdropTextContrast": 9.132297885628008
+      },
+      "tools": {
+        "selector": "#wm-tools-dialog",
+        "computed": {
+          "background": "rgba(18, 28, 40, 0.9)",
+          "image": "none",
+          "color": "rgb(246, 239, 223)",
+          "filter": "blur(10px)"
+        },
+        "whiteBackdropTextContrast": 11.218585102657077
+      },
+      "city": {
+        "selector": "#city-dialog",
+        "computed": {
+          "background": "rgba(18, 28, 40, 0.9)",
+          "image": "none",
+          "color": "rgb(246, 239, 223)",
+          "filter": "blur(10px)"
+        },
+        "whiteBackdropTextContrast": 11.218585102657077
+      },
+      "shelf": {
+        "selector": ".collection-empty",
+        "computed": {
+          "background": "rgba(18, 28, 40, 0.9)",
+          "image": "none",
+          "color": "rgb(246, 239, 223)",
+          "filter": "blur(7px)"
+        },
+        "whiteBackdropTextContrast": 11.218585102657077
+      },
+      "portraitFullContainNoCircularClip": {
+        "portrait": {
+          "x": 20,
+          "y": 33.28125,
+          "width": 105,
+          "height": 105,
+          "top": 33.28125,
+          "right": 125,
+          "bottom": 138.28125,
+          "left": 20
+        },
+        "image": {
+          "x": 26,
+          "y": 39.28125,
+          "width": 93,
+          "height": 93,
+          "top": 39.28125,
+          "right": 119,
+          "bottom": 132.28125,
+          "left": 26
+        },
+        "portraitOverflow": "visible",
+        "portraitRadius": "0px",
+        "imageClip": "none",
+        "imageRadius": "0px",
+        "fit": "contain",
+        "natural": [
+          1254,
+          1254
+        ]
+      },
+      "waitingWorldQuestionMarks": 7,
+      "doubtOnlySpokenLine": "愚痴……",
+      "noReadingCompletionOrBookmark": true,
+      "worldArtUndimmed": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "title": {
+        "selector": ".game-title-paper",
+        "computed": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(135deg, rgba(20, 31, 43, 0.91), rgba(28, 40, 51, 0.86))",
+          "color": "rgb(246, 239, 223)",
+          "filter": "blur(8px)"
+        },
+        "whiteBackdropTextContrast": 8.39367081420533
+      },
+      "settings": {
+        "selector": "#game-settings",
+        "computed": {
+          "background": "rgba(18, 28, 40, 0.9)",
+          "image": "none",
+          "color": "rgb(246, 239, 223)",
+          "filter": "blur(10px)"
+        },
+        "whiteBackdropTextContrast": 11.218585102657077
+      },
+      "dialogue": {
+        "selector": ".story-dialogue",
+        "computed": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(115deg, rgba(18, 29, 42, 0.91), rgba(25, 36, 48, 0.87))",
+          "color": "rgb(246, 239, 223)",
+          "filter": "none"
+        },
+        "whiteBackdropTextContrast": 9.132297885628008
+      },
+      "tools": {
+        "selector": "#wm-tools-dialog",
+        "computed": {
+          "background": "rgba(18, 28, 40, 0.9)",
+          "image": "none",
+          "color": "rgb(246, 239, 223)",
+          "filter": "blur(10px)"
+        },
+        "whiteBackdropTextContrast": 11.218585102657077
+      },
+      "city": {
+        "selector": "#city-dialog",
+        "computed": {
+          "background": "rgba(18, 28, 40, 0.9)",
+          "image": "none",
+          "color": "rgb(246, 239, 223)",
+          "filter": "blur(10px)"
+        },
+        "whiteBackdropTextContrast": 11.218585102657077
+      },
+      "shelf": {
+        "selector": ".collection-empty",
+        "computed": {
+          "background": "rgba(18, 28, 40, 0.9)",
+          "image": "none",
+          "color": "rgb(246, 239, 223)",
+          "filter": "blur(7px)"
+        },
+        "whiteBackdropTextContrast": 11.218585102657077
+      },
+      "portraitFullContainNoCircularClip": {
+        "portrait": {
+          "x": 25,
+          "y": 33.890625,
+          "width": 145,
+          "height": 145,
+          "top": 33.890625,
+          "right": 170,
+          "bottom": 178.890625,
+          "left": 25
+        },
+        "image": {
+          "x": 31,
+          "y": 39.890625,
+          "width": 133,
+          "height": 133,
+          "top": 39.890625,
+          "right": 164,
+          "bottom": 172.890625,
+          "left": 31
+        },
+        "portraitOverflow": "visible",
+        "portraitRadius": "0px",
+        "imageClip": "none",
+        "imageRadius": "0px",
+        "fit": "contain",
+        "natural": [
+          1254,
+          1254
+        ]
+      },
+      "waitingWorldQuestionMarks": 7,
+      "doubtOnlySpokenLine": "愚痴……",
+      "noReadingCompletionOrBookmark": true,
+      "worldArtUndimmed": true
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "title": {
+        "selector": ".game-title-paper",
+        "computed": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(135deg, rgba(20, 31, 43, 0.91), rgba(28, 40, 51, 0.86))",
+          "color": "rgb(246, 239, 223)",
+          "filter": "blur(8px)"
+        },
+        "whiteBackdropTextContrast": 8.39367081420533
+      },
+      "settings": {
+        "selector": "#game-settings",
+        "computed": {
+          "background": "rgba(18, 28, 40, 0.9)",
+          "image": "none",
+          "color": "rgb(246, 239, 223)",
+          "filter": "blur(10px)"
+        },
+        "whiteBackdropTextContrast": 11.218585102657077
+      },
+      "dialogue": {
+        "selector": ".story-dialogue",
+        "computed": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(115deg, rgba(18, 29, 42, 0.91), rgba(25, 36, 48, 0.87))",
+          "color": "rgb(246, 239, 223)",
+          "filter": "none"
+        },
+        "whiteBackdropTextContrast": 9.132297885628008
+      },
+      "tools": {
+        "selector": "#wm-tools-dialog",
+        "computed": {
+          "background": "rgba(18, 28, 40, 0.9)",
+          "image": "none",
+          "color": "rgb(246, 239, 223)",
+          "filter": "blur(10px)"
+        },
+        "whiteBackdropTextContrast": 11.218585102657077
+      },
+      "city": {
+        "selector": "#city-dialog",
+        "computed": {
+          "background": "rgba(18, 28, 40, 0.9)",
+          "image": "none",
+          "color": "rgb(246, 239, 223)",
+          "filter": "blur(10px)"
+        },
+        "whiteBackdropTextContrast": 11.218585102657077
+      },
+      "shelf": {
+        "selector": ".collection-empty",
+        "computed": {
+          "background": "rgba(18, 28, 40, 0.9)",
+          "image": "none",
+          "color": "rgb(246, 239, 223)",
+          "filter": "blur(7px)"
+        },
+        "whiteBackdropTextContrast": 11.218585102657077
+      },
+      "portraitFullContainNoCircularClip": {
+        "portrait": {
+          "x": 73,
+          "y": 29,
+          "width": 145,
+          "height": 145,
+          "top": 29,
+          "right": 218,
+          "bottom": 174,
+          "left": 73
+        },
+        "image": {
+          "x": 79,
+          "y": 35,
+          "width": 133,
+          "height": 133,
+          "top": 35,
+          "right": 212,
+          "bottom": 168,
+          "left": 79
+        },
+        "portraitOverflow": "visible",
+        "portraitRadius": "0px",
+        "imageClip": "none",
+        "imageRadius": "0px",
+        "fit": "contain",
+        "natural": [
+          1254,
+          1254
+        ]
+      },
+      "waitingWorldQuestionMarks": 7,
+      "doubtOnlySpokenLine": "愚痴……",
+      "noReadingCompletionOrBookmark": true,
+      "worldArtUndimmed": true
+    }
+  ],
+  "isolatedHistoryAndPolicyChecks": [
+    {
+      "fixture": "old-v1-arrival-only",
+      "forgedCompletionQueryAndReloadNoNewStory": true,
+      "version1SeenPreserved": true,
+      "historicalCompletedAndFutureBookmarkUnchanged": true,
+      "futureReaderStillLocked": true
+    },
+    {
+      "fixture": "historical-encounter-no-receipt",
+      "forgedCompletionQueryAndReloadNoNewStory": true,
+      "version1SeenPreserved": true,
+      "historicalCompletedAndFutureBookmarkUnchanged": true,
+      "futureReaderStillLocked": true
+    },
+    {
+      "fixture": "existing-first-bookmark",
+      "resumeIndex": 4,
+      "noInsertedEncounterOrCompletion": true
+    },
+    {
+      "fixture": "receipt-without-actual-completion",
+      "noStoryRewardOrCompletionFabricated": true,
+      "receiptConsumed": true
+    }
+  ],
+  "authorResetNewScenes": {
+    "nativeCancelByteIdentical": true,
+    "confirmedAllNewSceneIdsAndBothReceiptCopiesCleared": true,
+    "sameNamespaceVersion1": true,
+    "originalPublicReaderAndOtherKeysPreserved": true,
+    "arrivalAndDoubtEncounterCanPlayFreshAgain": true
+  },
+  "actorAssetFailure": [
+    {
+      "actor": "traveler",
+      "expectedInjectedAbortCount": 2,
+      "fullTextAndAllNextActionsStillReachRealReader": true,
+      "actualReaderNextWorks": true,
+      "noCompletionFabricated": true
+    },
+    {
+      "actor": "doubt",
+      "expectedInjectedAbortCount": 2,
+      "fullTextAndAllNextActionsStillReachRealReader": true,
+      "actualReaderNextWorks": true,
+      "noCompletionFabricated": true
+    }
+  ],
+  "result": "passed",
+  "pendingAndOptionalReceiptFailure": {
+    "pendingFixtures": [
+      {
+        "isolatedFixture": "pending-last-line",
+        "pendingResumesOnlyRemainingLine": true,
+        "explicitDismissAcknowledgesRemainingQueue": false,
+        "reloadNoRepeatedQueueOrReward": true,
+        "collectionUnchanged": true
+      },
+      {
+        "isolatedFixture": "explicit-dismiss",
+        "pendingResumesOnlyRemainingLine": false,
+        "explicitDismissAcknowledgesRemainingQueue": true,
+        "reloadNoRepeatedQueueOrReward": true,
+        "collectionUnchanged": true
+      }
+    ],
+    "injectedReaderOnlyReceiptModuleAbort": 1,
+    "fixtureStartedAtIndex": 27,
+    "actualNativeNextTo28AndExplicitFinishStillWorks": true,
+    "normalExistingCompletionRewardWithoutNewStory": true
+  },
+  "phase": "Local independent validation",
+  "physicalSafari": "Not tested; desktop Chromium viewport/touch emulation",
+  "fixtureNotice": "Historical profiles are isolated synthetic fixtures, separate from the actual sequential first-book walk. Review chapter selection and optional-module failure start near the end are explicitly labelled, not counted as full-book walks.",
+  "fiveSizeWorldActorVisibility": [
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "freshBeforeReading": {
+        "frame": {
+          "x": 894.6453857421875,
+          "y": 465.3199768066406,
+          "width": 87.3599853515625,
+          "height": 87.36001586914062,
+          "top": 465.3199768066406,
+          "right": 982.00537109375,
+          "bottom": 552.6799926757812,
+          "left": 894.6453857421875
+        },
+        "panel": {
+          "x": 190,
+          "y": 14,
+          "width": 900,
+          "height": 175,
+          "top": 14,
+          "right": 1090,
+          "bottom": 189,
+          "left": 190
+        },
+        "dock": {
+          "x": 0,
+          "y": 821,
+          "width": 1280,
+          "height": 79,
+          "top": 821,
+          "right": 1280,
+          "bottom": 900,
+          "left": 0
+        },
+        "camera": {
+          "x": 940.6593406593406,
+          "y": 566,
+          "scale": 0.9706666666666667,
+          "fitScale": 0.6933333333333334,
+          "coverScale": 0.8,
+          "overview": false,
+          "restored": false,
+          "viewport": {
+            "width": 1280,
+            "height": 900
+          },
+          "world": {
+            "width": 1600,
+            "height": 900
+          },
+          "defaultFocusScale": 0.9706666666666667,
+          "outerBounds": {
+            "left": 0,
+            "top": 0,
+            "right": 1600,
+            "bottom": 900,
+            "width": 1600,
+            "height": 900
+          },
+          "safeInsets": {
+            "top": 197,
+            "right": 0,
+            "bottom": 79,
+            "left": 0
+          },
+          "visibleViewport": {
+            "left": 0,
+            "top": 197,
+            "width": 1280,
+            "height": 624,
+            "right": 1280,
+            "bottom": 821,
+            "centerX": 640,
+            "centerY": 509
+          },
+          "canReturn": false,
+          "overviewExplicit": false,
+          "offsetX": -273.0666666666666,
+          "offsetY": -40.397333333333336
+        },
+        "marks": [
+          {
+            "x": 891.2724609375,
+            "y": 470.68316650390625,
+            "width": 24.2176513671875,
+            "height": 24.2176513671875,
+            "top": 470.68316650390625,
+            "right": 915.4901123046875,
+            "bottom": 494.90081787109375,
+            "left": 891.2724609375
+          },
+          {
+            "x": 912.9832763671875,
+            "y": 458.31439208984375,
+            "width": 19.228515625,
+            "height": 19.228515625,
+            "top": 458.31439208984375,
+            "right": 932.2117919921875,
+            "bottom": 477.54290771484375,
+            "left": 912.9832763671875
+          },
+          {
+            "x": 944.3997802734375,
+            "y": 453.9224548339844,
+            "width": 22.7950439453125,
+            "height": 22.795074462890625,
+            "top": 453.9224548339844,
+            "right": 967.19482421875,
+            "bottom": 476.717529296875,
+            "left": 944.3997802734375
+          },
+          {
+            "x": 969.474365234375,
+            "y": 475.49346923828125,
+            "width": 19.8143310546875,
+            "height": 19.81439208984375,
+            "top": 475.49346923828125,
+            "right": 989.2886962890625,
+            "bottom": 495.307861328125,
+            "left": 969.474365234375
+          },
+          {
+            "x": 890.87646484375,
+            "y": 513.1025390625,
+            "width": 18.0028076171875,
+            "height": 18.00286865234375,
+            "top": 513.1025390625,
+            "right": 908.8792724609375,
+            "bottom": 531.1054077148438,
+            "left": 890.87646484375
+          },
+          {
+            "x": 970.715087890625,
+            "y": 518.6851806640625,
+            "width": 19.0618896484375,
+            "height": 19.0618896484375,
+            "top": 518.6851806640625,
+            "right": 989.7769775390625,
+            "bottom": 537.7470703125,
+            "left": 970.715087890625
+          },
+          {
+            "x": 934.6488037109375,
+            "y": 448.5394592285156,
+            "width": 16.0889892578125,
+            "height": 16.089080810546875,
+            "top": 448.5394592285156,
+            "right": 950.73779296875,
+            "bottom": 464.6285400390625,
+            "left": 934.6488037109375
+          }
+        ]
+      },
+      "isolatedPostCompletionFixture": {
+        "frame": {
+          "x": 902.8499755859375,
+          "y": 477.5468444824219,
+          "width": 85.5,
+          "height": 85.50003051757812,
+          "top": 477.5468444824219,
+          "right": 988.3499755859375,
+          "bottom": 563.046875,
+          "left": 902.8499755859375
+        },
+        "panel": {
+          "x": 190,
+          "y": 14,
+          "width": 900,
+          "height": 197.59375,
+          "top": 14,
+          "right": 1090,
+          "bottom": 211.59375,
+          "left": 190
+        },
+        "dock": {
+          "x": 0,
+          "y": 821,
+          "width": 1280,
+          "height": 79,
+          "top": 821,
+          "right": 1280,
+          "bottom": 900,
+          "left": 0
+        },
+        "camera": {
+          "x": 926.3157894736842,
+          "y": 566,
+          "scale": 0.95,
+          "fitScale": 0.6682291666666667,
+          "coverScale": 0.8,
+          "overview": false,
+          "restored": false,
+          "viewport": {
+            "width": 1280,
+            "height": 900
+          },
+          "world": {
+            "width": 1600,
+            "height": 900
+          },
+          "defaultFocusScale": 0.95,
+          "outerBounds": {
+            "left": 0,
+            "top": 0,
+            "right": 1600,
+            "bottom": 900,
+            "width": 1600,
+            "height": 900
+          },
+          "safeInsets": {
+            "top": 219.59375,
+            "right": 0,
+            "bottom": 79,
+            "left": 0
+          },
+          "visibleViewport": {
+            "left": 0,
+            "top": 219.59375,
+            "width": 1280,
+            "height": 601.40625,
+            "right": 1280,
+            "bottom": 821,
+            "centerX": 640,
+            "centerY": 520.296875
+          },
+          "canReturn": false,
+          "overviewExplicit": false,
+          "offsetX": -239.9999999999999,
+          "offsetY": -17.403124999999932
+        },
+        "marks": [
+          {
+            "x": 899.5489501953125,
+            "y": 482.7958679199219,
+            "width": 23.7020263671875,
+            "height": 23.701995849609375,
+            "top": 482.7958679199219,
+            "right": 923.2509765625,
+            "bottom": 506.49786376953125,
+            "left": 899.5489501953125
+          },
+          {
+            "x": 920.7974853515625,
+            "y": 470.6904296875,
+            "width": 18.819091796875,
+            "height": 18.819091796875,
+            "top": 470.6904296875,
+            "right": 939.6165771484375,
+            "bottom": 489.509521484375,
+            "left": 920.7974853515625
+          }
+        ]
+      },
+      "fullCreatureAndAllVisibleMarksBetweenDialogueAndDock": true,
+      "temporaryTopInsetClearedOnClose": true
+    },
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "freshBeforeReading": {
+        "frame": {
+          "x": 137.25,
+          "y": 413.25,
+          "width": 85.5,
+          "height": 85.5,
+          "top": 413.25,
+          "right": 222.75,
+          "bottom": 498.75,
+          "left": 137.25
+        },
+        "panel": {
+          "x": 10,
+          "y": 10,
+          "width": 340,
+          "height": 173,
+          "top": 10,
+          "right": 350,
+          "bottom": 183,
+          "left": 10
+        },
+        "dock": {
+          "x": 0,
+          "y": 721,
+          "width": 360,
+          "height": 79,
+          "top": 721,
+          "right": 360,
+          "bottom": 800,
+          "left": 0
+        },
+        "camera": {
+          "x": 1248,
+          "y": 566,
+          "scale": 0.95,
+          "fitScale": 0.225,
+          "coverScale": 0.5888888888888889,
+          "overview": false,
+          "restored": false,
+          "viewport": {
+            "width": 360,
+            "height": 800
+          },
+          "world": {
+            "width": 1600,
+            "height": 900
+          },
+          "defaultFocusScale": 0.95,
+          "outerBounds": {
+            "left": 0,
+            "top": 0,
+            "right": 1600,
+            "bottom": 900,
+            "width": 1600,
+            "height": 900
+          },
+          "safeInsets": {
+            "top": 191,
+            "right": 0,
+            "bottom": 79,
+            "left": 0
+          },
+          "visibleViewport": {
+            "left": 0,
+            "top": 191,
+            "width": 360,
+            "height": 530,
+            "right": 360,
+            "bottom": 721,
+            "centerX": 180,
+            "centerY": 456
+          },
+          "canReturn": false,
+          "overviewExplicit": false,
+          "offsetX": -1005.5999999999999,
+          "offsetY": -81.69999999999993
+        },
+        "marks": [
+          {
+            "x": 133.948974609375,
+            "y": 418.4990234375,
+            "width": 23.7020263671875,
+            "height": 23.70196533203125,
+            "top": 418.4990234375,
+            "right": 157.6510009765625,
+            "bottom": 442.20098876953125,
+            "left": 133.948974609375
+          },
+          {
+            "x": 155.197509765625,
+            "y": 406.3935546875,
+            "width": 18.819091796875,
+            "height": 18.819091796875,
+            "top": 406.3935546875,
+            "right": 174.0166015625,
+            "bottom": 425.212646484375,
+            "left": 155.197509765625
+          },
+          {
+            "x": 185.9451904296875,
+            "y": 402.0950927734375,
+            "width": 22.3096923828125,
+            "height": 22.309814453125,
+            "top": 402.0950927734375,
+            "right": 208.2548828125,
+            "bottom": 424.4049072265625,
+            "left": 185.9451904296875
+          },
+          {
+            "x": 210.48583984375,
+            "y": 423.20684814453125,
+            "width": 19.3924560546875,
+            "height": 19.39251708984375,
+            "top": 423.20684814453125,
+            "right": 229.8782958984375,
+            "bottom": 442.599365234375,
+            "left": 210.48583984375
+          },
+          {
+            "x": 133.561279296875,
+            "y": 460.01519775390625,
+            "width": 17.61962890625,
+            "height": 17.61956787109375,
+            "top": 460.01519775390625,
+            "right": 151.180908203125,
+            "bottom": 477.634765625,
+            "left": 133.561279296875
+          },
+          {
+            "x": 211.7000732421875,
+            "y": 465.47900390625,
+            "width": 18.6561279296875,
+            "height": 18.656005859375,
+            "top": 465.47900390625,
+            "right": 230.356201171875,
+            "bottom": 484.135009765625,
+            "left": 211.7000732421875
+          },
+          {
+            "x": 176.4017333984375,
+            "y": 396.82672119140625,
+            "width": 15.7464599609375,
+            "height": 15.74652099609375,
+            "top": 396.82672119140625,
+            "right": 192.148193359375,
+            "bottom": 412.5732421875,
+            "left": 176.4017333984375
+          }
+        ]
+      },
+      "isolatedPostCompletionFixture": {
+        "frame": {
+          "x": 137.25,
+          "y": 442.0234069824219,
+          "width": 85.5,
+          "height": 85.50003051757812,
+          "top": 442.0234069824219,
+          "right": 222.75,
+          "bottom": 527.5234375,
+          "left": 137.25
+        },
+        "panel": {
+          "x": 10,
+          "y": 10,
+          "width": 340,
+          "height": 230.546875,
+          "top": 10,
+          "right": 350,
+          "bottom": 240.546875,
+          "left": 10
+        },
+        "dock": {
+          "x": 0,
+          "y": 721,
+          "width": 360,
+          "height": 79,
+          "top": 721,
+          "right": 360,
+          "bottom": 800,
+          "left": 0
+        },
+        "camera": {
+          "x": 1248,
+          "y": 566,
+          "scale": 0.95,
+          "fitScale": 0.225,
+          "coverScale": 0.5249479166666666,
+          "overview": false,
+          "restored": false,
+          "viewport": {
+            "width": 360,
+            "height": 800
+          },
+          "world": {
+            "width": 1600,
+            "height": 900
+          },
+          "defaultFocusScale": 0.95,
+          "outerBounds": {
+            "left": 0,
+            "top": 0,
+            "right": 1600,
+            "bottom": 900,
+            "width": 1600,
+            "height": 900
+          },
+          "safeInsets": {
+            "top": 248.546875,
+            "right": 0,
+            "bottom": 79,
+            "left": 0
+          },
+          "visibleViewport": {
+            "left": 0,
+            "top": 248.546875,
+            "width": 360,
+            "height": 472.453125,
+            "right": 360,
+            "bottom": 721,
+            "centerX": 180,
+            "centerY": 484.7734375
+          },
+          "canReturn": false,
+          "overviewExplicit": false,
+          "offsetX": -1005.5999999999999,
+          "offsetY": -52.92656249999993
+        },
+        "marks": [
+          {
+            "x": 133.948974609375,
+            "y": 447.2724304199219,
+            "width": 23.7020263671875,
+            "height": 23.701995849609375,
+            "top": 447.2724304199219,
+            "right": 157.6510009765625,
+            "bottom": 470.97442626953125,
+            "left": 133.948974609375
+          },
+          {
+            "x": 155.197509765625,
+            "y": 435.1669921875,
+            "width": 18.819091796875,
+            "height": 18.819091796875,
+            "top": 435.1669921875,
+            "right": 174.0166015625,
+            "bottom": 453.986083984375,
+            "left": 155.197509765625
+          }
+        ]
+      },
+      "fullCreatureAndAllVisibleMarksBetweenDialogueAndDock": true,
+      "temporaryTopInsetClearedOnClose": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "freshBeforeReading": {
+        "frame": {
+          "x": 466.8499755859375,
+          "y": 191.99996948242188,
+          "width": 85.5,
+          "height": 85.50003051757812,
+          "top": 191.99996948242188,
+          "right": 552.3499755859375,
+          "bottom": 277.5,
+          "left": 466.8499755859375
+        },
+        "panel": {
+          "x": 14,
+          "y": 8,
+          "width": 816,
+          "height": 128.6875,
+          "top": 8,
+          "right": 830,
+          "bottom": 136.6875,
+          "left": 14
+        },
+        "dock": {
+          "x": 0,
+          "y": 324.8125,
+          "width": 844,
+          "height": 65.1875,
+          "top": 324.8125,
+          "right": 844,
+          "bottom": 390,
+          "left": 0
+        },
+        "camera": {
+          "x": 1155.7894736842104,
+          "y": 566,
+          "scale": 0.95,
+          "fitScale": 0.2001388888888889,
+          "coverScale": 0.5275,
+          "overview": false,
+          "restored": false,
+          "viewport": {
+            "width": 844,
+            "height": 390
+          },
+          "world": {
+            "width": 1600,
+            "height": 900
+          },
+          "defaultFocusScale": 0.95,
+          "outerBounds": {
+            "left": 0,
+            "top": 0,
+            "right": 1600,
+            "bottom": 900,
+            "width": 1600,
+            "height": 900
+          },
+          "safeInsets": {
+            "top": 144.6875,
+            "right": 0,
+            "bottom": 65.1875,
+            "left": 0
+          },
+          "visibleViewport": {
+            "left": 0,
+            "top": 144.6875,
+            "width": 844,
+            "height": 180.125,
+            "right": 844,
+            "bottom": 324.8125,
+            "centerX": 422,
+            "centerY": 234.75
+          },
+          "canReturn": false,
+          "overviewExplicit": false,
+          "offsetX": -675.9999999999998,
+          "offsetY": -302.94999999999993
+        },
+        "marks": [
+          {
+            "x": 463.5489501953125,
+            "y": 197.24899291992188,
+            "width": 23.7020263671875,
+            "height": 23.701995849609375,
+            "top": 197.24899291992188,
+            "right": 487.2509765625,
+            "bottom": 220.95098876953125,
+            "left": 463.5489501953125
+          },
+          {
+            "x": 484.7974853515625,
+            "y": 185.1435546875,
+            "width": 18.819091796875,
+            "height": 18.819091796875,
+            "top": 185.1435546875,
+            "right": 503.6165771484375,
+            "bottom": 203.962646484375,
+            "left": 484.7974853515625
+          },
+          {
+            "x": 515.545166015625,
+            "y": 180.8450927734375,
+            "width": 22.3096923828125,
+            "height": 22.309783935546875,
+            "top": 180.8450927734375,
+            "right": 537.8548583984375,
+            "bottom": 203.15487670898438,
+            "left": 515.545166015625
+          },
+          {
+            "x": 540.0858154296875,
+            "y": 201.95681762695312,
+            "width": 19.3924560546875,
+            "height": 19.392547607421875,
+            "top": 201.95681762695312,
+            "right": 559.478271484375,
+            "bottom": 221.349365234375,
+            "left": 540.0858154296875
+          },
+          {
+            "x": 463.1612548828125,
+            "y": 238.76519775390625,
+            "width": 17.61962890625,
+            "height": 17.61956787109375,
+            "top": 238.76519775390625,
+            "right": 480.7808837890625,
+            "bottom": 256.384765625,
+            "left": 463.1612548828125
+          },
+          {
+            "x": 541.300048828125,
+            "y": 244.22900390625,
+            "width": 18.6561279296875,
+            "height": 18.656005859375,
+            "top": 244.22900390625,
+            "right": 559.9561767578125,
+            "bottom": 262.885009765625,
+            "left": 541.300048828125
+          },
+          {
+            "x": 506.001708984375,
+            "y": 175.57672119140625,
+            "width": 15.7464599609375,
+            "height": 15.74652099609375,
+            "top": 175.57672119140625,
+            "right": 521.7481689453125,
+            "bottom": 191.3232421875,
+            "left": 506.001708984375
+          }
+        ]
+      },
+      "isolatedPostCompletionFixture": {
+        "frame": {
+          "x": 466.8499755859375,
+          "y": 205.94528198242188,
+          "width": 85.5,
+          "height": 85.50003051757812,
+          "top": 205.94528198242188,
+          "right": 552.3499755859375,
+          "bottom": 291.4453125,
+          "left": 466.8499755859375
+        },
+        "panel": {
+          "x": 14,
+          "y": 8,
+          "width": 816,
+          "height": 156.578125,
+          "top": 8,
+          "right": 830,
+          "bottom": 164.578125,
+          "left": 14
+        },
+        "dock": {
+          "x": 0,
+          "y": 324.8125,
+          "width": 844,
+          "height": 65.1875,
+          "top": 324.8125,
+          "right": 844,
+          "bottom": 390,
+          "left": 0
+        },
+        "camera": {
+          "x": 1155.7894736842104,
+          "y": 566,
+          "scale": 0.95,
+          "fitScale": 0.16914930555555555,
+          "coverScale": 0.5275,
+          "overview": false,
+          "restored": false,
+          "viewport": {
+            "width": 844,
+            "height": 390
+          },
+          "world": {
+            "width": 1600,
+            "height": 900
+          },
+          "defaultFocusScale": 0.95,
+          "outerBounds": {
+            "left": 0,
+            "top": 0,
+            "right": 1600,
+            "bottom": 900,
+            "width": 1600,
+            "height": 900
+          },
+          "safeInsets": {
+            "top": 172.578125,
+            "right": 0,
+            "bottom": 65.1875,
+            "left": 0
+          },
+          "visibleViewport": {
+            "left": 0,
+            "top": 172.578125,
+            "width": 844,
+            "height": 152.234375,
+            "right": 844,
+            "bottom": 324.8125,
+            "centerX": 422,
+            "centerY": 248.6953125
+          },
+          "canReturn": false,
+          "overviewExplicit": false,
+          "offsetX": -675.9999999999998,
+          "offsetY": -289.00468749999993
+        },
+        "marks": [
+          {
+            "x": 463.5489501953125,
+            "y": 211.19430541992188,
+            "width": 23.7020263671875,
+            "height": 23.701995849609375,
+            "top": 211.19430541992188,
+            "right": 487.2509765625,
+            "bottom": 234.89630126953125,
+            "left": 463.5489501953125
+          },
+          {
+            "x": 484.7974853515625,
+            "y": 199.0888671875,
+            "width": 18.819091796875,
+            "height": 18.819091796875,
+            "top": 199.0888671875,
+            "right": 503.6165771484375,
+            "bottom": 217.907958984375,
+            "left": 484.7974853515625
+          }
+        ]
+      },
+      "fullCreatureAndAllVisibleMarksBetweenDialogueAndDock": true,
+      "temporaryTopInsetClearedOnClose": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "freshBeforeReading": {
+        "frame": {
+          "x": 390.8499755859375,
+          "y": 584.949951171875,
+          "width": 85.5,
+          "height": 85.50006103515625,
+          "top": 584.949951171875,
+          "right": 476.3499755859375,
+          "bottom": 670.4500122070312,
+          "left": 390.8499755859375
+        },
+        "panel": {
+          "x": 14,
+          "y": 14,
+          "width": 740,
+          "height": 175,
+          "top": 14,
+          "right": 754,
+          "bottom": 189,
+          "left": 14
+        },
+        "dock": {
+          "x": 0,
+          "y": 945,
+          "width": 768,
+          "height": 79,
+          "top": 945,
+          "right": 768,
+          "bottom": 1024,
+          "left": 0
+        },
+        "camera": {
+          "x": 1195.7894736842104,
+          "y": 506.3157894736842,
+          "scale": 0.95,
+          "fitScale": 0.48,
+          "coverScale": 0.8311111111111111,
+          "overview": false,
+          "restored": false,
+          "viewport": {
+            "width": 768,
+            "height": 1024
+          },
+          "world": {
+            "width": 1600,
+            "height": 900
+          },
+          "defaultFocusScale": 0.95,
+          "outerBounds": {
+            "left": 0,
+            "top": 0,
+            "right": 1600,
+            "bottom": 900,
+            "width": 1600,
+            "height": 900
+          },
+          "safeInsets": {
+            "top": 197,
+            "right": 0,
+            "bottom": 79,
+            "left": 0
+          },
+          "visibleViewport": {
+            "left": 0,
+            "top": 197,
+            "width": 768,
+            "height": 748,
+            "right": 768,
+            "bottom": 945,
+            "centerX": 384,
+            "centerY": 571
+          },
+          "canReturn": false,
+          "overviewExplicit": false,
+          "offsetX": -751.9999999999998,
+          "offsetY": 90
+        },
+        "marks": [
+          {
+            "x": 387.5489501953125,
+            "y": 590.198974609375,
+            "width": 23.7020263671875,
+            "height": 23.7020263671875,
+            "top": 590.198974609375,
+            "right": 411.2509765625,
+            "bottom": 613.9010009765625,
+            "left": 387.5489501953125
+          },
+          {
+            "x": 408.7974853515625,
+            "y": 578.0935668945312,
+            "width": 18.819091796875,
+            "height": 18.819091796875,
+            "top": 578.0935668945312,
+            "right": 427.6165771484375,
+            "bottom": 596.9126586914062,
+            "left": 408.7974853515625
+          },
+          {
+            "x": 439.545166015625,
+            "y": 573.7951049804688,
+            "width": 22.3096923828125,
+            "height": 22.30975341796875,
+            "top": 573.7951049804688,
+            "right": 461.8548583984375,
+            "bottom": 596.1048583984375,
+            "left": 439.545166015625
+          },
+          {
+            "x": 464.0858154296875,
+            "y": 594.9068603515625,
+            "width": 19.3924560546875,
+            "height": 19.39251708984375,
+            "top": 594.9068603515625,
+            "right": 483.478271484375,
+            "bottom": 614.2993774414062,
+            "left": 464.0858154296875
+          },
+          {
+            "x": 387.1612548828125,
+            "y": 631.7152099609375,
+            "width": 17.61962890625,
+            "height": 17.61956787109375,
+            "top": 631.7152099609375,
+            "right": 404.7808837890625,
+            "bottom": 649.3347778320312,
+            "left": 387.1612548828125
+          },
+          {
+            "x": 465.300048828125,
+            "y": 637.1790161132812,
+            "width": 18.6561279296875,
+            "height": 18.656005859375,
+            "top": 637.1790161132812,
+            "right": 483.9561767578125,
+            "bottom": 655.8350219726562,
+            "left": 465.300048828125
+          },
+          {
+            "x": 430.001708984375,
+            "y": 568.5267333984375,
+            "width": 15.7464599609375,
+            "height": 15.74652099609375,
+            "top": 568.5267333984375,
+            "right": 445.7481689453125,
+            "bottom": 584.2732543945312,
+            "left": 430.001708984375
+          }
+        ]
+      },
+      "isolatedPostCompletionFixture": {
+        "frame": {
+          "x": 390.8499755859375,
+          "y": 584.949951171875,
+          "width": 85.5,
+          "height": 85.50006103515625,
+          "top": 584.949951171875,
+          "right": 476.3499755859375,
+          "bottom": 670.4500122070312,
+          "left": 390.8499755859375
+        },
+        "panel": {
+          "x": 14,
+          "y": 14,
+          "width": 740,
+          "height": 184.78125,
+          "top": 14,
+          "right": 754,
+          "bottom": 198.78125,
+          "left": 14
+        },
+        "dock": {
+          "x": 0,
+          "y": 945,
+          "width": 768,
+          "height": 79,
+          "top": 945,
+          "right": 768,
+          "bottom": 1024,
+          "left": 0
+        },
+        "camera": {
+          "x": 1195.7894736842104,
+          "y": 511.46381578947364,
+          "scale": 0.95,
+          "fitScale": 0.48,
+          "coverScale": 0.8202430555555555,
+          "overview": false,
+          "restored": false,
+          "viewport": {
+            "width": 768,
+            "height": 1024
+          },
+          "world": {
+            "width": 1600,
+            "height": 900
+          },
+          "defaultFocusScale": 0.95,
+          "outerBounds": {
+            "left": 0,
+            "top": 0,
+            "right": 1600,
+            "bottom": 900,
+            "width": 1600,
+            "height": 900
+          },
+          "safeInsets": {
+            "top": 206.78125,
+            "right": 0,
+            "bottom": 79,
+            "left": 0
+          },
+          "visibleViewport": {
+            "left": 0,
+            "top": 206.78125,
+            "width": 768,
+            "height": 738.21875,
+            "right": 768,
+            "bottom": 945,
+            "centerX": 384,
+            "centerY": 575.890625
+          },
+          "canReturn": false,
+          "overviewExplicit": false,
+          "offsetX": -751.9999999999998,
+          "offsetY": 90.00000000000006
+        },
+        "marks": [
+          {
+            "x": 387.5489501953125,
+            "y": 590.198974609375,
+            "width": 23.7020263671875,
+            "height": 23.7020263671875,
+            "top": 590.198974609375,
+            "right": 411.2509765625,
+            "bottom": 613.9010009765625,
+            "left": 387.5489501953125
+          },
+          {
+            "x": 408.7974853515625,
+            "y": 578.0935668945312,
+            "width": 18.819091796875,
+            "height": 18.819091796875,
+            "top": 578.0935668945312,
+            "right": 427.6165771484375,
+            "bottom": 596.9126586914062,
+            "left": 408.7974853515625
+          }
+        ]
+      },
+      "fullCreatureAndAllVisibleMarksBetweenDialogueAndDock": true,
+      "temporaryTopInsetClearedOnClose": true
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "freshBeforeReading": {
+        "frame": {
+          "x": 646.8499755859375,
+          "y": 400.25,
+          "width": 85.5,
+          "height": 85.5,
+          "top": 400.25,
+          "right": 732.3499755859375,
+          "bottom": 485.75,
+          "left": 646.8499755859375
+        },
+        "panel": {
+          "x": 62,
+          "y": 14,
+          "width": 900,
+          "height": 175,
+          "top": 14,
+          "right": 962,
+          "bottom": 189,
+          "left": 62
+        },
+        "dock": {
+          "x": 0,
+          "y": 689,
+          "width": 1024,
+          "height": 79,
+          "top": 689,
+          "right": 1024,
+          "bottom": 768,
+          "left": 0
+        },
+        "camera": {
+          "x": 1061.0526315789475,
+          "y": 566,
+          "scale": 0.95,
+          "fitScale": 0.5466666666666666,
+          "coverScale": 0.64,
+          "overview": false,
+          "restored": false,
+          "viewport": {
+            "width": 1024,
+            "height": 768
+          },
+          "world": {
+            "width": 1600,
+            "height": 900
+          },
+          "defaultFocusScale": 0.95,
+          "outerBounds": {
+            "left": 0,
+            "top": 0,
+            "right": 1600,
+            "bottom": 900,
+            "width": 1600,
+            "height": 900
+          },
+          "safeInsets": {
+            "top": 197,
+            "right": 0,
+            "bottom": 79,
+            "left": 0
+          },
+          "visibleViewport": {
+            "left": 0,
+            "top": 197,
+            "width": 1024,
+            "height": 492,
+            "right": 1024,
+            "bottom": 689,
+            "centerX": 512,
+            "centerY": 443
+          },
+          "canReturn": false,
+          "overviewExplicit": false,
+          "offsetX": -496.0000000000001,
+          "offsetY": -94.69999999999993
+        },
+        "marks": [
+          {
+            "x": 643.5489501953125,
+            "y": 405.4990234375,
+            "width": 23.7020263671875,
+            "height": 23.70196533203125,
+            "top": 405.4990234375,
+            "right": 667.2509765625,
+            "bottom": 429.20098876953125,
+            "left": 643.5489501953125
+          },
+          {
+            "x": 664.7974853515625,
+            "y": 393.3935546875,
+            "width": 18.819091796875,
+            "height": 18.819091796875,
+            "top": 393.3935546875,
+            "right": 683.6165771484375,
+            "bottom": 412.212646484375,
+            "left": 664.7974853515625
+          },
+          {
+            "x": 695.545166015625,
+            "y": 389.0950927734375,
+            "width": 22.3096923828125,
+            "height": 22.309814453125,
+            "top": 389.0950927734375,
+            "right": 717.8548583984375,
+            "bottom": 411.4049072265625,
+            "left": 695.545166015625
+          },
+          {
+            "x": 720.0858154296875,
+            "y": 410.20684814453125,
+            "width": 19.3924560546875,
+            "height": 19.39251708984375,
+            "top": 410.20684814453125,
+            "right": 739.478271484375,
+            "bottom": 429.599365234375,
+            "left": 720.0858154296875
+          },
+          {
+            "x": 643.1612548828125,
+            "y": 447.01519775390625,
+            "width": 17.61962890625,
+            "height": 17.61956787109375,
+            "top": 447.01519775390625,
+            "right": 660.7808837890625,
+            "bottom": 464.634765625,
+            "left": 643.1612548828125
+          },
+          {
+            "x": 721.300048828125,
+            "y": 452.47900390625,
+            "width": 18.6561279296875,
+            "height": 18.656005859375,
+            "top": 452.47900390625,
+            "right": 739.9561767578125,
+            "bottom": 471.135009765625,
+            "left": 721.300048828125
+          },
+          {
+            "x": 686.001708984375,
+            "y": 383.82672119140625,
+            "width": 15.7464599609375,
+            "height": 15.74652099609375,
+            "top": 383.82672119140625,
+            "right": 701.7481689453125,
+            "bottom": 399.5732421875,
+            "left": 686.001708984375
+          }
+        ]
+      },
+      "isolatedPostCompletionFixture": {
+        "frame": {
+          "x": 646.8499755859375,
+          "y": 405.140625,
+          "width": 85.5,
+          "height": 85.5,
+          "top": 405.140625,
+          "right": 732.3499755859375,
+          "bottom": 490.640625,
+          "left": 646.8499755859375
+        },
+        "panel": {
+          "x": 62,
+          "y": 14,
+          "width": 900,
+          "height": 184.78125,
+          "top": 14,
+          "right": 962,
+          "bottom": 198.78125,
+          "left": 62
+        },
+        "dock": {
+          "x": 0,
+          "y": 689,
+          "width": 1024,
+          "height": 79,
+          "top": 689,
+          "right": 1024,
+          "bottom": 768,
+          "left": 0
+        },
+        "camera": {
+          "x": 1061.0526315789475,
+          "y": 566,
+          "scale": 0.95,
+          "fitScale": 0.5357986111111112,
+          "coverScale": 0.64,
+          "overview": false,
+          "restored": false,
+          "viewport": {
+            "width": 1024,
+            "height": 768
+          },
+          "world": {
+            "width": 1600,
+            "height": 900
+          },
+          "defaultFocusScale": 0.95,
+          "outerBounds": {
+            "left": 0,
+            "top": 0,
+            "right": 1600,
+            "bottom": 900,
+            "width": 1600,
+            "height": 900
+          },
+          "safeInsets": {
+            "top": 206.78125,
+            "right": 0,
+            "bottom": 79,
+            "left": 0
+          },
+          "visibleViewport": {
+            "left": 0,
+            "top": 206.78125,
+            "width": 1024,
+            "height": 482.21875,
+            "right": 1024,
+            "bottom": 689,
+            "centerX": 512,
+            "centerY": 447.890625
+          },
+          "canReturn": false,
+          "overviewExplicit": false,
+          "offsetX": -496.0000000000001,
+          "offsetY": -89.80937499999993
+        },
+        "marks": [
+          {
+            "x": 643.5489501953125,
+            "y": 410.3896484375,
+            "width": 23.7020263671875,
+            "height": 23.70196533203125,
+            "top": 410.3896484375,
+            "right": 667.2509765625,
+            "bottom": 434.09161376953125,
+            "left": 643.5489501953125
+          },
+          {
+            "x": 664.7974853515625,
+            "y": 398.2841796875,
+            "width": 18.819091796875,
+            "height": 18.819091796875,
+            "top": 398.2841796875,
+            "right": 683.6165771484375,
+            "bottom": 417.103271484375,
+            "left": 664.7974853515625
+          }
+        ]
+      },
+      "fullCreatureAndAllVisibleMarksBetweenDialogueAndDock": true,
+      "temporaryTopInsetClearedOnClose": true
+    }
+  ]
+}

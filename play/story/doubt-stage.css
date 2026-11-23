@@ -1,0 +1,36 @@
+/* All map scenery remains inside the same 1600×900 camera transform. */
+.doubt-stage{position:absolute;z-index:4;width:90px;height:90px;transform:translate(-50%,-50%);pointer-events:none;user-select:none;isolation:isolate}
+.doubt-stage[hidden]{display:none}
+.doubt-stage__creature{position:absolute;inset:0;z-index:1;display:block;width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 3px 3px #233f5166);opacity:1;transform:translate(0,0);transition:opacity .8s ease,transform 1.4s ease}
+.doubt-stage__mist{position:absolute;z-index:0;left:-25%;top:5%;width:150%;height:110%;border-radius:50%;background:radial-gradient(ellipse,#e3eaf3d9 0%,#d5dfed88 35%,#dce7f136 58%,transparent 73%);opacity:0;transform:translate(0,0);filter:blur(4px);transition:opacity .7s ease,transform 1.4s ease}
+.story-doubt-mark{position:absolute;z-index:2;left:var(--mark-x,50%);top:var(--mark-y,0%);display:block;pointer-events:none;color:#ffe28b;font:800 18px/1 Georgia,"Noto Serif TC",serif;text-shadow:-1px -1px 0 #85632e,1px -1px 0 #85632e,-1px 1px 0 #85632e,1px 1px 0 #85632e,0 0 7px #ffdb7d9c;opacity:1;transform:translate(-50%,-50%) rotate(var(--mark-angle,0deg)) scale(var(--mark-size,1));transition:opacity .65s ease,transform .9s ease}
+.doubt-stage[data-doubt-state="waiting"] .story-doubt-mark{animation:doubt-mark-glow 3s ease-in-out infinite alternate}
+.doubt-stage[data-doubt-state="waiting"] .story-doubt-mark:nth-of-type(even){animation-delay:-1.5s}
+.doubt-stage[data-doubt-state="thinning"] .story-doubt-mark{opacity:0;transform:translate(-50%,-80%) rotate(var(--mark-angle,0deg)) scale(.25)}
+.doubt-stage[data-doubt-state="thinning"] .story-doubt-mark:is([data-doubt-mark="1"],[data-doubt-mark="2"]){opacity:1;transform:translate(-50%,-50%) rotate(var(--mark-angle,0deg)) scale(var(--mark-size,1))}
+.doubt-stage[data-doubt-state="thinning"] .story-doubt-mark:not([data-doubt-mark="1"]):not([data-doubt-mark="2"]){animation:doubt-questions-thin .8s ease-out both}
+.doubt-stage[data-doubt-state="thinning"] .doubt-stage__mist{opacity:.25}
+.doubt-stage[data-doubt-state="receding"] .doubt-stage__creature{animation:doubt-retreat 1.4s ease-in forwards}
+.doubt-stage[data-doubt-state="receding"] .doubt-stage__mist{animation:doubt-mist-retreat 1.4s ease-out forwards}
+.doubt-stage[data-doubt-state="receding"] .story-doubt-mark{opacity:0;transform:translate(-50%,-130%) rotate(var(--mark-angle,0deg)) scale(.15)}
+.wm-is-overview .doubt-stage{visibility:hidden}
+
+/* Dialogue portraits use the same HTML marks; the image itself stays uncut. */
+.story-dialogue__portrait:not([data-story-actor="doubt"]) .story-doubt-mark{display:none}
+.story-dialogue__portrait[data-story-actor="doubt"]{position:relative;overflow:visible}
+.story-dialogue__portrait[data-story-actor="doubt"] .story-doubt-mark{font-size:clamp(16px,2.2vw,26px)}
+.story-dialogue__portrait[data-story-actor="doubt"] .story-doubt-mark:nth-of-type(1){--mark-x:10%;--mark-y:20%;--mark-angle:-18deg}
+.story-dialogue__portrait[data-story-actor="doubt"] .story-doubt-mark:nth-of-type(2){--mark-x:32%;--mark-y:3%;--mark-angle:-10deg}
+.story-dialogue__portrait[data-story-actor="doubt"] .story-doubt-mark:nth-of-type(3){--mark-x:70%;--mark-y:0%;--mark-angle:12deg}
+.story-dialogue__portrait[data-story-actor="doubt"] .story-doubt-mark:nth-of-type(4){--mark-x:97%;--mark-y:23%;--mark-angle:18deg}
+.story-dialogue__portrait[data-story-actor="doubt"] .story-doubt-mark:nth-of-type(5){--mark-x:6%;--mark-y:65%;--mark-angle:-14deg}
+.story-dialogue__portrait[data-story-actor="doubt"] .story-doubt-mark:nth-of-type(6){--mark-x:98%;--mark-y:72%;--mark-angle:14deg}
+
+@keyframes doubt-mark-glow{from{filter:brightness(.95)}to{filter:brightness(1.15)}}
+@keyframes doubt-questions-thin{from{opacity:1;transform:translate(-50%,-50%) rotate(var(--mark-angle,0deg)) scale(var(--mark-size,1))}to{opacity:0;transform:translate(-50%,-80%) rotate(var(--mark-angle,0deg)) scale(.25)}}
+@keyframes doubt-retreat{0%{opacity:1;transform:translate(0,0)}60%{opacity:.45}100%{opacity:0;transform:translate(24px,-13px) scale(.84)}}
+@keyframes doubt-mist-retreat{0%{opacity:.25;transform:translate(0,0)}40%{opacity:.75}100%{opacity:0;transform:translate(25px,-14px) scale(1.22)}}
+@media(prefers-reduced-motion:reduce){
+ .doubt-stage__creature,.doubt-stage__mist,.story-doubt-mark{animation:none!important;transition:none!important}
+ .doubt-stage[data-doubt-state="receding"]{visibility:hidden}
+}

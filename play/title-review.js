@@ -1,6 +1,7 @@
 import {store,SESSION_FALLBACK_KEY} from './collection/store.js';
+import {clearFirstCompletionReceipt} from './story/completion-receipt.js?v=doubt-1';
 import {routeMetadata} from './route/metadata.js';
-import {storyStore} from './story/store.js?v=prologue-1';
+import {storyStore} from './story/store.js?v=doubt-1';
 
 // Temporary author opt-in UI, not authentication or a game unlock mechanism.
 // Turn this off when the author-testing round ends; ordinary /game/ never
@@ -27,6 +28,7 @@ export function resetAuthorJourney() {
   }
   routeMetadata.reset();
   storyStore.reset();
+  if (!clearFirstCompletionReceipt()) failures.push('first-completion-receipt');
   // The title has not mounted a camera yet. Only the game's exact session
   // entries are removed; original readers and other site settings survive.
   for (const key of ['sutrazen.play.camera.v1', 'sutrazen.play.map-tip.v1']) {
