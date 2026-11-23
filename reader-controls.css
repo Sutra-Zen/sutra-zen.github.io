@@ -191,3 +191,19 @@ body.reader-unified-controls .page.reader-stable-artwork :is(#caption,#reader-su
 }
 
 body.reader-unified-controls .page.reader-stable-artwork #reader-summary-caption #summary-text {margin:0;padding:0}
+
+/* The narration band has one appearance regardless of storyboard ink flags. */
+body.reader-unified-controls .page .scene :is(#caption,#caption-sizer,#reader-summary-caption) {
+  background:#1e1e1e;color:#fffdf8;
+}
+/* Center the title and vertical scripture together without shrinking columns. */
+body.reader-unified-controls .page.reader-framed-heart .verse-body {
+  display:flex;justify-content:flex-start;align-items:flex-start;
+}
+body.reader-unified-controls .page.reader-framed-heart .verse-body > :is(#page-title,#verse) {flex:0 0 auto}
+body.reader-unified-controls .page.reader-framed-heart.reader-heart-fits .verse-body {
+  justify-content:center;
+}
+body.reader-unified-controls .page.reader-framed-ending .scene {
+  background:#1e1e1e;color:#fffdf8;
+}

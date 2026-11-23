@@ -1,6 +1,13 @@
 # SutraZen project context
 
 
+## Current adaptive Heart Sutra and dark narration (2026-11-24)
+
+The [dark narration / centered Heart Sutra round](readers/dark-heart/README.md) starts from published PR79 `47e4b6ef5c7f51c9aba4766c6bc25eaa790cc239`. The original title and vertical scripture are centered as a group when they fit; narrow layouts retain their right-to-left start and full horizontal scrolling. The original font, emphasis, frame and manuscript stay intact. All fourteen public/game narration bands and text closings share opaque #1e1e1e with light text, overriding historical light subtitle flags without changing source data or artwork lettering.
+
+Shared runtime/cache dark-heart-1, existing no-frame entry preserved, generated game shell and 30-member Seven Factors offline ZIP synchronized. Original readers/data/art/eligibility/storage/SEO/Google and legacy main:/ remain; 25 QA directories excluded. Exact release proof belongs to the PR; physical Safari is untested.
+
+
 ## Current stable artwork and aligned text readers (2026-11-23)
 
 The [shared reader framing round](readers/stable-artwork/README.md) starts from published PR77 `3a72b2e33a086714ce30cd80fbebb3ab641d0dc3`. All fourteen public/game readers share the same illustration height, independent of one/two-line narration or scripture. Natural-ratio frames retain overlays and focus masks; actual control bounds and safe areas reserve text gutters. Landscape long text scrolls inside fixed bands; portrait text stays a full scrolling document. Heart Sutra pages use the previous/common picture frame and aligned caption while preserving vertical text; text closings keep full sections/tables at a consistent top.

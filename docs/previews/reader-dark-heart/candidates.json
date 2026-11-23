@@ -1,0 +1,2371 @@
+{
+  "auditType": "Read-only static candidate discovery; not final browser verification",
+  "sourceCommit": "47e4b6ef5c7f51c9aba4766c6bc25eaa790cc239",
+  "branch": "fix/reader-dark-heart-center",
+  "selectionSource": "docs/previews/reader-stable-artwork/selection.json",
+  "indexConvention": "All indices zero-based reading steps; Seven Factors requires pageArg plus cueArg.",
+  "noBrowserFinalClaim": true,
+  "devicesProposed": [
+    [
+      1280,
+      900
+    ],
+    [
+      360,
+      800
+    ],
+    [
+      844,
+      390
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      2048,
+      1115
+    ]
+  ],
+  "modesProposed": [
+    "public",
+    "ordered",
+    "review"
+  ],
+  "selectors": {
+    "caption": "#caption; #narration when present; exclude hidden #caption-sizer/.caption-sizer",
+    "heartFrame": ".page.reader-framed-heart .scripture",
+    "heartScrollContainer": ".heart-scene .verse-body",
+    "heartTitle": "#page-title",
+    "heartVerse": "#verse",
+    "heartEmphasis": "#verse .verse-highlight",
+    "nativeNext": "#next",
+    "nativePrevious": "#previous",
+    "gameReviewReturn": ".collection-reader-return"
+  },
+  "books": {
+    "four-truths": {
+      "steps": 29,
+      "api": "showPage(index)",
+      "normalCaptionCandidates": [
+        {
+          "index": 0,
+          "pageArg": 0,
+          "cueArg": null,
+          "scene": 0,
+          "title": "森林與象足印",
+          "captionChars": 45,
+          "captionParagraphs": 2,
+          "verseChars": 94,
+          "special": []
+        },
+        {
+          "index": 18,
+          "pageArg": 18,
+          "cueArg": null,
+          "scene": 6,
+          "title": "滅諦 · 草地與彩虹",
+          "captionChars": 24,
+          "captionParagraphs": 1,
+          "verseChars": 49,
+          "special": []
+        },
+        {
+          "index": 17,
+          "pageArg": 17,
+          "cueArg": null,
+          "scene": 6,
+          "title": "滅諦 · 草地與彩虹",
+          "captionChars": 45,
+          "captionParagraphs": 2,
+          "verseChars": 49,
+          "special": []
+        }
+      ],
+      "rawInkFlagRule": "No per-page ink flag; default light ink on dark narration band.",
+      "rawInkFlagIndices": {},
+      "rawInkFlagRanges": {
+        "white-default": [
+          "0–28"
+        ]
+      },
+      "inkFlagTransitions": [],
+      "illustratedSummaryIndices": [],
+      "lastIllustratedCandidate": {
+        "index": 22,
+        "pageArg": 22,
+        "cueArg": null,
+        "scene": 8,
+        "title": "系列繪本影片畫面",
+        "captionChars": 50,
+        "captionParagraphs": 2,
+        "verseChars": 156,
+        "special": [
+          "document-scene"
+        ]
+      },
+      "textEndingCandidates": [
+        {
+          "index": 28,
+          "pageArg": 28,
+          "cueArg": null,
+          "scene": 10,
+          "title": "片尾 · 製作說明",
+          "captionChars": 0,
+          "captionParagraphs": 0,
+          "verseChars": 130,
+          "special": [
+            "no-image",
+            "document-scene"
+          ]
+        }
+      ],
+      "heartCandidates": [
+        {
+          "index": 23,
+          "pageArg": 23,
+          "cueArg": null,
+          "scene": 9,
+          "title": "般若波羅蜜多心經",
+          "captionChars": 56,
+          "captionParagraphs": 2,
+          "verseChars": 319,
+          "special": [
+            "no-image",
+            "document-scene",
+            "heart"
+          ]
+        },
+        {
+          "index": 24,
+          "pageArg": 24,
+          "cueArg": null,
+          "scene": 9,
+          "title": "般若波羅蜜多心經",
+          "captionChars": 52,
+          "captionParagraphs": 2,
+          "verseChars": 319,
+          "special": [
+            "no-image",
+            "document-scene",
+            "heart"
+          ]
+        },
+        {
+          "index": 25,
+          "pageArg": 25,
+          "cueArg": null,
+          "scene": 9,
+          "title": "般若波羅蜜多心經",
+          "captionChars": 40,
+          "captionParagraphs": 2,
+          "verseChars": 319,
+          "special": [
+            "no-image",
+            "document-scene",
+            "heart"
+          ]
+        },
+        {
+          "index": 26,
+          "pageArg": 26,
+          "cueArg": null,
+          "scene": 9,
+          "title": "般若波羅蜜多心經",
+          "captionChars": 45,
+          "captionParagraphs": 2,
+          "verseChars": 319,
+          "special": [
+            "no-image",
+            "document-scene",
+            "heart"
+          ]
+        },
+        {
+          "index": 27,
+          "pageArg": 27,
+          "cueArg": null,
+          "scene": 9,
+          "title": "般若波羅蜜多心經",
+          "captionChars": 31,
+          "captionParagraphs": 1,
+          "verseChars": 319,
+          "special": [
+            "no-image",
+            "document-scene",
+            "heart"
+          ]
+        }
+      ],
+      "captionFlagNote": "Black CSS declaration may exist in later templates but renderer does not set captionColor and source data has no topSubtitleLayout black flag; do not invent black-flag coverage.",
+      "heartStructure": {
+        "nativeEntry": {
+          "showBefore": {
+            "index": 22,
+            "pageArg": 22,
+            "cueArg": null,
+            "scene": 8,
+            "title": "系列繪本影片畫面",
+            "captionChars": 50,
+            "captionParagraphs": 2,
+            "verseChars": 156,
+            "special": [
+              "document-scene"
+            ]
+          },
+          "clickNextTo": 23
+        },
+        "allCueIndices": [
+          23,
+          24,
+          25,
+          26,
+          27
+        ],
+        "titleText": "般若波羅蜜多心經",
+        "titleDOM": "Renderer prepends the existing #page-title into .verse-body immediately before #verse; non-heart returns it to scenePanel.",
+        "titleAndVerseLayout": "Both siblings display:inline-block; vertical-align:top; writing-mode:vertical-rl; direction:ltr. Their shared scroll container uses direction:rtl and white-space:nowrap. Baseline has no wrapper grouping the pair.",
+        "baselineHeartFrame": "Shared reader-controls.css .reader-framed-heart .scripture keeps prior/common art-height × art-ratio, centered as a frame; .verse-body occupies its full inner width/height with overflow:auto. Centering the frame is separate from centering the actual title+verse group.",
+        "scrollSemantics": "Horizontal RTL scrolling only if actual columns exceed frame; preserve complete text, strong emphasis, native previous/next and original reading links.",
+        "verseChars": 319,
+        "verseSHA256": "53ef561bc24e21ed44cdae46161a50d4d226c857d844e3c50ead2b9ad1f8c5dd",
+        "highlight": "無苦集滅道。無智亦無得。以無所得故。",
+        "captionSizer": "Renderer grids all heart cue variants in #caption and hides inactive .caption-sizer variants; measure only active visible cue.",
+        "commonDefaultRatio": 1.8,
+        "nativeRatioRule": "Preserve last illustrated common canvas ratio when entering natively; direct heart default uses commonDefaultRatio."
+      },
+      "rawInkFlagCounts": {
+        "white-default": 29
+      },
+      "normalIllustratedInkFlagRanges": {
+        "white-default": [
+          {
+            "first": 0,
+            "last": 20,
+            "count": 21
+          }
+        ]
+      }
+    },
+    "five-aggregates": {
+      "steps": 54,
+      "api": "showPage(index)",
+      "normalCaptionCandidates": [
+        {
+          "index": 1,
+          "pageArg": 1,
+          "cueArg": null,
+          "scene": 1,
+          "title": "樹下說法・五受陰",
+          "captionChars": 20,
+          "captionParagraphs": 1,
+          "verseChars": 20,
+          "special": []
+        },
+        {
+          "index": 27,
+          "pageArg": 27,
+          "cueArg": null,
+          "scene": 8,
+          "title": "行受陰・控制台",
+          "captionChars": 21,
+          "captionParagraphs": 1,
+          "verseChars": 16,
+          "special": []
+        },
+        {
+          "index": 28,
+          "pageArg": 28,
+          "cueArg": null,
+          "scene": 8,
+          "title": "行受陰・控制台",
+          "captionChars": 56,
+          "captionParagraphs": 1,
+          "verseChars": 0,
+          "special": []
+        }
+      ],
+      "rawInkFlagRule": "No per-page ink flag; default light ink on dark narration band.",
+      "rawInkFlagIndices": {},
+      "rawInkFlagRanges": {
+        "white-default": [
+          "0–53"
+        ]
+      },
+      "inkFlagTransitions": [],
+      "illustratedSummaryIndices": [
+        50
+      ],
+      "lastIllustratedCandidate": {
+        "index": 50,
+        "pageArg": 50,
+        "cueArg": null,
+        "scene": 13,
+        "title": "星空總結・五受陰與放下",
+        "captionChars": 0,
+        "captionParagraphs": 0,
+        "verseChars": 0,
+        "special": [
+          "summary"
+        ]
+      },
+      "textEndingCandidates": [
+        {
+          "index": 53,
+          "pageArg": 53,
+          "cueArg": null,
+          "scene": 15,
+          "title": "片尾・製作說明",
+          "captionChars": 131,
+          "captionParagraphs": 5,
+          "verseChars": 0,
+          "special": [
+            "no-image"
+          ]
+        }
+      ],
+      "heartCandidates": [
+        {
+          "index": 51,
+          "pageArg": 51,
+          "cueArg": null,
+          "scene": 14,
+          "title": "般若波羅蜜多心經",
+          "captionChars": 25,
+          "captionParagraphs": 1,
+          "verseChars": 0,
+          "special": [
+            "heart",
+            "no-image"
+          ]
+        },
+        {
+          "index": 52,
+          "pageArg": 52,
+          "cueArg": null,
+          "scene": 14,
+          "title": "般若波羅蜜多心經",
+          "captionChars": 29,
+          "captionParagraphs": 1,
+          "verseChars": 0,
+          "special": [
+            "heart",
+            "no-image"
+          ]
+        }
+      ],
+      "captionFlagNote": "Black CSS declaration may exist in later templates but renderer does not set captionColor and source data has no topSubtitleLayout black flag; do not invent black-flag coverage.",
+      "heartStructure": {
+        "nativeEntry": {
+          "showBefore": {
+            "index": 50,
+            "pageArg": 50,
+            "cueArg": null,
+            "scene": 13,
+            "title": "星空總結・五受陰與放下",
+            "captionChars": 0,
+            "captionParagraphs": 0,
+            "verseChars": 0,
+            "special": [
+              "summary"
+            ]
+          },
+          "clickNextTo": 51
+        },
+        "allCueIndices": [
+          51,
+          52
+        ],
+        "titleText": "般若波羅蜜多心經",
+        "titleDOM": "Renderer prepends the existing #page-title into .verse-body immediately before #verse; non-heart returns it to scenePanel.",
+        "titleAndVerseLayout": "Both siblings display:inline-block; vertical-align:top; writing-mode:vertical-rl; direction:ltr. Their shared scroll container uses direction:rtl and white-space:nowrap. Baseline has no wrapper grouping the pair.",
+        "baselineHeartFrame": "Shared reader-controls.css .reader-framed-heart .scripture keeps prior/common art-height × art-ratio, centered as a frame; .verse-body occupies its full inner width/height with overflow:auto. Centering the frame is separate from centering the actual title+verse group.",
+        "scrollSemantics": "Horizontal RTL scrolling only if actual columns exceed frame; preserve complete text, strong emphasis, native previous/next and original reading links.",
+        "verseChars": 320,
+        "verseSHA256": "b239dd4a5f4fdab6530a8ac105fc3769e44dd57382d2dfde3473a7ef2783d773",
+        "highlight": "照見五蘊皆空。度一切苦厄。\n舍利子。色不異空。空不異色。色即是空。空即是色。受想行識。亦復如是。",
+        "captionSizer": "Renderer grids all heart cue variants in #caption and hides inactive .caption-sizer variants; measure only active visible cue.",
+        "commonDefaultRatio": 1.5,
+        "nativeRatioRule": "Preserve last illustrated common canvas ratio when entering natively; direct heart default uses commonDefaultRatio."
+      },
+      "textSpecialCandidates": [
+        {
+          "index": 0,
+          "pageArg": 0,
+          "cueArg": null,
+          "scene": 0,
+          "title": "片頭・我是誰？",
+          "captionChars": 194,
+          "captionParagraphs": 1,
+          "verseChars": 0,
+          "special": [
+            "no-image"
+          ]
+        },
+        {
+          "index": 53,
+          "pageArg": 53,
+          "cueArg": null,
+          "scene": 15,
+          "title": "片尾・製作說明",
+          "captionChars": 131,
+          "captionParagraphs": 5,
+          "verseChars": 0,
+          "special": [
+            "no-image"
+          ]
+        }
+      ],
+      "textIntroIndices": [
+        0
+      ],
+      "captionVisibilityExceptions": {
+        "50": "Illustrated summary uses #art-summary and may have no visible #caption; test summary copy separately, not as missing caption."
+      },
+      "rawInkFlagCounts": {
+        "white-default": 54
+      },
+      "normalIllustratedInkFlagRanges": {
+        "white-default": [
+          {
+            "first": 1,
+            "last": 49,
+            "count": 49
+          }
+        ]
+      }
+    },
+    "six-senses": {
+      "steps": 115,
+      "api": "showPage(index)",
+      "normalCaptionCandidates": [
+        {
+          "index": 1,
+          "pageArg": 1,
+          "cueArg": null,
+          "scene": 1,
+          "title": "六根、六境與六識",
+          "captionChars": 27,
+          "captionParagraphs": 1,
+          "verseChars": 44,
+          "special": []
+        },
+        {
+          "index": 66,
+          "pageArg": 66,
+          "cueArg": null,
+          "scene": 5,
+          "title": "舌處・草莓蛋糕",
+          "captionChars": 11,
+          "captionParagraphs": 1,
+          "verseChars": 45,
+          "special": []
+        },
+        {
+          "index": 60,
+          "pageArg": 60,
+          "cueArg": null,
+          "scene": 5,
+          "title": "舌處・草莓蛋糕",
+          "captionChars": 39,
+          "captionParagraphs": 1,
+          "verseChars": 60,
+          "special": []
+        }
+      ],
+      "rawInkFlagRule": "No per-page ink flag; default light ink on dark narration band.",
+      "rawInkFlagIndices": {},
+      "rawInkFlagRanges": {
+        "white-default": [
+          "0–114"
+        ]
+      },
+      "inkFlagTransitions": [],
+      "illustratedSummaryIndices": [],
+      "lastIllustratedCandidate": {
+        "index": 109,
+        "pageArg": 109,
+        "cueArg": null,
+        "scene": 13,
+        "title": "守護根門・車站",
+        "captionChars": 26,
+        "captionParagraphs": 1,
+        "verseChars": 73,
+        "special": []
+      },
+      "textEndingCandidates": [
+        {
+          "index": 114,
+          "pageArg": 114,
+          "cueArg": null,
+          "scene": 15,
+          "title": "片尾・製作說明",
+          "captionChars": 127,
+          "captionParagraphs": 5,
+          "verseChars": 0,
+          "special": [
+            "no-image"
+          ]
+        }
+      ],
+      "heartCandidates": [
+        {
+          "index": 110,
+          "pageArg": 110,
+          "cueArg": null,
+          "scene": 14,
+          "title": "般若波羅蜜多心經",
+          "captionChars": 22,
+          "captionParagraphs": 1,
+          "verseChars": 0,
+          "special": [
+            "heart",
+            "no-image"
+          ]
+        },
+        {
+          "index": 111,
+          "pageArg": 111,
+          "cueArg": null,
+          "scene": 14,
+          "title": "般若波羅蜜多心經",
+          "captionChars": 12,
+          "captionParagraphs": 1,
+          "verseChars": 0,
+          "special": [
+            "heart",
+            "no-image"
+          ]
+        },
+        {
+          "index": 112,
+          "pageArg": 112,
+          "cueArg": null,
+          "scene": 14,
+          "title": "般若波羅蜜多心經",
+          "captionChars": 15,
+          "captionParagraphs": 1,
+          "verseChars": 0,
+          "special": [
+            "heart",
+            "no-image"
+          ]
+        },
+        {
+          "index": 113,
+          "pageArg": 113,
+          "cueArg": null,
+          "scene": 14,
+          "title": "般若波羅蜜多心經",
+          "captionChars": 22,
+          "captionParagraphs": 1,
+          "verseChars": 0,
+          "special": [
+            "heart",
+            "no-image"
+          ]
+        }
+      ],
+      "captionFlagNote": "Black CSS declaration may exist in later templates but renderer does not set captionColor and source data has no topSubtitleLayout black flag; do not invent black-flag coverage.",
+      "heartStructure": {
+        "nativeEntry": {
+          "showBefore": {
+            "index": 109,
+            "pageArg": 109,
+            "cueArg": null,
+            "scene": 13,
+            "title": "守護根門・車站",
+            "captionChars": 26,
+            "captionParagraphs": 1,
+            "verseChars": 73,
+            "special": []
+          },
+          "clickNextTo": 110
+        },
+        "allCueIndices": [
+          110,
+          111,
+          112,
+          113
+        ],
+        "titleText": "般若波羅蜜多心經",
+        "titleDOM": "Renderer prepends the existing #page-title into .verse-body immediately before #verse; non-heart returns it to scenePanel.",
+        "titleAndVerseLayout": "Both siblings display:inline-block; vertical-align:top; writing-mode:vertical-rl; direction:ltr. Their shared scroll container uses direction:rtl and white-space:nowrap. Baseline has no wrapper grouping the pair.",
+        "baselineHeartFrame": "Shared reader-controls.css .reader-framed-heart .scripture keeps prior/common art-height × art-ratio, centered as a frame; .verse-body occupies its full inner width/height with overflow:auto. Centering the frame is separate from centering the actual title+verse group.",
+        "scrollSemantics": "Horizontal RTL scrolling only if actual columns exceed frame; preserve complete text, strong emphasis, native previous/next and original reading links.",
+        "verseChars": 320,
+        "verseSHA256": "b239dd4a5f4fdab6530a8ac105fc3769e44dd57382d2dfde3473a7ef2783d773",
+        "highlight": "無眼耳鼻舌身意。無色聲香味觸法。無眼界。乃至無意識界。",
+        "captionSizer": "Renderer grids all heart cue variants in #caption and hides inactive .caption-sizer variants; measure only active visible cue.",
+        "commonDefaultRatio": 1.5,
+        "nativeRatioRule": "Preserve last illustrated common canvas ratio when entering natively; direct heart default uses commonDefaultRatio."
+      },
+      "textSpecialCandidates": [
+        {
+          "index": 0,
+          "pageArg": 0,
+          "cueArg": null,
+          "scene": 0,
+          "title": "片頭・我是誰？",
+          "captionChars": 194,
+          "captionParagraphs": 1,
+          "verseChars": 0,
+          "special": [
+            "no-image"
+          ]
+        },
+        {
+          "index": 114,
+          "pageArg": 114,
+          "cueArg": null,
+          "scene": 15,
+          "title": "片尾・製作說明",
+          "captionChars": 127,
+          "captionParagraphs": 5,
+          "verseChars": 0,
+          "special": [
+            "no-image"
+          ]
+        }
+      ],
+      "textIntroIndices": [
+        0
+      ],
+      "rawInkFlagCounts": {
+        "white-default": 115
+      },
+      "normalIllustratedInkFlagRanges": {
+        "white-default": [
+          {
+            "first": 1,
+            "last": 109,
+            "count": 109
+          }
+        ]
+      }
+    },
+    "twelve-links": {
+      "steps": 77,
+      "api": "showPage(index)",
+      "normalCaptionCandidates": [
+        {
+          "index": 0,
+          "pageArg": 0,
+          "cueArg": null,
+          "scene": 1,
+          "title": "生老病死總覽",
+          "captionChars": 50,
+          "captionParagraphs": 2,
+          "verseChars": 47,
+          "special": []
+        },
+        {
+          "index": 38,
+          "pageArg": 38,
+          "cueArg": null,
+          "scene": 10,
+          "title": "第4支-名色",
+          "captionChars": 23,
+          "captionParagraphs": 1,
+          "verseChars": 54,
+          "special": []
+        },
+        {
+          "index": 40,
+          "pageArg": 40,
+          "cueArg": null,
+          "scene": 10,
+          "title": "第4支-名色",
+          "captionChars": 64,
+          "captionParagraphs": 2,
+          "verseChars": 32,
+          "special": []
+        },
+        {
+          "index": 12,
+          "pageArg": 12,
+          "cueArg": null,
+          "scene": 5,
+          "title": "第9支-取",
+          "captionChars": 54,
+          "captionParagraphs": 2,
+          "verseChars": 20,
+          "special": []
+        },
+        {
+          "index": 11,
+          "pageArg": 11,
+          "cueArg": null,
+          "scene": 4,
+          "title": "第10支-有",
+          "captionChars": 53,
+          "captionParagraphs": 2,
+          "verseChars": 44,
+          "special": []
+        },
+        {
+          "index": 16,
+          "pageArg": 16,
+          "cueArg": null,
+          "scene": 5,
+          "title": "第9支-取",
+          "captionChars": 58,
+          "captionParagraphs": 2,
+          "verseChars": 58,
+          "special": []
+        },
+        {
+          "index": 17,
+          "pageArg": 17,
+          "cueArg": null,
+          "scene": 6,
+          "title": "第8支-愛",
+          "captionChars": 46,
+          "captionParagraphs": 2,
+          "verseChars": 20,
+          "special": []
+        },
+        {
+          "index": 31,
+          "pageArg": 31,
+          "cueArg": null,
+          "scene": 8,
+          "title": "第6支-觸",
+          "captionChars": 26,
+          "captionParagraphs": 1,
+          "verseChars": 40,
+          "special": []
+        },
+        {
+          "index": 32,
+          "pageArg": 32,
+          "cueArg": null,
+          "scene": 9,
+          "title": "第5支-六入處",
+          "captionChars": 49,
+          "captionParagraphs": 2,
+          "verseChars": 37,
+          "special": []
+        },
+        {
+          "index": 35,
+          "pageArg": 35,
+          "cueArg": null,
+          "scene": 9,
+          "title": "第5支-六入處",
+          "captionChars": 53,
+          "captionParagraphs": 2,
+          "verseChars": 39,
+          "special": []
+        },
+        {
+          "index": 36,
+          "pageArg": 36,
+          "cueArg": null,
+          "scene": 10,
+          "title": "第4支-名色",
+          "captionChars": 43,
+          "captionParagraphs": 2,
+          "verseChars": 54,
+          "special": []
+        },
+        {
+          "index": 41,
+          "pageArg": 41,
+          "cueArg": null,
+          "scene": 11,
+          "title": "第3支-識",
+          "captionChars": 46,
+          "captionParagraphs": 2,
+          "verseChars": 35,
+          "special": []
+        },
+        {
+          "index": 46,
+          "pageArg": 46,
+          "cueArg": null,
+          "scene": 11,
+          "title": "第3支-識",
+          "captionChars": 43,
+          "captionParagraphs": 2,
+          "verseChars": 31,
+          "special": [
+            "mask"
+          ]
+        },
+        {
+          "index": 47,
+          "pageArg": 47,
+          "cueArg": null,
+          "scene": 12,
+          "title": "第2支-行",
+          "captionChars": 48,
+          "captionParagraphs": 2,
+          "verseChars": 14,
+          "special": []
+        }
+      ],
+      "rawInkFlagRule": "book.js white-caption iff scene in [5,9,11]; book.css default #f8f2e4ed/#211d17, white-caption #1e1e1edb/#fffdf8; heart/text CSS can override the default.",
+      "rawInkFlagIndices": {
+        "black": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          36,
+          37,
+          38,
+          39,
+          40,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76
+        ],
+        "white": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          32,
+          33,
+          34,
+          35,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46
+        ]
+      },
+      "rawInkFlagRanges": {
+        "black": [
+          "0–11",
+          "17–31",
+          "36–40",
+          "47–76"
+        ],
+        "white": [
+          "12–16",
+          "32–35",
+          "41–46"
+        ]
+      },
+      "inkFlagTransitions": [
+        12,
+        17,
+        32,
+        36,
+        41,
+        47
+      ],
+      "illustratedSummaryIndices": [],
+      "lastIllustratedCandidate": {
+        "index": 73,
+        "pageArg": 73,
+        "cueArg": null,
+        "scene": 17,
+        "title": "渴愛之毒／斷愛",
+        "captionChars": 25,
+        "captionParagraphs": 1,
+        "verseChars": 84,
+        "special": []
+      },
+      "textEndingCandidates": [
+        {
+          "index": 76,
+          "pageArg": 76,
+          "cueArg": null,
+          "scene": 19,
+          "title": "後記",
+          "captionChars": 0,
+          "captionParagraphs": 0,
+          "verseChars": 130,
+          "special": [
+            "no-image"
+          ]
+        }
+      ],
+      "heartCandidates": [
+        {
+          "index": 74,
+          "pageArg": 74,
+          "cueArg": null,
+          "scene": 18,
+          "title": "心經收尾",
+          "captionChars": 41,
+          "captionParagraphs": 2,
+          "verseChars": 319,
+          "special": [
+            "heart",
+            "no-image"
+          ]
+        },
+        {
+          "index": 75,
+          "pageArg": 75,
+          "cueArg": null,
+          "scene": 18,
+          "title": "心經收尾",
+          "captionChars": 55,
+          "captionParagraphs": 2,
+          "verseChars": 319,
+          "special": [
+            "heart",
+            "no-image"
+          ]
+        }
+      ],
+      "captionFlagNote": "raw black flag on heart74/75 is not a claim of black visible text: .heart-scene .story overrides to transparent/white. Use illustrated index0 for actual light-background legacy branch and12 for white-caption branch.",
+      "heartStructure": {
+        "nativeEntry": {
+          "showBefore": {
+            "index": 73,
+            "pageArg": 73,
+            "cueArg": null,
+            "scene": 17,
+            "title": "渴愛之毒／斷愛",
+            "captionChars": 25,
+            "captionParagraphs": 1,
+            "verseChars": 84,
+            "special": []
+          },
+          "clickNextTo": 74
+        },
+        "allCueIndices": [
+          74,
+          75
+        ],
+        "titleText": "般若波羅蜜多心經",
+        "titleDOM": "Renderer prepends the existing #page-title into .verse-body immediately before #verse; non-heart returns it to scenePanel.",
+        "titleAndVerseLayout": "Both siblings display:inline-block; vertical-align:top; writing-mode:vertical-rl; direction:ltr. Their shared scroll container uses direction:rtl and white-space:nowrap. Baseline has no wrapper grouping the pair.",
+        "baselineHeartFrame": "Shared reader-controls.css .reader-framed-heart .scripture keeps prior/common art-height × art-ratio, centered as a frame; .verse-body occupies its full inner width/height with overflow:auto. Centering the frame is separate from centering the actual title+verse group.",
+        "scrollSemantics": "Horizontal RTL scrolling only if actual columns exceed frame; preserve complete text, strong emphasis, native previous/next and original reading links.",
+        "verseChars": 319,
+        "verseSHA256": "53ef561bc24e21ed44cdae46161a50d4d226c857d844e3c50ead2b9ad1f8c5dd",
+        "highlight": "無無明。亦無無明盡。乃至無老死。亦無老死盡。",
+        "captionSizer": "Renderer grids all heart cue variants in #caption and hides inactive .caption-sizer variants; measure only active visible cue.",
+        "commonDefaultRatio": 1.8,
+        "nativeRatioRule": "Preserve last illustrated common canvas ratio when entering natively; direct heart default uses commonDefaultRatio."
+      },
+      "rawInkFlagCounts": {
+        "black": 62,
+        "white": 15
+      },
+      "normalIllustratedInkFlagRanges": {
+        "black": [
+          {
+            "first": 0,
+            "last": 73,
+            "count": 59
+          }
+        ],
+        "white": [
+          {
+            "first": 12,
+            "last": 46,
+            "count": 15
+          }
+        ]
+      }
+    },
+    "eightfold-path": {
+      "steps": 111,
+      "api": "showPage(index)",
+      "normalCaptionCandidates": [
+        {
+          "index": 0,
+          "pageArg": 0,
+          "cueArg": null,
+          "scene": 1,
+          "title": "片頭｜黑暗中摸索",
+          "captionChars": 34,
+          "captionParagraphs": 1,
+          "verseChars": 0,
+          "special": []
+        },
+        {
+          "index": 56,
+          "pageArg": 56,
+          "cueArg": null,
+          "scene": 8,
+          "title": "正命｜清淨的生活所需",
+          "captionChars": 15,
+          "captionParagraphs": 1,
+          "verseChars": 27,
+          "special": [
+            "overlay"
+          ]
+        },
+        {
+          "index": 58,
+          "pageArg": 58,
+          "cueArg": null,
+          "scene": 8,
+          "title": "正命｜清淨的生活所需",
+          "captionChars": 36,
+          "captionParagraphs": 1,
+          "verseChars": 27,
+          "special": [
+            "overlay"
+          ]
+        }
+      ],
+      "rawInkFlagRule": "No per-page ink flag; default light ink on dark narration band.",
+      "rawInkFlagIndices": {},
+      "rawInkFlagRanges": {
+        "white-default": [
+          "0–110"
+        ]
+      },
+      "inkFlagTransitions": [],
+      "illustratedSummaryIndices": [],
+      "lastIllustratedCandidate": {
+        "index": 107,
+        "pageArg": 107,
+        "cueArg": null,
+        "scene": 12,
+        "title": "抵岸｜筏喻與等捨",
+        "captionChars": 27,
+        "captionParagraphs": 1,
+        "verseChars": 48,
+        "special": [
+          "overlay"
+        ]
+      },
+      "textEndingCandidates": [
+        {
+          "index": 108,
+          "pageArg": 108,
+          "cueArg": null,
+          "scene": 13,
+          "title": "總結與經典出處",
+          "captionChars": 24,
+          "captionParagraphs": 1,
+          "verseChars": 51,
+          "special": [
+            "no-image"
+          ]
+        },
+        {
+          "index": 109,
+          "pageArg": 109,
+          "cueArg": null,
+          "scene": 13,
+          "title": "總結與經典出處",
+          "captionChars": 24,
+          "captionParagraphs": 1,
+          "verseChars": 51,
+          "special": [
+            "no-image"
+          ]
+        },
+        {
+          "index": 110,
+          "pageArg": 110,
+          "cueArg": null,
+          "scene": 14,
+          "title": "製作說明｜溫柔的起點",
+          "captionChars": 151,
+          "captionParagraphs": 5,
+          "verseChars": 0,
+          "special": [
+            "afterword",
+            "no-image"
+          ]
+        }
+      ],
+      "heartCandidates": [],
+      "captionFlagNote": "Black CSS declaration may exist in later templates but renderer does not set captionColor and source data has no topSubtitleLayout black flag; do not invent black-flag coverage.",
+      "rawInkFlagCounts": {
+        "white-default": 111
+      },
+      "normalIllustratedInkFlagRanges": {
+        "white-default": [
+          {
+            "first": 0,
+            "last": 107,
+            "count": 108
+          }
+        ]
+      }
+    },
+    "four-purities-six-recollections": {
+      "steps": 95,
+      "api": "showPage(index)",
+      "normalCaptionCandidates": [
+        {
+          "index": 0,
+          "pageArg": 0,
+          "cueArg": null,
+          "scene": "S01",
+          "title": "隨法行與隨信行",
+          "captionChars": 23,
+          "captionParagraphs": 1,
+          "verseChars": 112,
+          "special": []
+        },
+        {
+          "index": 79,
+          "pageArg": 79,
+          "cueArg": null,
+          "scene": "S07",
+          "title": "聖戒成就",
+          "captionChars": 10,
+          "captionParagraphs": 1,
+          "verseChars": 51,
+          "special": [
+            "overlay"
+          ]
+        },
+        {
+          "index": 80,
+          "pageArg": 80,
+          "cueArg": null,
+          "scene": "S07",
+          "title": "聖戒成就",
+          "captionChars": 33,
+          "captionParagraphs": 1,
+          "verseChars": 51,
+          "special": [
+            "overlay"
+          ]
+        }
+      ],
+      "rawInkFlagRule": "page.dataset.captionColor = plan.topSubtitleLayout.color; book.css [data-caption-color=\"black\"] changes to light background/dark ink.",
+      "rawInkFlagIndices": {
+        "black": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93
+        ],
+        "white": [
+          94
+        ]
+      },
+      "rawInkFlagRanges": {
+        "black": [
+          "0–93"
+        ],
+        "white": [
+          "94"
+        ]
+      },
+      "inkFlagTransitions": [
+        94
+      ],
+      "illustratedSummaryIndices": [
+        93
+      ],
+      "lastIllustratedCandidate": {
+        "index": 93,
+        "pageArg": 93,
+        "cueArg": null,
+        "scene": "END",
+        "title": "收尾",
+        "captionChars": 0,
+        "captionParagraphs": 0,
+        "verseChars": 0,
+        "special": [
+          "end",
+          "overlay"
+        ]
+      },
+      "textEndingCandidates": [
+        {
+          "index": 94,
+          "pageArg": 94,
+          "cueArg": null,
+          "scene": "afterword",
+          "title": "製作說明｜溫柔的起點",
+          "captionChars": 169,
+          "captionParagraphs": 5,
+          "verseChars": 0,
+          "special": [
+            "afterword",
+            "no-image"
+          ]
+        }
+      ],
+      "heartCandidates": [],
+      "captionVisibilityExceptions": {
+        "93": "END image/closing overlay intentionally hides #caption and #caption-sizer."
+      },
+      "rawInkFlagCounts": {
+        "black": 94,
+        "white": 1
+      },
+      "normalIllustratedInkFlagRanges": {
+        "black": [
+          {
+            "first": 0,
+            "last": 92,
+            "count": 93
+          }
+        ],
+        "white": []
+      }
+    },
+    "mindfulness": {
+      "steps": 111,
+      "api": "showPage(index)",
+      "normalCaptionCandidates": [
+        {
+          "index": 0,
+          "pageArg": 0,
+          "cueArg": null,
+          "scene": "S01",
+          "title": "研究引子",
+          "captionChars": 29,
+          "captionParagraphs": 1,
+          "verseChars": 0,
+          "special": []
+        },
+        {
+          "index": 75,
+          "pageArg": 75,
+          "cueArg": null,
+          "scene": "S18",
+          "title": "觀心無常",
+          "captionChars": 8,
+          "captionParagraphs": 1,
+          "verseChars": 85,
+          "special": [
+            "overlay"
+          ]
+        },
+        {
+          "index": 73,
+          "pageArg": 73,
+          "cueArg": null,
+          "scene": "S18",
+          "title": "觀心無常",
+          "captionChars": 63,
+          "captionParagraphs": 1,
+          "verseChars": 85,
+          "special": [
+            "overlay"
+          ]
+        }
+      ],
+      "rawInkFlagRule": "No per-page ink flag; default light ink on dark narration band.",
+      "rawInkFlagIndices": {},
+      "rawInkFlagRanges": {
+        "white-default": [
+          "0–110"
+        ]
+      },
+      "inkFlagTransitions": [],
+      "illustratedSummaryIndices": [
+        109
+      ],
+      "lastIllustratedCandidate": {
+        "index": 109,
+        "pageArg": 109,
+        "cueArg": null,
+        "scene": "S25",
+        "title": "四念處總結",
+        "captionChars": 0,
+        "captionParagraphs": 0,
+        "verseChars": 0,
+        "special": [
+          "summary"
+        ]
+      },
+      "textEndingCandidates": [
+        {
+          "index": 110,
+          "pageArg": 110,
+          "cueArg": null,
+          "scene": "afterword",
+          "title": "製作說明｜走入經藏的起點",
+          "captionChars": 183,
+          "captionParagraphs": 5,
+          "verseChars": 0,
+          "special": [
+            "afterword",
+            "no-image"
+          ]
+        }
+      ],
+      "heartCandidates": [],
+      "captionFlagNote": "Black CSS declaration may exist in later templates but renderer does not set captionColor and source data has no topSubtitleLayout black flag; do not invent black-flag coverage.",
+      "captionVisibilityExceptions": {
+        "109": "Illustrated summary intentionally hides ordinary #caption and uses its summary content."
+      },
+      "rawInkFlagCounts": {
+        "white-default": 111
+      },
+      "normalIllustratedInkFlagRanges": {
+        "white-default": [
+          {
+            "first": 0,
+            "last": 108,
+            "count": 109
+          }
+        ]
+      }
+    },
+    "right-effort": {
+      "steps": 81,
+      "api": "showPage(index)",
+      "normalCaptionCandidates": [
+        {
+          "index": 0,
+          "pageArg": 0,
+          "cueArg": null,
+          "scene": "S01",
+          "title": "精進之帆",
+          "captionChars": 22,
+          "captionParagraphs": 1,
+          "verseChars": 73,
+          "special": []
+        },
+        {
+          "index": 37,
+          "pageArg": 37,
+          "cueArg": null,
+          "scene": "S05",
+          "title": "未生善令起・播種與隨護",
+          "captionChars": 5,
+          "captionParagraphs": 1,
+          "verseChars": 67,
+          "special": [
+            "overlay"
+          ]
+        },
+        {
+          "index": 35,
+          "pageArg": 35,
+          "cueArg": null,
+          "scene": "S05",
+          "title": "未生善令起・播種與隨護",
+          "captionChars": 34,
+          "captionParagraphs": 1,
+          "verseChars": 40,
+          "special": [
+            "overlay"
+          ]
+        }
+      ],
+      "rawInkFlagRule": "No per-page ink flag; default light ink on dark narration band.",
+      "rawInkFlagIndices": {},
+      "rawInkFlagRanges": {
+        "white-default": [
+          "0–80"
+        ]
+      },
+      "inkFlagTransitions": [],
+      "illustratedSummaryIndices": [],
+      "lastIllustratedCandidate": {
+        "index": 79,
+        "pageArg": 79,
+        "cueArg": null,
+        "scene": "S10",
+        "title": "四正勤總結",
+        "captionChars": 32,
+        "captionParagraphs": 1,
+        "verseChars": 0,
+        "special": [
+          "overlay"
+        ]
+      },
+      "textEndingCandidates": [
+        {
+          "index": 80,
+          "pageArg": 80,
+          "cueArg": null,
+          "scene": "S11",
+          "title": "片尾閱讀說明",
+          "captionChars": 153,
+          "captionParagraphs": 6,
+          "verseChars": 0,
+          "special": [
+            "afterword",
+            "no-image"
+          ]
+        }
+      ],
+      "heartCandidates": [],
+      "captionFlagNote": "Black CSS declaration may exist in later templates but renderer does not set captionColor and source data has no topSubtitleLayout black flag; do not invent black-flag coverage.",
+      "rawInkFlagCounts": {
+        "white-default": 81
+      },
+      "normalIllustratedInkFlagRanges": {
+        "white-default": [
+          {
+            "first": 0,
+            "last": 79,
+            "count": 80
+          }
+        ]
+      }
+    },
+    "anapana": {
+      "steps": 119,
+      "api": "showPage(index)",
+      "normalCaptionCandidates": [
+        {
+          "index": 0,
+          "pageArg": 0,
+          "cueArg": null,
+          "scene": "S01",
+          "title": "安那般那・入息與出息",
+          "captionChars": 22,
+          "captionParagraphs": 1,
+          "verseChars": 48,
+          "special": []
+        },
+        {
+          "index": 29,
+          "pageArg": 29,
+          "cueArg": null,
+          "scene": "S05",
+          "title": "十六勝行・受隨觀",
+          "captionChars": 8,
+          "captionParagraphs": 1,
+          "verseChars": 39,
+          "special": [
+            "overlay"
+          ]
+        },
+        {
+          "index": 42,
+          "pageArg": 42,
+          "cueArg": null,
+          "scene": "S05",
+          "title": "十六勝行・受隨觀",
+          "captionChars": 34,
+          "captionParagraphs": 1,
+          "verseChars": 88,
+          "special": [
+            "overlay"
+          ]
+        }
+      ],
+      "rawInkFlagRule": "No per-page ink flag; default light ink on dark narration band.",
+      "rawInkFlagIndices": {},
+      "rawInkFlagRanges": {
+        "white-default": [
+          "0–118"
+        ]
+      },
+      "inkFlagTransitions": [],
+      "illustratedSummaryIndices": [],
+      "lastIllustratedCandidate": {
+        "index": 117,
+        "pageArg": 117,
+        "cueArg": null,
+        "scene": "S11",
+        "title": "論師調心・數息隨息止與收尾",
+        "captionChars": 23,
+        "captionParagraphs": 1,
+        "verseChars": 63,
+        "special": []
+      },
+      "textEndingCandidates": [
+        {
+          "index": 118,
+          "pageArg": 118,
+          "cueArg": null,
+          "scene": "S12",
+          "title": "片尾修行總覽",
+          "captionChars": 0,
+          "captionParagraphs": 0,
+          "verseChars": 0,
+          "special": [
+            "afterword",
+            "textSummary",
+            "no-image"
+          ]
+        }
+      ],
+      "heartCandidates": [],
+      "captionFlagNote": "Black CSS declaration may exist in later templates but renderer does not set captionColor and source data has no topSubtitleLayout black flag; do not invent black-flag coverage.",
+      "rawInkFlagCounts": {
+        "white-default": 119
+      },
+      "normalIllustratedInkFlagRanges": {
+        "white-default": [
+          {
+            "first": 0,
+            "last": 117,
+            "count": 118
+          }
+        ]
+      }
+    },
+    "iddhipada": {
+      "steps": 82,
+      "api": "showPage(index)",
+      "normalCaptionCandidates": [
+        {
+          "index": 0,
+          "pageArg": 0,
+          "cueArg": null,
+          "scene": "S01",
+          "title": "鐵球與木棉・四如意足的轉化",
+          "captionChars": 26,
+          "captionParagraphs": 1,
+          "verseChars": 11,
+          "special": []
+        },
+        {
+          "index": 56,
+          "pageArg": 56,
+          "cueArg": null,
+          "scene": "S07",
+          "title": "前後・上下・晝夜・光明心",
+          "captionChars": 12,
+          "captionParagraphs": 1,
+          "verseChars": 19,
+          "special": [
+            "overlay"
+          ]
+        },
+        {
+          "index": 57,
+          "pageArg": 57,
+          "cueArg": null,
+          "scene": "S07",
+          "title": "前後・上下・晝夜・光明心",
+          "captionChars": 34,
+          "captionParagraphs": 1,
+          "verseChars": 19,
+          "special": [
+            "overlay"
+          ]
+        }
+      ],
+      "rawInkFlagRule": "No per-page ink flag; default light ink on dark narration band.",
+      "rawInkFlagIndices": {},
+      "rawInkFlagRanges": {
+        "white-default": [
+          "0–81"
+        ]
+      },
+      "inkFlagTransitions": [],
+      "illustratedSummaryIndices": [],
+      "lastIllustratedCandidate": {
+        "index": 80,
+        "pageArg": 80,
+        "cueArg": null,
+        "scene": "S09",
+        "title": "抵達彼岸・依欲斷愛",
+        "captionChars": 21,
+        "captionParagraphs": 1,
+        "verseChars": 14,
+        "special": []
+      },
+      "textEndingCandidates": [
+        {
+          "index": 81,
+          "pageArg": 81,
+          "cueArg": null,
+          "scene": "S09",
+          "title": "閱讀說明",
+          "captionChars": 0,
+          "captionParagraphs": 0,
+          "verseChars": 0,
+          "special": [
+            "afterword",
+            "textSummary",
+            "no-image"
+          ]
+        }
+      ],
+      "heartCandidates": [],
+      "captionFlagNote": "Black CSS declaration may exist in later templates but renderer does not set captionColor and source data has no topSubtitleLayout black flag; do not invent black-flag coverage.",
+      "rawInkFlagCounts": {
+        "white-default": 82
+      },
+      "normalIllustratedInkFlagRanges": {
+        "white-default": [
+          {
+            "first": 0,
+            "last": 80,
+            "count": 81
+          }
+        ]
+      }
+    },
+    "four-jhanas": {
+      "steps": 131,
+      "api": "showPage(index)",
+      "normalCaptionCandidates": [
+        {
+          "index": 0,
+          "pageArg": 0,
+          "cueArg": null,
+          "scene": "S01",
+          "title": "戒・由戒生定",
+          "captionChars": 29,
+          "captionParagraphs": 1,
+          "verseChars": 17,
+          "special": [
+            "overlay"
+          ]
+        },
+        {
+          "index": 92,
+          "pageArg": 92,
+          "cueArg": null,
+          "scene": "S08",
+          "title": "第三禪",
+          "captionChars": 7,
+          "captionParagraphs": 1,
+          "verseChars": 41,
+          "special": []
+        },
+        {
+          "index": 81,
+          "pageArg": 81,
+          "cueArg": null,
+          "scene": "S08",
+          "title": "第三禪",
+          "captionChars": 33,
+          "captionParagraphs": 1,
+          "verseChars": 41,
+          "special": []
+        }
+      ],
+      "rawInkFlagRule": "No per-page ink flag; default light ink on dark narration band.",
+      "rawInkFlagIndices": {},
+      "rawInkFlagRanges": {
+        "white-default": [
+          "0–130"
+        ]
+      },
+      "inkFlagTransitions": [],
+      "illustratedSummaryIndices": [],
+      "lastIllustratedCandidate": {
+        "index": 129,
+        "pageArg": 129,
+        "cueArg": null,
+        "scene": "S10",
+        "title": "四禪總結",
+        "captionChars": 22,
+        "captionParagraphs": 1,
+        "verseChars": 1244,
+        "special": []
+      },
+      "textEndingCandidates": [
+        {
+          "index": 130,
+          "pageArg": 130,
+          "cueArg": null,
+          "scene": "S10",
+          "title": "閱讀說明",
+          "captionChars": 0,
+          "captionParagraphs": 0,
+          "verseChars": 0,
+          "special": [
+            "afterword",
+            "textSummary",
+            "no-image"
+          ]
+        }
+      ],
+      "heartCandidates": [],
+      "captionFlagNote": "Black CSS declaration may exist in later templates but renderer does not set captionColor and source data has no topSubtitleLayout black flag; do not invent black-flag coverage.",
+      "rawInkFlagCounts": {
+        "white-default": 131
+      },
+      "normalIllustratedInkFlagRanges": {
+        "white-default": [
+          {
+            "first": 0,
+            "last": 129,
+            "count": 130
+          }
+        ]
+      }
+    },
+    "five-roots-powers": {
+      "steps": 75,
+      "api": "showPage(index)",
+      "normalCaptionCandidates": [
+        {
+          "index": 0,
+          "pageArg": 0,
+          "cueArg": null,
+          "scene": "S01",
+          "title": "中央島與兩道水流",
+          "captionChars": 28,
+          "captionParagraphs": 1,
+          "verseChars": 255,
+          "special": []
+        },
+        {
+          "index": 8,
+          "pageArg": 8,
+          "cueArg": null,
+          "scene": "S01",
+          "title": "中央島與兩道水流",
+          "captionChars": 11,
+          "captionParagraphs": 1,
+          "verseChars": 255,
+          "special": []
+        },
+        {
+          "index": 1,
+          "pageArg": 1,
+          "cueArg": null,
+          "scene": "S01",
+          "title": "中央島與兩道水流",
+          "captionChars": 36,
+          "captionParagraphs": 1,
+          "verseChars": 255,
+          "special": []
+        }
+      ],
+      "rawInkFlagRule": "No per-page ink flag; default light ink on dark narration band.",
+      "rawInkFlagIndices": {},
+      "rawInkFlagRanges": {
+        "white-default": [
+          "0–74"
+        ]
+      },
+      "inkFlagTransitions": [],
+      "illustratedSummaryIndices": [],
+      "lastIllustratedCandidate": {
+        "index": 73,
+        "pageArg": 73,
+        "cueArg": null,
+        "scene": "S10",
+        "title": "慧為其首",
+        "captionChars": 23,
+        "captionParagraphs": 1,
+        "verseChars": 63,
+        "special": []
+      },
+      "textEndingCandidates": [
+        {
+          "index": 74,
+          "pageArg": 74,
+          "cueArg": null,
+          "scene": "S10",
+          "title": "閱讀說明",
+          "captionChars": 0,
+          "captionParagraphs": 0,
+          "verseChars": 0,
+          "special": [
+            "afterword",
+            "textSummary",
+            "no-image"
+          ]
+        }
+      ],
+      "heartCandidates": [],
+      "captionFlagNote": "Black CSS declaration may exist in later templates but renderer does not set captionColor and source data has no topSubtitleLayout black flag; do not invent black-flag coverage.",
+      "rawInkFlagCounts": {
+        "white-default": 75
+      },
+      "normalIllustratedInkFlagRanges": {
+        "white-default": [
+          {
+            "first": 0,
+            "last": 73,
+            "count": 74
+          }
+        ]
+      }
+    },
+    "seven-factors": {
+      "steps": 37,
+      "api": "showPage(pageArg, cueArg)",
+      "normalCaptionCandidates": [
+        {
+          "index": 0,
+          "pageArg": 0,
+          "cueArg": 0,
+          "scene": "S01",
+          "title": "浮動",
+          "captionChars": 21,
+          "captionParagraphs": 1,
+          "verseChars": 0,
+          "special": []
+        },
+        {
+          "index": 8,
+          "pageArg": 3,
+          "cueArg": 1,
+          "scene": "S04",
+          "title": "念",
+          "captionChars": 11,
+          "captionParagraphs": 1,
+          "verseChars": 26,
+          "special": [
+            "overlay"
+          ]
+        },
+        {
+          "index": 10,
+          "pageArg": 3,
+          "cueArg": 3,
+          "scene": "S04",
+          "title": "念",
+          "captionChars": 31,
+          "captionParagraphs": 1,
+          "verseChars": 71,
+          "special": [
+            "overlay"
+          ]
+        }
+      ],
+      "rawInkFlagRule": "No per-page ink flag; default light ink on dark narration band.",
+      "rawInkFlagIndices": {},
+      "rawInkFlagRanges": {
+        "white-default": [
+          "0–36"
+        ]
+      },
+      "inkFlagTransitions": [],
+      "illustratedSummaryIndices": [],
+      "lastIllustratedCandidate": {
+        "index": 35,
+        "pageArg": 11,
+        "cueArg": 5,
+        "scene": "S12",
+        "title": "七覺支總結",
+        "captionChars": 17,
+        "captionParagraphs": 1,
+        "verseChars": 63,
+        "special": []
+      },
+      "textEndingCandidates": [
+        {
+          "index": 36,
+          "pageArg": 11,
+          "cueArg": 6,
+          "scene": null,
+          "title": "",
+          "captionChars": 0,
+          "captionParagraphs": 0,
+          "verseChars": 0,
+          "special": [
+            "afterword",
+            "no-image"
+          ]
+        }
+      ],
+      "heartCandidates": [],
+      "captionFlagNote": "Black CSS declaration may exist in later templates but renderer does not set captionColor and source data has no topSubtitleLayout black flag; do not invent black-flag coverage.",
+      "sevenFactorsCaution": "37 reading steps =36 narration cues plus closing. Last scene has6 cues; final closing is showPage(11,6), not showPage(11,3).",
+      "rawInkFlagCounts": {
+        "white-default": 37
+      },
+      "normalIllustratedInkFlagRanges": {
+        "white-default": [
+          {
+            "first": 0,
+            "last": 35,
+            "count": 36
+          }
+        ]
+      }
+    },
+    "four-fruits-ten-fetters": {
+      "steps": 75,
+      "api": "showPage(index)",
+      "normalCaptionCandidates": [
+        {
+          "index": 0,
+          "pageArg": 0,
+          "cueArg": null,
+          "scene": "S01",
+          "title": "彼岸是什麼",
+          "captionChars": 34,
+          "captionParagraphs": 1,
+          "verseChars": 32,
+          "special": []
+        },
+        {
+          "index": 54,
+          "pageArg": 54,
+          "cueArg": null,
+          "scene": "S10",
+          "title": "四果阿羅漢",
+          "captionChars": 14,
+          "captionParagraphs": 1,
+          "verseChars": 80,
+          "special": []
+        },
+        {
+          "index": 55,
+          "pageArg": 55,
+          "cueArg": null,
+          "scene": "S10",
+          "title": "四果阿羅漢",
+          "captionChars": 35,
+          "captionParagraphs": 1,
+          "verseChars": 80,
+          "special": []
+        },
+        {
+          "index": 6,
+          "pageArg": 6,
+          "cueArg": null,
+          "scene": "S02",
+          "title": "斷開十結",
+          "captionChars": 19,
+          "captionParagraphs": 1,
+          "verseChars": 55,
+          "special": []
+        },
+        {
+          "index": 5,
+          "pageArg": 5,
+          "cueArg": null,
+          "scene": "S01",
+          "title": "彼岸是什麼",
+          "captionChars": 26,
+          "captionParagraphs": 1,
+          "verseChars": 32,
+          "special": []
+        },
+        {
+          "index": 53,
+          "pageArg": 53,
+          "cueArg": null,
+          "scene": "S09",
+          "title": "三果阿那含",
+          "captionChars": 17,
+          "captionParagraphs": 1,
+          "verseChars": 42,
+          "special": []
+        },
+        {
+          "index": 61,
+          "pageArg": 61,
+          "cueArg": null,
+          "scene": "S10",
+          "title": "四果阿羅漢",
+          "captionChars": 19,
+          "captionParagraphs": 1,
+          "verseChars": 80,
+          "special": []
+        },
+        {
+          "index": 62,
+          "pageArg": 62,
+          "cueArg": null,
+          "scene": "S11",
+          "title": "現世安隱",
+          "captionChars": 25,
+          "captionParagraphs": 1,
+          "verseChars": 80,
+          "special": []
+        }
+      ],
+      "rawInkFlagRule": "page.dataset.captionColor = plan.topSubtitleLayout.color; book.css [data-caption-color=\"black\"] changes to light background/dark ink.",
+      "rawInkFlagIndices": {
+        "black": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61
+        ],
+        "white": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74
+        ]
+      },
+      "rawInkFlagRanges": {
+        "black": [
+          "0–5",
+          "54–61"
+        ],
+        "white": [
+          "6–53",
+          "62–74"
+        ]
+      },
+      "inkFlagTransitions": [
+        6,
+        54,
+        62
+      ],
+      "illustratedSummaryIndices": [],
+      "lastIllustratedCandidate": {
+        "index": 73,
+        "pageArg": 73,
+        "cueArg": null,
+        "scene": "S11",
+        "title": "現世安隱",
+        "captionChars": 29,
+        "captionParagraphs": 1,
+        "verseChars": 80,
+        "special": []
+      },
+      "textEndingCandidates": [
+        {
+          "index": 74,
+          "pageArg": 74,
+          "cueArg": null,
+          "scene": "afterword",
+          "title": "製作說明｜溫柔的起點",
+          "captionChars": 170,
+          "captionParagraphs": 5,
+          "verseChars": 0,
+          "special": [
+            "afterword",
+            "no-image"
+          ]
+        }
+      ],
+      "heartCandidates": [],
+      "rawInkFlagCounts": {
+        "black": 14,
+        "white": 61
+      },
+      "normalIllustratedInkFlagRanges": {
+        "black": [
+          {
+            "first": 0,
+            "last": 61,
+            "count": 14
+          }
+        ],
+        "white": [
+          {
+            "first": 6,
+            "last": 73,
+            "count": 60
+          }
+        ]
+      }
+    }
+  },
+  "summary": {
+    "bookCount": 14,
+    "totalReadingSteps": 1192,
+    "explicitBlackFlagBooks": [
+      "twelve-links",
+      "four-purities-six-recollections",
+      "four-fruits-ten-fetters"
+    ],
+    "heartNativeTransitions": {
+      "four-truths": [
+        22,
+        23
+      ],
+      "five-aggregates": [
+        50,
+        51
+      ],
+      "six-senses": [
+        109,
+        110
+      ],
+      "twelve-links": [
+        73,
+        74
+      ]
+    },
+    "representativeCaptions": {
+      "four-truths": [
+        0,
+        18,
+        17
+      ],
+      "five-aggregates": [
+        1,
+        27,
+        28
+      ],
+      "six-senses": [
+        1,
+        66,
+        60
+      ],
+      "twelve-links": [
+        0,
+        38,
+        40,
+        12,
+        11,
+        16,
+        17,
+        31,
+        32,
+        35,
+        36,
+        41,
+        46,
+        47
+      ],
+      "eightfold-path": [
+        0,
+        56,
+        58
+      ],
+      "four-purities-six-recollections": [
+        0,
+        79,
+        80
+      ],
+      "mindfulness": [
+        0,
+        75,
+        73
+      ],
+      "right-effort": [
+        0,
+        37,
+        35
+      ],
+      "anapana": [
+        0,
+        29,
+        42
+      ],
+      "iddhipada": [
+        0,
+        56,
+        57
+      ],
+      "four-jhanas": [
+        0,
+        92,
+        81
+      ],
+      "five-roots-powers": [
+        0,
+        8,
+        1
+      ],
+      "seven-factors": [
+        0,
+        8,
+        10
+      ],
+      "four-fruits-ten-fetters": [
+        0,
+        54,
+        55,
+        6,
+        5,
+        53,
+        61,
+        62
+      ]
+    },
+    "heartCenteringFutureAssertion": "Compare bounding union of visible #page-title + #verse, not merely .scripture or .verse-body center; if content wider than frame assert preserved horizontal scroll rather than forced shrink."
+  }
+}

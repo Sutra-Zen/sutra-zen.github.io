@@ -1,3 +1,13 @@
+# 心經適配置中與深色口白（2026-11-24）
+
+從 PR79 已發布 main `47e4b6ef5c7f51c9aba4766c6bc25eaa790cc239` 建立 `fix/reader-dark-heart-center`，初始乾淨。作者要求心經依版面左右置中、十四本公開／遊戲字幕深色一致；追加小版面應保留最右起讀。心經標題＋原經以真實不伸縮的子元素寬度判定，放得下才 center，超出則原 RTL flex-start／橫向捲讀；字級、直書、紅色重點與圖框保持。共用字幕及結語底色 #1e1e1e、淺字 #fffdf8，原 metadata、圖內標字與原經金／紅字不改。
+
+快取 dark-heart-1，同步十四 HTML／遊戲產生檔與讀本回程，入口無白框 entry-no-frame-1 保留。七覺支離線 ZIP／manifest 同步30成員，其他原稿／圖片／讀本程式／保存／SEO／Google保護；Pages main:/ 不改，QA 排除25目錄。詳[實作](readers/dark-heart/README.md)與[驗證截圖](previews/reader-dark-heart/README.md)。檢查實際 glyph 與盒尺寸避免空盒假置中；實機 Safari 未測。沿本輪持續發布授權經 PR，精確 SHA／Pages／live 以交付留言為準。
+
+驗證通過48組心經配置（156個原生逐段量測）及168組十四本口白配置（552代表樣本）；615檔保護、ZIP30成員CRC／原稿位元比對、JS語法、產生器與SEO15通過。手機／平板為Chromium模擬。
+
+---
+
 # 入口移除焦點外框（2026-11-24）
 
 從已發布 PR78 `39ae4b24a40bcda483e2f443aa3676732ff93372` 建立 `fix/entry-no-focus-frame`，起始乾淨。作者要求入口進入選單沒有白框；來源是自動 focus 的 outline，非按鈕 border。僅取消片頭提示與標題開始／繼續按鈕的 focus-visible 外框，改以文字底線保留鍵盤提示。其他頁面焦點與所有點擊／鍵盤／略過防穿透、存檔及讀本不改。entry-no-frame-1 僅更新入口 CSS／載入鏈，產生器同步，Pages main:/ 不變。手機直橫式／桌面 Chromium 初始焦點無外框，Enter／Space／點選與進入地圖均驗證通過；實機 Safari 未測。沿作者持續發布授權經 PR，精確 SHA／Pages／正式站以交付留言為準。

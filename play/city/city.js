@@ -1,4 +1,4 @@
-import {initializeGameShell,GAME_URLS} from '../game-shell.js?v=stable-art-1';
+import {initializeGameShell,GAME_URLS} from '../game-shell.js?v=dark-heart-1';
 import {store} from '../collection/store.js';
 import {routeMetadata} from '../route/metadata.js';
 import {routeStatus,routeBooks} from '../route/selectors.js';
@@ -57,7 +57,7 @@ function inspectModule(id){
 function read(id){
  const saved=store.get(),book=books.get(id);if(!book)return;
  const review=canReviewGameBook(id,saved.completed);if(!review&&!canStartGameBook(id,saved.completed)){location.assign(GAME_URLS.map);return;}
- const url=new URL(book.reader,catalogURL),at=saved.positions[id];url.searchParams.set('collection','1');url.searchParams.set('collectionReturn','game');url.searchParams.set('collectionStory','stable-art-1');
+ const url=new URL(book.reader,catalogURL),at=saved.positions[id];url.searchParams.set('collection','1');url.searchParams.set('collectionReturn','game');url.searchParams.set('collectionStory','dark-heart-1');
  if(review){url.searchParams.set('collectionReview','1');url.searchParams.set('collectionPage',String(Number.isInteger(at)&&at>=0&&at<book.totalSteps-1?at:0));}
  else if(Number.isInteger(at)&&at>=0&&at<book.totalSteps)url.searchParams.set('collectionPage',String(at));location.assign(url.href);
 }
