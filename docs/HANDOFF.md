@@ -1,3 +1,17 @@
+# 模組城池、五蓋偽動畫與心聲（2026-11-23）
+
+從已發布main `6bb59a61d5d045b87102989532a55dc814eafa42` 建立 `feat/game-modular-city`，初始乾淨、origin正確。作者本輪明確授權將前輪模組清單寫成程式，加五蓋圓球搖擺、全身波旬、識城主汗滴及心想，並可發布。城池改為新彩繪草地＋獨立模組；第一本完成先有免費四大花園與識，讀本取得14模組，點卡/拖到＋/自動安置，舊已讀不等於已安置、不要求重讀，不影響原閱讀資格。
+
+city.v1保存placedIds/thoughtSeenIds，local/session基界線備援、missingprereq保留而不補讀；同一念守門人延續七覺支，另六夥伴。五蓋−3°～＋3°、波旬浮動及城主汗滴，減動態停止；心聲以屏幕文字可切換。原故事Mara頭像保護，新城景使用完整空手全身版。SN35.245六門／四大／識／念／雙使／消息涅槃／道路及SA1175差異仍可查，其他回饋為教材延伸。
+
+journey-save統一設定與作者重置，v2備份含原reading v1＋city v1，先驗全部才寫；舊v1還原清city避免跨檔佈置。重置/還原關舊OS/來源與選擇，保留其他站點鍵，無localStorage.clear。快取互返modular-city-1，14HTML僅既有bridge query，原站正文/經文/圖片/操作/SEO/Google、原collection/route資格/receipt/相機/source原件不改；入口產生器同步，main:/部署來源不變，QA排除十九目錄。
+
+完整一鍵驗證通過：真first29／原Mara→免費底盤→手放碼頭→reload→五陰0–3與配置續存；歷史3／7／14、滑列與觸控拖放、五尺寸心聲／鏡頭、v2／舊v1備份還原、兩reset、quota／404重試及實測搖擺／汗滴皆通過。原站32節點／14書架與3裸讀本回歸、615檔保護／產生器／15頁SEO通過，零JS／同源HTTP錯誤。
+
+詳[本輪交接](play/game-modular-city/README.md)、[實測與截圖](previews/game-modular-city/README.md)及play/city/modules/ART.md。實際閱讀與隔離fixture分開記錄，實機Safari未測；固定槽位尚無任意搬移/拆除或逐幀走路。依授權經新PR發布，精確merge SHA／Pages／正式站與固定SHA ZIP以PR交付為準。Notion無連接器，待原對話補記。
+
+---
+
 # 波旬首次出場與中斷續看（2026-11-23）
 
 本輪從已發布main `71de5285bef079f515abcc44577eb50a4aa8cea3` 建立 `feat/game-mara-observer`，起始乾淨、origin正確。依作者本輪森林附圖右上波旬製作透明右向頭像：紫金斗篷、紅橘小角、兩琥珀棕眼、帽額金飾與雙翼保留，手持橘貓面具移除，不重畫原書。PNG與imagegen最終原件相同，來源/hash見play/story/assets/MARA.md。

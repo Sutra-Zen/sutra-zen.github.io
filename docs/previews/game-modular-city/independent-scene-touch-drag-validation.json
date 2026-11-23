@@ -1,0 +1,43 @@
+{
+  "result": "passed",
+  "fixtureNotice": "Isolated first-book-completed QA fixture; no production progress is written.",
+  "checks": [
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "nativeSingleTouchInventoryVerticalDragToPlus": true,
+      "exactlyOnePlacementCallback": true,
+      "ghostCleaned": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "nativeSingleTouchInventoryVerticalDragToPlus": true,
+      "exactlyOnePlacementCallback": true,
+      "ghostCleaned": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "nativeSingleTouchInventoryVerticalDragToPlus": true,
+      "exactlyOnePlacementCallback": true,
+      "ghostCleaned": true
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "nativeSingleTouchInventoryVerticalDragToPlus": true,
+      "exactlyOnePlacementCallback": true,
+      "ghostCleaned": true
+    }
+  ],
+  "physicalSafari": "Not tested; Chromium CDP touch events only"
+}

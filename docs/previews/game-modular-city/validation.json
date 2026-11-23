@@ -1,0 +1,421 @@
+{
+  "baseline": "6bb59a61d5d045b87102989532a55dc814eafa42",
+  "protectedOriginalFiles": 615,
+  "fourteenReaderHtmlException": "Only collection bridge query; normalize each to its baseline then full text identical",
+  "originalBooksScriptureArtReaderJsCssHomepageSeoGoogle": "byte-for-byte unchanged",
+  "additionalProtectedCoreAndExistingArt": [
+    "play/collection/store.js",
+    "play/collection/reader.css",
+    "play/reader-bridge.js",
+    "play/route",
+    "play/prologue",
+    "play/story/store.js",
+    "play/story/completion-receipt.js",
+    "play/worldmap-v4/camera.js",
+    "play/worldmap-v4/data.js",
+    "play/visual-v2/network-data.js",
+    "play/assets/CC1A7C32-0620-4DB2-BCD2-A9457A83C259.jpeg",
+    "play/story/assets/DOUBT.md",
+    "play/story/assets/MARA.md",
+    "play/story/assets/README.md",
+    "play/story/assets/doubt-creature-concept.png",
+    "play/story/assets/kitten-traveler-portrait-concept.png",
+    "play/story/assets/mara-portrait-concept.png",
+    "play/visual-v2/assets/archipelago-concept.png",
+    "play/visual-v2/assets/city-cats-concept.png",
+    "play/visual-v2/assets/city-concept.png",
+    "play/visual-v2/assets/city-dharma-dock-concept.png",
+    "play/visual-v2/assets/city-lord-facial-hair-layer.png",
+    "play/visual-v2/assets/city-moustache-concept.png",
+    "play/visual-v2/assets/city-scroll-audience-concept.png",
+    "play/visual-v2/assets/city-tactics-concept.png",
+    "play/visual-v2/assets/continent-concept.png",
+    "play/visual-v2/assets/garden-growth-concept.png",
+    "play/visual-v2/assets/island-atlas-concept.png",
+    "play/visual-v2/assets/kitten-boat-concept.png",
+    "play/visual-v2/assets/kitten-rowboat-concept.png",
+    "play/visual-v2/assets/library-concept.png",
+    "play/visual-v2/assets/mountain-atlas-concept.png",
+    "play/visual-v2/assets/network-sea-concept.png",
+    "play/visual-v2/assets/network-terrain-concept.png",
+    "play/visual-v2/assets/network-world-concept.png",
+    "play/visual-v2/assets/shelf-02.svg",
+    "play/visual-v2/assets/shelf-03.svg",
+    "play/visual-v2/assets/shelf-04.svg",
+    "play/visual-v2/assets/shelf-05.svg",
+    "play/visual-v2/assets/shelf-06.svg",
+    "play/visual-v2/assets/shelf-07.svg",
+    "play/visual-v2/assets/shelf-08.svg",
+    "play/visual-v2/assets/shelf-09.svg",
+    "play/visual-v2/assets/shelf-10.svg",
+    "play/visual-v2/assets/shelf-11.svg",
+    "play/visual-v2/assets/shelf-12.svg",
+    "play/visual-v2/assets/shelf-13.svg",
+    "play/visual-v2/assets/shelf-14.svg",
+    "play/visual-v2/assets/shelf-lock.svg",
+    "play/worldmap-v4/assets/detail-northeast.png",
+    "play/worldmap-v4/assets/detail-northwest.png",
+    "play/worldmap-v4/assets/detail-southeast.png",
+    "play/worldmap-v4/assets/detail-southwest.png",
+    "play/worldmap-v4/assets/worldmap-master-concept.png"
+  ],
+  "readerBridgeException": "Return cache query only; all other bytes identical",
+  "phase": "Local integrated modular city validation",
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "physicalSafari": "Not tested; Chromium desktop viewport, mouse and CDP touch simulation",
+  "fixtureNotice": "Only nativeFirstAndHandPlacement is a full native first29 walk. Historical/placement/reset/backup/failure cases are isolated synthetic profiles, not claims of reading all14.",
+  "nativeFirstAndHandPlacement": {
+    "firstBookActualNextTrace": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "maraStorylineAndOriginalRewardPreserved": true,
+    "firstCompletionCreatesFreeGardenAndLordButNoPlacedReward": true,
+    "sixGatesAndGuardianAbsent": true,
+    "nativeClickTruthDockCardThenPlus": true,
+    "placedIds": [
+      "truth_dock"
+    ],
+    "collectionBytesUnchangedByPlacement": true,
+    "placementReloadPersists": true,
+    "fiveActualNextTrace": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "fiveReloadRotateReturnResumesIndex": 3,
+    "cityPlacementSurvivesReaderRoundTrip": true
+  },
+  "historicalDependencyAndNativeDrag": [
+    {
+      "fixture": "historical first3, no city layout",
+      "ownedNotPlaced": true,
+      "sixGatesWaitForBodyPlacement": true,
+      "nativeClickBodyThenMouseDragSixToPlus": true,
+      "sixSeparateGateArtSlots": 6,
+      "guardianStillAbsent": true,
+      "reloadAndRotateKeepsPlacedIds": [
+        "city_body",
+        "six_gates"
+      ],
+      "collectionBytesUnchanged": true
+    },
+    {
+      "fixture": "historical first7, body+gates already placed",
+      "guardianOnlyAfterActualMindfulnessPlacement": true,
+      "guardianActorCount": 1,
+      "collectionBytesUnchanged": true
+    },
+    {
+      "fixture": "only historical book13 with deferred saved placement",
+      "ownedRetainedWithoutInventingPrerequisiteReadingOrBuildings": true,
+      "effectivePlacedEmpty": true,
+      "autoPlaceDisabledWithoutBase": true
+    },
+    {
+      "fixture": "first done, phone touch",
+      "nativeHorizontalTraySwipeReachesLastCardWithoutPlacement": true,
+      "nativeVerticalTouchDragTruthToPlusPersistsExactlyOnce": true,
+      "ghostRemoved": true,
+      "collectionBytesUnchanged": true
+    }
+  ],
+  "fiveViewportOsAndCamera": [
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "actualLordThenMaraActorClick": true,
+      "lordPanel": {
+        "x": 260,
+        "y": 66,
+        "width": 760,
+        "height": 175.1875
+      },
+      "maraPanelBeforeCamera": {
+        "x": 260,
+        "y": 66,
+        "width": 760,
+        "height": 144.59375
+      },
+      "maraPanelAfterCamera": {
+        "x": 260,
+        "y": 66,
+        "width": 760,
+        "height": 144.59375
+      },
+      "screenSpaceReadableAndAboveDock": true,
+      "overviewReturnsToExploration": true,
+      "reducedMotionStopsNpcAndSweat": true,
+      "collectionUnchangedByOsAndCamera": true
+    },
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "actualLordThenMaraActorClick": true,
+      "lordPanel": {
+        "x": 9,
+        "y": 62,
+        "width": 342,
+        "height": 193.890625
+      },
+      "maraPanelBeforeCamera": {
+        "x": 9,
+        "y": 62,
+        "width": 342,
+        "height": 193.890625
+      },
+      "maraPanelAfterCamera": {
+        "x": 9,
+        "y": 62,
+        "width": 342,
+        "height": 193.890625
+      },
+      "screenSpaceReadableAndAboveDock": true,
+      "overviewReturnsToExploration": true,
+      "reducedMotionStopsNpcAndSweat": true,
+      "collectionUnchangedByOsAndCamera": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "actualLordThenMaraActorClick": true,
+      "lordPanel": {
+        "x": 167,
+        "y": 7,
+        "width": 669,
+        "height": 157.6875
+      },
+      "maraPanelBeforeCamera": {
+        "x": 167,
+        "y": 7,
+        "width": 669,
+        "height": 131.34375
+      },
+      "maraPanelAfterCamera": {
+        "x": 167,
+        "y": 7,
+        "width": 669,
+        "height": 131.34375
+      },
+      "screenSpaceReadableAndAboveDock": true,
+      "overviewReturnsToExploration": true,
+      "reducedMotionStopsNpcAndSweat": true,
+      "collectionUnchangedByOsAndCamera": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "actualLordThenMaraActorClick": true,
+      "lordPanel": {
+        "x": 12,
+        "y": 66,
+        "width": 744,
+        "height": 175.1875
+      },
+      "maraPanelBeforeCamera": {
+        "x": 12,
+        "y": 66,
+        "width": 744,
+        "height": 144.59375
+      },
+      "maraPanelAfterCamera": {
+        "x": 12,
+        "y": 66,
+        "width": 744,
+        "height": 144.59375
+      },
+      "screenSpaceReadableAndAboveDock": true,
+      "overviewReturnsToExploration": true,
+      "reducedMotionStopsNpcAndSweat": true,
+      "collectionUnchangedByOsAndCamera": true
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "actualLordThenMaraActorClick": true,
+      "lordPanel": {
+        "x": 132,
+        "y": 66,
+        "width": 760,
+        "height": 175.1875
+      },
+      "maraPanelBeforeCamera": {
+        "x": 132,
+        "y": 66,
+        "width": 760,
+        "height": 144.59375
+      },
+      "maraPanelAfterCamera": {
+        "x": 132,
+        "y": 66,
+        "width": 760,
+        "height": 144.59375
+      },
+      "screenSpaceReadableAndAboveDock": true,
+      "overviewReturnsToExploration": true,
+      "reducedMotionStopsNpcAndSweat": true,
+      "collectionUnchangedByOsAndCamera": true
+    }
+  ],
+  "historicalAllReadAndBackupUi": {
+    "fixture": "all14 historical completions, no city key",
+    "initialOwned": 14,
+    "initialPlaced": 0,
+    "nativePlaceAllOnlyOwnedAndDependencies": [
+      "truth_dock",
+      "city_body",
+      "six_gates",
+      "conditions_wheel",
+      "noble_path",
+      "confidence_harbor",
+      "mindfulness_guard",
+      "effort_garden",
+      "calm_insight_messengers",
+      "endeavor_boat",
+      "jhana_garden",
+      "faculties_links",
+      "awakening_companions",
+      "fruition_guide"
+    ],
+    "noCollectionWriteFromPlacement": true,
+    "sixGates": 6,
+    "guardianActorExactlyOne": true,
+    "sixNonMindfulnessCompanions": [
+      "awakening-owl",
+      "awakening-rabbit",
+      "awakening-bird",
+      "awakening-turtle",
+      "awakening-lotus",
+      "awakening-deer"
+    ],
+    "awakeningMindfulnessOnlyGlowNoSecondGuardianSprite": true,
+    "duplicatePlaceAllDisabled": true,
+    "actualLordActorClick": true,
+    "nativeDownloadedBackupFormat": "sutrazen.journey v2",
+    "invalidCityBackupNoPartialMutation": true,
+    "settingsResetCancelAllStorageByteIdentical": true,
+    "settingsResetClearsCityAndReadingOnly": true,
+    "newV2RestoreReturnsAllPlacementsAndReading": true,
+    "legacyV1RestoreClearsCityAndKeepsExactReading": true,
+    "legacyFiveBookmarkStillReadableWithNoConstruction": true,
+    "unrelatedLocalAndSessionKeysPreserved": true
+  },
+  "authorResetAndStorageFailure": {
+    "authorReset": {
+      "nativeAuthorCancelByteIdentical": true,
+      "confirmClearsLoadedCityStoreAndReading": true,
+      "freshFirstArrivalAndGrassOnlyCity": true,
+      "publicReaderAndUnrelatedKeysPreserved": true
+    },
+    "quotaUi": {
+      "cityLocalWriteDeniedOnly": true,
+      "actualPlacementContinuesWithWarning": true,
+      "sameTabSessionFallbackRestoresPlacementOnReload": true,
+      "readingUnchanged": true
+    }
+  },
+  "artRetryFailure": {
+    "expectedInjected404Url": "buildings-atlas-concept.png",
+    "requests": 2,
+    "retryStillShowsHonestNotice": true,
+    "groundNotBlocked": true,
+    "collectionUnchanged": true
+  },
+  "normalMotion": {
+    "sampleDurationSeconds": 4.2,
+    "actualComputedRotation": {
+      "desire": {
+        "minDegrees": -2.918396348735644,
+        "maxDegrees": 2.7123630032547523
+      },
+      "anger": {
+        "minDegrees": 0.8469310082334524,
+        "maxDegrees": 2.999566257432085
+      },
+      "sloth": {
+        "minDegrees": -2.918396348735644,
+        "maxDegrees": 2.7123630032547523
+      },
+      "restlessness": {
+        "minDegrees": 0.8469310082334524,
+        "maxDegrees": 2.999566257432085
+      },
+      "doubt": {
+        "minDegrees": -2.918396348735644,
+        "maxDegrees": 2.7123630032547523
+      }
+    },
+    "allFiveWithinPlusMinus3Degrees": true,
+    "lordSweatOpacityRange": [
+      0,
+      0.933629
+    ],
+    "collectionUnchanged": true
+  },
+  "originalWebsiteSmoke": {
+    "homepageMapAnchorAndModal": true,
+    "readableShelfBooks": 14,
+    "mindMapTopicKeys": 32,
+    "bareOriginalReaders": [
+      {
+        "book": "four-truths",
+        "nativeNextWorks": true,
+        "originalSourceMapLinks": true,
+        "noGameShellOrGameStorageWrites": true
+      },
+      {
+        "book": "five-aggregates",
+        "nativeNextWorks": true,
+        "originalSourceMapLinks": true,
+        "noGameShellOrGameStorageWrites": true
+      },
+      {
+        "book": "six-senses",
+        "nativeNextWorks": true,
+        "originalSourceMapLinks": true,
+        "noGameShellOrGameStorageWrites": true
+      }
+    ],
+    "proxyHttpsExceptionForOriginalExternalCdnOnly": true
+  },
+  "result": "passed"
+}

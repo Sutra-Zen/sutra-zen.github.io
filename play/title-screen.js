@@ -1,7 +1,7 @@
 import {store} from './collection/store.js';
-import {GAME_UI as T} from './game-ui-text.js?v=prologue-1';
+import {GAME_UI as T} from './game-ui-text.js?v=modular-city-1';
 import {initializePrologue} from './prologue/prologue.js?v=prologue-1';
-import {authorReviewEnabled,resetAuthorJourney} from './title-review.js?v=mara-1';
+import {authorReviewEnabled,resetAuthorJourney} from './title-review.js?v=modular-city-1';
 // Only the author's specified attachment is accepted; no substitute illustration.
 export const TITLE_ART_FILENAME='CC1A7C32-0620-4DB2-BCD2-A9457A83C259.jpeg';
 export function initializeTitleScreen({onEnterMap,shell,enabled=/^\/game(?:\/|$)/.test(location.pathname)}={}){

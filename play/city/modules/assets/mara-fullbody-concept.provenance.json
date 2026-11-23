@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "status": "generated-fullbody-concept",
+  "createdDate": "2026-11-23",
+  "tool": "image_gen.imagegen",
+  "operation": "Image edit/extension using local identity reference",
+  "transparentBackgroundRequested": true,
+  "asset": {
+    "path": "play/city/modules/assets/mara-fullbody-concept.png",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "bytes": 2426710,
+    "sha256": "ec09957c3962f01382ebc9cc99264ea35b092c476c8d57781843e4e6f4765ba4",
+    "alphaExtrema": [
+      0,
+      254
+    ],
+    "alpha32Bounds": [
+      53,
+      152,
+      968,
+      1329
+    ]
+  },
+  "reference": {
+    "path": "play/story/assets/mara-portrait-concept.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "8e8067e3b67ae6037f2e9562b91d9ae14a9d667b92b6d7a2de389ba36d48f63c",
+    "preservedByteForByte": true
+  },
+  "originalOutput": "/workspace/generated_images/exec-76d53aa2-4ebd-4c5a-9975-252dcd6edf60.png",
+  "preservation": "Original copied byte-for-byte with copyfile; PNG not cropped, re-encoded, recolored or programmatically edited. PIL used read-only for dimensions, alpha bounds and SHA.",
+  "prompt": "EDIT AND EXTEND THIS EXACT MARA CAT REFERENCE into one independent COMPLETE FULL-BODY FLOATING GAME SPRITE with a true transparent background. The attached image is identity reference, not a body crop to reuse as-is. Preserve THIS SAME gray-brown tabby cat face, fur stripes, TWO warm amber-brown eyes (both the same color), little coral-red/orange horns, ear shapes, ornate GOLD EYE-MASK-SHAPED FOREHEAD ORNAMENT worn ABOVE THE EYES on the hood, small purple bat wings, richly textured purple cloak and gold trim/filigree, round gold clasp. Do not change the ornament into a jewel, do not add heterochromia or gold horns. Keep a three-quarter RIGHT-FACING head, body and gaze, with the cute, slightly disgruntled far-watching expression. IMPORTANT: zoom OUT and paint the missing lower body: show the ENTIRE cloak from hood to its naturally flaring finished bottom hem AND BOTH complete small gray-brown kitten PAWS/FEET extending below the hem. Full body including lower torso and legs belongs to this one cat, no human limbs. BOTH hands/paws visible, naturally empty and relaxed out beside the chest; REMOVE any hand-held orange cat mask completely. The gold forehead eye-mask ornament MUST remain: it is a worn ornament, not the removed hand prop. A light airborne hover pose, small feet slightly dangling, wings spread gently; no floor, no cast shadow, no cloud platform. All ear tips, horns, both wing tips, both hands, COMPLETE cloak hem and both toes fully inside canvas with at least10 percent transparent margin on every side. One character only. Prefer portrait2:3 composition or a square canvas with the FULL figure small enough to fit; do NOT make a head/shoulder portrait and do not hide the feet under the cloak. Same detailed warm watercolor children's storybook paper-textured illustration and soft outlines as the reference, suitable as an animated city NPC rather than a frightening adult demon. Genuine alpha transparency, no scenery, colored haze, white rectangle, border, text, letters, labels, signs, numbers or floating symbols.",
+  "visualCheck": "Complete floating body and cloak hem, two visible empty hands, two complete dangling kitten feet, complete ears/horns/wings, right-facing, both eyes amber-brown, red-orange horns and golden eye-mask-shaped forehead ornament retained. No hand-held orange mask or baked text.",
+  "limitations": "Generated body extension is provisional new artwork based on the existing identity reference, not a pixel-exact extraction of an available original full-body master."
+}

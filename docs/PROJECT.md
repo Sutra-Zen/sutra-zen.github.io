@@ -6,6 +6,12 @@
 - Related Buddhist learning map: https://sutrazen.netlify.app/map.html
 - Primary language: Traditional Chinese (Taiwan)
 
+## Current modular city / NPC thoughts (2026-11-23)
+
+Latest [modular-city round](play/game-modular-city/README.md) starts from published PR72 `6bb59a61d5d045b87102989532a55dc814eafa42`. The live city uses genuine watercolor grass/sprites and fixed placement slots. First-book completion reveals the free four-elements garden/lord; fourteen reading rewards are owned separately from placed modules. Tap/card-to-plus, native drag and automatic placement preserve strict reading eligibility and historical completions. Five round hindrances sway, full-body maskless Mara floats, the lord sweats, and screen-space inner voices are optional; reduced motion stops effects. One guardian plus six Awakening companions stays correct, with canonical sources preserved.
+
+City v1 saves placement/thought IDs only; the new journey-save coordinator makes v2 reading+city backups, accepts old reading-only v1 with a fresh layout, and synchronizes both reset entries without touching original-site keys. Root readers only change their bridge cache query; story assets, original content, SEO/Google and eligibility remain. The generated game entry shares the versioned shell; legacy main:/ remains with nineteen excluded QA directories. Exact Pages/live proof belongs to the new PR. Physical Safari and freeform placement/walk-frame animations are untested/unimplemented as recorded; Notion update pending.
+
 ## Current Mara cameo after Doubt retreats (2026-11-23)
 
 Latest [Mara/story round](play/game-mara-story/README.md) starts from published PR71 `71de5285bef079f515abcc44577eb50a4aa8cea3`. A transparent right-facing portrait follows the author's upper-right purple/gold character, removes the handheld orange mask and preserves the original forehead ornament, amber eyes and red-orange horns. The cameo follows Doubt's retreat, then the unchanged reading reward and Five Aggregates lake transition. The line is Mara's fictional inner thought, not an attainment score or scripture quotation.

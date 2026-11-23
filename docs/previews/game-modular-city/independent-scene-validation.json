@@ -1,0 +1,58 @@
+{
+  "result": "passed",
+  "fixtureNotice": "Completed lists in this isolated scene harness are explicit QA fixtures, not actual reading; root end-to-end checks reading separately.",
+  "checks": [
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "nativeSelectPlus": true,
+      "allFourteenFixtureScreenshot": true,
+      "noOuterOverflow": true,
+      "destroyRemovesScene": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "nativeSelectPlus": true,
+      "allFourteenFixtureScreenshot": true,
+      "noOuterOverflow": true,
+      "destroyRemovesScene": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "nativeSelectPlus": true,
+      "allFourteenFixtureScreenshot": true,
+      "noOuterOverflow": true,
+      "destroyRemovesScene": true
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "nativeSelectPlus": true,
+      "allFourteenFixtureScreenshot": true,
+      "noOuterOverflow": true,
+      "destroyRemovesScene": true
+    }
+  ],
+  "errors": [],
+  "physicalSafari": "Not tested; Chromium/CDP emulation only",
+  "basicNativePlacementAndFourteenFixture": {
+    "firstPlusPlaced": true,
+    "allFourteenAutoPlaced": true,
+    "exactlyOneGuardianAndSixCompanions": true,
+    "sixGatesAsWholeModule": true,
+    "clickableScroll": true,
+    "noDuplicateRestartOnSameState": true,
+    "collectionSentinelUnchanged": true
+  },
+  "reducedMotionStatic": true
+}
