@@ -1,4 +1,4 @@
-import {initializeGameShell,GAME_URLS} from '../game-shell.js?v=framing-1';
+import {initializeGameShell,GAME_URLS} from '../game-shell.js?v=simple-ui-1';
 import {store} from '../collection/store.js';
 import {routeStatus} from '../route/selectors.js';
 import {canReviewGameBook} from '../route/eligibility.js';
@@ -25,7 +25,7 @@ function render(){
 function read(id){
  const saved=store.get();if(!canReviewGameBook(id,saved.completed)){location.assign(GAME_URLS.map);return;}
  const b=routeStatus(saved.completed,saved.positions).books.find(b=>b.id===id);if(!b)return;
- const u=new URL(b.reader,moduleURL),at=saved.positions[id];u.searchParams.set('collection','1');u.searchParams.set('collectionReview','1');u.searchParams.set('collectionReturn','game');u.searchParams.set('collectionStory','framing-1');u.searchParams.set('collectionPage',String(Number.isInteger(at)&&at>=0&&at<b.totalSteps-1?at:0));location.assign(u.href);
+ const u=new URL(b.reader,moduleURL),at=saved.positions[id];u.searchParams.set('collection','1');u.searchParams.set('collectionReview','1');u.searchParams.set('collectionReturn','game');u.searchParams.set('collectionStory','simple-ui-1');u.searchParams.set('collectionPage',String(Number.isInteger(at)&&at>=0&&at<b.totalSteps-1?at:0));location.assign(u.href);
 }
 document.addEventListener('click',e=>{const button=e.target.closest('[data-collection-read]');if(button)read(button.dataset.collectionRead);});
 window.addEventListener('sutrazen:collection-progress',render);window.addEventListener('pageshow',render);

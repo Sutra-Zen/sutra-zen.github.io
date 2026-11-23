@@ -1,0 +1,184 @@
+{
+  "result": "passed",
+  "checks": [
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "legacyOverviewReturnsExactSnapshot": true,
+      "reloadRemainsExploration": true,
+      "noOverviewOrReturnControls": true,
+      "keyboardZeroHomeDoNotFit": true,
+      "modifierZoomDefaultNotPrevented": [
+        {
+          "key": "0",
+          "defaultPrevented": false
+        },
+        {
+          "key": "+",
+          "defaultPrevented": false
+        },
+        {
+          "key": "-",
+          "defaultPrevented": false
+        }
+      ],
+      "plusMinusAndCurrentStageWork": true,
+      "landmarks": 32,
+      "sourceRelations": 46,
+      "readingUnchanged": true
+    },
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "legacyOverviewReturnsExactSnapshot": true,
+      "reloadRemainsExploration": true,
+      "noOverviewOrReturnControls": true,
+      "keyboardZeroHomeDoNotFit": true,
+      "modifierZoomDefaultNotPrevented": [
+        {
+          "key": "0",
+          "defaultPrevented": false
+        },
+        {
+          "key": "+",
+          "defaultPrevented": false
+        },
+        {
+          "key": "-",
+          "defaultPrevented": false
+        }
+      ],
+      "plusMinusAndCurrentStageWork": true,
+      "landmarks": 32,
+      "sourceRelations": 46,
+      "readingUnchanged": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "legacyOverviewReturnsExactSnapshot": true,
+      "reloadRemainsExploration": true,
+      "noOverviewOrReturnControls": true,
+      "keyboardZeroHomeDoNotFit": true,
+      "modifierZoomDefaultNotPrevented": [
+        {
+          "key": "0",
+          "defaultPrevented": false
+        },
+        {
+          "key": "+",
+          "defaultPrevented": false
+        },
+        {
+          "key": "-",
+          "defaultPrevented": false
+        }
+      ],
+      "plusMinusAndCurrentStageWork": true,
+      "landmarks": 32,
+      "sourceRelations": 46,
+      "readingUnchanged": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "legacyOverviewReturnsExactSnapshot": true,
+      "reloadRemainsExploration": true,
+      "noOverviewOrReturnControls": true,
+      "keyboardZeroHomeDoNotFit": true,
+      "modifierZoomDefaultNotPrevented": [
+        {
+          "key": "0",
+          "defaultPrevented": false
+        },
+        {
+          "key": "+",
+          "defaultPrevented": false
+        },
+        {
+          "key": "-",
+          "defaultPrevented": false
+        }
+      ],
+      "plusMinusAndCurrentStageWork": true,
+      "landmarks": 32,
+      "sourceRelations": 46,
+      "readingUnchanged": true
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "legacyOverviewReturnsExactSnapshot": true,
+      "reloadRemainsExploration": true,
+      "noOverviewOrReturnControls": true,
+      "keyboardZeroHomeDoNotFit": true,
+      "modifierZoomDefaultNotPrevented": [
+        {
+          "key": "0",
+          "defaultPrevented": false
+        },
+        {
+          "key": "+",
+          "defaultPrevented": false
+        },
+        {
+          "key": "-",
+          "defaultPrevented": false
+        }
+      ],
+      "plusMinusAndCurrentStageWork": true,
+      "landmarks": 32,
+      "sourceRelations": 46,
+      "readingUnchanged": true
+    }
+  ],
+  "legacyCases": [
+    {
+      "case": "fit-only",
+      "normalAfterLoadAndReload": true
+    },
+    {
+      "case": "old-v1-fit-scale",
+      "normalAfterLoadAndReload": true
+    },
+    {
+      "case": "normal-with-return",
+      "normalAfterLoadAndReload": true
+    }
+  ],
+  "errors": [],
+  "physicalSafari": "Not tested; Chromium/CDP generated touch events only",
+  "fixtureNotice": "The reading bookmark is an isolated QA fixture and is checked unchanged.",
+  "gestures": [
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "mouseLabelDrag65pxNoOpen": true,
+      "nativeTouchLabelDrag65pxNoOpen": true,
+      "freshNativeTapOpens": true,
+      "nativePinchZooms": true
+    },
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "mouseLabelDrag65pxNoOpen": true,
+      "nativeTouchLabelDrag65pxNoOpen": true,
+      "freshNativeTapOpens": true,
+      "nativePinchZooms": true
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "checkedAt": "2026-11-23",
+  "scope": "play/city/explanations.js only; no archived scripture or original book content changed",
+  "displayContract": {
+    "canonicalTitle": "相應部35相應245經／如緊叔迦經",
+    "canonicalBody": "the matching excerpt only",
+    "extendedBody": "short thematic teaching copy, not a scripture quotation",
+    "sourceMetadata": "audit-only; do not render URLs, notes or controls"
+  },
+  "officialChecks": [
+    {
+      "provider": "SuttaCentral official sc-data main",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/main/html_text/zh/pli/sutta/sn/sn35/sn35.245.html",
+      "httpStatus": 200,
+      "bytes": 5997,
+      "sha256": "02a831885b965c463abd72814329e589ab8e8d9edecae25ad8a4ad9aa39e0426",
+      "sameBytesAsArchive": true,
+      "observedTitle": "像緊叔迦那樣經",
+      "observedPlazaExcerpt": "『在中央廣場』，這是對於四大的同義語，即：對於地界、對於水界、對於火界、對於風界；"
+    },
+    {
+      "provider": "SuttaCentral current production API",
+      "url": "https://suttacentral.net/api/suttas/sn35.245/zhuang?lang=zh",
+      "httpStatus": 200,
+      "bytes": 19433,
+      "sha256": "7476d71122aed71b4667b8feaaf25006232c3dda345a9648be0b5557225cc38f",
+      "translator": "莊春江",
+      "observedTitle": "像緊叔迦那樣經",
+      "containsAuthorPlazaWording": false,
+      "containsObservedPlazaWording": true
+    },
+    {
+      "provider": "SuttaCentral production reader",
+      "url": "https://suttacentral.net/sn35.245/zh/zhuang",
+      "httpStatus": 200,
+      "result": "HTML application shell; actual Chinese text verified through production API"
+    },
+    {
+      "provider": "莊春江 current website",
+      "urls": [
+        "https://agama.buddhason.org/SN/",
+        "https://agama.buddhason.org/SN/index.htm"
+      ],
+      "result": "HTTPS proxy tunnel denied with 403 in this environment",
+      "verified": false,
+      "limitation": "A newer translator-site edition cannot be confirmed or ruled out from this blocked request."
+    },
+    {
+      "provider": "SuttaCentral bilara published lookup",
+      "url": "https://raw.githubusercontent.com/suttacentral/bilara-data/published/translation/zh/zhuang/sutta/sn/sn35/sn35.245_translation-zh-zhuang.json",
+      "httpStatus": 404,
+      "result": "This candidate segmented-file path was absent; the official HTML and production API above were available."
+    }
+  ],
+  "pinnedOfficialEdition": {
+    "url": "https://raw.githubusercontent.com/suttacentral/sc-data/636911e1d624b355d86fb3eae3d461bca298466e/html_text/zh/pli/sutta/sn/sn35/sn35.245.html",
+    "lastChangeCommit": "636911e1d624b355d86fb3eae3d461bca298466e",
+    "lastChangeDate": "2020-03-19T16:49:04Z",
+    "bytes": 5997,
+    "sha256": "02a831885b965c463abd72814329e589ab8e8d9edecae25ad8a4ad9aa39e0426",
+    "matchesMainAndArchive": true
+  },
+  "archivePreserved": {
+    "path": "docs/play/canonical/sn35.245.html",
+    "sha256": "02a831885b965c463abd72814329e589ab8e8d9edecae25ad8a4ad9aa39e0426"
+  },
+  "authorSpecifiedDifferences": [
+    {
+      "field": "canonical display title",
+      "used": "相應部35相應245經／如緊叔迦經",
+      "officialObservedTitle": "像緊叔迦那樣經",
+      "basis": "Author explicitly requested this display wording; not presented in this audit as a newly verified SC title."
+    },
+    {
+      "field": "CANONICAL_EXPLANATIONS.plaza.text",
+      "used": "『在中央四衢街道』，這是四大的同義語，即：地界的、水界的、火界的、風界的。",
+      "officialObservedExcerpt": "『在中央廣場』，這是對於四大的同義語，即：對於地界、對於水界、對於火界、對於風界；",
+      "basis": "Author explicitly supplied this sentence. The readable current SC API/main still use the observed excerpt; no unsupported claim that SC has changed to the supplied wording."
+    }
+  ],
+  "canonicalVerification": {
+    "verbatimKeys": [
+      "town",
+      "eye",
+      "ear",
+      "nose",
+      "tongue",
+      "body",
+      "mind",
+      "guardian",
+      "messengers",
+      "lord",
+      "message",
+      "road"
+    ],
+    "method": "Each exact text value occurs in the production API Chinese translation; the original semicolon is retained where it ends a clause.",
+    "authorSpecifiedKey": "plaza"
+  },
+  "moduleCoverage": {
+    "truth_dock": {
+      "kind": "extended",
+      "basisPath": "four-truths/book/scenes.js"
+    },
+    "city_body": {
+      "kind": "extended",
+      "basisPath": "five-aggregates/book/index.html"
+    },
+    "six_gates": {
+      "kind": "canonical",
+      "basisPath": "docs/play/canonical/sn35.245.html"
+    },
+    "conditions_wheel": {
+      "kind": "extended",
+      "basisPath": "twelve-links/book/book-data.js"
+    },
+    "noble_path": {
+      "kind": "canonical",
+      "basisPath": "docs/play/canonical/sn35.245.html"
+    },
+    "confidence_harbor": {
+      "kind": "extended",
+      "basisPath": "four-purities-six-recollections/book/book-data.js"
+    },
+    "mindfulness_guard": {
+      "kind": "canonical",
+      "basisPath": "docs/play/canonical/sn35.245.html"
+    },
+    "effort_garden": {
+      "kind": "extended",
+      "basisPath": "right-effort/book/book-data.js"
+    },
+    "calm_insight_messengers": {
+      "kind": "canonical",
+      "basisPath": "docs/play/canonical/sn35.245.html"
+    },
+    "endeavor_boat": {
+      "kind": "extended",
+      "basisPath": "iddhipada/book/book-data.js"
+    },
+    "jhana_garden": {
+      "kind": "extended",
+      "basisPath": "four-jhanas/book/book-data.js"
+    },
+    "faculties_links": {
+      "kind": "extended",
+      "basisPath": "play/route/data.js"
+    },
+    "awakening_companions": {
+      "kind": "extended",
+      "basisPath": "seven-factors/book/book-data.js"
+    },
+    "fruition_guide": {
+      "kind": "extended",
+      "basisPath": "four-fruits-ten-fetters/book/book-data.js"
+    }
+  },
+  "integrationNote": "city-outline must use canonical town; aggregates-corner uses extended city_body. Never label the teaching corner as SN35.245. All six doors share the same original six-door definition.",
+  "validation": {
+    "canonicalKeys": 13,
+    "moduleKeys": 14,
+    "frozenRecords": true,
+    "allNonPlazaCanonicalExcerptsVerbatimInCurrentApi": true,
+    "extendedCopyDoesNotUseSN35Header": true,
+    "archiveUnmodified": true
+  }
+}

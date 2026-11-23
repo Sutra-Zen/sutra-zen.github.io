@@ -1,5 +1,5 @@
 // Fictional city inner voices. Separate from scripture and reading completion.
-import {renderSprite} from './modules/scene.js?v=framing-1';
+import {renderSprite} from './modules/scene.js?v=simple-ui-1';
 const COPY=Object.freeze({
  label:'城池角色對話',close:'關閉對話',
  lordName:'識・城主',maraName:'波旬',guardianName:'念-守門人',messengersName:'止・觀使者',
@@ -16,12 +16,12 @@ const COPY=Object.freeze({
  slothName:'五蓋眾・昏沉',sloth:'眼皮好重……先讓我在草地上睡一下。',
  restlessnessName:'五蓋眾・掉悔',restlessness:'這邊看看，那邊也得看看……我又想到剛才的事了！',
  doubtName:'五蓋眾・疑',doubt:'真的要走這條路嗎……？先在附近看看好了。',
- owlName:'擇法夥伴・貓頭鷹',owl:'先仔細看一看，分清什麼能幫上忙，再決定怎麼做。',
- rabbitName:'精進夥伴・兔子',rabbit:'慢慢走也沒關係，今天再向前一步吧！',
- birdName:'喜夥伴・藍鳥',bird:'看見大家一起前進，我也想唱首歌！',
- turtleName:'輕安夥伴・烏龜',turtle:'把肩膀放鬆，讓腳步穩一點，慢慢來。',
- lotusName:'定夥伴・蓮花',lotus:'先安靜待一會兒，把注意留在眼前。',
- deerName:'捨夥伴・小鹿',deer:'不急著追，也不忙著躲，先平穩地看著變化。',
+ owlName:'擇法夥伴・貓頭鷹',owl:'七覺支中的擇法覺支。',
+ rabbitName:'精進夥伴・兔子',rabbit:'七覺支中的精進覺支。',
+ birdName:'喜夥伴・藍鳥',bird:'七覺支中的喜覺支。',
+ turtleName:'輕安夥伴・烏龜',turtle:'七覺支中的輕安覺支。',
+ lotusName:'定夥伴・蓮花',lotus:'七覺支中的定覺支。',
+ deerName:'捨夥伴・小鹿',deer:'七覺支中的捨覺支。',
 });
 export const CITY_THOUGHT_LOCALE='zh-Hant';
 export const CITY_THOUGHT_FUTURE_LOCALES=Object.freeze(['zh-Hans','en','ja']);
