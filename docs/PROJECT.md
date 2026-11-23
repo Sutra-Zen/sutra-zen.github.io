@@ -1,6 +1,13 @@
 # SutraZen project context
 
 
+## Current stable artwork and aligned text readers (2026-11-23)
+
+The [shared reader framing round](readers/stable-artwork/README.md) starts from published PR77 `3a72b2e33a086714ce30cd80fbebb3ab641d0dc3`. All fourteen public/game readers share the same illustration height, independent of one/two-line narration or scripture. Natural-ratio frames retain overlays and focus masks; actual control bounds and safe areas reserve text gutters. Landscape long text scrolls inside fixed bands; portrait text stays a full scrolling document. Heart Sutra pages use the previous/common picture frame and aligned caption while preserving vertical text; text closings keep full sections/tables at a consistent top.
+
+Return copy is shortened to “回到書架”. Prologue entry is plain white text; Start/Continue uses a dark surface and light-cyan text. The original content, illustrations, reader functions, progress/eligibility/store schemas and SEO/Google remain. UI cache stable-art-1, generated shell synchronized, legacy main:/ unchanged,24 excluded QA directories. The Seven Factors offline generator and rebuilt30-file ZIP include the new shared script; original art/content data are preserved. Exact release proof belongs to the new PR; physical Safari is untested.
+
+
 ## Current simplified game controls and scripted completion (2026-11-23)
 
 The [simple UI round](play/game-simple-ui/README.md) starts from published PR76 `d82f68533f595db032c8a787a1a2c5606a53fb2f`. Map/city overview controls are removed while pan/pinch remain; legacy overview cameras recover to exploration. The shelf paints its art once on the local scrolling layer. Settings can return to the title menu without replaying/resetting; the prologue retains only the bottom action and normal background-tap skip.

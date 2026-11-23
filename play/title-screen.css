@@ -20,3 +20,9 @@
 .game-title-screen .game-title-author-reset{align-self:center;min-height:48px;max-width:100%;padding:8px 15px;border:1px dashed #a78955;border-radius:10px;background:#fff5df80;color:#795d32;font:600 14px/1.5 "PingFang TC","Microsoft JhengHei",sans-serif;cursor:pointer;touch-action:manipulation}
 .game-title-review-row{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:4px 8px}
 .game-title-reset-status{font:500 14px/1.6 "PingFang TC","Microsoft JhengHei",sans-serif;color:#4d6642;margin:10px 0 0}.game-title-reset-status[hidden]{display:none}
+
+/* Keep both Start and Continue on the same dark surface as Settings. The ID
+   scope outranks the later shared action theme without changing other buttons. */
+#game-title-screen .game-title-paper .game-title-start{background:rgba(27,41,54,.45);color:var(--game-teal,#b2e8ee);border-color:transparent;box-shadow:none}
+#game-title-screen .game-title-paper .game-title-start:is(:hover,:active){background:rgba(42,65,82,.9);color:var(--game-teal,#b2e8ee);border-color:transparent;box-shadow:none}
+#game-title-screen .game-title-paper .game-title-start:focus-visible{outline:3px solid var(--game-focus,#ffe0a0);outline-offset:3px}

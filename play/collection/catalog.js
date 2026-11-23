@@ -146,7 +146,7 @@ export const CATALOG = [
 ];
 export const CATALOG_IDS = CATALOG.map(book => book.id);
 export const COLLECTION_TEXT = {
-  returnShelf: '回收集書架',
+  returnShelf: '回到書架',
   completeBook: '完成這本',
   nextPage: '下一頁',
   storageTitle: '閱讀紀錄提醒',

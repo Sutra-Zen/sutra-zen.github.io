@@ -1,0 +1,154 @@
+{
+  "review": "independent focused reader geometry review",
+  "readOnlyRuntime": true,
+  "browser": "Chromium headless /usr/bin/chromium",
+  "physicalSafariTested": false,
+  "safeArea": {
+    "method": "CSS simulation of landscape left/right 44px, bottom21px; not native device safe-area emulation",
+    "viewport": [
+      844,
+      390
+    ],
+    "book": "anapana",
+    "art": {
+      "x": 197.234375,
+      "y": 64,
+      "width": 449.53125,
+      "height": 253,
+      "bottom": 317
+    },
+    "readingLinks": {
+      "x": 44,
+      "y": 325,
+      "width": 158.734375,
+      "height": 44
+    },
+    "openVerse": {
+      "x": 727.671875,
+      "y": 325,
+      "width": 72.328125,
+      "height": 44
+    },
+    "gapPx": 8,
+    "captionBandPx": 64,
+    "scriptureBandPx": 73,
+    "pass": true
+  },
+  "heartChecks": [
+    {
+      "book": "five-aggregates",
+      "nativeNextStepsTested": 2,
+      "landscape": {
+        "viewport": [
+          844,
+          390
+        ],
+        "previousFrame": [
+          399,
+          266
+        ],
+        "allHeartFrames": [
+          399,
+          266
+        ],
+        "artTop": 64,
+        "captionTop": 0,
+        "captionHeight": 64,
+        "horizontalOverflow": false
+      },
+      "portrait": {
+        "viewport": [
+          768,
+          1024
+        ],
+        "previousFrame": [
+          623.328125,
+          415.546875
+        ],
+        "allHeartFrames": [
+          623.328125,
+          415.546875
+        ],
+        "horizontalOverflow": false
+      },
+      "freshHistoryDirectHeart": {
+        "frame": [
+          399,
+          266
+        ],
+        "artTop": 64,
+        "defaultRatio": 1.5,
+        "pass": true
+      },
+      "ending": {
+        "viewport": [
+          844,
+          390
+        ],
+        "captionTop": 58,
+        "sceneClientHeight": 390,
+        "sceneScrollHeight": 390,
+        "horizontalOverflow": false
+      },
+      "pass": true
+    },
+    {
+      "book": "six-senses",
+      "nativeNextStepsTested": 4,
+      "landscape": {
+        "viewport": [
+          844,
+          390
+        ],
+        "previousFrame": [
+          399,
+          266
+        ],
+        "allHeartFrames": [
+          399,
+          266
+        ],
+        "artTop": 64,
+        "captionTop": 0,
+        "captionHeight": 64,
+        "horizontalOverflow": false
+      },
+      "portrait": {
+        "viewport": [
+          768,
+          1024
+        ],
+        "previousFrame": [
+          623.328125,
+          415.546875
+        ],
+        "allHeartFrames": [
+          623.328125,
+          415.546875
+        ],
+        "horizontalOverflow": false
+      },
+      "freshHistoryDirectHeart": {
+        "frame": [
+          399,
+          266
+        ],
+        "artTop": 64,
+        "defaultRatio": 1.5,
+        "pass": true
+      },
+      "ending": {
+        "viewport": [
+          844,
+          390
+        ],
+        "captionTop": 58,
+        "sceneClientHeight": 390,
+        "sceneScrollHeight": 390,
+        "horizontalOverflow": false
+      },
+      "pass": true
+    }
+  ],
+  "findings": []
+}

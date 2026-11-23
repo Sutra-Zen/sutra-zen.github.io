@@ -7,7 +7,7 @@ if (collectionParams.get('collection') === '1' && collectionParams.has('journey'
   location.replace(clean.href);
 } else if (collectionParams.get('collection') === '1') {
   initializeCollection().catch(async () => {
-    const { COLLECTION_TEXT: text } = await import('./catalog.js');
+    const { COLLECTION_TEXT: text } = await import('./catalog.js?v=stable-art-1');
     const notice = document.createElement('p');
     notice.textContent = text.integrationUnavailable;
     notice.setAttribute('role', 'status');
@@ -17,13 +17,13 @@ if (collectionParams.get('collection') === '1' && collectionParams.has('journey'
 
 async function initializeCollection() {
   const [{ store }, { CATALOG, COLLECTION_TEXT: text }, policy, {issueFirstCompletionReceipt}] = await Promise.all([
-    import('./store.js'), import('./catalog.js'), import('../route/eligibility.js'), import('../story/completion-receipt.js?v=doubt-1').catch(() => ({issueFirstCompletionReceipt: () => false})),
+    import('./store.js'), import('./catalog.js?v=stable-art-1'), import('../route/eligibility.js'), import('../story/completion-receipt.js?v=doubt-1').catch(() => ({issueFirstCompletionReceipt: () => false})),
   ]);
   const parts = location.pathname.split('/').filter(Boolean);
   const bookId = parts[parts.indexOf('book') - 1];
   if (!CATALOG.some(book => book.id === bookId) || typeof window.showPage !== 'function') return;
   let redirecting = false;
-  const gameURL = new URL('../../game/?v=simple-ui-1', import.meta.url);
+  const gameURL = new URL('../../game/?v=stable-art-1', import.meta.url);
   const denyEntry = () => {
     if (redirecting) return;
     redirecting = true;
@@ -38,7 +38,7 @@ async function initializeCollection() {
   const position = document.getElementById('position-text');
   if (!next || !position) return;
   const stylesheet = document.createElement('link');
-  stylesheet.rel = 'stylesheet'; stylesheet.href = new URL('./reader.css', import.meta.url).href;
+  stylesheet.rel = 'stylesheet'; stylesheet.href = new URL('./reader.css?v=stable-art-1', import.meta.url).href;
   document.head.append(stylesheet);
   document.body.classList.add('collection-reading');
   document.body.dataset.collectionBook = bookId;
