@@ -1,3 +1,13 @@
+# 波旬左上、移除汗滴與滿版書架（2026-11-23）
+
+從已發布main `a9ee6ae8fda9e1ec01822aa013ad85bcdf551f3a` 建立 `fix/game-city-shelf-framing`，初始乾淨、origin正確。作者指定波旬移左上以保留朝右視線、去城主汗，書架左右如城池鋪滿。scene僅改波旬early(500,130)/guardian後(250,230)，移除汗DOM/is-calm/CSS/keyframes；原圖、微晃、點角色X、來源與全景返回不變。
+
+書架stage無外距、case無maxwidth／圓角邊框，原圖襯底滿寬；保留桌面4欄／手機2欄、獨立垂直捲動與底dock，最後一冊仍可達。十四卡／原封面／鎖定／複習資格不改，沒有強塞整書架進100vh。
+
+入口／導覽／回程cacheframing-1，scene與SVG縮圖共用新版模組；原city store/catalog/text/journey與collection/story保持原單例URL與字節。14HTML僅bridge query，bridge僅回程query，generator同步。原站經文／圖片／正文／操作／SEO15／Google保護，Pages main:/維持，QA排除22目錄。詳[呈現調整](play/game-framing/README.md)與[實際驗證](previews/game-framing/README.md)；本輪針對視覺、滾動、複習與保存風險檢查，不為未變更reading重走29。實機Safari未測，沿既有授權發布，精確merge SHA／Pages／live結果以新PR交付為準。
+
+---
+
 # 自動新增城景與精簡城池（2026-11-23）
 
 從已發布main `1ba30cfb016ed6affaefe1a62ee6ae9d1678efd9` 建立 `feat/game-auto-city`，起始乾淨、origin正確。作者改為讀完自動新增，不要長輩手動安置；追加要求完成通知邀請回城。原末頁完成／四段尾聲／閱讀資格保留，通知明寫城池自動新增並提供「前往城池看看」／繼續下一站。

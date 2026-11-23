@@ -1,5 +1,5 @@
 // Fictional city inner voices. Separate from scripture and reading completion.
-import {renderSprite} from './modules/scene.js?v=auto-city-1';
+import {renderSprite} from './modules/scene.js?v=framing-1';
 const COPY=Object.freeze({
  label:'城池角色對話',close:'關閉對話',
  lordName:'識・城主',maraName:'波旬',guardianName:'念-守門人',messengersName:'止・觀使者',

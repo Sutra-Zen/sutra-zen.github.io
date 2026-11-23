@@ -1,0 +1,514 @@
+{
+  "result": "passed",
+  "fixtureNotice": "Explicit first/all-fourteen reading histories are isolated QA fixtures, not claims of actual reading.",
+  "checks": [
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "fixture": "first",
+      "geometry": {
+        "mara": {
+          "x": 500,
+          "y": 130,
+          "w": 110,
+          "h": 140.956
+        },
+        "lord": {
+          "x": 800,
+          "y": 415,
+          "w": 122,
+          "h": 150
+        },
+        "other": []
+      },
+      "maraUpperLeftOfLord": true,
+      "noGateOwlHarborOverlap": true,
+      "sweatDOMAbsent": true,
+      "maraFloatAndNPCSwayRetained": true,
+      "nativeMaraDialogueAndX": true,
+      "overviewReturnExact": true,
+      "readingRecordUnchanged": true
+    },
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "fixture": "all-fourteen",
+      "geometry": {
+        "mara": {
+          "x": 250,
+          "y": 230,
+          "w": 110,
+          "h": 140.956
+        },
+        "lord": {
+          "x": 800,
+          "y": 415,
+          "w": 122,
+          "h": 150
+        },
+        "other": [
+          {
+            "id": "gate-n",
+            "x": 800,
+            "y": 170,
+            "w": 220,
+            "h": 180
+          },
+          {
+            "id": "gate-nw",
+            "x": 450,
+            "y": 300,
+            "w": 220,
+            "h": 180
+          },
+          {
+            "id": "confidence-harbor",
+            "x": 250,
+            "y": 490,
+            "w": 290,
+            "h": 210
+          },
+          {
+            "id": "awakening-owl",
+            "x": 620,
+            "y": 250,
+            "w": 108,
+            "h": 120
+          }
+        ]
+      },
+      "maraUpperLeftOfLord": true,
+      "noGateOwlHarborOverlap": true,
+      "sweatDOMAbsent": true,
+      "maraFloatAndNPCSwayRetained": true,
+      "nativeMaraDialogueAndX": true,
+      "overviewReturnExact": true,
+      "readingRecordUnchanged": true
+    },
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "fixture": "first",
+      "geometry": {
+        "mara": {
+          "x": 500,
+          "y": 130,
+          "w": 110,
+          "h": 140.956
+        },
+        "lord": {
+          "x": 800,
+          "y": 415,
+          "w": 122,
+          "h": 150
+        },
+        "other": []
+      },
+      "maraUpperLeftOfLord": true,
+      "noGateOwlHarborOverlap": true,
+      "sweatDOMAbsent": true,
+      "maraFloatAndNPCSwayRetained": true,
+      "nativeMaraDialogueAndX": true,
+      "overviewReturnExact": true,
+      "readingRecordUnchanged": true
+    },
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "fixture": "all-fourteen",
+      "geometry": {
+        "mara": {
+          "x": 250,
+          "y": 230,
+          "w": 110,
+          "h": 140.956
+        },
+        "lord": {
+          "x": 800,
+          "y": 415,
+          "w": 122,
+          "h": 150
+        },
+        "other": [
+          {
+            "id": "gate-n",
+            "x": 800,
+            "y": 170,
+            "w": 220,
+            "h": 180
+          },
+          {
+            "id": "gate-nw",
+            "x": 450,
+            "y": 300,
+            "w": 220,
+            "h": 180
+          },
+          {
+            "id": "confidence-harbor",
+            "x": 250,
+            "y": 490,
+            "w": 290,
+            "h": 210
+          },
+          {
+            "id": "awakening-owl",
+            "x": 620,
+            "y": 250,
+            "w": 108,
+            "h": 120
+          }
+        ]
+      },
+      "maraUpperLeftOfLord": true,
+      "noGateOwlHarborOverlap": true,
+      "sweatDOMAbsent": true,
+      "maraFloatAndNPCSwayRetained": true,
+      "nativeMaraDialogueAndX": true,
+      "overviewReturnExact": true,
+      "readingRecordUnchanged": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "fixture": "first",
+      "geometry": {
+        "mara": {
+          "x": 500,
+          "y": 130,
+          "w": 110,
+          "h": 140.956
+        },
+        "lord": {
+          "x": 800,
+          "y": 415,
+          "w": 122,
+          "h": 150
+        },
+        "other": []
+      },
+      "maraUpperLeftOfLord": true,
+      "noGateOwlHarborOverlap": true,
+      "sweatDOMAbsent": true,
+      "maraFloatAndNPCSwayRetained": true,
+      "nativeMaraDialogueAndX": true,
+      "overviewReturnExact": true,
+      "readingRecordUnchanged": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "fixture": "all-fourteen",
+      "geometry": {
+        "mara": {
+          "x": 250,
+          "y": 230,
+          "w": 110,
+          "h": 140.956
+        },
+        "lord": {
+          "x": 800,
+          "y": 415,
+          "w": 122,
+          "h": 150
+        },
+        "other": [
+          {
+            "id": "gate-n",
+            "x": 800,
+            "y": 170,
+            "w": 220,
+            "h": 180
+          },
+          {
+            "id": "gate-nw",
+            "x": 450,
+            "y": 300,
+            "w": 220,
+            "h": 180
+          },
+          {
+            "id": "confidence-harbor",
+            "x": 250,
+            "y": 490,
+            "w": 290,
+            "h": 210
+          },
+          {
+            "id": "awakening-owl",
+            "x": 620,
+            "y": 250,
+            "w": 108,
+            "h": 120
+          }
+        ]
+      },
+      "maraUpperLeftOfLord": true,
+      "noGateOwlHarborOverlap": true,
+      "sweatDOMAbsent": true,
+      "maraFloatAndNPCSwayRetained": true,
+      "nativeMaraDialogueAndX": true,
+      "overviewReturnExact": true,
+      "readingRecordUnchanged": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "fixture": "first",
+      "geometry": {
+        "mara": {
+          "x": 500,
+          "y": 130,
+          "w": 110,
+          "h": 140.956
+        },
+        "lord": {
+          "x": 800,
+          "y": 415,
+          "w": 122,
+          "h": 150
+        },
+        "other": []
+      },
+      "maraUpperLeftOfLord": true,
+      "noGateOwlHarborOverlap": true,
+      "sweatDOMAbsent": true,
+      "maraFloatAndNPCSwayRetained": true,
+      "nativeMaraDialogueAndX": true,
+      "overviewReturnExact": true,
+      "readingRecordUnchanged": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "fixture": "all-fourteen",
+      "geometry": {
+        "mara": {
+          "x": 250,
+          "y": 230,
+          "w": 110,
+          "h": 140.956
+        },
+        "lord": {
+          "x": 800,
+          "y": 415,
+          "w": 122,
+          "h": 150
+        },
+        "other": [
+          {
+            "id": "gate-n",
+            "x": 800,
+            "y": 170,
+            "w": 220,
+            "h": 180
+          },
+          {
+            "id": "gate-nw",
+            "x": 450,
+            "y": 300,
+            "w": 220,
+            "h": 180
+          },
+          {
+            "id": "confidence-harbor",
+            "x": 250,
+            "y": 490,
+            "w": 290,
+            "h": 210
+          },
+          {
+            "id": "awakening-owl",
+            "x": 620,
+            "y": 250,
+            "w": 108,
+            "h": 120
+          }
+        ]
+      },
+      "maraUpperLeftOfLord": true,
+      "noGateOwlHarborOverlap": true,
+      "sweatDOMAbsent": true,
+      "maraFloatAndNPCSwayRetained": true,
+      "nativeMaraDialogueAndX": true,
+      "overviewReturnExact": true,
+      "readingRecordUnchanged": true
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "fixture": "first",
+      "geometry": {
+        "mara": {
+          "x": 500,
+          "y": 130,
+          "w": 110,
+          "h": 140.956
+        },
+        "lord": {
+          "x": 800,
+          "y": 415,
+          "w": 122,
+          "h": 150
+        },
+        "other": []
+      },
+      "maraUpperLeftOfLord": true,
+      "noGateOwlHarborOverlap": true,
+      "sweatDOMAbsent": true,
+      "maraFloatAndNPCSwayRetained": true,
+      "nativeMaraDialogueAndX": true,
+      "overviewReturnExact": true,
+      "readingRecordUnchanged": true
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "fixture": "all-fourteen",
+      "geometry": {
+        "mara": {
+          "x": 250,
+          "y": 230,
+          "w": 110,
+          "h": 140.956
+        },
+        "lord": {
+          "x": 800,
+          "y": 415,
+          "w": 122,
+          "h": 150
+        },
+        "other": [
+          {
+            "id": "gate-n",
+            "x": 800,
+            "y": 170,
+            "w": 220,
+            "h": 180
+          },
+          {
+            "id": "gate-nw",
+            "x": 450,
+            "y": 300,
+            "w": 220,
+            "h": 180
+          },
+          {
+            "id": "confidence-harbor",
+            "x": 250,
+            "y": 490,
+            "w": 290,
+            "h": 210
+          },
+          {
+            "id": "awakening-owl",
+            "x": 620,
+            "y": 250,
+            "w": 108,
+            "h": 120
+          }
+        ]
+      },
+      "maraUpperLeftOfLord": true,
+      "noGateOwlHarborOverlap": true,
+      "sweatDOMAbsent": true,
+      "maraFloatAndNPCSwayRetained": true,
+      "nativeMaraDialogueAndX": true,
+      "overviewReturnExact": true,
+      "readingRecordUnchanged": true
+    }
+  ],
+  "errors": [],
+  "physicalSafari": "Not tested; Chromium viewport emulation only",
+  "additionalNearCollisionFixtures": [
+    {
+      "fixture": "early-six",
+      "geometry": {
+        "mara": {
+          "x": 500,
+          "y": 130,
+          "w": 110,
+          "h": 140.956
+        },
+        "lord": {
+          "x": 800,
+          "y": 415,
+          "w": 122,
+          "h": 150
+        },
+        "other": [
+          {
+            "id": "gate-n",
+            "x": 800,
+            "y": 170,
+            "w": 220,
+            "h": 180
+          },
+          {
+            "id": "gate-nw",
+            "x": 450,
+            "y": 300,
+            "w": 220,
+            "h": 180
+          },
+          {
+            "id": "confidence-harbor",
+            "x": 250,
+            "y": 490,
+            "w": 290,
+            "h": 210
+          }
+        ]
+      },
+      "noCollision": true
+    },
+    {
+      "fixture": "historical-owl",
+      "geometry": {
+        "mara": {
+          "x": 500,
+          "y": 130,
+          "w": 110,
+          "h": 140.956
+        },
+        "lord": {
+          "x": 800,
+          "y": 415,
+          "w": 122,
+          "h": 150
+        },
+        "other": [
+          {
+            "id": "awakening-owl",
+            "x": 620,
+            "y": 250,
+            "w": 108,
+            "h": 120
+          }
+        ]
+      },
+      "noCollision": true
+    }
+  ],
+  "reducedMotionStopsFloat": true
+}

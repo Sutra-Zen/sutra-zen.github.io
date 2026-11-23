@@ -6,6 +6,10 @@
 - Related Buddhist learning map: https://sutrazen.netlify.app/map.html
 - Primary language: Traditional Chinese (Taiwan)
 
+## Current city / shelf framing (2026-11-23)
+
+The [framing follow-up](play/game-framing/README.md) starts from published PR75 `a9ee6ae8fda9e1ec01822aa013ad85bcdf551f3a`. The same right-facing Mara moves to the upper left of the lord; all lord sweat DOM/styles are removed. The original library painting now fills both horizontal edges, retaining four/two-column books, vertical scrolling and review-only eligibility. No image, story, completion or save model changes. UI/cache entry uses framing-1 while original store singleton URLs remain. Legacy main:/ stays with22 QA directories excluded. Exact release/live proof belongs to the new PR; physical Safari remains untested.
+
 ## Current automatic city (2026-11-23)
 
 The [automatic-city round](play/game-auto-city/README.md) starts from published PR74 `1ba30cfb016ed6affaefe1a62ee6ae9d1678efd9`. Earned scenery now appears automatically from existing completed books and source prerequisites; the watercolor modules remain separate. The completion modal explicitly announces the added scenery and invites the player to the city after the unchanged full outro. Placement/inventory/top toolbar are removed; continuation is in the bottom dock. Click actors for dialogue and scenery for sources, close with top-right X, and use the top-right overview icon / top-left return snapshot. Six Awakening companions also have short fictional replies.
