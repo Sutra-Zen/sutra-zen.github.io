@@ -1,6 +1,6 @@
 // Opt-in game navigation, never injected into the original public readers.
 import {GAME_UI as T} from './game-ui-text.js?v=auto-city-1';
-export const GAME_URLS=Object.freeze({map:new URL('../game/?v=auto-city-1#map',import.meta.url).href,city:new URL('./city/?v=auto-city-1#city',import.meta.url).href,shelf:new URL('./visual-v2/shelf.html?v=auto-city-1#shelf',import.meta.url).href,mindmap:new URL('../index.html#map-heading',import.meta.url).href,site:new URL('../index.html',import.meta.url).href,sources:new URL('./sources.html',import.meta.url).href});
+export const GAME_URLS=Object.freeze({map:new URL('../game/?v=framing-1#map',import.meta.url).href,city:new URL('./city/?v=framing-1#city',import.meta.url).href,shelf:new URL('./visual-v2/shelf.html?v=framing-1#shelf',import.meta.url).href,mindmap:new URL('../index.html#map-heading',import.meta.url).href,site:new URL('../index.html',import.meta.url).href,sources:new URL('./sources.html',import.meta.url).href});
 export const NAV_TEXT=Object.freeze({label:T.navigation,map:T.map,city:T.city,shelf:T.shelf});
 export const NAV_ITEMS=Object.freeze(['map','city','shelf'].map(id=>Object.freeze({id,label:T[id],href:GAME_URLS[id]})));
 const paths={map:'<path d="m3 5 6-2 6 2 6-2v16l-6 2-6-2-6 2V5Z"/><path d="M9 3v16M15 5v16"/><path d="m11.5 10 1.2 1.2 2.8-3"/>',city:'<path d="M3 21V7h3V4h3v3h6V4h3v3h3v14M3 12h18M3 21h18M9 21v-5a3 3 0 0 1 6 0v5"/><path d="M6 9h.01M18 9h.01"/>',shelf:'<path d="M4 3h4v17H4zM10 3h4v17h-4zM16 5l4-1 3 16-4 1zM2 22h21"/>'};

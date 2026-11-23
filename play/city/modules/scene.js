@@ -99,10 +99,6 @@ export function initializeModularCity({ host, getState, getInsets, onThought, on
       const caption = document.createElement('span'); caption.className = 'mod-city__world-label'; caption.textContent = label;
       node.append(caption);
     }
-    if (actor === 'lord') {
-      node.classList.toggle('is-calm', state.placedIds?.includes('mindfulness_guard'));
-      for (let i = 0; i < 2; i++) { const drop = document.createElement('span'); drop.className = 'mod-city__sweat'; drop.setAttribute('aria-hidden', 'true'); node.append(drop); }
-    }
     return node;
   }
   const npcDefinitions = [
@@ -111,7 +107,7 @@ export function initializeModularCity({ host, getState, getInsets, onThought, on
     { id: 'sloth', keys: ['hindrance_sloth'], near: [611, 619], far: [360, 740] },
     { id: 'restlessness', keys: ['hindrance_restlessness'], near: [987, 622], far: [1290, 725] },
     { id: 'doubt', keys: ['hindrance_doubt'], near: [807, 663], far: [1120, 665] },
-    { id: 'mara', keys: ['mara'], near: [1081, 315], far: [1360, 260], width: 110 },
+    { id: 'mara', keys: ['mara'], near: [500, 130], far: [250, 230], width: 110 },
   ];
   function renderWorld() {
     const signature = JSON.stringify({ base: state.baseVisible, placed: state.modules.filter(module => module.placed).map(module => [module.id, module.slots.filter(slot => slot.visible !== false).map(slot => slot.id)]),

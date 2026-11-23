@@ -1,0 +1,1227 @@
+{
+  "baseline": "a9ee6ae8fda9e1ec01822aa013ad85bcdf551f3a",
+  "protectedOriginalFiles": 615,
+  "originalNarrationScriptureImagesReaderControlsHomepageSeoGoogle": "unchanged; cache query normalization only if needed",
+  "readingStoryReceiptEligibilityStoreAndBackupSchemas": "unchanged; cache query normalization only",
+  "originalLibraryArtworkSha256": "cabee17485a87af331b3ce91b6d44b55cc56ea0b8c075eedbc2261e11887adb0",
+  "noArtworkRegeneration": true,
+  "narrowPresentationExceptions": "Shelf full-width CSS and Mara world position/no sweat in city scene only",
+  "phase": "Local narrow city/shelf framing regression",
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "fixtureNotice": "All completed counts are isolated historical fixtures. Review 0–3 and mainline continuation are actual browser clicks; no new end-of-book completion is exercised or claimed in this narrow round.",
+  "physicalSafari": "Not tested; Chromium desktop viewport/mouse/CDP touch simulation.",
+  "shelfSixSizeThreeHistoryMatrix": [
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "fixture": "0 historical completed books",
+      "geometry": {
+        "viewport": [
+          1280,
+          900
+        ],
+        "stage": {
+          "x": 0,
+          "y": 53,
+          "width": 1280,
+          "height": 768,
+          "top": 53,
+          "right": 1280,
+          "bottom": 821,
+          "left": 0
+        },
+        "case": {
+          "x": 0,
+          "y": 248.640625,
+          "width": 1280,
+          "height": 1100,
+          "top": 248.640625,
+          "right": 1280,
+          "bottom": 1348.640625,
+          "left": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 821,
+          "top": 0,
+          "right": 1280,
+          "bottom": 821,
+          "left": 0
+        },
+        "stageClientWidth": 1280,
+        "scrollbarWidth": 0,
+        "caseBackground": "url(\"http://127.0.0.1:44429/play/visual-v2/assets/library-concept.png\")",
+        "caseMargin": "0px",
+        "stagePadding": "0px"
+      },
+      "fourteenCardsAndLockedReviewEligibilityRetained": true,
+      "nativeScrollInput": "browser mouse wheel",
+      "lastCardNativeTapOrClick": true,
+      "lastBookOnlyReviewableWhenCompleted": true
+    },
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "fixture": "1 historical completed books",
+      "geometry": {
+        "viewport": [
+          1280,
+          900
+        ],
+        "stage": {
+          "x": 0,
+          "y": 53,
+          "width": 1280,
+          "height": 768,
+          "top": 53,
+          "right": 1280,
+          "bottom": 821,
+          "left": 0
+        },
+        "case": {
+          "x": 0,
+          "y": 53,
+          "width": 1280,
+          "height": 1100,
+          "top": 53,
+          "right": 1280,
+          "bottom": 1153,
+          "left": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 821,
+          "top": 0,
+          "right": 1280,
+          "bottom": 821,
+          "left": 0
+        },
+        "stageClientWidth": 1280,
+        "scrollbarWidth": 0,
+        "caseBackground": "url(\"http://127.0.0.1:44429/play/visual-v2/assets/library-concept.png\")",
+        "caseMargin": "0px",
+        "stagePadding": "0px"
+      },
+      "fourteenCardsAndLockedReviewEligibilityRetained": true,
+      "nativeScrollInput": "browser mouse wheel",
+      "lastCardNativeTapOrClick": true,
+      "lastBookOnlyReviewableWhenCompleted": true
+    },
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "fixture": "14 historical completed books",
+      "geometry": {
+        "viewport": [
+          1280,
+          900
+        ],
+        "stage": {
+          "x": 0,
+          "y": 53,
+          "width": 1280,
+          "height": 768,
+          "top": 53,
+          "right": 1280,
+          "bottom": 821,
+          "left": 0
+        },
+        "case": {
+          "x": 0,
+          "y": 53,
+          "width": 1280,
+          "height": 1100,
+          "top": 53,
+          "right": 1280,
+          "bottom": 1153,
+          "left": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 821,
+          "top": 0,
+          "right": 1280,
+          "bottom": 821,
+          "left": 0
+        },
+        "stageClientWidth": 1280,
+        "scrollbarWidth": 0,
+        "caseBackground": "url(\"http://127.0.0.1:44429/play/visual-v2/assets/library-concept.png\")",
+        "caseMargin": "0px",
+        "stagePadding": "0px"
+      },
+      "fourteenCardsAndLockedReviewEligibilityRetained": true,
+      "nativeScrollInput": "browser mouse wheel",
+      "lastCardNativeTapOrClick": true,
+      "lastBookOnlyReviewableWhenCompleted": true
+    },
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "fixture": "0 historical completed books",
+      "geometry": {
+        "viewport": [
+          360,
+          800
+        ],
+        "stage": {
+          "x": 0,
+          "y": 47.390625,
+          "width": 360,
+          "height": 673.609375,
+          "top": 47.390625,
+          "right": 360,
+          "bottom": 721,
+          "left": 0
+        },
+        "case": {
+          "x": 0,
+          "y": 262.28125,
+          "width": 360,
+          "height": 1873.078125,
+          "top": 262.28125,
+          "right": 360,
+          "bottom": 2135.359375,
+          "left": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 721,
+          "top": 0,
+          "right": 360,
+          "bottom": 721,
+          "left": 0
+        },
+        "stageClientWidth": 360,
+        "scrollbarWidth": 0,
+        "caseBackground": "url(\"http://127.0.0.1:44429/play/visual-v2/assets/library-concept.png\")",
+        "caseMargin": "0px",
+        "stagePadding": "0px"
+      },
+      "fourteenCardsAndLockedReviewEligibilityRetained": true,
+      "nativeScrollInput": "CDP single-finger swipe",
+      "lastCardNativeTapOrClick": true,
+      "lastBookOnlyReviewableWhenCompleted": true
+    },
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "fixture": "1 historical completed books",
+      "geometry": {
+        "viewport": [
+          360,
+          800
+        ],
+        "stage": {
+          "x": 0,
+          "y": 47.390625,
+          "width": 360,
+          "height": 673.609375,
+          "top": 47.390625,
+          "right": 360,
+          "bottom": 721,
+          "left": 0
+        },
+        "case": {
+          "x": 0,
+          "y": 47.390625,
+          "width": 360,
+          "height": 1873.078125,
+          "top": 47.390625,
+          "right": 360,
+          "bottom": 1920.46875,
+          "left": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 721,
+          "top": 0,
+          "right": 360,
+          "bottom": 721,
+          "left": 0
+        },
+        "stageClientWidth": 360,
+        "scrollbarWidth": 0,
+        "caseBackground": "url(\"http://127.0.0.1:44429/play/visual-v2/assets/library-concept.png\")",
+        "caseMargin": "0px",
+        "stagePadding": "0px"
+      },
+      "fourteenCardsAndLockedReviewEligibilityRetained": true,
+      "nativeScrollInput": "CDP single-finger swipe",
+      "lastCardNativeTapOrClick": true,
+      "lastBookOnlyReviewableWhenCompleted": true
+    },
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "fixture": "14 historical completed books",
+      "geometry": {
+        "viewport": [
+          360,
+          800
+        ],
+        "stage": {
+          "x": 0,
+          "y": 47.390625,
+          "width": 360,
+          "height": 673.609375,
+          "top": 47.390625,
+          "right": 360,
+          "bottom": 721,
+          "left": 0
+        },
+        "case": {
+          "x": 0,
+          "y": 47.390625,
+          "width": 360,
+          "height": 1873.078125,
+          "top": 47.390625,
+          "right": 360,
+          "bottom": 1920.46875,
+          "left": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 721,
+          "top": 0,
+          "right": 360,
+          "bottom": 721,
+          "left": 0
+        },
+        "stageClientWidth": 360,
+        "scrollbarWidth": 0,
+        "caseBackground": "url(\"http://127.0.0.1:44429/play/visual-v2/assets/library-concept.png\")",
+        "caseMargin": "0px",
+        "stagePadding": "0px"
+      },
+      "fourteenCardsAndLockedReviewEligibilityRetained": true,
+      "nativeScrollInput": "CDP single-finger swipe",
+      "lastCardNativeTapOrClick": true,
+      "lastBookOnlyReviewableWhenCompleted": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "fixture": "0 historical completed books",
+      "geometry": {
+        "viewport": [
+          844,
+          390
+        ],
+        "stage": {
+          "x": 0,
+          "y": 43,
+          "width": 844,
+          "height": 281.8125,
+          "top": 43,
+          "right": 844,
+          "bottom": 324.8125,
+          "left": 0
+        },
+        "case": {
+          "x": 0,
+          "y": 238.640625,
+          "width": 844,
+          "height": 1100,
+          "top": 238.640625,
+          "right": 844,
+          "bottom": 1338.640625,
+          "left": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 844,
+          "height": 324.8125,
+          "top": 0,
+          "right": 844,
+          "bottom": 324.8125,
+          "left": 0
+        },
+        "stageClientWidth": 844,
+        "scrollbarWidth": 0,
+        "caseBackground": "url(\"http://127.0.0.1:44429/play/visual-v2/assets/library-concept.png\")",
+        "caseMargin": "0px",
+        "stagePadding": "0px"
+      },
+      "fourteenCardsAndLockedReviewEligibilityRetained": true,
+      "nativeScrollInput": "CDP single-finger swipe",
+      "lastCardNativeTapOrClick": true,
+      "lastBookOnlyReviewableWhenCompleted": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "fixture": "1 historical completed books",
+      "geometry": {
+        "viewport": [
+          844,
+          390
+        ],
+        "stage": {
+          "x": 0,
+          "y": 43,
+          "width": 844,
+          "height": 281.8125,
+          "top": 43,
+          "right": 844,
+          "bottom": 324.8125,
+          "left": 0
+        },
+        "case": {
+          "x": 0,
+          "y": 43,
+          "width": 844,
+          "height": 1100,
+          "top": 43,
+          "right": 844,
+          "bottom": 1143,
+          "left": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 844,
+          "height": 324.8125,
+          "top": 0,
+          "right": 844,
+          "bottom": 324.8125,
+          "left": 0
+        },
+        "stageClientWidth": 844,
+        "scrollbarWidth": 0,
+        "caseBackground": "url(\"http://127.0.0.1:44429/play/visual-v2/assets/library-concept.png\")",
+        "caseMargin": "0px",
+        "stagePadding": "0px"
+      },
+      "fourteenCardsAndLockedReviewEligibilityRetained": true,
+      "nativeScrollInput": "CDP single-finger swipe",
+      "lastCardNativeTapOrClick": true,
+      "lastBookOnlyReviewableWhenCompleted": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "fixture": "14 historical completed books",
+      "geometry": {
+        "viewport": [
+          844,
+          390
+        ],
+        "stage": {
+          "x": 0,
+          "y": 43,
+          "width": 844,
+          "height": 281.8125,
+          "top": 43,
+          "right": 844,
+          "bottom": 324.8125,
+          "left": 0
+        },
+        "case": {
+          "x": 0,
+          "y": 43,
+          "width": 844,
+          "height": 1100,
+          "top": 43,
+          "right": 844,
+          "bottom": 1143,
+          "left": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 844,
+          "height": 324.8125,
+          "top": 0,
+          "right": 844,
+          "bottom": 324.8125,
+          "left": 0
+        },
+        "stageClientWidth": 844,
+        "scrollbarWidth": 0,
+        "caseBackground": "url(\"http://127.0.0.1:44429/play/visual-v2/assets/library-concept.png\")",
+        "caseMargin": "0px",
+        "stagePadding": "0px"
+      },
+      "fourteenCardsAndLockedReviewEligibilityRetained": true,
+      "nativeScrollInput": "CDP single-finger swipe",
+      "lastCardNativeTapOrClick": true,
+      "lastBookOnlyReviewableWhenCompleted": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "fixture": "0 historical completed books",
+      "geometry": {
+        "viewport": [
+          768,
+          1024
+        ],
+        "stage": {
+          "x": 0,
+          "y": 53,
+          "width": 768,
+          "height": 892,
+          "top": 53,
+          "right": 768,
+          "bottom": 945,
+          "left": 0
+        },
+        "case": {
+          "x": 0,
+          "y": 248.640625,
+          "width": 768,
+          "height": 1100,
+          "top": 248.640625,
+          "right": 768,
+          "bottom": 1348.640625,
+          "left": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 945,
+          "top": 0,
+          "right": 768,
+          "bottom": 945,
+          "left": 0
+        },
+        "stageClientWidth": 768,
+        "scrollbarWidth": 0,
+        "caseBackground": "url(\"http://127.0.0.1:44429/play/visual-v2/assets/library-concept.png\")",
+        "caseMargin": "0px",
+        "stagePadding": "0px"
+      },
+      "fourteenCardsAndLockedReviewEligibilityRetained": true,
+      "nativeScrollInput": "browser mouse wheel",
+      "lastCardNativeTapOrClick": true,
+      "lastBookOnlyReviewableWhenCompleted": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "fixture": "1 historical completed books",
+      "geometry": {
+        "viewport": [
+          768,
+          1024
+        ],
+        "stage": {
+          "x": 0,
+          "y": 53,
+          "width": 768,
+          "height": 892,
+          "top": 53,
+          "right": 768,
+          "bottom": 945,
+          "left": 0
+        },
+        "case": {
+          "x": 0,
+          "y": 53,
+          "width": 768,
+          "height": 1100,
+          "top": 53,
+          "right": 768,
+          "bottom": 1153,
+          "left": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 945,
+          "top": 0,
+          "right": 768,
+          "bottom": 945,
+          "left": 0
+        },
+        "stageClientWidth": 768,
+        "scrollbarWidth": 0,
+        "caseBackground": "url(\"http://127.0.0.1:44429/play/visual-v2/assets/library-concept.png\")",
+        "caseMargin": "0px",
+        "stagePadding": "0px"
+      },
+      "fourteenCardsAndLockedReviewEligibilityRetained": true,
+      "nativeScrollInput": "browser mouse wheel",
+      "lastCardNativeTapOrClick": true,
+      "lastBookOnlyReviewableWhenCompleted": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "fixture": "14 historical completed books",
+      "geometry": {
+        "viewport": [
+          768,
+          1024
+        ],
+        "stage": {
+          "x": 0,
+          "y": 53,
+          "width": 768,
+          "height": 892,
+          "top": 53,
+          "right": 768,
+          "bottom": 945,
+          "left": 0
+        },
+        "case": {
+          "x": 0,
+          "y": 53,
+          "width": 768,
+          "height": 1100,
+          "top": 53,
+          "right": 768,
+          "bottom": 1153,
+          "left": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 945,
+          "top": 0,
+          "right": 768,
+          "bottom": 945,
+          "left": 0
+        },
+        "stageClientWidth": 768,
+        "scrollbarWidth": 0,
+        "caseBackground": "url(\"http://127.0.0.1:44429/play/visual-v2/assets/library-concept.png\")",
+        "caseMargin": "0px",
+        "stagePadding": "0px"
+      },
+      "fourteenCardsAndLockedReviewEligibilityRetained": true,
+      "nativeScrollInput": "browser mouse wheel",
+      "lastCardNativeTapOrClick": true,
+      "lastBookOnlyReviewableWhenCompleted": true
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "fixture": "0 historical completed books",
+      "geometry": {
+        "viewport": [
+          1024,
+          768
+        ],
+        "stage": {
+          "x": 0,
+          "y": 53,
+          "width": 1024,
+          "height": 636,
+          "top": 53,
+          "right": 1024,
+          "bottom": 689,
+          "left": 0
+        },
+        "case": {
+          "x": 0,
+          "y": 248.640625,
+          "width": 1024,
+          "height": 1100,
+          "top": 248.640625,
+          "right": 1024,
+          "bottom": 1348.640625,
+          "left": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 689,
+          "top": 0,
+          "right": 1024,
+          "bottom": 689,
+          "left": 0
+        },
+        "stageClientWidth": 1024,
+        "scrollbarWidth": 0,
+        "caseBackground": "url(\"http://127.0.0.1:44429/play/visual-v2/assets/library-concept.png\")",
+        "caseMargin": "0px",
+        "stagePadding": "0px"
+      },
+      "fourteenCardsAndLockedReviewEligibilityRetained": true,
+      "nativeScrollInput": "browser mouse wheel",
+      "lastCardNativeTapOrClick": true,
+      "lastBookOnlyReviewableWhenCompleted": true
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "fixture": "1 historical completed books",
+      "geometry": {
+        "viewport": [
+          1024,
+          768
+        ],
+        "stage": {
+          "x": 0,
+          "y": 53,
+          "width": 1024,
+          "height": 636,
+          "top": 53,
+          "right": 1024,
+          "bottom": 689,
+          "left": 0
+        },
+        "case": {
+          "x": 0,
+          "y": 53,
+          "width": 1024,
+          "height": 1100,
+          "top": 53,
+          "right": 1024,
+          "bottom": 1153,
+          "left": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 689,
+          "top": 0,
+          "right": 1024,
+          "bottom": 689,
+          "left": 0
+        },
+        "stageClientWidth": 1024,
+        "scrollbarWidth": 0,
+        "caseBackground": "url(\"http://127.0.0.1:44429/play/visual-v2/assets/library-concept.png\")",
+        "caseMargin": "0px",
+        "stagePadding": "0px"
+      },
+      "fourteenCardsAndLockedReviewEligibilityRetained": true,
+      "nativeScrollInput": "browser mouse wheel",
+      "lastCardNativeTapOrClick": true,
+      "lastBookOnlyReviewableWhenCompleted": true
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "fixture": "14 historical completed books",
+      "geometry": {
+        "viewport": [
+          1024,
+          768
+        ],
+        "stage": {
+          "x": 0,
+          "y": 53,
+          "width": 1024,
+          "height": 636,
+          "top": 53,
+          "right": 1024,
+          "bottom": 689,
+          "left": 0
+        },
+        "case": {
+          "x": 0,
+          "y": 53,
+          "width": 1024,
+          "height": 1100,
+          "top": 53,
+          "right": 1024,
+          "bottom": 1153,
+          "left": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 689,
+          "top": 0,
+          "right": 1024,
+          "bottom": 689,
+          "left": 0
+        },
+        "stageClientWidth": 1024,
+        "scrollbarWidth": 0,
+        "caseBackground": "url(\"http://127.0.0.1:44429/play/visual-v2/assets/library-concept.png\")",
+        "caseMargin": "0px",
+        "stagePadding": "0px"
+      },
+      "fourteenCardsAndLockedReviewEligibilityRetained": true,
+      "nativeScrollInput": "browser mouse wheel",
+      "lastCardNativeTapOrClick": true,
+      "lastBookOnlyReviewableWhenCompleted": true
+    },
+    {
+      "viewport": [
+        2048,
+        1115
+      ],
+      "fixture": "0 historical completed books",
+      "geometry": {
+        "viewport": [
+          2048,
+          1115
+        ],
+        "stage": {
+          "x": 0,
+          "y": 53,
+          "width": 2048,
+          "height": 983,
+          "top": 53,
+          "right": 2048,
+          "bottom": 1036,
+          "left": 0
+        },
+        "case": {
+          "x": 0,
+          "y": 248.640625,
+          "width": 2048,
+          "height": 1365.328125,
+          "top": 248.640625,
+          "right": 2048,
+          "bottom": 1613.96875,
+          "left": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 2048,
+          "height": 1036,
+          "top": 0,
+          "right": 2048,
+          "bottom": 1036,
+          "left": 0
+        },
+        "stageClientWidth": 2048,
+        "scrollbarWidth": 0,
+        "caseBackground": "url(\"http://127.0.0.1:44429/play/visual-v2/assets/library-concept.png\")",
+        "caseMargin": "0px",
+        "stagePadding": "0px"
+      },
+      "fourteenCardsAndLockedReviewEligibilityRetained": true,
+      "nativeScrollInput": "browser mouse wheel",
+      "lastCardNativeTapOrClick": true,
+      "lastBookOnlyReviewableWhenCompleted": true
+    },
+    {
+      "viewport": [
+        2048,
+        1115
+      ],
+      "fixture": "1 historical completed books",
+      "geometry": {
+        "viewport": [
+          2048,
+          1115
+        ],
+        "stage": {
+          "x": 0,
+          "y": 53,
+          "width": 2048,
+          "height": 983,
+          "top": 53,
+          "right": 2048,
+          "bottom": 1036,
+          "left": 0
+        },
+        "case": {
+          "x": 0,
+          "y": 53,
+          "width": 2048,
+          "height": 1365.328125,
+          "top": 53,
+          "right": 2048,
+          "bottom": 1418.328125,
+          "left": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 2048,
+          "height": 1036,
+          "top": 0,
+          "right": 2048,
+          "bottom": 1036,
+          "left": 0
+        },
+        "stageClientWidth": 2048,
+        "scrollbarWidth": 0,
+        "caseBackground": "url(\"http://127.0.0.1:44429/play/visual-v2/assets/library-concept.png\")",
+        "caseMargin": "0px",
+        "stagePadding": "0px"
+      },
+      "fourteenCardsAndLockedReviewEligibilityRetained": true,
+      "nativeScrollInput": "browser mouse wheel",
+      "lastCardNativeTapOrClick": true,
+      "lastBookOnlyReviewableWhenCompleted": true
+    },
+    {
+      "viewport": [
+        2048,
+        1115
+      ],
+      "fixture": "14 historical completed books",
+      "geometry": {
+        "viewport": [
+          2048,
+          1115
+        ],
+        "stage": {
+          "x": 0,
+          "y": 53,
+          "width": 2048,
+          "height": 983,
+          "top": 53,
+          "right": 2048,
+          "bottom": 1036,
+          "left": 0
+        },
+        "case": {
+          "x": 0,
+          "y": 53,
+          "width": 2048,
+          "height": 1365.328125,
+          "top": 53,
+          "right": 2048,
+          "bottom": 1418.328125,
+          "left": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 2048,
+          "height": 1036,
+          "top": 0,
+          "right": 2048,
+          "bottom": 1036,
+          "left": 0
+        },
+        "stageClientWidth": 2048,
+        "scrollbarWidth": 0,
+        "caseBackground": "url(\"http://127.0.0.1:44429/play/visual-v2/assets/library-concept.png\")",
+        "caseMargin": "0px",
+        "stagePadding": "0px"
+      },
+      "fourteenCardsAndLockedReviewEligibilityRetained": true,
+      "nativeScrollInput": "browser mouse wheel",
+      "lastCardNativeTapOrClick": true,
+      "lastBookOnlyReviewableWhenCompleted": true
+    }
+  ],
+  "nativeReviewResume": {
+    "fixture": "first historically complete, mainline Five bookmark8",
+    "actualReviewNextTrace": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "reloadAndReturnKeepsReviewBookmark": true,
+    "mainlineActiveFiveAndBookmark8Unchanged": true,
+    "nativeMapContinueOpensOriginalFiveAt8": true,
+    "completionCountStill1": true
+  },
+  "cityMaraAndNoSweatMatrix": [
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "fixture": "1 historical completed books",
+      "worldPositions": {
+        "mara": {
+          "x": 500,
+          "y": 130
+        },
+        "lord": {
+          "x": 800,
+          "y": 415
+        }
+      },
+      "maraUpperLeftOfLordWithOriginalRightFacingArt": true,
+      "sweatNodes": 0,
+      "nativeMaraXPlazaSourceXAndExactOverviewReturn": true,
+      "readingJsonByteUnchanged": true
+    },
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "fixture": "14 historical completed books",
+      "worldPositions": {
+        "mara": {
+          "x": 250,
+          "y": 230
+        },
+        "lord": {
+          "x": 800,
+          "y": 415
+        }
+      },
+      "maraUpperLeftOfLordWithOriginalRightFacingArt": true,
+      "sweatNodes": 0,
+      "nativeMaraXPlazaSourceXAndExactOverviewReturn": true,
+      "readingJsonByteUnchanged": true
+    },
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "fixture": "1 historical completed books",
+      "worldPositions": {
+        "mara": {
+          "x": 500,
+          "y": 130
+        },
+        "lord": {
+          "x": 800,
+          "y": 415
+        }
+      },
+      "maraUpperLeftOfLordWithOriginalRightFacingArt": true,
+      "sweatNodes": 0,
+      "nativeMaraXPlazaSourceXAndExactOverviewReturn": true,
+      "readingJsonByteUnchanged": true
+    },
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "fixture": "14 historical completed books",
+      "worldPositions": {
+        "mara": {
+          "x": 250,
+          "y": 230
+        },
+        "lord": {
+          "x": 800,
+          "y": 415
+        }
+      },
+      "maraUpperLeftOfLordWithOriginalRightFacingArt": true,
+      "sweatNodes": 0,
+      "nativeMaraXPlazaSourceXAndExactOverviewReturn": true,
+      "readingJsonByteUnchanged": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "fixture": "1 historical completed books",
+      "worldPositions": {
+        "mara": {
+          "x": 500,
+          "y": 130
+        },
+        "lord": {
+          "x": 800,
+          "y": 415
+        }
+      },
+      "maraUpperLeftOfLordWithOriginalRightFacingArt": true,
+      "sweatNodes": 0,
+      "nativeMaraXPlazaSourceXAndExactOverviewReturn": true,
+      "readingJsonByteUnchanged": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "fixture": "14 historical completed books",
+      "worldPositions": {
+        "mara": {
+          "x": 250,
+          "y": 230
+        },
+        "lord": {
+          "x": 800,
+          "y": 415
+        }
+      },
+      "maraUpperLeftOfLordWithOriginalRightFacingArt": true,
+      "sweatNodes": 0,
+      "nativeMaraXPlazaSourceXAndExactOverviewReturn": true,
+      "readingJsonByteUnchanged": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "fixture": "1 historical completed books",
+      "worldPositions": {
+        "mara": {
+          "x": 500,
+          "y": 130
+        },
+        "lord": {
+          "x": 800,
+          "y": 415
+        }
+      },
+      "maraUpperLeftOfLordWithOriginalRightFacingArt": true,
+      "sweatNodes": 0,
+      "nativeMaraXPlazaSourceXAndExactOverviewReturn": true,
+      "readingJsonByteUnchanged": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "fixture": "14 historical completed books",
+      "worldPositions": {
+        "mara": {
+          "x": 250,
+          "y": 230
+        },
+        "lord": {
+          "x": 800,
+          "y": 415
+        }
+      },
+      "maraUpperLeftOfLordWithOriginalRightFacingArt": true,
+      "sweatNodes": 0,
+      "nativeMaraXPlazaSourceXAndExactOverviewReturn": true,
+      "readingJsonByteUnchanged": true
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "fixture": "1 historical completed books",
+      "worldPositions": {
+        "mara": {
+          "x": 500,
+          "y": 130
+        },
+        "lord": {
+          "x": 800,
+          "y": 415
+        }
+      },
+      "maraUpperLeftOfLordWithOriginalRightFacingArt": true,
+      "sweatNodes": 0,
+      "nativeMaraXPlazaSourceXAndExactOverviewReturn": true,
+      "readingJsonByteUnchanged": true
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "fixture": "14 historical completed books",
+      "worldPositions": {
+        "mara": {
+          "x": 250,
+          "y": 230
+        },
+        "lord": {
+          "x": 800,
+          "y": 415
+        }
+      },
+      "maraUpperLeftOfLordWithOriginalRightFacingArt": true,
+      "sweatNodes": 0,
+      "nativeMaraXPlazaSourceXAndExactOverviewReturn": true,
+      "readingJsonByteUnchanged": true
+    },
+    {
+      "viewport": [
+        2048,
+        1115
+      ],
+      "fixture": "1 historical completed books",
+      "worldPositions": {
+        "mara": {
+          "x": 500,
+          "y": 130
+        },
+        "lord": {
+          "x": 800,
+          "y": 415
+        }
+      },
+      "maraUpperLeftOfLordWithOriginalRightFacingArt": true,
+      "sweatNodes": 0,
+      "nativeMaraXPlazaSourceXAndExactOverviewReturn": true,
+      "readingJsonByteUnchanged": true
+    },
+    {
+      "viewport": [
+        2048,
+        1115
+      ],
+      "fixture": "14 historical completed books",
+      "worldPositions": {
+        "mara": {
+          "x": 250,
+          "y": 230
+        },
+        "lord": {
+          "x": 800,
+          "y": 415
+        }
+      },
+      "maraUpperLeftOfLordWithOriginalRightFacingArt": true,
+      "sweatNodes": 0,
+      "nativeMaraXPlazaSourceXAndExactOverviewReturn": true,
+      "readingJsonByteUnchanged": true
+    }
+  ],
+  "automaticNoticeSmoke": {
+    "fixture": "historical confirmed outro plus explicit completed URL; not a new completion proof",
+    "automaticNotificationAndNativeCityLinkPreserved": true,
+    "cityDerivedTruthDockAndReadingUnchanged": true,
+    "nativeFirst29NotRepeatedForPresentationOnlyChange": true
+  },
+  "seoAndGeneratedEntry": "passed",
+  "result": "passed"
+}

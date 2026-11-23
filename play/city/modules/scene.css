@@ -13,16 +13,12 @@
 .mod-city__npc .mod-city__actor-art{transform-origin:50% 84%;animation:mod-city-sway 5.4s ease-in-out infinite alternate}
 .mod-city__npc:nth-child(2n) .mod-city__actor-art{animation-delay:-2.7s}
 .mod-city__actor--mara .mod-city__actor-art{animation:mod-city-mara 5.5s ease-in-out infinite}
-.mod-city__sweat{position:absolute;right:19%;top:26%;width:6%;height:10%;border:1px solid #65acd5;border-radius:65% 65% 65% 8%;background:#c2f3ff;opacity:0;pointer-events:none;animation:mod-city-sweat 3.6s ease-out infinite;transform:rotate(32deg)}
-.mod-city__sweat:last-child{right:9%;top:34%;animation-delay:1.6s;width:5%;height:8%}
-.mod-city__actor--lord.is-calm .mod-city__sweat{animation-duration:7s}
 .mod-city button{font-family:inherit}
 .mod-city__art-notice{position:absolute;left:10px;right:10px;top:10px;z-index:210;display:flex;gap:8px;align-items:center;justify-content:center;padding:8px 10px;border-radius:10px;background:#152e42eb;color:#fff0c7;font-size:13px;line-height:1.5}.mod-city__art-notice[hidden]{display:none}
 .mod-city :focus-visible{outline:3px solid #c7f7f4;outline-offset:4px}
 @keyframes mod-city-sway{from{transform:rotate(-3deg)}to{transform:rotate(3deg)}}
 @keyframes mod-city-effect{from{opacity:.5}to{opacity:1}}
 @keyframes mod-city-mara{0%,100%{transform:translateY(0) rotate(-1deg)}50%{transform:translateY(-9px) rotate(1deg)}}
-@keyframes mod-city-sweat{0%,40%,100%{opacity:0;translate:0 0}47%{opacity:.95;translate:0 -4px}70%{opacity:0;translate:5px 15px}}
 .mod-city__art-notice button{min-width:48px;min-height:44px;padding:7px 11px;border:1px solid #c0d5d877;border-radius:9px;background:#203e50;color:#fff3d3;font-size:14px;font-weight:600;line-height:1.4;touch-action:manipulation;cursor:pointer}
 @media(max-width:600px){.mod-city__world-label{font-size:13px}}
-@media(prefers-reduced-motion:reduce){.mod-city *, .mod-city *::before,.mod-city *::after{animation:none!important;transition:none!important}.mod-city__sweat{opacity:0}}
+@media(prefers-reduced-motion:reduce){.mod-city *, .mod-city *::before,.mod-city *::after{animation:none!important;transition:none!important}}
