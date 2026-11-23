@@ -83,6 +83,7 @@
     toggle('reader-stable-artwork', illustrated);
     toggle('reader-framed-heart', heart);
     toggle('reader-framed-ending', ending);
+    if (!heart) toggle('reader-heart-fits', false);
     if (artSummary) {
       const belowImage = illustrated && page.classList.contains('summary-scene') &&
         !landscape.matches && innerWidth < 680;
@@ -140,6 +141,17 @@
     const height = Math.min(target, widthAvailable / frameRatio);
     set('--reader-target-art-height', target + 'px');
     set('--reader-art-height', height + 'px');
+    if (heart && verseBody) {
+      // Center the complete vertical text group when it fits. On small frames,
+      // retain the original right-to-left start and reachable horizontal scroll.
+      const contentWidth = [...verseBody.children].reduce((width, child) => {
+        if (!shown(child)) return width;
+        const css = getComputedStyle(child);
+        return width + child.getBoundingClientRect().width +
+          (parseFloat(css.marginLeft) || 0) + (parseFloat(css.marginRight) || 0);
+      }, 0);
+      toggle('reader-heart-fits', contentWidth <= verseBody.clientWidth + .5);
+    }
     page.dataset.readerArtKind = naturalRatio > referenceRatio + .01 ? 'wide-document' : 'illustration';
     const text = caption.textContent + '\n' + (summaryBand?.textContent || '') + '\n' + scripture.textContent;
     if (text !== lastText) {
@@ -166,7 +178,7 @@
     requestAnimationFrame(layout);
   }
   const resize = new ResizeObserver(schedule);
-  for (const element of [scene, caption, scripture, summaryBand, top, position, links, openVerse, previous, next])
+  for (const element of [scene, caption, scripture, verseBody, summaryBand, top, position, links, openVerse, previous, next])
     if (element) resize.observe(element);
   new MutationObserver(schedule).observe(page, {childList:true, subtree:true, characterData:true,
     attributes:true, attributeFilter:['class','hidden','src']});
