@@ -2,15 +2,15 @@ import {store} from '../collection/store.js';
 import {routeStatus,routeBooks} from '../route/selectors.js';
 import {canStartGameBook,canReviewGameBook,getGameBookAccess} from '../route/eligibility.js';
 import {routeMetadata} from '../route/metadata.js';
-import {initializeGameShell,GAME_URLS} from '../game-shell.js?v=modular-city-1';
-import {initializeTitleScreen} from '../title-screen.js?v=modular-city-1';
+import {initializeGameShell,GAME_URLS} from '../game-shell.js?v=outro-order-1';
+import {initializeTitleScreen} from '../title-screen.js?v=outro-order-1';
 import {createMapCamera} from './camera.js?v=original-frame-1';
-import {initializeStoryDialogue} from '../story/dialogue.js?v=mara-1';
+import {initializeStoryDialogue} from '../story/dialogue.js?v=outro-order-1';
 import {storyStore} from '../story/store.js?v=mara-1';
 import {consumeFirstCompletionReceipt} from '../story/completion-receipt.js?v=doubt-1';
 import {initializeDoubtStage} from '../story/doubt-stage.js?v=mara-1';
-import {STORY_UI} from '../story/data.js?v=mara-1';
-import {compactCompletionFeedback} from './completion-feedback.js?v=modular-city-1';
+import {STORY_UI} from '../story/data.js?v=outro-order-1';
+import {compactCompletionFeedback} from './completion-feedback.js?v=outro-order-1';
 import {WORLD,LANDMARKS,MEMBERS,NODES,EDGES,GEOGRAPHIC_ROAD,MAP_CONNECTIONS,conceptAnchor,sourceGroupAnchor,PRIMARY_BOOK_LANDMARK} from './data.js';
 import {T} from './text.js?v=original-frame-1';
 
@@ -27,13 +27,33 @@ const dialog=$('#wm-dialog'),content=$('#wm-dialog-content');
 const shell=initializeGameShell({active:'map',onMap:()=>activateMap()});
 shell.mountMapControls({primary:$('.wm-main-action'),tools:$('.wm-tools'),menu:$('.wm-menu-action')});
 const toolsDialog=$('#wm-tools-dialog');let toolsFocus=null;
-let doubtStage=null,activeStoryScene=null;
-const story=initializeStoryDialogue({host:$('#game-content'),onClose:()=>$('[data-wm-next]').focus({preventScroll:true}),onScene:scene=>{activeStoryScene=scene;syncDoubtStage();camera?.refresh();if(scene?.doubtState)camera?.focus({x:1248,y:566});},onDismiss:(scene,{replay})=>{if(!replay&&scene?.group==='first-completion'){storyStore.markSeen('doubt-recedes');completedFeedback('four-truths');}},onAction:(scene,{replay})=>{
- if(!replay&&scene.action==='enter-first-book'&&currentBook()?.id===scene.bookId)openReader(scene.bookId,{bypassDoubt:true});
- else if(!replay&&scene.action==='enter-aggregates-book'&&currentBook()?.id===scene.bookId)openReader(scene.bookId,{bypassAggregatesIntro:true});
- else if(!replay&&scene.action==='show-first-completion'){storyStore.markSeen('doubt-recedes');completedFeedback('four-truths');}
- else{locateNext();$('[data-wm-next]').focus({preventScroll:true});}
-}});
+let doubtStage=null,activeStoryScene=null,activeStoryContext=null,activeStoryReplay=false;
+const story=initializeStoryDialogue({
+ host:$('#game-content'),
+ onClose:()=>$('[data-wm-next]').focus({preventScroll:true}),
+ onScene:(scene,{context=null,replay=false}={})=>{
+  activeStoryScene=scene;activeStoryContext=context;activeStoryReplay=replay;
+  syncDoubtStage();camera?.refresh();
+  if(scene?.doubtState)camera?.focus({x:1248,y:566});
+ },
+ onDismiss:(scene,{replay,context})=>{
+  if(replay||(context!=='first-completion'&&scene?.group!=='first-completion'))return;
+  if(scene?.action==='enter-aggregates-book')finishFirstOutro();
+  else{
+   // Explicitly skipping the preamble acknowledges it too. Reload can then
+   // distinguish this tail from an old save that bypassed an unseen Mara.
+   storyStore.markSeen('mara-watches');completeFirstOutro();
+  }
+ },
+ onAction:(scene,{replay,context})=>{
+  if(replay&&scene.action==='show-first-completion'){story.show('toward-aggregates-lake',{replay:true,context:'first-completion'});return;}
+  if(!replay&&context==='first-completion'&&scene.action==='enter-aggregates-book'){finishFirstOutro();return;}
+  if(!replay&&scene.action==='enter-first-book'&&currentBook()?.id===scene.bookId)openReader(scene.bookId,{bypassDoubt:true});
+  else if(!replay&&scene.action==='enter-aggregates-book'&&currentBook()?.id===scene.bookId)openReader(scene.bookId,{bypassAggregatesIntro:true});
+  else if(!replay&&scene.action==='show-first-completion')completeFirstOutro();
+  else{locateNext();$('[data-wm-next]').focus({preventScroll:true});}
+ }
+});
 $('[data-wm-story-replay]').textContent=STORY_UI.replay;
 $('[data-wm-completion-replay]').textContent=STORY_UI.replayCompletion;
 function syncDoubtStage(){
@@ -43,13 +63,34 @@ function syncDoubtStage(){
 }
 function firstCompletionStory(hasReceipt){
  const saved=store.get(),done=saved.completed.includes('four-truths'),last=saved.positions['four-truths']===books.get('four-truths').totalSteps-1;
+ if(Object.hasOwn(saved.positions,'five-aggregates')||saved.completed.includes('five-aggregates'))return false;
  const pending=storyStore.hasSeen('first-book-insight')&&!storyStore.hasSeen('doubt-recedes');
  if(!done||!last||!storyStore.hasSeen('doubt-at-ruins')||storyStore.hasSeen('doubt-recedes')||(!hasReceipt&&!pending))return false;
  const l=landmarkFor('four-truths');selected=l.id;camera?.focus({x:l.x,y:l.y});
- // Old saves already containing the retreat cutoff never auto-play new scenes.
- // During the new outro, its cutoff stays pending until Mara is acknowledged.
- story.show(pending?(storyStore.hasSeen('mara-watches')?'mara-watches':'doubt-recedes'):'first-book-insight');return true;
+ // Keep the cutoff pending through the lake transition, so reload resumes it
+ // before the reward panel can branch to the city or the next station.
+ const nextScene=!pending?'first-book-insight':!storyStore.hasSeen('mara-watches')?'doubt-recedes':storyStore.hasSeen('toward-aggregates-lake')?'toward-aggregates-lake':'mara-watches';
+ story.show(nextScene,{context:'first-completion'});return true;
 }
+function showCompletionTransition(){
+ const s=store.get(),a=getGameBookAccess('five-aggregates',s.completed,s.positions);
+ if(!s.completed.includes('four-truths')||!a.canStart||Object.hasOwn(s.positions,'five-aggregates')||storyStore.hasSeen('toward-aggregates-lake'))return false;
+ dialog.close();
+ return story.show('toward-aggregates-lake',{context:'first-completion'});
+}
+function finishFirstOutro(){storyStore.markSeen('doubt-recedes');completedFeedback('four-truths');}
+function completeFirstOutro(){if(!showCompletionTransition())finishFirstOutro();}
+function resumeLegacyTransition(){
+ // Repair the previous release's split outro, not unrelated historical saves.
+ return store.get().positions['four-truths']===books.get('four-truths').totalSteps-1&&storyStore.hasSeen('mara-watches')&&storyStore.hasSeen('doubt-recedes')&&showCompletionTransition();
+}
+function completionStoryOpen(){return story.isOpen&&activeStoryContext==='first-completion'&&!activeStoryReplay;}
+function focusCompletionStory(){$('.story-dialogue__next').focus({preventScroll:true});}
+document.addEventListener('click',event=>{
+ if(!completionStoryOpen()||event.target.closest('.story-dialogue'))return;
+ const entry=event.target.closest('[data-game-nav],[data-wm-next],[data-wm-current],[data-wm-next-station],[data-wm-landmark],[data-wm-book],[data-wm-read],[data-wm-tools-open]');
+ if(entry){event.preventDefault();event.stopImmediatePropagation();focusCompletionStory();}
+},true);
 toolsDialog.addEventListener('close',()=>!story.isOpen&&toolsFocus?.isConnected&&toolsFocus.focus({preventScroll:true}));
 const status=()=>{const s=store.get();return routeStatus(s.completed,s.positions,routeMetadata.get());};
 const currentBook=()=>books.get(status().nextBookId)||null;
@@ -149,6 +190,7 @@ function aggregatesEntryStory(){
  return story.show('toward-aggregates-lake');
 }
 function openReader(id,{bypassDoubt=false,bypassAggregatesIntro=false}={}){
+ if(completionStoryOpen()){focusCompletionStory();return;}
  const s=store.get(),b=books.get(id),a=getGameBookAccess(id,s.completed,s.positions);
  if(!b||!a.canRead){lockPanel();return;}
  if(id==='four-truths'&&a.canStart&&!bypassDoubt&&!Object.hasOwn(s.positions,id)&&!storyStore.hasSeen('doubt-at-ruins')){dialog.close();story.show('doubt-at-ruins');return;}
@@ -156,7 +198,7 @@ function openReader(id,{bypassDoubt=false,bypassAggregatesIntro=false}={}){
  if(a.canStart)routeMetadata.markOpened(id);
  const u=new URL(b.reader,catalogURL);
  u.searchParams.set('collection','1');u.searchParams.set('collectionReturn','game');
- u.searchParams.set('collectionStory','modular-city-1');
+ u.searchParams.set('collectionStory','outro-order-1');
  if(a.canReview)u.searchParams.set('collectionReview','1');
  const at=a.canReview&&a.resumePosition===b.totalSteps-1?0:(a.resumePosition??0);
  u.searchParams.set('collectionPage',String(at));
@@ -172,6 +214,7 @@ function showEnding(){
 }
 function completedFeedback(id){
  const s=status(),b=books.get(id);if(!b||!s.completedBookIds.includes(id))return;
+ if(id==='four-truths'&&resumeLegacyTransition())return;
  const primary=landmarkFor(id);
  open(T.completeTitle(b.title),'<p class="wm-world-reward">'+T.mapReward(name(primary,s))+'</p>'+compactCompletionFeedback(id,s)+'<p>'+T.collection(s.count)+'</p><div class="wm-dialog-actions wm-completion-actions"><button class="primary" data-wm-next-station>'+(s.nextBookId?T.nextStation:T.viewEnding)+'</button><a href="'+GAME_URLS.city+'">'+T.seeCity+'</a></div>');
  dialog.classList.add('wm-completion-dialog');
@@ -196,7 +239,7 @@ function activateMap(){
  if(params.get('focus')==='current')locateNext();
  const receipt=consumeFirstCompletionReceipt();
  if(completed){const id=completed;completed=null;history.replaceState(null,'',GAME_URLS.map);if(id!=='four-truths'||!firstCompletionStory(receipt))completedFeedback(id);}
- else firstCompletionStory(receipt);
+ else if(!firstCompletionStory(receipt))resumeLegacyTransition();
  const saved=store.get();
  if(!story.isOpen&&!params.has('completed')&&!saved.completed.length&&!Object.keys(saved.positions).length&&!storyStore.hasSeen('arrival-at-wheel')){
   story.show('arrival-at-wheel');

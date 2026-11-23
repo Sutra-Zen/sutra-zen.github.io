@@ -1,4 +1,4 @@
-import {resetJourney} from './journey-save.js?v=modular-city-1';
+import {resetJourney} from './journey-save.js?v=outro-order-1';
 
 // Temporary author opt-in UI, not authentication or a game unlock mechanism.
 // Turn this off when the author-testing round ends; ordinary /game/ never

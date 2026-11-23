@@ -24,7 +24,7 @@ export const STORY_SCENES = Object.freeze({
   nextSceneId:'mara-watches',nextLabel:'接著看',dismissLabel:'看閱讀回饋'}),
  'mara-watches': Object.freeze({actorId:'mara',bookId:'four-truths',group:'first-completion',
   text:'站在遠方觀看的波旬心想：「可惡，小貓好像慢慢開始破除五蓋了……」',
-  action:'show-first-completion',nextLabel:'看看旅程的變化',dismissLabel:'看閱讀回饋'}),
+  action:'show-first-completion',nextLabel:'接著看',dismissLabel:'看閱讀回饋'}),
  'toward-aggregates-lake': Object.freeze({actorId:'traveler',bookId:'five-aggregates',group:'book-entry',
   text:'原來，四個重要的真理是苦、集、滅、道。但我還不太懂苦的心理運作……那邊有座五陰湖，去看看好了！',
   action:'enter-aggregates-book',nextLabel:'前往五陰湖',dismissLabel:'先看看地圖'}),
@@ -32,6 +32,7 @@ export const STORY_SCENES = Object.freeze({
 export const STORY_UI = Object.freeze({
  dialogue:'旅程對話',enter:'進去看看',next:'接著看',skip:'先看看地圖',replay:'重看開場對話',
  replayCompletion:'重看四聖諦過場',returnToMap:'回到海圖',questionMark:'？',
+ completionTransitionNext:'看看旅程的變化',completionTransitionDismiss:'看閱讀回饋',
  doubtStageLabel:'滿身問號的疑，停在法輪遺跡入口',
  storageUnavailable:'這次仍可閱讀；裝置無法保存對話紀錄，下次可能再次顯示。',
  storageCorrupt:'對話紀錄無法讀取，閱讀進度不受影響。',

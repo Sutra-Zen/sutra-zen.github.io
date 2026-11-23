@@ -1,3 +1,13 @@
+# 四聖諦過場先於城池／下一站（2026-11-23）
+
+從已發布main `2720747323f4d3a05474bf0c2919ac5332810cb2` 建立 `fix/game-outro-before-next-station`，起始乾淨、origin正確。作者回報先安置法輪碼頭後才出現四聖諦接五陰對話。本輪把正常首次完成改成心得→疑退場→波旬→五陰短句→原取得面板，再分流城池或下一站；尾幕CTA回取得面板而非直接讀five。
+
+dialogue新增記憶體completion context，沿片段傳遞；cutoff延至尾幕確認／略過，重整可接回尾幕。前段略過仍先顯示尾幕，正常底列／地標不能繞過；設定與reset保留。舊Mara／退場已看但尾幕未看且five完全無書籤的存檔可補尾；已有five position（含0）／已看／已讀不強插。工具replay包含尾幕、唯讀。原receipt/末頁驗證、completed／資格、城池配置與備份schema都不改。
+
+cache互返outro-order-1，原story store仍mara-1單例。14HTML僅bridge query；原經文／口白／圖片／操作、首頁32節點／14書架、SEO15與Google保護。生成來源與game同步，main:/未改，QA排除20目錄。詳[修正說明](play/game-outro-order/README.md)及[實際驗證](previews/game-outro-order/README.md)；真實閱讀與fixture分開，實機Safari未測。依既有授權發布，精確merge SHA／Pages／正式站結果以新PR交付為準。
+
+---
+
 # 模組城池、五蓋偽動畫與心聲（2026-11-23）
 
 從已發布main `6bb59a61d5d045b87102989532a55dc814eafa42` 建立 `feat/game-modular-city`，初始乾淨、origin正確。作者本輪明確授權將前輪模組清單寫成程式，加五蓋圓球搖擺、全身波旬、識城主汗滴及心想，並可發布。城池改為新彩繪草地＋獨立模組；第一本完成先有免費四大花園與識，讀本取得14模組，點卡/拖到＋/自動安置，舊已讀不等於已安置、不要求重讀，不影響原閱讀資格。
