@@ -3,8 +3,12 @@
    Only UI surfaces are tinted: artwork, fog and the map/city world are intact. */
 body.game-shell,.game-title-screen,body.wm-page,body.city-page,body.collection-page{
  --game-panel:rgba(18,28,40,.9);--game-panel-soft:rgba(22,34,47,.84);--game-raised:rgba(32,47,61,.92);
- --game-ink:#f6efdf;--game-muted:#c7d2c9;--game-gold:#ecd092;--game-teal:#a7d6ca;
- --game-line:rgba(204,180,126,.55);--game-button:rgba(40,77,73,.94);--game-button-hover:rgba(48,94,87,.98);
+ --game-ink:#f6efdf;--game-muted:#cbd7dc;--game-gold:#ecd092;--game-teal:#b2e8ee;
+ --game-line:rgba(204,180,126,.55);
+ --game-button:linear-gradient(145deg,rgba(142,233,236,.98),rgba(85,189,216,.98));
+ --game-button-hover:linear-gradient(145deg,#b3f6f3,#79d9e9);
+ --game-action-ink:#173d50;--game-action-border:#9bd9e4;
+ --game-action-disabled:linear-gradient(145deg,#b6ced2,#9bb9c2);--game-action-disabled-ink:#254552;
  --game-focus:#ffe0a0;color-scheme:dark;
 }
 /* Fixed dock: real alpha remains visible over the original illustrated sea. */
@@ -13,8 +17,8 @@ body.game-shell,.game-title-screen,body.wm-page,body.city-page,body.collection-p
 .game-shell .game-dock :is(.game-hud__settings,.game-dock__arrow,.wm-tools button,.wm-menu-action>button){background:rgba(38,53,65,.78);color:var(--game-ink);border-color:#c1bd9e4d;min-height:48px}
 .game-shell .game-dock :is(.game-hud__settings,.game-dock__arrow,.wm-tools button,.wm-menu-action>button):hover{background:rgba(48,71,79,.94)}
 .game-shell .game-dock .sz-game-nav__link{background:rgba(36,50,63,.55);color:var(--game-ink);border-color:transparent}
-.game-shell .game-dock .sz-game-nav__link.is-active{background:rgba(45,85,79,.92);color:#fff3cf;border-color:#cbb781aa;box-shadow:inset 0 1px #f6df9c22}
-.game-shell .game-dock .sz-game-nav__link:hover{background:rgba(47,76,77,.92);color:var(--game-ink)}
+.game-shell .game-dock .sz-game-nav__link.is-active{background:var(--game-button);color:var(--game-action-ink);border-color:var(--game-action-border);box-shadow:inset 0 1px #ffffffb3,0 2px 6px #061c2a33}
+.game-shell .game-dock .sz-game-nav__link:hover{background:rgba(43,65,83,.94);color:var(--game-ink)}
 .game-shell :focus-visible,.game-title-screen :focus-visible{outline-color:var(--game-focus);outline-width:3px;outline-offset:3px}
 /* Modal backdrops stay clear: opening a menu does not darken the entire map. */
 .game-shell dialog::backdrop{background:transparent;backdrop-filter:none;-webkit-backdrop-filter:none}
@@ -30,35 +34,38 @@ body.game-shell dialog.game-settings,body.game-shell.wm-page dialog,body.game-sh
 .game-shell dialog :is(.close-dialog,.game-settings__close):hover{background:#edf7df14}
 .game-shell .game-settings section{border-color:#c2cbb433}.game-shell .game-settings h3{color:var(--game-gold)}
 .game-shell .game-settings__actions>a,.game-shell .game-settings__actions>button,.game-shell .game-settings__file,
-.game-shell :is(.wm-tool-menu>button,.wm-route-list button,.wm-dialog-actions button,.wm-dialog-actions a,#wm-dialog-content>button,.city-meaning-list button,.city-reward-index>button){
+.game-shell :is(.wm-tool-menu>button,.wm-route-list button,.wm-dialog-actions button,.wm-dialog-actions a,.city-meaning-list button,.city-reward-index>button),
+.game-shell #wm-dialog-content>button{
  min-height:48px;background:var(--game-raised);color:var(--game-ink);border-color:#afc4b699;box-shadow:0 2px 5px #06141c33;
 }
 .game-shell .game-settings__actions>a:hover,.game-shell .game-settings__actions>button:hover,.game-shell .game-settings__file:hover,
-.game-shell :is(.wm-tool-menu>button,.wm-route-list button,.wm-dialog-actions button,.wm-dialog-actions a,.city-meaning-list button,.city-reward-index>button):hover{background:var(--game-button-hover);color:var(--game-ink)}
+.game-shell :is(.wm-tool-menu>button,.wm-route-list button,.wm-dialog-actions button,.wm-dialog-actions a,.city-meaning-list button,.city-reward-index>button):hover{background:var(--game-button-hover);color:var(--game-action-ink)}
 .game-shell .game-settings__danger{color:#edc99c!important;border-color:#caa37588!important;background:transparent!important}
 .game-shell .game-settings__status,.game-shell .game-shell-notice,.game-shell #wm-storage-notice,.game-shell .collection-notice{
  background:rgba(58,47,37,.94);color:#ffe7ba;border-color:#dbbb7a99;box-shadow:0 3px 12px #0b172233;
 }
 .game-shell :is(.wm-route-details>summary,.wm-tools-dialog h2){color:var(--game-ink)}
 .game-shell .wm-route-list button[data-level-state=locked]{color:#c1c9c0;background:rgba(26,39,52,.9);border-color:#b2beac77}
-.game-shell .wm-route-list button[aria-current=true]{color:#fff0c6;background:var(--game-button);border-color:#dcc389}
-.game-shell :is(.status-label,.wm-status-chip){background:rgba(43,78,70,.95);color:#fff1cf;border:1px solid #a7bc9855}
+.game-shell .wm-route-list button[aria-current=true]{color:var(--game-action-ink);background:var(--game-button);border-color:var(--game-action-border)}
+.game-shell :is(.status-label,.wm-status-chip){background:var(--game-button);color:var(--game-action-ink);border:1px solid var(--game-action-border)}
 .game-shell .city-reward-index small{color:var(--game-muted)}
 .game-shell .wm-compact-reward{background:rgba(41,54,63,.75);border-color:#c8af7380}.game-shell .wm-world-reward{color:var(--game-gold)}
 .game-shell .wm-completion-actions{background:linear-gradient(transparent,rgba(19,30,42,.96) 28%)}
-/* Shared primary action style stays readable without a bright cream rectangle. */
+/* Fresh blue-celadon actions stand out against the unchanged indigo panels. */
 .game-shell .primary,.game-shell .wm-main-action button,.game-shell .wm-dialog-actions .primary,.game-shell #wm-dialog-content>button.primary,.game-shell.city-page .city-primary .primary{
- min-height:48px;background:var(--game-button);color:var(--game-ink)!important;border-color:#d9bd78a8;box-shadow:0 2px 0 #081e21aa,0 3px 10px #0b1b2444;
+ min-height:48px;background:var(--game-button);color:var(--game-action-ink)!important;border-color:var(--game-action-border);box-shadow:inset 0 1px #ffffffad,0 2px 0 #23526a88,0 3px 10px #0b1b2444;
 }
-.game-shell .primary:hover,.game-shell .wm-main-action button:hover{background:var(--game-button-hover)}
+.game-shell .primary:hover,.game-shell .wm-main-action button:hover,
+.game-shell .wm-dialog-actions .primary:hover,.game-shell #wm-dialog-content>button.primary:hover,
+.game-shell.city-page .city-primary .primary:hover{background:var(--game-button-hover)}
 /* World-space text surfaces change, never the illustrated layers underneath. */
 .game-shell.wm-page .wm-label,.game-shell.wm-page .wm-region{background:rgba(22,35,48,.9);color:var(--game-ink);border-color:#d2b780b3;box-shadow:0 2px 6px #071b2c66}
 .game-shell.wm-page .wm-landmark.is-locked .wm-label{background:rgba(24,36,48,.88);color:#c9d0c7;border-color:#b3bfaa99}
-.game-shell.wm-page .wm-landmark.is-next .wm-label{background:rgba(37,71,68,.96);color:#fff1c9;border-color:#f2d18d}
+.game-shell.wm-page .wm-landmark.is-next .wm-label{background:var(--game-button);color:var(--game-action-ink);border-color:var(--game-action-border)}
 .game-shell .wm-once-tip,.game-shell .wm-overview-return{background:var(--game-panel-soft);color:var(--game-ink);border-color:var(--game-line);backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px)}
 .game-shell.city-page .city-tools{background:linear-gradient(rgba(17,29,40,.64),transparent)}
 .game-shell.city-page .city-tools button{color:var(--game-ink);background:var(--game-panel-soft);border-color:#bdc3a780;min-height:48px}
-.game-shell.city-page .city-tools button[aria-pressed=true]{background:var(--game-button);color:#fff1cf;border-color:#d3be87}
+.game-shell.city-page .city-tools button[aria-pressed=true]{background:var(--game-button);color:var(--game-action-ink);border-color:var(--game-action-border)}
 .game-shell.city-page .city-primary{background:linear-gradient(transparent,rgba(17,29,41,.86) 45%)}
 .game-shell.city-page .city-next-copy{color:var(--game-ink)}.game-shell.city-page #city-storage-notice{color:#ffe2b1}
 .game-shell.city-page .tactics-label-text{background:rgba(20,34,46,.92);color:var(--game-ink);border-color:#d2bc83c4;box-shadow:0 1px 4px #12233266}
@@ -68,15 +75,36 @@ body.game-shell dialog.game-settings,body.game-shell.wm-page dialog,body.game-sh
 .game-shell.collection-page .collection-empty{background:var(--game-panel);color:var(--game-ink);border-color:var(--game-line);backdrop-filter:blur(7px);-webkit-backdrop-filter:blur(7px)}
 .game-shell.collection-page .collection-empty :is(h2,p){color:var(--game-ink)}
 .game-shell.collection-page .collection-book-status{background:rgba(21,33,44,.94);color:#f4e9d1;border:1px solid #a99b7380;text-shadow:none}
-.game-shell.collection-page .is-earned .collection-book-status{color:#c2e4cd}.game-shell.collection-page .is-unearned{opacity:1}
+.game-shell.collection-page .is-earned .collection-book-status{color:var(--game-teal)}.game-shell.collection-page .is-unearned{opacity:1}
 .game-shell.collection-page .collection-all-read{color:var(--game-ink)}
 /* Title menu is a translucent dark card over the unchanged author artwork. */
 .game-title-screen .game-title-paper{background:linear-gradient(135deg,rgba(20,31,43,.91),rgba(28,40,51,.86));color:var(--game-ink);border-color:#d8bd8299;box-shadow:0 16px 55px #101d2777,inset 0 1px #ffedc51a;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
 .game-title-screen .game-title-paper :is(h1,.game-title-tagline){color:var(--game-ink);text-shadow:0 1px 3px #08192255}
 .game-title-screen .game-title-subtitle{color:var(--game-gold)}
-.game-title-screen .game-title-paper>.game-title-brand{color:#c8dbc8}
-.game-title-screen .game-title-start{background:linear-gradient(rgba(48,88,79,.96),rgba(32,66,62,.96));color:#fff2d4;border-color:#cfb87c;box-shadow:0 3px 0 #102c2c,0 5px 16px #0b202333;min-height:48px}
+.game-title-screen .game-title-paper>.game-title-brand{color:#c6dfe9}
+.game-title-screen .game-title-start{background:var(--game-button);color:var(--game-action-ink);border-color:var(--game-action-border);box-shadow:inset 0 1px #ffffffad,0 3px 0 #28546d99,0 5px 16px #0b202333;min-height:48px}
 .game-title-screen .game-title-settings,.game-title-screen .game-title-author-reset{color:var(--game-muted);background:rgba(27,41,54,.45);border-color:#cfb78388;min-height:48px}
-.game-title-screen .game-title-settings:hover,.game-title-screen .game-title-author-reset:hover{background:rgba(48,73,76,.85);color:var(--game-ink)}
+.game-title-screen .game-title-settings:hover,.game-title-screen .game-title-author-reset:hover{background:rgba(42,65,82,.9);color:var(--game-ink)}
 .game-title-screen :is(.game-title-reset-status,.game-title-art-notice){color:var(--game-muted)}
 .game-title-screen .game-prologue .prologue-action{background:rgba(22,38,49,.88);color:var(--game-ink);border-color:#d1b98099;min-height:48px}
+
+/* Current/suggested states share the same light action semantics. These rules
+   also outrank legacy green hover/status rules loaded by the individual pages. */
+.game-shell .game-dock .sz-game-nav__link.is-active:hover,
+.game-shell .wm-route-list button[aria-current=true]:hover,
+.game-shell.city-page .city-tools button[aria-pressed=true]:hover,
+.game-title-screen .game-title-start:hover{background:var(--game-button-hover);color:var(--game-action-ink);border-color:var(--game-action-border)}
+.game-shell.wm-page .wm-landmark.is-earned .wm-status-chip,
+.game-shell.wm-page .wm-landmark.is-next .wm-status-chip,
+.game-shell dialog .status-label{background:var(--game-button);color:var(--game-action-ink);border-color:var(--game-action-border)}
+.game-shell .wm-tool-menu>button[aria-pressed=true],
+.game-shell .game-dock .wm-tools button[aria-pressed=true],
+.game-shell .wm-overview-return{background:var(--game-button);color:var(--game-action-ink);border-color:var(--game-action-border)}
+.game-shell .wm-overview-return:hover{background:var(--game-button-hover)}
+.game-shell.city-page .tactics-label.is-available .tactics-label-text{background:var(--game-button);color:var(--game-action-ink);border-color:var(--game-action-border);text-shadow:none}
+.game-shell .city-reward-index>button:hover small{color:#315361}
+.game-shell .primary:not(:disabled):not([aria-disabled=true]):active,
+.game-shell .wm-main-action button:not(:disabled):active,
+.game-title-screen .game-title-start:not(:disabled):active{background:linear-gradient(145deg,#75d8e1,#50b5d1);color:var(--game-action-ink)}
+.game-shell :is(button.primary,a.primary,.wm-main-action button,.wm-dialog-actions .primary,#wm-dialog-content>button.primary,.city-primary .primary):is(:disabled,[aria-disabled=true]),
+.game-title-screen .game-title-start:is(:disabled,[aria-disabled=true]){background:var(--game-action-disabled);color:var(--game-action-disabled-ink)!important;border-color:#8facb8;box-shadow:none;opacity:1;cursor:not-allowed}

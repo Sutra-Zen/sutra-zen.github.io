@@ -21,6 +21,9 @@ export const STORY_SCENES = Object.freeze({
  'doubt-recedes': Object.freeze({actorId:'traveler',bookId:'four-truths',group:'first-completion',doubtState:'receding',
   text:'咦，剛才那隻怪生物身上的問號變少了……牠退進霧裡，入口也露出來了。先把剛才學到的記在心裡，再走下一站吧！',
   action:'show-first-completion',nextLabel:'看看旅程的變化',dismissLabel:'看閱讀回饋'}),
+ 'toward-aggregates-lake': Object.freeze({actorId:'traveler',bookId:'five-aggregates',group:'book-entry',
+  text:'原來，四個重要的真理是苦、集、滅、道。但我還不太懂苦的心理運作……那邊有座五陰湖，去看看好了！',
+  action:'enter-aggregates-book',nextLabel:'前往五陰湖',dismissLabel:'先看看地圖'}),
 });
 export const STORY_UI = Object.freeze({
  dialogue:'旅程對話',enter:'進去看看',next:'接著看',skip:'先看看地圖',replay:'重看開場對話',

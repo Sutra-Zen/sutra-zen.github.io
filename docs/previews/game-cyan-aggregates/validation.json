@@ -1,0 +1,1263 @@
+{
+  "baseline": "0d44d7229195d60bf1781e55e88ab53b8d7fcc7f",
+  "protectedOriginalFiles": 615,
+  "fourteenReaderHtmlException": "Only each collection bridge query; normalize to its own baseline then full text equal",
+  "originalBookTextScriptureArtJsCssHomepageSeoGoogle": "byte-for-byte unchanged",
+  "additionalUnchangedCoreAndArt": [
+    "play/collection/store.js",
+    "play/collection/reader.css",
+    "play/reader-bridge.js",
+    "play/route",
+    "play/prologue",
+    "play/story/completion-receipt.js",
+    "play/worldmap-v4/camera.js",
+    "play/worldmap-v4/data.js",
+    "play/visual-v2/network-data.js",
+    "play/visual-v2/assets",
+    "play/worldmap-v4/assets",
+    "play/story/assets",
+    "play/assets"
+  ],
+  "cacheOnlyCoreExceptions": "Reader bridge return query, story data/store imports and author reset import; normalize then all other bytes unchanged",
+  "phase": "Local focused validation",
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "physicalSafari": "Not tested; desktop Chromium viewport and input simulation",
+  "fixtureNotice": "Isolated synthetic history cases are separate from the actual first29 and four real Five Aggregates steps.",
+  "actualFirstToFive": {
+    "actualFirstBookNextTrace": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "countZeroUntilExplicitFirstFinish": true,
+    "originalFirstRewardAndNextStationPreserved": true,
+    "newSceneAfterLocateBeforeOpeningBook": {
+      "id": "toward-aggregates-lake",
+      "actor": "traveler",
+      "speaker": "小貓",
+      "text": "原來，四個重要的真理是苦、集、滅、道。但我還不太懂苦的心理運作……那邊有座五陰湖，去看看好了！"
+    },
+    "sceneOnlyAddsPresentationSeenFlag": {
+      "version": 1,
+      "positions": {
+        "four-truths": 28
+      },
+      "completed": [
+        "four-truths"
+      ],
+      "activeBook": "five-aggregates"
+    },
+    "newSceneCta": {
+      "background": "rgba(0, 0, 0, 0)",
+      "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+      "color": "rgb(23, 61, 80)",
+      "outline": "rgb(23, 61, 80)",
+      "rect": {
+        "x": 954.984375,
+        "y": 148.59375,
+        "width": 114.015625,
+        "height": 48,
+        "top": 148.59375,
+        "right": 1069,
+        "bottom": 196.59375,
+        "left": 954.984375
+      },
+      "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+    },
+    "fiveActualNextIndices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "fiveTotalSteps": 54,
+    "reloadRotationReturnResumesAtIndex": 3,
+    "fiveSceneNotRepeatedOnReturn": true,
+    "completedStillOnlyFirst": true
+  },
+  "fiveViewportCyanSemanticSurfaces": [
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "title": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+        "color": "rgb(23, 61, 80)",
+        "outline": "rgb(255, 224, 160)",
+        "rect": {
+          "x": 426.890625,
+          "y": 459,
+          "width": 426.21875,
+          "height": 54,
+          "top": 459,
+          "right": 853.109375,
+          "bottom": 513,
+          "left": 426.890625
+        },
+        "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+      },
+      "titleHover": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgb(179, 246, 243), rgb(121, 217, 233))",
+        "color": "rgb(23, 61, 80)",
+        "outline": "rgb(255, 224, 160)",
+        "rect": {
+          "x": 426.890625,
+          "y": 459,
+          "width": 426.21875,
+          "height": 54,
+          "top": 459,
+          "right": 853.109375,
+          "bottom": 513,
+          "left": 426.890625
+        },
+        "minTextContrastBlackOrWhiteBehind": 7.096937865838296
+      },
+      "titlePressed": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgb(117, 216, 225), rgb(80, 181, 209))",
+        "color": "rgb(23, 61, 80)",
+        "outline": "rgb(255, 224, 160)",
+        "rect": {
+          "x": 426.890625,
+          "y": 459,
+          "width": 426.21875,
+          "height": 54,
+          "top": 459,
+          "right": 853.109375,
+          "bottom": 513,
+          "left": 426.890625
+        },
+        "minTextContrastBlackOrWhiteBehind": 4.874984804456918
+      },
+      "mapSemanticSurfaces": {
+        "[data-wm-next]": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+          "color": "rgb(23, 61, 80)",
+          "outline": "rgb(23, 61, 80)",
+          "rect": {
+            "x": 366.59375,
+            "y": 837,
+            "width": 294.390625,
+            "height": 48,
+            "top": 837,
+            "right": 660.984375,
+            "bottom": 885,
+            "left": 366.59375
+          },
+          "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+        },
+        "[data-game-nav=\"map\"].is-active": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+          "color": "rgb(23, 61, 80)",
+          "outline": "rgb(23, 61, 80)",
+          "rect": {
+            "x": 107.875,
+            "y": 831,
+            "width": 80.90625,
+            "height": 60,
+            "top": 831,
+            "right": 188.78125,
+            "bottom": 891,
+            "left": 107.875
+          },
+          "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+        },
+        ".wm-landmark.is-next .wm-label": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+          "color": "rgb(23, 61, 80)",
+          "outline": "rgb(23, 61, 80)",
+          "rect": {
+            "x": 897.0037841796875,
+            "y": 380.8287658691406,
+            "width": 120.8724365234375,
+            "height": 40.75750732421875,
+            "top": 380.8287658691406,
+            "right": 1017.876220703125,
+            "bottom": 421.5862731933594,
+            "left": 897.0037841796875
+          },
+          "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+        },
+        ".wm-landmark.is-next .wm-status-chip": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+          "color": "rgb(23, 61, 80)",
+          "outline": "rgb(23, 61, 80)",
+          "rect": {
+            "x": 922.7113037109375,
+            "y": 423.8262634277344,
+            "width": 69.43994140625,
+            "height": 30.904998779296875,
+            "top": 423.8262634277344,
+            "right": 992.1512451171875,
+            "bottom": 454.73126220703125,
+            "left": 922.7113037109375
+          },
+          "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+        }
+      },
+      "routeCurrent": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+        "color": "rgb(23, 61, 80)",
+        "outline": "rgb(23, 61, 80)",
+        "rect": {
+          "x": 434,
+          "y": 313,
+          "width": 412,
+          "height": 48,
+          "top": 313,
+          "right": 846,
+          "bottom": 361,
+          "left": 434
+        },
+        "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+      },
+      "newScene": {
+        "id": "toward-aggregates-lake",
+        "actor": "traveler",
+        "speaker": "小貓",
+        "text": "原來，四個重要的真理是苦、集、滅、道。但我還不太懂苦的心理運作……那邊有座五陰湖，去看看好了！"
+      },
+      "dialogueCta": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+        "color": "rgb(23, 61, 80)",
+        "outline": "rgb(23, 61, 80)",
+        "rect": {
+          "x": 954.984375,
+          "y": 148.59375,
+          "width": 114.015625,
+          "height": 48,
+          "top": 148.59375,
+          "right": 1069,
+          "bottom": 196.59375,
+          "left": 954.984375
+        },
+        "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+      },
+      "city": {
+        "activeNav": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+          "color": "rgb(23, 61, 80)",
+          "outline": "rgb(23, 61, 80)",
+          "rect": {
+            "x": 496.96875,
+            "y": 831,
+            "width": 80.90625,
+            "height": 60,
+            "top": 831,
+            "right": 577.875,
+            "bottom": 891,
+            "left": 496.96875
+          },
+          "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+        },
+        "primary": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+          "color": "rgb(23, 61, 80)",
+          "outline": "rgb(23, 61, 80)",
+          "rect": {
+            "x": 700.5,
+            "y": 754.5,
+            "width": 154,
+            "height": 48,
+            "top": 754.5,
+            "right": 854.5,
+            "bottom": 802.5,
+            "left": 700.5
+          },
+          "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+        }
+      },
+      "shelfActiveNav": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+        "color": "rgb(23, 61, 80)",
+        "outline": "rgb(23, 61, 80)",
+        "rect": {
+          "x": 580.875,
+          "y": 831,
+          "width": 80.90625,
+          "height": 60,
+          "top": 831,
+          "right": 661.78125,
+          "bottom": 891,
+          "left": 580.875
+        },
+        "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+      },
+      "darkPanelsAndWorldArtworkRetained": true,
+      "noReadingProgressWritten": true
+    },
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "title": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+        "color": "rgb(23, 61, 80)",
+        "outline": "rgb(255, 224, 160)",
+        "rect": {
+          "x": 42,
+          "y": 398.09375,
+          "width": 276,
+          "height": 54,
+          "top": 398.09375,
+          "right": 318,
+          "bottom": 452.09375,
+          "left": 42
+        },
+        "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+      },
+      "titleHover": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgb(179, 246, 243), rgb(121, 217, 233))",
+        "color": "rgb(23, 61, 80)",
+        "outline": "rgb(255, 224, 160)",
+        "rect": {
+          "x": 42,
+          "y": 398.09375,
+          "width": 276,
+          "height": 54,
+          "top": 398.09375,
+          "right": 318,
+          "bottom": 452.09375,
+          "left": 42
+        },
+        "minTextContrastBlackOrWhiteBehind": 7.096937865838296
+      },
+      "titlePressed": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgb(117, 216, 225), rgb(80, 181, 209))",
+        "color": "rgb(23, 61, 80)",
+        "outline": "rgb(255, 224, 160)",
+        "rect": {
+          "x": 42,
+          "y": 398.09375,
+          "width": 276,
+          "height": 54,
+          "top": 398.09375,
+          "right": 318,
+          "bottom": 452.09375,
+          "left": 42
+        },
+        "minTextContrastBlackOrWhiteBehind": 4.874984804456918
+      },
+      "mapSemanticSurfaces": {
+        "[data-wm-next]": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+          "color": "rgb(23, 61, 80)",
+          "outline": "rgb(23, 61, 80)",
+          "rect": {
+            "x": 162,
+            "y": 737,
+            "width": 142,
+            "height": 48,
+            "top": 737,
+            "right": 304,
+            "bottom": 785,
+            "left": 162
+          },
+          "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+        },
+        "[data-game-nav=\"map\"].is-active": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+          "color": "rgb(23, 61, 80)",
+          "outline": "rgb(23, 61, 80)",
+          "rect": {
+            "x": 10,
+            "y": 731,
+            "width": 48,
+            "height": 60,
+            "top": 731,
+            "right": 58,
+            "bottom": 791,
+            "left": 10
+          },
+          "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+        },
+        ".wm-landmark.is-next .wm-label": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+          "color": "rgb(23, 61, 80)",
+          "outline": "rgb(23, 61, 80)",
+          "rect": {
+            "x": 126.0389404296875,
+            "y": 334.0078125,
+            "width": 107.921875,
+            "height": 36.390655517578125,
+            "top": 334.0078125,
+            "right": 233.9608154296875,
+            "bottom": 370.3984680175781,
+            "left": 126.0389404296875
+          },
+          "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+        },
+        ".wm-landmark.is-next .wm-status-chip": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+          "color": "rgb(23, 61, 80)",
+          "outline": "rgb(23, 61, 80)",
+          "rect": {
+            "x": 148.9920654296875,
+            "y": 372.3984680175781,
+            "width": 62,
+            "height": 27.59375,
+            "top": 372.3984680175781,
+            "right": 210.9920654296875,
+            "bottom": 399.9922180175781,
+            "left": 148.9920654296875
+          },
+          "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+        }
+      },
+      "routeCurrent": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+        "color": "rgb(23, 61, 80)",
+        "outline": "rgb(23, 61, 80)",
+        "rect": {
+          "x": 32,
+          "y": 306,
+          "width": 296,
+          "height": 48,
+          "top": 306,
+          "right": 328,
+          "bottom": 354,
+          "left": 32
+        },
+        "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+      },
+      "newScene": {
+        "id": "toward-aggregates-lake",
+        "actor": "traveler",
+        "speaker": "小貓",
+        "text": "原來，四個重要的真理是苦、集、滅、道。但我還不太懂苦的心理運作……那邊有座五陰湖，去看看好了！"
+      },
+      "dialogueCta": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+        "color": "rgb(23, 61, 80)",
+        "outline": "rgb(23, 61, 80)",
+        "rect": {
+          "x": 225.984375,
+          "y": 179.546875,
+          "width": 110.015625,
+          "height": 48,
+          "top": 179.546875,
+          "right": 336,
+          "bottom": 227.546875,
+          "left": 225.984375
+        },
+        "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+      },
+      "city": {
+        "activeNav": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+          "color": "rgb(23, 61, 80)",
+          "outline": "rgb(23, 61, 80)",
+          "rect": {
+            "x": 71.421875,
+            "y": 731,
+            "width": 48,
+            "height": 60,
+            "top": 731,
+            "right": 119.421875,
+            "bottom": 791,
+            "left": 71.421875
+          },
+          "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+        },
+        "primary": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+          "color": "rgb(23, 61, 80)",
+          "outline": "rgb(23, 61, 80)",
+          "rect": {
+            "x": 14,
+            "y": 661,
+            "width": 332,
+            "height": 48,
+            "top": 661,
+            "right": 346,
+            "bottom": 709,
+            "left": 14
+          },
+          "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+        }
+      },
+      "shelfActiveNav": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+        "color": "rgb(23, 61, 80)",
+        "outline": "rgb(23, 61, 80)",
+        "rect": {
+          "x": 120.421875,
+          "y": 731,
+          "width": 48,
+          "height": 60,
+          "top": 731,
+          "right": 168.421875,
+          "bottom": 791,
+          "left": 120.421875
+        },
+        "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+      },
+      "darkPanelsAndWorldArtworkRetained": true,
+      "noReadingProgressWritten": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "title": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+        "color": "rgb(23, 61, 80)",
+        "outline": "rgb(255, 224, 160)",
+        "rect": {
+          "x": 226,
+          "y": 185.109375,
+          "width": 392,
+          "height": 51.1875,
+          "top": 185.109375,
+          "right": 618,
+          "bottom": 236.296875,
+          "left": 226
+        },
+        "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+      },
+      "titleHover": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgb(179, 246, 243), rgb(121, 217, 233))",
+        "color": "rgb(23, 61, 80)",
+        "outline": "rgb(255, 224, 160)",
+        "rect": {
+          "x": 226,
+          "y": 185.109375,
+          "width": 392,
+          "height": 51.1875,
+          "top": 185.109375,
+          "right": 618,
+          "bottom": 236.296875,
+          "left": 226
+        },
+        "minTextContrastBlackOrWhiteBehind": 7.096937865838296
+      },
+      "titlePressed": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgb(117, 216, 225), rgb(80, 181, 209))",
+        "color": "rgb(23, 61, 80)",
+        "outline": "rgb(255, 224, 160)",
+        "rect": {
+          "x": 226,
+          "y": 185.109375,
+          "width": 392,
+          "height": 51.1875,
+          "top": 185.109375,
+          "right": 618,
+          "bottom": 236.296875,
+          "left": 226
+        },
+        "minTextContrastBlackOrWhiteBehind": 4.874984804456918
+      },
+      "mapSemanticSurfaces": {
+        "[data-wm-next]": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+          "color": "rgb(23, 61, 80)",
+          "outline": "rgb(23, 61, 80)",
+          "rect": {
+            "x": 237.34375,
+            "y": 333.90625,
+            "width": 190,
+            "height": 48,
+            "top": 333.90625,
+            "right": 427.34375,
+            "bottom": 381.90625,
+            "left": 237.34375
+          },
+          "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+        },
+        "[data-game-nav=\"map\"].is-active": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+          "color": "rgb(23, 61, 80)",
+          "outline": "rgb(23, 61, 80)",
+          "rect": {
+            "x": 10,
+            "y": 331.90625,
+            "width": 71.78125,
+            "height": 52,
+            "top": 331.90625,
+            "right": 81.78125,
+            "bottom": 383.90625,
+            "left": 10
+          },
+          "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+        },
+        ".wm-landmark.is-next .wm-label": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+          "color": "rgb(23, 61, 80)",
+          "outline": "rgb(23, 61, 80)",
+          "rect": {
+            "x": 516.43896484375,
+            "y": 135.91404724121094,
+            "width": 107.921875,
+            "height": 36.390655517578125,
+            "top": 135.91404724121094,
+            "right": 624.36083984375,
+            "bottom": 172.30470275878906,
+            "left": 516.43896484375
+          },
+          "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+        },
+        ".wm-landmark.is-next .wm-status-chip": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+          "color": "rgb(23, 61, 80)",
+          "outline": "rgb(23, 61, 80)",
+          "rect": {
+            "x": 539.39208984375,
+            "y": 174.30470275878906,
+            "width": 62,
+            "height": 27.59375,
+            "top": 174.30470275878906,
+            "right": 601.39208984375,
+            "bottom": 201.89845275878906,
+            "left": 539.39208984375
+          },
+          "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+        }
+      },
+      "routeCurrent": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+        "color": "rgb(23, 61, 80)",
+        "outline": "rgb(23, 61, 80)",
+        "rect": {
+          "x": 216,
+          "y": 313,
+          "width": 412,
+          "height": 48,
+          "top": 313,
+          "right": 628,
+          "bottom": 361,
+          "left": 216
+        },
+        "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+      },
+      "newScene": {
+        "id": "toward-aggregates-lake",
+        "actor": "traveler",
+        "speaker": "小貓",
+        "text": "原來，四個重要的真理是苦、集、滅、道。但我還不太懂苦的心理運作……那邊有座五陰湖，去看看好了！"
+      },
+      "dialogueCta": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+        "color": "rgb(23, 61, 80)",
+        "outline": "rgb(23, 61, 80)",
+        "rect": {
+          "x": 700.984375,
+          "y": 105.578125,
+          "width": 114.015625,
+          "height": 48,
+          "top": 105.578125,
+          "right": 815,
+          "bottom": 153.578125,
+          "left": 700.984375
+        },
+        "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+      },
+      "city": {
+        "activeNav": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+          "color": "rgb(23, 61, 80)",
+          "outline": "rgb(23, 61, 80)",
+          "rect": {
+            "x": 301.53125,
+            "y": 331.90625,
+            "width": 71.78125,
+            "height": 52,
+            "top": 331.90625,
+            "right": 373.3125,
+            "bottom": 383.90625,
+            "left": 301.53125
+          },
+          "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+        },
+        "primary": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+          "color": "rgb(23, 61, 80)",
+          "outline": "rgb(23, 61, 80)",
+          "rect": {
+            "x": 724,
+            "y": 268.8125,
+            "width": 110,
+            "height": 48,
+            "top": 268.8125,
+            "right": 834,
+            "bottom": 316.8125,
+            "left": 724
+          },
+          "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+        }
+      },
+      "shelfActiveNav": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+        "color": "rgb(23, 61, 80)",
+        "outline": "rgb(23, 61, 80)",
+        "rect": {
+          "x": 376.3125,
+          "y": 331.90625,
+          "width": 71.78125,
+          "height": 52,
+          "top": 331.90625,
+          "right": 448.09375,
+          "bottom": 383.90625,
+          "left": 376.3125
+        },
+        "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+      },
+      "darkPanelsAndWorldArtworkRetained": true,
+      "noReadingProgressWritten": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "title": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+        "color": "rgb(23, 61, 80)",
+        "outline": "rgb(255, 224, 160)",
+        "rect": {
+          "x": 156.5,
+          "y": 510.484375,
+          "width": 455,
+          "height": 54,
+          "top": 510.484375,
+          "right": 611.5,
+          "bottom": 564.484375,
+          "left": 156.5
+        },
+        "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+      },
+      "titleHover": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgb(179, 246, 243), rgb(121, 217, 233))",
+        "color": "rgb(23, 61, 80)",
+        "outline": "rgb(255, 224, 160)",
+        "rect": {
+          "x": 156.5,
+          "y": 510.484375,
+          "width": 455,
+          "height": 54,
+          "top": 510.484375,
+          "right": 611.5,
+          "bottom": 564.484375,
+          "left": 156.5
+        },
+        "minTextContrastBlackOrWhiteBehind": 7.096937865838296
+      },
+      "titlePressed": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgb(117, 216, 225), rgb(80, 181, 209))",
+        "color": "rgb(23, 61, 80)",
+        "outline": "rgb(255, 224, 160)",
+        "rect": {
+          "x": 156.5,
+          "y": 510.484375,
+          "width": 455,
+          "height": 54,
+          "top": 510.484375,
+          "right": 611.5,
+          "bottom": 564.484375,
+          "left": 156.5
+        },
+        "minTextContrastBlackOrWhiteBehind": 4.874984804456918
+      },
+      "mapSemanticSurfaces": {
+        "[data-wm-next]": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+          "color": "rgb(23, 61, 80)",
+          "outline": "rgb(23, 61, 80)",
+          "rect": {
+            "x": 190,
+            "y": 961,
+            "width": 195,
+            "height": 48,
+            "top": 961,
+            "right": 385,
+            "bottom": 1009,
+            "left": 190
+          },
+          "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+        },
+        "[data-game-nav=\"map\"].is-active": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+          "color": "rgb(23, 61, 80)",
+          "outline": "rgb(23, 61, 80)",
+          "rect": {
+            "x": 10,
+            "y": 955,
+            "width": 56,
+            "height": 60,
+            "top": 955,
+            "right": 66,
+            "bottom": 1015,
+            "left": 10
+          },
+          "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+        },
+        ".wm-landmark.is-next .wm-label": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+          "color": "rgb(23, 61, 80)",
+          "outline": "rgb(23, 61, 80)",
+          "rect": {
+            "x": 408.94091796875,
+            "y": 406.8831787109375,
+            "width": 113.3179931640625,
+            "height": 38.210174560546875,
+            "top": 406.8831787109375,
+            "right": 522.2589111328125,
+            "bottom": 445.0933532714844,
+            "left": 408.94091796875
+          },
+          "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+        },
+        ".wm-landmark.is-next .wm-status-chip": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+          "color": "rgb(23, 61, 80)",
+          "outline": "rgb(23, 61, 80)",
+          "rect": {
+            "x": 433.041748046875,
+            "y": 447.1933288574219,
+            "width": 65.0999755859375,
+            "height": 28.97344970703125,
+            "top": 447.1933288574219,
+            "right": 498.1417236328125,
+            "bottom": 476.1667785644531,
+            "left": 433.041748046875
+          },
+          "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+        }
+      },
+      "routeCurrent": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+        "color": "rgb(23, 61, 80)",
+        "outline": "rgb(23, 61, 80)",
+        "rect": {
+          "x": 178,
+          "y": 313,
+          "width": 412,
+          "height": 48,
+          "top": 313,
+          "right": 590,
+          "bottom": 361,
+          "left": 178
+        },
+        "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+      },
+      "newScene": {
+        "id": "toward-aggregates-lake",
+        "actor": "traveler",
+        "speaker": "小貓",
+        "text": "原來，四個重要的真理是苦、集、滅、道。但我還不太懂苦的心理運作……那邊有座五陰湖，去看看好了！"
+      },
+      "dialogueCta": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+        "color": "rgb(23, 61, 80)",
+        "outline": "rgb(23, 61, 80)",
+        "rect": {
+          "x": 618.984375,
+          "y": 135.78125,
+          "width": 114.015625,
+          "height": 48,
+          "top": 135.78125,
+          "right": 733,
+          "bottom": 183.78125,
+          "left": 618.984375
+        },
+        "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+      },
+      "city": {
+        "activeNav": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+          "color": "rgb(23, 61, 80)",
+          "outline": "rgb(23, 61, 80)",
+          "rect": {
+            "x": 271.421875,
+            "y": 955,
+            "width": 56,
+            "height": 60,
+            "top": 955,
+            "right": 327.421875,
+            "bottom": 1015,
+            "left": 271.421875
+          },
+          "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+        },
+        "primary": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+          "color": "rgb(23, 61, 80)",
+          "outline": "rgb(23, 61, 80)",
+          "rect": {
+            "x": 444.5,
+            "y": 878.5,
+            "width": 154,
+            "height": 48,
+            "top": 878.5,
+            "right": 598.5,
+            "bottom": 926.5,
+            "left": 444.5
+          },
+          "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+        }
+      },
+      "shelfActiveNav": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+        "color": "rgb(23, 61, 80)",
+        "outline": "rgb(23, 61, 80)",
+        "rect": {
+          "x": 330.421875,
+          "y": 955,
+          "width": 56,
+          "height": 60,
+          "top": 955,
+          "right": 386.421875,
+          "bottom": 1015,
+          "left": 330.421875
+        },
+        "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+      },
+      "darkPanelsAndWorldArtworkRetained": true,
+      "noReadingProgressWritten": true
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "title": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+        "color": "rgb(23, 61, 80)",
+        "outline": "rgb(255, 224, 160)",
+        "rect": {
+          "x": 291.21875,
+          "y": 385.578125,
+          "width": 441.5625,
+          "height": 54,
+          "top": 385.578125,
+          "right": 732.78125,
+          "bottom": 439.578125,
+          "left": 291.21875
+        },
+        "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+      },
+      "titleHover": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgb(179, 246, 243), rgb(121, 217, 233))",
+        "color": "rgb(23, 61, 80)",
+        "outline": "rgb(255, 224, 160)",
+        "rect": {
+          "x": 291.21875,
+          "y": 385.578125,
+          "width": 441.5625,
+          "height": 54,
+          "top": 385.578125,
+          "right": 732.78125,
+          "bottom": 439.578125,
+          "left": 291.21875
+        },
+        "minTextContrastBlackOrWhiteBehind": 7.096937865838296
+      },
+      "titlePressed": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgb(117, 216, 225), rgb(80, 181, 209))",
+        "color": "rgb(23, 61, 80)",
+        "outline": "rgb(255, 224, 160)",
+        "rect": {
+          "x": 291.21875,
+          "y": 385.578125,
+          "width": 441.5625,
+          "height": 54,
+          "top": 385.578125,
+          "right": 732.78125,
+          "bottom": 439.578125,
+          "left": 291.21875
+        },
+        "minTextContrastBlackOrWhiteBehind": 4.874984804456918
+      },
+      "mapSemanticSurfaces": {
+        "[data-wm-next]": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+          "color": "rgb(23, 61, 80)",
+          "outline": "rgb(23, 61, 80)",
+          "rect": {
+            "x": 230.671875,
+            "y": 705,
+            "width": 235.515625,
+            "height": 48,
+            "top": 705,
+            "right": 466.1875,
+            "bottom": 753,
+            "left": 230.671875
+          },
+          "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+        },
+        "[data-game-nav=\"map\"].is-active": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+          "color": "rgb(23, 61, 80)",
+          "outline": "rgb(23, 61, 80)",
+          "rect": {
+            "x": 46.671875,
+            "y": 699,
+            "width": 56,
+            "height": 60,
+            "top": 699,
+            "right": 102.671875,
+            "bottom": 759,
+            "left": 46.671875
+          },
+          "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+        },
+        ".wm-landmark.is-next .wm-label": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+          "color": "rgb(23, 61, 80)",
+          "outline": "rgb(23, 61, 80)",
+          "rect": {
+            "x": 696.43896484375,
+            "y": 318.0078125,
+            "width": 107.921875,
+            "height": 36.390655517578125,
+            "top": 318.0078125,
+            "right": 804.36083984375,
+            "bottom": 354.3984680175781,
+            "left": 696.43896484375
+          },
+          "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+        },
+        ".wm-landmark.is-next .wm-status-chip": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+          "color": "rgb(23, 61, 80)",
+          "outline": "rgb(23, 61, 80)",
+          "rect": {
+            "x": 719.39208984375,
+            "y": 356.3984680175781,
+            "width": 62,
+            "height": 27.59375,
+            "top": 356.3984680175781,
+            "right": 781.39208984375,
+            "bottom": 383.9922180175781,
+            "left": 719.39208984375
+          },
+          "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+        }
+      },
+      "routeCurrent": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+        "color": "rgb(23, 61, 80)",
+        "outline": "rgb(23, 61, 80)",
+        "rect": {
+          "x": 306,
+          "y": 313,
+          "width": 412,
+          "height": 48,
+          "top": 313,
+          "right": 718,
+          "bottom": 361,
+          "left": 306
+        },
+        "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+      },
+      "newScene": {
+        "id": "toward-aggregates-lake",
+        "actor": "traveler",
+        "speaker": "小貓",
+        "text": "原來，四個重要的真理是苦、集、滅、道。但我還不太懂苦的心理運作……那邊有座五陰湖，去看看好了！"
+      },
+      "dialogueCta": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+        "color": "rgb(23, 61, 80)",
+        "outline": "rgb(23, 61, 80)",
+        "rect": {
+          "x": 826.984375,
+          "y": 135.78125,
+          "width": 114.015625,
+          "height": 48,
+          "top": 135.78125,
+          "right": 941,
+          "bottom": 183.78125,
+          "left": 826.984375
+        },
+        "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+      },
+      "city": {
+        "activeNav": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+          "color": "rgb(23, 61, 80)",
+          "outline": "rgb(23, 61, 80)",
+          "rect": {
+            "x": 381.421875,
+            "y": 699,
+            "width": 56,
+            "height": 60,
+            "top": 699,
+            "right": 437.421875,
+            "bottom": 759,
+            "left": 381.421875
+          },
+          "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+        },
+        "primary": {
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+          "color": "rgb(23, 61, 80)",
+          "outline": "rgb(23, 61, 80)",
+          "rect": {
+            "x": 572.5,
+            "y": 622.5,
+            "width": 154,
+            "height": 48,
+            "top": 622.5,
+            "right": 726.5,
+            "bottom": 670.5,
+            "left": 572.5
+          },
+          "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+        }
+      },
+      "shelfActiveNav": {
+        "background": "rgba(0, 0, 0, 0)",
+        "image": "linear-gradient(145deg, rgba(142, 233, 236, 0.98), rgba(85, 189, 216, 0.98))",
+        "color": "rgb(23, 61, 80)",
+        "outline": "rgb(23, 61, 80)",
+        "rect": {
+          "x": 440.421875,
+          "y": 699,
+          "width": 56,
+          "height": 60,
+          "top": 699,
+          "right": 496.421875,
+          "bottom": 759,
+          "left": 440.421875
+        },
+        "minTextContrastBlackOrWhiteBehind": 5.097363133921288
+      },
+      "darkPanelsAndWorldArtworkRetained": true,
+      "noReadingProgressWritten": true
+    }
+  ],
+  "isolatedEligibilitySkipHistoryReplay": [
+    {
+      "fixture": "first-complete-five-unstarted",
+      "skipReturnsMapThenLegalReaderWithoutRepeat": true,
+      "noCompletionFabricated": true
+    },
+    {
+      "fixture": "native-topic-popup",
+      "newSceneCtaKeepsFocusAfterDialogClose": true,
+      "escapeSkipsWithoutOpeningBookOrWritingProgress": true
+    },
+    {
+      "fixture": "existing-five-bookmark",
+      "resumeIndex": 0,
+      "noInsertedScene": true,
+      "oneActualNextAndReturnNoExtraCompletion": true
+    },
+    {
+      "fixture": "existing-five-bookmark",
+      "resumeIndex": 4,
+      "noInsertedScene": true,
+      "oneActualNextAndReturnNoExtraCompletion": true
+    },
+    {
+      "fixture": "historic-five-completed",
+      "reviewStartsOriginalReaderWithoutScene": true,
+      "originalCompletedSetRetained": true
+    },
+    {
+      "fixture": "locked-five-with-future-bookmark",
+      "lockedLandmarkAndDirectReaderCannotUseSceneToBypassFirst": true,
+      "futureBookmarkPreserved": true
+    },
+    {
+      "fixture": "explicit-existing-replays",
+      "openingAndCompletionReplayNoFiveEntryOrSeenOrCompletionWrites": true
+    }
+  ],
+  "authorResetNewSeen": {
+    "isolatedHistoricalProfile": true,
+    "nativeCancelStorageByteIdentical": true,
+    "confirmClearsNewFiveSceneWithSameV1Namespace": true,
+    "publicReaderPrototypeAndOtherKeysRetained": true,
+    "freshFirstArrivalShownFiveStillNotUnlocked": true
+  },
+  "result": "passed"
+}

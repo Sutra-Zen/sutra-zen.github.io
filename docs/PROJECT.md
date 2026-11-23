@@ -6,6 +6,12 @@
 - Related Buddhist learning map: https://sutrazen.netlify.app/map.html
 - Primary language: Traditional Chinese (Taiwan)
 
+## Current blue-celadon actions / Five Aggregates transition (2026-11-23)
+
+Latest [cyan/actions round](play/game-cyan-aggregates/README.md) starts from published PR70 `0d44d7229195d60bf1781e55e88ab53b8d7fcc7f`. Game primary/current states use fresh light-cyan gradients with dark text, while deep translucent panels and artwork remain. After the unchanged first-book reward, the next-station map presents the author's short Four Truths → Five Aggregates lake line; the CTA enters the original reader only when eligible. Existing bookmarks/reviews skip the one-time story. Story v1 and author reset share one module instance; completion/store/camera semantics remain unchanged.
+
+Game/nav/readers use coherent cache versions (`v=cyan-1`, reader `collectionStory=cyan-1`); each of fourteen original HTML readers only updates its collection-bridge script query, with every other byte protected. Original public reading/content/SEO/Google remain unchanged. Seventeen QA directories are excluded from unchanged main:/ Pages. Exact release evidence belongs to the new PR; physical Safari is untested, Notion update pending.
+
 ## Current dark panels / Doubt encounter (2026-11-23)
 
 Latest [Doubt/story round](play/game-doubt-story/README.md) starts from published PR68 `44dce2f6624e568ff83d6cf79e675fe61a53c325`. Dark translucent panels unify game menus/dialogues without dimming original artwork; kitten portraits keep full ears. A provisional blue-gray Doubt cutout uses HTML question marks and a world-coordinate stage, based on the existing Anapana/Four Jhanas creature.
