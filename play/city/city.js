@@ -1,4 +1,4 @@
-import {initializeGameShell,GAME_URLS} from '../game-shell.js?v=doubt-1';
+import {initializeGameShell,GAME_URLS} from '../game-shell.js?v=doubt-reader-2';
 import {store} from '../collection/store.js';
 import {routeMetadata} from '../route/metadata.js';
 import {routeStatus,routeBooks} from '../route/selectors.js';

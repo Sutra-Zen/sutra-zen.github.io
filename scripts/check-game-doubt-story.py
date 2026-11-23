@@ -6,7 +6,8 @@ separate from fixture-based history/review checks; no completion is manufactured
 for that walk. This script never edits production source or historical evidence.
 """
 from pathlib import Path
-import functools,http.server,importlib.util,json,re,subprocess,threading
+import functools,http.server,importlib.util,json,re,subprocess,sys,threading
+from urllib.parse import urlparse,parse_qs
 from playwright.sync_api import sync_playwright
 
 ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'docs/previews/game-doubt-story'
@@ -30,7 +31,7 @@ def guard_sources():
     changed=subprocess.check_output(['git','diff','--name-only',q.BASE,'--',*originals],cwd=ROOT,text=True).splitlines()
     assert set(changed)<= {'four-truths/book/index.html'},changed
     old=lambda path:subprocess.check_output(['git','show',q.BASE+':'+path],cwd=ROOT,text=True)
-    html='four-truths/book/index.html';assert (ROOT/html).read_text().replace('../../play/collection/reader-bridge.js?v=doubt-1','../../play/collection/reader-bridge.js?v=1')==old(html)
+    html='four-truths/book/index.html';assert (ROOT/html).read_text().replace('../../play/collection/reader-bridge.js?v=doubt-reader-2','../../play/collection/reader-bridge.js?v=1')==old(html)
     files=[p for p in subprocess.check_output(['git','ls-tree','-rz','--name-only',q.BASE,'--',*originals],cwd=ROOT,text=True).split('\0') if p]
     report={'baseline':q.BASE,'protectedOriginalFiles':len(files),'singleOriginalHtmlException':'Four-truths bridge src cache query only; normalize then full text equal','originalNarrationScriptureArtReaderJsAndCss':'byte-for-byte unchanged','rootHomepageSeoGoogleAndSharedReaderControls':'byte-for-byte unchanged'}
     paths=['play/collection/store.js','play/reader-bridge.js',
@@ -46,6 +47,7 @@ def guard_sources():
     bridge=bridge.replace("const [{ store }, { CATALOG, COLLECTION_TEXT: text }, policy, {issueFirstCompletionReceipt}]", "const [{ store }, { CATALOG, COLLECTION_TEXT: text }, policy]")
     bridge=bridge.replace("import('../route/eligibility.js'), import('../story/completion-receipt.js?v=doubt-1').catch(() => ({issueFirstCompletionReceipt: () => false})),", "import('../route/eligibility.js'),")
     bridge=bridge.replace("      if (bookId === 'four-truths') issueFirstCompletionReceipt();\n",'')
+    bridge=bridge.replace("new URL('../../game/?v=doubt-2', import.meta.url)","new URL('../../game/', import.meta.url)")
     assert bridge==old('play/collection/reader-bridge.js')
     reset=(ROOT/'play/title-review.js').read_text().replace("import {clearFirstCompletionReceipt} from './story/completion-receipt.js?v=doubt-1';\n",'').replace("./story/store.js?v=doubt-1","./story/store.js?v=prologue-1").replace("  if (!clearFirstCompletionReceipt()) failures.push('first-completion-receipt');\n",'')
     assert reset==old('play/title-review.js')
@@ -341,6 +343,55 @@ def five_size_actor_director(browser,base,report):
     report['fiveSizeWorldActorVisibility']=cases
 
 
+def cached_first_story(browser,base,report):
+    """Real29 with old HTML and v1 bridge served only at unversioned keys."""
+    old=lambda path:subprocess.check_output(['git','show',q.BASE+':'+path],cwd=ROOT,text=True)
+    old_game=old('game/index.html');old_reader=old('four-truths/book/index.html');old_bridge=old('play/collection/reader-bridge.js');old_worldmap=old('play/worldmap-v4/worldmap.js');old_primary={'/play/city/':old('play/city/index.html'),'/play/visual-v2/shelf.html':old('play/visual-v2/shelf.html')}
+    requests=[];served=[]
+    def install(ctx):
+        def route(request):
+            u=urlparse(request.request.url);query=parse_qs(u.query);path=u.path
+            if request.request.resource_type=='document' and path=='/game/' and query.get('v')!=['doubt-2']:
+                served.append({'kind':'cached-game-html','url':request.request.url});request.fulfill(status=200,content_type='text/html',body=old_game);return
+            if request.request.resource_type=='document' and path in old_primary and query.get('v')!=['doubt-2']:
+                served.append({'kind':'cached-primary-html','url':request.request.url});request.fulfill(status=200,content_type='text/html',body=old_primary[path]);return
+            if request.request.resource_type=='document' and path in ['/four-truths/book/','/four-truths/book/index.html'] and query.get('collectionStory')!=['doubt-2']:
+                served.append({'kind':'cached-reader-html','url':request.request.url});request.fulfill(status=200,content_type='text/html',body=old_reader);return
+            if path=='/play/collection/reader-bridge.js' and query.get('v')==['1']:
+                served.append({'kind':'cached-v1-bridge','url':request.request.url});request.fulfill(status=200,content_type='application/javascript',body=old_bridge);return
+            if path=='/play/worldmap-v4/worldmap.js' and query.get('v')!=['doubt-reader-2']:
+                served.append({'kind':'cached-old-worldmap-js','url':request.request.url});request.fulfill(status=200,content_type='application/javascript',body=old_worldmap);return
+            request.continue_()
+        ctx.route('**/*',route)
+        return ctx
+    # Prove the fault routes are active before the positive versioned journey.
+    probe=install(context(browser,base));p=probe.new_page();p.goto(base+'game/');p.wait_for_selector('[data-prologue]');p.goto(base+'four-truths/book/?collection=1&collectionReturn=game');p.wait_for_selector('body[data-collection-index="0"]');probe.close()
+    assert {'cached-game-html','cached-reader-html','cached-v1-bridge'}<={entry['kind'] for entry in served},served
+    ctx=install(context(browser,base,viewport={'width':844,'height':390},reduced_motion='reduce'));p=ctx.new_page();q.observe(p,base,report);p.on('request',lambda request:requests.append(request.url))
+    p.goto(base+'game/?author=1&v=doubt-2');prior.assert_copy(p);prior.skip(p);p.locator('[data-title-start]').click();d.map_ready(p)
+    for scene_id in list(LINES)[:3]:assert_scene(p,scene_id);p.locator('.story-dialogue__next').click()
+    p.wait_for_selector('body[data-collection-index="0"]');assert parse_qs(urlparse(p.url).query).get('collectionStory')==['doubt-2'],p.url
+    p.wait_for_function('performance.getEntriesByType("resource").some(r=>r.name.includes("reader-bridge.js?v=doubt-reader-2"))')
+    trace=[0]
+    for index in range(1,29):q.click_next(p,index);trace.append(index)
+    assert q.snapshot(p)['completed']==[];p.locator('#next').click();d.map_ready(p);assert_scene(p,'first-book-insight')
+    assert q.snapshot(p)['completed']==['four-truths'] and p.evaluate('(k)=>sessionStorage.getItem(k)||localStorage.getItem(k)',RECEIPT) is None
+    p.wait_for_timeout(1000);assert visible_marks(p,'[data-doubt-stage] [data-doubt-mark]')==2
+    p.screenshot(path=str(OUT/'cache-fresh-reader-actual-post-844x390.png'));p.locator('.story-dialogue__next').click();assert_scene(p,'doubt-recedes');p.locator('.story-dialogue__next').click();p.wait_for_selector('#wm-dialog[open]')
+    assert '法輪碼頭' in p.locator('#wm-dialog').inner_text();p.locator('[data-wm-next-station]').click();assert p.locator('.wm-landmark.is-next').get_attribute('data-book')=='five-aggregates' and '/book/' not in p.url
+    assert parse_qs(urlparse(p.url).query).get('v')==['doubt-2'];p.reload();d.map_ready(p);assert not p.locator('.story-dialogue').is_visible()
+    primary_urls=[]
+    for name in ['city','shelf','map']:
+        p.locator(f'[data-game-nav="{name}"]').click()
+        if name=='city':prior.c.city_loaded(p)
+        elif name=='shelf':p.wait_for_selector('#collection-books')
+        else:d.map_ready(p)
+        primary_urls.append(p.url);assert parse_qs(urlparse(p.url).query).get('v')==['doubt-2'],p.url
+    assert q.snapshot(p)['completed']==['four-truths'] and not p.locator('.story-dialogue').is_visible()
+    assert any('worldmap.js?v=doubt-reader-2' in url for url in requests),requests
+    report['cacheFollowup']={'baselineOldResponses':q.BASE,'oldCacheFaultsActuallyExercised':served,'entry':'/game/?author=1&v=doubt-2','mainlineReaderHasCollectionStoryDoubt2':True,'readerLoadsBridgeDoubtReader2':True,'gameLoadsWorldmapDoubtReader2':True,'actualSequentialNextIndices':trace,'actualReceiptConsumedAndPostStoryShown':True,'originalRewardAndNextFiveAggregates':True,'primaryHopUrls':primary_urls,'refreshAndPrimaryHopsRetainV2':True,'scope':'Fresh versioned entry, reader return and primary three-tab navigation. Does not claim that every manually opened unversioned URL bypasses all pre-existing HTML cache.'};ctx.close()
+
+
 def fresh_map(page,base):
     page.goto(base+'game/#map');d.map_ready(page)
 
@@ -351,15 +402,22 @@ def save_report(report):
 
 
 def main():
-    OUT.mkdir(parents=True,exist_ok=True);report=guard_sources();report.update({'phase':'Local independent validation','javascriptErrors':[],'httpErrors':[],'physicalSafari':'Not tested; Chromium desktop viewport/touch emulation','fixtureNotice':'Historical profiles are isolated fixtures, separate from the actual sequential first-book walk.'})
+    cache_only='--cache-only' in sys.argv
+    OUT.mkdir(parents=True,exist_ok=True);report=guard_sources();report.update({'phase':'Local PR70 cache follow-up only' if cache_only else 'Local independent validation','javascriptErrors':[],'httpErrors':[],'physicalSafari':'Not tested; Chromium desktop viewport/touch emulation','fixtureNotice':'Historical profiles are isolated fixtures, separate from the actual sequential first-book walk.'})
     server=http.server.ThreadingHTTPServer(('127.0.0.1',0),functools.partial(q.Quiet,directory=str(ROOT)));threading.Thread(target=server.serve_forever,daemon=True).start();base=f'http://127.0.0.1:{server.server_port}/'
     try:
         with sync_playwright() as p:
-            browser=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox']);viewport_theme_checks(browser,base,report);actual_first_completion(browser,base,report);history_and_guard_checks(browser,base,report);reset_new_scenes(browser,base,report);actor_asset_failure(browser,base,report);pending_and_optional_receipt_failure(browser,base,report);five_size_actor_director(browser,base,report);browser.close()
+            browser=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox'])
+            if cache_only:cached_first_story(browser,base,report)
+            else:viewport_theme_checks(browser,base,report);actual_first_completion(browser,base,report);history_and_guard_checks(browser,base,report);reset_new_scenes(browser,base,report);actor_asset_failure(browser,base,report);pending_and_optional_receipt_failure(browser,base,report);five_size_actor_director(browser,base,report)
+            browser.close()
         assert not report['javascriptErrors'],report['javascriptErrors'];assert not report['httpErrors'],report['httpErrors'];report['result']='passed'
     except Exception as error:report['result']='failed';report['error']=repr(error);raise
-    finally:server.shutdown();save_report(report)
-    print(json.dumps({'result':report['result'],'report':str(OUT/'validation.json')},ensure_ascii=False))
+    finally:
+        server.shutdown()
+        if cache_only:(OUT/'cache-validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+        else:save_report(report)
+    print(json.dumps({'result':report['result'],'report':str(OUT/('cache-validation.json' if cache_only else 'validation.json'))},ensure_ascii=False))
 
 
 if __name__=='__main__':main()

@@ -2,7 +2,7 @@ import {store} from '../collection/store.js';
 import {routeStatus,routeBooks} from '../route/selectors.js';
 import {canStartGameBook,canReviewGameBook,getGameBookAccess} from '../route/eligibility.js';
 import {routeMetadata} from '../route/metadata.js';
-import {initializeGameShell,GAME_URLS} from '../game-shell.js?v=doubt-1';
+import {initializeGameShell,GAME_URLS} from '../game-shell.js?v=doubt-reader-2';
 import {initializeTitleScreen} from '../title-screen.js?v=doubt-1';
 import {createMapCamera} from './camera.js?v=original-frame-1';
 import {initializeStoryDialogue} from '../story/dialogue.js?v=doubt-1';
@@ -145,6 +145,7 @@ function openReader(id,{bypassDoubt=false}={}){
  if(a.canStart)routeMetadata.markOpened(id);
  const u=new URL(b.reader,catalogURL);
  u.searchParams.set('collection','1');u.searchParams.set('collectionReturn','game');
+ if(id==='four-truths'&&a.canStart)u.searchParams.set('collectionStory','doubt-2');
  if(a.canReview)u.searchParams.set('collectionReview','1');
  const at=a.canReview&&a.resumePosition===b.totalSteps-1?0:(a.resumePosition??0);
  u.searchParams.set('collectionPage',String(at));

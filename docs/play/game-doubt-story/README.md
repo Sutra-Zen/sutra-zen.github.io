@@ -38,7 +38,7 @@ receipt只存版本與事件名稱，不存另一份已讀集合／頁碼／能�
 
 ## 必要的小幅讀本調整
 
-十四本正文、口白、經文、圖片、一般讀本JS／CSS不動。四聖諦 `book/index.html` 僅把既有collection bridge的script URL改為 `?v=doubt-1`，避免舊快取漏掉完成receipt。bridge只新增可降級的receipt helper載入與成功後一行通知；讀本階段該helper載入失敗仍可照常閱讀／完成並回原回饋，不改資格、完成寫入或原頁碼流程；獨立開原書時module仍不啟動遊戲模式。
+十四本正文、口白、經文、圖片、一般讀本JS／CSS不動。四聖諦 `book/index.html` 僅把既有collection bridge的script URL改為 `?v=doubt-reader-2`，避免舊快取漏掉完成receipt。首次主線的讀本網址另帶 `collectionStory=doubt-2`，返回遊戲帶 `v=doubt-2`，讓HTML快取也換鍵；詳[快取補修](CACHE-FOLLOWUP.md)。bridge只新增可降級的receipt helper載入與成功後一行通知；讀本階段該helper載入失敗仍可照常閱讀／完成並回原回饋，不改資格、完成寫入或原頁碼流程；獨立開原書時module仍不啟動遊戲模式。
 
 `play/collection/store.js`、解鎖資格、十四本順序、地圖拓樸、原鏡頭與序幕原稿保留。主題與故事依賴的版本同步，storyStore在海圖、對話與作者重置共用同一module instance。
 
