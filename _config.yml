@@ -24,3 +24,4 @@ exclude:
   - docs/previews/game-outro-order
   - docs/previews/game-auto-city
   - docs/previews/game-framing
+  - docs/previews/game-simple-ui

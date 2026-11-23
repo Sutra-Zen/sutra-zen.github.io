@@ -1,3 +1,15 @@
+# 精簡全景控制、書架修正與對話內完成通知（2026-11-23）
+
+從已發布 PR76 `d82f68533f595db032c8a787a1a2c5606a53fb2f` 建立 `fix/game-simple-panels`，初始乾淨、origin 正確。作者要求移除海圖／城池全景、書架捲動不重影、設定返回遊戲開始、刪右上略過開場，並將城景來源縮為經名加對應經文。追加要求移除「看閱讀回饋」，新增城景與本數直接接在對話腳本末段。
+
+海圖／城池保留拖曳縮放；舊全景快照自動回探索，無返回全景控制。書架只有 stage 單層插畫，外層純色、書本層透明，左右滿寬。設定以 screen=title 回主選單、不重播／重置；片頭只留底部按鍵與原動畫背景點擊。城景彈窗只剩簡短經名／引文／X，創作模組與覺支夥伴不掛 SN35.245。作者指定廣場字句與可讀 SC 版本的差異，已如實記錄來源稽核，不改原經封存。
+
+首本原心得→疑→波旬→五陰湖全文不變，統一「接著看」、不顯示回饋按鍵；最後由同一小貓對話直接通知城景自動新增與本數，分流「前往下一站」／「前往城池看看」。其他書共用通知。最終通知用 completed URL 恢復、經已讀檢查且不寫完成；選擇／Escape／重置還原清 URL，沒有新增存檔或 scene ID。原末頁完成、receipt、資格、reading/story/city store 與備份形狀維持。
+
+快取 simple-ui-1，十四 HTML 只更新 bridge query、bridge 只改回程 query；原正文／經文／圖片／操作、首頁心智圖／SEO15／Google 保護。產生器同步，Pages main:/ 不改，QA 排除23目錄。詳[本輪交接](play/game-simple-ui/README.md)、[來源核對](play/game-simple-ui/source-audit.json)與[實際驗證](previews/game-simple-ui/README.md)。實機 Safari 未測；沿既有授權經新 PR 發布，精確 merge SHA／Pages／正式站證據以 PR 交付為準。
+
+---
+
 # 波旬左上、移除汗滴與滿版書架（2026-11-23）
 
 從已發布main `a9ee6ae8fda9e1ec01822aa013ad85bcdf551f3a` 建立 `fix/game-city-shelf-framing`，初始乾淨、origin正確。作者指定波旬移左上以保留朝右視線、去城主汗，書架左右如城池鋪滿。scene僅改波旬early(500,130)/guardian後(250,230)，移除汗DOM/is-calm/CSS/keyframes；原圖、微晃、點角色X、來源與全景返回不變。

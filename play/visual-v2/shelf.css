@@ -39,13 +39,14 @@
 body.game-shell.collection-page>main{padding-left:env(safe-area-inset-left,0px);padding-right:env(safe-area-inset-right,0px)}
 
 /* The original library painting fills the game frame; the stage retains scrolling. */
-body.game-shell.collection-page{background:#443823 url('assets/library-concept.png') center/cover no-repeat}
-body.game-shell.collection-page>main{padding:0;background:#443823 url('assets/library-concept.png') center top/cover no-repeat}
-body.game-shell.collection-page .collection-stage{padding:0;scroll-padding-block:12px 20px;background:transparent}
-body.game-shell.collection-page .collection-case{width:100%;max-width:none;margin:0;border:0;border-radius:0;box-shadow:none;--case-height:max(1100px,calc(100vw * 2 / 3))}
+body.game-shell.collection-page{background:#443823}
+body.game-shell.collection-page>main{padding:0;background:#443823}
+body.game-shell.collection-page .collection-stage{padding:0;scroll-padding-block:12px 20px;background:#443823 url('assets/library-concept.png') center top/100% 100% no-repeat local;overscroll-behavior:none}
+body.game-shell.collection-page .collection-case{width:100%;max-width:none;margin:0;border:0;border-radius:0;box-shadow:none;background:none;--case-height:max(1100px,calc(100vw * 2 / 3))}
 body.game-shell.collection-page .collection-heading{padding-left:max(15px,env(safe-area-inset-left,0px));padding-right:max(15px,env(safe-area-inset-right,0px))}
 body.game-shell.collection-page .collection-empty,body.game-shell.collection-page .collection-notice{margin:14px auto;width:calc(100% - 28px)}
 body.game-shell.collection-page .collection-all-read{margin:0;padding:12px 14px 20px;background:#1b2c32cf}
 @media(max-width:650px){
- body.game-shell.collection-page .collection-case{height:auto;padding:36px max(23px,env(safe-area-inset-right,0px)) 40px max(23px,env(safe-area-inset-left,0px));background-size:auto 100%}
+ body.game-shell.collection-page .collection-stage{background-size:auto 100%}
+ body.game-shell.collection-page .collection-case{height:auto;padding:36px max(23px,env(safe-area-inset-right,0px)) 40px max(23px,env(safe-area-inset-left,0px))}
 }

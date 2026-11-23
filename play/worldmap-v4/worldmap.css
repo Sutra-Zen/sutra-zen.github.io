@@ -13,8 +13,8 @@
 .wm-road-active{fill:none;stroke:#ffe6a0;stroke-width:6;stroke-linecap:round;filter:drop-shadow(0 0 5px #ffd779)}
 .wm-irrigation{fill:none;stroke:#a9f0ff;stroke-width:7;stroke-linecap:round;filter:drop-shadow(0 0 5px #cdf7ff)}
 .wm-fog{position:absolute;width:205px;height:155px;transform:translate(-50%,-50%);border-radius:50%;background:radial-gradient(ellipse,#ebf3f1ee 10%,#e7f1f1c9 42%,#e6f0f077 60%,transparent 75%);filter:blur(5px)}
-.wm-landmark,.wm-city-landmark,.wm-region{position:absolute;left:var(--x);top:var(--y);transform:translate(-50%,-50%) scale(var(--wm-marker-scale,1));z-index:5;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;min-width:56px;min-height:56px;max-width:178px;padding:3px 5px;border:0;background:transparent;touch-action:manipulation;color:#284c3a;line-height:1.35;cursor:pointer}
-.wm-label,.wm-region{font:700 16px/1.4 "Noto Serif TC","Songti TC",serif}
+.wm-landmark,.wm-city-landmark{position:absolute;left:var(--x);top:var(--y);transform:translate(-50%,-50%) scale(var(--wm-marker-scale,1));z-index:5;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;min-width:56px;min-height:56px;max-width:178px;padding:3px 5px;border:0;background:transparent;touch-action:manipulation;color:#284c3a;line-height:1.35;cursor:pointer}
+.wm-label{font:700 16px/1.4 "Noto Serif TC","Songti TC",serif}
 .wm-label{display:block;min-width:46px;max-width:168px;padding:5px 9px;border:1px solid #ad7e35;border-radius:8px;background:#fff0d4f2;box-shadow:0 2px 5px #173c4160;white-space:pre-line;overflow-wrap:anywhere;text-align:center}
 .wm-pin{display:block;width:11px;height:11px;border-radius:50%;background:#fff1a0;border:2px solid #785928;box-shadow:0 0 8px #ffdc82;pointer-events:none}
 .wm-status-chip:empty{display:none}
@@ -22,11 +22,9 @@
 .wm-landmark.is-next{z-index:7}.wm-landmark.is-next .wm-label{background:#fff0bd;border:2px solid #b77b12;animation:wm-glow 2.8s ease-in-out infinite}
 .wm-landmark.is-earned .wm-status-chip{background:#416448}.wm-landmark.is-locked .wm-label{color:#687366;background:#eeeee0e8;border-style:dashed}
 .wm-landmark.is-selected .wm-label{outline:3px solid #ffe09a;outline-offset:2px}
-.wm-landmark:focus-visible,.wm-city-landmark:focus-visible,.wm-region:focus-visible{outline:3px solid #ffdc73;outline-offset:2px;border-radius:12px}
+.wm-landmark:focus-visible,.wm-city-landmark:focus-visible{outline:3px solid #ffdc73;outline-offset:2px;border-radius:12px}
 .wm-city-landmark{min-width:62px;font-size:15px;background:#fff0d9f0;border:2px solid #946933;border-radius:12px;box-shadow:0 3px 7px #17434b55}
 .wm-city-landmark>span:first-child{font-size:25px;line-height:1}
-.wm-region{display:none;max-width:180px;border:2px solid #ab7c31;border-radius:13px;background:#fff0d9f5;box-shadow:0 3px 9px #183e4866;padding:7px 12px}
-.wm-is-overview .wm-landmark{visibility:hidden;pointer-events:none}.wm-is-overview .wm-region{display:flex}.wm-is-overview .wm-city-landmark{z-index:8}
 .wm-labels-hidden .wm-landmark:not(.is-next) .wm-label{display:none}
 .wm-tools{position:static;display:flex;align-items:center;gap:4px;flex-wrap:nowrap;max-width:none;margin:0;padding:0}
 .wm-tools button,.wm-menu-action>button{display:inline-flex;align-items:center;justify-content:center;min-width:48px;min-height:54px;margin:0;padding:6px 10px;border:1px solid #aa83485e;border-radius:10px;background:#fff5df7a;color:#2e503b;font:700 14px/1.35 "Noto Sans TC","PingFang TC",sans-serif;touch-action:manipulation;white-space:nowrap}
@@ -63,12 +61,9 @@
 
 .wm-page dialog.wm-tools-dialog{top:auto;bottom:calc(var(--game-dock-height,82px) + 8px);margin:0 auto;max-height:calc(100dvh - var(--game-dock-height,82px) - env(safe-area-inset-top,0px) - 22px);width:min(460px,calc(100% - 24px))}.wm-page dialog.wm-tools-dialog::backdrop{background:#082b354d}
 
-.wm-traveler{position:absolute;z-index:4;width:100px;height:auto;pointer-events:none;transform:translate(-50%,-50%) scale(var(--wm-marker-scale,1));filter:drop-shadow(0 3px 4px #193f4955)}.wm-is-overview .wm-traveler{display:none}
+.wm-traveler{position:absolute;z-index:4;width:100px;height:auto;pointer-events:none;transform:translate(-50%,-50%) scale(var(--wm-marker-scale,1));filter:drop-shadow(0 3px 4px #193f4955)}
 
 .wm-once-tip{left:max(16px,env(safe-area-inset-left,0px))}
-
-.wm-overview-return{position:absolute;z-index:14;left:max(12px,env(safe-area-inset-left,0px));top:calc(12px + env(safe-area-inset-top,0px));display:flex;align-items:center;justify-content:center;gap:6px;min-width:132px;min-height:48px;padding:9px 14px;border:1px solid #a77e3b;border-radius:12px;background:#fff3daf2;color:#30533c;box-shadow:0 3px 12px #153b4650;font:700 16px/1.4 "PingFang TC","Microsoft JhengHei",sans-serif;touch-action:manipulation;cursor:pointer}
-.wm-overview-return[hidden]{display:none}
 
 .wm-viewport{--wm-safe-top:env(safe-area-inset-top,0px);--wm-safe-left:env(safe-area-inset-left,0px);--wm-safe-right:env(safe-area-inset-right,0px)}
 /* The camera is the only map navigator. Unlike hidden, clip also prevents

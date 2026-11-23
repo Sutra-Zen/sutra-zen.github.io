@@ -3,11 +3,6 @@ body.game-shell--city{--game-content-bottom:0px;background:#244c47;color:var(--g
 .city-page.auto-city main#city-main{position:absolute;inset:0;width:100%;height:100%;max-width:none;margin:0;padding:0;overflow:hidden;isolation:isolate;background:#244c47}
 .city-visually-hidden{position:absolute!important;clip-path:inset(50%);width:1px;height:1px;overflow:hidden;white-space:nowrap}
 .city-page.auto-city #city-scene-host{position:absolute;inset:0;min-width:0;min-height:0;isolation:isolate;background:#496f55}
-.city-camera-button{position:absolute;z-index:26;top:calc(12px + env(safe-area-inset-top,0px));display:inline-flex;align-items:center;justify-content:center;min-width:48px;min-height:48px;padding:8px 12px;border:1px solid var(--game-line,#c6ad778f);border-radius:12px;background:var(--game-panel-soft,rgba(25,40,51,.88));color:var(--game-ink,#f6efdf);box-shadow:0 3px 12px #091c2459;font:700 16px/1.4 'PingFang TC','Microsoft JhengHei',sans-serif;cursor:pointer;touch-action:manipulation;backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px)}
-.city-camera-button--overview{right:calc(12px + env(safe-area-inset-right,0px));width:52px;height:52px;padding:11px}
-.city-camera-button--overview svg{width:26px;height:26px}
-.city-camera-button--return{left:calc(12px + env(safe-area-inset-left,0px));max-width:calc(100% - 24px)}
-.city-camera-button:hover{background:rgba(45,68,80,.95)}
 .city-read-action{display:flex;min-width:0;max-width:min(500px,65vw)}
 .city-read-action .primary{min-height:54px;white-space:normal;text-align:center;font-size:16px;line-height:1.45;padding:8px 16px}
 .city-page #city-storage-notice{position:absolute;z-index:27;top:calc(74px + env(safe-area-inset-top,0px));left:12px;right:12px;max-width:660px;margin:0 auto;padding:8px 12px;border:1px solid #c6ad778f;border-radius:10px;background:var(--game-panel,rgba(18,29,42,.93));color:#ffe5b4;font:14px/1.6 'PingFang TC','Microsoft JhengHei',sans-serif}
@@ -16,6 +11,7 @@ body.game-shell--city{--game-content-bottom:0px;background:#244c47;color:var(--g
 .city-page #city-dialog-content>h2{clear:none;margin-top:8px;padding-right:40px;line-height:1.5}
 .city-page #city-dialog-content>.eyebrow{margin-top:8px;max-width:calc(100% - 54px);font-size:13px}
 .city-page #city-dialog p{font-size:17px;line-height:1.8}
+.city-page #city-dialog .city-explanation{margin:14px 0 0;padding:0;border:0;background:none;font-size:18px;line-height:1.9;white-space:pre-line;overflow-wrap:anywhere}
 .city-dialog-actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:16px}
 .city-dialog-actions .primary{width:100%;min-height:50px;text-align:center}
 .city-dialog-actions .city-source-link{display:flex;align-items:center;min-height:48px;font-size:15px}
@@ -24,4 +20,4 @@ body.game-shell--city{--game-content-bottom:0px;background:#244c47;color:var(--g
 .city-page .city-reward-source-preview .city-source-viewport{max-height:285px;width:100%;height:auto}
 .city-page :focus-visible{outline:3px solid var(--game-focus,#f9d17c);outline-offset:3px}
 @media(max-width:650px){.city-read-action .primary{font-size:15px;padding:7px 12px}.city-page #city-dialog{padding:10px 15px 18px}}
-@media(max-height:500px){.city-camera-button{top:calc(7px + env(safe-area-inset-top,0px))}.city-camera-button--overview{right:calc(8px + env(safe-area-inset-right,0px))}.city-camera-button--return{left:calc(8px + env(safe-area-inset-left,0px))}.city-read-action .primary{min-height:48px;font-size:14px}}
+@media(max-height:500px){.city-read-action .primary{min-height:48px;font-size:14px}}

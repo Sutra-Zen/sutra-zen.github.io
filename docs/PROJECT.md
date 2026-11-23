@@ -1,5 +1,14 @@
 # SutraZen project context
 
+
+## Current simplified game controls and scripted completion (2026-11-23)
+
+The [simple UI round](play/game-simple-ui/README.md) starts from published PR76 `d82f68533f595db032c8a787a1a2c5606a53fb2f`. Map/city overview controls are removed while pan/pinch remain; legacy overview cameras recover to exploration. The shelf paints its art once on the local scrolling layer. Settings can return to the title menu without replaying/resetting; the prologue retains only the bottom action and normal background-tap skip.
+
+City scenery shows only the requested scripture title and matching excerpt, or a brief creative topic explanation. The author's supplied plaza wording is preserved with honest [edition audit](play/game-simple-ui/source-audit.json); original scriptures stay unchanged. Completion reward text now appears directly as the last kitten dialogue, without “看閱讀回饋” or an extra modal. The first four authored outro passages precede the city/next-station choices. A validated completed URL resumes only this presentation, clears on leaving/reset, and grants no reading/completion rights.
+
+Original reading/eligibility/store schemas/art/SEO/Google and main:/ remain. UI cache simple-ui-1 keeps unchanged storage module singletons; fourteen reader HTML files only update the bridge query. Twenty-three QA directories excluded. Exact Pages/live proof belongs to the new PR; physical Safari is untested.
+
 ## Project
 - GitHub repository: https://github.com/Sutra-Zen/sutra-zen.github.io
 - GitHub Pages entry point: https://sutra-zen.github.io/

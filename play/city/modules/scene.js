@@ -81,7 +81,7 @@ export function initializeModularCity({ host, getState, getInsets, onThought, on
       return glow;
     }
     const art = artwork(slot.assetKey); if (!art) { artError(); return null; }
-    const actor = slot.actorId, inspectId = slot.inspectId || (actor === 'source_plaza' ? 'plaza' : module?.id);
+    const actor = slot.actorId, inspectId = slot.inspectId || (slot.id==='city-outline'?'town':actor === 'source_plaza' ? 'plaza' : module?.id);
     const node = document.createElement(actor || inspectId ? 'button' : 'div');
     node.className = 'mod-city__placed-art' + (actor ? ' mod-city__actor mod-city__actor--' + actor : '');
     if (node.tagName === 'BUTTON') node.type = 'button';

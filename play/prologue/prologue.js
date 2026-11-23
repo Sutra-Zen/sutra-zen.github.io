@@ -1,4 +1,4 @@
-import {PROLOGUE_VERSION,PROLOGUE_PARAGRAPHS,PROLOGUE_UI as T,PROLOGUE_TIMING as C} from './data.js?v=prologue-1';
+import {PROLOGUE_VERSION,PROLOGUE_PARAGRAPHS,PROLOGUE_UI as T,PROLOGUE_TIMING as C} from './data.js?v=simple-ui-1';
 export {PROLOGUE_VERSION};
 const clamp=(n,min,max)=>Math.max(min,Math.min(max,n));
 // No storage, book data, route selectors or completion records are used here.
@@ -7,7 +7,7 @@ export function initializePrologue({host,onComplete}={}){
  const href=new URL(`./prologue.css?v=${PROLOGUE_VERSION}`,import.meta.url).href;
  if(![...document.querySelectorAll('link[rel="stylesheet"]')].some(link=>link.href===href)){const link=document.createElement('link');link.rel='stylesheet';link.href=href;document.head.append(link);}
  const reduced=window.matchMedia?.('(prefers-reduced-motion: reduce)');
- let phase='idle',run=0,overlay=null,viewport=null,copy=null,action=null,hint=null,animation=null,duration=0,staticMode=false,resizeFrame=0,observer=null,savedPaper=null,guardTimer=0,guard=null;
+ let phase='idle',run=0,overlay=null,viewport=null,copy=null,action=null,animation=null,duration=0,staticMode=false,resizeFrame=0,observer=null,savedPaper=null,guardTimer=0,guard=null;
  let listeners=[];
  const listen=(target,type,handler,options)=>{target.addEventListener(type,handler,options);listeners.push(()=>target.removeEventListener(type,handler,options));};
  const progress=()=>animation&&duration?clamp(Number(animation.currentTime||0)/duration,0,1):0;
@@ -21,7 +21,7 @@ export function initializePrologue({host,onComplete}={}){
   phase='finished';cleanup();if(reason==='skip')guardFollowthrough();onComplete?.({reason,version:PROLOGUE_VERSION,mode:staticMode?'static':'crawl'});return true;
  }
  function staticReading(fraction=0){
-  if(phase!=='playing')return;stopAnimation();staticMode=true;overlay.classList.add('is-static');overlay.dataset.prologueMode='static';host.dataset.prologueState='static';action.textContent=T.enterMenu;hint.textContent=T.readingHint;viewport.tabIndex=0;
+  if(phase!=='playing')return;stopAnimation();staticMode=true;overlay.classList.add('is-static');overlay.dataset.prologueMode='static';host.dataset.prologueState='static';viewport.tabIndex=0;viewport.setAttribute('aria-label',T.readingHint);
   if(fraction)requestAnimationFrame(()=>{if(phase==='playing'&&viewport)viewport.scrollTop=fraction*Math.max(0,viewport.scrollHeight-viewport.clientHeight);});
  }
  function layoutCrawl(){
@@ -41,9 +41,9 @@ export function initializePrologue({host,onComplete}={}){
   overlay=document.createElement('section');overlay.className='game-prologue';overlay.dataset.prologue='';overlay.dataset.prologueVersion=PROLOGUE_VERSION;overlay.dataset.prologueMode=staticMode?'static':'crawl';overlay.setAttribute('aria-label',T.label);overlay.tabIndex=-1;
   viewport=document.createElement('div');viewport.className='prologue-viewport';viewport.dataset.prologueViewport='';copy=document.createElement('div');copy.className='prologue-copy';copy.dataset.prologueCopy='';copy.setAttribute('aria-live','off');
   PROLOGUE_PARAGRAPHS.forEach((paragraph,index)=>{const p=document.createElement('p');p.dataset.prologueParagraph=String(index+1);paragraph.split('\n').forEach((line,lineIndex)=>{if(lineIndex)p.append(document.createElement('br'));const span=document.createElement('span');span.dataset.prologueLine=`${index+1}-${lineIndex+1}`;span.textContent=line;p.append(span);});copy.append(p);});viewport.append(copy);
-  action=document.createElement('button');action.type='button';action.className='prologue-action';action.dataset.prologueSkip='';action.textContent=T.skip;hint=document.createElement('p');hint.className='prologue-hint';hint.textContent=T.tapHint;overlay.append(viewport,action,hint);host.append(overlay);
+  action=document.createElement('button');action.type='button';action.className='prologue-hint';action.dataset.prologueSkip='';action.textContent=T.enterMenu;overlay.append(viewport,action);host.append(overlay);
   listen(overlay,'click',event=>{const explicit=Boolean(event.target.closest('[data-prologue-skip]'));if(staticMode&&!explicit)return;if(!explicit&&window.getSelection?.()?.toString())return;eat(event);finish('skip');});
-  listen(overlay,'keydown',event=>{if(event.key==='Escape'||(!staticMode&&['Enter',' ','Spacebar'].includes(event.key))){eat(event);finish('skip');}});
+  listen(overlay,'keydown',event=>{if(event.key==='Escape'||(event.target.closest('[data-prologue-skip]')&&['Enter',' ','Spacebar'].includes(event.key))){eat(event);finish('skip');}});
   listen(window,'resize',scheduleLayout);listen(document,'visibilitychange',()=>{if(!animation||phase!=='playing')return;if(document.hidden)animation.pause();else animation.play();});
   if(reduced?.addEventListener)listen(reduced,'change',event=>{if(event.matches)staticReading(progress());});
   if(typeof ResizeObserver==='function'){observer=new ResizeObserver(scheduleLayout);observer.observe(viewport);observer.observe(copy);}
