@@ -1,84 +1,106 @@
-import {initializeGameShell,GAME_URLS} from '../game-shell.js?v=mara-1';
+import {initializeGameShell,GAME_URLS} from '../game-shell.js?v=modular-city-1';
 import {store} from '../collection/store.js';
 import {routeMetadata} from '../route/metadata.js';
 import {routeStatus,routeBooks} from '../route/selectors.js';
 import {canStartGameBook,canReviewGameBook} from '../route/eligibility.js';
-import {CITY_COPY,TACTICS_SPOTS,renderTacticsCity,citySpotStatus,renderCityRolePreview} from '../visual-v2/city-tactics.js?v=20261122-city-rewards';
-import {CITY_REWARD_COPY,REWARD_TYPE_LABELS,FACULTY_ZONES,renderRewardSourcePreview} from '../visual-v2/city-rewards.js?v=20261122-city-rewards';
-import {T} from './text.js?v=20261122-city-rewards';
-const cityText=CITY_COPY['zh-Hant'],main=document.querySelector('#city-main'),dialog=document.querySelector('#city-dialog'),content=document.querySelector('#city-dialog-content');
-const catalogURL=new URL('../collection/catalog.js',import.meta.url),books=new Map(routeBooks.map(b=>[b.id,b]));
-const related={eye:'six-senses',ear:'six-senses',nose:'six-senses',tongue:'six-senses',body:'six-senses',mind:'six-senses',town:'five-aggregates',plaza:'five-aggregates',lord:'five-aggregates',guardian:'mindfulness',messengers:'anapana',message:'six-senses',road:'eightfold-path',dock:'four-truths'};
-let labels=true,explore=false,lastTrigger=null;
-// Old author-preview parameters never alter a player's city or completed state.
+import {CITY_COPY,TACTICS_SPOTS} from '../visual-v2/city-tactics.js?v=20261122-city-rewards';
+import {CITY_REWARD_COPY,REWARD_TYPE_LABELS,renderRewardSourcePreview} from '../visual-v2/city-rewards.js?v=20261122-city-rewards';
+import {cityStore,CITY_LAYOUT_EVENT} from './modules/store.js';
+import {MODULE_UI as U} from './modules/text.js';
+import {initializeModularCity,renderSprite} from './modules/scene.js';
+import {initializeCityThoughts} from './thoughts.js';
+import {T} from './text.js?v=modular-city-1';
+
+const main=document.querySelector('#city-main'),dialog=document.querySelector('#city-dialog'),content=document.querySelector('#city-dialog-content');
+const catalogURL=new URL('../collection/catalog.js',import.meta.url),books=new Map(routeBooks.map(book=>[book.id,book]));
+const related={eye:'six-senses',ear:'six-senses',nose:'six-senses',tongue:'six-senses',body:'six-senses',mind:'six-senses',town:'five-aggregates',plaza:'five-aggregates',lord:'five-aggregates',guardian:'mindfulness',messengers:'anapana',message:'anapana',road:'eightfold-path',dock:'four-truths'};
+const spotModules={eye:'six_gates',ear:'six_gates',nose:'six_gates',tongue:'six_gates',body:'six_gates',mind:'six_gates',guardian:'mindfulness_guard',messengers:'calm_insight_messengers',message:'calm_insight_messengers',road:'noble_path',dock:'truth_dock'};
+const escape=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
+let labels=true,explore=true,lastTrigger=null,scene=null,thoughts=null,restoreDialogFocus=true;
 const address=new URL(location.href);if(address.searchParams.has('review')){address.searchParams.delete('review');history.replaceState(null,'',address);}
-const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-function actualRoute(){const s=store.get();return routeStatus(s.completed,s.positions,routeMetadata.get());}
-function primaryBook(route){return books.get(route.nextBookId)||null;}
-function fitScene(){
- const host=document.querySelector('#city-scene-host'),board=host?.querySelector('.city-tactics-board');if(!host||!board)return;
- const availableWidth=host.clientWidth,availableHeight=host.clientHeight,ratio=1671/941;
- const width=explore?Math.max(availableWidth,availableHeight*ratio,1000):Math.min(availableWidth,availableHeight*ratio);
- board.style.width=`${Math.max(1,width)}px`;
+document.body.classList.add('modular-city');
+const actualRoute=()=>{const saved=store.get();return routeStatus(saved.completed,saved.positions,routeMetadata.get());};
+const layout=()=>({...cityStore.get(store.get().completed),labels});
+const moduleFor=id=>layout().modules.find(module=>module.id===id);
+main.innerHTML=`<h1 class="city-visually-hidden">${T.scene}</h1><div class="city-tools"><button id="city-label-toggle" aria-pressed="true">${T.labels}</button><button id="city-overview-toggle" aria-pressed="false">${T.overview}</button><button id="city-meaning-index">${T.meanings}</button><button id="city-thought-open">${T.thoughts}</button></div><section id="city-scene-host" aria-label="${T.scene}"></section><div class="city-primary"><div class="city-next-copy"><span id="city-continuation-info"></span><span id="city-placement-count"></span><span id="city-storage-notice" role="status" hidden></span></div><span id="city-primary-action"></span></div>`;
+const shell=initializeGameShell({active:'city'});
+function updateChrome(){
+ const route=actualRoute(),city=layout(),book=books.get(route.nextBookId),at=book?store.get().positions[book.id]:null;
+ const resume=book&&Number.isInteger(at)&&at>0&&at<book.totalSteps;
+ document.querySelector('#city-continuation-info').textContent=book?T.nextHint(book.title):T.completedHint;
+ document.querySelector('#city-placement-count').textContent=U.placedCount(city.placedIds.length);
+ document.querySelector('#city-primary-action').innerHTML=resume?`<button id="city-continue" class="primary" data-city-primary-book="${book.id}">${T.continue(escape(book.title),at)}</button>`:`<a id="city-back-map" class="primary" href="${GAME_URLS.map}">${book?T.backMap:T.allComplete}</a>`;
+ const issue=document.querySelector('#city-storage-notice');issue.hidden=!city.issue&&!store.issue;issue.textContent=city.issue==='corrupt'?U.corruptStorage:city.persistence==='session'?U.sessionIssue:city.issue?U.storageIssue:T.issue;
+ document.querySelector('#city-label-toggle').setAttribute('aria-pressed',String(labels));
+ document.querySelector('#city-overview-toggle').textContent=explore?T.overview:T.enlarge;
+ document.querySelector('#city-overview-toggle').setAttribute('aria-pressed',String(!explore));
+ document.querySelector('#city-thought-open').disabled=!city.baseVisible;
+ shell.setProgress(store.get().completed.length,14);
 }
-function render(){
- const old=main.querySelector('.tactics-scroll'),scroll=old?{left:old.scrollLeft,top:old.scrollTop}:null;
- const route=actualRoute(),primary=primaryBook(route),saved=store.get(),at=primary?saved.positions[primary.id]:null;
- const canResume=primary&&Number.isInteger(at)&&at>0&&at<primary.totalSteps;
- const nextReward=primary?route.city.rewards.find(r=>r.bookId===primary.id):null;
- const pending=route.city.rewards.filter(r=>r.preview);
- main.innerHTML=`<h1 class="city-visually-hidden">${T.scene}</h1><div class="city-tools"><button id="city-label-toggle" aria-pressed="${labels}">${T.labels}</button><button id="city-overview-toggle" aria-pressed="${!explore}">${explore?T.overview:T.enlarge}</button><button id="city-meaning-index">${T.meanings}</button>${pending.length?`<button id="city-pending-rewards">${T.pendingCount(pending.length)}</button>`:''}</div>
- <section id="city-scene-host" class="${explore?'city-explore':'city-overview'}" aria-label="${T.scene}">${renderTacticsCity({showSpots:labels,showLabels:labels,labelLayout:matchMedia('(max-width:1000px), (max-height:500px)').matches?'compact':'wide'})}</section>
- <div class="city-primary"><div class="city-next-copy"><span id="city-continuation-info">${primary?escape(T.nextHint(primary.title)):T.completedHint}</span>${nextReward?`<span class="city-build-hint">${escape(T.nextCity(nextReward.title))}</span>`:''}${store.issue?`<span id="city-storage-notice" role="status">${T.issue}</span>`:''}</div>${canResume?`<button id="city-continue" class="primary" data-city-primary-book="${primary.id}" data-city-resume-at="${at}">${T.continue(escape(primary.title),at)}</button>`:`<a id="city-back-map" class="primary" href="${GAME_URLS.map}">${primary?T.backMap:T.allComplete}</a>`}</div>`;
- fitScene();if(explore&&scroll)main.querySelector('.tactics-scroll').scrollTo(scroll);
+function render(){updateChrome();scene?.render();}
+function open(html){if(!dialog.open)lastTrigger=document.activeElement;thoughts?.close();content.innerHTML=html;if(!dialog.open)dialog.showModal();dialog.scrollTop=0;}
+function sourceLinks(book,sourceURL){
+ const reviewed=canReviewGameBook(book.id,store.get().completed);
+ return `<div class="city-dialog-actions">${reviewed?`<button class="primary" data-city-reread="${book.id}">${T.completedReview(escape(book.title))}</button>`:`<p class="city-future-copy">${T.futureReview}</p><a class="primary" href="${GAME_URLS.map}">${T.backMap}</a>`}${sourceURL?`<a class="city-source-link" href="${sourceURL}">${T.sources}</a>`:''}</div>`;
 }
-function read(id,{review=false}={}){
- const b=books.get(id),saved=store.get();if(!b)return;
- const allowed=review?canReviewGameBook(id,saved.completed):canStartGameBook(id,saved.completed);
- if(!allowed){location.assign(GAME_URLS.map);return;}
- const u=new URL(b.reader,catalogURL),at=saved.positions[id];u.searchParams.set('collection','1');u.searchParams.set('collectionReturn','game');u.searchParams.set('collectionStory','mara-1');
- if(review){u.searchParams.set('collectionReview','1');u.searchParams.set('collectionPage',String(Number.isInteger(at)&&at>=0&&at<b.totalSteps-1?at:0));}
- else if(Number.isInteger(at)&&at>=0&&at<b.totalSteps)u.searchParams.set('collectionPage',String(at));
- location.assign(u.href);
+function inspectSpot(id){
+ const spot=TACTICS_SPOTS.find(item=>item.id===id);if(!spot)return;
+ const city=layout(),visible=['plaza','lord'].includes(id)?city.baseVisible:id==='town'?city.placedIds.includes('city_body'):city.placedIds.includes(spotModules[id]);
+ const book=books.get(related[id]),sourceURL=new URL('../sources.html',import.meta.url).href;
+ open(`<p class="eyebrow">${T.canonicalSource}</p><h2 id="city-dialog-title">${escape(spot.title)}</h2><p class="status-label">${visible?T.sceneVisible:T.sceneWaiting}</p><p>${spot.copy}</p>${sourceLinks(book,sourceURL)}<p class="source-note">${T.sourceNote}</p>`);
 }
-function inspect(id){
- const spot=TACTICS_SPOTS.find(s=>s.id===id);if(!spot)return;
- const state=citySpotStatus(id),book=books.get(related[id]),reviewable=canReviewGameBook(book.id,store.get().completed);
- const sourceURL=state.sourceType==='canonical'?new URL('../sources.html',import.meta.url).href:reviewable?new URL(book.guide+'#sources',catalogURL).href:null;
- content.innerHTML=`<p class="eyebrow" data-city-source-kind="${state.sourceType}">${state.sourceType==='canonical'?T.canonicalSource:T.extendedSource}</p><h2 id="city-dialog-title">${spot.title}</h2><p class="status-label">${state.statusText}</p>${renderCityRolePreview(id)}<p>${spot.copy}</p>${state.missingTitles.length?`<p class="city-missing">${cityText.missingPrefix}：${state.missingTitles.map(escape).join('、')}。${cityText.waiting}</p>`:''}<div class="city-dialog-actions">${reviewable?`<button class="primary" data-city-reread="${book.id}">${T.completedReview(escape(book.title))}</button>`:`<p class="city-future-copy">${T.futureReview}</p><a class="primary" data-city-current href="${GAME_URLS.map}">${T.backMap}</a>`}${sourceURL?`<a class="city-source-link" href="${sourceURL}">${state.sourceType==='canonical'?T.sources:T.bookSources}</a>`:''}</div><p class="source-note">${state.sourceType==='canonical'?T.sourceNote:T.extendedNote}</p>`;
- if(!dialog.open)dialog.showModal();dialog.scrollTop=0;
+function inspectModule(id){
+ const module=moduleFor(id);if(!module)return;
+ const book=books.get(module.bookId),reviewable=canReviewGameBook(book.id,store.get().completed);
+ const status=module.placed?U.placed:module.unlocked?module.canPlace?U.available:U.needsPlacement:U.locked;
+ const sourceURL=module.type==='canonical'?new URL('../sources.html',import.meta.url).href:reviewable?new URL(book.guide+'#sources',catalogURL).href:null;
+ const art=module.revealed===false?'':renderSprite(module.slots[0]?.assetKey,{className:'city-module-preview',label:module.title});
+ const missing=module.unlocked&&!module.canPlace&&!module.placed&&module.missingModuleIds.length?`<p>${U.missingModules(module.missingModuleIds.map(key=>moduleFor(key)?.title||U.unknownModule))}</p>`:'';
+ open(`<p class="eyebrow">${REWARD_TYPE_LABELS[module.type]}</p><h2 id="city-dialog-title">${escape(module.title)}</h2><p class="status-label">${status}</p>${art}<p>${module.description}</p>${missing}${module.revealed===false?'':`<p>${CITY_REWARD_COPY[id]||''}</p>`}${module.canPlace?`<button class="primary" data-city-select-module="${module.id}">${U.place}</button>`:''}${module.unlocked&&reviewable?renderRewardSourcePreview(id):''}${module.revealed===false?`<a class="primary" href="${GAME_URLS.map}">${T.backMap}</a>`:sourceLinks(book,sourceURL)}<p class="source-note">${module.type==='canonical'?T.sourceNote:T.extendedNote}</p>`);
 }
-function rewardStatus(reward,route){
- if(reward.id==='awakening_companions'&&reward.available&&!route.city.features.mindfulness_guard)return T.companionsPending;
- return reward.available?cityText.placed:reward.earned?cityText.preview:cityText.unearned;
+function meanings(){
+ const city=layout();
+ open(`<h2 id="city-dialog-title">${T.meanings}</h2><h3>${T.canonicalHeading}</h3><div class="city-meaning-list">${TACTICS_SPOTS.filter(spot=>spot.id!=='dock').map(spot=>`<button data-city-meaning="${spot.id}">${escape(spot.title)}</button>`).join('')}</div><p class="source-note">${T.sourceNote}</p><h3>${T.rewardHeading}</h3><div class="city-reward-index">${city.modules.map(module=>`<button data-city-module-detail="${module.id}"><span>${escape(module.title)}</span><small>${module.placed?U.placed:module.unlocked?U.unlocked:U.locked}</small></button>`).join('')}</div><a href="${new URL('../sources.html',import.meta.url).href}">${T.sources}</a>`);
 }
-function rewardVisible(reward,route){return reward.id!=='fruition_guide'||route.finalChapterRevealed;}
-function inspectReward(id){
- const route=actualRoute(),reward=route.city.rewards.find(r=>r.id===id);if(!reward||!rewardVisible(reward,route))return;
- const book=books.get(reward.bookId),reviewable=canReviewGameBook(book.id,store.get().completed);
- const zones=id==='faculties_links'?`<ul class="city-faculty-status">${Object.entries(FACULTY_ZONES).map(([key,z])=>`<li data-faculty-detail="${key}"><strong>${z.title}</strong>・${route.city.facultiesZones[key].available?T.linked:T.notLinked}</li>`).join('')}</ul>`:'';
- content.innerHTML=`<p class="eyebrow" data-city-source-kind="${reward.type}">${REWARD_TYPE_LABELS[reward.type]}</p><h2 id="city-dialog-title">${reward.title}</h2><p class="status-label">${rewardStatus(reward,route)}</p>${reward.earned?renderRewardSourcePreview(id):''}<p>${CITY_REWARD_COPY[id]||''}</p>${zones}${reward.missingBookIds.length?`<p class="city-missing">${T.awaiting}：${reward.missingBookIds.map(id=>escape(books.get(id).title)).join('、')}</p>`:''}<div class="city-dialog-actions">${reviewable?`<button class="primary" data-city-reread="${book.id}">${T.completedReview(escape(book.title))}</button>`:`<a class="primary" data-city-current href="${GAME_URLS.map}">${T.backMap}</a>`}${reward.type==='canonical'||reviewable?`<a class="city-source-link" href="${reward.type==='canonical'?new URL('../sources.html',import.meta.url).href:new URL(book.guide+'#sources',catalogURL).href}">${reward.type==='canonical'?T.sources:T.bookSources}</a>`:''}</div><p class="source-note">${reward.type==='canonical'?T.sourceNote:T.extendedNote}</p>`;
- if(!dialog.open)dialog.showModal();dialog.scrollTop=0;
+function read(id){
+ const saved=store.get(),book=books.get(id);if(!book)return;
+ const review=canReviewGameBook(id,saved.completed);if(!review&&!canStartGameBook(id,saved.completed)){location.assign(GAME_URLS.map);return;}
+ const url=new URL(book.reader,catalogURL),at=saved.positions[id];url.searchParams.set('collection','1');url.searchParams.set('collectionReturn','game');url.searchParams.set('collectionStory','modular-city-1');
+ if(review){url.searchParams.set('collectionReview','1');url.searchParams.set('collectionPage',String(Number.isInteger(at)&&at>=0&&at<book.totalSteps-1?at:0));}
+ else if(Number.isInteger(at)&&at>=0&&at<book.totalSteps)url.searchParams.set('collectionPage',String(at));location.assign(url.href);
 }
-function index({pendingOnly=false}={}){
- const route=actualRoute(),rewards=route.city.rewards.filter(r=>rewardVisible(r,route)&&(!pendingOnly||r.preview));
- content.innerHTML=`<h2 id="city-dialog-title">${pendingOnly?T.pending:T.meanings}</h2>${pendingOnly?'':`<h3>${T.canonicalHeading}</h3><div class="city-meaning-list">${TACTICS_SPOTS.filter(s=>s.id!=='dock').map(s=>`<button data-city-meaning="${s.id}">${s.title}</button>`).join('')}</div>`}<h3>${T.rewardHeading}</h3><div class="city-reward-index">${rewards.map(r=>`<button data-city-reward-detail="${r.id}" data-source-category="${r.type}"><span>${r.title}</span><small>${REWARD_TYPE_LABELS[r.type]}・${rewardStatus(r,route)}</small></button>`).join('')}</div><a href="${new URL('../sources.html',import.meta.url).href}">${T.sources}</a>`;
- if(!dialog.open)dialog.showModal();dialog.scrollTop=0;
+thoughts=initializeCityThoughts({host:main,getState:layout,onSeen:id=>cityStore.markThoughtSeen(id),onClose:()=>document.querySelector('#city-thought-open').focus({preventScroll:true})});
+function afterPlaced(result){
+ if(!result?.ok)return;render();const placed=result.placedNow||[];
+ requestAnimationFrame(()=>{
+  const state=layout();if(!state.baseVisible)return;
+  if(placed.includes('mindfulness_guard')&&!state.thoughtSeenIds.includes('mindfulness-guardian-introduction'))thoughts.show('guardian');
+  else if(placed.includes('calm_insight_messengers')&&!state.thoughtSeenIds.includes('calm-insight-messengers-arrival'))thoughts.show('messengers');
+  else if(placed.includes('six_gates')&&!state.placedIds.includes('mindfulness_guard')&&!state.thoughtSeenIds.includes('six-gates-unwatched'))thoughts.show('mara');
+ });
 }
-document.addEventListener('click',event=>{
- const b=event.target.closest('button');if(!b)return;
- if(b.id==='city-continue'){const p=primaryBook(actualRoute());if(p)read(p.id);}
- if(b.id==='city-label-toggle'){labels=!labels;render();}
- if(b.id==='city-overview-toggle'){explore=!explore;render();}
- if(b.id==='city-meaning-index'){lastTrigger=b;index();}
- if(b.id==='city-pending-rewards'){lastTrigger=b;index({pendingOnly:true});}
- if(b.dataset.cityRewardDetail){if(!dialog.open)lastTrigger=b;inspectReward(b.dataset.cityRewardDetail);}
- if(b.dataset.spot||b.dataset.cityMeaning){if(!dialog.open)lastTrigger=b;inspect(b.dataset.spot||b.dataset.cityMeaning);}
- if(b.dataset.cityReread)read(b.dataset.cityReread,{review:true});
- if(b.hasAttribute('data-city-close'))dialog.close();
+scene=initializeModularCity({host:document.querySelector('#city-scene-host'),getState:layout,onPlace:id=>{
+ const result=id==='all'?cityStore.placeAll(store.get().completed):cityStore.place(id,store.get().completed);afterPlaced(result);return result;
+},onThought:id=>thoughts.show(id),onInspect:id=>moduleFor(id)?inspectModule(id):inspectSpot(id),onChange:change=>{if(change.type==='camera'){const next=!change.camera.overview;if(explore!==next){explore=next;updateChrome();}}}});
+main.addEventListener('click',event=>{
+ const button=event.target.closest('button');if(!button)return;
+ if(button.id==='city-label-toggle'){labels=!labels;render();}
+ if(button.id==='city-overview-toggle'){if(explore)scene.fit();else scene.focus('four-elements-base');explore=!scene.getState().camera.overview;updateChrome();}
+ if(button.id==='city-meaning-index'){lastTrigger=button;meanings();}
+ if(button.id==='city-thought-open')thoughts.show(layout().placedIds.includes('six_gates')?'mara':'lord');
 });
-dialog.addEventListener('close',()=>{if(lastTrigger?.isConnected)lastTrigger.focus();});
-window.addEventListener('sutrazen:collection-progress',render);window.addEventListener('sutrazen:route-metadata',render);
-window.addEventListener('resize',fitScene);new ResizeObserver(fitScene).observe(main);
-matchMedia('(max-width:1000px), (max-height:500px)').addEventListener('change',render);
-render();initializeGameShell({active:'city'});
+dialog.addEventListener('click',event=>{
+ const button=event.target.closest('button');if(!button)return;
+ if(button.hasAttribute('data-city-close'))dialog.close();
+ if(button.dataset.cityMeaning)inspectSpot(button.dataset.cityMeaning);
+ if(button.dataset.cityModuleDetail)inspectModule(button.dataset.cityModuleDetail);
+ if(button.dataset.citySelectModule){restoreDialogFocus=false;dialog.close();scene.selectModule(button.dataset.citySelectModule);}
+ if(button.dataset.cityReread)read(button.dataset.cityReread);
+});
+main.addEventListener('click',event=>{if(event.target.closest('#city-continue')){const book=books.get(actualRoute().nextBookId);if(book)read(book.id);}});
+dialog.addEventListener('close',()=>{if(restoreDialogFocus&&!thoughts.isOpen&&lastTrigger?.isConnected)lastTrigger.focus({preventScroll:true});restoreDialogFocus=true;});
+for(const event of ['sutrazen:collection-progress',CITY_LAYOUT_EVENT])window.addEventListener(event,render);
+window.addEventListener('sutrazen:journey-state',()=>{thoughts.close();dialog.close();scene.selectModule(null);scene.focus('four-elements-base');render();});
+window.addEventListener('pageshow',render);render();
+requestAnimationFrame(()=>{const state=layout();if(state.baseVisible&&!state.thoughtSeenIds.includes('city-lord-introduction'))thoughts.show('lord');});
+window.SutraZenModularCity={getState:()=>layout(),getCamera:()=>scene.getState(),closeThought:()=>thoughts.close()};

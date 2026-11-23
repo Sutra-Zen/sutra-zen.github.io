@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "status": "generated-concept",
+  "createdAt": "2026-11-23T03:11:51.837849+00:00",
+  "tool": "image_gen.imagegen",
+  "operation": "edit with local referenced_image_paths",
+  "transparentBackgroundRequested": true,
+  "asset": {
+    "path": "play/city/modules/assets/hindrances-atlas-concept.png",
+    "sha256": "bbfc44b0c43622344a63055445e3bbbd81d264b67f3fa56b7565768744469eda",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "bytes": 2347719
+  },
+  "originalOutput": {
+    "path": "/workspace/generated_images/exec-03ae593e-b56e-47cb-b0f9-53cd7bf7c5fb.png",
+    "sha256": "bbfc44b0c43622344a63055445e3bbbd81d264b67f3fa56b7565768744469eda",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGBA",
+    "bytes": 2347719
+  },
+  "preservation": {
+    "method": "shutil.copyfile",
+    "reencoded": false,
+    "byteIdenticalToOriginal": true
+  },
+  "referencesViewedBeforeGeneration": [
+    {
+      "path": "anapana/assets/S03.webp",
+      "sha256": "d5b29a3f8f7371fba1ca35b70247d24a3cf55fafed8aacb64794a75d897bcec3",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 786872
+    },
+    {
+      "path": "four-jhanas/assets/S05.webp",
+      "sha256": "89d07e4dae346934066180ba9a83be9ec0fc7d3b7828fe308bbc838dfaef675f",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 819698
+    }
+  ],
+  "generationStages": [
+    {
+      "originalOutput": "/workspace/generated_images/exec-03ae593e-b56e-47cb-b0f9-53cd7bf7c5fb.png",
+      "accepted": true,
+      "prompt": "Create a transparent-background PNG sprite atlas by editing/extracting and faithfully redrawing ONLY four existing round hindrance creatures from these supplied SutraZen reference illustrations. Keep exactly the same gentle, detailed watercolor children’s picture-book character designs, colors, face shapes and textures. Square canvas in a strict invisible 2-column by 2-row equal-cell layout (prefer 1536×1536): top-left the pink round candy/sweet creature with candy decorations, lollipop and small cupcake; top-right the red-orange round angry fireball creature with complete flame silhouette; bottom-left the brown sleepy round sloth creature with folded arms and closed sleepy eyes; bottom-right the purple round agitated winged insect creature with all wings, antennae, hands and feet complete. Each character is centered only inside its own quadrant and visually distinct, complete and uncropped, with a generous transparent margin at every cell edge (at least 40px at this size), and a clear gap between characters. This is a production frontend atlas so equal invisible cells and clean separation matter. Preserve the original character appearances, not generic emoji redesigns. Remove the forest, kitten, doubt cloud creature, scenery, sparkle trails and all background. Do not include any text, letters, Z sleep symbols, question marks, labels, gridlines, frame, cell marks, shadows extending into other cells or other creatures. No opaque white/checkerboard background: use real alpha transparency, including all four canvas corners and the gaps between cells.",
+      "referencedImagePaths": [
+        "/workspace/sutrazen-map/anapana/assets/S03.webp",
+        "/workspace/sutrazen-map/four-jhanas/assets/S05.webp"
+      ]
+    }
+  ],
+  "grid": {
+    "columns": 2,
+    "rows": 2,
+    "cellWidth": 627,
+    "cellHeight": 627,
+    "rectFormat": "[x,y,width,height], image pixels, origin top-left",
+    "bboxFormat": "[left,top,right,bottom], half-open, alpha>=32"
+  },
+  "alpha": {
+    "extrema": [
+      0,
+      255
+    ],
+    "cornerAlphaTopLeftTopRightBottomLeftBottomRight": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "allCellBordersAtMostOneOf255": true,
+    "note": "Generated RGB may retain hidden background color where alpha is0. All cell borders are alpha0–1 (at most0.4% opacity); no character crosses a crop cell. Originals are never algorithmically cleaned/reencoded."
+  },
+  "cells": [
+    {
+      "key": "desire",
+      "labelForDocumentationOnly": "貪欲",
+      "cellRect": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "visibleLocalBBoxAlpha32": [
+        42,
+        52,
+        605,
+        584
+      ],
+      "visibleCanvasBBoxAlpha32": [
+        42,
+        52,
+        605,
+        584
+      ],
+      "transparentMarginsAlpha32": [
+        42,
+        52,
+        22,
+        43
+      ],
+      "cellBoundaryAlphaMax": 1
+    },
+    {
+      "key": "anger",
+      "labelForDocumentationOnly": "瞋恚",
+      "cellRect": [
+        627,
+        0,
+        627,
+        627
+      ],
+      "visibleLocalBBoxAlpha32": [
+        37,
+        24,
+        590,
+        580
+      ],
+      "visibleCanvasBBoxAlpha32": [
+        664,
+        24,
+        1217,
+        580
+      ],
+      "transparentMarginsAlpha32": [
+        37,
+        24,
+        37,
+        47
+      ],
+      "cellBoundaryAlphaMax": 1
+    },
+    {
+      "key": "sloth",
+      "labelForDocumentationOnly": "昏沉",
+      "cellRect": [
+        0,
+        627,
+        627,
+        627
+      ],
+      "visibleLocalBBoxAlpha32": [
+        62,
+        54,
+        586,
+        567
+      ],
+      "visibleCanvasBBoxAlpha32": [
+        62,
+        681,
+        586,
+        1194
+      ],
+      "transparentMarginsAlpha32": [
+        62,
+        54,
+        41,
+        60
+      ],
+      "cellBoundaryAlphaMax": 1
+    },
+    {
+      "key": "restlessness",
+      "labelForDocumentationOnly": "掉悔",
+      "cellRect": [
+        627,
+        627,
+        627,
+        627
+      ],
+      "visibleLocalBBoxAlpha32": [
+        12,
+        21,
+        588,
+        584
+      ],
+      "visibleCanvasBBoxAlpha32": [
+        639,
+        648,
+        1215,
+        1211
+      ],
+      "transparentMarginsAlpha32": [
+        12,
+        21,
+        39,
+        43
+      ],
+      "cellBoundaryAlphaMax": 0
+    }
+  ],
+  "contentNotes": [
+    "No baked text, name cards or grid marks. Web labels remain separate.",
+    "Existing book artwork and manuscripts are unchanged.",
+    "Provisional generated modular-game art; not a new doctrinal or progress correspondence."
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 1,
+  "status": "generated-concept",
+  "createdAt": "2026-11-23T03:11:51.902145+00:00",
+  "tool": "image_gen.imagegen",
+  "operation": "edit with local referenced_image_paths",
+  "transparentBackgroundRequested": true,
+  "asset": {
+    "path": "play/city/modules/assets/companions-atlas-concept.png",
+    "sha256": "0df16b53b52788dcd2fbf4624bce389ff6e884a6cc47ebfc921d3eb6dbc61440",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "bytes": 1869168
+  },
+  "originalOutput": {
+    "path": "/workspace/generated_images/exec-b47d6010-7d8b-4300-ae35-2933c82a1cd1.png",
+    "sha256": "0df16b53b52788dcd2fbf4624bce389ff6e884a6cc47ebfc921d3eb6dbc61440",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "bytes": 1869168
+  },
+  "preservation": {
+    "method": "shutil.copyfile",
+    "reencoded": false,
+    "byteIdenticalToOriginal": true
+  },
+  "referencesViewedBeforeGeneration": [
+    {
+      "path": "seven-factors/assets/12.webp",
+      "sha256": "0f2719034e01ec879e6af050db5ae1ea1e8714dcb7af85a5785a09d82fcdd66e",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 554156
+    }
+  ],
+  "generationStages": [
+    {
+      "originalOutput": "/workspace/generated_images/exec-fa62c457-d858-4e73-93c2-7f638e886eb8.png",
+      "accepted": false,
+      "reason": "Fawn ears crossed y=512 into the bird cell; not shipped.",
+      "prompt": "Create a real-transparent-background PNG sprite atlas by editing/extracting and faithfully redrawing ONLY the six companion characters from this supplied SutraZen Seven Factors reference illustration. Preserve the original warm detailed watercolor children’s picture-book character designs and colors, not generic icons. Use a landscape 3:2 canvas in a strict invisible 3-column by 2-row equal-cell layout (prefer 1536×1024). Exact reading order: top-left the brown owl with blue scarf and a blank rolled parchment scroll (remove the writing); top-middle the cream rabbit with the red headband and small wooden hoe; top-right the happy blue-and-yellow bird with complete spread wings; bottom-left the calm green turtle with olive shell and its original gentle closed eyes; bottom-middle the smiling pink lotus-flower character with green lily pad; bottom-right the peaceful orange fawn with white spots and original tiny antlers. Every character must be whole and centered inside its own cell, with all ears, wings, hoe, shell, petals, pad, antlers, tail and feet complete and uncropped. Aim for uniform visual scale with at least 32px transparent padding around each cell and clear transparent gaps between all six characters. Keep each original character appearance faithful. Remove all Chinese words, all label plaques/cloud-shaped name cards (none at all), the central orange kitten and lantern, all scenery/ground/water/flowers/trees, connecting light trails and sparkles. No background, text, writing, grid, borders, frames or alignment marks. Use genuine alpha transparency, including all four canvas corners and cell gaps; never an opaque white or checkerboard image.",
+      "referencedImagePaths": [
+        "/workspace/sutrazen-map/seven-factors/assets/12.webp"
+      ]
+    },
+    {
+      "originalOutput": "/workspace/generated_images/exec-b47d6010-7d8b-4300-ae35-2933c82a1cd1.png",
+      "accepted": true,
+      "referencedOutputs": [
+        "/workspace/generated_images/exec-fa62c457-d858-4e73-93c2-7f638e886eb8.png",
+        "seven-factors/assets/12.webp"
+      ],
+      "prompt": "Correct the FIRST image into a clean production transparent sprite atlas; the SECOND image is the original character reference. Preserve all six exact existing character designs. The first draft has the deer ears crossing into the bird cell, which MUST be fixed. Keep a 1536×1024 landscape PNG with genuine alpha transparency. Use EXACT invisible equal cells of 512×512. Character centers must be: owl(256,256), rabbit(768,256), bluebird(1280,256), turtle(256,768), pink lotus(768,768), fawn(1280,768). CRITICAL: shrink EVERY WHOLE character including its prop, wings, ears, antlers and lily pad so that it fits completely inside a 350×350 square centered on its assigned center. This leaves about80px of empty transparency on every side of every512px cell. Do not let ANY part of a character, shadow, aura or detail cross a cell border. In particular the fawn antlers/ears must all be BELOW y=593 and the bluebird entirely ABOVE y=431. Keep generous empty transparent bands around x=512, x=1024 and y=512. Keep each character uncut and complete, simply smaller than in first draft. Row1 owl with blue scarf and blank scroll, rabbit with red headband and hoe, blue/yellow bird. Row2 green turtle, pink lotus with lily pad, orange spotted fawn. The same watercolor picture-book visual style. No center kitten, lantern, labels, writing, text, plaques, gridlines, cell marks, white background, color backdrop, shadow background, ground or scenery. All areas outside the six characters are fully transparent, not brown haze. All four canvas corners and ALL cell boundary bands are alpha zero. This is a sprite atlas with deliberately smaller well-separated sprites, not a poster or close-up composition.",
+      "referencedImagePaths": [
+        "/workspace/generated_images/exec-fa62c457-d858-4e73-93c2-7f638e886eb8.png",
+        "/workspace/sutrazen-map/seven-factors/assets/12.webp"
+      ]
+    }
+  ],
+  "grid": {
+    "columns": 3,
+    "rows": 2,
+    "cellWidth": 512,
+    "cellHeight": 512,
+    "rectFormat": "[x,y,width,height], image pixels, origin top-left",
+    "bboxFormat": "[left,top,right,bottom], half-open, alpha>=32"
+  },
+  "alpha": {
+    "extrema": [
+      0,
+      254
+    ],
+    "cornerAlphaTopLeftTopRightBottomLeftBottomRight": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "allCellBordersAtMostOneOf255": true,
+    "note": "Generated RGB may retain hidden background color where alpha is0. All cell borders are alpha0–1 (at most0.4% opacity); no character crosses a crop cell. Originals are never algorithmically cleaned/reencoded."
+  },
+  "cells": [
+    {
+      "key": "owl",
+      "labelForDocumentationOnly": "擇法",
+      "cellRect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "visibleLocalBBoxAlpha32": [
+        112,
+        117,
+        431,
+        398
+      ],
+      "visibleCanvasBBoxAlpha32": [
+        112,
+        117,
+        431,
+        398
+      ],
+      "transparentMarginsAlpha32": [
+        112,
+        117,
+        81,
+        114
+      ],
+      "cellBoundaryAlphaMax": 1
+    },
+    {
+      "key": "rabbit",
+      "labelForDocumentationOnly": "精進",
+      "cellRect": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "visibleLocalBBoxAlpha32": [
+        112,
+        110,
+        420,
+        398
+      ],
+      "visibleCanvasBBoxAlpha32": [
+        624,
+        110,
+        932,
+        398
+      ],
+      "transparentMarginsAlpha32": [
+        112,
+        110,
+        92,
+        114
+      ],
+      "cellBoundaryAlphaMax": 1
+    },
+    {
+      "key": "bluebird",
+      "labelForDocumentationOnly": "喜",
+      "cellRect": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "visibleLocalBBoxAlpha32": [
+        87,
+        140,
+        395,
+        367
+      ],
+      "visibleCanvasBBoxAlpha32": [
+        1111,
+        140,
+        1419,
+        367
+      ],
+      "transparentMarginsAlpha32": [
+        87,
+        140,
+        117,
+        145
+      ],
+      "cellBoundaryAlphaMax": 1
+    },
+    {
+      "key": "turtle",
+      "labelForDocumentationOnly": "輕安",
+      "cellRect": [
+        0,
+        512,
+        512,
+        512
+      ],
+      "visibleLocalBBoxAlpha32": [
+        141,
+        146,
+        426,
+        366
+      ],
+      "visibleCanvasBBoxAlpha32": [
+        141,
+        658,
+        426,
+        878
+      ],
+      "transparentMarginsAlpha32": [
+        141,
+        146,
+        86,
+        146
+      ],
+      "cellBoundaryAlphaMax": 1
+    },
+    {
+      "key": "lotus",
+      "labelForDocumentationOnly": "定",
+      "cellRect": [
+        512,
+        512,
+        512,
+        512
+      ],
+      "visibleLocalBBoxAlpha32": [
+        96,
+        138,
+        411,
+        379
+      ],
+      "visibleCanvasBBoxAlpha32": [
+        608,
+        650,
+        923,
+        891
+      ],
+      "transparentMarginsAlpha32": [
+        96,
+        138,
+        101,
+        133
+      ],
+      "cellBoundaryAlphaMax": 1
+    },
+    {
+      "key": "deer",
+      "labelForDocumentationOnly": "捨",
+      "cellRect": [
+        1024,
+        512,
+        512,
+        512
+      ],
+      "visibleLocalBBoxAlpha32": [
+        105,
+        107,
+        391,
+        393
+      ],
+      "visibleCanvasBBoxAlpha32": [
+        1129,
+        619,
+        1415,
+        905
+      ],
+      "transparentMarginsAlpha32": [
+        105,
+        107,
+        121,
+        119
+      ],
+      "cellBoundaryAlphaMax": 1
+    }
+  ],
+  "contentNotes": [
+    "No baked text, name cards or grid marks. Web labels remain separate.",
+    "Existing book artwork and manuscripts are unchanged.",
+    "Provisional generated modular-game art; not a new doctrinal or progress correspondence."
+  ]
+}

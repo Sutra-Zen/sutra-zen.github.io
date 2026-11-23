@@ -2,6 +2,7 @@
 export const T = {
   pageTitle: '六門城池｜佛陀的解憂之旅',
   scene: '六門城池',
+  thoughts:'城裡的心聲',sceneVisible:'場景已顯現',sceneWaiting:'等待模組安置',
   labels: '城內標牌',
   enlarge: '放大查看',
   overview: '看完整城池',

@@ -1,0 +1,69 @@
+{
+  "result": "passed",
+  "fixtureNotice": "Explicit QA completed arrays use isolated memory cityStore, not real reading.",
+  "errors": [],
+  "checks": [
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "nativeMouseCardDragToPlus": true,
+      "authoritativeAllButton": true,
+      "nullSelectionClearsAcrossRender": true,
+      "nativeActorTouchDragNoThought": true,
+      "freshNativeTapOpensThought": true,
+      "nativePinchNoAccidentalActor": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "nativeMouseCardDragToPlus": true,
+      "authoritativeAllButton": true,
+      "nullSelectionClearsAcrossRender": true,
+      "nativeActorTouchDragNoThought": true,
+      "freshNativeTapOpensThought": true,
+      "nativePinchNoAccidentalActor": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "nativeMouseCardDragToPlus": true,
+      "authoritativeAllButton": true,
+      "nullSelectionClearsAcrossRender": true,
+      "nativeActorTouchDragNoThought": true,
+      "freshNativeTapOpensThought": true,
+      "nativePinchNoAccidentalActor": true
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "nativeMouseCardDragToPlus": true,
+      "authoritativeAllButton": true,
+      "nullSelectionClearsAcrossRender": true,
+      "nativeActorTouchDragNoThought": true,
+      "freshNativeTapOpensThought": true,
+      "nativePinchNoAccidentalActor": true
+    }
+  ],
+  "physicalSafari": "Not tested; Chromium/CDP generated touch only",
+  "nativeHorizontalTouchReachesFourteenthCard": {
+    "scroll": {
+      "left": 1350,
+      "max": 1350
+    },
+    "lastCard": {
+      "x": 229,
+      "y": 513.21875,
+      "width": 112,
+      "height": 135.78125
+    }
+  },
+  "persistentArtFailureReappearsAfterRetry": true
+}

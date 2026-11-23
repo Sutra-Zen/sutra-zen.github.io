@@ -2,15 +2,15 @@ import {store} from '../collection/store.js';
 import {routeStatus,routeBooks} from '../route/selectors.js';
 import {canStartGameBook,canReviewGameBook,getGameBookAccess} from '../route/eligibility.js';
 import {routeMetadata} from '../route/metadata.js';
-import {initializeGameShell,GAME_URLS} from '../game-shell.js?v=mara-1';
-import {initializeTitleScreen} from '../title-screen.js?v=mara-1';
+import {initializeGameShell,GAME_URLS} from '../game-shell.js?v=modular-city-1';
+import {initializeTitleScreen} from '../title-screen.js?v=modular-city-1';
 import {createMapCamera} from './camera.js?v=original-frame-1';
 import {initializeStoryDialogue} from '../story/dialogue.js?v=mara-1';
 import {storyStore} from '../story/store.js?v=mara-1';
 import {consumeFirstCompletionReceipt} from '../story/completion-receipt.js?v=doubt-1';
 import {initializeDoubtStage} from '../story/doubt-stage.js?v=mara-1';
 import {STORY_UI} from '../story/data.js?v=mara-1';
-import {compactCompletionFeedback} from './completion-feedback.js?v=city-story-1';
+import {compactCompletionFeedback} from './completion-feedback.js?v=modular-city-1';
 import {WORLD,LANDMARKS,MEMBERS,NODES,EDGES,GEOGRAPHIC_ROAD,MAP_CONNECTIONS,conceptAnchor,sourceGroupAnchor,PRIMARY_BOOK_LANDMARK} from './data.js';
 import {T} from './text.js?v=original-frame-1';
 
@@ -156,7 +156,7 @@ function openReader(id,{bypassDoubt=false,bypassAggregatesIntro=false}={}){
  if(a.canStart)routeMetadata.markOpened(id);
  const u=new URL(b.reader,catalogURL);
  u.searchParams.set('collection','1');u.searchParams.set('collectionReturn','game');
- u.searchParams.set('collectionStory','mara-1');
+ u.searchParams.set('collectionStory','modular-city-1');
  if(a.canReview)u.searchParams.set('collectionReview','1');
  const at=a.canReview&&a.resumePosition===b.totalSteps-1?0:(a.resumePosition??0);
  u.searchParams.set('collectionPage',String(at));
@@ -233,6 +233,7 @@ document.addEventListener('click',e=>{
  if(b.hasAttribute('data-wm-retry')){const img=$('.wm-background');img.src=asset('assets/worldmap-master-concept.png')+'?retry='+Date.now();}
 });
 for(const event of ['sutrazen:collection-progress','sutrazen:route-metadata'])window.addEventListener(event,()=>{if(active)render();});
+window.addEventListener('sutrazen:journey-state',()=>{story.close();dialog.close();toolsDialog.close();completed=null;if(active){render();locateNext();const saved=store.get();if(!saved.completed.length&&!Object.keys(saved.positions).length)story.show('arrival-at-wheel');}});
 window.addEventListener('pageshow',()=>{if(active){render();camera?.refresh();}});
 const alias=location.hash==='#city'?'city':location.hash==='#shelf'?'shelf':null;
 if(alias)location.replace(GAME_URLS[alias]);
