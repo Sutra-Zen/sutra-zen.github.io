@@ -1,0 +1,230 @@
+{
+  "regionCount": 5,
+  "closed": true,
+  "dividers": 4,
+  "insideSamples": 3888,
+  "gaps": 0,
+  "outside": 0,
+  "overlap": 0,
+  "owners": {
+    "faith": [
+      {
+        "x": 432,
+        "y": 405,
+        "regions": [
+          "faith"
+        ]
+      },
+      {
+        "x": 432,
+        "y": 540,
+        "regions": [
+          "faith"
+        ]
+      }
+    ],
+    "mindfulness": [
+      {
+        "x": 672,
+        "y": 423,
+        "regions": [
+          "mindfulness"
+        ]
+      },
+      {
+        "x": 672,
+        "y": 585,
+        "regions": [
+          "mindfulness"
+        ]
+      }
+    ],
+    "effort": [
+      {
+        "x": 912,
+        "y": 486,
+        "regions": [
+          "effort"
+        ]
+      },
+      {
+        "x": 912,
+        "y": 630,
+        "regions": [
+          "effort"
+        ]
+      }
+    ],
+    "concentration": [
+      {
+        "x": 1152,
+        "y": 405,
+        "regions": [
+          "concentration"
+        ]
+      },
+      {
+        "x": 1152,
+        "y": 531,
+        "regions": [
+          "concentration"
+        ]
+      },
+      {
+        "x": 1152,
+        "y": 630,
+        "regions": [
+          "concentration"
+        ]
+      }
+    ],
+    "wisdom": [
+      {
+        "x": 1312,
+        "y": 414,
+        "regions": [
+          "wisdom"
+        ]
+      },
+      {
+        "x": 1496,
+        "y": 414,
+        "regions": [
+          "wisdom"
+        ]
+      },
+      {
+        "x": 1376,
+        "y": 504,
+        "regions": [
+          "wisdom"
+        ]
+      },
+      {
+        "x": 1512,
+        "y": 585,
+        "regions": [
+          "wisdom"
+        ]
+      },
+      {
+        "x": 1312,
+        "y": 630,
+        "regions": [
+          "wisdom"
+        ]
+      },
+      {
+        "x": 1480,
+        "y": 693,
+        "regions": [
+          "wisdom"
+        ]
+      }
+    ]
+  },
+  "excluded": [
+    {
+      "x": 128,
+      "y": 423,
+      "regions": []
+    },
+    {
+      "x": 432,
+      "y": 243,
+      "regions": []
+    },
+    {
+      "x": 672,
+      "y": 108,
+      "regions": []
+    },
+    {
+      "x": 1152,
+      "y": 243,
+      "regions": []
+    },
+    {
+      "x": 1392,
+      "y": 810,
+      "regions": []
+    },
+    {
+      "x": 672,
+      "y": 810,
+      "regions": []
+    }
+  ],
+  "labels": [
+    {
+      "family": "faith",
+      "box": {
+        "x": 317.625,
+        "y": 277.29376220703125,
+        "width": 55.95001220703125,
+        "height": 19.8125,
+        "top": 277.29376220703125,
+        "right": 373.57501220703125,
+        "bottom": 297.10626220703125,
+        "left": 317.625
+      },
+      "pointerEvents": "none"
+    },
+    {
+      "family": "mindfulness",
+      "box": {
+        "x": 509.625,
+        "y": 276.4937438964844,
+        "width": 55.95001220703125,
+        "height": 19.8125,
+        "top": 276.4937438964844,
+        "right": 565.5750122070312,
+        "bottom": 296.3062438964844,
+        "left": 509.625
+      },
+      "pointerEvents": "none"
+    },
+    {
+      "family": "effort",
+      "box": {
+        "x": 701.625,
+        "y": 271.6937561035156,
+        "width": 55.95001220703125,
+        "height": 19.8125,
+        "top": 271.6937561035156,
+        "right": 757.5750122070312,
+        "bottom": 291.5062561035156,
+        "left": 701.625
+      },
+      "pointerEvents": "none"
+    },
+    {
+      "family": "concentration",
+      "box": {
+        "x": 893.625,
+        "y": 275.6937561035156,
+        "width": 55.95001220703125,
+        "height": 19.8125,
+        "top": 275.6937561035156,
+        "right": 949.5750122070312,
+        "bottom": 295.5062561035156,
+        "left": 893.625
+      },
+      "pointerEvents": "none"
+    },
+    {
+      "family": "wisdom",
+      "box": {
+        "x": 1085.625,
+        "y": 278.8937683105469,
+        "width": 55.9500732421875,
+        "height": 19.8125,
+        "top": 278.8937683105469,
+        "right": 1141.5750732421875,
+        "bottom": 298.7062683105469,
+        "left": 1085.625
+      },
+      "pointerEvents": "none"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "kind": "Supplemental screenshot only, existing all14 isolated fixture",
+  "viewport": [
+    1600,
+    1000
+  ],
+  "nativeZoomOutScaleTrace": [
+    1.4,
+    1.0769230769230766,
+    1.0233333333333334
+  ],
+  "camera": {
+    "x": 818.2410423452769,
+    "y": 450.00000000000006,
+    "scale": 1.0233333333333334,
+    "fitScale": 1,
+    "coverScale": 1.0233333333333334,
+    "overview": false,
+    "restored": false,
+    "viewport": {
+      "width": 1600,
+      "height": 1000
+    },
+    "world": {
+      "width": 1600,
+      "height": 900
+    },
+    "defaultFocusScale": 1.4,
+    "outerBounds": {
+      "left": 0,
+      "top": 0,
+      "right": 1600,
+      "bottom": 900,
+      "width": 1600,
+      "height": 900
+    },
+    "safeInsets": {
+      "top": 0,
+      "right": 0,
+      "bottom": 79,
+      "left": 0
+    },
+    "visibleViewport": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 921,
+      "right": 1600,
+      "bottom": 921,
+      "centerX": 800,
+      "centerY": 460.5
+    },
+    "canReturn": false,
+    "overviewExplicit": false,
+    "offsetX": -37.333333333333485,
+    "offsetY": -1.1368683772161603e-13
+  },
+  "allFiveCityNamesInViewport": [
+    {
+      "id": "faith",
+      "text": "淨信城",
+      "x": 368.96197509765625,
+      "y": 354.7049255371094,
+      "right": 440.5313415527344,
+      "bottom": 380.04840087890625,
+      "visible": true
+    },
+    {
+      "id": "mindfulness",
+      "text": "正念城",
+      "x": 614.56201171875,
+      "y": 353.68157958984375,
+      "right": 686.13134765625,
+      "bottom": 379.0250549316406,
+      "visible": true
+    },
+    {
+      "id": "effort",
+      "text": "精進城",
+      "x": 860.1619873046875,
+      "y": 347.5415954589844,
+      "right": 931.7313232421875,
+      "bottom": 372.88507080078125,
+      "visible": true
+    },
+    {
+      "id": "concentration",
+      "text": "禪定城",
+      "x": 1105.761962890625,
+      "y": 352.6582336425781,
+      "right": 1177.331298828125,
+      "bottom": 378.0017395019531,
+      "visible": true
+    },
+    {
+      "id": "wisdom",
+      "text": "智慧城",
+      "x": 1351.3619384765625,
+      "y": 356.7515869140625,
+      "right": 1422.9312744140625,
+      "bottom": 382.0950622558594,
+      "visible": true
+    }
+  ],
+  "collectionRawUnchanged": true,
+  "noOverviewOrCameraSetApiUsed": true,
+  "image": "/tmp/five-city-regions-review/game-five-cities-wide.png"
+}
