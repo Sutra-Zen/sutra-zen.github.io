@@ -1,0 +1,798 @@
+{
+  "baseline": "a238a0fb549966ac0510b5b89f18b913c8ec40b6",
+  "counts": {
+    "source_narration_or_term_alignment": 7,
+    "author_interpretation_discussion": 29,
+    "edition_transcription_or_summary_label": 6
+  },
+  "meaning": "One group is not one wrong page; author discussions are not required corrections or permission to rewrite.",
+  "findings": [
+    {
+      "id": "F4-C01",
+      "group": "first4",
+      "book": "four-truths",
+      "category": "source_narration_or_term_alignment",
+      "readerPages": [
+        1
+      ],
+      "title": "象跡喻經開示者歸屬需校",
+      "detailFile": "groups/first4.json",
+      "jsonPointer": "/findings/0",
+      "sourceUrls": [
+        "https://suttacentral.net/ma30/lzh/taisho",
+        "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/ma/ma30.html"
+      ]
+    },
+    {
+      "id": "F4-C02",
+      "group": "first4",
+      "book": "five-aggregates",
+      "category": "source_narration_or_term_alignment",
+      "readerPages": [
+        7,
+        8,
+        9
+      ],
+      "title": "四大造色引文實出SA41卻指SA46",
+      "detailFile": "groups/first4.json",
+      "jsonPointer": "/findings/1",
+      "sourceUrls": [
+        "https://suttacentral.net/sa41/lzh/taisho",
+        "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa1-100/sa41.html",
+        "https://suttacentral.net/sa46/lzh/taisho",
+        "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa1-100/sa46.html"
+      ]
+    },
+    {
+      "id": "F4-C03",
+      "group": "first4",
+      "book": "five-aggregates",
+      "category": "source_narration_or_term_alignment",
+      "readerPages": [
+        43
+      ],
+      "title": "未來識口白仍配前頁過去識引文",
+      "detailFile": "groups/first4.json",
+      "jsonPointer": "/findings/2",
+      "sourceUrls": [
+        "https://suttacentral.net/sa46/lzh/taisho",
+        "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa1-100/sa46.html"
+      ]
+    },
+    {
+      "id": "F4-D01",
+      "group": "first4",
+      "book": "four-truths",
+      "category": "author_interpretation_discussion",
+      "readerPages": [
+        7,
+        8,
+        17,
+        18,
+        19
+      ],
+      "title": "五盛陰火喻與病癒本淨是敘事延伸",
+      "detailFile": "groups/first4.json",
+      "jsonPointer": "/findings/3",
+      "sourceUrls": [
+        "https://suttacentral.net/ea25.1/lzh/taisho",
+        "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/ea/ea25/ea25.1.html",
+        "https://suttacentral.net/sa55/lzh/taisho",
+        "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa1-100/sa55.html"
+      ]
+    },
+    {
+      "id": "F4-D02",
+      "group": "first4",
+      "book": "five-aggregates",
+      "category": "author_interpretation_discussion",
+      "readerPages": [
+        4,
+        5,
+        6
+      ],
+      "title": "宿命智三時句被讀成知道未來生命",
+      "detailFile": "groups/first4.json",
+      "jsonPointer": "/findings/4",
+      "sourceUrls": [
+        "https://suttacentral.net/sa46/lzh/taisho",
+        "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa1-100/sa46.html",
+        "https://suttacentral.net/sn22.79/zh/zhuang",
+        "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/sn/sn22/sn22.79.html"
+      ]
+    },
+    {
+      "id": "F4-D03",
+      "group": "first4",
+      "book": "five-aggregates",
+      "category": "author_interpretation_discussion",
+      "readerPages": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        34,
+        35,
+        36,
+        37,
+        38,
+        51
+      ],
+      "title": "想、識與判斷好壞的分工可更精確",
+      "detailFile": "groups/first4.json",
+      "jsonPointer": "/findings/5",
+      "sourceUrls": [
+        "https://suttacentral.net/sa46/lzh/taisho",
+        "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa1-100/sa46.html",
+        "https://cbetaonline.dila.edu.tw/zh/T1558",
+        "https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/T/T29/T29n1558.xml",
+        "https://raw.githubusercontent.com/cbeta-git/xml-p5a/6952edb0bca6b86a68c409b36e8be659a8a75e2b/T/T29/T29n1558.xml",
+        "https://cbetaonline.dila.edu.tw/zh/T1542",
+        "https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/T/T26/T26n1542.xml",
+        "https://raw.githubusercontent.com/cbeta-git/xml-p5a/6952edb0bca6b86a68c409b36e8be659a8a75e2b/T/T26/T26n1542.xml"
+      ]
+    },
+    {
+      "id": "F4-D04",
+      "group": "first4",
+      "book": "five-aggregates",
+      "category": "author_interpretation_discussion",
+      "readerPages": [
+        13,
+        14,
+        15,
+        16,
+        51,
+        52
+      ],
+      "title": "五陰與五受陰差別在總結易淡化",
+      "detailFile": "groups/first4.json",
+      "jsonPointer": "/findings/6",
+      "sourceUrls": [
+        "https://suttacentral.net/sa55/lzh/taisho",
+        "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa1-100/sa55.html",
+        "https://suttacentral.net/sa58/lzh/taisho",
+        "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa1-100/sa58.html"
+      ]
+    },
+    {
+      "id": "F4-D05",
+      "group": "first4",
+      "book": "six-senses",
+      "category": "author_interpretation_discussion",
+      "readerPages": [
+        29,
+        30,
+        31,
+        42,
+        43,
+        44,
+        45,
+        53,
+        54,
+        55,
+        56,
+        64,
+        65,
+        66,
+        67,
+        77,
+        78,
+        79,
+        80,
+        89,
+        90,
+        91
+      ],
+      "title": "六故事談五種患卻只節錄色患",
+      "detailFile": "groups/first4.json",
+      "jsonPointer": "/findings/7",
+      "sourceUrls": [
+        "https://suttacentral.net/sa41/lzh/taisho",
+        "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa1-100/sa41.html"
+      ]
+    },
+    {
+      "id": "F4-D06",
+      "group": "first4",
+      "book": "six-senses",
+      "category": "author_interpretation_discussion",
+      "readerPages": [
+        106,
+        107,
+        108,
+        109,
+        110
+      ],
+      "title": "不加喜歡討厭標籤的說明可澄清",
+      "detailFile": "groups/first4.json",
+      "jsonPointer": "/findings/8",
+      "sourceUrls": [
+        "https://suttacentral.net/sa245/lzh/taisho",
+        "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa201-300/sa245.html"
+      ]
+    },
+    {
+      "id": "TL-C01",
+      "group": "first4",
+      "book": "twelve-links",
+      "category": "source_narration_or_term_alignment",
+      "readerPages": [
+        44,
+        45
+      ],
+      "title": "滑手機例子的識、名色與所緣色境標名錯置",
+      "detailFile": "groups/first4.json",
+      "jsonPointer": "/findings/9",
+      "sourceUrls": [
+        "https://suttacentral.net/sa289/lzh/taisho",
+        "https://raw.githubusercontent.com/suttacentral/sc-data/a5758387a32a950671780bc213aa2d4debbe1362/html_text/lzh/sutta/sa/sa201-300/sa289.html",
+        "https://raw.githubusercontent.com/suttacentral/sc-data/a5758387a32a950671780bc213aa2d4debbe1362/html_text/lzh/sutta/sa/sa201-300/sa273.html",
+        "https://raw.githubusercontent.com/suttacentral/sc-data/a5758387a32a950671780bc213aa2d4debbe1362/html_text/lzh/sutta/sa/sa201-300/sa298.html"
+      ]
+    },
+    {
+      "id": "TL-D01",
+      "group": "first4",
+      "book": "twelve-links",
+      "category": "author_interpretation_discussion",
+      "readerPages": [
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "title": "有被寫成已定、不可逆轉的命運",
+      "detailFile": "groups/first4.json",
+      "jsonPointer": "/findings/10",
+      "sourceUrls": [
+        "https://suttacentral.net/sa285/lzh/taisho",
+        "https://raw.githubusercontent.com/suttacentral/sc-data/a5758387a32a950671780bc213aa2d4debbe1362/html_text/lzh/sutta/sa/sa201-300/sa285.html",
+        "https://suttacentral.net/sa298/lzh/taisho",
+        "https://raw.githubusercontent.com/suttacentral/sc-data/a5758387a32a950671780bc213aa2d4debbe1362/html_text/lzh/sutta/sa/sa201-300/sa298.html"
+      ]
+    },
+    {
+      "id": "TL-D02",
+      "group": "first4",
+      "book": "twelve-links",
+      "category": "author_interpretation_discussion",
+      "readerPages": [
+        14
+      ],
+      "title": "戒取被縮成僵化習慣",
+      "detailFile": "groups/first4.json",
+      "jsonPointer": "/findings/11",
+      "sourceUrls": [
+        "https://suttacentral.net/sa298/lzh/taisho",
+        "https://raw.githubusercontent.com/suttacentral/sc-data/a5758387a32a950671780bc213aa2d4debbe1362/html_text/lzh/sutta/sa/sa201-300/sa298.html"
+      ]
+    },
+    {
+      "id": "TL-D03",
+      "group": "first4",
+      "book": "twelve-links",
+      "category": "author_interpretation_discussion",
+      "readerPages": [
+        19
+      ],
+      "title": "三愛的三項白話例子不能逐項對應所引三愛",
+      "detailFile": "groups/first4.json",
+      "jsonPointer": "/findings/12",
+      "sourceUrls": [
+        "https://suttacentral.net/sa298/lzh/taisho",
+        "https://raw.githubusercontent.com/suttacentral/sc-data/a5758387a32a950671780bc213aa2d4debbe1362/html_text/lzh/sutta/sa/sa201-300/sa298.html"
+      ]
+    },
+    {
+      "id": "TL-D04",
+      "group": "first4",
+      "book": "twelve-links",
+      "category": "author_interpretation_discussion",
+      "readerPages": [
+        24
+      ],
+      "title": "受被一概寫成擾亂平靜",
+      "detailFile": "groups/first4.json",
+      "jsonPointer": "/findings/13",
+      "sourceUrls": [
+        "https://suttacentral.net/sa298/lzh/taisho",
+        "https://raw.githubusercontent.com/suttacentral/sc-data/a5758387a32a950671780bc213aa2d4debbe1362/html_text/lzh/sutta/sa/sa201-300/sa298.html"
+      ]
+    },
+    {
+      "id": "TL-D05",
+      "group": "first4",
+      "book": "twelve-links",
+      "category": "author_interpretation_discussion",
+      "readerPages": [
+        27,
+        28,
+        29
+      ],
+      "title": "觸的握手譬喻漏掉相應識",
+      "detailFile": "groups/first4.json",
+      "jsonPointer": "/findings/14",
+      "sourceUrls": [
+        "https://suttacentral.net/sa298/lzh/taisho",
+        "https://raw.githubusercontent.com/suttacentral/sc-data/a5758387a32a950671780bc213aa2d4debbe1362/html_text/lzh/sutta/sa/sa201-300/sa298.html",
+        "https://raw.githubusercontent.com/suttacentral/sc-data/a5758387a32a950671780bc213aa2d4debbe1362/html_text/lzh/sutta/sa/sa201-300/sa273.html"
+      ]
+    },
+    {
+      "id": "TL-D06",
+      "group": "first4",
+      "book": "twelve-links",
+      "category": "author_interpretation_discussion",
+      "readerPages": [
+        40,
+        41
+      ],
+      "title": "識的能量譬喻與名色相依引文範圍",
+      "detailFile": "groups/first4.json",
+      "jsonPointer": "/findings/15",
+      "sourceUrls": [
+        "https://suttacentral.net/sa292/lzh/taisho",
+        "https://raw.githubusercontent.com/suttacentral/sc-data/a5758387a32a950671780bc213aa2d4debbe1362/html_text/lzh/sutta/sa/sa201-300/sa292.html",
+        "https://raw.githubusercontent.com/suttacentral/sc-data/a5758387a32a950671780bc213aa2d4debbe1362/html_text/lzh/sutta/sa/sa201-300/sa288.html",
+        "https://suttacentral.net/sa288/lzh/taisho"
+      ]
+    },
+    {
+      "id": "TL-D07",
+      "group": "first4",
+      "book": "twelve-links",
+      "category": "author_interpretation_discussion",
+      "readerPages": [
+        42
+      ],
+      "title": "識被稱為住在心裡的觀察者",
+      "detailFile": "groups/first4.json",
+      "jsonPointer": "/findings/16",
+      "sourceUrls": [
+        "https://suttacentral.net/sa298/lzh/taisho",
+        "https://raw.githubusercontent.com/suttacentral/sc-data/a5758387a32a950671780bc213aa2d4debbe1362/html_text/lzh/sutta/sa/sa201-300/sa298.html"
+      ]
+    },
+    {
+      "id": "TL-D08",
+      "group": "first4",
+      "book": "twelve-links",
+      "category": "author_interpretation_discussion",
+      "readerPages": [
+        52
+      ],
+      "title": "無所有行被泛化為追求平靜",
+      "detailFile": "groups/first4.json",
+      "jsonPointer": "/findings/17",
+      "sourceUrls": [
+        "https://suttacentral.net/sa292/lzh/taisho",
+        "https://raw.githubusercontent.com/suttacentral/sc-data/a5758387a32a950671780bc213aa2d4debbe1362/html_text/lzh/sutta/sa/sa201-300/sa292.html",
+        "https://raw.githubusercontent.com/suttacentral/bilara-data/published/root/pli/ms/sutta/sn/sn12/sn12.51_root-pli-ms.json"
+      ]
+    },
+    {
+      "id": "TL-D09",
+      "group": "first4",
+      "book": "twelve-links",
+      "category": "author_interpretation_discussion",
+      "readerPages": [
+        60,
+        61,
+        62,
+        63,
+        64
+      ],
+      "title": "不思量被讀成停念即可終結生死",
+      "detailFile": "groups/first4.json",
+      "jsonPointer": "/findings/18",
+      "sourceUrls": [
+        "https://suttacentral.net/sa360/lzh/taisho",
+        "https://raw.githubusercontent.com/suttacentral/sc-data/a5758387a32a950671780bc213aa2d4debbe1362/html_text/lzh/sutta/sa/sa301-400/sa360.html"
+      ]
+    },
+    {
+      "id": "TL-D10",
+      "group": "first4",
+      "book": "twelve-links",
+      "category": "author_interpretation_discussion",
+      "readerPages": [
+        66,
+        67,
+        69
+      ],
+      "title": "明觸的條件被縮成喜惡或換語法",
+      "detailFile": "groups/first4.json",
+      "jsonPointer": "/findings/19",
+      "sourceUrls": [
+        "https://suttacentral.net/sa45/lzh/taisho",
+        "https://raw.githubusercontent.com/suttacentral/sc-data/a5758387a32a950671780bc213aa2d4debbe1362/html_text/lzh/sutta/sa/sa1-100/sa45.html"
+      ]
+    },
+    {
+      "id": "TL-D11",
+      "group": "first4",
+      "book": "twelve-links",
+      "category": "author_interpretation_discussion",
+      "readerPages": [
+        76
+      ],
+      "title": "心經明暗譬喻須區分無自性與未曾發生",
+      "detailFile": "groups/first4.json",
+      "jsonPointer": "/findings/20",
+      "sourceUrls": [
+        "https://cbetaonline.dila.edu.tw/zh/T0251",
+        "https://raw.githubusercontent.com/cbeta-org/xml-p5/8ebac86d00719479db5777dc6cd77ba111c3067a/T/T08/T08n0251.xml"
+      ]
+    },
+    {
+      "id": "EIGHT-C01",
+      "group": "middle3",
+      "book": "eightfold-path",
+      "category": "source_narration_or_term_alignment",
+      "readerPages": [
+        69,
+        69
+      ],
+      "title": "口白精確引語「常不休息」與當頁所列SA777不是同一出處；不是SA777引文字句造假。",
+      "detailFile": "groups/middle3.json",
+      "jsonPointer": "/findings/0",
+      "sourceUrls": [
+        "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa785.html"
+      ]
+    },
+    {
+      "id": "EIGHT-AR01",
+      "group": "middle3",
+      "book": "eightfold-path",
+      "category": "author_interpretation_discussion",
+      "readerPages": [
+        64,
+        66
+      ],
+      "title": "世俗／出世間正方便被化約為追逐快樂與改成逆流目標。",
+      "detailFile": "groups/middle3.json",
+      "jsonPointer": "/findings/1",
+      "sourceUrls": [
+        "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa785.html"
+      ]
+    },
+    {
+      "id": "EIGHT-AR02",
+      "group": "middle3",
+      "book": "eightfold-path",
+      "category": "author_interpretation_discussion",
+      "readerPages": [
+        75,
+        86
+      ],
+      "title": "「記得＝世俗、看清＝出世間」適合作教學任務，但不是SA785的原始二分定義。",
+      "detailFile": "groups/middle3.json",
+      "jsonPointer": "/findings/2",
+      "sourceUrls": [
+        "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa785.html"
+      ]
+    },
+    {
+      "id": "EIGHT-AR03",
+      "group": "middle3",
+      "book": "eightfold-path",
+      "category": "author_interpretation_discussion",
+      "readerPages": [
+        95,
+        96
+      ],
+      "title": "只有波紋完全消失才能映照四聖諦，比MA42所選「因定見如實」更強。",
+      "detailFile": "groups/middle3.json",
+      "jsonPointer": "/findings/3",
+      "sourceUrls": [
+        "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/ma/ma42.html"
+      ]
+    },
+    {
+      "id": "FRUIT-AR01",
+      "group": "middle3",
+      "book": "four-fruits-ten-fetters",
+      "category": "author_interpretation_discussion",
+      "readerPages": [
+        28,
+        28
+      ],
+      "title": "初果斬斷前幕標「貪愛」的整條皮帶，可能讓人誤以為初果已斷一切貪愛、終止輪迴。",
+      "detailFile": "groups/middle3.json",
+      "jsonPointer": "/findings/4",
+      "sourceUrls": [
+        "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/ea/ea28/ea28.7.html"
+      ]
+    },
+    {
+      "id": "FRUIT-AR02",
+      "group": "middle3",
+      "book": "four-fruits-ten-fetters",
+      "category": "author_interpretation_discussion",
+      "readerPages": [
+        46,
+        50
+      ],
+      "title": "SA71斷關原句真實，但原段列舉阿羅漢德相；本幕把其中斷五下分結用來解釋三果。",
+      "detailFile": "groups/middle3.json",
+      "jsonPointer": "/findings/5",
+      "sourceUrls": [
+        "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa1-100/sa71.html"
+      ]
+    },
+    {
+      "id": "FRUIT-AR03",
+      "group": "middle3",
+      "book": "four-fruits-ten-fetters",
+      "category": "author_interpretation_discussion",
+      "readerPages": [
+        66,
+        67
+      ],
+      "title": "伽藍經被概括成只需親驗「對自己當下有益」即可，省略了經中的善惡與利他條件。",
+      "detailFile": "groups/middle3.json",
+      "jsonPointer": "/findings/6",
+      "sourceUrls": [
+        "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/ma/ma16.html"
+      ]
+    },
+    {
+      "id": "PUR-F01",
+      "group": "middle3",
+      "book": "four-purities-six-recollections",
+      "category": "author_interpretation_discussion",
+      "readerPages": [
+        11,
+        11
+      ],
+      "title": "隨信行／隨法行與已得須陀洹果的階段須分清",
+      "detailFile": "groups/middle3.json",
+      "jsonPointer": "/findings/7",
+      "sourceUrls": [
+        "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa1-100/sa61.html"
+      ]
+    },
+    {
+      "id": "PUR-F02",
+      "group": "middle3",
+      "book": "four-purities-six-recollections",
+      "category": "source_narration_or_term_alignment",
+      "readerPages": [
+        85,
+        85
+      ],
+      "title": "554經患病長者人物名不符",
+      "detailFile": "groups/middle3.json",
+      "jsonPointer": "/findings/8",
+      "sourceUrls": [
+        "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa501-600/sa554.html"
+      ]
+    },
+    {
+      "id": "PUR-F03",
+      "group": "middle3",
+      "book": "four-purities-six-recollections",
+      "category": "author_interpretation_discussion",
+      "readerPages": [
+        12,
+        12
+      ],
+      "title": "中間不死的期限與結果須依原經語境",
+      "detailFile": "groups/middle3.json",
+      "jsonPointer": "/findings/9",
+      "sourceUrls": [
+        "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa1-100/sa61.html"
+      ]
+    },
+    {
+      "id": "AP-01",
+      "group": "practice3",
+      "book": "anapana",
+      "category": "source_narration_or_term_alignment",
+      "readerPages": [
+        76,
+        86
+      ],
+      "title": "四道來源SA560正確，但該經開示者是阿難，不是佛陀直接說。非卡片移錯頁，而是原口白歸屬應校。",
+      "detailFile": "groups/practice3.json",
+      "jsonPointer": "/findings/0",
+      "sourceUrls": [
+        "https://suttacentral.net/sa560/lzh/taisho"
+      ]
+    },
+    {
+      "id": "MF-01",
+      "group": "practice3",
+      "book": "mindfulness",
+      "category": "edition_transcription_or_summary_label",
+      "readerPages": [
+        31,
+        34
+      ],
+      "title": "來源與身體部位口白相應，但reader錄文與導讀/大正藏原文不同；痰/膽是不同項，不只是標點，毛/髦是另一字形差異。",
+      "detailFile": "groups/practice3.json",
+      "jsonPointer": "/findings/1",
+      "sourceUrls": [
+        "https://suttacentral.net/ma98/lzh/taisho#t0583b06"
+      ]
+    },
+    {
+      "id": "RE-01",
+      "group": "practice3",
+      "book": "right-effort",
+      "category": "edition_transcription_or_summary_label",
+      "readerPages": [
+        38,
+        39
+      ],
+      "title": "隨護斷配SA879正確；影片屍相列舉與所連原典/導讀不同，少脹相、出現爛相。",
+      "detailFile": "groups/practice3.json",
+      "jsonPointer": "/findings/2",
+      "sourceUrls": [
+        "https://suttacentral.net/sa879/lzh/taisho#t0221b26"
+      ]
+    },
+    {
+      "id": "RE-02",
+      "group": "practice3",
+      "book": "right-effort",
+      "category": "edition_transcription_or_summary_label",
+      "readerPages": [
+        64,
+        71
+      ],
+      "title": "經名內容相應；掉/調為影片與所連大正藏版字差，導讀已用調。",
+      "detailFile": "groups/practice3.json",
+      "jsonPointer": "/findings/3",
+      "sourceUrls": [
+        "https://suttacentral.net/ma95/lzh/taisho#t0577b27"
+      ]
+    },
+    {
+      "id": "MF-02",
+      "group": "practice3",
+      "book": "mindfulness",
+      "category": "author_interpretation_discussion",
+      "readerPages": [
+        35,
+        38
+      ],
+      "title": "上方選講四大，下方六界；非互換引用，但不能把六界原文當成僅說四大，既有review已記。",
+      "detailFile": "groups/practice3.json",
+      "jsonPointer": "/findings/4",
+      "sourceUrls": [
+        "https://suttacentral.net/ma98/lzh/taisho#t0583b18"
+      ]
+    },
+    {
+      "id": "MF-03",
+      "group": "practice3",
+      "book": "mindfulness",
+      "category": "author_interpretation_discussion",
+      "readerPages": [
+        91,
+        91
+      ],
+      "title": "來源七覺支正確，但四禪結句及立即結果超出這段摘錄，不是直接出處。",
+      "detailFile": "groups/practice3.json",
+      "jsonPointer": "/findings/5",
+      "sourceUrls": [
+        "https://suttacentral.net/ma98/lzh/taisho#t0584b04"
+      ]
+    },
+    {
+      "id": "MF-04",
+      "group": "practice3",
+      "book": "mindfulness",
+      "category": "author_interpretation_discussion",
+      "readerPages": [
+        48,
+        49
+      ],
+      "title": "苦顛倒主題相應，但「已證」不是此摘錄直譯，更非觀察一次感受即證的承諾。",
+      "detailFile": "groups/practice3.json",
+      "jsonPointer": "/findings/6",
+      "sourceUrls": [
+        "https://suttacentral.net/an4.49/zh/zhuang"
+      ]
+    },
+    {
+      "id": "MF-05",
+      "group": "practice3",
+      "book": "mindfulness",
+      "category": "author_interpretation_discussion",
+      "readerPages": [
+        107,
+        109
+      ],
+      "title": "念經而非念處經的引用正確；善念/不損心譬喻不能單獨作四念處圓滿或證涅槃判定。",
+      "detailFile": "groups/practice3.json",
+      "jsonPointer": "/findings/7",
+      "sourceUrls": [
+        "https://suttacentral.net/ma102/lzh/taisho#t0589b27"
+      ]
+    },
+    {
+      "id": "final4-01",
+      "group": "final4",
+      "book": "seven-factors",
+      "category": "edition_transcription_or_summary_label",
+      "readerPages": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "title": "MN10摘要沒有在閱讀卡上標成摘要",
+      "detailFile": "groups/final4.json",
+      "jsonPointer": "/findings/0",
+      "sourceUrls": [
+        "https://suttacentral.net/mn10/zh/zhuang"
+      ]
+    },
+    {
+      "id": "final4-02",
+      "group": "final4",
+      "book": "five-roots-powers",
+      "category": "edition_transcription_or_summary_label",
+      "readerPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "title": "SN48.43影片譯句與所核莊譯不同，須分版本",
+      "detailFile": "groups/final4.json",
+      "jsonPointer": "/findings/1",
+      "sourceUrls": [
+        "https://suttacentral.net/sn48.43/zh/zhuang"
+      ]
+    },
+    {
+      "id": "final4-03",
+      "group": "final4",
+      "book": "five-roots-powers",
+      "category": "edition_transcription_or_summary_label",
+      "readerPages": [
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "title": "675經錄文多一個「是」",
+      "detailFile": "groups/final4.json",
+      "jsonPointer": "/findings/2",
+      "sourceUrls": [
+        "https://suttacentral.net/sa675/lzh/taisho"
+      ]
+    }
+  ]
+}

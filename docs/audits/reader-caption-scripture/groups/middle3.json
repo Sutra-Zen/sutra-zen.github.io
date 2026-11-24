@@ -1,0 +1,5650 @@
+{
+  "audit": "SutraZen middle three readers narration/scripture audit",
+  "baseline": "a238a0fb549966ac0510b5b89f18b913c8ec40b6",
+  "branch": "audit/reader-caption-scripture",
+  "createdAtUtc": "2026-11-23T23:51:01.215384+00:00",
+  "scope": "Read-only. Runtime manuscripts, images, sources, and rendering code were not changed. All reader page numbers below are human-visible 1-based numbers, not video scene numbers.",
+  "method": [
+    "Read every runtime narration cue and lower quote group in the three actual BOOK datasets, and compare original author storyboard/README plus actual generator switching rules.",
+    "Downloaded 24 complete official SuttaCentral sc-data pinned HTML files (20 middle-pair files including one guide-only MA189, plus four Purities files), HTTP200 and every recorded SHA-256 matched. Read relevant full original paragraphs/context; inspect canonical headings/edition/translator.",
+    "Checked literal excerpts removing only reference anchors, punctuation and whitespace, then independently assessed meaning and phase/speaker context. Literal substring success alone was not treated as semantic correctness.",
+    "Inspected real book.js verseLabel/verse/source assignment and guide anchor/provider metadata. Root separately checks every rendered page; this report does not claim film/audio or device verification."
+  ],
+  "summary": {
+    "readerPagesCovered": 281,
+    "originalNarrationCuesCovered": 277,
+    "authoredScenesCovered": 32,
+    "editorialAndClosingPages": 4,
+    "canonicalFullFilesFetched": 24,
+    "actuallyUsedCanonicalFullTexts": 23,
+    "allDownloadedFilesHttp200AndExpectedShaMatch": true,
+    "confirmedWrongSutraNumberOrQuoteCharacterOmissionOrSplice": 0,
+    "confirmedLocalCueAlignmentIssues": 1,
+    "confirmedNarrationNameMismatch": 1,
+    "authorReviewFindings": 8,
+    "allFindings": 10,
+    "runtimeEdits": 0
+  },
+  "priorityFindings": [
+    "EIGHT-C01",
+    "EIGHT-AR01",
+    "EIGHT-AR02",
+    "EIGHT-AR03",
+    "FRUIT-AR01",
+    "FRUIT-AR03",
+    "PUR-F01",
+    "PUR-F02",
+    "PUR-F03"
+  ],
+  "books": [
+    {
+      "book": "eightfold-path",
+      "title": "八正道與十善業道",
+      "baseline": "a238a0fb549966ac0510b5b89f18b913c8ec40b6",
+      "statistics": {
+        "readerPages": 111,
+        "originalNarrationCues": 110,
+        "originalScenes": 13,
+        "editorialPages": 1,
+        "contiguousGroupsIncludingNoQuote": 27,
+        "nonemptyContiguousQuoteGroups": 25,
+        "distinctQuotedStates": 22,
+        "actualCanonicalSources": 11,
+        "confirmedQuoteWrongSutraOrCharacterOmissionOrSplice": 0,
+        "authorNarrationExactlyPreservedInOrder": true,
+        "confirmedLocalCueAlignmentIssues": 1,
+        "authorReviewFindings": 3
+      },
+      "sources": [
+        {
+          "id": "ma16",
+          "url": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/ma/ma16.html",
+          "expectedSha256": "f6839916799e80a27da5f5418049012693095b55eea5f7353a5d9845bcefa0cb",
+          "status": 200,
+          "sha256": "f6839916799e80a27da5f5418049012693095b55eea5f7353a5d9845bcefa0cb",
+          "expectedShaMatch": true,
+          "path": "/tmp/sutra-audit-middle3-sources/ma16.html"
+        },
+        {
+          "id": "ma200",
+          "url": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/ma/ma200.html",
+          "expectedSha256": "7c11b9244f6edc2b3de98368116d888dbd9aa83b1218475976594bc9ca6cb81f",
+          "status": 200,
+          "sha256": "7c11b9244f6edc2b3de98368116d888dbd9aa83b1218475976594bc9ca6cb81f",
+          "expectedShaMatch": true,
+          "path": "/tmp/sutra-audit-middle3-sources/ma200.html"
+        },
+        {
+          "id": "ma42",
+          "url": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/ma/ma42.html",
+          "expectedSha256": "a89ab53b35a9c74a62dbd6243d23a72cf8dd94c2bc00a2371369053f0875ec4d",
+          "status": 200,
+          "sha256": "a89ab53b35a9c74a62dbd6243d23a72cf8dd94c2bc00a2371369053f0875ec4d",
+          "expectedShaMatch": true,
+          "path": "/tmp/sutra-audit-middle3-sources/ma42.html"
+        },
+        {
+          "id": "sa1039",
+          "url": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa1001-1100/sa1039.html",
+          "expectedSha256": "bfa6a47349ab8fcc98c9f6f9c5d080ad49ef1688e4f79956d84bffb3c9581022",
+          "status": 200,
+          "sha256": "bfa6a47349ab8fcc98c9f6f9c5d080ad49ef1688e4f79956d84bffb3c9581022",
+          "expectedShaMatch": true,
+          "path": "/tmp/sutra-audit-middle3-sources/sa1039.html"
+        },
+        {
+          "id": "sa241",
+          "url": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa201-300/sa241.html",
+          "expectedSha256": "c27663e6fb40983113b770b280e67ee59f85870aeb4ec2641bb4a4efc9988124",
+          "status": 200,
+          "sha256": "c27663e6fb40983113b770b280e67ee59f85870aeb4ec2641bb4a4efc9988124",
+          "expectedShaMatch": true,
+          "path": "/tmp/sutra-audit-middle3-sources/sa241.html"
+        },
+        {
+          "id": "sa748",
+          "url": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa748.html",
+          "expectedSha256": "975d7d7216772c4a5b6d4e37ad0a256ecbe392ac3168e144b76ccb265136d569",
+          "status": 200,
+          "sha256": "975d7d7216772c4a5b6d4e37ad0a256ecbe392ac3168e144b76ccb265136d569",
+          "expectedShaMatch": true,
+          "path": "/tmp/sutra-audit-middle3-sources/sa748.html"
+        },
+        {
+          "id": "sa749",
+          "url": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa749.html",
+          "expectedSha256": "b131f3caf981261ab25dce8f9b65b189bdb18269900b67bf02166654d1c5f281",
+          "status": 200,
+          "sha256": "b131f3caf981261ab25dce8f9b65b189bdb18269900b67bf02166654d1c5f281",
+          "expectedShaMatch": true,
+          "path": "/tmp/sutra-audit-middle3-sources/sa749.html"
+        },
+        {
+          "id": "sa771",
+          "url": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa771.html",
+          "expectedSha256": "a9157c95eebfca45b2b8457153451f7dddd7a7923d497b0bec36fbe3a5d24251",
+          "status": 200,
+          "sha256": "a9157c95eebfca45b2b8457153451f7dddd7a7923d497b0bec36fbe3a5d24251",
+          "expectedShaMatch": true,
+          "path": "/tmp/sutra-audit-middle3-sources/sa771.html"
+        },
+        {
+          "id": "sa777",
+          "url": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa777.html",
+          "expectedSha256": "9d902786ed1f6920c70592ab2dd28f7f9d8d292ecee5d0ff3eef3d91b913ec3c",
+          "status": 200,
+          "sha256": "9d902786ed1f6920c70592ab2dd28f7f9d8d292ecee5d0ff3eef3d91b913ec3c",
+          "expectedShaMatch": true,
+          "path": "/tmp/sutra-audit-middle3-sources/sa777.html"
+        },
+        {
+          "id": "sa784",
+          "url": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa784.html",
+          "expectedSha256": "60a23cf19e1e304a2dea481cdd9176c90994348e8860cea032fa9e3d843a179b",
+          "status": 200,
+          "sha256": "60a23cf19e1e304a2dea481cdd9176c90994348e8860cea032fa9e3d843a179b",
+          "expectedShaMatch": true,
+          "path": "/tmp/sutra-audit-middle3-sources/sa784.html"
+        },
+        {
+          "id": "sa785",
+          "url": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa785.html",
+          "expectedSha256": "03487e6d84e10e5ad88433c9e3041d2fc6b148062e7d52bfa57845b27707a14d",
+          "status": 200,
+          "sha256": "03487e6d84e10e5ad88433c9e3041d2fc6b148062e7d52bfa57845b27707a14d",
+          "expectedShaMatch": true,
+          "path": "/tmp/sutra-audit-middle3-sources/sa785.html"
+        }
+      ],
+      "coverage": [
+        {
+          "scene": 1,
+          "title": "片頭｜黑暗中摸索",
+          "readerPages": [
+            1,
+            1
+          ],
+          "verseLabel": "",
+          "verse": "",
+          "readerSourceAnchor": null,
+          "canonicalId": null,
+          "verifiedFullTextURL": null,
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": null,
+          "semanticReview": "片頭明暗為作者引入，原交接明載未列經文；空白非漏配。",
+          "runtimeSource": {
+            "file": "eightfold-path/book/book-data.js",
+            "line": 676
+          },
+          "narrationCues": [
+            {
+              "readerPage": 1,
+              "subtitle": 1,
+              "time": "00:00–00:08",
+              "lines": [
+                "在太陽還沒出來之前，我們習慣在黑暗中摸索，以為我們所認知的就是真實。"
+              ],
+              "runtimeLine": 681,
+              "verseLine": 690,
+              "sourceLine": 692
+            }
+          ],
+          "findingIds": [],
+          "status": "intentional-no-scripture"
+        },
+        {
+          "scene": 2,
+          "title": "正見｜看清地圖",
+          "readerPages": [
+            2,
+            2
+          ],
+          "verseLabel": "《雜阿含經》第748經〈日出〉（節錄）",
+          "verse": "如日出前相，謂明相初光。如是比丘正盡苦邊、究竟苦邊前相者，所謂正見。",
+          "readerSourceAnchor": "../#sa748",
+          "canonicalId": "sa748",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa748.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "SA748日出前相確為正見，對應看清地圖與陽光；後文同經依次引起八正道，主題吻合。",
+          "runtimeSource": {
+            "file": "eightfold-path/book/book-data.js",
+            "line": 694
+          },
+          "narrationCues": [
+            {
+              "readerPage": 2,
+              "subtitle": 1,
+              "time": "00:08–00:14",
+              "lines": [
+                "陽光灑下，小貓終於看清了手中這張名為「正見」的地圖。"
+              ],
+              "runtimeLine": 699,
+              "verseLine": 708,
+              "sourceLine": 710
+            }
+          ],
+          "findingIds": [],
+          "status": "verified-pairing"
+        },
+        {
+          "scene": 2,
+          "title": "正見｜看清地圖",
+          "readerPages": [
+            3,
+            6
+          ],
+          "verseLabel": "《雜阿含經》第784經〈邪正〉（節錄）",
+          "verse": "何等為正見？謂說有施、有說、有齋，有善行、有惡行，有善惡行果報，有此世、有他世，有父母、有眾生生，有阿羅漢善到、善向，有此世、他世自知作證具足住：『我生已盡，梵行已立，所作已作，自知不受後有。』",
+          "readerSourceAnchor": "../#sa784",
+          "canonicalId": "sa784",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa784.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "SA784世間正見的施、齋、業果、此彼世、父母及阿羅漢，與4–6頁逐項白話相應；前世/父母恩為作者解釋，不改原句。",
+          "runtimeSource": {
+            "file": "eightfold-path/book/book-data.js",
+            "line": 712
+          },
+          "narrationCues": [
+            {
+              "readerPage": 3,
+              "subtitle": 2,
+              "time": "00:14–00:18",
+              "lines": [
+                "表面上，這張地圖標示著「哪裡安全，哪裡危險」。"
+              ],
+              "runtimeLine": 717,
+              "verseLine": 726,
+              "sourceLine": 728
+            },
+            {
+              "readerPage": 4,
+              "subtitle": 3,
+              "time": "00:18–00:24",
+              "lines": [
+                "它告訴我們：相信布施與善行是有價值的，相信善惡都有回報；"
+              ],
+              "runtimeLine": 735,
+              "verseLine": 744,
+              "sourceLine": 746
+            },
+            {
+              "readerPage": 5,
+              "subtitle": 4,
+              "time": "00:24–00:30",
+              "lines": [
+                "相信有前世與來世，相信父母有養育之恩；"
+              ],
+              "runtimeLine": 753,
+              "verseLine": 762,
+              "sourceLine": 764
+            },
+            {
+              "readerPage": 6,
+              "subtitle": 5,
+              "time": "00:30–00:35",
+              "lines": [
+                "並且相信，這世上真有修行證悟的阿羅漢，已經徹底超越了輪迴的苦。"
+              ],
+              "runtimeLine": 771,
+              "verseLine": 780,
+              "sourceLine": 782
+            }
+          ],
+          "findingIds": [],
+          "status": "verified-pairing"
+        },
+        {
+          "scene": 2,
+          "title": "正見｜看清地圖",
+          "readerPages": [
+            7,
+            11
+          ],
+          "verseLabel": "《雜阿含經》第785經〈邪正〉（節錄）",
+          "verse": "何等為正見是聖、出世間，無漏、不取，正盡苦，轉向苦邊？謂聖弟子苦苦思惟，集、滅、道道思惟，無漏思惟相應，於法選擇，分別推求，覺知黠慧，開覺觀察，是名正見是聖、出世間，無漏、不取，正盡苦，轉向苦邊。",
+          "readerSourceAnchor": "../#sa785",
+          "canonicalId": "sa785",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa785.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "SA785出世間正見以四聖諦思惟與無漏相應為條件，配看透苦及止息路徑恰當；河流/隱藏路線屬故事。",
+          "runtimeSource": {
+            "file": "eightfold-path/book/book-data.js",
+            "line": 784
+          },
+          "narrationCues": [
+            {
+              "readerPage": 7,
+              "subtitle": 6,
+              "time": "00:35–00:40",
+              "lines": [
+                "但這還不夠，「正見」地圖還有更深層的指引。"
+              ],
+              "runtimeLine": 789,
+              "verseLine": 798,
+              "sourceLine": 800
+            },
+            {
+              "readerPage": 8,
+              "subtitle": 7,
+              "time": "00:40–00:45",
+              "lines": [
+                "要渡過眼前這條生老病死的「生死之流」，"
+              ],
+              "runtimeLine": 807,
+              "verseLine": 816,
+              "sourceLine": 818
+            },
+            {
+              "readerPage": 9,
+              "subtitle": 8,
+              "time": "00:45–00:50",
+              "lines": [
+                "我們需要看透「苦」的真相，以及煩惱止息的路徑。"
+              ],
+              "runtimeLine": 825,
+              "verseLine": 834,
+              "sourceLine": 836
+            },
+            {
+              "readerPage": 10,
+              "subtitle": 9,
+              "time": "00:50–00:54",
+              "lines": [
+                "只有看懂了這條隱藏的路線，"
+              ],
+              "runtimeLine": 843,
+              "verseLine": 852,
+              "sourceLine": 854
+            },
+            {
+              "readerPage": 11,
+              "subtitle": 10,
+              "time": "00:54–00:58",
+              "lines": [
+                "我們才能從不停打轉的岸邊，真正出發，前往安穩的彼岸。"
+              ],
+              "runtimeLine": 861,
+              "verseLine": 870,
+              "sourceLine": 872
+            }
+          ],
+          "findingIds": [],
+          "status": "verified-pairing"
+        },
+        {
+          "scene": 3,
+          "title": "正志｜校正羅盤",
+          "readerPages": [
+            12,
+            14
+          ],
+          "verseLabel": "《雜阿含經》第784經〈邪正〉（節錄）",
+          "verse": "何等為正志？謂出要志、無恚志、不害志。",
+          "readerSourceAnchor": "../#sa784",
+          "canonicalId": "sa784",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa784.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "SA784出要、無恚、不害三志，與貪瞋亂羅盤的引入相關。",
+          "runtimeSource": {
+            "file": "eightfold-path/book/book-data.js",
+            "line": 874
+          },
+          "narrationCues": [
+            {
+              "readerPage": 12,
+              "subtitle": 1,
+              "time": "00:59–01:04",
+              "lines": [
+                "有了地圖，我們還需要一個不受干擾的羅盤。"
+              ],
+              "runtimeLine": 879,
+              "verseLine": 888,
+              "sourceLine": 890
+            },
+            {
+              "readerPage": 13,
+              "subtitle": 2,
+              "time": "01:04–01:09",
+              "lines": [
+                "過去，我們心裡的指針總是瘋狂亂轉。"
+              ],
+              "runtimeLine": 897,
+              "verseLine": 906,
+              "sourceLine": 908
+            },
+            {
+              "readerPage": 14,
+              "subtitle": 3,
+              "time": "01:09–01:17",
+              "lines": [
+                "一下倒向「貪婪」，想抓取喜歡的；一下偏向「憤怒」，想推開討厭的。"
+              ],
+              "runtimeLine": 915,
+              "verseLine": 924,
+              "sourceLine": 926
+            }
+          ],
+          "findingIds": [],
+          "status": "verified-pairing"
+        },
+        {
+          "scene": 3,
+          "title": "正志｜校正羅盤",
+          "readerPages": [
+            15,
+            16
+          ],
+          "verseLabel": "《雜阿含經》第241經〈燒熱〉（節錄）",
+          "verse": "我今寧以熾然鐵槍以貫其目，不以眼識取於色相，墮三惡趣，長夜受苦。我從今日當正思惟：「觀眼無常、有為、心緣生法，若色、眼識、眼觸、眼觸因緣生受，內覺若苦、若樂、不苦不樂，彼亦無常、有為、心緣生法。",
+          "readerSourceAnchor": "../#sa241",
+          "canonicalId": "sa241",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa201-300/sa241.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "SA241所選確為多聞聖弟子自誓觀六處無常的段落，不是將感官關閉或以鐵槍修行的操作；上方是強烈故事化轉述，交接已有非逐字佛語提醒。未發現經號放錯。",
+          "runtimeSource": {
+            "file": "eightfold-path/book/book-data.js",
+            "line": 928
+          },
+          "narrationCues": [
+            {
+              "readerPage": 15,
+              "subtitle": 4,
+              "time": "01:17–01:22",
+              "lines": [
+                "為了讓混亂停下來，小貓想起了佛陀沉重的叮嚀："
+              ],
+              "runtimeLine": 933,
+              "verseLine": 942,
+              "sourceLine": 944
+            },
+            {
+              "readerPage": 16,
+              "subtitle": 5,
+              "time": "01:22–01:29",
+              "lines": [
+                "「寧可眼睛被燒熱的鐵槍刺中，也不要被慾望的畫面勾走。」"
+              ],
+              "runtimeLine": 951,
+              "verseLine": 960,
+              "sourceLine": 962
+            }
+          ],
+          "findingIds": [],
+          "status": "verified-pairing"
+        },
+        {
+          "scene": 3,
+          "title": "正志｜校正羅盤",
+          "readerPages": [
+            17,
+            21
+          ],
+          "verseLabel": "《雜阿含經》第784經〈邪正〉（節錄）",
+          "verse": "何等為正志？謂出要志、無恚志、不害志。",
+          "readerSourceAnchor": "../#sa784",
+          "canonicalId": "sa784",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa784.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "三安全方向離欲、不生氣、不害逐項對三志；鐵槍般決心是作者串場，不是SA784原譬喻。",
+          "runtimeSource": {
+            "file": "eightfold-path/book/book-data.js",
+            "line": 964
+          },
+          "narrationCues": [
+            {
+              "readerPage": 17,
+              "subtitle": 6,
+              "time": "01:29–01:35",
+              "lines": [
+                "抱著這份如鐵槍般堅定的決心，小貓終於將指針校正回三個安全的方向："
+              ],
+              "runtimeLine": 969,
+              "verseLine": 978,
+              "sourceLine": 980
+            },
+            {
+              "readerPage": 18,
+              "subtitle": 7,
+              "time": "01:35–01:40",
+              "lines": [
+                "第一是「離欲」，學會鬆開手，不再執著一定要擁有。"
+              ],
+              "runtimeLine": 987,
+              "verseLine": 996,
+              "sourceLine": 998
+            },
+            {
+              "readerPage": 19,
+              "subtitle": 8,
+              "time": "01:40–01:45",
+              "lines": [
+                "第二是「不生氣」，把心裡的刺拔掉，不再懷抱敵意。"
+              ],
+              "runtimeLine": 1005,
+              "verseLine": 1014,
+              "sourceLine": 1016
+            },
+            {
+              "readerPage": 20,
+              "subtitle": 9,
+              "time": "01:45–01:50",
+              "lines": [
+                "第三是「不害」，溫柔對待每一個生命，不造成傷害。"
+              ],
+              "runtimeLine": 1023,
+              "verseLine": 1032,
+              "sourceLine": 1034
+            },
+            {
+              "readerPage": 21,
+              "subtitle": 10,
+              "time": "01:50–01:57",
+              "lines": [
+                "當指針不再搖擺，我們就能順著真理的水流，穿越煩惱，直達彼岸。"
+              ],
+              "runtimeLine": 1041,
+              "verseLine": 1050,
+              "sourceLine": 1052
+            }
+          ],
+          "findingIds": [],
+          "status": "verified-pairing"
+        },
+        {
+          "scene": 4,
+          "title": "反例｜惡行使心不安",
+          "readerPages": [
+            22,
+            31
+          ],
+          "verseLabel": "《中阿含經》第42經〈何義經〉（節錄）",
+          "verse": "世尊答曰：「阿難！持戒者，令不悔義。阿難！若有持戒者，便得不悔。」復問：「世尊！不悔為何義？」世尊答曰：「阿難！不悔者，令歡悅義。阿難！若有不悔者，便得歡悅。」復問：「世尊！歡悅為何義？」世尊答曰：「阿難！歡悅者，令喜義。阿難！若有歡悅者，便得喜。」復問：「世尊！喜為何義？」世尊答曰：「阿難！喜者，令止義。阿難！若有喜者，便得止身。」復問：「世尊！止為何義？」世尊答曰：「阿難！止者，令樂義。阿難！若有止者，便得覺樂。」復問：「世尊！樂為何義？」世尊答曰：「阿難！樂者，令定義。阿難！若有樂者，便得定心。」復問：「世尊！定為何義？」世尊答曰：「阿難！定者，令見如實、知如真義。阿難！若有定者，便得見如實、知如真。」復問：「世尊！見如實、知如真為何義？」世尊答曰：「阿難！見如實、知如真者，令厭義。阿難！若有見如實、知如真者，便得厭。」復問：「世尊！厭為何義？」世尊答曰：「阿難！厭者，令無欲義。阿難！若有厭者，便得無欲。」復問：「世尊！無欲為何義？」世尊答曰：「阿難！無欲者，令解脫義。阿難！若有無欲者，便得解脫一切婬、怒、癡。是為，阿難！因持戒便得不悔，因不悔便得歡悅，因歡悅便得喜，因喜便得止，因止便得樂，因樂便得定。",
+          "readerSourceAnchor": "../#ma42",
+          "canonicalId": "ma42",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/ma/ma42.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "MA42持戒→不悔→歡悅喜止樂定的次第，適合反例惡行後悔失眠；原經是正面次第，砍樹、鳥蛋、漏船非經文事件。",
+          "runtimeSource": {
+            "file": "eightfold-path/book/book-data.js",
+            "line": 1054
+          },
+          "narrationCues": [
+            {
+              "readerPage": 22,
+              "subtitle": 1,
+              "time": "01:57–02:04",
+              "lines": [
+                "但是，森林裡總是充滿誘惑。有時候，我們為了求快，"
+              ],
+              "runtimeLine": 1059,
+              "verseLine": 1068,
+              "sourceLine": 1070
+            },
+            {
+              "readerPage": 23,
+              "subtitle": 2,
+              "time": "02:04–02:09",
+              "lines": [
+                "會想：「稍微違規一下應該沒關係？」"
+              ],
+              "runtimeLine": 1077,
+              "verseLine": 1086,
+              "sourceLine": 1088
+            },
+            {
+              "readerPage": 24,
+              "subtitle": 3,
+              "time": "02:09–02:15",
+              "lines": [
+                "於是，小貓偷偷砍了不該砍的樹，卻意外摔碎了無辜的鳥蛋。"
+              ],
+              "runtimeLine": 1095,
+              "verseLine": 1104,
+              "sourceLine": 1106
+            },
+            {
+              "readerPage": 25,
+              "subtitle": 4,
+              "time": "02:15–02:21",
+              "lines": [
+                "當守護者來問話時，為了保護自己，小貓把斧頭藏在背後，說了謊話。"
+              ],
+              "runtimeLine": 1113,
+              "verseLine": 1122,
+              "sourceLine": 1124
+            },
+            {
+              "readerPage": 26,
+              "subtitle": 5,
+              "time": "02:21–02:27",
+              "lines": [
+                "雖然木筏好像很快就造好了，但當晚，小貓卻睡不著了。"
+              ],
+              "runtimeLine": 1131,
+              "verseLine": 1140,
+              "sourceLine": 1142
+            },
+            {
+              "readerPage": 27,
+              "subtitle": 6,
+              "time": "02:27–02:34",
+              "lines": [
+                "破碎的蛋、說謊的恐懼，變成了惡夢，在心裡吵個不停。"
+              ],
+              "runtimeLine": 1149,
+              "verseLine": 1158,
+              "sourceLine": 1160
+            },
+            {
+              "readerPage": 28,
+              "subtitle": 7,
+              "time": "02:34–02:40",
+              "lines": [
+                "佛陀說：我們之所以要守規矩，不是為了討好誰，而是為了「沒有後悔」。"
+              ],
+              "runtimeLine": 1167,
+              "verseLine": 1176,
+              "sourceLine": 1178
+            },
+            {
+              "readerPage": 29,
+              "subtitle": 8,
+              "time": "02:40–02:45",
+              "lines": [
+                "一旦心裡有了疙瘩，快樂就進不來，心也靜不下來。"
+              ],
+              "runtimeLine": 1185,
+              "verseLine": 1194,
+              "sourceLine": 1196
+            },
+            {
+              "readerPage": 30,
+              "subtitle": 9,
+              "time": "02:45–02:50",
+              "lines": [
+                "漏水的船，是無法在風浪中保持穩定的。"
+              ],
+              "runtimeLine": 1203,
+              "verseLine": 1212,
+              "sourceLine": 1214
+            },
+            {
+              "readerPage": 31,
+              "subtitle": 10,
+              "time": "02:50–02:55",
+              "lines": [
+                "這就是為什麼，想要前往彼岸，我們必須先修補這些行為的破洞。"
+              ],
+              "runtimeLine": 1221,
+              "verseLine": 1230,
+              "sourceLine": 1232
+            }
+          ],
+          "findingIds": [],
+          "status": "verified-pairing"
+        },
+        {
+          "scene": 5,
+          "title": "正語｜慚愧與誠實",
+          "readerPages": [
+            32,
+            33
+          ],
+          "verseLabel": "《雜阿含經》第749經〈無明〉（節錄）",
+          "verse": "若起明為前相，生諸善法。時，慚愧隨生，慚愧生已，能生正見，正見生已，起正志、正語、正業、正命、正方便、正念、正定，次第而起。",
+          "readerSourceAnchor": "../#sa749",
+          "canonicalId": "sa749",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa749.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "SA749明→慚愧→正見→八道的節錄與慚愧重新開始相符；羞恥及雨為作者比喻。",
+          "runtimeSource": {
+            "file": "eightfold-path/book/book-data.js",
+            "line": 1234
+          },
+          "narrationCues": [
+            {
+              "readerPage": 32,
+              "subtitle": 1,
+              "time": "02:55–03:04",
+              "lines": [
+                "當太陽升起，光線照進了心裡，小貓看見了昨晚做的惡夢，感到一陣慚愧。"
+              ],
+              "runtimeLine": 1239,
+              "verseLine": 1248,
+              "sourceLine": 1250
+            },
+            {
+              "readerPage": 33,
+              "subtitle": 2,
+              "time": "03:04–03:13",
+              "lines": [
+                "這份羞恥心像是一場及時雨，洗去了貪婪的衝動。於是，小貓決定重新開始。"
+              ],
+              "runtimeLine": 1257,
+              "verseLine": 1266,
+              "sourceLine": 1268
+            }
+          ],
+          "findingIds": [],
+          "status": "verified-pairing"
+        },
+        {
+          "scene": 5,
+          "title": "正語｜慚愧與誠實",
+          "readerPages": [
+            34,
+            35
+          ],
+          "verseLabel": "《雜阿含經》第784經〈邪正〉（節錄）",
+          "verse": "何等為正語？謂離妄語、離兩舌、離惡口、離綺語。",
+          "readerSourceAnchor": "../#sa784",
+          "canonicalId": "sa784",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa784.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "SA784正語四離中不妄語對誠實認錯，配對正確。",
+          "runtimeSource": {
+            "file": "eightfold-path/book/book-data.js",
+            "line": 1270
+          },
+          "narrationCues": [
+            {
+              "readerPage": 34,
+              "subtitle": 3,
+              "time": "03:13–03:20",
+              "lines": [
+                "牠鼓起勇氣，走向黑熊守護者，深深鞠躬說：「對不起，昨天是我說謊了。」"
+              ],
+              "runtimeLine": 1275,
+              "verseLine": 1284,
+              "sourceLine": 1286
+            },
+            {
+              "readerPage": 35,
+              "subtitle": 4,
+              "time": "03:20–03:25",
+              "lines": [
+                "這是「正語」中的不妄語，誠實讓心裡的石頭放下了。"
+              ],
+              "runtimeLine": 1293,
+              "verseLine": 1302,
+              "sourceLine": 1304
+            }
+          ],
+          "findingIds": [],
+          "status": "verified-pairing"
+        },
+        {
+          "scene": 5,
+          "title": "正語｜慚愧與誠實",
+          "readerPages": [
+            36,
+            39
+          ],
+          "verseLabel": "《雜阿含經》第1039經〈淳陀〉（節錄）",
+          "verse": "離於妄語，審諦實說，遠離兩舌，不傳此向彼，傳彼向此，共相破壞，離者令和，和者隨喜，遠離惡口，不剛強，多人樂其所說。離於壞語，諦說、時說、實說、義說、法說、見說。",
+          "readerSourceAnchor": "../#sa1039",
+          "canonicalId": "sa1039",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa1001-1100/sa1039.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "SA1039口四善行逐項對不妄語、不兩舌、不惡口、不綺語，語言橋樑屬教學譬喻。",
+          "runtimeSource": {
+            "file": "eightfold-path/book/book-data.js",
+            "line": 1306
+          },
+          "narrationCues": [
+            {
+              "readerPage": 36,
+              "subtitle": 5,
+              "time": "03:25–03:32",
+              "lines": [
+                "小貓終於明白，語言是用來連結彼此的橋樑，而不是傷害的武器。"
+              ],
+              "runtimeLine": 1311,
+              "verseLine": 1320,
+              "sourceLine": 1322
+            },
+            {
+              "readerPage": 37,
+              "subtitle": 6,
+              "time": "03:32–03:39",
+              "lines": [
+                "因此，牠在心裡許下了四個約定：不妄語，不說謊話欺騙別人；"
+              ],
+              "runtimeLine": 1329,
+              "verseLine": 1338,
+              "sourceLine": 1340
+            },
+            {
+              "readerPage": 38,
+              "subtitle": 7,
+              "time": "03:39–03:45",
+              "lines": [
+                "不兩舌，不說壞話挑撥感情；不惡口，不說粗話刺傷人心；"
+              ],
+              "runtimeLine": 1347,
+              "verseLine": 1356,
+              "sourceLine": 1358
+            },
+            {
+              "readerPage": 39,
+              "subtitle": 8,
+              "time": "03:45–03:53",
+              "lines": [
+                "不綺語，不說沒有意義的廢話浪費時間。只說溫暖、真實且有用的話。"
+              ],
+              "runtimeLine": 1365,
+              "verseLine": 1374,
+              "sourceLine": 1376
+            }
+          ],
+          "findingIds": [],
+          "status": "verified-pairing"
+        },
+        {
+          "scene": 6,
+          "title": "正業｜不偷盜、不殺生與無悔",
+          "readerPages": [
+            40,
+            43
+          ],
+          "verseLabel": "《雜阿含經》第1039經〈淳陀〉（節錄）",
+          "verse": "謂有人不殺生，離殺生，捨刀杖，慚愧，悲念一切眾生。不偷盜，遠離偷盜，與者取，不與不取，淨心不貪。",
+          "readerSourceAnchor": "../#sa1039",
+          "canonicalId": "sa1039",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa1001-1100/sa1039.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "SA1039不殺與不偷盜正好對允許取漂流木、移蟲；保留與者取、不與不取原詞。",
+          "runtimeSource": {
+            "file": "eightfold-path/book/book-data.js",
+            "line": 1378
+          },
+          "narrationCues": [
+            {
+              "readerPage": 40,
+              "subtitle": 1,
+              "time": "03:53–04:00",
+              "lines": [
+                "接著，牠回到河邊。這一次，牠不再砍樹。只撿拾地上允許取用的漂流木，"
+              ],
+              "runtimeLine": 1383,
+              "verseLine": 1392,
+              "sourceLine": 1394
+            },
+            {
+              "readerPage": 41,
+              "subtitle": 2,
+              "time": "04:00–04:06",
+              "lines": [
+                "尊重森林的給予。這是正業中的「不偷盜」。"
+              ],
+              "runtimeLine": 1401,
+              "verseLine": 1410,
+              "sourceLine": 1412
+            },
+            {
+              "readerPage": 42,
+              "subtitle": 3,
+              "time": "04:06–04:13",
+              "lines": [
+                "當牠發現木頭上有隻小蟲時，牠輕輕地把蟲移到安全的草地上。"
+              ],
+              "runtimeLine": 1419,
+              "verseLine": 1428,
+              "sourceLine": 1430
+            },
+            {
+              "readerPage": 43,
+              "subtitle": 4,
+              "time": "04:13–04:18",
+              "lines": [
+                "這是正業中的「不殺生」，也是對生命的溫柔。"
+              ],
+              "runtimeLine": 1437,
+              "verseLine": 1446,
+              "sourceLine": 1448
+            }
+          ],
+          "findingIds": [],
+          "status": "verified-pairing"
+        },
+        {
+          "scene": 6,
+          "title": "正業｜不偷盜、不殺生與無悔",
+          "readerPages": [
+            44,
+            44
+          ],
+          "verseLabel": "《中阿含經》第42經〈何義經〉（節錄）",
+          "verse": "世尊答曰：「阿難！持戒者，令不悔義。阿難！若有持戒者，便得不悔。」復問：「世尊！不悔為何義？」世尊答曰：「阿難！不悔者，令歡悅義。阿難！若有不悔者，便得歡悅。」復問：「世尊！歡悅為何義？」世尊答曰：「阿難！歡悅者，令喜義。阿難！若有歡悅者，便得喜。」復問：「世尊！喜為何義？」世尊答曰：「阿難！喜者，令止義。阿難！若有喜者，便得止身。」復問：「世尊！止為何義？」世尊答曰：「阿難！止者，令樂義。阿難！若有止者，便得覺樂。」復問：「世尊！樂為何義？」世尊答曰：「阿難！樂者，令定義。阿難！若有樂者，便得定心。」復問：「世尊！定為何義？」世尊答曰：「阿難！定者，令見如實、知如真義。阿難！若有定者，便得見如實、知如真。」復問：「世尊！見如實、知如真為何義？」世尊答曰：「阿難！見如實、知如真者，令厭義。阿難！若有見如實、知如真者，便得厭。」復問：「世尊！厭為何義？」世尊答曰：「阿難！厭者，令無欲義。阿難！若有厭者，便得無欲。」復問：「世尊！無欲為何義？」世尊答曰：「阿難！無欲者，令解脫義。阿難！若有無欲者，便得解脫一切婬、怒、癡。是為，阿難！因持戒便得不悔，因不悔便得歡悅，因歡悅便得喜，因喜便得止，因止便得樂，因樂便得定。",
+          "readerSourceAnchor": "../#ma42",
+          "canonicalId": "ma42",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/ma/ma42.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "MA42持戒不悔及喜樂定與不作惡後安睡的教學方向一致，沒有把安睡當果位證明。",
+          "runtimeSource": {
+            "file": "eightfold-path/book/book-data.js",
+            "line": 1450
+          },
+          "narrationCues": [
+            {
+              "readerPage": 44,
+              "subtitle": 5,
+              "time": "04:18–04:25",
+              "lines": [
+                "那一天晚上，小貓躺在修好的木筏上，睡得好香好甜。沒有惡夢。"
+              ],
+              "runtimeLine": 1455,
+              "verseLine": 1464,
+              "sourceLine": 1466
+            }
+          ],
+          "findingIds": [],
+          "status": "verified-pairing"
+        },
+        {
+          "scene": 6,
+          "title": "正業｜不偷盜、不殺生與無悔",
+          "readerPages": [
+            45,
+            46
+          ],
+          "verseLabel": "《中阿含經》第16經〈伽藍經〉（節錄）",
+          "verse": "如是，伽藍！多聞聖弟子心無結無怨，無恚無諍，便得四安隱住處。",
+          "readerSourceAnchor": "../#ma16",
+          "canonicalId": "ma16",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/ma/ma16.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "MA16四安隱住處與行為清淨、現法安心方向相符；上緣非原經逐字說法。",
+          "runtimeSource": {
+            "file": "eightfold-path/book/book-data.js",
+            "line": 1468
+          },
+          "narrationCues": [
+            {
+              "readerPage": 45,
+              "subtitle": 6,
+              "time": "04:25–04:29",
+              "lines": [
+                "佛陀告訴伽藍人一個秘密：做好事，不是為了討好神，"
+              ],
+              "runtimeLine": 1473,
+              "verseLine": 1482,
+              "sourceLine": 1484
+            },
+            {
+              "readerPage": 46,
+              "subtitle": 7,
+              "time": "04:29–04:35",
+              "lines": [
+                "而是為了現在就活得安心。因為行為乾淨了，心就不會後悔。"
+              ],
+              "runtimeLine": 1491,
+              "verseLine": 1500,
+              "sourceLine": 1502
+            }
+          ],
+          "findingIds": [],
+          "status": "verified-pairing"
+        },
+        {
+          "scene": 6,
+          "title": "正業｜不偷盜、不殺生與無悔",
+          "readerPages": [
+            47,
+            47
+          ],
+          "verseLabel": "《中阿含經》第42經〈何義經〉（節錄）",
+          "verse": "世尊答曰：「阿難！持戒者，令不悔義。阿難！若有持戒者，便得不悔。」復問：「世尊！不悔為何義？」世尊答曰：「阿難！不悔者，令歡悅義。阿難！若有不悔者，便得歡悅。」復問：「世尊！歡悅為何義？」世尊答曰：「阿難！歡悅者，令喜義。阿難！若有歡悅者，便得喜。」復問：「世尊！喜為何義？」世尊答曰：「阿難！喜者，令止義。阿難！若有喜者，便得止身。」復問：「世尊！止為何義？」世尊答曰：「阿難！止者，令樂義。阿難！若有止者，便得覺樂。」復問：「世尊！樂為何義？」世尊答曰：「阿難！樂者，令定義。阿難！若有樂者，便得定心。」復問：「世尊！定為何義？」世尊答曰：「阿難！定者，令見如實、知如真義。阿難！若有定者，便得見如實、知如真。」復問：「世尊！見如實、知如真為何義？」世尊答曰：「阿難！見如實、知如真者，令厭義。阿難！若有見如實、知如真者，便得厭。」復問：「世尊！厭為何義？」世尊答曰：「阿難！厭者，令無欲義。阿難！若有厭者，便得無欲。」復問：「世尊！無欲為何義？」世尊答曰：「阿難！無欲者，令解脫義。阿難！若有無欲者，便得解脫一切婬、怒、癡。是為，阿難！因持戒便得不悔，因不悔便得歡悅，因歡悅便得喜，因喜便得止，因止便得樂，因樂便得定。",
+          "readerSourceAnchor": "../#ma42",
+          "canonicalId": "ma42",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/ma/ma42.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "MA42不悔次第支持無悔木筏比喻，與前段MA16沒有混標原文。",
+          "runtimeSource": {
+            "file": "eightfold-path/book/book-data.js",
+            "line": 1504
+          },
+          "narrationCues": [
+            {
+              "readerPage": 47,
+              "subtitle": 8,
+              "time": "04:35–04:42",
+              "lines": [
+                "名為「無悔」的木筏，才能載著我們，平穩地航向安靜的水域。"
+              ],
+              "runtimeLine": 1509,
+              "verseLine": 1518,
+              "sourceLine": 1520
+            }
+          ],
+          "findingIds": [],
+          "status": "verified-pairing"
+        },
+        {
+          "scene": 7,
+          "title": "正業｜不邪淫",
+          "readerPages": [
+            48,
+            50
+          ],
+          "verseLabel": "《雜阿含經》第784經〈邪正〉（節錄）",
+          "verse": "何等為正業？謂離殺、盜、婬。",
+          "readerSourceAnchor": "../#sa784",
+          "canonicalId": "sa784",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa784.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "SA784離殺盜婬的正業節錄對不邪淫，故事以尊重伴侶承諾表述；經號正確。",
+          "runtimeSource": {
+            "file": "eightfold-path/book/book-data.js",
+            "line": 1522
+          },
+          "narrationCues": [
+            {
+              "readerPage": 48,
+              "subtitle": 1,
+              "time": "04:42–04:49",
+              "lines": [
+                "同時，小貓學會了尊重界線。看見森林裡其他動物的伴侶與家庭，"
+              ],
+              "runtimeLine": 1527,
+              "verseLine": 1536,
+              "sourceLine": 1538
+            },
+            {
+              "readerPage": 49,
+              "subtitle": 2,
+              "time": "04:49–04:55",
+              "lines": [
+                "牠只是靜靜經過，絕不隨意干擾。這是正業中的「不邪淫」。"
+              ],
+              "runtimeLine": 1545,
+              "verseLine": 1554,
+              "sourceLine": 1556
+            },
+            {
+              "readerPage": 50,
+              "subtitle": 3,
+              "time": "04:55–05:00",
+              "lines": [
+                "守護他人的承諾與親密關係，就是守護自己內心的純淨。"
+              ],
+              "runtimeLine": 1563,
+              "verseLine": 1572,
+              "sourceLine": 1574
+            }
+          ],
+          "findingIds": [],
+          "status": "verified-pairing"
+        },
+        {
+          "scene": 8,
+          "title": "正命｜清淨的生活所需",
+          "readerPages": [
+            51,
+            59
+          ],
+          "verseLabel": "《雜阿含經》第784經〈邪正〉（節錄）",
+          "verse": "何等為正命？謂如法求衣服、飲食、臥具、湯藥，非不如法。",
+          "readerSourceAnchor": "../#sa784",
+          "canonicalId": "sa784",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa784.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "SA784正命明列如法求四資具，對清淨生計相符；食物生病、誠實換果、慾望界線是故事延伸，非原經逐字。",
+          "runtimeSource": {
+            "file": "eightfold-path/book/book-data.js",
+            "line": 1576
+          },
+          "narrationCues": [
+            {
+              "readerPage": 51,
+              "subtitle": 1,
+              "time": "05:00–05:07",
+              "lines": [
+                "木筏造好了，但渡河的旅程還很長，小貓需要維持體力。"
+              ],
+              "runtimeLine": 1581,
+              "verseLine": 1590,
+              "sourceLine": 1592
+            },
+            {
+              "readerPage": 52,
+              "subtitle": 2,
+              "time": "05:07–05:12",
+              "lines": [
+                "這就是「正命」，選擇一種清淨的生存方式。"
+              ],
+              "runtimeLine": 1599,
+              "verseLine": 1608,
+              "sourceLine": 1610
+            },
+            {
+              "readerPage": 53,
+              "subtitle": 3,
+              "time": "05:12–05:18",
+              "lines": [
+                "在這個森林裡，有些動物為了食物會去設陷阱、去搶奪。"
+              ],
+              "runtimeLine": 1617,
+              "verseLine": 1626,
+              "sourceLine": 1628
+            },
+            {
+              "readerPage": 54,
+              "subtitle": 4,
+              "time": "05:18–05:24",
+              "lines": [
+                "但小貓記得地圖上的指引：「吃下不乾淨的食物，身體會生病；"
+              ],
+              "runtimeLine": 1635,
+              "verseLine": 1644,
+              "sourceLine": 1646
+            },
+            {
+              "readerPage": 55,
+              "subtitle": 5,
+              "time": "05:24–05:28",
+              "lines": [
+                "用傷害換來的糧食，心靈會沉重。」"
+              ],
+              "runtimeLine": 1653,
+              "verseLine": 1662,
+              "sourceLine": 1664
+            },
+            {
+              "readerPage": 56,
+              "subtitle": 6,
+              "time": "05:28–05:34",
+              "lines": [
+                "於是，牠用誠實的勞動，換取剛好足夠的果實與藥草。"
+              ],
+              "runtimeLine": 1671,
+              "verseLine": 1680,
+              "sourceLine": 1682
+            },
+            {
+              "readerPage": 57,
+              "subtitle": 7,
+              "time": "05:34–05:38",
+              "lines": [
+                "牠不貪心，也不囤積多餘的財寶。"
+              ],
+              "runtimeLine": 1689,
+              "verseLine": 1698,
+              "sourceLine": 1700
+            },
+            {
+              "readerPage": 58,
+              "subtitle": 8,
+              "time": "05:38–05:42",
+              "lines": [
+                "佛陀說：「如法地獲取生活所需，守住慾望的界線。」"
+              ],
+              "runtimeLine": 1707,
+              "verseLine": 1716,
+              "sourceLine": 1718
+            },
+            {
+              "readerPage": 59,
+              "subtitle": 9,
+              "time": "05:42–05:49",
+              "lines": [
+                "只有行囊是輕盈且乾淨的，我們才能在前往彼岸的風浪中，保持平衡，不會沉沒。"
+              ],
+              "runtimeLine": 1725,
+              "verseLine": 1734,
+              "sourceLine": 1736
+            }
+          ],
+          "findingIds": [],
+          "status": "verified-pairing"
+        },
+        {
+          "scene": 9,
+          "title": "正方便／正精進｜逆流划槳",
+          "readerPages": [
+            60,
+            63
+          ],
+          "verseLabel": "《雜阿含經》第784經〈邪正〉（節錄）",
+          "verse": "何等為正方便？謂欲、精進、方便、出離、勤競、堪能常行不退。",
+          "readerSourceAnchor": "../#sa784",
+          "canonicalId": "sa784",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa784.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "SA784正方便欲精進方便出離常行不退，對逆流努力引入相符。",
+          "runtimeSource": {
+            "file": "eightfold-path/book/book-data.js",
+            "line": 1738
+          },
+          "narrationCues": [
+            {
+              "readerPage": 60,
+              "subtitle": 1,
+              "time": "05:49–05:55",
+              "lines": [
+                "木筏終於下水了，但小貓發現，河流的水流比想像中更急。"
+              ],
+              "runtimeLine": 1743,
+              "verseLine": 1752,
+              "sourceLine": 1754
+            },
+            {
+              "readerPage": 61,
+              "subtitle": 2,
+              "time": "05:55–06:01",
+              "lines": [
+                "這條名為「輪迴」的大河，總是想把我們沖回下游，"
+              ],
+              "runtimeLine": 1761,
+              "verseLine": 1770,
+              "sourceLine": 1772
+            },
+            {
+              "readerPage": 62,
+              "subtitle": 3,
+              "time": "06:01–06:05",
+              "lines": [
+                "沖回那個充滿貪愛與黑暗的老地方。"
+              ],
+              "runtimeLine": 1779,
+              "verseLine": 1788,
+              "sourceLine": 1790
+            },
+            {
+              "readerPage": 63,
+              "subtitle": 4,
+              "time": "06:05–06:10",
+              "lines": [
+                "這時候，我們需要「正方便」，也就是正確的努力。"
+              ],
+              "runtimeLine": 1797,
+              "verseLine": 1806,
+              "sourceLine": 1808
+            }
+          ],
+          "findingIds": [],
+          "status": "verified-pairing"
+        },
+        {
+          "scene": 9,
+          "title": "正方便／正精進｜逆流划槳",
+          "readerPages": [
+            64,
+            66
+          ],
+          "verseLabel": "《雜阿含經》第785經〈邪正〉（節錄）",
+          "verse": "何等為正方便世、俗，有漏、有取，轉向善趣？謂欲、精進、方便超出、堅固建立，堪能造作精進、心法攝受、常、不休息，是名正方便世、俗，有漏、有取，轉向善趣。何等為正方便是聖、出世間，無漏、不取，盡苦，轉向苦邊？謂聖弟子苦苦思惟，集、滅、道道思惟，無漏憶念相應心法，欲、精進、方便、勤踊，超出、建立堅固、堪能造作精進，心法攝受、常、不休息，是名正方便是聖、出世間，無漏、不取，正盡苦，轉向苦邊。",
+          "readerSourceAnchor": "../#sa785",
+          "canonicalId": "sa785",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa785.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "SA785原文並列世俗及出世間正方便；字幕64–66把差別簡化成追逐快樂/逆流目標，需作者校稿，見EIGHT-AR01。",
+          "runtimeSource": {
+            "file": "eightfold-path/book/book-data.js",
+            "line": 1810
+          },
+          "narrationCues": [
+            {
+              "readerPage": 64,
+              "subtitle": 5,
+              "time": "06:10–06:15",
+              "lines": [
+                "過去，我們也很努力，忙著追逐快樂、忙著逃避痛苦，"
+              ],
+              "runtimeLine": 1815,
+              "verseLine": 1824,
+              "sourceLine": 1826
+            },
+            {
+              "readerPage": 65,
+              "subtitle": 6,
+              "time": "06:15–06:20",
+              "lines": [
+                "結果卻讓自己更累。這是世俗的有漏努力。"
+              ],
+              "runtimeLine": 1833,
+              "verseLine": 1842,
+              "sourceLine": 1844
+            },
+            {
+              "readerPage": 66,
+              "subtitle": 7,
+              "time": "06:20–06:28",
+              "lines": [
+                "但現在，小貓的努力有了新的目標，「逆流而上」，這是出世間的無漏努力。"
+              ],
+              "runtimeLine": 1851,
+              "verseLine": 1860,
+              "sourceLine": 1862
+            }
+          ],
+          "findingIds": [
+            "EIGHT-AR01"
+          ],
+          "status": "requires-author-or-pairing-review"
+        },
+        {
+          "scene": 9,
+          "title": "正方便／正精進｜逆流划槳",
+          "readerPages": [
+            67,
+            72
+          ],
+          "verseLabel": "《雜阿含經》第777經〈一法〉（節錄）",
+          "verse": "我於內法中，不見一法，未生惡不善法令不生，已生惡不善法令滅，未生善法令生，已生善法重生令增廣，如說正思惟。",
+          "readerSourceAnchor": "../#sa777",
+          "canonicalId": "sa777",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa777.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "SA777正思惟令惡不生/滅、善生/增與67–68推惡向善相符；69頁明引常不休息實出本幕前段SA785，見EIGHT-C01，其餘70–72是持續划槳故事而非SA777逐字。",
+          "runtimeSource": {
+            "file": "eightfold-path/book/book-data.js",
+            "line": 1864
+          },
+          "narrationCues": [
+            {
+              "readerPage": 67,
+              "subtitle": 8,
+              "time": "06:28–06:34",
+              "lines": [
+                "這需要一股持續不斷的力氣：看到前方漂來的惡念浮木，用力把它推開；"
+              ],
+              "runtimeLine": 1869,
+              "verseLine": 1878,
+              "sourceLine": 1880
+            },
+            {
+              "readerPage": 68,
+              "subtitle": 9,
+              "time": "06:34–06:38",
+              "lines": [
+                "看到乾淨的善念水道，奮力划過去。"
+              ],
+              "runtimeLine": 1887,
+              "verseLine": 1896,
+              "sourceLine": 1898
+            },
+            {
+              "readerPage": 69,
+              "subtitle": 10,
+              "time": "06:38–06:45",
+              "lines": [
+                "這不是蠻力，而是一種「不讓心隨波逐流」的堅持。佛陀說：「常不休息。」"
+              ],
+              "runtimeLine": 1905,
+              "verseLine": 1914,
+              "sourceLine": 1916
+            },
+            {
+              "readerPage": 70,
+              "subtitle": 11,
+              "time": "06:45–06:50",
+              "lines": [
+                "因為在湍急的生死流中，只要一停下來，我們就會後退。"
+              ],
+              "runtimeLine": 1923,
+              "verseLine": 1932,
+              "sourceLine": 1934
+            },
+            {
+              "readerPage": 71,
+              "subtitle": 12,
+              "time": "06:50–06:55",
+              "lines": [
+                "只有握緊槳持續不斷地划，這股不想回頭的勇氣，"
+              ],
+              "runtimeLine": 1941,
+              "verseLine": 1950,
+              "sourceLine": 1952
+            },
+            {
+              "readerPage": 72,
+              "subtitle": 13,
+              "time": "06:55–06:59",
+              "lines": [
+                "終將帶我們穿越風浪，抵達彼岸。"
+              ],
+              "runtimeLine": 1959,
+              "verseLine": 1968,
+              "sourceLine": 1970
+            }
+          ],
+          "findingIds": [
+            "EIGHT-C01"
+          ],
+          "status": "requires-author-or-pairing-review"
+        },
+        {
+          "scene": 10,
+          "title": "正念｜記得方向、看清浪頭",
+          "readerPages": [
+            73,
+            74
+          ],
+          "verseLabel": "《雜阿含經》第784經〈邪正〉（節錄）",
+          "verse": "何等為正念？謂念隨順，念不妄、不虛。",
+          "readerSourceAnchor": "../#sa784",
+          "canonicalId": "sa784",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa784.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "SA784正念不妄不虛與記方向、守望的引入相符，守門人並非此短經譬喻。",
+          "runtimeSource": {
+            "file": "eightfold-path/book/book-data.js",
+            "line": 1972
+          },
+          "narrationCues": [
+            {
+              "readerPage": 73,
+              "subtitle": 1,
+              "time": "06:59–07:05",
+              "lines": [
+                "船在逆流中前進，這時我們需要一位最清醒的守門人，叫做「正念」。"
+              ],
+              "runtimeLine": 1977,
+              "verseLine": 1986,
+              "sourceLine": 1988
+            },
+            {
+              "readerPage": 74,
+              "subtitle": 2,
+              "time": "07:05–07:10",
+              "lines": [
+                "小貓站在船頭，睜大眼睛，時刻執行著兩項重要的任務。"
+              ],
+              "runtimeLine": 1995,
+              "verseLine": 2004,
+              "sourceLine": 2006
+            }
+          ],
+          "findingIds": [],
+          "status": "verified-pairing"
+        },
+        {
+          "scene": 10,
+          "title": "正念｜記得方向、看清浪頭",
+          "readerPages": [
+            75,
+            86
+          ],
+          "verseLabel": "《雜阿含經》第785經〈邪正〉（節錄）",
+          "verse": "何等為正念世、俗，有漏、有取，轉向善趣？若念、隨念、重念、憶念，不妄、不虛，是名正念世、俗，有漏、有取，正向善趣。何等為正念是聖、出世間，無漏、不取，轉向苦邊？謂聖弟子苦苦思惟，集、滅、道道思惟，無漏思惟相應，若念、隨念、重念、憶念，不妄、不虛，是名正念是聖、出世間，無漏、不取，轉向苦邊。",
+          "readerSourceAnchor": "../#sa785",
+          "canonicalId": "sa785",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa785.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "SA785世俗/出世間正念皆有念隨念重念憶念，後者另具四諦/無漏條件；記得/看清是作者比喻而非經文二分，見EIGHT-AR02。",
+          "runtimeSource": {
+            "file": "eightfold-path/book/book-data.js",
+            "line": 2008
+          },
+          "narrationCues": [
+            {
+              "readerPage": 75,
+              "subtitle": 3,
+              "time": "07:10–07:18",
+              "lines": [
+                "第一項任務是「記得」（世俗正念）：記得手中的地圖，記得我們要去哪裡。"
+              ],
+              "runtimeLine": 2013,
+              "verseLine": 2022,
+              "sourceLine": 2024
+            },
+            {
+              "readerPage": 76,
+              "subtitle": 4,
+              "time": "07:18–07:24",
+              "lines": [
+                "如果不小心分神了，就像那隻愛亂跑的猴子又想去抓路邊的樹枝，"
+              ],
+              "runtimeLine": 2031,
+              "verseLine": 2040,
+              "sourceLine": 2042
+            },
+            {
+              "readerPage": 77,
+              "subtitle": 5,
+              "time": "07:24–07:29",
+              "lines": [
+                "正念會溫柔地提醒：「嘿，回來！那不是我們要去的方向。」"
+              ],
+              "runtimeLine": 2049,
+              "verseLine": 2058,
+              "sourceLine": 2060
+            },
+            {
+              "readerPage": 78,
+              "subtitle": 6,
+              "time": "07:29–07:32",
+              "lines": [
+                "第二項任務是「看清」（出世間正念）："
+              ],
+              "runtimeLine": 2067,
+              "verseLine": 2076,
+              "sourceLine": 2078
+            },
+            {
+              "readerPage": 79,
+              "subtitle": 7,
+              "time": "07:32–07:37",
+              "lines": [
+                "這條河上隨時會打來名為「貪愛」與「憤怒」的巨浪。"
+              ],
+              "runtimeLine": 2085,
+              "verseLine": 2094,
+              "sourceLine": 2096
+            },
+            {
+              "readerPage": 80,
+              "subtitle": 8,
+              "time": "07:37–07:42",
+              "lines": [
+                "如果沒有看清楚，我們很容易就被捲進水裡喝毒水。"
+              ],
+              "runtimeLine": 2103,
+              "verseLine": 2112,
+              "sourceLine": 2114
+            },
+            {
+              "readerPage": 81,
+              "subtitle": 9,
+              "time": "07:42–07:48",
+              "lines": [
+                "但有了正念，小貓能清清楚楚地看著每一個浪頭打過來。"
+              ],
+              "runtimeLine": 2121,
+              "verseLine": 2130,
+              "sourceLine": 2132
+            },
+            {
+              "readerPage": 82,
+              "subtitle": 10,
+              "time": "07:48–07:51",
+              "lines": [
+                "牠運用四聖諦的智慧看著浪花："
+              ],
+              "runtimeLine": 2139,
+              "verseLine": 2148,
+              "sourceLine": 2150
+            },
+            {
+              "readerPage": 83,
+              "subtitle": 11,
+              "time": "07:51–07:56",
+              "lines": [
+                "「喔！這是一個生氣的浪（苦），是因為我不喜歡被潑溼（集）。」"
+              ],
+              "runtimeLine": 2157,
+              "verseLine": 2166,
+              "sourceLine": 2168
+            },
+            {
+              "readerPage": 84,
+              "subtitle": 12,
+              "time": "07:56–08:01",
+              "lines": [
+                "因為看見了，所以不被捲走。牠不對浪花發脾氣，"
+              ],
+              "runtimeLine": 2175,
+              "verseLine": 2184,
+              "sourceLine": 2186
+            },
+            {
+              "readerPage": 85,
+              "subtitle": 13,
+              "time": "08:01–08:09",
+              "lines": [
+                "也不跳進水裡追逐浪花。只是穩穩地站著，讓浪頭從船邊流過。"
+              ],
+              "runtimeLine": 2193,
+              "verseLine": 2202,
+              "sourceLine": 2204
+            },
+            {
+              "readerPage": 86,
+              "subtitle": 14,
+              "time": "08:09–08:14",
+              "lines": [
+                "這份清澈的覺知，守護著木筏，讓心在風浪中依然保持安穩。"
+              ],
+              "runtimeLine": 2211,
+              "verseLine": 2220,
+              "sourceLine": 2222
+            }
+          ],
+          "findingIds": [
+            "EIGHT-AR02"
+          ],
+          "status": "requires-author-or-pairing-review"
+        },
+        {
+          "scene": 11,
+          "title": "正定｜澄澈水面",
+          "readerPages": [
+            87,
+            93
+          ],
+          "verseLabel": "《雜阿含經》第784經〈邪正〉（節錄）",
+          "verse": "何等為正定？謂住心不亂、堅固、攝持、寂止、三昧、一心。",
+          "readerSourceAnchor": "../#sa784",
+          "canonicalId": "sa784",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa784.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "SA784住心不亂攝持寂止三昧一心，對收攝安住主題相符；無風水面是美術譬喻。",
+          "runtimeSource": {
+            "file": "eightfold-path/book/book-data.js",
+            "line": 2224
+          },
+          "narrationCues": [
+            {
+              "readerPage": 87,
+              "subtitle": 1,
+              "time": "08:14–08:20",
+              "lines": [
+                "在經歷了「正方便」的奮力划槳，與「正念」的時刻守望之後，"
+              ],
+              "runtimeLine": 2229,
+              "verseLine": 2238,
+              "sourceLine": 2240
+            },
+            {
+              "readerPage": 88,
+              "subtitle": 2,
+              "time": "08:20–08:25",
+              "lines": [
+                "小貓終於來到了一片不可思議的水域。"
+              ],
+              "runtimeLine": 2247,
+              "verseLine": 2256,
+              "sourceLine": 2258
+            },
+            {
+              "readerPage": 89,
+              "subtitle": 3,
+              "time": "08:25–08:30",
+              "lines": [
+                "這裡沒有風，也沒有浪。這就是「正定」。"
+              ],
+              "runtimeLine": 2265,
+              "verseLine": 2274,
+              "sourceLine": 2276
+            },
+            {
+              "readerPage": 90,
+              "subtitle": 4,
+              "time": "08:30–08:36",
+              "lines": [
+                "過去，我們的心像是一杯混濁搖晃的水，什麼都看不清楚。"
+              ],
+              "runtimeLine": 2283,
+              "verseLine": 2292,
+              "sourceLine": 2294
+            },
+            {
+              "readerPage": 91,
+              "subtitle": 5,
+              "time": "08:36–08:43",
+              "lines": [
+                "但現在，因為不再隨意抓取，也不再被情緒攪動，這杯水終於完全靜了下來。"
+              ],
+              "runtimeLine": 2301,
+              "verseLine": 2310,
+              "sourceLine": 2312
+            },
+            {
+              "readerPage": 92,
+              "subtitle": 6,
+              "time": "08:43–08:48",
+              "lines": [
+                "小貓把心收攝回來，安住在這份深邃的寧靜裡。"
+              ],
+              "runtimeLine": 2319,
+              "verseLine": 2328,
+              "sourceLine": 2330
+            },
+            {
+              "readerPage": 93,
+              "subtitle": 7,
+              "time": "08:48–08:52",
+              "lines": [
+                "這不僅是放鬆，更是一種極致的專注。"
+              ],
+              "runtimeLine": 2337,
+              "verseLine": 2346,
+              "sourceLine": 2348
+            }
+          ],
+          "findingIds": [],
+          "status": "verified-pairing"
+        },
+        {
+          "scene": 11,
+          "title": "正定｜澄澈水面",
+          "readerPages": [
+            94,
+            97
+          ],
+          "verseLabel": "《中阿含經》第42經〈何義經〉（節錄）",
+          "verse": "阿難！多聞聖弟子因定便得見如實、知如真，因見如實、知如真，便得厭，因厭便得無欲，因無欲便得解脫，因解脫便知解脫，生已盡，梵行已立，所作已辦，不更受有，知如真。阿難！是為法法相益，法法相因，如是此戒趣至第一，謂度此岸，得至彼岸。",
+          "readerSourceAnchor": "../#ma42",
+          "canonicalId": "ma42",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/ma/ma42.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "MA42因定見如實、厭離解脫與由定如實知相符；只有波紋完全消失才見四諦是作者加強條件，見EIGHT-AR03。",
+          "runtimeSource": {
+            "file": "eightfold-path/book/book-data.js",
+            "line": 2350
+          },
+          "narrationCues": [
+            {
+              "readerPage": 94,
+              "subtitle": 8,
+              "time": "08:52–08:59",
+              "lines": [
+                "佛陀說：「因定，便得見如實。」就像眼前這片如鏡子般的水面，"
+              ],
+              "runtimeLine": 2355,
+              "verseLine": 2364,
+              "sourceLine": 2366
+            },
+            {
+              "readerPage": 95,
+              "subtitle": 9,
+              "time": "08:59–09:04",
+              "lines": [
+                "只有當波紋完全消失時，四聖諦的真理才能像天上的月亮，"
+              ],
+              "runtimeLine": 2373,
+              "verseLine": 2382,
+              "sourceLine": 2384
+            },
+            {
+              "readerPage": 96,
+              "subtitle": 10,
+              "time": "09:04–09:09",
+              "lines": [
+                "毫無扭曲地、完整地映照在我們心裡。"
+              ],
+              "runtimeLine": 2391,
+              "verseLine": 2400,
+              "sourceLine": 2402
+            },
+            {
+              "readerPage": 97,
+              "subtitle": 11,
+              "time": "09:09–09:14",
+              "lines": [
+                "木筏終於載著小貓，在清澈的月光下，穩穩地靠向了彼岸。"
+              ],
+              "runtimeLine": 2409,
+              "verseLine": 2418,
+              "sourceLine": 2420
+            }
+          ],
+          "findingIds": [
+            "EIGHT-AR03"
+          ],
+          "status": "requires-author-or-pairing-review"
+        },
+        {
+          "scene": 12,
+          "title": "抵岸｜筏喻與等捨",
+          "readerPages": [
+            98,
+            108
+          ],
+          "verseLabel": "《中阿含經》第200經〈阿梨吒經〉（節錄）",
+          "verse": "如是。我為汝等長夜說栰喻法，欲令棄捨，不欲令受。若汝等知我長夜說栰喻法者，當以捨是法，況非法耶？",
+          "readerSourceAnchor": "../#ma200",
+          "canonicalId": "ma200",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/ma/ma200.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "MA200筏喻確有渡後捨栰/捨法，配抵岸後放筏情境吻合；等捨/八道即筏/佛陀笑說是作者演出，勿倒讀成未渡便棄修。未判經號錯置。",
+          "runtimeSource": {
+            "file": "eightfold-path/book/book-data.js",
+            "line": 2422
+          },
+          "narrationCues": [
+            {
+              "readerPage": 98,
+              "subtitle": 1,
+              "time": "09:14–09:21",
+              "lines": [
+                "終於，木筏輕輕地觸碰到了對岸的沙灘。小貓抵達了安全的地方。"
+              ],
+              "runtimeLine": 2427,
+              "verseLine": 2436,
+              "sourceLine": 2438
+            },
+            {
+              "readerPage": 99,
+              "subtitle": 2,
+              "time": "09:21–09:24",
+              "lines": [
+                "這時候，最後一個問題來了："
+              ],
+              "runtimeLine": 2445,
+              "verseLine": 2454,
+              "sourceLine": 2456
+            },
+            {
+              "readerPage": 100,
+              "subtitle": 3,
+              "time": "09:24–09:30",
+              "lines": [
+                "這個陪伴我們度過驚濤駭浪的木筏，該如何處理呢？"
+              ],
+              "runtimeLine": 2463,
+              "verseLine": 2472,
+              "sourceLine": 2474
+            },
+            {
+              "readerPage": 101,
+              "subtitle": 4,
+              "time": "09:30–09:33",
+              "lines": [
+                "是要把它背在背上，繼續趕路嗎？"
+              ],
+              "runtimeLine": 2481,
+              "verseLine": 2490,
+              "sourceLine": 2492
+            },
+            {
+              "readerPage": 102,
+              "subtitle": 5,
+              "time": "09:33–09:41",
+              "lines": [
+                "不，那樣太沉重了。佛陀笑著說：「渡河是為了登岸，登岸後就該放下。」"
+              ],
+              "runtimeLine": 2499,
+              "verseLine": 2508,
+              "sourceLine": 2510
+            },
+            {
+              "readerPage": 103,
+              "subtitle": 6,
+              "time": "09:41–09:46",
+              "lines": [
+                "於是，小貓回頭，對著木筏（八正道）深深地道謝。"
+              ],
+              "runtimeLine": 2517,
+              "verseLine": 2526,
+              "sourceLine": 2528
+            },
+            {
+              "readerPage": 104,
+              "subtitle": 7,
+              "time": "09:46–09:51",
+              "lines": [
+                "感謝正見引路，感謝正定安神。但現在，是時候告別了。"
+              ],
+              "runtimeLine": 2535,
+              "verseLine": 2544,
+              "sourceLine": 2546
+            },
+            {
+              "readerPage": 105,
+              "subtitle": 8,
+              "time": "09:51–09:56",
+              "lines": [
+                "小貓輕輕跳上岸，連同對「好」的執著也一起放下。"
+              ],
+              "runtimeLine": 2553,
+              "verseLine": 2562,
+              "sourceLine": 2564
+            },
+            {
+              "readerPage": 106,
+              "subtitle": 9,
+              "time": "09:56–10:02",
+              "lines": [
+                "此刻的牠，兩手空空，卻擁有前所未有的自由。"
+              ],
+              "runtimeLine": 2571,
+              "verseLine": 2580,
+              "sourceLine": 2582
+            },
+            {
+              "readerPage": 107,
+              "subtitle": 10,
+              "time": "10:02–10:08",
+              "lines": [
+                "這就是古仙人走過的最後一步：法尚應捨，何況非法？"
+              ],
+              "runtimeLine": 2589,
+              "verseLine": 2598,
+              "sourceLine": 2600
+            },
+            {
+              "readerPage": 108,
+              "subtitle": 11,
+              "time": "10:08–10:13",
+              "lines": [
+                "在解脫的彼岸，沒有恐懼，沒有束縛，只有無限寬廣的安寧。"
+              ],
+              "runtimeLine": 2607,
+              "verseLine": 2616,
+              "sourceLine": 2618
+            }
+          ],
+          "findingIds": [],
+          "status": "verified-pairing"
+        },
+        {
+          "scene": 13,
+          "title": "總結與經典出處",
+          "readerPages": [
+            109,
+            110
+          ],
+          "verseLabel": "《雜阿含經》第771經〈彼岸〉（節錄）",
+          "verse": "希有諸人民，能度於彼岸，\n一切諸世間，徘徊遊此岸。\n於此正法律，能善隨順者，\n斯等能度彼，生死難度岸。",
+          "readerSourceAnchor": "../#sa771",
+          "canonicalId": "sa771",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa771.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "SA771彼岸偈原字相符；只調整原全形縮排及換行，無缺句或改字。",
+          "runtimeSource": {
+            "file": "eightfold-path/book/book-data.js",
+            "line": 2620
+          },
+          "narrationCues": [
+            {
+              "readerPage": 109,
+              "subtitle": 1,
+              "time": "10:13–10:20",
+              "lines": [
+                "希有諸人民，能度於彼岸；一切諸世間，徘徊遊此岸。"
+              ],
+              "runtimeLine": 2625,
+              "verseLine": 2631,
+              "sourceLine": 2633
+            },
+            {
+              "readerPage": 110,
+              "subtitle": 2,
+              "time": "10:20–10:32",
+              "lines": [
+                "於此正法律，能善隨順者，斯等能度彼，生死難度岸。"
+              ],
+              "runtimeLine": 2640,
+              "verseLine": 2646,
+              "sourceLine": 2648
+            }
+          ],
+          "findingIds": [],
+          "status": "verified-pairing"
+        },
+        {
+          "scene": 14,
+          "title": "製作說明｜溫柔的起點",
+          "readerPages": [
+            111,
+            111
+          ],
+          "verseLabel": "",
+          "verse": "",
+          "readerSourceAnchor": null,
+          "canonicalId": null,
+          "verifiedFullTextURL": null,
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": null,
+          "semanticReview": "編輯後記明確說白話詮釋以SA784為主並以原經為準；無原經引文，非漏配。",
+          "runtimeSource": {
+            "file": "eightfold-path/book/book-data.js",
+            "line": 2650
+          },
+          "narrationCues": [
+            {
+              "readerPage": 111,
+              "subtitle": 1,
+              "time": null,
+              "lines": [
+                "本繪本所呈現的內容，係以《雜阿含經》第784經為主，參照相關經典所製作。",
+                "為了讓讀者更親近佛法，我們以圖文並茂的方式，用白話語言說明經意。",
+                "然而，繪本的詮釋難免簡略，無法完全涵蓋原經的深義。解讀仍請以原經文為準。",
+                "我們誠摯地鼓勵讀者參閱原經文，細細品味佛陀的智慧與慈悲。",
+                "也希望這本繪本能成為您走入經藏的起點。"
+              ],
+              "runtimeLine": 2655,
+              "verseLine": 2665,
+              "sourceLine": 2667
+            }
+          ],
+          "findingIds": [],
+          "status": "intentional-no-scripture"
+        }
+      ],
+      "findings": [
+        {
+          "id": "EIGHT-C01",
+          "category": "confirmed_local_quote_cue_alignment_issue",
+          "severity": "medium",
+          "readerPages": [
+            69,
+            69
+          ],
+          "scene": 9,
+          "subtitle": [
+            10
+          ],
+          "times": [
+            "06:38–06:45"
+          ],
+          "summary": "口白精確引語「常不休息」與當頁所列SA777不是同一出處；不是SA777引文字句造假。",
+          "currentNarration": [
+            {
+              "page": 69,
+              "text": "這不是蠻力，而是一種「不讓心隨波逐流」的堅持。佛陀說：「常不休息。」"
+            }
+          ],
+          "currentScripture": "我於內法中，不見一法，未生惡不善法令不生，已生惡不善法令滅，未生善法令生，已生善法重生令增廣，如說正思惟。",
+          "runtimeLocation": {
+            "file": "eightfold-path/book/book-data.js",
+            "line": 1905,
+            "verseLine": 1914
+          },
+          "sourceEvidence": "SA785正方便兩段均有「心法攝受、常、不休息」。SA777全文說正思惟令惡不生/滅、善生/增，沒有「常不休息」。",
+          "sourceURL": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa785.html",
+          "publicURL": "https://suttacentral.net/sa785/lzh/taisho",
+          "suggestion": "不改口白；可讓第69頁的下方回到SA785正方便節錄（若後三頁也保持持續精進可延續），第67–68頁仍用SA777四善法段。作者也可保留主題配對並另標精確引語參SA785。",
+          "origin": "原作者storyboard列了SA785與SA777兩段，沒有逐句切換時間。生成器依主題選擇scene9零基subtitle7起SA777並持續至幕末；問題是程式人工配對規則未為第10字幕返回785，非runtime字幕遺失。",
+          "generatorLocation": {
+            "file": "scripts/build-eightfold-path.py",
+            "lines": [
+              30,
+              31,
+              41,
+              66,
+              70
+            ]
+          },
+          "authorHandoffLocation": {
+            "file": "docs/eightfold-path/storyboard.md",
+            "lines": [
+              211,
+              215,
+              221,
+              223
+            ]
+          },
+          "adjacentPages": [
+            {
+              "page": 66,
+              "narration": [
+                "但現在，小貓的努力有了新的目標，「逆流而上」，這是出世間的無漏努力。"
+              ],
+              "canon": "sa785"
+            },
+            {
+              "page": 67,
+              "narration": [
+                "這需要一股持續不斷的力氣：看到前方漂來的惡念浮木，用力把它推開；"
+              ],
+              "canon": "sa777"
+            },
+            {
+              "page": 68,
+              "narration": [
+                "看到乾淨的善念水道，奮力划過去。"
+              ],
+              "canon": "sa777"
+            },
+            {
+              "page": 69,
+              "narration": [
+                "這不是蠻力，而是一種「不讓心隨波逐流」的堅持。佛陀說：「常不休息。」"
+              ],
+              "canon": "sa777"
+            },
+            {
+              "page": 70,
+              "narration": [
+                "因為在湍急的生死流中，只要一停下來，我們就會後退。"
+              ],
+              "canon": "sa777"
+            }
+          ],
+          "counterpartCanonicalLocation": {
+            "file": "sa785.html",
+            "line": 20
+          },
+          "actualLowerCanonicalLocation": {
+            "file": "sa777.html",
+            "line": null
+          }
+        },
+        {
+          "id": "EIGHT-AR01",
+          "category": "author_interpretation_requires_review",
+          "severity": "high",
+          "readerPages": [
+            64,
+            66
+          ],
+          "scene": 9,
+          "subtitle": [
+            5,
+            6,
+            7
+          ],
+          "times": [
+            "06:10–06:15",
+            "06:15–06:20",
+            "06:20–06:28"
+          ],
+          "summary": "世俗／出世間正方便被化約為追逐快樂與改成逆流目標。",
+          "currentNarration": [
+            {
+              "page": 64,
+              "text": "過去，我們也很努力，忙著追逐快樂、忙著逃避痛苦，"
+            },
+            {
+              "page": 65,
+              "text": "結果卻讓自己更累。這是世俗的有漏努力。"
+            },
+            {
+              "page": 66,
+              "text": "但現在，小貓的努力有了新的目標，「逆流而上」，這是出世間的無漏努力。"
+            }
+          ],
+          "currentScripture": "何等為正方便世、俗，有漏、有取，轉向善趣？謂欲、精進、方便超出、堅固建立，堪能造作精進、心法攝受、常、不休息，是名正方便世、俗，有漏、有取，轉向善趣。何等為正方便是聖、出世間，無漏、不取，盡苦，轉向苦邊？謂聖弟子苦苦思惟，集、滅、道道思惟，無漏憶念相應心法，欲、精進、方便、勤踊，超出、建立堅固、堪能造作精進，心法攝受、常、不休息，是名正方便是聖、出世間，無漏、不取，正盡苦，轉向苦邊。",
+          "runtimeLocation": {
+            "file": "eightfold-path/book/book-data.js",
+            "line": 1815,
+            "verseLine": 1824
+          },
+          "sourceEvidence": "SA785仍把世俗正方便稱為「轉向善趣」，並說欲精進、堅固建立、攝受、常不休息；出世間段另具「聖弟子苦苦思惟，集、滅、道道思惟，無漏憶念相應心法」條件。不是單憑故事方向或辛苦程度判無漏。",
+          "sourceURL": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa785.html",
+          "publicURL": "https://suttacentral.net/sa785/lzh/taisho",
+          "suggestion": "請作者校訂白話時保留兩類皆是正向精進，並說明出世間段的四諦/無漏條件；不要直接把追逐貪欲等同世俗正方便。",
+          "origin": "原storyboard同句，且md第352行已列優先待校；現有下緣引文是正確的，非新程式造成。"
+        },
+        {
+          "id": "EIGHT-AR02",
+          "category": "author_interpretation_requires_review",
+          "severity": "medium",
+          "readerPages": [
+            75,
+            86
+          ],
+          "scene": 10,
+          "subtitle": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "times": [
+            "07:10–07:18",
+            "07:18–07:24",
+            "07:24–07:29",
+            "07:29–07:32",
+            "07:32–07:37",
+            "07:37–07:42",
+            "07:42–07:48",
+            "07:48–07:51",
+            "07:51–07:56",
+            "07:56–08:01",
+            "08:01–08:09",
+            "08:09–08:14"
+          ],
+          "summary": "「記得＝世俗、看清＝出世間」適合作教學任務，但不是SA785的原始二分定義。",
+          "currentNarration": [
+            {
+              "page": 75,
+              "text": "第一項任務是「記得」（世俗正念）：記得手中的地圖，記得我們要去哪裡。"
+            },
+            {
+              "page": 76,
+              "text": "如果不小心分神了，就像那隻愛亂跑的猴子又想去抓路邊的樹枝，"
+            },
+            {
+              "page": 77,
+              "text": "正念會溫柔地提醒：「嘿，回來！那不是我們要去的方向。」"
+            },
+            {
+              "page": 78,
+              "text": "第二項任務是「看清」（出世間正念）："
+            },
+            {
+              "page": 79,
+              "text": "這條河上隨時會打來名為「貪愛」與「憤怒」的巨浪。"
+            },
+            {
+              "page": 80,
+              "text": "如果沒有看清楚，我們很容易就被捲進水裡喝毒水。"
+            },
+            {
+              "page": 81,
+              "text": "但有了正念，小貓能清清楚楚地看著每一個浪頭打過來。"
+            },
+            {
+              "page": 82,
+              "text": "牠運用四聖諦的智慧看著浪花："
+            },
+            {
+              "page": 83,
+              "text": "「喔！這是一個生氣的浪（苦），是因為我不喜歡被潑溼（集）。」"
+            },
+            {
+              "page": 84,
+              "text": "因為看見了，所以不被捲走。牠不對浪花發脾氣，"
+            },
+            {
+              "page": 85,
+              "text": "也不跳進水裡追逐浪花。只是穩穩地站著，讓浪頭從船邊流過。"
+            },
+            {
+              "page": 86,
+              "text": "這份清澈的覺知，守護著木筏，讓心在風浪中依然保持安穩。"
+            }
+          ],
+          "currentScripture": "何等為正念世、俗，有漏、有取，轉向善趣？若念、隨念、重念、憶念，不妄、不虛，是名正念世、俗，有漏、有取，正向善趣。何等為正念是聖、出世間，無漏、不取，轉向苦邊？謂聖弟子苦苦思惟，集、滅、道道思惟，無漏思惟相應，若念、隨念、重念、憶念，不妄、不虛，是名正念是聖、出世間，無漏、不取，轉向苦邊。",
+          "runtimeLocation": {
+            "file": "eightfold-path/book/book-data.js",
+            "line": 2013,
+            "verseLine": 2022
+          },
+          "sourceEvidence": "SA785兩種正念均列念、隨念、重念、憶念、不妄、不虛；出世間正念另以四諦思惟與無漏相應為條件。一般看清情緒不單獨證成無漏。",
+          "sourceURL": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa785.html",
+          "publicURL": "https://suttacentral.net/sa785/lzh/taisho",
+          "suggestion": "保留記得/看清的故事比喻；請作者決定是否刪除括號的等同分類，或加上是比喻且依四諦/無漏條件理解的短句。",
+          "origin": "原storyboard同句，md第353行已提示勿簡化成一般注意力；下方785原文沒放錯。"
+        },
+        {
+          "id": "EIGHT-AR03",
+          "category": "author_interpretation_requires_review",
+          "severity": "medium",
+          "readerPages": [
+            95,
+            96
+          ],
+          "scene": 11,
+          "subtitle": [
+            9,
+            10
+          ],
+          "times": [
+            "08:59–09:04",
+            "09:04–09:09"
+          ],
+          "summary": "只有波紋完全消失才能映照四聖諦，比MA42所選「因定見如實」更強。",
+          "currentNarration": [
+            {
+              "page": 95,
+              "text": "只有當波紋完全消失時，四聖諦的真理才能像天上的月亮，"
+            },
+            {
+              "page": 96,
+              "text": "毫無扭曲地、完整地映照在我們心裡。"
+            }
+          ],
+          "currentScripture": "阿難！多聞聖弟子因定便得見如實、知如真，因見如實、知如真，便得厭，因厭便得無欲，因無欲便得解脫，因解脫便知解脫，生已盡，梵行已立，所作已辦，不更受有，知如真。阿難！是為法法相益，法法相因，如是此戒趣至第一，謂度此岸，得至彼岸。",
+          "runtimeLocation": {
+            "file": "eightfold-path/book/book-data.js",
+            "line": 2373,
+            "verseLine": 2382
+          },
+          "sourceEvidence": "MA42描述戒、不悔、歡悅、喜、止、樂、定、如實知見等相益次第，所選段沒有「只有波紋完全消失」這個必要條件，也沒有月亮/水面譬喻。",
+          "sourceURL": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/ma/ma42.html",
+          "publicURL": "https://suttacentral.net/ma42/lzh/taisho",
+          "suggestion": "以有助如實觀察的水面比喻理解；是否把「只有…才能」改較審慎表述由作者決定。不要當引文錯字自動修原稿。",
+          "origin": "原storyboard同句，md第354行已有待校；下方MA42實際原文相符。"
+        }
+      ],
+      "runtimeRendering": {
+        "file": "eightfold-path/book/book.js",
+        "assignment": "verse.textContent directly combines page verseLabel and verse; source-link href directly uses page.source. No client-side source-number transformation.",
+        "fullBrowserRenderCheck": "Root QA independently checks all actual rendered steps; not claimed by this source audit."
+      }
+    },
+    {
+      "book": "four-fruits-ten-fetters",
+      "title": "四向四果與十結",
+      "baseline": "a238a0fb549966ac0510b5b89f18b913c8ec40b6",
+      "statistics": {
+        "readerPages": 75,
+        "originalNarrationCues": 74,
+        "originalScenes": 11,
+        "editorialPages": 1,
+        "contiguousGroupsIncludingNoQuote": 16,
+        "nonemptyContiguousQuoteGroups": 15,
+        "distinctQuotedStates": 13,
+        "actualCanonicalSources": 9,
+        "confirmedQuoteWrongSutraOrCharacterOmissionOrSplice": 0,
+        "authorNarrationExactlyPreservedInOrder": true,
+        "confirmedLocalCueAlignmentIssues": 0,
+        "authorReviewFindings": 3
+      },
+      "sources": [
+        {
+          "id": "da5",
+          "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/da/da5.html",
+          "expectedSha256": "86c23a1b8c2a4f01fec8930a4bfdce167c76d6e99600a86f3eed677bc510bf80",
+          "status": 200,
+          "sha256": "86c23a1b8c2a4f01fec8930a4bfdce167c76d6e99600a86f3eed677bc510bf80",
+          "expectedShaMatch": true,
+          "path": "/tmp/sutra-audit-middle3-sources/da5.html"
+        },
+        {
+          "id": "da9",
+          "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/da/da9.html",
+          "expectedSha256": "71f39386ff11b62130122c7f4a5ceceacc19c49aa7a6f43183bdcb59ed98c21b",
+          "status": 200,
+          "sha256": "71f39386ff11b62130122c7f4a5ceceacc19c49aa7a6f43183bdcb59ed98c21b",
+          "expectedShaMatch": true,
+          "path": "/tmp/sutra-audit-middle3-sources/da9.html"
+        },
+        {
+          "id": "ea28.7",
+          "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/ea/ea28/ea28.7.html",
+          "expectedSha256": "c89876b7b20f7690d2e27b77a6bfdabd58c85c45fb64da3ce634afdba3eba889",
+          "status": 200,
+          "sha256": "c89876b7b20f7690d2e27b77a6bfdabd58c85c45fb64da3ce634afdba3eba889",
+          "expectedShaMatch": true,
+          "path": "/tmp/sutra-audit-middle3-sources/ea28.7.html"
+        },
+        {
+          "id": "ma16",
+          "url": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/ma/ma16.html",
+          "expectedSha256": "f6839916799e80a27da5f5418049012693095b55eea5f7353a5d9845bcefa0cb",
+          "status": 200,
+          "sha256": "f6839916799e80a27da5f5418049012693095b55eea5f7353a5d9845bcefa0cb",
+          "expectedShaMatch": true,
+          "path": "/tmp/sutra-audit-middle3-sources/ma16.html"
+        },
+        {
+          "id": "sa266",
+          "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa201-300/sa266.html",
+          "expectedSha256": "e83c41664b441c9cf2c5d88e06d479bd414a768a15e04b921e21e7119e780ef5",
+          "status": 200,
+          "sha256": "e83c41664b441c9cf2c5d88e06d479bd414a768a15e04b921e21e7119e780ef5",
+          "expectedShaMatch": true,
+          "path": "/tmp/sutra-audit-middle3-sources/sa266.html"
+        },
+        {
+          "id": "sa297",
+          "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa201-300/sa297.html",
+          "expectedSha256": "126633f2a3634091140ec600fba92d549d03b6a7c4050a05edf289cfc7a1c414",
+          "status": 200,
+          "sha256": "126633f2a3634091140ec600fba92d549d03b6a7c4050a05edf289cfc7a1c414",
+          "expectedShaMatch": true,
+          "path": "/tmp/sutra-audit-middle3-sources/sa297.html"
+        },
+        {
+          "id": "sa490",
+          "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa401-500/sa490.html",
+          "expectedSha256": "2df9e107f06f2ce3083b4b9a95691a4c775525ccbb1bb0b4986393f0e5ceee9b",
+          "status": 200,
+          "sha256": "2df9e107f06f2ce3083b4b9a95691a4c775525ccbb1bb0b4986393f0e5ceee9b",
+          "expectedShaMatch": true,
+          "path": "/tmp/sutra-audit-middle3-sources/sa490.html"
+        },
+        {
+          "id": "sa71",
+          "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa1-100/sa71.html",
+          "expectedSha256": "1a34e67ee5d916a6bb7fe78852134d4ea1bc127c9b56c71f2c09dec0c234d712",
+          "status": 200,
+          "sha256": "1a34e67ee5d916a6bb7fe78852134d4ea1bc127c9b56c71f2c09dec0c234d712",
+          "expectedShaMatch": true,
+          "path": "/tmp/sutra-audit-middle3-sources/sa71.html"
+        },
+        {
+          "id": "sn46.55",
+          "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/sn/sn46/sn46.55.html",
+          "expectedSha256": "5b096a2b22e055c944081d8e5932507d88351cd8ab6e75cd804f9b0799f22ef7",
+          "status": 200,
+          "sha256": "5b096a2b22e055c944081d8e5932507d88351cd8ab6e75cd804f9b0799f22ef7",
+          "expectedShaMatch": true,
+          "path": "/tmp/sutra-audit-middle3-sources/sn46.55.html"
+        }
+      ],
+      "coverage": [
+        {
+          "scene": "S01",
+          "title": "彼岸是什麼",
+          "readerPages": [
+            1,
+            6
+          ],
+          "verseLabel": "《雜阿含經》第490經",
+          "verse": "涅槃者，貪欲永盡，瞋恚永盡，愚癡永盡，一切諸煩惱永盡，是名涅槃。",
+          "readerSourceAnchor": "../#sa490",
+          "canonicalId": "sa490",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa401-500/sa490.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "SA490正是舍利弗答閻浮車涅槃為貪瞋癡及諸煩惱永盡；彼岸/飛天城堡是引入，說話者與主題吻合。",
+          "runtimeSource": {
+            "file": "four-fruits-ten-fetters/book/book-data.js",
+            "line": 128
+          },
+          "narrationCues": [
+            {
+              "readerPage": 1,
+              "subtitle": 1,
+              "time": "00:00",
+              "lines": [
+                "學習佛法的過程中，經常會聽到一個詞，叫做「度過生死河流，到達彼岸」。"
+              ],
+              "runtimeLine": 133,
+              "verseLine": 141,
+              "sourceLine": 145
+            },
+            {
+              "readerPage": 2,
+              "subtitle": 2,
+              "time": "00:08",
+              "lines": [
+                "很多讀者可能會好奇：「到底要修到什麼程度，才算是真正到了彼岸呢？"
+              ],
+              "runtimeLine": 152,
+              "verseLine": 160,
+              "sourceLine": 164
+            },
+            {
+              "readerPage": 3,
+              "subtitle": 3,
+              "time": "00:14",
+              "lines": [
+                "到了彼岸之後，是不是會飛天遁地，或者跑到某個神祕的仙境呢？」"
+              ],
+              "runtimeLine": 171,
+              "verseLine": 179,
+              "sourceLine": 183
+            },
+            {
+              "readerPage": 4,
+              "subtitle": 4,
+              "time": "00:20",
+              "lines": [
+                "其實，佛陀的智慧大弟子舍利弗，曾給過一個非常明確又踏實的答案。"
+              ],
+              "runtimeLine": 190,
+              "verseLine": 198,
+              "sourceLine": 202
+            },
+            {
+              "readerPage": 5,
+              "subtitle": 5,
+              "time": "00:28",
+              "lines": [
+                "他說：「所謂涅槃，也就是到彼岸，"
+              ],
+              "runtimeLine": 209,
+              "verseLine": 217,
+              "sourceLine": 221
+            },
+            {
+              "readerPage": 6,
+              "subtitle": 6,
+              "time": "00:32",
+              "lines": [
+                "就是貪欲永盡、瞋恚永盡、愚癡永盡，一切諸煩惱永盡。」"
+              ],
+              "runtimeLine": 228,
+              "verseLine": 236,
+              "sourceLine": 240
+            }
+          ],
+          "findingIds": [],
+          "status": "verified-pairing"
+        },
+        {
+          "scene": "S02",
+          "title": "斷開十結",
+          "readerPages": [
+            7,
+            14
+          ],
+          "verseLabel": "《長阿含經》第9經〈眾集經〉",
+          "verse": "復有五法，謂五下結：身見結、戒盜結、疑結、貪欲結、瞋恚結。\n\n復有五法，謂五上結：色愛、無色愛、無明、慢、掉。",
+          "readerSourceAnchor": "../#da9",
+          "canonicalId": "da9",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/da/da9.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "DA9確列五下結與五上結；口白改排序和同義詞戒取/憍慢/掉舉不改原經列表。深層意識為教學解說，非經文技術分類。",
+          "runtimeSource": {
+            "file": "four-fruits-ten-fetters/book/book-data.js",
+            "line": 242
+          },
+          "narrationCues": [
+            {
+              "readerPage": 7,
+              "subtitle": 1,
+              "time": "00:38",
+              "lines": [
+                "許多人以為，佛教的「涅槃」或「滅諦」，"
+              ],
+              "runtimeLine": 247,
+              "verseLine": 255,
+              "sourceLine": 259
+            },
+            {
+              "readerPage": 8,
+              "subtitle": 2,
+              "time": "00:42",
+              "lines": [
+                "是獲得某種神奇的超能力，或是飛昇到某個神祕的地方。"
+              ],
+              "runtimeLine": 266,
+              "verseLine": 274,
+              "sourceLine": 278
+            },
+            {
+              "readerPage": 9,
+              "subtitle": 3,
+              "time": "00:48",
+              "lines": [
+                "但其實，解脫的重點不在於「獲得」什麼，反而是「捨去」什麼。"
+              ],
+              "runtimeLine": 285,
+              "verseLine": 293,
+              "sourceLine": 297
+            },
+            {
+              "readerPage": 10,
+              "subtitle": 4,
+              "time": "00:54",
+              "lines": [
+                "這是一場徹頭徹尾的「減法淨化工程」。"
+              ],
+              "runtimeLine": 304,
+              "verseLine": 312,
+              "sourceLine": 316
+            },
+            {
+              "readerPage": 11,
+              "subtitle": 5,
+              "time": "00:58",
+              "lines": [
+                "真正的解脫，就是精確且不可逆轉地，"
+              ],
+              "runtimeLine": 323,
+              "verseLine": 331,
+              "sourceLine": 335
+            },
+            {
+              "readerPage": 12,
+              "subtitle": 6,
+              "time": "01:02",
+              "lines": [
+                "切斷將我們綁在生死輪迴中的十條心理鎖鏈。這在佛法中，被稱為「十結」。"
+              ],
+              "runtimeLine": 342,
+              "verseLine": 350,
+              "sourceLine": 354
+            },
+            {
+              "readerPage": 13,
+              "subtitle": 7,
+              "time": "01:10",
+              "lines": [
+                "它們包含了將我們綁在欲界的「五下分結」：身見、戒取、疑、貪欲、瞋恚；"
+              ],
+              "runtimeLine": 361,
+              "verseLine": 369,
+              "sourceLine": 373
+            },
+            {
+              "readerPage": 14,
+              "subtitle": 8,
+              "time": "01:18",
+              "lines": [
+                "以及潛藏在更深層意識中的五上分結：色愛、無色愛、憍慢、掉舉、無明。"
+              ],
+              "runtimeLine": 380,
+              "verseLine": 388,
+              "sourceLine": 392
+            }
+          ],
+          "findingIds": [],
+          "status": "verified-pairing"
+        },
+        {
+          "scene": "S03",
+          "title": "四種姓",
+          "readerPages": [
+            15,
+            17
+          ],
+          "verseLabel": "《長阿含經》第5經〈初小緣經〉",
+          "verse": "婆悉吒！諸婆羅門種、居士、首陀羅種亦應如是篤信於佛、信法、信眾，成就聖戒。",
+          "readerSourceAnchor": "../#da5",
+          "canonicalId": "da5",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/da/da5.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "DA5在四姓共同清淨的語境確列四雙八輩並勸各姓信三寶成聖戒；本幕種姓主題相關。",
+          "runtimeSource": {
+            "file": "four-fruits-ten-fetters/book/book-data.js",
+            "line": 394
+          },
+          "narrationCues": [
+            {
+              "readerPage": 15,
+              "subtitle": 1,
+              "time": "01:26",
+              "lines": [
+                "這條切斷鎖鏈的道路，對所有人都是敞開的。"
+              ],
+              "runtimeLine": 399,
+              "verseLine": 407,
+              "sourceLine": 411
+            },
+            {
+              "readerPage": 16,
+              "subtitle": 2,
+              "time": "01:30",
+              "lines": [
+                "在《長阿含經·初小緣經》中，佛陀打破了當時社會的種姓階級神話。"
+              ],
+              "runtimeLine": 418,
+              "verseLine": 426,
+              "sourceLine": 430
+            },
+            {
+              "readerPage": 17,
+              "subtitle": 3,
+              "time": "01:36",
+              "lines": [
+                "他宣告：不論是出身於高貴的剎帝利、婆羅門，還是平民的居士、首陀羅；"
+              ],
+              "runtimeLine": 437,
+              "verseLine": 445,
+              "sourceLine": 449
+            }
+          ],
+          "findingIds": [],
+          "status": "verified-pairing"
+        },
+        {
+          "scene": "S04",
+          "title": "同一條修行路",
+          "readerPages": [
+            18,
+            21
+          ],
+          "verseLabel": "《長阿含經》第5經〈初小緣經〉",
+          "verse": "婆悉吒！諸婆羅門種、居士、首陀羅種亦應如是篤信於佛、信法、信眾，成就聖戒。",
+          "readerSourceAnchor": "../#da5",
+          "canonicalId": "da5",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/da/da5.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "沿用DA5同段談平等修道，四雙八輩在前文確實存在，非由單一句無端補出。",
+          "runtimeSource": {
+            "file": "four-fruits-ten-fetters/book/book-data.js",
+            "line": 451
+          },
+          "narrationCues": [
+            {
+              "readerPage": 18,
+              "subtitle": 1,
+              "time": "01:44",
+              "lines": [
+                "只要能篤信佛、法、僧三寶，成就聖戒，"
+              ],
+              "runtimeLine": 456,
+              "verseLine": 464,
+              "sourceLine": 468
+            },
+            {
+              "readerPage": 19,
+              "subtitle": 2,
+              "time": "01:50",
+              "lines": [
+                "都能平等地進入「四向四果」的修行階位。"
+              ],
+              "runtimeLine": 475,
+              "verseLine": 483,
+              "sourceLine": 487
+            },
+            {
+              "readerPage": 20,
+              "subtitle": 3,
+              "time": "01:54",
+              "lines": [
+                "這不僅是客觀衡量修證境界的標準，更是佛教眾生平等理念的最具體實踐。"
+              ],
+              "runtimeLine": 494,
+              "verseLine": 502,
+              "sourceLine": 506
+            },
+            {
+              "readerPage": 21,
+              "subtitle": 4,
+              "time": "02:02",
+              "lines": [
+                "因為真正的尊貴，來自於內心的淨化，而非外在的血統。"
+              ],
+              "runtimeLine": 513,
+              "verseLine": 521,
+              "sourceLine": 525
+            }
+          ],
+          "findingIds": [],
+          "status": "verified-pairing"
+        },
+        {
+          "scene": "S05",
+          "title": "凡夫繞柱",
+          "readerPages": [
+            22,
+            24
+          ],
+          "verseLabel": "《雜阿含經》第266經",
+          "verse": "比丘！譬如狗子繫柱，彼繫不斷，長夜繞柱，輪迴而轉。如是，比丘！愚夫眾生不如實知色、色集、色滅、色味、色患、色離，長夜輪迴，順色而轉。如是不如實知受、想、行、識、識集、識滅、識味、識患、識離，長夜輪迴，順識而轉。",
+          "readerSourceAnchor": "../#sa266",
+          "canonicalId": "sa266",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa201-300/sa266.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "SA266狗繫柱、不知五陰而輪迴的原喻與凡夫繞柱相符；貪愛皮帶/五受陰柱是作者視覺對照，沒有把故事當逐字。",
+          "runtimeSource": {
+            "file": "four-fruits-ten-fetters/book/book-data.js",
+            "line": 527
+          },
+          "narrationCues": [
+            {
+              "readerPage": 22,
+              "subtitle": 1,
+              "time": "02:06",
+              "lines": [
+                "凡夫就像一隻狗，被名為「貪愛」的皮帶，"
+              ],
+              "runtimeLine": 532,
+              "verseLine": 540,
+              "sourceLine": 544
+            },
+            {
+              "readerPage": 23,
+              "subtitle": 2,
+              "time": "02:12",
+              "lines": [
+                "緊緊拴在代表我們身心的「五受陰」這根柱子上。"
+              ],
+              "runtimeLine": 551,
+              "verseLine": 559,
+              "sourceLine": 563
+            },
+            {
+              "readerPage": 24,
+              "subtitle": 3,
+              "time": "02:16",
+              "lines": [
+                "無論怎麼用力奔跑，都只能盲目地繞著圈圈，不斷在生死之流中輪迴。"
+              ],
+              "runtimeLine": 570,
+              "verseLine": 578,
+              "sourceLine": 582
+            }
+          ],
+          "findingIds": [],
+          "status": "verified-pairing"
+        },
+        {
+          "scene": "S06",
+          "title": "初果須陀洹",
+          "readerPages": [
+            25,
+            32
+          ],
+          "verseLabel": "《增壹阿含經》28.7 · 黃藍花沙門",
+          "verse": "彼云何名為似黃藍花沙門？或有一人，斷三結使，成須陀洹不退轉法，必至涅槃，極遲經七死七生；或復家家、一種，猶如黃藍之花朝取暮長。此比丘亦復如是，三結使盡，成須陀洹，不退轉法必至涅槃，極遲至七死七生，若求方便勇猛意者，家家、一種便成道迹，是謂名為黃藍花沙門。",
+          "readerSourceAnchor": "../#ea28-7",
+          "canonicalId": "ea28.7",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/ea/ea28/ea28.7.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "EA28.7黃藍花、三結、七死七生原文完整；初果斬斷前幕貪愛皮帶的串場易超過斷三結，見FRUIT-AR01。",
+          "runtimeSource": {
+            "file": "four-fruits-ten-fetters/book/book-data.js",
+            "line": 584
+          },
+          "narrationCues": [
+            {
+              "readerPage": 25,
+              "subtitle": 1,
+              "time": "02:22",
+              "lines": [
+                "解脫的第一關，稱為初果「須陀洹」。"
+              ],
+              "runtimeLine": 589,
+              "verseLine": 597,
+              "sourceLine": 601
+            },
+            {
+              "readerPage": 26,
+              "subtitle": 2,
+              "time": "02:26",
+              "lines": [
+                "修行人在這裡斷了前三個結：破除了以為有恆常自我的「身見」，"
+              ],
+              "runtimeLine": 608,
+              "verseLine": 616,
+              "sourceLine": 620
+            },
+            {
+              "readerPage": 27,
+              "subtitle": 3,
+              "time": "02:34",
+              "lines": [
+                "不再迷信盲目儀式的「戒禁取」，以及斷除了對真理的「疑」。"
+              ],
+              "runtimeLine": 627,
+              "verseLine": 635,
+              "sourceLine": 639
+            },
+            {
+              "readerPage": 28,
+              "subtitle": 4,
+              "time": "02:38",
+              "lines": [
+                "這就像那隻被拴在柱子上的狗，終於被智慧之劍切斷了皮帶，不再盲目打轉。"
+              ],
+              "runtimeLine": 646,
+              "verseLine": 654,
+              "sourceLine": 658
+            },
+            {
+              "readerPage": 29,
+              "subtitle": 5,
+              "time": "02:46",
+              "lines": [
+                "佛陀形容初果聖者就像是「黃藍花」，"
+              ],
+              "runtimeLine": 665,
+              "verseLine": 673,
+              "sourceLine": 677
+            },
+            {
+              "readerPage": 30,
+              "subtitle": 6,
+              "time": "02:50",
+              "lines": [
+                "即使在早晨被採摘，到了晚上依然能繼續生長發育。"
+              ],
+              "runtimeLine": 684,
+              "verseLine": 692,
+              "sourceLine": 696
+            },
+            {
+              "readerPage": 31,
+              "subtitle": 7,
+              "time": "02:56",
+              "lines": [
+                "這象徵著他們道心堅固，生生不息，已步入解脫之流，絕對不再墮入三惡道。"
+              ],
+              "runtimeLine": 703,
+              "verseLine": 711,
+              "sourceLine": 715
+            },
+            {
+              "readerPage": 32,
+              "subtitle": 8,
+              "time": "03:02",
+              "lines": [
+                "最多只需在天上與人間往返受生七次，就必定能抵達苦的盡頭，證得涅槃。"
+              ],
+              "runtimeLine": 722,
+              "verseLine": 730,
+              "sourceLine": 734
+            }
+          ],
+          "findingIds": [
+            "FRUIT-AR01"
+          ],
+          "status": "requires-author-or-pairing-review"
+        },
+        {
+          "scene": "S07",
+          "title": "欲貪與瞋恚",
+          "readerPages": [
+            33,
+            36
+          ],
+          "verseLabel": "《相應部》46.55〈傷歌邏經〉· 莊春江譯",
+          "verse": "婆羅門！猶如水鉢被胭脂或薑黃或蓼藍或紫檀［等染料］混入，在那裡，當有眼的男子觀察自己的面貌時，他不能如實知見。",
+          "readerSourceAnchor": "../#sn46-55",
+          "canonicalId": "sn46.55",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/sn/sn46/sn46.55.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "SN46.55莊春江中譯欲貪染水譬喻與染料口白逐項相符，譯者正確。",
+          "runtimeSource": {
+            "file": "four-fruits-ten-fetters/book/book-data.js",
+            "line": 736
+          },
+          "narrationCues": [
+            {
+              "readerPage": 33,
+              "subtitle": 1,
+              "time": "03:10",
+              "lines": [
+                "凡夫的心，常常被兩股強大的力量干擾。"
+              ],
+              "runtimeLine": 741,
+              "verseLine": 749,
+              "sourceLine": 753
+            },
+            {
+              "readerPage": 34,
+              "subtitle": 2,
+              "time": "03:14",
+              "lines": [
+                "第一個是「欲貪」。它就像在純淨的水中，混入了鮮豔的染料。"
+              ],
+              "runtimeLine": 760,
+              "verseLine": 768,
+              "sourceLine": 772
+            },
+            {
+              "readerPage": 35,
+              "subtitle": 3,
+              "time": "03:20",
+              "lines": [
+                "貪愛雖然看起來色彩繽紛、充滿誘惑，"
+              ],
+              "runtimeLine": 779,
+              "verseLine": 787,
+              "sourceLine": 791
+            },
+            {
+              "readerPage": 36,
+              "subtitle": 4,
+              "time": "03:24",
+              "lines": [
+                "卻會讓內心失去清澈度，蒙蔽我們看清真相的雙眼。"
+              ],
+              "runtimeLine": 798,
+              "verseLine": 806,
+              "sourceLine": 810
+            }
+          ],
+          "findingIds": [],
+          "status": "verified-pairing"
+        },
+        {
+          "scene": "S07",
+          "title": "欲貪與瞋恚",
+          "readerPages": [
+            37,
+            38
+          ],
+          "verseLabel": "《相應部》46.55〈傷歌邏經〉· 莊春江譯",
+          "verse": "婆羅門！猶如水鉢被火加熱沸騰起泡，在那裡，當有眼的男子觀察自己的面貌時，他不能如實知見。",
+          "readerSourceAnchor": "../#sn46-55",
+          "canonicalId": "sn46.55",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/sn/sn46/sn46.55.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "03:30正好切同經瞋恚熱沸水段，對烈火沸水吻合，沒有沿用前段染色引文。",
+          "runtimeSource": {
+            "file": "four-fruits-ten-fetters/book/book-data.js",
+            "line": 812
+          },
+          "narrationCues": [
+            {
+              "readerPage": 37,
+              "subtitle": 5,
+              "time": "03:30",
+              "lines": [
+                "第二個是「瞋恚」。它就像是在水盆底下猛烈燃燒的烈火。"
+              ],
+              "runtimeLine": 817,
+              "verseLine": 825,
+              "sourceLine": 829
+            },
+            {
+              "readerPage": 38,
+              "subtitle": 6,
+              "time": "03:36",
+              "lines": [
+                "當人發怒時，內心就像沸水一樣翻騰冒泡，根本無法平靜下來看清事實。"
+              ],
+              "runtimeLine": 836,
+              "verseLine": 844,
+              "sourceLine": 848
+            }
+          ],
+          "findingIds": [],
+          "status": "verified-pairing"
+        },
+        {
+          "scene": "S08",
+          "title": "二果斯陀含",
+          "readerPages": [
+            39,
+            45
+          ],
+          "verseLabel": "《增壹阿含經》28.7 · 邠陀利花沙門",
+          "verse": "彼云何名為邠陀利花沙門？或有一人，三結使盡，婬、怒、癡薄，成斯陀含，來至此世盡於苦際。若小遲者，來至此世盡於苦際；若勇猛者，即於此間盡於苦際。猶如邠陀利花，晨朝剖花，向暮萎死，是謂邠陀利花沙門。",
+          "readerSourceAnchor": "../#ea28-7",
+          "canonicalId": "ea28.7",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/ea/ea28/ea28.7.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "EA28.7二果三結盡/婬怒癡薄/花朝剖暮萎/一次來世原句正確，04:10花名已正確；撤火與溫水是作者比喻，因已寫微波不判為全斷貪瞋的經文錯配。",
+          "runtimeSource": {
+            "file": "four-fruits-ten-fetters/book/book-data.js",
+            "line": 850
+          },
+          "narrationCues": [
+            {
+              "readerPage": 39,
+              "subtitle": 1,
+              "time": "03:44",
+              "lines": [
+                "解脫的第二關，是二果「斯陀含」。修行人除了斷除前三結，"
+              ],
+              "runtimeLine": 855,
+              "verseLine": 863,
+              "sourceLine": 867
+            },
+            {
+              "readerPage": 40,
+              "subtitle": 2,
+              "time": "03:50",
+              "lines": [
+                "更大幅消減了「欲貪」與「瞋恚」這兩股驅動力。"
+              ],
+              "runtimeLine": 874,
+              "verseLine": 882,
+              "sourceLine": 886
+            },
+            {
+              "readerPage": 41,
+              "subtitle": 3,
+              "time": "03:56",
+              "lines": [
+                "如果說凡夫的情緒像沸騰的濁水，那二果聖者就像是被抽去了底下的烈火。"
+              ],
+              "runtimeLine": 893,
+              "verseLine": 901,
+              "sourceLine": 905
+            },
+            {
+              "readerPage": 42,
+              "subtitle": 4,
+              "time": "04:02",
+              "lines": [
+                "即使偶爾還有情緒的微波，也只像是溫水，很快就會平靜冷卻。"
+              ],
+              "runtimeLine": 912,
+              "verseLine": 920,
+              "sourceLine": 924
+            },
+            {
+              "readerPage": 43,
+              "subtitle": 5,
+              "time": "04:10",
+              "lines": [
+                "佛陀以「邠陀利花」比喻二果聖者。花在清晨剖開，到傍晚便枯萎。"
+              ],
+              "runtimeLine": 931,
+              "verseLine": 939,
+              "sourceLine": 943
+            },
+            {
+              "readerPage": 44,
+              "subtitle": 6,
+              "time": "04:16",
+              "lines": [
+                "這象徵著他們在輪迴中受苦的時日已經極其短暫了，"
+              ],
+              "runtimeLine": 950,
+              "verseLine": 958,
+              "sourceLine": 962
+            },
+            {
+              "readerPage": 45,
+              "subtitle": 7,
+              "time": "04:20",
+              "lines": [
+                "最多只需在天上與人間往返受生一次，就能抵達解脫的終點。"
+              ],
+              "runtimeLine": 969,
+              "verseLine": 977,
+              "sourceLine": 981
+            }
+          ],
+          "findingIds": [],
+          "status": "verified-pairing"
+        },
+        {
+          "scene": "S09",
+          "title": "三果阿那含",
+          "readerPages": [
+            46,
+            50
+          ],
+          "verseLabel": "《雜阿含經》第71經",
+          "verse": "云何斷關？謂斷五下分結。",
+          "readerSourceAnchor": "../#sa71",
+          "canonicalId": "sa71",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa1-100/sa71.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "SA71斷關=斷五下分結原句真實；同經全段列舉阿羅漢德號，移用共同斷下五結性質說三果需限定語境，見FRUIT-AR02。",
+          "runtimeSource": {
+            "file": "four-fruits-ten-fetters/book/book-data.js",
+            "line": 983
+          },
+          "narrationCues": [
+            {
+              "readerPage": 46,
+              "subtitle": 1,
+              "time": "04:26",
+              "lines": [
+                "解脫的第三關，是三果「阿那含」。在這裡，修行人迎來了巨大的昇華。"
+              ],
+              "runtimeLine": 988,
+              "verseLine": 996,
+              "sourceLine": 1000
+            },
+            {
+              "readerPage": 47,
+              "subtitle": 2,
+              "time": "04:34",
+              "lines": [
+                "他們徹底斷除了「欲貪」與「瞋恚」，"
+              ],
+              "runtimeLine": 1007,
+              "verseLine": 1015,
+              "sourceLine": 1019
+            },
+            {
+              "readerPage": 48,
+              "subtitle": 3,
+              "time": "04:38",
+              "lines": [
+                "將把人綁在欲界的五條粗重鎖鏈「五下分結」全數斷盡。"
+              ],
+              "runtimeLine": 1026,
+              "verseLine": 1034,
+              "sourceLine": 1038
+            },
+            {
+              "readerPage": 49,
+              "subtitle": 4,
+              "time": "04:44",
+              "lines": [
+                "佛陀形容這個境界叫做「斷關」，"
+              ],
+              "runtimeLine": 1045,
+              "verseLine": 1053,
+              "sourceLine": 1057
+            },
+            {
+              "readerPage": 50,
+              "subtitle": 5,
+              "time": "04:48",
+              "lines": [
+                "就像是打破了將眾生關在欲界牢籠裡的那道門閂。"
+              ],
+              "runtimeLine": 1064,
+              "verseLine": 1072,
+              "sourceLine": 1076
+            }
+          ],
+          "findingIds": [
+            "FRUIT-AR02"
+          ],
+          "status": "requires-author-or-pairing-review"
+        },
+        {
+          "scene": "S09",
+          "title": "三果阿那含",
+          "readerPages": [
+            51,
+            54
+          ],
+          "verseLabel": "《增壹阿含經》28.7 · 柔軟沙門",
+          "verse": "彼云何柔軟沙門？或有一人斷五下分結，成阿那含，即於彼般涅槃，不來此世，是謂柔軟沙門。",
+          "readerSourceAnchor": "../#ea28-7",
+          "canonicalId": "ea28.7",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/ea/ea28/ea28.7.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "04:52已切EA28.7柔軟沙門/五下分結/不還，05:00、05:04作者補句完整；不再回此世有原文，清淨高層天界為作者解說。",
+          "runtimeSource": {
+            "file": "four-fruits-ten-fetters/book/book-data.js",
+            "line": 1078
+          },
+          "narrationCues": [
+            {
+              "readerPage": 51,
+              "subtitle": 6,
+              "time": "04:52",
+              "lines": [
+                "佛陀也稱呼他們為「柔軟沙門」。因為三果聖者的心性已徹底調柔，"
+              ],
+              "runtimeLine": 1083,
+              "verseLine": 1091,
+              "sourceLine": 1095
+            },
+            {
+              "readerPage": 52,
+              "subtitle": 7,
+              "time": "05:00",
+              "lines": [
+                "永遠不再被欲界的粗重煩惱與情緒所激盪。"
+              ],
+              "runtimeLine": 1102,
+              "verseLine": 1110,
+              "sourceLine": 1114
+            },
+            {
+              "readerPage": 53,
+              "subtitle": 8,
+              "time": "05:04",
+              "lines": [
+                "他們在此生結束後，將直接迎向清淨的高層天界，"
+              ],
+              "runtimeLine": 1121,
+              "verseLine": 1129,
+              "sourceLine": 1133
+            },
+            {
+              "readerPage": 54,
+              "subtitle": 9,
+              "time": "05:10",
+              "lines": [
+                "永遠不會再回到這個充滿煩惱的世間。"
+              ],
+              "runtimeLine": 1140,
+              "verseLine": 1148,
+              "sourceLine": 1152
+            }
+          ],
+          "findingIds": [],
+          "status": "verified-pairing"
+        },
+        {
+          "scene": "S10",
+          "title": "四果阿羅漢",
+          "readerPages": [
+            55,
+            59
+          ],
+          "verseLabel": "《增壹阿含經》28.7 · 柔軟中柔軟沙門",
+          "verse": "彼云何柔軟中柔軟沙門？或有一人有漏盡，成無漏心解脫、智慧解脫，於現法中自身作證而自遊戲：生死已盡，梵行已立，所作已辦，更不復受胎，如實知之。是謂柔軟中柔軟沙門。",
+          "readerSourceAnchor": "../#ea28-7",
+          "canonicalId": "ea28.7",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/ea/ea28/ea28.7.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "EA28.7漏盡阿羅漢/兩解脫/不受胎支持四果段；十結末五逐項承接先前DA9，無錯源。",
+          "runtimeSource": {
+            "file": "four-fruits-ten-fetters/book/book-data.js",
+            "line": 1154
+          },
+          "narrationCues": [
+            {
+              "readerPage": 55,
+              "subtitle": 1,
+              "time": "05:14",
+              "lines": [
+                "最後一關，是四果「阿羅漢」。"
+              ],
+              "runtimeLine": 1159,
+              "verseLine": 1167,
+              "sourceLine": 1171
+            },
+            {
+              "readerPage": 56,
+              "subtitle": 2,
+              "time": "05:18",
+              "lines": [
+                "在這裡，修行人運用極細微的智慧，拔除了最後五條隱形的絲線「五上分結」，"
+              ],
+              "runtimeLine": 1178,
+              "verseLine": 1186,
+              "sourceLine": 1190
+            },
+            {
+              "readerPage": 57,
+              "subtitle": 3,
+              "time": "05:26",
+              "lines": [
+                "包含對「色界」與「無色界」高深禪定的貪愛（色愛與無色愛），"
+              ],
+              "runtimeLine": 1197,
+              "verseLine": 1205,
+              "sourceLine": 1209
+            },
+            {
+              "readerPage": 58,
+              "subtitle": 4,
+              "time": "05:30",
+              "lines": [
+                "微細的心靈動盪（掉舉）、潛在的自我優越感（慢），"
+              ],
+              "runtimeLine": 1216,
+              "verseLine": 1224,
+              "sourceLine": 1228
+            },
+            {
+              "readerPage": 59,
+              "subtitle": 5,
+              "time": "05:34",
+              "lines": [
+                "以及最深層的盲點（無明）。十結全斷，這場解脫的減法工程終於完成。"
+              ],
+              "runtimeLine": 1235,
+              "verseLine": 1243,
+              "sourceLine": 1247
+            }
+          ],
+          "findingIds": [],
+          "status": "verified-pairing"
+        },
+        {
+          "scene": "S10",
+          "title": "四果阿羅漢",
+          "readerPages": [
+            60,
+            60
+          ],
+          "verseLabel": "《雜阿含經》第297經〈大空法經〉",
+          "verse": "斷其根本，如截多羅樹頭，於未來世成不生法。",
+          "readerSourceAnchor": "../#sa297",
+          "canonicalId": "sa297",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa201-300/sa297.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "05:40正切SA297截多羅樹頭；原經是無明滅至行/老死不生的緣起脈絡，作者用於煩惱不再生長為同向譬喻，閃電為美術創作。",
+          "runtimeSource": {
+            "file": "four-fruits-ten-fetters/book/book-data.js",
+            "line": 1249
+          },
+          "narrationCues": [
+            {
+              "readerPage": 60,
+              "subtitle": 6,
+              "time": "05:40",
+              "lines": [
+                "就如同被閃電截斷了樹冠的棕櫚樹，煩惱永遠不再生長。"
+              ],
+              "runtimeLine": 1254,
+              "verseLine": 1262,
+              "sourceLine": 1266
+            }
+          ],
+          "findingIds": [],
+          "status": "verified-pairing"
+        },
+        {
+          "scene": "S10",
+          "title": "四果阿羅漢",
+          "readerPages": [
+            61,
+            62
+          ],
+          "verseLabel": "《增壹阿含經》28.7 · 柔軟中柔軟沙門",
+          "verse": "彼云何柔軟中柔軟沙門？或有一人有漏盡，成無漏心解脫、智慧解脫，於現法中自身作證而自遊戲：生死已盡，梵行已立，所作已辦，更不復受胎，如實知之。是謂柔軟中柔軟沙門。",
+          "readerSourceAnchor": "../#ea28-7",
+          "canonicalId": "ea28.7",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/ea/ea28/ea28.7.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "05:46回EA28.7柔軟中柔軟沙門，與阿羅漢卸擔自由相符，未滯留截樹段。",
+          "runtimeSource": {
+            "file": "four-fruits-ten-fetters/book/book-data.js",
+            "line": 1268
+          },
+          "narrationCues": [
+            {
+              "readerPage": 61,
+              "subtitle": 7,
+              "time": "05:46",
+              "lines": [
+                "佛陀尊稱他們為柔軟中柔軟沙門。這代表他們的心智已徹底卸下所有重擔，"
+              ],
+              "runtimeLine": 1273,
+              "verseLine": 1281,
+              "sourceLine": 1285
+            },
+            {
+              "readerPage": 62,
+              "subtitle": 8,
+              "time": "05:54",
+              "lines": [
+                "達到了最極致的清淨、無著與絕對的自由。"
+              ],
+              "runtimeLine": 1292,
+              "verseLine": 1300,
+              "sourceLine": 1304
+            }
+          ],
+          "findingIds": [],
+          "status": "verified-pairing"
+        },
+        {
+          "scene": "S11",
+          "title": "現世安隱",
+          "readerPages": [
+            63,
+            74
+          ],
+          "verseLabel": "《中阿含經》第16經〈伽藍經〉",
+          "verse": "復次，伽藍！若有所作，必不作惡，我不犯世怖與不怖，常當慈愍一切世間，我心不與眾生共諍，無濁歡悅。如是，伽藍！多聞聖弟子心無結無怨，無恚無諍，是謂得第四安隱住處。",
+          "readerSourceAnchor": "../#ma16",
+          "canonicalId": "ma16",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/ma/ma16.html",
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": true,
+          "semanticReview": "MA16第四安隱處確有不作惡、慈愍、不諍、無濁歡悅，與69–72相符；66–67自己當下有益就可以過度概括，見FRUIT-AR03。當下彼岸是結語譬喻，不當作完成十結判準。",
+          "runtimeSource": {
+            "file": "four-fruits-ten-fetters/book/book-data.js",
+            "line": 1306
+          },
+          "narrationCues": [
+            {
+              "readerPage": 63,
+              "subtitle": 1,
+              "time": "06:00",
+              "lines": [
+                "或許有些讀者看到這裡會覺得：「斷除十結、不再輪迴，"
+              ],
+              "runtimeLine": 1311,
+              "verseLine": 1319,
+              "sourceLine": 1323
+            },
+            {
+              "readerPage": 64,
+              "subtitle": 2,
+              "time": "06:04",
+              "lines": [
+                "聽起來實在太遙遠了。甚至，我連到底有沒有來世都不知道！」"
+              ],
+              "runtimeLine": 1330,
+              "verseLine": 1338,
+              "sourceLine": 1342
+            },
+            {
+              "readerPage": 65,
+              "subtitle": 3,
+              "time": "06:12",
+              "lines": [
+                "其實，早在兩千多年前，佛陀對「伽藍人」開示時，"
+              ],
+              "runtimeLine": 1349,
+              "verseLine": 1357,
+              "sourceLine": 1361
+            },
+            {
+              "readerPage": 66,
+              "subtitle": 4,
+              "time": "06:18",
+              "lines": [
+                "就給出了一個非常貼近人性的答案。佛陀說：我們不需要盲目迷信，"
+              ],
+              "runtimeLine": 1368,
+              "verseLine": 1376,
+              "sourceLine": 1380
+            },
+            {
+              "readerPage": 67,
+              "subtitle": 5,
+              "time": "06:24",
+              "lines": [
+                "只要去親自驗證「什麼對自己當下有益」就可以了。"
+              ],
+              "runtimeLine": 1387,
+              "verseLine": 1395,
+              "sourceLine": 1399
+            },
+            {
+              "readerPage": 68,
+              "subtitle": 6,
+              "time": "06:30",
+              "lines": [
+                "如果我們先放下對來世或升天的討論，"
+              ],
+              "runtimeLine": 1406,
+              "verseLine": 1414,
+              "sourceLine": 1418
+            },
+            {
+              "readerPage": 69,
+              "subtitle": 7,
+              "time": "06:34",
+              "lines": [
+                "光是能在「此生此世」減少貪欲、瞋恚與愚癡，"
+              ],
+              "runtimeLine": 1425,
+              "verseLine": 1433,
+              "sourceLine": 1437
+            },
+            {
+              "readerPage": 70,
+              "subtitle": 8,
+              "time": "06:38",
+              "lines": [
+                "我們就不會因為作惡而受苦，並且能與眾生無諍，內心充滿無濁的歡悅。"
+              ],
+              "runtimeLine": 1444,
+              "verseLine": 1452,
+              "sourceLine": 1456
+            },
+            {
+              "readerPage": 71,
+              "subtitle": 9,
+              "time": "06:46",
+              "lines": [
+                "這份因為「不作惡、不貪、不瞋」而帶來的清明與自在，"
+              ],
+              "runtimeLine": 1463,
+              "verseLine": 1471,
+              "sourceLine": 1475
+            },
+            {
+              "readerPage": 72,
+              "subtitle": 10,
+              "time": "06:52",
+              "lines": [
+                "就是我們在現代高壓生活中，隨時可以抵達的「心理舒適圈」（安隱處）。"
+              ],
+              "runtimeLine": 1482,
+              "verseLine": 1490,
+              "sourceLine": 1494
+            },
+            {
+              "readerPage": 73,
+              "subtitle": 11,
+              "time": "06:56",
+              "lines": [
+                "解脫，從來不僅是死後的去向；"
+              ],
+              "runtimeLine": 1501,
+              "verseLine": 1509,
+              "sourceLine": 1513
+            },
+            {
+              "readerPage": 74,
+              "subtitle": 12,
+              "time": "07:00",
+              "lines": [
+                "只要我們願意開始這場心靈的減法工程，當下，就是最美的彼岸。"
+              ],
+              "runtimeLine": 1520,
+              "verseLine": 1528,
+              "sourceLine": 1532
+            }
+          ],
+          "findingIds": [
+            "FRUIT-AR03"
+          ],
+          "status": "requires-author-or-pairing-review"
+        },
+        {
+          "scene": "afterword",
+          "title": "製作說明｜溫柔的起點",
+          "readerPages": [
+            75,
+            75
+          ],
+          "verseLabel": "",
+          "verse": "",
+          "readerSourceAnchor": null,
+          "canonicalId": null,
+          "verifiedFullTextURL": null,
+          "allQuoteCharactersFoundIgnoringOnlyPunctuationWhitespace": null,
+          "semanticReview": "編輯後記正確指EA卷20聲聞品28第7經並參阿含/相應部；無經文為有意。",
+          "runtimeSource": {
+            "file": "four-fruits-ten-fetters/book/book-data.js",
+            "line": 1534
+          },
+          "narrationCues": [
+            {
+              "readerPage": 75,
+              "subtitle": 1,
+              "time": null,
+              "lines": [
+                "本繪本所呈現的內容，係以《增壹阿含經》卷二十〈聲聞品第二十八〉第七經為主，參照相關阿含經典與《相應部》所製作。",
+                "為了讓讀者更親近佛法，我們以圖文並茂的方式，用白話語言說明經意。",
+                "然而，繪本的詮釋難免簡略，無法完全涵蓋原經的深義。解讀仍請以原經文為準。",
+                "我們誠摯地鼓勵讀者參閱原經文，細細品味佛陀的智慧與慈悲。",
+                "也希望這本繪本能成為您走入經藏的起點。"
+              ],
+              "runtimeLine": 1539,
+              "verseLine": 1548,
+              "sourceLine": 1550
+            }
+          ],
+          "findingIds": [],
+          "status": "intentional-no-scripture"
+        }
+      ],
+      "findings": [
+        {
+          "id": "FRUIT-AR01",
+          "category": "author_interpretation_requires_review",
+          "severity": "high",
+          "readerPages": [
+            28,
+            28
+          ],
+          "scene": "S06",
+          "subtitle": [
+            4
+          ],
+          "times": [
+            "02:38"
+          ],
+          "summary": "初果斬斷前幕標「貪愛」的整條皮帶，可能讓人誤以為初果已斷一切貪愛、終止輪迴。",
+          "currentNarration": [
+            {
+              "page": 28,
+              "text": "這就像那隻被拴在柱子上的狗，終於被智慧之劍切斷了皮帶，不再盲目打轉。"
+            }
+          ],
+          "currentScripture": "彼云何名為似黃藍花沙門？或有一人，斷三結使，成須陀洹不退轉法，必至涅槃，極遲經七死七生；或復家家、一種，猶如黃藍之花朝取暮長。此比丘亦復如是，三結使盡，成須陀洹，不退轉法必至涅槃，極遲至七死七生，若求方便勇猛意者，家家、一種便成道迹，是謂名為黃藍花沙門。",
+          "runtimeLocation": {
+            "file": "four-fruits-ten-fetters/book/book-data.js",
+            "line": 646,
+            "verseLine": 654
+          },
+          "sourceEvidence": "EA28.7初果只說斷三結且最遲七死七生；下一二果段仍說婬怒癡薄，三果才斷五下分結。SA266完整狗喻的解脫段則說如實知五陰而脫生老病死憂悲惱苦。",
+          "sourceURL": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/ea/ea28/ea28.7.html",
+          "publicURL": "https://suttacentral.net/ea28.7/lzh/taisho",
+          "suggestion": "保留狗與智慧劍的創作，可請作者將本句限定為斷前三結/不再被邪見盲帶，別把前幕貪愛皮帶完全割斷等同初果總貪愛斷盡；圖片是否調整需另獲作者同意。",
+          "origin": "原storyboard S06同句；S05正式圖由作者指定柱五受陰/皮帶貪愛，非程式換圖誤植。",
+          "additionalSourceURL": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa201-300/sa266.html",
+          "crossCheckReaderPages": [
+            26,
+            27,
+            32,
+            39,
+            40,
+            47,
+            48
+          ]
+        },
+        {
+          "id": "FRUIT-AR02",
+          "category": "author_interpretation_requires_review",
+          "severity": "low",
+          "readerPages": [
+            46,
+            50
+          ],
+          "scene": "S09",
+          "subtitle": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "times": [
+            "04:26",
+            "04:34",
+            "04:38",
+            "04:44",
+            "04:48"
+          ],
+          "summary": "SA71斷關原句真實，但原段列舉阿羅漢德相；本幕把其中斷五下分結用來解釋三果。",
+          "currentNarration": [
+            {
+              "page": 46,
+              "text": "解脫的第三關，是三果「阿那含」。在這裡，修行人迎來了巨大的昇華。"
+            },
+            {
+              "page": 47,
+              "text": "他們徹底斷除了「欲貪」與「瞋恚」，"
+            },
+            {
+              "page": 48,
+              "text": "將把人綁在欲界的五條粗重鎖鏈「五下分結」全數斷盡。"
+            },
+            {
+              "page": 49,
+              "text": "佛陀形容這個境界叫做「斷關」，"
+            },
+            {
+              "page": 50,
+              "text": "就像是打破了將眾生關在欲界牢籠裡的那道門閂。"
+            }
+          ],
+          "currentScripture": "云何斷關？謂斷五下分結。",
+          "runtimeLocation": {
+            "file": "four-fruits-ten-fetters/book/book-data.js",
+            "line": 988,
+            "verseLine": 996
+          },
+          "sourceEvidence": "SA71前文說阿羅漢盡諸有漏，續列斷關、度塹等，才解釋「云何斷關？謂斷五下分結。」第三果亦斷五下結，所以共同性質不矛盾，但不能說此經整段是在定義三果。",
+          "sourceURL": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa1-100/sa71.html",
+          "publicURL": "https://suttacentral.net/sa71/lzh/taisho",
+          "suggestion": "可保留這句作共同性質的譬喻，作者若校稿可改成「五下分結斷盡，借用經中的說法，就像斷關」；或全段以已在下頁的EA28.7作主要定義。無需把SA71真原文判為偽引。",
+          "origin": "原storyboard S09指定SA71到04:52再EA，生成器忠實依cue；不是切換時點錯誤。"
+        },
+        {
+          "id": "FRUIT-AR03",
+          "category": "author_interpretation_requires_review",
+          "severity": "medium",
+          "readerPages": [
+            66,
+            67
+          ],
+          "scene": "S11",
+          "subtitle": [
+            4,
+            5
+          ],
+          "times": [
+            "06:18",
+            "06:24"
+          ],
+          "summary": "伽藍經被概括成只需親驗「對自己當下有益」即可，省略了經中的善惡與利他條件。",
+          "currentNarration": [
+            {
+              "page": 66,
+              "text": "就給出了一個非常貼近人性的答案。佛陀說：我們不需要盲目迷信，"
+            },
+            {
+              "page": 67,
+              "text": "只要去親自驗證「什麼對自己當下有益」就可以了。"
+            }
+          ],
+          "currentScripture": "復次，伽藍！若有所作，必不作惡，我不犯世怖與不怖，常當慈愍一切世間，我心不與眾生共諍，無濁歡悅。如是，伽藍！多聞聖弟子心無結無怨，無恚無諍，是謂得第四安隱住處。",
+          "runtimeLocation": {
+            "file": "four-fruits-ten-fetters/book/book-data.js",
+            "line": 1368,
+            "verseLine": 1376
+          },
+          "sourceEvidence": "MA16完整段從貪恚癡及殺盜邪淫妄言飲酒等惡行，談身口意淨業、慈悲喜捨、不作惡與四安隱住處；並非把當下主觀舒適或自利當成唯一標準。",
+          "sourceURL": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/ma/ma16.html",
+          "publicURL": "https://suttacentral.net/ma16/lzh/taisho",
+          "suggestion": "請作者把「對自己當下有益」補足為減貪瞋癡、不害自己和他人的善法等原經可支持的意思；保留現世安隱的用意，不換正確的MA16下緣引文。",
+          "origin": "原storyboard同句，runtime完整保留；不是畫面經號貼錯。"
+        }
+      ],
+      "runtimeRendering": {
+        "file": "four-fruits-ten-fetters/book/book.js",
+        "assignment": "verse.textContent directly combines page verseLabel and verse; source-link href directly uses page.source. No client-side source-number transformation.",
+        "fullBrowserRenderCheck": "Root QA independently checks all actual rendered steps; not claimed by this source audit."
+      }
+    },
+    {
+      "book": "four-purities-six-recollections",
+      "title": "四不壞淨與六念",
+      "baseline": "a238a0fb549966ac0510b5b89f18b913c8ec40b6",
+      "scope": "Read-only semantic narration/scripture source audit, not visual QA",
+      "statistics": {
+        "readerPages": 95,
+        "originalNarrationCues": 93,
+        "illustratedScenes": 8,
+        "intentionalClosingAndEditorialPages": 2,
+        "sourcePairingGroupsIncludingTitleOnly": 9,
+        "nonemptyScriptureGroups": 8,
+        "quotedBlocks": 9,
+        "canonicalFullTextsFetched": 4,
+        "canonicalFullTextsShaVerified": 4,
+        "confirmedQuoteMisassignment": 0,
+        "confirmedQuoteTruncationOrSplice": 0,
+        "confirmedNarrationNameMismatch": 1,
+        "authorReviewFindings": 2
+      },
+      "method": [
+        "Read every runtime page/cue and original storyboard prose/JSON.",
+        "Read all four complete authoritative SC sc-data pinned source files, not metadata only; verified SHA-256 against repository manifest.",
+        "Compare each distinct quote block ignoring only punctuation/whitespace, then independently assess scene/cue semantics and mid-scene source switch.",
+        "Inspect guide source-card title/translator/version/anchor targets and reader book.js rendering data flow."
+      ],
+      "sources": [
+        {
+          "id": "sa61",
+          "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa1-100/sa61.html",
+          "status": 200,
+          "sha256": "f9d55e1ca411649a8f41538ffe0fd1caed05b533b89e1f0d20511133ab2beddb",
+          "matchesRecorded": true
+        },
+        {
+          "id": "sa843",
+          "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa801-900/sa843.html",
+          "status": 200,
+          "sha256": "a65a8857d5d777b346196d2d1bd88595c1f88fba11116cbcece175ad9c188459",
+          "matchesRecorded": true
+        },
+        {
+          "id": "sa554",
+          "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa501-600/sa554.html",
+          "status": 200,
+          "sha256": "b5ceecd9204f5a56de591ac91ce1dfb134484b887c94268f93ec8d0948e40871",
+          "matchesRecorded": true
+        },
+        {
+          "id": "sn55.1",
+          "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/sn/sn55/sn55.1.html",
+          "status": 200,
+          "sha256": "f904a2a978af4f814b2a07ab796caefd43b150cafbabdafa33b04078773bddcf",
+          "matchesRecorded": true
+        }
+      ],
+      "coverage": [
+        {
+          "scene": "S01",
+          "quoteKey": "S01",
+          "readerPages": [
+            1,
+            12
+          ],
+          "runtimeSource": {
+            "file": "four-purities-six-recollections/book/book-data.js",
+            "line": 214
+          },
+          "title": "隨法行與隨信行",
+          "verseLabel": "《雜阿含經》第61經",
+          "verse": "比丘！若於此法以智慧思惟、觀察、分別、忍，是名隨信行；超昇離生，越凡夫地，未得須陀洹果，中間不死，必得須陀洹果。\n\n比丘！若於此法增上智慧思惟、觀察、忍，是名隨法行；超昇離生，越凡夫地，未得須陀洹果，中間不死，必得須陀洹果。",
+          "readerSourceAnchor": "../#sa61",
+          "canonicalId": "sa61",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa1-100/sa61.html",
+          "allQuoteBlocksFoundIgnoringOnlyPunctuationWhitespace": true,
+          "blocks": 2,
+          "semanticReview": "引文為SA61連續兩段，確實分別談隨信行、隨法行且尚未得果；配給本幕主題正確。上緣第11/12頁有階段／不死表達風險，見F01/F03。理性貓／感性兔為作者角色化，不是逐字定義；SA61兩類均具智慧思惟。",
+          "narrationCues": [
+            {
+              "readerPage": 1,
+              "subtitle": 1,
+              "atSec": 1,
+              "lines": [
+                "在修行的這條小河畔，每個人的起點都不太一樣喔！"
+              ],
+              "runtimeLine": 214
+            },
+            {
+              "readerPage": 2,
+              "subtitle": 2,
+              "atSec": 7,
+              "lines": [
+                "你看，這隻戴著學士帽、穿著學士袍的「隨法行」貓咪，"
+              ],
+              "runtimeLine": 233
+            },
+            {
+              "readerPage": 3,
+              "subtitle": 3,
+              "atSec": 11,
+              "lines": [
+                "他擁有著敏銳的智慧，凡事都喜歡拿著放大鏡專注地觀察、思惟，"
+              ],
+              "runtimeLine": 252
+            },
+            {
+              "readerPage": 4,
+              "subtitle": 4,
+              "atSec": 19,
+              "lines": [
+                "看清了書本中漂浮的邏輯，非得把生命的無常徹底想明白了，"
+              ],
+              "runtimeLine": 271
+            },
+            {
+              "readerPage": 5,
+              "subtitle": 5,
+              "atSec": 23,
+              "lines": [
+                "才肯邁出安心的下一步。"
+              ],
+              "runtimeLine": 290
+            },
+            {
+              "readerPage": 6,
+              "subtitle": 6,
+              "atSec": 27,
+              "lines": [
+                "而另一邊，是這隻雙手合十、眼神澄澈的「隨信行」小兔，"
+              ],
+              "runtimeLine": 309
+            },
+            {
+              "readerPage": 7,
+              "subtitle": 7,
+              "atSec": 33,
+              "lines": [
+                "雖然他不像貓咪那樣理性思辨，但只要聽聞了清淨的佛法，"
+              ],
+              "runtimeLine": 328
+            },
+            {
+              "readerPage": 8,
+              "subtitle": 8,
+              "atSec": 39,
+              "lines": [
+                "心中就會自然生起無比純淨的信任與安定，身邊就自然盛開出了蓮花。"
+              ],
+              "runtimeLine": 347
+            },
+            {
+              "readerPage": 9,
+              "subtitle": 9,
+              "atSec": 45,
+              "lines": [
+                "你看，當這兩股不同的力量在主流匯合，他們都已經超越了凡夫的境界！"
+              ],
+              "runtimeLine": 366
+            },
+            {
+              "readerPage": 10,
+              "subtitle": 10,
+              "atSec": 53,
+              "lines": [
+                "不管是貓咪那種理性的觀察智慧，還是小兔那份感性的信任信心，"
+              ],
+              "runtimeLine": 385
+            },
+            {
+              "readerPage": 11,
+              "subtitle": 11,
+              "atSec": 59,
+              "lines": [
+                "只要目標一致，順著河流主流而下，他們都已經成為了「須陀洹」，"
+              ],
+              "runtimeLine": 404
+            },
+            {
+              "readerPage": 12,
+              "subtitle": 12,
+              "atSec": 65,
+              "lines": [
+                "中間永不死去，必定能走向彼岸那光芒溫暖的「涅槃」寂靜！"
+              ],
+              "runtimeLine": 423
+            }
+          ]
+        },
+        {
+          "scene": "S02",
+          "quoteKey": "S02",
+          "readerPages": [
+            13,
+            21
+          ],
+          "runtimeSource": {
+            "file": "four-purities-six-recollections/book/book-data.js",
+            "line": 442
+          },
+          "title": "四入流分",
+          "verseLabel": "《雜阿含經》第843經",
+          "verse": "如汝所說，流者，謂八聖道。入流分者有四種，謂親近善男子、聽正法、內正思惟、法次法向。入流者成就四法，謂於佛不壞淨、於法不壞淨、於僧不壞淨、聖戒成就。",
+          "readerSourceAnchor": "../#sa843",
+          "canonicalId": "sa843",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa801-900/sa843.html",
+          "allQuoteBlocksFoundIgnoringOnlyPunctuationWhitespace": true,
+          "blocks": 1,
+          "semanticReview": "原經佛陀覆述舍利弗答語，八聖道為流、四入流分、四成就法均逐字相符。善友／善知識相對善男子屬作者白話同義表達，非引文誤植；沒有把四入流分等同四不壞淨。",
+          "narrationCues": [
+            {
+              "readerPage": 13,
+              "subtitle": 1,
+              "atSec": 71,
+              "lines": [
+                "那麼，我們該怎麼駕駛生命的小船，"
+              ],
+              "runtimeLine": 442
+            },
+            {
+              "readerPage": 14,
+              "subtitle": 2,
+              "atSec": 75,
+              "lines": [
+                "正式駛入這條名為「八正道」的清淨大河呢？"
+              ],
+              "runtimeLine": 461
+            },
+            {
+              "readerPage": 15,
+              "subtitle": 3,
+              "atSec": 79,
+              "lines": [
+                "佛陀給了一份稱為「四入流分」的航行指南："
+              ],
+              "runtimeLine": 480
+            },
+            {
+              "readerPage": 16,
+              "subtitle": 4,
+              "atSec": 83,
+              "lines": [
+                "首先，是找到能為你提燈引路的導航員「親近善知識」；"
+              ],
+              "runtimeLine": 499
+            },
+            {
+              "readerPage": 17,
+              "subtitle": 5,
+              "atSec": 89,
+              "lines": [
+                "接著，專心讀懂他給你的航海圖，也就是「聽聞正法」。"
+              ],
+              "runtimeLine": 518
+            },
+            {
+              "readerPage": 18,
+              "subtitle": 6,
+              "atSec": 95,
+              "lines": [
+                "有了外部的指引後，我們必須轉向內心，"
+              ],
+              "runtimeLine": 537
+            },
+            {
+              "readerPage": 19,
+              "subtitle": 7,
+              "atSec": 99,
+              "lines": [
+                "用正確的邏輯去核對指南針，也就是「內正思惟」；"
+              ],
+              "runtimeLine": 556
+            },
+            {
+              "readerPage": 20,
+              "subtitle": 8,
+              "atSec": 103,
+              "lines": [
+                "最後，也是最重要的一步，就是親自握住船槳，"
+              ],
+              "runtimeLine": 575
+            },
+            {
+              "readerPage": 21,
+              "subtitle": 9,
+              "atSec": 109,
+              "lines": [
+                "在生活中確實地划動它，也就是「法次法向」。"
+              ],
+              "runtimeLine": 594
+            }
+          ]
+        },
+        {
+          "scene": "S03",
+          "quoteKey": "S03",
+          "readerPages": [
+            22,
+            32
+          ],
+          "runtimeSource": {
+            "file": "four-purities-six-recollections/book/book-data.js",
+            "line": 613
+          },
+          "title": "轉輪王與聖弟子",
+          "verseLabel": "《相應部》55.1〈轉輪王經〉· 莊春江譯",
+          "verse": "",
+          "readerSourceAnchor": "../#sn55-1",
+          "canonicalId": "sn55.1",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/sn/sn55/sn55.1.html",
+          "allQuoteBlocksFoundIgnoringOnlyPunctuationWhitespace": null,
+          "blocks": 0,
+          "semanticReview": "轉輪王享天福仍未出三惡趣，具四法的貧窮聖弟子已解脫三惡趣，與SN55.1整段對比相符；無引文是storyboard明訂只顯經名，不視為遺失。",
+          "narrationCues": [
+            {
+              "readerPage": 22,
+              "subtitle": 1,
+              "atSec": 113,
+              "lines": [
+                "想像一下，如果有人擁有全世界的財富與權力，"
+              ],
+              "runtimeLine": 613
+            },
+            {
+              "readerPage": 23,
+              "subtitle": 2,
+              "atSec": 119,
+              "lines": [
+                "甚至死後還能升上天堂，享受無盡的派對。"
+              ],
+              "runtimeLine": 632
+            },
+            {
+              "readerPage": 24,
+              "subtitle": 3,
+              "atSec": 123,
+              "lines": [
+                "這樣的人，是不是最安全的呢？佛陀搖搖頭說：「不是的。」"
+              ],
+              "runtimeLine": 651
+            },
+            {
+              "readerPage": 25,
+              "subtitle": 4,
+              "atSec": 129,
+              "lines": [
+                "就像左邊這位擁有統治權的轉輪聖王，"
+              ],
+              "runtimeLine": 670
+            },
+            {
+              "readerPage": 26,
+              "subtitle": 5,
+              "atSec": 133,
+              "lines": [
+                "即使他擁有一切，但因為心裡沒有真正的依靠，他的王座底下，"
+              ],
+              "runtimeLine": 689
+            },
+            {
+              "readerPage": 27,
+              "subtitle": 6,
+              "atSec": 139,
+              "lines": [
+                "依然藏著通往痛苦深淵「地獄界、畜生界、餓鬼界」的陷阱。"
+              ],
+              "runtimeLine": 708
+            },
+            {
+              "readerPage": 28,
+              "subtitle": 7,
+              "atSec": 145,
+              "lines": [
+                "但你看看右邊這位聖弟子，他或許只能吃著簡單的粗茶淡飯，"
+              ],
+              "runtimeLine": 727
+            },
+            {
+              "readerPage": 29,
+              "subtitle": 8,
+              "atSec": 151,
+              "lines": [
+                "披著縫補過的舊斗篷；但他的內心，卻擁有了四把無堅不摧的保護傘！"
+              ],
+              "runtimeLine": 746
+            },
+            {
+              "readerPage": 30,
+              "subtitle": 9,
+              "atSec": 159,
+              "lines": [
+                "這四股力量化為金色的防護罩，"
+              ],
+              "runtimeLine": 765
+            },
+            {
+              "readerPage": 31,
+              "subtitle": 10,
+              "atSec": 163,
+              "lines": [
+                "讓他徹底斬斷了掉入痛苦深淵的可能，獲得了真正的自由。"
+              ],
+              "runtimeLine": 784
+            },
+            {
+              "readerPage": 32,
+              "subtitle": 11,
+              "atSec": 169,
+              "lines": [
+                "究竟是哪四股神奇的力量，竟然比全世界的財富與權力還要強大呢？"
+              ],
+              "runtimeLine": 803
+            }
+          ]
+        },
+        {
+          "scene": "S04",
+          "quoteKey": "S04",
+          "readerPages": [
+            33,
+            44
+          ],
+          "runtimeSource": {
+            "file": "four-purities-six-recollections/book/book-data.js",
+            "line": 822
+          },
+          "title": "佛不壞淨",
+          "verseLabel": "《相應部》55.1 · 莊春江譯",
+          "verse": "比丘們！這裡，聖弟子對佛具備不壞淨：『像這樣，那世尊是阿羅漢、遍正覺者、明與行具足者、善逝、世間知者、被調伏人的無上調御者、人天之師、佛陀、世尊。』",
+          "readerSourceAnchor": "../#sn55-1",
+          "canonicalId": "sn55.1",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/sn/sn55/sn55.1.html",
+          "allQuoteBlocksFoundIgnoringOnlyPunctuationWhitespace": true,
+          "blocks": 1,
+          "semanticReview": "佛不壞淨主題與SN55.1佛德段相符，完整引文與莊春江譯本一致；上緣以漢譯慣稱等正覺／明行足／世間解解說中譯詞，並非換錯經。",
+          "narrationCues": [
+            {
+              "readerPage": 33,
+              "subtitle": 1,
+              "atSec": 175,
+              "lines": [
+                "這第一股讓內心強大、永不動搖的力量，就是對佛陀深深信任的「佛不壞淨」。"
+              ],
+              "runtimeLine": 822
+            },
+            {
+              "readerPage": 34,
+              "subtitle": 2,
+              "atSec": 183,
+              "lines": [
+                "佛陀究竟是誰？祂不只是供桌上的神像，而是一位最完美的生命導師："
+              ],
+              "runtimeLine": 841
+            },
+            {
+              "readerPage": 35,
+              "subtitle": 3,
+              "atSec": 189,
+              "lines": [
+                "祂像一位「阿羅漢」，已經斷開了所有痛苦的鎖鏈，值得我們最誠心的致敬；"
+              ],
+              "runtimeLine": 860
+            },
+            {
+              "readerPage": 36,
+              "subtitle": 4,
+              "atSec": 197,
+              "lines": [
+                "祂是一位「等正覺者」，靠自己的智慧，徹底看清了宇宙運行的真相。"
+              ],
+              "runtimeLine": 879
+            },
+            {
+              "readerPage": 37,
+              "subtitle": 5,
+              "atSec": 203,
+              "lines": [
+                "祂說到做到，智慧與行為完美合一，是「明行足」；"
+              ],
+              "runtimeLine": 898
+            },
+            {
+              "readerPage": 38,
+              "subtitle": 6,
+              "atSec": 209,
+              "lines": [
+                "祂走在最安穩的解脫之路上，永不退轉，是「善逝」。"
+              ],
+              "runtimeLine": 917
+            },
+            {
+              "readerPage": 39,
+              "subtitle": 7,
+              "atSec": 215,
+              "lines": [
+                "祂完全了解我們身處的這份複雜世界，是「世間解」；"
+              ],
+              "runtimeLine": 936
+            },
+            {
+              "readerPage": 40,
+              "subtitle": 8,
+              "atSec": 219,
+              "lines": [
+                "對於難以調教的人心，祂是最有耐心的導師，這就是「無上士、調御丈夫」。"
+              ],
+              "runtimeLine": 955
+            },
+            {
+              "readerPage": 41,
+              "subtitle": 9,
+              "atSec": 227,
+              "lines": [
+                "不管是天上的神靈還是人間的我們，祂都是指引方向的「天人師」。"
+              ],
+              "runtimeLine": 974
+            },
+            {
+              "readerPage": 42,
+              "subtitle": 10,
+              "atSec": 233,
+              "lines": [
+                "祂是徹底醒覺的「佛陀」，也是這世間最珍貴、最值得尊崇的長者「世尊」。"
+              ],
+              "runtimeLine": 993
+            },
+            {
+              "readerPage": 43,
+              "subtitle": 11,
+              "atSec": 241,
+              "lines": [
+                "當我們心裡裝著佛陀的這十種光芒，"
+              ],
+              "runtimeLine": 1012
+            },
+            {
+              "readerPage": 44,
+              "subtitle": 12,
+              "atSec": 243,
+              "lines": [
+                "就像在黑暗的海上看到了永不熄滅的燈塔，小船再也不會因為恐懼而搖晃了。"
+              ],
+              "runtimeLine": 1031
+            }
+          ]
+        },
+        {
+          "scene": "S05",
+          "quoteKey": "S05",
+          "readerPages": [
+            45,
+            55
+          ],
+          "runtimeSource": {
+            "file": "four-purities-six-recollections/book/book-data.js",
+            "line": 1050
+          },
+          "title": "法不壞淨",
+          "verseLabel": "《相應部》55.1 · 莊春江譯",
+          "verse": "對法具備不壞淨：『法是被世尊善說的、直接可見的、即時的、請你來見的、能引導的、智者應該自己經驗的。』",
+          "readerSourceAnchor": "../#sn55-1",
+          "canonicalId": "sn55.1",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/sn/sn55/sn55.1.html",
+          "allQuoteBlocksFoundIgnoringOnlyPunctuationWhitespace": true,
+          "blocks": 1,
+          "semanticReview": "法不壞淨與SN55.1法德六語相符；原文即時/直接可見並未承諾每種練習即刻見效，作者第49頁的立刻體會屬較強白話（本報告不判為引文錯配）。",
+          "narrationCues": [
+            {
+              "readerPage": 45,
+              "subtitle": 1,
+              "atSec": 251,
+              "lines": [
+                "這第二股不再動搖的力量，是對真理正法的絕對信心「法不壞淨」。"
+              ],
+              "runtimeLine": 1050
+            },
+            {
+              "readerPage": 46,
+              "subtitle": 2,
+              "atSec": 257,
+              "lines": [
+                "佛法不是什麼神祕的咒語，而是一張無比清晰的導航地圖。"
+              ],
+              "runtimeLine": 1069
+            },
+            {
+              "readerPage": 47,
+              "subtitle": 3,
+              "atSec": 263,
+              "lines": [
+                "這份真理是「善說的」，佛陀把路線畫得明明白白，沒有一點隱瞞。"
+              ],
+              "runtimeLine": 1088
+            },
+            {
+              "readerPage": 48,
+              "subtitle": 4,
+              "atSec": 269,
+              "lines": [
+                "它不需要等到下輩子才兌現，它是「即時的、非時的」；"
+              ],
+              "runtimeLine": 1107
+            },
+            {
+              "readerPage": 49,
+              "subtitle": 5,
+              "atSec": 275,
+              "lines": [
+                "只要你當下照著做，立刻就能感受到「直接可見」的改變，"
+              ],
+              "runtimeLine": 1126
+            },
+            {
+              "readerPage": 50,
+              "subtitle": 6,
+              "atSec": 279,
+              "lines": [
+                "佛陀從不強迫我們盲目相信，這條河永遠敞開著大門，"
+              ],
+              "runtimeLine": 1145
+            },
+            {
+              "readerPage": 51,
+              "subtitle": 7,
+              "atSec": 285,
+              "lines": [
+                "向世界發出邀請：「請你自己來看看吧！」。"
+              ],
+              "runtimeLine": 1164
+            },
+            {
+              "readerPage": 52,
+              "subtitle": 8,
+              "atSec": 289,
+              "lines": [
+                "這股真理的水流是「能引導的」，"
+              ],
+              "runtimeLine": 1183
+            },
+            {
+              "readerPage": 53,
+              "subtitle": 9,
+              "atSec": 293,
+              "lines": [
+                "它會穩穩地推著小船，朝著沒有痛苦的彼岸前進。"
+              ],
+              "runtimeLine": 1202
+            },
+            {
+              "readerPage": 54,
+              "subtitle": 10,
+              "atSec": 297,
+              "lines": [
+                "不過，別人說水有多甜都沒用；真理的清涼，必須像喝水一樣，"
+              ],
+              "runtimeLine": 1221
+            },
+            {
+              "readerPage": 55,
+              "subtitle": 11,
+              "atSec": 305,
+              "lines": [
+                "當你親自喝下了這口清涼的水，你對這條航線，就再也不會有任何懷疑了。"
+              ],
+              "runtimeLine": 1240
+            }
+          ]
+        },
+        {
+          "scene": "S06",
+          "quoteKey": "S06",
+          "readerPages": [
+            56,
+            62
+          ],
+          "runtimeSource": {
+            "file": "four-purities-six-recollections/book/book-data.js",
+            "line": 1259
+          },
+          "title": "僧不壞淨",
+          "verseLabel": "《相應部》55.1 · 莊春江譯",
+          "verse": "對僧團具備不壞淨：『世尊的弟子僧團是依善而行者，世尊的弟子僧團是依正直而行者，世尊的弟子僧團是依真理而行者，世尊的弟子僧團是如法而行者，即：四雙之人、八輩之士，這世尊的弟子僧團應該被奉獻、應該被供奉、應該被供養、應該被合掌，為世間的無上福田。』",
+          "readerSourceAnchor": "../#sn55-1",
+          "canonicalId": "sn55.1",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/sn/sn55/sn55.1.html",
+          "allQuoteBlocksFoundIgnoringOnlyPunctuationWhitespace": true,
+          "blocks": 1,
+          "semanticReview": "前半以SN55.1四雙八輩僧德相配；05:51／頁63起換成SA554五分功德原文，已正確標別來源，沒有沿用影片誤標SN55.1。角色及種子福田為作者譬喻。",
+          "narrationCues": [
+            {
+              "readerPage": 56,
+              "subtitle": 1,
+              "atSec": 311,
+              "lines": [
+                "這第三股讓我們無比安心的力量，是對僧團的深深敬意與信任的「僧不壞淨」。"
+              ],
+              "runtimeLine": 1259
+            },
+            {
+              "readerPage": 57,
+              "subtitle": 2,
+              "atSec": 319,
+              "lines": [
+                "不過，這裡說的僧團，指的不是普通的旅人，"
+              ],
+              "runtimeLine": 1278
+            },
+            {
+              "readerPage": 58,
+              "subtitle": 3,
+              "atSec": 323,
+              "lines": [
+                "而是那些已經成功走在解脫道上的前輩們。"
+              ],
+              "runtimeLine": 1297
+            },
+            {
+              "readerPage": 59,
+              "subtitle": 4,
+              "atSec": 327,
+              "lines": [
+                "他們聽從了佛陀的導航，不偏不倚、誠實且正直地航行，"
+              ],
+              "runtimeLine": 1316
+            },
+            {
+              "readerPage": 60,
+              "subtitle": 5,
+              "atSec": 333,
+              "lines": [
+                "是「善向、正向、直向、等向」的實踐者。"
+              ],
+              "runtimeLine": 1335
+            },
+            {
+              "readerPage": 61,
+              "subtitle": 6,
+              "atSec": 339,
+              "lines": [
+                "這群學長姐中，有的剛進入聖流，有的已經完全覺悟，"
+              ],
+              "runtimeLine": 1354
+            },
+            {
+              "readerPage": 62,
+              "subtitle": 7,
+              "atSec": 345,
+              "lines": [
+                "總共有四個階段、八種層次的境界，他們就是「四雙八輩」聖弟子！"
+              ],
+              "runtimeLine": 1373
+            }
+          ]
+        },
+        {
+          "scene": "S06",
+          "quoteKey": "S06b",
+          "readerPages": [
+            63,
+            69
+          ],
+          "runtimeSource": {
+            "file": "four-purities-six-recollections/book/book-data.js",
+            "line": 1392
+          },
+          "title": "僧不壞淨",
+          "verseLabel": "《雜阿含經》第554經 · 五分功德與福田",
+          "verse": "具足戒、定、慧、解脫、解脫知見，供養、恭敬、尊重之處，堪為世間無上福田。",
+          "readerSourceAnchor": "../#sa554",
+          "canonicalId": "sa554",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa501-600/sa554.html",
+          "allQuoteBlocksFoundIgnoringOnlyPunctuationWhitespace": true,
+          "blocks": 1,
+          "semanticReview": "五分功德與無上福田逐字出自SA554，而非SN55.1；本頁已明確換標與source anchor，修正是正確的。",
+          "narrationCues": [
+            {
+              "readerPage": 63,
+              "subtitle": 8,
+              "atSec": 351,
+              "lines": [
+                "他們的小船裝滿了「戒律、禪定與智慧」，"
+              ],
+              "runtimeLine": 1392
+            },
+            {
+              "readerPage": 64,
+              "subtitle": 9,
+              "atSec": 355,
+              "lines": [
+                "早就掙脫了煩惱的麻繩，獲得了真正的自由與清晰的視野。"
+              ],
+              "runtimeLine": 1411
+            },
+            {
+              "readerPage": 65,
+              "subtitle": 10,
+              "atSec": 361,
+              "lines": [
+                "看著他們安穩前進的背影，我們心裡會生起莫大的勇氣："
+              ],
+              "runtimeLine": 1430
+            },
+            {
+              "readerPage": 66,
+              "subtitle": 11,
+              "atSec": 367,
+              "lines": [
+                "「原來這條航線是真的，原來抵達彼岸是做得到的！」"
+              ],
+              "runtimeLine": 1449
+            },
+            {
+              "readerPage": 67,
+              "subtitle": 12,
+              "atSec": 371,
+              "lines": [
+                "當我們帶著恭敬的心，向這群充滿智慧的聖者合掌致敬、學習與分享時，"
+              ],
+              "runtimeLine": 1468
+            },
+            {
+              "readerPage": 68,
+              "subtitle": 13,
+              "atSec": 379,
+              "lines": [
+                "就像是把最珍貴的善意種子，輕輕播種在世界上最肥沃的土壤裡。"
+              ],
+              "runtimeLine": 1487
+            },
+            {
+              "readerPage": 69,
+              "subtitle": 14,
+              "atSec": 385,
+              "lines": [
+                "他們，正是這世間能讓善意結出最豐碩果實的「無上福田」。"
+              ],
+              "runtimeLine": 1506
+            }
+          ]
+        },
+        {
+          "scene": "S07",
+          "quoteKey": "S07",
+          "readerPages": [
+            70,
+            82
+          ],
+          "runtimeSource": {
+            "file": "four-purities-six-recollections/book/book-data.js",
+            "line": 1525
+          },
+          "title": "聖戒成就",
+          "verseLabel": "《相應部》55.1 · 莊春江譯",
+          "verse": "具備聖者所愛戒：『無毀壞的、無瑕疵的、無污點的、無雜色的、自由的、智者所稱讚的、不取著的、導向定的。』",
+          "readerSourceAnchor": "../#sn55-1",
+          "canonicalId": "sn55.1",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/sn/sn55/sn55.1.html",
+          "allQuoteBlocksFoundIgnoringOnlyPunctuationWhitespace": true,
+          "blocks": 1,
+          "semanticReview": "聖者所愛戒八語與SN55.1原文相符，船身／防護罩是作者譬喻。永遠平安不宜理解為永無病痛，但後幕明談病苦；不判定來源錯配。",
+          "narrationCues": [
+            {
+              "readerPage": 70,
+              "subtitle": 1,
+              "atSec": 391,
+              "lines": [
+                "最後，這股讓內心徹底安定的力量，是我們親自守護的「聖戒成就」。"
+              ],
+              "runtimeLine": 1525
+            },
+            {
+              "readerPage": 71,
+              "subtitle": 2,
+              "atSec": 397,
+              "lines": [
+                "戒律，並不是限制自由的鎖鏈，而是這艘船最堅固、最可靠的船身。"
+              ],
+              "runtimeLine": 1544
+            },
+            {
+              "readerPage": 72,
+              "subtitle": 3,
+              "atSec": 403,
+              "lines": [
+                "這艘船的木材是「無毀壞、無瑕疵」的，沒有任何裂縫，"
+              ],
+              "runtimeLine": 1563
+            },
+            {
+              "readerPage": 73,
+              "subtitle": 4,
+              "atSec": 409,
+              "lines": [
+                "所以煩惱的苦水永遠無法滲透進來；"
+              ],
+              "runtimeLine": 1582
+            },
+            {
+              "readerPage": 74,
+              "subtitle": 5,
+              "atSec": 413,
+              "lines": [
+                "它是「無污點、無雜色」的，讓我們能挺起胸膛，活得光明磊落。"
+              ],
+              "runtimeLine": 1601
+            },
+            {
+              "readerPage": 75,
+              "subtitle": 6,
+              "atSec": 421,
+              "lines": [
+                "佛陀說，這是一種「自由」的戒，"
+              ],
+              "runtimeLine": 1620
+            },
+            {
+              "readerPage": 76,
+              "subtitle": 7,
+              "atSec": 423,
+              "lines": [
+                "因為我們不再被壞習慣拉扯，也不再被罪惡感束縛。"
+              ],
+              "runtimeLine": 1639
+            },
+            {
+              "readerPage": 77,
+              "subtitle": 8,
+              "atSec": 429,
+              "lines": [
+                "這份自律與清淨，連最有智慧的人都會為你拍手稱讚。"
+              ],
+              "runtimeLine": 1658
+            },
+            {
+              "readerPage": 78,
+              "subtitle": 9,
+              "atSec": 435,
+              "lines": [
+                "我們持守它，並不是為了交換什麼獎勵，"
+              ],
+              "runtimeLine": 1677
+            },
+            {
+              "readerPage": 79,
+              "subtitle": 10,
+              "atSec": 439,
+              "lines": [
+                "而是因為唯有這份不心虛的平靜，能讓心像平靜的湖面一樣，"
+              ],
+              "runtimeLine": 1696
+            },
+            {
+              "readerPage": 80,
+              "subtitle": 11,
+              "atSec": 443,
+              "lines": [
+                "導向「定境」的深處。"
+              ],
+              "runtimeLine": 1715
+            },
+            {
+              "readerPage": 81,
+              "subtitle": 12,
+              "atSec": 445,
+              "lines": [
+                "當這四股力量，佛、法、僧、戒，在我們心裡匯聚成這座金色的防護罩時，"
+              ],
+              "runtimeLine": 1734
+            },
+            {
+              "readerPage": 82,
+              "subtitle": 13,
+              "atSec": 453,
+              "lines": [
+                "不論外面的風浪再大，這艘小船都已經獲得了永遠的平安。"
+              ],
+              "runtimeLine": 1753
+            }
+          ]
+        },
+        {
+          "scene": "S08",
+          "quoteKey": "S08",
+          "readerPages": [
+            83,
+            93
+          ],
+          "runtimeSource": {
+            "file": "four-purities-six-recollections/book/book-data.js",
+            "line": 1772
+          },
+          "title": "六念",
+          "verseLabel": "《雜阿含經》第554經",
+          "verse": "世尊說依四不壞淨，增六念處，我悉成就，我當修習念佛功德，念法、念僧、念戒、念施、念天。",
+          "readerSourceAnchor": "../#sa554",
+          "canonicalId": "sa554",
+          "verifiedFullTextURL": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa501-600/sa554.html",
+          "allQuoteBlocksFoundIgnoringOnlyPunctuationWhitespace": true,
+          "blocks": 1,
+          "semanticReview": "六念原句為SA554長者向摩訶迦旃延答語，文字完整，六項不遺漏。人物名摩訶男錯，見F02；六念對病苦的精神支持與本經語境相合，不是保證身體不痛。",
+          "narrationCues": [
+            {
+              "readerPage": 83,
+              "subtitle": 1,
+              "atSec": 459,
+              "lines": [
+                "擁有「四不壞淨」就像獲得了生命中最強大的保險。"
+              ],
+              "runtimeLine": 1772
+            },
+            {
+              "readerPage": 84,
+              "subtitle": 2,
+              "atSec": 465,
+              "lines": [
+                "但如果你正面臨病痛、恐懼或不安的風浪時，該怎麼辦呢？"
+              ],
+              "runtimeLine": 1791
+            },
+            {
+              "readerPage": 85,
+              "subtitle": 3,
+              "atSec": 469,
+              "lines": [
+                "在雜阿含經554經中，長者摩訶男在病痛中，學會了「六念」這門修法。"
+              ],
+              "runtimeLine": 1810
+            },
+            {
+              "readerPage": 86,
+              "subtitle": 4,
+              "atSec": 477,
+              "lines": [
+                "這就像是把心轉向四種已經擁有的寶藏：念佛、念法、念僧、念戒。"
+              ],
+              "runtimeLine": 1829
+            },
+            {
+              "readerPage": 87,
+              "subtitle": 5,
+              "atSec": 485,
+              "lines": [
+                "每念一次，就像是在黑暗中點亮一盞燈，"
+              ],
+              "runtimeLine": 1848
+            },
+            {
+              "readerPage": 88,
+              "subtitle": 6,
+              "atSec": 489,
+              "lines": [
+                "讓散亂的心重新校準，回到這四種清淨的力量上。"
+              ],
+              "runtimeLine": 1867
+            },
+            {
+              "readerPage": 89,
+              "subtitle": 7,
+              "atSec": 495,
+              "lines": [
+                "除此之外，還要加上兩份溫暖的練習："
+              ],
+              "runtimeLine": 1886
+            },
+            {
+              "readerPage": 90,
+              "subtitle": 8,
+              "atSec": 499,
+              "lines": [
+                "「念布施」：回憶自己曾經分享、給予的快樂，讓心變得開闊且富有；"
+              ],
+              "runtimeLine": 1905
+            },
+            {
+              "readerPage": 91,
+              "subtitle": 9,
+              "atSec": 505,
+              "lines": [
+                "「念天」：思惟那些因善行而發光的高尚生命，提醒自己也擁有同樣的潛質。"
+              ],
+              "runtimeLine": 1924
+            },
+            {
+              "readerPage": 92,
+              "subtitle": 10,
+              "atSec": 513,
+              "lines": [
+                "透過這六種思惟，你的心會超越身體的痛苦。這就是依四不壞淨，增六念處。"
+              ],
+              "runtimeLine": 1943
+            },
+            {
+              "readerPage": 93,
+              "subtitle": 11,
+              "atSec": 521,
+              "lines": [
+                "讓原本堅固的信心，化為當下每一口呼吸的平靜。"
+              ],
+              "runtimeLine": 1962
+            }
+          ]
+        },
+        {
+          "scene": "END",
+          "quoteKey": "END",
+          "readerPages": [
+            94,
+            94
+          ],
+          "runtimeSource": {
+            "file": "four-purities-six-recollections/book/book-data.js",
+            "line": 1981
+          },
+          "title": "收尾",
+          "verseLabel": "",
+          "verse": "",
+          "readerSourceAnchor": null,
+          "canonicalId": null,
+          "verifiedFullTextURL": null,
+          "allQuoteBlocksFoundIgnoringOnlyPunctuationWhitespace": null,
+          "blocks": 0,
+          "semanticReview": "收尾為作者譬喻，無下緣引文，沒有冒稱逐字原經。",
+          "narrationCues": [
+            {
+              "readerPage": 94,
+              "subtitle": 1,
+              "atSec": 525,
+              "lines": [],
+              "runtimeLine": 1981
+            }
+          ]
+        },
+        {
+          "scene": "afterword",
+          "quoteKey": "afterword",
+          "readerPages": [
+            95,
+            95
+          ],
+          "runtimeSource": {
+            "file": "four-purities-six-recollections/book/book-data.js",
+            "line": 1998
+          },
+          "title": "製作說明｜溫柔的起點",
+          "verseLabel": "",
+          "verse": "",
+          "readerSourceAnchor": null,
+          "canonicalId": null,
+          "verifiedFullTextURL": null,
+          "allQuoteBlocksFoundIgnoringOnlyPunctuationWhitespace": null,
+          "blocks": 0,
+          "semanticReview": "製作說明正確列主體SN55.1與SA61/554/843，屬編輯文，不當作經文。",
+          "narrationCues": [
+            {
+              "readerPage": 95,
+              "subtitle": 1,
+              "atSec": null,
+              "lines": [
+                "本繪本所呈現的內容，係以《相應部》55.1〈轉輪王經〉為主，參照《雜阿含經》第61、554、843經所製作。",
+                "為了讓讀者更親近佛法，我們以圖文並茂的方式，用白話語言說明經意。",
+                "然而，繪本的詮釋難免簡略，無法完全涵蓋原經的深義。解讀仍請以原經文為準。",
+                "我們誠摯地鼓勵讀者參閱原經文，細細品味佛陀的智慧與慈悲。",
+                "也希望這本繪本能成為您走入經藏的起點。"
+              ],
+              "runtimeLine": 1998
+            }
+          ]
+        },
+        {
+          "scene": "END",
+          "quoteKey": null,
+          "readerPages": [
+            94,
+            94
+          ],
+          "title": "收尾",
+          "verseLabel": "",
+          "verse": "",
+          "readerSourceAnchor": null,
+          "canonicalId": null,
+          "runtimeSource": {
+            "file": "four-purities-six-recollections/book/book-data.js",
+            "line": 1980
+          },
+          "status": "intentional-no-scripture",
+          "semanticReview": "作者兩行收尾以船永不沉沒象徵信心穩固；文字是圖內artOverlay，不是上緣口白或原經，無下緣引文為有意，沒有漏貼一段佛說。",
+          "narrationCues": [
+            {
+              "readerPage": 94,
+              "subtitle": 1,
+              "atSec": 525,
+              "lines": [],
+              "runtimeLine": 1985
+            }
+          ],
+          "artOverlay": [
+            {
+              "text": "從此以後，無論風雨，\n這艘船將永不沉沒。",
+              "xPct": 50,
+              "yPct": 54,
+              "maxWidthPct": 82,
+              "fontSizePctOfImageWidth": 7.2,
+              "anchor": "center",
+              "align": "center",
+              "color": "#ffffff",
+              "startSec": 525,
+              "endSec": 531.367,
+              "safeArea": "沿用六念圖，整圖先加約 65% 黑色遮罩，文字置於遮罩上，保留兩行。",
+              "portraitOverride": "文字始終錨定圖片中心，保留兩行。"
+            }
+          ]
+        },
+        {
+          "scene": "afterword",
+          "quoteKey": null,
+          "readerPages": [
+            95,
+            95
+          ],
+          "title": "製作說明｜溫柔的起點",
+          "verseLabel": "",
+          "verse": "",
+          "readerSourceAnchor": null,
+          "canonicalId": null,
+          "runtimeSource": {
+            "file": "four-purities-six-recollections/book/book-data.js",
+            "line": 1997
+          },
+          "status": "intentional-no-scripture",
+          "semanticReview": "編輯後記明列SN55.1為主並參SA61/554/843，與本書實際來源一致；勸依原經理解的完整5段尚在。沒有下緣經文為有意。",
+          "narrationCues": [
+            {
+              "readerPage": 95,
+              "subtitle": 1,
+              "atSec": null,
+              "lines": [
+                "本繪本所呈現的內容，係以《相應部》55.1〈轉輪王經〉為主，參照《雜阿含經》第61、554、843經所製作。",
+                "為了讓讀者更親近佛法，我們以圖文並茂的方式，用白話語言說明經意。",
+                "然而，繪本的詮釋難免簡略，無法完全涵蓋原經的深義。解讀仍請以原經文為準。",
+                "我們誠摯地鼓勵讀者參閱原經文，細細品味佛陀的智慧與慈悲。",
+                "也希望這本繪本能成為您走入經藏的起點。"
+              ],
+              "runtimeLine": 2002
+            }
+          ],
+          "artOverlay": []
+        }
+      ],
+      "findings": [
+        {
+          "id": "PUR-F01",
+          "category": "author_interpretation_requires_review",
+          "severity": "high",
+          "scene": "S01",
+          "readerPages": [
+            11,
+            11
+          ],
+          "subtitle": [
+            11
+          ],
+          "atSec": [
+            59
+          ],
+          "runtimeLocation": {
+            "file": "four-purities-six-recollections/book/book-data.js",
+            "line": 409
+          },
+          "currentNarration": "只要目標一致，順著河流主流而下，他們都已經成為了「須陀洹」，",
+          "currentScripture": "未得須陀洹果，中間不死，必得須陀洹果。",
+          "sourceEvidence": "SA61接著把三結盡斷知者另列為須陀洹果；隨信行／隨法行段均明寫未得須陀洹果。",
+          "canonicalLocation": "T02n0099 p0016a06–14",
+          "sourceURL": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa1-100/sa61.html",
+          "publicURL": "https://suttacentral.net/sa61/lzh/taisho",
+          "suggestion": "請作者決定是否將已經成為果位改為已越凡夫地、未得入流果而必得此果；勿自行改原片口白。",
+          "origin": "原storyboard同句，非本輪版型／配對引入。導讀sa61已另作正確解釋。"
+        },
+        {
+          "id": "PUR-F02",
+          "category": "confirmed_narration_name_mismatch",
+          "severity": "medium",
+          "scene": "S08",
+          "readerPages": [
+            85,
+            85
+          ],
+          "subtitle": [
+            85
+          ],
+          "atSec": [
+            469
+          ],
+          "runtimeLocation": {
+            "file": "four-purities-six-recollections/book/book-data.js",
+            "line": 1815
+          },
+          "currentNarration": "在雜阿含經554經中，長者摩訶男在病痛中，學會了「六念」這門修法。",
+          "currentScripture": "世尊說依四不壞淨，增六念處，我悉成就，我當修習念佛功德，念法、念僧、念戒、念施、念天。",
+          "sourceEvidence": "本經開頭為時，訶梨聚落主長者身遭病苦；說法者是尊者摩訶迦旃延。原文沒有摩訶男。",
+          "canonicalLocation": "T02n0099 p0145a25–b13",
+          "sourceURL": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa501-600/sa554.html",
+          "publicURL": "https://suttacentral.net/sa554/lzh/taisho",
+          "suggestion": "若作者同意校訂口白，人物改訶梨聚落主長者；下緣SA554經號與引文不需要換。",
+          "origin": "原storyboard與原字幕同名；導讀sa554已使用正確訶梨聚落主長者。"
+        },
+        {
+          "id": "PUR-F03",
+          "category": "author_interpretation_requires_review",
+          "severity": "high",
+          "scene": "S01",
+          "readerPages": [
+            12,
+            12
+          ],
+          "subtitle": [
+            12
+          ],
+          "atSec": [
+            65
+          ],
+          "runtimeLocation": {
+            "file": "four-purities-six-recollections/book/book-data.js",
+            "line": 428
+          },
+          "currentNarration": "中間永不死去，必定能走向彼岸那光芒溫暖的「涅槃」寂靜！",
+          "currentScripture": "未得須陀洹果，中間不死，必得須陀洹果。",
+          "sourceEvidence": "中間不死置於未得須陀洹果與必得須陀洹果之間；下段說須陀洹果仍有七有天人往生。加上永字並把下一步直接改涅槃，容易讀成不再死亡。",
+          "canonicalLocation": "T02n0099 p0016a06–14",
+          "sourceURL": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa1-100/sa61.html",
+          "publicURL": "https://suttacentral.net/sa61/lzh/taisho",
+          "suggestion": "請作者核准以命終以前必得須陀洹果表達該階段；保留最終趣向涅槃的故事願景，但分開說明。",
+          "origin": "交接storyboard.md末尾已明載這句的校稿疑點，runtime仍保留原片。"
+        }
+      ],
+      "limitations": [
+        "Buddhaspace SA61 and SA554 annotation URLs were attempted but environment proxy returned Tunnel connection failed:403 Forbidden; this is not evidence they lack content.",
+        "Four canonical full texts were read from official SuttaCentral GitHub commit c7bba0f184e66904949d4918587975fb7fd7ec69, an exact content-pinned public archive, not an independently verified current live SC website UI.",
+        "No original film/audio re-listening or physical device/browser visual test; root QA separately compares rendered pages.",
+        "No runtime/story/manuscript/source archive edits; original author phrasing is preserved for judgment."
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "EIGHT-C01",
+      "category": "confirmed_local_quote_cue_alignment_issue",
+      "severity": "medium",
+      "readerPages": [
+        69,
+        69
+      ],
+      "scene": 9,
+      "subtitle": [
+        10
+      ],
+      "times": [
+        "06:38–06:45"
+      ],
+      "summary": "口白精確引語「常不休息」與當頁所列SA777不是同一出處；不是SA777引文字句造假。",
+      "currentNarration": [
+        {
+          "page": 69,
+          "text": "這不是蠻力，而是一種「不讓心隨波逐流」的堅持。佛陀說：「常不休息。」"
+        }
+      ],
+      "currentScripture": "我於內法中，不見一法，未生惡不善法令不生，已生惡不善法令滅，未生善法令生，已生善法重生令增廣，如說正思惟。",
+      "runtimeLocation": {
+        "file": "eightfold-path/book/book-data.js",
+        "line": 1905,
+        "verseLine": 1914
+      },
+      "sourceEvidence": "SA785正方便兩段均有「心法攝受、常、不休息」。SA777全文說正思惟令惡不生/滅、善生/增，沒有「常不休息」。",
+      "sourceURL": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa785.html",
+      "publicURL": "https://suttacentral.net/sa785/lzh/taisho",
+      "suggestion": "不改口白；可讓第69頁的下方回到SA785正方便節錄（若後三頁也保持持續精進可延續），第67–68頁仍用SA777四善法段。作者也可保留主題配對並另標精確引語參SA785。",
+      "origin": "原作者storyboard列了SA785與SA777兩段，沒有逐句切換時間。生成器依主題選擇scene9零基subtitle7起SA777並持續至幕末；問題是程式人工配對規則未為第10字幕返回785，非runtime字幕遺失。",
+      "generatorLocation": {
+        "file": "scripts/build-eightfold-path.py",
+        "lines": [
+          30,
+          31,
+          41,
+          66,
+          70
+        ]
+      },
+      "authorHandoffLocation": {
+        "file": "docs/eightfold-path/storyboard.md",
+        "lines": [
+          211,
+          215,
+          221,
+          223
+        ]
+      },
+      "adjacentPages": [
+        {
+          "page": 66,
+          "narration": [
+            "但現在，小貓的努力有了新的目標，「逆流而上」，這是出世間的無漏努力。"
+          ],
+          "canon": "sa785"
+        },
+        {
+          "page": 67,
+          "narration": [
+            "這需要一股持續不斷的力氣：看到前方漂來的惡念浮木，用力把它推開；"
+          ],
+          "canon": "sa777"
+        },
+        {
+          "page": 68,
+          "narration": [
+            "看到乾淨的善念水道，奮力划過去。"
+          ],
+          "canon": "sa777"
+        },
+        {
+          "page": 69,
+          "narration": [
+            "這不是蠻力，而是一種「不讓心隨波逐流」的堅持。佛陀說：「常不休息。」"
+          ],
+          "canon": "sa777"
+        },
+        {
+          "page": 70,
+          "narration": [
+            "因為在湍急的生死流中，只要一停下來，我們就會後退。"
+          ],
+          "canon": "sa777"
+        }
+      ],
+      "counterpartCanonicalLocation": {
+        "file": "sa785.html",
+        "line": 20
+      },
+      "actualLowerCanonicalLocation": {
+        "file": "sa777.html",
+        "line": null
+      },
+      "book": "eightfold-path"
+    },
+    {
+      "id": "EIGHT-AR01",
+      "category": "author_interpretation_requires_review",
+      "severity": "high",
+      "readerPages": [
+        64,
+        66
+      ],
+      "scene": 9,
+      "subtitle": [
+        5,
+        6,
+        7
+      ],
+      "times": [
+        "06:10–06:15",
+        "06:15–06:20",
+        "06:20–06:28"
+      ],
+      "summary": "世俗／出世間正方便被化約為追逐快樂與改成逆流目標。",
+      "currentNarration": [
+        {
+          "page": 64,
+          "text": "過去，我們也很努力，忙著追逐快樂、忙著逃避痛苦，"
+        },
+        {
+          "page": 65,
+          "text": "結果卻讓自己更累。這是世俗的有漏努力。"
+        },
+        {
+          "page": 66,
+          "text": "但現在，小貓的努力有了新的目標，「逆流而上」，這是出世間的無漏努力。"
+        }
+      ],
+      "currentScripture": "何等為正方便世、俗，有漏、有取，轉向善趣？謂欲、精進、方便超出、堅固建立，堪能造作精進、心法攝受、常、不休息，是名正方便世、俗，有漏、有取，轉向善趣。何等為正方便是聖、出世間，無漏、不取，盡苦，轉向苦邊？謂聖弟子苦苦思惟，集、滅、道道思惟，無漏憶念相應心法，欲、精進、方便、勤踊，超出、建立堅固、堪能造作精進，心法攝受、常、不休息，是名正方便是聖、出世間，無漏、不取，正盡苦，轉向苦邊。",
+      "runtimeLocation": {
+        "file": "eightfold-path/book/book-data.js",
+        "line": 1815,
+        "verseLine": 1824
+      },
+      "sourceEvidence": "SA785仍把世俗正方便稱為「轉向善趣」，並說欲精進、堅固建立、攝受、常不休息；出世間段另具「聖弟子苦苦思惟，集、滅、道道思惟，無漏憶念相應心法」條件。不是單憑故事方向或辛苦程度判無漏。",
+      "sourceURL": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa785.html",
+      "publicURL": "https://suttacentral.net/sa785/lzh/taisho",
+      "suggestion": "請作者校訂白話時保留兩類皆是正向精進，並說明出世間段的四諦/無漏條件；不要直接把追逐貪欲等同世俗正方便。",
+      "origin": "原storyboard同句，且md第352行已列優先待校；現有下緣引文是正確的，非新程式造成。",
+      "book": "eightfold-path"
+    },
+    {
+      "id": "EIGHT-AR02",
+      "category": "author_interpretation_requires_review",
+      "severity": "medium",
+      "readerPages": [
+        75,
+        86
+      ],
+      "scene": 10,
+      "subtitle": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "times": [
+        "07:10–07:18",
+        "07:18–07:24",
+        "07:24–07:29",
+        "07:29–07:32",
+        "07:32–07:37",
+        "07:37–07:42",
+        "07:42–07:48",
+        "07:48–07:51",
+        "07:51–07:56",
+        "07:56–08:01",
+        "08:01–08:09",
+        "08:09–08:14"
+      ],
+      "summary": "「記得＝世俗、看清＝出世間」適合作教學任務，但不是SA785的原始二分定義。",
+      "currentNarration": [
+        {
+          "page": 75,
+          "text": "第一項任務是「記得」（世俗正念）：記得手中的地圖，記得我們要去哪裡。"
+        },
+        {
+          "page": 76,
+          "text": "如果不小心分神了，就像那隻愛亂跑的猴子又想去抓路邊的樹枝，"
+        },
+        {
+          "page": 77,
+          "text": "正念會溫柔地提醒：「嘿，回來！那不是我們要去的方向。」"
+        },
+        {
+          "page": 78,
+          "text": "第二項任務是「看清」（出世間正念）："
+        },
+        {
+          "page": 79,
+          "text": "這條河上隨時會打來名為「貪愛」與「憤怒」的巨浪。"
+        },
+        {
+          "page": 80,
+          "text": "如果沒有看清楚，我們很容易就被捲進水裡喝毒水。"
+        },
+        {
+          "page": 81,
+          "text": "但有了正念，小貓能清清楚楚地看著每一個浪頭打過來。"
+        },
+        {
+          "page": 82,
+          "text": "牠運用四聖諦的智慧看著浪花："
+        },
+        {
+          "page": 83,
+          "text": "「喔！這是一個生氣的浪（苦），是因為我不喜歡被潑溼（集）。」"
+        },
+        {
+          "page": 84,
+          "text": "因為看見了，所以不被捲走。牠不對浪花發脾氣，"
+        },
+        {
+          "page": 85,
+          "text": "也不跳進水裡追逐浪花。只是穩穩地站著，讓浪頭從船邊流過。"
+        },
+        {
+          "page": 86,
+          "text": "這份清澈的覺知，守護著木筏，讓心在風浪中依然保持安穩。"
+        }
+      ],
+      "currentScripture": "何等為正念世、俗，有漏、有取，轉向善趣？若念、隨念、重念、憶念，不妄、不虛，是名正念世、俗，有漏、有取，正向善趣。何等為正念是聖、出世間，無漏、不取，轉向苦邊？謂聖弟子苦苦思惟，集、滅、道道思惟，無漏思惟相應，若念、隨念、重念、憶念，不妄、不虛，是名正念是聖、出世間，無漏、不取，轉向苦邊。",
+      "runtimeLocation": {
+        "file": "eightfold-path/book/book-data.js",
+        "line": 2013,
+        "verseLine": 2022
+      },
+      "sourceEvidence": "SA785兩種正念均列念、隨念、重念、憶念、不妄、不虛；出世間正念另以四諦思惟與無漏相應為條件。一般看清情緒不單獨證成無漏。",
+      "sourceURL": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa785.html",
+      "publicURL": "https://suttacentral.net/sa785/lzh/taisho",
+      "suggestion": "保留記得/看清的故事比喻；請作者決定是否刪除括號的等同分類，或加上是比喻且依四諦/無漏條件理解的短句。",
+      "origin": "原storyboard同句，md第353行已提示勿簡化成一般注意力；下方785原文沒放錯。",
+      "book": "eightfold-path"
+    },
+    {
+      "id": "EIGHT-AR03",
+      "category": "author_interpretation_requires_review",
+      "severity": "medium",
+      "readerPages": [
+        95,
+        96
+      ],
+      "scene": 11,
+      "subtitle": [
+        9,
+        10
+      ],
+      "times": [
+        "08:59–09:04",
+        "09:04–09:09"
+      ],
+      "summary": "只有波紋完全消失才能映照四聖諦，比MA42所選「因定見如實」更強。",
+      "currentNarration": [
+        {
+          "page": 95,
+          "text": "只有當波紋完全消失時，四聖諦的真理才能像天上的月亮，"
+        },
+        {
+          "page": 96,
+          "text": "毫無扭曲地、完整地映照在我們心裡。"
+        }
+      ],
+      "currentScripture": "阿難！多聞聖弟子因定便得見如實、知如真，因見如實、知如真，便得厭，因厭便得無欲，因無欲便得解脫，因解脫便知解脫，生已盡，梵行已立，所作已辦，不更受有，知如真。阿難！是為法法相益，法法相因，如是此戒趣至第一，謂度此岸，得至彼岸。",
+      "runtimeLocation": {
+        "file": "eightfold-path/book/book-data.js",
+        "line": 2373,
+        "verseLine": 2382
+      },
+      "sourceEvidence": "MA42描述戒、不悔、歡悅、喜、止、樂、定、如實知見等相益次第，所選段沒有「只有波紋完全消失」這個必要條件，也沒有月亮/水面譬喻。",
+      "sourceURL": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/ma/ma42.html",
+      "publicURL": "https://suttacentral.net/ma42/lzh/taisho",
+      "suggestion": "以有助如實觀察的水面比喻理解；是否把「只有…才能」改較審慎表述由作者決定。不要當引文錯字自動修原稿。",
+      "origin": "原storyboard同句，md第354行已有待校；下方MA42實際原文相符。",
+      "book": "eightfold-path"
+    },
+    {
+      "id": "FRUIT-AR01",
+      "category": "author_interpretation_requires_review",
+      "severity": "high",
+      "readerPages": [
+        28,
+        28
+      ],
+      "scene": "S06",
+      "subtitle": [
+        4
+      ],
+      "times": [
+        "02:38"
+      ],
+      "summary": "初果斬斷前幕標「貪愛」的整條皮帶，可能讓人誤以為初果已斷一切貪愛、終止輪迴。",
+      "currentNarration": [
+        {
+          "page": 28,
+          "text": "這就像那隻被拴在柱子上的狗，終於被智慧之劍切斷了皮帶，不再盲目打轉。"
+        }
+      ],
+      "currentScripture": "彼云何名為似黃藍花沙門？或有一人，斷三結使，成須陀洹不退轉法，必至涅槃，極遲經七死七生；或復家家、一種，猶如黃藍之花朝取暮長。此比丘亦復如是，三結使盡，成須陀洹，不退轉法必至涅槃，極遲至七死七生，若求方便勇猛意者，家家、一種便成道迹，是謂名為黃藍花沙門。",
+      "runtimeLocation": {
+        "file": "four-fruits-ten-fetters/book/book-data.js",
+        "line": 646,
+        "verseLine": 654
+      },
+      "sourceEvidence": "EA28.7初果只說斷三結且最遲七死七生；下一二果段仍說婬怒癡薄，三果才斷五下分結。SA266完整狗喻的解脫段則說如實知五陰而脫生老病死憂悲惱苦。",
+      "sourceURL": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/ea/ea28/ea28.7.html",
+      "publicURL": "https://suttacentral.net/ea28.7/lzh/taisho",
+      "suggestion": "保留狗與智慧劍的創作，可請作者將本句限定為斷前三結/不再被邪見盲帶，別把前幕貪愛皮帶完全割斷等同初果總貪愛斷盡；圖片是否調整需另獲作者同意。",
+      "origin": "原storyboard S06同句；S05正式圖由作者指定柱五受陰/皮帶貪愛，非程式換圖誤植。",
+      "additionalSourceURL": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa201-300/sa266.html",
+      "crossCheckReaderPages": [
+        26,
+        27,
+        32,
+        39,
+        40,
+        47,
+        48
+      ],
+      "book": "four-fruits-ten-fetters"
+    },
+    {
+      "id": "FRUIT-AR02",
+      "category": "author_interpretation_requires_review",
+      "severity": "low",
+      "readerPages": [
+        46,
+        50
+      ],
+      "scene": "S09",
+      "subtitle": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "times": [
+        "04:26",
+        "04:34",
+        "04:38",
+        "04:44",
+        "04:48"
+      ],
+      "summary": "SA71斷關原句真實，但原段列舉阿羅漢德相；本幕把其中斷五下分結用來解釋三果。",
+      "currentNarration": [
+        {
+          "page": 46,
+          "text": "解脫的第三關，是三果「阿那含」。在這裡，修行人迎來了巨大的昇華。"
+        },
+        {
+          "page": 47,
+          "text": "他們徹底斷除了「欲貪」與「瞋恚」，"
+        },
+        {
+          "page": 48,
+          "text": "將把人綁在欲界的五條粗重鎖鏈「五下分結」全數斷盡。"
+        },
+        {
+          "page": 49,
+          "text": "佛陀形容這個境界叫做「斷關」，"
+        },
+        {
+          "page": 50,
+          "text": "就像是打破了將眾生關在欲界牢籠裡的那道門閂。"
+        }
+      ],
+      "currentScripture": "云何斷關？謂斷五下分結。",
+      "runtimeLocation": {
+        "file": "four-fruits-ten-fetters/book/book-data.js",
+        "line": 988,
+        "verseLine": 996
+      },
+      "sourceEvidence": "SA71前文說阿羅漢盡諸有漏，續列斷關、度塹等，才解釋「云何斷關？謂斷五下分結。」第三果亦斷五下結，所以共同性質不矛盾，但不能說此經整段是在定義三果。",
+      "sourceURL": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa1-100/sa71.html",
+      "publicURL": "https://suttacentral.net/sa71/lzh/taisho",
+      "suggestion": "可保留這句作共同性質的譬喻，作者若校稿可改成「五下分結斷盡，借用經中的說法，就像斷關」；或全段以已在下頁的EA28.7作主要定義。無需把SA71真原文判為偽引。",
+      "origin": "原storyboard S09指定SA71到04:52再EA，生成器忠實依cue；不是切換時點錯誤。",
+      "book": "four-fruits-ten-fetters"
+    },
+    {
+      "id": "FRUIT-AR03",
+      "category": "author_interpretation_requires_review",
+      "severity": "medium",
+      "readerPages": [
+        66,
+        67
+      ],
+      "scene": "S11",
+      "subtitle": [
+        4,
+        5
+      ],
+      "times": [
+        "06:18",
+        "06:24"
+      ],
+      "summary": "伽藍經被概括成只需親驗「對自己當下有益」即可，省略了經中的善惡與利他條件。",
+      "currentNarration": [
+        {
+          "page": 66,
+          "text": "就給出了一個非常貼近人性的答案。佛陀說：我們不需要盲目迷信，"
+        },
+        {
+          "page": 67,
+          "text": "只要去親自驗證「什麼對自己當下有益」就可以了。"
+        }
+      ],
+      "currentScripture": "復次，伽藍！若有所作，必不作惡，我不犯世怖與不怖，常當慈愍一切世間，我心不與眾生共諍，無濁歡悅。如是，伽藍！多聞聖弟子心無結無怨，無恚無諍，是謂得第四安隱住處。",
+      "runtimeLocation": {
+        "file": "four-fruits-ten-fetters/book/book-data.js",
+        "line": 1368,
+        "verseLine": 1376
+      },
+      "sourceEvidence": "MA16完整段從貪恚癡及殺盜邪淫妄言飲酒等惡行，談身口意淨業、慈悲喜捨、不作惡與四安隱住處；並非把當下主觀舒適或自利當成唯一標準。",
+      "sourceURL": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/ma/ma16.html",
+      "publicURL": "https://suttacentral.net/ma16/lzh/taisho",
+      "suggestion": "請作者把「對自己當下有益」補足為減貪瞋癡、不害自己和他人的善法等原經可支持的意思；保留現世安隱的用意，不換正確的MA16下緣引文。",
+      "origin": "原storyboard同句，runtime完整保留；不是畫面經號貼錯。",
+      "book": "four-fruits-ten-fetters"
+    },
+    {
+      "id": "PUR-F01",
+      "category": "author_interpretation_requires_review",
+      "severity": "high",
+      "scene": "S01",
+      "readerPages": [
+        11,
+        11
+      ],
+      "subtitle": [
+        11
+      ],
+      "atSec": [
+        59
+      ],
+      "runtimeLocation": {
+        "file": "four-purities-six-recollections/book/book-data.js",
+        "line": 409
+      },
+      "currentNarration": "只要目標一致，順著河流主流而下，他們都已經成為了「須陀洹」，",
+      "currentScripture": "未得須陀洹果，中間不死，必得須陀洹果。",
+      "sourceEvidence": "SA61接著把三結盡斷知者另列為須陀洹果；隨信行／隨法行段均明寫未得須陀洹果。",
+      "canonicalLocation": "T02n0099 p0016a06–14",
+      "sourceURL": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa1-100/sa61.html",
+      "publicURL": "https://suttacentral.net/sa61/lzh/taisho",
+      "suggestion": "請作者決定是否將已經成為果位改為已越凡夫地、未得入流果而必得此果；勿自行改原片口白。",
+      "origin": "原storyboard同句，非本輪版型／配對引入。導讀sa61已另作正確解釋。",
+      "book": "four-purities-six-recollections"
+    },
+    {
+      "id": "PUR-F02",
+      "category": "confirmed_narration_name_mismatch",
+      "severity": "medium",
+      "scene": "S08",
+      "readerPages": [
+        85,
+        85
+      ],
+      "subtitle": [
+        85
+      ],
+      "atSec": [
+        469
+      ],
+      "runtimeLocation": {
+        "file": "four-purities-six-recollections/book/book-data.js",
+        "line": 1815
+      },
+      "currentNarration": "在雜阿含經554經中，長者摩訶男在病痛中，學會了「六念」這門修法。",
+      "currentScripture": "世尊說依四不壞淨，增六念處，我悉成就，我當修習念佛功德，念法、念僧、念戒、念施、念天。",
+      "sourceEvidence": "本經開頭為時，訶梨聚落主長者身遭病苦；說法者是尊者摩訶迦旃延。原文沒有摩訶男。",
+      "canonicalLocation": "T02n0099 p0145a25–b13",
+      "sourceURL": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa501-600/sa554.html",
+      "publicURL": "https://suttacentral.net/sa554/lzh/taisho",
+      "suggestion": "若作者同意校訂口白，人物改訶梨聚落主長者；下緣SA554經號與引文不需要換。",
+      "origin": "原storyboard與原字幕同名；導讀sa554已使用正確訶梨聚落主長者。",
+      "book": "four-purities-six-recollections"
+    },
+    {
+      "id": "PUR-F03",
+      "category": "author_interpretation_requires_review",
+      "severity": "high",
+      "scene": "S01",
+      "readerPages": [
+        12,
+        12
+      ],
+      "subtitle": [
+        12
+      ],
+      "atSec": [
+        65
+      ],
+      "runtimeLocation": {
+        "file": "four-purities-six-recollections/book/book-data.js",
+        "line": 428
+      },
+      "currentNarration": "中間永不死去，必定能走向彼岸那光芒溫暖的「涅槃」寂靜！",
+      "currentScripture": "未得須陀洹果，中間不死，必得須陀洹果。",
+      "sourceEvidence": "中間不死置於未得須陀洹果與必得須陀洹果之間；下段說須陀洹果仍有七有天人往生。加上永字並把下一步直接改涅槃，容易讀成不再死亡。",
+      "canonicalLocation": "T02n0099 p0016a06–14",
+      "sourceURL": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa1-100/sa61.html",
+      "publicURL": "https://suttacentral.net/sa61/lzh/taisho",
+      "suggestion": "請作者核准以命終以前必得須陀洹果表達該階段；保留最終趣向涅槃的故事願景，但分開說明。",
+      "origin": "交接storyboard.md末尾已明載這句的校稿疑點，runtime仍保留原片。",
+      "book": "four-purities-six-recollections"
+    }
+  ],
+  "limitations": [
+    "No original film or audio was re-listened to; timecodes and authorship remain the handoff approximate values.",
+    "Official pinned sc-data HTML content was verified; this does not claim current SuttaCentral SPA/annotation UI availability or verification of unprovided alternative editions.",
+    "The Purities child attempted Buddhaspace SA61/554 and received environment CONNECT403; official GitHub originals remained available. Other annotation cards were inspected as URLs, not declared live verified.",
+    "No physical Safari, device-size or visual/glyph verification performed in this content audit; root QA owns the independent full rendered-page comparison.",
+    "Author interpretations are explicitly proposals for author judgment, not authorization to silently rewrite story narration or images.",
+    "Eightfold MA16/42/189/200 annotation buttons still use the shared four-Agama directory rather than direct section anchors; this is navigation specificity, not an incorrect primary scripture source. No source-link rewrite was made."
+  ],
+  "rootRuntimeCrossCheck": {
+    "source": "docs/audits/reader-caption-scripture/pages.json",
+    "attribution": "Parent/root performed native-next rendered capture; this read-only child inspected its inventory, not a separately executed browser run.",
+    "pagesInThisScope": 281,
+    "narrationMatches": true,
+    "scriptureMatches": true,
+    "sourceMatches": true,
+    "eightfoldPage69": {
+      "page": 69,
+      "scene": 9,
+      "cue": null,
+      "caption": "這不是蠻力，而是一種「不讓心隨波逐流」的堅持。佛陀說：「常不休息。」",
+      "scripture": "《雜阿含經》第777經〈一法〉（節錄）\n我於內法中，不見一法，未生惡不善法令不生，已生惡不善法令滅，未生善法令生，已生善法重生令增廣，如說正思惟。",
+      "sourceHref": "../#sa777"
+    }
+  }
+}
