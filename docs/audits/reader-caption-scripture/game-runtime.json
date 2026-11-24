@@ -1,0 +1,148 @@
+{
+  "scope": "Fourteen game review readers, three native consecutive steps each; all-completed disposable fixtures only. No completion action.",
+  "checks": [
+    {
+      "book": "four-truths",
+      "nativePages": [
+        1,
+        2,
+        3
+      ],
+      "contentExactPublicMatch": true,
+      "completedAndActiveUnchanged": true
+    },
+    {
+      "book": "five-aggregates",
+      "nativePages": [
+        2,
+        3,
+        4
+      ],
+      "contentExactPublicMatch": true,
+      "completedAndActiveUnchanged": true
+    },
+    {
+      "book": "six-senses",
+      "nativePages": [
+        2,
+        3,
+        4
+      ],
+      "contentExactPublicMatch": true,
+      "completedAndActiveUnchanged": true
+    },
+    {
+      "book": "twelve-links",
+      "nativePages": [
+        1,
+        2,
+        3
+      ],
+      "contentExactPublicMatch": true,
+      "completedAndActiveUnchanged": true
+    },
+    {
+      "book": "eightfold-path",
+      "nativePages": [
+        2,
+        3,
+        4
+      ],
+      "contentExactPublicMatch": true,
+      "completedAndActiveUnchanged": true
+    },
+    {
+      "book": "four-fruits-ten-fetters",
+      "nativePages": [
+        1,
+        2,
+        3
+      ],
+      "contentExactPublicMatch": true,
+      "completedAndActiveUnchanged": true
+    },
+    {
+      "book": "four-purities-six-recollections",
+      "nativePages": [
+        1,
+        2,
+        3
+      ],
+      "contentExactPublicMatch": true,
+      "completedAndActiveUnchanged": true
+    },
+    {
+      "book": "mindfulness",
+      "nativePages": [
+        14,
+        15,
+        16
+      ],
+      "contentExactPublicMatch": true,
+      "completedAndActiveUnchanged": true
+    },
+    {
+      "book": "right-effort",
+      "nativePages": [
+        1,
+        2,
+        3
+      ],
+      "contentExactPublicMatch": true,
+      "completedAndActiveUnchanged": true
+    },
+    {
+      "book": "anapana",
+      "nativePages": [
+        1,
+        2,
+        3
+      ],
+      "contentExactPublicMatch": true,
+      "completedAndActiveUnchanged": true
+    },
+    {
+      "book": "iddhipada",
+      "nativePages": [
+        1,
+        2,
+        3
+      ],
+      "contentExactPublicMatch": true,
+      "completedAndActiveUnchanged": true
+    },
+    {
+      "book": "four-jhanas",
+      "nativePages": [
+        20,
+        21,
+        22
+      ],
+      "contentExactPublicMatch": true,
+      "completedAndActiveUnchanged": true
+    },
+    {
+      "book": "five-roots-powers",
+      "nativePages": [
+        1,
+        2,
+        3
+      ],
+      "contentExactPublicMatch": true,
+      "completedAndActiveUnchanged": true
+    },
+    {
+      "book": "seven-factors",
+      "nativePages": [
+        6,
+        7,
+        8
+      ],
+      "contentExactPublicMatch": true,
+      "completedAndActiveUnchanged": true
+    }
+  ],
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "result": "passed"
+}

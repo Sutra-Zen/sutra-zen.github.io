@@ -1,0 +1,1142 @@
+{
+  "baseline": "a238a0fb549966ac0510b5b89f18b913c8ec40b6",
+  "scope": "唯讀核對所有41幕、321段作者口白、49筆不同引文，無變更原稿或程式",
+  "summary": {
+    "narrationCues": 321,
+    "scenes": 41,
+    "uniqueQuotes": 49,
+    "wrongSuttaNumberOrCrossSceneMixFound": 0,
+    "authorTextDriftFound": 0,
+    "quotePresentationReviewItems": 3
+  },
+  "sourceReceipt": "/tmp/sutra-final4-sources/download-results.json",
+  "annotationAccess": "/tmp/sutra-final4-sources/annotation-access.json",
+  "books": [
+    {
+      "id": "iddhipada",
+      "title": "四如意足",
+      "scenes": 9,
+      "authorNarrationCues": 81,
+      "currentReadingSteps": 82,
+      "authorNarrationIntact": true,
+      "semanticCoverage": "Reviewed every authored cue and every distinct quote/scene pairing, including all contexts with no full quotation. Stories/metaphors distinguished from canonical definitions.",
+      "quotes": [
+        {
+          "quoteId": "Q01",
+          "source": "SN51.22｜鐵球經",
+          "pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "scenes": [
+            "S01"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        },
+        {
+          "quoteId": "Q02",
+          "source": "SN51.13｜意欲定經",
+          "pages": [
+            16,
+            17,
+            18,
+            19,
+            24,
+            25,
+            26
+          ],
+          "scenes": [
+            "S02"
+          ],
+          "status": "same Pali passage; conventional sandhi/niggahita orthography differs (e.g. Chandaṃ ce / Chandañce), not wrong sutta"
+        },
+        {
+          "quoteId": "Q03",
+          "source": "SN51.13｜勤奮之行",
+          "pages": [
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
+          ],
+          "scenes": [
+            "S02",
+            "S03",
+            "S04",
+            "S05"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        },
+        {
+          "quoteId": "Q04",
+          "source": "SN51.13｜精進定",
+          "pages": [
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33
+          ],
+          "scenes": [
+            "S03"
+          ],
+          "status": "same Pali passage; conventional sandhi/niggahita orthography differs (e.g. Chandaṃ ce / Chandañce), not wrong sutta"
+        },
+        {
+          "quoteId": "Q05",
+          "source": "SN51.13｜心定",
+          "pages": [
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+          ],
+          "scenes": [
+            "S04"
+          ],
+          "status": "same Pali passage; conventional sandhi/niggahita orthography differs (e.g. Chandaṃ ce / Chandañce), not wrong sutta"
+        },
+        {
+          "quoteId": "Q06",
+          "source": "SN51.13｜觀定",
+          "pages": [
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
+          ],
+          "scenes": [
+            "S05"
+          ],
+          "status": "same Pali passage; conventional sandhi/niggahita orthography differs (e.g. Chandaṃ ce / Chandañce), not wrong sutta"
+        },
+        {
+          "quoteId": "Q07",
+          "source": "SN51.20｜四種偏差",
+          "pages": [
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55
+          ],
+          "scenes": [
+            "S06"
+          ],
+          "status": "same Pali passage; conventional sandhi/niggahita orthography differs (e.g. Chandaṃ ce / Chandañce), not wrong sutta"
+        },
+        {
+          "quoteId": "Q08",
+          "source": "SN51.20｜前後、上下、晝夜與光明",
+          "pages": [
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65
+          ],
+          "scenes": [
+            "S07"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        },
+        {
+          "quoteId": "Q09",
+          "source": "《相應部》51.11經〈以前經〉 · 莊春江中譯",
+          "pages": [
+            66,
+            67,
+            68,
+            69
+          ],
+          "scenes": [
+            "S08"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        },
+        {
+          "quoteId": "Q10",
+          "source": "雜阿含經561｜依欲斷愛的問答",
+          "pages": [
+            70,
+            71,
+            72,
+            73,
+            74,
+            75
+          ],
+          "scenes": [
+            "S09"
+          ],
+          "status": "correct SA561 excerpt; ellipsis deliberately omits reply; both retained portions present"
+        },
+        {
+          "quoteId": "Q11",
+          "source": "雜阿含經561｜影片下緣原經",
+          "pages": [
+            76,
+            77,
+            78,
+            79,
+            80,
+            81
+          ],
+          "scenes": [
+            "S09"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        }
+      ]
+    },
+    {
+      "id": "four-jhanas",
+      "title": "四禪",
+      "scenes": 10,
+      "authorNarrationCues": 130,
+      "currentReadingSteps": 131,
+      "authorNarrationIntact": true,
+      "semanticCoverage": "Reviewed every authored cue and every distinct quote/scene pairing, including all contexts with no full quotation. Stories/metaphors distinguished from canonical definitions.",
+      "quotes": [
+        {
+          "quoteId": "Q01",
+          "source": "《雜阿含經》第483經",
+          "pages": [
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            41,
+            42,
+            124,
+            125,
+            129,
+            130
+          ],
+          "scenes": [
+            "S06",
+            "S10"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        },
+        {
+          "quoteId": "Q02",
+          "source": "《長部》第二經〈沙門果經〉 · 莊春江中譯",
+          "pages": [
+            36,
+            37,
+            38,
+            39,
+            40,
+            124,
+            125,
+            129,
+            130
+          ],
+          "scenes": [
+            "S06",
+            "S10"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        },
+        {
+          "quoteId": "Q03",
+          "source": "《雜阿含經》第483經",
+          "pages": [
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            66,
+            67,
+            68,
+            69,
+            124,
+            126,
+            129,
+            130
+          ],
+          "scenes": [
+            "S07",
+            "S10"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        },
+        {
+          "quoteId": "Q04",
+          "source": "《長部》第二經〈沙門果經〉 · 莊春江中譯",
+          "pages": [
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            124,
+            126,
+            129,
+            130
+          ],
+          "scenes": [
+            "S07",
+            "S10"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        },
+        {
+          "quoteId": "Q05",
+          "source": "《雜阿含經》第483經",
+          "pages": [
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            124,
+            127,
+            129,
+            130
+          ],
+          "scenes": [
+            "S08",
+            "S10"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        },
+        {
+          "quoteId": "Q06",
+          "source": "《長部》第二經〈沙門果經〉 · 莊春江中譯",
+          "pages": [
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            124,
+            127,
+            129,
+            130
+          ],
+          "scenes": [
+            "S08",
+            "S10"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        },
+        {
+          "quoteId": "Q07",
+          "source": "《雜阿含經》第483經",
+          "pages": [
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            123,
+            124,
+            128,
+            129,
+            130
+          ],
+          "scenes": [
+            "S09",
+            "S10"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        },
+        {
+          "quoteId": "Q08",
+          "source": "《長部》第二經〈沙門果經〉 · 莊春江中譯",
+          "pages": [
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            124,
+            128,
+            129,
+            130
+          ],
+          "scenes": [
+            "S09",
+            "S10"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        }
+      ]
+    },
+    {
+      "id": "five-roots-powers",
+      "title": "五根五力",
+      "scenes": 10,
+      "authorNarrationCues": 74,
+      "currentReadingSteps": 75,
+      "authorNarrationIntact": true,
+      "semanticCoverage": "Reviewed every authored cue and every distinct quote/scene pairing, including all contexts with no full quotation. Stories/metaphors distinguished from canonical definitions.",
+      "quotes": [
+        {
+          "quoteId": "Q01",
+          "source": "《相應部》第48.43經〈娑雞多經〉",
+          "pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            66,
+            67,
+            68,
+            69,
+            70
+          ],
+          "scenes": [
+            "S01",
+            "S02",
+            "S09"
+          ],
+          "status": "correct sutta and narrative relation; authored text differs from checked edition, see review findings"
+        },
+        {
+          "quoteId": "Q02",
+          "source": "《雜阿含經》第646經",
+          "pages": [
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "scenes": [
+            "S03"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        },
+        {
+          "quoteId": "Q03",
+          "source": "《雜阿含經》第646經",
+          "pages": [
+            28,
+            29
+          ],
+          "scenes": [
+            "S04"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        },
+        {
+          "quoteId": "Q04",
+          "source": "《雜阿含經》第647經",
+          "pages": [
+            30,
+            31,
+            32,
+            33
+          ],
+          "scenes": [
+            "S04"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        },
+        {
+          "quoteId": "Q05",
+          "source": "《雜阿含經》第646經",
+          "pages": [
+            34,
+            35
+          ],
+          "scenes": [
+            "S05"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        },
+        {
+          "quoteId": "Q06",
+          "source": "《雜阿含經》第647經",
+          "pages": [
+            36,
+            37,
+            38,
+            39,
+            40
+          ],
+          "scenes": [
+            "S05"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        },
+        {
+          "quoteId": "Q07",
+          "source": "《雜阿含經》第646經",
+          "pages": [
+            41
+          ],
+          "scenes": [
+            "S06"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        },
+        {
+          "quoteId": "Q08",
+          "source": "《雜阿含經》第647經",
+          "pages": [
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48
+          ],
+          "scenes": [
+            "S06"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        },
+        {
+          "quoteId": "Q09",
+          "source": "《雜阿含經》第646經",
+          "pages": [
+            49
+          ],
+          "scenes": [
+            "S07"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        },
+        {
+          "quoteId": "Q10",
+          "source": "《雜阿含經》第647經",
+          "pages": [
+            50,
+            51,
+            52,
+            53,
+            54,
+            55
+          ],
+          "scenes": [
+            "S07"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        },
+        {
+          "quoteId": "Q11",
+          "source": "《雜阿含經》第646經",
+          "pages": [
+            56
+          ],
+          "scenes": [
+            "S08"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        },
+        {
+          "quoteId": "Q12",
+          "source": "《雜阿含經》第647經",
+          "pages": [
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65
+          ],
+          "scenes": [
+            "S08"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        },
+        {
+          "quoteId": "Q13",
+          "source": "《雜阿含經》第675經",
+          "pages": [
+            66,
+            67,
+            68,
+            69,
+            70
+          ],
+          "scenes": [
+            "S09"
+          ],
+          "status": "correct sutta and narrative relation; authored text differs from checked edition, see review findings"
+        },
+        {
+          "quoteId": "Q14",
+          "source": "《雜阿含經》第654經",
+          "pages": [
+            71,
+            72,
+            73,
+            74
+          ],
+          "scenes": [
+            "S10"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        }
+      ]
+    },
+    {
+      "id": "seven-factors",
+      "title": "七覺支",
+      "scenes": 12,
+      "authorNarrationCues": 36,
+      "currentReadingSteps": 37,
+      "authorNarrationIntact": true,
+      "semanticCoverage": "Reviewed every authored cue and every distinct quote/scene pairing, including all contexts with no full quotation. Stories/metaphors distinguished from canonical definitions.",
+      "quotes": [
+        {
+          "quoteId": "Q01",
+          "source": "《雜阿含經》第713經",
+          "pages": [
+            6,
+            7
+          ],
+          "scenes": [
+            "S03"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        },
+        {
+          "quoteId": "Q02",
+          "source": "《雜阿含經》第713經",
+          "pages": [
+            8
+          ],
+          "scenes": [
+            "S04"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        },
+        {
+          "quoteId": "Q03",
+          "source": "《雜阿含經》第715經",
+          "pages": [
+            9,
+            10
+          ],
+          "scenes": [
+            "S04"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        },
+        {
+          "quoteId": "Q04",
+          "source": "《雜阿含經》第713經",
+          "pages": [
+            11
+          ],
+          "scenes": [
+            "S04"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        },
+        {
+          "quoteId": "Q05",
+          "source": "《雜阿含經》第713經",
+          "pages": [
+            12,
+            13,
+            14
+          ],
+          "scenes": [
+            "S05"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        },
+        {
+          "quoteId": "Q06",
+          "source": "《雜阿含經》第713經",
+          "pages": [
+            15
+          ],
+          "scenes": [
+            "S06"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        },
+        {
+          "quoteId": "Q07",
+          "source": "《雜阿含經》第715經",
+          "pages": [
+            16
+          ],
+          "scenes": [
+            "S06"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        },
+        {
+          "quoteId": "Q08",
+          "source": "《雜阿含經》第713經",
+          "pages": [
+            17,
+            18
+          ],
+          "scenes": [
+            "S07"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        },
+        {
+          "quoteId": "Q09",
+          "source": "《雜阿含經》第713經",
+          "pages": [
+            19,
+            20
+          ],
+          "scenes": [
+            "S08"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        },
+        {
+          "quoteId": "Q10",
+          "source": "《雜阿含經》第713經",
+          "pages": [
+            21,
+            22
+          ],
+          "scenes": [
+            "S09"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        },
+        {
+          "quoteId": "Q11",
+          "source": "《雜阿含經》第810經",
+          "pages": [
+            23
+          ],
+          "scenes": [
+            "S10"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        },
+        {
+          "quoteId": "Q12",
+          "source": "《雜阿含經》第713經",
+          "pages": [
+            24
+          ],
+          "scenes": [
+            "S10"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        },
+        {
+          "quoteId": "Q13",
+          "source": "《雜阿含經》第714經",
+          "pages": [
+            25,
+            26,
+            27,
+            28
+          ],
+          "scenes": [
+            "S11"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        },
+        {
+          "quoteId": "Q14",
+          "source": "《雜阿含經》第714經",
+          "pages": [
+            29
+          ],
+          "scenes": [
+            "S11"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        },
+        {
+          "quoteId": "Q15",
+          "source": "《雜阿含經》第714經",
+          "pages": [
+            30
+          ],
+          "scenes": [
+            "S11"
+          ],
+          "status": "source number and narrative relation correct; normalized excerpt matches source"
+        },
+        {
+          "quoteId": "Q16",
+          "source": "《中部》第10經〈念住經〉",
+          "pages": [
+            31,
+            32,
+            33,
+            34,
+            35,
+            36
+          ],
+          "scenes": [
+            "S12"
+          ],
+          "status": "correct MN10 teaching but authored summary is not verbatim translation, see review finding"
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "final4-01",
+      "severity": "citation-label-review",
+      "book": "seven-factors",
+      "title": "MN10摘要沒有在閱讀卡上標成摘要",
+      "pages": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "scene": "S12",
+      "cues": [
+        "P031",
+        "P032",
+        "P033",
+        "P034",
+        "P035",
+        "P036"
+      ],
+      "quoteId": "Q16",
+      "narration": "更要時時觀察，現在，哪些覺支已經生起？哪些還沒有？",
+      "displayedQuote": "有念覺支時，了知有念覺支；沒有時，了知沒有。了知未生起的覺支如何生起，以及已生起的覺支如何修習圓滿。",
+      "canonicalText": "當自己有念覺支時，了知：『我有念覺支。』當自己沒有念覺支時，了知：『我沒有念覺支。』如其未生起念覺支之生起而了知，如其已生起念覺支之圓滿修習而了知；",
+      "sourceUrl": "https://suttacentral.net/mn10/zh/zhuang",
+      "officialProof": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/mn/mn10.html",
+      "reason": "經號及「知有無／令生／圓滿」教義配對正確。引文是把原段縮寫並泛稱覺支的影片中文摘要，並非所核莊春江逐字原文；卡片現只有經名和blockquote，讀者可能當作原經逐字。不是CSS或翻頁配錯。",
+      "existedInAuthorManuscript": true,
+      "file": "seven-factors/book/book-data.js",
+      "line": 1102,
+      "authorFile": "docs/seven-factors/storyboard.md",
+      "authorLine": 233,
+      "existingReview": "docs/seven-factors/REVIEW.md:9",
+      "suggestion": "保留作者摘要，卡片明標「內容摘要／意譯」，另供既有完整莊譯原段；不默改口白。"
+    },
+    {
+      "id": "final4-02",
+      "severity": "edition-attribution-review",
+      "book": "five-roots-powers",
+      "title": "SN48.43影片譯句與所核莊譯不同，須分版本",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "scenes": [
+        "S01",
+        "S02",
+        "S09"
+      ],
+      "quoteId": "Q01",
+      "narration": "五根與五力，就是同樣五種能力的不同面向。",
+      "displayedQuote": "沙洲之前的水流與沙洲之後的水流……信根者，可謂信力；信力者，可謂信根。精進根者，可謂精進力。",
+      "canonicalText": "［分］該島東邊的水與該島西邊的水……凡信根者，是信力；凡信力者，是信根，凡活力根者，是活力之力。",
+      "sourceUrl": "https://suttacentral.net/sn48.43/zh/zhuang",
+      "officialProof": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/sn/sn48/sn48.43.html",
+      "reason": "經號/河島譬喻/五根五力同法的意旨都吻合，無前後章串錯。詞句承作者影片錄文，未署現代譯者，與導讀標明莊春江的完整節錄不同，不能宣稱逐字等於莊譯。",
+      "existedInAuthorManuscript": true,
+      "file": "five-roots-powers/book/book-data.js",
+      "line": 225,
+      "authorFile": "docs/five-roots-powers/storyboard.md",
+      "authorLine": 41,
+      "existingReview": "docs/five-roots-powers/REVIEW.md:11",
+      "suggestion": "卡片註「影片摘錄／譯者待確認」，或經作者決定後統一採具名譯本；不把這列成錯誤經號。"
+    },
+    {
+      "id": "final4-03",
+      "severity": "minor-transcription-variant",
+      "book": "five-roots-powers",
+      "title": "675經錄文多一個「是」",
+      "pages": [
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "scene": "S09",
+      "cues": [
+        "P066",
+        "P067",
+        "P068",
+        "P069",
+        "P070"
+      ],
+      "quoteId": "Q13",
+      "narration": "那麼，五力又是什麼呢？其實，五力並不是另外五種修行。",
+      "displayedQuote": "念力者，當知是四念處。",
+      "canonicalText": "念力者，當知四念處。",
+      "sourceUrl": "https://suttacentral.net/sa675/lzh/taisho",
+      "officialProof": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa601-700/sa675.html",
+      "reason": "經號和法義正確；大正藏該句無「是」，目前影片錄文多一「是」，不可稱逐字完全相同。作者原稿已如此，不是新UI漏植。",
+      "existedInAuthorManuscript": true,
+      "file": "five-roots-powers/book/book-data.js",
+      "line": 2110,
+      "authorFile": "docs/five-roots-powers/storyboard.md",
+      "authorLine": 306,
+      "existingReview": "docs/five-roots-powers/REVIEW.md:12",
+      "suggestion": "若採逐字古漢譯，經作者核可刪「是」；若保留影片，明標錄文／整理。"
+    }
+  ],
+  "notMistakes": [
+    {
+      "book": "iddhipada",
+      "pages": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        59,
+        60,
+        63,
+        64,
+        73,
+        74,
+        75,
+        76,
+        77
+      ],
+      "note": "鐵球心理轉化、掃描身體、心理防備、公園／渡船是原影片白話譬喻，已有translationNote與SOURCE_NOTES區分原經，不是誤換經文。SN51.20上下原釋含身體不淨、光明心含光明想，不應把故事說成原經逐字；此界線已保留。"
+    },
+    {
+      "book": "iddhipada",
+      "pages": [
+        66,
+        67,
+        68,
+        69
+      ],
+      "note": "Q09 runtime已改為具名莊春江SN51.11原句，與官方檔精確相合；舊scripture-catalog仍保存影片原錄文，不能反向把正確runtime當誤植。"
+    },
+    {
+      "book": "four-jhanas",
+      "quoteId": "Q07",
+      "pages": [
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        123,
+        124,
+        128,
+        129,
+        130
+      ],
+      "note": "SA483卡字序與原經相同，但作者斷句「不苦不樂，捨淨念、一心」與大正藏「不苦不樂捨，淨念一心」不同，既有REVIEW已記，屬斷句/版本呈現，非經號錯配。"
+    },
+    {
+      "book": "four-jhanas",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "note": "前五幕依作者只標DN2主題，沒有完整Q卡；各主題確實可在DN2找到，非漏配或別本經文。"
+    },
+    {
+      "book": "seven-factors",
+      "pages": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "note": "S11總說大小火前段保持原影片當時微劣心Q13；P029起切掉心Q14，P030切念兼助Q15。對齊原稿時間，不是前幕殘留。"
+    }
+  ],
+  "limitations": [
+    "非音軌逐字聽校；審查依作者交接文字與現行閱讀資料。",
+    "Buddhaspace首頁/675註解頁及莊春江讀經站SN51.13受網路CONNECT403；已重抓SuttaCentral官方固定版本22份漢譯/莊譯/巴利全文，hash全部符合封存，未將403當成無經。",
+    "本子任務是內容與來源審查；root另做實際DOM顯示及頁碼配對驗證。"
+  ],
+  "rootNativeInventoryCrosscheck": "All four total step counts and all 49 quote page maps exactly match root pages.json (1192-step native Next inventory)"
+}

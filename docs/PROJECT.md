@@ -1,6 +1,11 @@
 # SutraZen project context
 
 
+## Reader scripture/content audit (review only)
+
+The [fourteen-book narration/scripture audit](audits/reader-caption-scripture/README.md) checks published PR80 `a238a0fb549966ac0510b5b89f18b913c8ec40b6`. All 1,192 native reading steps, 266 scripture dialog states, 42 game comparison steps and 46 live content files were checked. Rendering matches the existing manuscript, while the report identifies local source/person attribution issues, edition/transcription differences and author interpretation questions. This audit branch does not rewrite content, merge or deploy; proposed corrections require an editorial decision rather than treating every interpretive note as a code bug.
+
+
 ## Current adaptive Heart Sutra and dark narration (2026-11-24)
 
 The [dark narration / centered Heart Sutra round](readers/dark-heart/README.md) starts from published PR79 `47e4b6ef5c7f51c9aba4766c6bc25eaa790cc239`. The original title and vertical scripture are centered as a group when they fit; narrow layouts retain their right-to-left start and full horizontal scrolling. The original font, emphasis, frame and manuscript stay intact. All fourteen public/game narration bands and text closings share opaque #1e1e1e with light text, overriding historical light subtitle flags without changing source data or artwork lettering.

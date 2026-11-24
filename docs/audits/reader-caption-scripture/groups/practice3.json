@@ -1,0 +1,1071 @@
+{
+  "baseline": "a238a0fb549966ac0510b5b89f18b913c8ec40b6",
+  "books": [
+    {
+      "id": "mindfulness",
+      "scenes": 25,
+      "readerPages": 111,
+      "uniqueCitationItems": 18,
+      "allPagesReviewed": true,
+      "sceneMatrix": [
+        {
+          "scene": "S01",
+          "title": "研究引子",
+          "pages": [
+            1,
+            4
+          ],
+          "quoteIds": [],
+          "manualSemanticAssessment": "研究與生活引子，沒有硬配佛經；最有效/最低成本屬原稿修辭，非經文。"
+        },
+        {
+          "scene": "S02",
+          "title": "想快轉的爸爸",
+          "pages": [
+            5,
+            7
+          ],
+          "quoteIds": [],
+          "manualSemanticAssessment": "爸爸快轉為創作敘事，無下方引文。"
+        },
+        {
+          "scene": "S03",
+          "title": "想倒退的爸爸",
+          "pages": [
+            8,
+            10
+          ],
+          "quoteIds": [],
+          "manualSemanticAssessment": "爸爸倒轉/掉悔為生活譬喻，無下方引文。"
+        },
+        {
+          "scene": "S04",
+          "title": "人在餐桌，心不在",
+          "pages": [
+            11,
+            13
+          ],
+          "quoteIds": [],
+          "manualSemanticAssessment": "滑手機/惛沉為生活譬喻，無下方引文。"
+        },
+        {
+          "scene": "S05",
+          "title": "回到當下",
+          "pages": [
+            14,
+            16
+          ],
+          "quoteIds": [
+            "Q01"
+          ],
+          "manualSemanticAssessment": "四念處/不放逸/正念正智對SA621相應；引文節略。"
+        },
+        {
+          "scene": "S06",
+          "title": "身念處：日常姿勢",
+          "pages": [
+            17,
+            18
+          ],
+          "quoteIds": [
+            "Q02"
+          ],
+          "manualSemanticAssessment": "行住坐臥眠寤對MA98姿勢段相應。"
+        },
+        {
+          "scene": "S07",
+          "title": "身念處：呼吸",
+          "pages": [
+            19,
+            20
+          ],
+          "quoteIds": [
+            "Q03"
+          ],
+          "manualSemanticAssessment": "呼吸長短對MA98入出息段相應。"
+        },
+        {
+          "scene": "S08",
+          "title": "四顛倒總覽",
+          "pages": [
+            21,
+            24
+          ],
+          "quoteIds": [
+            "Q04"
+          ],
+          "manualSemanticAssessment": "四種顛倒對AN4.49相應。"
+        },
+        {
+          "scene": "S09",
+          "title": "淨顛倒",
+          "pages": [
+            25,
+            30
+          ],
+          "quoteIds": [
+            "Q04"
+          ],
+          "manualSemanticAssessment": "淨顛倒對AN4.49；魔鏡/粉紅濾鏡為創作。"
+        },
+        {
+          "scene": "S10",
+          "title": "觀身不淨：四界",
+          "pages": [
+            31,
+            38
+          ],
+          "quoteIds": [
+            "Q05",
+            "Q06"
+          ],
+          "manualSemanticAssessment": "前半身體部位Q05、後半六界Q06切換正確；引文字差與四大/六界範圍另列。"
+        },
+        {
+          "scene": "S11",
+          "title": "觀身不淨：變壞譬喻",
+          "pages": [
+            39,
+            43
+          ],
+          "quoteIds": [
+            "Q07"
+          ],
+          "manualSemanticAssessment": "屍體/我此身亦復如是對MA98相應，蘋果為創作類比。"
+        },
+        {
+          "scene": "S12",
+          "title": "觀受是苦",
+          "pages": [
+            44,
+            49
+          ],
+          "quoteIds": [
+            "Q04"
+          ],
+          "manualSemanticAssessment": "樂顛倒對AN4.49相應；四聖諦解脫是原稿延伸，非底下摘錄直接內容。"
+        },
+        {
+          "scene": "S13",
+          "title": "便知樂受",
+          "pages": [
+            50,
+            54
+          ],
+          "quoteIds": [
+            "Q08"
+          ],
+          "manualSemanticAssessment": "樂受如實知對MA98相應，瞬間斷鎖鏈是美術修辭。"
+        },
+        {
+          "scene": "S14",
+          "title": "便知苦受",
+          "pages": [
+            55,
+            59
+          ],
+          "quoteIds": [
+            "Q08"
+          ],
+          "manualSemanticAssessment": "苦受如實知對MA98相應，非經文保證一念即永斷瞋。"
+        },
+        {
+          "scene": "S15",
+          "title": "感受圖鑑",
+          "pages": [
+            60,
+            64
+          ],
+          "quoteIds": [
+            "Q09"
+          ],
+          "manualSemanticAssessment": "身心/食無食/欲無欲列舉來自MA98；三種基因、分類即不被綁架為詮釋。"
+        },
+        {
+          "scene": "S16",
+          "title": "內外觀受",
+          "pages": [
+            65,
+            70
+          ],
+          "quoteIds": [
+            "Q10"
+          ],
+          "manualSemanticAssessment": "內外觀覺/少少觀對MA98相應，知他人感受和漸次剖析為詮釋。"
+        },
+        {
+          "scene": "S17",
+          "title": "心念處觀測站",
+          "pages": [
+            71,
+            72
+          ],
+          "quoteIds": [
+            "Q11"
+          ],
+          "manualSemanticAssessment": "有欲/恚等心如實知對MA98相應。"
+        },
+        {
+          "scene": "S18",
+          "title": "觀心無常",
+          "pages": [
+            73,
+            80
+          ],
+          "quoteIds": [
+            "Q12",
+            "Q15"
+          ],
+          "manualSemanticAssessment": "EA12.1觀習盡與心因緣生滅相應；獼猴以SA289跨幕補充，未互換為原片引文。"
+        },
+        {
+          "scene": "S19",
+          "title": "法念處：辨認五蓋",
+          "pages": [
+            81,
+            86
+          ],
+          "quoteIds": [
+            "Q13"
+          ],
+          "manualSemanticAssessment": "五蓋有無/未生生/已生滅對MA98相應。"
+        },
+        {
+          "scene": "S20",
+          "title": "法念處：七覺支",
+          "pages": [
+            87,
+            91
+          ],
+          "quoteIds": [
+            "Q13",
+            "Q14"
+          ],
+          "manualSemanticAssessment": "先五蓋Q13、再七覺支Q14切換正確；四禪結句超出所附摘錄，另列。"
+        },
+        {
+          "scene": "S21",
+          "title": "放下刺藤",
+          "pages": [
+            92,
+            95
+          ],
+          "quoteIds": [
+            "Q15"
+          ],
+          "manualSemanticAssessment": "獼猴放一取一/異生異滅對SA289相應。"
+        },
+        {
+          "scene": "S22",
+          "title": "觀法無我",
+          "pages": [
+            96,
+            100
+          ],
+          "quoteIds": [
+            "Q16"
+          ],
+          "manualSemanticAssessment": "集滅不落有無見對SA262相應；觀法無我為作者連結。"
+        },
+        {
+          "scene": "S23",
+          "title": "牧牛守田",
+          "pages": [
+            101,
+            103
+          ],
+          "quoteIds": [
+            "Q17"
+          ],
+          "manualSemanticAssessment": "欲恚害念/牧牛護田對MA102念經相應；不是MA98念處經。"
+        },
+        {
+          "scene": "S24",
+          "title": "收成後安住",
+          "pages": [
+            104,
+            109
+          ],
+          "quoteIds": [
+            "Q18"
+          ],
+          "manualSemanticAssessment": "無欲無恚無害念/秋後放牛對MA102相應；直接等同涅槃為詮釋，另列。"
+        },
+        {
+          "scene": "S25",
+          "title": "四念處總結",
+          "pages": [
+            110,
+            110
+          ],
+          "quoteIds": [],
+          "manualSemanticAssessment": "四念處文字總結，無新增假原經。"
+        }
+      ]
+    },
+    {
+      "id": "right-effort",
+      "scenes": 11,
+      "readerPages": 81,
+      "uniqueCitationItems": 13,
+      "allPagesReviewed": true,
+      "sceneMatrix": [
+        {
+          "scene": "S01",
+          "title": "精進之帆",
+          "pages": [
+            1,
+            6
+          ],
+          "quoteIds": [
+            "Q01"
+          ],
+          "manualSemanticAssessment": "四正勤向涅槃如恆河向東，對SN49.1群經相應。"
+        },
+        {
+          "scene": "S02",
+          "title": "依戒為地・已生惡令滅",
+          "pages": [
+            7,
+            13
+          ],
+          "quoteIds": [
+            "Q02",
+            "Q03"
+          ],
+          "manualSemanticAssessment": "依戒土地對SN49.23群經，後已起惡斷對SA877，配對切換正確。"
+        },
+        {
+          "scene": "S03",
+          "title": "生欲・方便・精勤・心攝受",
+          "pages": [
+            14,
+            21
+          ],
+          "quoteIds": [
+            "Q04"
+          ],
+          "manualSemanticAssessment": "SA879斷斷包含四種精勤，生欲方便精勤攝受與口白相應。"
+        },
+        {
+          "scene": "S04",
+          "title": "未生惡令不起・善護六根",
+          "pages": [
+            22,
+            34
+          ],
+          "quoteIds": [
+            "Q05",
+            "Q06"
+          ],
+          "manualSemanticAssessment": "未生惡不起SA877、善護六根SA879、再回SA877，切換正確。"
+        },
+        {
+          "scene": "S05",
+          "title": "未生善令起・播種與隨護",
+          "pages": [
+            35,
+            45
+          ],
+          "quoteIds": [
+            "Q07",
+            "Q08"
+          ],
+          "manualSemanticAssessment": "未生善令起SA877，插守護三昧相SA879，再回SA877；兩經對隨護斷展開本來不同，非弄反。"
+        },
+        {
+          "scene": "S06",
+          "title": "已生善令增長・澆花",
+          "pages": [
+            46,
+            54
+          ],
+          "quoteIds": [
+            "Q09",
+            "Q10"
+          ],
+          "manualSemanticAssessment": "已生善增益SA877及四念處SA879相應。"
+        },
+        {
+          "scene": "S07",
+          "title": "善法成長六階段",
+          "pages": [
+            55,
+            63
+          ],
+          "quoteIds": [
+            "Q11"
+          ],
+          "manualSemanticAssessment": "已生善存續增長對SN49.1相應；六階段花朵是教學展開，非六階段逐字經文。"
+        },
+        {
+          "scene": "S08",
+          "title": "自知之明・照鏡",
+          "pages": [
+            64,
+            71
+          ],
+          "quoteIds": [
+            "Q12"
+          ],
+          "manualSemanticAssessment": "自觀惡/善法並精勤正念正智對MA95相應；掉/調文字差另列。"
+        },
+        {
+          "scene": "S09",
+          "title": "調琴・中道精進",
+          "pages": [
+            72,
+            79
+          ],
+          "quoteIds": [
+            "Q13"
+          ],
+          "manualSemanticAssessment": "琴弦急緩對SA254相應，舒服平衡點為作者白話。"
+        },
+        {
+          "scene": "S10",
+          "title": "四正勤總結",
+          "pages": [
+            80,
+            80
+          ],
+          "quoteIds": [],
+          "manualSemanticAssessment": "河流總結不硬補Q01，無原片下緣引文。"
+        },
+        {
+          "scene": "S11",
+          "title": "片尾閱讀說明",
+          "pages": [
+            81,
+            81
+          ],
+          "quoteIds": [],
+          "manualSemanticAssessment": "片尾編輯說明誠實補相應部，無經文冒稱。"
+        }
+      ]
+    },
+    {
+      "id": "anapana",
+      "scenes": 12,
+      "readerPages": 119,
+      "uniqueCitationItems": 42,
+      "allPagesReviewed": true,
+      "sceneMatrix": [
+        {
+          "scene": "S01",
+          "title": "安那般那・入息與出息",
+          "pages": [
+            1,
+            7
+          ],
+          "quoteIds": [
+            "Q01"
+          ],
+          "manualSemanticAssessment": "安那般那身心止息對SA802相應；有覺有觀等標點與省字為影片錄文。"
+        },
+        {
+          "scene": "S02",
+          "title": "禪定準備・輕裝檢查清單",
+          "pages": [
+            8,
+            13
+          ],
+          "quoteIds": [
+            "Q02",
+            "Q03",
+            "Q04",
+            "Q05",
+            "sa803"
+          ],
+          "manualSemanticAssessment": "持戒/少欲/飲食/醒寤對SA801；第五安靜處另引SA803，正確。"
+        },
+        {
+          "scene": "S03",
+          "title": "遠離五蓋",
+          "pages": [
+            14,
+            16
+          ],
+          "quoteIds": [
+            "Q06"
+          ],
+          "manualSemanticAssessment": "五蓋與守諸根對SA803相應。"
+        },
+        {
+          "scene": "S04",
+          "title": "十六勝行・身隨觀",
+          "pages": [
+            17,
+            27
+          ],
+          "quoteIds": [
+            "Q07",
+            "Q08",
+            "Q09",
+            "Q10"
+          ],
+          "manualSemanticAssessment": "息長短/覺一切身/身行息對SA803，諸身之一/熱心正知念對MN118，配對正確。"
+        },
+        {
+          "scene": "S05",
+          "title": "十六勝行・受隨觀",
+          "pages": [
+            28,
+            43
+          ],
+          "quoteIds": [
+            "Q11",
+            "Q12",
+            "Q13",
+            "Q14",
+            "Q15"
+          ],
+          "manualSemanticAssessment": "喜樂心行止息對SA803，受隨觀結句MN118；省文展開不是逐字連續原文。"
+        },
+        {
+          "scene": "S06",
+          "title": "十六勝行・心隨觀",
+          "pages": [
+            44,
+            56
+          ],
+          "quoteIds": [
+            "Q16",
+            "Q17",
+            "Q18",
+            "Q19",
+            "Q20"
+          ],
+          "manualSemanticAssessment": "知心/心悅/心定/心解脫對SA803，正念正知結句MN118；徹底解放為故事強語。"
+        },
+        {
+          "scene": "S07",
+          "title": "十六勝行・法隨觀",
+          "pages": [
+            57,
+            71
+          ],
+          "quoteIds": [
+            "Q21",
+            "Q22",
+            "Q23",
+            "Q24",
+            "Q25",
+            "Q26"
+          ],
+          "manualSemanticAssessment": "無常/斷/無欲/滅對SA803，四念住完成對MN118；不等於玩家讀完就證。"
+        },
+        {
+          "scene": "S08",
+          "title": "止觀雙修・四種方式",
+          "pages": [
+            72,
+            86
+          ],
+          "quoteIds": [
+            "Q27",
+            "Q28",
+            "Q29",
+            "Q30",
+            "Q31"
+          ],
+          "manualSemanticAssessment": "止觀雙修SA464、四道SA560，引用配對正確；SA560開示者阿難與口白佛陀有差。"
+        },
+        {
+          "scene": "S09",
+          "title": "論師實修手記・轉場",
+          "pages": [
+            87,
+            92
+          ],
+          "quoteIds": [],
+          "manualSemanticAssessment": "論師實修手記是創作轉場，未列真實古籍或假佛語。"
+        },
+        {
+          "scene": "S10",
+          "title": "論師調身・四格姿勢",
+          "pages": [
+            93,
+            106
+          ],
+          "quoteIds": [
+            "Q32",
+            "Q33",
+            "Q34",
+            "Q35",
+            "Q36",
+            "Q37",
+            "Q38"
+          ],
+          "manualSemanticAssessment": "Q32–38調身對CBETA廣論卷十四轉引修次相應，非阿含；手放/微張三分/齒齦是補充。"
+        },
+        {
+          "scene": "S11",
+          "title": "論師調心・數息隨息止與收尾",
+          "pages": [
+            107,
+            118
+          ],
+          "quoteIds": [
+            "Q39",
+            "Q40",
+            "Q41"
+          ],
+          "manualSemanticAssessment": "數Q39/隨Q40對論文轉引，止Q41依作者補訂，不是SA803；沒有混為同一原經。"
+        },
+        {
+          "scene": "S12",
+          "title": "片尾修行總覽",
+          "pages": [
+            119,
+            119
+          ],
+          "quoteIds": [],
+          "manualSemanticAssessment": "片尾十六勝行總覽，無新增原片口白/經句。"
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "scenes": 48,
+    "readerPages": 311,
+    "citationItems": 73,
+    "scOfficialRefetchedShaMatched": 19,
+    "cbetaOfficialRefetchedShaMatched": 1,
+    "thesisPdfPagesReRead": [
+      130,
+      131,
+      132,
+      133
+    ]
+  },
+  "runtimeSceneQuoteSwapsDetected": 0,
+  "findings": [
+    {
+      "id": "AP-01",
+      "book": "anapana",
+      "category": "speaker_attribution_to_review",
+      "pages": [
+        76,
+        86
+      ],
+      "scene": "S08",
+      "quoteId": "Q28-Q31",
+      "narration": "另外佛陀也說明了，每個人的特質不同，適合的修行風格也完全不同。",
+      "displayedQuote": "雜阿含經第560經：四種道",
+      "canonicalEvidence": "時，尊者阿難告諸比丘……時，諸比丘聞尊者阿難所說，歡喜奉行。",
+      "reason": "四道來源SA560正確，但該經開示者是阿難，不是佛陀直接說。非卡片移錯頁，而是原口白歸屬應校。",
+      "sourceUrl": "https://suttacentral.net/sa560/lzh/taisho",
+      "file": "anapana/book/book-data.js",
+      "line": 2364,
+      "suggestion": "可改為「《雜阿含經》中，阿難也說明了四種修學方式」；個性分類仍屬作者白話。",
+      "preexistingAuthorTranscriptOrKnownReview": true,
+      "runtimePageSwapFound": false
+    },
+    {
+      "id": "MF-01",
+      "book": "mindfulness",
+      "category": "quote_variant_from_selected_edition",
+      "pages": [
+        31,
+        34
+      ],
+      "scene": "S10",
+      "quoteId": "Q05",
+      "narration": "從頭到腳身體各種零件，內臟、眼淚、汗水、唾液與血液。",
+      "displayedQuote": "髮、毛……涎、痰、小便",
+      "canonicalEvidence": "MA98 T01.0583b06–09：髮、髦……涎、膽、小便。",
+      "reason": "來源與身體部位口白相應，但reader錄文與導讀/大正藏原文不同；痰/膽是不同項，不只是標點，毛/髦是另一字形差異。",
+      "sourceUrl": "https://suttacentral.net/ma98/lzh/taisho#t0583b06",
+      "file": "mindfulness/book/book-data.js",
+      "line": 493,
+      "suggestion": "可依選定原典校痰→膽、毛→髦，或明標影片錄文異同；勿默改封存原稿。",
+      "preexistingAuthorTranscriptOrKnownReview": true,
+      "runtimePageSwapFound": false
+    },
+    {
+      "id": "RE-01",
+      "book": "right-effort",
+      "category": "quote_variant_from_selected_edition",
+      "pages": [
+        38,
+        39
+      ],
+      "scene": "S05",
+      "quoteId": "Q08",
+      "narration": "善加守護心中好不容易得到的平靜與定境，不讓它退失。",
+      "displayedQuote": "青瘀相、膿相、爛相、壞相、食不盡相",
+      "canonicalEvidence": "SA879 T02.0221b26–28：青瘀相、脹相、膿相、壞相、食不盡相。",
+      "reason": "隨護斷配SA879正確；影片屍相列舉與所連原典/導讀不同，少脹相、出現爛相。",
+      "sourceUrl": "https://suttacentral.net/sa879/lzh/taisho#t0221b26",
+      "file": "right-effort/book/book-data.js",
+      "line": 1045,
+      "suggestion": "若下方要作所連版本直引，依原典列舉；或保留且標明影片錄文。",
+      "preexistingAuthorTranscriptOrKnownReview": true,
+      "runtimePageSwapFound": false
+    },
+    {
+      "id": "RE-02",
+      "book": "right-effort",
+      "category": "minor_quote_variant_from_selected_edition",
+      "pages": [
+        64,
+        71
+      ],
+      "scene": "S08",
+      "quoteId": "Q12",
+      "narration": "照鏡自觀五蓋與善法，正念正智精勤不退。",
+      "displayedQuote": "睡眠纏、掉貢高",
+      "canonicalEvidence": "MA95 T01.0577b27：睡眠纏、調貢高。",
+      "reason": "經名內容相應；掉/調為影片與所連大正藏版字差，導讀已用調。",
+      "sourceUrl": "https://suttacentral.net/ma95/lzh/taisho#t0577b27",
+      "file": "right-effort/book/book-data.js",
+      "line": 1617,
+      "suggestion": "可依選定原典校字或保留異文說明，不需換經名。",
+      "preexistingAuthorTranscriptOrKnownReview": true,
+      "runtimePageSwapFound": false
+    },
+    {
+      "id": "MF-02",
+      "book": "mindfulness",
+      "category": "narration_quote_scope_for_author",
+      "pages": [
+        35,
+        38
+      ],
+      "scene": "S10",
+      "quoteId": "Q06",
+      "narration": "只是四大元素的暫時組合：地、水、火、風。",
+      "displayedQuote": "地界、水界、火界、風界、空界、識界",
+      "canonicalEvidence": "MA98該段觀身諸界明列六界，含空界與識界。",
+      "reason": "上方選講四大，下方六界；非互換引用，但不能把六界原文當成僅說四大，既有review已記。",
+      "sourceUrl": "https://suttacentral.net/ma98/lzh/taisho#t0583b18",
+      "file": "mindfulness/book/book-data.js",
+      "line": 512,
+      "suggestion": "可補「這裡先認識其中的四大」，或另補四界對讀；保留六界原文。",
+      "preexistingAuthorTranscriptOrKnownReview": true,
+      "runtimePageSwapFound": false
+    },
+    {
+      "id": "MF-03",
+      "book": "mindfulness",
+      "category": "narration_quote_scope_for_author",
+      "pages": [
+        91,
+        91
+      ],
+      "scene": "S20",
+      "quoteId": "Q14",
+      "narration": "當這七種覺醒的光明道具亮起，心靈進入了初禪到四禪的極致清淨。",
+      "displayedQuote": "七覺支有無及增廣",
+      "canonicalEvidence": "MA98 T01.0584b04–15七覺支摘錄無初禪到四禪；同經較前身念處另有諸禪。",
+      "reason": "來源七覺支正確，但四禪結句及立即結果超出這段摘錄，不是直接出處。",
+      "sourceUrl": "https://suttacentral.net/ma98/lzh/taisho#t0584b04",
+      "file": "mindfulness/book/book-data.js",
+      "line": 1202,
+      "suggestion": "可調整為修習方向或另補適切四禪對讀，不應默把Q14整筆改經。",
+      "preexistingAuthorTranscriptOrKnownReview": true,
+      "runtimePageSwapFound": false
+    },
+    {
+      "id": "MF-04",
+      "book": "mindfulness",
+      "category": "narration_quote_scope_for_author",
+      "pages": [
+        48,
+        49
+      ],
+      "scene": "S12",
+      "quoteId": "Q04",
+      "narration": "如實知苦、斷除貪愛，證得了四聖諦的離苦解脫。",
+      "displayedQuote": "增支部4集49經：四種顛倒想偈頌節錄",
+      "canonicalEvidence": "AN4.49完整經有正見/超越一切苦方向；目前呈現摘錄只是四顛倒想及混亂。",
+      "reason": "苦顛倒主題相應，但「已證」不是此摘錄直譯，更非觀察一次感受即證的承諾。",
+      "sourceUrl": "https://suttacentral.net/an4.49/zh/zhuang",
+      "file": "mindfulness/book/book-data.js",
+      "line": 617,
+      "suggestion": "作者可區分故事完整修學成就與日常練習，或補四聖諦明確對讀。",
+      "preexistingAuthorTranscriptOrKnownReview": true,
+      "runtimePageSwapFound": false
+    },
+    {
+      "id": "MF-05",
+      "book": "mindfulness",
+      "category": "narration_quote_scope_for_author",
+      "pages": [
+        107,
+        109
+      ],
+      "scene": "S24",
+      "quoteId": "Q18",
+      "narration": "這，就是四念處修持圓滿的狀態……享受那份真正的涅槃與自由。",
+      "displayedQuote": "念經：秋後牧牛、無欲無恚無害念",
+      "canonicalEvidence": "MA102起首我本未覺無上正盡覺時；秋後牧牛後另敘禪定、漏盡智、如實知四諦。",
+      "reason": "念經而非念處經的引用正確；善念/不損心譬喻不能單獨作四念處圓滿或證涅槃判定。",
+      "sourceUrl": "https://suttacentral.net/ma102/lzh/taisho#t0589b27",
+      "file": "mindfulness/book/book-data.js",
+      "line": 1444,
+      "suggestion": "可審慎收為朝向清明放下，或補後續修學成就，不擅改原稿。",
+      "preexistingAuthorTranscriptOrKnownReview": true,
+      "runtimePageSwapFound": false
+    }
+  ],
+  "observations": [
+    {
+      "book": "anapana",
+      "quoteIds": [
+        "Q11",
+        "Q12",
+        "Q13",
+        "Q16",
+        "Q17",
+        "Q18",
+        "Q21",
+        "Q22",
+        "Q23"
+      ],
+      "type": "canonical_ellipsis_expansion",
+      "description": "SA803部分步驟僅短列覺知喜、樂、心行／心、心悅、心定／觀察無常、斷、無欲；網站依定型句展開完整入息出息善學。義項/經號相應，但非逐字連續原文，既有REVIEW_TODO已記。"
+    },
+    {
+      "book": "anapana",
+      "quoteIds": [
+        "Q10",
+        "Q15",
+        "Q20",
+        "Q25",
+        "Q26"
+      ],
+      "type": "translation_version",
+      "description": "MN118錄文/白話翻譯與所連莊春江版本措辭不同，主題位置相應。作者曾要求去影片譯文公開標題，未署莊春江逐字；勿誤判放錯經，亦不可稱兩譯逐字同。"
+    },
+    {
+      "book": "anapana",
+      "quoteIds": [
+        "Q30"
+      ],
+      "pages": [
+        83,
+        84
+      ],
+      "type": "minor_transcript_variant",
+      "description": "等受住對所核SA560等受化有字差，整段仍為第三道，非錯置。"
+    },
+    {
+      "book": "anapana",
+      "quoteIds": [
+        "Q32",
+        "Q33",
+        "Q34",
+        "Q35",
+        "Q36",
+        "Q37",
+        "Q38"
+      ],
+      "type": "commentary_verified",
+      "description": "重新抓官方CBETA XML及SHA吻合，調身逐段與廣論卷十四所引修次相應，未宣稱直接校勘中下編原本。"
+    },
+    {
+      "book": "anapana",
+      "quoteIds": [
+        "Q39",
+        "Q40",
+        "Q41"
+      ],
+      "type": "secondary_author_supplement",
+      "description": "重抽讀論文PDF130–133頁，數隨轉引相應；止末兩句作者2026-11-16補訂，另存originalThesisExcerpt，不能稱全文逐字出該PDF/直接抄本。"
+    },
+    {
+      "book": "mindfulness",
+      "quoteIds": [
+        "Q07",
+        "Q09",
+        "Q13",
+        "Q14"
+      ],
+      "type": "minor_transcript_variants",
+      "description": "碎糜/碎粖、省今、樂無欲覺、省文補擇法、掉悔/調悔為原錄文與所選版字差/節略，主題未錯置。"
+    }
+  ],
+  "externalEvidence": [
+    {
+      "book": "mindfulness",
+      "id": "sa621",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa601-700/sa621.html",
+      "sha256": "6d0f09251bd266cd32fcd2dd4cc145b6a3019b4a916fdba115d0187791914289",
+      "matchesRecorded": true,
+      "bytes": 3290
+    },
+    {
+      "book": "mindfulness",
+      "id": "sa289",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa201-300/sa289.html",
+      "sha256": "8f60fd11473152a49ff301851c31c0cc4c76ddde37dc1cf4e6f758f01770e48a",
+      "matchesRecorded": true,
+      "bytes": 4233
+    },
+    {
+      "book": "mindfulness",
+      "id": "sa262",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa201-300/sa262.html",
+      "sha256": "1b56f2c7174c176de5c0ceb05d83ddbafe1b2967576ef4764f8259ef41f335f1",
+      "matchesRecorded": true,
+      "bytes": 10493
+    },
+    {
+      "book": "mindfulness",
+      "id": "ma98",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/ma/ma98.html",
+      "sha256": "19ccb01c01f44b5bd1f19914441846d08d60a33f7a159fa554f29f1c6fff8847",
+      "matchesRecorded": true,
+      "bytes": 25335
+    },
+    {
+      "book": "mindfulness",
+      "id": "ma102",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/ma/ma102.html",
+      "sha256": "461b4e734fdc1990764ab68d079fd12e9f2f8e7d4983dc5c69f805db9bbf01da",
+      "matchesRecorded": true,
+      "bytes": 13561
+    },
+    {
+      "book": "mindfulness",
+      "id": "an4.49",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/an/an4/an4.49.html",
+      "sha256": "080131578375b865512b942486e5dc2cf29001baee386dd06f6c1e6945dd327c",
+      "matchesRecorded": true,
+      "bytes": 1919
+    },
+    {
+      "book": "mindfulness",
+      "id": "ea12.1",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/ea/ea12/ea12.1.html",
+      "sha256": "ced9b9f46ed4e7a1f498db526e8ae9f237249f56d59f29057959ae55dfe12124",
+      "matchesRecorded": true,
+      "bytes": 16793
+    },
+    {
+      "book": "right-effort",
+      "id": "sa877",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa801-900/sa877.html",
+      "sha256": "44baf67ed6861d430e0c94525d19aa5c4c391e7f5485b6b03d9053a53e7dfd82",
+      "matchesRecorded": true,
+      "bytes": 2356
+    },
+    {
+      "book": "right-effort",
+      "id": "sa879",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa801-900/sa879.html",
+      "sha256": "4deafaf483d1aec41f6ee809803a399e04d86ee5d0e6d6b3b93672991acc7261",
+      "matchesRecorded": true,
+      "bytes": 3694
+    },
+    {
+      "book": "right-effort",
+      "id": "sa254",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa201-300/sa254.html",
+      "sha256": "7f4f553ca9d9da521d300001ccb0c63c75e331cd1e03b11daef24c7c14a98bf0",
+      "matchesRecorded": true,
+      "bytes": 11195
+    },
+    {
+      "book": "right-effort",
+      "id": "ma95",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/ma/ma95.html",
+      "sha256": "4621f595a41b9de34c80508fa68c71839b159c66bea4c86160c75bae3b6bb243",
+      "matchesRecorded": true,
+      "bytes": 6114
+    },
+    {
+      "book": "right-effort",
+      "id": "sn49.1-12",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/sn/sn49/sn49.1-12.html",
+      "sha256": "8dc1fae4243dfe61f001f363ff6b596af94b9518dea2e85389bc4570b0eb5aaa",
+      "matchesRecorded": true,
+      "bytes": 2364
+    },
+    {
+      "book": "right-effort",
+      "id": "sn49.23-34",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/sn/sn49/sn49.23-34.html",
+      "sha256": "7887ea6ed4c844493111d1e4fe2e5503aa96196d86385555ac24593706ae5353",
+      "matchesRecorded": true,
+      "bytes": 1607
+    },
+    {
+      "book": "anapana",
+      "id": "sa801",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa801-900/sa801.html",
+      "sha256": "b7c5c9ca4af07cbf90daf5ac97c2102bbc80db4f6d83d1d9d87461ab10f845a7",
+      "matchesRecorded": true,
+      "bytes": 2689
+    },
+    {
+      "book": "anapana",
+      "id": "sa802",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa801-900/sa802.html",
+      "sha256": "4c80d91b02c8b782629b7d4ea01faed133d0d031332b0913081de586494a27b9",
+      "matchesRecorded": true,
+      "bytes": 1715
+    },
+    {
+      "book": "anapana",
+      "id": "sa803",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa801-900/sa803.html",
+      "sha256": "487a635f9cbae66c194012f96c799300c67f80c03ffaef82651572668f97579c",
+      "matchesRecorded": true,
+      "bytes": 4719
+    },
+    {
+      "book": "anapana",
+      "id": "sa464",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa401-500/sa464.html",
+      "sha256": "45fafee47c1adb052ff5ab72f0b828bf988686cc75ca6b8cf0d55dd29a003af5",
+      "matchesRecorded": true,
+      "bytes": 5806
+    },
+    {
+      "book": "anapana",
+      "id": "sa560",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa501-600/sa560.html",
+      "sha256": "dc3d38d6620de45c4527bfbdfbf531576bcf917d59e1fdf5eb0207f0f495c61f",
+      "matchesRecorded": true,
+      "bytes": 3766
+    },
+    {
+      "book": "anapana",
+      "id": "mn118",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/mn/mn118.html",
+      "sha256": "2628cbd83d6538765843b79cafc8060507f1a0d5b643219159712f0b5f689279",
+      "matchesRecorded": true,
+      "bytes": 15633
+    },
+    {
+      "book": "anapana",
+      "id": "bhavanakrama",
+      "url": "https://raw.githubusercontent.com/cbeta-git/xml-p5a/741971afbbf665797e874443cd8b4746ee4487da/B/B10/B10n0067.xml",
+      "sha256": "466644066e14778781428ae44472d3b37d37b4a0419a18a3a262fce07bc718d9",
+      "matchesRecorded": true,
+      "bytes": 1240795,
+      "refetchedThisAudit": true
+    }
+  ],
+  "limitations": [
+    "Actual BOOK pages and every scene/reference pairing read; parent independently audits rendered public/game output.",
+    "Video transcript differences preserved by project policy; these are not new UI-introduced swaps.",
+    "No direct manuscript or separate Kamalashila originals collation claimed.",
+    "Only /tmp report files written; no runtime/manuscript edits."
+  ],
+  "secondarySourceEvidence": {
+    "file": "docs/anapana/references/212202.pdf",
+    "sha256": "6b8a5905f14894cad909b3bbe5d96a41be4b987cee32854478cc7f61c546d674",
+    "pagesRead": [
+      130,
+      131,
+      132,
+      133
+    ],
+    "method": "pdftotext -layout; original attachment, not direct Kongō-ji manuscript",
+    "authorSupplementQ41": "documented in verified-sources originalThesisExcerpt and author textAuthority"
+  }
+}

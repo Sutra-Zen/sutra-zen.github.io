@@ -1,0 +1,1014 @@
+{
+  "description": "Independent source retrieval records, including failed candidate URLs and alternate versions; see each status/ok field. Fixed commits and unpinned URLs are retained as recorded, not conflated.",
+  "records": [
+    {
+      "group": "middle3",
+      "id": "sa784",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa784.html",
+      "expectedSha256": "60a23cf19e1e304a2dea481cdd9176c90994348e8860cea032fa9e3d843a179b",
+      "status": 200,
+      "sha256": "60a23cf19e1e304a2dea481cdd9176c90994348e8860cea032fa9e3d843a179b",
+      "expectedShaMatch": true
+    },
+    {
+      "group": "middle3",
+      "id": "sa785",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa785.html",
+      "expectedSha256": "03487e6d84e10e5ad88433c9e3041d2fc6b148062e7d52bfa57845b27707a14d",
+      "status": 200,
+      "sha256": "03487e6d84e10e5ad88433c9e3041d2fc6b148062e7d52bfa57845b27707a14d",
+      "expectedShaMatch": true
+    },
+    {
+      "group": "middle3",
+      "id": "sa1039",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa1001-1100/sa1039.html",
+      "expectedSha256": "bfa6a47349ab8fcc98c9f6f9c5d080ad49ef1688e4f79956d84bffb3c9581022",
+      "status": 200,
+      "sha256": "bfa6a47349ab8fcc98c9f6f9c5d080ad49ef1688e4f79956d84bffb3c9581022",
+      "expectedShaMatch": true
+    },
+    {
+      "group": "middle3",
+      "id": "sa241",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa201-300/sa241.html",
+      "expectedSha256": "c27663e6fb40983113b770b280e67ee59f85870aeb4ec2641bb4a4efc9988124",
+      "status": 200,
+      "sha256": "c27663e6fb40983113b770b280e67ee59f85870aeb4ec2641bb4a4efc9988124",
+      "expectedShaMatch": true
+    },
+    {
+      "group": "middle3",
+      "id": "sa748",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa748.html",
+      "expectedSha256": "975d7d7216772c4a5b6d4e37ad0a256ecbe392ac3168e144b76ccb265136d569",
+      "status": 200,
+      "sha256": "975d7d7216772c4a5b6d4e37ad0a256ecbe392ac3168e144b76ccb265136d569",
+      "expectedShaMatch": true
+    },
+    {
+      "group": "middle3",
+      "id": "sa749",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa749.html",
+      "expectedSha256": "b131f3caf981261ab25dce8f9b65b189bdb18269900b67bf02166654d1c5f281",
+      "status": 200,
+      "sha256": "b131f3caf981261ab25dce8f9b65b189bdb18269900b67bf02166654d1c5f281",
+      "expectedShaMatch": true
+    },
+    {
+      "group": "middle3",
+      "id": "sa771",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa771.html",
+      "expectedSha256": "a9157c95eebfca45b2b8457153451f7dddd7a7923d497b0bec36fbe3a5d24251",
+      "status": 200,
+      "sha256": "a9157c95eebfca45b2b8457153451f7dddd7a7923d497b0bec36fbe3a5d24251",
+      "expectedShaMatch": true
+    },
+    {
+      "group": "middle3",
+      "id": "sa777",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/sa/sa701-800/sa777.html",
+      "expectedSha256": "9d902786ed1f6920c70592ab2dd28f7f9d8d292ecee5d0ff3eef3d91b913ec3c",
+      "status": 200,
+      "sha256": "9d902786ed1f6920c70592ab2dd28f7f9d8d292ecee5d0ff3eef3d91b913ec3c",
+      "expectedShaMatch": true
+    },
+    {
+      "group": "middle3",
+      "id": "ma16",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/ma/ma16.html",
+      "expectedSha256": "f6839916799e80a27da5f5418049012693095b55eea5f7353a5d9845bcefa0cb",
+      "status": 200,
+      "sha256": "f6839916799e80a27da5f5418049012693095b55eea5f7353a5d9845bcefa0cb",
+      "expectedShaMatch": true
+    },
+    {
+      "group": "middle3",
+      "id": "ma42",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/ma/ma42.html",
+      "expectedSha256": "a89ab53b35a9c74a62dbd6243d23a72cf8dd94c2bc00a2371369053f0875ec4d",
+      "status": 200,
+      "sha256": "a89ab53b35a9c74a62dbd6243d23a72cf8dd94c2bc00a2371369053f0875ec4d",
+      "expectedShaMatch": true
+    },
+    {
+      "group": "middle3",
+      "id": "ma189",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/ma/ma189.html",
+      "expectedSha256": "13d0b24252ea9a867c4cd6b56139159c82c8f52d7f6ef754338a220e4e6a3424",
+      "status": 200,
+      "sha256": "13d0b24252ea9a867c4cd6b56139159c82c8f52d7f6ef754338a220e4e6a3424",
+      "expectedShaMatch": true
+    },
+    {
+      "group": "middle3",
+      "id": "ma200",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/14085ec66e6d2ad0f45565a32c614c35e037ec07/html_text/lzh/sutta/ma/ma200.html",
+      "expectedSha256": "7c11b9244f6edc2b3de98368116d888dbd9aa83b1218475976594bc9ca6cb81f",
+      "status": 200,
+      "sha256": "7c11b9244f6edc2b3de98368116d888dbd9aa83b1218475976594bc9ca6cb81f",
+      "expectedShaMatch": true
+    },
+    {
+      "group": "middle3",
+      "id": "da5",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/da/da5.html",
+      "expectedSha256": "86c23a1b8c2a4f01fec8930a4bfdce167c76d6e99600a86f3eed677bc510bf80",
+      "status": 200,
+      "sha256": "86c23a1b8c2a4f01fec8930a4bfdce167c76d6e99600a86f3eed677bc510bf80",
+      "expectedShaMatch": true
+    },
+    {
+      "group": "middle3",
+      "id": "da9",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/da/da9.html",
+      "expectedSha256": "71f39386ff11b62130122c7f4a5ceceacc19c49aa7a6f43183bdcb59ed98c21b",
+      "status": 200,
+      "sha256": "71f39386ff11b62130122c7f4a5ceceacc19c49aa7a6f43183bdcb59ed98c21b",
+      "expectedShaMatch": true
+    },
+    {
+      "group": "middle3",
+      "id": "ea28.7",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/ea/ea28/ea28.7.html",
+      "expectedSha256": "c89876b7b20f7690d2e27b77a6bfdabd58c85c45fb64da3ce634afdba3eba889",
+      "status": 200,
+      "sha256": "c89876b7b20f7690d2e27b77a6bfdabd58c85c45fb64da3ce634afdba3eba889",
+      "expectedShaMatch": true
+    },
+    {
+      "group": "middle3",
+      "id": "sa71",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa1-100/sa71.html",
+      "expectedSha256": "1a34e67ee5d916a6bb7fe78852134d4ea1bc127c9b56c71f2c09dec0c234d712",
+      "status": 200,
+      "sha256": "1a34e67ee5d916a6bb7fe78852134d4ea1bc127c9b56c71f2c09dec0c234d712",
+      "expectedShaMatch": true
+    },
+    {
+      "group": "middle3",
+      "id": "sa266",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa201-300/sa266.html",
+      "expectedSha256": "e83c41664b441c9cf2c5d88e06d479bd414a768a15e04b921e21e7119e780ef5",
+      "status": 200,
+      "sha256": "e83c41664b441c9cf2c5d88e06d479bd414a768a15e04b921e21e7119e780ef5",
+      "expectedShaMatch": true
+    },
+    {
+      "group": "middle3",
+      "id": "sa297",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa201-300/sa297.html",
+      "expectedSha256": "126633f2a3634091140ec600fba92d549d03b6a7c4050a05edf289cfc7a1c414",
+      "status": 200,
+      "sha256": "126633f2a3634091140ec600fba92d549d03b6a7c4050a05edf289cfc7a1c414",
+      "expectedShaMatch": true
+    },
+    {
+      "group": "middle3",
+      "id": "sa490",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa401-500/sa490.html",
+      "expectedSha256": "2df9e107f06f2ce3083b4b9a95691a4c775525ccbb1bb0b4986393f0e5ceee9b",
+      "status": 200,
+      "sha256": "2df9e107f06f2ce3083b4b9a95691a4c775525ccbb1bb0b4986393f0e5ceee9b",
+      "expectedShaMatch": true
+    },
+    {
+      "group": "middle3",
+      "id": "sn46.55",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/sn/sn46/sn46.55.html",
+      "expectedSha256": "5b096a2b22e055c944081d8e5932507d88351cd8ab6e75cd804f9b0799f22ef7",
+      "status": 200,
+      "sha256": "5b096a2b22e055c944081d8e5932507d88351cd8ab6e75cd804f9b0799f22ef7",
+      "expectedShaMatch": true
+    },
+    {
+      "group": "final4",
+      "book": "iddhipada",
+      "id": "sn51.22",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/sn/sn51/sn51.22.html",
+      "bytes": 2650,
+      "sha256": "385dee1c6c57872164fc92cca402eee362964811af4c32041861f79bf4bcccd3",
+      "matchesArchivedHash": true,
+      "ok": true
+    },
+    {
+      "group": "final4",
+      "book": "iddhipada",
+      "id": "sn51.13",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/sn/sn51/sn51.13.html",
+      "bytes": 2683,
+      "sha256": "86d24dd73414e7ca00a55df188bf95476465a2fd4727f6a609790db3f7665acf",
+      "matchesArchivedHash": true,
+      "ok": true
+    },
+    {
+      "group": "final4",
+      "book": "iddhipada",
+      "id": "sn51.20",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/sn/sn51/sn51.20.html",
+      "bytes": 7020,
+      "sha256": "d9b0e8cbf3cf8d96ac2659fed645806e75f6b65b78268fcb85c668aafb37a1af",
+      "matchesArchivedHash": true,
+      "ok": true
+    },
+    {
+      "group": "final4",
+      "book": "iddhipada",
+      "id": "sn51.11",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/sn/sn51/sn51.11.html",
+      "bytes": 5555,
+      "sha256": "83596a110ee85bdb096c3cf030491b7bd0a975cfbcfa59f2530782b02010c95e",
+      "matchesArchivedHash": true,
+      "ok": true
+    },
+    {
+      "group": "final4",
+      "book": "iddhipada",
+      "id": "sa561",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa501-600/sa561.html",
+      "bytes": 4686,
+      "sha256": "ff31ed400187f336a92d63b77fb296fd54fbecb12a720691684b54bac7e9279c",
+      "matchesArchivedHash": true,
+      "ok": true
+    },
+    {
+      "group": "final4",
+      "book": "iddhipada",
+      "id": "sn51.11",
+      "url": "https://raw.githubusercontent.com/suttacentral/bilara-data/baa73bb5dae8a99d71073a3f7370bfd22de633e2/root/pli/ms/sutta/sn/sn51/sn51.11_root-pli-ms.json",
+      "bytes": 7661,
+      "sha256": "90a57535c23a16ec42295a451adc01f08ce147a1ff403c76afef66a09b4a4915",
+      "matchesArchivedHash": true,
+      "ok": true
+    },
+    {
+      "group": "final4",
+      "book": "iddhipada",
+      "id": "sn51.13",
+      "url": "https://raw.githubusercontent.com/suttacentral/bilara-data/baa73bb5dae8a99d71073a3f7370bfd22de633e2/root/pli/ms/sutta/sn/sn51/sn51.13_root-pli-ms.json",
+      "bytes": 3611,
+      "sha256": "3ce230b745075094fc4b2e4628fdad944fc2585388982876ff55e0cabeefa9a9",
+      "matchesArchivedHash": true,
+      "ok": true
+    },
+    {
+      "group": "final4",
+      "book": "iddhipada",
+      "id": "sn51.20",
+      "url": "https://raw.githubusercontent.com/suttacentral/bilara-data/baa73bb5dae8a99d71073a3f7370bfd22de633e2/root/pli/ms/sutta/sn/sn51/sn51.20_root-pli-ms.json",
+      "bytes": 9791,
+      "sha256": "0e1c72c61edc77775cc0d3855099d07d5a1f19d41f1537c1bb062d7a9d65b8de",
+      "matchesArchivedHash": true,
+      "ok": true
+    },
+    {
+      "group": "final4",
+      "book": "iddhipada",
+      "id": "sn51.22",
+      "url": "https://raw.githubusercontent.com/suttacentral/bilara-data/baa73bb5dae8a99d71073a3f7370bfd22de633e2/root/pli/ms/sutta/sn/sn51/sn51.22_root-pli-ms.json",
+      "bytes": 3239,
+      "sha256": "1df26653ae240e64351f2f41373fb7ea79f39868fc3f248b369441252d238b00",
+      "matchesArchivedHash": true,
+      "ok": true
+    },
+    {
+      "group": "final4",
+      "book": "four-jhanas",
+      "id": "sa483",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa401-500/sa483.html",
+      "bytes": 4185,
+      "sha256": "3fe202d5ac87a5ee93bf881a368b8ed1d0623e502a1d2acf92e24ad4742e94be",
+      "matchesArchivedHash": true,
+      "ok": true
+    },
+    {
+      "group": "final4",
+      "book": "four-jhanas",
+      "id": "dn2",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/dn/dn2.html",
+      "bytes": 63943,
+      "sha256": "b66af8483b393560360a0195ce84f7d198b3904c69a3eba498340e28aa4f2718",
+      "matchesArchivedHash": true,
+      "ok": true
+    },
+    {
+      "group": "final4",
+      "book": "five-roots-powers",
+      "id": "sa646",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa601-700/sa646.html",
+      "bytes": 1869,
+      "sha256": "dbedf18051e6ee3b20b4a5002a18402d69dec4fde13e9635cc4a12bbf0a7fdc1",
+      "matchesArchivedHash": true,
+      "ok": true
+    },
+    {
+      "group": "final4",
+      "book": "five-roots-powers",
+      "id": "sa647",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa601-700/sa647.html",
+      "bytes": 3452,
+      "sha256": "eeb91ddebd87e5b52994d28fbc0017e171a554c1866949af093c1b7d4f62c699",
+      "matchesArchivedHash": true,
+      "ok": true
+    },
+    {
+      "group": "final4",
+      "book": "five-roots-powers",
+      "id": "sa654",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa601-700/sa654.html",
+      "bytes": 1854,
+      "sha256": "8b042d262ee0f5402e1a2bf1e9c42493b0f5cb6c66b8952763c8c359602d9a39",
+      "matchesArchivedHash": true,
+      "ok": true
+    },
+    {
+      "group": "final4",
+      "book": "five-roots-powers",
+      "id": "sa675",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa601-700/sa675.html",
+      "bytes": 1754,
+      "sha256": "23ed2f38779c277595b695ebf908b7e7d948fc1bcdcdfc1376e6eca0878546e4",
+      "matchesArchivedHash": true,
+      "ok": true
+    },
+    {
+      "group": "final4",
+      "book": "five-roots-powers",
+      "id": "sn48.43",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/sn/sn48/sn48.43.html",
+      "bytes": 2678,
+      "sha256": "7b275bee11a7880f716e7267de311c3e6f747d33c56a056948e2bf6e2e459502",
+      "matchesArchivedHash": true,
+      "ok": true
+    },
+    {
+      "group": "final4",
+      "book": "five-roots-powers",
+      "id": "sn48.43-pli",
+      "url": "https://raw.githubusercontent.com/suttacentral/bilara-data/published/root/pli/ms/sutta/sn/sn48/sn48.43_root-pli-ms.json",
+      "bytes": 3640,
+      "sha256": "fdda24f8494f6c536b0ff152343df21a182ecd46a707cbce8fb0a254da978b89",
+      "matchesArchivedHash": true,
+      "ok": true
+    },
+    {
+      "group": "final4",
+      "book": "seven-factors",
+      "id": "sa713",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa701-800/sa713.html",
+      "bytes": 7802,
+      "sha256": "b63b7a312c8f2f2b50a0e19188d3d92fb82792621b2c733fde477ba09acd92a8",
+      "matchesArchivedHash": true,
+      "ok": true
+    },
+    {
+      "group": "final4",
+      "book": "seven-factors",
+      "id": "sa714",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa701-800/sa714.html",
+      "bytes": 5950,
+      "sha256": "0545842537084ffedf9cbecaa20060caefb7d5c66de5ed4803c5ff13dfb63b83",
+      "matchesArchivedHash": true,
+      "ok": true
+    },
+    {
+      "group": "final4",
+      "book": "seven-factors",
+      "id": "sa715",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa701-800/sa715.html",
+      "bytes": 9670,
+      "sha256": "300f757a5a857efdbe431c46fe61f250370b25304ef76bac47c17d4bd8159dc3",
+      "matchesArchivedHash": true,
+      "ok": true
+    },
+    {
+      "group": "final4",
+      "book": "seven-factors",
+      "id": "sa810",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa801-900/sa810.html",
+      "bytes": 8126,
+      "sha256": "e94cf550a7fb4ddef69ed5d4b440b266cfb3e7eb56a81087e9ec4758d5f120fd",
+      "matchesArchivedHash": true,
+      "ok": true
+    },
+    {
+      "group": "final4",
+      "book": "seven-factors",
+      "id": "mn10",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/mn/mn10.html",
+      "bytes": 34497,
+      "sha256": "96383879dcaffc8aaf9c0f6c25ecbdba6e047ca0dba519f610f86b01f5276e21",
+      "matchesArchivedHash": true,
+      "ok": true
+    },
+    {
+      "group": "practice3",
+      "book": "mindfulness",
+      "id": "sa621",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa601-700/sa621.html",
+      "sha256": "6d0f09251bd266cd32fcd2dd4cc145b6a3019b4a916fdba115d0187791914289",
+      "matchesRecorded": true,
+      "bytes": 3290
+    },
+    {
+      "group": "practice3",
+      "book": "mindfulness",
+      "id": "sa289",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa201-300/sa289.html",
+      "sha256": "8f60fd11473152a49ff301851c31c0cc4c76ddde37dc1cf4e6f758f01770e48a",
+      "matchesRecorded": true,
+      "bytes": 4233
+    },
+    {
+      "group": "practice3",
+      "book": "mindfulness",
+      "id": "sa262",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa201-300/sa262.html",
+      "sha256": "1b56f2c7174c176de5c0ceb05d83ddbafe1b2967576ef4764f8259ef41f335f1",
+      "matchesRecorded": true,
+      "bytes": 10493
+    },
+    {
+      "group": "practice3",
+      "book": "mindfulness",
+      "id": "ma98",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/ma/ma98.html",
+      "sha256": "19ccb01c01f44b5bd1f19914441846d08d60a33f7a159fa554f29f1c6fff8847",
+      "matchesRecorded": true,
+      "bytes": 25335
+    },
+    {
+      "group": "practice3",
+      "book": "mindfulness",
+      "id": "ma102",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/ma/ma102.html",
+      "sha256": "461b4e734fdc1990764ab68d079fd12e9f2f8e7d4983dc5c69f805db9bbf01da",
+      "matchesRecorded": true,
+      "bytes": 13561
+    },
+    {
+      "group": "practice3",
+      "book": "mindfulness",
+      "id": "an4.49",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/an/an4/an4.49.html",
+      "sha256": "080131578375b865512b942486e5dc2cf29001baee386dd06f6c1e6945dd327c",
+      "matchesRecorded": true,
+      "bytes": 1919
+    },
+    {
+      "group": "practice3",
+      "book": "mindfulness",
+      "id": "ea12.1",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/ea/ea12/ea12.1.html",
+      "sha256": "ced9b9f46ed4e7a1f498db526e8ae9f237249f56d59f29057959ae55dfe12124",
+      "matchesRecorded": true,
+      "bytes": 16793
+    },
+    {
+      "group": "practice3",
+      "book": "right-effort",
+      "id": "sa877",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa801-900/sa877.html",
+      "sha256": "44baf67ed6861d430e0c94525d19aa5c4c391e7f5485b6b03d9053a53e7dfd82",
+      "matchesRecorded": true,
+      "bytes": 2356
+    },
+    {
+      "group": "practice3",
+      "book": "right-effort",
+      "id": "sa879",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa801-900/sa879.html",
+      "sha256": "4deafaf483d1aec41f6ee809803a399e04d86ee5d0e6d6b3b93672991acc7261",
+      "matchesRecorded": true,
+      "bytes": 3694
+    },
+    {
+      "group": "practice3",
+      "book": "right-effort",
+      "id": "sa254",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa201-300/sa254.html",
+      "sha256": "7f4f553ca9d9da521d300001ccb0c63c75e331cd1e03b11daef24c7c14a98bf0",
+      "matchesRecorded": true,
+      "bytes": 11195
+    },
+    {
+      "group": "practice3",
+      "book": "right-effort",
+      "id": "ma95",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/ma/ma95.html",
+      "sha256": "4621f595a41b9de34c80508fa68c71839b159c66bea4c86160c75bae3b6bb243",
+      "matchesRecorded": true,
+      "bytes": 6114
+    },
+    {
+      "group": "practice3",
+      "book": "right-effort",
+      "id": "sn49.1-12",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/sn/sn49/sn49.1-12.html",
+      "sha256": "8dc1fae4243dfe61f001f363ff6b596af94b9518dea2e85389bc4570b0eb5aaa",
+      "matchesRecorded": true,
+      "bytes": 2364
+    },
+    {
+      "group": "practice3",
+      "book": "right-effort",
+      "id": "sn49.23-34",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/sn/sn49/sn49.23-34.html",
+      "sha256": "7887ea6ed4c844493111d1e4fe2e5503aa96196d86385555ac24593706ae5353",
+      "matchesRecorded": true,
+      "bytes": 1607
+    },
+    {
+      "group": "practice3",
+      "book": "anapana",
+      "id": "sa801",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa801-900/sa801.html",
+      "sha256": "b7c5c9ca4af07cbf90daf5ac97c2102bbc80db4f6d83d1d9d87461ab10f845a7",
+      "matchesRecorded": true,
+      "bytes": 2689
+    },
+    {
+      "group": "practice3",
+      "book": "anapana",
+      "id": "sa802",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa801-900/sa802.html",
+      "sha256": "4c80d91b02c8b782629b7d4ea01faed133d0d031332b0913081de586494a27b9",
+      "matchesRecorded": true,
+      "bytes": 1715
+    },
+    {
+      "group": "practice3",
+      "book": "anapana",
+      "id": "sa803",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa801-900/sa803.html",
+      "sha256": "487a635f9cbae66c194012f96c799300c67f80c03ffaef82651572668f97579c",
+      "matchesRecorded": true,
+      "bytes": 4719
+    },
+    {
+      "group": "practice3",
+      "book": "anapana",
+      "id": "sa464",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa401-500/sa464.html",
+      "sha256": "45fafee47c1adb052ff5ab72f0b828bf988686cc75ca6b8cf0d55dd29a003af5",
+      "matchesRecorded": true,
+      "bytes": 5806
+    },
+    {
+      "group": "practice3",
+      "book": "anapana",
+      "id": "sa560",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa501-600/sa560.html",
+      "sha256": "dc3d38d6620de45c4527bfbdfbf531576bcf917d59e1fdf5eb0207f0f495c61f",
+      "matchesRecorded": true,
+      "bytes": 3766
+    },
+    {
+      "group": "practice3",
+      "book": "anapana",
+      "id": "mn118",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/mn/mn118.html",
+      "sha256": "2628cbd83d6538765843b79cafc8060507f1a0d5b643219159712f0b5f689279",
+      "matchesRecorded": true,
+      "bytes": 15633
+    },
+    {
+      "group": "practice3",
+      "book": "anapana",
+      "id": "bhavanakrama",
+      "url": "https://raw.githubusercontent.com/cbeta-git/xml-p5a/741971afbbf665797e874443cd8b4746ee4487da/B/B10/B10n0067.xml",
+      "sha256": "466644066e14778781428ae44472d3b37d37b4a0419a18a3a262fce07bc718d9",
+      "matchesRecorded": true,
+      "bytes": 1240795,
+      "refetchedThisAudit": true
+    },
+    {
+      "group": "middle3-purities",
+      "id": "sa61",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa1-100/sa61.html",
+      "status": 200,
+      "sha256": "f9d55e1ca411649a8f41538ffe0fd1caed05b533b89e1f0d20511133ab2beddb",
+      "matchesRecorded": true
+    },
+    {
+      "group": "middle3-purities",
+      "id": "sa843",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa801-900/sa843.html",
+      "status": 200,
+      "sha256": "a65a8857d5d777b346196d2d1bd88595c1f88fba11116cbcece175ad9c188459",
+      "matchesRecorded": true
+    },
+    {
+      "group": "middle3-purities",
+      "id": "sa554",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa501-600/sa554.html",
+      "status": 200,
+      "sha256": "b5ceecd9204f5a56de591ac91ce1dfb134484b887c94268f93ec8d0948e40871",
+      "matchesRecorded": true
+    },
+    {
+      "group": "middle3-purities",
+      "id": "sn55.1",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/sn/sn55/sn55.1.html",
+      "status": 200,
+      "sha256": "f904a2a978af4f814b2a07ab796caefd43b150cafbabdafa33b04078773bddcf",
+      "matchesRecorded": true
+    },
+    {
+      "group": "first4-first3_downloads",
+      "id": "sa41",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa1-100/sa41.html",
+      "status": 200,
+      "bytes": 7720,
+      "sha256": "b4185cd91b4f30421f438529fc1826a9cfe8e5b03fb30930191772b475f9ad11"
+    },
+    {
+      "group": "first4-first3_downloads",
+      "id": "sa46",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa1-100/sa46.html",
+      "status": 200,
+      "bytes": 6716,
+      "sha256": "bb952b4ba160a5973d0894546f7833723e48cbe5f650a164a4b56f0c0c902f8a"
+    },
+    {
+      "group": "first4-first3_downloads",
+      "id": "sa55",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa1-100/sa55.html",
+      "status": 200,
+      "bytes": 2433,
+      "sha256": "ab81277b620bc3d52e0b76a42939dc31f331fdf5445b72aa7fe7a437062cecfb"
+    },
+    {
+      "group": "first4-first3_downloads",
+      "id": "sa58",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa1-100/sa58.html",
+      "status": 200,
+      "bytes": 11074,
+      "sha256": "38c1dad2a320a53df7105fa777798ef0a5255dfb656a8da7d1fd26d648249255"
+    },
+    {
+      "group": "first4-first3_downloads",
+      "id": "sa198",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa101-200/sa198.html",
+      "status": 200,
+      "bytes": 3534,
+      "sha256": "e4bd31e82f925e0d7230eb07e8c8846bb2c4dbf4cc6de8455e5c77deb27172d3"
+    },
+    {
+      "group": "first4-first3_downloads",
+      "id": "sa245",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa201-300/sa245.html",
+      "status": 200,
+      "bytes": 2916,
+      "sha256": "7e84a9ac7e66ef1da288cdfe263ee2390415ad72e3f63c59f33949e3c242635e"
+    },
+    {
+      "group": "first4-first3_downloads",
+      "id": "sa250",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa201-300/sa250.html",
+      "status": 200,
+      "bytes": 4535,
+      "sha256": "61584d8eb459d9b82fa22c954ea5653ada9714407b190f33b2fab112c23d834b"
+    },
+    {
+      "group": "first4-first3_downloads",
+      "id": "sa273",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa201-300/sa273.html",
+      "status": 200,
+      "bytes": 6754,
+      "sha256": "ae23df4fea2c3adbf0d50d934406610c3692323f054ca93be5a93f14749f6328"
+    },
+    {
+      "group": "first4-first3_downloads",
+      "id": "sa304",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa301-400/sa304.html",
+      "status": 200,
+      "bytes": 5679,
+      "sha256": "654b36b09a6ca7cbf406b6fd90d83b47fbb426d4a421975911b73a98b27e6f43"
+    },
+    {
+      "group": "first4-first3_downloads",
+      "id": "sa322",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa301-400/sa322.html",
+      "status": 200,
+      "bytes": 3827,
+      "sha256": "0f7472ee6982f6a8caf855059886a778fa3ac6c4a747f823ae585180ad0698ea"
+    },
+    {
+      "group": "first4-first3_downloads",
+      "id": "sa379",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa301-400/sa379.html",
+      "status": 200,
+      "bytes": 7083,
+      "sha256": "b906ba7f205b8ecb0a485d9dc0a6c515a94805674723dd0a68e4c9eb0f564d3e"
+    },
+    {
+      "group": "first4-first3_downloads",
+      "id": "sa455",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa401-500/sa455.html",
+      "status": 200,
+      "bytes": 3704,
+      "sha256": "e4def2b4a8a430b0a6bf9b630d58c37beaef554709f426c2b24b6fc00936a1f9"
+    },
+    {
+      "group": "first4-first3_downloads",
+      "id": "sa892",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/sa/sa801-900/sa892.html",
+      "status": 200,
+      "bytes": 3197,
+      "sha256": "07e51f6c279469a19103531bbd887464d6f0420bb66d21cee862eb573a88d4d2"
+    },
+    {
+      "group": "first4-first3_downloads",
+      "id": "ma30",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/ma/ma30.html",
+      "status": 200,
+      "bytes": 30909,
+      "sha256": "74d9e5b2006d89bcd945fa258a95304920e3dfc56a94d7a72a1b9ecd7849ee6f"
+    },
+    {
+      "group": "first4-first3_downloads",
+      "id": "ea25.1",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/lzh/sutta/ea/ea25/ea25.1.html",
+      "status": 200,
+      "bytes": 5748,
+      "sha256": "a0bddb21cc876e22806f9cae41c7b458ad6b0c30899b1bf0d046bc5c4e3be44c"
+    },
+    {
+      "group": "first4-first3_downloads",
+      "id": "sn56.11-zhuang",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/sn/sn56/sn56.11.html",
+      "status": 200,
+      "bytes": 6135,
+      "sha256": "7c796336255ae429f1ed7da7bc6ac3d0227616c394076eeec5c78b8828b16417"
+    },
+    {
+      "group": "first4-first3_downloads",
+      "id": "ud1.10-zhuang",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/kn/ud/ud1.10.html",
+      "status": 404,
+      "bytes": 14,
+      "sha256": "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed"
+    },
+    {
+      "group": "first4-first3_downloads",
+      "id": "T0251",
+      "url": "https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/T/T08/T08n0251.xml",
+      "status": 200,
+      "bytes": 12358,
+      "sha256": "ac70ae0e42a98db022acff853d7ef0493a6769c9a3a04652717aab65aa79a7b5"
+    },
+    {
+      "group": "first4-first3_downloads",
+      "id": "T1558",
+      "url": "https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/T/T29/T29n1558.xml",
+      "status": 200,
+      "bytes": 1546815,
+      "sha256": "4e892a9e84ef0ceea6d8ac793cdd4459e21429ef0d06499861d43be5140d10e8"
+    },
+    {
+      "group": "first4-first3_downloads",
+      "id": "T1542",
+      "url": "https://raw.githubusercontent.com/cbeta-git/xml-p5a/master/T/T26/T26n1542.xml",
+      "status": 200,
+      "bytes": 682319,
+      "sha256": "bf5f18ccc7f8726643d39b87dd12cd4295c634df6ff1e78c7901cd1629d2fd30"
+    },
+    {
+      "group": "first4-first3_downloads",
+      "id": "buddhaspace-sa46",
+      "url": "https://buddhaspace.org/agama/sub/46.html",
+      "error": "URLError"
+    },
+    {
+      "group": "first4-first3_downloads",
+      "id": "suttacentral-sa46",
+      "url": "https://suttacentral.net/sa46/lzh/taisho",
+      "status": 200,
+      "bytes": 8955,
+      "sha256": "191f7021fe141cabd629b14fce808a2fdb4420db5b13ab6d909cfd8f25934837"
+    },
+    {
+      "group": "first4-first3_downloads",
+      "id": "agama-sn56.11",
+      "url": "https://agama.buddhason.org/SN/SN1708.htm",
+      "error": "URLError"
+    },
+    {
+      "group": "first4-first3_downloads",
+      "id": "agama-ud10",
+      "url": "https://agama.buddhason.org/Ud/Ud10.htm",
+      "error": "URLError"
+    },
+    {
+      "group": "first4-first3_downloads",
+      "id": "sn22.79-zhuang",
+      "url": "https://raw.githubusercontent.com/suttacentral/sc-data/c7bba0f184e66904949d4918587975fb7fd7ec69/html_text/zh/pli/sutta/sn/sn22/sn22.79.html",
+      "status": 200,
+      "bytes": 7288,
+      "sha256": "dfcdd4a7c9612f25a3bc49579e45fc6ca798ecc0709237ff607019646e3aad03"
+    },
+    {
+      "group": "first4-first3_downloads",
+      "id": "ud1.10-pli",
+      "url": "https://raw.githubusercontent.com/suttacentral/bilara-data/baa73bb5dae8a99d71073a3f7370bfd22de633e2/root/pli/ms/sutta/kn/ud/ud1.10_root-pli-ms.json",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "group": "first4-first3_downloads",
+      "id": "ud1.10-en",
+      "url": "https://raw.githubusercontent.com/suttacentral/bilara-data/baa73bb5dae8a99d71073a3f7370bfd22de633e2/translation/en/sujato/sutta/kn/ud/ud1.10_translation-en-sujato.json",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "group": "first4-first3_downloads",
+      "id": "T0251-fixed",
+      "url": "https://raw.githubusercontent.com/cbeta-git/xml-p5a/6952edb0bca6b86a68c409b36e8be659a8a75e2b/T/T08/T08n0251.xml",
+      "status": 200,
+      "bytes": 12358,
+      "sha256": "ac70ae0e42a98db022acff853d7ef0493a6769c9a3a04652717aab65aa79a7b5"
+    },
+    {
+      "group": "first4-first3_downloads",
+      "id": "T1558-fixed",
+      "url": "https://raw.githubusercontent.com/cbeta-git/xml-p5a/6952edb0bca6b86a68c409b36e8be659a8a75e2b/T/T29/T29n1558.xml",
+      "status": 200,
+      "bytes": 1546815,
+      "sha256": "4e892a9e84ef0ceea6d8ac793cdd4459e21429ef0d06499861d43be5140d10e8"
+    },
+    {
+      "group": "first4-first3_downloads",
+      "id": "T1542-fixed",
+      "url": "https://raw.githubusercontent.com/cbeta-git/xml-p5a/6952edb0bca6b86a68c409b36e8be659a8a75e2b/T/T26/T26n1542.xml",
+      "status": 200,
+      "bytes": 682319,
+      "sha256": "bf5f18ccc7f8726643d39b87dd12cd4295c634df6ff1e78c7901cd1629d2fd30"
+    },
+    {
+      "group": "first4-first3_downloads",
+      "id": "buddhaspace-sa46-error-detail",
+      "url": "https://buddhaspace.org/agama/sub/46.html",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "group": "first4-first3_downloads",
+      "id": "agama-ud10-error-detail",
+      "url": "https://agama.buddhason.org/Ud/Ud10.htm",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "group": "first4-first3_downloads",
+      "id": "ud1.10-pli-corrected-path",
+      "url": "https://raw.githubusercontent.com/suttacentral/bilara-data/baa73bb5dae8a99d71073a3f7370bfd22de633e2/root/pli/ms/sutta/kn/ud/vagga1/ud1.10_root-pli-ms.json",
+      "status": 200,
+      "bytes": 7421,
+      "sha256": "c6c857af771b67d32367235c64c41e37abfbdaa1b55544cf35bc02c7c8321af2"
+    },
+    {
+      "group": "first4-first3_downloads",
+      "id": "ud1.10-en-corrected-path",
+      "url": "https://raw.githubusercontent.com/suttacentral/bilara-data/baa73bb5dae8a99d71073a3f7370bfd22de633e2/translation/en/sujato/sutta/kn/ud/vagga1/ud1.10_translation-en-sujato.json",
+      "status": 200,
+      "bytes": 6633,
+      "sha256": "3fda91e7a1c42764173b3b20e88f919c1a755d82be9e07c36917c9c85bda730b"
+    },
+    {
+      "group": "first4-twelve_verification",
+      "id": "sa45",
+      "title": "《雜阿含經》第45經",
+      "edition": "大正藏 T02，No.99；劉宋・求那跋陀羅譯；SuttaCentral 引用 CBETA 大正藏資料",
+      "url": "https://suttacentral.net/sa45/lzh/taisho",
+      "verified_content_url": "https://raw.githubusercontent.com/suttacentral/sc-data/a5758387a32a950671780bc213aa2d4debbe1362/html_text/lzh/sutta/sa/sa1-100/sa45.html",
+      "annotation_url": "https://buddhaspace.org/agama/sub/45.html",
+      "verified": true,
+      "upstream_heading": "SA 45（四五） 覺",
+      "sha256": "8bc59885610c49bd26c601a18c51a21de0cecf3710dd64bc261232ee931fb0e9",
+      "notes": "經號、引文主題及大正藏T02 no99版本已對讀。SuttaCentral標題中的短題為資料整理標題，導讀卡eyebrow亦屬主題說明。",
+      "local_download_path": "/tmp/sutra-twelve-sa45.html"
+    },
+    {
+      "group": "first4-twelve_verification",
+      "id": "sa285",
+      "title": "《雜阿含經》第285經",
+      "edition": "大正藏 T02，No.99；劉宋・求那跋陀羅譯；SuttaCentral 引用 CBETA 大正藏資料",
+      "url": "https://suttacentral.net/sa285/lzh/taisho",
+      "verified_content_url": "https://raw.githubusercontent.com/suttacentral/sc-data/a5758387a32a950671780bc213aa2d4debbe1362/html_text/lzh/sutta/sa/sa201-300/sa285.html",
+      "annotation_url": "https://buddhaspace.org/agama/sub/285.html",
+      "verified": true,
+      "upstream_heading": "SA 285（二八五） 佛縛",
+      "sha256": "b3e8d889401b8945db154cce6dec1b4e68757b11dac4aca0f0f27fec6fb38c9f",
+      "notes": "經號、引文主題及大正藏T02 no99版本已對讀。SuttaCentral標題中的短題為資料整理標題，導讀卡eyebrow亦屬主題說明。",
+      "local_download_path": "/tmp/sutra-twelve-sa285.html"
+    },
+    {
+      "group": "first4-twelve_verification",
+      "id": "sa287",
+      "title": "《雜阿含經》第287經",
+      "edition": "大正藏 T02，No.99；劉宋・求那跋陀羅譯；SuttaCentral 引用 CBETA 大正藏資料",
+      "url": "https://suttacentral.net/sa287/lzh/taisho",
+      "verified_content_url": "https://raw.githubusercontent.com/suttacentral/sc-data/a5758387a32a950671780bc213aa2d4debbe1362/html_text/lzh/sutta/sa/sa201-300/sa287.html",
+      "annotation_url": "https://buddhaspace.org/agama/sub/287.html",
+      "verified": true,
+      "upstream_heading": "SA 287（二八七） 城邑",
+      "sha256": "6e47f7a2a93500c5abdb4c9f822168b7313e0a292f56f352dd39347def276412",
+      "notes": "經號、引文主題及大正藏T02 no99版本已對讀。SuttaCentral標題中的短題為資料整理標題，導讀卡eyebrow亦屬主題說明。",
+      "local_download_path": "/tmp/sutra-twelve-sa287.html"
+    },
+    {
+      "group": "first4-twelve_verification",
+      "id": "sa289",
+      "title": "《雜阿含經》第289經",
+      "edition": "大正藏 T02，No.99；劉宋・求那跋陀羅譯；SuttaCentral 引用 CBETA 大正藏資料",
+      "url": "https://suttacentral.net/sa289/lzh/taisho",
+      "verified_content_url": "https://raw.githubusercontent.com/suttacentral/sc-data/a5758387a32a950671780bc213aa2d4debbe1362/html_text/lzh/sutta/sa/sa201-300/sa289.html",
+      "annotation_url": "https://buddhaspace.org/agama/sub/289.html",
+      "verified": true,
+      "upstream_heading": "SA 289（二八九） 無聞",
+      "sha256": "8f60fd11473152a49ff301851c31c0cc4c76ddde37dc1cf4e6f758f01770e48a",
+      "notes": "經號、引文主題及大正藏T02 no99版本已對讀。SuttaCentral標題中的短題為資料整理標題，導讀卡eyebrow亦屬主題說明。",
+      "local_download_path": "/tmp/sutra-twelve-sa289.html"
+    },
+    {
+      "group": "first4-twelve_verification",
+      "id": "sa291",
+      "title": "《雜阿含經》第291經",
+      "edition": "大正藏 T02，No.99；劉宋・求那跋陀羅譯；SuttaCentral 引用 CBETA 大正藏資料",
+      "url": "https://suttacentral.net/sa291/lzh/taisho",
+      "verified_content_url": "https://raw.githubusercontent.com/suttacentral/sc-data/a5758387a32a950671780bc213aa2d4debbe1362/html_text/lzh/sutta/sa/sa201-300/sa291.html",
+      "annotation_url": "https://buddhaspace.org/agama/sub/291.html",
+      "verified": true,
+      "upstream_heading": "SA 291（二九一） 觸法",
+      "sha256": "285618fe7098cff65c7ebde0916b510562f8442a1eb7a167262bbee80aba7ddd",
+      "notes": "經號、引文主題及大正藏T02 no99版本已對讀。SuttaCentral標題中的短題為資料整理標題，導讀卡eyebrow亦屬主題說明。",
+      "local_download_path": "/tmp/sutra-twelve-sa291.html"
+    },
+    {
+      "group": "first4-twelve_verification",
+      "id": "sa292",
+      "title": "《雜阿含經》第292經",
+      "edition": "大正藏 T02，No.99；劉宋・求那跋陀羅譯；SuttaCentral 引用 CBETA 大正藏資料",
+      "url": "https://suttacentral.net/sa292/lzh/taisho",
+      "verified_content_url": "https://raw.githubusercontent.com/suttacentral/sc-data/a5758387a32a950671780bc213aa2d4debbe1362/html_text/lzh/sutta/sa/sa201-300/sa292.html",
+      "annotation_url": "https://buddhaspace.org/agama/sub/292.html",
+      "verified": true,
+      "upstream_heading": "SA 292（二九二） 思量觀察",
+      "sha256": "a69ea5e93bfb37d27f8b75614ee702b3277c7b57e8eaa975a468cf6a12be8e00",
+      "notes": "經號、引文主題及大正藏T02 no99版本已對讀。SuttaCentral標題中的短題為資料整理標題，導讀卡eyebrow亦屬主題說明。",
+      "local_download_path": "/tmp/sutra-twelve-sa292.html"
+    },
+    {
+      "group": "first4-twelve_verification",
+      "id": "sa298",
+      "title": "《雜阿含經》第298經",
+      "edition": "大正藏 T02，No.99；劉宋・求那跋陀羅譯；SuttaCentral 引用 CBETA 大正藏資料",
+      "url": "https://suttacentral.net/sa298/lzh/taisho",
+      "verified_content_url": "https://raw.githubusercontent.com/suttacentral/sc-data/a5758387a32a950671780bc213aa2d4debbe1362/html_text/lzh/sutta/sa/sa201-300/sa298.html",
+      "annotation_url": "https://buddhaspace.org/agama/sub/298.html",
+      "verified": true,
+      "upstream_heading": "SA 298（二九八） 法說義說",
+      "sha256": "befdb5e83a12f706c8c4ded316a7104d75f1fd57692de7ed038937c681a1ea2f",
+      "notes": "經號、引文主題及大正藏T02 no99版本已對讀。SuttaCentral標題中的短題為資料整理標題，導讀卡eyebrow亦屬主題說明。",
+      "local_download_path": "/tmp/sutra-twelve-sa298.html"
+    },
+    {
+      "group": "first4-twelve_verification",
+      "id": "sa360",
+      "title": "《雜阿含經》第360經",
+      "edition": "大正藏 T02，No.99；劉宋・求那跋陀羅譯；SuttaCentral 引用 CBETA 大正藏資料",
+      "url": "https://suttacentral.net/sa360/lzh/taisho",
+      "verified_content_url": "https://raw.githubusercontent.com/suttacentral/sc-data/a5758387a32a950671780bc213aa2d4debbe1362/html_text/lzh/sutta/sa/sa301-400/sa360.html",
+      "annotation_url": "https://buddhaspace.org/agama/sub/360.html",
+      "verified": true,
+      "upstream_heading": "SA 360（三六〇） 思量",
+      "sha256": "9ba7c04d03904b93e7ec931d0bdb5178e26714666e97826bc0d12b0cedb67512",
+      "notes": "經號、引文主題及大正藏T02 no99版本已對讀。SuttaCentral標題中的短題為資料整理標題，導讀卡eyebrow亦屬主題說明。",
+      "local_download_path": "/tmp/sutra-twelve-sa360.html"
+    },
+    {
+      "group": "first4-twelve_verification",
+      "id": "sa468",
+      "title": "《雜阿含經》第468經",
+      "edition": "大正藏 T02，No.99；劉宋・求那跋陀羅譯；SuttaCentral 引用 CBETA 大正藏資料",
+      "url": "https://suttacentral.net/sa468/lzh/taisho",
+      "verified_content_url": "https://raw.githubusercontent.com/suttacentral/sc-data/a5758387a32a950671780bc213aa2d4debbe1362/html_text/lzh/sutta/sa/sa401-500/sa468.html",
+      "annotation_url": "https://buddhaspace.org/agama/sub/468.html",
+      "verified": true,
+      "upstream_heading": "SA 468（四六八） 三受",
+      "sha256": "142e468727d31ecfc6e68bda03842a5acf5f1b5f63d32047d427bba2e51156b2",
+      "notes": "經號、引文主題及大正藏T02 no99版本已對讀。SuttaCentral標題中的短題為資料整理標題，導讀卡eyebrow亦屬主題說明。",
+      "local_download_path": "/tmp/sutra-twelve-sa468.html"
+    },
+    {
+      "group": "first4-twelve_verification",
+      "id": "T0251",
+      "title": "《般若波羅蜜多心經》",
+      "edition": "唐・玄奘譯；大正藏 T08，No.251；閱讀器採通行咒語異文",
+      "url": "https://cbetaonline.dila.edu.tw/zh/T0251",
+      "verified_content_url": "https://raw.githubusercontent.com/cbeta-org/xml-p5/8ebac86d00719479db5777dc6cd77ba111c3067a/T/T08/T08n0251.xml",
+      "verified": true,
+      "sha256": "f5507df86309f861ef2b92e9ba9db985c6db0ad357553599c6e921e15deca761",
+      "notes": "正文與校記已讀，特別核無無明乃至無老死盡及咒語異文。",
+      "local_download_path": "/tmp/sutra-twelve-heart.xml"
+    }
+  ]
+}

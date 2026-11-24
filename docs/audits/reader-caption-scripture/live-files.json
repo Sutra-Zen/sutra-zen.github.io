@@ -1,0 +1,330 @@
+{
+  "base": "https://sutra-zen.github.io/",
+  "baseline": "a238a0fb549966ac0510b5b89f18b913c8ec40b6",
+  "tls": "Normal HTTPS CA verification",
+  "files": [
+    {
+      "path": "anapana/book/book-data.js",
+      "status": 200,
+      "bytes": 108571,
+      "sha256": "7b3881a424539afb7d342a5672f9ecad46f517c15d8e731d2bf96f4876420bd3",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "anapana/book/book.js",
+      "status": 200,
+      "bytes": 11626,
+      "sha256": "b4a22d70d1e489d5c7f05236561ca2ac298d4d4844762921169ba402717c2c42",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "anapana/book/index.html",
+      "status": 200,
+      "bytes": 4079,
+      "sha256": "784186c39cd48ad81f471be386e80304a21430dd1d5e0cceacf368c84d2b7a69",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "anapana/book/panel-focus-data.js",
+      "status": 200,
+      "bytes": 10885,
+      "sha256": "66c042707d2efea8d111f0635cea6a32a45b001dce145aa638fa35a2d01c3081",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "eightfold-path/book/book-data.js",
+      "status": 200,
+      "bytes": 115527,
+      "sha256": "b8768654070740315cce995c6d5c6ee69106a0759ca0d9126956f4a3c15a3d69",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "eightfold-path/book/book.js",
+      "status": 200,
+      "bytes": 8132,
+      "sha256": "187a4871c78361872394752884803f1144a0b53e8c55f2b1c1f616d24dcdee56",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "eightfold-path/book/index.html",
+      "status": 200,
+      "bytes": 3673,
+      "sha256": "2d868364d2a6a8b07927b9133c9b30a071d521ffc207a3c754fc971ac4379e20",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "five-aggregates/book/index.html",
+      "status": 200,
+      "bytes": 40559,
+      "sha256": "a13feb337c48f28a9a825187fd53b34cca7eb25b2cb01a60e89122510d3b5afb",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "five-aggregates/book/panel-focus-data.js",
+      "status": 200,
+      "bytes": 978,
+      "sha256": "05980286214db4bc5c2fe3ba8cff3f9ce1c3464b0e5b69b7b9f1e472cfa696f1",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "five-roots-powers/book/book-data.js",
+      "status": 200,
+      "bytes": 84604,
+      "sha256": "ee2021d479d9c2f98c0e75b98a73e40ceaf69ad23bfb01fad1d38c29fd2ed5ea",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "five-roots-powers/book/book.js",
+      "status": 200,
+      "bytes": 11245,
+      "sha256": "8f71e31494f59172cfc1545b85ce4941f5cb22e6421d5a9a358333010e9eb182",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "five-roots-powers/book/index.html",
+      "status": 200,
+      "bytes": 3869,
+      "sha256": "4755de3a52b193f9611ad27615d2f89896c71f5192a099c06648a86b2512dd1e",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "four-fruits-ten-fetters/book/book-data.js",
+      "status": 200,
+      "bytes": 58089,
+      "sha256": "abdf5286fe0a174ffb687c72ed901a06fe13171546b1a42c20a8732c3e3aaf3c",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "four-fruits-ten-fetters/book/book.js",
+      "status": 200,
+      "bytes": 7365,
+      "sha256": "51f47c7bb3f0f7fe6e502df08ba9cb0842458931a886b18e890134d09c57981b",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "four-fruits-ten-fetters/book/index.html",
+      "status": 200,
+      "bytes": 3396,
+      "sha256": "1adfe3ea982fff9d00ae0c3a1a3feb3e58af6464a3eff6990e77751e784d3b53",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "four-jhanas/book/book-data.js",
+      "status": 200,
+      "bytes": 211026,
+      "sha256": "4106674671d841a5bb1a05a350fa0310ab48dc7b27607a36b13b080d5c679efe",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "four-jhanas/book/book.js",
+      "status": 200,
+      "bytes": 11751,
+      "sha256": "045c04c31d05fb2ee9a17e4f60295b2564a8f5dbc3703fcb095559b07c1ad8d0",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "four-jhanas/book/index.html",
+      "status": 200,
+      "bytes": 4024,
+      "sha256": "3c30fcacae10cdc6f2b036177e45f676f04f0785a65ba14026754b9600b2dc96",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "four-jhanas/book/panel-focus-data.js",
+      "status": 200,
+      "bytes": 5059,
+      "sha256": "0444dc4cf705fa335137d56682df633785c27ac2203412a79d56f346f2b16a5c",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "four-purities-six-recollections/book/book-data.js",
+      "status": 200,
+      "bytes": 71715,
+      "sha256": "d07a684ac3a134623c5d569c111e63c14153bb01109b0d3ba32f8fd14258c8aa",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "four-purities-six-recollections/book/book.js",
+      "status": 200,
+      "bytes": 7499,
+      "sha256": "8579c4dda96496c6ac5f8f82e50c411a993860927777fee311c67cb8f1f3de71",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "four-purities-six-recollections/book/index.html",
+      "status": 200,
+      "bytes": 3528,
+      "sha256": "e1f6e631acecd5218b220fc0480366963cecab86fc58d51f51f491cc0680e498",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "four-truths/book/book.js",
+      "status": 200,
+      "bytes": 6565,
+      "sha256": "e8c5eb883353df056520d88cd6e123c480e6f088a824b95bbe3a50e868fa05c8",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "four-truths/book/index.html",
+      "status": 200,
+      "bytes": 3308,
+      "sha256": "67e13e576bb875ece0b23a7ef99aaa53119d5ca969d1af8ace4e6a6eb03c3e29",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "four-truths/book/scenes.js",
+      "status": 200,
+      "bytes": 10145,
+      "sha256": "bb3aa86ba767058be4671ec9abfc3c9f993ae249ec382377e2dce6b506a2cf78",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "iddhipada/book/book-data.js",
+      "status": 200,
+      "bytes": 125991,
+      "sha256": "316f5ead74a4123855f26d606a2aacd898dd10486363faf2aa0ae5e83e755773",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "iddhipada/book/book.js",
+      "status": 200,
+      "bytes": 12133,
+      "sha256": "0fb290c4088fe36aea038e9284bae42248ac53cec5977e98b5e212df9cb2da59",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "iddhipada/book/index.html",
+      "status": 200,
+      "bytes": 4059,
+      "sha256": "26d20bd38abbd1240aed87e0af2a93279e79c4e3d18898be393a437f4034d7d4",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "iddhipada/book/panel-focus-data.js",
+      "status": 200,
+      "bytes": 2950,
+      "sha256": "a3632869a9191506e5186eef88700e25b51e8b6f3e9bec046db8409b372c3bf3",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "mindfulness/book/book-data.js",
+      "status": 200,
+      "bytes": 176504,
+      "sha256": "6b4de7b441eed91adc21d34c95bfd3a994c8d7268f09cb41cf458734a8d70372",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "mindfulness/book/book.js",
+      "status": 200,
+      "bytes": 8689,
+      "sha256": "07d64ad1f885cf1cab7a88c8065f196dde0564fe251206f441f15801432819af",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "mindfulness/book/index.html",
+      "status": 200,
+      "bytes": 3831,
+      "sha256": "b3a84f981532c58fea5c2be01dc7e3feec5103b01b16a1f7c51af403beb5ff51",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "play/collection/reader-bridge.js",
+      "status": 200,
+      "bytes": 7626,
+      "sha256": "a73be57fc3de2dc9c95789d7a0f2a543414a0305f7e95c9be98d84e0d1bf2cc2",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "right-effort/book/book-data.js",
+      "status": 200,
+      "bytes": 66100,
+      "sha256": "7913fc95eba497b2ac36bbbea45ed5bac577d51325890b0728d72c18df5feec6",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "right-effort/book/book.js",
+      "status": 200,
+      "bytes": 9091,
+      "sha256": "1d8aece98a5ab185ca5b354e8fa67bb33780d17fbe4e584a3c0f35848ebd267e",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "right-effort/book/index.html",
+      "status": 200,
+      "bytes": 4011,
+      "sha256": "b5000f6330b26daf139c526df936910b4e8b77d19031b39b8ad275777bfd97d7",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "right-effort/book/panel-focus-data.js",
+      "status": 200,
+      "bytes": 2837,
+      "sha256": "0b7359d6f3b246d9d4ef1e89a0df8114111c73357142722d457026227fea9da6",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "seven-factors/book/book-data.js",
+      "status": 200,
+      "bytes": 79002,
+      "sha256": "136dc707236dedc0e3a3a022c1df702d7bcbbc7e577eae41fad3b5788c3805cc",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "seven-factors/book/book.js",
+      "status": 200,
+      "bytes": 12959,
+      "sha256": "b01c503aa9f5ed650e24b83284f984baaa2b4af282659e75a6c739fb39176f46",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "seven-factors/book/index.html",
+      "status": 200,
+      "bytes": 4307,
+      "sha256": "bfce9dceb01601a041804e3e2ae62914bc43b3c5456b5d942355ea4d3f29c65e",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "seven-factors/book/panel-focus-data.js",
+      "status": 200,
+      "bytes": 640,
+      "sha256": "db13784dd964c60fce38683d56d080d362e0347e906b6e21823b24218541a657",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "six-senses/book/index.html",
+      "status": 200,
+      "bytes": 15672614,
+      "sha256": "7864fa92fb3f598563e3663cfc1f24db11f05e723bed7bca8cff1f7b33262d2f",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "six-senses/book/panel-focus-data.js",
+      "status": 200,
+      "bytes": 5338,
+      "sha256": "4d45968efaf2bfdc5e9e66eee1663c2f5257a82f4ad76dea58c056a4ce41de90",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "twelve-links/book/book-data.js",
+      "status": 200,
+      "bytes": 92153,
+      "sha256": "0c240707d54397261d1329496b585f727caf99b0daaac03e71c32408340901ca",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "twelve-links/book/book.js",
+      "status": 200,
+      "bytes": 5274,
+      "sha256": "eb30b9f909e168044a8b9b112223e7c6e6138bd29632c5ec7b68d0d2065c6faa",
+      "equalsAuditedRepository": true
+    },
+    {
+      "path": "twelve-links/book/index.html",
+      "status": 200,
+      "bytes": 486949,
+      "sha256": "edf147c13089a7adf4d0dcb9d899ca60d654ea7b0e9b0298bd58bba0264e52a1",
+      "equalsAuditedRepository": true
+    }
+  ],
+  "result": "passed"
+}
