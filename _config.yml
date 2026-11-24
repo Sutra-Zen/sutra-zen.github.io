@@ -29,3 +29,4 @@ exclude:
   - docs/previews/reader-dark-heart
   - docs/previews/approved-reader-copy
   - docs/previews/twelve-phone
+  - docs/previews/horizontal-text

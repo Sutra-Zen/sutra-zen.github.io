@@ -212,3 +212,37 @@ body.reader-unified-controls .page.reader-framed-heart.reader-heart-fits .verse-
 body.reader-unified-controls .page.reader-framed-ending .scene {
   background:#1e1e1e;color:#fffdf8;
 }
+
+/* Keep every heading, paragraph and table in the same reading column.
+   The full-width scene still owns scrolling and the existing control gutters. */
+body.reader-unified-controls .page.reader-framed-ending .scene {
+  display:grid;
+  grid-template-columns:fit-content(min(100%,48rem));
+  grid-auto-rows:max-content;
+  justify-content:start;
+  align-content:start;
+}
+body.reader-unified-controls .page.reader-framed-ending .scene > * {
+  min-width:0;max-width:100%;
+}
+@media (orientation:landscape) {
+  body.reader-unified-controls .page.reader-framed-ending {
+    --reader-ending-bottom-space:max(64px,calc(3rem + max(5px,env(safe-area-inset-bottom)) + 8px));
+    background:#1e1e1e;
+  }
+  body.reader-unified-controls .page.reader-framed-ending .scene {
+    height:calc(100% - var(--reader-ending-bottom-space));
+    padding-bottom:12px;
+  }
+}
+/* Phones, including short landscape viewports, retain a left-hand start. */
+@media (min-width:690px) and (min-height:480px) {
+  body.reader-unified-controls .page.reader-framed-ending .scene {
+    justify-content:center;
+  }
+}
+@media (orientation:landscape) and (min-width:690px) and (min-height:480px) {
+  body.reader-unified-controls .page.reader-framed-ending .scene {
+    padding-inline:max(60px,var(--reader-ending-left),var(--reader-ending-right));
+  }
+}

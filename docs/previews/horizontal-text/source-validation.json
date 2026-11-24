@@ -1,0 +1,148 @@
+{
+  "result": "passed",
+  "baseline": "8f91fd461db03fc3c43920134af315bae75181c4",
+  "htmlOnlySharedCssCacheChanges": [
+    "anapana/book/index.html",
+    "eightfold-path/book/index.html",
+    "five-aggregates/book/index.html",
+    "five-roots-powers/book/index.html",
+    "four-fruits-ten-fetters/book/index.html",
+    "four-jhanas/book/index.html",
+    "four-purities-six-recollections/book/index.html",
+    "four-truths/book/index.html",
+    "iddhipada/book/index.html",
+    "mindfulness/book/index.html",
+    "right-effort/book/index.html",
+    "seven-factors/book/index.html",
+    "six-senses/book/index.html",
+    "twelve-links/book/index.html"
+  ],
+  "unchangedNativeJsCssAndStoryboards": 45,
+  "unchangedNativePaths": [
+    "anapana/book/book-data.js",
+    "anapana/book/book.css",
+    "anapana/book/book.js",
+    "anapana/book/panel-focus-data.js",
+    "eightfold-path/book/book-data.js",
+    "eightfold-path/book/book.css",
+    "eightfold-path/book/book.js",
+    "five-aggregates/book/panel-focus-data.js",
+    "five-roots-powers/book/book-data.js",
+    "five-roots-powers/book/book.css",
+    "five-roots-powers/book/book.js",
+    "four-fruits-ten-fetters/book/book-data.js",
+    "four-fruits-ten-fetters/book/book.css",
+    "four-fruits-ten-fetters/book/book.js",
+    "four-jhanas/book/book-data.js",
+    "four-jhanas/book/book.css",
+    "four-jhanas/book/book.js",
+    "four-jhanas/book/panel-focus-data.js",
+    "four-purities-six-recollections/book/book-data.js",
+    "four-purities-six-recollections/book/book.css",
+    "four-purities-six-recollections/book/book.js",
+    "four-truths/book/book.css",
+    "four-truths/book/book.js",
+    "four-truths/book/scenes.js",
+    "iddhipada/book/book-data.js",
+    "iddhipada/book/book.css",
+    "iddhipada/book/book.js",
+    "iddhipada/book/panel-focus-data.js",
+    "mindfulness/book/book-data.js",
+    "mindfulness/book/book.css",
+    "mindfulness/book/book.js",
+    "right-effort/book/book-data.js",
+    "right-effort/book/book.css",
+    "right-effort/book/book.js",
+    "right-effort/book/panel-focus-data.js",
+    "seven-factors/book/book-data.js",
+    "seven-factors/book/book.css",
+    "seven-factors/book/book.js",
+    "seven-factors/book/panel-focus-data.js",
+    "six-senses/book/panel-focus-data.js",
+    "twelve-links/book/book-data.js",
+    "twelve-links/book/book.css",
+    "twelve-links/book/book.js",
+    "five-aggregates/storyboard.csv",
+    "twelve-links/storyboard.csv"
+  ],
+  "protectedFiles": [
+    {
+      "path": "index.html",
+      "sha256": "eacf73c0d1333114ab7c436089657d401dd07e3a941b2415793387966a657bc0"
+    },
+    {
+      "path": "shelf.css",
+      "sha256": "c4bdb8e705e0d8216687893a08f4228bb8c1d49a6698f8a7c9d5fff7e609a7bb"
+    },
+    {
+      "path": "sitemap.xml",
+      "sha256": "052cc51e13fedf66c3f67956eaef3b90dbb77026c3dea0ce7248a6de6b6b4697"
+    },
+    {
+      "path": "robots.txt",
+      "sha256": "d0f94f33ba21fbc049dcf40e8c460d601e0cbb32229700997213a91441e0c578"
+    },
+    {
+      "path": "googlee0c995331ec518ae.html",
+      "sha256": "05359eab14af74d4d9e757d4c4c179ee57c1c455986e09c0bebbdee637f86225"
+    },
+    {
+      "path": "reader-layout.js",
+      "sha256": "49b30d907fa10c109033ce4f915a43e346339bb46d6df4c3ddd632ff709dc3b8"
+    },
+    {
+      "path": "picture-panel-focus.js",
+      "sha256": "d09baa9cb8d321b619583a69e774dbcdb82925bef45fc1d5c5286bc2553057a6"
+    },
+    {
+      "path": "picture-panel-focus.css",
+      "sha256": "c163c926cea647699b3df7687cbe3fcd28695d88b603f27a203769a1acdd3bca"
+    },
+    {
+      "path": "game/index.html",
+      "sha256": "4cbe87da12ff244ed5e37a861dfaeb46be6a121f78290d4a4852b424c57f6b26"
+    },
+    {
+      "path": "play/game-shell.js",
+      "sha256": "18568605ad46804867748d1f851c3ef9a5aed6e50a4bd1fdceb3cf065ed76768"
+    },
+    {
+      "path": "play/worldmap-v4/worldmap.js",
+      "sha256": "4adbd7f46709679428586d63cacab82be5411fb5dda65feb7f7d8f7daa48e280"
+    },
+    {
+      "path": "play/city/city.js",
+      "sha256": "af7d9931500d9bac0fa0f6031910dc5fd2cadb854df51aa817ba80ea35dc95d4"
+    },
+    {
+      "path": "play/collection/store.js",
+      "sha256": "b748f9019b2a8c42b672e673d11e5a3bc4cb5b5b1e69df030bc8a7b7e27f25f9"
+    },
+    {
+      "path": "play/collection/catalog.js",
+      "sha256": "a7cd9140b329c8ba11082ce4b6608d5a0d13a4c856e2c7c46a67795eb2eed14f"
+    },
+    {
+      "path": "play/collection/reader-bridge.js",
+      "sha256": "59d6fa75980f450a8f4c3c116d64e9d8baa48cd58a97c7f91f5585019fd23831"
+    },
+    {
+      "path": "docs/seo/seo_pages.json",
+      "sha256": "89c9e7e0726e1011332c5a53f7d9c32d7f6a0d18c759cadf6d44801791a5db98"
+    }
+  ],
+  "originalSharedCssExactPrefix": true,
+  "newCssOnlyHorizontalTextEndings": true,
+  "allManuscriptsArtworkStorageEligibilityAndSeoUnchanged": true,
+  "originalReadingSteps": 1192,
+  "offlineZip": {
+    "members": 30,
+    "crc": "passed",
+    "changedMembers": [
+      "reader-controls.css",
+      "seven-factors/book/index.html"
+    ],
+    "bytes": 6668850,
+    "sha256": "9ffb4d9b2c6ca619f00ba174ac46492265c19f5e51c0966dcda4cec86d62abe8"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "format": "gzip of exact final raw JSON; mtime0; no content edits",
+  "files": [
+    {
+      "file": "validation.json.gz",
+      "uncompressedBytes": 2164352,
+      "uncompressedSha256": "0662de3571490656472f4d409cf38e5e019985cea120fd6c9c4a4b1797bbdcd5",
+      "gzipBytes": 110098,
+      "gzipSha256": "88e365db3f8e55feffa3d7a1f9fd6d0e3163bb6afca4aae1a8d80688f86737f1"
+    },
+    {
+      "file": "inventory.json.gz",
+      "uncompressedBytes": 331968,
+      "uncompressedSha256": "4246bd6b825ebda9d2287281376d4bdb80450a608647c08e11325f4c46b78b6c",
+      "gzipBytes": 11714,
+      "gzipSha256": "18c1ddb87b0b903ba21865936a2ca1b03c415fc7d7c72d2a790268e36d02d1e1"
+    },
+    {
+      "file": "portrait-existing-risk.json.gz",
+      "uncompressedBytes": 2251,
+      "uncompressedSha256": "ed86bc479289ac41b8806176397b7dba03664d82c192008c289b3904de954a15",
+      "gzipBytes": 749,
+      "gzipSha256": "53ddc57d73407a869b9c996f7df377dc4c6819b296c94d5b3a17ed29bb4df168"
+    }
+  ]
+}

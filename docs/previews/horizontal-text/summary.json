@@ -1,0 +1,45 @@
+{
+  "result": "passed",
+  "baseline": "8f91fd461db03fc3c43920134af315bae75181c4",
+  "finalCssSha256": "752dec3279c4c64b6acf1db7af05a72ac87d45dce2607dd7ecae60a8d5806e81",
+  "publicTextStates": 108,
+  "horizontalCandidates": 18,
+  "books": 14,
+  "viewports": [
+    [
+      1916,
+      963
+    ],
+    [
+      1280,
+      900
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      844,
+      390
+    ],
+    [
+      360,
+      800
+    ]
+  ],
+  "baselineFontComparisons": 36,
+  "finalGameStates": 16,
+  "refreshCases": 8,
+  "heartStates": 2,
+  "ordinaryStates": 2,
+  "originalStepsUnchanged": 1192,
+  "galleryFinalScreenshots": 4,
+  "portrait": "Original natural document scrolling; text may pass behind fixed bottom controls but can scroll upward to be read; final text reachable.",
+  "physicalSafari": false,
+  "javascriptErrors": 0,
+  "httpErrors": 0
+}
