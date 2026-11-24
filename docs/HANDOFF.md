@@ -1,3 +1,13 @@
+# 五大城地形分區試版（尚未發布）
+
+由 main／PR80 `a238a0fb549966ac0510b5b89f18b913c8ec40b6` 建立 `feat/worldmap-five-cities`，初始乾淨。前一輪經文稽核保留於獨立[PR81](https://github.com/Sutra-Zen/sutra-zen.github.io/pull/81)，未合併或帶入地圖試版。作者已確認保留既有縱向地景，西到東淨信城、正念城、精進城、禪定城、智慧城；並希望試加淡淡區域底色。
+
+新增city-regions.js/css以原世界1600×900座標描主陸地海岸及四條共享內界，五區閉合；淡底預設6%，米金／青綠／暖杏／淡藍／淡紫。SVG輪廓及HTML城名同在wm-world下，隨原相機移動，pointer-events:none；城名集中T.cityNames可翻譯，既有地名開關同時控制城名。港口、北方群島與八正道半島不納入分區，原插畫／地標／連線／相機／閱讀資格／存檔／十四本原文及SEO／Google保持。
+
+five-cities-1只更新海圖呈現載入，game/index仍由共用來源產生；Pages main:/不變。已完成5閉合區／4內界、3888個輪廓內取樣的無空隙重疊核對及16個主陸地地標family歸屬；此為手工描線的幾何驗證，並非影像自動辨識海岸。實際遊戲版面與操作結果見[截圖及驗證](previews/worldmap-five-cities/README.md)，實作與本機啟動見[試版說明](play/worldmap-five-cities/README.md)。五類Chromium尺寸原生拖曳縮放／五城地標穿透點擊／港口／閱讀接續與城池書架往返、0本薄霧與鎖定、地名及46線開關皆PASS，0JS／HTTP錯誤；實機Safari未測。本輪先供審閱，尚未合併或公開部署，不把正式/game/宣稱為已更新此試版。
+
+---
+
 # 心經適配置中與深色口白（2026-11-24）
 
 從 PR79 已發布 main `47e4b6ef5c7f51c9aba4766c6bc25eaa790cc239` 建立 `fix/reader-dark-heart-center`，初始乾淨。作者要求心經依版面左右置中、十四本公開／遊戲字幕深色一致；追加小版面應保留最右起讀。心經標題＋原經以真實不伸縮的子元素寬度判定，放得下才 center，超出則原 RTL flex-start／橫向捲讀；字級、直書、紅色重點與圖框保持。共用字幕及結語底色 #1e1e1e、淺字 #fffdf8，原 metadata、圖內標字與原經金／紅字不改。

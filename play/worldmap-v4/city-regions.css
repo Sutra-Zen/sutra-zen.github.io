@@ -1,0 +1,61 @@
+/* All coordinates live inside the original .wm-world camera transform.
+   Fill opacity is a review variable: set to 0 for the un-tinted comparison.
+   This layer never receives input or changes fog/reading eligibility. */
+.wm-city-regions {
+ display:contents;
+ pointer-events:none;
+}
+.wm-city-regions__map {
+ position:absolute;
+ inset:0;
+ z-index:1;
+ width:1600px;
+ height:900px;
+ overflow:hidden;
+ pointer-events:none;
+}
+.wm-city-region {
+ fill:var(--wm-city-color);
+ fill-opacity:var(--wm-city-tint-opacity,.06);
+ stroke:none;
+}
+.wm-city-boundary path {
+ fill:none;
+ stroke-linecap:round;
+ stroke-linejoin:round;
+ vector-effect:non-scaling-stroke;
+}
+.wm-city-boundary__rim {
+ stroke:#75603e;
+ stroke-opacity:.58;
+ stroke-width:3.1px;
+}
+.wm-city-boundary__line {
+ stroke:#fff0ce;
+ stroke-opacity:.84;
+ stroke-width:1.05px;
+}
+.wm-city-region-label {
+ position:absolute;
+ left:var(--wm-city-x);
+ top:var(--wm-city-y);
+ z-index:4;
+ transform:translate(-50%,-50%) scale(var(--wm-marker-scale,1));
+ transform-origin:center;
+ max-width:174px;
+ margin:0;
+ padding:0;
+ color:#493b29;
+ font:800 21px/1.18 "Noto Serif TC","Songti TC","PMingLiU",serif;
+ letter-spacing:.11em;
+ text-align:center;
+ text-wrap:balance;
+ overflow-wrap:anywhere;
+ -webkit-text-stroke:2.6px #fff1d2;
+ paint-order:stroke fill;
+ text-shadow:0 1px 2px #fff2d1,0 2px 4px #314e2c70;
+ pointer-events:none;
+ user-select:none;
+}
+
+.wm-labels-hidden .wm-city-region-label {visibility:hidden}

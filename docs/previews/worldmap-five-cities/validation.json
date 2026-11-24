@@ -1,0 +1,2512 @@
+{
+  "baseline": "a238a0fb549966ac0510b5b89f18b913c8ec40b6",
+  "scope": "Independent five-region focused Chromium regression; no production/repository writes",
+  "physicalSafari": false,
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "sizes": [
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "historicalAll14Fixture": true,
+      "initialCamera": {
+        "x": 1312,
+        "y": 520.5263157894736,
+        "scale": 0.95,
+        "fitScale": 0.225,
+        "coverScale": 0.8011111111111111,
+        "overview": false,
+        "restored": false,
+        "viewport": {
+          "width": 360,
+          "height": 800
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 0.95,
+        "outerBounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1600,
+          "bottom": 900,
+          "width": 1600,
+          "height": 900
+        },
+        "safeInsets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 79,
+          "left": 0
+        },
+        "visibleViewport": {
+          "left": 0,
+          "top": 0,
+          "width": 360,
+          "height": 721,
+          "right": 360,
+          "bottom": 721,
+          "centerX": 180,
+          "centerY": 360.5
+        },
+        "canReturn": false,
+        "overviewExplicit": false,
+        "offsetX": -1066.3999999999999,
+        "offsetY": -133.99999999999994
+      },
+      "nativeTouchDragCamera": {
+        "x": 1253.0526315789466,
+        "y": 512.1052631578945,
+        "scale": 0.95,
+        "fitScale": 0.225,
+        "coverScale": 0.8011111111111111,
+        "overview": false,
+        "restored": false,
+        "viewport": {
+          "width": 360,
+          "height": 800
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 0.95,
+        "outerBounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1600,
+          "bottom": 900,
+          "width": 1600,
+          "height": 900
+        },
+        "safeInsets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 79,
+          "left": 0
+        },
+        "visibleViewport": {
+          "left": 0,
+          "top": 0,
+          "width": 360,
+          "height": 721,
+          "right": 360,
+          "bottom": 721,
+          "centerX": 180,
+          "centerY": 360.5
+        },
+        "canReturn": false,
+        "overviewExplicit": false,
+        "offsetX": -1010.3999999999992,
+        "offsetY": -125.99999999999972
+      },
+      "nativeZoomButtonCamera": {
+        "x": 1253.0526315789466,
+        "y": 512.1052631578945,
+        "scale": 1.2349999999999999,
+        "fitScale": 0.225,
+        "coverScale": 0.8011111111111111,
+        "overview": false,
+        "restored": false,
+        "viewport": {
+          "width": 360,
+          "height": 800
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 0.95,
+        "outerBounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1600,
+          "bottom": 900,
+          "width": 1600,
+          "height": 900
+        },
+        "safeInsets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 79,
+          "left": 0
+        },
+        "visibleViewport": {
+          "left": 0,
+          "top": 0,
+          "width": 360,
+          "height": 721,
+          "right": 360,
+          "bottom": 721,
+          "centerX": 180,
+          "centerY": 360.5
+        },
+        "canReturn": false,
+        "overviewExplicit": false,
+        "offsetX": -1367.5199999999988,
+        "offsetY": -271.9499999999996
+      },
+      "geometryInitial": {
+        "art": {
+          "x": -1066.4000244140625,
+          "y": -134,
+          "w": 1520,
+          "h": 855
+        },
+        "layers": {
+          ".wm-world": {
+            "x": -1066.4000244140625,
+            "y": -134,
+            "w": 1520,
+            "h": 855
+          },
+          ".wm-city-regions__map": {
+            "x": -1066.4000244140625,
+            "y": -134,
+            "w": 1520,
+            "h": 855
+          },
+          ".wm-geography": {
+            "x": -1066.4000244140625,
+            "y": -134,
+            "w": 1520,
+            "h": 855
+          },
+          ".wm-fog-layer": {
+            "x": -1066.4000244140625,
+            "y": -134,
+            "w": 1520,
+            "h": 855
+          },
+          ".wm-lines": {
+            "x": -1066.4000244140625,
+            "y": -134,
+            "w": 1520,
+            "h": 855
+          }
+        },
+        "labels": [
+          {
+            "id": "faith",
+            "x": "432",
+            "y": "359",
+            "anchorError": [
+              2.4414062522737368e-05,
+              1.2207031261368684e-05
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "mindfulness",
+            "x": "672",
+            "y": "358",
+            "anchorError": [
+              6.1035156022626325e-06,
+              9.155273460237368e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "effort",
+            "x": "912",
+            "y": "352",
+            "anchorError": [
+              6.1035156022626325e-06,
+              6.1035156022626325e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "concentration",
+            "x": "1152",
+            "y": "357",
+            "anchorError": [
+              2.441406240905053e-05,
+              6.1035156022626325e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "wisdom",
+            "x": "1392",
+            "y": "361",
+            "anchorError": [
+              2.441406240905053e-05,
+              3.0517578011313162e-06
+            ],
+            "pointer": "none"
+          }
+        ],
+        "cityPaths": 5,
+        "dividers": 4,
+        "sourceEdges": 46,
+        "markers": 32,
+        "routeBooks": 14,
+        "pointThrough": true,
+        "worldTransform": "matrix(0.95, 0, 0, 0.95, -1066.4, -134)",
+        "overflow": [
+          false,
+          false
+        ],
+        "outerScroll": [
+          0,
+          0
+        ]
+      },
+      "geometryAfterPan": {
+        "art": {
+          "x": -1010.4000244140625,
+          "y": -126,
+          "w": 1520,
+          "h": 855
+        },
+        "layers": {
+          ".wm-world": {
+            "x": -1010.4000244140625,
+            "y": -126,
+            "w": 1520,
+            "h": 855
+          },
+          ".wm-city-regions__map": {
+            "x": -1010.4000244140625,
+            "y": -126,
+            "w": 1520,
+            "h": 855
+          },
+          ".wm-geography": {
+            "x": -1010.4000244140625,
+            "y": -126,
+            "w": 1520,
+            "h": 855
+          },
+          ".wm-fog-layer": {
+            "x": -1010.4000244140625,
+            "y": -126,
+            "w": 1520,
+            "h": 855
+          },
+          ".wm-lines": {
+            "x": -1010.4000244140625,
+            "y": -126,
+            "w": 1520,
+            "h": 855
+          }
+        },
+        "labels": [
+          {
+            "id": "faith",
+            "x": "432",
+            "y": "359",
+            "anchorError": [
+              2.4414062522737368e-05,
+              1.2207031261368684e-05
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "mindfulness",
+            "x": "672",
+            "y": "358",
+            "anchorError": [
+              6.1035156022626325e-06,
+              9.155273460237368e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "effort",
+            "x": "912",
+            "y": "352",
+            "anchorError": [
+              6.1035156022626325e-06,
+              6.1035156022626325e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "concentration",
+            "x": "1152",
+            "y": "357",
+            "anchorError": [
+              2.441406240905053e-05,
+              6.1035156022626325e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "wisdom",
+            "x": "1392",
+            "y": "361",
+            "anchorError": [
+              2.441406240905053e-05,
+              3.0517578011313162e-06
+            ],
+            "pointer": "none"
+          }
+        ],
+        "cityPaths": 5,
+        "dividers": 4,
+        "sourceEdges": 46,
+        "markers": 32,
+        "routeBooks": 14,
+        "pointThrough": true,
+        "worldTransform": "matrix(0.95, 0, 0, 0.95, -1010.4, -126)",
+        "overflow": [
+          false,
+          false
+        ],
+        "outerScroll": [
+          0,
+          0
+        ]
+      },
+      "geometryAfterZoom": {
+        "art": {
+          "x": -1367.52001953125,
+          "y": -271.95001220703125,
+          "w": 1976,
+          "h": 1111.5
+        },
+        "layers": {
+          ".wm-world": {
+            "x": -1367.52001953125,
+            "y": -271.95001220703125,
+            "w": 1976,
+            "h": 1111.5
+          },
+          ".wm-city-regions__map": {
+            "x": -1367.52001953125,
+            "y": -271.95001220703125,
+            "w": 1976,
+            "h": 1111.5
+          },
+          ".wm-geography": {
+            "x": -1367.52001953125,
+            "y": -271.95001220703125,
+            "w": 1976,
+            "h": 1111.5
+          },
+          ".wm-fog-layer": {
+            "x": -1367.52001953125,
+            "y": -271.95001220703125,
+            "w": 1976,
+            "h": 1111.5
+          },
+          ".wm-lines": {
+            "x": -1367.52001953125,
+            "y": -271.95001220703125,
+            "w": 1976,
+            "h": 1111.5
+          }
+        },
+        "labels": [
+          {
+            "id": "faith",
+            "x": "432",
+            "y": "359",
+            "anchorError": [
+              1.9531250018189894e-05,
+              5.493164053405053e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "mindfulness",
+            "x": "672",
+            "y": "358",
+            "anchorError": [
+              1.3427734415927262e-05,
+              4.8828125045474735e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "effort",
+            "x": "912",
+            "y": "352",
+            "anchorError": [
+              6.835937506366463e-05,
+              1.647949216021516e-05
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "concentration",
+            "x": "1152",
+            "y": "357",
+            "anchorError": [
+              2.929687502728484e-05,
+              4.272460955689894e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "wisdom",
+            "x": "1392",
+            "y": "361",
+            "anchorError": [
+              4.882812390860636e-06,
+              6.713867207963631e-06
+            ],
+            "pointer": "none"
+          }
+        ],
+        "cityPaths": 5,
+        "dividers": 4,
+        "sourceEdges": 46,
+        "markers": 32,
+        "routeBooks": 14,
+        "pointThrough": true,
+        "worldTransform": "matrix(1.235, 0, 0, 1.235, -1367.52, -271.95)",
+        "overflow": [
+          false,
+          false
+        ],
+        "outerScroll": [
+          0,
+          0
+        ]
+      },
+      "nativeLandmarkPointThrough": {
+        "id": "confidence_lagoon",
+        "hit": "confidence_lagoon",
+        "box": {
+          "x": 112.06536865234375,
+          "y": 309.2571716308594,
+          "width": 135.86929321289062,
+          "height": 102.4857177734375
+        },
+        "dialog": "四不壞淨湖\n\n四不壞淨與六念\n\n複習這本\n主題導讀與原經\n\n這是閱讀路線，不代表修證階段；完成閱讀不表示取得禪定、聖果或解脫。"
+      },
+      "criticalStoresRawUnchanged": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "historicalAll14Fixture": true,
+      "initialCamera": {
+        "x": 1155.7894736842104,
+        "y": 630,
+        "scale": 0.95,
+        "fitScale": 0.3609027777777778,
+        "coverScale": 0.5275,
+        "overview": false,
+        "restored": false,
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 0.95,
+        "outerBounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1600,
+          "bottom": 900,
+          "width": 1600,
+          "height": 900
+        },
+        "safeInsets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 65.1875,
+          "left": 0
+        },
+        "visibleViewport": {
+          "left": 0,
+          "top": 0,
+          "width": 844,
+          "height": 324.8125,
+          "right": 844,
+          "bottom": 324.8125,
+          "centerX": 422,
+          "centerY": 162.40625
+        },
+        "canReturn": false,
+        "overviewExplicit": false,
+        "offsetX": -675.9999999999998,
+        "offsetY": -436.09375
+      },
+      "nativeTouchDragCamera": {
+        "x": 1096.842105263157,
+        "y": 621.5789473684208,
+        "scale": 0.95,
+        "fitScale": 0.3609027777777778,
+        "coverScale": 0.5275,
+        "overview": false,
+        "restored": false,
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 0.95,
+        "outerBounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1600,
+          "bottom": 900,
+          "width": 1600,
+          "height": 900
+        },
+        "safeInsets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 65.1875,
+          "left": 0
+        },
+        "visibleViewport": {
+          "left": 0,
+          "top": 0,
+          "width": 844,
+          "height": 324.8125,
+          "right": 844,
+          "bottom": 324.8125,
+          "centerX": 422,
+          "centerY": 162.40625
+        },
+        "canReturn": false,
+        "overviewExplicit": false,
+        "offsetX": -619.9999999999991,
+        "offsetY": -428.0937499999998
+      },
+      "nativeZoomButtonCamera": {
+        "x": 1096.842105263157,
+        "y": 621.5789473684208,
+        "scale": 1.2349999999999999,
+        "fitScale": 0.3609027777777778,
+        "coverScale": 0.5275,
+        "overview": false,
+        "restored": false,
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 0.95,
+        "outerBounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1600,
+          "bottom": 900,
+          "width": 1600,
+          "height": 900
+        },
+        "safeInsets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 65.1875,
+          "left": 0
+        },
+        "visibleViewport": {
+          "left": 0,
+          "top": 0,
+          "width": 844,
+          "height": 324.8125,
+          "right": 844,
+          "bottom": 324.8125,
+          "centerX": 422,
+          "centerY": 162.40625
+        },
+        "canReturn": false,
+        "overviewExplicit": false,
+        "offsetX": -932.5999999999988,
+        "offsetY": -605.2437499999996
+      },
+      "geometryInitial": {
+        "art": {
+          "x": -676,
+          "y": -436.09375,
+          "w": 1520,
+          "h": 855
+        },
+        "layers": {
+          ".wm-world": {
+            "x": -676,
+            "y": -436.09375,
+            "w": 1520,
+            "h": 855
+          },
+          ".wm-city-regions__map": {
+            "x": -676,
+            "y": -436.09375,
+            "w": 1520,
+            "h": 855
+          },
+          ".wm-geography": {
+            "x": -676,
+            "y": -436.09375,
+            "w": 1520,
+            "h": 855
+          },
+          ".wm-fog-layer": {
+            "x": -676,
+            "y": -436.09375,
+            "w": 1520,
+            "h": 855
+          },
+          ".wm-lines": {
+            "x": -676,
+            "y": -436.09375,
+            "w": 1520,
+            "h": 855
+          }
+        },
+        "labels": [
+          {
+            "id": "faith",
+            "x": "432",
+            "y": "359",
+            "anchorError": [
+              6.1035156022626325e-06,
+              1.2207031261368684e-05
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "mindfulness",
+            "x": "672",
+            "y": "358",
+            "anchorError": [
+              6.1035156022626325e-06,
+              9.155273460237368e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "effort",
+            "x": "912",
+            "y": "352",
+            "anchorError": [
+              6.1035156022626325e-06,
+              6.1035156022626325e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "concentration",
+            "x": "1152",
+            "y": "357",
+            "anchorError": [
+              2.441406240905053e-05,
+              6.1035156022626325e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "wisdom",
+            "x": "1392",
+            "y": "361",
+            "anchorError": [
+              2.441406240905053e-05,
+              3.0517578011313162e-06
+            ],
+            "pointer": "none"
+          }
+        ],
+        "cityPaths": 5,
+        "dividers": 4,
+        "sourceEdges": 46,
+        "markers": 32,
+        "routeBooks": 14,
+        "pointThrough": true,
+        "worldTransform": "matrix(0.95, 0, 0, 0.95, -676, -436.094)",
+        "overflow": [
+          false,
+          false
+        ],
+        "outerScroll": [
+          0,
+          0
+        ]
+      },
+      "geometryAfterPan": {
+        "art": {
+          "x": -620,
+          "y": -428.09375,
+          "w": 1520,
+          "h": 855
+        },
+        "layers": {
+          ".wm-world": {
+            "x": -620,
+            "y": -428.09375,
+            "w": 1520,
+            "h": 855
+          },
+          ".wm-city-regions__map": {
+            "x": -620,
+            "y": -428.09375,
+            "w": 1520,
+            "h": 855
+          },
+          ".wm-geography": {
+            "x": -620,
+            "y": -428.09375,
+            "w": 1520,
+            "h": 855
+          },
+          ".wm-fog-layer": {
+            "x": -620,
+            "y": -428.09375,
+            "w": 1520,
+            "h": 855
+          },
+          ".wm-lines": {
+            "x": -620,
+            "y": -428.09375,
+            "w": 1520,
+            "h": 855
+          }
+        },
+        "labels": [
+          {
+            "id": "faith",
+            "x": "432",
+            "y": "359",
+            "anchorError": [
+              6.1035156022626325e-06,
+              1.2207031261368684e-05
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "mindfulness",
+            "x": "672",
+            "y": "358",
+            "anchorError": [
+              6.1035156022626325e-06,
+              9.155273460237368e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "effort",
+            "x": "912",
+            "y": "352",
+            "anchorError": [
+              6.1035156022626325e-06,
+              6.1035156022626325e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "concentration",
+            "x": "1152",
+            "y": "357",
+            "anchorError": [
+              2.441406240905053e-05,
+              6.1035156022626325e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "wisdom",
+            "x": "1392",
+            "y": "361",
+            "anchorError": [
+              2.441406240905053e-05,
+              3.0517578011313162e-06
+            ],
+            "pointer": "none"
+          }
+        ],
+        "cityPaths": 5,
+        "dividers": 4,
+        "sourceEdges": 46,
+        "markers": 32,
+        "routeBooks": 14,
+        "pointThrough": true,
+        "worldTransform": "matrix(0.95, 0, 0, 0.95, -620, -428.094)",
+        "overflow": [
+          false,
+          false
+        ],
+        "outerScroll": [
+          0,
+          0
+        ]
+      },
+      "geometryAfterZoom": {
+        "art": {
+          "x": -932.5999755859375,
+          "y": -605.2437744140625,
+          "w": 1976,
+          "h": 1111.5
+        },
+        "layers": {
+          ".wm-world": {
+            "x": -932.5999755859375,
+            "y": -605.2437744140625,
+            "w": 1976,
+            "h": 1111.5
+          },
+          ".wm-city-regions__map": {
+            "x": -932.5999755859375,
+            "y": -605.2437744140625,
+            "w": 1976,
+            "h": 1111.5
+          },
+          ".wm-geography": {
+            "x": -932.5999755859375,
+            "y": -605.2437744140625,
+            "w": 1976,
+            "h": 1111.5
+          },
+          ".wm-fog-layer": {
+            "x": -932.5999755859375,
+            "y": -605.2437744140625,
+            "w": 1976,
+            "h": 1111.5
+          },
+          ".wm-lines": {
+            "x": -932.5999755859375,
+            "y": -605.2437744140625,
+            "w": 1976,
+            "h": 1111.5
+          }
+        },
+        "labels": [
+          {
+            "id": "faith",
+            "x": "432",
+            "y": "359",
+            "anchorError": [
+              4.272460955689894e-06,
+              5.493164053405053e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "mindfulness",
+            "x": "672",
+            "y": "358",
+            "anchorError": [
+              1.3427734415927262e-05,
+              4.8828125045474735e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "effort",
+            "x": "912",
+            "y": "352",
+            "anchorError": [
+              6.835937506366463e-05,
+              1.647949216021516e-05
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "concentration",
+            "x": "1152",
+            "y": "357",
+            "anchorError": [
+              2.929687502728484e-05,
+              4.272460955689894e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "wisdom",
+            "x": "1392",
+            "y": "361",
+            "anchorError": [
+              4.882812390860636e-06,
+              6.713867207963631e-06
+            ],
+            "pointer": "none"
+          }
+        ],
+        "cityPaths": 5,
+        "dividers": 4,
+        "sourceEdges": 46,
+        "markers": 32,
+        "routeBooks": 14,
+        "pointThrough": true,
+        "worldTransform": "matrix(1.235, 0, 0, 1.235, -932.6, -605.244)",
+        "overflow": [
+          false,
+          false
+        ],
+        "outerScroll": [
+          0,
+          0
+        ]
+      },
+      "nativeLandmarkPointThrough": {
+        "id": "mindfulness_pavilion",
+        "hit": "mindfulness_pavilion",
+        "box": {
+          "x": 344.1853332519531,
+          "y": 111.16339111328125,
+          "width": 155.62933349609375,
+          "height": 102.48574829101562
+        },
+        "dialog": "四念處觀照亭\n\n四念處與四顛倒\n\n複習這本\n主題導讀與原經\n\n這是閱讀路線，不代表修證階段；完成閱讀不表示取得禪定、聖果或解脫。"
+      },
+      "criticalStoresRawUnchanged": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "historicalAll14Fixture": true,
+      "initialCamera": {
+        "x": 1234.2857142857142,
+        "y": 450,
+        "scale": 1.05,
+        "fitScale": 0.48,
+        "coverScale": 1.05,
+        "overview": false,
+        "restored": false,
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 1.05,
+        "outerBounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1600,
+          "bottom": 900,
+          "width": 1600,
+          "height": 900
+        },
+        "safeInsets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 79,
+          "left": 0
+        },
+        "visibleViewport": {
+          "left": 0,
+          "top": 0,
+          "width": 768,
+          "height": 945,
+          "right": 768,
+          "bottom": 945,
+          "centerX": 384,
+          "centerY": 472.5
+        },
+        "canReturn": false,
+        "overviewExplicit": false,
+        "offsetX": -912,
+        "offsetY": 0
+      },
+      "nativeTouchDragCamera": {
+        "x": 1180.9523809523803,
+        "y": 450,
+        "scale": 1.05,
+        "fitScale": 0.48,
+        "coverScale": 1.05,
+        "overview": false,
+        "restored": false,
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 1.05,
+        "outerBounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1600,
+          "bottom": 900,
+          "width": 1600,
+          "height": 900
+        },
+        "safeInsets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 79,
+          "left": 0
+        },
+        "visibleViewport": {
+          "left": 0,
+          "top": 0,
+          "width": 768,
+          "height": 945,
+          "right": 768,
+          "bottom": 945,
+          "centerX": 384,
+          "centerY": 472.5
+        },
+        "canReturn": false,
+        "overviewExplicit": false,
+        "offsetX": -855.9999999999993,
+        "offsetY": 0
+      },
+      "nativeZoomButtonCamera": {
+        "x": 1180.9523809523803,
+        "y": 450,
+        "scale": 1.3650000000000002,
+        "fitScale": 0.48,
+        "coverScale": 1.05,
+        "overview": false,
+        "restored": false,
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 1.05,
+        "outerBounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1600,
+          "bottom": 900,
+          "width": 1600,
+          "height": 900
+        },
+        "safeInsets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 79,
+          "left": 0
+        },
+        "visibleViewport": {
+          "left": 0,
+          "top": 0,
+          "width": 768,
+          "height": 945,
+          "right": 768,
+          "bottom": 945,
+          "centerX": 384,
+          "centerY": 472.5
+        },
+        "canReturn": false,
+        "overviewExplicit": false,
+        "offsetX": -1227.9999999999993,
+        "offsetY": -141.7500000000001
+      },
+      "geometryInitial": {
+        "art": {
+          "x": -912,
+          "y": 0,
+          "w": 1679.9998779296875,
+          "h": 944.9999389648438
+        },
+        "layers": {
+          ".wm-world": {
+            "x": -912,
+            "y": 0,
+            "w": 1679.9998779296875,
+            "h": 944.9999389648438
+          },
+          ".wm-city-regions__map": {
+            "x": -912,
+            "y": 0,
+            "w": 1679.9998779296875,
+            "h": 944.9999389648438
+          },
+          ".wm-geography": {
+            "x": -912,
+            "y": 0,
+            "w": 1679.9998779296875,
+            "h": 944.9999389648438
+          },
+          ".wm-fog-layer": {
+            "x": -912,
+            "y": 0,
+            "w": 1679.9998779296875,
+            "h": 944.9999389648438
+          },
+          ".wm-lines": {
+            "x": -912,
+            "y": 0,
+            "w": 1679.9998779296875,
+            "h": 944.9999389648438
+          }
+        },
+        "labels": [
+          {
+            "id": "faith",
+            "x": "432",
+            "y": "359",
+            "anchorError": [
+              8.54492185453637e-06,
+              6.035698788764421e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "mindfulness",
+            "x": "672",
+            "y": "358",
+            "anchorError": [
+              2.6855468718167685e-05,
+              1.8174913179791474e-05
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "effort",
+            "x": "912",
+            "y": "352",
+            "anchorError": [
+              1.464843751364242e-05,
+              5.425347353593679e-07
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "concentration",
+            "x": "1152",
+            "y": "357",
+            "anchorError": [
+              6.347656244543032e-05,
+              2.0345049733805354e-07
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "wisdom",
+            "x": "1392",
+            "y": "361",
+            "anchorError": [
+              2.0751953115905053e-05,
+              1.2274848074866895e-05
+            ],
+            "pointer": "none"
+          }
+        ],
+        "cityPaths": 5,
+        "dividers": 4,
+        "sourceEdges": 46,
+        "markers": 32,
+        "routeBooks": 14,
+        "pointThrough": true,
+        "worldTransform": "matrix(1.05, 0, 0, 1.05, -912, 0)",
+        "overflow": [
+          false,
+          false
+        ],
+        "outerScroll": [
+          0,
+          0
+        ]
+      },
+      "geometryAfterPan": {
+        "art": {
+          "x": -856,
+          "y": 0,
+          "w": 1679.9998779296875,
+          "h": 944.9999389648438
+        },
+        "layers": {
+          ".wm-world": {
+            "x": -856,
+            "y": 0,
+            "w": 1679.9998779296875,
+            "h": 944.9999389648438
+          },
+          ".wm-city-regions__map": {
+            "x": -856,
+            "y": 0,
+            "w": 1679.9998779296875,
+            "h": 944.9999389648438
+          },
+          ".wm-geography": {
+            "x": -856,
+            "y": 0,
+            "w": 1679.9998779296875,
+            "h": 944.9999389648438
+          },
+          ".wm-fog-layer": {
+            "x": -856,
+            "y": 0,
+            "w": 1679.9998779296875,
+            "h": 944.9999389648438
+          },
+          ".wm-lines": {
+            "x": -856,
+            "y": 0,
+            "w": 1679.9998779296875,
+            "h": 944.9999389648438
+          }
+        },
+        "labels": [
+          {
+            "id": "faith",
+            "x": "432",
+            "y": "359",
+            "anchorError": [
+              8.54492185453637e-06,
+              6.035698788764421e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "mindfulness",
+            "x": "672",
+            "y": "358",
+            "anchorError": [
+              2.6855468718167685e-05,
+              1.8174913179791474e-05
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "effort",
+            "x": "912",
+            "y": "352",
+            "anchorError": [
+              1.464843751364242e-05,
+              5.425347353593679e-07
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "concentration",
+            "x": "1152",
+            "y": "357",
+            "anchorError": [
+              6.347656244543032e-05,
+              2.0345049733805354e-07
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "wisdom",
+            "x": "1392",
+            "y": "361",
+            "anchorError": [
+              2.0751953115905053e-05,
+              1.2274848074866895e-05
+            ],
+            "pointer": "none"
+          }
+        ],
+        "cityPaths": 5,
+        "dividers": 4,
+        "sourceEdges": 46,
+        "markers": 32,
+        "routeBooks": 14,
+        "pointThrough": true,
+        "worldTransform": "matrix(1.05, 0, 0, 1.05, -856, 0)",
+        "overflow": [
+          false,
+          false
+        ],
+        "outerScroll": [
+          0,
+          0
+        ]
+      },
+      "geometryAfterZoom": {
+        "art": {
+          "x": -1228,
+          "y": -141.75,
+          "w": 2184,
+          "h": 1228.5
+        },
+        "layers": {
+          ".wm-world": {
+            "x": -1228,
+            "y": -141.75,
+            "w": 2184,
+            "h": 1228.5
+          },
+          ".wm-city-regions__map": {
+            "x": -1228,
+            "y": -141.75,
+            "w": 2184,
+            "h": 1228.5
+          },
+          ".wm-geography": {
+            "x": -1228,
+            "y": -141.75,
+            "w": 2184,
+            "h": 1228.5
+          },
+          ".wm-fog-layer": {
+            "x": -1228,
+            "y": -141.75,
+            "w": 2184,
+            "h": 1228.5
+          },
+          ".wm-lines": {
+            "x": -1228,
+            "y": -141.75,
+            "w": 2184,
+            "h": 1228.5
+          }
+        },
+        "labels": [
+          {
+            "id": "faith",
+            "x": "432",
+            "y": "359",
+            "anchorError": [
+              7.324218699977791e-06,
+              3.6621093499888957e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "mindfulness",
+            "x": "672",
+            "y": "358",
+            "anchorError": [
+              1.220703097715159e-06,
+              1.8310547034161573e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "effort",
+            "x": "912",
+            "y": "352",
+            "anchorError": [
+              4.882812390860636e-06,
+              4.272460955689894e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "concentration",
+            "x": "1152",
+            "y": "357",
+            "anchorError": [
+              4.1503906231810106e-05,
+              7.93457030567879e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "wisdom",
+            "x": "1392",
+            "y": "361",
+            "anchorError": [
+              1.7089843822759576e-05,
+              6.103515488575795e-07
+            ],
+            "pointer": "none"
+          }
+        ],
+        "cityPaths": 5,
+        "dividers": 4,
+        "sourceEdges": 46,
+        "markers": 32,
+        "routeBooks": 14,
+        "pointThrough": true,
+        "worldTransform": "matrix(1.365, 0, 0, 1.365, -1228, -141.75)",
+        "overflow": [
+          false,
+          false
+        ],
+        "outerScroll": [
+          0,
+          0
+        ]
+      },
+      "nativeLandmarkPointThrough": {
+        "id": "effort_garden",
+        "hit": "effort_garden",
+        "box": {
+          "x": 308.914306640625,
+          "y": 415.8631591796875,
+          "width": 150.17138671875,
+          "height": 113.273681640625
+        },
+        "dialog": "四正勤花田\n\n四正勤\n\n複習這本\n主題導讀與原經\n\n這是閱讀路線，不代表修證階段；完成閱讀不表示取得禪定、聖果或解脫。"
+      },
+      "criticalStoresRawUnchanged": true
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "historicalAll14Fixture": true,
+      "initialCamera": {
+        "x": 1061.0526315789475,
+        "y": 537.3684210526316,
+        "scale": 0.95,
+        "fitScale": 0.64,
+        "coverScale": 0.7655555555555555,
+        "overview": false,
+        "restored": false,
+        "viewport": {
+          "width": 1024,
+          "height": 768
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 0.95,
+        "outerBounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1600,
+          "bottom": 900,
+          "width": 1600,
+          "height": 900
+        },
+        "safeInsets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 79,
+          "left": 0
+        },
+        "visibleViewport": {
+          "left": 0,
+          "top": 0,
+          "width": 1024,
+          "height": 689,
+          "right": 1024,
+          "bottom": 689,
+          "centerX": 512,
+          "centerY": 344.5
+        },
+        "canReturn": false,
+        "overviewExplicit": false,
+        "offsetX": -496.0000000000001,
+        "offsetY": -165.99999999999994
+      },
+      "nativeTouchDragCamera": {
+        "x": 1002.1052631578945,
+        "y": 528.9473684210524,
+        "scale": 0.95,
+        "fitScale": 0.64,
+        "coverScale": 0.7655555555555555,
+        "overview": false,
+        "restored": false,
+        "viewport": {
+          "width": 1024,
+          "height": 768
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 0.95,
+        "outerBounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1600,
+          "bottom": 900,
+          "width": 1600,
+          "height": 900
+        },
+        "safeInsets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 79,
+          "left": 0
+        },
+        "visibleViewport": {
+          "left": 0,
+          "top": 0,
+          "width": 1024,
+          "height": 689,
+          "right": 1024,
+          "bottom": 689,
+          "centerX": 512,
+          "centerY": 344.5
+        },
+        "canReturn": false,
+        "overviewExplicit": false,
+        "offsetX": -439.99999999999966,
+        "offsetY": -157.99999999999972
+      },
+      "nativeZoomButtonCamera": {
+        "x": 1002.1052631578945,
+        "y": 528.9473684210524,
+        "scale": 1.2349999999999999,
+        "fitScale": 0.64,
+        "coverScale": 0.7655555555555555,
+        "overview": false,
+        "restored": false,
+        "viewport": {
+          "width": 1024,
+          "height": 768
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 0.95,
+        "outerBounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1600,
+          "bottom": 900,
+          "width": 1600,
+          "height": 900
+        },
+        "safeInsets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 79,
+          "left": 0
+        },
+        "visibleViewport": {
+          "left": 0,
+          "top": 0,
+          "width": 1024,
+          "height": 689,
+          "right": 1024,
+          "bottom": 689,
+          "centerX": 512,
+          "centerY": 344.5
+        },
+        "canReturn": false,
+        "overviewExplicit": false,
+        "offsetX": -725.5999999999995,
+        "offsetY": -308.74999999999966
+      },
+      "geometryInitial": {
+        "art": {
+          "x": -496,
+          "y": -166,
+          "w": 1520,
+          "h": 855
+        },
+        "layers": {
+          ".wm-world": {
+            "x": -496,
+            "y": -166,
+            "w": 1520,
+            "h": 855
+          },
+          ".wm-city-regions__map": {
+            "x": -496,
+            "y": -166,
+            "w": 1520,
+            "h": 855
+          },
+          ".wm-geography": {
+            "x": -496,
+            "y": -166,
+            "w": 1520,
+            "h": 855
+          },
+          ".wm-fog-layer": {
+            "x": -496,
+            "y": -166,
+            "w": 1520,
+            "h": 855
+          },
+          ".wm-lines": {
+            "x": -496,
+            "y": -166,
+            "w": 1520,
+            "h": 855
+          }
+        },
+        "labels": [
+          {
+            "id": "faith",
+            "x": "432",
+            "y": "359",
+            "anchorError": [
+              6.1035156022626325e-06,
+              1.2207031261368684e-05
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "mindfulness",
+            "x": "672",
+            "y": "358",
+            "anchorError": [
+              6.1035156022626325e-06,
+              9.155273460237368e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "effort",
+            "x": "912",
+            "y": "352",
+            "anchorError": [
+              6.1035156022626325e-06,
+              6.1035156022626325e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "concentration",
+            "x": "1152",
+            "y": "357",
+            "anchorError": [
+              2.441406240905053e-05,
+              6.1035156022626325e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "wisdom",
+            "x": "1392",
+            "y": "361",
+            "anchorError": [
+              2.441406240905053e-05,
+              3.0517578011313162e-06
+            ],
+            "pointer": "none"
+          }
+        ],
+        "cityPaths": 5,
+        "dividers": 4,
+        "sourceEdges": 46,
+        "markers": 32,
+        "routeBooks": 14,
+        "pointThrough": true,
+        "worldTransform": "matrix(0.95, 0, 0, 0.95, -496, -166)",
+        "overflow": [
+          false,
+          false
+        ],
+        "outerScroll": [
+          0,
+          0
+        ]
+      },
+      "geometryAfterPan": {
+        "art": {
+          "x": -440,
+          "y": -158,
+          "w": 1520,
+          "h": 855
+        },
+        "layers": {
+          ".wm-world": {
+            "x": -440,
+            "y": -158,
+            "w": 1520,
+            "h": 855
+          },
+          ".wm-city-regions__map": {
+            "x": -440,
+            "y": -158,
+            "w": 1520,
+            "h": 855
+          },
+          ".wm-geography": {
+            "x": -440,
+            "y": -158,
+            "w": 1520,
+            "h": 855
+          },
+          ".wm-fog-layer": {
+            "x": -440,
+            "y": -158,
+            "w": 1520,
+            "h": 855
+          },
+          ".wm-lines": {
+            "x": -440,
+            "y": -158,
+            "w": 1520,
+            "h": 855
+          }
+        },
+        "labels": [
+          {
+            "id": "faith",
+            "x": "432",
+            "y": "359",
+            "anchorError": [
+              6.1035156022626325e-06,
+              1.2207031261368684e-05
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "mindfulness",
+            "x": "672",
+            "y": "358",
+            "anchorError": [
+              6.1035156022626325e-06,
+              9.155273460237368e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "effort",
+            "x": "912",
+            "y": "352",
+            "anchorError": [
+              6.1035156022626325e-06,
+              6.1035156022626325e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "concentration",
+            "x": "1152",
+            "y": "357",
+            "anchorError": [
+              2.441406240905053e-05,
+              6.1035156022626325e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "wisdom",
+            "x": "1392",
+            "y": "361",
+            "anchorError": [
+              2.441406240905053e-05,
+              3.0517578011313162e-06
+            ],
+            "pointer": "none"
+          }
+        ],
+        "cityPaths": 5,
+        "dividers": 4,
+        "sourceEdges": 46,
+        "markers": 32,
+        "routeBooks": 14,
+        "pointThrough": true,
+        "worldTransform": "matrix(0.95, 0, 0, 0.95, -440, -158)",
+        "overflow": [
+          false,
+          false
+        ],
+        "outerScroll": [
+          0,
+          0
+        ]
+      },
+      "geometryAfterZoom": {
+        "art": {
+          "x": -725.5999755859375,
+          "y": -308.75,
+          "w": 1976,
+          "h": 1111.5
+        },
+        "layers": {
+          ".wm-world": {
+            "x": -725.5999755859375,
+            "y": -308.75,
+            "w": 1976,
+            "h": 1111.5
+          },
+          ".wm-city-regions__map": {
+            "x": -725.5999755859375,
+            "y": -308.75,
+            "w": 1976,
+            "h": 1111.5
+          },
+          ".wm-geography": {
+            "x": -725.5999755859375,
+            "y": -308.75,
+            "w": 1976,
+            "h": 1111.5
+          },
+          ".wm-fog-layer": {
+            "x": -725.5999755859375,
+            "y": -308.75,
+            "w": 1976,
+            "h": 1111.5
+          },
+          ".wm-lines": {
+            "x": -725.5999755859375,
+            "y": -308.75,
+            "w": 1976,
+            "h": 1111.5
+          }
+        },
+        "labels": [
+          {
+            "id": "faith",
+            "x": "432",
+            "y": "359",
+            "anchorError": [
+              4.272460955689894e-06,
+              5.493164053405053e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "mindfulness",
+            "x": "672",
+            "y": "358",
+            "anchorError": [
+              1.3427734415927262e-05,
+              4.8828125045474735e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "effort",
+            "x": "912",
+            "y": "352",
+            "anchorError": [
+              6.835937506366463e-05,
+              1.647949216021516e-05
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "concentration",
+            "x": "1152",
+            "y": "357",
+            "anchorError": [
+              2.929687502728484e-05,
+              4.272460955689894e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "wisdom",
+            "x": "1392",
+            "y": "361",
+            "anchorError": [
+              4.882812390860636e-06,
+              6.713867207963631e-06
+            ],
+            "pointer": "none"
+          }
+        ],
+        "cityPaths": 5,
+        "dividers": 4,
+        "sourceEdges": 46,
+        "markers": 32,
+        "routeBooks": 14,
+        "pointThrough": true,
+        "worldTransform": "matrix(1.235, 0, 0, 1.235, -725.6, -308.75)",
+        "overflow": [
+          false,
+          false
+        ],
+        "outerScroll": [
+          0,
+          0
+        ]
+      },
+      "nativeLandmarkPointThrough": {
+        "id": "breathing_grove",
+        "hit": "breathing_grove",
+        "box": {
+          "x": 589.6654052734375,
+          "y": 140.18215942382812,
+          "width": 214.9093017578125,
+          "height": 102.48568725585938
+        },
+        "dialog": "安那般那與止觀竹林\n\n安那般那與止觀\n\n複習這本\n主題導讀與原經\n\n這是閱讀路線，不代表修證階段；完成閱讀不表示取得禪定、聖果或解脫。"
+      },
+      "criticalStoresRawUnchanged": true
+    },
+    {
+      "viewport": [
+        1280,
+        900
+      ],
+      "historicalAll14Fixture": true,
+      "initialCamera": {
+        "x": 1028.5714285714284,
+        "y": 533.4821428571429,
+        "scale": 1.1199999999999999,
+        "fitScale": 0.8,
+        "coverScale": 0.9122222222222223,
+        "overview": false,
+        "restored": false,
+        "viewport": {
+          "width": 1280,
+          "height": 900
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 1.1199999999999999,
+        "outerBounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1600,
+          "bottom": 900,
+          "width": 1600,
+          "height": 900
+        },
+        "safeInsets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 79,
+          "left": 0
+        },
+        "visibleViewport": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 821,
+          "right": 1280,
+          "bottom": 821,
+          "centerX": 640,
+          "centerY": 410.5
+        },
+        "canReturn": false,
+        "overviewExplicit": false,
+        "offsetX": -511.9999999999998,
+        "offsetY": -187
+      },
+      "nativeTouchDragCamera": {
+        "x": 978.5714285714284,
+        "y": 526.339285714286,
+        "scale": 1.1199999999999999,
+        "fitScale": 0.8,
+        "coverScale": 0.9122222222222223,
+        "overview": false,
+        "restored": false,
+        "viewport": {
+          "width": 1280,
+          "height": 900
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 1.1199999999999999,
+        "outerBounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1600,
+          "bottom": 900,
+          "width": 1600,
+          "height": 900
+        },
+        "safeInsets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 79,
+          "left": 0
+        },
+        "visibleViewport": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 821,
+          "right": 1280,
+          "bottom": 821,
+          "centerX": 640,
+          "centerY": 410.5
+        },
+        "canReturn": false,
+        "overviewExplicit": false,
+        "offsetX": -455.9999999999998,
+        "offsetY": -179.00000000000023
+      },
+      "nativeZoomButtonCamera": {
+        "x": 978.5714285714284,
+        "y": 526.339285714286,
+        "scale": 1.456,
+        "fitScale": 0.8,
+        "coverScale": 0.9122222222222223,
+        "overview": false,
+        "restored": false,
+        "viewport": {
+          "width": 1280,
+          "height": 900
+        },
+        "world": {
+          "width": 1600,
+          "height": 900
+        },
+        "defaultFocusScale": 1.1199999999999999,
+        "outerBounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1600,
+          "bottom": 900,
+          "width": 1600,
+          "height": 900
+        },
+        "safeInsets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 79,
+          "left": 0
+        },
+        "visibleViewport": {
+          "left": 0,
+          "top": 0,
+          "width": 1280,
+          "height": 821,
+          "right": 1280,
+          "bottom": 821,
+          "centerX": 640,
+          "centerY": 410.5
+        },
+        "canReturn": false,
+        "overviewExplicit": false,
+        "offsetX": -784.7999999999997,
+        "offsetY": -355.85000000000036
+      },
+      "geometryInitial": {
+        "art": {
+          "x": -512,
+          "y": -187,
+          "w": 1792,
+          "h": 1008
+        },
+        "layers": {
+          ".wm-world": {
+            "x": -512,
+            "y": -187,
+            "w": 1792,
+            "h": 1008
+          },
+          ".wm-city-regions__map": {
+            "x": -512,
+            "y": -187,
+            "w": 1792,
+            "h": 1008
+          },
+          ".wm-geography": {
+            "x": -512,
+            "y": -187,
+            "w": 1792,
+            "h": 1008
+          },
+          ".wm-fog-layer": {
+            "x": -512,
+            "y": -187,
+            "w": 1792,
+            "h": 1008
+          },
+          ".wm-lines": {
+            "x": -512,
+            "y": -187,
+            "w": 1792,
+            "h": 1008
+          }
+        },
+        "labels": [
+          {
+            "id": "faith",
+            "x": "432",
+            "y": "359",
+            "anchorError": [
+              3.6621093499888957e-06,
+              1.8310547034161573e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "mindfulness",
+            "x": "672",
+            "y": "358",
+            "anchorError": [
+              1.586914061135758e-05,
+              6.713867207963631e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "effort",
+            "x": "912",
+            "y": "352",
+            "anchorError": [
+              2.441406195430318e-06,
+              5.493164053405053e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "concentration",
+            "x": "1152",
+            "y": "357",
+            "anchorError": [
+              9.765625009094947e-06,
+              3.6621093499888957e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "wisdom",
+            "x": "1392",
+            "y": "361",
+            "anchorError": [
+              2.1972656213620212e-05,
+              7.32421875682121e-06
+            ],
+            "pointer": "none"
+          }
+        ],
+        "cityPaths": 5,
+        "dividers": 4,
+        "sourceEdges": 46,
+        "markers": 32,
+        "routeBooks": 14,
+        "pointThrough": true,
+        "worldTransform": "matrix(1.12, 0, 0, 1.12, -512, -187)",
+        "overflow": [
+          false,
+          false
+        ],
+        "outerScroll": [
+          0,
+          0
+        ]
+      },
+      "geometryAfterPan": {
+        "art": {
+          "x": -456,
+          "y": -179,
+          "w": 1792,
+          "h": 1008
+        },
+        "layers": {
+          ".wm-world": {
+            "x": -456,
+            "y": -179,
+            "w": 1792,
+            "h": 1008
+          },
+          ".wm-city-regions__map": {
+            "x": -456,
+            "y": -179,
+            "w": 1792,
+            "h": 1008
+          },
+          ".wm-geography": {
+            "x": -456,
+            "y": -179,
+            "w": 1792,
+            "h": 1008
+          },
+          ".wm-fog-layer": {
+            "x": -456,
+            "y": -179,
+            "w": 1792,
+            "h": 1008
+          },
+          ".wm-lines": {
+            "x": -456,
+            "y": -179,
+            "w": 1792,
+            "h": 1008
+          }
+        },
+        "labels": [
+          {
+            "id": "faith",
+            "x": "432",
+            "y": "359",
+            "anchorError": [
+              3.6621093499888957e-06,
+              1.8310547034161573e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "mindfulness",
+            "x": "672",
+            "y": "358",
+            "anchorError": [
+              1.586914061135758e-05,
+              6.713867207963631e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "effort",
+            "x": "912",
+            "y": "352",
+            "anchorError": [
+              2.441406195430318e-06,
+              5.493164053405053e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "concentration",
+            "x": "1152",
+            "y": "357",
+            "anchorError": [
+              9.765625009094947e-06,
+              3.6621093499888957e-06
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "wisdom",
+            "x": "1392",
+            "y": "361",
+            "anchorError": [
+              2.1972656213620212e-05,
+              7.32421875682121e-06
+            ],
+            "pointer": "none"
+          }
+        ],
+        "cityPaths": 5,
+        "dividers": 4,
+        "sourceEdges": 46,
+        "markers": 32,
+        "routeBooks": 14,
+        "pointThrough": true,
+        "worldTransform": "matrix(1.12, 0, 0, 1.12, -456, -179)",
+        "overflow": [
+          false,
+          false
+        ],
+        "outerScroll": [
+          0,
+          0
+        ]
+      },
+      "geometryAfterZoom": {
+        "art": {
+          "x": -784.7999877929688,
+          "y": -355.8500061035156,
+          "w": 2329.599853515625,
+          "h": 1310.4000244140625
+        },
+        "layers": {
+          ".wm-world": {
+            "x": -784.7999877929688,
+            "y": -355.8500061035156,
+            "w": 2329.599853515625,
+            "h": 1310.4000244140625
+          },
+          ".wm-city-regions__map": {
+            "x": -784.7999877929688,
+            "y": -355.8500061035156,
+            "w": 2329.599853515625,
+            "h": 1310.4000244140625
+          },
+          ".wm-geography": {
+            "x": -784.7999877929688,
+            "y": -355.8500061035156,
+            "w": 2329.599853515625,
+            "h": 1310.4000244140625
+          },
+          ".wm-fog-layer": {
+            "x": -784.7999877929688,
+            "y": -355.8500061035156,
+            "w": 2329.599853515625,
+            "h": 1310.4000244140625
+          },
+          ".wm-lines": {
+            "x": -784.7999877929688,
+            "y": -355.8500061035156,
+            "w": 2329.599853515625,
+            "h": 1310.4000244140625
+          }
+        },
+        "labels": [
+          {
+            "id": "faith",
+            "x": "432",
+            "y": "359",
+            "anchorError": [
+              4.394531254092726e-05,
+              3.0246310757320316e-05
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "mindfulness",
+            "x": "672",
+            "y": "358",
+            "anchorError": [
+              7.324218699977791e-06,
+              2.3871527787378e-05
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "effort",
+            "x": "912",
+            "y": "352",
+            "anchorError": [
+              9.277343747271516e-05,
+              1.6140407979037263e-05
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "concentration",
+            "x": "1152",
+            "y": "357",
+            "anchorError": [
+              5.6152343859139364e-05,
+              3.275553387993568e-05
+            ],
+            "pointer": "none"
+          },
+          {
+            "id": "wisdom",
+            "x": "1392",
+            "y": "361",
+            "anchorError": [
+              1.9531250018189894e-05,
+              1.2478298572204949e-05
+            ],
+            "pointer": "none"
+          }
+        ],
+        "cityPaths": 5,
+        "dividers": 4,
+        "sourceEdges": 46,
+        "markers": 32,
+        "routeBooks": 14,
+        "pointThrough": true,
+        "worldTransform": "matrix(1.456, 0, 0, 1.456, -784.8, -355.85)",
+        "overflow": [
+          false,
+          false
+        ],
+        "outerScroll": [
+          0,
+          0
+        ]
+      },
+      "nativeLandmarkPointThrough": {
+        "id": "aggregates_lake",
+        "hit": "aggregates_lake",
+        "box": {
+          "x": 1041.080810546875,
+          "y": 186.52133178710938,
+          "width": 168.7822265625,
+          "height": 120.82525634765625
+        },
+        "dialog": "苦諦-五陰湖\n\n五陰\n\n複習這本\n主題導讀與原經\n\n這是閱讀路線，不代表修證階段；完成閱讀不表示取得禪定、聖果或解脫。"
+      },
+      "criticalStoresRawUnchanged": true
+    }
+  ],
+  "landGeometrySampling": {
+    "inside": 1568,
+    "sampled": 2100,
+    "bad": [],
+    "excluded": [
+      {
+        "x": 432,
+        "y": 108,
+        "count": 0
+      },
+      {
+        "x": 432,
+        "y": 243,
+        "count": 0
+      },
+      {
+        "x": 128,
+        "y": 423,
+        "count": 0
+      },
+      {
+        "x": 672,
+        "y": 810,
+        "count": 0
+      },
+      {
+        "x": 100,
+        "y": 540,
+        "count": 0
+      },
+      {
+        "x": 800,
+        "y": 725,
+        "count": 0
+      }
+    ]
+  },
+  "existingToggles": {
+    "cityNamesFollowMapLabels": true,
+    "original46RelationsStillVisible": true,
+    "rawUnchanged": true
+  },
+  "navigationRoundTrip": {
+    "nativeHarborDialog": {
+      "id": "harbor",
+      "hit": "harbor",
+      "box": {
+        "x": 59.68462371826172,
+        "y": 371.631591796875,
+        "width": 253.36673736572266,
+        "height": 77.73675537109375
+      },
+      "dialog": "三十七道品海陸港口\n\n在這裡接續旅程，也可以看看城池的變化。\n\n前往目前關卡\n前往城池"
+    },
+    "nativeReaderResume": {
+      "url": "http://127.0.0.1:43475/four-truths/book/?collection=1&collectionReturn=game&collectionStory=dark-heart-1&collectionReview=1",
+      "position": "5 / 29 頁",
+      "caption": "還有那些「求不得」的失落、「愛別離」的傷心，這些重擔，我們稱之為苦。",
+      "hasScripture": true,
+      "completedCount": 14
+    },
+    "reviewReturnsToExistingShelf": true,
+    "cityAndShelfAndMapTabs": true,
+    "completed14AndBookmark4Unchanged": true,
+    "criticalStatesSemanticallyUnchanged": true
+  },
+  "unreadEligibility": {
+    "fixture": "0 completed; Four Truths existing bookmark4",
+    "fogCount": 29,
+    "lockedFiveAggregatesDialog": {
+      "id": "aggregates_lake",
+      "hit": "aggregates_lake",
+      "box": {
+        "x": 122.0390625,
+        "y": 232.60467529296875,
+        "width": 115.921875,
+        "height": 53.390625
+      },
+      "dialog": "先完成目前這一站\n\n這本尚未開放。完成目前關卡後，下一站就會亮起。\n\n前往目前關卡"
+    },
+    "noReadActionGranted": true,
+    "completedCount": 0,
+    "criticalRawUnchanged": true,
+    "newCityRegionsAreNotLevels": true
+  },
+  "result": "pass",
+  "codeReview": {
+    "result": "no-blocker",
+    "newModulePresentationOnly": true,
+    "noRouteOrStorageImportsInCityRegions": true,
+    "existing1600x900WorldAndCameraPreserved": true,
+    "fillsAndStrokesClippedTogether": true,
+    "cityNamesAtLandAnchorsPointerTransparent": true,
+    "existingMarkerInverseScaleReadabilityPreserved": true,
+    "htmlGeneratorCheck": "python3 scripts/build-game-entry.py --check passed",
+    "protectedDiffReview": "No differences versus a238a0f in original worldmap image/data/camera, route/eligibility, collection/catalog/store, story store, city store or journey-save; root independently guards all original readers/SEO."
+  },
+  "visualReview": {
+    "inspectedActualGameScreenshots": [
+      "game-360x800.png",
+      "game-1280x900.png"
+    ],
+    "prototypeSourceInspected": "/tmp/five-city-regions-prototype.png",
+    "sourcePrototypeIsNotPlayerScreenshot": true,
+    "findings": []
+  },
+  "limitations": [
+    "Headless Chromium with mobile touch/CDP and desktop viewport sizes; no physical iPad/iPhone/Safari test.",
+    "One representative existing mainland landmark per region across five sizes; all original source/route/store files unchanged and no full1192-step revalidation performed.",
+    "A historical all14-completed isolated fixture proves visual/nav regressions; it is not newly completed user progress. Separate0-completed fixture checks lock/fog permission preservation.",
+    "Native reader resume/navigation cycle was exercised once at1280x900, not redundantly for all five sizes.",
+    "Land-only verification uses the authored SVG mainland outline plus visual comparison to original artwork; it is not a claim of pixel-perfect automated coastline segmentation."
+  ]
+}

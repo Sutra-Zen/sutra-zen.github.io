@@ -42,6 +42,8 @@ export const T={
  aggregates_lake:'苦諦-五陰湖',senses_lake:'苦諦-六處湖',sense_landings:'六處水岸入口',dependent_origination_court:'集諦-十二因緣輪庭',
  truth_wheel_ruin:'四聖諦法輪遺跡',fruition_valley:'滅諦-四向四果與十結',path_station:'道諦-八正道驛站',path_road:'八正道公路',
  path_bridge_mindfulness:'正念橋',path_bridge_effort_ethics:'正精進・正語\n正業・正命橋群',path_bridge_concentration:'正定橋',path_bridge_wisdom:'正見／正志橋'},
+ cityRegions:'下方大陸五大城區',
+ cityNames:{faith:'淨信城',mindfulness:'正念城',effort:'精進城',concentration:'禪定城',wisdom:'智慧城'},
  familyNames:{faith:'信',mindfulness:'念',effort:'勤',concentration:'定',wisdom:'慧'},
  members:{joy:'喜覺支',tranquility:'息覺支（輕安）',concentration:'定覺支',equanimity:'捨覺支',effort:'正精進',speech:'正語',action:'正業',livelihood:'正命',view:'正見',intention:'正志',root:'根',power:'力'},
 };

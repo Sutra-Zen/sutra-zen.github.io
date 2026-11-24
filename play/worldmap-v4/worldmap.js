@@ -12,7 +12,8 @@ import {initializeDoubtStage} from '../story/doubt-stage.js?v=mara-1';
 import {STORY_UI} from '../story/data.js?v=simple-ui-1';
 import {compactCompletionFeedback} from './completion-feedback.js?v=simple-ui-1';
 import {WORLD,LANDMARKS,MEMBERS,NODES,EDGES,GEOGRAPHIC_ROAD,MAP_CONNECTIONS,conceptAnchor,sourceGroupAnchor,PRIMARY_BOOK_LANDMARK} from './data.js';
-import {T} from './text.js?v=auto-city-1';
+import {T} from './text.js?v=five-cities-1';
+import {renderCityRegions} from './city-regions.js?v=five-cities-1';
 
 const $=s=>document.querySelector(s);
 const books=new Map(routeBooks.map(b=>[b.id,b]));
@@ -129,7 +130,7 @@ function sourceLines(){
 }
 function mountWorld(){
  const marks=LANDMARKS.map(l=>'<button class="wm-landmark '+(l.type==='scroll'?'is-scroll':'')+'" data-wm-landmark="'+l.id+'" data-landmark="'+l.id+'" data-book="'+(l.bookId||'')+'" data-concept="'+l.conceptId+'" style="--x:'+l.x+'px;--y:'+l.y+'px"><span class="wm-pin" aria-hidden="true"></span><span class="wm-label"></span><span class="wm-status-chip"></span></button>').join('');
- $('#wm-host').innerHTML='<div class="wm-viewport" tabindex="0" aria-label="'+T.cameraLabel+'"><div class="wm-world" data-world-size="1600x900"><img class="wm-background" src="'+asset('assets/worldmap-master-concept.png')+'" width="1600" height="900" alt="'+T.worldAlt+'"><svg class="wm-geography" viewBox="0 0 1600 900" aria-hidden="true"></svg><div class="wm-fog-layer"></div><svg class="wm-lines" viewBox="0 0 1600 900" aria-hidden="true"></svg>'+marks+'<img class="wm-traveler" src="'+new URL('../visual-v2/assets/kitten-rowboat-concept.png',import.meta.url).href+'" alt="'+T.travelerAlt+'"></div><div class="wm-load-state" role="status">'+T.loadingMap+'</div></div>';
+ $('#wm-host').innerHTML='<div class="wm-viewport" tabindex="0" aria-label="'+T.cameraLabel+'"><div class="wm-world" data-world-size="1600x900"><img class="wm-background" src="'+asset('assets/worldmap-master-concept.png')+'" width="1600" height="900" alt="'+T.worldAlt+'">'+renderCityRegions({label:T.cityRegions,names:T.cityNames})+'<svg class="wm-geography" viewBox="0 0 1600 900" aria-hidden="true"></svg><div class="wm-fog-layer"></div><svg class="wm-lines" viewBox="0 0 1600 900" aria-hidden="true"></svg>'+marks+'<img class="wm-traveler" src="'+new URL('../visual-v2/assets/kitten-rowboat-concept.png',import.meta.url).href+'" alt="'+T.travelerAlt+'"></div><div class="wm-load-state" role="status">'+T.loadingMap+'</div></div>';
  doubtStage=initializeDoubtStage({world:$('.wm-world'),anchor:{x:1248,y:566}});
  const image=$('.wm-background'),loading=$('.wm-load-state');
  const loaded=()=>{loading.hidden=true;};
