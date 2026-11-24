@@ -27,3 +27,4 @@ exclude:
   - docs/previews/game-simple-ui
   - docs/previews/reader-stable-artwork
   - docs/previews/reader-dark-heart
+  - docs/previews/approved-reader-copy

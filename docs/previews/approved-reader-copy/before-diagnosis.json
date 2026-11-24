@@ -1,0 +1,184 @@
+{
+  "baseline": "a238a0fb549966ac0510b5b89f18b913c8ec40b6",
+  "baselineHTMLSharedJSAndCSSInterceptedByteExactly": true,
+  "physicalSafari": false,
+  "cases": [
+    {
+      "caption": "了解這些後，不再執著過去的識，不再貪愛未來的識，\n對現在的識生起厭離、捨離欲望、滅除煩惱，走向解脫，\n使其滅而不增，退而不進，滅而不起，捨而不取。",
+      "captionBox": {
+        "x": 0,
+        "y": 0,
+        "width": 1916,
+        "height": 72,
+        "top": 0,
+        "right": 1916,
+        "bottom": 72,
+        "left": 0
+      },
+      "captionClientHeight": 72,
+      "captionScrollHeight": 100,
+      "captionOverflowY": "auto",
+      "captionFontSize": "20px",
+      "captionLineHeight": "28px",
+      "paragraphWhiteSpace": "pre-line",
+      "paragraphClamp": "none",
+      "paragraphDisplay": "block",
+      "paragraphOverflow": "visible",
+      "paragraphHeight": 84,
+      "hardNewlines": 2,
+      "lineRects": [
+        {
+          "y": 7,
+          "bottom": 36,
+          "height": 29
+        },
+        {
+          "y": 35,
+          "bottom": 64,
+          "height": 29
+        },
+        {
+          "y": 63,
+          "bottom": 92,
+          "height": 29
+        }
+      ],
+      "image": {
+        "x": 335.0546875,
+        "y": 72,
+        "width": 1245.890625,
+        "height": 830.59375,
+        "top": 72,
+        "right": 1580.9453125,
+        "bottom": 902.59375,
+        "left": 335.0546875
+      },
+      "initialScroll": 0,
+      "nativeWheelScrollTop": 28,
+      "stepAfterScroll": "44 / 54 頁",
+      "nativeScrollWorks": true,
+      "viewport": [
+        1916,
+        963
+      ]
+    },
+    {
+      "caption": "了解這些後，不再執著過去的識，不再貪愛未來的識，\n對現在的識生起厭離、捨離欲望、滅除煩惱，走向解脫，\n使其滅而不增，退而不進，滅而不起，捨而不取。",
+      "captionBox": {
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 72,
+        "top": 0,
+        "right": 1024,
+        "bottom": 72,
+        "left": 0
+      },
+      "captionClientHeight": 72,
+      "captionScrollHeight": 100,
+      "captionOverflowY": "auto",
+      "captionFontSize": "20px",
+      "captionLineHeight": "28px",
+      "paragraphWhiteSpace": "pre-line",
+      "paragraphClamp": "none",
+      "paragraphDisplay": "block",
+      "paragraphOverflow": "visible",
+      "paragraphHeight": 84,
+      "hardNewlines": 2,
+      "lineRects": [
+        {
+          "y": 7,
+          "bottom": 36,
+          "height": 29
+        },
+        {
+          "y": 35,
+          "bottom": 64,
+          "height": 29
+        },
+        {
+          "y": 63,
+          "bottom": 92,
+          "height": 29
+        }
+      ],
+      "image": {
+        "x": 132,
+        "y": 136.46875,
+        "width": 760,
+        "height": 506.65625,
+        "top": 136.46875,
+        "right": 892,
+        "bottom": 643.125,
+        "left": 132
+      },
+      "initialScroll": 0,
+      "nativeWheelScrollTop": 28,
+      "stepAfterScroll": "44 / 54 頁",
+      "nativeScrollWorks": true,
+      "viewport": [
+        1024,
+        768
+      ]
+    },
+    {
+      "caption": "了解這些後，不再執著過去的識，不再貪愛未來的識，\n對現在的識生起厭離、捨離欲望、滅除煩惱，走向解脫，\n使其滅而不增，退而不進，滅而不起，捨而不取。",
+      "captionBox": {
+        "x": 0,
+        "y": 0,
+        "width": 844,
+        "height": 64,
+        "top": 0,
+        "right": 844,
+        "bottom": 64,
+        "left": 0
+      },
+      "captionClientHeight": 64,
+      "captionScrollHeight": 83,
+      "captionOverflowY": "auto",
+      "captionFontSize": "16px",
+      "captionLineHeight": "22.4px",
+      "paragraphWhiteSpace": "pre-line",
+      "paragraphClamp": "none",
+      "paragraphDisplay": "block",
+      "paragraphOverflow": "visible",
+      "paragraphHeight": 67.171875,
+      "hardNewlines": 2,
+      "lineRects": [
+        {
+          "y": 7,
+          "bottom": 31,
+          "height": 24
+        },
+        {
+          "y": 29.390625,
+          "bottom": 53.390625,
+          "height": 24
+        },
+        {
+          "y": 51.78125,
+          "bottom": 75.78125,
+          "height": 24
+        }
+      ],
+      "image": {
+        "x": 222.5,
+        "y": 64,
+        "width": 399,
+        "height": 266,
+        "top": 64,
+        "right": 621.5,
+        "bottom": 330,
+        "left": 222.5
+      },
+      "initialScroll": 0,
+      "nativeWheelScrollTop": 19,
+      "stepAfterScroll": "44 / 54 頁",
+      "nativeScrollWorks": true,
+      "viewport": [
+        844,
+        390
+      ]
+    }
+  ]
+}

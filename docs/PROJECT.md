@@ -1,6 +1,11 @@
 # SutraZen project context
 
 
+## Approved reader copy and caption readability (2026-11-24)
+
+The [approved corrections](readers/approved-copy/README.md) update only Five Aggregates source41/pages7–9 and the author's page43 quote, plus the approved three speaker/person names. Original archives remain; pending Eightfold69/Twelve44–45 and the independent audit/city-district drafts are preserved. Shared landscape narration wraps naturally with a fixed three-line budget and paragraph spacing; portrait flow, IDs, counts and save/eligibility logic stay intact. All 14×6 caption geometry, 1192-step native wide trace, focused public/game fixes and source guards pass; see the linked evidence for precise scope. Cache approved-copy-1, generated game entry and 30-member Seven Factors ZIP synchronized; Pages legacy main:/ unchanged. Physical Safari remains untested; exact release evidence belongs to the PR.
+
+
 ## Current adaptive Heart Sutra and dark narration (2026-11-24)
 
 The [dark narration / centered Heart Sutra round](readers/dark-heart/README.md) starts from published PR79 `47e4b6ef5c7f51c9aba4766c6bc25eaa790cc239`. The original title and vertical scripture are centered as a group when they fit; narrow layouts retain their right-to-left start and full horizontal scrolling. The original font, emphasis, frame and manuscript stay intact. All fourteen public/game narration bands and text closings share opaque #1e1e1e with light text, overriding historical light subtitle flags without changing source data or artwork lettering.

@@ -1,0 +1,220 @@
+{
+  "result": "passed",
+  "readingSteps": 1192,
+  "viewports": [
+    [
+      1916,
+      963
+    ],
+    [
+      1280,
+      900
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      844,
+      390
+    ],
+    [
+      360,
+      800
+    ]
+  ],
+  "groups": 84,
+  "samples": 7152,
+  "nativeTraceSteps1916x963": 1192,
+  "nativeNextClicks1916x963": 1178,
+  "otherFiveSizes": "All original reading states selected with native showPage pageArg/cueArg; these are geometry probes, not full native Next traces.",
+  "ordinaryLandscapeTextRows": {
+    "2": 497,
+    "1": 4187
+  },
+  "ordinaryLandscapeRegions": 4684,
+  "ordinaryPortraitRegions": 2342,
+  "initialClippedOrdinaryCaptionCases": 0,
+  "permanentChildClampOrHiddenClipping": 0,
+  "actualLocalOverflowRegions": [
+    {
+      "book": "mindfulness",
+      "page": 110,
+      "viewport": [
+        844,
+        390
+      ],
+      "selector": "#reader-summary-caption",
+      "lines": 8,
+      "lastGlyphReachable": true
+    }
+  ],
+  "frameHeightMaxSpreadPixels": 0.0,
+  "ancestorWorstTextRepresentatives": 185,
+  "ancestorFailures": 0,
+  "nativeSummaryWheelRotateReloadProof": [
+    {
+      "book": "mindfulness",
+      "page": 110,
+      "viewport": [
+        844,
+        390
+      ],
+      "selector": "#reader-summary-caption",
+      "nativeWheel": {
+        "top": 256,
+        "max": 256
+      },
+      "stepUnchanged": true,
+      "rotateReloadRestoreIndex": true
+    }
+  ],
+  "syntheticThreeLineLayoutFixture": {
+    "cases": 2,
+    "viewports": [
+      [
+        1916,
+        963
+      ],
+      [
+        844,
+        390
+      ]
+    ],
+    "distinctFromOriginalManuscript": true,
+    "countedIn1192Steps": false,
+    "originalFontMarginsFrameHeightRetained": true
+  },
+  "runtimeHashesUnchanged": true,
+  "runtimeHashes": {
+    "reader-controls.css": "4b6fa3c559aebc5e2a761379eab7d702bb838927410792fb47c02324aff4dfc5",
+    "reader-layout.js": "49b30d907fa10c109033ce4f915a43e346339bb46d6df4c3ddd632ff709dc3b8"
+  },
+  "javascriptErrors": 0,
+  "httpErrors": 0,
+  "physicalSafari": "Not tested. Chromium sizes/native pointer/wheel/Next simulation only.",
+  "bookCounts": [
+    {
+      "book": "four-truths",
+      "readingSteps": 29,
+      "sixViewportSamples": 174,
+      "firstViewportNativeTraceSteps": 29,
+      "maxFrameHeightSpread": 0.0,
+      "failures": 0
+    },
+    {
+      "book": "five-aggregates",
+      "readingSteps": 54,
+      "sixViewportSamples": 324,
+      "firstViewportNativeTraceSteps": 54,
+      "maxFrameHeightSpread": 0.0,
+      "failures": 0
+    },
+    {
+      "book": "six-senses",
+      "readingSteps": 115,
+      "sixViewportSamples": 690,
+      "firstViewportNativeTraceSteps": 115,
+      "maxFrameHeightSpread": 0.0,
+      "failures": 0
+    },
+    {
+      "book": "twelve-links",
+      "readingSteps": 77,
+      "sixViewportSamples": 462,
+      "firstViewportNativeTraceSteps": 77,
+      "maxFrameHeightSpread": 0.0,
+      "failures": 0
+    },
+    {
+      "book": "eightfold-path",
+      "readingSteps": 111,
+      "sixViewportSamples": 666,
+      "firstViewportNativeTraceSteps": 111,
+      "maxFrameHeightSpread": 0.0,
+      "failures": 0
+    },
+    {
+      "book": "four-purities-six-recollections",
+      "readingSteps": 95,
+      "sixViewportSamples": 570,
+      "firstViewportNativeTraceSteps": 95,
+      "maxFrameHeightSpread": 0.0,
+      "failures": 0
+    },
+    {
+      "book": "mindfulness",
+      "readingSteps": 111,
+      "sixViewportSamples": 666,
+      "firstViewportNativeTraceSteps": 111,
+      "maxFrameHeightSpread": 0.0,
+      "failures": 0
+    },
+    {
+      "book": "right-effort",
+      "readingSteps": 81,
+      "sixViewportSamples": 486,
+      "firstViewportNativeTraceSteps": 81,
+      "maxFrameHeightSpread": 0.0,
+      "failures": 0
+    },
+    {
+      "book": "anapana",
+      "readingSteps": 119,
+      "sixViewportSamples": 714,
+      "firstViewportNativeTraceSteps": 119,
+      "maxFrameHeightSpread": 0.0,
+      "failures": 0
+    },
+    {
+      "book": "iddhipada",
+      "readingSteps": 82,
+      "sixViewportSamples": 492,
+      "firstViewportNativeTraceSteps": 82,
+      "maxFrameHeightSpread": 0.0,
+      "failures": 0
+    },
+    {
+      "book": "four-jhanas",
+      "readingSteps": 131,
+      "sixViewportSamples": 786,
+      "firstViewportNativeTraceSteps": 131,
+      "maxFrameHeightSpread": 0.0,
+      "failures": 0
+    },
+    {
+      "book": "five-roots-powers",
+      "readingSteps": 75,
+      "sixViewportSamples": 450,
+      "firstViewportNativeTraceSteps": 75,
+      "maxFrameHeightSpread": 0.0,
+      "failures": 0
+    },
+    {
+      "book": "seven-factors",
+      "readingSteps": 37,
+      "sixViewportSamples": 222,
+      "firstViewportNativeTraceSteps": 37,
+      "maxFrameHeightSpread": 0.0,
+      "failures": 0
+    },
+    {
+      "book": "four-fruits-ten-fetters",
+      "readingSteps": 75,
+      "sixViewportSamples": 450,
+      "firstViewportNativeTraceSteps": 75,
+      "maxFrameHeightSpread": 0.0,
+      "failures": 0
+    }
+  ],
+  "screenshots": [
+    "overflow-mindfulness-110-844x390.png"
+  ],
+  "repositoryWrites": 0,
+  "formalGameCompletionWrites": 0,
+  "storageScope": "Isolated fresh public-reader browser contexts; ordinary public bookmark effects stay inside disposed contexts."
+}

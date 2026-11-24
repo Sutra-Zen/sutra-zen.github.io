@@ -118,9 +118,12 @@
     if (landscape.matches) {
       // These bands depend on the viewport/font, never this page's line count.
       const base = parseFloat(getComputedStyle(document.documentElement).fontSize) || 16;
-      const capLine = Math.min(base * 1.25, Math.max(base, innerHeight * .035)) * 1.4;
+      const capFont = Math.min(base * 1.25, Math.max(base, innerHeight * .035));
+      const capLine = capFont * 1.4;
       const verseLine = Math.min(base * 1.125, Math.max(base * .94, innerHeight * .033)) * 1.4;
-      const capSpace = Math.max(64, capLine * 2 + 16, verticalSpace([top, position], 'top', rect));
+      // A shared three-line budget keeps artwork equal-height while a third
+      // narration line remains visible without requiring an initial scroll.
+      const capSpace = Math.max(64, capLine * 3 + 16 + capFont * .5, verticalSpace([top, position], 'top', rect));
       const verseSpace = Math.max(60, verseLine * 2 + 10, verticalSpace([links, openVerse], 'bottom', rect));
       const area = Math.max(1, scene.clientHeight - capSpace - verseSpace);
       set('--reader-caption-space', capSpace + 'px');

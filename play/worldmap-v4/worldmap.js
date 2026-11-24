@@ -2,7 +2,7 @@ import {store} from '../collection/store.js';
 import {routeStatus,routeBooks} from '../route/selectors.js';
 import {canStartGameBook,canReviewGameBook,getGameBookAccess} from '../route/eligibility.js';
 import {routeMetadata} from '../route/metadata.js';
-import {initializeGameShell,GAME_URLS} from '../game-shell.js?v=dark-heart-1';
+import {initializeGameShell,GAME_URLS} from '../game-shell.js?v=approved-copy-1';
 import {initializeTitleScreen} from '../title-screen.js?v=entry-no-frame-1';
 import {createMapCamera} from './camera.js?v=original-frame-1';
 import {initializeStoryDialogue} from '../story/dialogue.js?v=simple-ui-1';
@@ -202,7 +202,7 @@ function openReader(id,{bypassDoubt=false,bypassAggregatesIntro=false}={}){
  if(a.canStart)routeMetadata.markOpened(id);
  const u=new URL(b.reader,catalogURL);
  u.searchParams.set('collection','1');u.searchParams.set('collectionReturn','game');
- u.searchParams.set('collectionStory','dark-heart-1');
+ u.searchParams.set('collectionStory','approved-copy-1');
  if(a.canReview)u.searchParams.set('collectionReview','1');
  const at=a.canReview&&a.resumePosition===b.totalSteps-1?0:(a.resumePosition??0);
  u.searchParams.set('collectionPage',String(at));
