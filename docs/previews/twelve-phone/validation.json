@@ -1,0 +1,2782 @@
+{
+  "baseline": "3d0699a9958908cae0e667014e3bf4bb65466f79",
+  "scope": "Local43→44→45→46 native Next focus only, not full77-book reread",
+  "physicalSafari": false,
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "cases": [
+    {
+      "mode": "public",
+      "viewport": [
+        1916,
+        963
+      ],
+      "nativeTrace": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "states": [
+        {
+          "page": 43,
+          "lines": [
+            "但佛陀發現，這個觀察者像極了一隻在林間跳躍的小猴子。",
+            "你看，這隻猴子剛放掉舊的樹枝，下一秒又急著抓取新的。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 110,
+            "scrollHeight": 110,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "20px",
+            "text": "但佛陀發現，這個觀察者像極了一隻在林間跳躍的小猴子。你看，這隻猴子剛放掉舊的樹枝，下一秒又急著抓取新的。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 248.2109375,
+            "y": 110,
+            "width": 1419.578125,
+            "height": 792.59375,
+            "top": 110,
+            "right": 1667.7890625,
+            "bottom": 902.59375,
+            "left": 248.2109375
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": true,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 44,
+          "lines": [
+            "這就像你在滑手機：依著眼睛與畫面，生起看見的識。",
+            "看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 110,
+            "scrollHeight": 110,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "20px",
+            "text": "這就像你在滑手機：依著眼睛與畫面，生起看見的識。看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 248.2109375,
+            "y": 110,
+            "width": 1419.578125,
+            "height": 792.59375,
+            "top": 110,
+            "right": 1667.7890625,
+            "bottom": 902.59375,
+            "left": 248.2109375
+          },
+          "actualSourceImage": "../assets/scene-11-right-dark.webp",
+          "leftMaskHidden": true,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 45,
+          "lines": [
+            "這個念頭帶動手指往下滑，又看見了下一則內容。",
+            "就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 110,
+            "scrollHeight": 110,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "20px",
+            "text": "這個念頭帶動手指往下滑，又看見了下一則內容。就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 248.2109375,
+            "y": 110,
+            "width": 1419.578125,
+            "height": 792.59375,
+            "top": 110,
+            "right": 1667.7890625,
+            "bottom": 902.59375,
+            "left": 248.2109375
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": false,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 46,
+          "lines": [
+            "在不斷的「放」與「取」之間，交織成了停不下來的人生。",
+            "別被此刻的念頭騙了，那只是猴子隨手抓起的一根枝條。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 110,
+            "scrollHeight": 110,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "20px",
+            "text": "在不斷的「放」與「取」之間，交織成了停不下來的人生。別被此刻的念頭騙了，那只是猴子隨手抓起的一根枝條。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 248.2109375,
+            "y": 110,
+            "width": 1419.578125,
+            "height": 792.59375,
+            "top": 110,
+            "right": 1667.7890625,
+            "bottom": 902.59375,
+            "left": 248.2109375
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": false,
+          "overlayAndControlGuttersChecked": true
+        }
+      ],
+      "reloadAt45": true,
+      "completedSetUnchanged": true,
+      "bookmarksCorrectAfter45And46": false,
+      "sameArtworkHeightAcrossCueChanges": true,
+      "returnFlow": null
+    },
+    {
+      "mode": "public",
+      "viewport": [
+        1280,
+        900
+      ],
+      "nativeTrace": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "states": [
+        {
+          "page": 43,
+          "lines": [
+            "但佛陀發現，這個觀察者像極了一隻在林間跳躍的小猴子。",
+            "你看，這隻猴子剛放掉舊的樹枝，下一秒又急著抓取新的。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 110,
+            "scrollHeight": 110,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "20px",
+            "text": "但佛陀發現，這個觀察者像極了一隻在林間跳躍的小猴子。你看，這隻猴子剛放掉舊的樹枝，下一秒又急著抓取新的。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 58.90625,
+            "y": 150.359375,
+            "width": 1162.1875,
+            "height": 648.875,
+            "top": 150.359375,
+            "right": 1221.09375,
+            "bottom": 799.234375,
+            "left": 58.90625
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": true,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 44,
+          "lines": [
+            "這就像你在滑手機：依著眼睛與畫面，生起看見的識。",
+            "看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 110,
+            "scrollHeight": 110,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "20px",
+            "text": "這就像你在滑手機：依著眼睛與畫面，生起看見的識。看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 58.90625,
+            "y": 150.359375,
+            "width": 1162.1875,
+            "height": 648.875,
+            "top": 150.359375,
+            "right": 1221.09375,
+            "bottom": 799.234375,
+            "left": 58.90625
+          },
+          "actualSourceImage": "../assets/scene-11-right-dark.webp",
+          "leftMaskHidden": true,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 45,
+          "lines": [
+            "這個念頭帶動手指往下滑，又看見了下一則內容。",
+            "就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 110,
+            "scrollHeight": 110,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "20px",
+            "text": "這個念頭帶動手指往下滑，又看見了下一則內容。就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 58.90625,
+            "y": 150.359375,
+            "width": 1162.1875,
+            "height": 648.875,
+            "top": 150.359375,
+            "right": 1221.09375,
+            "bottom": 799.234375,
+            "left": 58.90625
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": false,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 46,
+          "lines": [
+            "在不斷的「放」與「取」之間，交織成了停不下來的人生。",
+            "別被此刻的念頭騙了，那只是猴子隨手抓起的一根枝條。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 110,
+            "scrollHeight": 110,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "20px",
+            "text": "在不斷的「放」與「取」之間，交織成了停不下來的人生。別被此刻的念頭騙了，那只是猴子隨手抓起的一根枝條。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 58.90625,
+            "y": 150.359375,
+            "width": 1162.1875,
+            "height": 648.875,
+            "top": 150.359375,
+            "right": 1221.09375,
+            "bottom": 799.234375,
+            "left": 58.90625
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": false,
+          "overlayAndControlGuttersChecked": true
+        }
+      ],
+      "reloadAt45": true,
+      "completedSetUnchanged": true,
+      "bookmarksCorrectAfter45And46": false,
+      "sameArtworkHeightAcrossCueChanges": true,
+      "returnFlow": null
+    },
+    {
+      "mode": "public",
+      "viewport": [
+        1024,
+        768
+      ],
+      "nativeTrace": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "states": [
+        {
+          "page": 43,
+          "lines": [
+            "但佛陀發現，這個觀察者像極了一隻在林間跳躍的小猴子。",
+            "你看，這隻猴子剛放掉舊的樹枝，下一秒又急著抓取新的。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 110,
+            "scrollHeight": 110,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "20px",
+            "text": "但佛陀發現，這個觀察者像極了一隻在林間跳躍的小猴子。你看，這隻猴子剛放掉舊的樹枝，下一秒又急著抓取新的。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 58.2734375,
+            "y": 155.46875,
+            "width": 907.453125,
+            "height": 506.65625,
+            "top": 155.46875,
+            "right": 965.7265625,
+            "bottom": 662.125,
+            "left": 58.2734375
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": true,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 44,
+          "lines": [
+            "這就像你在滑手機：依著眼睛與畫面，生起看見的識。",
+            "看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 110,
+            "scrollHeight": 110,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "20px",
+            "text": "這就像你在滑手機：依著眼睛與畫面，生起看見的識。看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 58.2734375,
+            "y": 155.46875,
+            "width": 907.453125,
+            "height": 506.65625,
+            "top": 155.46875,
+            "right": 965.7265625,
+            "bottom": 662.125,
+            "left": 58.2734375
+          },
+          "actualSourceImage": "../assets/scene-11-right-dark.webp",
+          "leftMaskHidden": true,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 45,
+          "lines": [
+            "這個念頭帶動手指往下滑，又看見了下一則內容。",
+            "就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 110,
+            "scrollHeight": 110,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "20px",
+            "text": "這個念頭帶動手指往下滑，又看見了下一則內容。就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 58.2734375,
+            "y": 155.46875,
+            "width": 907.453125,
+            "height": 506.65625,
+            "top": 155.46875,
+            "right": 965.7265625,
+            "bottom": 662.125,
+            "left": 58.2734375
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": false,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 46,
+          "lines": [
+            "在不斷的「放」與「取」之間，交織成了停不下來的人生。",
+            "別被此刻的念頭騙了，那只是猴子隨手抓起的一根枝條。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 110,
+            "scrollHeight": 110,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "20px",
+            "text": "在不斷的「放」與「取」之間，交織成了停不下來的人生。別被此刻的念頭騙了，那只是猴子隨手抓起的一根枝條。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 58.2734375,
+            "y": 155.46875,
+            "width": 907.453125,
+            "height": 506.65625,
+            "top": 155.46875,
+            "right": 965.7265625,
+            "bottom": 662.125,
+            "left": 58.2734375
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": false,
+          "overlayAndControlGuttersChecked": true
+        }
+      ],
+      "reloadAt45": true,
+      "completedSetUnchanged": true,
+      "bookmarksCorrectAfter45And46": false,
+      "sameArtworkHeightAcrossCueChanges": true,
+      "returnFlow": null
+    },
+    {
+      "mode": "public",
+      "viewport": [
+        768,
+        1024
+      ],
+      "nativeTrace": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "states": [
+        {
+          "page": 43,
+          "lines": [
+            "但佛陀發現，這個觀察者像極了一隻在林間跳躍的小猴子。",
+            "你看，這隻猴子剛放掉舊的樹枝，下一秒又急著抓取新的。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": null,
+          "portraitInlineVerseChecked": true,
+          "caption": {
+            "clientHeight": 91,
+            "scrollHeight": 91,
+            "scrollTop": 0,
+            "overflow": "visible",
+            "fontSize": "20px",
+            "text": "但佛陀發現，這個觀察者像極了一隻在林間跳躍的小猴子。你看，這隻猴子剛放掉舊的樹枝，下一秒又急著抓取新的。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 11.859375,
+            "y": 139,
+            "width": 744.265625,
+            "height": 415.546875,
+            "top": 139,
+            "right": 756.125,
+            "bottom": 554.546875,
+            "left": 11.859375
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": true,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 44,
+          "lines": [
+            "這就像你在滑手機：依著眼睛與畫面，生起看見的識。",
+            "看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": null,
+          "portraitInlineVerseChecked": true,
+          "caption": {
+            "clientHeight": 91,
+            "scrollHeight": 91,
+            "scrollTop": 0,
+            "overflow": "visible",
+            "fontSize": "20px",
+            "text": "這就像你在滑手機：依著眼睛與畫面，生起看見的識。看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 11.859375,
+            "y": 139,
+            "width": 744.265625,
+            "height": 415.546875,
+            "top": 139,
+            "right": 756.125,
+            "bottom": 554.546875,
+            "left": 11.859375
+          },
+          "actualSourceImage": "../assets/scene-11-right-dark.webp",
+          "leftMaskHidden": true,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 45,
+          "lines": [
+            "這個念頭帶動手指往下滑，又看見了下一則內容。",
+            "就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": null,
+          "portraitInlineVerseChecked": true,
+          "caption": {
+            "clientHeight": 91,
+            "scrollHeight": 91,
+            "scrollTop": 0,
+            "overflow": "visible",
+            "fontSize": "20px",
+            "text": "這個念頭帶動手指往下滑，又看見了下一則內容。就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 11.859375,
+            "y": 139,
+            "width": 744.265625,
+            "height": 415.546875,
+            "top": 139,
+            "right": 756.125,
+            "bottom": 554.546875,
+            "left": 11.859375
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": false,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 46,
+          "lines": [
+            "在不斷的「放」與「取」之間，交織成了停不下來的人生。",
+            "別被此刻的念頭騙了，那只是猴子隨手抓起的一根枝條。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": null,
+          "portraitInlineVerseChecked": true,
+          "caption": {
+            "clientHeight": 91,
+            "scrollHeight": 91,
+            "scrollTop": 0,
+            "overflow": "visible",
+            "fontSize": "20px",
+            "text": "在不斷的「放」與「取」之間，交織成了停不下來的人生。別被此刻的念頭騙了，那只是猴子隨手抓起的一根枝條。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 11.859375,
+            "y": 139,
+            "width": 744.265625,
+            "height": 415.546875,
+            "top": 139,
+            "right": 756.125,
+            "bottom": 554.546875,
+            "left": 11.859375
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": false,
+          "overlayAndControlGuttersChecked": true
+        }
+      ],
+      "reloadAt45": true,
+      "completedSetUnchanged": true,
+      "bookmarksCorrectAfter45And46": false,
+      "sameArtworkHeightAcrossCueChanges": true,
+      "returnFlow": null
+    },
+    {
+      "mode": "public",
+      "viewport": [
+        844,
+        390
+      ],
+      "nativeTrace": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "states": [
+        {
+          "page": 43,
+          "lines": [
+            "但佛陀發現，這個觀察者像極了一隻在林間跳躍的小猴子。",
+            "你看，這隻猴子剛放掉舊的樹枝，下一秒又急著抓取新的。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 91,
+            "scrollHeight": 91,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "16px",
+            "text": "但佛陀發現，這個觀察者像極了一隻在林間跳躍的小猴子。你看，這隻猴子剛放掉舊的樹枝，下一秒又急著抓取新的。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 208.15625,
+            "y": 91.1953125,
+            "width": 427.6875,
+            "height": 238.796875,
+            "top": 91.1953125,
+            "right": 635.84375,
+            "bottom": 329.9921875,
+            "left": 208.15625
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": true,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 44,
+          "lines": [
+            "這就像你在滑手機：依著眼睛與畫面，生起看見的識。",
+            "看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 91,
+            "scrollHeight": 91,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "16px",
+            "text": "這就像你在滑手機：依著眼睛與畫面，生起看見的識。看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 208.15625,
+            "y": 91.1953125,
+            "width": 427.6875,
+            "height": 238.796875,
+            "top": 91.1953125,
+            "right": 635.84375,
+            "bottom": 329.9921875,
+            "left": 208.15625
+          },
+          "actualSourceImage": "../assets/scene-11-right-dark.webp",
+          "leftMaskHidden": true,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 45,
+          "lines": [
+            "這個念頭帶動手指往下滑，又看見了下一則內容。",
+            "就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 91,
+            "scrollHeight": 91,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "16px",
+            "text": "這個念頭帶動手指往下滑，又看見了下一則內容。就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 208.15625,
+            "y": 91.1953125,
+            "width": 427.6875,
+            "height": 238.796875,
+            "top": 91.1953125,
+            "right": 635.84375,
+            "bottom": 329.9921875,
+            "left": 208.15625
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": false,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 46,
+          "lines": [
+            "在不斷的「放」與「取」之間，交織成了停不下來的人生。",
+            "別被此刻的念頭騙了，那只是猴子隨手抓起的一根枝條。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 91,
+            "scrollHeight": 91,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "16px",
+            "text": "在不斷的「放」與「取」之間，交織成了停不下來的人生。別被此刻的念頭騙了，那只是猴子隨手抓起的一根枝條。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 208.15625,
+            "y": 91.1953125,
+            "width": 427.6875,
+            "height": 238.796875,
+            "top": 91.1953125,
+            "right": 635.84375,
+            "bottom": 329.9921875,
+            "left": 208.15625
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": false,
+          "overlayAndControlGuttersChecked": true
+        }
+      ],
+      "reloadAt45": true,
+      "completedSetUnchanged": true,
+      "bookmarksCorrectAfter45And46": false,
+      "sameArtworkHeightAcrossCueChanges": true,
+      "returnFlow": null
+    },
+    {
+      "mode": "public",
+      "viewport": [
+        360,
+        800
+      ],
+      "nativeTrace": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "states": [
+        {
+          "page": 43,
+          "lines": [
+            "但佛陀發現，這個觀察者像極了一隻在林間跳躍的小猴子。",
+            "你看，這隻猴子剛放掉舊的樹枝，下一秒又急著抓取新的。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": null,
+          "portraitInlineVerseChecked": true,
+          "caption": {
+            "clientHeight": 153,
+            "scrollHeight": 153,
+            "scrollTop": 0,
+            "overflow": "visible",
+            "fontSize": "20px",
+            "text": "但佛陀發現，這個觀察者像極了一隻在林間跳躍的小猴子。你看，這隻猴子剛放掉舊的樹枝，下一秒又急著抓取新的。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 0.890625,
+            "y": 200.796875,
+            "width": 358.203125,
+            "height": 200,
+            "top": 200.796875,
+            "right": 359.09375,
+            "bottom": 400.796875,
+            "left": 0.890625
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": true,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 44,
+          "lines": [
+            "這就像你在滑手機：依著眼睛與畫面，生起看見的識。",
+            "看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": null,
+          "portraitInlineVerseChecked": true,
+          "caption": {
+            "clientHeight": 153,
+            "scrollHeight": 153,
+            "scrollTop": 0,
+            "overflow": "visible",
+            "fontSize": "20px",
+            "text": "這就像你在滑手機：依著眼睛與畫面，生起看見的識。看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 0.890625,
+            "y": 200.796875,
+            "width": 358.203125,
+            "height": 200,
+            "top": 200.796875,
+            "right": 359.09375,
+            "bottom": 400.796875,
+            "left": 0.890625
+          },
+          "actualSourceImage": "../assets/scene-11-right-dark.webp",
+          "leftMaskHidden": true,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 45,
+          "lines": [
+            "這個念頭帶動手指往下滑，又看見了下一則內容。",
+            "就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": null,
+          "portraitInlineVerseChecked": true,
+          "caption": {
+            "clientHeight": 153,
+            "scrollHeight": 153,
+            "scrollTop": 0,
+            "overflow": "visible",
+            "fontSize": "20px",
+            "text": "這個念頭帶動手指往下滑，又看見了下一則內容。就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 0.890625,
+            "y": 200.796875,
+            "width": 358.203125,
+            "height": 200,
+            "top": 200.796875,
+            "right": 359.09375,
+            "bottom": 400.796875,
+            "left": 0.890625
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": false,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 46,
+          "lines": [
+            "在不斷的「放」與「取」之間，交織成了停不下來的人生。",
+            "別被此刻的念頭騙了，那只是猴子隨手抓起的一根枝條。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": null,
+          "portraitInlineVerseChecked": true,
+          "caption": {
+            "clientHeight": 153,
+            "scrollHeight": 153,
+            "scrollTop": 0,
+            "overflow": "visible",
+            "fontSize": "20px",
+            "text": "在不斷的「放」與「取」之間，交織成了停不下來的人生。別被此刻的念頭騙了，那只是猴子隨手抓起的一根枝條。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 0.890625,
+            "y": 200.796875,
+            "width": 358.203125,
+            "height": 200,
+            "top": 200.796875,
+            "right": 359.09375,
+            "bottom": 400.796875,
+            "left": 0.890625
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": false,
+          "overlayAndControlGuttersChecked": true
+        }
+      ],
+      "reloadAt45": true,
+      "completedSetUnchanged": true,
+      "bookmarksCorrectAfter45And46": false,
+      "sameArtworkHeightAcrossCueChanges": true,
+      "returnFlow": null
+    },
+    {
+      "mode": "ordered",
+      "viewport": [
+        1916,
+        963
+      ],
+      "nativeTrace": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "states": [
+        {
+          "page": 43,
+          "lines": [
+            "但佛陀發現，這個觀察者像極了一隻在林間跳躍的小猴子。",
+            "你看，這隻猴子剛放掉舊的樹枝，下一秒又急著抓取新的。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 110,
+            "scrollHeight": 110,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "20px",
+            "text": "但佛陀發現，這個觀察者像極了一隻在林間跳躍的小猴子。你看，這隻猴子剛放掉舊的樹枝，下一秒又急著抓取新的。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 248.2109375,
+            "y": 110,
+            "width": 1419.578125,
+            "height": 792.59375,
+            "top": 110,
+            "right": 1667.7890625,
+            "bottom": 902.59375,
+            "left": 248.2109375
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": true,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 44,
+          "lines": [
+            "這就像你在滑手機：依著眼睛與畫面，生起看見的識。",
+            "看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 110,
+            "scrollHeight": 110,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "20px",
+            "text": "這就像你在滑手機：依著眼睛與畫面，生起看見的識。看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 248.2109375,
+            "y": 110,
+            "width": 1419.578125,
+            "height": 792.59375,
+            "top": 110,
+            "right": 1667.7890625,
+            "bottom": 902.59375,
+            "left": 248.2109375
+          },
+          "actualSourceImage": "../assets/scene-11-right-dark.webp",
+          "leftMaskHidden": true,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 45,
+          "lines": [
+            "這個念頭帶動手指往下滑，又看見了下一則內容。",
+            "就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 110,
+            "scrollHeight": 110,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "20px",
+            "text": "這個念頭帶動手指往下滑，又看見了下一則內容。就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 248.2109375,
+            "y": 110,
+            "width": 1419.578125,
+            "height": 792.59375,
+            "top": 110,
+            "right": 1667.7890625,
+            "bottom": 902.59375,
+            "left": 248.2109375
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": false,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 46,
+          "lines": [
+            "在不斷的「放」與「取」之間，交織成了停不下來的人生。",
+            "別被此刻的念頭騙了，那只是猴子隨手抓起的一根枝條。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 110,
+            "scrollHeight": 110,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "20px",
+            "text": "在不斷的「放」與「取」之間，交織成了停不下來的人生。別被此刻的念頭騙了，那只是猴子隨手抓起的一根枝條。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 248.2109375,
+            "y": 110,
+            "width": 1419.578125,
+            "height": 792.59375,
+            "top": 110,
+            "right": 1667.7890625,
+            "bottom": 902.59375,
+            "left": 248.2109375
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": false,
+          "overlayAndControlGuttersChecked": true
+        }
+      ],
+      "reloadAt45": true,
+      "completedSetUnchanged": true,
+      "bookmarksCorrectAfter45And46": true,
+      "sameArtworkHeightAcrossCueChanges": true,
+      "returnFlow": null
+    },
+    {
+      "mode": "ordered",
+      "viewport": [
+        1280,
+        900
+      ],
+      "nativeTrace": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "states": [
+        {
+          "page": 43,
+          "lines": [
+            "但佛陀發現，這個觀察者像極了一隻在林間跳躍的小猴子。",
+            "你看，這隻猴子剛放掉舊的樹枝，下一秒又急著抓取新的。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 110,
+            "scrollHeight": 110,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "20px",
+            "text": "但佛陀發現，這個觀察者像極了一隻在林間跳躍的小猴子。你看，這隻猴子剛放掉舊的樹枝，下一秒又急著抓取新的。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 58.90625,
+            "y": 150.359375,
+            "width": 1162.1875,
+            "height": 648.875,
+            "top": 150.359375,
+            "right": 1221.09375,
+            "bottom": 799.234375,
+            "left": 58.90625
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": true,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 44,
+          "lines": [
+            "這就像你在滑手機：依著眼睛與畫面，生起看見的識。",
+            "看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 110,
+            "scrollHeight": 110,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "20px",
+            "text": "這就像你在滑手機：依著眼睛與畫面，生起看見的識。看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 58.90625,
+            "y": 150.359375,
+            "width": 1162.1875,
+            "height": 648.875,
+            "top": 150.359375,
+            "right": 1221.09375,
+            "bottom": 799.234375,
+            "left": 58.90625
+          },
+          "actualSourceImage": "../assets/scene-11-right-dark.webp",
+          "leftMaskHidden": true,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 45,
+          "lines": [
+            "這個念頭帶動手指往下滑，又看見了下一則內容。",
+            "就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 110,
+            "scrollHeight": 110,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "20px",
+            "text": "這個念頭帶動手指往下滑，又看見了下一則內容。就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 58.90625,
+            "y": 150.359375,
+            "width": 1162.1875,
+            "height": 648.875,
+            "top": 150.359375,
+            "right": 1221.09375,
+            "bottom": 799.234375,
+            "left": 58.90625
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": false,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 46,
+          "lines": [
+            "在不斷的「放」與「取」之間，交織成了停不下來的人生。",
+            "別被此刻的念頭騙了，那只是猴子隨手抓起的一根枝條。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 110,
+            "scrollHeight": 110,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "20px",
+            "text": "在不斷的「放」與「取」之間，交織成了停不下來的人生。別被此刻的念頭騙了，那只是猴子隨手抓起的一根枝條。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 58.90625,
+            "y": 150.359375,
+            "width": 1162.1875,
+            "height": 648.875,
+            "top": 150.359375,
+            "right": 1221.09375,
+            "bottom": 799.234375,
+            "left": 58.90625
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": false,
+          "overlayAndControlGuttersChecked": true
+        }
+      ],
+      "reloadAt45": true,
+      "completedSetUnchanged": true,
+      "bookmarksCorrectAfter45And46": true,
+      "sameArtworkHeightAcrossCueChanges": true,
+      "returnFlow": null
+    },
+    {
+      "mode": "ordered",
+      "viewport": [
+        1024,
+        768
+      ],
+      "nativeTrace": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "states": [
+        {
+          "page": 43,
+          "lines": [
+            "但佛陀發現，這個觀察者像極了一隻在林間跳躍的小猴子。",
+            "你看，這隻猴子剛放掉舊的樹枝，下一秒又急著抓取新的。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 110,
+            "scrollHeight": 110,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "20px",
+            "text": "但佛陀發現，這個觀察者像極了一隻在林間跳躍的小猴子。你看，這隻猴子剛放掉舊的樹枝，下一秒又急著抓取新的。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 58.2734375,
+            "y": 155.46875,
+            "width": 907.453125,
+            "height": 506.65625,
+            "top": 155.46875,
+            "right": 965.7265625,
+            "bottom": 662.125,
+            "left": 58.2734375
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": true,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 44,
+          "lines": [
+            "這就像你在滑手機：依著眼睛與畫面，生起看見的識。",
+            "看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 110,
+            "scrollHeight": 110,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "20px",
+            "text": "這就像你在滑手機：依著眼睛與畫面，生起看見的識。看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 58.2734375,
+            "y": 155.46875,
+            "width": 907.453125,
+            "height": 506.65625,
+            "top": 155.46875,
+            "right": 965.7265625,
+            "bottom": 662.125,
+            "left": 58.2734375
+          },
+          "actualSourceImage": "../assets/scene-11-right-dark.webp",
+          "leftMaskHidden": true,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 45,
+          "lines": [
+            "這個念頭帶動手指往下滑，又看見了下一則內容。",
+            "就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 110,
+            "scrollHeight": 110,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "20px",
+            "text": "這個念頭帶動手指往下滑，又看見了下一則內容。就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 58.2734375,
+            "y": 155.46875,
+            "width": 907.453125,
+            "height": 506.65625,
+            "top": 155.46875,
+            "right": 965.7265625,
+            "bottom": 662.125,
+            "left": 58.2734375
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": false,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 46,
+          "lines": [
+            "在不斷的「放」與「取」之間，交織成了停不下來的人生。",
+            "別被此刻的念頭騙了，那只是猴子隨手抓起的一根枝條。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 110,
+            "scrollHeight": 110,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "20px",
+            "text": "在不斷的「放」與「取」之間，交織成了停不下來的人生。別被此刻的念頭騙了，那只是猴子隨手抓起的一根枝條。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 58.2734375,
+            "y": 155.46875,
+            "width": 907.453125,
+            "height": 506.65625,
+            "top": 155.46875,
+            "right": 965.7265625,
+            "bottom": 662.125,
+            "left": 58.2734375
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": false,
+          "overlayAndControlGuttersChecked": true
+        }
+      ],
+      "reloadAt45": true,
+      "completedSetUnchanged": true,
+      "bookmarksCorrectAfter45And46": true,
+      "sameArtworkHeightAcrossCueChanges": true,
+      "returnFlow": null
+    },
+    {
+      "mode": "ordered",
+      "viewport": [
+        768,
+        1024
+      ],
+      "nativeTrace": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "states": [
+        {
+          "page": 43,
+          "lines": [
+            "但佛陀發現，這個觀察者像極了一隻在林間跳躍的小猴子。",
+            "你看，這隻猴子剛放掉舊的樹枝，下一秒又急著抓取新的。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": null,
+          "portraitInlineVerseChecked": true,
+          "caption": {
+            "clientHeight": 91,
+            "scrollHeight": 91,
+            "scrollTop": 0,
+            "overflow": "visible",
+            "fontSize": "20px",
+            "text": "但佛陀發現，這個觀察者像極了一隻在林間跳躍的小猴子。你看，這隻猴子剛放掉舊的樹枝，下一秒又急著抓取新的。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 11.859375,
+            "y": 139,
+            "width": 744.265625,
+            "height": 415.546875,
+            "top": 139,
+            "right": 756.125,
+            "bottom": 554.546875,
+            "left": 11.859375
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": true,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 44,
+          "lines": [
+            "這就像你在滑手機：依著眼睛與畫面，生起看見的識。",
+            "看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": null,
+          "portraitInlineVerseChecked": true,
+          "caption": {
+            "clientHeight": 91,
+            "scrollHeight": 91,
+            "scrollTop": 0,
+            "overflow": "visible",
+            "fontSize": "20px",
+            "text": "這就像你在滑手機：依著眼睛與畫面，生起看見的識。看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 11.859375,
+            "y": 139,
+            "width": 744.265625,
+            "height": 415.546875,
+            "top": 139,
+            "right": 756.125,
+            "bottom": 554.546875,
+            "left": 11.859375
+          },
+          "actualSourceImage": "../assets/scene-11-right-dark.webp",
+          "leftMaskHidden": true,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 45,
+          "lines": [
+            "這個念頭帶動手指往下滑，又看見了下一則內容。",
+            "就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": null,
+          "portraitInlineVerseChecked": true,
+          "caption": {
+            "clientHeight": 91,
+            "scrollHeight": 91,
+            "scrollTop": 0,
+            "overflow": "visible",
+            "fontSize": "20px",
+            "text": "這個念頭帶動手指往下滑，又看見了下一則內容。就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 11.859375,
+            "y": 139,
+            "width": 744.265625,
+            "height": 415.546875,
+            "top": 139,
+            "right": 756.125,
+            "bottom": 554.546875,
+            "left": 11.859375
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": false,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 46,
+          "lines": [
+            "在不斷的「放」與「取」之間，交織成了停不下來的人生。",
+            "別被此刻的念頭騙了，那只是猴子隨手抓起的一根枝條。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": null,
+          "portraitInlineVerseChecked": true,
+          "caption": {
+            "clientHeight": 91,
+            "scrollHeight": 91,
+            "scrollTop": 0,
+            "overflow": "visible",
+            "fontSize": "20px",
+            "text": "在不斷的「放」與「取」之間，交織成了停不下來的人生。別被此刻的念頭騙了，那只是猴子隨手抓起的一根枝條。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 11.859375,
+            "y": 139,
+            "width": 744.265625,
+            "height": 415.546875,
+            "top": 139,
+            "right": 756.125,
+            "bottom": 554.546875,
+            "left": 11.859375
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": false,
+          "overlayAndControlGuttersChecked": true
+        }
+      ],
+      "reloadAt45": true,
+      "completedSetUnchanged": true,
+      "bookmarksCorrectAfter45And46": true,
+      "sameArtworkHeightAcrossCueChanges": true,
+      "returnFlow": null
+    },
+    {
+      "mode": "ordered",
+      "viewport": [
+        844,
+        390
+      ],
+      "nativeTrace": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "states": [
+        {
+          "page": 43,
+          "lines": [
+            "但佛陀發現，這個觀察者像極了一隻在林間跳躍的小猴子。",
+            "你看，這隻猴子剛放掉舊的樹枝，下一秒又急著抓取新的。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 91,
+            "scrollHeight": 91,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "16px",
+            "text": "但佛陀發現，這個觀察者像極了一隻在林間跳躍的小猴子。你看，這隻猴子剛放掉舊的樹枝，下一秒又急著抓取新的。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 208.15625,
+            "y": 91.1953125,
+            "width": 427.6875,
+            "height": 238.796875,
+            "top": 91.1953125,
+            "right": 635.84375,
+            "bottom": 329.9921875,
+            "left": 208.15625
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": true,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 44,
+          "lines": [
+            "這就像你在滑手機：依著眼睛與畫面，生起看見的識。",
+            "看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 91,
+            "scrollHeight": 91,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "16px",
+            "text": "這就像你在滑手機：依著眼睛與畫面，生起看見的識。看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 208.15625,
+            "y": 91.1953125,
+            "width": 427.6875,
+            "height": 238.796875,
+            "top": 91.1953125,
+            "right": 635.84375,
+            "bottom": 329.9921875,
+            "left": 208.15625
+          },
+          "actualSourceImage": "../assets/scene-11-right-dark.webp",
+          "leftMaskHidden": true,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 45,
+          "lines": [
+            "這個念頭帶動手指往下滑，又看見了下一則內容。",
+            "就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 91,
+            "scrollHeight": 91,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "16px",
+            "text": "這個念頭帶動手指往下滑，又看見了下一則內容。就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 208.15625,
+            "y": 91.1953125,
+            "width": 427.6875,
+            "height": 238.796875,
+            "top": 91.1953125,
+            "right": 635.84375,
+            "bottom": 329.9921875,
+            "left": 208.15625
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": false,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 46,
+          "lines": [
+            "在不斷的「放」與「取」之間，交織成了停不下來的人生。",
+            "別被此刻的念頭騙了，那只是猴子隨手抓起的一根枝條。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 91,
+            "scrollHeight": 91,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "16px",
+            "text": "在不斷的「放」與「取」之間，交織成了停不下來的人生。別被此刻的念頭騙了，那只是猴子隨手抓起的一根枝條。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 208.15625,
+            "y": 91.1953125,
+            "width": 427.6875,
+            "height": 238.796875,
+            "top": 91.1953125,
+            "right": 635.84375,
+            "bottom": 329.9921875,
+            "left": 208.15625
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": false,
+          "overlayAndControlGuttersChecked": true
+        }
+      ],
+      "reloadAt45": true,
+      "completedSetUnchanged": true,
+      "bookmarksCorrectAfter45And46": true,
+      "sameArtworkHeightAcrossCueChanges": true,
+      "returnFlow": "native ordered reader→map; completed set/bookmark preserved"
+    },
+    {
+      "mode": "ordered",
+      "viewport": [
+        360,
+        800
+      ],
+      "nativeTrace": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "states": [
+        {
+          "page": 43,
+          "lines": [
+            "但佛陀發現，這個觀察者像極了一隻在林間跳躍的小猴子。",
+            "你看，這隻猴子剛放掉舊的樹枝，下一秒又急著抓取新的。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": null,
+          "portraitInlineVerseChecked": true,
+          "caption": {
+            "clientHeight": 153,
+            "scrollHeight": 153,
+            "scrollTop": 0,
+            "overflow": "visible",
+            "fontSize": "20px",
+            "text": "但佛陀發現，這個觀察者像極了一隻在林間跳躍的小猴子。你看，這隻猴子剛放掉舊的樹枝，下一秒又急著抓取新的。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 0.890625,
+            "y": 200.796875,
+            "width": 358.203125,
+            "height": 200,
+            "top": 200.796875,
+            "right": 359.09375,
+            "bottom": 400.796875,
+            "left": 0.890625
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": true,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 44,
+          "lines": [
+            "這就像你在滑手機：依著眼睛與畫面，生起看見的識。",
+            "看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": null,
+          "portraitInlineVerseChecked": true,
+          "caption": {
+            "clientHeight": 153,
+            "scrollHeight": 153,
+            "scrollTop": 0,
+            "overflow": "visible",
+            "fontSize": "20px",
+            "text": "這就像你在滑手機：依著眼睛與畫面，生起看見的識。看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 0.890625,
+            "y": 200.796875,
+            "width": 358.203125,
+            "height": 200,
+            "top": 200.796875,
+            "right": 359.09375,
+            "bottom": 400.796875,
+            "left": 0.890625
+          },
+          "actualSourceImage": "../assets/scene-11-right-dark.webp",
+          "leftMaskHidden": true,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 45,
+          "lines": [
+            "這個念頭帶動手指往下滑，又看見了下一則內容。",
+            "就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": null,
+          "portraitInlineVerseChecked": true,
+          "caption": {
+            "clientHeight": 153,
+            "scrollHeight": 153,
+            "scrollTop": 0,
+            "overflow": "visible",
+            "fontSize": "20px",
+            "text": "這個念頭帶動手指往下滑，又看見了下一則內容。就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 0.890625,
+            "y": 200.796875,
+            "width": 358.203125,
+            "height": 200,
+            "top": 200.796875,
+            "right": 359.09375,
+            "bottom": 400.796875,
+            "left": 0.890625
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": false,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 46,
+          "lines": [
+            "在不斷的「放」與「取」之間，交織成了停不下來的人生。",
+            "別被此刻的念頭騙了，那只是猴子隨手抓起的一根枝條。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": null,
+          "portraitInlineVerseChecked": true,
+          "caption": {
+            "clientHeight": 153,
+            "scrollHeight": 153,
+            "scrollTop": 0,
+            "overflow": "visible",
+            "fontSize": "20px",
+            "text": "在不斷的「放」與「取」之間，交織成了停不下來的人生。別被此刻的念頭騙了，那只是猴子隨手抓起的一根枝條。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 0.890625,
+            "y": 200.796875,
+            "width": 358.203125,
+            "height": 200,
+            "top": 200.796875,
+            "right": 359.09375,
+            "bottom": 400.796875,
+            "left": 0.890625
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": false,
+          "overlayAndControlGuttersChecked": true
+        }
+      ],
+      "reloadAt45": true,
+      "completedSetUnchanged": true,
+      "bookmarksCorrectAfter45And46": true,
+      "sameArtworkHeightAcrossCueChanges": true,
+      "returnFlow": null
+    },
+    {
+      "mode": "review",
+      "viewport": [
+        1916,
+        963
+      ],
+      "nativeTrace": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "states": [
+        {
+          "page": 43,
+          "lines": [
+            "但佛陀發現，這個觀察者像極了一隻在林間跳躍的小猴子。",
+            "你看，這隻猴子剛放掉舊的樹枝，下一秒又急著抓取新的。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 110,
+            "scrollHeight": 110,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "20px",
+            "text": "但佛陀發現，這個觀察者像極了一隻在林間跳躍的小猴子。你看，這隻猴子剛放掉舊的樹枝，下一秒又急著抓取新的。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 248.2109375,
+            "y": 110,
+            "width": 1419.578125,
+            "height": 792.59375,
+            "top": 110,
+            "right": 1667.7890625,
+            "bottom": 902.59375,
+            "left": 248.2109375
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": true,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 44,
+          "lines": [
+            "這就像你在滑手機：依著眼睛與畫面，生起看見的識。",
+            "看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 110,
+            "scrollHeight": 110,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "20px",
+            "text": "這就像你在滑手機：依著眼睛與畫面，生起看見的識。看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 248.2109375,
+            "y": 110,
+            "width": 1419.578125,
+            "height": 792.59375,
+            "top": 110,
+            "right": 1667.7890625,
+            "bottom": 902.59375,
+            "left": 248.2109375
+          },
+          "actualSourceImage": "../assets/scene-11-right-dark.webp",
+          "leftMaskHidden": true,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 45,
+          "lines": [
+            "這個念頭帶動手指往下滑，又看見了下一則內容。",
+            "就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 110,
+            "scrollHeight": 110,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "20px",
+            "text": "這個念頭帶動手指往下滑，又看見了下一則內容。就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 248.2109375,
+            "y": 110,
+            "width": 1419.578125,
+            "height": 792.59375,
+            "top": 110,
+            "right": 1667.7890625,
+            "bottom": 902.59375,
+            "left": 248.2109375
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": false,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 46,
+          "lines": [
+            "在不斷的「放」與「取」之間，交織成了停不下來的人生。",
+            "別被此刻的念頭騙了，那只是猴子隨手抓起的一根枝條。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 110,
+            "scrollHeight": 110,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "20px",
+            "text": "在不斷的「放」與「取」之間，交織成了停不下來的人生。別被此刻的念頭騙了，那只是猴子隨手抓起的一根枝條。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 248.2109375,
+            "y": 110,
+            "width": 1419.578125,
+            "height": 792.59375,
+            "top": 110,
+            "right": 1667.7890625,
+            "bottom": 902.59375,
+            "left": 248.2109375
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": false,
+          "overlayAndControlGuttersChecked": true
+        }
+      ],
+      "reloadAt45": true,
+      "completedSetUnchanged": true,
+      "bookmarksCorrectAfter45And46": true,
+      "sameArtworkHeightAcrossCueChanges": true,
+      "returnFlow": null
+    },
+    {
+      "mode": "review",
+      "viewport": [
+        1280,
+        900
+      ],
+      "nativeTrace": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "states": [
+        {
+          "page": 43,
+          "lines": [
+            "但佛陀發現，這個觀察者像極了一隻在林間跳躍的小猴子。",
+            "你看，這隻猴子剛放掉舊的樹枝，下一秒又急著抓取新的。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 110,
+            "scrollHeight": 110,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "20px",
+            "text": "但佛陀發現，這個觀察者像極了一隻在林間跳躍的小猴子。你看，這隻猴子剛放掉舊的樹枝，下一秒又急著抓取新的。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 58.90625,
+            "y": 150.359375,
+            "width": 1162.1875,
+            "height": 648.875,
+            "top": 150.359375,
+            "right": 1221.09375,
+            "bottom": 799.234375,
+            "left": 58.90625
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": true,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 44,
+          "lines": [
+            "這就像你在滑手機：依著眼睛與畫面，生起看見的識。",
+            "看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 110,
+            "scrollHeight": 110,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "20px",
+            "text": "這就像你在滑手機：依著眼睛與畫面，生起看見的識。看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 58.90625,
+            "y": 150.359375,
+            "width": 1162.1875,
+            "height": 648.875,
+            "top": 150.359375,
+            "right": 1221.09375,
+            "bottom": 799.234375,
+            "left": 58.90625
+          },
+          "actualSourceImage": "../assets/scene-11-right-dark.webp",
+          "leftMaskHidden": true,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 45,
+          "lines": [
+            "這個念頭帶動手指往下滑，又看見了下一則內容。",
+            "就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 110,
+            "scrollHeight": 110,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "20px",
+            "text": "這個念頭帶動手指往下滑，又看見了下一則內容。就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 58.90625,
+            "y": 150.359375,
+            "width": 1162.1875,
+            "height": 648.875,
+            "top": 150.359375,
+            "right": 1221.09375,
+            "bottom": 799.234375,
+            "left": 58.90625
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": false,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 46,
+          "lines": [
+            "在不斷的「放」與「取」之間，交織成了停不下來的人生。",
+            "別被此刻的念頭騙了，那只是猴子隨手抓起的一根枝條。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 110,
+            "scrollHeight": 110,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "20px",
+            "text": "在不斷的「放」與「取」之間，交織成了停不下來的人生。別被此刻的念頭騙了，那只是猴子隨手抓起的一根枝條。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 58.90625,
+            "y": 150.359375,
+            "width": 1162.1875,
+            "height": 648.875,
+            "top": 150.359375,
+            "right": 1221.09375,
+            "bottom": 799.234375,
+            "left": 58.90625
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": false,
+          "overlayAndControlGuttersChecked": true
+        }
+      ],
+      "reloadAt45": true,
+      "completedSetUnchanged": true,
+      "bookmarksCorrectAfter45And46": true,
+      "sameArtworkHeightAcrossCueChanges": true,
+      "returnFlow": "native reader→shelf→resume page46"
+    },
+    {
+      "mode": "review",
+      "viewport": [
+        1024,
+        768
+      ],
+      "nativeTrace": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "states": [
+        {
+          "page": 43,
+          "lines": [
+            "但佛陀發現，這個觀察者像極了一隻在林間跳躍的小猴子。",
+            "你看，這隻猴子剛放掉舊的樹枝，下一秒又急著抓取新的。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 110,
+            "scrollHeight": 110,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "20px",
+            "text": "但佛陀發現，這個觀察者像極了一隻在林間跳躍的小猴子。你看，這隻猴子剛放掉舊的樹枝，下一秒又急著抓取新的。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 58.2734375,
+            "y": 155.46875,
+            "width": 907.453125,
+            "height": 506.65625,
+            "top": 155.46875,
+            "right": 965.7265625,
+            "bottom": 662.125,
+            "left": 58.2734375
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": true,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 44,
+          "lines": [
+            "這就像你在滑手機：依著眼睛與畫面，生起看見的識。",
+            "看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 110,
+            "scrollHeight": 110,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "20px",
+            "text": "這就像你在滑手機：依著眼睛與畫面，生起看見的識。看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 58.2734375,
+            "y": 155.46875,
+            "width": 907.453125,
+            "height": 506.65625,
+            "top": 155.46875,
+            "right": 965.7265625,
+            "bottom": 662.125,
+            "left": 58.2734375
+          },
+          "actualSourceImage": "../assets/scene-11-right-dark.webp",
+          "leftMaskHidden": true,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 45,
+          "lines": [
+            "這個念頭帶動手指往下滑，又看見了下一則內容。",
+            "就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 110,
+            "scrollHeight": 110,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "20px",
+            "text": "這個念頭帶動手指往下滑，又看見了下一則內容。就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 58.2734375,
+            "y": 155.46875,
+            "width": 907.453125,
+            "height": 506.65625,
+            "top": 155.46875,
+            "right": 965.7265625,
+            "bottom": 662.125,
+            "left": 58.2734375
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": false,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 46,
+          "lines": [
+            "在不斷的「放」與「取」之間，交織成了停不下來的人生。",
+            "別被此刻的念頭騙了，那只是猴子隨手抓起的一根枝條。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 110,
+            "scrollHeight": 110,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "20px",
+            "text": "在不斷的「放」與「取」之間，交織成了停不下來的人生。別被此刻的念頭騙了，那只是猴子隨手抓起的一根枝條。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 58.2734375,
+            "y": 155.46875,
+            "width": 907.453125,
+            "height": 506.65625,
+            "top": 155.46875,
+            "right": 965.7265625,
+            "bottom": 662.125,
+            "left": 58.2734375
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": false,
+          "overlayAndControlGuttersChecked": true
+        }
+      ],
+      "reloadAt45": true,
+      "completedSetUnchanged": true,
+      "bookmarksCorrectAfter45And46": true,
+      "sameArtworkHeightAcrossCueChanges": true,
+      "returnFlow": null
+    },
+    {
+      "mode": "review",
+      "viewport": [
+        768,
+        1024
+      ],
+      "nativeTrace": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "states": [
+        {
+          "page": 43,
+          "lines": [
+            "但佛陀發現，這個觀察者像極了一隻在林間跳躍的小猴子。",
+            "你看，這隻猴子剛放掉舊的樹枝，下一秒又急著抓取新的。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": null,
+          "portraitInlineVerseChecked": true,
+          "caption": {
+            "clientHeight": 91,
+            "scrollHeight": 91,
+            "scrollTop": 0,
+            "overflow": "visible",
+            "fontSize": "20px",
+            "text": "但佛陀發現，這個觀察者像極了一隻在林間跳躍的小猴子。你看，這隻猴子剛放掉舊的樹枝，下一秒又急著抓取新的。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 11.859375,
+            "y": 139,
+            "width": 744.265625,
+            "height": 415.546875,
+            "top": 139,
+            "right": 756.125,
+            "bottom": 554.546875,
+            "left": 11.859375
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": true,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 44,
+          "lines": [
+            "這就像你在滑手機：依著眼睛與畫面，生起看見的識。",
+            "看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": null,
+          "portraitInlineVerseChecked": true,
+          "caption": {
+            "clientHeight": 91,
+            "scrollHeight": 91,
+            "scrollTop": 0,
+            "overflow": "visible",
+            "fontSize": "20px",
+            "text": "這就像你在滑手機：依著眼睛與畫面，生起看見的識。看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 11.859375,
+            "y": 139,
+            "width": 744.265625,
+            "height": 415.546875,
+            "top": 139,
+            "right": 756.125,
+            "bottom": 554.546875,
+            "left": 11.859375
+          },
+          "actualSourceImage": "../assets/scene-11-right-dark.webp",
+          "leftMaskHidden": true,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 45,
+          "lines": [
+            "這個念頭帶動手指往下滑，又看見了下一則內容。",
+            "就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": null,
+          "portraitInlineVerseChecked": true,
+          "caption": {
+            "clientHeight": 91,
+            "scrollHeight": 91,
+            "scrollTop": 0,
+            "overflow": "visible",
+            "fontSize": "20px",
+            "text": "這個念頭帶動手指往下滑，又看見了下一則內容。就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 11.859375,
+            "y": 139,
+            "width": 744.265625,
+            "height": 415.546875,
+            "top": 139,
+            "right": 756.125,
+            "bottom": 554.546875,
+            "left": 11.859375
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": false,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 46,
+          "lines": [
+            "在不斷的「放」與「取」之間，交織成了停不下來的人生。",
+            "別被此刻的念頭騙了，那只是猴子隨手抓起的一根枝條。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": null,
+          "portraitInlineVerseChecked": true,
+          "caption": {
+            "clientHeight": 91,
+            "scrollHeight": 91,
+            "scrollTop": 0,
+            "overflow": "visible",
+            "fontSize": "20px",
+            "text": "在不斷的「放」與「取」之間，交織成了停不下來的人生。別被此刻的念頭騙了，那只是猴子隨手抓起的一根枝條。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 11.859375,
+            "y": 139,
+            "width": 744.265625,
+            "height": 415.546875,
+            "top": 139,
+            "right": 756.125,
+            "bottom": 554.546875,
+            "left": 11.859375
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": false,
+          "overlayAndControlGuttersChecked": true
+        }
+      ],
+      "reloadAt45": true,
+      "completedSetUnchanged": true,
+      "bookmarksCorrectAfter45And46": true,
+      "sameArtworkHeightAcrossCueChanges": true,
+      "returnFlow": null
+    },
+    {
+      "mode": "review",
+      "viewport": [
+        844,
+        390
+      ],
+      "nativeTrace": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "states": [
+        {
+          "page": 43,
+          "lines": [
+            "但佛陀發現，這個觀察者像極了一隻在林間跳躍的小猴子。",
+            "你看，這隻猴子剛放掉舊的樹枝，下一秒又急著抓取新的。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 91,
+            "scrollHeight": 91,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "16px",
+            "text": "但佛陀發現，這個觀察者像極了一隻在林間跳躍的小猴子。你看，這隻猴子剛放掉舊的樹枝，下一秒又急著抓取新的。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 208.15625,
+            "y": 91.1953125,
+            "width": 427.6875,
+            "height": 238.796875,
+            "top": 91.1953125,
+            "right": 635.84375,
+            "bottom": 329.9921875,
+            "left": 208.15625
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": true,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 44,
+          "lines": [
+            "這就像你在滑手機：依著眼睛與畫面，生起看見的識。",
+            "看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 91,
+            "scrollHeight": 91,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "16px",
+            "text": "這就像你在滑手機：依著眼睛與畫面，生起看見的識。看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 208.15625,
+            "y": 91.1953125,
+            "width": 427.6875,
+            "height": 238.796875,
+            "top": 91.1953125,
+            "right": 635.84375,
+            "bottom": 329.9921875,
+            "left": 208.15625
+          },
+          "actualSourceImage": "../assets/scene-11-right-dark.webp",
+          "leftMaskHidden": true,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 45,
+          "lines": [
+            "這個念頭帶動手指往下滑，又看見了下一則內容。",
+            "就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 91,
+            "scrollHeight": 91,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "16px",
+            "text": "這個念頭帶動手指往下滑，又看見了下一則內容。就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 208.15625,
+            "y": 91.1953125,
+            "width": 427.6875,
+            "height": 238.796875,
+            "top": 91.1953125,
+            "right": 635.84375,
+            "bottom": 329.9921875,
+            "left": 208.15625
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": false,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 46,
+          "lines": [
+            "在不斷的「放」與「取」之間，交織成了停不下來的人生。",
+            "別被此刻的念頭騙了，那只是猴子隨手抓起的一根枝條。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "portraitInlineVerseChecked": false,
+          "caption": {
+            "clientHeight": 91,
+            "scrollHeight": 91,
+            "scrollTop": 0,
+            "overflow": "auto",
+            "fontSize": "16px",
+            "text": "在不斷的「放」與「取」之間，交織成了停不下來的人生。別被此刻的念頭騙了，那只是猴子隨手抓起的一根枝條。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 208.15625,
+            "y": 91.1953125,
+            "width": 427.6875,
+            "height": 238.796875,
+            "top": 91.1953125,
+            "right": 635.84375,
+            "bottom": 329.9921875,
+            "left": 208.15625
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": false,
+          "overlayAndControlGuttersChecked": true
+        }
+      ],
+      "reloadAt45": true,
+      "completedSetUnchanged": true,
+      "bookmarksCorrectAfter45And46": true,
+      "sameArtworkHeightAcrossCueChanges": true,
+      "returnFlow": null
+    },
+    {
+      "mode": "review",
+      "viewport": [
+        360,
+        800
+      ],
+      "nativeTrace": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "states": [
+        {
+          "page": 43,
+          "lines": [
+            "但佛陀發現，這個觀察者像極了一隻在林間跳躍的小猴子。",
+            "你看，這隻猴子剛放掉舊的樹枝，下一秒又急著抓取新的。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": null,
+          "portraitInlineVerseChecked": true,
+          "caption": {
+            "clientHeight": 153,
+            "scrollHeight": 153,
+            "scrollTop": 0,
+            "overflow": "visible",
+            "fontSize": "20px",
+            "text": "但佛陀發現，這個觀察者像極了一隻在林間跳躍的小猴子。你看，這隻猴子剛放掉舊的樹枝，下一秒又急著抓取新的。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 0.890625,
+            "y": 200.796875,
+            "width": 358.203125,
+            "height": 200,
+            "top": 200.796875,
+            "right": 359.09375,
+            "bottom": 400.796875,
+            "left": 0.890625
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": true,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 44,
+          "lines": [
+            "這就像你在滑手機：依著眼睛與畫面，生起看見的識。",
+            "看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": null,
+          "portraitInlineVerseChecked": true,
+          "caption": {
+            "clientHeight": 153,
+            "scrollHeight": 153,
+            "scrollTop": 0,
+            "overflow": "visible",
+            "fontSize": "20px",
+            "text": "這就像你在滑手機：依著眼睛與畫面，生起看見的識。看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 0.890625,
+            "y": 200.796875,
+            "width": 358.203125,
+            "height": 200,
+            "top": 200.796875,
+            "right": 359.09375,
+            "bottom": 400.796875,
+            "left": 0.890625
+          },
+          "actualSourceImage": "../assets/scene-11-right-dark.webp",
+          "leftMaskHidden": true,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 45,
+          "lines": [
+            "這個念頭帶動手指往下滑，又看見了下一則內容。",
+            "就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": null,
+          "portraitInlineVerseChecked": true,
+          "caption": {
+            "clientHeight": 153,
+            "scrollHeight": 153,
+            "scrollTop": 0,
+            "overflow": "visible",
+            "fontSize": "20px",
+            "text": "這個念頭帶動手指往下滑，又看見了下一則內容。就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 0.890625,
+            "y": 200.796875,
+            "width": 358.203125,
+            "height": 200,
+            "top": 200.796875,
+            "right": 359.09375,
+            "bottom": 400.796875,
+            "left": 0.890625
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": false,
+          "overlayAndControlGuttersChecked": true
+        },
+        {
+          "page": 46,
+          "lines": [
+            "在不斷的「放」與「取」之間，交織成了停不下來的人生。",
+            "別被此刻的念頭騙了，那只是猴子隨手抓起的一根枝條。"
+          ],
+          "source": "../#sa289",
+          "verse": "《雜阿含經》第289經\n彼心、意、識日夜時刻，須臾轉變，異生、異滅。猶如獼猴遊林樹間，須臾處處，攀捉枝條，放一取一。彼心、意、識亦復如是，異生、異滅。",
+          "dialog": null,
+          "portraitInlineVerseChecked": true,
+          "caption": {
+            "clientHeight": 153,
+            "scrollHeight": 153,
+            "scrollTop": 0,
+            "overflow": "visible",
+            "fontSize": "20px",
+            "text": "在不斷的「放」與「取」之間，交織成了停不下來的人生。別被此刻的念頭騙了，那只是猴子隨手抓起的一根枝條。"
+          },
+          "longCaptionNativeScroll": null,
+          "artFrame": {
+            "x": 0.890625,
+            "y": 200.796875,
+            "width": 358.203125,
+            "height": 200,
+            "top": 200.796875,
+            "right": 359.09375,
+            "bottom": 400.796875,
+            "left": 0.890625
+          },
+          "actualSourceImage": "../assets/scene-11.webp",
+          "leftMaskHidden": false,
+          "overlayAndControlGuttersChecked": true
+        }
+      ],
+      "reloadAt45": true,
+      "completedSetUnchanged": true,
+      "bookmarksCorrectAfter45And46": true,
+      "sameArtworkHeightAcrossCueChanges": true,
+      "returnFlow": null
+    }
+  ],
+  "runtimeDataGuard": {
+    "steps": 77,
+    "changedPageLinesOnly": [
+      44,
+      45
+    ],
+    "otherPageFieldsAndAllOtherPagesIdentical": true
+  },
+  "screenshots": 3,
+  "result": "pass",
+  "summary": {
+    "cases": 18,
+    "sizes": 6,
+    "modes": [
+      "public",
+      "ordered",
+      "review"
+    ],
+    "nativeTracePerCase": [
+      43,
+      44,
+      45,
+      46
+    ],
+    "actualNativeTraceStates": 72,
+    "steps": 77,
+    "screenshots": 3,
+    "jsErrors": 0,
+    "httpErrors": 0,
+    "completedSetsUnchanged": true
+  },
+  "limitations": [
+    "Local headless Chromium viewport/touch simulation, not physical Safari/iPhone/iPad.",
+    "showPage only selected existingpage43 as the allowed prelude; subsequent43→44→45→46 were actual next-button interactions, not a complete77-page reread.",
+    "Public inline scripture checked in portrait; actual本頁經文 dialog exercised wherever landscape control is visible.",
+    "Isolated mainline/review fixtures preserve completed sets while legitimate bookmarks advance to current page; review does not increase completed count."
+  ]
+}

@@ -1,3 +1,11 @@
+# 十二因緣44–45頁手機譬喻核可改稿（2026-11-24）
+
+接續已發布PR83／main `3d0699a9958908cae0e667014e3bf4bb65466f79`，於乾淨分支 `fix/twelve-phone-narration` 實作。作者核可前一輪討論的兩頁新版旁白，移除識／名色括號分類及「前一刻名色行為產生前一刻識」，改為依眼與畫面生起看見的識、感到愉快而想繼續看、手指滑動及獼猴攀枝的比喻。同步runtime的scene／page文字與維護CSV；封存原件、SA289經文／來源、插圖、遮罩、頁碼／步數與書籤不變。先前這兩頁「待核定」紀錄至此被新核准取代，八正道69頁及其餘未核可建議仍不改。
+
+僅該書HTML更新資料快取 `twelve-phone-1`，共享字幕／圖框維持已發布 `approved-copy-1`；公開及遊戲共用同一讀本。詳[精確新舊文與維護](readers/twelve-phone/README.md)、[驗證及代表截圖](previews/twelve-phone/README.md)。QA排除新增一處，共27處，Pages維持legacy main:/。 本輪public／ordered／review×6尺寸共18組原生43→44→45→46、45重整、書籤／完成數、回書架／海圖、引文彈窗與圖框／文字避讓皆通過，JS／同源HTTP錯誤0；精確資料差異與15核心檔／21原插畫保護通過。沿用作者更新發布授權，經PR及精確merge SHA之Pages／live驗收後交付；發布狀態與驗證結果以PR交付紀錄為準，實機iPhone／iPad Safari未測。
+
+---
+
 # 核可出處／人物校訂與十四本三行口白（2026-11-24）
 
 從已發布PR80／main `a238a0fb549966ac0510b5b89f18b913c8ec40b6` 建立`fix/approved-reader-copy`，初始乾淨。作者核可五陰7–9頁SA41、43頁完整未來識句；四不壞淨85頁訶梨聚落主長者、四聖諦1頁舍利弗、安那般那76頁阿難。Five新41經來源卡／CSV同步；Purities editorial-corrections及Anapana reader-edits可重建，原storyboard/archive保留。八正道69與十二44–45及其餘未核定稿件不改。原稽核PR81與五城試版PR82仍獨立，未帶入本輪。
