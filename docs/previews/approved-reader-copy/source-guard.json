@@ -1,0 +1,16 @@
+{
+  "baseline": "a238a0fb549966ac0510b5b89f18b913c8ec40b6",
+  "originalArtworkStoryboardsAndOriginalBookLogic": "Native book JS/CSS, original art and archival storyboards unchanged; permitted narration and Five source/quote cells are recorded in the precise data validations.",
+  "protectedChanges": [],
+  "otherThirteenReaderHtml": "cache queries only",
+  "pendingEighth69AndTwelve44to45": "Original data bytes unchanged; only shared layout/cache updated",
+  "rootHomeMapSeoGoogleAndPolicyStorage": "byte-identical",
+  "offline": {
+    "members": 30,
+    "bytes": 6668560,
+    "sha256": "84e8f4b8c76975d7f703c2fc7965fcadcba5afbe4ad6a42323fddfb27256938d",
+    "crc": "passed",
+    "sharedFilesExact": true,
+    "originalArtworkBookDataAndNativeJsMatchPriorZip": true
+  }
+}

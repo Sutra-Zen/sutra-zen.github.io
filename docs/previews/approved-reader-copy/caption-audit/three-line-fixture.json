@@ -1,0 +1,136 @@
+{
+  "result": "passed",
+  "scope": "Synthetic layout edge case only; not counted in1192 actual reading steps or7152 source samples; no repository/manuscript writes",
+  "cases": [
+    {
+      "viewport": [
+        1916,
+        963
+      ],
+      "book": "five-aggregates",
+      "existingPage": 44,
+      "fixture": "Temporary DOM-only three separate paragraph lines, not manuscript or added reading ID",
+      "originalFontAndParagraphMargin": true,
+      "artHeightBefore": 792.59375,
+      "artHeightAfter": 792.59375,
+      "geometry": {
+        "selector": "#caption",
+        "textCharacters": 43,
+        "lineCount": 3,
+        "firstThree": [
+          {
+            "left": 84.390625,
+            "right": 304.390625,
+            "top": 7,
+            "bottom": 36
+          },
+          {
+            "left": 84.390625,
+            "right": 344.390625,
+            "top": 39.796875,
+            "bottom": 68.796875
+          },
+          {
+            "left": 84.390625,
+            "right": 384.390625,
+            "top": 72.59375,
+            "bottom": 101.59375
+          }
+        ],
+        "rootBox": {
+          "left": 0,
+          "right": 1916,
+          "top": 0,
+          "bottom": 110
+        },
+        "clientHeight": 110,
+        "scrollHeight": 110,
+        "scrollTop": 0,
+        "overflowY": "auto",
+        "whiteSpace": "normal",
+        "paragraphWhiteSpace": [
+          "normal"
+        ],
+        "fontSize": "20px",
+        "lineHeight": "28px",
+        "contentExtent": 94.59375,
+        "fulltext": false,
+        "summary": false,
+        "fixed": true,
+        "standard": true,
+        "clamps": [],
+        "unscrollable": [],
+        "reach": {
+          "needed": false
+        },
+        "classification": "up-to-three-initially-visible",
+        "failures": []
+      }
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "book": "five-aggregates",
+      "existingPage": 44,
+      "fixture": "Temporary DOM-only three separate paragraph lines, not manuscript or added reading ID",
+      "originalFontAndParagraphMargin": true,
+      "artHeightBefore": 238.796875,
+      "artHeightAfter": 238.796875,
+      "geometry": {
+        "selector": "#caption",
+        "textCharacters": 43,
+        "lineCount": 3,
+        "firstThree": [
+          {
+            "left": 84.390625,
+            "right": 260.40625,
+            "top": 7,
+            "bottom": 31
+          },
+          {
+            "left": 84.390625,
+            "right": 292.40625,
+            "top": 33.21875,
+            "bottom": 57.21875
+          },
+          {
+            "left": 84.390625,
+            "right": 324.40625,
+            "top": 59.4375,
+            "bottom": 83.4375
+          }
+        ],
+        "rootBox": {
+          "left": 0,
+          "right": 844,
+          "top": 0,
+          "bottom": 91
+        },
+        "clientHeight": 91,
+        "scrollHeight": 91,
+        "scrollTop": 0,
+        "overflowY": "auto",
+        "whiteSpace": "normal",
+        "paragraphWhiteSpace": [
+          "normal"
+        ],
+        "fontSize": "16px",
+        "lineHeight": "22.4px",
+        "contentExtent": 76.4375,
+        "fulltext": false,
+        "summary": false,
+        "fixed": true,
+        "standard": true,
+        "clamps": [],
+        "unscrollable": [],
+        "reach": {
+          "needed": false
+        },
+        "classification": "up-to-three-initially-visible",
+        "failures": []
+      }
+    }
+  ]
+}

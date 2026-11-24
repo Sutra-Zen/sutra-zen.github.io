@@ -1,0 +1,65 @@
+{
+  "baseline": "a238a0fb549966ac0510b5b89f18b913c8ec40b6",
+  "originalSourceHashes": {
+    "sa41": "b4185cd91b4f30421f438529fc1826a9cfe8e5b03fb30930191772b475f9ad11",
+    "sa46": "bb952b4ba160a5973d0894546f7833723e48cbe5f650a164a4b56f0c0c902f8a"
+  },
+  "canonicalContinuousExcerptMatch": true,
+  "cases": [
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "nativeNextTrace": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "sa41SourceActionNavigatesAndBackRestores9": true,
+      "guideHasVersionTranslatorTwoButtonsAndExactExcerpt": true,
+      "native42to43ExactAuthorVerse": true,
+      "landscapeVerseDialogTested": false,
+      "noOverflow": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "nativeNextTrace": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "sa41SourceActionNavigatesAndBackRestores9": true,
+      "guideHasVersionTranslatorTwoButtonsAndExactExcerpt": true,
+      "native42to43ExactAuthorVerse": true,
+      "landscapeVerseDialogTested": true,
+      "noOverflow": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "nativeNextTrace": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "sa41SourceActionNavigatesAndBackRestores9": true,
+      "guideHasVersionTranslatorTwoButtonsAndExactExcerpt": true,
+      "native42to43ExactAuthorVerse": true,
+      "landscapeVerseDialogTested": false,
+      "noOverflow": true
+    }
+  ],
+  "javascriptErrors": [],
+  "sameOriginHttpErrors": [],
+  "physicalSafari": "Not tested; desktop Chromium with touch enabled and viewport simulation",
+  "result": "passed"
+}

@@ -113,6 +113,11 @@ body.reader-unified-controls .page.reader-stable-artwork #outside-labels {
     font-size:clamp(1rem,3.5dvh,1.25rem);line-height:1.4;
     overflow:auto;overscroll-behavior:contain;scrollbar-width:thin;
   }
+  /* Storyboard line breaks must not force a hidden third line on wide screens.
+     Paragraphs remain separate; narrow text can still scroll in this band. */
+  body.reader-unified-controls .page:is(.reader-stable-artwork,.reader-framed-heart) .scene :is(#caption,#reader-summary-caption) p {
+    white-space:normal;
+  }
   body.reader-unified-controls .page.reader-stable-artwork .scene .scripture {
     position:absolute;inset:auto 0 0;margin:0;
     height:var(--reader-scripture-space);min-height:var(--reader-scripture-space);

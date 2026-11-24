@@ -1,0 +1,1161 @@
+{
+  "baseline": "a238a0fb549966ac0510b5b89f18b913c8ec40b6",
+  "scope": "Focused approved copy/three-line layout Chromium QA, not all1192 repeat",
+  "physicalSafari": false,
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "fiveCases": [
+    {
+      "mode": "public",
+      "viewport": [
+        1916,
+        963
+      ],
+      "native43To44": true,
+      "page43ExactFutureQuote": "我今已為現在識所食，若復樂著未來識者，亦當復為彼識所食，如今現在。",
+      "page44": {
+        "caption": "了解這些後，不再執著過去的識，不再貪愛未來的識，\n對現在的識生起厭離、捨離欲望、滅除煩惱，走向解脫，\n使其滅而不增，退而不進，滅而不起，捨而不取。",
+        "band": {
+          "x": 0,
+          "y": 0,
+          "width": 1916,
+          "height": 110,
+          "top": 0,
+          "right": 1916,
+          "bottom": 110,
+          "left": 0
+        },
+        "clientHeight": 110,
+        "scrollHeight": 110,
+        "scrollTop": 0,
+        "whiteSpace": "normal",
+        "fontSize": "20px",
+        "lineHeight": "28px",
+        "paragraphRect": {
+          "x": 84.390625,
+          "y": 8,
+          "width": 1750.609375,
+          "height": 28,
+          "top": 8,
+          "right": 1835,
+          "bottom": 36,
+          "left": 84.390625
+        },
+        "lineRects": [
+          {
+            "x": 84.390625,
+            "y": 7,
+            "width": 1428.96875,
+            "height": 29,
+            "top": 7,
+            "right": 1513.359375,
+            "bottom": 36,
+            "left": 84.390625
+          }
+        ],
+        "overflow": "auto",
+        "clamp": "none",
+        "position": "44 / 54 頁"
+      },
+      "sameImageHeightBeforeAfter": [
+        792.59375,
+        792.59375
+      ],
+      "refreshSamePositionAndText": true,
+      "native6To9": [
+        {
+          "page": 7,
+          "verse": "云何色如實知？",
+          "source": "../#sa41"
+        },
+        {
+          "page": 8,
+          "verse": "諸所有色，一切四大及四大造色，是名色，如是色如實知。",
+          "source": "../#sa41"
+        },
+        {
+          "page": 9,
+          "verse": "諸所有色，一切四大及四大造色，是名色，如是色如實知。",
+          "source": "../#sa41"
+        }
+      ],
+      "reviewCompletedCountUnchanged": false
+    },
+    {
+      "mode": "public",
+      "viewport": [
+        1024,
+        768
+      ],
+      "native43To44": true,
+      "page43ExactFutureQuote": "我今已為現在識所食，若復樂著未來識者，亦當復為彼識所食，如今現在。",
+      "page44": {
+        "caption": "了解這些後，不再執著過去的識，不再貪愛未來的識，\n對現在的識生起厭離、捨離欲望、滅除煩惱，走向解脫，\n使其滅而不增，退而不進，滅而不起，捨而不取。",
+        "band": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 110,
+          "top": 0,
+          "right": 1024,
+          "bottom": 110,
+          "left": 0
+        },
+        "clientHeight": 110,
+        "scrollHeight": 110,
+        "scrollTop": 0,
+        "whiteSpace": "normal",
+        "fontSize": "20px",
+        "lineHeight": "28px",
+        "paragraphRect": {
+          "x": 84.390625,
+          "y": 8,
+          "width": 858.609375,
+          "height": 56,
+          "top": 8,
+          "right": 943,
+          "bottom": 64,
+          "left": 84.390625
+        },
+        "lineRects": [
+          {
+            "x": 84.390625,
+            "y": 7,
+            "width": 844.484375,
+            "height": 29,
+            "top": 7,
+            "right": 928.875,
+            "bottom": 36,
+            "left": 84.390625
+          },
+          {
+            "x": 84.390625,
+            "y": 35,
+            "width": 584.484375,
+            "height": 29,
+            "top": 35,
+            "right": 668.875,
+            "bottom": 64,
+            "left": 84.390625
+          }
+        ],
+        "overflow": "auto",
+        "clamp": "none",
+        "position": "44 / 54 頁"
+      },
+      "sameImageHeightBeforeAfter": [
+        506.65625,
+        506.65625
+      ],
+      "refreshSamePositionAndText": true,
+      "native6To9": [
+        {
+          "page": 7,
+          "verse": "云何色如實知？",
+          "source": "../#sa41"
+        },
+        {
+          "page": 8,
+          "verse": "諸所有色，一切四大及四大造色，是名色，如是色如實知。",
+          "source": "../#sa41"
+        },
+        {
+          "page": 9,
+          "verse": "諸所有色，一切四大及四大造色，是名色，如是色如實知。",
+          "source": "../#sa41"
+        }
+      ],
+      "reviewCompletedCountUnchanged": false
+    },
+    {
+      "mode": "public",
+      "viewport": [
+        844,
+        390
+      ],
+      "native43To44": true,
+      "page43ExactFutureQuote": "我今已為現在識所食，若復樂著未來識者，亦當復為彼識所食，如今現在。",
+      "page44": {
+        "caption": "了解這些後，不再執著過去的識，不再貪愛未來的識，\n對現在的識生起厭離、捨離欲望、滅除煩惱，走向解脫，\n使其滅而不增，退而不進，滅而不起，捨而不取。",
+        "band": {
+          "x": 0,
+          "y": 0,
+          "width": 844,
+          "height": 91.1875,
+          "top": 0,
+          "right": 844,
+          "bottom": 91.1875,
+          "left": 0
+        },
+        "clientHeight": 91,
+        "scrollHeight": 91,
+        "scrollTop": 0,
+        "whiteSpace": "normal",
+        "fontSize": "16px",
+        "lineHeight": "22.4px",
+        "paragraphRect": {
+          "x": 84.390625,
+          "y": 8,
+          "width": 678.609375,
+          "height": 44.78125,
+          "top": 8,
+          "right": 763,
+          "bottom": 52.78125,
+          "left": 84.390625
+        },
+        "lineRects": [
+          {
+            "x": 84.390625,
+            "y": 7,
+            "width": 675.59375,
+            "height": 24,
+            "top": 7,
+            "right": 759.984375,
+            "bottom": 31,
+            "left": 84.390625
+          },
+          {
+            "x": 84.390625,
+            "y": 29.390625,
+            "width": 467.59375,
+            "height": 24,
+            "top": 29.390625,
+            "right": 551.984375,
+            "bottom": 53.390625,
+            "left": 84.390625
+          }
+        ],
+        "overflow": "auto",
+        "clamp": "none",
+        "position": "44 / 54 頁"
+      },
+      "sameImageHeightBeforeAfter": [
+        238.796875,
+        238.796875
+      ],
+      "refreshSamePositionAndText": true,
+      "native6To9": [
+        {
+          "page": 7,
+          "verse": "云何色如實知？",
+          "source": "../#sa41"
+        },
+        {
+          "page": 8,
+          "verse": "諸所有色，一切四大及四大造色，是名色，如是色如實知。",
+          "source": "../#sa41"
+        },
+        {
+          "page": 9,
+          "verse": "諸所有色，一切四大及四大造色，是名色，如是色如實知。",
+          "source": "../#sa41"
+        }
+      ],
+      "reviewCompletedCountUnchanged": false
+    },
+    {
+      "mode": "review",
+      "viewport": [
+        1916,
+        963
+      ],
+      "native43To44": true,
+      "page43ExactFutureQuote": "我今已為現在識所食，若復樂著未來識者，亦當復為彼識所食，如今現在。",
+      "page44": {
+        "caption": "了解這些後，不再執著過去的識，不再貪愛未來的識，\n對現在的識生起厭離、捨離欲望、滅除煩惱，走向解脫，\n使其滅而不增，退而不進，滅而不起，捨而不取。",
+        "band": {
+          "x": 0,
+          "y": 0,
+          "width": 1916,
+          "height": 110,
+          "top": 0,
+          "right": 1916,
+          "bottom": 110,
+          "left": 0
+        },
+        "clientHeight": 110,
+        "scrollHeight": 110,
+        "scrollTop": 0,
+        "whiteSpace": "normal",
+        "fontSize": "20px",
+        "lineHeight": "28px",
+        "paragraphRect": {
+          "x": 93.75,
+          "y": 8,
+          "width": 1741.25,
+          "height": 28,
+          "top": 8,
+          "right": 1835,
+          "bottom": 36,
+          "left": 93.75
+        },
+        "lineRects": [
+          {
+            "x": 93.75,
+            "y": 7,
+            "width": 1428.96875,
+            "height": 29,
+            "top": 7,
+            "right": 1522.71875,
+            "bottom": 36,
+            "left": 93.75
+          }
+        ],
+        "overflow": "auto",
+        "clamp": "none",
+        "position": "44 / 54 頁"
+      },
+      "sameImageHeightBeforeAfter": [
+        792.59375,
+        792.59375
+      ],
+      "refreshSamePositionAndText": true,
+      "native6To9": [
+        {
+          "page": 7,
+          "verse": "云何色如實知？",
+          "source": "../#sa41"
+        },
+        {
+          "page": 8,
+          "verse": "諸所有色，一切四大及四大造色，是名色，如是色如實知。",
+          "source": "../#sa41"
+        },
+        {
+          "page": 9,
+          "verse": "諸所有色，一切四大及四大造色，是名色，如是色如實知。",
+          "source": "../#sa41"
+        }
+      ],
+      "reviewCompletedCountUnchanged": true
+    },
+    {
+      "mode": "review",
+      "viewport": [
+        1024,
+        768
+      ],
+      "native43To44": true,
+      "page43ExactFutureQuote": "我今已為現在識所食，若復樂著未來識者，亦當復為彼識所食，如今現在。",
+      "page44": {
+        "caption": "了解這些後，不再執著過去的識，不再貪愛未來的識，\n對現在的識生起厭離、捨離欲望、滅除煩惱，走向解脫，\n使其滅而不增，退而不進，滅而不起，捨而不取。",
+        "band": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 110,
+          "top": 0,
+          "right": 1024,
+          "bottom": 110,
+          "left": 0
+        },
+        "clientHeight": 110,
+        "scrollHeight": 110,
+        "scrollTop": 0,
+        "whiteSpace": "normal",
+        "fontSize": "20px",
+        "lineHeight": "28px",
+        "paragraphRect": {
+          "x": 93.75,
+          "y": 8,
+          "width": 849.25,
+          "height": 56,
+          "top": 8,
+          "right": 943,
+          "bottom": 64,
+          "left": 93.75
+        },
+        "lineRects": [
+          {
+            "x": 93.75,
+            "y": 7,
+            "width": 844.484375,
+            "height": 29,
+            "top": 7,
+            "right": 938.234375,
+            "bottom": 36,
+            "left": 93.75
+          },
+          {
+            "x": 93.75,
+            "y": 35,
+            "width": 584.484375,
+            "height": 29,
+            "top": 35,
+            "right": 678.234375,
+            "bottom": 64,
+            "left": 93.75
+          }
+        ],
+        "overflow": "auto",
+        "clamp": "none",
+        "position": "44 / 54 頁"
+      },
+      "sameImageHeightBeforeAfter": [
+        506.65625,
+        506.65625
+      ],
+      "refreshSamePositionAndText": true,
+      "native6To9": [
+        {
+          "page": 7,
+          "verse": "云何色如實知？",
+          "source": "../#sa41"
+        },
+        {
+          "page": 8,
+          "verse": "諸所有色，一切四大及四大造色，是名色，如是色如實知。",
+          "source": "../#sa41"
+        },
+        {
+          "page": 9,
+          "verse": "諸所有色，一切四大及四大造色，是名色，如是色如實知。",
+          "source": "../#sa41"
+        }
+      ],
+      "reviewCompletedCountUnchanged": true
+    },
+    {
+      "mode": "review",
+      "viewport": [
+        844,
+        390
+      ],
+      "native43To44": true,
+      "page43ExactFutureQuote": "我今已為現在識所食，若復樂著未來識者，亦當復為彼識所食，如今現在。",
+      "page44": {
+        "caption": "了解這些後，不再執著過去的識，不再貪愛未來的識，\n對現在的識生起厭離、捨離欲望、滅除煩惱，走向解脫，\n使其滅而不增，退而不進，滅而不起，捨而不取。",
+        "band": {
+          "x": 0,
+          "y": 0,
+          "width": 844,
+          "height": 91.1875,
+          "top": 0,
+          "right": 844,
+          "bottom": 91.1875,
+          "left": 0
+        },
+        "clientHeight": 91,
+        "scrollHeight": 91,
+        "scrollTop": 0,
+        "whiteSpace": "normal",
+        "fontSize": "16px",
+        "lineHeight": "22.4px",
+        "paragraphRect": {
+          "x": 93.75,
+          "y": 8,
+          "width": 669.25,
+          "height": 44.78125,
+          "top": 8,
+          "right": 763,
+          "bottom": 52.78125,
+          "left": 93.75
+        },
+        "lineRects": [
+          {
+            "x": 93.75,
+            "y": 7,
+            "width": 659.59375,
+            "height": 24,
+            "top": 7,
+            "right": 753.34375,
+            "bottom": 31,
+            "left": 93.75
+          },
+          {
+            "x": 93.75,
+            "y": 29.390625,
+            "width": 483.59375,
+            "height": 24,
+            "top": 29.390625,
+            "right": 577.34375,
+            "bottom": 53.390625,
+            "left": 93.75
+          }
+        ],
+        "overflow": "auto",
+        "clamp": "none",
+        "position": "44 / 54 頁"
+      },
+      "sameImageHeightBeforeAfter": [
+        238.796875,
+        238.796875
+      ],
+      "refreshSamePositionAndText": true,
+      "native6To9": [
+        {
+          "page": 7,
+          "verse": "云何色如實知？",
+          "source": "../#sa41"
+        },
+        {
+          "page": 8,
+          "verse": "諸所有色，一切四大及四大造色，是名色，如是色如實知。",
+          "source": "../#sa41"
+        },
+        {
+          "page": 9,
+          "verse": "諸所有色，一切四大及四大造色，是名色，如是色如實知。",
+          "source": "../#sa41"
+        }
+      ],
+      "reviewCompletedCountUnchanged": true
+    }
+  ],
+  "approvedNames": [
+    {
+      "book": "four-truths",
+      "page": 1,
+      "mode": "public",
+      "narration": "舍利弗曾說：就像所有動物的足跡，都能被容納在大象寬廣的腳印裡；世間所有關於幸福與智慧的秘密，",
+      "scripture": "中阿含經第30經：\n若有無量善法，彼一切法皆四聖諦所攝，來入四聖諦中，謂：四聖諦於一切法最為第一，所以者何？\n攝受一切眾善法故。諸賢！猶如諸畜之跡，象跡為第一，所以者何？彼象跡者最廣大故。",
+      "total": 29,
+      "nativeEntryOrPreviousNext": true,
+      "refreshBookmark": true,
+      "reviewCompletionUnchanged": false
+    },
+    {
+      "book": "four-truths",
+      "page": 1,
+      "mode": "review",
+      "narration": "舍利弗曾說：就像所有動物的足跡，都能被容納在大象寬廣的腳印裡；世間所有關於幸福與智慧的秘密，",
+      "scripture": "中阿含經第30經：\n若有無量善法，彼一切法皆四聖諦所攝，來入四聖諦中，謂：四聖諦於一切法最為第一，所以者何？\n攝受一切眾善法故。諸賢！猶如諸畜之跡，象跡為第一，所以者何？彼象跡者最廣大故。",
+      "total": 29,
+      "nativeEntryOrPreviousNext": true,
+      "refreshBookmark": true,
+      "reviewCompletionUnchanged": true
+    },
+    {
+      "book": "four-purities-six-recollections",
+      "page": 85,
+      "mode": "public",
+      "narration": "在雜阿含經554經中，訶梨聚落主長者在病痛中，學會了「六念」這門修法。",
+      "scripture": "《雜阿含經》第554經\n世尊說依四不壞淨，增六念處，我悉成就，我當修習念佛功德，念法、念僧、念戒、念施、念天。",
+      "total": 95,
+      "nativeEntryOrPreviousNext": true,
+      "refreshBookmark": true,
+      "reviewCompletionUnchanged": false
+    },
+    {
+      "book": "four-purities-six-recollections",
+      "page": 85,
+      "mode": "review",
+      "narration": "在雜阿含經554經中，訶梨聚落主長者在病痛中，學會了「六念」這門修法。",
+      "scripture": "《雜阿含經》第554經\n世尊說依四不壞淨，增六念處，我悉成就，我當修習念佛功德，念法、念僧、念戒、念施、念天。",
+      "total": 95,
+      "nativeEntryOrPreviousNext": true,
+      "refreshBookmark": true,
+      "reviewCompletionUnchanged": true
+    },
+    {
+      "book": "anapana",
+      "page": 76,
+      "mode": "public",
+      "narration": "另外阿難也說明了，每個人的特質不同，適合的修行風格也完全不同。",
+      "scripture": "雜阿含經第560經\n若比丘、比丘尼坐，作如是住心：善住心、局住心、調伏心、止觀一心、等受，分別於法、量度，修習多修習已，得斷諸使。",
+      "total": 119,
+      "nativeEntryOrPreviousNext": true,
+      "refreshBookmark": true,
+      "reviewCompletionUnchanged": false
+    },
+    {
+      "book": "anapana",
+      "page": 76,
+      "mode": "review",
+      "narration": "另外阿難也說明了，每個人的特質不同，適合的修行風格也完全不同。",
+      "scripture": "雜阿含經第560經\n若比丘、比丘尼坐，作如是住心：善住心、局住心、調伏心、止觀一心、等受，分別於法、量度，修習多修習已，得斷諸使。",
+      "total": 119,
+      "nativeEntryOrPreviousNext": true,
+      "refreshBookmark": true,
+      "reviewCompletionUnchanged": true
+    }
+  ],
+  "frameSmoke": [
+    {
+      "book": "four-truths",
+      "total": 29,
+      "publicSampleStates": [
+        {
+          "index": 0,
+          "height": 648.875,
+          "target": 648.8888888888889,
+          "captionSpace": "110px",
+          "topGuttersChecked": true,
+          "bottomLinksChecked": true
+        },
+        {
+          "index": 1,
+          "height": 648.875,
+          "target": 648.8888888888889,
+          "captionSpace": "110px",
+          "topGuttersChecked": true,
+          "bottomLinksChecked": true
+        }
+      ]
+    },
+    {
+      "book": "five-aggregates",
+      "total": 54,
+      "publicSampleStates": [
+        {
+          "index": 1,
+          "height": 648.875,
+          "target": 648.8888888888889,
+          "captionSpace": "110px",
+          "topGuttersChecked": true,
+          "bottomLinksChecked": true
+        },
+        {
+          "index": 2,
+          "height": 648.875,
+          "target": 648.8888888888889,
+          "captionSpace": "110px",
+          "topGuttersChecked": true,
+          "bottomLinksChecked": true
+        }
+      ]
+    },
+    {
+      "book": "six-senses",
+      "total": 115,
+      "publicSampleStates": [
+        {
+          "index": 1,
+          "height": 648.875,
+          "target": 648.8888888888889,
+          "captionSpace": "110px",
+          "topGuttersChecked": true,
+          "bottomLinksChecked": true
+        },
+        {
+          "index": 2,
+          "height": 648.875,
+          "target": 648.8888888888889,
+          "captionSpace": "110px",
+          "topGuttersChecked": true,
+          "bottomLinksChecked": true
+        }
+      ]
+    },
+    {
+      "book": "twelve-links",
+      "total": 77,
+      "publicSampleStates": [
+        {
+          "index": 0,
+          "height": 648.875,
+          "target": 648.8888888888889,
+          "captionSpace": "110px",
+          "topGuttersChecked": true,
+          "bottomLinksChecked": true
+        },
+        {
+          "index": 1,
+          "height": 648.875,
+          "target": 648.8888888888889,
+          "captionSpace": "110px",
+          "topGuttersChecked": true,
+          "bottomLinksChecked": true
+        }
+      ]
+    },
+    {
+      "book": "eightfold-path",
+      "total": 111,
+      "publicSampleStates": [
+        {
+          "index": 0,
+          "height": 648.875,
+          "target": 648.8888888888889,
+          "captionSpace": "110px",
+          "topGuttersChecked": true,
+          "bottomLinksChecked": true
+        },
+        {
+          "index": 1,
+          "height": 648.875,
+          "target": 648.8888888888889,
+          "captionSpace": "110px",
+          "topGuttersChecked": true,
+          "bottomLinksChecked": true
+        }
+      ]
+    },
+    {
+      "book": "four-purities-six-recollections",
+      "total": 95,
+      "publicSampleStates": [
+        {
+          "index": 0,
+          "height": 648.875,
+          "target": 648.8888888888889,
+          "captionSpace": "110px",
+          "topGuttersChecked": true,
+          "bottomLinksChecked": true
+        },
+        {
+          "index": 1,
+          "height": 648.875,
+          "target": 648.8888888888889,
+          "captionSpace": "110px",
+          "topGuttersChecked": true,
+          "bottomLinksChecked": true
+        }
+      ]
+    },
+    {
+      "book": "mindfulness",
+      "total": 111,
+      "publicSampleStates": [
+        {
+          "index": 0,
+          "height": 648.875,
+          "target": 648.8888888888889,
+          "captionSpace": "110px",
+          "topGuttersChecked": true,
+          "bottomLinksChecked": true
+        },
+        {
+          "index": 1,
+          "height": 648.875,
+          "target": 648.8888888888889,
+          "captionSpace": "110px",
+          "topGuttersChecked": true,
+          "bottomLinksChecked": true
+        }
+      ]
+    },
+    {
+      "book": "right-effort",
+      "total": 81,
+      "publicSampleStates": [
+        {
+          "index": 0,
+          "height": 648.875,
+          "target": 648.8888888888889,
+          "captionSpace": "110px",
+          "topGuttersChecked": true,
+          "bottomLinksChecked": true
+        },
+        {
+          "index": 1,
+          "height": 648.875,
+          "target": 648.8888888888889,
+          "captionSpace": "110px",
+          "topGuttersChecked": true,
+          "bottomLinksChecked": true
+        }
+      ]
+    },
+    {
+      "book": "anapana",
+      "total": 119,
+      "publicSampleStates": [
+        {
+          "index": 0,
+          "height": 648.875,
+          "target": 648.8888888888889,
+          "captionSpace": "110px",
+          "topGuttersChecked": true,
+          "bottomLinksChecked": true
+        },
+        {
+          "index": 1,
+          "height": 648.875,
+          "target": 648.8888888888889,
+          "captionSpace": "110px",
+          "topGuttersChecked": true,
+          "bottomLinksChecked": true
+        }
+      ]
+    },
+    {
+      "book": "iddhipada",
+      "total": 82,
+      "publicSampleStates": [
+        {
+          "index": 0,
+          "height": 648.875,
+          "target": 648.8888888888889,
+          "captionSpace": "110px",
+          "topGuttersChecked": true,
+          "bottomLinksChecked": true
+        },
+        {
+          "index": 1,
+          "height": 648.875,
+          "target": 648.8888888888889,
+          "captionSpace": "110px",
+          "topGuttersChecked": true,
+          "bottomLinksChecked": true
+        }
+      ]
+    },
+    {
+      "book": "four-jhanas",
+      "total": 131,
+      "publicSampleStates": [
+        {
+          "index": 0,
+          "height": 648.875,
+          "target": 648.8888888888889,
+          "captionSpace": "110px",
+          "topGuttersChecked": true,
+          "bottomLinksChecked": true
+        },
+        {
+          "index": 1,
+          "height": 648.875,
+          "target": 648.8888888888889,
+          "captionSpace": "110px",
+          "topGuttersChecked": true,
+          "bottomLinksChecked": true
+        }
+      ]
+    },
+    {
+      "book": "five-roots-powers",
+      "total": 75,
+      "publicSampleStates": [
+        {
+          "index": 0,
+          "height": 648.875,
+          "target": 648.8888888888889,
+          "captionSpace": "110px",
+          "topGuttersChecked": true,
+          "bottomLinksChecked": true
+        },
+        {
+          "index": 1,
+          "height": 648.875,
+          "target": 648.8888888888889,
+          "captionSpace": "110px",
+          "topGuttersChecked": true,
+          "bottomLinksChecked": true
+        }
+      ]
+    },
+    {
+      "book": "seven-factors",
+      "total": 37,
+      "publicSampleStates": [
+        {
+          "index": 0,
+          "height": 648.875,
+          "target": 648.8888888888889,
+          "captionSpace": "110px",
+          "topGuttersChecked": true,
+          "bottomLinksChecked": true
+        },
+        {
+          "index": 1,
+          "height": 648.875,
+          "target": 648.8888888888889,
+          "captionSpace": "110px",
+          "topGuttersChecked": true,
+          "bottomLinksChecked": true
+        }
+      ]
+    },
+    {
+      "book": "four-fruits-ten-fetters",
+      "total": 75,
+      "publicSampleStates": [
+        {
+          "index": 0,
+          "height": 648.875,
+          "target": 648.8888888888889,
+          "captionSpace": "110px",
+          "topGuttersChecked": true,
+          "bottomLinksChecked": true
+        },
+        {
+          "index": 1,
+          "height": 648.875,
+          "target": 648.8888888888889,
+          "captionSpace": "110px",
+          "topGuttersChecked": true,
+          "bottomLinksChecked": true
+        }
+      ]
+    }
+  ],
+  "heartSmoke": [
+    {
+      "viewport": [
+        1916,
+        963
+      ],
+      "nativeTransition": [
+        23,
+        24
+      ],
+      "sameFrame": true,
+      "fits": true,
+      "body": {
+        "x": 260.6640625,
+        "y": 126,
+        "width": 1394.671875,
+        "height": 760.59375,
+        "top": 126,
+        "right": 1655.3359375,
+        "bottom": 886.59375,
+        "left": 260.6640625
+      },
+      "title": {
+        "x": 1135.6953125,
+        "y": 126,
+        "width": 40.953125,
+        "height": 202.125,
+        "top": 126,
+        "right": 1176.6484375,
+        "bottom": 328.125,
+        "left": 1135.6953125
+      },
+      "verse": {
+        "x": 739.3515625,
+        "y": 126,
+        "width": 375.265625,
+        "height": 760.59375,
+        "top": 126,
+        "right": 1114.6171875,
+        "bottom": 886.59375,
+        "left": 739.3515625
+      },
+      "union": {
+        "left": 739.3515625,
+        "right": 1176.6484375,
+        "top": 126,
+        "bottom": 886.59375,
+        "width": 437.296875,
+        "height": 760.59375,
+        "xCenter": 958,
+        "yCenter": 506.296875
+      },
+      "glyphUnion": {
+        "left": 748.1484375,
+        "right": 1171.6953125,
+        "top": 128.6875,
+        "bottom": 866.6875,
+        "width": 423.546875,
+        "height": 738,
+        "xCenter": 959.921875,
+        "yCenter": 497.6875
+      },
+      "clientWidth": 1395,
+      "scrollWidth": 1395,
+      "scrollLeft": 0,
+      "flex": "0 0 auto",
+      "writing": "vertical-rl",
+      "textExact": true,
+      "textLength": 319,
+      "highlight": "無苦集滅道。無智亦無得。以無所得故。",
+      "expectedHighlight": "無苦集滅道。無智亦無得。以無所得故。",
+      "boxCenterError": 0.0,
+      "glyphCenterError": 1.921875
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "nativeTransition": [
+        23,
+        24
+      ],
+      "sameFrame": true,
+      "fits": false,
+      "body": {
+        "x": 223.0859375,
+        "y": 107.1953125,
+        "width": 397.828125,
+        "height": 206.796875,
+        "top": 107.1953125,
+        "right": 620.9140625,
+        "bottom": 313.9921875,
+        "left": 223.0859375
+      },
+      "title": {
+        "x": 579.9609375,
+        "y": 107.1953125,
+        "width": 40.953125,
+        "height": 202.125,
+        "top": 107.1953125,
+        "right": 620.9140625,
+        "bottom": 309.3203125,
+        "left": 579.9609375
+      },
+      "verse": {
+        "x": -227.8046875,
+        "y": 107.1953125,
+        "width": 786.6875,
+        "height": 206.796875,
+        "top": 107.1953125,
+        "right": 558.8828125,
+        "bottom": 313.9921875,
+        "left": -227.8046875
+      },
+      "union": {
+        "left": -227.8046875,
+        "right": 620.9140625,
+        "top": 107.1953125,
+        "bottom": 313.9921875,
+        "width": 848.71875,
+        "height": 206.796875,
+        "xCenter": 196.5546875,
+        "yCenter": 210.59375
+      },
+      "glyphUnion": {
+        "left": -220.2265625,
+        "right": 615.9609375,
+        "top": 109.4453125,
+        "bottom": 309.3203125,
+        "width": 836.1875,
+        "height": 199.875,
+        "xCenter": 197.8671875,
+        "yCenter": 209.3828125
+      },
+      "clientWidth": 398,
+      "scrollWidth": 849,
+      "scrollLeft": 0,
+      "flex": "0 0 auto",
+      "writing": "vertical-rl",
+      "textExact": true,
+      "textLength": 319,
+      "highlight": "無苦集滅道。無智亦無得。以無所得故。",
+      "expectedHighlight": "無苦集滅道。無智亦無得。以無所得故。",
+      "boxCenterError": 225.4453125,
+      "glyphCenterError": 224.1328125,
+      "nativeRtlToEnd": {
+        "scrollLeft": -450,
+        "tail": {
+          "x": 229.7734375,
+          "y": 109.4453125,
+          "width": 48.828125,
+          "height": 195.53125,
+          "top": 109.4453125,
+          "right": 278.6015625,
+          "bottom": 304.9765625,
+          "left": 229.7734375
+        },
+        "stepUnchanged": true
+      }
+    }
+  ],
+  "harnessAdjustments": [
+    "SA41 card title contains typographic spaces; AP structured block text adds a dialog newline: normalize only whitespace in these comparisons. No product change."
+  ],
+  "sa41CardRoundTrip": {
+    "nativeDialogSourceToGuideAndHistoryBack": true,
+    "returnedPage": 9,
+    "cardText": "色的定義 · 節錄\n\n《雜阿含經》第 41 經〈五轉〉\n\n北傳漢譯 · 大正藏 T02，No.99 · 求那跋陀羅譯\n\n大正藏 T99，第 9 頁 b 欄\n\n四大及四大造色的定義，可與繪本中的「色」對讀。\n\n漢譯經文\n註解導讀\n\n漢譯經文：SuttaCentral 大正藏版\n\n註解導讀：台大獅子吼佛學專站\n\n云何色如實知？諸所有色，一切四大及四大造色，是名色，如是色如實知。",
+    "buttons": 2
+  },
+  "endingSmoke": [
+    {
+      "book": "five-aggregates",
+      "viewport": [
+        844,
+        390
+      ],
+      "nativeLastNext": true,
+      "total": 54,
+      "scroll": {
+        "textCharacters": 131,
+        "client": 390,
+        "scroll": 390,
+        "overflow": "auto",
+        "top": 0,
+        "paddingTop": "8px",
+        "endOfOriginalTextReachable": true,
+        "readingStepUnchanged": true
+      }
+    },
+    {
+      "book": "eightfold-path",
+      "viewport": [
+        1024,
+        768
+      ],
+      "nativeLastNext": true,
+      "total": 111,
+      "scroll": {
+        "textCharacters": 151,
+        "client": 768,
+        "scroll": 768,
+        "overflow": "auto",
+        "top": 0,
+        "paddingTop": "8px",
+        "endOfOriginalTextReachable": true,
+        "readingStepUnchanged": true
+      }
+    },
+    {
+      "book": "four-purities-six-recollections",
+      "viewport": [
+        768,
+        1024
+      ],
+      "nativeLastNext": true,
+      "total": 95,
+      "scroll": {
+        "textCharacters": 169,
+        "client": 336,
+        "scroll": 336,
+        "overflow": "visible",
+        "top": 48,
+        "paddingTop": "8px",
+        "endOfOriginalTextReachable": true,
+        "readingStepUnchanged": true
+      }
+    }
+  ],
+  "sourceGuard": {
+    "protectedPathsChanged": [],
+    "deferredEightfoldAndTwelveStoriesUntouched": true,
+    "oldSiteSeoAndStoragePolicyUntouched": true,
+    "offlineZipMembers": 30,
+    "offlineZipCRC": true,
+    "offlineSharedFilesMatch": true,
+    "deferredReaderHTMLCacheOnly": true,
+    "changedOriginalArtworkFiles": []
+  },
+  "screenshotCountTotalIncluding3Before": 8,
+  "result": "pass",
+  "visualReview": {
+    "inspectedActualImages": [
+      "after-five44-public-844x390.png",
+      "after-five44-review-1024x768.png"
+    ],
+    "findings": []
+  },
+  "summary": {
+    "fiveBookModeViewportCases": 6,
+    "nativeSA41Sequences": 6,
+    "approvedNameBookModeCases": 6,
+    "sharedFrameBooks": 14,
+    "sharedFrameSampleStates": 28,
+    "heartFitAndNativeRtlCases": 2,
+    "endingRepresentatives": 3,
+    "all14TotalStepsMetadataSum": 1192,
+    "five44InitialScrolls": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "allFive44NoInitialOverflow": true,
+    "screenshotCountIncluding3Before": 8,
+    "javascriptErrors": 0,
+    "sameOriginHttpErrors": 0
+  },
+  "limitations": [
+    "Headless Chromium viewport/touch simulation only; physical iPhone/iPad/Safari not tested.",
+    "Only approved sentences/source cues, Five44, selected common frame states and representative heart/endings were exercised here; separate agent owns the full1192-step/six-size caption geometry sweep.",
+    "Native Previous/Next was used at each changed adjacent cue and Heart transition; unrelated14-book geometry samples used explicit showPage as probes, not evidence of complete-book reading.",
+    "Historical all14-completed isolated fixtures were used for opt-in review checks; no author/browser real save changed.",
+    "Two harness expectations were corrected without product changes: typography spaces in SA41 title, and a structured Anapana scripture block adds a newline in its text dialog. Comparisons ignore whitespace only in those cases."
+  ]
+}

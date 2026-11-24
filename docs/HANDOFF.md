@@ -1,3 +1,13 @@
+# 核可出處／人物校訂與十四本三行口白（2026-11-24）
+
+從已發布PR80／main `a238a0fb549966ac0510b5b89f18b913c8ec40b6` 建立`fix/approved-reader-copy`，初始乾淨。作者核可五陰7–9頁SA41、43頁完整未來識句；四不壞淨85頁訶梨聚落主長者、四聖諦1頁舍利弗、安那般那76頁阿難。Five新41經來源卡／CSV同步；Purities editorial-corrections及Anapana reader-edits可重建，原storyboard/archive保留。八正道69與十二44–45及其餘未核定稿件不改。原稽核PR81與五城試版PR82仍獨立，未帶入本輪。
+
+作者44頁圖問題為三個硬行碰兩行帶，文字原可捲但初始被截；shared橫式p改自然換行，帶固定預留三行＋段距，各頁圖高仍固定，portrait原flow不變。全14本1192步×6尺寸84組7152樣本PASS，1916尺寸1192步完整原生Next，其餘逐狀態幾何；真稿標準橫式自然wrap後4684個樣本為1–2行、另2342直式flow，無初始裁字／永久clamp。獨立兩個DOM三行邊界fixture通過，不混作原稿；185最長外層代表及四念處8行總結真wheel/rotate/reload通過，圖高spread0px。Focusedpublic/game核可內容／41新卡往返／43→44、心經與結語、回程書籤皆通過，0JS／同源HTTP。實機Safari未測。
+
+approved-copy-1更新14共享載入與遊戲回程、三本外部資料稿，generator同步game。原圖／其餘原稿／完成資格與存檔／首頁心智圖／SEO15／Google保留；離線ZIP30成員6668560bytes同步共享檔，原圖原稿原生書JS位元保持、CRC通過。Pages legacy main:/不改，QA排除26目錄。詳[實作與校訂範圍](readers/approved-copy/README.md)、[全量與focused驗證／截圖](previews/approved-reader-copy/README.md)。依作者既有更新發布授權經獨立PR；正式SHA／Pages／live結果以交付留言為準。
+
+---
+
 # 心經適配置中與深色口白（2026-11-24）
 
 從 PR79 已發布 main `47e4b6ef5c7f51c9aba4766c6bc25eaa790cc239` 建立 `fix/reader-dark-heart-center`，初始乾淨。作者要求心經依版面左右置中、十四本公開／遊戲字幕深色一致；追加小版面應保留最右起讀。心經標題＋原經以真實不伸縮的子元素寬度判定，放得下才 center，超出則原 RTL flex-start／橫向捲讀；字級、直書、紅色重點與圖框保持。共用字幕及結語底色 #1e1e1e、淺字 #fffdf8，原 metadata、圖內標字與原經金／紅字不改。

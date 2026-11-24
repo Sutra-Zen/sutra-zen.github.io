@@ -1812,7 +1812,7 @@ const BOOK = {
       "atSec": 469,
       "title": "六念",
       "lines": [
-        "在雜阿含經554經中，長者摩訶男在病痛中，學會了「六念」這門修法。"
+        "在雜阿含經554經中，訶梨聚落主長者在病痛中，學會了「六念」這門修法。"
       ],
       "image": "../../docs/four-purities-six-recollections/assets/IMG_0402.jpeg",
       "dimensions": [
