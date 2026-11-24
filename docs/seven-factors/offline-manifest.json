@@ -1,7 +1,7 @@
 {
   "file": "SutraZen-Seven-Factors-Offline.zip",
-  "bytes": 6668560,
-  "sha256": "84e8f4b8c76975d7f703c2fc7965fcadcba5afbe4ad6a42323fddfb27256938d",
+  "bytes": 6668850,
+  "sha256": "9ffb4d9b2c6ca619f00ba174ac46492265c19f5e51c0966dcda4cec86d62abe8",
   "files": {
     "README.txt": "82aba4d7f2aec3b292728111e381f85f603d7b4e49c0c22f398b0ff276c43551",
     "guide-header.css": "b2699b337f8c884c2a553a7ab58ed67434bd72009d242873e2b92e3203cd1316",
@@ -9,7 +9,7 @@
     "index.html": "295fb16a63e42253441d1bb81ab2bb2cbf0c703ec2901ea1bcbbfc5629dc7f96",
     "picture-panel-focus.css": "c163c926cea647699b3df7687cbe3fcd28695d88b603f27a203769a1acdd3bca",
     "picture-panel-focus.js": "d09baa9cb8d321b619583a69e774dbcdb82925bef45fc1d5c5286bc2553057a6",
-    "reader-controls.css": "4b6fa3c559aebc5e2a761379eab7d702bb838927410792fb47c02324aff4dfc5",
+    "reader-controls.css": "752dec3279c4c64b6acf1db7af05a72ac87d45dce2607dd7ecae60a8d5806e81",
     "reader-layout.js": "49b30d907fa10c109033ce4f915a43e346339bb46d6df4c3ddd632ff709dc3b8",
     "reader-restart.js": "e641e13609324f3192f6fe97d7901375d375c7abb137fe322506bb0198f8bda1",
     "seven-factors/assets/01.webp": "d55e4039907d30b4e6c489774ff513151440882083767c56c54e28fc8b8e5b71",
@@ -28,7 +28,7 @@
     "seven-factors/book/book-data.js": "136dc707236dedc0e3a3a022c1df702d7bcbbc7e577eae41fad3b5788c3805cc",
     "seven-factors/book/book.css": "c0a01e015bcb10e5d70b8b1f29060b7789b0b900f86717c7f512a6995e7dbaad",
     "seven-factors/book/book.js": "b01c503aa9f5ed650e24b83284f984baaa2b4af282659e75a6c739fb39176f46",
-    "seven-factors/book/index.html": "dbf0cd4db1f5a32f85df0dc6b9a4351276f4990bb22927757d512dfd4bbe2515",
+    "seven-factors/book/index.html": "1680a6213715533c94d4319a0b7d3b2ec6495fe74c3c98e874857d3a6158f4dd",
     "seven-factors/book/panel-focus-data.js": "db13784dd964c60fce38683d56d080d362e0347e906b6e21823b24218541a657",
     "seven-factors/guide.css": "acf065ad8f78be123020c318def9cb850c22dff7fe26f0e648a2f27e9d2d227e",
     "seven-factors/index.html": "c36faf2c87756ec204ae8e71414991171a3ce7ce120495027d76a8d06e00c867",
