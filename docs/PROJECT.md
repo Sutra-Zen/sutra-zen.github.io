@@ -1,5 +1,9 @@
 # SutraZen project context
 
+## Approved Twelve Links phone analogy (2026-11-24)
+
+The author approved the revised narration on Twelve Links pages 44–45 after discussing the inconsistent consciousness/name-and-form labels. The two pages now use the agreed phone-viewing and monkey-branch analogy without those bracket labels or the former moment-to-moment production formula. Runtime scene/page data and the maintained CSV stay synchronized; SA289 quotations, illustrations, masks, page boundaries and saved positions stay unchanged. Only this reader's data-script cache changes to `twelve-phone-1`; the shared layout remains the published `approved-copy-1`. See [copy maintenance](readers/twelve-phone/README.md) and [focused validation](previews/twelve-phone/README.md). Earlier pending status for these two pages is superseded; Eightfold Path page 69 and other unapproved audit suggestions remain pending. Publication proof belongs to the exact-SHA PR delivery; physical Safari is untested.
+
 
 ## Approved reader copy and caption readability (2026-11-24)
 

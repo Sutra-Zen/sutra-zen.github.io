@@ -1,0 +1,125 @@
+{
+  "result": "passed",
+  "baseline": "3d0699a9958908cae0e667014e3bf4bb65466f79",
+  "dataLeafChanges": [
+    {
+      "path": "/scenes/10/subtitles/4/text",
+      "old": "這就像你在滑手機：眼睛看到一張圖片（名色），心裡覺得「真有趣」（識）",
+      "new": "這就像你在滑手機：依著眼睛與畫面，生起看見的識。"
+    },
+    {
+      "path": "/scenes/10/subtitles/5/text",
+      "old": "前一刻的名色行為產生了前一刻的識。",
+      "new": "看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+    },
+    {
+      "path": "/scenes/10/subtitles/6/text",
+      "old": "這個念頭推動手指往下滑（新的名色），又讓你看到了下一則內容（新的識）",
+      "new": "這個念頭帶動手指往下滑，又看見了下一則內容。"
+    },
+    {
+      "path": "/scenes/10/subtitles/7/text",
+      "old": "我們的心就是這樣，抓著一個體驗，搖過下一個體驗。",
+      "new": "就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+    },
+    {
+      "path": "/pages/43/lines/0",
+      "old": "這就像你在滑手機：眼睛看到一張圖片（名色），心裡覺得「真有趣」（識）",
+      "new": "這就像你在滑手機：依著眼睛與畫面，生起看見的識。"
+    },
+    {
+      "path": "/pages/43/lines/1",
+      "old": "前一刻的名色行為產生了前一刻的識。",
+      "new": "看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+    },
+    {
+      "path": "/pages/44/lines/0",
+      "old": "這個念頭推動手指往下滑（新的名色），又讓你看到了下一則內容（新的識）",
+      "new": "這個念頭帶動手指往下滑，又看見了下一則內容。"
+    },
+    {
+      "path": "/pages/44/lines/1",
+      "old": "我們的心就是這樣，抓著一個體驗，搖過下一個體驗。",
+      "new": "就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+    }
+  ],
+  "csvCellChanges": [
+    {
+      "path": "/43/字幕",
+      "old": "這就像你在滑手機：眼睛看到一張圖片（名色），心裡覺得「真有趣」（識）\n前一刻的名色行為產生了前一刻的識。",
+      "new": "這就像你在滑手機：依著眼睛與畫面，生起看見的識。\n看見有趣的內容，心裡感到愉快，也生起繼續看的念頭。"
+    },
+    {
+      "path": "/44/字幕",
+      "old": "這個念頭推動手指往下滑（新的名色），又讓你看到了下一則內容（新的識）\n我們的心就是這樣，抓著一個體驗，搖過下一個體驗。",
+      "new": "這個念頭帶動手指往下滑，又看見了下一則內容。\n就像小猴子換著抓樹枝，我們的心也在不同的經驗間不斷轉變。"
+    }
+  ],
+  "readingSteps": 77,
+  "samePageBoundariesQuotesSourcesMasksTimings": true,
+  "htmlOnlyDataCacheChange": true,
+  "protectedFiles": [
+    {
+      "path": "index.html",
+      "sha256": "eacf73c0d1333114ab7c436089657d401dd07e3a941b2415793387966a657bc0"
+    },
+    {
+      "path": "shelf.css",
+      "sha256": "c4bdb8e705e0d8216687893a08f4228bb8c1d49a6698f8a7c9d5fff7e609a7bb"
+    },
+    {
+      "path": "sitemap.xml",
+      "sha256": "052cc51e13fedf66c3f67956eaef3b90dbb77026c3dea0ce7248a6de6b6b4697"
+    },
+    {
+      "path": "robots.txt",
+      "sha256": "d0f94f33ba21fbc049dcf40e8c460d601e0cbb32229700997213a91441e0c578"
+    },
+    {
+      "path": "googlee0c995331ec518ae.html",
+      "sha256": "05359eab14af74d4d9e757d4c4c179ee57c1c455986e09c0bebbdee637f86225"
+    },
+    {
+      "path": "reader-layout.js",
+      "sha256": "49b30d907fa10c109033ce4f915a43e346339bb46d6df4c3ddd632ff709dc3b8"
+    },
+    {
+      "path": "reader-controls.css",
+      "sha256": "4b6fa3c559aebc5e2a761379eab7d702bb838927410792fb47c02324aff4dfc5"
+    },
+    {
+      "path": "twelve-links/index.html",
+      "sha256": "bbe193f16c59f131a4d4f41260ab1ba25afc88bc53abf735e8dd2edf75be2dc1"
+    },
+    {
+      "path": "twelve-links/book/book.js",
+      "sha256": "eb30b9f909e168044a8b9b112223e7c6e6138bd29632c5ec7b68d0d2065c6faa"
+    },
+    {
+      "path": "twelve-links/book/book.css",
+      "sha256": "bf00b3566d069d1835d1b2e6a862c98d4fd49c6c02bf675ddd807c21558f5587"
+    },
+    {
+      "path": "game/index.html",
+      "sha256": "4cbe87da12ff244ed5e37a861dfaeb46be6a121f78290d4a4852b424c57f6b26"
+    },
+    {
+      "path": "play/collection/store.js",
+      "sha256": "b748f9019b2a8c42b672e673d11e5a3bc4cb5b5b1e69df030bc8a7b7e27f25f9"
+    },
+    {
+      "path": "play/collection/catalog.js",
+      "sha256": "a7cd9140b329c8ba11082ce4b6608d5a0d13a4c856e2c7c46a67795eb2eed14f"
+    },
+    {
+      "path": "play/collection/reader-bridge.js",
+      "sha256": "59d6fa75980f450a8f4c3c116d64e9d8baa48cd58a97c7f91f5585019fd23831"
+    },
+    {
+      "path": "eightfold-path/book/book-data.js",
+      "sha256": "b8768654070740315cce995c6d5c6ee69106a0759ca0d9126956f4a3c15a3d69"
+    }
+  ],
+  "unchangedIllustrationFiles": 21,
+  "sharedRuntimeStoreAndEligibilityUnchanged": true
+}
