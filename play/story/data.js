@@ -38,7 +38,7 @@ export const STORY_SCENES = Object.freeze({
   action:'enter-aggregates-book',nextLabel:'進去看看',dismissLabel:'先看看地圖'}),
 });
 export const STORY_UI = Object.freeze({
- dialogue:'旅程對話',enter:'進去看看',next:'接著看',skip:'先看看地圖',replay:'重看開場對話',
+ dialogue:'旅程對話',closeDialogue:'關閉對話，回到海圖',enter:'進去看看',next:'接著看',skip:'先看看地圖',replay:'重看開場對話',
  replayCompletion:'重看四聖諦過場',replayTrain:'重看電車過場',returnToMap:'回到海圖',questionMark:'？',
  completionTransitionNext:'接著看',completionNext:'前往下一站',completionCity:'前往城池看看',
  doubtStageLabel:'滿身問號的疑，停在法輪遺跡入口',
