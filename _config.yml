@@ -31,3 +31,4 @@ exclude:
   - docs/previews/twelve-phone
   - docs/previews/horizontal-text
   - docs/previews/train-opening
+  - docs/previews/train-zero

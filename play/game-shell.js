@@ -1,9 +1,9 @@
-import {exportJourneyBackup,restoreJourneyBackup,resetJourney} from './journey-save.js?v=train-opening-1';
+import {exportJourneyBackup,restoreJourneyBackup,resetJourney} from './journey-save.js?v=train-reset-1';
 import {cityStore} from './city/modules/store.js?v=auto-city-1';
 import {store} from './collection/store.js';
 import {CATALOG_IDS} from './collection/catalog.js';
 import {GAME_UI as T} from './game-ui-text.js?v=simple-ui-1';
-import {renderGameNavigation,GAME_URLS} from './navigation.js?v=train-opening-1';
+import {renderGameNavigation,GAME_URLS} from './navigation.js?v=train-reset-1';
 export {GAME_URLS};
 const settingsIcon='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><path d="M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8Z"/><path d="m9 3-1 3-3 1-2 3 2 2-1 3 2 3h3l2 3 3-1 2-2 3-1 2-3-2-2 1-3-2-3h-3l-2-3-3 1Z"/></svg>';
 function loadStyle(name){const href=new URL(name,import.meta.url).href;if(![...document.querySelectorAll('link[rel="stylesheet"]')].some(n=>n.href===href)){const link=document.createElement('link');link.rel='stylesheet';link.href=href;document.head.append(link);}}
@@ -39,7 +39,12 @@ export function initializeGameShell({active='map',onMap}={}){
  });
  dialog.querySelector('[data-game-backup]').addEventListener('click',()=>{const url=URL.createObjectURL(new Blob([exportJourneyBackup()],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='sutrazen-journey-v2.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);});
  dialog.querySelector('[data-game-import]').addEventListener('change',async event=>{const input=event.currentTarget,file=input.files?.[0];if(!file)return;try{const result=restoreJourneyBackup(await file.text());showStatus(result.ok?(result.persistent?T.restored:T.restoredTemporary):T.invalidBackup);}catch{showStatus(T.restoreFailed);}finally{input.value='';refresh();}});
- dialog.querySelector('[data-game-reset]').addEventListener('click',()=>{if(!window.confirm(T.resetConfirm))return;const result=resetJourney();showStatus(result.persistent?T.resetDone:T.authorResetTemporary);refresh();});
+ dialog.querySelector('[data-game-reset]').addEventListener('click',()=>{
+  if(!window.confirm(T.resetConfirm))return;
+  const result=resetJourney();showStatus(result.persistent?T.resetDone:T.authorResetTemporary);refresh();
+  // Keep temporary in-memory recovery if this device could not save the reset.
+  if(result.persistent)location.assign(GAME_URLS.title);
+ });
  const fullButton=dialog.querySelector('[data-game-fullscreen]');if(!document.fullscreenEnabled||!document.documentElement.requestFullscreen)dialog.querySelector('[data-game-display-section]').hidden=true;
  fullButton.addEventListener('click',async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await document.documentElement.requestFullscreen();fullButton.textContent=document.fullscreenElement?T.exitFullscreen:T.fullscreen;}catch{showStatus(T.fullscreenUnavailable);}});
  nav.addEventListener('click',event=>{if(event.target.closest('[data-game-nav="map"]')&&typeof onMap==='function'){event.preventDefault();onMap();}});for(const event of ['sutrazen:collection-progress','sutrazen:city-layout','sutrazen:journey-state'])window.addEventListener(event,refresh);

@@ -1,12 +1,13 @@
 import {store} from '../collection/store.js';
-import {storyStore} from '../story/store.js?v=train-opening-1';
-import {STORY_SCENES} from '../story/data.js?v=train-opening-1';
-import {OPENING_VERSION as V,TRAIN_ART,TRAIN_SCENE_IDS,TRAIN_UI as T,TRAIN_TIMING as C} from './data.js?v=train-opening-1';
+import {storyStore} from '../story/store.js?v=train-reset-1';
+import {STORY_SCENES} from '../story/data.js?v=train-reset-1';
+import {OPENING_VERSION as V,TRAIN_ART,TRAIN_SCENE_IDS,TRAIN_UI as T,TRAIN_TIMING as C} from './data.js?v=train-reset-1';
 
 // Story presentation only: finishing/skipping never opens or completes a book.
 export function canPlayTrainOpening(saved=store.get()){
- return !saved.completed.length&&!Object.keys(saved.positions).length&&
-  !storyStore.hasSeen('train-breathless')&&!storyStore.hasSeen('arrival-at-wheel')&&!storyStore.hasSeen('doubt-at-ruins');
+ // Before the first completed book, every new title launch plays the train.
+ // Bookmarks and presentation flags do not count as completing a book.
+ return saved.completed.length===0;
 }
 const clamp=(n,min,max)=>Math.max(min,Math.min(max,n));
 export function initializeTrainOpening({host=document.body}={}){
@@ -85,10 +86,10 @@ export function initializeTrainOpening({host=document.body}={}){
   if(reduced.matches||skipped)done();else transitionTimer=setTimeout(done,650);
  }
  function eat(event){event.preventDefault();event.stopImmediatePropagation();}
- function start({replay:reviewing=false,onComplete:callback}={}){
+ function start({replay:reviewing=false,resume=false,onComplete:callback}={}){
   if(overlay||(!reviewing&&!canPlayTrainOpening()))return false;
   clearGuard();replay=reviewing;onComplete=callback;finishing=false;presentationStarted=false;
-  const firstStep=!reviewing&&storyStore.hasSeen(TRAIN_SCENE_IDS[0])?1:0;firstPending=firstStep===0;
+  const firstStep=resume&&!reviewing&&storyStore.hasSeen(TRAIN_SCENE_IDS[0])&&!storyStore.hasSeen(TRAIN_SCENE_IDS[1])?1:0;firstPending=firstStep===0;
   staticMode=reduced.matches||typeof Element.prototype.animate!=='function';previousFocus=document.activeElement;
   overlay=document.createElement('section');overlay.className='train-opening';overlay.dataset.trainOpening='';overlay.dataset.trainState='playing';overlay.dataset.replay=String(reviewing);overlay.dataset.trainMode=staticMode?'static':'crawl';overlay.dataset.trainStep=String(firstStep);overlay.dataset.scene=TRAIN_SCENE_IDS[firstStep];
   overlay.setAttribute('role','dialog');overlay.setAttribute('aria-modal','true');overlay.setAttribute('aria-label',T.label);

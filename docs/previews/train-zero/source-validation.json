@@ -1,0 +1,26 @@
+{
+  "result": "passed",
+  "baseline": "dd480b67959e90adc50f2bb8e0c2b1f80197d8f2",
+  "readerHTMLOnlyCache": 14,
+  "nativeBookFilesUnchanged": 45,
+  "protectedCoreArtCssFiles": 24,
+  "cacheOnlyRuntimeFiles": [
+    "play/city/city.js",
+    "play/city/index.html",
+    "play/collection/reader-bridge.js",
+    "play/journey-save.js",
+    "play/navigation.js",
+    "play/prologue/data.js",
+    "play/prologue/prologue.js",
+    "play/story/doubt-stage.js",
+    "play/story/store.js",
+    "play/title-review.js",
+    "play/visual-v2/shelf.html",
+    "play/visual-v2/shelf.js",
+    "play/opening/data.js"
+  ],
+  "storyProseIdsAndGraphUnchanged": true,
+  "bookCountAndBookmarksSchemaUnchanged": true,
+  "originalAuthorPngAndZipExact": true,
+  "sevenOfflineZipAndManifest": "byte-identical;30 members CRC passed"
+}

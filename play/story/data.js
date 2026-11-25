@@ -16,12 +16,12 @@ export const STORY_SCENES = Object.freeze({
   action:'train-arrival'}),
  'arrival-at-wheel': Object.freeze({actorId:'traveler',bookId:'four-truths',group:'arrival',
   text:'咦？我剛才明明還擠在電車上滑手機……怎麼一抬頭，就到了法輪遺跡？進去看看！',
-  nextSceneId:'doubt-at-ruins',nextLabel:'進去看看'}),
+  nextSceneId:'doubt-at-ruins',nextLabel:'接著看'}),
  'doubt-at-ruins': Object.freeze({actorId:'doubt',bookId:'four-truths',group:'arrival',doubtState:'waiting',
   text:'愚痴……',nextSceneId:'doubt-detour',nextLabel:'接著看'}),
  'doubt-detour': Object.freeze({actorId:'traveler',bookId:'four-truths',group:'arrival',doubtState:'waiting',
   text:'這是什麼小傢伙？滿身都是問號，還堵在門口。借過一下……好吧，我從旁邊繞。',
-  action:'enter-first-book',nextLabel:'開始閱讀四聖諦'}),
+  action:'enter-first-book',nextLabel:'進去看看'}),
  'first-book-insight': Object.freeze({actorId:'traveler',bookId:'four-truths',group:'first-completion',doubtState:'thinning',
   text:'苦、集、滅、道，原來這就是四聖諦。剛才在電車上，我只會喊「好煩」。現在我懂了，那份煩惱，也是一種苦啊。',
   nextSceneId:'doubt-escapes',nextLabel:'接著看'}),
@@ -35,7 +35,7 @@ export const STORY_SCENES = Object.freeze({
   action:'show-first-completion',nextLabel:'接著看'}),
  'toward-aggregates-lake': Object.freeze({actorId:'traveler',bookId:'five-aggregates',group:'book-entry',
   text:'可是，從「好想要那雙鞋」到「心裡好煩」，中間到底發生了什麼？那邊有座五陰湖，去看看吧！',
-  action:'enter-aggregates-book',nextLabel:'前往五陰湖',dismissLabel:'先看看地圖'}),
+  action:'enter-aggregates-book',nextLabel:'進去看看',dismissLabel:'先看看地圖'}),
 });
 export const STORY_UI = Object.freeze({
  dialogue:'旅程對話',enter:'進去看看',next:'接著看',skip:'先看看地圖',replay:'重看開場對話',

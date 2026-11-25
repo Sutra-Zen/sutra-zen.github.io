@@ -1,5 +1,5 @@
-import {STORY_ACTORS,STORY_SCENES,STORY_UI as T} from './data.js?v=train-opening-1';
-import {storyStore} from './store.js?v=train-opening-1';
+import {STORY_ACTORS,STORY_SCENES,STORY_UI as T} from './data.js?v=train-reset-1';
+import {storyStore} from './store.js?v=train-reset-1';
 
 export function initializeStoryDialogue({host,onAction,onClose,onDismiss,onScene}={}){
  if(!host)throw Error('Missing story dialogue host.');
@@ -28,7 +28,7 @@ export function initializeStoryDialogue({host,onAction,onClose,onDismiss,onScene
   clearCompletion();panel.querySelector('h2').textContent=actor.name;line.hidden=false;line.textContent=scene.text;
   const completing=!reviewing&&flow==='first-completion';
   secondary.hidden=completing;secondary.textContent=completing?'':(scene.dismissLabel||T.skip);
-  primary.textContent=completing?T.next:scene.nextSceneId?(scene.nextLabel||T.next):replay?T.returnToMap:(scene.nextLabel||T.enter);
+  primary.textContent=completing||scene.nextSceneId?T.next:replay?T.returnToMap:['enter-first-book','enter-aggregates-book'].includes(scene.action)?T.enter:(scene.nextLabel||T.enter);
   primary.setAttribute('aria-describedby','story-line');
   image.hidden=false;image.src=actor.portrait;
   // The legacy first-outro cutoff is acknowledged only at the new final scene.
