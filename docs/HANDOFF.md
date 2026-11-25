@@ -1,3 +1,13 @@
+# 清除後電車啟動與接著看／進去看看（2026-11-25）
+
+從已發布PR86／main `dd480b67959e90adc50f2bb8e0c2b1f80197d8f2`建分支`fix/train-zero-completion-start`。實按Settings清除重現：reading與receipt清掉，但active海圖的reset事件立即寫arrival seen；舊電車資格又排除seen／任何bookmark，所以回首頁Start也沒有電車。不是原圖遺失或store雙單例。
+
+電車資格改只看completed為0，每次首頁Start／Continue完整兩段；僅`#opening`中途重整且首段已看、末段未看才續第二段。Settings清除成功回主選單，reset事件不開arrival／不寫seen；失敗保留status與memory/session，避免跳頁丟暫存。作者首頁reset仍原prologue。讀本／城池／書架正常回海圖仍不重插片，歷史完成與頁碼不重置。對話所有中間scene強制「接著看」，真enter-book末段「進去看看」；completion context末段仍接著看至通知，replay末段回到海圖。原作者台詞／ID／graph均不改。
+
+快取train-reset-1及14本bridge query、game產生檔同步；reading/store／route資格URI、原讀本／原圖／shared layout、備份與存檔schema、SEO／Google及30成員離線包保持。Pages維持legacy main:/，QA新增一個排除目錄共30。詳[實作](play/train-zero/README.md)及[重現／驗證](previews/train-zero/README.md)。沿既有直接發布授權以新PR合併及精確SHA Pages／live交付為準。實機iPhone／iPad Safari未測。
+
+---
+
 # 電車上捲字幕與四聖諦至五陰劇本（2026-11-25）
 
 從已發布PR85／main `c6dcee91a535f8a2649886c34b86f781d21708fa` 建立乾淨分支`feat/train-opening-story`。作者12列新版劇本串接群貓三段字幕→選單→電車心聲→法輪遺跡／疑→原生四聖諦→四段讀後尾聲→新增城景通知→五陰湖。開始／繼續與設定按鈕永久2px白框，plain片頭提示無框。作者隨後補原ZIP並指定電車也用上捲字幕、進地圖才頭像對話；已按最新要求實作，先前缺圖／待原件狀態已解除。

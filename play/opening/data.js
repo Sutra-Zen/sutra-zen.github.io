@@ -1,6 +1,6 @@
 // The author's supplied illustration must be imported before this flag is true.
 // The fallback is an explicit image-unavailable notice, never substitute art.
-export const OPENING_VERSION='train-opening-1';
+export const OPENING_VERSION='train-reset-1';
 export const TRAIN_ART=Object.freeze({
  ready:true,
  url:new URL('./assets/commuter-train.png',import.meta.url).href,

@@ -1,0 +1,39 @@
+{
+  "baseline": "dd480b67959e90adc50f2bb8e0c2b1f80197d8f2",
+  "phase": "Before fix; current runtime changes bypassed using baseline HTML/JS/CSS responses",
+  "fixture": "Isolated Four completed/Five2 + prior train/arrival seen",
+  "afterNativeSettingsReset": {
+    "local": {
+      "sutrazen.play.collection.v1": null,
+      "sutrazen.play.story.v1": "{\"version\":1,\"seenSceneIds\":[\"arrival-at-wheel\"]}",
+      "sutrazen.play.story-first-completion.v1": null,
+      "sutrazen.play.collection.session.v1": null
+    },
+    "session": {
+      "sutrazen.play.collection.v1": null,
+      "sutrazen.play.story.v1": null,
+      "sutrazen.play.story-first-completion.v1": null,
+      "sutrazen.play.collection.session.v1": null
+    }
+  },
+  "arrivalAutomaticallyOpened": true,
+  "afterTitleStart": {
+    "trainPresent": 0,
+    "state": {
+      "local": {
+        "sutrazen.play.collection.v1": null,
+        "sutrazen.play.story.v1": "{\"version\":1,\"seenSceneIds\":[\"arrival-at-wheel\"]}",
+        "sutrazen.play.story-first-completion.v1": null,
+        "sutrazen.play.collection.session.v1": null
+      },
+      "session": {
+        "sutrazen.play.collection.v1": null,
+        "sutrazen.play.story.v1": null,
+        "sutrazen.play.story-first-completion.v1": null,
+        "sutrazen.play.collection.session.v1": null
+      }
+    },
+    "url": "http://127.0.0.1:37675/game/?v=train-opening-1#map"
+  },
+  "result": "reproduced"
+}

@@ -1,0 +1,167 @@
+{
+  "baseline": "dd480b67959e90adc50f2bb8e0c2b1f80197d8f2",
+  "physicalSafari": false,
+  "scope": "Native reset/Start and native reader0..2 only; completion/outro tests use explicitly isolated legal synthetic history/receipt. No full29 or14-book reread.",
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "zeroCompletionCases": [
+    {
+      "fixture": "fresh",
+      "viewport": [
+        360,
+        800
+      ],
+      "explicitTitleStartBothParagraphs": true,
+      "canonicalReadingUnchangedByTrain": true,
+      "openingReloadResumeContract": true
+    },
+    {
+      "fixture": "all-presentation-seen",
+      "viewport": [
+        844,
+        390
+      ],
+      "explicitTitleStartBothParagraphs": true,
+      "canonicalReadingUnchangedByTrain": true,
+      "openingReloadResumeContract": true
+    },
+    {
+      "fixture": "bookmark-zero",
+      "viewport": [
+        1024,
+        768
+      ],
+      "explicitTitleStartBothParagraphs": true,
+      "canonicalReadingUnchangedByTrain": true,
+      "openingReloadResumeContract": true
+    },
+    {
+      "fixture": "bookmark-two-and-first-only",
+      "viewport": [
+        360,
+        800
+      ],
+      "explicitTitleStartBothParagraphs": true,
+      "canonicalReadingUnchangedByTrain": true,
+      "openingReloadResumeContract": true
+    }
+  ],
+  "screenshots": [
+    "settings-reset-train-loaded-1024x768.png",
+    "arrival-final-enter-360x800.png",
+    "failed-reset-keeps-status-no-redirect-1024x768.png"
+  ],
+  "settingsReset": {
+    "nativeCancelKeepsRawState": true,
+    "acceptRedirectsTitle": true,
+    "arrivalNotRewrittenBeforeTrain": true,
+    "bothPNGParagraphsAfterStart": true
+  },
+  "freshArrivalAndReturns": {
+    "labels": [
+      "接著看",
+      "接著看",
+      "進去看看"
+    ],
+    "firstTwoNextNeverOpenBook": true,
+    "thirdEnterOpensOriginalReader": true,
+    "nativeFourTrace": [
+      0,
+      1,
+      2
+    ],
+    "readerCityShelfMapReturnsNoTrain": true,
+    "returnTitleStartReplaysWholeTrainKeepingBookmark2": true
+  },
+  "partialOpeningResume": {
+    "isolatedFirstSeenOnly": true,
+    "directOpeningAndReloadSecondOnly": true,
+    "bookmark2Preserved": true
+  },
+  "completedTitleSkip": {
+    "count": 1,
+    "noTrain": true,
+    "readingPreserved": true
+  },
+  "arrivalReplayLabels": [
+    "接著看",
+    "接著看",
+    "回到海圖"
+  ],
+  "outroReplayLabels": [
+    "接著看",
+    "接著看",
+    "接著看",
+    "回到海圖"
+  ],
+  "normalFiveTerminal": {
+    "enterLabel": "進去看看",
+    "opensOriginalFive": true,
+    "completedStill1": true
+  },
+  "mandatoryOutros": {
+    "fixture": "Isolated lawful Four completed28/receipt/seen, not actual29 read",
+    "ids": [
+      "first-book-insight",
+      "doubt-escapes",
+      "doubt-recedes",
+      "toward-aggregates-lake"
+    ],
+    "allLabels": [
+      "接著看",
+      "接著看",
+      "接著看",
+      "接著看"
+    ],
+    "escapeAndCityBlocked": true,
+    "feedbackOnlyAfterFour": true,
+    "completionUnchanged": true
+  },
+  "authorReset": {
+    "nativeConfirm": true,
+    "prologueRemains": true,
+    "arrivalNotSeenBeforeTrain": true,
+    "fullTrainAfterMenu": true
+  },
+  "failedPersistenceReset": {
+    "injection": "Post-load local+session game set/remove throw; get remains readable",
+    "doesNotRedirect": true,
+    "settingsStatus": "本頁已從頭開始；裝置無法永久保存重置結果，下次可能仍需重置。",
+    "memoryFresh": {
+      "version": 1,
+      "positions": {},
+      "completed": [],
+      "activeBook": "four-truths"
+    },
+    "oldCanonicalRetainedHonestly": true,
+    "arrivalNotRewrittenInMemory": true
+  },
+  "result": "pass",
+  "summary": {
+    "nativeSettingsCancelConfirm": 1,
+    "zeroCompletedTitleLaunchFixtures": 4,
+    "partialOpeningResume": 1,
+    "completedTitleSkip": 1,
+    "readOnlyReplayChains": 2,
+    "mandatorySyntheticOutros": 4,
+    "authorReset": 1,
+    "failedStorageReset": 1,
+    "nativeOriginalFourTrace": [
+      0,
+      1,
+      2
+    ],
+    "normalFiveEntryTrace": [
+      0
+    ],
+    "screenshots": 3
+  },
+  "runtimeHashes": {
+    "play/opening/opening.js": "a6a4a01093e8ee01f4032d1c2e1081a7be914b6b21c54e26e487f40bc933cabd",
+    "play/title-screen.js": "ffb4a3bd0685dfdf8b30ca17503e1e3b909016eef280eb437f61bf097acb75a4",
+    "play/game-shell.js": "8438a6dbcd4f2bf93cce4c09d81138c9b9dacce5217d4db62cf5db0512f361e3",
+    "play/worldmap-v4/worldmap.js": "4ae0fc3001b58bac2303a086cbee5de2b54606dacfda62482048ecae4744de86",
+    "play/story/dialogue.js": "ca3b8aa19dc22fcea081b358ae3daeefa8616b12458002b2039ae54f4c3afb7a",
+    "play/story/data.js": "81888208e149b8c2fddcc2a1988eb2e518171a959d7dca2355a1e6052ef228bf"
+  }
+}
