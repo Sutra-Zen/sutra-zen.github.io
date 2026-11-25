@@ -2,16 +2,16 @@ import {store} from '../collection/store.js';
 import {routeStatus,routeBooks} from '../route/selectors.js';
 import {canStartGameBook,canReviewGameBook,getGameBookAccess} from '../route/eligibility.js';
 import {routeMetadata} from '../route/metadata.js';
-import {initializeGameShell,GAME_URLS} from '../game-shell.js?v=mandatory-dialogue-1';
-import {initializeTitleScreen} from '../title-screen.js?v=mandatory-dialogue-1';
-import {initializeTrainOpening} from '../opening/opening.js?v=mandatory-dialogue-1';
+import {initializeGameShell,GAME_URLS} from '../game-shell.js?v=dialogue-two-1';
+import {initializeTitleScreen} from '../title-screen.js?v=dialogue-two-1';
+import {initializeTrainOpening} from '../opening/opening.js?v=dialogue-two-1';
 import {createMapCamera} from './camera.js?v=original-frame-1';
-import {initializeStoryDialogue} from '../story/dialogue.js?v=mandatory-dialogue-1';
-import {storyStore} from '../story/store.js?v=mandatory-dialogue-1';
-import {pendingStory} from '../story/pending.js?v=mandatory-dialogue-1';
+import {initializeStoryDialogue} from '../story/dialogue.js?v=dialogue-two-1';
+import {storyStore} from '../story/store.js?v=dialogue-two-1';
+import {pendingStory} from '../story/pending.js?v=dialogue-two-1';
 import {consumeFirstCompletionReceipt} from '../story/completion-receipt.js?v=doubt-1';
-import {initializeDoubtStage} from '../story/doubt-stage.js?v=mandatory-dialogue-1';
-import {STORY_UI} from '../story/data.js?v=mandatory-dialogue-1';
+import {initializeDoubtStage} from '../story/doubt-stage.js?v=dialogue-two-1';
+import {STORY_UI} from '../story/data.js?v=dialogue-two-1';
 import {compactCompletionFeedback} from './completion-feedback.js?v=simple-ui-1';
 import {WORLD,LANDMARKS,MEMBERS,NODES,EDGES,GEOGRAPHIC_ROAD,MAP_CONNECTIONS,conceptAnchor,sourceGroupAnchor,PRIMARY_BOOK_LANDMARK} from './data.js';
 import {T} from './text.js?v=auto-city-1';
@@ -34,15 +34,16 @@ let doubtStage=null,activeStoryScene=null,activeStoryContext=null,activeStoryRep
 const story=initializeStoryDialogue({
  host:$('#game-content'),
  onClose:()=>$('[data-wm-next]').focus({preventScroll:true}),
+ getCompletionFeedback:(scene,{context})=>context==='first-completion'&&scene.action==='enter-aggregates-book'&&!scene.nextSceneId?completionDetails('four-truths'):null,
  onScene:(scene,{context=null,replay=false}={})=>{
   activeStoryScene=scene;activeStoryContext=context;activeStoryReplay=replay;
   syncDoubtStage();camera?.refresh();
   if(scene?.doubtState)camera?.focus({x:1248,y:566});
  },
  onDismiss:(scene,{replay,context})=>{
-  if(context==='completion-reward'){clearCompletionNotice();return;}
+  if(context==='completion-reward'){returnToFreeMap();return;}
   if(replay||(context!=='first-completion'&&scene?.group!=='first-completion'))return;
-  if(scene?.action==='enter-aggregates-book')finishFirstOutro();
+  if(scene?.action==='enter-aggregates-book')finishFirstOutro('map');
   else{
    completeFirstOutro();
   }
@@ -50,16 +51,16 @@ const story=initializeStoryDialogue({
  onAction:(scene,{replay,context})=>{
   if(!replay&&context==='completion-reward'){
    clearCompletionNotice();
-   if(scene.action==='completion-city')location.assign(GAME_URLS.city);
-   else{locateNext();$('[data-wm-next]').focus({preventScroll:true});}
+   if(scene.action==='completion-map')returnToFreeMap();
+   else{const book=currentBook();if(book)openReader(book.id);else showEnding();}
    return;
   }
   if(replay&&scene.action==='show-first-completion'){story.show('toward-aggregates-lake',{replay:true,context:'first-completion'});return;}
-  if(!replay&&context==='first-completion'&&scene.action==='enter-aggregates-book'){finishFirstOutro();return;}
+  if(!replay&&context==='first-completion'&&scene.action==='enter-aggregates-book'){finishFirstOutro('read');return;}
   if(!replay&&scene.action==='enter-first-book'&&currentBook()?.id===scene.bookId)openReader(scene.bookId,{bypassDoubt:true});
   else if(!replay&&scene.action==='enter-aggregates-book'&&currentBook()?.id===scene.bookId)openReader(scene.bookId,{bypassAggregatesIntro:true});
   else if(!replay&&scene.action==='show-first-completion')completeFirstOutro();
-  else{locateNext();$('[data-wm-next]').focus({preventScroll:true});}
+  else returnToFreeMap();
  }
 });
 $('[data-wm-story-replay]').textContent=STORY_UI.replay;
@@ -89,7 +90,18 @@ function showCompletionTransition(){
  dialog.close();
  return story.show('toward-aggregates-lake',{context:'first-completion'});
 }
-function finishFirstOutro(){storyStore.markSeen('doubt-recedes');completedFeedback('four-truths');}
+function finishFirstOutro(destination='feedback'){
+ storyStore.markSeen('doubt-recedes');
+ if(destination==='feedback'){completedFeedback('four-truths');return;}
+ clearCompletionNotice();
+ if(destination==='read'){const book=currentBook();if(book)openReader(book.id,{bypassAggregatesIntro:book.id==='five-aggregates'});else showEnding();}
+ else returnToFreeMap();
+}
+function returnToFreeMap(){
+ clearCompletionNotice();
+ if(currentBook())locateNext();else render();
+ $('[data-wm-next]').focus({preventScroll:true});
+}
 function completeFirstOutro(){if(!showCompletionTransition())finishFirstOutro();}
 function resumeLegacyTransition(){
  // Repair the previous release's split outro, not unrelated historical saves.
@@ -224,7 +236,7 @@ function openReader(id,{bypassDoubt=false,bypassAggregatesIntro=false}={}){
  if(a.canStart)routeMetadata.markOpened(id);
  const u=new URL(b.reader,catalogURL);
  u.searchParams.set('collection','1');u.searchParams.set('collectionReturn','game');
- u.searchParams.set('collectionStory','mandatory-dialogue-1');
+ u.searchParams.set('collectionStory','dialogue-two-1');
  if(a.canReview)u.searchParams.set('collectionReview','1');
  const at=a.canReview&&a.resumePosition===b.totalSteps-1?0:(a.resumePosition??0);
  u.searchParams.set('collectionPage',String(at));
@@ -238,15 +250,18 @@ function showEnding(){
  const s=status();if(!s.endingAvailable)return;
  open(T.ending,'<p>'+T.endingCopy+'</p><p>'+T.endingDirection+'</p><blockquote>'+escape(s.ending.quote)+'</blockquote><a href="https://buddhaspace.org/agama/sub/262.html" target="_blank" rel="noopener">'+s.ending.quoteSource+'</a><div class="wm-dialog-actions"><a href="'+GAME_URLS.shelf+'" class="primary">'+T.reviewShelf+'</a></div>');
 }
-function completedFeedback(id){
- const s=status(),b=books.get(id);if(!b||!s.completedBookIds.includes(id))return;
- if(id==='four-truths'&&resumeLegacyTransition())return;
+function completionDetails(id){
+ const s=status(),b=books.get(id);if(!b||!s.completedBookIds.includes(id))return null;
  const primary=landmarkFor(id);
+ return {bookId:id,title:T.completeTitle(b.title),html:'<p class="wm-world-reward">'+escape(T.mapReward(name(primary,s)))+'</p>'+compactCompletionFeedback(id,s)+'<p>'+T.collection(s.count)+'</p>'};
+}
+function completedFeedback(id){
+ const details=completionDetails(id);if(!details)return;
+ if(id==='four-truths'&&resumeLegacyTransition())return;
  dialog.close();
- // A presentation-only URL keeps an acknowledged outro's final notification
- // resumable. It never grants reading access or writes a completed book.
+ // A presentation-only URL restores this notification without granting progress.
  const url=new URL(GAME_URLS.map);url.searchParams.set('completed',id);history.replaceState(null,'',url);
- story.showCompletion({bookId:id,title:T.completeTitle(b.title),html:'<p class="wm-world-reward">'+escape(T.mapReward(name(primary,s)))+'</p>'+compactCompletionFeedback(id,s)+'<p>'+T.collection(s.count)+'</p>',nextLabel:s.nextBookId?T.nextStation:T.viewEnding,cityLabel:T.seeCity});
+ story.showCompletion({...details,nextLabel:currentBook()?STORY_UI.readNext:T.viewEnding,mapLabel:STORY_UI.returnToMap});
 }
 function clearCompletionNotice(){history.replaceState(null,'',GAME_URLS.map);}
 function activateMap(){

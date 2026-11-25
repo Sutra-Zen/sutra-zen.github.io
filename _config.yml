@@ -33,3 +33,4 @@ exclude:
   - docs/previews/train-opening
   - docs/previews/train-zero
   - docs/previews/mandatory-dialogue
+  - docs/previews/dialogue-reader-space

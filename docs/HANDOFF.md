@@ -1,3 +1,13 @@
+# 終幕文字選單與寬版字幕縮減留白（2026-11-25）
+
+環境已恢復讀寫，從PR88 main `a079a9191425e18b24dfd9371f52e91532802158`建`fix/dialogue-buttons-reader-space`，接續兩項先前未做的待辦。終幕移除X改「回到地圖／閱讀下一關」，中間mandatory／精確checkpoint續幕維持。首本尾幕同時顯示原新增地景、城池模組與本數通知，Map直接自由探索，Read經原currentBook/openReader資格與書籤判斷直入五陰；不新增完成或重發獎。其他完成通知同兩選項，all14保留結語且Map不自動彈結語；replay唯讀終幕只回地圖。
+
+共享reader-layout原固定3行改為寬度／capFont統一2或3：`scene.clientWidth < 36 * capFont + 168 ? 3 : 2`，同viewport各書頁一致，短句不逐頁縮圖。14本量測一般寬版／844橫式可2行，667×375及800×600真需3；極窄仍可捲全文。原字級、完整圖與聚焦、portrait自然flow、Heart置中/右起與結語欄位保持，shared CSS未改。
+
+遊戲cache dialogue-two-1／reader layout reader-two-1、14HTML僅兩query、產生器game與30成員Seven ZIP同步；ZIP只有shared JS和其HTML query不同。原書JS/CSS/CSV、原圖與台詞／經文、核心資格／完成與保存schema、SEO／Google保持。Pages legacy main:/，QA排除共32。詳[實作與邊界](play/dialogue-reader-space/README.md)、[focused驗證](previews/dialogue-reader-space/README.md)。沿既有直接發布授權，精確PR／SHA／Pages／live以交付紀錄為準；實機Safari未測。
+
+---
+
 # 主線對話逐段確認／終幕X自由探索（2026-11-25）
 
 從PR87 main `ea6dafa701670caffb5cd4e4ee4b9df05d4ff467`建`fix/mandatory-mainline-dialogue`。原疑幕與五陰入口顯示即seen，重整可整段消失；作者要求主線不能用回海圖略過，再追加終幕右上X可關，避免不能探索。最終規則：中間只有接著看、無X／略過，Escape及底nav／主閱讀／地標／工具不能繞；最後X/Escape ack回海圖不開書、不計完成，或按進去看看入書。X後終幕seen＋無pending所以正常自由探索且不再重彈。首本尾幕X／Next仍至原城景通知；唯讀replay可各幕自由回海圖。

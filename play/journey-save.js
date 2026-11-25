@@ -3,8 +3,8 @@ import {store,SESSION_FALLBACK_KEY} from './collection/store.js';
 import {CATALOG_IDS} from './collection/catalog.js';
 import {cityStore,validateCityBackup} from './city/modules/store.js?v=auto-city-1';
 import {routeMetadata} from './route/metadata.js';
-import {storyStore} from './story/store.js?v=mandatory-dialogue-1';
-import {pendingStory} from './story/pending.js?v=mandatory-dialogue-1';
+import {storyStore} from './story/store.js?v=dialogue-two-1';
+import {pendingStory} from './story/pending.js?v=dialogue-two-1';
 import {clearFirstCompletionReceipt} from './story/completion-receipt.js?v=doubt-1';
 
 export const JOURNEY_BACKUP_FORMAT='sutrazen.journey';

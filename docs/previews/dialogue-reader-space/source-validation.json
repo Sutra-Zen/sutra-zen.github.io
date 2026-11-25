@@ -1,0 +1,39 @@
+{
+  "result": "passed",
+  "baseline": "a079a9191425e18b24dfd9371f52e91532802158",
+  "readerHtmlOnlyBridgeAndLayoutCache": 14,
+  "nativeBookJsCssCsvUnchanged": 45,
+  "protectedCoreCssArtFiles": 22,
+  "cacheOnlyRuntimeFiles": [
+    "play/game-shell.js",
+    "play/title-screen.js",
+    "play/opening/opening.js",
+    "play/city/city.js",
+    "play/city/index.html",
+    "play/collection/reader-bridge.js",
+    "play/navigation.js",
+    "play/prologue/data.js",
+    "play/prologue/prologue.js",
+    "play/story/doubt-stage.js",
+    "play/story/store.js",
+    "play/story/pending.js",
+    "play/journey-save.js",
+    "play/title-review.js",
+    "play/visual-v2/shelf.html",
+    "play/visual-v2/shelf.js",
+    "play/opening/data.js"
+  ],
+  "storyProseIdsGraphActionsUnchanged": true,
+  "oldSeenPendingReadingCitySchemaAndEligibilityUnchanged": true,
+  "originalArtworkUnchanged": true,
+  "offline": {
+    "members": 30,
+    "crc": "passed",
+    "modifiedMembers": [
+      "reader-layout.js",
+      "seven-factors/book/index.html"
+    ],
+    "bytes": 6668911,
+    "sha256": "b014c80326abf93a94696b9d5d838b1737607ac04b2b98fa2c980f5602b6189e"
+  }
+}
