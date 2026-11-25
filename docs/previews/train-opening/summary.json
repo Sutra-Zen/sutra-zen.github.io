@@ -1,0 +1,36 @@
+{
+  "result": "passed",
+  "baseline": "c6dcee91a535f8a2649886c34b86f781d21708fa",
+  "formalTrainArtAccepted": true,
+  "formalReleaseReady": true,
+  "finalPresentation": "Full-window author PNG with continuous upward text crawl; portraits only on map",
+  "phaseB": {
+    "formalArtResponsiveStates": 6,
+    "actualNormalMovementProbe": 1,
+    "milestoneAndReload": 1,
+    "genuineNaturalRun": 1,
+    "intentionalImageFailureAndRetry": 1,
+    "readOnlyReplay": 1,
+    "finalReaderSmokeNativeSteps": [
+      0,
+      1,
+      2
+    ],
+    "screenshots": 4,
+    "javascriptErrors": 0,
+    "httpErrors": 0
+  },
+  "actualFirstBookNativeStepsInPhaseA": 29,
+  "actualFiveNativeStepsInPhaseA": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "historicalSyntheticFixturesInPhaseA": 6,
+  "phaseAIsHistoricalEarlierFallbackUI": true,
+  "independentFinalCrawlReview": "passed",
+  "assetSha256": "6fc03cf64c5ed5fa567a639a1d497d5affe15f558f2372d638e3ae851633d761",
+  "physicalSafari": false,
+  "publicationProof": "Exact merge SHA / managed Pages / live checks recorded in release PR"
+}

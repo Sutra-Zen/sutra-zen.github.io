@@ -1,0 +1,120 @@
+{
+  "result": "passed",
+  "baseline": "c6dcee91a535f8a2649886c34b86f781d21708fa",
+  "htmlOnlyReaderBridgeCacheChanges": [
+    "anapana/book/index.html",
+    "eightfold-path/book/index.html",
+    "five-aggregates/book/index.html",
+    "five-roots-powers/book/index.html",
+    "four-fruits-ten-fetters/book/index.html",
+    "four-jhanas/book/index.html",
+    "four-purities-six-recollections/book/index.html",
+    "four-truths/book/index.html",
+    "iddhipada/book/index.html",
+    "mindfulness/book/index.html",
+    "right-effort/book/index.html",
+    "seven-factors/book/index.html",
+    "six-senses/book/index.html",
+    "twelve-links/book/index.html"
+  ],
+  "originalBookNativeJsCssCsvUnchanged": 45,
+  "protectedCoreFiles": [
+    {
+      "path": "index.html",
+      "sha256": "eacf73c0d1333114ab7c436089657d401dd07e3a941b2415793387966a657bc0"
+    },
+    {
+      "path": "shelf.css",
+      "sha256": "c4bdb8e705e0d8216687893a08f4228bb8c1d49a6698f8a7c9d5fff7e609a7bb"
+    },
+    {
+      "path": "sitemap.xml",
+      "sha256": "052cc51e13fedf66c3f67956eaef3b90dbb77026c3dea0ce7248a6de6b6b4697"
+    },
+    {
+      "path": "robots.txt",
+      "sha256": "d0f94f33ba21fbc049dcf40e8c460d601e0cbb32229700997213a91441e0c578"
+    },
+    {
+      "path": "googlee0c995331ec518ae.html",
+      "sha256": "05359eab14af74d4d9e757d4c4c179ee57c1c455986e09c0bebbdee637f86225"
+    },
+    {
+      "path": "reader-controls.css",
+      "sha256": "752dec3279c4c64b6acf1db7af05a72ac87d45dce2607dd7ecae60a8d5806e81"
+    },
+    {
+      "path": "reader-layout.js",
+      "sha256": "49b30d907fa10c109033ce4f915a43e346339bb46d6df4c3ddd632ff709dc3b8"
+    },
+    {
+      "path": "picture-panel-focus.css",
+      "sha256": "c163c926cea647699b3df7687cbe3fcd28695d88b603f27a203769a1acdd3bca"
+    },
+    {
+      "path": "picture-panel-focus.js",
+      "sha256": "d09baa9cb8d321b619583a69e774dbcdb82925bef45fc1d5c5286bc2553057a6"
+    },
+    {
+      "path": "play/collection/store.js",
+      "sha256": "b748f9019b2a8c42b672e673d11e5a3bc4cb5b5b1e69df030bc8a7b7e27f25f9"
+    },
+    {
+      "path": "play/collection/catalog.js",
+      "sha256": "a7cd9140b329c8ba11082ce4b6608d5a0d13a4c856e2c7c46a67795eb2eed14f"
+    },
+    {
+      "path": "play/route/data.js",
+      "sha256": "b8217eef6fc4dc519f5e431a0659a106a7a9642ef51c543f6b024f1d302bd028"
+    },
+    {
+      "path": "play/route/eligibility.js",
+      "sha256": "2ffdcae8a6e56031654184a150d16503cec1fc88e83fbbe5581f7a8a22456d2d"
+    },
+    {
+      "path": "play/route/selectors.js",
+      "sha256": "8e71fc51a607f4470e16389833fc47b0890b3191da7e46ba258902b1fecfcb57"
+    },
+    {
+      "path": "play/route/metadata.js",
+      "sha256": "46648a0582f2f85436fec6edce4d9e8b2acb4bfff125b8c6dcf2bcff1c932386"
+    },
+    {
+      "path": "play/story/completion-receipt.js",
+      "sha256": "ca4655c3ef6cbd79e9c16a17f9c7839d16235550503b8bc21bd711b599f71421"
+    },
+    {
+      "path": "play/city/modules/store.js",
+      "sha256": "e38ecf0049004932a17ac5ee3cefe2e25cda4f068b682674401c7f4ca0f0afb6"
+    },
+    {
+      "path": "docs/seo/seo_pages.json",
+      "sha256": "89c9e7e0726e1011332c5a53f7d9c32d7f6a0d18c759cadf6d44801791a5db98"
+    },
+    {
+      "path": "play/assets/CC1A7C32-0620-4DB2-BCD2-A9457A83C259.jpeg",
+      "sha256": "fc7cb28c894890127a20fd1bb898d2448950d51be86c3b36200faa6c2ae523e9"
+    }
+  ],
+  "cacheOnlyRuntimeFiles": [
+    "play/city/city.js",
+    "play/city/index.html",
+    "play/collection/reader-bridge.js",
+    "play/game-shell.js",
+    "play/journey-save.js",
+    "play/navigation.js",
+    "play/prologue/prologue.js",
+    "play/story/doubt-stage.js",
+    "play/story/store.js",
+    "play/title-review.js",
+    "play/visual-v2/shelf.html",
+    "play/visual-v2/shelf.js"
+  ],
+  "readingEligibilityStoreCatalogAndAll1192StepsUnchanged": true,
+  "sharedReaderLayoutsUnchanged": true,
+  "originalArtworkUnchanged": true,
+  "whiteFrameCssAppendOnly": true,
+  "sevenFactorsOfflineZip": "byte-identical;30members CRC passed",
+  "formalTrainArtworkReady": true,
+  "releaseBlockedForMissingAuthorFile": false
+}

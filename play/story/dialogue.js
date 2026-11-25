@@ -1,5 +1,5 @@
-import {STORY_ACTORS,STORY_SCENES,STORY_UI as T} from './data.js?v=simple-ui-1';
-import {storyStore} from './store.js?v=mara-1';
+import {STORY_ACTORS,STORY_SCENES,STORY_UI as T} from './data.js?v=train-opening-1';
+import {storyStore} from './store.js?v=train-opening-1';
 
 export function initializeStoryDialogue({host,onAction,onClose,onDismiss,onScene}={}){
  if(!host)throw Error('Missing story dialogue host.');
@@ -24,6 +24,7 @@ export function initializeStoryDialogue({host,onAction,onClose,onDismiss,onScene
   const scene=STORY_SCENES[id],actor=scene&&STORY_ACTORS[scene.actorId];if(!actor)return false;
   if(panel.hidden)previousFocus=document.activeElement;
   current=scene;currentId=id;replay=reviewing;context=flow;panel.dataset.scene=id;panel.dataset.actor=scene.actorId;panel.dataset.context=flow||'';portrait.dataset.storyActor=scene.actorId;
+  panel.dataset.doubtState=scene.doubtState||'';
   clearCompletion();panel.querySelector('h2').textContent=actor.name;line.hidden=false;line.textContent=scene.text;
   const completing=!reviewing&&flow==='first-completion';
   secondary.hidden=completing;secondary.textContent=completing?'':(scene.dismissLabel||T.skip);

@@ -1,0 +1,24 @@
+{
+  "result": "phase-a-passed",
+  "formalTrainArtAccepted": false,
+  "formalReleaseReady": false,
+  "blockingDependency": "author original train image file/ZIP",
+  "baseline": "c6dcee91a535f8a2649886c34b86f781d21708fa",
+  "responsiveFallbackStates": 6,
+  "historicalSyntheticFixtures": 6,
+  "actualFirstBookNativeSteps": 29,
+  "actualFiveNativeSteps": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "readOnlyReplayRapidTapCase": 1,
+  "normalMotionSmoke": 1,
+  "formalTrainArtworkAccepted": false,
+  "screenshots": 4,
+  "javascriptErrors": 0,
+  "httpErrors": 0,
+  "trainAssetRequests": 0,
+  "physicalSafari": false
+}

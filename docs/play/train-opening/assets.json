@@ -1,0 +1,22 @@
+{
+  "status": "imported",
+  "authorProvidedAt": "2026-11-25",
+  "description": "作者提供的水彩電車插畫：橘色虎斑小貓穿金黃色外套，坐在電車窗邊滑手機。",
+  "availability": "作者補上ZIP原檔；保留完整原壓縮檔，執行圖片與其中PNG位元完全相同，未重繪或重新編碼。",
+  "original": {
+    "path": "docs/play/train-opening/source/1CAE03EA-B658-40D1-A439-C80E8B225A16.zip",
+    "sha256": "3f8ff21d1564dbb574c288f01e4c3d4858525e5c444bb7de40a61c1ff344d507",
+    "member": "1CAE03EA-B658-40D1-A439-C80E8B225A16.PNG"
+  },
+  "runtime": {
+    "path": "play/opening/assets/commuter-train.png",
+    "sha256": "6fc03cf64c5ed5fa567a639a1d497d5affe15f558f2372d638e3ae851633d761",
+    "bytes": 2356550,
+    "width": 1672,
+    "height": 941
+  },
+  "formalArtworkAccepted": true,
+  "releaseBlockedUntilOriginalImported": false,
+  "substituteIllustrationUsed": false,
+  "acceptanceEvidence": "docs/previews/train-opening/phase-b-validation.json.gz"
+}
