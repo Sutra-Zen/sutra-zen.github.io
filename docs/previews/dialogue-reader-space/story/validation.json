@@ -1,0 +1,426 @@
+{
+  "baseline": "a079a9191425e18b24dfd9371f52e91532802158",
+  "physicalSafari": false,
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "screenshots": [
+    "arrival-two-buttons-360x800.png",
+    "first-tail-inline-360x800.png",
+    "first-tail-inline-844x390.png",
+    "first-tail-inline-1024x768.png"
+  ],
+  "firstTailCases": [
+    {
+      "fixture": "Isolated lawful Four completed28 + presentation receipt + arrival seen; not native29 read",
+      "viewport": [
+        360,
+        800
+      ],
+      "action": "map",
+      "tailProseAndInlineFeedbackOnceAfterReload": true,
+      "noExtraCompletedNotification": true,
+      "completedStill1": true,
+      "geometry": {
+        "initial": {
+          "panel": {
+            "x": 10,
+            "y": 10,
+            "width": 340,
+            "height": 586.625,
+            "top": 10,
+            "right": 350,
+            "bottom": 596.625,
+            "left": 10
+          },
+          "dock": {
+            "x": 0,
+            "y": 721,
+            "width": 360,
+            "height": 79,
+            "top": 721,
+            "right": 360,
+            "bottom": 800,
+            "left": 0
+          },
+          "scroll": [
+            0,
+            585,
+            585
+          ],
+          "line": {
+            "x": 17,
+            "y": 120,
+            "width": 319,
+            "height": 89.0625,
+            "top": 120,
+            "right": 336,
+            "bottom": 209.0625,
+            "left": 17
+          },
+          "completion": {
+            "x": 17,
+            "y": 229.0625,
+            "width": 319,
+            "height": 296.5625,
+            "top": 229.0625,
+            "right": 336,
+            "bottom": 525.625,
+            "left": 17
+          },
+          "actions": {
+            "x": 17,
+            "y": 533.625,
+            "width": 319,
+            "height": 50,
+            "top": 533.625,
+            "right": 336,
+            "bottom": 583.625,
+            "left": 17
+          }
+        },
+        "bottomReachable": {
+          "panel": {
+            "x": 10,
+            "y": 10,
+            "width": 340,
+            "height": 586.625,
+            "top": 10,
+            "right": 350,
+            "bottom": 596.625,
+            "left": 10
+          },
+          "top": 0,
+          "max": 0,
+          "buttons": [
+            {
+              "text": "回到地圖",
+              "rect": {
+                "x": 123.96875,
+                "y": 535.625,
+                "width": 94.015625,
+                "height": 48,
+                "top": 535.625,
+                "right": 217.984375,
+                "bottom": 583.625,
+                "left": 123.96875
+              }
+            },
+            {
+              "text": "閱讀下一關",
+              "rect": {
+                "x": 225.984375,
+                "y": 535.625,
+                "width": 110.015625,
+                "height": 48,
+                "top": 535.625,
+                "right": 336,
+                "bottom": 583.625,
+                "left": 225.984375
+              }
+            }
+          ]
+        },
+        "nativeWheelTopAndBottom": true
+      }
+    },
+    {
+      "fixture": "Isolated lawful Four completed28 + presentation receipt + arrival seen; not native29 read",
+      "viewport": [
+        844,
+        390
+      ],
+      "action": "read",
+      "tailProseAndInlineFeedbackOnceAfterReload": true,
+      "noExtraCompletedNotification": true,
+      "completedStill1": true,
+      "geometry": {
+        "initial": {
+          "panel": {
+            "x": 14,
+            "y": 8,
+            "width": 816,
+            "height": 286.8125,
+            "top": 8,
+            "right": 830,
+            "bottom": 294.8125,
+            "left": 14
+          },
+          "dock": {
+            "x": 0,
+            "y": 324.8125,
+            "width": 844,
+            "height": 65.1875,
+            "top": 324.8125,
+            "right": 844,
+            "bottom": 390,
+            "left": 0
+          },
+          "scroll": [
+            0,
+            405,
+            285
+          ],
+          "line": {
+            "x": 137,
+            "y": 44.796875,
+            "width": 678,
+            "height": 55.78125,
+            "top": 44.796875,
+            "right": 815,
+            "bottom": 100.578125,
+            "left": 137
+          },
+          "completion": {
+            "x": 137,
+            "y": 112.578125,
+            "width": 678,
+            "height": 230.1875,
+            "top": 112.578125,
+            "right": 815,
+            "bottom": 342.765625,
+            "left": 137
+          },
+          "actions": {
+            "x": 137,
+            "y": 350.765625,
+            "width": 678,
+            "height": 53,
+            "top": 350.765625,
+            "right": 815,
+            "bottom": 403.765625,
+            "left": 137
+          }
+        },
+        "bottomReachable": {
+          "panel": {
+            "x": 14,
+            "y": 8,
+            "width": 816,
+            "height": 286.8125,
+            "top": 8,
+            "right": 830,
+            "bottom": 294.8125,
+            "left": 14
+          },
+          "top": 120,
+          "max": 120,
+          "buttons": [
+            {
+              "text": "回到地圖",
+              "rect": {
+                "x": 594.96875,
+                "y": 235.765625,
+                "width": 98.015625,
+                "height": 48,
+                "top": 235.765625,
+                "right": 692.984375,
+                "bottom": 283.765625,
+                "left": 594.96875
+              }
+            },
+            {
+              "text": "閱讀下一關",
+              "rect": {
+                "x": 700.984375,
+                "y": 235.765625,
+                "width": 114.015625,
+                "height": 48,
+                "top": 235.765625,
+                "right": 815,
+                "bottom": 283.765625,
+                "left": 700.984375
+              }
+            }
+          ]
+        },
+        "nativeWheelTopAndBottom": true
+      }
+    },
+    {
+      "fixture": "Isolated lawful Four completed28 + presentation receipt + arrival seen; not native29 read",
+      "viewport": [
+        1024,
+        768
+      ],
+      "action": "map",
+      "tailProseAndInlineFeedbackOnceAfterReload": true,
+      "noExtraCompletedNotification": true,
+      "completedStill1": true,
+      "geometry": {
+        "initial": {
+          "panel": {
+            "x": 62,
+            "y": 14,
+            "width": 900,
+            "height": 434.96875,
+            "top": 14,
+            "right": 962,
+            "bottom": 448.96875,
+            "left": 62
+          },
+          "dock": {
+            "x": 0,
+            "y": 689,
+            "width": 1024,
+            "height": 79,
+            "top": 689,
+            "right": 1024,
+            "bottom": 768,
+            "left": 0
+          },
+          "scroll": [
+            0,
+            433,
+            433
+          ],
+          "line": {
+            "x": 236,
+            "y": 62.59375,
+            "width": 705,
+            "height": 61.1875,
+            "top": 62.59375,
+            "right": 941,
+            "bottom": 123.78125,
+            "left": 236
+          },
+          "completion": {
+            "x": 236,
+            "y": 135.78125,
+            "width": 705,
+            "height": 230.1875,
+            "top": 135.78125,
+            "right": 941,
+            "bottom": 365.96875,
+            "left": 236
+          },
+          "actions": {
+            "x": 236,
+            "y": 373.96875,
+            "width": 705,
+            "height": 60,
+            "top": 373.96875,
+            "right": 941,
+            "bottom": 433.96875,
+            "left": 236
+          }
+        },
+        "bottomReachable": {
+          "panel": {
+            "x": 62,
+            "y": 14,
+            "width": 900,
+            "height": 434.96875,
+            "top": 14,
+            "right": 962,
+            "bottom": 448.96875,
+            "left": 62
+          },
+          "top": 0,
+          "max": 0,
+          "buttons": [
+            {
+              "text": "回到地圖",
+              "rect": {
+                "x": 720.96875,
+                "y": 385.96875,
+                "width": 98.015625,
+                "height": 48,
+                "top": 385.96875,
+                "right": 818.984375,
+                "bottom": 433.96875,
+                "left": 720.96875
+              }
+            },
+            {
+              "text": "閱讀下一關",
+              "rect": {
+                "x": 826.984375,
+                "y": 385.96875,
+                "width": 114.015625,
+                "height": 48,
+                "top": 385.96875,
+                "right": 941,
+                "bottom": 433.96875,
+                "left": 826.984375
+              }
+            }
+          ]
+        },
+        "nativeWheelTopAndBottom": true
+      }
+    }
+  ],
+  "scope": "Story-only integration, native reader0..1 samples; legal completion/receipt and history are isolated fixtures. No full29 or14-book read; no reader geometry assertions/hash while another agent adjusts reader layout.",
+  "arrivalBranches": {
+    "nativeMapAcknowledgementNoBookmarkThenExploreReloadAndDirectRead": true,
+    "nativeReadNextDirectOriginalFour": true,
+    "nativeFourTrace": [
+      0,
+      1
+    ],
+    "middleExactReloadEscapeAndCityGuard": true,
+    "noXAndExactTerminalLabels": true
+  },
+  "normalFiveEntry": {
+    "sameTwoOptions": true,
+    "mapNoBookmarkThenDirectReadFive0": true,
+    "inlineOnlyInFirstCompletionContext": true
+  },
+  "genericCompletion": {
+    "fixture": "First2 complete; Five notification reopened explicitly to exercise both presentation actions",
+    "mapClearsURLWithoutNextBookmarkOrRepeat": true,
+    "readNextDirectLegalSix0": true,
+    "completionCount2Preserved": true
+  },
+  "nonsequentialHistory": {
+    "fixture": "Only Five completed/Four2 preserved",
+    "readNextResumesLegalFour2NotLockedSix": true,
+    "completionCount1Preserved": true
+  },
+  "all14": {
+    "mapDoesNotAutoOpenEnding": true,
+    "endingActionOpensExistingEndingWithoutBookURL": true,
+    "completedExactly14": true
+  },
+  "replay": {
+    "terminalSingleMapFocusAndKeyboardExit": [
+      "doubt-detour",
+      "toward-aggregates-lake"
+    ],
+    "allRawReadingSeenPendingReceiptLocalSessionUnchanged": true
+  },
+  "legacyBookmarkZero": {
+    "noForcedIntro": true,
+    "directOriginalReader0": true
+  },
+  "resetTrain": {
+    "nativeSettingsResetFromMiddle": true,
+    "pendingClearedTitleAndWholeReducedMotionTrain": true,
+    "freshMandatoryArrivalNoReadingMutation": true
+  },
+  "result": "pass",
+  "summary": {
+    "arrivalTerminalBranches": 2,
+    "firstCompletionInlineViewportCases": 3,
+    "normalFiveTerminal": 1,
+    "genericCompletionBranches": 2,
+    "nonsequentialLegalNext": 1,
+    "all14SafeBranches": 2,
+    "replayTerminalChains": 2,
+    "legacyBookmarkAndResetTrain": 2,
+    "screenshots": 4
+  },
+  "storyRuntimeHashes": {
+    "play/story/dialogue.js": "9400e5ffad6f244aa5fddf160ebd9eafbac39c275eeda5fa7c2d8d4b165d57b2",
+    "play/story/dialogue.css": "2bb307a8110012bdec9024fe5f6324b6d2d98ae7de91c5a1b57d4d5ae6d72694",
+    "play/story/data.js": "ae31d8d46f311aaad3c654385aed349601371bc04857be265df0593136fb1577",
+    "play/worldmap-v4/worldmap.js": "3e6ceaa1599d0f69c590127d467a334e64e6ed0bc538f13fe98305e578e77bbe"
+  },
+  "manualVisualReview": {
+    "files": [
+      "first-tail-inline-360x800.png",
+      "first-tail-inline-844x390.png"
+    ],
+    "notes": "Phone shows full authored tail, reward and both text buttons; short landscape shows top text and scrollable reward, with native wheel checks proving count/buttons reachable at bottom. No claim that long short-landscape feedback fits without scrolling."
+  }
+}

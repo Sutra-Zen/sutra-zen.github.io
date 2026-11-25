@@ -1,4 +1,4 @@
-import {resetJourney} from './journey-save.js?v=mandatory-dialogue-1';
+import {resetJourney} from './journey-save.js?v=dialogue-two-1';
 
 // Temporary author opt-in UI, not authentication or a game unlock mechanism.
 // Turn this off when the author-testing round ends; ordinary /game/ never

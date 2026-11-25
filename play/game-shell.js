@@ -1,9 +1,9 @@
-import {exportJourneyBackup,restoreJourneyBackup,resetJourney} from './journey-save.js?v=mandatory-dialogue-1';
+import {exportJourneyBackup,restoreJourneyBackup,resetJourney} from './journey-save.js?v=dialogue-two-1';
 import {cityStore} from './city/modules/store.js?v=auto-city-1';
 import {store} from './collection/store.js';
 import {CATALOG_IDS} from './collection/catalog.js';
 import {GAME_UI as T} from './game-ui-text.js?v=simple-ui-1';
-import {renderGameNavigation,GAME_URLS} from './navigation.js?v=mandatory-dialogue-1';
+import {renderGameNavigation,GAME_URLS} from './navigation.js?v=dialogue-two-1';
 export {GAME_URLS};
 const settingsIcon='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><path d="M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8Z"/><path d="m9 3-1 3-3 1-2 3 2 2-1 3 2 3h3l2 3 3-1 2-2 3-1 2-3-2-2 1-3-2-3h-3l-2-3-3 1Z"/></svg>';
 function loadStyle(name){const href=new URL(name,import.meta.url).href;if(![...document.querySelectorAll('link[rel="stylesheet"]')].some(n=>n.href===href)){const link=document.createElement('link');link.rel='stylesheet';link.href=href;document.head.append(link);}}

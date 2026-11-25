@@ -1,0 +1,17 @@
+{
+  "probe-threshold.json": {
+    "uncompressedBytes": 1787516,
+    "uncompressedSha256": "4888615262b43b35312be6b1466019aac0991b95b64be574e1306858aefeecfe",
+    "gzipBytes": 187218
+  },
+  "probe-compact-tablet.json": {
+    "uncompressedBytes": 256356,
+    "uncompressedSha256": "e6d332157d27bc562b4d5c7c08c95e0d666d58543bd175f58a0fcac8acb0a7e7",
+    "gzipBytes": 19701
+  },
+  "longest-candidates.json": {
+    "uncompressedBytes": 121918,
+    "uncompressedSha256": "5d12203d8af04a8f693e8a209426625571e2f3794bdd63db2014ad9242c971a3",
+    "gzipBytes": 14807
+  }
+}

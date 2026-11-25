@@ -1,5 +1,9 @@
 # SutraZen project context
 
+## Final text choices and compact caption space (2026-11-25)
+
+The recovered environment enables the two pending author requests. Final mainline dialogue replaces X with「回到地圖／閱讀下一關」; the first-book earned-world notice is included in its last authored line, so each choice goes directly to map exploration or the legal next book. Intermediate guards, exact pending scene/context, old saves and read-only replay remain. All-read profiles retain the ending action. Shared reader framing now reserves two lines when measured width/font permits, three in narrower layouts, with one fixed budget across pages/books per viewport. Typography, portrait flow, original art/manuscripts and scripture remain. Cache dialogue-two-1 / reader-two-1, generated game shell and30-member offline ZIP synchronized. See [implementation](play/dialogue-reader-space/README.md) and [validation](previews/dialogue-reader-space/README.md); exact release proof belongs to the PR, physical Safari is untested.
+
 ## Mainline dialogue acknowledgement and final X (2026-11-25)
 
 Middle story lines now require「接著看」and cannot be dismissed or bypassed through game navigation. Only the final line offers X/Escape to acknowledge and return to free map/city/shelf exploration, or「進去看看」to enter the original book; no reading completion is granted. A separate presentation-only checkpoint preserves the exact unfinished scene/context through reload, keeping legacy seen/reading schemas and completion receipt gates. Replay remains freely dismissible and read-only; reset/restore clear checkpoints. Historical legal bookmarks and completions retain priority. Cache `mandatory-dialogue-1`, original art/books/reader layout/eligibility and zero-completion train behavior remain. See [implementation](play/mandatory-dialogue/README.md) and [verification](previews/mandatory-dialogue/README.md); exact publication proof belongs to the PR, physical Safari is untested.

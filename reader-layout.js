@@ -121,12 +121,15 @@
       const capFont = Math.min(base * 1.25, Math.max(base, innerHeight * .035));
       const capLine = capFont * 1.4;
       const verseLine = Math.min(base * 1.125, Math.max(base * .94, innerHeight * .033)) * 1.4;
-      // A shared three-line budget keeps artwork equal-height while a third
-      // narration line remains visible without requiring an initial scroll.
-      const capSpace = Math.max(64, capLine * 3 + 16 + capFont * .5, verticalSpace([top, position], 'top', rect));
+      // The same viewport uses one budget across every book and page. The
+      // measured captions fit two lines once 36 em plus control gutters fit;
+      // narrower views reserve three, with longer text still scrollable.
+      const captionLines = scene.clientWidth < 36 * capFont + 168 ? 3 : 2;
+      const capSpace = Math.max(64, capLine * captionLines + 16 + capFont * .5, verticalSpace([top, position], 'top', rect));
       const verseSpace = Math.max(60, verseLine * 2 + 10, verticalSpace([links, openVerse], 'bottom', rect));
       const area = Math.max(1, scene.clientHeight - capSpace - verseSpace);
       set('--reader-caption-space', capSpace + 'px');
+      set('--reader-caption-lines', String(captionLines));
       set('--reader-scripture-space', verseSpace + 'px');
       set('--reader-image-space', area + 'px');
       set('--reader-caption-left', inset(top, 'left', rect) + 'px');

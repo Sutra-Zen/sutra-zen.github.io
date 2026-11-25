@@ -1,0 +1,949 @@
+{
+  "baseline": "a079a9191425e18b24dfd9371f52e91532802158",
+  "source": "Shared reader-layout.js only; source/UI cache work owned by root.",
+  "browser": "Desktop Chromium with emulated viewports; no physical iPhone/iPad Safari",
+  "cases": [],
+  "nativeNext": [],
+  "scrollCases": [
+    {
+      "book": "twelve-links",
+      "index": 40,
+      "size": [
+        667,
+        375
+      ],
+      "lines": 4,
+      "budget": 3,
+      "scrollTop": 18,
+      "lastParagraphBottomReachable": true
+    }
+  ],
+  "specials": [
+    {
+      "book": "four-truths",
+      "index": 23,
+      "kind": "heart",
+      "frameHeight": 261.1875,
+      "captionBudget": 2,
+      "fullVerticalTextAndRTL": true
+    },
+    {
+      "book": "four-truths",
+      "index": 28,
+      "kind": "ending",
+      "classes": "page reader-standard-layout text-scene document-scene reader-framed-ending",
+      "fullTextLength": 140,
+      "grid": "grid"
+    },
+    {
+      "book": "five-aggregates",
+      "index": 51,
+      "kind": "heart",
+      "frameHeight": 261.1875,
+      "captionBudget": 2,
+      "fullVerticalTextAndRTL": true
+    },
+    {
+      "book": "five-aggregates",
+      "index": 53,
+      "kind": "ending",
+      "classes": "page text-scene reader-standard-layout reader-framed-ending",
+      "fullTextLength": 148,
+      "grid": "grid"
+    },
+    {
+      "book": "six-senses",
+      "index": 110,
+      "kind": "heart",
+      "frameHeight": 261.1875,
+      "captionBudget": 2,
+      "fullVerticalTextAndRTL": true
+    },
+    {
+      "book": "six-senses",
+      "index": 114,
+      "kind": "ending",
+      "classes": "page text-scene reader-standard-layout reader-framed-ending",
+      "fullTextLength": 144,
+      "grid": "grid"
+    },
+    {
+      "book": "twelve-links",
+      "index": 74,
+      "kind": "heart",
+      "frameHeight": 261.1875,
+      "captionBudget": 2,
+      "fullVerticalTextAndRTL": true
+    },
+    {
+      "book": "twelve-links",
+      "index": 76,
+      "kind": "ending",
+      "classes": "page reader-standard-layout text-scene reader-framed-ending",
+      "fullTextLength": 133,
+      "grid": "grid"
+    },
+    {
+      "book": "eightfold-path",
+      "index": 110,
+      "kind": "ending",
+      "classes": "page reader-standard-layout text-scene afterword-scene reader-framed-ending",
+      "fullTextLength": 171,
+      "grid": "grid"
+    },
+    {
+      "book": "four-fruits-ten-fetters",
+      "index": 74,
+      "kind": "ending",
+      "classes": "page image-scene reader-standard-layout afterword-scene reader-framed-ending",
+      "fullTextLength": 190,
+      "grid": "grid"
+    },
+    {
+      "book": "four-purities-six-recollections",
+      "index": 94,
+      "kind": "ending",
+      "classes": "page image-scene reader-standard-layout afterword-scene reader-framed-ending",
+      "fullTextLength": 189,
+      "grid": "grid"
+    },
+    {
+      "book": "mindfulness",
+      "index": 110,
+      "kind": "ending",
+      "classes": "page image-scene reader-standard-layout afterword-scene reader-framed-ending",
+      "fullTextLength": 205,
+      "grid": "grid"
+    },
+    {
+      "book": "right-effort",
+      "index": 80,
+      "kind": "ending",
+      "classes": "page image-scene reader-standard-layout afterword-scene reader-framed-ending",
+      "fullTextLength": 171,
+      "grid": "grid"
+    },
+    {
+      "book": "anapana",
+      "index": 118,
+      "kind": "ending",
+      "classes": "page image-scene reader-standard-layout afterword-scene text-summary-scene reader-framed-ending",
+      "fullTextLength": 517,
+      "grid": "grid"
+    },
+    {
+      "book": "iddhipada",
+      "index": 81,
+      "kind": "ending",
+      "classes": "page image-scene reader-standard-layout afterword-scene text-summary-scene reader-framed-ending",
+      "fullTextLength": 95,
+      "grid": "grid"
+    },
+    {
+      "book": "four-jhanas",
+      "index": 130,
+      "kind": "ending",
+      "classes": "page image-scene reader-standard-layout afterword-scene text-summary-scene reader-framed-ending",
+      "fullTextLength": 92,
+      "grid": "grid"
+    },
+    {
+      "book": "five-roots-powers",
+      "index": 74,
+      "kind": "ending",
+      "classes": "page image-scene reader-standard-layout afterword-scene text-summary-scene reader-framed-ending",
+      "fullTextLength": 121,
+      "grid": "grid"
+    },
+    {
+      "book": "seven-factors",
+      "index": 36,
+      "kind": "ending",
+      "classes": "page image-scene reader-standard-layout afterword-scene text-summary-scene reader-framed-ending",
+      "fullTextLength": 98,
+      "grid": "grid"
+    },
+    {
+      "book": "four-truths",
+      "index": 23,
+      "kind": "heart-portrait",
+      "fits": false,
+      "fullTextLength": 319
+    },
+    {
+      "book": "five-aggregates",
+      "index": 51,
+      "kind": "heart-portrait",
+      "fits": false,
+      "fullTextLength": 320
+    },
+    {
+      "book": "six-senses",
+      "index": 110,
+      "kind": "heart-portrait",
+      "fits": false,
+      "fullTextLength": 320
+    },
+    {
+      "book": "twelve-links",
+      "index": 74,
+      "kind": "heart-portrait",
+      "fits": false,
+      "fullTextLength": 319
+    }
+  ],
+  "rotation": [
+    {
+      "book": "five-aggregates",
+      "index": 43,
+      "states": [
+        {
+          "size": [
+            844,
+            390
+          ],
+          "budget": 2,
+          "frameHeight": 261.1875
+        },
+        {
+          "size": [
+            390,
+            844
+          ],
+          "budget": 2,
+          "frameHeight": 216.65625
+        },
+        {
+          "size": [
+            667,
+            375
+          ],
+          "budget": 3,
+          "frameHeight": 223.796875
+        },
+        {
+          "size": [
+            844,
+            390
+          ],
+          "budget": 2,
+          "frameHeight": 261.1875
+        }
+      ],
+      "reloadPositionPreserved": true
+    }
+  ],
+  "screenshots": [
+    "/tmp/two-line-reader-qa/five-long-844x390.png",
+    "/tmp/two-line-reader-qa/five-long-667x375.png",
+    "/tmp/two-line-reader-qa/five-long-1280x900.png",
+    "/tmp/two-line-reader-qa/twelve-four-lines-scrolled-667x375.png",
+    "/tmp/two-line-reader-qa/four-truths-before-1280x720.png",
+    "/tmp/two-line-reader-qa/four-truths-after-1280x720.png"
+  ],
+  "ordinaryMatrix": {
+    "passedBooks": [
+      "four-truths",
+      "five-aggregates",
+      "six-senses",
+      "twelve-links",
+      "eightfold-path",
+      "four-fruits-ten-fetters",
+      "four-purities-six-recollections",
+      "mindfulness",
+      "right-effort",
+      "anapana",
+      "iddhipada",
+      "four-jhanas",
+      "five-roots-powers",
+      "seven-factors"
+    ],
+    "publicSizes": [
+      [
+        1280,
+        900
+      ],
+      [
+        1024,
+        768
+      ],
+      [
+        900,
+        600
+      ],
+      [
+        800,
+        600
+      ],
+      [
+        844,
+        390
+      ],
+      [
+        667,
+        375
+      ],
+      [
+        360,
+        800
+      ],
+      [
+        768,
+        1024
+      ]
+    ],
+    "reviewSizes": [
+      [
+        844,
+        390
+      ],
+      [
+        667,
+        375
+      ]
+    ],
+    "configurations": 140,
+    "measuredSamples": 280,
+    "nativeNextActions": 28,
+    "assertions": [
+      "exact current narration retained",
+      "longest and short same-image pages equal image height",
+      "complete ratio-preserving artwork",
+      "fixed 2/3 line budget by viewport across pages",
+      "caption and controls do not overlap",
+      "public original sources/map links retained",
+      "review return label and eligibility intact",
+      "four-line text natively scrolls to final paragraph"
+    ],
+    "log": "/tmp/two-line-reader-qa/verify.log",
+    "harnessCorrection": "Special-only follow-up accepts hidden caption on #verse-only text endings. No product defect or source correction was needed."
+  },
+  "commonHeights": [
+    {
+      "size": [
+        1280,
+        720
+      ],
+      "books": 14,
+      "spreadPx": 0.0,
+      "samples": [
+        {
+          "book": "four-truths",
+          "height": 577.59375,
+          "target": 577.6,
+          "captionSpace": 82,
+          "budget": 2
+        },
+        {
+          "book": "five-aggregates",
+          "height": 577.59375,
+          "target": 577.6,
+          "captionSpace": 82,
+          "budget": 2
+        },
+        {
+          "book": "six-senses",
+          "height": 577.59375,
+          "target": 577.6,
+          "captionSpace": 82,
+          "budget": 2
+        },
+        {
+          "book": "twelve-links",
+          "height": 577.59375,
+          "target": 577.6,
+          "captionSpace": 82,
+          "budget": 2
+        },
+        {
+          "book": "eightfold-path",
+          "height": 577.59375,
+          "target": 577.6,
+          "captionSpace": 82,
+          "budget": 2
+        },
+        {
+          "book": "four-fruits-ten-fetters",
+          "height": 577.59375,
+          "target": 577.6,
+          "captionSpace": 82,
+          "budget": 2
+        },
+        {
+          "book": "four-purities-six-recollections",
+          "height": 577.59375,
+          "target": 577.6,
+          "captionSpace": 82,
+          "budget": 2
+        },
+        {
+          "book": "mindfulness",
+          "height": 577.59375,
+          "target": 577.6,
+          "captionSpace": 82,
+          "budget": 2
+        },
+        {
+          "book": "right-effort",
+          "height": 577.59375,
+          "target": 577.6,
+          "captionSpace": 82,
+          "budget": 2
+        },
+        {
+          "book": "anapana",
+          "height": 577.59375,
+          "target": 577.6,
+          "captionSpace": 82,
+          "budget": 2
+        },
+        {
+          "book": "iddhipada",
+          "height": 577.59375,
+          "target": 577.6,
+          "captionSpace": 82,
+          "budget": 2
+        },
+        {
+          "book": "four-jhanas",
+          "height": 577.59375,
+          "target": 577.6,
+          "captionSpace": 82,
+          "budget": 2
+        },
+        {
+          "book": "five-roots-powers",
+          "height": 577.59375,
+          "target": 577.6,
+          "captionSpace": 82,
+          "budget": 2
+        },
+        {
+          "book": "seven-factors",
+          "height": 577.59375,
+          "target": 577.6,
+          "captionSpace": 82,
+          "budget": 2
+        }
+      ]
+    },
+    {
+      "size": [
+        844,
+        390
+      ],
+      "books": 14,
+      "spreadPx": 0.0,
+      "samples": [
+        {
+          "book": "four-truths",
+          "height": 261.1875,
+          "target": 261.2,
+          "captionSpace": 68.8,
+          "budget": 2
+        },
+        {
+          "book": "five-aggregates",
+          "height": 261.1875,
+          "target": 261.2,
+          "captionSpace": 68.8,
+          "budget": 2
+        },
+        {
+          "book": "six-senses",
+          "height": 261.1875,
+          "target": 261.2,
+          "captionSpace": 68.8,
+          "budget": 2
+        },
+        {
+          "book": "twelve-links",
+          "height": 261.1875,
+          "target": 261.2,
+          "captionSpace": 68.8,
+          "budget": 2
+        },
+        {
+          "book": "eightfold-path",
+          "height": 261.1875,
+          "target": 261.2,
+          "captionSpace": 68.8,
+          "budget": 2
+        },
+        {
+          "book": "four-fruits-ten-fetters",
+          "height": 261.1875,
+          "target": 261.2,
+          "captionSpace": 68.8,
+          "budget": 2
+        },
+        {
+          "book": "four-purities-six-recollections",
+          "height": 261.1875,
+          "target": 261.2,
+          "captionSpace": 68.8,
+          "budget": 2
+        },
+        {
+          "book": "mindfulness",
+          "height": 261.1875,
+          "target": 261.2,
+          "captionSpace": 68.8,
+          "budget": 2
+        },
+        {
+          "book": "right-effort",
+          "height": 261.1875,
+          "target": 261.2,
+          "captionSpace": 68.8,
+          "budget": 2
+        },
+        {
+          "book": "anapana",
+          "height": 261.1875,
+          "target": 261.2,
+          "captionSpace": 68.8,
+          "budget": 2
+        },
+        {
+          "book": "iddhipada",
+          "height": 261.1875,
+          "target": 261.2,
+          "captionSpace": 68.8,
+          "budget": 2
+        },
+        {
+          "book": "four-jhanas",
+          "height": 261.1875,
+          "target": 261.2,
+          "captionSpace": 68.8,
+          "budget": 2
+        },
+        {
+          "book": "five-roots-powers",
+          "height": 261.1875,
+          "target": 261.2,
+          "captionSpace": 68.8,
+          "budget": 2
+        },
+        {
+          "book": "seven-factors",
+          "height": 261.1875,
+          "target": 261.2,
+          "captionSpace": 68.8,
+          "budget": 2
+        }
+      ]
+    },
+    {
+      "size": [
+        667,
+        375
+      ],
+      "books": 14,
+      "spreadPx": 0.0,
+      "samples": [
+        {
+          "book": "four-truths",
+          "height": 223.796875,
+          "target": 223.8,
+          "captionSpace": 91.19999999999999,
+          "budget": 3
+        },
+        {
+          "book": "five-aggregates",
+          "height": 223.796875,
+          "target": 223.8,
+          "captionSpace": 91.19999999999999,
+          "budget": 3
+        },
+        {
+          "book": "six-senses",
+          "height": 223.796875,
+          "target": 223.8,
+          "captionSpace": 91.19999999999999,
+          "budget": 3
+        },
+        {
+          "book": "twelve-links",
+          "height": 223.796875,
+          "target": 223.8,
+          "captionSpace": 91.19999999999999,
+          "budget": 3
+        },
+        {
+          "book": "eightfold-path",
+          "height": 223.796875,
+          "target": 223.8,
+          "captionSpace": 91.19999999999999,
+          "budget": 3
+        },
+        {
+          "book": "four-fruits-ten-fetters",
+          "height": 223.796875,
+          "target": 223.8,
+          "captionSpace": 91.19999999999999,
+          "budget": 3
+        },
+        {
+          "book": "four-purities-six-recollections",
+          "height": 223.796875,
+          "target": 223.8,
+          "captionSpace": 91.19999999999999,
+          "budget": 3
+        },
+        {
+          "book": "mindfulness",
+          "height": 223.796875,
+          "target": 223.8,
+          "captionSpace": 91.19999999999999,
+          "budget": 3
+        },
+        {
+          "book": "right-effort",
+          "height": 223.796875,
+          "target": 223.8,
+          "captionSpace": 91.19999999999999,
+          "budget": 3
+        },
+        {
+          "book": "anapana",
+          "height": 223.796875,
+          "target": 223.8,
+          "captionSpace": 91.19999999999999,
+          "budget": 3
+        },
+        {
+          "book": "iddhipada",
+          "height": 223.796875,
+          "target": 223.8,
+          "captionSpace": 91.19999999999999,
+          "budget": 3
+        },
+        {
+          "book": "four-jhanas",
+          "height": 223.796875,
+          "target": 223.8,
+          "captionSpace": 91.19999999999999,
+          "budget": 3
+        },
+        {
+          "book": "five-roots-powers",
+          "height": 223.796875,
+          "target": 223.8,
+          "captionSpace": 91.19999999999999,
+          "budget": 3
+        },
+        {
+          "book": "seven-factors",
+          "height": 223.796875,
+          "target": 223.8,
+          "captionSpace": 91.19999999999999,
+          "budget": 3
+        }
+      ]
+    },
+    {
+      "size": [
+        800,
+        600
+      ],
+      "books": 14,
+      "spreadPx": 0.0,
+      "samples": [
+        {
+          "book": "four-truths",
+          "height": 382.21875,
+          "target": 382.22222222222223,
+          "captionSpace": 110,
+          "budget": 3
+        },
+        {
+          "book": "five-aggregates",
+          "height": 382.21875,
+          "target": 382.22222222222223,
+          "captionSpace": 110,
+          "budget": 3
+        },
+        {
+          "book": "six-senses",
+          "height": 382.21875,
+          "target": 382.22222222222223,
+          "captionSpace": 110,
+          "budget": 3
+        },
+        {
+          "book": "twelve-links",
+          "height": 382.21875,
+          "target": 382.22222222222223,
+          "captionSpace": 110,
+          "budget": 3
+        },
+        {
+          "book": "eightfold-path",
+          "height": 382.21875,
+          "target": 382.22222222222223,
+          "captionSpace": 110,
+          "budget": 3
+        },
+        {
+          "book": "four-fruits-ten-fetters",
+          "height": 382.21875,
+          "target": 382.22222222222223,
+          "captionSpace": 110,
+          "budget": 3
+        },
+        {
+          "book": "four-purities-six-recollections",
+          "height": 382.21875,
+          "target": 382.22222222222223,
+          "captionSpace": 110,
+          "budget": 3
+        },
+        {
+          "book": "mindfulness",
+          "height": 382.21875,
+          "target": 382.22222222222223,
+          "captionSpace": 110,
+          "budget": 3
+        },
+        {
+          "book": "right-effort",
+          "height": 382.21875,
+          "target": 382.22222222222223,
+          "captionSpace": 110,
+          "budget": 3
+        },
+        {
+          "book": "anapana",
+          "height": 382.21875,
+          "target": 382.22222222222223,
+          "captionSpace": 110,
+          "budget": 3
+        },
+        {
+          "book": "iddhipada",
+          "height": 382.21875,
+          "target": 382.22222222222223,
+          "captionSpace": 110,
+          "budget": 3
+        },
+        {
+          "book": "four-jhanas",
+          "height": 382.21875,
+          "target": 382.22222222222223,
+          "captionSpace": 110,
+          "budget": 3
+        },
+        {
+          "book": "five-roots-powers",
+          "height": 382.21875,
+          "target": 382.22222222222223,
+          "captionSpace": 110,
+          "budget": 3
+        },
+        {
+          "book": "seven-factors",
+          "height": 382.21875,
+          "target": 382.22222222222223,
+          "captionSpace": 110,
+          "budget": 3
+        }
+      ]
+    },
+    {
+      "size": [
+        900,
+        600
+      ],
+      "books": 14,
+      "spreadPx": 0.0,
+      "samples": [
+        {
+          "book": "four-truths",
+          "height": 437.765625,
+          "target": 437.77777777777777,
+          "captionSpace": 82,
+          "budget": 2
+        },
+        {
+          "book": "five-aggregates",
+          "height": 437.765625,
+          "target": 437.77777777777777,
+          "captionSpace": 82,
+          "budget": 2
+        },
+        {
+          "book": "six-senses",
+          "height": 437.765625,
+          "target": 437.77777777777777,
+          "captionSpace": 82,
+          "budget": 2
+        },
+        {
+          "book": "twelve-links",
+          "height": 437.765625,
+          "target": 437.77777777777777,
+          "captionSpace": 82,
+          "budget": 2
+        },
+        {
+          "book": "eightfold-path",
+          "height": 437.765625,
+          "target": 437.77777777777777,
+          "captionSpace": 82,
+          "budget": 2
+        },
+        {
+          "book": "four-fruits-ten-fetters",
+          "height": 437.765625,
+          "target": 437.77777777777777,
+          "captionSpace": 82,
+          "budget": 2
+        },
+        {
+          "book": "four-purities-six-recollections",
+          "height": 437.765625,
+          "target": 437.77777777777777,
+          "captionSpace": 82,
+          "budget": 2
+        },
+        {
+          "book": "mindfulness",
+          "height": 437.765625,
+          "target": 437.77777777777777,
+          "captionSpace": 82,
+          "budget": 2
+        },
+        {
+          "book": "right-effort",
+          "height": 437.765625,
+          "target": 437.77777777777777,
+          "captionSpace": 82,
+          "budget": 2
+        },
+        {
+          "book": "anapana",
+          "height": 437.765625,
+          "target": 437.77777777777777,
+          "captionSpace": 82,
+          "budget": 2
+        },
+        {
+          "book": "iddhipada",
+          "height": 437.765625,
+          "target": 437.77777777777777,
+          "captionSpace": 82,
+          "budget": 2
+        },
+        {
+          "book": "four-jhanas",
+          "height": 437.765625,
+          "target": 437.77777777777777,
+          "captionSpace": 82,
+          "budget": 2
+        },
+        {
+          "book": "five-roots-powers",
+          "height": 437.765625,
+          "target": 437.77777777777777,
+          "captionSpace": 82,
+          "budget": 2
+        },
+        {
+          "book": "seven-factors",
+          "height": 437.765625,
+          "target": 437.77777777777777,
+          "captionSpace": 82,
+          "budget": 2
+        }
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "size": [
+        1280,
+        720
+      ],
+      "before": {
+        "height": 549.59375,
+        "captionSpace": 110,
+        "font": "20px",
+        "lineHeight": "28px",
+        "text": "什麼是苦的真理呢？佛陀這位生命醫師告訴我們：出生時的無助、身體變老的無奈、生病的虛弱、死亡的告別，"
+      },
+      "after": {
+        "height": 577.59375,
+        "captionSpace": 82,
+        "font": "20px",
+        "lineHeight": "28px",
+        "text": "什麼是苦的真理呢？佛陀這位生命醫師告訴我們：出生時的無助、身體變老的無奈、生病的虛弱、死亡的告別，"
+      },
+      "imageHeightGainPx": 28.0,
+      "captionSpaceReductionPx": 28
+    },
+    {
+      "size": [
+        1280,
+        900
+      ],
+      "before": {
+        "height": 648.875,
+        "captionSpace": 110,
+        "font": "20px",
+        "lineHeight": "28px",
+        "text": "什麼是苦的真理呢？佛陀這位生命醫師告訴我們：出生時的無助、身體變老的無奈、生病的虛弱、死亡的告別，"
+      },
+      "after": {
+        "height": 648.875,
+        "captionSpace": 82,
+        "font": "20px",
+        "lineHeight": "28px",
+        "text": "什麼是苦的真理呢？佛陀這位生命醫師告訴我們：出生時的無助、身體變老的無奈、生病的虛弱、死亡的告別，"
+      },
+      "imageHeightGainPx": 0.0,
+      "captionSpaceReductionPx": 28
+    },
+    {
+      "size": [
+        1916,
+        963
+      ],
+      "before": {
+        "height": 792.59375,
+        "captionSpace": 110,
+        "font": "20px",
+        "lineHeight": "28px",
+        "text": "什麼是苦的真理呢？佛陀這位生命醫師告訴我們：出生時的無助、身體變老的無奈、生病的虛弱、死亡的告別，"
+      },
+      "after": {
+        "height": 820.59375,
+        "captionSpace": 82,
+        "font": "20px",
+        "lineHeight": "28px",
+        "text": "什麼是苦的真理呢？佛陀這位生命醫師告訴我們：出生時的無助、身體變老的無奈、生病的虛弱、死亡的告別，"
+      },
+      "imageHeightGainPx": 28.0,
+      "captionSpaceReductionPx": 28
+    }
+  ],
+  "outcome": "PASS",
+  "runtimeFiles": {
+    "reader-layout.js": "c071765f5e6e08c8496e24dcbc831cf4cd3bd87c9e1d0572401fcbb8738bac0c",
+    "reader-controls.css": "752dec3279c4c64b6acf1db7af05a72ac87d45dce2607dd7ecae60a8d5806e81"
+  },
+  "scopeLimitations": [
+    "Representative page geometry/native Next, not a repeated full 1192-step end-to-end traversal.",
+    "Game-review uses an isolated all-completed fixture; this is not evidence of earning fourteen completions.",
+    "Desktop Chromium viewport and touch-capable emulation; physical iPhone/iPad Safari and screen-reader testing not performed.",
+    "This report does not claim a full-site console/network audit; root owns the independent source and integration guards."
+  ],
+  "representativeScreenshots": [
+    "four-truths-before-1280x720.png",
+    "four-truths-after-1280x720.png",
+    "five-long-844x390.png",
+    "five-long-667x375.png",
+    "twelve-four-lines-scrolled-667x375.png"
+  ]
+}

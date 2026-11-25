@@ -37,7 +37,10 @@
 .story-dialogue__next:not(:disabled):not([aria-disabled=true]):hover{background:var(--game-button-hover,linear-gradient(145deg,#b3f6f3,#79d9e9));color:var(--game-action-ink,#173d50)}
 .story-dialogue__next:is(:disabled,[aria-disabled=true]){background:var(--game-action-disabled,linear-gradient(145deg,#b6ced2,#9bb9c2));color:var(--game-action-disabled-ink,#254552);border-color:#8facb8;box-shadow:none;opacity:1;cursor:not-allowed}
 
-/* Only a final story line can be acknowledged without entering its book. */
-.story-dialogue__close{position:absolute;top:10px;right:10px;z-index:2;display:grid;place-items:center;width:44px;height:44px;min-width:44px;padding:0;border:1px solid #a9dce7;border-radius:12px;background:#172b39e8;color:#f7f0dc;font:32px/1 sans-serif;cursor:pointer;touch-action:manipulation}
-.story-dialogue__close[hidden]{display:none!important}
-.story-dialogue.has-close .story-dialogue__body{padding-right:44px}
+/* Inline reading feedback stays with the last line before its two choices. */
+.story-dialogue.has-inline-completion .story-dialogue__completion{margin-top:12px;padding-top:10px;border-top:1px solid var(--game-line,#c6ad778f)}
+@media(max-width:600px){
+ .story-dialogue.has-inline-completion .story-dialogue__body{display:contents}
+ .story-dialogue.has-inline-completion #story-speaker{grid-column:2;grid-row:1;align-self:center}
+ .story-dialogue.has-inline-completion :is(.story-dialogue__line,.story-dialogue__completion,.story-dialogue__notice){grid-column:1/-1}
+}
