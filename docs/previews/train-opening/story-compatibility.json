@@ -1,0 +1,27 @@
+{
+  "result": "passed",
+  "legacySceneIdsPreserved": [
+    "arrival-at-wheel",
+    "doubt-at-ruins",
+    "doubt-detour",
+    "first-book-insight",
+    "doubt-recedes",
+    "mara-watches",
+    "toward-aggregates-lake"
+  ],
+  "newSceneIdsAccepted": [
+    "train-desires",
+    "train-breathless",
+    "doubt-escapes"
+  ],
+  "totalAcceptedScenes": 10,
+  "storyStorageSchemaAndKeyUnchanged": true,
+  "noReadingStoreWrites": true,
+  "quotaSessionRecovery": true,
+  "newOutroute": [
+    "first-book-insight",
+    "doubt-escapes",
+    "doubt-recedes",
+    "toward-aggregates-lake"
+  ]
+}

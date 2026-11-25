@@ -30,6 +30,9 @@
 /* Transparent portrait stays rectangular and contained: neither ear is cut by a circular mask. */
 .story-dialogue__portrait img{clip-path:none;border-radius:0}
 
+/* The fleeing doubt portrait retains only a few of its former questions. */
+.story-dialogue[data-doubt-state="receding"] .story-dialogue__portrait[data-story-actor="doubt"] .story-doubt-mark:nth-of-type(n+3){opacity:0}
+
 /* Primary story navigation uses the same blue-celadon action treatment. */
 .story-dialogue__next:not(:disabled):not([aria-disabled=true]):hover{background:var(--game-button-hover,linear-gradient(145deg,#b3f6f3,#79d9e9));color:var(--game-action-ink,#173d50)}
 .story-dialogue__next:is(:disabled,[aria-disabled=true]){background:var(--game-action-disabled,linear-gradient(145deg,#b6ced2,#9bb9c2));color:var(--game-action-disabled-ink,#254552);border-color:#8facb8;box-shadow:none;opacity:1;cursor:not-allowed}

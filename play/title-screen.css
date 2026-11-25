@@ -28,3 +28,7 @@
 #game-title-screen .game-title-paper .game-title-start:focus-visible{outline:3px solid var(--game-focus,#ffe0a0);outline-offset:3px}
 
 #game-title-screen .game-title-paper .game-title-start:focus-visible{outline:none;text-decoration:underline;text-underline-offset:.25em}
+
+/* A permanent white edge identifies the two title-menu actions in every state. */
+#game-title-screen .game-title-paper :is(.game-title-start,.game-title-settings),
+#game-title-screen .game-title-paper :is(.game-title-start,.game-title-settings):is(:hover,:active,:focus-visible){border:2px solid rgba(255,255,255,.9)}

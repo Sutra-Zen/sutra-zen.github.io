@@ -1,3 +1,15 @@
+# 電車上捲字幕與四聖諦至五陰劇本（2026-11-25）
+
+從已發布PR85／main `c6dcee91a535f8a2649886c34b86f781d21708fa` 建立乾淨分支`feat/train-opening-story`。作者12列新版劇本串接群貓三段字幕→選單→電車心聲→法輪遺跡／疑→原生四聖諦→四段讀後尾聲→新增城景通知→五陰湖。開始／繼續與設定按鈕永久2px白框，plain片頭提示無框。作者隨後補原ZIP並指定電車也用上捲字幕、進地圖才頭像對話；已按最新要求實作，先前缺圖／待原件狀態已解除。
+
+完整原ZIP保存於`docs/play/train-opening/source/`；其中PNG1672×941逐位元匯入runtime，無重繪或重新編碼。`assets.json`記錄來源／runtime SHA，ready=true；預設asset gate比對原件、CRC、尺寸與URL通過。電車兩段連續跑完可自然轉場，或點背景／白字提示略過；reduced motion提供靜態捲讀。第一段完全捲過後記既有seen以便重整續第二段；重播不改reading／story／receipt。對話只在地圖上出現。
+
+Phase A保留早期缺圖介面的流程證據：真四聖諦0–28，末頁明確完成才寫1本，4段尾聲先於原新增模組通知，接城池／Five0–3；6個歷史fixture含0書籤、已讀與seen保持。Phase B重新驗真正原圖與最終crawl六尺寸、自然結束／略過、載入錯誤與重試、重整續播／唯讀重播。原7個story IDs含Mara保留，新增train兩ID與doubt-escapes；新版主線依最新劇本不走Mara，舊資料仍有效。
+
+active story/resetJourney cache同為train-opening-1以保單例，中央reading store／route policy URI和內容不改。14書HTML僅bridge query，1192步原生稿／經文／圖片／共享layout與已合併校訂、Google／SEO及30成員Seven離線ZIP保持。source shell與game產生檔同步，Pages維持legacy main:/，QA排除29目錄。詳[實作與素材](play/train-opening/README.md)、[驗證及代表截圖](previews/train-opening/README.md)。沿既有直接發布授權，精確PR／merge SHA／Pages及live證據以本輪PR交付為準。手機平板為Chromium模擬，實機iPhone／iPad Safari未測。
+
+---
+
 # 橫書純文字頁寬版置中／窄版靠左（2026-11-24）
 
 接續已發布PR84／main `8f91fd461db03fc3c43920134af315bae75181c4`，在乾淨分支 `fix/horizontal-text-centering` 處理作者五陰片頭示例及十四本橫排純文字頁。共享CSS僅對 `reader-framed-ending` 的全寬scene加入單一fit-content受限grid欄；標題、口白、總結／表格及引文共用一欄，段內仍左排。寬且有足夠高度的視窗置中，手機直式／短橫式保持左起；橫式scene的scrollport在底部固定列上方結束、page維持深色背景，直式保留原自然文件捲動及頁尾空間；不把直式正文中途經過固定底列後方但可上移讀完的既有行為誤報成本輪新回歸。心經不在此class，維持可容納時置中、窄框最右起讀與原生橫捲。

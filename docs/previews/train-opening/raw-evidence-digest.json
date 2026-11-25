@@ -1,0 +1,14 @@
+{
+  "phaseA": {
+    "file": "phase-a-validation.json.gz",
+    "uncompressedBytes": 24296,
+    "uncompressedSha256": "ae204a630b4d22152834f73218cbb70f25cab7ed56e93a80885dbfc74230a0bf",
+    "gzipBytes": 2747
+  },
+  "phaseB": {
+    "file": "phase-b-validation.json.gz",
+    "uncompressedBytes": 15899,
+    "uncompressedSha256": "03ecde144f614f076133d4ef9be1d3209f1d5f92cefb03d219b7caf1fceba544",
+    "gzipBytes": 3580
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "errors": [],
+  "checks": [
+    "actual first paragraph milestone -> reload second only -> skip arrival, no reading write",
+    "actual short-landscape natural full crawl -> arrival, both train seen, no reading write",
+    "reduced static no animation, viewport keyboard focus, skip arrival"
+  ],
+  "result": "pass"
+}
