@@ -1,3 +1,13 @@
+# 主線對話逐段確認／終幕X自由探索（2026-11-25）
+
+從PR87 main `ea6dafa701670caffb5cd4e4ee4b9df05d4ff467`建`fix/mandatory-mainline-dialogue`。原疑幕與五陰入口顯示即seen，重整可整段消失；作者要求主線不能用回海圖略過，再追加終幕右上X可關，避免不能探索。最終規則：中間只有接著看、無X／略過，Escape及底nav／主閱讀／地標／工具不能繞；最後X/Escape ack回海圖不開書、不計完成，或按進去看看入書。X後終幕seen＋無pending所以正常自由探索且不再重彈。首本尾幕X／Next仍至原城景通知；唯讀replay可各幕自由回海圖。
+
+新增純呈現pending store保存目前sceneId/context，normal show寫checkpoint、Next覆寫、terminal ack清；genericclose及replay不清。保留舊seen schema／首本receipt與cutoff，恢復先過原完成、資格與書籤門檻再精確當幕；同台詞的first-completion context不能丟。reset／restore清pending，local/session quota recovery有baseRaw與null tombstone，壞值不影響reading。歷史合法bookmark0／已完成優先，無pending才用舊seen補未讀段。
+
+cache mandatory-dialogue-1與14本bridge query及game產生檔同步。原台詞／IDs／graph、reading/store／route政策URI、14本原稿／圖／shared reader版面、合法完成／頁碼、備份schema、SEO／Google與30成員Seven離線包保持。Pages legacy main:/及原電車圖不改，QA排除共31。詳[實作](play/mandatory-dialogue/README.md)、[重現及focused驗證](previews/mandatory-dialogue/README.md)。沿既有直接發布授權，正式PR／merge SHA／Pages／live交付證據以新PR為準；實機iPhone／iPad Safari未測。
+
+---
+
 # 清除後電車啟動與接著看／進去看看（2026-11-25）
 
 從已發布PR86／main `dd480b67959e90adc50f2bb8e0c2b1f80197d8f2`建分支`fix/train-zero-completion-start`。實按Settings清除重現：reading與receipt清掉，但active海圖的reset事件立即寫arrival seen；舊電車資格又排除seen／任何bookmark，所以回首頁Start也沒有電車。不是原圖遺失或store雙單例。

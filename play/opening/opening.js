@@ -1,7 +1,7 @@
 import {store} from '../collection/store.js';
-import {storyStore} from '../story/store.js?v=train-reset-1';
-import {STORY_SCENES} from '../story/data.js?v=train-reset-1';
-import {OPENING_VERSION as V,TRAIN_ART,TRAIN_SCENE_IDS,TRAIN_UI as T,TRAIN_TIMING as C} from './data.js?v=train-reset-1';
+import {storyStore} from '../story/store.js?v=mandatory-dialogue-1';
+import {STORY_SCENES} from '../story/data.js?v=mandatory-dialogue-1';
+import {OPENING_VERSION as V,TRAIN_ART,TRAIN_SCENE_IDS,TRAIN_UI as T,TRAIN_TIMING as C} from './data.js?v=mandatory-dialogue-1';
 
 // Story presentation only: finishing/skipping never opens or completes a book.
 export function canPlayTrainOpening(saved=store.get()){

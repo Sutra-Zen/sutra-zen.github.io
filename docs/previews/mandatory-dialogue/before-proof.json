@@ -1,0 +1,87 @@
+{
+  "baseline": "ea6dafa701670caffb5cd4e4ee4b9df05d4ff467",
+  "phase": "Before fix frozen baseline source responses; isolated browser fixtures only",
+  "cases": [
+    {
+      "fixture": "arrival",
+      "before": {
+        "scene": "doubt-at-ruins",
+        "skipVisible": true,
+        "skipLabel": "先看看地圖",
+        "state": {
+          "local": {
+            "sutrazen.play.collection.v1": null,
+            "sutrazen.play.story.v1": "{\"version\":1,\"seenSceneIds\":[\"arrival-at-wheel\",\"doubt-at-ruins\"]}",
+            "sutrazen.play.story-first-completion.v1": null,
+            "sutrazen.play.collection.session.v1": null
+          },
+          "session": {
+            "sutrazen.play.collection.v1": null,
+            "sutrazen.play.story.v1": null,
+            "sutrazen.play.story-first-completion.v1": null,
+            "sutrazen.play.collection.session.v1": null
+          }
+        }
+      },
+      "afterReload": {
+        "visibleDialogs": 0,
+        "state": {
+          "local": {
+            "sutrazen.play.collection.v1": null,
+            "sutrazen.play.story.v1": "{\"version\":1,\"seenSceneIds\":[\"arrival-at-wheel\",\"doubt-at-ruins\"]}",
+            "sutrazen.play.story-first-completion.v1": null,
+            "sutrazen.play.collection.session.v1": null
+          },
+          "session": {
+            "sutrazen.play.collection.v1": null,
+            "sutrazen.play.story.v1": null,
+            "sutrazen.play.story-first-completion.v1": null,
+            "sutrazen.play.collection.session.v1": null
+          }
+        }
+      },
+      "dialogueLost": true
+    },
+    {
+      "fixture": "five-entry",
+      "before": {
+        "scene": "toward-aggregates-lake",
+        "skipVisible": true,
+        "skipLabel": "先看看地圖",
+        "state": {
+          "local": {
+            "sutrazen.play.collection.v1": "{\"version\": 1, \"completed\": [\"four-truths\"], \"positions\": {\"four-truths\": 5}, \"activeBook\": \"five-aggregates\"}",
+            "sutrazen.play.story.v1": "{\"version\":1,\"seenSceneIds\":[\"arrival-at-wheel\",\"doubt-at-ruins\",\"doubt-detour\",\"toward-aggregates-lake\"]}",
+            "sutrazen.play.story-first-completion.v1": null,
+            "sutrazen.play.collection.session.v1": null
+          },
+          "session": {
+            "sutrazen.play.collection.v1": null,
+            "sutrazen.play.story.v1": null,
+            "sutrazen.play.story-first-completion.v1": null,
+            "sutrazen.play.collection.session.v1": null
+          }
+        }
+      },
+      "afterReload": {
+        "visibleDialogs": 0,
+        "state": {
+          "local": {
+            "sutrazen.play.collection.v1": "{\"version\": 1, \"completed\": [\"four-truths\"], \"positions\": {\"four-truths\": 5}, \"activeBook\": \"five-aggregates\"}",
+            "sutrazen.play.story.v1": "{\"version\":1,\"seenSceneIds\":[\"arrival-at-wheel\",\"doubt-at-ruins\",\"doubt-detour\",\"toward-aggregates-lake\"]}",
+            "sutrazen.play.story-first-completion.v1": null,
+            "sutrazen.play.collection.session.v1": null
+          },
+          "session": {
+            "sutrazen.play.collection.v1": null,
+            "sutrazen.play.story.v1": null,
+            "sutrazen.play.story-first-completion.v1": null,
+            "sutrazen.play.collection.session.v1": null
+          }
+        }
+      },
+      "dialogueLost": true
+    }
+  ],
+  "result": "reproduced"
+}

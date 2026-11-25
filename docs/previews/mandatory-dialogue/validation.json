@@ -1,0 +1,144 @@
+{
+  "baseline": "ea6dafa701670caffb5cd4e4ee4b9df05d4ff467",
+  "physicalSafari": false,
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "historyFixtures": [
+    {
+      "fixture": "four-zero",
+      "stalePendingClearedNoForcedStory": true,
+      "readingPreserved": true
+    },
+    {
+      "fixture": "four-two",
+      "stalePendingClearedNoForcedStory": true,
+      "readingPreserved": true
+    },
+    {
+      "fixture": "five-zero",
+      "stalePendingClearedNoForcedStory": true,
+      "readingPreserved": true
+    },
+    {
+      "fixture": "all14",
+      "stalePendingClearedNoForcedStory": true,
+      "readingPreserved": true
+    }
+  ],
+  "screenshots": [
+    "arrival-terminal-x-360x800.png",
+    "completion-terminal-x-1024x768.png",
+    "reset-cleared-pending-train-1024x768.png"
+  ],
+  "scope": "Actual native dialogue/buttons and Four0..1 only; mandatory completion and history use labelled isolated fixtures. No29/all14 corpus reread.",
+  "arrivalExactReloadAndTerminalX": {
+    "reloadEachScene": [
+      "arrival-at-wheel",
+      "doubt-at-ruins",
+      "doubt-detour"
+    ],
+    "guards": [
+      {
+        "escape": true,
+        "dockCityShelfMainTools": true,
+        "nativeReachableMarker": "breathing_grove",
+        "readingUnchanged": true
+      },
+      {
+        "escape": true,
+        "dockCityShelfMainTools": true,
+        "nativeReachableMarker": "breathing_grove",
+        "readingUnchanged": true
+      }
+    ],
+    "titleTrainReturnRetainsDoubtScene": true,
+    "terminalXNoReaderOrBookmark": true,
+    "exploreCityShelfMapThenReadDirect": true,
+    "nativeFourTrace": [
+      0,
+      1
+    ],
+    "reloadReturnNoRepeat": true
+  },
+  "arrivalTerminalEnter": {
+    "originalFour0": true,
+    "checkpointCleared": true
+  },
+  "normalFiveEscape": {
+    "exactTerminalReload": true,
+    "escapeAcknowledgesNoOpenOrBookmark": true,
+    "laterReadDirectFive0": true
+  },
+  "mandatoryCompletion": {
+    "fixture": "Isolated lawful completed-Four28+receipt, not native29 read",
+    "sameSceneReloads": [
+      "first-book-insight",
+      "doubt-escapes",
+      "doubt-recedes",
+      "toward-aggregates-lake"
+    ],
+    "firstThreeGuards": [
+      {
+        "escape": true,
+        "dockCityShelfMainTools": true,
+        "nativeReachableMarker": "mindfulness_pavilion",
+        "readingUnchanged": true
+      },
+      {
+        "escape": true,
+        "dockCityShelfMainTools": true,
+        "nativeReachableMarker": "mindfulness_pavilion",
+        "readingUnchanged": true
+      },
+      {
+        "escape": true,
+        "dockCityShelfMainTools": true,
+        "nativeReachableMarker": "mindfulness_pavilion",
+        "readingUnchanged": true
+      }
+    ],
+    "finalXOriginalFeedback": true,
+    "feedbackCityAllowedThenFive0": true,
+    "completedStill1": true
+  },
+  "replay": {
+    "middleEscapeAndSecondaryExit": true,
+    "terminalXExit": true,
+    "readingSeenPendingReceiptLocalSessionBytesUnchanged": true
+  },
+  "resetDuringIntermediate": {
+    "settingsStillAccessible": true,
+    "pendingClearedBeforeTitle": true,
+    "zeroCompletionTrainStillWholeStatic": true,
+    "freshArrivalAfterTrain": true
+  },
+  "restoreClearsPending": {
+    "nativeSettingsFileInputLegacyV1": true,
+    "pendingCleared": true,
+    "restoredBookmark2NoForcedDialogue": true
+  },
+  "pendingRecovery": {
+    "injection": "Only local pending setItem fails; session writes/read and reading storage normal",
+    "sessionCheckpointResumesExactDoubtAfterReload": true,
+    "unavailableNoticeVisible": true,
+    "noReadingMutation": true
+  },
+  "result": "pass",
+  "summary": {
+    "arrivalExactSceneReloads": 3,
+    "arrivalXAndEnterBranches": 2,
+    "normalFiveExactReloadEscape": 1,
+    "mandatoryExactSceneReloads": 4,
+    "historyFixtures": 4,
+    "replayExitMethods": 3,
+    "settingsResetAndRestore": 2,
+    "pendingStorageFallback": 1,
+    "screenshots": 3
+  },
+  "runtimeHashes": {
+    "play/story/pending.js": "ae662b1755fed8253e09bf90beecdc1466f81672dcdb6f2e592cb441adbdb527",
+    "play/story/dialogue.js": "3716ff3cb8cf1c9f01917592c9f663f92b79e64c56ba2bdb0f52f80c0296f97f",
+    "play/worldmap-v4/worldmap.js": "77d499ec6082cb9d29db944f291ac17f6e377173061f8be1ae3a4a3ac8f946d5",
+    "play/journey-save.js": "9693735bb04e17a520510221cf6d17d52820553208119638bf6b9c93acc984fb"
+  }
+}

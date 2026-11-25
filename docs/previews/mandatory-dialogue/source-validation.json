@@ -1,0 +1,30 @@
+{
+  "result": "passed",
+  "baseline": "ea6dafa701670caffb5cd4e4ee4b9df05d4ff467",
+  "readerHTMLOnlyCache": 14,
+  "nativeBookFilesUnchanged": 45,
+  "protectedCoreArtCssFiles": 23,
+  "cacheOnlyRuntimeFiles": [
+    "play/game-shell.js",
+    "play/title-screen.js",
+    "play/opening/opening.js",
+    "play/city/city.js",
+    "play/city/index.html",
+    "play/collection/reader-bridge.js",
+    "play/navigation.js",
+    "play/prologue/data.js",
+    "play/prologue/prologue.js",
+    "play/story/doubt-stage.js",
+    "play/story/store.js",
+    "play/title-review.js",
+    "play/visual-v2/shelf.html",
+    "play/visual-v2/shelf.js",
+    "play/opening/data.js"
+  ],
+  "storyProseIdsAndGraphUnchanged": true,
+  "bookCountAndBookmarksSchemaUnchanged": true,
+  "legacyStorySeenSchemaUnchanged": true,
+  "dialogueCssAppendOnly": true,
+  "originalAuthorPngAndZipExact": true,
+  "sevenOfflineZipAndManifest": "byte-identical;30 members CRC passed"
+}

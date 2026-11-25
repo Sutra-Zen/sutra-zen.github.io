@@ -1,4 +1,4 @@
-import { STORY_UI } from './data.js?v=train-reset-1';
+import { STORY_UI } from './data.js?v=mandatory-dialogue-1';
 
 // Presentation only. Reading eligibility, completion and saved story flags are
 // owned by the caller; this stage never writes storage or advances the story.
