@@ -1,3 +1,13 @@
+# 波旬蒙面頭像與城池全身圖（2026-11-26）
+
+從已發布 PR89／main `e05cad72747769adbbd9ed4a713c6a237ed353f4` 建立 `feat/mara-masked-art`。作者核可蒙面／揭面四張預覽並授權更新發布。runtime只用蒙面前版，紫色戲面具戴臉、紫兜帽與小蝙蝠翼；揭面後兩圖只保存，不新增揭面事件或因十四本完成先換圖。
+
+STORY_ACTORS.mara改新頭像，城池點波旬同用新img；其他角色維持sprite。全身換新PNG與正確viewBox／manifest，原位置、width110、漂浮／減動畫CSS、角色ID／台詞不動。四PNG逐位元匯入，無程式圖片編輯；原概念稿與來源保留。新版主線仍不插回舊mara-watches，只保留該scene共享頭像可用。
+
+cache mara-mask-1保持active單例import鏈；14HTML僅bridge query，原讀本／經文／layout／進度與資格、備份格式／SEO／Google不變。game由共享shell產生，30成員Seven ZIP重建仍相同。詳[實作與素材](play/mara-mask/README.md)、[focused驗證](previews/mara-mask/README.md)。獨立完成紀錄fixture與元件場景預覽會分別標明，沒有宣稱真讀完14本。沿作者本輪更新授權經PR合併與精確Pages／live驗證，發行結果以PR交付為準；實機Safari未測。
+
+---
+
 # 終幕文字選單與寬版字幕縮減留白（2026-11-25）
 
 環境已恢復讀寫，從PR88 main `a079a9191425e18b24dfd9371f52e91532802158`建`fix/dialogue-buttons-reader-space`，接續兩項先前未做的待辦。終幕移除X改「回到地圖／閱讀下一關」，中間mandatory／精確checkpoint續幕維持。首本尾幕同時顯示原新增地景、城池模組與本數通知，Map直接自由探索，Read經原currentBook/openReader資格與書籤判斷直入五陰；不新增完成或重發獎。其他完成通知同兩選項，all14保留結語且Map不自動彈結語；replay唯讀終幕只回地圖。

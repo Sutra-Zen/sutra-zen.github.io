@@ -1,5 +1,9 @@
 # SutraZen project context
 
+## Masked Mara character artwork (2026-11-26)
+
+The author-approved masked portrait and complete floating sprite replace the old Mara presentation. Story and city dialogue share the same portrait; city position, float/reduced-motion CSS, IDs, prose and save/eligibility logic remain. Four approved PNG previews are preserved byte-for-byte; unmasked variants are reserved only, with no reveal event or premature all-fourteen switch. Active import/navigation cache is mara-mask-1, fourteen reader HTMLs change only their bridge query, game entry is generated and the offline ZIP remains identical. See [implementation/provenance](play/mara-mask/README.md) and [focused evidence](previews/mara-mask/README.md). Exact release proof belongs to the PR; physical Safari is untested.
+
 ## Final text choices and compact caption space (2026-11-25)
 
 The recovered environment enables the two pending author requests. Final mainline dialogue replaces X with「回到地圖／閱讀下一關」; the first-book earned-world notice is included in its last authored line, so each choice goes directly to map exploration or the legal next book. Intermediate guards, exact pending scene/context, old saves and read-only replay remain. All-read profiles retain the ending action. Shared reader framing now reserves two lines when measured width/font permits, three in narrower layouts, with one fixed budget across pages/books per viewport. Typography, portrait flow, original art/manuscripts and scripture remain. Cache dialogue-two-1 / reader-two-1, generated game shell and30-member offline ZIP synchronized. See [implementation](play/dialogue-reader-space/README.md) and [validation](previews/dialogue-reader-space/README.md); exact release proof belongs to the PR, physical Safari is untested.

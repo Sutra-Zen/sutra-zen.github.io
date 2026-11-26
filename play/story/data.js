@@ -5,7 +5,7 @@ export const STORY_FUTURE_LOCALES = Object.freeze(['zh-Hans', 'en', 'ja']);
 export const STORY_ACTORS = Object.freeze({
  traveler: Object.freeze({name:'小貓',portrait:new URL('./assets/kitten-traveler-portrait-concept.png',import.meta.url).href}),
  doubt: Object.freeze({name:'五蓋眾・疑',portrait:new URL('./assets/doubt-creature-concept.png',import.meta.url).href}),
- mara: Object.freeze({name:'波旬',portrait:new URL('./assets/mara-portrait-concept.png',import.meta.url).href}),
+ mara: Object.freeze({name:'波旬',portrait:new URL('./assets/mara-masked-portrait.png',import.meta.url).href}),
 });
 export const STORY_SCENES = Object.freeze({
  'train-desires': Object.freeze({actorId:'traveler',bookId:'four-truths',group:'train-opening',

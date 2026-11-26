@@ -1,0 +1,46 @@
+[
+  {
+    "path": "play/city/modules/assets/mara-masked-fullbody.png",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA",
+    "sha256": "3145469eb41300e03dda10bcc40e708cf3e3c3afb593d61ccd58d29b083c3f62",
+    "bytes": 2317502,
+    "alpha32Bounds": [
+      87,
+      161,
+      918,
+      1417
+    ],
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "path": "play/story/assets/mara-masked-portrait.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "sha256": "a67cc7a605afb0def6b748c855fa1e3ed6f79dd6d4e66203df46e9fcf3f1fd5b",
+    "bytes": 1905764,
+    "alpha32Bounds": [
+      80,
+      96,
+      1131,
+      1209
+    ],
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+]

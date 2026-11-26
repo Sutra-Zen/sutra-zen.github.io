@@ -1,0 +1,1594 @@
+{
+  "baseline": "e05cad72747769adbbd9ed4a713c6a237ed353f4",
+  "physicalSafari": false,
+  "fixtureNotice": "Lawful isolated completed-prefix histories1/3/7/14 and preserved bookmarks; not native full-series reading or author browser saves.",
+  "assets": [
+    {
+      "path": "play/city/modules/assets/mara-masked-fullbody.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "3145469eb41300e03dda10bcc40e708cf3e3c3afb593d61ccd58d29b083c3f62",
+      "bytes": 2317502,
+      "alpha32Bounds": [
+        87,
+        161,
+        918,
+        1417
+      ],
+      "corners": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "path": "play/story/assets/mara-masked-portrait.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "sha256": "a67cc7a605afb0def6b748c855fa1e3ed6f79dd6d4e66203df46e9fcf3f1fd5b",
+      "bytes": 1905764,
+      "alpha32Bounds": [
+        80,
+        96,
+        1131,
+        1209
+      ],
+      "corners": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "javascriptErrors": [],
+  "httpErrors": [],
+  "unmaskedRuntimeRequests": [],
+  "cityCases": [
+    {
+      "fixtureCompletedPrefix": 1,
+      "viewport": [
+        360,
+        800
+      ],
+      "nativeCameraKeyboardPans": [
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowUp"
+      ],
+      "worldArt": {
+        "world": [
+          500,
+          130
+        ],
+        "size": [
+          110,
+          165.195
+        ],
+        "lord": [
+          800,
+          415
+        ],
+        "svgViewBox": [
+          79,
+          153,
+          847,
+          1272
+        ],
+        "image": {
+          "href": "http://127.0.0.1:42429/play/city/modules/assets/mara-masked-fullbody.png",
+          "width": 1024,
+          "height": 1536
+        },
+        "clip": [
+          79,
+          153,
+          847,
+          1272
+        ],
+        "rect": {
+          "x": 67.75,
+          "y": 32.53593826293945,
+          "width": 104.5,
+          "height": 156.92813110351562,
+          "top": 32.53593826293945,
+          "right": 172.25,
+          "bottom": 189.46406936645508,
+          "left": 67.75
+        },
+        "animation": "none",
+        "transform": "none"
+      },
+      "portrait": {
+        "src": "http://127.0.0.1:42429/play/story/assets/mara-masked-portrait.png",
+        "natural": [
+          1254,
+          1254
+        ],
+        "fit": "contain",
+        "clip": "none",
+        "radius": "0px",
+        "image": {
+          "x": 18,
+          "y": 31,
+          "width": 76,
+          "height": 76,
+          "top": 31,
+          "right": 94,
+          "bottom": 107,
+          "left": 18
+        },
+        "host": {
+          "x": 18,
+          "y": 31,
+          "width": 76,
+          "height": 76,
+          "top": 31,
+          "right": 94,
+          "bottom": 107,
+          "left": 18
+        }
+      },
+      "reducedMotionStatic": true,
+      "nativeClickAndX": true,
+      "canonicalReadingBytesUnchanged": true
+    },
+    {
+      "fixtureCompletedPrefix": 1,
+      "viewport": [
+        844,
+        390
+      ],
+      "nativeCameraKeyboardPans": [
+        "ArrowUp",
+        "ArrowUp",
+        "ArrowUp",
+        "ArrowUp",
+        "ArrowUp",
+        "ArrowUp"
+      ],
+      "worldArt": {
+        "world": [
+          500,
+          130
+        ],
+        "size": [
+          110,
+          165.195
+        ],
+        "lord": [
+          800,
+          415
+        ],
+        "svgViewBox": [
+          79,
+          153,
+          847,
+          1272
+        ],
+        "image": {
+          "href": "http://127.0.0.1:42429/play/city/modules/assets/mara-masked-fullbody.png",
+          "width": 1024,
+          "height": 1536
+        },
+        "clip": [
+          79,
+          153,
+          847,
+          1272
+        ],
+        "rect": {
+          "x": 84.75,
+          "y": 53.03593826293945,
+          "width": 104.5,
+          "height": 156.92813110351562,
+          "top": 53.03593826293945,
+          "right": 189.25,
+          "bottom": 209.96406936645508,
+          "left": 84.75
+        },
+        "animation": "none",
+        "transform": "none"
+      },
+      "portrait": {
+        "src": "http://127.0.0.1:42429/play/story/assets/mara-masked-portrait.png",
+        "natural": [
+          1254,
+          1254
+        ],
+        "fit": "contain",
+        "clip": "none",
+        "radius": "0px",
+        "image": {
+          "x": 53,
+          "y": 18,
+          "width": 80,
+          "height": 80,
+          "top": 18,
+          "right": 133,
+          "bottom": 98,
+          "left": 53
+        },
+        "host": {
+          "x": 53,
+          "y": 18,
+          "width": 80,
+          "height": 80,
+          "top": 18,
+          "right": 133,
+          "bottom": 98,
+          "left": 53
+        }
+      },
+      "reducedMotionStatic": true,
+      "nativeClickAndX": true,
+      "canonicalReadingBytesUnchanged": true
+    },
+    {
+      "fixtureCompletedPrefix": 1,
+      "viewport": [
+        1024,
+        768
+      ],
+      "nativeCameraKeyboardPans": [
+        "ArrowUp",
+        "ArrowUp"
+      ],
+      "worldArt": {
+        "world": [
+          500,
+          130
+        ],
+        "size": [
+          110,
+          165.195
+        ],
+        "lord": [
+          800,
+          415
+        ],
+        "svgViewBox": [
+          79,
+          153,
+          847,
+          1272
+        ],
+        "image": {
+          "href": "http://127.0.0.1:42429/play/city/modules/assets/mara-masked-fullbody.png",
+          "width": 1024,
+          "height": 1536
+        },
+        "clip": [
+          79,
+          153,
+          847,
+          1272
+        ],
+        "rect": {
+          "x": 174.75,
+          "y": 53.03593826293945,
+          "width": 104.5,
+          "height": 156.92813110351562,
+          "top": 53.03593826293945,
+          "right": 279.25,
+          "bottom": 209.96406936645508,
+          "left": 174.75
+        },
+        "animation": "none",
+        "transform": "none"
+      },
+      "portrait": {
+        "src": "http://127.0.0.1:42429/play/story/assets/mara-masked-portrait.png",
+        "natural": [
+          1254,
+          1254
+        ],
+        "fit": "contain",
+        "clip": "none",
+        "radius": "0px",
+        "image": {
+          "x": 145,
+          "y": 29,
+          "width": 110,
+          "height": 110,
+          "top": 29,
+          "right": 255,
+          "bottom": 139,
+          "left": 145
+        },
+        "host": {
+          "x": 145,
+          "y": 29,
+          "width": 110,
+          "height": 110,
+          "top": 29,
+          "right": 255,
+          "bottom": 139,
+          "left": 145
+        }
+      },
+      "reducedMotionStatic": true,
+      "nativeClickAndX": true,
+      "canonicalReadingBytesUnchanged": true
+    },
+    {
+      "fixtureCompletedPrefix": 1,
+      "viewport": [
+        1280,
+        900
+      ],
+      "nativeCameraKeyboardPans": [],
+      "worldArt": {
+        "world": [
+          500,
+          130
+        ],
+        "size": [
+          110,
+          165.195
+        ],
+        "lord": [
+          800,
+          415
+        ],
+        "svgViewBox": [
+          79,
+          153,
+          847,
+          1272
+        ],
+        "image": {
+          "href": "http://127.0.0.1:42429/play/city/modules/assets/mara-masked-fullbody.png",
+          "width": 1024,
+          "height": 1536
+        },
+        "clip": [
+          79,
+          153,
+          847,
+          1272
+        ],
+        "rect": {
+          "x": 302.75,
+          "y": 37.53593826293945,
+          "width": 104.5,
+          "height": 156.92813110351562,
+          "top": 37.53593826293945,
+          "right": 407.25,
+          "bottom": 194.46406936645508,
+          "left": 302.75
+        },
+        "animation": "none",
+        "transform": "none"
+      },
+      "portrait": {
+        "src": "http://127.0.0.1:42429/play/story/assets/mara-masked-portrait.png",
+        "natural": [
+          1254,
+          1254
+        ],
+        "fit": "contain",
+        "clip": "none",
+        "radius": "0px",
+        "image": {
+          "x": 273,
+          "y": 29,
+          "width": 110,
+          "height": 110,
+          "top": 29,
+          "right": 383,
+          "bottom": 139,
+          "left": 273
+        },
+        "host": {
+          "x": 273,
+          "y": 29,
+          "width": 110,
+          "height": 110,
+          "top": 29,
+          "right": 383,
+          "bottom": 139,
+          "left": 273
+        }
+      },
+      "reducedMotionStatic": true,
+      "nativeClickAndX": true,
+      "canonicalReadingBytesUnchanged": true
+    },
+    {
+      "fixtureCompletedPrefix": 3,
+      "viewport": [
+        360,
+        800
+      ],
+      "nativeCameraKeyboardPans": [
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowUp"
+      ],
+      "worldArt": {
+        "world": [
+          500,
+          130
+        ],
+        "size": [
+          110,
+          165.195
+        ],
+        "lord": [
+          800,
+          415
+        ],
+        "svgViewBox": [
+          79,
+          153,
+          847,
+          1272
+        ],
+        "image": {
+          "href": "http://127.0.0.1:42429/play/city/modules/assets/mara-masked-fullbody.png",
+          "width": 1024,
+          "height": 1536
+        },
+        "clip": [
+          79,
+          153,
+          847,
+          1272
+        ],
+        "rect": {
+          "x": 67.75,
+          "y": 32.53593826293945,
+          "width": 104.5,
+          "height": 156.92813110351562,
+          "top": 32.53593826293945,
+          "right": 172.25,
+          "bottom": 189.46406936645508,
+          "left": 67.75
+        },
+        "animation": "none",
+        "transform": "none"
+      },
+      "portrait": {
+        "src": "http://127.0.0.1:42429/play/story/assets/mara-masked-portrait.png",
+        "natural": [
+          1254,
+          1254
+        ],
+        "fit": "contain",
+        "clip": "none",
+        "radius": "0px",
+        "image": {
+          "x": 18,
+          "y": 31,
+          "width": 76,
+          "height": 76,
+          "top": 31,
+          "right": 94,
+          "bottom": 107,
+          "left": 18
+        },
+        "host": {
+          "x": 18,
+          "y": 31,
+          "width": 76,
+          "height": 76,
+          "top": 31,
+          "right": 94,
+          "bottom": 107,
+          "left": 18
+        }
+      },
+      "reducedMotionStatic": true,
+      "nativeClickAndX": true,
+      "canonicalReadingBytesUnchanged": true
+    },
+    {
+      "fixtureCompletedPrefix": 3,
+      "viewport": [
+        844,
+        390
+      ],
+      "nativeCameraKeyboardPans": [
+        "ArrowUp",
+        "ArrowUp",
+        "ArrowUp",
+        "ArrowUp",
+        "ArrowUp",
+        "ArrowUp"
+      ],
+      "worldArt": {
+        "world": [
+          500,
+          130
+        ],
+        "size": [
+          110,
+          165.195
+        ],
+        "lord": [
+          800,
+          415
+        ],
+        "svgViewBox": [
+          79,
+          153,
+          847,
+          1272
+        ],
+        "image": {
+          "href": "http://127.0.0.1:42429/play/city/modules/assets/mara-masked-fullbody.png",
+          "width": 1024,
+          "height": 1536
+        },
+        "clip": [
+          79,
+          153,
+          847,
+          1272
+        ],
+        "rect": {
+          "x": 84.75,
+          "y": 53.03593826293945,
+          "width": 104.5,
+          "height": 156.92813110351562,
+          "top": 53.03593826293945,
+          "right": 189.25,
+          "bottom": 209.96406936645508,
+          "left": 84.75
+        },
+        "animation": "none",
+        "transform": "none"
+      },
+      "portrait": {
+        "src": "http://127.0.0.1:42429/play/story/assets/mara-masked-portrait.png",
+        "natural": [
+          1254,
+          1254
+        ],
+        "fit": "contain",
+        "clip": "none",
+        "radius": "0px",
+        "image": {
+          "x": 53,
+          "y": 18,
+          "width": 80,
+          "height": 80,
+          "top": 18,
+          "right": 133,
+          "bottom": 98,
+          "left": 53
+        },
+        "host": {
+          "x": 53,
+          "y": 18,
+          "width": 80,
+          "height": 80,
+          "top": 18,
+          "right": 133,
+          "bottom": 98,
+          "left": 53
+        }
+      },
+      "reducedMotionStatic": true,
+      "nativeClickAndX": true,
+      "canonicalReadingBytesUnchanged": true
+    },
+    {
+      "fixtureCompletedPrefix": 3,
+      "viewport": [
+        1024,
+        768
+      ],
+      "nativeCameraKeyboardPans": [
+        "ArrowUp",
+        "ArrowUp"
+      ],
+      "worldArt": {
+        "world": [
+          500,
+          130
+        ],
+        "size": [
+          110,
+          165.195
+        ],
+        "lord": [
+          800,
+          415
+        ],
+        "svgViewBox": [
+          79,
+          153,
+          847,
+          1272
+        ],
+        "image": {
+          "href": "http://127.0.0.1:42429/play/city/modules/assets/mara-masked-fullbody.png",
+          "width": 1024,
+          "height": 1536
+        },
+        "clip": [
+          79,
+          153,
+          847,
+          1272
+        ],
+        "rect": {
+          "x": 174.75,
+          "y": 53.03593826293945,
+          "width": 104.5,
+          "height": 156.92813110351562,
+          "top": 53.03593826293945,
+          "right": 279.25,
+          "bottom": 209.96406936645508,
+          "left": 174.75
+        },
+        "animation": "none",
+        "transform": "none"
+      },
+      "portrait": {
+        "src": "http://127.0.0.1:42429/play/story/assets/mara-masked-portrait.png",
+        "natural": [
+          1254,
+          1254
+        ],
+        "fit": "contain",
+        "clip": "none",
+        "radius": "0px",
+        "image": {
+          "x": 145,
+          "y": 29,
+          "width": 110,
+          "height": 110,
+          "top": 29,
+          "right": 255,
+          "bottom": 139,
+          "left": 145
+        },
+        "host": {
+          "x": 145,
+          "y": 29,
+          "width": 110,
+          "height": 110,
+          "top": 29,
+          "right": 255,
+          "bottom": 139,
+          "left": 145
+        }
+      },
+      "reducedMotionStatic": true,
+      "nativeClickAndX": true,
+      "canonicalReadingBytesUnchanged": true
+    },
+    {
+      "fixtureCompletedPrefix": 3,
+      "viewport": [
+        1280,
+        900
+      ],
+      "nativeCameraKeyboardPans": [],
+      "worldArt": {
+        "world": [
+          500,
+          130
+        ],
+        "size": [
+          110,
+          165.195
+        ],
+        "lord": [
+          800,
+          415
+        ],
+        "svgViewBox": [
+          79,
+          153,
+          847,
+          1272
+        ],
+        "image": {
+          "href": "http://127.0.0.1:42429/play/city/modules/assets/mara-masked-fullbody.png",
+          "width": 1024,
+          "height": 1536
+        },
+        "clip": [
+          79,
+          153,
+          847,
+          1272
+        ],
+        "rect": {
+          "x": 302.75,
+          "y": 37.53593826293945,
+          "width": 104.5,
+          "height": 156.92813110351562,
+          "top": 37.53593826293945,
+          "right": 407.25,
+          "bottom": 194.46406936645508,
+          "left": 302.75
+        },
+        "animation": "none",
+        "transform": "none"
+      },
+      "portrait": {
+        "src": "http://127.0.0.1:42429/play/story/assets/mara-masked-portrait.png",
+        "natural": [
+          1254,
+          1254
+        ],
+        "fit": "contain",
+        "clip": "none",
+        "radius": "0px",
+        "image": {
+          "x": 273,
+          "y": 29,
+          "width": 110,
+          "height": 110,
+          "top": 29,
+          "right": 383,
+          "bottom": 139,
+          "left": 273
+        },
+        "host": {
+          "x": 273,
+          "y": 29,
+          "width": 110,
+          "height": 110,
+          "top": 29,
+          "right": 383,
+          "bottom": 139,
+          "left": 273
+        }
+      },
+      "reducedMotionStatic": true,
+      "nativeClickAndX": true,
+      "canonicalReadingBytesUnchanged": true
+    },
+    {
+      "fixtureCompletedPrefix": 7,
+      "viewport": [
+        360,
+        800
+      ],
+      "nativeCameraKeyboardPans": [
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowLeft"
+      ],
+      "worldArt": {
+        "world": [
+          250,
+          230
+        ],
+        "size": [
+          110,
+          165.195
+        ],
+        "lord": [
+          800,
+          415
+        ],
+        "svgViewBox": [
+          79,
+          153,
+          847,
+          1272
+        ],
+        "image": {
+          "href": "http://127.0.0.1:42429/play/city/modules/assets/mara-masked-fullbody.png",
+          "width": 1024,
+          "height": 1536
+        },
+        "clip": [
+          79,
+          153,
+          847,
+          1272
+        ],
+        "rect": {
+          "x": 55.25,
+          "y": 82.53593444824219,
+          "width": 104.5,
+          "height": 156.92811584472656,
+          "top": 82.53593444824219,
+          "right": 159.75,
+          "bottom": 239.46405029296875,
+          "left": 55.25
+        },
+        "animation": "none",
+        "transform": "none"
+      },
+      "portrait": {
+        "src": "http://127.0.0.1:42429/play/story/assets/mara-masked-portrait.png",
+        "natural": [
+          1254,
+          1254
+        ],
+        "fit": "contain",
+        "clip": "none",
+        "radius": "0px",
+        "image": {
+          "x": 18,
+          "y": 31,
+          "width": 76,
+          "height": 76,
+          "top": 31,
+          "right": 94,
+          "bottom": 107,
+          "left": 18
+        },
+        "host": {
+          "x": 18,
+          "y": 31,
+          "width": 76,
+          "height": 76,
+          "top": 31,
+          "right": 94,
+          "bottom": 107,
+          "left": 18
+        }
+      },
+      "reducedMotionStatic": true,
+      "nativeClickAndX": true,
+      "canonicalReadingBytesUnchanged": true
+    },
+    {
+      "fixtureCompletedPrefix": 7,
+      "viewport": [
+        844,
+        390
+      ],
+      "nativeCameraKeyboardPans": [
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowUp",
+        "ArrowUp",
+        "ArrowUp",
+        "ArrowUp"
+      ],
+      "worldArt": {
+        "world": [
+          250,
+          230
+        ],
+        "size": [
+          110,
+          165.195
+        ],
+        "lord": [
+          800,
+          415
+        ],
+        "svgViewBox": [
+          79,
+          153,
+          847,
+          1272
+        ],
+        "image": {
+          "href": "http://127.0.0.1:42429/play/city/modules/assets/mara-masked-fullbody.png",
+          "width": 1024,
+          "height": 1536
+        },
+        "clip": [
+          79,
+          153,
+          847,
+          1272
+        ],
+        "rect": {
+          "x": 27.25,
+          "y": 64.44218444824219,
+          "width": 104.5,
+          "height": 156.92811584472656,
+          "top": 64.44218444824219,
+          "right": 131.75,
+          "bottom": 221.37030029296875,
+          "left": 27.25
+        },
+        "animation": "none",
+        "transform": "none"
+      },
+      "portrait": {
+        "src": "http://127.0.0.1:42429/play/story/assets/mara-masked-portrait.png",
+        "natural": [
+          1254,
+          1254
+        ],
+        "fit": "contain",
+        "clip": "none",
+        "radius": "0px",
+        "image": {
+          "x": 53,
+          "y": 18,
+          "width": 80,
+          "height": 80,
+          "top": 18,
+          "right": 133,
+          "bottom": 98,
+          "left": 53
+        },
+        "host": {
+          "x": 53,
+          "y": 18,
+          "width": 80,
+          "height": 80,
+          "top": 18,
+          "right": 133,
+          "bottom": 98,
+          "left": 53
+        }
+      },
+      "reducedMotionStatic": true,
+      "nativeClickAndX": true,
+      "canonicalReadingBytesUnchanged": true
+    },
+    {
+      "fixtureCompletedPrefix": 7,
+      "viewport": [
+        1024,
+        768
+      ],
+      "nativeCameraKeyboardPans": [
+        "ArrowLeft",
+        "ArrowLeft"
+      ],
+      "worldArt": {
+        "world": [
+          250,
+          230
+        ],
+        "size": [
+          110,
+          165.195
+        ],
+        "lord": [
+          800,
+          415
+        ],
+        "svgViewBox": [
+          79,
+          153,
+          847,
+          1272
+        ],
+        "image": {
+          "href": "http://127.0.0.1:42429/play/city/modules/assets/mara-masked-fullbody.png",
+          "width": 1024,
+          "height": 1536
+        },
+        "clip": [
+          79,
+          153,
+          847,
+          1272
+        ],
+        "rect": {
+          "x": 27.25,
+          "y": 66.53593444824219,
+          "width": 104.5,
+          "height": 156.92811584472656,
+          "top": 66.53593444824219,
+          "right": 131.75,
+          "bottom": 223.46405029296875,
+          "left": 27.25
+        },
+        "animation": "none",
+        "transform": "none"
+      },
+      "portrait": {
+        "src": "http://127.0.0.1:42429/play/story/assets/mara-masked-portrait.png",
+        "natural": [
+          1254,
+          1254
+        ],
+        "fit": "contain",
+        "clip": "none",
+        "radius": "0px",
+        "image": {
+          "x": 145,
+          "y": 29,
+          "width": 110,
+          "height": 110,
+          "top": 29,
+          "right": 255,
+          "bottom": 139,
+          "left": 145
+        },
+        "host": {
+          "x": 145,
+          "y": 29,
+          "width": 110,
+          "height": 110,
+          "top": 29,
+          "right": 255,
+          "bottom": 139,
+          "left": 145
+        }
+      },
+      "reducedMotionStatic": true,
+      "nativeClickAndX": true,
+      "canonicalReadingBytesUnchanged": true
+    },
+    {
+      "fixtureCompletedPrefix": 7,
+      "viewport": [
+        1280,
+        900
+      ],
+      "nativeCameraKeyboardPans": [],
+      "worldArt": {
+        "world": [
+          250,
+          230
+        ],
+        "size": [
+          110,
+          165.195
+        ],
+        "lord": [
+          800,
+          415
+        ],
+        "svgViewBox": [
+          79,
+          153,
+          847,
+          1272
+        ],
+        "image": {
+          "href": "http://127.0.0.1:42429/play/city/modules/assets/mara-masked-fullbody.png",
+          "width": 1024,
+          "height": 1536
+        },
+        "clip": [
+          79,
+          153,
+          847,
+          1272
+        ],
+        "rect": {
+          "x": 65.25,
+          "y": 132.5359344482422,
+          "width": 104.5,
+          "height": 156.92811584472656,
+          "top": 132.5359344482422,
+          "right": 169.75,
+          "bottom": 289.46405029296875,
+          "left": 65.25
+        },
+        "animation": "none",
+        "transform": "none"
+      },
+      "portrait": {
+        "src": "http://127.0.0.1:42429/play/story/assets/mara-masked-portrait.png",
+        "natural": [
+          1254,
+          1254
+        ],
+        "fit": "contain",
+        "clip": "none",
+        "radius": "0px",
+        "image": {
+          "x": 273,
+          "y": 29,
+          "width": 110,
+          "height": 110,
+          "top": 29,
+          "right": 383,
+          "bottom": 139,
+          "left": 273
+        },
+        "host": {
+          "x": 273,
+          "y": 29,
+          "width": 110,
+          "height": 110,
+          "top": 29,
+          "right": 383,
+          "bottom": 139,
+          "left": 273
+        }
+      },
+      "reducedMotionStatic": true,
+      "nativeClickAndX": true,
+      "canonicalReadingBytesUnchanged": true
+    },
+    {
+      "fixtureCompletedPrefix": 14,
+      "viewport": [
+        360,
+        800
+      ],
+      "nativeCameraKeyboardPans": [
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowLeft"
+      ],
+      "worldArt": {
+        "world": [
+          250,
+          230
+        ],
+        "size": [
+          110,
+          165.195
+        ],
+        "lord": [
+          800,
+          415
+        ],
+        "svgViewBox": [
+          79,
+          153,
+          847,
+          1272
+        ],
+        "image": {
+          "href": "http://127.0.0.1:42429/play/city/modules/assets/mara-masked-fullbody.png",
+          "width": 1024,
+          "height": 1536
+        },
+        "clip": [
+          79,
+          153,
+          847,
+          1272
+        ],
+        "rect": {
+          "x": 55.25,
+          "y": 82.53593444824219,
+          "width": 104.5,
+          "height": 156.92811584472656,
+          "top": 82.53593444824219,
+          "right": 159.75,
+          "bottom": 239.46405029296875,
+          "left": 55.25
+        },
+        "animation": "none",
+        "transform": "none"
+      },
+      "portrait": {
+        "src": "http://127.0.0.1:42429/play/story/assets/mara-masked-portrait.png",
+        "natural": [
+          1254,
+          1254
+        ],
+        "fit": "contain",
+        "clip": "none",
+        "radius": "0px",
+        "image": {
+          "x": 18,
+          "y": 31,
+          "width": 76,
+          "height": 76,
+          "top": 31,
+          "right": 94,
+          "bottom": 107,
+          "left": 18
+        },
+        "host": {
+          "x": 18,
+          "y": 31,
+          "width": 76,
+          "height": 76,
+          "top": 31,
+          "right": 94,
+          "bottom": 107,
+          "left": 18
+        }
+      },
+      "reducedMotionStatic": true,
+      "nativeClickAndX": true,
+      "canonicalReadingBytesUnchanged": true
+    },
+    {
+      "fixtureCompletedPrefix": 14,
+      "viewport": [
+        844,
+        390
+      ],
+      "nativeCameraKeyboardPans": [
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowLeft",
+        "ArrowUp",
+        "ArrowUp",
+        "ArrowUp",
+        "ArrowUp"
+      ],
+      "worldArt": {
+        "world": [
+          250,
+          230
+        ],
+        "size": [
+          110,
+          165.195
+        ],
+        "lord": [
+          800,
+          415
+        ],
+        "svgViewBox": [
+          79,
+          153,
+          847,
+          1272
+        ],
+        "image": {
+          "href": "http://127.0.0.1:42429/play/city/modules/assets/mara-masked-fullbody.png",
+          "width": 1024,
+          "height": 1536
+        },
+        "clip": [
+          79,
+          153,
+          847,
+          1272
+        ],
+        "rect": {
+          "x": 27.25,
+          "y": 64.44218444824219,
+          "width": 104.5,
+          "height": 156.92811584472656,
+          "top": 64.44218444824219,
+          "right": 131.75,
+          "bottom": 221.37030029296875,
+          "left": 27.25
+        },
+        "animation": "none",
+        "transform": "none"
+      },
+      "portrait": {
+        "src": "http://127.0.0.1:42429/play/story/assets/mara-masked-portrait.png",
+        "natural": [
+          1254,
+          1254
+        ],
+        "fit": "contain",
+        "clip": "none",
+        "radius": "0px",
+        "image": {
+          "x": 53,
+          "y": 18,
+          "width": 80,
+          "height": 80,
+          "top": 18,
+          "right": 133,
+          "bottom": 98,
+          "left": 53
+        },
+        "host": {
+          "x": 53,
+          "y": 18,
+          "width": 80,
+          "height": 80,
+          "top": 18,
+          "right": 133,
+          "bottom": 98,
+          "left": 53
+        }
+      },
+      "reducedMotionStatic": true,
+      "nativeClickAndX": true,
+      "canonicalReadingBytesUnchanged": true
+    },
+    {
+      "fixtureCompletedPrefix": 14,
+      "viewport": [
+        1024,
+        768
+      ],
+      "nativeCameraKeyboardPans": [
+        "ArrowLeft",
+        "ArrowLeft"
+      ],
+      "worldArt": {
+        "world": [
+          250,
+          230
+        ],
+        "size": [
+          110,
+          165.195
+        ],
+        "lord": [
+          800,
+          415
+        ],
+        "svgViewBox": [
+          79,
+          153,
+          847,
+          1272
+        ],
+        "image": {
+          "href": "http://127.0.0.1:42429/play/city/modules/assets/mara-masked-fullbody.png",
+          "width": 1024,
+          "height": 1536
+        },
+        "clip": [
+          79,
+          153,
+          847,
+          1272
+        ],
+        "rect": {
+          "x": 27.25,
+          "y": 66.53593444824219,
+          "width": 104.5,
+          "height": 156.92811584472656,
+          "top": 66.53593444824219,
+          "right": 131.75,
+          "bottom": 223.46405029296875,
+          "left": 27.25
+        },
+        "animation": "none",
+        "transform": "none"
+      },
+      "portrait": {
+        "src": "http://127.0.0.1:42429/play/story/assets/mara-masked-portrait.png",
+        "natural": [
+          1254,
+          1254
+        ],
+        "fit": "contain",
+        "clip": "none",
+        "radius": "0px",
+        "image": {
+          "x": 145,
+          "y": 29,
+          "width": 110,
+          "height": 110,
+          "top": 29,
+          "right": 255,
+          "bottom": 139,
+          "left": 145
+        },
+        "host": {
+          "x": 145,
+          "y": 29,
+          "width": 110,
+          "height": 110,
+          "top": 29,
+          "right": 255,
+          "bottom": 139,
+          "left": 145
+        }
+      },
+      "reducedMotionStatic": true,
+      "nativeClickAndX": true,
+      "canonicalReadingBytesUnchanged": true
+    },
+    {
+      "fixtureCompletedPrefix": 14,
+      "viewport": [
+        1280,
+        900
+      ],
+      "nativeCameraKeyboardPans": [],
+      "worldArt": {
+        "world": [
+          250,
+          230
+        ],
+        "size": [
+          110,
+          165.195
+        ],
+        "lord": [
+          800,
+          415
+        ],
+        "svgViewBox": [
+          79,
+          153,
+          847,
+          1272
+        ],
+        "image": {
+          "href": "http://127.0.0.1:42429/play/city/modules/assets/mara-masked-fullbody.png",
+          "width": 1024,
+          "height": 1536
+        },
+        "clip": [
+          79,
+          153,
+          847,
+          1272
+        ],
+        "rect": {
+          "x": 65.25,
+          "y": 132.5359344482422,
+          "width": 104.5,
+          "height": 156.92811584472656,
+          "top": 132.5359344482422,
+          "right": 169.75,
+          "bottom": 289.46405029296875,
+          "left": 65.25
+        },
+        "animation": "none",
+        "transform": "none"
+      },
+      "portrait": {
+        "src": "http://127.0.0.1:42429/play/story/assets/mara-masked-portrait.png",
+        "natural": [
+          1254,
+          1254
+        ],
+        "fit": "contain",
+        "clip": "none",
+        "radius": "0px",
+        "image": {
+          "x": 273,
+          "y": 29,
+          "width": 110,
+          "height": 110,
+          "top": 29,
+          "right": 383,
+          "bottom": 139,
+          "left": 273
+        },
+        "host": {
+          "x": 273,
+          "y": 29,
+          "width": 110,
+          "height": 110,
+          "top": 29,
+          "right": 383,
+          "bottom": 139,
+          "left": 273
+        }
+      },
+      "reducedMotionStatic": true,
+      "nativeClickAndX": true,
+      "canonicalReadingBytesUnchanged": true
+    }
+  ],
+  "screenshots": [
+    "city-masked-mara-1-360x800.png",
+    "city-mara-new-portrait-7-844x390.png",
+    "city-masked-mara-14-1280x900.png",
+    "legacy-mara-component-new-portrait-1280x900.png"
+  ],
+  "normalFloat": {
+    "actual650msNoSeeking": true,
+    "start": {
+      "transform": "matrix(0.999855, 0.0170287, -0.0170287, 0.999855, 0, -8.89073)",
+      "rect": {
+        "x": 302.33001708984375,
+        "y": 28.219104766845703,
+        "width": 107.1571044921875,
+        "height": 158.6848602294922,
+        "top": 28.219104766845703,
+        "right": 409.48712158203125,
+        "bottom": 186.9039649963379,
+        "left": 302.33001708984375
+      },
+      "time": 266.6929999998014
+    },
+    "end": {
+      "transform": "matrix(0.999948, 0.0102259, -0.0102259, 0.999948, 0, -7.13659)",
+      "rect": {
+        "x": 302.4959716796875,
+        "y": 30.228759765625,
+        "width": 106.0992431640625,
+        "height": 157.98851013183594,
+        "top": 30.228759765625,
+        "right": 408.59521484375,
+        "bottom": 188.21726989746094,
+        "left": 302.4959716796875
+      },
+      "time": 916.6669999998014
+    },
+    "sameReading": true
+  },
+  "actualToolsReplay": {
+    "sceneIds": [
+      "first-book-insight",
+      "doubt-escapes",
+      "doubt-recedes",
+      "toward-aggregates-lake"
+    ],
+    "noMaraInCurrentFourSceneChain": true,
+    "readonlyRawReadingSeenPendingReceipt": true
+  },
+  "legacyMaraComponent": {
+    "explicitComponentFixtureNotFormalToolsOrMainline": true,
+    "sceneId": "mara-watches",
+    "newPortrait": {
+      "src": "http://127.0.0.1:42429/play/story/assets/mara-masked-portrait.png",
+      "natural": [
+        1254,
+        1254
+      ],
+      "fit": "contain",
+      "clip": "none"
+    },
+    "readonlyRawReadingSeenPendingReceipt": true
+  },
+  "result": "pass",
+  "summary": {
+    "cityFixtureViewportCases": 16,
+    "lawfulCompletedFixtureCounts": [
+      1,
+      3,
+      7,
+      14
+    ],
+    "viewports": [
+      [
+        360,
+        800
+      ],
+      [
+        844,
+        390
+      ],
+      [
+        1024,
+        768
+      ],
+      [
+        1280,
+        900
+      ]
+    ],
+    "actualFloatSample": 1,
+    "actualCurrentToolsReplay": 1,
+    "retainedMaraComponentReplay": 1,
+    "screenshots": 4
+  },
+  "sourceByteCopy": {
+    "play/city/modules/assets/mara-masked-fullbody.png": true,
+    "play/story/assets/mara-masked-portrait.png": true
+  },
+  "manualVisualReview": {
+    "viewed": [
+      "play/city/modules/assets/mara-masked-fullbody.png",
+      "city-masked-mara-1-360x800.png",
+      "city-mara-new-portrait-7-844x390.png"
+    ],
+    "notes": "Approved masked orientation preserved, full opaque hood/ears/wings/feet within sprite crop; city thought uses the new contained portrait with an ordinary X close. Dialog overlays may cover scenery while open; that is not asset cropping."
+  },
+  "cacheOnlyFollowup": "Root unified completion-feedback scene import and worldmap feedback import to mara-mask-1 after/during QA; no reward or tested city/portrait behavior changed.",
+  "runtimeHashes": {
+    "play/city/modules/art.js": "057cbe0072a368ebc107237d8f1eb0ea43717d191c7fc8d7da26b3fcb75ea95e",
+    "play/city/modules/scene.js": "385ce3583f065044c6ca3804e9041d9f50252f330f434deda497d02784cbdfe6",
+    "play/city/modules/scene.css": "331f6e74ebf11862654e47ab40d995ec8563b3ee16ee3381b02f2b99495c6d06",
+    "play/city/thoughts.js": "71d66c3536c3a021b01e764e20e3949f60309885de78ec404a932c4b8ac4340c",
+    "play/story/data.js": "b273b19c8b61e91263d5aabc9f79ff85fb050aae53012e88080d6305f399dcea"
+  }
+}
