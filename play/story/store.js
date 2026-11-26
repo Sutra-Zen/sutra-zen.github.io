@@ -1,4 +1,4 @@
-import { STORY_SCENES } from './data.js?v=dialogue-two-1';
+import { STORY_SCENES } from './data.js?v=mara-mask-1';
 
 // Presentation only. Never reads or writes completion, bookmarks or eligibility.
 export const STORY_STORAGE_KEY = 'sutrazen.play.story.v1';

@@ -1,7 +1,7 @@
 // Genuine watercolor sprite atlas coordinates; original PNGs remain intact.
 // Geometry is in source-image pixels. All labels live in HTML, not this art.
 const resolveAsset = path => new URL(path, import.meta.url).href;
-export const ART_VERSION = '2026-11-23-modular-city-concept-1';
+export const ART_VERSION = '2026-11-26-mara-mask-1';
 export const WORLD_SIZE = Object.freeze({width:1600,height:900});
 export const ART_MANIFEST = Object.freeze({
   "ground": {
@@ -104,17 +104,17 @@ export const ART_MANIFEST = Object.freeze({
     ]
   },
   "mara": {
-    "path": "assets/mara-fullbody-concept.png",
+    "path": "assets/mara-masked-fullbody.png",
     "width": 1024,
     "height": 1536,
     "mode": "RGBA",
-    "bytes": 2426710,
-    "sha256": "ec09957c3962f01382ebc9cc99264ea35b092c476c8d57781843e4e6f4765ba4",
-    "originalOutput": "/workspace/generated_images/exec-76d53aa2-4ebd-4c5a-9975-252dcd6edf60.png",
+    "bytes": 2317502,
+    "sha256": "3145469eb41300e03dda10bcc40e708cf3e3c3afb593d61ccd58d29b083c3f62",
     "alphaExtrema": [
       0,
       254
-    ]
+    ],
+    "originalOutput": "/tmp/mara-art/source/mara_masked_fullbody_preview.png"
   },
   "doubt": {
     "path": "../../story/assets/doubt-creature-concept.png",
@@ -1151,12 +1151,12 @@ const spriteRecords = {
   },
   "mara": {
     "asset": "mara",
-    "x": 45,
-    "y": 144,
-    "w": 931,
-    "h": 1193,
-    "width": 931,
-    "height": 1193,
+    "x": 79,
+    "y": 153,
+    "w": 847,
+    "h": 1272,
+    "width": 847,
+    "height": 1272,
     "atlasWidth": 1024,
     "atlasHeight": 1536,
     "cellRect": [
@@ -1166,10 +1166,10 @@ const spriteRecords = {
       1536
     ],
     "alpha32Bounds": [
-      53,
-      152,
-      968,
-      1329
+      87,
+      161,
+      918,
+      1417
     ]
   },
   "hindrance_doubt": {

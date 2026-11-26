@@ -1,5 +1,6 @@
 // Fictional city inner voices. Separate from scripture and reading completion.
-import {renderSprite} from './modules/scene.js?v=simple-ui-1';
+import {STORY_ACTORS} from '../story/data.js?v=mara-mask-1';
+import {renderSprite} from './modules/scene.js?v=mara-mask-1';
 const COPY=Object.freeze({
  label:'城池角色對話',close:'關閉對話',
  lordName:'識・城主',maraName:'波旬',guardianName:'念-守門人',messengersName:'止・觀使者',
@@ -66,7 +67,13 @@ export function initializeCityThoughts({host,getState,onSeen,onClose}={}){
   const value=thought(actor,getState());if(!value)return false;
   if(panel.hidden)opener=document.activeElement;current=value;panel.dataset.actor=actor;panel.dataset.thought=value.id;
   panel.querySelector('h2').textContent=value.name;panel.querySelector('.city-thought__line').textContent=value.text;
-  panel.querySelector('.city-thought__portrait').innerHTML=renderSprite(value.asset,{label:value.name});
+  const portrait=panel.querySelector('.city-thought__portrait');
+  if(value.actor==='mara'){
+   const image=document.createElement('img');image.src=STORY_ACTORS.mara.portrait;image.alt=value.name;
+   image.width=1254;image.height=1254;image.draggable=false;
+   image.addEventListener('error',()=>{image.hidden=true;},{once:true});
+   portrait.replaceChildren(image);
+  }else portrait.innerHTML=renderSprite(value.asset,{label:value.name});
   panel.hidden=false;host.classList.add('has-city-thought');panel.scrollTop=0;if(remember)onSeen?.(value.id);
   if(focus)panel.querySelector('[data-city-thought-close]').focus({preventScroll:true});return true;
  }

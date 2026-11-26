@@ -1,5 +1,7 @@
 # 波旬對話頭像
 
+> 2026-11-26 更新：本文以下保留灰棕反派概念稿的歷史來源。目前遊戲與城池對話改用作者核可的 `mara-masked-portrait.png`；`mara-unmasked-portrait.png` 只預留給未來揭面演出。新素材與 SHA 見 [本輪來源紀錄](../../../docs/play/mara-mask/asset-provenance.json)，舊 PNG 不刪除或覆寫。
+
 2026-11-23，依作者本輪附圖右上角色製作的遊戲用透明頭像。不替換原繪本，也不作為經典所載外貌。
 
 ## 最終素材

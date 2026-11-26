@@ -1,5 +1,5 @@
 // Author-supplied opening narration. This is not presented as a scripture quote.
-export const PROLOGUE_VERSION='dialogue-two-1';
+export const PROLOGUE_VERSION='mara-mask-1';
 export const PROLOGUE_LOCALE='zh-Hant';
 export const PROLOGUE_PARAGRAPHS=Object.freeze([
  '兩千多年前，在印度的鹿野苑。\n佛陀向五位比丘說起了苦，也說起了走出苦的路。',

@@ -1,5 +1,7 @@
 # 模組化城池：透明彩繪素材與座標
 
+> 2026-11-26 波旬更新：目前 `mara` sprite 改用 `assets/mara-masked-fullbody.png`，保留紫色戲面具、斗篷、蝙蝠翅膀及完整漂浮雙腳；揭面後 PNG 只作預留。下列原概念稿描述與生成來源保留為歷史紀錄。現行 metadata 已同步 `art.js`／`generated-provenance.json`，詳 [新素材來源](../../../docs/play/mara-mask/asset-provenance.json)。
+
 2026-11-23。這批素材是以既有角色、城池與繪本為依據製作的遊戲概念美術；不是經典插圖的史實復原，也不把閱讀完成當作修證。新圖的標牌、對話、書名、經號與操作符號一律由網頁呈現。
 
 ## 實際檔案與程式契約

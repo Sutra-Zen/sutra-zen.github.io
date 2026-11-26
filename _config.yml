@@ -34,3 +34,4 @@ exclude:
   - docs/previews/train-zero
   - docs/previews/mandatory-dialogue
   - docs/previews/dialogue-reader-space
+  - docs/previews/mara-mask

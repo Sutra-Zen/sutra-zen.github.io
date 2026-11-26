@@ -1,0 +1,137 @@
+{
+  "baseline": "e05cad72747769adbbd9ed4a713c6a237ed353f4",
+  "result": "pass",
+  "productFilesModifiedByReviewer": false,
+  "protectedOriginals": {
+    "trackedFileCount": 632,
+    "fourteenBookDirsGuidesDataScriptureArtNativeJsCssUnchanged": true,
+    "sharedReaderLayoutAndControlsUnchanged": true,
+    "centralReadingCityStoresRouteEligibilityReceiptUnchanged": true,
+    "homepageSeoGoogleUnchanged": true,
+    "allDownloadArchivesUnchanged": true,
+    "fourteenHtmlOnlyBridgeQuery": 14
+  },
+  "oldArtworkByteUnchanged": {
+    "count": 50,
+    "oldMaraPortraitAndFullbodyPreserved": true
+  },
+  "cacheOnlyNormalizedExact": [
+    "anapana/book/index.html",
+    "eightfold-path/book/index.html",
+    "five-aggregates/book/index.html",
+    "five-roots-powers/book/index.html",
+    "four-fruits-ten-fetters/book/index.html",
+    "four-jhanas/book/index.html",
+    "four-purities-six-recollections/book/index.html",
+    "four-truths/book/index.html",
+    "game/index.html",
+    "iddhipada/book/index.html",
+    "mindfulness/book/index.html",
+    "play/city/city.js",
+    "play/city/index.html",
+    "play/city/modules/scene.js",
+    "play/collection/reader-bridge.js",
+    "play/game-shell.js",
+    "play/journey-save.js",
+    "play/navigation.js",
+    "play/opening/data.js",
+    "play/opening/opening.js",
+    "play/prologue/data.js",
+    "play/prologue/prologue.js",
+    "play/story/dialogue.js",
+    "play/story/doubt-stage.js",
+    "play/story/pending.js",
+    "play/story/store.js",
+    "play/title-review.js",
+    "play/title-screen.js",
+    "play/visual-v2/shelf.html",
+    "play/visual-v2/shelf.js",
+    "play/worldmap-v4/completion-feedback.js",
+    "play/worldmap-v4/index.html",
+    "play/worldmap-v4/worldmap.js",
+    "right-effort/book/index.html",
+    "seven-factors/book/index.html",
+    "six-senses/book/index.html",
+    "twelve-links/book/index.html"
+  ],
+  "storyProseIdsGraphUiAndActorNamesUnchanged": true,
+  "cityProseIdsNpcCoordinatesMotionAndAllCssUnchanged": true,
+  "newApprovedAssets": [
+    {
+      "name": "mara_masked_portrait_preview",
+      "path": "play/story/assets/mara-masked-portrait.png",
+      "sha256": "a67cc7a605afb0def6b748c855fa1e3ed6f79dd6d4e66203df46e9fcf3f1fd5b",
+      "exactSourceBytes": true,
+      "dimensionsModeAlphaMatch": true,
+      "usage": "runtime masked"
+    },
+    {
+      "name": "mara_masked_fullbody_preview",
+      "path": "play/city/modules/assets/mara-masked-fullbody.png",
+      "sha256": "3145469eb41300e03dda10bcc40e708cf3e3c3afb593d61ccd58d29b083c3f62",
+      "exactSourceBytes": true,
+      "dimensionsModeAlphaMatch": true,
+      "usage": "runtime masked"
+    },
+    {
+      "name": "mara_unmasked_portrait_preview",
+      "path": "play/story/assets/mara-unmasked-portrait.png",
+      "sha256": "548172fae7562d31792aaf937e3ef2dbf372c59595d941b972b5b15db13df626",
+      "exactSourceBytes": true,
+      "dimensionsModeAlphaMatch": true,
+      "usage": "reserved only; no runtime reveal event"
+    },
+    {
+      "name": "mara_unmasked_fullbody_preview",
+      "path": "play/city/modules/assets/mara-unmasked-fullbody.png",
+      "sha256": "d6874bfa27425fd4628d95cb0d03ff204f28adfd298bb85acafe3c2ee9d13571",
+      "exactSourceBytes": true,
+      "dimensionsModeAlphaMatch": true,
+      "usage": "reserved only; no runtime reveal event"
+    }
+  ],
+  "cityManifest": {
+    "runtimeJsAndProvenanceExact": true,
+    "nonMaraRecordsUnchanged": true,
+    "previousMaraRecordsExact": true,
+    "newSvgViewBoxMatchesActualAlpha32BoundsPlus8px": true
+  },
+  "maskedOnlyRuntime": {
+    "unmaskedCodeReferences": [],
+    "sharedStoryCityPortrait": true,
+    "activeFullbody": "assets/mara-masked-fullbody.png",
+    "noRevealEventAdded": true
+  },
+  "notes": [
+    "All current story/city/reward renderer dependencies use the updated Mara cache URI; singleton store semantics stay unchanged.",
+    "No browser/layout claim; independent runtime QA is separate."
+  ],
+  "historicalDocumentationPreserved": {
+    "play/story/assets/MARA.md": "Only new version note after heading; original full body preserved verbatim",
+    "play/city/modules/ART.md": "Only new version note after heading; original full body preserved verbatim"
+  },
+  "syntax": {
+    "play/city/city.js": "pass",
+    "play/city/modules/art.js": "pass",
+    "play/city/modules/scene.js": "pass",
+    "play/city/thoughts.js": "pass",
+    "play/collection/reader-bridge.js": "pass",
+    "play/game-shell.js": "pass",
+    "play/journey-save.js": "pass",
+    "play/navigation.js": "pass",
+    "play/opening/data.js": "pass",
+    "play/opening/opening.js": "pass",
+    "play/prologue/data.js": "pass",
+    "play/prologue/prologue.js": "pass",
+    "play/story/data.js": "pass",
+    "play/story/dialogue.js": "pass",
+    "play/story/doubt-stage.js": "pass",
+    "play/story/pending.js": "pass",
+    "play/story/store.js": "pass",
+    "play/title-review.js": "pass",
+    "play/title-screen.js": "pass",
+    "play/visual-v2/shelf.js": "pass",
+    "play/worldmap-v4/completion-feedback.js": "pass",
+    "play/worldmap-v4/worldmap.js": "pass"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-26",
+  "tool": "image_gen.imagegen",
+  "transparent_background": true,
+  "reference": "Author conversation sunset stone archway reveal illustration; latest approved masked/unmasked generated previews. Original scene upload local path/SHA unavailable, not invented.",
+  "preservation": "All four approved preview PNGs imported byte-for-byte from imagegen data URLs; no Python drawing, cropping, recoloring, mirroring, background removal or PNG reencoding. Runtime full-body crop uses only SVG viewBox with 8px around alpha>=32 bounds.",
+  "maskedPromptSummary": "Edit both latest unmasked previews into matching purple theatrical cat-mask worn over face; preserve plum hood/cloak, neck bow, small bat wings, warm watercolor, three-quarter right-facing pose; full-body includes finished hem and two feet. No horns or gold forehead mask.",
+  "unmaskedPromptSummary": "Match right orange-tabby character under sunset stone archway; plum hood/cloak, cream muzzle, warm brown eyes, gentle smile, purple theatrical mask held aside; retain small bat wings and right-facing pose.",
+  "runtimePolicy": "Only masked portrait and masked full-body referenced. Unmasked images reserved; no new reveal event, reading gate or story text invented.",
+  "assets": {
+    "mara_masked_portrait_preview": {
+      "path": "play/story/assets/mara-masked-portrait.png",
+      "sha256": "a67cc7a605afb0def6b748c855fa1e3ed6f79dd6d4e66203df46e9fcf3f1fd5b",
+      "bytes": 1905764,
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alpha32Bounds": [
+        80,
+        96,
+        1131,
+        1209
+      ],
+      "originalOutput": "/tmp/mara-art/source/mara_masked_portrait_preview.png",
+      "usage": "runtime masked"
+    },
+    "mara_masked_fullbody_preview": {
+      "path": "play/city/modules/assets/mara-masked-fullbody.png",
+      "sha256": "3145469eb41300e03dda10bcc40e708cf3e3c3afb593d61ccd58d29b083c3f62",
+      "bytes": 2317502,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "alpha32Bounds": [
+        87,
+        161,
+        918,
+        1417
+      ],
+      "originalOutput": "/tmp/mara-art/source/mara_masked_fullbody_preview.png",
+      "usage": "runtime masked"
+    },
+    "mara_unmasked_portrait_preview": {
+      "path": "play/story/assets/mara-unmasked-portrait.png",
+      "sha256": "548172fae7562d31792aaf937e3ef2dbf372c59595d941b972b5b15db13df626",
+      "bytes": 2059636,
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alpha32Bounds": [
+        57,
+        93,
+        1178,
+        1216
+      ],
+      "originalOutput": "/tmp/mara-art/source/mara_unmasked_portrait_preview.png",
+      "usage": "reserved only; no runtime reveal event"
+    },
+    "mara_unmasked_fullbody_preview": {
+      "path": "play/city/modules/assets/mara-unmasked-fullbody.png",
+      "sha256": "d6874bfa27425fd4628d95cb0d03ff204f28adfd298bb85acafe3c2ee9d13571",
+      "bytes": 2412750,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "alpha32Bounds": [
+        47,
+        151,
+        988,
+        1417
+      ],
+      "originalOutput": "/tmp/mara-art/source/mara_unmasked_fullbody_preview.png",
+      "usage": "reserved only; no runtime reveal event"
+    }
+  },
+  "cacheChainFiles": [
+    "play/journey-save.js",
+    "play/title-review.js",
+    "play/title-screen.js",
+    "play/navigation.js",
+    "play/game-shell.js",
+    "play/city/index.html",
+    "play/city/city.js",
+    "play/worldmap-v4/worldmap.js",
+    "play/worldmap-v4/index.html",
+    "play/prologue/prologue.js",
+    "play/prologue/data.js",
+    "play/story/store.js",
+    "play/story/dialogue.js",
+    "play/story/doubt-stage.js",
+    "play/story/pending.js",
+    "play/collection/reader-bridge.js",
+    "play/opening/opening.js",
+    "play/opening/data.js",
+    "play/visual-v2/shelf.html",
+    "play/visual-v2/shelf.js",
+    "anapana/book/index.html",
+    "eightfold-path/book/index.html",
+    "five-aggregates/book/index.html",
+    "five-roots-powers/book/index.html",
+    "four-fruits-ten-fetters/book/index.html",
+    "four-jhanas/book/index.html",
+    "four-purities-six-recollections/book/index.html",
+    "four-truths/book/index.html",
+    "iddhipada/book/index.html",
+    "mindfulness/book/index.html",
+    "right-effort/book/index.html",
+    "seven-factors/book/index.html",
+    "six-senses/book/index.html",
+    "twelve-links/book/index.html"
+  ]
+}
