@@ -1,5 +1,9 @@
 # SutraZen project context
 
+## Disciple speaker clarification (2026-11-27)
+
+Four Truths page1 now introduces「佛陀的弟子舍利弗」and Anapana page76/S08-P05「佛陀的弟子阿難」, as requested. Four Truths static fallback and Anapana reader-edits/generator remain synchronized; only the two data-script queries change to disciple-names-1. Native pagination remains29/119, with all scripture, art, other prose, shared layout and progress policy preserved. Exact release and focused validation belong to the release PR; physical Safari is untested.
+
 ## Masked Mara character artwork (2026-11-26)
 
 The author-approved masked portrait and complete floating sprite replace the old Mara presentation. Story and city dialogue share the same portrait; city position, float/reduced-motion CSS, IDs, prose and save/eligibility logic remain. Four approved PNG previews are preserved byte-for-byte; unmasked variants are reserved only, with no reveal event or premature all-fourteen switch. Active import/navigation cache is mara-mask-1, fourteen reader HTMLs change only their bridge query, game entry is generated and the offline ZIP remains identical. See [implementation/provenance](play/mara-mask/README.md) and [focused evidence](previews/mara-mask/README.md). Exact release proof belongs to the PR; physical Safari is untested.
