@@ -23,7 +23,7 @@ async function initializeCollection() {
   const bookId = parts[parts.indexOf('book') - 1];
   if (!CATALOG.some(book => book.id === bookId) || typeof window.showPage !== 'function') return;
   let redirecting = false;
-  const gameURL = new URL('../../game/?v=mara-mask-1', import.meta.url);
+  const gameURL = new URL('../../game/?v=character-pronouns-1', import.meta.url);
   const denyEntry = () => {
     if (redirecting) return;
     redirecting = true;

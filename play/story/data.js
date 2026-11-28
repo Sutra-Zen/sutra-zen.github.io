@@ -28,7 +28,7 @@ export const STORY_SCENES = Object.freeze({
  'doubt-escapes': Object.freeze({actorId:'doubt',bookId:'four-truths',group:'first-completion',doubtState:'receding',
   text:'哎呀！趕快逃！',nextSceneId:'doubt-recedes'}),
  'doubt-recedes': Object.freeze({actorId:'traveler',bookId:'four-truths',group:'first-completion',doubtState:'receding',seenOn:'outro-end',
-  text:'咦，牠身上的問號少了好幾個。等等，你要去哪裡？',
+  text:'咦，他身上的問號少了好幾個。等等，你要去哪裡？',
   nextSceneId:'toward-aggregates-lake',nextLabel:'接著看'}),
  'mara-watches': Object.freeze({actorId:'mara',bookId:'four-truths',group:'first-completion',
   text:'站在遠方觀看的波旬心想：「可惡，小貓好像慢慢開始破除五蓋了……」',
