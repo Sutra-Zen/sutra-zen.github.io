@@ -1263,10 +1263,10 @@ const BOOK = {
       "lines": [
         "這第三股讓我們無比安心的力量，是對僧團的深深敬意與信任的「僧不壞淨」。"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/approved-replacements/2026-11-28-monk-limbs/274BF7CF-9EEF-438B-BA22-767002BDA676.PNG",
       "dimensions": [
-        1376,
-        768
+        1679,
+        937
       ],
       "verse": "對僧團具備不壞淨：『世尊的弟子僧團是依善而行者，世尊的弟子僧團是依正直而行者，世尊的弟子僧團是依真理而行者，世尊的弟子僧團是如法而行者，即：四雙之人、八輩之士，這世尊的弟子僧團應該被奉獻、應該被供奉、應該被供養、應該被合掌，為世間的無上福田。』",
       "verseLabel": "《相應部》55.1 · 莊春江譯",
@@ -1282,10 +1282,10 @@ const BOOK = {
       "lines": [
         "不過，這裡說的僧團，指的不是普通的旅人，"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/approved-replacements/2026-11-28-monk-limbs/274BF7CF-9EEF-438B-BA22-767002BDA676.PNG",
       "dimensions": [
-        1376,
-        768
+        1679,
+        937
       ],
       "verse": "對僧團具備不壞淨：『世尊的弟子僧團是依善而行者，世尊的弟子僧團是依正直而行者，世尊的弟子僧團是依真理而行者，世尊的弟子僧團是如法而行者，即：四雙之人、八輩之士，這世尊的弟子僧團應該被奉獻、應該被供奉、應該被供養、應該被合掌，為世間的無上福田。』",
       "verseLabel": "《相應部》55.1 · 莊春江譯",
@@ -1301,10 +1301,10 @@ const BOOK = {
       "lines": [
         "而是那些已經成功走在解脫道上的前輩們。"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/approved-replacements/2026-11-28-monk-limbs/274BF7CF-9EEF-438B-BA22-767002BDA676.PNG",
       "dimensions": [
-        1376,
-        768
+        1679,
+        937
       ],
       "verse": "對僧團具備不壞淨：『世尊的弟子僧團是依善而行者，世尊的弟子僧團是依正直而行者，世尊的弟子僧團是依真理而行者，世尊的弟子僧團是如法而行者，即：四雙之人、八輩之士，這世尊的弟子僧團應該被奉獻、應該被供奉、應該被供養、應該被合掌，為世間的無上福田。』",
       "verseLabel": "《相應部》55.1 · 莊春江譯",
@@ -1320,10 +1320,10 @@ const BOOK = {
       "lines": [
         "他們聽從了佛陀的導航，不偏不倚、誠實且正直地航行，"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/approved-replacements/2026-11-28-monk-limbs/274BF7CF-9EEF-438B-BA22-767002BDA676.PNG",
       "dimensions": [
-        1376,
-        768
+        1679,
+        937
       ],
       "verse": "對僧團具備不壞淨：『世尊的弟子僧團是依善而行者，世尊的弟子僧團是依正直而行者，世尊的弟子僧團是依真理而行者，世尊的弟子僧團是如法而行者，即：四雙之人、八輩之士，這世尊的弟子僧團應該被奉獻、應該被供奉、應該被供養、應該被合掌，為世間的無上福田。』",
       "verseLabel": "《相應部》55.1 · 莊春江譯",
@@ -1339,10 +1339,10 @@ const BOOK = {
       "lines": [
         "是「善向、正向、直向、等向」的實踐者。"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/approved-replacements/2026-11-28-monk-limbs/274BF7CF-9EEF-438B-BA22-767002BDA676.PNG",
       "dimensions": [
-        1376,
-        768
+        1679,
+        937
       ],
       "verse": "對僧團具備不壞淨：『世尊的弟子僧團是依善而行者，世尊的弟子僧團是依正直而行者，世尊的弟子僧團是依真理而行者，世尊的弟子僧團是如法而行者，即：四雙之人、八輩之士，這世尊的弟子僧團應該被奉獻、應該被供奉、應該被供養、應該被合掌，為世間的無上福田。』",
       "verseLabel": "《相應部》55.1 · 莊春江譯",
@@ -1358,10 +1358,10 @@ const BOOK = {
       "lines": [
         "這群學長姐中，有的剛進入聖流，有的已經完全覺悟，"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/approved-replacements/2026-11-28-monk-limbs/274BF7CF-9EEF-438B-BA22-767002BDA676.PNG",
       "dimensions": [
-        1376,
-        768
+        1679,
+        937
       ],
       "verse": "對僧團具備不壞淨：『世尊的弟子僧團是依善而行者，世尊的弟子僧團是依正直而行者，世尊的弟子僧團是依真理而行者，世尊的弟子僧團是如法而行者，即：四雙之人、八輩之士，這世尊的弟子僧團應該被奉獻、應該被供奉、應該被供養、應該被合掌，為世間的無上福田。』",
       "verseLabel": "《相應部》55.1 · 莊春江譯",
@@ -1377,10 +1377,10 @@ const BOOK = {
       "lines": [
         "總共有四個階段、八種層次的境界，他們就是「四雙八輩」聖弟子！"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/approved-replacements/2026-11-28-monk-limbs/274BF7CF-9EEF-438B-BA22-767002BDA676.PNG",
       "dimensions": [
-        1376,
-        768
+        1679,
+        937
       ],
       "verse": "對僧團具備不壞淨：『世尊的弟子僧團是依善而行者，世尊的弟子僧團是依正直而行者，世尊的弟子僧團是依真理而行者，世尊的弟子僧團是如法而行者，即：四雙之人、八輩之士，這世尊的弟子僧團應該被奉獻、應該被供奉、應該被供養、應該被合掌，為世間的無上福田。』",
       "verseLabel": "《相應部》55.1 · 莊春江譯",
@@ -1396,10 +1396,10 @@ const BOOK = {
       "lines": [
         "他們的小船裝滿了「戒律、禪定與智慧」，"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/approved-replacements/2026-11-28-monk-limbs/274BF7CF-9EEF-438B-BA22-767002BDA676.PNG",
       "dimensions": [
-        1376,
-        768
+        1679,
+        937
       ],
       "verse": "具足戒、定、慧、解脫、解脫知見，供養、恭敬、尊重之處，堪為世間無上福田。",
       "verseLabel": "《雜阿含經》第554經 · 五分功德與福田",
@@ -1415,10 +1415,10 @@ const BOOK = {
       "lines": [
         "早就掙脫了煩惱的麻繩，獲得了真正的自由與清晰的視野。"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/approved-replacements/2026-11-28-monk-limbs/274BF7CF-9EEF-438B-BA22-767002BDA676.PNG",
       "dimensions": [
-        1376,
-        768
+        1679,
+        937
       ],
       "verse": "具足戒、定、慧、解脫、解脫知見，供養、恭敬、尊重之處，堪為世間無上福田。",
       "verseLabel": "《雜阿含經》第554經 · 五分功德與福田",
@@ -1434,10 +1434,10 @@ const BOOK = {
       "lines": [
         "看著他們安穩前進的背影，我們心裡會生起莫大的勇氣："
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/approved-replacements/2026-11-28-monk-limbs/274BF7CF-9EEF-438B-BA22-767002BDA676.PNG",
       "dimensions": [
-        1376,
-        768
+        1679,
+        937
       ],
       "verse": "具足戒、定、慧、解脫、解脫知見，供養、恭敬、尊重之處，堪為世間無上福田。",
       "verseLabel": "《雜阿含經》第554經 · 五分功德與福田",
@@ -1453,10 +1453,10 @@ const BOOK = {
       "lines": [
         "「原來這條航線是真的，原來抵達彼岸是做得到的！」"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/approved-replacements/2026-11-28-monk-limbs/274BF7CF-9EEF-438B-BA22-767002BDA676.PNG",
       "dimensions": [
-        1376,
-        768
+        1679,
+        937
       ],
       "verse": "具足戒、定、慧、解脫、解脫知見，供養、恭敬、尊重之處，堪為世間無上福田。",
       "verseLabel": "《雜阿含經》第554經 · 五分功德與福田",
@@ -1472,10 +1472,10 @@ const BOOK = {
       "lines": [
         "當我們帶著恭敬的心，向這群充滿智慧的聖者合掌致敬、學習與分享時，"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/approved-replacements/2026-11-28-monk-limbs/274BF7CF-9EEF-438B-BA22-767002BDA676.PNG",
       "dimensions": [
-        1376,
-        768
+        1679,
+        937
       ],
       "verse": "具足戒、定、慧、解脫、解脫知見，供養、恭敬、尊重之處，堪為世間無上福田。",
       "verseLabel": "《雜阿含經》第554經 · 五分功德與福田",
@@ -1491,10 +1491,10 @@ const BOOK = {
       "lines": [
         "就像是把最珍貴的善意種子，輕輕播種在世界上最肥沃的土壤裡。"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/approved-replacements/2026-11-28-monk-limbs/274BF7CF-9EEF-438B-BA22-767002BDA676.PNG",
       "dimensions": [
-        1376,
-        768
+        1679,
+        937
       ],
       "verse": "具足戒、定、慧、解脫、解脫知見，供養、恭敬、尊重之處，堪為世間無上福田。",
       "verseLabel": "《雜阿含經》第554經 · 五分功德與福田",
@@ -1510,10 +1510,10 @@ const BOOK = {
       "lines": [
         "他們，正是這世間能讓善意結出最豐碩果實的「無上福田」。"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0400.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/approved-replacements/2026-11-28-monk-limbs/274BF7CF-9EEF-438B-BA22-767002BDA676.PNG",
       "dimensions": [
-        1376,
-        768
+        1679,
+        937
       ],
       "verse": "具足戒、定、慧、解脫、解脫知見，供養、恭敬、尊重之處，堪為世間無上福田。",
       "verseLabel": "《雜阿含經》第554經 · 五分功德與福田",
@@ -1776,10 +1776,10 @@ const BOOK = {
       "lines": [
         "擁有「四不壞淨」就像獲得了生命中最強大的保險。"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0402.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/approved-replacements/2026-11-28-monk-limbs/315A7E03-BF5A-4E7F-959B-E5EC0A6DD298.PNG",
       "dimensions": [
-        1375,
-        768
+        1678,
+        937
       ],
       "verse": "世尊說依四不壞淨，增六念處，我悉成就，我當修習念佛功德，念法、念僧、念戒、念施、念天。",
       "verseLabel": "《雜阿含經》第554經",
@@ -1795,10 +1795,10 @@ const BOOK = {
       "lines": [
         "但如果你正面臨病痛、恐懼或不安的風浪時，該怎麼辦呢？"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0402.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/approved-replacements/2026-11-28-monk-limbs/315A7E03-BF5A-4E7F-959B-E5EC0A6DD298.PNG",
       "dimensions": [
-        1375,
-        768
+        1678,
+        937
       ],
       "verse": "世尊說依四不壞淨，增六念處，我悉成就，我當修習念佛功德，念法、念僧、念戒、念施、念天。",
       "verseLabel": "《雜阿含經》第554經",
@@ -1814,10 +1814,10 @@ const BOOK = {
       "lines": [
         "在雜阿含經554經中，訶梨聚落主長者在病痛中，學會了「六念」這門修法。"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0402.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/approved-replacements/2026-11-28-monk-limbs/315A7E03-BF5A-4E7F-959B-E5EC0A6DD298.PNG",
       "dimensions": [
-        1375,
-        768
+        1678,
+        937
       ],
       "verse": "世尊說依四不壞淨，增六念處，我悉成就，我當修習念佛功德，念法、念僧、念戒、念施、念天。",
       "verseLabel": "《雜阿含經》第554經",
@@ -1833,10 +1833,10 @@ const BOOK = {
       "lines": [
         "這就像是把心轉向四種已經擁有的寶藏：念佛、念法、念僧、念戒。"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0402.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/approved-replacements/2026-11-28-monk-limbs/315A7E03-BF5A-4E7F-959B-E5EC0A6DD298.PNG",
       "dimensions": [
-        1375,
-        768
+        1678,
+        937
       ],
       "verse": "世尊說依四不壞淨，增六念處，我悉成就，我當修習念佛功德，念法、念僧、念戒、念施、念天。",
       "verseLabel": "《雜阿含經》第554經",
@@ -1852,10 +1852,10 @@ const BOOK = {
       "lines": [
         "每念一次，就像是在黑暗中點亮一盞燈，"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0402.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/approved-replacements/2026-11-28-monk-limbs/315A7E03-BF5A-4E7F-959B-E5EC0A6DD298.PNG",
       "dimensions": [
-        1375,
-        768
+        1678,
+        937
       ],
       "verse": "世尊說依四不壞淨，增六念處，我悉成就，我當修習念佛功德，念法、念僧、念戒、念施、念天。",
       "verseLabel": "《雜阿含經》第554經",
@@ -1871,10 +1871,10 @@ const BOOK = {
       "lines": [
         "讓散亂的心重新校準，回到這四種清淨的力量上。"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0402.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/approved-replacements/2026-11-28-monk-limbs/315A7E03-BF5A-4E7F-959B-E5EC0A6DD298.PNG",
       "dimensions": [
-        1375,
-        768
+        1678,
+        937
       ],
       "verse": "世尊說依四不壞淨，增六念處，我悉成就，我當修習念佛功德，念法、念僧、念戒、念施、念天。",
       "verseLabel": "《雜阿含經》第554經",
@@ -1890,10 +1890,10 @@ const BOOK = {
       "lines": [
         "除此之外，還要加上兩份溫暖的練習："
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0402.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/approved-replacements/2026-11-28-monk-limbs/315A7E03-BF5A-4E7F-959B-E5EC0A6DD298.PNG",
       "dimensions": [
-        1375,
-        768
+        1678,
+        937
       ],
       "verse": "世尊說依四不壞淨，增六念處，我悉成就，我當修習念佛功德，念法、念僧、念戒、念施、念天。",
       "verseLabel": "《雜阿含經》第554經",
@@ -1909,10 +1909,10 @@ const BOOK = {
       "lines": [
         "「念布施」：回憶自己曾經分享、給予的快樂，讓心變得開闊且富有；"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0402.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/approved-replacements/2026-11-28-monk-limbs/315A7E03-BF5A-4E7F-959B-E5EC0A6DD298.PNG",
       "dimensions": [
-        1375,
-        768
+        1678,
+        937
       ],
       "verse": "世尊說依四不壞淨，增六念處，我悉成就，我當修習念佛功德，念法、念僧、念戒、念施、念天。",
       "verseLabel": "《雜阿含經》第554經",
@@ -1928,10 +1928,10 @@ const BOOK = {
       "lines": [
         "「念天」：思惟那些因善行而發光的高尚生命，提醒自己也擁有同樣的潛質。"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0402.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/approved-replacements/2026-11-28-monk-limbs/315A7E03-BF5A-4E7F-959B-E5EC0A6DD298.PNG",
       "dimensions": [
-        1375,
-        768
+        1678,
+        937
       ],
       "verse": "世尊說依四不壞淨，增六念處，我悉成就，我當修習念佛功德，念法、念僧、念戒、念施、念天。",
       "verseLabel": "《雜阿含經》第554經",
@@ -1947,10 +1947,10 @@ const BOOK = {
       "lines": [
         "透過這六種思惟，你的心會超越身體的痛苦。這就是依四不壞淨，增六念處。"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0402.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/approved-replacements/2026-11-28-monk-limbs/315A7E03-BF5A-4E7F-959B-E5EC0A6DD298.PNG",
       "dimensions": [
-        1375,
-        768
+        1678,
+        937
       ],
       "verse": "世尊說依四不壞淨，增六念處，我悉成就，我當修習念佛功德，念法、念僧、念戒、念施、念天。",
       "verseLabel": "《雜阿含經》第554經",
@@ -1966,10 +1966,10 @@ const BOOK = {
       "lines": [
         "讓原本堅固的信心，化為當下每一口呼吸的平靜。"
       ],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0402.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/approved-replacements/2026-11-28-monk-limbs/315A7E03-BF5A-4E7F-959B-E5EC0A6DD298.PNG",
       "dimensions": [
-        1375,
-        768
+        1678,
+        937
       ],
       "verse": "世尊說依四不壞淨，增六念處，我悉成就，我當修習念佛功德，念法、念僧、念戒、念施、念天。",
       "verseLabel": "《雜阿含經》第554經",
@@ -1983,10 +1983,10 @@ const BOOK = {
       "atSec": 525,
       "title": "收尾",
       "lines": [],
-      "image": "../../docs/four-purities-six-recollections/assets/IMG_0402.jpeg",
+      "image": "../../docs/four-purities-six-recollections/assets/approved-replacements/2026-11-28-monk-limbs/315A7E03-BF5A-4E7F-959B-E5EC0A6DD298.PNG",
       "dimensions": [
-        1375,
-        768
+        1678,
+        937
       ],
       "verse": "",
       "verseLabel": "",

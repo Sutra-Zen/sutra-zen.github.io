@@ -1,3 +1,11 @@
+# 四念處漫畫補聚焦與鹿象僧人替圖（2026-11-28）
+
+接續PR97 main `fd810c9064179fb9f46ab8dc0b4f702d4e671746`，作者核定移除87–88頁可見「承接上一幕」註記，保留原87旁白／Q13／raw relation，正常與經文對話框皆只顯經名＋原經，與86相同；S18跨幕補充標示保持。四念處25幕原圖逐一視檢，漫畫依現有字幕指涉補遮黑；同頁同時講多格或總覽維持全亮，不拆原文／改頁碼。原段不足以區分但原分頁已分開的S11與S21採local-page selector，其餘維持paragraph selector；正常／放大同一映射。詳現行layout-audit與panel-focus-data，原111page、91hash、S10 y6／既有S12藤蔓曲邊及他稱謂保持。
+
+附件封存.zip兩PNG逐位元匯入四不壞淨approved-replacements/2026-11-28-monk-limbs：274BF…用於S06第56–69頁、315A…用於S08／END第83–94頁；兩圖鹿象僧人改為兩腳站姿，六念圖原六木牌保留。由既有image-assignments／replacement-assets與原builder套用，95頁／scenes／字幕／原經／overlay與其他原圖不改；ZIP／新圖／舊圖SHA與對應詳該目錄README/provenance。僅兩書本地資料／renderer／CSS／focus queries comic-review-1，共享helper／layout、其餘12書、遊戲保存資格與SEO／Google保持。focused漫畫／註記與替圖驗收、exact-SHA Pages／live結果以PR交付為準；沿既有直接發布授權交付，實機Safari未測。
+
+---
+
 # 四念處三格漫畫遮黑（2026-11-28）
 
 接續PR96 main `996e98ff26a6872e496baaaf5f2579978d0370a0`，作者要求S12三格漫畫加遮黑。第44–45頁亮左格、第46–47頁亮中格、第48–49頁亮右格；依原paragraphNumber的1／2／3／4映射left／middle／middle／right，避免字幕拆頁改錯焦點，未提前把第47頁「觀受是苦」跳右格。新增本書panel-focus-data.js、renderer一般／放大接既有picture-panel-focus helper；局部CSS三個polygon依原藤蔓曲邊共用邊界，其餘兩格沿用76%暗色。非S12正常／放大均清除遮罩，原圖不裁切。只本書CSS／renderer／focus data cache改three-panel-1，data仍body-label-1、全部111page與原稿／經文／原圖、91hash、S10 y6／他稱謂、shared helper／layout及其餘13書／保存資格保持。focused手機直橫與寬屏／review／zoom、exact-SHA Pages／live結果以PR交付為準；沿既有直接發佈授權交付，實機Safari未測。

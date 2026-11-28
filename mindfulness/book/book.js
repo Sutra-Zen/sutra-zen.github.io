@@ -21,7 +21,10 @@ function overlays(container, plan) {
   }));
 }
 function scriptureText(item) {
-  return item.quotes.map(q => [q.relation === '原片下方引文對應' ? q.source : q.relation + ' · ' + q.source, q.text].join('\n')).join('\n\n');
+  return item.quotes.map(q => [['原片下方引文對應', '承接上一幕引文（非本幕下方字幕）'].includes(q.relation) ? q.source : q.relation + ' · ' + q.source, q.text].join('\n')).join('\n\n');
+}
+function focusStep(item, plan) {
+  return PANEL_FOCUS.scenes[item.scene]?.by === 'page' ? current - plan.start + 1 : item.paragraphNumber;
 }
 function showPage(index) {
   const item = pages[index]; if (!item) return;
@@ -53,8 +56,9 @@ function showPage(index) {
   }
   overlays($('#art-overlays'), plan);
   const focus = PANEL_FOCUS.scenes[item.scene];
-  SutraZenPanelFocus.update($('#art-frame'), $('#art'), focus, item.paragraphNumber);
-  const activePanel = focus?.panels.find(panel => panel.id === focus.pages[item.paragraphNumber - 1]);
+  const step = focusStep(item, plan);
+  SutraZenPanelFocus.update($('#art-frame'), $('#art'), focus, step);
+  const activePanel = focus?.panels.find(panel => panel.id === focus.pages[step - 1]);
   if (activePanel) $('#art').alt += '，目前閱讀：' + activePanel.label;
   $('#summary-overlay').replaceChildren(...(plan?.summaryRows || []).map((text, i) => {
     const row = paragraph(text); row.className = 'summary-row'; row.style.top = (25 + 12 * i) + '%'; return row;
@@ -124,9 +128,10 @@ let swiped = false;
 function enlargeImage() {
   const item = pages[current]; if (!item.image || swiped) return;
   $('#zoom-art').src = item.image; $('#zoom-art').alt = $('#art').alt;
-  overlays($('#zoom-overlays'), BOOK.scenes.find(s => s.id === item.scene));
+  const plan = BOOK.scenes.find(s => s.id === item.scene);
+  overlays($('#zoom-overlays'), plan);
   $('#image-dialog').showModal(); $('.image-scroll').scrollTo(0, 0);
-  SutraZenPanelFocus.update($('#zoom-frame'), $('#zoom-art'), PANEL_FOCUS.scenes[item.scene], item.paragraphNumber);
+  SutraZenPanelFocus.update($('#zoom-frame'), $('#zoom-art'), PANEL_FOCUS.scenes[item.scene], focusStep(item, plan));
 }
 $('#art').onclick = enlargeImage;
 $('#art').onkeydown = event => {
