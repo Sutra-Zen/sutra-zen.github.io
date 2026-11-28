@@ -1273,7 +1273,7 @@ const BOOK = {
       "title": "正語｜慚愧與誠實",
       "timeApprox": "03:13–03:20",
       "lines": [
-        "牠鼓起勇氣，走向黑熊守護者，深深鞠躬說：「對不起，昨天是我說謊了。」"
+        "他鼓起勇氣，走向黑熊守護者，深深鞠躬說：「對不起，昨天是我說謊了。」"
       ],
       "image": "../../docs/eightfold-path/assets/05-wholesome-actions.webp",
       "dimensions": [
@@ -1327,7 +1327,7 @@ const BOOK = {
       "title": "正語｜慚愧與誠實",
       "timeApprox": "03:32–03:39",
       "lines": [
-        "因此，牠在心裡許下了四個約定：不妄語，不說謊話欺騙別人；"
+        "因此，他在心裡許下了四個約定：不妄語，不說謊話欺騙別人；"
       ],
       "image": "../../docs/eightfold-path/assets/05-wholesome-actions.webp",
       "dimensions": [
@@ -1381,7 +1381,7 @@ const BOOK = {
       "title": "正業｜不偷盜、不殺生與無悔",
       "timeApprox": "03:53–04:00",
       "lines": [
-        "接著，牠回到河邊。這一次，牠不再砍樹。只撿拾地上允許取用的漂流木，"
+        "接著，他回到河邊。這一次，他不再砍樹。只撿拾地上允許取用的漂流木，"
       ],
       "image": "../../docs/eightfold-path/assets/05-wholesome-actions.webp",
       "dimensions": [
@@ -1417,7 +1417,7 @@ const BOOK = {
       "title": "正業｜不偷盜、不殺生與無悔",
       "timeApprox": "04:06–04:13",
       "lines": [
-        "當牠發現木頭上有隻小蟲時，牠輕輕地把蟲移到安全的草地上。"
+        "當他發現木頭上有隻小蟲時，他輕輕地把蟲移到安全的草地上。"
       ],
       "image": "../../docs/eightfold-path/assets/05-wholesome-actions.webp",
       "dimensions": [
@@ -1543,7 +1543,7 @@ const BOOK = {
       "title": "正業｜不邪淫",
       "timeApprox": "04:49–04:55",
       "lines": [
-        "牠只是靜靜經過，絕不隨意干擾。這是正業中的「不邪淫」。"
+        "他只是靜靜經過，絕不隨意干擾。這是正業中的「不邪淫」。"
       ],
       "image": "../../docs/eightfold-path/assets/07-right-action-swans.webp",
       "dimensions": [
@@ -1669,7 +1669,7 @@ const BOOK = {
       "title": "正命｜清淨的生活所需",
       "timeApprox": "05:28–05:34",
       "lines": [
-        "於是，牠用誠實的勞動，換取剛好足夠的果實與藥草。"
+        "於是，他用誠實的勞動，換取剛好足夠的果實與藥草。"
       ],
       "image": "../../docs/eightfold-path/assets/08-right-livelihood.webp",
       "dimensions": [
@@ -1687,7 +1687,7 @@ const BOOK = {
       "title": "正命｜清淨的生活所需",
       "timeApprox": "05:34–05:38",
       "lines": [
-        "牠不貪心，也不囤積多餘的財寶。"
+        "他不貪心，也不囤積多餘的財寶。"
       ],
       "image": "../../docs/eightfold-path/assets/08-right-livelihood.webp",
       "dimensions": [
@@ -2137,7 +2137,7 @@ const BOOK = {
       "title": "正念｜記得方向、看清浪頭",
       "timeApprox": "07:48–07:51",
       "lines": [
-        "牠運用四聖諦的智慧看著浪花："
+        "他運用四聖諦的智慧看著浪花："
       ],
       "image": "../../docs/eightfold-path/assets/10-right-mindfulness.webp",
       "dimensions": [
@@ -2173,7 +2173,7 @@ const BOOK = {
       "title": "正念｜記得方向、看清浪頭",
       "timeApprox": "07:56–08:01",
       "lines": [
-        "因為看見了，所以不被捲走。牠不對浪花發脾氣，"
+        "因為看見了，所以不被捲走。他不對浪花發脾氣，"
       ],
       "image": "../../docs/eightfold-path/assets/10-right-mindfulness.webp",
       "dimensions": [
@@ -2569,7 +2569,7 @@ const BOOK = {
       "title": "抵岸｜筏喻與等捨",
       "timeApprox": "09:56–10:02",
       "lines": [
-        "此刻的牠，兩手空空，卻擁有前所未有的自由。"
+        "此刻的他，兩手空空，卻擁有前所未有的自由。"
       ],
       "image": "../../docs/eightfold-path/assets/12-leaving-raft.webp",
       "dimensions": [

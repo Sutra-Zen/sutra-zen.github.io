@@ -1,6 +1,6 @@
-import {STORY_ACTORS,STORY_SCENES,STORY_UI as T} from './data.js?v=mara-mask-1';
-import {storyStore} from './store.js?v=mara-mask-1';
-import {pendingStory} from './pending.js?v=mara-mask-1';
+import {STORY_ACTORS,STORY_SCENES,STORY_UI as T} from './data.js?v=character-pronouns-1';
+import {storyStore} from './store.js?v=character-pronouns-1';
+import {pendingStory} from './pending.js?v=character-pronouns-1';
 
 export function initializeStoryDialogue({host,onAction,onClose,onDismiss,onScene,getCompletionFeedback}={}){
  if(!host)throw Error('Missing story dialogue host.');

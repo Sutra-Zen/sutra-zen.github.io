@@ -16,6 +16,7 @@ def load(name):
 
 
 story = load('storyboard.json')
+reader_edits = load('reader-edits.json')
 manifest = load('assets-manifest.json')
 sources = {row['id']: row for row in load('verified-sources.json')}
 assert len(manifest) == 11
@@ -49,6 +50,15 @@ PANELS = {4: ['tl', 'tl', 'tr', 'bl'] + ['br'] * 6,
           5: ['tl'] * 8,
           6: ['tr', 'tr', 'bl', 'bl'] + ['br'] * 4}
 dimensions = {m['path']: [m['width'], m['height']] for m in manifest}
+
+
+def reader_narration(text):
+    """Apply approved narration edits without altering the handoff or scripture."""
+    for original, replacement in reader_edits['narrationReplacements'].items():
+        text = text.replace(original, replacement)
+    return text
+
+
 pages = []
 scenes = []
 for scene in story['scenes']:
@@ -58,7 +68,7 @@ for scene in story['scenes']:
     for index, subtitle in enumerate(scene['subtitles']):
         entry = {'scene': number, 'subtitle': index + 1,
                  'title': scene['title'], 'timeApprox': subtitle['timeApprox'],
-                 'lines': [subtitle['text']],
+                 'lines': [reader_narration(subtitle['text'])],
                  'image': '../../docs/eightfold-path/' + scene['asset'] if scene['asset'] else None,
                  'dimensions': dimensions.get(scene['asset']),
                  'focusPanel': PANELS.get(number, [None] * len(scene['subtitles']))[index],

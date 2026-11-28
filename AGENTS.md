@@ -20,6 +20,7 @@ Maintain the SutraZen Buddhist learning website and its interactive picture book
 
 ## Design and content rules
 - Traditional Chinese (Taiwan) is the primary UI language. Proofread all Chinese labels carefully.
+- Anthropomorphized characters use「他／他們」in player-facing game and picture-book narration.
 - Preserve the established gentle hand-drawn children's picture-book style and consistent kitten character wherever relevant.
 - Respect the original Buddhist references and distinguish scripture quotations from creative explanatory narration.
 - Preserve the established 16:9 illustration style where applicable.

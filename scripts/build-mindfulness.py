@@ -25,6 +25,14 @@ def caption_parts(text):
 
 def compile_book():
     story = json.loads((DOCS / 'storyboard.json').read_text())
+    edits = json.loads((DOCS / 'reader-edits.json').read_text())
+
+    def reader_narration(text):
+        """Keep approved player copy separate from the original handoff/quotes."""
+        for original, replacement in edits['narrationReplacements'].items():
+            text = text.replace(original, replacement)
+        return text
+
     catalog = json.loads((DOCS / 'scripture-catalog.json').read_text())['quotes']
     manifest = json.loads((DOCS / 'asset-manifest.json').read_text())
     split = json.loads((DOCS / 'SPLIT_MANIFEST.json').read_text())
@@ -39,9 +47,10 @@ def compile_book():
     scenes = []
     for scene in story['scenes']:
         summary = scene['id'] == 'S25'
-        paragraphs = [] if summary else scene['narrationParagraphs']
+        paragraphs = [] if summary else [dict(p, text=reader_narration(p['text']))
+                                          for p in scene['narrationParagraphs']]
         if not summary:
-            assert '\n\n'.join(p['text'] for p in paragraphs) == scene['narration']
+            assert '\n\n'.join(p['text'] for p in paragraphs) == reader_narration(scene['narration'])
         groups = []
         for ref in scene['scriptureRefs']:
             indices = ref['narrationParagraphs']

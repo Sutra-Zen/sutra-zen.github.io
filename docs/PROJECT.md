@@ -1,5 +1,9 @@
 # SutraZen project context
 
+## Character pronouns and station sign alignment (2026-11-28)
+
+Player-facing anthropomorphized characters now consistently use「他／他們」through the game and all fourteen picture books. Twenty-one old-pronoun runtime characters across game dialogue, Eightfold Path, Mindfulness and Six Senses are corrected; the two generated books use narration-only reader-edits while retaining original handoffs/scripture. Pagination, sources, artwork, eligibility and saves remain. Six Senses station pages106–110 center four station names on their painted signs, synchronizing runtime/noscript without changing font size or the previous ear-label fix. Active cache is character-pronouns-1; shared game generation and offline package remain synchronized. Exact focused and release evidence belongs to the PR; physical Safari is untested.
+
 ## Ear-consciousness label position (2026-11-28)
 
 Six Senses teacher/ear illustration pages32–35 move「耳識」from y28% to23%, centered over the white brain rather than the eyes. x16%,4.4cqw font, all other labels/art/prose/scripture/panel focus and115-page progress remain; inline runtime and noscript fallback are synchronized in the single maintained reader HTML. Exact focused visual and Pages/live proof belongs to the release PR; physical Safari is untested.

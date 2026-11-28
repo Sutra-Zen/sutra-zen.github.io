@@ -1,6 +1,6 @@
 // Fictional city inner voices. Separate from scripture and reading completion.
-import {STORY_ACTORS} from '../story/data.js?v=mara-mask-1';
-import {renderSprite} from './modules/scene.js?v=mara-mask-1';
+import {STORY_ACTORS} from '../story/data.js?v=character-pronouns-1';
+import {renderSprite} from './modules/scene.js?v=character-pronouns-1';
 const COPY=Object.freeze({
  label:'城池角色對話',close:'關閉對話',
  lordName:'識・城主',maraName:'波旬',guardianName:'念-守門人',messengersName:'止・觀使者',

@@ -1,5 +1,5 @@
 import {cityStore} from '../city/modules/store.js?v=auto-city-1';
-import {renderSprite} from '../city/modules/scene.js?v=mara-mask-1';
+import {renderSprite} from '../city/modules/scene.js?v=character-pronouns-1';
 import {MODULE_UI as U} from '../city/modules/text.js?v=auto-city-1';
 
 const escape=value=>String(value).replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
