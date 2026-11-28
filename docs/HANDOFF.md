@@ -1,3 +1,9 @@
+# 八正道安睡格補「由戒生定」（2026-11-28）
+
+接續 PR93 main `a0684724b18bc370aaec09f11cb6a0c78a877deb`，作者要求第44頁右下安睡格補「由戒生定」，呼應惡行四格右下「心不定」。在可調整的storyboard.scene6.presentation新增right-action-calm，subtitle5–8／第44–47頁顯示；沿用舊心不定x55/y90/width39、portrait y88及同字級／soft底色，不加到其他格或前四段。原builder直接支援，無須擴reader-edits／renderer／CSS；重新產生book-data.js，單書資料快取precepts-calm-1，疊字布局文件同步。原字幕、原經／出處、圖片、焦點、111頁、既有他稱謂與主線保存保持；來源及runtime僅scene6展示metadata不同。5個focused public／review／寬屏代表驗收通過，精確Pages／live結果以PR交付為準；實機Safari未測，沿既有直接發布授權處理。
+
+---
+
 # 擬人稱謂統一與六處車站置中（2026-11-28）
 
 接續 PR92 main `f9d4788402de8ba2f31af2c52fe339b0220ac7f0`，作者要求遊戲／繪本擬人角色統一用「他／他們」，並在同輪追加六處第106頁站名置中。全現行玩家文字清查，原有用字出現在遊戲疑退場1字、八正道12字、四念處2字（同旁白在scene與page重複）、六處6字（3旁白＋3noscript），合計21個runtime字元；統一後所有十四本及遊戲的現行文字都已符合新稱謂。六處原耳識上移與先前舍利弗／阿難弟子稱謂保留。

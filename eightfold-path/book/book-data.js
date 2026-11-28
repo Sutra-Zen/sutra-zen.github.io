@@ -348,7 +348,7 @@ const BOOK = {
       "presentation": {
         "coordinateBasis": "displayed-image-percent",
         "positionStatus": "preview-layout",
-        "positionNote": "依原圖聚焦拾木、護蟲、安睡；移除左上「八正道：正業」，只在前四筆字幕保留不偷盜／不殺生對照，安睡頁不加疊字。",
+        "positionNote": "依原圖聚焦拾木、護蟲、安睡；前四筆字幕保留不偷盜／不殺生對照，第5–8筆在安睡右下格下緣標「由戒生定」，與惡行圖的「心不定」前後呼應。",
         "reserveLandscapeBands": true,
         "overlays": [
           {
@@ -406,6 +406,34 @@ const BOOK = {
               "maxFontPx": 26
             },
             "focusPanel": "bl"
+          },
+          {
+            "id": "right-action-calm",
+            "lines": [
+              "由戒生定"
+            ],
+            "x": 55,
+            "y": 90,
+            "width": 39,
+            "align": "left",
+            "fontSizeCqw": 2.8,
+            "minFontPx": 12,
+            "maxFontPx": 26,
+            "lineHeight": 1.32,
+            "backdrop": "soft",
+            "nowrap": true,
+            "fromSubtitle": 5,
+            "throughSubtitle": 8,
+            "portrait": {
+              "x": 55,
+              "y": 88,
+              "width": 39,
+              "align": "left",
+              "fontSizeCqw": 2.8,
+              "minFontPx": 12,
+              "maxFontPx": 26
+            },
+            "focusPanel": "br"
           }
         ]
       }
