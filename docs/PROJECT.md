@@ -1,5 +1,9 @@
 # SutraZen project context
 
+## Single Eightfold Path summary page (2026-11-28)
+
+The author-requested original pages109/110 now form one summary page: no duplicated upper gatha, one original six-row table, and all eight original SA771 clauses below. Reader edits/generator preserve the original manuscript and eleven artwork hashes; total110 includes the unchanged afterword. Legacy native/game/URL/backup bookmarks migrate once through revision2 metadata, preserving historical completions and explicit legal finish. Coherent summary-merge-1 module imports prevent mixed store/catalog instances; stale111-page data cannot save or finish. A reproduced existing rejected-session-delete storage-event edge now writes the current fallback tombstone after an external reset. See [implementation and compatibility](readers/eightfold-summary/README.md). Focused UI/save and exact Pages/live evidence belongs to the PR; physical Safari is untested.
+
 ## Precepts-to-calm artwork label (2026-11-28)
 
 Eightfold Path scene6 right-bottom sleeping panel now displays「由戒生定」on subtitles5–8/pages44–47, matching the prior「心不定」label style and position. Only editable presentation metadata and its layout documentation change; the existing builder/renderer handles it, with one-book data cache precepts-calm-1. Original narration/scripture/art,111-page structure, panel focus, human pronouns and progress/eligibility remain. Focused public/review/phone/wide evidence and exact Pages/live release proof belong to the PR; physical Safari is untested.

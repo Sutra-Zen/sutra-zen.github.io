@@ -80,6 +80,20 @@ for scene in story['scenes']:
                              verseLabel=record['title'] + '（節錄）', source='../#' + source_id)
         pages.append(entry)
 assert len(pages) == 110
+# Keep the two original transcript paragraphs, but present their repeated
+# summary table and complete closing verse together on one reader page.
+merge = reader_edits.get('summaryPageMerge')
+if merge:
+    matching = [i for i, page in enumerate(pages) if page['scene'] == merge['scene']]
+    assert matching == list(range(matching[0], len(pages)))
+    originals = [pages[i] for i in matching]
+    assert [page['subtitle'] for page in originals] == merge['subtitles']
+    assert all(page['verse'] == sources['sa771']['displayExcerpt'] for page in originals)
+    merged = dict(originals[0])
+    merged['timeApprox'] = next(s['timeApprox'] for s in story['scenes'] if s['scene'] == merge['scene'])
+    if merge['clearNarration']:
+        merged['lines'] = []
+    pages[matching[0]:matching[-1] + 1] = [merged]
 assert next(p for p in pages if p['scene'] == 8 and p['subtitle'] == 9)['lines'] == [
     '只有行囊是輕盈且乾淨的，我們才能在前往彼岸的風浪中，保持平衡，不會沉沒。']
 # Editorial afterword is separate from the original 13 scenes and 110 subtitles.

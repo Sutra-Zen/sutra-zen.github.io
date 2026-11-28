@@ -3,7 +3,7 @@ const query = new URLSearchParams(location.search);
 const journeyMode = query.get('journey');
 if ((journeyMode === 'ordered' || journeyMode === 'free') && query.get('collection') !== '1') {
   initializeJourney().catch(async () => {
-    const { readerLabels } = await import('./reader-labels.js');
+    const { readerLabels } = await import('./reader-labels.js?v=summary-merge-1');
     const warning = document.createElement('p');
     warning.className = 'play-reader-warning';
     warning.setAttribute('role', 'status');
@@ -14,7 +14,7 @@ if ((journeyMode === 'ordered' || journeyMode === 'free') && query.get('collecti
 
 async function initializeJourney() {
   const [{ store }, { readerLabels }] = await Promise.all([
-    import('./progress.js'), import('./reader-labels.js'),
+    import('./progress.js?v=summary-merge-1'), import('./reader-labels.js?v=summary-merge-1'),
   ]);
   const labels = readerLabels['zh-Hant'];
   const pathParts = location.pathname.split('/').filter(Boolean);

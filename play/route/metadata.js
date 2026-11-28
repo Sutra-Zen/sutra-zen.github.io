@@ -1,4 +1,4 @@
-import { routeOrder, rewardDefinitions, combinationScenes } from './data.js';
+import { routeOrder, rewardDefinitions, combinationScenes } from './data.js?v=summary-merge-1';
 
 // Optional presentation-only metadata. Completion lives exclusively in the
 // existing collection store; no completed IDs or reader positions are copied here.

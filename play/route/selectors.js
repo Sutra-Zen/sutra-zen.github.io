@@ -1,13 +1,13 @@
-import { CATALOG } from '../collection/catalog.js';
-import { getGameBookAccess, isFinalGameBookRevealed } from './eligibility.js';
+import { CATALOG } from '../collection/catalog.js?v=summary-merge-1';
+import { getGameBookAccess, isFinalGameBookRevealed } from './eligibility.js?v=summary-merge-1';
 import {
   routeOrder, FINAL_BOOK_ID, FIRST_THIRTEEN, rewardDefinitions,
   combinationScenes, facultiesSources, landmarkBooks, endingDefinition,
-} from './data.js';
-export { routeOrder, FINAL_BOOK_ID, FIRST_THIRTEEN } from './data.js';
+} from './data.js?v=summary-merge-1';
+export { routeOrder, FINAL_BOOK_ID, FIRST_THIRTEEN } from './data.js?v=summary-merge-1';
 const catalog = new Map(CATALOG.map(book => [book.id, book]));
 export const routeBooks = Object.freeze(routeOrder.map((id, index) => Object.freeze({ ...catalog.get(id), order: index + 1 })));
-export { rewardDefinitions, combinationScenes, canonicalCorrespondences, endingDefinition, landmarkBooks } from './data.js';
+export { rewardDefinitions, combinationScenes, canonicalCorrespondences, endingDefinition, landmarkBooks } from './data.js?v=summary-merge-1';
 const array = value => value instanceof Set ? [...value] : Array.isArray(value) ? value : [];
 const doneSet = completed => new Set(array(completed).filter(id => routeOrder.includes(id)));
 const hasEvery = (set, ids) => ids.every(id => set.has(id));

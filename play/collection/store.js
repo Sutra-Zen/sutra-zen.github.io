@@ -1,5 +1,6 @@
-import { CATALOG_IDS, CATALOG } from './catalog.js';
-import { canReadGameBook, canReviewGameBook, canCompleteGameBook, currentGameBookId } from '../route/eligibility.js';
+import { CATALOG_IDS, CATALOG } from './catalog.js?v=summary-merge-1';
+import { canReadGameBook, canReviewGameBook, canCompleteGameBook, currentGameBookId } from '../route/eligibility.js?v=summary-merge-1';
+import {CURRENT_POSITIONS_REVISION,validateCollectionState} from './migrations.js?v=summary-merge-1';
 
 // Collection achievement never controls access to the public readers.
 export const STORAGE_KEY = 'sutrazen.play.collection.v1';
@@ -7,22 +8,12 @@ export const STORAGE_KEY = 'sutrazen.play.collection.v1';
 export const SESSION_FALLBACK_KEY = 'sutrazen.play.collection.session.v1';
 const known = id => CATALOG_IDS.includes(id);
 const stepCounts = new Map(CATALOG.map(book => [book.id, book.totalSteps]));
-const fresh = () => ({ version: 1, positions: {}, completed: [], activeBook: CATALOG_IDS[0] });
+const fresh = () => ({ version: 1, positionsRevision: CURRENT_POSITIONS_REVISION, positions: {}, completed: [], activeBook: CATALOG_IDS[0] });
 const clone = value => JSON.parse(JSON.stringify(value));
 let issue = null;
-function validate(raw) {
-  if (!raw || raw.version !== 1 || !known(raw.activeBook) || !Array.isArray(raw.completed) ||
-      raw.completed.some(id => !known(id)) || !raw.positions ||
-      typeof raw.positions !== 'object' || Array.isArray(raw.positions)) throw new Error('schema');
-  const result = fresh();
-  for (const [id, index] of Object.entries(raw.positions)) {
-    if (!known(id) || !Number.isInteger(index) || index < 0 || index > 10000) throw new Error('position');
-    result.positions[id] = index;
-  }
-  result.completed = [...new Set(raw.completed)];
-  result.activeBook = raw.activeBook;
-  return result;
-}
+// Validation is pure: local/session/backup input all cross the same pagination
+// boundary. Recovery baseRaw remains the exact canonical bytes until a save.
+const validate = validateCollectionState;
 let state, lastLocalRaw = null;
 function readRecovery() {
   try {
@@ -33,7 +24,10 @@ function readRecovery() {
     return { baseRaw: record.baseRaw, state: validate(record.state) };
   } catch { return null; }
 }
-function clearRecovery() { try { sessionStorage.removeItem(SESSION_FALLBACK_KEY); } catch {} }
+function clearRecovery() {
+  try { sessionStorage.removeItem(SESSION_FALLBACK_KEY); return true; }
+  catch { return false; }
+}
 function saveRecovery() {
   try { sessionStorage.setItem(SESSION_FALLBACK_KEY, JSON.stringify({version:1,baseRaw:lastLocalRaw,state})); }
   catch {} // With both storage mechanisms blocked, this document remains usable.
@@ -103,7 +97,12 @@ export const store = {
 };
 window.addEventListener('storage', event => {
   if (event.key !== STORAGE_KEY) return;
-  try { state = event.newValue ? validate(JSON.parse(event.newValue)) : fresh(); lastLocalRaw = event.newValue; clearRecovery(); issue = null; }
+  try {
+    state = event.newValue ? validate(JSON.parse(event.newValue)) : fresh(); lastLocalRaw = event.newValue; issue = null;
+    // An external reset must not revive a stale fallback with the same null
+    // base on reload when removing session storage alone is denied.
+    if (!clearRecovery()) { issue = 'unavailable'; saveRecovery(); }
+  }
   catch { issue = 'corrupt'; }
   announce();
 });

@@ -1,4 +1,4 @@
-import { BOOKS, BOOK_IDS } from './books.js';
+import { BOOKS, BOOK_IDS } from './books.js?v=summary-merge-1';
 export { BOOKS };
 export const STORAGE_KEY = 'sutrazen.play.v1';
 const fresh = () => ({ version: 1, replayBook: null, positions: {}, freePositions: {}, completed: [], activeBook: BOOK_IDS[0], orderedBook: BOOK_IDS[0], mode: 'ordered', settings: { locale: 'zh-Hant', reducedMotion: false } });

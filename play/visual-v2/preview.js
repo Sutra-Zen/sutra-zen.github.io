@@ -1,8 +1,8 @@
 // Read-only historical artwork gallery. All imports are data/rendering only.
 // No player store, metadata, shell, reader bridge or completion event is imported.
-import {networkMarkup,nodePanel,point} from './network.js';
-import {MAP_STYLES} from './art-directions.js';
-import {INSTANCES} from './network-data.js';
+import {networkMarkup,nodePanel,point} from './network.js?v=summary-merge-1';
+import {MAP_STYLES} from './art-directions.js?v=summary-merge-1';
+import {INSTANCES} from './network-data.js?v=summary-merge-1';
 const host=document.querySelector('#scene-host'),controls=document.querySelector('#scene-controls'),footer=document.querySelector('#scene-footer'),dialog=document.querySelector('#inspect-dialog'),content=document.querySelector('#inspect-content');
 const params=new URLSearchParams(location.search),inspectionURL=new URL('../city/inspection.html',import.meta.url).href;
 const text={network:'歷史互通海圖・畫風比較',map:'早期群島構圖',networkCopy:'比較三種畫風與原心智圖關係；這裡不讀取、寫入或清除遊戲存檔。歷史航線不是目前的遊戲解鎖順序。',mapCopy:'保留早期水彩構圖供檢視，不模擬閱讀完成，也不提供遊戲關卡入口。',inspectCity:'城池構圖檢視（唯讀）',siteShelf:'原網站書架（離開檢視）',leaveGame:'前往遊戲（離開檢視）'};
