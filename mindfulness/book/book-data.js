@@ -520,7 +520,7 @@ const BOOK = {
         {
           "text": "觀身不淨",
           "x": 54,
-          "y": 13,
+          "y": 6,
           "width": 30,
           "color": "black",
           "fontSizeCqw": 5,

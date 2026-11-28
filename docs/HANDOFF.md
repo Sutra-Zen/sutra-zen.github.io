@@ -1,3 +1,9 @@
+# 四念處「觀身不淨」上移（2026-11-28）
+
+接續PR95 main `d8220d75900989ecf5625da4eb8c1ab11fb95a50`，作者回報第31頁「觀身不淨」遮住原圖「氣流（風）」。S10同圖第31–38頁的標字y由13%上移至6%，原x54／width30／字級5cqw、顏色與左排不變，正常圖框與放大圖共用位置。原README／storyboard受91檔SPLIT_MANIFEST保護，故在現行reader-edits記錄單標字位置覆寫，由原builder套用，原件與hash不改；layout-audit記現行座標，僅單書data cache改body-label-1。runtime只S10此y不同，111pages、原稿／經文／原圖、他稱謂、renderer／CSS／共享布局、進度與先前八正道110頁合併保持。原產生器與hash檢查通過；手機直橫／寬屏及game-review focused驗收、exact-SHA Pages／live結果以PR交付為準。沿既有直接發布授權交付，實機Safari未測。
+
+---
+
 # 八正道總結109／110合併（2026-11-28）
 
 接續已發布PR94 main `7eb0dcb4a000f144c3ba80f79482c861c017f677`，原109／110兩頁上方各四句偈頌移除，保留一份原總結表及下方完整771經八句，合成109；原111後記移至110。reader-edits新增展示合併、builder先驗原110段再合併，原handoff／storyboard／經文／圖不改，原前108頁及原後記逐物件保持；renderer空口白隱藏caption。已核可由戒生定／他稱謂／共用布局及其他十三本保留。

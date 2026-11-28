@@ -1,5 +1,9 @@
 # SutraZen project context
 
+## Body contemplation label clearance (2026-11-28)
+
+Mindfulness S10/pages31–38 moves「觀身不淨」from image y13% to6%, clearing the painted「氣流（風）」label while keeping x54%, width30% and5cqw type. Current reader-edits and the original builder apply this presentation-only position override; all91 original handoff hashes,111 pages, scripture/art and prior corrections remain. Normal and enlarged art share the same position. Data cache is body-label-1; renderer/shared layout/progress stay unchanged. Focused and exact Pages/live evidence belongs to the PR; physical Safari is untested.
+
 ## Single Eightfold Path summary page (2026-11-28)
 
 The author-requested original pages109/110 now form one summary page: no duplicated upper gatha, one original six-row table, and all eight original SA771 clauses below. Reader edits/generator preserve the original manuscript and eleven artwork hashes; total110 includes the unchanged afterword. Legacy native/game/URL/backup bookmarks migrate once through revision2 metadata, preserving historical completions and explicit legal finish. Coherent summary-merge-1 module imports prevent mixed store/catalog instances; stale111-page data cannot save or finish. A reproduced existing rejected-session-delete storage-event edge now writes the current fallback tombstone after an external reset. See [implementation and compatibility](readers/eightfold-summary/README.md). Focused UI/save and exact Pages/live evidence belongs to the PR; physical Safari is untested.
