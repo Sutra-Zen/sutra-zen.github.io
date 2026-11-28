@@ -69,10 +69,17 @@ def compile_book():
             group['mappings'].append({'paragraphs': indices, 'focus': ref['focus']})
             group['afterParagraph'] = max(group['afterParagraph'], max(indices))
         asset = assets[scene['asset']]
+        art_overlays = [dict(overlay) for overlay in scene['artOverlay']]
+        for text, position in edits.get('artOverlayPositions', {}).get(scene['id'], {}).items():
+            matching = [overlay for overlay in art_overlays if overlay['text'] == text]
+            assert len(matching) == 1, (scene['id'], text)
+            assert set(position) <= {'x', 'y'}
+            assert all(isinstance(value, (int, float)) and 0 <= value <= 100 for value in position.values())
+            matching[0].update(position)
         scenes.append({'id': scene['id'], 'title': scene['title'], 'image': scene['asset'],
                        'dimensions': [asset['width'], asset['height']], 'alt': scene['visual'],
                        'paragraphs': paragraphs, 'quotes': groups,
-                       'artOverlay': scene['artOverlay'], 'bakedText': scene['bakedText'],
+                       'artOverlay': art_overlays, 'bakedText': scene['bakedText'],
                        'summaryRows': scene.get('summaryRows', []),
                        'scrimOpacity': scene.get('scrimOpacity', 0), 'reference': scene['reference']})
     assert 'BD74B990' in scenes[2]['image']
