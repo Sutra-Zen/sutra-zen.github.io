@@ -1,5 +1,9 @@
 # SutraZen project context
 
+## Precepts-to-calm artwork label (2026-11-28)
+
+Eightfold Path scene6 right-bottom sleeping panel now displays「由戒生定」on subtitles5–8/pages44–47, matching the prior「心不定」label style and position. Only editable presentation metadata and its layout documentation change; the existing builder/renderer handles it, with one-book data cache precepts-calm-1. Original narration/scripture/art,111-page structure, panel focus, human pronouns and progress/eligibility remain. Focused public/review/phone/wide evidence and exact Pages/live release proof belong to the PR; physical Safari is untested.
+
 ## Character pronouns and station sign alignment (2026-11-28)
 
 Player-facing anthropomorphized characters now consistently use「他／他們」through the game and all fourteen picture books. Twenty-one old-pronoun runtime characters across game dialogue, Eightfold Path, Mindfulness and Six Senses are corrected; the two generated books use narration-only reader-edits while retaining original handoffs/scripture. Pagination, sources, artwork, eligibility and saves remain. Six Senses station pages106–110 center four station names on their painted signs, synchronizing runtime/noscript without changing font size or the previous ear-label fix. Active cache is character-pronouns-1; shared game generation and offline package remain synchronized. Exact focused and release evidence belongs to the PR; physical Safari is untested.
