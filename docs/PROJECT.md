@@ -1,5 +1,9 @@
 # SutraZen project context
 
+## Mindfulness three-panel reading focus (2026-11-28)
+
+Mindfulness S12/pages44–49 now dims the two inactive comic panels with the existing76% shared focus treatment. Original paragraphs map left／middle／middle／right, preserving split captions; local CSS polygons follow the painted vines in both normal and enlarged art. One book-local panel-focus-data.js and the existing helper integration preserve the111-page data, original91-file handoff, prior y6 label fix, shared helper and other books/progress. Book renderer/CSS/focus data use three-panel-1. Focused and exact Pages/live evidence belongs to the PR; physical Safari is untested.
+
 ## Body contemplation label clearance (2026-11-28)
 
 Mindfulness S10/pages31–38 moves「觀身不淨」from image y13% to6%, clearing the painted「氣流（風）」label while keeping x54%, width30% and5cqw type. Current reader-edits and the original builder apply this presentation-only position override; all91 original handoff hashes,111 pages, scripture/art and prior corrections remain. Normal and enlarged art share the same position. Data cache is body-label-1; renderer/shared layout/progress stay unchanged. Focused and exact Pages/live evidence belongs to the PR; physical Safari is untested.
