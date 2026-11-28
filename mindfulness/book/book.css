@@ -264,6 +264,24 @@ button, select { font: inherit; }
 .picture-panel-focus > [data-panel="s12-right"] {
  clip-path:polygon(64% 0,100% 0,100% 100%,62.4% 100%,64.8% 90%,65% 80%,64.5% 70%,62.5% 60%,62.9% 50%,62.8% 40%,63.2% 30%,63.8% 20%,63.6% 10%);
 }
+/* S11's first four / last two apple frames share their existing blank gutters. */
+.picture-panel-focus > [data-panel="s11-first-four"] {
+ clip-path:polygon(0 0,100% 0,100% 50.5%,33.7% 50.5%,33.7% 100%,0 100%);
+}
+.picture-panel-focus > [data-panel="s11-last-two"] {
+ clip-path:polygon(33.7% 50.5%,100% 50.5%,100% 100%,33.7% 100%);
+}
+/* S15 compares each column's two cells together. Keep the guide kitten and
+   book title clear; shared sloping edges follow the original open book. */
+.picture-panel-focus > [data-panel="s15-body-mind"] {
+ clip-path:polygon(36.9% 15.6%,54.9% 15.8%,50.4% 88%,31.6% 85%);
+}
+.picture-panel-focus > [data-panel="s15-food-without-food"] {
+ clip-path:polygon(54.9% 15.8%,73.2% 16.4%,69.3% 91%,50.4% 88%);
+}
+.picture-panel-focus > [data-panel="s15-desire-without-desire"] {
+ clip-path:polygon(73.2% 16.4%,91% 17%,89.4% 94%,69.3% 91%);
+}
 @media(orientation:landscape) {
  .summary-scene .scene { overflow-y:auto; padding:54px 0 56px; }
  .summary-scene #image-stage { position:relative; inset:auto; }

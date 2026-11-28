@@ -13,5 +13,44 @@
     "approvedDate": "2026-11-21",
     "reason": "作者提供正確文字版本，替換第1幕原AI錯字。原PNG逐位元組保留，不重新生成或轉檔。",
     "replaces": "assets/IMG_0393.jpeg"
+  },
+  {
+    "path": "assets/approved-replacements/2026-11-28-monk-limbs/274BF7CF-9EEF-438B-BA22-767002BDA676.PNG",
+    "originalFilename": "274BF7CF-9EEF-438B-BA22-767002BDA676.PNG",
+    "role": "illustration",
+    "sceneId": "S06",
+    "sceneIds": [
+      "S06"
+    ],
+    "width": 1679,
+    "height": 937,
+    "bytes": 3002552,
+    "sha256": "0b66a4400bd5c2f53d09b1df6bf7754471d7c3b74552daecf274a4755d2467d3",
+    "sourceArchive": "assets/approved-replacements/2026-11-28-monk-limbs/source/封存.zip",
+    "sourceArchiveSha256": "4c6f21760b0cc5cbcac411197d05a2d86baafb1a9efe319ec0934a82e20505b1",
+    "approvedDate": "2026-11-28",
+    "reason": "作者提供鹿、象僧人肢體修正原PNG；逐位元組匯入，未重繪、裁切、調色或轉檔。",
+    "replaces": "assets/IMG_0400.jpeg",
+    "bakedText": "無文字；保留既有HTML「僧不壞淨」主題疊字。"
+  },
+  {
+    "path": "assets/approved-replacements/2026-11-28-monk-limbs/315A7E03-BF5A-4E7F-959B-E5EC0A6DD298.PNG",
+    "originalFilename": "315A7E03-BF5A-4E7F-959B-E5EC0A6DD298.PNG",
+    "role": "illustration",
+    "sceneId": "S08",
+    "sceneIds": [
+      "S08",
+      "END"
+    ],
+    "width": 1678,
+    "height": 937,
+    "bytes": 2811524,
+    "sha256": "786da482f789873fd8e4b66be9a0276c19e1da84f4eef589c170634fbdb4a838",
+    "sourceArchive": "assets/approved-replacements/2026-11-28-monk-limbs/source/封存.zip",
+    "sourceArchiveSha256": "4c6f21760b0cc5cbcac411197d05a2d86baafb1a9efe319ec0934a82e20505b1",
+    "approvedDate": "2026-11-28",
+    "reason": "作者提供鹿、象僧人肢體修正原PNG；逐位元組匯入，未重繪、裁切、調色或轉檔。",
+    "replaces": "assets/IMG_0402.jpeg",
+    "bakedText": "圖內已有念佛、念法、念僧、念戒、念施、念天六張木牌；不新增重複標籤，保留既有HTML「六念」主題及END收尾疊字。"
   }
 ]

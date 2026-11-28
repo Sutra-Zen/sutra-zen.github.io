@@ -1,5 +1,9 @@
 # SutraZen project context
 
+## Comic review and author-supplied monk artwork (2026-11-28)
+
+Mindfulness pages87–88 now show only the scripture name and text, matching86; the carry-over provenance stays in editorial metadata and the original narration remains. The complete25-scene artwork review adds reading focus to the other comics when existing captions identify a panel/group; overview and same-page multi-panel explanations stay fully visible. Original111-page data,91 handoff hashes and the approved S10/S12 fixes remain. Two author-supplied PNGs replace Purities S06/pages56–69 and S08/END/pages83–94 through the existing assignment/replacement manifest; all95 pages retain their text and sources. Original art/archives remain, new PNG and ZIP bytes are recorded in [provenance](four-purities-six-recollections/assets/approved-replacements/2026-11-28-monk-limbs/README.md). Active book cache comic-review-1; shared layout/helper, other books and progress remain. Exact focused and Pages/live evidence belongs to the PR; physical Safari is untested.
+
 ## Mindfulness three-panel reading focus (2026-11-28)
 
 Mindfulness S12/pages44–49 now dims the two inactive comic panels with the existing76% shared focus treatment. Original paragraphs map left／middle／middle／right, preserving split captions; local CSS polygons follow the painted vines in both normal and enlarged art. One book-local panel-focus-data.js and the existing helper integration preserve the111-page data, original91-file handoff, prior y6 label fix, shared helper and other books/progress. Book renderer/CSS/focus data use three-panel-1. Focused and exact Pages/live evidence belongs to the PR; physical Safari is untested.

@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-28",
+  "providedBy": "author",
+  "sourceArchive": {
+    "path": "source/封存.zip",
+    "bytes": 5700002,
+    "sha256": "4c6f21760b0cc5cbcac411197d05a2d86baafb1a9efe319ec0934a82e20505b1",
+    "crcCheck": "passed",
+    "members": 4,
+    "importedPNGs": 2,
+    "ignoredMetadata": [
+      "__MACOSX/._274BF7CF-9EEF-438B-BA22-767002BDA676.PNG",
+      "__MACOSX/._315A7E03-BF5A-4E7F-959B-E5EC0A6DD298.PNG"
+    ]
+  },
+  "preservation": {
+    "originalArchiveCopiedByteForByte": true,
+    "pngsCopiedByteForByteFromZipMembers": true,
+    "pixelEditing": false,
+    "originalAssetsAndHandoffUnmodified": true
+  },
+  "replacements": [
+    {
+      "path": "assets/approved-replacements/2026-11-28-monk-limbs/274BF7CF-9EEF-438B-BA22-767002BDA676.PNG",
+      "originalFilename": "274BF7CF-9EEF-438B-BA22-767002BDA676.PNG",
+      "role": "illustration",
+      "sceneId": "S06",
+      "sceneIds": [
+        "S06"
+      ],
+      "width": 1679,
+      "height": 937,
+      "bytes": 3002552,
+      "sha256": "0b66a4400bd5c2f53d09b1df6bf7754471d7c3b74552daecf274a4755d2467d3",
+      "sourceArchive": "assets/approved-replacements/2026-11-28-monk-limbs/source/封存.zip",
+      "sourceArchiveSha256": "4c6f21760b0cc5cbcac411197d05a2d86baafb1a9efe319ec0934a82e20505b1",
+      "approvedDate": "2026-11-28",
+      "reason": "作者提供鹿、象僧人肢體修正原PNG；逐位元組匯入，未重繪、裁切、調色或轉檔。",
+      "replaces": "assets/IMG_0400.jpeg",
+      "bakedText": "無文字；保留既有HTML「僧不壞淨」主題疊字。",
+      "displayPagesInclusive": [
+        56,
+        69
+      ],
+      "preservedOriginal": {
+        "path": "assets/IMG_0400.jpeg",
+        "width": 1376,
+        "height": 768,
+        "bytes": 492863,
+        "sha256": "a232af6b09a6521a798cc4b89078719edf23116dee5e1eb40a8ebbf47edc27eb"
+      },
+      "byteIdenticalToZipMember": true
+    },
+    {
+      "path": "assets/approved-replacements/2026-11-28-monk-limbs/315A7E03-BF5A-4E7F-959B-E5EC0A6DD298.PNG",
+      "originalFilename": "315A7E03-BF5A-4E7F-959B-E5EC0A6DD298.PNG",
+      "role": "illustration",
+      "sceneId": "S08",
+      "sceneIds": [
+        "S08",
+        "END"
+      ],
+      "width": 1678,
+      "height": 937,
+      "bytes": 2811524,
+      "sha256": "786da482f789873fd8e4b66be9a0276c19e1da84f4eef589c170634fbdb4a838",
+      "sourceArchive": "assets/approved-replacements/2026-11-28-monk-limbs/source/封存.zip",
+      "sourceArchiveSha256": "4c6f21760b0cc5cbcac411197d05a2d86baafb1a9efe319ec0934a82e20505b1",
+      "approvedDate": "2026-11-28",
+      "reason": "作者提供鹿、象僧人肢體修正原PNG；逐位元組匯入，未重繪、裁切、調色或轉檔。",
+      "replaces": "assets/IMG_0402.jpeg",
+      "bakedText": "圖內已有念佛、念法、念僧、念戒、念施、念天六張木牌；不新增重複標籤，保留既有HTML「六念」主題及END收尾疊字。",
+      "displayPagesInclusive": [
+        83,
+        94
+      ],
+      "preservedOriginal": {
+        "path": "assets/IMG_0402.jpeg",
+        "width": 1375,
+        "height": 768,
+        "bytes": 439320,
+        "sha256": "60ab061ea10b0b9219d25d2e4700ff25e1a43cfe67a62c7f99c819588c87222a"
+      },
+      "byteIdenticalToZipMember": true
+    }
+  ],
+  "implementation": "Existing replacement-assets.json + image-assignments.json, consumed and hash-checked by scripts/build-four-purities-six-recollections.py. Only generated active image paths/dimensions change; page count, scene boundaries, narration, scriptures and overlays remain."
+}
