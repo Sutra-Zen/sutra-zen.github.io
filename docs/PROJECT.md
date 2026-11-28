@@ -1,5 +1,9 @@
 # SutraZen project context
 
+## Ear-consciousness label position (2026-11-28)
+
+Six Senses teacher/ear illustration pages32–35 move「耳識」from y28% to23%, centered over the white brain rather than the eyes. x16%,4.4cqw font, all other labels/art/prose/scripture/panel focus and115-page progress remain; inline runtime and noscript fallback are synchronized in the single maintained reader HTML. Exact focused visual and Pages/live proof belongs to the release PR; physical Safari is untested.
+
 ## Disciple speaker clarification (2026-11-27)
 
 Four Truths page1 now introduces「佛陀的弟子舍利弗」and Anapana page76/S08-P05「佛陀的弟子阿難」, as requested. Four Truths static fallback and Anapana reader-edits/generator remain synchronized; only the two data-script queries change to disciple-names-1. Native pagination remains29/119, with all scripture, art, other prose, shared layout and progress policy preserved. Exact release and focused validation belong to the release PR; physical Safari is untested.
