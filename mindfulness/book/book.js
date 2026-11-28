@@ -52,6 +52,10 @@ function showPage(index) {
     $('#art-frame').style.setProperty('--art-ratio-number', String(item.dimensions[0] / item.dimensions[1]));
   }
   overlays($('#art-overlays'), plan);
+  const focus = PANEL_FOCUS.scenes[item.scene];
+  SutraZenPanelFocus.update($('#art-frame'), $('#art'), focus, item.paragraphNumber);
+  const activePanel = focus?.panels.find(panel => panel.id === focus.pages[item.paragraphNumber - 1]);
+  if (activePanel) $('#art').alt += '，目前閱讀：' + activePanel.label;
   $('#summary-overlay').replaceChildren(...(plan?.summaryRows || []).map((text, i) => {
     const row = paragraph(text); row.className = 'summary-row'; row.style.top = (25 + 12 * i) + '%'; return row;
   }));
@@ -122,6 +126,7 @@ function enlargeImage() {
   $('#zoom-art').src = item.image; $('#zoom-art').alt = $('#art').alt;
   overlays($('#zoom-overlays'), BOOK.scenes.find(s => s.id === item.scene));
   $('#image-dialog').showModal(); $('.image-scroll').scrollTo(0, 0);
+  SutraZenPanelFocus.update($('#zoom-frame'), $('#zoom-art'), PANEL_FOCUS.scenes[item.scene], item.paragraphNumber);
 }
 $('#art').onclick = enlargeImage;
 $('#art').onkeydown = event => {

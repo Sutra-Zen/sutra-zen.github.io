@@ -1,3 +1,9 @@
+# 四念處三格漫畫遮黑（2026-11-28）
+
+接續PR96 main `996e98ff26a6872e496baaaf5f2579978d0370a0`，作者要求S12三格漫畫加遮黑。第44–45頁亮左格、第46–47頁亮中格、第48–49頁亮右格；依原paragraphNumber的1／2／3／4映射left／middle／middle／right，避免字幕拆頁改錯焦點，未提前把第47頁「觀受是苦」跳右格。新增本書panel-focus-data.js、renderer一般／放大接既有picture-panel-focus helper；局部CSS三個polygon依原藤蔓曲邊共用邊界，其餘兩格沿用76%暗色。非S12正常／放大均清除遮罩，原圖不裁切。只本書CSS／renderer／focus data cache改three-panel-1，data仍body-label-1、全部111page與原稿／經文／原圖、91hash、S10 y6／他稱謂、shared helper／layout及其餘13書／保存資格保持。focused手機直橫與寬屏／review／zoom、exact-SHA Pages／live結果以PR交付為準；沿既有直接發佈授權交付，實機Safari未測。
+
+---
+
 # 四念處「觀身不淨」上移（2026-11-28）
 
 接續PR95 main `d8220d75900989ecf5625da4eb8c1ab11fb95a50`，作者回報第31頁「觀身不淨」遮住原圖「氣流（風）」。S10同圖第31–38頁的標字y由13%上移至6%，原x54／width30／字級5cqw、顏色與左排不變，正常圖框與放大圖共用位置。原README／storyboard受91檔SPLIT_MANIFEST保護，故在現行reader-edits記錄單標字位置覆寫，由原builder套用，原件與hash不改；layout-audit記現行座標，僅單書data cache改body-label-1。runtime只S10此y不同，111pages、原稿／經文／原圖、他稱謂、renderer／CSS／共享布局、進度與先前八正道110頁合併保持。原產生器與hash檢查通過；手機直橫／寬屏及game-review focused驗收、exact-SHA Pages／live結果以PR交付為準。沿既有直接發布授權交付，實機Safari未測。
