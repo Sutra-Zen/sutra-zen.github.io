@@ -1,7 +1,7 @@
 // Deliberately independent of player store, metadata, shell and reader bridge.
 // This route may inspect artwork; it has no reading or completion operation.
-import {CITY_SPOTS} from '../visual-v2/data.js';
-import {T} from './text.js';
+import {CITY_SPOTS} from '../visual-v2/data.js?v=summary-merge-1';
+import {T} from './text.js?v=summary-merge-1';
 const asset=path=>new URL(`../visual-v2/assets/${path}`,import.meta.url).href;
 const positions={town:[8,8],eye:[50,7],ear:[88,24],nose:[87,69],tongue:[48,88],body:[13,69],mind:[12,24],guardian:[31,74],messengers:[78,58],plaza:[39,46],lord:[60,32],message:[64.6918,60],road:[65,94],dock:[14,94]};
 const titles={guardian:'念-守門人',plaza:'地水火風四大廣場',messengers:'止・觀使者',message:'如實消息・涅槃'};

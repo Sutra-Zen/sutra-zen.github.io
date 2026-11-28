@@ -1,7 +1,7 @@
-import { createMapCamera } from '../../worldmap-v4/camera.js';
-import { MODULES, BASE_PLINTH } from './catalog.js?v=auto-city-1';
-import { MODULE_UI as T } from './text.js?v=auto-city-1';
-import { CITY_MODULE_ART } from './art.js?v=character-pronouns-1';
+import { createMapCamera } from '../../worldmap-v4/camera.js?v=summary-merge-1';
+import { MODULES, BASE_PLINTH } from './catalog.js?v=summary-merge-1';
+import { MODULE_UI as T } from './text.js?v=summary-merge-1';
+import { CITY_MODULE_ART } from './art.js?v=summary-merge-1';
 
 const WORLD = { width: 1600, height: 900 };
 const escape = value => String(value ?? '').replace(/[&<>"']/g, character =>

@@ -1,4 +1,4 @@
-import { CITY_TEXT as T, CITY_MAPPING } from './source-data.js';
+import { CITY_TEXT as T, CITY_MAPPING } from './source-data.js?v=summary-merge-1';
 let serial = 0;
 const points = [[500,176],[740,292],[740,505],[500,620],[260,505],[260,292]];
 function gate([x,y],i) {

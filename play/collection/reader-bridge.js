@@ -7,7 +7,7 @@ if (collectionParams.get('collection') === '1' && collectionParams.has('journey'
   location.replace(clean.href);
 } else if (collectionParams.get('collection') === '1') {
   initializeCollection().catch(async () => {
-    const { COLLECTION_TEXT: text } = await import('./catalog.js?v=stable-art-1');
+    const { COLLECTION_TEXT: text } = await import('./catalog.js?v=summary-merge-1');
     const notice = document.createElement('p');
     notice.textContent = text.integrationUnavailable;
     notice.setAttribute('role', 'status');
@@ -16,14 +16,15 @@ if (collectionParams.get('collection') === '1' && collectionParams.has('journey'
 }
 
 async function initializeCollection() {
-  const [{ store }, { CATALOG, COLLECTION_TEXT: text }, policy, {issueFirstCompletionReceipt}] = await Promise.all([
-    import('./store.js'), import('./catalog.js?v=stable-art-1'), import('../route/eligibility.js'), import('../story/completion-receipt.js?v=doubt-1').catch(() => ({issueFirstCompletionReceipt: () => false})),
+  const [{ store }, { CATALOG, COLLECTION_TEXT: text }, policy, {issueFirstCompletionReceipt}, pagination] = await Promise.all([
+    import('./store.js?v=summary-merge-1'), import('./catalog.js?v=summary-merge-1'), import('../route/eligibility.js?v=summary-merge-1'), import('../story/completion-receipt.js?v=summary-merge-1').catch(() => ({issueFirstCompletionReceipt: () => false})), import('./migrations.js?v=summary-merge-1'),
   ]);
   const parts = location.pathname.split('/').filter(Boolean);
   const bookId = parts[parts.indexOf('book') - 1];
-  if (!CATALOG.some(book => book.id === bookId) || typeof window.showPage !== 'function') return;
+  const book = CATALOG.find(book => book.id === bookId);
+  if (!book || typeof window.showPage !== 'function') return;
   let redirecting = false;
-  const gameURL = new URL('../../game/?v=character-pronouns-1', import.meta.url);
+  const gameURL = new URL('../../game/?v=summary-merge-1', import.meta.url);
   const denyEntry = () => {
     if (redirecting) return;
     redirecting = true;
@@ -37,6 +38,34 @@ async function initializeCollection() {
   const next = document.getElementById('next');
   const position = document.getElementById('position-text');
   if (!next || !position) return;
+  const readPosition = () => {
+    // Seven Factors counts every cue, not merely its illustration scenes.
+    const match = position.textContent.match(/(\d+)\s*\/\s*(\d+)/);
+    return match ? { index: Number(match[1]) - 1, total: Number(match[2]) } : null;
+  };
+  let paginationBlocked = false;
+  const verifyPagination = at => {
+    if (bookId !== pagination.EIGHTFOLD_BOOK_ID || at?.total === pagination.EIGHTFOLD_CURRENT_STEPS) return true;
+    if (paginationBlocked) return false;
+    paginationBlocked = true;
+    // Never write new-coordinate bookmarks from an old cached 111-page reader.
+    // Keep the incoming page/version together through one bounded HTML refresh.
+    if (collectionParams.get('readerRefresh') !== 'summary-merge-1') {
+      const updated = new URL(location.href); updated.searchParams.set('readerRefresh', 'summary-merge-1');
+      location.replace(updated.href); return false;
+    }
+    document.body.dataset.collectionReaderState = 'version-mismatch';
+    const notice = document.createElement('div'); notice.className = 'collection-reader-pagination-error'; notice.setAttribute('role', 'alert');
+    const copy = document.createElement('p'); copy.textContent = text.paginationUnavailable;
+    const retry = document.createElement('button'); retry.type = 'button'; retry.textContent = text.reloadReader; retry.style.minHeight = '44px';
+    retry.addEventListener('click', () => location.reload());
+    const back = document.createElement('a'); const destination = new URL(gameURL); destination.hash = 'map';
+    back.href = destination.href; back.textContent = text.returnJourney;
+    notice.append(copy, retry, document.createTextNode(' '), back);
+    document.querySelector('.reader')?.prepend(notice);
+    return false;
+  };
+  if (!verifyPagination(readPosition())) return;
   const stylesheet = document.createElement('link');
   stylesheet.rel = 'stylesheet'; stylesheet.href = new URL('./reader.css?v=stable-art-1', import.meta.url).href;
   document.head.append(stylesheet);
@@ -45,24 +74,18 @@ async function initializeCollection() {
   document.body.dataset.collectionMode = reviewing ? 'review' : 'mainline';
   // Return hints never grant access. All game readers now share the same shell.
   const returnURL = new URL(gameURL); returnURL.hash = reviewing ? 'shelf' : 'map';
-  const returnLabel = reviewing ? text.returnShelf : (await import('../worldmap-v4/text.js')).T.returnJourney;
+  const returnLabel = reviewing ? text.returnShelf : (await import('../worldmap-v4/text.js?v=summary-merge-1')).T.returnJourney;
   // Reuse the top-left slot; another landscape toolbar would cover narration.
   const returnLink = document.querySelector('.top > a') || document.createElement('a');
   returnLink.classList.add('collection-reader-return');
   returnLink.href = returnURL.href; returnLink.textContent = returnLabel;
   returnLink.setAttribute('aria-label', returnLabel);
   if (!returnLink.isConnected) document.querySelector('.top')?.prepend(returnLink);
-  const readPosition = () => {
-    // The first fraction is the real reading-step count, including all cues in
-    // Seven Factors (not merely its 12 illustration scenes).
-    const match = position.textContent.match(/(\d+)\s*\/\s*(\d+)/);
-    return match ? { index: Number(match[1]) - 1, total: Number(match[2]) } : null;
-  };
   let lastSaved = -1;
   let finishing = false;
   const update = () => {
     if (!eligible()) { denyEntry(); return; }
-    const at = readPosition(); if (!at) return;
+    const at = readPosition(); if (!at || !verifyPagination(at)) return;
     document.body.dataset.collectionIndex = String(at.index);
     document.body.dataset.collectionTotal = String(at.total);
     if (at.index !== lastSaved && !finishing) {
@@ -81,7 +104,9 @@ async function initializeCollection() {
   // Capture at document level before original reader/restart button listeners.
   document.addEventListener('click', event => {
     if (!event.target.closest?.('#next')) return;
-    const at = readPosition(); if (!at || at.index !== at.total - 1) return;
+    const at = readPosition();
+    if (!verifyPagination(at)) { event.preventDefault(); event.stopImmediatePropagation(); return; }
+    if (!at || at.index !== at.total - 1) return;
     event.preventDefault(); event.stopImmediatePropagation();
     if (finishing) return;
     if (!eligible()) { denyEntry(); return; }
@@ -111,12 +136,20 @@ async function initializeCollection() {
   window.addEventListener('sutrazen:collection-progress', () => { warn(); if (!eligible()) denyEntry(); }); warn();
   const query = new URLSearchParams(location.search);
   const savedPosition = store.get().positions[bookId];
-  const requested = query.has('collectionPage') ? Number(query.get('collectionPage')) :
-    reviewing && savedPosition === readPosition().total - 1 ? 0 : savedPosition;
+  let requested;
+  if (query.has('collectionPage')) {
+    requested = Number(query.get('collectionPage'));
+    if (bookId === pagination.EIGHTFOLD_BOOK_ID) {
+      if (!query.has('collectionPageVersion')) requested = pagination.migrateEightfoldIndex(requested);
+      else if (query.get('collectionPageVersion') !== String(pagination.CURRENT_POSITIONS_REVISION)) requested = NaN;
+    }
+  } else requested = reviewing && savedPosition === readPosition().total - 1 ? 0 : savedPosition;
   const at = readPosition();
   const target = Number.isInteger(requested) && requested >= 0 && requested < at.total ? requested : 0;
   if (query.has('collectionPage')) {
-    query.delete('collectionPage'); const url = new URL(location.href); url.search = query.toString();
+    query.delete('collectionPage');
+    if (bookId === pagination.EIGHTFOLD_BOOK_ID) query.set('collectionPageVersion', String(pagination.CURRENT_POSITIONS_REVISION));
+    const url = new URL(location.href); url.search = query.toString();
     history.replaceState(history.state, '', url);
   }
   if (bookId === 'seven-factors' && typeof readingSteps !== 'undefined') {
@@ -127,6 +160,6 @@ async function initializeCollection() {
   });
   window.addEventListener('pagehide', () => {
     if (finishing) return;
-    const at = readPosition(); if (at) store.savePosition(bookId, at.index);
+    const at = readPosition(); if (at && verifyPagination(at)) store.savePosition(bookId, at.index);
   });
 }

@@ -1,6 +1,6 @@
-import { NODES, EDGES, INSTANCES, GROUPS, READING_ROUTE, BOOK_WAYPOINTS } from './network-data.js';
-import { ISLANDS } from './data.js';
-import { MAP_STYLES, terrainReturnPath } from './art-directions.js';
+import { NODES, EDGES, INSTANCES, GROUPS, READING_ROUTE, BOOK_WAYPOINTS } from './network-data.js?v=summary-merge-1';
+import { ISLANDS } from './data.js?v=summary-merge-1';
+import { MAP_STYLES, terrainReturnPath } from './art-directions.js?v=summary-merge-1';
 export const NETWORK_SIZE={width:1800,height:1300};
 const lookup=new Map(NODES.map(n=>[n.id,n]));
 export const MOUNTAIN_IDS=new Set(GROUPS.flatMap(g=>g.members));

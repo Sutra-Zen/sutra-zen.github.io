@@ -1,4 +1,4 @@
-import {NODES,EDGES,GROUPS} from '../visual-v2/network-data.js';
+import {NODES,EDGES,GROUPS} from '../visual-v2/network-data.js?v=summary-merge-1';
 export {NODES,EDGES,GROUPS};
 export const WORLD=Object.freeze({width:1600,height:900});
 export const COLUMNS=Object.freeze({faith:432,mindfulness:672,effort:912,concentration:1152,wisdom:1392});

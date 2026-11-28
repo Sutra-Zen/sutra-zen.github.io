@@ -1,6 +1,6 @@
-import { BOOKS, store } from './progress.js';
-import { t } from './i18n.js';
-import { renderCity } from './city.js';
+import { BOOKS, store } from './progress.js?v=summary-merge-1';
+import { t } from './i18n.js?v=summary-merge-1';
+import { renderCity } from './city.js?v=summary-merge-1';
 const app = document.querySelector('#journey-app');
 const dialog = document.querySelector('#journey-dialog');
 const body = document.querySelector('#dialog-body');

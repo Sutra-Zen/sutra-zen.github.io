@@ -1,3 +1,13 @@
+# 八正道總結109／110合併（2026-11-28）
+
+接續已發布PR94 main `7eb0dcb4a000f144c3ba80f79482c861c017f677`，原109／110兩頁上方各四句偈頌移除，保留一份原總結表及下方完整771經八句，合成109；原111後記移至110。reader-edits新增展示合併、builder先驗原110段再合併，原handoff／storyboard／經文／圖不改，原前108頁及原後記逐物件保持；renderer空口白隱藏caption。已核可由戒生定／他稱謂／共用布局及其他十三本保留。
+
+collection仍version1／同key，新增positionsRevision2，缺標記才把舊zero-based109→108、110→109；native session改.v2且僅缺新key才讀舊值。純validator共用local／session／event／v1 raw／v2 journey備份，當前110頁與新URL collectionPageVersion2保持冪等，不改既有completed或資格、明確末頁完成。bridge混載舊111資料僅refresh一次，仍錯版禁止寫入／完成並提供可讀重試。全遊戲module鏈與十四本bridge同summary-merge-1，game原產生器及Seven離線包同步保持。
+
+獨立真store21case與UI6context通過，涵蓋書籤reload、備份二次validate、其他書與歷史非順序完成、quota baseRaw、真雙tab事件、summary不能完成而afterword需明確按完成，0JS／HTTP錯誤。另真兩分頁拒刪session故障揭露既有event吞錯會在外部reset後復活舊fallback；最小修復沿reset以當下state/baseRaw覆寫並保留unavailable提示，before失敗／after通過。詳[實作與遷移邊界](readers/eightfold-summary/README.md)。沿既有發布授權經PR及exact-SHA Pages／live驗收交付；精確結果以PR為準，實機Safari未測。
+
+---
+
 # 八正道安睡格補「由戒生定」（2026-11-28）
 
 接續 PR93 main `a0684724b18bc370aaec09f11cb6a0c78a877deb`，作者要求第44頁右下安睡格補「由戒生定」，呼應惡行四格右下「心不定」。在可調整的storyboard.scene6.presentation新增right-action-calm，subtitle5–8／第44–47頁顯示；沿用舊心不定x55/y90/width39、portrait y88及同字級／soft底色，不加到其他格或前四段。原builder直接支援，無須擴reader-edits／renderer／CSS；重新產生book-data.js，單書資料快取precepts-calm-1，疊字布局文件同步。原字幕、原經／出處、圖片、焦點、111頁、既有他稱謂與主線保存保持；來源及runtime僅scene6展示metadata不同。5個focused public／review／寬屏代表驗收通過，精確Pages／live結果以PR交付為準；實機Safari未測，沿既有直接發布授權處理。

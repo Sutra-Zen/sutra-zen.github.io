@@ -1,20 +1,15 @@
 // Coordinate game-only reading and city layout without changing reader policy.
-import {store,SESSION_FALLBACK_KEY} from './collection/store.js';
-import {CATALOG_IDS} from './collection/catalog.js';
-import {cityStore,validateCityBackup} from './city/modules/store.js?v=auto-city-1';
-import {routeMetadata} from './route/metadata.js';
-import {storyStore} from './story/store.js?v=character-pronouns-1';
-import {pendingStory} from './story/pending.js?v=character-pronouns-1';
-import {clearFirstCompletionReceipt} from './story/completion-receipt.js?v=doubt-1';
+import {store,SESSION_FALLBACK_KEY} from './collection/store.js?v=summary-merge-1';
+import {validateCollectionState} from './collection/migrations.js?v=summary-merge-1';
+import {cityStore,validateCityBackup} from './city/modules/store.js?v=summary-merge-1';
+import {routeMetadata} from './route/metadata.js?v=summary-merge-1';
+import {storyStore} from './story/store.js?v=summary-merge-1';
+import {pendingStory} from './story/pending.js?v=summary-merge-1';
+import {clearFirstCompletionReceipt} from './story/completion-receipt.js?v=summary-merge-1';
 
 export const JOURNEY_BACKUP_FORMAT='sutrazen.journey';
 export const JOURNEY_BACKUP_VERSION=2;
-const known=id=>CATALOG_IDS.includes(id);
-function validateCollection(raw){
- if(!raw||raw.version!==1||!known(raw.activeBook)||!Array.isArray(raw.completed)||raw.completed.some(id=>!known(id))||!raw.positions||typeof raw.positions!=='object'||Array.isArray(raw.positions))throw Error('collection');
- for(const [id,index] of Object.entries(raw.positions))if(!known(id)||!Number.isInteger(index)||index<0||index>10000)throw Error('position');
- return {version:1,positions:{...raw.positions},completed:[...new Set(raw.completed)],activeBook:raw.activeBook};
-}
+const validateCollection=validateCollectionState;
 export function validateJourneyBackup(input){
  const raw=typeof input==='string'?JSON.parse(input):input;
  if(raw?.format===JOURNEY_BACKUP_FORMAT){

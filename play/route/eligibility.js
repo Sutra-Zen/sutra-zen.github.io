@@ -1,7 +1,7 @@
 // Shared game-only access rules. Public readers without collection=1 remain free.
 // This module has no persistence and does not import selectors or a store.
-import { routeOrder, FINAL_BOOK_ID, FIRST_THIRTEEN } from './data.js';
-import { CATALOG } from '../collection/catalog.js';
+import { routeOrder, FINAL_BOOK_ID, FIRST_THIRTEEN } from './data.js?v=summary-merge-1';
+import { CATALOG } from '../collection/catalog.js?v=summary-merge-1';
 const catalog = new Map(CATALOG.map(book => [book.id, book]));
 const values = completed => completed instanceof Set ? [...completed] : Array.isArray(completed) ? completed : [];
 export const completedGameBookIds = completed => [...new Set(values(completed).filter(id => catalog.has(id)))];

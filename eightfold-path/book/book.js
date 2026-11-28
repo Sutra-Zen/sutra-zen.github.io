@@ -4,7 +4,8 @@ const $ = selector => document.querySelector(selector);
 const page = $('.page'), title = $('#page-title'), art = $('#art'), artFrame = $('#art-frame');
 const verse = $('#verse'), sourceLink = $('#source-link'), select = $('#page-select');
 const previous = $('#previous'), next = $('#next'), verseDialog = $('#verse-dialog');
-const storageKey = 'sutrazen-eightfold-path-page';
+const storageKey = 'sutrazen-eightfold-path-page.v2';
+const legacyStorageKey = 'sutrazen-eightfold-path-page';
 const sceneStarts = new Map(BOOK.scenes.map(scene => [scene.id, scene.start]));
 let current = 0;
 
@@ -14,6 +15,7 @@ function showPage(index) {
   current = index;
   try { sessionStorage.setItem(storageKey, String(index)); } catch {}
   title.textContent = item.title;
+  $('#caption').hidden = item.lines.length === 0;
   $('#narration').replaceChildren(...item.lines.map(text => {
     const paragraph = document.createElement('p');
     paragraph.textContent = text;
@@ -121,7 +123,14 @@ for (const scene of BOOK.scenes) {
 $('.controls').hidden = false;
 $('#hint').hidden = false;
 let saved = 0;
-try { saved = Number(sessionStorage.getItem(storageKey) || 0); } catch {}
+try {
+  const currentPosition = sessionStorage.getItem(storageKey);
+  if (currentPosition !== null) saved = Number(currentPosition);
+  else {
+    const legacyPosition = Number(sessionStorage.getItem(legacyStorageKey) || 0);
+    saved = legacyPosition === 109 ? 108 : legacyPosition === 110 ? 109 : legacyPosition;
+  }
+} catch {}
 showPage(Number.isInteger(saved) && pages[saved] ? saved : 0);
 
 previous.onclick = () => showPage(current - 1);

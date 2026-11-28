@@ -1,4 +1,4 @@
-import { STORY_UI } from './data.js?v=character-pronouns-1';
+import { STORY_UI } from './data.js?v=summary-merge-1';
 
 // Presentation only. Reading eligibility, completion and saved story flags are
 // owned by the caller; this stage never writes storage or advances the story.

@@ -1,4 +1,4 @@
-import {STORY_SCENES} from './data.js?v=character-pronouns-1';
+import {STORY_SCENES} from './data.js?v=summary-merge-1';
 
 // A presentation checkpoint only; it never grants reading/completion rights.
 export const STORY_PENDING_KEY='sutrazen.play.story-pending.v1';

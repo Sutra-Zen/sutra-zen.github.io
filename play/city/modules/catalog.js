@@ -1,6 +1,6 @@
-import {CATALOG} from '../../collection/catalog.js';
-import {routeOrder,rewardDefinitions} from '../../route/data.js';
-import {MODULE_COPY,MODULE_SLOT_LABELS} from './text.js?v=auto-city-1';
+import {CATALOG} from '../../collection/catalog.js?v=summary-merge-1';
+import {routeOrder,rewardDefinitions} from '../../route/data.js?v=summary-merge-1';
+import {MODULE_COPY,MODULE_SLOT_LABELS} from './text.js?v=summary-merge-1';
 
 // Fixed world-space slots. x/y are image centres, widths/heights are world
 // pixels; only module IDs are saved, never these coordinates or translated text.

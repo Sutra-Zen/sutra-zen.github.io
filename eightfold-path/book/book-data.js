@@ -694,7 +694,7 @@ const BOOK = {
     {
       "id": 14,
       "title": "製作說明｜溫柔的起點",
-      "start": 110,
+      "start": 109,
       "presentation": {
         "overlays": []
       }
@@ -2649,25 +2649,8 @@ const BOOK = {
       "scene": 13,
       "subtitle": 1,
       "title": "總結與經典出處",
-      "timeApprox": "10:13–10:20",
-      "lines": [
-        "希有諸人民，能度於彼岸；一切諸世間，徘徊遊此岸。"
-      ],
-      "image": null,
-      "dimensions": null,
-      "focusPanel": null,
-      "verse": "希有諸人民，能度於彼岸，\n一切諸世間，徘徊遊此岸。\n於此正法律，能善隨順者，\n斯等能度彼，生死難度岸。",
-      "verseLabel": "《雜阿含經》第771經〈彼岸〉（節錄）",
-      "source": "../#sa771"
-    },
-    {
-      "scene": 13,
-      "subtitle": 2,
-      "title": "總結與經典出處",
-      "timeApprox": "10:20–10:32",
-      "lines": [
-        "於此正法律，能善隨順者，斯等能度彼，生死難度岸。"
-      ],
+      "timeApprox": "10:13–10:32",
+      "lines": [],
       "image": null,
       "dimensions": null,
       "focusPanel": null,

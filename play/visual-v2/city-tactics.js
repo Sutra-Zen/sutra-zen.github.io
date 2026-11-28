@@ -1,8 +1,8 @@
-import { CITY_SPOTS } from './data.js';
-import { CATALOG } from '../collection/catalog.js';
-import { store } from '../collection/store.js';
-import { deriveCityState, routeOrder } from '../route/selectors.js';
-import {renderCityRewards,renderRewardSourcePreview} from './city-rewards.js?v=20261122-city-rewards';
+import { CITY_SPOTS } from './data.js?v=summary-merge-1';
+import { CATALOG } from '../collection/catalog.js?v=summary-merge-1';
+import { store } from '../collection/store.js?v=summary-merge-1';
+import { deriveCityState, routeOrder } from '../route/selectors.js?v=summary-merge-1';
+import {renderCityRewards,renderRewardSourcePreview} from './city-rewards.js?v=summary-merge-1';
 
 // Image-relative display positions; actual artwork anchors remain separate.
 const POSITION = {

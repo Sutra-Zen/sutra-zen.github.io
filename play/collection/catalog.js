@@ -47,8 +47,8 @@ export const CATALOG = [
     "id": "eightfold-path",
     "title": "八正道與十善業道",
     "number": 5,
-    "totalSteps": 111,
-    "reader": "../../eightfold-path/book/",
+    "totalSteps": 110,
+    "reader": "../../eightfold-path/book/?collectionPageVersion=2",
     "guide": "../../eightfold-path/",
     "unreadIcon": "../visual-v2/assets/shelf-05.svg",
     "cover": "../../docs/eightfold-path/assets/02-right-view.webp"
@@ -154,4 +154,7 @@ export const COLLECTION_TEXT = {
   storageCorrupt: '原有收集紀錄無法讀取，這次會從新的紀錄開始。十四本繪本仍可自由閱讀。',
   keepReading: '繼續閱讀',
   integrationUnavailable: '收集紀錄暫時無法使用，仍可閱讀原繪本。',
+  paginationUnavailable: '新版讀本尚未完整載入，這一頁暫不更新閱讀進度。請重新載入讀本，或回到旅程再試。',
+  reloadReader: '重新載入讀本',
+  returnJourney: '回到旅程',
 };

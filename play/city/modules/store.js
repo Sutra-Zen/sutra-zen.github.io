@@ -1,7 +1,7 @@
-import {routeOrder} from '../../route/data.js';
-import {isFinalGameBookRevealed} from '../../route/eligibility.js';
-import {MODULES,MODULE_IDS,MODULE_BY_ID,THOUGHT_IDS,BASE_PLINTH} from './catalog.js?v=auto-city-1';
-import {MODULE_UI} from './text.js?v=auto-city-1';
+import {routeOrder} from '../../route/data.js?v=summary-merge-1';
+import {isFinalGameBookRevealed} from '../../route/eligibility.js?v=summary-merge-1';
+import {MODULES,MODULE_IDS,MODULE_BY_ID,THOUGHT_IDS,BASE_PLINTH} from './catalog.js?v=summary-merge-1';
+import {MODULE_UI} from './text.js?v=summary-merge-1';
 
 // City scenery is derived from a read-only completed-book snapshot. This store
 // preserves legacy arrangement IDs and presentation flags for v1 backups only;

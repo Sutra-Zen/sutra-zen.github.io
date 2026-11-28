@@ -1,14 +1,14 @@
-import {initializeGameShell,GAME_URLS} from '../game-shell.js?v=character-pronouns-1';
-import {store} from '../collection/store.js';
-import {routeMetadata} from '../route/metadata.js';
-import {routeStatus,routeBooks} from '../route/selectors.js';
-import {canStartGameBook,canReviewGameBook} from '../route/eligibility.js';
-import {CANONICAL_EXPLANATIONS,MODULE_EXPLANATIONS} from './explanations.js?v=simple-ui-1';
-import {cityStore,CITY_LAYOUT_EVENT} from './modules/store.js?v=auto-city-1';
-import {MODULE_UI as U} from './modules/text.js?v=auto-city-1';
-import {initializeModularCity} from './modules/scene.js?v=character-pronouns-1';
-import {initializeCityThoughts} from './thoughts.js?v=character-pronouns-1';
-import {T} from './text.js?v=auto-city-1';
+import {initializeGameShell,GAME_URLS} from '../game-shell.js?v=summary-merge-1';
+import {store} from '../collection/store.js?v=summary-merge-1';
+import {routeMetadata} from '../route/metadata.js?v=summary-merge-1';
+import {routeStatus,routeBooks} from '../route/selectors.js?v=summary-merge-1';
+import {canStartGameBook,canReviewGameBook} from '../route/eligibility.js?v=summary-merge-1';
+import {CANONICAL_EXPLANATIONS,MODULE_EXPLANATIONS} from './explanations.js?v=summary-merge-1';
+import {cityStore,CITY_LAYOUT_EVENT} from './modules/store.js?v=summary-merge-1';
+import {MODULE_UI as U} from './modules/text.js?v=summary-merge-1';
+import {initializeModularCity} from './modules/scene.js?v=summary-merge-1';
+import {initializeCityThoughts} from './thoughts.js?v=summary-merge-1';
+import {T} from './text.js?v=summary-merge-1';
 
 const main=document.querySelector('#city-main'),dialog=document.querySelector('#city-dialog'),content=document.querySelector('#city-dialog-content');
 const catalogURL=new URL('../collection/catalog.js',import.meta.url),books=new Map(routeBooks.map(book=>[book.id,book]));
@@ -57,7 +57,7 @@ function inspectModule(id){
 function read(id){
  const saved=store.get(),book=books.get(id);if(!book)return;
  const review=canReviewGameBook(id,saved.completed);if(!review&&!canStartGameBook(id,saved.completed)){location.assign(GAME_URLS.map);return;}
- const url=new URL(book.reader,catalogURL),at=saved.positions[id];url.searchParams.set('collection','1');url.searchParams.set('collectionReturn','game');url.searchParams.set('collectionStory','character-pronouns-1');
+ const url=new URL(book.reader,catalogURL),at=saved.positions[id];url.searchParams.set('collection','1');url.searchParams.set('collectionReturn','game');url.searchParams.set('collectionStory','summary-merge-1');
  if(review){url.searchParams.set('collectionReview','1');url.searchParams.set('collectionPage',String(Number.isInteger(at)&&at>=0&&at<book.totalSteps-1?at:0));}
  else if(Number.isInteger(at)&&at>=0&&at<book.totalSteps)url.searchParams.set('collectionPage',String(at));location.assign(url.href);
 }

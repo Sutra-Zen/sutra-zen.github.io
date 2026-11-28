@@ -1,4 +1,4 @@
-import {gameIcon} from '../navigation.js';
+import {gameIcon} from '../navigation.js?v=summary-merge-1';
 
 // A compact UI badge beside the existing harbor, not another pasted island.
 // The full illustrated city opens only after selecting this entry.
